@@ -1,0 +1,43 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/adminQuotaSummary.tmpl:11
+msgid "System Administrator"
+msgstr "Διαχειριστής συστήματος"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/adminQuotaSummary.tmpl:13
+msgid "Automated quota report"
+msgstr "Αυτοματοποιημένη αναφορά quota"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/adminQuotaSummary.tmpl:16
+msgid "One or more users have exceeded their disk quota"
+msgstr "Ένας ή περισσότεροι χρήστες υπερέβησαν τα disk quota τους"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/adminQuotaSummary.tmpl:23
+msgid "The following users have exceeded their disk quota on the server called"
+msgstr "Οι χρήστες που ακολουθούν έχουν υπερβεί τα disk quota τους στον διακομιστή που ονομάζεται"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/adminQuotaSummary.tmpl:24
+msgid "All values are in megabytes."
+msgstr "Όλες οι τιμές είναι σε megabytes."
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/adminQuotaSummary.tmpl:28
+msgid "Account"
+msgstr "Λογαριασμός"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/adminQuotaSummary.tmpl:29
+msgid "Usage"
+msgstr "Χρήση"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/adminQuotaSummary.tmpl:30
+msgid "Limit with grace period"
+msgstr "Όριο με την περίοδο χάριτος"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/adminQuotaSummary.tmpl:31
+msgid "Absolute limit"
+msgstr "Απόλυτο όριο"

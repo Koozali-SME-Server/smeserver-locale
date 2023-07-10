@@ -1,0 +1,84 @@
+<lexicon lang="nl">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Gebruikersgroepen toevoegen, wijzigen of verwijderen</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_TOO_LONG</base>
+        <trans>Fout: De groepsnaam is te lang. De maximale lengte is {$maxLength} tekens.</trans>
+    </entry>    
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>Fout: de groep "{$group}" kan niet worden toegevoegd omdat er al een {$type} account met die naam bestaat.</trans>
+    </entry>    
+    <entry>
+        <base>INVALID_GROUP_DESCRIPTION</base>
+        <trans>Fout: onverwachte of ontbrekende tekens in de groepsbeschrijving</trans>
+    </entry>
+    <entry>
+        <base>NO_MEMBERS</base>
+        <trans>Fout: Geen groepsleden geselecteerd voor de groep. De groep is niet toegevoegd.</trans>
+    </entry>
+    <entry>
+        <base>CREATED_GROUP</base>
+        <trans>Gebruikersgroep is met succes toegevoegd</trans>
+    </entry> 
+    <entry>
+        <base>DELETED_GROUP</base>
+        <trans>Gebruikersgroep is met succes verwijderd</trans>
+    </entry> 
+    <entry>
+        <base>MODIFIED_GROUP</base>
+        <trans>Gebruikersgroep is met succes gewijzigd</trans>
+    </entry>	
+    <entry>
+        <base>CREATE_ERROR</base>
+        <trans>Er is een fout opgetreden bij het toevoegen van de gebruikersgroep.</trans>
+    </entry> 
+    <entry>
+        <base>DELETE_ERROR</base>
+        <trans>Er is een fout opgetreden bij het verwijderen van de gebruikersgroep.</trans>
+    </entry> 
+    <entry>
+        <base>MODIFY_ERROR</base>
+        <trans>Er is een fout opgetreden bij het wijzigen van de gebruikersgroep.</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_NAMING</base>
+        <trans><![CDATA[ De groepsnaam mag alleen kleine letters, nummers, koppeltekens, punten, en lage streepjes bevatten en moet met een kleine letter beginnen. Bijvoorbeeld "verkoop", "beta5", en "verkoop_partners" zijn allemaal correcte groepsnamen, maar "3de-evenement", "Marketing Team" en "verloren&gevonden" zijn dat niet. ]]></trans>
+    </entry>
+    <entry>
+        <base>GROUP_HAS_MEMBERS</base>
+        <trans>Deze groep bevat de volgende leden:</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_GROUP</base>
+        <trans>Fout: Dat is niet een bestaande gebruikersgroep.</trans>
+    </entry>
+    <entry>
+        <base>GROUP_DESC</base>
+        <trans>Korte beschrijving/Windows groep pseudoniem</trans>
+    </entry>
+   <entry>
+        <base>GROUP_DESC_EXPL</base>
+        <trans>Voer een korte groep beschrijving in het veld hieronder in. Dit veld bepaald ook de groepsnaam zichtbaar voor Windows gebruikers.</trans>
+   </entry>
+
+
+    <entry>
+        <base>IBAYS_WILL_BE_CHANGED</base>
+        <trans>De volgende informatiebaaien waren toegewezen aan deze groep en zullen worden veranderd in de beheerdersgroep (u kunt deze naderhand weer wijzigen):</trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DELETE_GROUP</base>
+        <trans><![CDATA[ <p><b>Weet U zeker dat U deze groep wilt verwijderen?</b></p> ]]></trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST</base>
+        <trans><![CDATA[<p>Huidige lijst van gebruikersgroepen</p>]]></trans>
+    </entry>
+    <entry>
+		<base>DELETE_DESCRIPTION</base>
+       	<trans><![CDATA[ U staat op het punt om de gebruikersgroep "<b>{$group}</b>." te verwijderen ]]></trans>
+    </entry>
+</lexicon>

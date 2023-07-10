@@ -1,0 +1,202 @@
+<lexicon lang="id">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Konfigurasi tanggal dan waktu</trans>
+    </entry>
+    <entry>
+      <base>INITIAL_DESC</base>
+      <trans>Ini adalah dimana anda mengatur tanggal dan jam dari server ini. Anda boleh menggunakan server waktu jaringan atau secara manual mengubah tanggal dan jam untuk wilayah-waktu anda.</trans>
+    </entry>
+    <entry>
+      <base>SET_DATE_TITLE</base>
+      <trans>Set tanggal dan waktu</trans>
+    </entry>
+    <entry>
+      <base>COULD_NOT_OPEN_TZ_FILE</base>
+      <trans>Error: Tidak dapat membuka wilayah-waktu untuk dibaca:</trans>
+    </entry>
+    <entry>
+      <base>JANUARY</base>
+      <trans>Januari</trans>
+    </entry>
+    <entry>
+      <base>FEBRUARY</base>
+      <trans>Februari</trans>
+    </entry>
+    <entry>
+      <base>MARCH</base>
+      <trans>Maret</trans>
+    </entry>
+    <entry>
+      <base>APRIL</base>
+      <trans>April</trans>
+    </entry>
+    <entry>
+      <base>MAY</base>
+      <trans>Mei</trans>
+    </entry>
+    <entry>
+      <base>JUNE</base>
+      <trans>Juni</trans>
+    </entry>
+    <entry>
+      <base>JULY</base>
+      <trans>Juli</trans>
+    </entry>
+    <entry>
+      <base>AUGUST</base>
+      <trans>Agustus</trans>
+    </entry>
+    <entry>
+      <base>SEPTEMBER</base>
+      <trans>September</trans>
+    </entry>
+    <entry>
+      <base>OCTOBER</base>
+      <trans>Oktober</trans>
+    </entry>
+    <entry>
+      <base>NOVEMBER</base>
+      <trans>Nopember</trans>
+    </entry>
+    <entry>
+      <base>DECEMBER</base>
+      <trans>Desember</trans>
+    </entry>
+    <entry>
+      <base>NEW_M/D/Y</base>
+      <trans>Bulan/tanggal/tahun yang baru:</trans>
+    </entry>
+    <entry>
+      <base>NEW_H/M/S</base>
+      <trans>Jam/Menit/Detik yang baru:</trans>
+    </entry>
+    <entry>
+      <base>AM/PM_AND_TZ</base>
+      <trans>AM/PM dan wilayah-waktu:</trans>
+    </entry>
+    <entry>
+      <base>NTP_ENABLE_DESC</base>
+      <trans>Server dapat secara berkala menyelaraskan waktu sistem dengan sebuah NTP server. Jika anda mengambil pilihan ini, masukkan nama host atau alamat IP dari server NTP dibawah ini.</trans>
+    </entry>
+    <entry>
+      <base>NTP_CONFIGURE_DESC</base>
+      <trans>Server secara berkala menyelaraskan waktu sistem dengan sebuah server NTP dibawah ini. Untuk menyelaraskan dengan server NTP yang lain, masukkan nama host atau IP addres yang lain dalam ruas dibawah ini.</trans>
+    </entry>
+    <entry>
+      <base>NTP_DISABLE_DESC</base>
+      <trans>Ambil pilihan ini untuk berhenti menyelaraskan jam sistem dengan server NTP. Jika layanan NTP di-disable, anda dapat mengubah jam dan waktu sistem secara manual di halaman ini.</trans>
+    </entry>
+    <entry>
+      <base>NTP_SERVER</base>
+      <trans>Server NTP</trans>
+    </entry>
+    <entry>
+      <base>VERIFY_DATE_AND_TIME</base>
+      <trans>Verifikasi tanggal dan waktu</trans>
+    </entry>
+    <entry>
+      <base>NEW_DATE_AND_TIME</base>
+      <trans>Tanggal dan waktu yang baru:</trans>
+    </entry>
+    <entry>
+      <base>SETTING_DATE_AND_TIME</base>
+      <trans>Pengaturan tanggal dan waktu</trans>
+    </entry>
+    <entry>
+      <base>INVALID_DAY</base>
+      <trans>Error: hari salah:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_1_AND_31</base>
+      <trans>Silakan pilih antara tanggal 1 sampai 31.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_YEAR</base>
+      <trans>Error: tahun salah:</trans>
+    </entry>
+    <entry>
+      <base>FOUR_DIGIT_YEAR</base>
+      <trans>Silakan isikan empat digit angka tahun antara 1900 dan 2200.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_HOUR</base>
+      <trans>Error: jam salah:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_1_AND_12</base>
+      <trans>Silakan pilih jam antara 1 dan 12.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_MINUTE</base>
+      <trans>Error: menit salah:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_0_AND_59</base>
+      <trans>Silakan pilih menit antara 0 dan 59.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_SECOND</base>
+      <trans>Error: detik salah</trans>
+    </entry>
+    <entry>
+      <base>UPDATING_CLOCK</base>
+      <trans><![CDATA[ Jam system sedang dimutakhirkan. Silakan tunggu beberapa detik, kemudian klik<A HREF="datetime?page=1&wherenext=Verify" TARGET="main">disini</A> untuk memeriksa perubahan. ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_SETTING_CLOCK</base>
+      <trans>Terjadi kesalahan saat mengatur waktu sistem dan jam perangkat keras.</trans>
+    </entry>
+    <entry>
+      <base>SERVER_DISABLED</base>
+      <trans>Server waktu jaringan telah berhasil dimatikan</trans>
+    </entry>
+    <entry>
+      <base>SERVER_DISABLED_DESC</base>
+      <trans><![CDATA[ Anda telah men-disable layanan ini: Server ini akan mengandalkan jam internal-nya, dan<b>tidak akan</b> mencoba untuk menyelaraskan dari sebuah server waktu. ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_CHANGING_TS</base>
+      <trans>Terjadi kesalahan saat mengubah pengaturan server waktu jaringan</trans>
+    </entry>
+    <entry>
+      <base>INVALID_NTP_ADDR</base>
+      <trans>Alamat NPT server cacat:</trans>
+    </entry>
+    <entry>
+      <base>SETTINGS_CHANGED</base>
+      <trans>Penataan server waktu jaringan berhasil diubah.</trans>
+    </entry>
+    <entry>
+      <base>SYNC_WITH</base>
+      <trans>Server ini sekarang telah diatur untuk menyelaraskan secara berkala (melalui internet) dengan:</trans>
+    </entry>
+    <entry>
+      <base>INVALID_NTP_SERVER</base>
+      <trans><![CDATA[ Server NTP cacat, server <b>tidak akan</b> mencoba untuk menyelaraskan dari sebuah server waktu. ]]></trans>
+    </entry>
+    <entry>
+      <base>NETWORK_TIME_SERVER</base>
+      <trans>Server Waktu Jaringan</trans>
+    </entry>
+    <entry>
+      <base>NTP_CONFIGURE_TITLE</base>
+      <trans>Mengatur Server Waktu Jaringan</trans>
+    </entry>
+    <entry>
+      <base>NTP_ENABLE_TITLE</base>
+      <trans>Bolehkan Server Waktu Jaringan</trans>
+    </entry>
+    <entry>
+      <base>NTP_DISABLE_TITLE</base>
+      <trans>Disable Server Waktu Jaringan</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_SETTING</base>
+      <trans>Pengaturan sekarang</trans>
+    </entry>
+    <entry>
+      <base>Date and time</base>
+      <trans>Tanggal dan jam</trans>
+    </entry>
+  </lexicon>

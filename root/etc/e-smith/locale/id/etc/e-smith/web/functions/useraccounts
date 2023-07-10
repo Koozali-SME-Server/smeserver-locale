@@ -1,0 +1,242 @@
+<lexicon lang="id">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Buat, ubah, atau hapus akun pengguna</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> <a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">Buat akun pengguna</a> </p> <p> Anda dapat mengubah, mengunci atau menghapus akun atau me-reset password akun dengan mengklik perintah yang sesuai. </p> <p> Jika akun telah ditandai sedang terkunci, artinya bahwa password pengguna perlu di-reset. Harap diingat bahwa akun yang baru dibuatsecara otomatis terkunci sampai password telah diganti. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>P2_TITLE</base>
+        <trans>Buat atau ubah</trans>
+    </entry>
+    <entry>
+        <base>CREATE_MODIFY_DESC</base>
+        <trans><![CDATA[ <p> Nama akun hanya boleh terdiri dari huruf kecil, angka, hyphen, titik, garis bawah, dan harus dimulai dengan huruf kecil. Contoh "betty", "hjohnson", and "mary-jane" adalah nama akun yang valid account , tetapi "3friends", "John Smith", and "henry:miller" tidak. </p> <p> Perhatikan bahwa dua nama pseudonym akan dibuat untuk setiap nama akun. Pseudonym tersebut dibuat agar terdapat akun email alternatif untuk user tersebut yaitu nama depan dan nama belakan yang terpisah dengan titik (.)  dan garis bawah(_). Jadi untuk akun "betty" dengan nama depan"Betty" dan nama belakang "Rubble" dua pseudonym akan dibuat sebagai betty.rubble dan betty_rubble. </p> <p> Informasi (department, perusahaan, etc.) dapat diganti dari nilai defaults dibawah ini. Perubahan hanya berlaku untuk user ini. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MODIFY_ADMIN_TITLE</base>
+        <trans>Ubah akun admin</trans>
+    </entry>
+    <entry>
+        <base>USER_CREATED</base>
+        <trans>Berhasil membuat akun pengguna</trans>
+    </entry>
+    <entry>
+        <base>USER_MODIFIED</base>
+        <trans>Berhasil mengubah akun pengguna.</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER</base>
+        <trans>Error: terjadi kesalahan internal saat mencoba mengubah user "{$acctName}".</trans> 
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER_GROUPS</base> 
+        <trans>Error: terjadi kesalahan internal saat mencoba mengubah group "{$group}" untuk pengguna "{$acctName}".</trans>
+    </entry>
+    <entry>
+        <base>TAINTED_USER</base>
+        <trans>Nama akun "{$acctName}" mengandung karakter yang tidak valid.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME</base>
+        <trans>Nama Akun</trans>
+    </entry>
+    <entry>
+        <base>FIRSTNAME</base>
+        <trans>Nama depan</trans>
+    </entry>
+    <entry>
+        <base>LASTNAME</base>
+        <trans>Nama belakang</trans>
+    </entry>
+    <entry>
+        <base>DEPARTMENT</base>
+        <trans>Departemen</trans>
+    </entry>
+    <entry>
+        <base>COMPANY</base>
+        <trans>Perusahaan</trans>
+    </entry>
+    <entry>
+        <base>STREET_ADDRESS</base>
+        <trans>Alamat</trans>
+    </entry>
+    <entry>
+        <base>CITY</base>
+        <trans>Kota</trans>
+    </entry>
+    <entry>
+        <base>PHONE_NUMBER</base>
+        <trans>Telepon</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_DELIVERY</base>
+        <trans>Penyampaian email</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_EMAIL_LOCALLY</base>
+        <trans>Kirim email secara lokal</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_EMAIL</base>
+        <trans>Teruskan email ke alamat dibawah ini</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_AND_FORWARD</base>
+        <trans>Kirim secara lokal maupun teruskan</trans>
+    </entry>
+    <entry>
+        <base>FORWARDING_ADDRESS</base>
+        <trans>Alamat penerusan</trans>
+    </entry>
+    <entry>
+        <base>GROUP_MEMBERSHIPS</base>
+        <trans>Anggota grup</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC</base>
+        <trans>Anda akan mengubah passwork untuk akun user</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC2</base>
+        <trans>masukkan password yang baru dibawah ini</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_MODIFYING_PASSWORD</base>
+        <trans>Terjadi kesalahan saat meng-update password</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE_SUCCEEDED</base>
+        <trans>Berhasil mengubah password user "{$acctName}".</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC</base>
+        <trans>Anda akan mengunci akun pengguna</trans>
+    </entry>
+    <entry>
+        <base>LOCKED_ACCOUNT</base>
+        <trans>Berhasil mengunci akun pengguna "{$acctName}".</trans>
+    </entry>
+    <entry>
+        <base>NO_SUCH_USER</base>
+        <trans>Error : Akun "{$acctName}" tidak ada</trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM_CLASH</base>
+        <trans>Error: pseudonym "{$pseudonym}" sudah digunakan oleh akun user "{$clashName}". Untuk membedakan, tambahkan inisial kedalam field ini.</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT</base>
+        <trans>Kunci akun</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT_TITLE</base>
+        <trans>Kunci akun pengguna</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC2</base>
+        <trans><![CDATA[ Akun pengguna ini akan dikunci. Artinya user ini tidak akan bisa login, dan tidak bisa mengambil e-mail. Semua e-mail yang masuk akan tetap disimpan maupun diteruskan kepada alamat email external, seperti yang telah dikonfigurasi. Akun dapat diaktifkan kembali dengan memasukkan password baru. Password yang sekarang tidak akan disimpan. </p> <p> <b>Anda yakin mengunci akun ini?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>REMOVE_ACCOUNT_TITLE</base>
+        <trans>Menghapus akun pengguna</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Anda akan menghapus akun pengguna</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans><![CDATA[ Semua berkas milik user akun ini akan dihapus. Juga semua e-mail milik akun user ini yang berada di server akan dihapus. </p> <p> <b>Anda yakin menghapus akun ini?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>LOCK</base>
+        <trans>Kunci</trans>
+    </entry>
+    <entry>
+        <base>NO_USER_ACCOUNTS</base>
+        <trans>Tidak ada akun pengguna dalam sistem ini</trans>
+    </entry>
+    <entry>
+        <base>Users</base>
+        <trans>Pengguna</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>Nama pengguna "{$acctName}" mengandung karakter yang tidak valid. Nama akun harus dimulai dengan huruf kecil dan hanya boleh terdiri dari huruf kecil, angka, hyphen, titik dan garis bawah.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_TOO_LONG</base>
+        <trans>Error : nama akun terlalu panjang. Maksimal {$maxLength}  karakter.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>Error: Akun "{$account}" tidak dapat dibuat karena sudah ada {$type} akun yang menggunakan nama tersebut.</trans>
+    </entry>    
+    <entry>
+        <base>ERR_OCCURRED_CREATING</base>
+        <trans>Terjadi kesalahan saat membuat akun pengguna</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_CONTAIN_WHITESPACE</base>
+        <trans>Field ini tidak boleh berisi spasi kosong</trans>
+    </entry>
+    <entry>
+        <base>UNACCEPTABLE_CHARS</base>
+        <trans>Field ini hanya boleh terdiri atas huruf, angka, titik, hyphen, dan garis bawah dan dimulai dengan huruf</trans>
+    </entry>
+    <entry>
+        <base>MEMBER</base>
+        <trans>Anggota?</trans>
+    </entry>
+    <entry>
+        <base>VPN_CLIENT_ACCESS</base>
+        <trans>Akses VPN Client</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_FORM_TITLE</base>
+        <trans>Ganti password system</trans>
+    </entry>    
+    <entry> 
+        <base>SYSTEM_PASSWORD_DESCRIPTION</base>
+        <trans><![CDATA[ Layanan tertentu dalam server ini memerlukan username dan password (contohnya halaman web ini untuk aplikasi server manager). Nama user adalah admin. Anda dapat mengganti password system menggunakan field dibawah. ]]></trans>        
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS</base>
+        <trans>Password hanya boleh terdiri dari Password harus berisi hanya karakter bisa dicetak.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_VERIFY_ERROR</base>
+        <trans>Kedua password tidak sama</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_AUTH_ERROR</base>
+        <trans>Password sekarang salah</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_CHANGED</base>
+        <trans>Password system telah berubah.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_SYSTEM_PASSWORD</base>
+        <trans>Password system saat ini</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD</base>
+        <trans>Password system yang baru</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD_VERIFY</base>
+        <trans>Password system yang baru (verifikasi)</trans>
+    </entry>            
+    <entry>
+        <base>LABEL_IPSECRW_DOWNLOAD</base>
+        <trans>Unduh digital certificate ke client IPSec </trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_DELETING</base>
+        <trans>Terjadi kesalahan saat mencoba menghapus user.</trans>
+    </entry>
+</lexicon>

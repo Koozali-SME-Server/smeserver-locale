@@ -1,0 +1,84 @@
+<lexicon lang="el">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Δημιουργία, τροποποίηση ή διαγραφή ομάδων χρηστών</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_TOO_LONG</base>
+        <trans>Σφάλμα: Το όνομα ομάδας είναι πολυ μακρύ.Το μέγιστο είναι {$maxLength} χαρακτήρες.</trans>
+    </entry>    
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>Σφάλμα: Η ομάδα "{$group}" δεν μπορεί να δημιουργιθεί επειδή υπάρχει ήδη ένας λογαριασμός {$type} με αυτό το όνομα.</trans>
+    </entry>    
+    <entry>
+        <base>INVALID_GROUP_DESCRIPTION</base>
+        <trans>Σφάλμα: μη αναμενόμενοι ή ελλείποντες χαρακτήρες στην περιγραφή της ομάδας</trans>
+    </entry>
+    <entry>
+        <base>NO_MEMBERS</base>
+        <trans>Σφάλμα: Δεν υπάρχουν μέλη στην ομάδα. Δεν δημιουργήθηκε ομάδα.</trans>
+    </entry>
+    <entry>
+        <base>CREATED_GROUP</base>
+        <trans>Επιτυχής δημιουργία ομάδας χρηστών</trans>
+    </entry> 
+    <entry>
+        <base>DELETED_GROUP</base>
+        <trans>Επιτυχής διαγραφή ομάδας χρηστών</trans>
+    </entry> 
+    <entry>
+        <base>MODIFIED_GROUP</base>
+        <trans>Επιτυχής μεταβολή ομάδας χρηστών</trans>
+    </entry>	
+    <entry>
+        <base>CREATE_ERROR</base>
+        <trans>Παρουσιάσθηκε κάποιο σφάλμα κατά την δημιουργία της ομάδα.</trans>
+    </entry> 
+    <entry>
+        <base>DELETE_ERROR</base>
+        <trans>Παρουσιάσθηκε κάποιο σφάλμα κατά την διαγραφή της ομάδας.</trans>
+    </entry> 
+    <entry>
+        <base>MODIFY_ERROR</base>
+        <trans>Παρουσιάσθηκε κάποιο σφάλμα κατά την μεταβολή της ομάδας.</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_NAMING</base>
+        <trans><![CDATA[ Το όνομα της ομάδας μπορεί να περιέχει μόνο μικρά γράμματα, αριθμούς, τελείες, παύλες, κάτω παύλες και πρέπει να ξεκινάει με μικρό γράμμα. Για παράδειγμα "sales", "beta5", and "reseller_partners" είναι έγκυρα ονόματα ομάδων, αλλά "3rd-event", "Marketing Team" and "lost&found" δεν είναι. ]]></trans>
+    </entry>
+    <entry>
+        <base>GROUP_HAS_MEMBERS</base>
+        <trans>Αυτή η ομάδα περιέχει τα παρακάτω μέλη:</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_GROUP</base>
+        <trans>Σφάλμα: Αυτό δεν είναι ένας υπάρχων λογαριασμός ομάδας.</trans>
+    </entry>
+    <entry>
+        <base>GROUP_DESC</base>
+        <trans>Σύντομη περιγραφή/Windows Group Alias</trans>
+    </entry>
+   <entry>
+        <base>GROUP_DESC_EXPL</base>
+        <trans>Εισάγετε μία σύντομη περιγραφή της ομάδας στο παρακάτω πεδίο. Αυτό το πεδίο προσδιορίζει επίσης το όνομα της ομάδας πού θα είναι ορατό από τους πελάτες Windows.</trans>
+   </entry>
+
+
+    <entry>
+        <base>IBAYS_WILL_BE_CHANGED</base>
+        <trans>Τα παρακάτω information bays έχουν ανατεθεί σε αυτή την ομάδα και θα αλλάξουν στην ομάδα Διαχειριστή (μπορείτε να τα αλλάξετε σε κατι άλλο μετά):</trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DELETE_GROUP</base>
+        <trans><![CDATA[ <p><b>Είστε σίγουροι ότι θέλετε να διαγράψετε αυτή την ομάδα;</b></p> ]]></trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST</base>
+        <trans><![CDATA[<p>Τρέχουσα λίστα ομάδων χρηστών</p>]]></trans>
+    </entry>
+    <entry>
+		<base>DELETE_DESCRIPTION</base>
+       	<trans><![CDATA[ Πρόκειται να διαγράψετε την ομάδα χρηστών "<b>{$group}</b>." ]]></trans>
+    </entry>
+</lexicon>

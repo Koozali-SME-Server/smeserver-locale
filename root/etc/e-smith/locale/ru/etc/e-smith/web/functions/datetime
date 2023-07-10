@@ -1,0 +1,202 @@
+<lexicon lang="ru">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Настройка даты и времени</trans>
+    </entry>
+    <entry>
+      <base>INITIAL_DESC</base>
+      <trans>Здесь вы можете настроить дату и время на этом сервере. Вы можете использовать существующий сервер сетевого времени или вручную задать дату и время для вашего часового пояса.</trans>
+    </entry>
+    <entry>
+      <base>SET_DATE_TITLE</base>
+      <trans>Задайте дату и время</trans>
+    </entry>
+    <entry>
+      <base>COULD_NOT_OPEN_TZ_FILE</base>
+      <trans>Ошибка: Невозможно открыть для чтения файл часовых поясов:</trans>
+    </entry>
+    <entry>
+      <base>JANUARY</base>
+      <trans>Январь</trans>
+    </entry>
+    <entry>
+      <base>FEBRUARY</base>
+      <trans>Февраль</trans>
+    </entry>
+    <entry>
+      <base>MARCH</base>
+      <trans>Март</trans>
+    </entry>
+    <entry>
+      <base>APRIL</base>
+      <trans>Апрель</trans>
+    </entry>
+    <entry>
+      <base>MAY</base>
+      <trans>Май</trans>
+    </entry>
+    <entry>
+      <base>JUNE</base>
+      <trans>Июнь</trans>
+    </entry>
+    <entry>
+      <base>JULY</base>
+      <trans>Июль</trans>
+    </entry>
+    <entry>
+      <base>AUGUST</base>
+      <trans>Август</trans>
+    </entry>
+    <entry>
+      <base>SEPTEMBER</base>
+      <trans>Сентябрь</trans>
+    </entry>
+    <entry>
+      <base>OCTOBER</base>
+      <trans>Октябрь</trans>
+    </entry>
+    <entry>
+      <base>NOVEMBER</base>
+      <trans>Ноябрь</trans>
+    </entry>
+    <entry>
+      <base>DECEMBER</base>
+      <trans>Декабрь</trans>
+    </entry>
+    <entry>
+      <base>NEW_M/D/Y</base>
+      <trans>Новые месяц/день/год:</trans>
+    </entry>
+    <entry>
+      <base>NEW_H/M/S</base>
+      <trans>Новые час/мин/сек:</trans>
+    </entry>
+    <entry>
+      <base>AM/PM_AND_TZ</base>
+      <trans>AM/PM и часовой пояс:</trans>
+    </entry>
+    <entry>
+      <base>NTP_ENABLE_DESC</base>
+      <trans>Сервер может периодически синхронизировать системные часы с сервером сетевого времени (NTP). Если вы выбрали эту опцию, введите имя или IP адрес NTP сервера ниже.</trans>
+    </entry>
+    <entry>
+      <base>NTP_CONFIGURE_DESC</base>
+      <trans>Сервер периодически синхронизирует системные часы с сервером сетевого времени (NTP), указанным ниже. Чтобы синхронизироваться с другим NTP сервером, введите его имя или IP адрес в поле ниже.</trans>
+    </entry>
+    <entry>
+      <base>NTP_DISABLE_DESC</base>
+      <trans>Выберите эту опцию чтобы прекратить синхронизацию системных часов с NTP сервером. Когда служба NTP отключена, вы можете устанавливать системные дату и время вручную на этой странице.</trans>
+    </entry>
+    <entry>
+      <base>NTP_SERVER</base>
+      <trans>NTP сервер</trans>
+    </entry>
+    <entry>
+      <base>VERIFY_DATE_AND_TIME</base>
+      <trans>Проверьте дату и время</trans>
+    </entry>
+    <entry>
+      <base>NEW_DATE_AND_TIME</base>
+      <trans>Установите новые дату и время:</trans>
+    </entry>
+    <entry>
+      <base>SETTING_DATE_AND_TIME</base>
+      <trans>Установка даты и времени</trans>
+    </entry>
+    <entry>
+      <base>INVALID_DAY</base>
+      <trans>Ошибка: некорректный день месяца:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_1_AND_31</base>
+      <trans>Пожалуйста, выберите день между 1 и 31.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_YEAR</base>
+      <trans>Ошибка: некорректный год:</trans>
+    </entry>
+    <entry>
+      <base>FOUR_DIGIT_YEAR</base>
+      <trans>Пожалуйста, выберите год между 1900 и 2200.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_HOUR</base>
+      <trans>Ошибка: некорректный час:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_1_AND_12</base>
+      <trans>Пожалуйста, выберите час между 1 и 12.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_MINUTE</base>
+      <trans>Ошибка: некорректная минута:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_0_AND_59</base>
+      <trans>Пожалуйста, выберите минуту между 0 и 59.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_SECOND</base>
+      <trans>Ошибка: некорректная секунда</trans>
+    </entry>
+    <entry>
+      <base>UPDATING_CLOCK</base>
+      <trans><![CDATA[ Системное время актуализировано. Пожалуйста, подождите несколько секунд и нажмите <A HREF="datetime?page=1&wherenext=Verify" TARGET="main">здесь</A> чтобы проверить изменения. ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_SETTING_CLOCK</base>
+      <trans>Произошла ошибка во время установки системного времени и аппаратных часов.</trans>
+    </entry>
+    <entry>
+      <base>SERVER_DISABLED</base>
+      <trans>Сервер сетевого времени успешно отключен</trans>
+    </entry>
+    <entry>
+      <base>SERVER_DISABLED_DESC</base>
+      <trans><![CDATA[ Вы отключили эту службу: Сервер рассчитывает на свои внутренние часы и <b>не станет</b> пытаться синхронизироваться с сервером времени. ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_CHANGING_TS</base>
+      <trans>Ошибка при изменении настроек сервера сетевого времени</trans>
+    </entry>
+    <entry>
+      <base>INVALID_NTP_ADDR</base>
+      <trans>Неверный адрес NTP сервера:</trans>
+    </entry>
+    <entry>
+      <base>SETTINGS_CHANGED</base>
+      <trans>Настройки сервера сетевого времени успешно изменены</trans>
+    </entry>
+    <entry>
+      <base>SYNC_WITH</base>
+      <trans>Этот сервер настроен периодически синхронизировать (через интернет) с:</trans>
+    </entry>
+    <entry>
+      <base>INVALID_NTP_SERVER</base>
+      <trans><![CDATA[ Неверный NTP сервер, сервер <b>не станет</b> пытаться синхронизироваться с сервером времени. ]]></trans>
+    </entry>
+    <entry>
+      <base>NETWORK_TIME_SERVER</base>
+      <trans>Сервер сетевого времени</trans>
+    </entry>
+    <entry>
+      <base>NTP_CONFIGURE_TITLE</base>
+      <trans>Настроить сервер сетевого времени</trans>
+    </entry>
+    <entry>
+      <base>NTP_ENABLE_TITLE</base>
+      <trans>Включить сервер сетевого времени</trans>
+    </entry>
+    <entry>
+      <base>NTP_DISABLE_TITLE</base>
+      <trans>Отключить сервер сетевого времени</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_SETTING</base>
+      <trans>Текущие настройки</trans>
+    </entry>
+    <entry>
+      <base>Date and time</base>
+      <trans>Дата и время</trans>
+    </entry>
+  </lexicon>

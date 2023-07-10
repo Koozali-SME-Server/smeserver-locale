@@ -1,0 +1,43 @@
+<lexicon lang="sl">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>Kreiraj osnovno spletno stran</trans>
+      </entry>
+      <entry>
+	<base>SUCCESS</base>
+	<trans>Uspesno kreirana osnovna spletna stran (zapisana datoteka index.htm). Novo stran lahko obisces na spodnjem naslovu:</trans>
+      </entry>
+      <entry>
+	<base>DESCRIPTION</base>
+	  <trans><![CDATA[ <p> Za kreiranje osnovne strani podjetja izpolni spodnja polja in klikni na <b>Kreiraj</b>. </p> <p> Polja, ki jih ne potrebujes lahko pustis prazna. </p> <p> Tekst, ki ga bos vnesel spodaj bo zavito za boljsi izgled spletne strani. <blockquote>&lt;BR&gt;</blockquote> </p> <p> <em>Te funkcije ne uporabljaj ce si ze kreiral osnovno spletno stran</em> ce si ze kreiral osnovno spletno stran, ker bos prepisal "index.htm" datoteko v domacem web direktoriju. </p> ]]></trans>
+      </entry>
+      <entry>
+	<base>LABEL_COMPANYNAME</base>
+	<trans>Ime podjetja</trans>
+      </entry>
+	
+      <entry> 
+	<base>DESC_HEADER1</base>
+	<trans>Prva glava, obicajno uporabljeno za kratek opis.</trans>
+      </entry>
+      <entry> 
+	<base>DESC_TEXT1</base>
+	<trans>Besedilo sledi "prvi glavi" obicajno se vpisejo marketingske informacije</trans>
+      </entry>
+      <entry> 
+	  <base>DESC_HEADER2</base>
+	<trans>Druga glava, obicajno se vpise za kratek opis o produktih.</trans>
+	</entry>
+      <entry> 
+	<base>DESC_TEXT2</base>
+	<trans>Besedilo, ki sledi "drugi glavi" se obicajno uporablja za kontaktne informacije podjetja in izdelkov:</trans>
+	</entry>
+      <entry>
+	<base>DESC_SUBMIT</base>
+	<trans><![CDATA[ <p>Ko kreiras osnovno spletno stran bo "index.htm" datoteka prepisana v direktoriju spletne strani.</p> <p>Ali zelis nadaljevati?</p> ]]></trans>
+      </entry>
+      <entry>
+	<base>Create starter web site</base>
+	<trans>Kreiraj osnovno spletno stran</trans>
+      </entry>
+</lexicon>

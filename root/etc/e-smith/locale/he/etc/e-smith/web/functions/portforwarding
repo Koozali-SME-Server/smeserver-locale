@@ -1,0 +1,114 @@
+<lexicon lang="he">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Configure Port Forwarding</trans>
+    </entry>
+    <entry>
+        <base>FIRST_PAGE_DESCRIPTION</base>
+        <trans><![CDATA[ <p> You can use this panel to modify your firewall rules so as to open a specific port on this server and forward it to another port on another host. Doing so will permit incoming traffic to directly access a private host on your LAN. </p> <p> WARNING: Misuse of this feature can seriously compromise the security of your network. Do not use this feature lightly, or without fully understanding the implications of your actions. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>CREATE_RULE</base>
+        <trans>Create portforwarding rule</trans>
+    </entry>
+    <entry>
+        <base>SUMMARY_ADD_DESC</base>
+        <trans>The following summarizes the port-forwarding rule that you are about to add. If you are satisfied with the rule, click the &quot;Add&quot; button. If you are not, click the &quot;Cancel&quot; button.</trans>
+    </entry>
+    <entry>
+        <base>SUMMARY_REMOVE_DESC</base>
+        <trans>The following summarizes the port-forwarding rule that you are about to remove. If you are sure you want to remove the rule, click the &quot;Remove&quot; button. If not, click the &quot;Cancel&quot; button.</trans>
+    </entry>
+    <entry>
+        <base>SHOW_FORWARDS</base>
+        <trans>Below you will find a table summarizing the current port-forwarding rules installed on this server. Click on the &quot;Remove&quot; link to remove the corresponding rule.</trans>
+    </entry>
+    <entry>
+        <base>NO_FORWARDS</base>
+        <trans>There are currently no forwarded ports on the system.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_PAGE_DESCRIPTION</base>
+        <trans><![CDATA[ <p>Select the protocol, the port you wish to forward, the destination host, and the port on the destination host that you wish to forward to. If you wish to specify a port range, enter the lower and upper boundaries separated by a hyphen. The destination port may be left blank, which will instruct the firewall to leave the source port unaltered.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SOURCE_PORT</base>
+        <trans>Source Port(s)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_PROTOCOL</base>
+        <trans>Protocol</trans>
+    </entry>
+    <entry>
+        <base>LABEL_DESTINATION_PORT</base>
+        <trans>Destination Port(s)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_DESTINATION_HOST</base>
+        <trans>Destination Host IP Address</trans>
+    </entry>
+    <entry>
+        <base>LABEL_RULE_COMMENT</base>
+        <trans>Rule Comment</trans>
+    </entry>
+    <entry>
+        <base>LABEL_ALLOW_HOSTS</base>
+        <trans>Allow Hosts</trans>
+    </entry>
+    <entry>
+        <base>Port forwarding</base>
+        <trans>Port forwarding</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Your change to the port forwarding rules has been successfully saved.</trans>
+    </entry>
+    <entry>
+        <base>RULE_COMMENT</base>
+        <trans>Rule Comment</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_HOSTS</base>
+        <trans>Allow Hosts</trans>
+    </entry>
+    <entry>
+        <base>ERR_NO_MASQ_RECORD</base>
+        <trans>Cannot retrieve masq record from the configuration database.</trans>
+    </entry>
+    <entry>
+        <base>ERR_UNSUPPORTED_MODE</base>
+        <trans>Unsupported mode.</trans>
+    </entry>
+    <entry>
+        <base>ERR_CANNOT_REMOVE_NORULE</base>
+        <trans>Cannot remove non-existant rule.</trans>
+    </entry>
+    <entry>
+        <base>ERR_NONZERO_RETURN_EVENT</base>
+        <trans>Event returned a non-zero return value.</trans>
+    </entry>
+    <entry>
+        <base>ERR_BADPORT</base>
+        <trans>The ports must be a positive integer less than 65536.</trans>
+    </entry>
+    <entry>
+        <base>ERR_BADIP</base>
+        <trans>This does not appear to be an IP address. You must use dotted-quad notation, and each of the four numbers should be less than 256. ie: 192.168.0.5</trans>
+    </entry>
+    <entry>
+        <base>ERR_DUPRULE</base>
+        <trans>This rule has already been added, it cannot be added twice.</trans>
+    </entry>
+    <entry>
+        <base>ERR_PORT_COLLISION</base>
+        <trans>ERROR: This port or port range conflicts with an existing rule. Please modify this new rule, or remove the old rule.</trans>
+    </entry>
+    <entry>
+        <base>ERR_BADAHOST</base>
+        <trans>This does not appear to be a valid IP address list. ie: 192.168.0.1,192.168.1.1/24</trans>
+    </entry>
+    <entry>
+        <base>IN_SERVERONLY</base>
+        <trans>This server is currently in serveronly mode and portforwarding is possible only to localhost.</trans>
+    </entry>
+</lexicon>

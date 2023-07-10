@@ -1,0 +1,79 @@
+<lexicon lang="nl">
+   <entry>
+     <base>FORM_TITLE</base>
+       <trans>Wijzig LDAP adresboek instellingen</trans>
+   </entry>	
+<entry>
+<base>LABEL_ROOT</base>
+<trans>Server root</trans>
+</entry>
+
+<entry>
+<base>DESCRIPTION</base>
+<trans>De LDAP server voorziet een netwerk-toegankelijke lijst van gebruikersaccounts en groepen van uw server, en kan bereikt worden door gebruik te maken van een LDAP client zoals de Adresboek eigenschap van Netscape Communicator. Configureer uw LDAP client met het lokale IP adres van uw server, poort nummer 389, en de root parameter van de server die hieronder wordt getoond.</trans>
+</entry>
+<entry>
+<base>DESC_DIRECTORY_ACCESS</base>
+<trans>U kan de toegang tot het LDAP adresboek instellen. Kies een optie:</trans>
+</entry>
+<entry>
+<base>DIRECTORY_ACCESS</base>
+<trans>LDAP adresboek toegang</trans>
+</entry>
+<entry>
+	<base>DESC_DEPARTMENT</base>
+<trans>Deze velden zijn de LDAP standaarden voor uw organisatie. Wanneer u een nieuw gebruikersaccount maakt zal u gevraagd worden om al deze velden in te vullen (kan voor elke gebruiker anders zijn) maar de waardes die u hier invult zullen als standaard getoond worden. Dit is een gemakkelijkheidsoplossing om sneller gebruikersaccounts te maken.</trans>
+</entry>
+<entry>
+        <base>DEPARTMENT</base>
+        <trans>Standaard afdeling</trans>
+</entry>
+
+<entry>
+        <base>COMPANY</base>
+        <trans>Standaard bedrijf</trans>
+</entry>
+<entry>
+        <base>STREET</base>
+        <trans>Standaard straatnaam</trans>
+</entry>
+
+<entry>
+        <base>CITY</base>
+        <trans>Standaard Stad</trans>
+</entry>
+
+<entry>
+        <base>PHONENUMBER</base>
+        <trans>Standaard Telefoonnummer</trans>
+</entry>
+
+<entry>
+<base>DESC_EXISTING</base>
+<trans>U kan bestaande gebruikersaccounts laten zoals ze zijn, bovenstaande standaarden enkel gebruiken voor nieuwe gebruikers, of u kan bovenstaande standaarden ook toepassen op alle bestaande gebruikers.</trans>
+</entry>
+
+
+
+<entry>
+<base>EXISTING</base>
+<trans>Bestaande gebruikers</trans>
+</entry>
+<entry>
+<base>SUCCESS</base>
+<trans>De nieuwe LDAP standaard instellingen zijn opgeslagen.</trans>
+</entry>
+
+<entry>
+<base>LEAVE</base>
+<trans>Laten zoals ze zijn</trans>
+</entry>
+<entry>
+<base>UPDATE</base>
+<trans>Aanpassen met de nieuwe standaarden</trans>
+</entry>
+    <entry>
+        <base>Directory</base>
+        <trans>Adresboek</trans>
+    </entry>
+</lexicon>

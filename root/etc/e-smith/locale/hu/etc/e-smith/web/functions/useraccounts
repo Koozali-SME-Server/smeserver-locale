@@ -1,0 +1,242 @@
+<lexicon lang="hu">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Felhasználói fiókok létrehozása, módosítása, vagy eltávolítása</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> <a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">Felhasználói fiók hozzáadása</a> </p> <p> Módosíthat, zárolhat, eltávolíthat bármely fiókot, vagy megváltoztathatja a jelszavakat a fiókok neve mellett található parancsokra való kattintással . </p> <p> Ha a fiók zároltra van jelölve, akkor az azt jelenti, hogy a felhasználónak jelszavat kell beállítani. Minden újonnan létrehozott fiók automatikusan zárolva van addig míg új jelszót be nem állítanak neki. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>P2_TITLE</base>
+        <trans>Létrehozás vagy módosítás</trans>
+    </entry>
+    <entry>
+        <base>CREATE_MODIFY_DESC</base>
+        <trans><![CDATA[ <p> A fióknév csak kisbetűket, számokat, kötőjeleket, pontokat, aláhúzásokat tartalmazhat és betűvel kezdődhet. Például "betty", "hjohnson", és "mary-jane" érvényes fióknevek, de a "3friends", "John Smith", és "henry:miller" már nem. </p> <p> Két speciális fedőnév generálódik minden fiókhoz. Ezek a fedőnevek lehetővé teszik a felhasználó számára, hogy alternatív e-mail címük legyen, amely tartalmazza a kereszt és vezetéknevet ponttal és aláhúzással elválasztva. Így a  "betty" fiók "Betty" keresztnévvel és "Rubble" vezetéknévvel két fedőnevet kap, úgy mint betty.rubble és betty_rubble. </p> <p> A címtár információk (részleg, cégnév, stb.) az alább látható alapértelmezettről, átállítható másra. A változtatás csak erre a felhasználóra lesz érvényes. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MODIFY_ADMIN_TITLE</base>
+        <trans>Admin fiók módosítása</trans>
+    </entry>
+    <entry>
+        <base>USER_CREATED</base>
+        <trans>Felhasználói fiók létrehozása sikeres.</trans>
+    </entry>
+    <entry>
+        <base>USER_MODIFIED</base>
+        <trans>Felhasználói fiók módosítása sikeres.</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER</base>
+        <trans>Hiba: a "{$acctName}" felhasználó módosításakor belső hiba történt.</trans> 
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER_GROUPS</base> 
+        <trans>Hiba: a "{$acctName}" felhasználó "{$group}" csoportjának módosításakor belső hiba történt.</trans>
+    </entry>
+    <entry>
+        <base>TAINTED_USER</base>
+        <trans>A "{$acctName}" fióknév érvénytelen karaktereket tartalmaz.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME</base>
+        <trans>Fióknév</trans>
+    </entry>
+    <entry>
+        <base>FIRSTNAME</base>
+        <trans>Keresztnév</trans>
+    </entry>
+    <entry>
+        <base>LASTNAME</base>
+        <trans>Vezetéknév</trans>
+    </entry>
+    <entry>
+        <base>DEPARTMENT</base>
+        <trans>Részleg</trans>
+    </entry>
+    <entry>
+        <base>COMPANY</base>
+        <trans>Cégnév</trans>
+    </entry>
+    <entry>
+        <base>STREET_ADDRESS</base>
+        <trans>Cím</trans>
+    </entry>
+    <entry>
+        <base>CITY</base>
+        <trans>Település</trans>
+    </entry>
+    <entry>
+        <base>PHONE_NUMBER</base>
+        <trans>Telefonszám</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_DELIVERY</base>
+        <trans>Email kézbesítés</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_EMAIL_LOCALLY</base>
+        <trans>Helyi kézbesítés</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_EMAIL</base>
+        <trans>Email továbbítása a következő címre</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_AND_FORWARD</base>
+        <trans>Kézbesítés helyben is és továbbítás</trans>
+    </entry>
+    <entry>
+        <base>FORWARDING_ADDRESS</base>
+        <trans>Továbbítás erre</trans>
+    </entry>
+    <entry>
+        <base>GROUP_MEMBERSHIPS</base>
+        <trans>Csoporttagság</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC</base>
+        <trans>A felhasználói fiók jelszavának megváltoztatására készül</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC2</base>
+        <trans>Írja be az új jelszót a lenti mezőkbe</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_MODIFYING_PASSWORD</base>
+        <trans>Hiba történt a jelszó megváltoztatásakor</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE_SUCCEEDED</base>
+        <trans>A "{$acctName}" nevű felhasználó jelszava megváltozott.</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC</base>
+        <trans>A felhasználói fiók zárolására készül</trans>
+    </entry>
+    <entry>
+        <base>LOCKED_ACCOUNT</base>
+        <trans>A "{$acctName}" nevű felhasználó fiókja zárolásra került.</trans>
+    </entry>
+    <entry>
+        <base>NO_SUCH_USER</base>
+        <trans>Hiba: a "{$acctName}" nevű felhasználói fiók nem létezik.</trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM_CLASH</base>
+        <trans>Hiba: a "{$pseudonym}" fedőnevet már lefoglalta a "{$clashName}" felhasználó. Adjon monogramot a névhez, hogy különböző legyen.</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT</base>
+        <trans>Fiók zárolása</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT_TITLE</base>
+        <trans>Felhasználói fiók zárolása</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC2</base>
+        <trans><![CDATA[ Ez a felhasználói fiók zárolva lesz. Ez azt jelenti, hogy a felhasználó nem tud bejelentkezni, és nem fogadhat e-mailt. Minden beérkező levele eltárolásra kerül, vagy továbbítódik egy előre beállított e-mail címre. A fiók újra aktiválható új jelszó megadásával a jövőben. A jelenlegi jelszó törölve lesz. </p> <p> <b>Biztos benne, hogy zárolja ezt a fiókot?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>REMOVE_ACCOUNT_TITLE</base>
+        <trans>Felhasználói fiók törlése</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>A felhasználói fiók eltávolítására készül</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans><![CDATA[ Minden fájl, amely ehhez a fiókhoz tartozik törlésre kerül. A felhasználó szerveren tárolt levelei (például azok, amelyeket még nem töltött le) szintén törlődnek. </p> <p> <b>Biztos benne, hogy törli ezt a fiókot?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>LOCK</base>
+        <trans>Zárol</trans>
+    </entry>
+    <entry>
+        <base>NO_USER_ACCOUNTS</base>
+        <trans>Nincsenek felhasználói fiókok ezen a rendszeren.</trans>
+    </entry>
+    <entry>
+        <base>Users</base>
+        <trans>Felhasználók</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>A "{$acctName}" fiók neve érvénytelen karaktereket tartalmaz. A fiók nevének kis betűvel kell kezdődnie, és csak kisbetűket, számokat, kötőjeleket, aláhúzást és pontot tartalmazhat.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_TOO_LONG</base>
+        <trans>Hiba: A fiók neve túl hosszú. Maximum {$maxLength} karakter hosszúságú lehet.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>Hiba: a "{$account}" nevű fiók nem jött létre, mivel már van egy ilyen nevű {$type} fiók.</trans>
+    </entry>    
+    <entry>
+        <base>ERR_OCCURRED_CREATING</base>
+        <trans>Hiba történt a felhasználó létrehozásakor.</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_CONTAIN_WHITESPACE</base>
+        <trans>Ez a mező nem tartalmazhat szóközt</trans>
+    </entry>
+    <entry>
+        <base>UNACCEPTABLE_CHARS</base>
+        <trans>Ez a mező csak számokat, betűket, pontokat, kötőjeleket, aláhúzásokat tartalmazhat és betűvel kell kezdődnie.</trans>
+    </entry>
+    <entry>
+        <base>MEMBER</base>
+        <trans>Tag?</trans>
+    </entry>
+    <entry>
+        <base>VPN_CLIENT_ACCESS</base>
+        <trans>VPN kliens hozzáférés</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_FORM_TITLE</base>
+        <trans>Rendszerjelszó változtatása</trans>
+    </entry>    
+    <entry> 
+        <base>SYSTEM_PASSWORD_DESCRIPTION</base>
+        <trans><![CDATA[ Bizonyos szolgáltatásai a szervernek jelszó és felhasználónév megadását igénylik (például ennek a szerver kezelő weboldalnak). A felhasználónév mindig admin. A rendszer jelszavát az alábbi mezőkben változtathatja meg. ]]></trans>        
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS</base>
+        <trans>A jelszó csak látható karaktereket tartalmazhat</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_VERIFY_ERROR</base>
+        <trans>A két jelszó nem egyezik.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_AUTH_ERROR</base>
+        <trans>A jelenlegi jelszó helytelen.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_CHANGED</base>
+        <trans>A rendszerjelszó megváltozott</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_SYSTEM_PASSWORD</base>
+        <trans>Jelenlegi rendszerjelszó</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD</base>
+        <trans>Új rendszerjelszó</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD_VERIFY</base>
+        <trans>Új rendszerjelszó (ellenőrzés)</trans>
+    </entry>            
+    <entry>
+        <base>LABEL_IPSECRW_DOWNLOAD</base>
+        <trans>Tanúsítvány letöltése az IPSec klienshez</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_DELETING</base>
+        <trans>Hiba történt a felhasználó törlésekor.</trans>
+    </entry>
+</lexicon>

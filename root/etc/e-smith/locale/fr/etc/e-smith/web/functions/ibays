@@ -1,0 +1,174 @@
+<lexicon lang="fr" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Gestion des i-bays</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p><a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify">Ajouter une i-bay</a></p> <p>Vous pouvez supprimer n'importe quelle i-bay ou réinitialiser son mot de passe en cliquant sur le lien correspondant à côté du nom de l'i-bay. Si l'i-bay apparaît en rouge, cela signifie que son mot de passe n'a pas été défini et qu'il faudrait le faire rapidement.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>Créer ou modifier une i-bay</trans>
+    </entry>
+    <entry>
+        <base>NAME_FIELD_DESC</base>
+        <trans>Le nom de l'i-bay doit contenir uniquement des lettres minuscules, des chiffres, des traits d'union, des points, des traits de soulignement et commencer par une minuscule. Par exemple, "johnson", "intra" et "cust3.prj12" sont tous des noms valides, mais pas "3amis", "Pierre Leblanc" ni "Bus!Partner". Le nom ne peut contenir que {$maxLength} caractères.</trans>
+    </entry>
+    <entry>
+        <base>NAME_LABEL</base>
+        <trans>Nom de l'i-bay</trans>
+    </entry>
+    <entry>
+        <base>USER_ACCESS</base>
+        <trans>Accès authentifié par le partage de fichiers ou le protocole FTP</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS</base>
+        <trans>Accès public par le Web ou le protocole FTP anonyme</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS_DESCRIPTION</base>
+        <trans>Le mode d'accès public "Mot de passe obligatoire en dehors du réseau local" n'est pas pris en charge par le service FTP. Si vous sélectionnez ce mode, le serveur FTP exigera dans tous les cas un mot de passe pour cette i-bay.</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_DYNAMIC_CONTENT</base>
+        <trans>Exécution de contenu dynamique (CGI, PHP, SSI)</trans>
+    </entry>
+	<entry>
+        <base>HTTPS_Only</base>
+        <trans>Forcer l'utilisation de connexions sécurisées</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Supprimer l'i-bay</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans><![CDATA[ <p>Vous êtes sur le point de supprimer l'i-bay "{$name}" ({$description}).</p> <p>Tous les fichiers contenus dans cette i-bay seront supprimés.</p> <p><b>Voulez-vous vraiment supprimer cette i-bay ?</b></p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_IBAY</base>
+        <trans>Une erreur s'est produite lors de la création de cette i-bay.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED_IBAY</base>
+        <trans>i-bay créée avec succès.</trans>
+    </entry>
+    <entry>
+        <base>NO_IBAYS</base>
+        <trans>Aucune i-bay n'est configurée actuellement.</trans>
+    </entry>
+    <entry>
+        <base>CANT_FIND_IBAY</base>
+        <trans>Compte introuvable pour {$name} (existe-t'il ?)</trans>
+    </entry>
+    <entry>
+        <base>CANT_CREATE_IBAY</base>
+        <trans>Impossible de créer un compte pour {$name} (existe-t'il déjà ?)</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_IBAY</base>
+        <trans>Une erreur s'est produite lors de la modification de l'i-bay.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED_IBAY</base>
+        <trans>i-bay modifiée avec succès.</trans>
+    </entry>
+    <entry>
+        <base>VIRTUAL_HOST_MESSAGE</base>
+        <trans>Les domaines virtuels suivants utilisent cette i-bay comme contenu et seront redirigés vers le site Web primaire (vous pourrez par la suite leur attribuer une autre i-bay) :</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED_IBAY</base>
+        <trans>i-bay supprimée avec succès.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_IBAY</base>
+        <trans>Une erreur s'est produite lors de la suppression de l'i-bay.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_DESC</base>
+        <trans>Veuillez taper le mot de passe de l'i-bay "{$name}" :</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VALIDATION_ERROR</base>
+        <trans>Le mot de passe ne peut contenir que des lettres et des chiffres.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VERIFY_ERROR</base>
+        <trans>Les mots de passe ne concordent pas.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_RESET_PASSWORD</base>
+        <trans>Mot de passe réinitialisé avec succès.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_RESETTING_PASSWORD</base>
+        <trans>Une erreur s'est produite lors de la réinitialisation du mot de passe.</trans>
+    </entry>
+    <entry>
+        <base>VHOST_MESSAGE</base>
+        <trans><![CDATA[ <p>Les domaines virtuels suivants utilisent cette i-bay comme contenu et seront redirigés vers le site Web primaire (vous pourrez par la suite leur attribuer une autre i-bay) :</p> <ul>{$vhostList}</ul> ]]></trans>
+    </entry>
+    <entry>
+        <base>Information bays</base>
+        <trans>I-bays</trans>
+    </entry>
+    <entry>
+        <base>WGRG</base>
+        <trans>Écriture=Groupe, Lecture=Groupe</trans>
+    </entry>
+    <entry>
+        <base>WGRE</base>
+        <trans>Écriture=Groupe, Lecture=Tous</trans>
+    </entry>
+    <entry>
+        <base>WARG</base>
+        <trans>Écriture=Admin, Lecture=Groupe</trans>
+    </entry>
+    <entry>
+        <base>NONE</base>
+        <trans>Aucun accès</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_NO_PASSWORD</base>
+        <trans>Réseau local (aucun mot de passe requis)</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_PASSWORD</base>
+        <trans>Réseau local (mot de passe requis)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_NO_PASSWORD</base>
+        <trans>Tout Internet (aucun mot de passe requis)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD</base>
+        <trans>Tout Internet (mot de passe requis)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD_REMOTE</base>
+        <trans>Tout Internet (mot de passe requis en dehors des réseaux locaux)</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IBAY_DESCRIPTION</base>
+        <trans>ERREUR : caractères inattendus ou manquants dans la description de l'i-bay.</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>Le nom de l'i-bay "{$acctName}" contient des caractères non valides. Le nom de l'i-bay doit commencer par une minuscule et contenir uniquement des lettres minuscules, des chiffres et des traits d'union.</trans>
+    </entry>
+    <entry>
+        <base>MAX_IBAY_NAME_LENGTH_ERROR</base>
+        <trans>Le nom de l'i-bay "{$name}" est trop long. Le nombre maximum de caractères est de {$maxIbayNameLength}.</trans>
+    </entry>
+    <entry>
+        <base>ACCT_CLASHES_WITH_PSEUDONYM</base>
+        <trans><![CDATA[ Le compte "{$acctName}" entre en conflit avec un pseudonyme du compte "{$acct}". <p>"{$acctName}" est un pseudonyme de "{$acct}".</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_EXISTS</base>
+        <trans>Le nom de compte "{$acctName}" est un compte {$acctType} existant.</trans>
+    </entry>
+</lexicon>

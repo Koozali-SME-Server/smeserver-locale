@@ -1,0 +1,180 @@
+<lexicon lang="zh-tw" params="lexicon_params()">
+    <!-- vim: ft=xml
+    -->
+    <entry>
+        <base>Hostnames and addresses</base>
+        <trans>主機名稱和位址</trans>
+    </entry>
+    <entry>
+        <base>UNABLE_TO_OPEN_CONFIGDB</base>
+        <trans>無法開啟設定資料庫</trans>
+    </entry>
+    <entry>
+        <base>DNS_FORWARDER_ENABLED</base>
+        <trans>DNS 轉寄站已被設定。這代表所有 DNS 查詢將由此 DNS 轉寄站來處理。當 DNS 轉寄站被設定後，此伺服務器的主機名稱和位址無法被修改。</trans>
+    </entry>
+    <entry>
+        <base>ADD_HOSTNAME</base>
+        <trans><![CDATA[ <a class="button-like" href="hostentries?page=0&page_stack=&Next=Next&wherenext=CreateModify">增加主機名稱</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME</base>
+        <trans>主機名稱</trans>
+    </entry>
+    <entry>
+        <base>HOSTTYPE</base>
+        <trans>位置</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP</base>
+        <trans>本地端 IP</trans>
+    </entry>
+    <entry>
+        <base>ETHERNET_ADDRESS</base>
+        <trans>乙太網路位址</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_HOSTNAMES_FOR_DOMAIN</base>
+        <trans>當前網域 {$domain} 的主機名稱列表。</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTNAMES_FOR_SERVICENAME</base>
+        <trans>系統中的服務 {$serviceName} 無主機名稱。</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_HOSTNAMES_FOR_LOCAL_DOMAIN</base>
+        <trans>當前區網 {$localDomainName} 的主機名稱列表。</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTNAMES_FOR_LOCAL_DOMAIN</base>
+        <trans>系統中的區網 {$localDomainName} 無主機名稱。</trans>
+    </entry>
+    <entry>
+        <base>STATIC_HOST_MESSAGE</base>
+        <trans>- 此主機代表您系統的名稱且無法被修改或移除。</trans>
+    </entry>
+    <entry>
+        <base>CREATE_LOCAL_HOST_TITLE</base>
+        <trans>為此伺服器建立新主機名稱</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_VALIDATION_ERROR</base>
+        <trans>錯誤：主機名稱："{$hostname}.{$domain}"含未知字元。主機名稱應該僅包含字母、數字、連字號並需以字母或數字開頭。</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_LENGTH_ERROR</base>
+        <trans>錯誤：帳號名稱 {$HostName} 太長，最多32個字元。</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_VALIDATION_ERROR</base>
+        <trans>錯誤：網域名稱 {$domainName } 含有未預期或遺失字元。網域名稱應該包含一個或多個字母、數字、句號和減號。無法建立新網域。</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_EXISTS_ERROR</base>
+        <trans>錯誤：帳號 {$fullHostName} 是暨存的主機名稱 {$type}。</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>成功建立主機名稱。</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_DESCRIPTION</base>
+        <trans>主機名稱只能包含字母、數字、連字號，並且要以字母或數字開頭。</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP_DESCRIPTION</base>
+        <trans>此 IP 位址是區網其它機器的 IP 位址。請輸入一個有效 IP 位址，其格式為 "aaa.bbb.ccc.ddd"。</trans>
+    </entry>
+    <entry>
+        <base>ETHERNET_ADDRESS_DESCRIPTION</base>
+        <trans>乙太網路位址是可選的並讓 DHCP 伺服器靜態綁定本地端電腦的 IP 位址。倘若要指定，其格式必需是 "AA:BB:CC:DD:EE:FF" 且只能包含數字 0-9 和字母 A-F。</trans>
+    </entry>
+    <entry>
+        <base>CREATE_LOCAL_HOST_TITLE</base>
+        <trans>建立新的主機名稱給本地端主機。</trans>
+    </entry>
+    <entry>
+        <base>DIDNT_ENTER_LOCAL_IP</base>
+        <trans>錯誤：您未指定本地端 IP 位址。IP 位址只能包含數字和點號且格式為 "aaa.bbb.ccc.ddd"。無法建立主機名稱。</trans>
+    </entry>
+    <entry>
+        <base>IP_VALIDATION_ERROR</base>
+        <trans>錯誤：IP 位址 {$InternalIP} 無效。IP 位址只能包含數字和點號且格式為 "aaa.bbb.ccc.ddd"。無法建立主機名稱。</trans>
+    </entry>
+    <entry>
+        <base>MAC_ADDRESS_VALIDATION_ERROR</base>
+        <trans>錯誤：乙太網路位址 {$MACAddress} 無效。乙太網路位址格式必須為 "AA:BB:CC:DD:EE:FF" 且只能包含數字 0-9 和 字母 A-F。無法建立主機名稱。</trans>
+    </entry>
+    <entry>
+        <base>CREATE_REMOTE_HOST_TITLE</base>
+        <trans>建立新的主機名稱給遠端主機</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>建立或修改主機名稱</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_PAGE_DESCRIPTION</base>
+        <trans>請為本地主機輸入下列的其他細節：</trans>
+    </entry>
+    <entry>
+        <base>REMOTE_PAGE_DESCRIPTION</base>
+        <trans>請為遠端主機輸入下列的其他細節：</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>成功刪除主機。</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>成功修改主機。</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_PAGE_DESCRIPTION</base>
+        <trans><![CDATA[ 您將移除主機名稱 "{$hostname}.{$domain}". </p> <p> <b>您確定希望移除此主機名稱？</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DESCRIPTION</base>
+        <trans>請確認以下細節。</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTS_FOR_THIS_DOMAIN</base>
+        <trans>此網域無主機。</trans>
+    </entry>
+    <entry>
+        <base>ADDR_IN_DHCP_RANGE</base>
+        <trans>位址是內置於 DHCP 指定的動態範圍內</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_HOST</base>
+        <trans>當建立主機名稱時發生錯誤。</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_HOST</base>
+        <trans>當修正主機名稱時發生錯誤。</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_HOST</base>
+        <trans>當刪除主機名稱時發生錯誤。</trans>
+    </entry>
+    <entry>
+        <base>ERR_IP_IS_LOCAL_OR_GATEWAY</base>
+        <trans>錯誤：IP 位址不能為伺服器 IP 或閘道 IP。</trans>
+    </entry>
+    <entry>
+        <base>ERR_IP_NOT_LOCAL</base>
+        <trans>錯誤：此 IP 位址不在任何本地區網內。</trans>
+    </entry>
+    <entry>
+        <base>MUST_BE_VALID_HOSTNAME_OR_IP</base>
+        <trans>必需是有效主機名稱或 IP 位址</trans>
+    </entry>
+  <entry>
+   <base>HOSTNAME_COMMENT_ERROR</base>
+    <trans>錯誤：在 "{$hostname}.{$domain}" 的備註欄中含未知字元。該備註欄應該僅包含字母、空格、數字、句號、逗號、底線、連字號並需以字母或數字開頭。</trans>
+  </entry>
+    <entry>
+      <base>HOSTNAME_VALIDATOR_ERROR</base>
+    <trans>錯誤：主機名稱："{$hostname}.{$domain}"含未知字元。主機名稱應該僅包含字母、數字、連字號並需以字母或數字開頭。</trans>
+  </entry>
+</lexicon>

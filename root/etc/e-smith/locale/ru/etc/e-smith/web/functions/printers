@@ -1,0 +1,147 @@
+<lexicon lang="ru">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Добавление и удаление принтеров</trans>
+    </entry>
+    <entry>
+      <base>INITIAL_DESC</base>
+      <trans><![CDATA[ <P><A class="button-like" HREF="printers?page=0&Next=Add">Добавить принтер</A></P> ]]></trans>
+    </entry>
+    <entry>
+      <base>NO_PRINTERS</base>
+      <trans>Ни один принтер не установлен.</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_LIST</base>
+      <trans>Текущий список принтеров</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_ADDRESS</base>
+      <trans>Удалённый адрес</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_NAME</base>
+      <trans>Удалённое имя</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NEW_PRINTER</base>
+      <trans>Создать новый принтер</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NEW_DESC</base>
+      <trans>Пожалуйста, выберите уникальное имя для принтера и введите краткое описание. Имя принтера должно содержать только строчные буквы и цифры, и должно начинаться со строчной буквы. Например, "hplaser", "epsonlp", and "canonbj" - правильный выбор, а "HP Laser Jet", "Canon BubbleJet" и "HP JetDirect Printer" - нет. Избегайте имён и описаний, которые содержат эти термины: "offline", "disabled", "down", "off", "waiting", "jam", "paper", "error" и "responding".</trans>
+    </entry>
+    <entry>
+      <base>PRINTER_NAME</base>
+      <trans>Имя принтера</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_0</base>
+      <trans>Локальный порт принтера 0 (LPT1)</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_1</base>
+      <trans>Локальный порт принтера 1 (LPT2)</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_2</base>
+      <trans>Локальный порт принтера 2 (LPT3)</trans>
+    </entry>
+    <entry>
+      <base>NET_PRINTER</base>
+      <trans>Сетевой принтер ...</trans>
+    </entry>
+    <entry>
+      <base>FIRST_USB_PRINTER</base>
+      <trans>Первый, подключённый по USB, принтер</trans>
+    </entry>
+    <entry>
+      <base>SECOND_USB_PRINTER</base>
+      <trans>Второй, подключённый по USB, принтер</trans>
+    </entry>
+    <entry>
+      <base>ERR_UNEXPECTED_NAME</base>
+      <trans><![CDATA[ <P>Ошибка: неожиданные символы в имени принтера.</P> <P>Имя принтера должно содержать только строчные буквы и цифры, и должно начинаться с буквы в нижнем регистре. Например, "hplaser", "epsonlp" и "canonbj" допустимые имена.</P> ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_UNEXPECTED_DESC</base>
+      <trans>Ошибка: неожиданные или отсутствующие символы в описании. Новый принтер не создан.</trans>
+    </entry>
+    <entry>
+      <base>ERR_EXISTS</base>
+      <trans>Ошибка: учётная запись с таким именем существует, тип:</trans>
+    </entry>
+    <entry>
+      <base>ERR_INVALID_ADDRESS</base>
+      <trans>Ошибка: неверный сетевой адрес. Новый принтер не создан.</trans>
+    </entry>
+    <entry>
+      <base>ERR_INVALID_REMOTE_NAME</base>
+      <trans>Ошибка: неверное сетевое имя принтера. Новый принтер не создан.</trans>
+    </entry>
+    <entry>
+      <base>ERR_CREATING</base>
+      <trans>Произошла ошибка при создании принтера.</trans>
+    </entry>
+    <entry>
+      <base>CREATED_SUCCESSFULLY</base>
+      <trans>Принтер успешно создан:</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NETWORK_PRINTER</base>
+      <trans>Создать новый сетевой принтер</trans>
+    </entry>
+    <entry>
+      <base>ERR_OPENING_DB</base>
+      <trans>Произошла ошибка при открытии БД учётных записей.</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NETWORK_DESC</base>
+      <trans>Пожалуйста, введите адрес и имя сетевого принтера</trans>
+    </entry>
+    <entry>
+      <base>HOSTNAME_OR_IP</base>
+      <trans>Имя узла или IP адрес сетевого принтера</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_NAME_DESC</base>
+      <trans><![CDATA[ Имя сетевого принтера (если не уверены, введите raw) ]]></trans>
+    </entry>
+    <entry>
+      <base>REMOVE_PRINTER</base>
+      <trans>Удалить принтер</trans>
+    </entry>
+    <entry>
+      <base>ABOUT_TO_REMOVE</base>
+      <trans>Вы собираетесь удалить принтер:</trans>
+    </entry>
+    <entry>
+      <base>SPOOL_FILE_WARNING</base>
+      <trans>Все спул-файлы этого принтера будут удалены.</trans>
+    </entry>
+    <entry>
+      <base>ARE_YOU_SURE</base>
+      <trans>Вы действительно хотите удалить принтер?</trans>
+    </entry>
+    <entry>
+      <base>ERR_INTERNAL_FAILURE</base>
+      <trans>Ошибка: внутрениий сбой при удалении принтера:</trans>
+    </entry>
+    <entry>
+      <base>ERR_DELETING</base>
+      <trans>Произошла ошибка при удлении принтера.</trans>
+    </entry>
+    <entry>
+      <base>DELETED_SUCCESSFULLY</base>
+      <trans>Принтер успешно удалён:</trans>
+    </entry>
+    <entry>
+        <base>MUST_BE_VALID_HOSTNAME_OR_IP</base>
+        <trans>Должно быть правильное имя узла или IP адрес</trans>
+    </entry>
+    <entry>
+	<base>Printers</base>
+	<trans>Принтеры</trans>
+    </entry>
+
+</lexicon>

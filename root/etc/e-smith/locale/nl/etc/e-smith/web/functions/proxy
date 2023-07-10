@@ -1,0 +1,42 @@
+<lexicon lang="nl">
+    <entry>
+        <base>Proxy settings</base>
+        <trans>Proxy-instellingen</trans>
+    </entry>
+    <entry>
+        <base>FIRST_PAGE_DESCRIPTION</base>
+        <trans>Op deze pagina kan u de proxy-instellingen van de server configureren. De server omvat een transparante proxy en cache voor HTTP verkeer. Deze zijn standaard ingeschakeld, maar worden niet toegepast indien de server in &quot;Alleen server&quot; modus werkt. Verbindingen van lokale netwerkcomputers naar externe SMTP servers zullen standaard omgeleid worden naar de lokale mailserver indien deze server dienst doet als mailserver.</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>De HTTP proxy van de server heeft als taak om een reductie van Internetverkeer te bewerkstelligen door recent bezochte pagina's in de cache op te slaan. Deze is transparant voor Internet browsers die deze server als gateway gebruiken. Schakel deze proxy aan of uit met deze keuze.</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_LABEL</base>
+        <trans>Status HTTP proxy</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>De transparante SMTP proxy heeft als taak om virus besmet verkeer te reduceren door van alle aanbiedende hosts het SMTP verkeer door deze server te dwingen. Als u een alternatieve SMTP server wilt gebruiken, en deze server is de gateway daarvoor, zet deze proxy dan uit.</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_LABEL</base>
+        <trans>Status SMTP proxy</trans>
+    </entry>
+    <entry>
+        <base>ERR_PROXY_UPDATE_FAILED</base>
+        <trans>FOUT: De proxy-update gebeurtenis heeft een fout gegenereerd.</trans>
+    </entry>
+    <entry>
+        <base>ERR_NO_SQUID_REC</base>
+        <trans>FOUT: Er is geen Squid record in de configuratiedatabase.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>De nieuwe proxy-instellingen zijn met succes gewijzigd.</trans>
+    </entry>
+    <entry>
+        <base>BLOCKED</base>
+        <trans>Geblokkeerd</trans>
+    </entry>
+</lexicon>

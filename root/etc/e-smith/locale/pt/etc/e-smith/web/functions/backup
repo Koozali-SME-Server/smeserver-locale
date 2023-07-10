@@ -1,0 +1,749 @@
+<lexicon lang="pt">
+  <entry>
+   <base>BACKUP_TITLE</base>
+   <trans>Fazer backup ou restaurar dados do servidor</trans>
+  </entry>
+  <entry>
+   <base>BACKUP_DESC</base>
+   <trans><![CDATA[ <P>Existem duas maneiras de fazer backup e restore do seu servidor: usando seu micro local, um drive de fita.</P> <P>O primeiro método cria uma cópia da configuração de seu servidor e arquivos de dados dos usuários e permite o download deles para seu micro local via um navegador internet. Atualmente sua configuração e dados totalizam aproximadamente <b>$tarsize</b>. O arquivo de backup será algo menor que isso, dependendo de quão comprimível seus dados forem. A opção  \"Verificar arquivo de backup para desktop\" pode ser usado para verificar a integridade de um arquivo de backup para o desktop.</P> <P>O método de backup em fita usa um pacote de software chamado <I>$module</I> para fazer o backup de seu disco rígido inteiro para a fita todas as noites. Isto requer um drive de fita suportado e que a fita não esteja protegida contra gravação. O backup é feito automaticamente no horário selecionado a cada noite (com um lembrete sendo enviado automaticamente por e-mail ao administrador durante o dia). Atualmente seu disco rígido contém <b>$dumpsize</b> de dados.</P> <P>Todos métodos de restauração permitem que você restaure sua configuração e arquivos de dados dos usuários. O método de backup para micro da rede local permite um restauração de arquivos individuais. <b>Idealmente um backup completo deveria ser restaurado num servidor recém instalado.</b>.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_DESC_DAR</base>
+   <trans><![CDATA[ <P>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</P> <P>Tape Backup. This method uses a software package called <I>$module</I> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>$dumpsize</b> of data.</P> <P>Workstation backup. This method uses a software package called <I>dar</I> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>$tarsize</b> uncompressed. Twice the compressed data size must be available on the backup share.</P> <P>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>$tarsize</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</P> <P>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_CONFIG_STATUS</base>
+   <trans>Configuração de backup e status</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUPS_ENABLED</base>
+   <trans><![CDATA[ O backup para fita está atualmente <b>habilitado</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUPS_RUN_AT</base>
+   <trans>Um regular tape backup irá rodar as:</trans>
+  </entry>
+  <entry>
+   <base>REMINDER_MESSAGE_AT</base>
+   <trans>Mensagem de advertência irá ser enviada as:</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUPS_DISABLED</base>
+   <trans><![CDATA[ O tape backup eatá <b>desativado</b> ]]></trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_BACKUP</base>
+   <trans>Backup para o desktop</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_RESTORE</base>
+   <trans>Restaurar do desktop</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_VERIFY</base>
+   <trans>Verificar arquivos de bakup do desktop</trans>
+  </entry>
+  <entry>
+   <base>TAPE_CONFIGURE</base>
+   <trans>Configurar o tape backup</trans>
+  </entry>
+  <entry>
+   <base>TAPE_RESTORE</base>
+   <trans>Restaurar do tape</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS_BEGAN_AT</base>
+   <trans>A restauração do sistema está em progresso. Começou as:</trans>
+  </entry>
+  <entry>
+   <base>REFRESH_THIS_DISPLAY</base>
+   <trans>Recarregar esta tela</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_TAPE_BACKUP</base>
+   <trans>Configurar o tape backup</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_COMPLETED</base>
+   <trans>A restauração do sistema foi compledata</trans>
+  </entry>
+  <entry>
+   <base>STARTED_AT</base>
+   <trans>Começou as:</trans>
+  </entry>
+  <entry>
+   <base>FINISHED_AT</base>
+   <trans>e terminou as:</trans>
+  </entry>
+  <entry>
+   <base>YOU_MUST_REBOOT</base>
+   <trans>Você tem que reinicializar o sistema para que as modificações feitas com a restauração surtam efeito.</trans> 
+  </entry> 
+  <entry>
+   <base>REBOOT</base>
+   <trans>Reiniciar</trans>
+  </entry>
+  <entry>
+   <base>SELECT_AN_ACTION</base>
+   <trans>Selecionar uma ação</trans>
+  </entry>
+  <entry>
+   <base>X_BACKUP_OR_RESTORE</base>
+   <trans>X Backup ou restaurar dados do servidor</trans>
+  </entry>
+  <entry>
+   <base>ERR_PRE_BACKUP</base>
+   <trans>Ocorreu um erro durante a ação de pre-backuo.</trans>
+  </entry>
+  <entry>
+   <base>ERR_PRE_RESTORE</base>
+   <trans>Ocorreu um erro durante a ação de pre-restauração.</trans>
+  </entry>
+  <entry>
+   <base>ERR_POST_BACKUP</base>
+   <trans>Ocorreu um erro durante a ação de pos-backup.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_SERVER_CONFIG</base>
+   <trans>Configurar restauração do servidor</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_RESTORE_DESC</base>
+   <trans><![CDATA[ Este processo irá carregar um arquivo de backup no servidor do desktop local e retaurar a configuração e arquivos de dados dos usuários. <B>A restauração deve ser feita em uma nova instalação do sevidor</B> ]]></trans>
+  </entry>
+  <entry>
+   <base>FREE_SPACE</base>
+   <trans><![CDATA[ Você tem aproximadamente $tmpfree espaço livre no servidor. Verifique se o arquivo de backup do desktop é menor que $halffree antes de começar a restauração. ]]></trans>
+  </entry>
+  <entry>
+   <base>MUST_REBOOT_AFTER_RESTORE</base>
+   <trans>Depois de concluída a restauração você tem que reiniciar o servidor.</trans>
+  </entry>
+  <entry>
+   <base>FILE_TO_RESTORE</base>
+   <trans>Arquivo de backup para restaurar do</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Esta opção irá mostrar todos os nomes de arquivo criada previamente no arquivo de backup do desktop. Você pode usar esta opção para verificar o conteúdo do arquivo de backup.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>SELECT_BACKUP_FILE</base>
+   <trans>Selecionar arquivo de backup</trans>
+  </entry>
+  <entry>
+   <base>VERIFY</base>
+   <trans>Verificar</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CANNOT_PROCEED</base>
+   <trans>Incapaz de continuar com a restauração da configuração do servidor</trans>
+  </entry>
+  <entry>
+   <base>ANOTHER_RESTORE_IN_PROGRESS</base>
+   <trans>Outra restauração em progresso. Favor tentar novamente outra hora.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS</base>
+   <trans>Restauração em progresso</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS_DESC</base>
+   <trans>Depois que a restauração estiver completada você tem que reinicializar o servidor. Sua restauração estará completa quando as palavras "Restauração concluida" aparecerem na parte de baixo de sua tela.</trans>
+  </entry>
+  <entry>
+   <base>FILES_HAVE_BEEN_RESTORED</base>
+   <trans>Os seguintes arquivos e diretórios foram restaurados:</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FAILED_MSG</base>
+   <trans>Restauração falhou! Ocorreu um erro na leitura do arquivo de backup.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_COMPLETE</base>
+   <trans>Restauração concluída</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_GID</base>
+   <trans>Erro ocorrido enquanto restaurava gid do 'www'</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_INITIAL_GRP</base>
+   <trans>Erro ocorrido enquanto restaurava grupo 'www'.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FAILED</base>
+   <trans>Restauração falhou! O arquivo de backup estava incompleto.</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_EXEC_PIPELINE</base>
+   <trans>Incapaz de executar um pipeline backup:</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_DECODE</base>
+   <trans>Incapaz de decodificar arquivo de backup:</trans>
+  </entry>
+  <entry>
+   <base>FILES_IN_BACKUP</base>
+   <trans>Os seguintes arquivos estão contidos no arquivo de backup:</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_COMPLETE</base>
+   <trans>Verificação concluida</trans>
+  </entry>
+  <entry>
+   <base>BACKUP_FILE_INCOMPLETE</base>
+   <trans>O arquivo de backup estava incompleto</trans>
+  </entry>
+  <entry>
+   <base>ERR_READING_FILE</base>
+   <trans>Existiu um erro na leitura do arquivo de backup.</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_DISABLE_TAPE</base>
+   <trans>Habilitar/Desabilitar backup noturno para fita</trans>
+  </entry>
+  <entry>
+   <base>TAPE_CONFIG_DESC</base>
+   <trans><![CDATA[ <p>Selecionar se deseja habilitar backup noturno. Então indique os horários desejados para backup e aviso do carregamento da fita de backup.</p> <p>O backup para fita requer um drive compatível. Uma mensagem de aviso será enviada para o administrador no tempo desejado se o drive de fita estiver vazio.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>ENABLE_TAPE_BACKUP</base>
+   <trans>Habilitar backup para fita</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUP_TIME</base>
+   <trans>Hora do backup para fita (hora/min)</trans>
+  </entry>
+  <entry>
+   <base>LOAD_TAPE_REMINDER_TIME</base>
+   <trans>Hora para relembrar carga da fita de backup (hora/min)</trans>
+  </entry>
+  <entry>
+   <base>AM/PM</base>
+   <trans>AM/PM</trans>
+  </entry>
+  <entry>
+   <base>AM</base>
+   <trans>AM</trans>
+  </entry>
+  <entry>
+   <base>PM</base>
+   <trans>PM</trans>
+  </entry>
+  <entry>
+   <base>UPDATE_CONF</base>
+   <trans>Atualizar</trans>
+  </entry>
+  <entry>
+   <base>UPDATING_TAPE_CONF</base>
+   <trans>Atualizando configuração do tape backup</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_HOUR</base>
+   <trans>Erro: hora inválida de backup:</trans>
+  </entry>
+  <entry>
+   <base>BETWEEN_0_AND_12</base>
+   <trans>Favor escolher uma hora entre 0 e 12.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_MINUTE</base>
+   <trans>Erro: minuto inválido para backup:</trans>
+  </entry>
+  <entry>
+   <base>BETWEEN_0_AND_59</base>
+   <trans>Favor escolher um minuto entre 0 e 59.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_REMINDER_HOUR</base>
+   <trans>Erro: hora de aviso inválida:</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_REMINDER_MINUTE</base>
+   <trans>Erro: minuto de lembrança inválido:</trans>
+  </entry>
+  <entry>
+   <base>ERR_CONF_BACKUP</base>
+   <trans>Erro ocorreu durante o evento de conf-backup.</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_ENABLED_TAPE</base>
+   <trans>Sucesso na habilitação do backup para fita</trans>
+  </entry>
+  <entry>
+   <base>WITH_BACKUP_TIME</base>
+   <trans>com hora de backup:</trans>
+  </entry>
+  <entry>
+   <base>WITH_REMINDER_TIME</base>
+   <trans>e aviso de hora para carregamento da fita de backup:</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_DISABLED</base>
+   <trans>Desabilitando com sucesso os backups para fita</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_TAPE</base>
+   <trans>Restaurando configuração do servidor da fita de backup</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_TAPE_DESC</base>
+   <trans><![CDATA[ <p>Este processo irá restaurar configuração do servidor e arquivos dos usuários de um tape backup. <B>A restauração devera ser feita em uma nova instalação de servidor</B>.</p> <p>Certifique-se de ter inserido o tape desejado no tape drive antes de proceder a restauração.</p> <p>Depois da completada a restauração você tem que reinicializar o servidor.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FROM_TAPE</base>
+   <trans>Restaurar da fita</trans>
+  </entry>
+  <entry>
+   <base>UNABLE_TO_RESTORE_CONF</base>
+   <trans>Incapaz de restaurar configuração do servidor</trans>
+  </entry>
+  <entry>
+   <base>RESTORING_FROM_TAPE</base>
+   <trans>Restaurando da Fita</trans>
+  </entry>
+  <entry>
+   <base>NOW_RESTORING_FROM_TAPE</base>
+   <trans>Sua configuração do servidor e arquivos de dados estão agora sendo restaurados da fita.</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_FROM_TAPE</base>
+   <trans>Ocorreu um erro restaurando arquivos da fita.</trans>
+  </entry>
+  <entry>
+   <base>ERR_UPDATING_CONF_AFTER_TAPE_RESTORE</base>
+   <trans>Ocorreu enquanto carregava sistema de configuração após restaurar da fita.</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_FORK</base>
+   <trans>Incapaz de implementar:</trans>
+  </entry>
+  <entry>
+   <base>SERVER_REBOOT</base>
+   <trans>Reinicializar servidor</trans>
+  </entry>
+  <entry>
+   <base>SERVER_WILL_REBOOT</base>
+   <trans>Seu servidor irá agora reinicializar.</trans>
+  </entry>
+  <entry>
+   <base>NO_UID_FOR_NAME</base>
+   <trans>Incapaz de achar uid para usuário chamado:</trans>
+  </entry>
+  <entry>
+   <base>PAGE_REFRESH_IN</base>
+   <trans><![CDATA[ Esta página irá recarregar em {$sec} segundos, ou click <a href="/server-manager/cgi-bin/backup">aqui</a>. ]]></trans>
+  </entry>
+    <entry>
+	<base>Backup or restore</base>
+	<trans>Backup ou restauração</trans>
+    </entry>
+
+  <entry>
+	<base>BACKUP_DESKTOP_TOO_BIG</base>
+	<trans><![CDATA[ <div class="error"> Seu servidor tem muitos dados para que um backup para desktop seja confiável. </div> ]]></trans>
+  </entry>
+   <entry>
+   <base>WORKSTN_BACKUPS_DISABLED</base>
+   <trans><![CDATA[ O backup para micro da rede local está <b>desativado</b> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUPS_ENABLED</base>
+   <trans><![CDATA[ O backup para micro da rede local está atualmente <b>habilitado</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>WKBACKUPS_RUN_AT</base>
+   <trans>Backup para micro da rede local será executado às:</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_CONFIGURE</base>
+   <trans>Configure o backup para micro da rede local</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_VERIFY</base>
+   <trans>Verificar um backup para micro da rede local</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_RESTORE</base>
+   <trans>Restaurar um backup de micro da rede local</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_WORKSTN_BACKUP</base>
+   <trans>Configurar o backup para micro da rede local</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_DISABLE_WORKSTN</base>
+   <trans>Habilitar/Desabilitar Backup Diário para micro da rede local</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_WORKSTN_BACKUP</base>
+   <trans>Habilitar Backup para micro da rede local</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TIME</base>
+   <trans>Hora do backup para micro da rede local (hora/min)</trans>
+  </entry>
+  <entry>
+   <base>UPDATING_WORKSTN_CONF</base>
+   <trans>Atualizando configuração do backup para micro da rede local</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_ENABLED_WORKSTN</base>
+   <trans>Sucesso ao habilitar o backup para micro da rede local</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_DISABLED_WORKSTN</base>
+   <trans>Sucesso ao desabilitar o backup para micro da rede local</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_WORKSTN_BACKUP_FILE</base>
+   <trans>Verificar um backup para micro da rede local</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_WORKSTN_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Esta opção mostrará o nome de todos os arquivos de backup para micro da rede local já criados. Você pode usar esta opção para verificar o conteúdo do backup.<b>Você deve escolher o backup que deseja verificar</b></p> <p>Você verá todos arquivos contidos no backup selecionado.</p> Arquivos de backup são verificados a partir do compartilhamento: ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_WORKSTN</base>
+   <trans>Restaurando configuração do servidor a partir do backup feito para micro da rede local</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_WORKSTN_DESC</base>
+   <trans><![CDATA[ <p>Este processo irá restaurar a configuração do servidor e arquivos dos usuários de um backup para micro da rede local. <b>A restauração deverá ser feita em uma nova instalação de servidor</b>.</p> <p>Assegure-se de escolher o backup correto antes de continuar o procedimento de restauração.</p> <p>Depois da terminada a restauração você PRECISA reinicializar o servidor.</p> O backup será restaurado de: ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FROM_WORKSTN</base>
+   <trans>Restore de micro da rede local</trans>
+  </entry>
+  <entry>
+   <base>RESTORING_FROM_WORKSTN</base>
+   <trans>Restaurando de micro da rede local</trans>
+  </entry>
+  <entry>
+   <base>NOW_RESTORING_FROM_WORKSTN</base>
+   <trans>Sua configuração do servidor e arquivos de dados estão sendo restaurados do compartilhamento no micro da rede local.</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_FROM_WORKSTN</base>
+   <trans>Ocorreram erros restaurando arquivos do micro da rede local.</trans>
+  </entry>
+  <entry>
+   <base>ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE</base>
+   <trans>Ocorreu um erro enquanto atualizando a configuração do sistema após restaurar do micro da rede local.</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_NAME</base>
+   <trans>Hostname ou IP do micro da rede local</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SETTINGS</base>
+   <trans>Configurações do Backup para micro da rede local</trans>
+  </entry>
+  <entry>
+   <base>SHARED_FOLDER_NAME</base>
+   <trans>Compartilhamento</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_LOGIN</base>
+   <trans>Usuário para login</trans>
+  </entry>
+  <entry>
+   <base>WORKSTATION_BACKUP_DEST</base>
+   <trans>Configurações do backup para micro da rede local</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_WORKSTN_BACKUP_DESC</base>
+   <trans>Você pode definir o número de conjuntos de backup sucessivos que serão armazenados no micro da rede local com rotacionamento automático. Cada conjunto pode conter dados salvos para vários dias consecutivos. Neste caso o primeiro backup do conjunto é o backup completo, os outros serão incrementais. Você também poderá definir um limite de tempo para cada sessão de backup ou somente para backups incrementais. Quando este limite acontecer, o backup é parado com segurança e o próximo backup incremental continuará corretamente com os dados não salvos anteriormente e os modificados.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_WORKSTN</base>
+   <trans>Hostname ou endereço IP do micro da rede local inválido</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_FOLDER</base>
+   <trans>Nome do compartilhamento inválido</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_LOGIN</base>
+   <trans>Login inválido</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_PASSWORD</base>
+   <trans>Senha inválida</trans>
+  </entry>
+  <entry>
+   <base>ERR_ALREADY_MOUNTED</base>
+   <trans>Backup directory is already mounted</trans>
+  </entry>
+  <entry>
+   <base>ERR_MOUNTING_SMBSHARE</base>
+   <trans>Incapaz de montar o compartilhamento do micro da rede local</trans>
+  </entry>
+  <entry>
+   <base>ERR_NOT_MOUNTED</base>
+   <trans>Arquivo de backup não está montado</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_NOT_SET</base>
+   <trans>Você precisa primeiro configurar corretamente o backup para micro da rede local</trans>
+  </entry>
+  <entry>
+   <base>NO_BACKUPS_TO_RESTORE</base>
+   <trans>Não existe conjunto de backup no compartilhamento do micro da rede local. Por favor, verifique as configurações.</trans>
+  </entry>
+  <entry>
+   <base>NUMBER_OF_SETS</base>
+   <trans>Número de conjuntos de backup antes de rotacionar</trans>
+  </entry>
+  <entry>
+   <base>NUMBER_OF_FILES_IN_SET</base>
+   <trans>Backups diários em cada conjunto</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_SETS_NUMBER</base>
+   <trans>O número de conjuntos deve ser maior ou igual a 1.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_FILES_IN_SET_NUMBER</base>
+   <trans>Este número deve ser igual ou maior que 1. O primeiro backup no conjunto é o <b>COMPLETO</b> os outros são <b>incrementais</b></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_TIMEOUT</base>
+   <trans>Estouro de tempo (timeout) da sessão de backup (em horas) e opcional.</trans>
+  </entry>
+  <entry>
+   <base>INC_ONLY_TIMEOUT</base>
+   <trans>Não faça estouro de tempo para sessões de backup completo</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_TIMEOUT</base>
+   <trans>O tempo máximo de backup deve estar entre 1 e 24 horas</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_HOST_DIR</base>
+   <trans>Não existe diretório para seu host no compartilhamento. Talvez seu hostname esteja diferente dos backups.</trans>
+  </entry>
+  <entry>
+   <base>ERROR_READING_FILE</base>
+   <trans>Erro enquanto lendo backups do</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SEL_RESTORE</base>
+   <trans>Restore de alguns arquivos do backup para micro da rede local</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SELECTIVE_RESTORE</base>
+   <trans>Restauração seletiva de arquivos do backup para micro da rede local</trans>
+  </entry>
+  <entry>
+   <base>ALL_BACKUPS</base>
+   <trans>Todos os backups</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SEL_REST_DESC</base>
+   <trans><![CDATA[ Este processo restaurará apenas os arquivos e diretórios especificados. Primeiro escolha o backup do qual os arquivos serão restaurados. Se você não sabe em qual backup estão os arquivos, escolha a opção 'Todos backups' .<br/><br/> A próxima tela mostrará todos arquivos e diretórios disponíveis para que você escolha aqueles que deseja restaurar. Para diminuir o número de arquivos e diretórios mostrados nesta tela, você poderá inserir agora uma expressão de filtragem, aplicada como expressão regular aos nomes mostradosto.<br/><br/> Você tem a responsabilidade de <b>não restaurar</b> arquivos que poderiam fazer o servidor parar de funcionar.<br/><br/>Os arquivos serão restaurados de : ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_CHOICE</base>
+   <trans>Selecionando arquivos para mostrar</trans>
+  </entry>
+  <entry>
+   <base>SELECT_DATE_BEFORE</base>
+   <trans>Restaurar arquivos mais recentes que</trans>
+  </entry>
+  <entry>
+   <base>FILTER_EXPRESSION</base>
+   <trans>Nomes filtrados por</trans>
+  </entry>
+  <entry>
+   <base>READ_COMPLETE</base>
+   <trans><![CDATA[ Você pode escolher todos os diretórios e arquivos que você não quer restaurar na lista mostrada (use CTRL ou SHIFT para seleção múltipla). <br/> <b>ATENÇÃO :</b> Se você selecionar um diretório, todos arquivos e subdiretórios contidos abaixo dele serão restaurados.<p/> O padrão é que somente a versão mais recente dos arquivos selecionados seja restaurada, mas se você especificar uma data no formato <i>[ [ [yyyy/]mm/]dd-]hh:mm[:ss]</i> o processo restaurará apenas a versão mais recente modificada<b>ANTES da data fornecida</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_SELDATE</base>
+   <trans>Formato de data inválido, deve ser[ [ [yyyy/]mm/]dd-]hh:mm[:ss]. ie: 2005/12/31-08:23:32 or 10-08:32 or 08:32</trans>
+  </entry>
+  <entry>
+   <base>SELECT_FILES_TO_RESTORE</base>
+   <trans>Selecione arquivos para restaurar</trans>
+  </entry>
+  <entry>
+   <base>ERR_WHILE_UNMOUNTING</base>
+   <trans>Ocorreu um erro quando desmontando o compartilhamento remoto</trans>
+  </entry>
+  <entry>
+   <base>ERR_DAR_CATALOG</base>
+   <trans>Ocorreu um erro quando usando o catalogo do DAR</trans>
+  </entry>
+  <entry>
+   <base>COMPRESSION_LEVEL</base>
+   <trans>Nivel de compressão do backup [0-9]</trans>
+  </entry>
+  <entry>
+   <base>FULL_ONLY_ON</base>
+   <trans>Backup completo é permitido em</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_COMPRESSION</base>
+   <trans>O nível de compressão deve ser definido entre 0 (sem compressão) e 9 (compressão máxima)</trans>
+  </entry>
+  <entry>
+   <base>DOW</base>
+   <trans>Domingo Segunda Terça Quarta Quinta Sexta Sábado TodosDias</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURATION_TO_BE_DONE</base>
+   <trans>Favor confirmar os seguintes detalhes.</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Esta tela mostra a configuração atual do backup para micro da rede local . Você pode mudá-la nesta tela e na próxima.</p><p/> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_NOT_CONFIGURED</base>
+   <trans><![CDATA[ <p>Atualmente o backup para micro da rede local não está configurado. Você pode defini-la nesta tela e na próxima.</p><p/> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_ENABLED</base>
+   <trans>O backup é</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_USB</base>
+   <trans>O backup é feito no disco removível local</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_MNT</base>
+   <trans>O Backup é feito no disco removível local</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_HOST</base>
+   <trans>O Backup é feito para a estação da rede local</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_VFSTYPE</base>
+   <trans>via</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SHARE</base>
+   <trans>o compartilhamento de destino do backup é</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TOD</base>
+   <trans>Backup diário ocorrerá as</trans>
+  </entry>
+  <entry>
+   <base>LOGIN</base>
+   <trans>Login é</trans>
+  </entry>
+  <entry>
+   <base>PASSWORD</base>
+   <trans>Senha é</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SETSNUM</base>
+   <trans>Número de conjuntos de backup (pré-rotacionamento) é</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_DAYSINSET</base>
+   <trans>Número de backups diários contidos em cada conjunto é</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_COMPRESSION</base>
+   <trans>Nível de compressão (0-7) do backup é</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TIMEOUT</base>
+   <trans>Cada sessão de backup diário é terminada corretamente após</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_INCONLY_TIMEOUT</base>
+   <trans>exceto backups completos que são interrompidos após 24 horas.</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_FULL_BACKUP_EVERYDAY</base>
+   <trans>Backups completos (conjuntos novos de backup) são permitidos todos os dias</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_FULL_BACKUP_DAY</base>
+   <trans>Backups completos (conjuntos novos de backup) são permitidos somente as</trans>
+  </entry>
+  <entry>
+   <base>WORKSTATION_BACKUP_SETCONF</base>
+   <trans>Criar ou modificar configuração do backup para micro da rede local</trans>
+  </entry>
+  <entry>
+   <base>SELECT_VFS_TYPE</base>
+   <trans>Selecione o tipo de compartilhamento para destino do backup</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_USB_DISK</base>
+   <trans>Erro: Nenhum disco removível disponível. Por favor selecione outro tipo de backup ou conecte um disco removível.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_MOUNTED_DISK</base>
+   <trans>Erro: Nenhum disco removível disponível. Por favor selecione outro tipo de backup ou conecte um disco removível.</trans>
+  </entry>
+  <entry>
+   <base>HOURS</base>
+   <trans>horas.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_FULL_BACKUP</base>
+   <trans>Aborting restore because needed full backup is missing or unreadable.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_INC_BACKUP</base>
+   <trans>Aborting restore because the set has missing or unreadable incremental backup number</trans>
+  </entry>
+  <entry>
+   <base>CHECK_TO_VERIFY_FULL_RESTORE</base>
+   <trans>Check here to test integrity of all backups needed for a full restore with the selected backup</trans>
+  </entry>
+  <entry>
+   <base>TESTING_NEEDED_BACKUPS_FOR_RESTORE</base>
+   <trans>Testing all backups needed for a full restore with selected backup</trans>
+  </entry>
+  <entry>
+   <base>TESTED_BACKUP</base>
+   <trans>Testing integrity of backup</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_VERIFY_FAILED</base>
+   <trans>Falha na verificação da integridade</trans>
+  </entry>
+  <entry>
+   <base>CHECK_INTEGRITY_WARNING</base>
+   <trans>Warning : For large backups, checking integrity may be a long task and should be made with daily workstation backup disabled.</trans>
+  </entry>
+  <entry>
+    <base>cifs</base>
+    <trans>cifs</trans>
+  </entry>
+  <entry>
+    <base>nfs</base>
+    <trans>nfs</trans>
+  </entry>
+  <entry>
+    <base>local removable disk</base>
+    <trans>O Backup é feito no disco removível local</trans>
+  </entry>
+  <entry>
+    <base>Mounted disk</base>
+    <trans>Montado</trans>
+  </entry>
+  <entry>
+   <base>ERROR_WHEN_TESTING_REMOTE_SERVER</base>
+   <trans>The parameters have been saved, however the remote host is not reachable, please check your settings.</trans>
+  </entry>
+  <entry>
+   <base>DO_NOT_RESTORE_BIN_SBIN_LIB_LIB64_FROM_SME9</base>
+   <trans>If you restore from Koozali SME Server 9 or before, pay attention that some folders in the system are now symlinks. Basic backup configuration does not include /bin, /lib, /lib64, /sbin, /var/lock and /var/run. If you have added them for files in their subdirectories, we will prevent the restoration of those folders to prevent dar from replacing those symlinks and leave the system unusable. Those additions are, however, not recommended as they are at risk to overwrite files provides by rpms.</trans>
+  </entry>
+  <entry>
+   <base>SMBV1</base>
+   <trans>Mount as legacy SMB v1 share (unsecure, not recommended).</trans>
+  </entry>
+
+
+</lexicon>

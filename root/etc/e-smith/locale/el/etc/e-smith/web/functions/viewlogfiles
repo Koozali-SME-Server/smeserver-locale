@@ -1,0 +1,83 @@
+<lexicon lang="el">
+    <entry>
+        <base>View log files</base>
+        <trans>Προβολή αρχείων καταγραφής</trans>
+    </entry>
+
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ Ο παρών πίνακας σας επιτρέπει την προβολή ή το κατέβασμα των αρχείων καταγραφής που δημιουργήθηκαν από τις υπηρεσίες που τρέχουν στον διακομιστή σας. ]]></trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_SELECT_DESC</base>
+        <trans>Επιλέξτε αρχείο καταγραφής για προβολή</trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>Προαιρετικά, μπορείτε να ορίσετε υπόδειγμα φίλτρου βάση του οποίου θα εμφανίζονται μόνον οι γραμμές του αρχείου καταγραφής που συμφωνούν με το υπόδειγμα. Εάν αφήσετε αυτό το πεδίο κενό, θα εμφανισθούν όλες οι διαθέσιμες γραμμές του αρχείου καταγραφής. Σημειώσατε ότι η επιλογή αυτή δεν χρησιμοποιείται σε περίπτωση λήψης (download) του αρχείου καταγραφής.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_LABEL</base>
+        <trans>Σχέδιο Φίλτρου (προαιρετικό)</trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>Μπορείτε επίσης να ορίσετε προαιρετικά ένα υπόδειγμα σύμφωνα με το οποίο θα αναδεικνύονται με έντονη γραφή οποιεσδήποτε γραμμές του αρχείου καταγραφής ταιριάζουν με αυτό. Το υπόδειγμα ανάδειξης εφαρμόζεται σε όσες γραμμές έχουν ήδη ταιριάξει με το υπόδειγμα του φίλτρου. Σημειώσατε ότι η επιλογή αυτή δεν χρησιμοποιείται σε περίπτωση λήψης (download) του αρχείου καταγραφής.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_LABEL</base>
+        <trans>Υπόδειγμα Ανάδειξης (προαιρετικό)</trans>
+    </entry>
+    <entry>
+        <base>END_DESC</base>
+        <trans>Σημειώνεται πως η παραγωγή αυτών των αναφορών ενδέχεται να πάρει αρκετό χρόνο.</trans>
+    </entry>
+    <entry>
+        <base>VIEW</base>
+        <trans>Προβολή αρχείου καταγραφής</trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_EMPTY</base>
+        <trans>Το αρχείο καταγραφής "{$filename}" είναι κενό!</trans>
+    </entry>
+    <entry>
+        <base>VIEWING_TIME</base>
+        <trans>Προβλήθηκε στις {$time}.</trans>
+    </entry>
+    <entry>
+        <base>MATCH_HEADER</base>
+        <trans>Εμφάνιση γραμμών σύμφωνα με το υπόδειγμα: "{$matchPattern}".</trans>
+    </entry>
+    <entry>
+        <base>HIGHLIGHT_HEADER</base>
+        <trans>Ανάδειξη γραμμών σύμφωνα με το υπόδειγμα: "{$highlightPattern}".</trans>
+    </entry>
+    <entry>
+        <base>NO_MATCHING_LINES</base>
+        <trans>Δεν εμφανίζονται γραμμές που να συμφωνούν.</trans>
+    </entry>
+    <entry>
+        <base>FILENAME_ERROR</base>
+        <trans><![CDATA[ <p>Σφάλμα κατά τον προσδιορισμό του ονόματος του αρχείου καταγραφής.</p> <p>Μη-έγκυρος τύπος αναφοράς "{$filename}".</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>REFRESH</base>
+	<trans>Ανανεώσατε το παρόν αρχείο καταγραφής</trans>
+    </entry>
+    <entry>
+	<base>OP_DESC</base>
+	<trans><![CDATA[ <p>Πρέπει να επιλέξετε αν θα προβάλετε το αρχείο καταγραφής μέσω του περιηγητή σας (browser), ή θα κάνετε λήψη (download) του αρχείου στον υπολογιστή σας. Αν το αρχείο καταγραφής είναι ιδιαίτερα μεγάλο, θα προτιμήσετε να κάνετε λήψη αντί να το ανοίξετε με τον περιηγητή σας, καθόσον το τελευταίο δημιουργεί πρόβλημα σε κάποιους περιηγητές ιστοσελίδων.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>OP_LABEL</base>
+	<trans>Λειτουργία</trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_PAGE_DESC</base>
+	<trans><![CDATA[ <p>Το αρχείο καταγραφής σας είναι έτοιμο για να το λάβετε (download). Θα ξεκινήσει μόλις κάνετε κλικ στο κουμπί &quot;Επόμενο&quot; που ακολουθεί και δώσετε εντολή στον περιηγητή σας (browser) για λήψη του αρχείου μέσω του αναδυόμενου παραθύρου που θα εμφανισθεί.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_FILE</base>
+	<trans>Προετοιμασία λήψης αρχείου καταγραφής {$logfile}.</trans>
+    </entry>
+</lexicon>

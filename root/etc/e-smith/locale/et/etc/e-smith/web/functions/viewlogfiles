@@ -1,0 +1,83 @@
+<lexicon lang="et">
+    <entry>
+        <base>View log files</base>
+        <trans>Vaata logifaile</trans>
+    </entry>
+
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ Siit saad vaadata või allalaadida logifaile mille on koostanud erinevad teenused selles serveris. ]]></trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_SELECT_DESC</base>
+        <trans>Vali logifail mida vaadata</trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>You may optionally specify a filter pattern to display only the lines from the log file which match this pattern. If you leave this field blank, all available lines of the log file will be displayed. Note that this option is not used if you download the logfile.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_LABEL</base>
+        <trans>Filtreeri Pattern (valikuline)</trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>You may also optionally specify a highlight pattern to mark in bold any lines from the log file which match the highlight pattern. The highlight pattern is applied to any lines which have already matched the filter pattern. Note that this option is not used if you download the logfile.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_LABEL</base>
+        <trans>Highlight Pattern (optional)</trans>
+    </entry>
+    <entry>
+        <base>END_DESC</base>
+        <trans>Ole kannatlik, raporti koostamine võib natuke aega võtta</trans>
+    </entry>
+    <entry>
+        <base>VIEW</base>
+        <trans>Vaata logifaile</trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_EMPTY</base>
+        <trans>Logifail "{$filename}" on tühi!</trans>
+    </entry>
+    <entry>
+        <base>VIEWING_TIME</base>
+        <trans>Vaadatud {$time}.</trans>
+    </entry>
+    <entry>
+        <base>MATCH_HEADER</base>
+        <trans>Displaying lines matching: "{$matchPattern}".</trans>
+    </entry>
+    <entry>
+        <base>HIGHLIGHT_HEADER</base>
+        <trans>Highlighting lines matching: "{$highlightPattern}".</trans>
+    </entry>
+    <entry>
+        <base>NO_MATCHING_LINES</base>
+        <trans>No matching lines displayed.</trans>
+    </entry>
+    <entry>
+        <base>FILENAME_ERROR</base>
+        <trans><![CDATA[ <p>Error while specifying log file name.</p> <p>Invalid report type "{$filename}".</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>REFRESH</base>
+	<trans>Värskenda seda logifaili</trans>
+    </entry>
+    <entry>
+	<base>OP_DESC</base>
+	<trans><![CDATA[ <p>Sa pead valima kas soovid vaadtat logifaili oma brauseris või salvestad logifaili oma arvutisse. Logifailid on tavaliselt üsna mahukad, seepärast on soovitatav logifail oma arvutisse salvestada. </p> ]]></trans>
+    </entry>
+    <entry>
+	<base>OP_LABEL</base>
+	<trans>Tegevus</trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_PAGE_DESC</base>
+	<trans><![CDATA[ <p>Logifaili valmistatakse allalaadimiseks. Allalaadimine hakkab kohe kui vajutad &quot;Rdasi&quot; nuppu ja jälgid oma brauseri juhiseid nõustumaks faili allalaadimisega.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_FILE</base>
+	<trans>{$logfile} faili valmistatakse ette alladimiseks.</trans>
+    </entry>
+</lexicon>

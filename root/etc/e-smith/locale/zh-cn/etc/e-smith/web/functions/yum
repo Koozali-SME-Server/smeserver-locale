@@ -1,0 +1,193 @@
+<lexicon lang="zh-cn"> 
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+	<base>Software installer</base>
+	<trans>软件安装器</trans>
+    </entry>
+
+    <entry>
+        <base>SUCCESS</base>
+        <trans>新的设置已被保存。</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_YUM_STATUS</base>
+        <trans>检查更新</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_YUM_AUTOINSTALLUPDATES</base>
+	<trans>自动安装更新</trans>
+   </entry>
+    <entry>
+        <base>LABEL_YUM_AUTOINSTALLUPDATES_DESCRIPTION</base>
+        <trans>If enabled this will take precedence over the simple check for updates notification and predownload features. Instead it will install the available updates from enabled repositories. For more information refer to yum and yum-cron manual page.</trans>
+   </entry>
+
+    <entry>
+	<base>LABEL_YUM_PACKAGEFUNCTIONS</base>
+	<trans>管理单个软件包</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_YUM_PACKAGEFUNCTIONS</base>
+	<trans>软件安装器可以管理软件包相关的组或单个软件。默认情况下，只显示软件组。如果你想管理单个软件，启用该选项。但这只应让有经验的管理员来做。</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_ENABLED_REPOSITORIES</base>
+	<trans>启用软件库</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_ENABLED_REPOSITORIES</base>
+	<trans>软件安装器可以从任何可用软件库中安装软件。要启用一个软件库，只要在列表中选择即可。要禁用一个软件库，也只要在列表中取消即可。通常，只有稳定的、经过测试的软件才可用。</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_UPTODATE</base>
+        <trans><![CDATA[ <div class="success"> <h2>系统已更新至最新。</h2> 所有更新都已被安装。 </div> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_UPDATES_AVAILABLE</base>
+        <trans><![CDATA[ <div class="success"> <h2>有可用的更新</h2> 您的系统有可用的更新。这些更新需要尽快安装。</div> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_AVAILABLE_UPDATES</base>
+        <trans>有可用的更新</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_AVAILABLE_UPDATES</base>
+        <trans>系统有以下更新可用。您通常需要安装所有的可用更新。如果您不想安装某个更新，请在下面的列表中取消它。</trans>
+    </entry>
+
+    <entry>
+        <base>INSTALL_UPDATES</base>
+        <trans>安装所选更新</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_INSTALL_UPDATES</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_UPDATES">列出可用的更新</a> ]]></trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_AVAILABLE_SOFTWARE</base>
+	<trans>如下软件适用于您的系统。如果您不知道后果，请慎用系统额外的软件，。</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_AVAILABLE_GROUPS</base>
+	<trans>您可以从下面的列表中选择要安装的软件组。</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_AVAILABLE_GROUPS</base>
+	<trans>可用的软件组</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_AVAILABLE_PACKAGES</base>
+	<trans>您也可以从下面的列表中选择单独的软件包来安装。</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_AVAILABLE_PACKAGES</base>
+	<trans>可用的软件包</trans>
+    </entry>
+
+    <entry>
+	<base>INSTALL_SOFTWARE</base>
+	<trans>安装</trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_INSTALLED_SOFTWARE</base>
+	<trans>以下软件已被安装到系统。如果您知道后果，请谨慎从系统移除软件。</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_INSTALLED_GROUPS</base>
+	<trans>您可以从下面的列表中选择要移除的软件组。</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_INSTALLED_GROUPS</base>
+	<trans>已安装的软件组</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_INSTALLED_PACKAGES</base>
+	<trans>您可以从下面的列表中选择要移除的单个软件。</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_INSTALLED_PACKAGES</base>
+	<trans>已安装的软件包</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_CONFIGURATION</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_CONFIGURATION">更改软件安装设置</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_INSTALL_AVAILABLE</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_AVAILABLE">安装额外的软件</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_REMOVE</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_REMOVE">移除已安装的软件</a> ]]></trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_POSTUPGRADE_REQUIRED</base>
+	<trans><![CDATA[ 在安装、移除或更新软件后，系统需要被重新配置。<p> 请点击页面底部的“重新配置”按钮来执行重新配置。 <b>重新配置过程中系统将有一次自动重启。</b> </p> ]]></trans>
+     </entry>
+
+    <entry>
+	<base>SYSTEM_BEING_RECONFIGURED</base>
+	<trans>系统正在自动重启以便完成重新配置。</trans>
+    </entry>
+
+    <entry>
+      <base>1DAILY</base>
+      <trans>每天</trans>
+    </entry>
+
+    <entry>
+      <base>2WEEKLY</base>
+      <trans>每周</trans>
+    </entry>
+
+    <entry>
+      <base>3MONTHLY</base>
+      <trans>每月</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DELTARPMPROCESS</base>
+      <trans>Delta Rpm Update</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DELTARPM</base>
+      <trans>A deltarpm contains the difference between an old and a new version of a rpm, which can save bandwith. The drawback is that update operations consume considerably more CPU cycles</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DOWNLOADONLY</base>
+      <trans>个人详细资料已经更新</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DOWNLOADONLY_DESCRIPTION</base>
+      <trans>The rpm updates can be downloaded during the night, this will ease and give faster the yum update process (only enabled repositories will be used).</trans>
+    </entry>
+
+</lexicon>

@@ -1,0 +1,193 @@
+<lexicon lang="sl"> 
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+	<base>Software installer</base>
+	<trans>Software installer</trans>
+    </entry>
+
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Nove nastavitve so bile shranjene.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_YUM_STATUS</base>
+        <trans>Vsakodnevno preveri posodobitve</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_YUM_AUTOINSTALLUPDATES</base>
+	<trans>Samodejno namesti posodobitve</trans>
+   </entry>
+    <entry>
+        <base>LABEL_YUM_AUTOINSTALLUPDATES_DESCRIPTION</base>
+        <trans>If enabled this will take precedence over the simple check for updates notification and predownload features. Instead it will install the available updates from enabled repositories. For more information refer to yum and yum-cron manual page.</trans>
+   </entry>
+
+    <entry>
+	<base>LABEL_YUM_PACKAGEFUNCTIONS</base>
+	<trans>Upravljaj s posameznimi paketi</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_YUM_PACKAGEFUNCTIONS</base>
+	<trans>Sistem za namescanje programske opreme lahko upravlja skupino sorodnih ali posameznih paketov. Privzeta nastavitev je nastavljena na upravljanje sorodnih paketov. Ce zelite upravljati s posameznimi paketi, omogocite to opcijo. To opcijo priporocamo samo iskusenim skrbnikom.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_ENABLED_REPOSITORIES</base>
+	<trans>Omogoci repozitorije</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_ENABLED_REPOSITORIES</base>
+	<trans>Sistem za namescanje programske opreme lahko namesti programsko opremo z bilo katerega izmed omogocenih repozitorijev. Pred uporabo morate repozitorij izbrati iz seznama repozitorija. Ce zelite repozitorij izkljuciti, ga izbrisite iz seznama repozitorijev. Na seznamu so samo stabilni in preverjeni repozitoriji.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_UPTODATE</base>
+        <trans><![CDATA[ <div class="success"> <h2>This system is up to date.</h2> All updates have been installed. </div> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_UPDATES_AVAILABLE</base>
+        <trans><![CDATA[ <div class="success"><h2>Na voljo so nove posodobitve</h2> Za vas sistem so na voljo nove posodobitve. Prirocamo vam, jih namestite cim prej. </div> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_AVAILABLE_UPDATES</base>
+        <trans>Na voljo so nove posodobitve</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_AVAILABLE_UPDATES</base>
+        <trans>Na voljo so naslednje posodobitve. Namestitete jih popolnoma obicajno, kot vsako drugo. Ce katere izmed teh ne zelite namestiti, je ne oznacite na seznamu.</trans>
+    </entry>
+
+    <entry>
+        <base>INSTALL_UPDATES</base>
+        <trans>Namesti oznacene posodobitve</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_INSTALL_UPDATES</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_UPDATES">Namesti posodobitve, ki so na voljo</a> ]]></trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_AVAILABLE_SOFTWARE</base>
+	<trans>Naslednja programska oprema je pripravljena za namestitev v vaš strežnik. Dodatno programsko opremo namestite v vas strežnik samo, če se zavedate posledic namestitve.</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_AVAILABLE_GROUPS</base>
+	<trans>S spodnjega seznama lahko izberete skupine programske opreme, ki se naj namesti.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_AVAILABLE_GROUPS</base>
+	<trans>Skupine, ki so na voljo</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_AVAILABLE_PACKAGES</base>
+	<trans>Namestitev individualnih paketov lahko izbirate iz spodnjega seznama.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_AVAILABLE_PACKAGES</base>
+	<trans>Programski paketi</trans>
+    </entry>
+
+    <entry>
+	<base>INSTALL_SOFTWARE</base>
+	<trans>Namesti</trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_INSTALLED_SOFTWARE</base>
+	<trans>Naslednja programska oprema je namescena na tem sistemu. Programsko opremo lahko odstranite, vendar se zavedajte posledic tega dejanja.</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_INSTALLED_GROUPS</base>
+	<trans>Izberete lahko programske skupine, ki jih zelite odstraniti iz sistema.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_INSTALLED_GROUPS</base>
+	<trans>Namescene programske skupine</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_INSTALLED_PACKAGES</base>
+	<trans>Izberete lahko individualne pakete s spodnjega seznama, ce jih zelite odstraniti.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_INSTALLED_PACKAGES</base>
+	<trans>Namesceni paketi</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_CONFIGURATION</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_CONFIGURATION">Spremeni nastavitve sistema za namescanje programske opreme</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_INSTALL_AVAILABLE</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_AVAILABLE">Namesti dodatno programsko opremo</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_REMOVE</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_REMOVE">Odstrani programsko opremo</a> ]]></trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_POSTUPGRADE_REQUIRED</base>
+	<trans>Po spreminjanju nastavitev, dodajanju ali odstranjevanju programske opreme, boste morali sistem ponovno konfigurirati. po konfiguraciji sistema ga boste morali ponovno zagnati.</trans>
+     </entry>
+
+    <entry>
+	<base>SYSTEM_BEING_RECONFIGURED</base>
+	<trans>Your system is being automatically rebooted to complete the reconfiguraton process.</trans>
+    </entry>
+
+    <entry>
+      <base>1DAILY</base>
+      <trans>Dnevno</trans>
+    </entry>
+
+    <entry>
+      <base>2WEEKLY</base>
+      <trans>Tedensko</trans>
+    </entry>
+
+    <entry>
+      <base>3MONTHLY</base>
+      <trans>Monthly</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DELTARPMPROCESS</base>
+      <trans>Delta Rpm Update</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DELTARPM</base>
+      <trans>A deltarpm contains the difference between an old and a new version of a rpm, which can save bandwith. The drawback is that update operations consume considerably more CPU cycles</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DOWNLOADONLY</base>
+      <trans>Osebni podatki so bili shranjeni</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DOWNLOADONLY_DESCRIPTION</base>
+      <trans>The rpm updates can be downloaded during the night, this will ease and give faster the yum update process (only enabled repositories will be used).</trans>
+    </entry>
+
+</lexicon>

@@ -1,0 +1,749 @@
+<lexicon lang="sv">
+  <entry>
+   <base>BACKUP_TITLE</base>
+   <trans>Backup eller återställ serverdata</trans>
+  </entry>
+  <entry>
+   <base>BACKUP_DESC</base>
+   <trans><![CDATA[ <P>Serverns ger dig möjlighet till två sätt att ta backup och återställa din server: använd din lokala klient eller en bandstation.</P> <P>Den första metoden skapar en kopia av din server konfiguration och användarnas datafiler, laddar ner det till din lokala klient via din webbläsare. För närvarande upptar din konfigurations- och datafiler totalt ungefär <b>$tarsize</b>. Backup-filen kommer att bli något mindre än detta, beroende på hur komprimerad datat är. \"Verifiering av klientens backupfile\" inställning kan användas för att kontrollera integriteten på backupfilen.</P> <P>Backup med bandstation använder en mjukvara med namnet <I>$module</I> för att ta backup på hela hårddisken till band, varje natt. Detta kräver en bandstation som stöds och ett band som inte är skrivskyddat. Backupen körs automatiskt på vald tid varje natt (med en påminnelse som automatiskt e-postas till administratören under dagen). För närvarande innehåller din hårddisk <b>$dumpsize</b> av data.</P> <P>Båda återställningsmetoderna tillåter dig att återställa din konfiguration och användarnas datafiler. <b>Idealiskt är att återställningen sker på en nyinstallerad server</b>.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_DESC_DAR</base>
+   <trans><![CDATA[ <P>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</P> <P>Tape Backup. This method uses a software package called <I>$module</I> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>$dumpsize</b> of data.</P> <P>Workstation backup. This method uses a software package called <I>dar</I> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>$tarsize</b> uncompressed. Twice the compressed data size must be available on the backup share.</P> <P>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>$tarsize</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</P> <P>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_CONFIG_STATUS</base>
+   <trans>Backup, konfiguration och status</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUPS_ENABLED</base>
+   <trans><![CDATA[ Backup med band är för närvarande <b>valt</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUPS_RUN_AT</base>
+   <trans>Normal backup till band kommer att köras kl:</trans>
+  </entry>
+  <entry>
+   <base>REMINDER_MESSAGE_AT</base>
+   <trans>E-post med påminnelse kommer att skickas kl:</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUPS_DISABLED</base>
+   <trans><![CDATA[ Backup till band är <b>ej valt</b> ]]></trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_BACKUP</base>
+   <trans>Backup till klient</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_RESTORE</base>
+   <trans>Återställ från klient</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_VERIFY</base>
+   <trans>Verifiera klientens backupfil</trans>
+  </entry>
+  <entry>
+   <base>TAPE_CONFIGURE</base>
+   <trans>Konfigurera bandbackup</trans>
+  </entry>
+  <entry>
+   <base>TAPE_RESTORE</base>
+   <trans>Återställ från band</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS_BEGAN_AT</base>
+   <trans>En systemåterställning pågår. Den påbörjades kl:</trans>
+  </entry>
+  <entry>
+   <base>REFRESH_THIS_DISPLAY</base>
+   <trans>Uppdatera detta fönster</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_TAPE_BACKUP</base>
+   <trans>Konfigurera bandbackup</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_COMPLETED</base>
+   <trans>En systemåterställning är genomförd</trans>
+  </entry>
+  <entry>
+   <base>STARTED_AT</base>
+   <trans>Den startade kl:</trans>
+  </entry>
+  <entry>
+   <base>FINISHED_AT</base>
+   <trans>och avslutades kl:</trans>
+  </entry>
+  <entry>
+   <base>YOU_MUST_REBOOT</base>
+   <trans>Du måste starta om servern för att aktivera de eventuella ny konfigurationer som blev resultatet av denna återställning.</trans> 
+  </entry> 
+  <entry>
+   <base>REBOOT</base>
+   <trans>Starta om</trans>
+  </entry>
+  <entry>
+   <base>SELECT_AN_ACTION</base>
+   <trans>Välj en åtgärd</trans>
+  </entry>
+  <entry>
+   <base>X_BACKUP_OR_RESTORE</base>
+   <trans>X Backup eller återställ serverdata</trans>
+  </entry>
+  <entry>
+   <base>ERR_PRE_BACKUP</base>
+   <trans>Ett fel inträffade under de förberedande åtgärderna för backup.</trans>
+  </entry>
+  <entry>
+   <base>ERR_PRE_RESTORE</base>
+   <trans>Ett fel inträffade under de förberedande åtgärderna för återställning.</trans>
+  </entry>
+  <entry>
+   <base>ERR_POST_BACKUP</base>
+   <trans>Ett fel inträffade under de efterföljande åtgärderna efter backup.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_SERVER_CONFIG</base>
+   <trans>Återställ serverkonfiguration</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_RESTORE_DESC</base>
+   <trans><![CDATA[ Denna process kommer att ladda upp serverns backupfil från din lokal klient till servern och återställa konfigurationen och användarnas datafiler. <B>Återställning bör genomföras på en nyinstallerad server</B>. ]]></trans>
+  </entry>
+  <entry>
+   <base>FREE_SPACE</base>
+   <trans><![CDATA[ Du har ungefär $tmpfree fritt utrymme på servern. Kontrollera att klientens backupfil är mindre än $halffree före påbörjandet av återställning. ]]></trans>
+  </entry>
+  <entry>
+   <base>MUST_REBOOT_AFTER_RESTORE</base>
+   <trans>Efter återställningen är genomförd måste du starta om din server.</trans>
+  </entry>
+  <entry>
+   <base>FILE_TO_RESTORE</base>
+   <trans>Backupfil att återställa från</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Detta val kommer att visa namnet på alla filer i den förut skapade backupfilen som ligger på klienten. Du kan använda detta val till att verifiera innehållet på backupfilen.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>SELECT_BACKUP_FILE</base>
+   <trans>Välj backupfil</trans>
+  </entry>
+  <entry>
+   <base>VERIFY</base>
+   <trans>Verifiera</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CANNOT_PROCEED</base>
+   <trans>Kan inte fortsätta med återställandet av serverns konfiguration</trans>
+  </entry>
+  <entry>
+   <base>ANOTHER_RESTORE_IN_PROGRESS</base>
+   <trans>En annan återställning pågår. Försök igen senare.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS</base>
+   <trans>Återställning pågår</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS_DESC</base>
+   <trans>Efter det att återställningen är klar måste du starta om servern. Din återställning är klar när "Återställning genomförd" visas i nederkanten på din skärm.</trans>
+  </entry>
+  <entry>
+   <base>FILES_HAVE_BEEN_RESTORED</base>
+   <trans>Följande filer och mappar har blivit återställda:</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FAILED_MSG</base>
+   <trans>Återställningen misslyckades! Det blev ett fel vid läsning av backupfilen.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_COMPLETE</base>
+   <trans>Återställning genomförd</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_GID</base>
+   <trans>Ett fel inträffade vid återställning av gid av 'www'</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_INITIAL_GRP</base>
+   <trans>Ett fel inträffade vid återställning av den initiala gruppen 'www'.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FAILED</base>
+   <trans>Återställning misslyckades! Backupfilen var inte komplett.</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_EXEC_PIPELINE</base>
+   <trans>Kunde inte exekvera backup pipeline:</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_DECODE</base>
+   <trans>Kunde inte dekoda backupfilen:</trans>
+  </entry>
+  <entry>
+   <base>FILES_IN_BACKUP</base>
+   <trans>Följande filer finns i backupfilen :</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_COMPLETE</base>
+   <trans>Verifiering är genomförd</trans>
+  </entry>
+  <entry>
+   <base>BACKUP_FILE_INCOMPLETE</base>
+   <trans>Backupfilen var inte komplett</trans>
+  </entry>
+  <entry>
+   <base>ERR_READING_FILE</base>
+   <trans>Det inträffade ett fel vid läsning av backupfilen.</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_DISABLE_TAPE</base>
+   <trans>Tillåt/Tillåt inte nattlig backup till band</trans>
+  </entry>
+  <entry>
+   <base>TAPE_CONFIG_DESC</base>
+   <trans><![CDATA[ <p>Välj om du vill tillåta nattlig backup. Indikera därefter den önskade tiden för backup och ladda påminnelsen om band.</p> <p>Bandbackupen kräver ett bandstation som stöds. Ett varningsmeddelande kommer att skickas till administratören på den angivna påminnelsetiden om bandstationen inte har något band.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>ENABLE_TAPE_BACKUP</base>
+   <trans>Tillåt bandbackup</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUP_TIME</base>
+   <trans>Klockslag för bandbackup (timmar/minuter)</trans>
+  </entry>
+  <entry>
+   <base>LOAD_TAPE_REMINDER_TIME</base>
+   <trans>Klockslag för att ladda påminnelse om band (timmar/minuter)</trans>
+  </entry>
+  <entry>
+   <base>AM/PM</base>
+   <trans>AM/PM</trans>
+  </entry>
+  <entry>
+   <base>AM</base>
+   <trans>AM</trans>
+  </entry>
+  <entry>
+   <base>PM</base>
+   <trans>PM</trans>
+  </entry>
+  <entry>
+   <base>UPDATE_CONF</base>
+   <trans>Uppdatera</trans>
+  </entry>
+  <entry>
+   <base>UPDATING_TAPE_CONF</base>
+   <trans>Uppdaterar bandstationens konfiguration</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_HOUR</base>
+   <trans>Fel: ogiltig timmangivelse för backup:</trans>
+  </entry>
+  <entry>
+   <base>BETWEEN_0_AND_12</base>
+   <trans>Välj ett klockslag mellan 0 och 12.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_MINUTE</base>
+   <trans>Fel: ogiltig minutangivelse för backup:</trans>
+  </entry>
+  <entry>
+   <base>BETWEEN_0_AND_59</base>
+   <trans>Välj en minut mellan 0 och 59.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_REMINDER_HOUR</base>
+   <trans>Fel: ogiltigt timmangivelse för påminnelse:</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_REMINDER_MINUTE</base>
+   <trans>Fel: ogiltig minutangivelse för påminnelse:</trans>
+  </entry>
+  <entry>
+   <base>ERR_CONF_BACKUP</base>
+   <trans>Ett fel inträffade under conf-backup-händelsen.</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_ENABLED_TAPE</base>
+   <trans>Bandbackup tillåten</trans>
+  </entry>
+  <entry>
+   <base>WITH_BACKUP_TIME</base>
+   <trans>med backuptid:</trans>
+  </entry>
+  <entry>
+   <base>WITH_REMINDER_TIME</base>
+   <trans>och tid för laddning av påminnelse om band:</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_DISABLED</base>
+   <trans>Bandbackup ej tillåten</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_TAPE</base>
+   <trans>Återställ serverkonfiguration från bandbackup</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_TAPE_DESC</base>
+   <trans><![CDATA[ <P>Denna processs kommer att återställa konfigurationen och användarnas datafiler från ett backupband från servern. <B>Återställningen bör ske på en nyinstallerad server</B>.</P> <P>Försäkra dig om att du har laddad det önskade bandet i bandstationen innan du fortsätter.</P> <P>Efter det att återställningen är klar måste du starta om servern.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FROM_TAPE</base>
+   <trans>Återställ från band</trans>
+  </entry>
+  <entry>
+   <base>UNABLE_TO_RESTORE_CONF</base>
+   <trans>Kunde inte återställa serverns konfiguration</trans>
+  </entry>
+  <entry>
+   <base>RESTORING_FROM_TAPE</base>
+   <trans>Återställning från band</trans>
+  </entry>
+  <entry>
+   <base>NOW_RESTORING_FROM_TAPE</base>
+   <trans>Din servers konfigurering och användarnas datafiler återställs nu från band.</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_FROM_TAPE</base>
+   <trans>Ett fel inträffade vid återställning av filer från band.</trans>
+  </entry>
+  <entry>
+   <base>ERR_UPDATING_CONF_AFTER_TAPE_RESTORE</base>
+   <trans>Ett fel inträffade under uppdateringen av systemets konfigurationsfiler efter återställning med band.</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_FORK</base>
+   <trans>Kunde inte dela:</trans>
+  </entry>
+  <entry>
+   <base>SERVER_REBOOT</base>
+   <trans>Omstart av server</trans>
+  </entry>
+  <entry>
+   <base>SERVER_WILL_REBOOT</base>
+   <trans>Din server kommer nu att starta om.</trans>
+  </entry>
+  <entry>
+   <base>NO_UID_FOR_NAME</base>
+   <trans>Kunde inte läsa uid för användare med namnet:</trans>
+  </entry>
+  <entry>
+   <base>PAGE_REFRESH_IN</base>
+   <trans><![CDATA[ Denna sida kommer att uppdatera statusen om {$sec} sekunder, eller klicka <a href="/server-manager/cgi-bin/backup">här</a>. ]]></trans>
+  </entry>
+    <entry>
+	<base>Backup or restore</base>
+	<trans>Backup eller återställning</trans>
+    </entry>
+
+  <entry>
+	<base>BACKUP_DESKTOP_TOO_BIG</base>
+	<trans><![CDATA[ <div class="error"> Din server har för mycket data för en säker backup till din klient. </div> ]]></trans>
+  </entry>
+   <entry>
+   <base>WORKSTN_BACKUPS_DISABLED</base>
+   <trans><![CDATA[ Backup till arbetsstation är <b>ej aktiverat</b> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUPS_ENABLED</base>
+   <trans><![CDATA[ Backup till arbetsstation är för närvarande <b>valt</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>WKBACKUPS_RUN_AT</base>
+   <trans>Normal backup till arbetsstation kommer att köras kl:</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_CONFIGURE</base>
+   <trans>Konfigurera backup till arbetsstation</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_VERIFY</base>
+   <trans>Verifiera backup till arbetsstation</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_RESTORE</base>
+   <trans>Återställ från arbetsstation</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_WORKSTN_BACKUP</base>
+   <trans>Konfigurera backup till arbetsstation</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_DISABLE_WORKSTN</base>
+   <trans>Aktivera/avaktivera daglig backup till arbetsstation</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_WORKSTN_BACKUP</base>
+   <trans>Aktivera backup till arbetsstation</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TIME</base>
+   <trans>Klockslag för backup till arbetsstation (timmar/minuter)</trans>
+  </entry>
+  <entry>
+   <base>UPDATING_WORKSTN_CONF</base>
+   <trans>Uppdaterar konfigurationen för backup till arbetsstation</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_ENABLED_WORKSTN</base>
+   <trans>Aktiverat backup till arbetsstation</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_DISABLED_WORKSTN</base>
+   <trans>Avaktiverat backup till arbetsstation</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_WORKSTN_BACKUP_FILE</base>
+   <trans>Verifiera backup till arbetsstation</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_WORKSTN_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Denna inställning visar namnet på alla filer i den tidigare skapade dagliga backupen på arbetsstationen. Du kan använda denna inställning för att verifiera innehållet av backupen.<b>Du måste välja den backup som du vill verifiera</b></p> <p>Endast filer markerade med [Sparad] finns i backupen.</p><br/> Backupfilerna verifieras från den delade mappen : ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_WORKSTN</base>
+   <trans>Återställ serverkonfiguration från arbetsstationen</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_WORKSTN_DESC</base>
+   <trans><![CDATA[ <p>Denna processs kommer att återställa konfigurationen och användarnas datafiler från ett backup gjord på en arbetsstation ansluten till LAN. <b>Återställningen bör ske på en nyinstallerad server</b>.</p> <p>Försäkra dig om att du har valt den önskade backupen innan du fortsätter.</p> <p>Efter det att återställningen är klar måste du starta om servern.</p> Backupen kommer att återställas från : ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FROM_WORKSTN</base>
+   <trans>Återställ från arbetsstation</trans>
+  </entry>
+  <entry>
+   <base>RESTORING_FROM_WORKSTN</base>
+   <trans>Återställer från arbetsstation</trans>
+  </entry>
+  <entry>
+   <base>NOW_RESTORING_FROM_WORKSTN</base>
+   <trans>Din servers konfigurering och användarnas datafiler återställs nu från arbetsstationen.</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_FROM_WORKSTN</base>
+   <trans>Ett fel inträffade vid återställning av filer från arbetsstation.</trans>
+  </entry>
+  <entry>
+   <base>ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE</base>
+   <trans>Ett fel inträffade under uppdateringen av systemets konfigurationsfiler efter återställning från arbetsstation.</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_NAME</base>
+   <trans>Arbetstationens IP eller värdnamn</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SETTINGS</base>
+   <trans>Arbetsstationens backupinställningar</trans>
+  </entry>
+  <entry>
+   <base>SHARED_FOLDER_NAME</base>
+   <trans>Delat utrymme för backup</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_LOGIN</base>
+   <trans>Inloggningsnamn</trans>
+  </entry>
+  <entry>
+   <base>WORKSTATION_BACKUP_DEST</base>
+   <trans>Inställningar för backup till arbetsstation</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_WORKSTN_BACKUP_DESC</base>
+   <trans>Du kan ange antalet efterföljande backuper som skall sparas på arbetsstationen, men automatisk rotation. Varje uppsättning av backuper kan innehålla sparad data för flera efteröljande dagar. I detta fall är den första backupen en fullständig backup, de efterföljande dagarnas backuper är inkrementella. Du kan också ange en tidsgräns för varje backupsession eller endast för de inkrementella. När gränsen uppnås stoppas backupen och den nästa inkrementella backupen kommer på ett säkert sätt att fortsätta med ej sparad och modifierad data.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_WORKSTN</base>
+   <trans>Ogiltig IP-adress eller värdnamn för arbetsstationen</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_FOLDER</base>
+   <trans>Ogiltigt namn på delningen</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_LOGIN</base>
+   <trans>Ogiltig inloggning</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_PASSWORD</base>
+   <trans>Ogiltigt lösenord</trans>
+  </entry>
+  <entry>
+   <base>ERR_ALREADY_MOUNTED</base>
+   <trans>Backup directory is already mounted</trans>
+  </entry>
+  <entry>
+   <base>ERR_MOUNTING_SMBSHARE</base>
+   <trans>Kunde inte montera arbetsstationens delade mapp</trans>
+  </entry>
+  <entry>
+   <base>ERR_NOT_MOUNTED</base>
+   <trans>Backupfilen inte funnen</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_NOT_SET</base>
+   <trans>Du måste först konfigurerar din arbetsstation på ett korrekt sätt</trans>
+  </entry>
+  <entry>
+   <base>NO_BACKUPS_TO_RESTORE</base>
+   <trans>Det finns inget backupuppsättning konfigurerad på din arbetsstations delade mapp. Verifiera dina inställningar.</trans>
+  </entry>
+  <entry>
+   <base>NUMBER_OF_SETS</base>
+   <trans>Antal roterande backupuppsättningar</trans>
+  </entry>
+  <entry>
+   <base>NUMBER_OF_FILES_IN_SET</base>
+   <trans>Dagliga backuper i varje uppsättning</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_SETS_NUMBER</base>
+   <trans>Antalet uppsättningar måste vara 1 eller större</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_FILES_IN_SET_NUMBER</base>
+   <trans>Siffran måste vara 1 eller större. Första backupen i uppsättningen är <b>full</b> de andra är <b>inkrementella</b></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_TIMEOUT</base>
+   <trans>Valfri inställning, timeout för backupens session (timmar)</trans>
+  </entry>
+  <entry>
+   <base>INC_ONLY_TIMEOUT</base>
+   <trans>Gör ej timeout för fullsändiga backupsessioner</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_TIMEOUT</base>
+   <trans>Maximal backuptid måste vara mellan 1 och 24 timmar</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_HOST_DIR</base>
+   <trans>Det finns ingen mapp för din värd i den delade mappen. Ditt värdnamn är kanske annorlunda i förhållande till de i backupen</trans>
+  </entry>
+  <entry>
+   <base>ERROR_READING_FILE</base>
+   <trans>Fel vid läsning av filer från</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SEL_RESTORE</base>
+   <trans>Selektiv återställning av filer från arbetsstationen</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SELECTIVE_RESTORE</base>
+   <trans>Återställning av valda filer från arbetsstationen</trans>
+  </entry>
+  <entry>
+   <base>ALL_BACKUPS</base>
+   <trans>Alla backuper</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SEL_REST_DESC</base>
+   <trans><![CDATA[ Denna process kommer att återskapa endast de angivna filerna och mapparna. Du måste först välja den backup från vilken filerna skall återställas. Om du inte vet vilken backup som innehåller de önskade filerna kan du välja 'Alla filer'. <br/><br/> Nästa fönster kommer att visa tillgängliga filer och mappar och du kan därefter välja de som du vill återställa. För att minska antalet filer och mappar som visas i nästa fönster kan du nu ange ett filter, som anges som ett vanligt uttryck till de visade namnen.<br/><br/> Det är ditt ansvar så att du inte återställer några filer som förhindrar funktionen på din server.<br/><br/>Filerna återställs från: ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_CHOICE</base>
+   <trans>Välj filer som skall visas</trans>
+  </entry>
+  <entry>
+   <base>SELECT_DATE_BEFORE</base>
+   <trans>Återställ de senaste före</trans>
+  </entry>
+  <entry>
+   <base>FILTER_EXPRESSION</base>
+   <trans>Namn filtrerade efter</trans>
+  </entry>
+  <entry>
+   <base>READ_COMPLETE</base>
+   <trans><![CDATA[ Du kan välja alla de mappar och filer du vill återställa i listan som visas (använd ctrl eller shift för flerval). <br/><b>Varning :</b> Om du väljer en mapp kommer alla filer och underliggande mappar, att återställas.<p/> Förvalt är att den senaste versionen av valda filer återställs men om du anger ett datum i formatet <i>[ [ [yyyy/]mm/]dd-]hh:mm[:ss]</i> kommer processen att återställa den senaste versionen som är ändrad <b>före det angivna datumet</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_SELDATE</base>
+   <trans>Datumformat är ogiltigt eftersom det måste vara [ [ [yyyy/]mm/]dd-]hh:mm[:ss]. exvis: 2005/12/31-08:23:32 eller 10-08:32 eller 08:32</trans>
+  </entry>
+  <entry>
+   <base>SELECT_FILES_TO_RESTORE</base>
+   <trans>Välj filer som skall återställas</trans>
+  </entry>
+  <entry>
+   <base>ERR_WHILE_UNMOUNTING</base>
+   <trans>Fel uppstod vid avmontering av fjärrdelningen</trans>
+  </entry>
+  <entry>
+   <base>ERR_DAR_CATALOG</base>
+   <trans>Fel vid användandet av Dar-katalogen</trans>
+  </entry>
+  <entry>
+   <base>COMPRESSION_LEVEL</base>
+   <trans>Kompressionsnivå på backupen [0-9]</trans>
+  </entry>
+  <entry>
+   <base>FULL_ONLY_ON</base>
+   <trans>Fullständig backup är tillåten på</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_COMPRESSION</base>
+   <trans>Kompressionsnivån måste vara mellan 0 (ingen kompression) och 9 (maximal kompression)</trans>
+  </entry>
+  <entry>
+   <base>DOW</base>
+   <trans>Söndag Måndag Tisdag Onsdag Torsdag Fredag Lördag Alla_dagar</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURATION_TO_BE_DONE</base>
+   <trans>Konfigurera inställningarna för backup.</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Detta fönster visar nuvarande inställningar för arbetsstationens backup. Du kan ändra det i detta fönster och nästa.</p><p/> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_NOT_CONFIGURED</base>
+   <trans><![CDATA[ <p>Just nu är inte arbetsstationens backup konfigurerad. Du kan göra dessa inställningar i detta och nästa fönster.</p><p/> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_ENABLED</base>
+   <trans>Backupen är</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_USB</base>
+   <trans>Backupen görs på en lokal flyttbar USB-disk</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_MNT</base>
+   <trans>Backupen görs på en lokal flyttbar USB-disk</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_HOST</base>
+   <trans>Backupen görs på arbetsstationen som är ansluten till LAN</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_VFSTYPE</base>
+   <trans>via</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SHARE</base>
+   <trans>Destinationens delade backupmapp är</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TOD</base>
+   <trans>Daglig backup körs kl</trans>
+  </entry>
+  <entry>
+   <base>LOGIN</base>
+   <trans>Inloggning är</trans>
+  </entry>
+  <entry>
+   <base>PASSWORD</base>
+   <trans>Lösenordet är</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SETSNUM</base>
+   <trans>Antalet roterande backupuppsättningar är</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_DAYSINSET</base>
+   <trans>Antalet dagliga backuper som finns i varje uppsättning är</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_COMPRESSION</base>
+   <trans>Kompressionsnivån (0-9) av backup är</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TIMEOUT</base>
+   <trans>Varje daglig backupsession avslutas efter</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_INCONLY_TIMEOUT</base>
+   <trans>utom fullständiga backuper vilka avslutas efter 24 timmar</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_FULL_BACKUP_EVERYDAY</base>
+   <trans>Fullständiga backupsessioner (nya backupuppsättningar) är tillåtna varje dag</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_FULL_BACKUP_DAY</base>
+   <trans>Fullständig session (nya backupuppsättningar) är endast tillåtna på</trans>
+  </entry>
+  <entry>
+   <base>WORKSTATION_BACKUP_SETCONF</base>
+   <trans>Skapa eller ändra inställningen för backup via arbetsstationen</trans>
+  </entry>
+  <entry>
+   <base>SELECT_VFS_TYPE</base>
+   <trans>Välj typ av delning för backupens destination</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_USB_DISK</base>
+   <trans>Fel: Ingen flyttbar disk tillgänglig. Anslut en flyttbar disk eller välj en annan typ av delning för backupen.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_MOUNTED_DISK</base>
+   <trans>Fel: Ingen flyttbar disk tillgänglig. Anslut en flyttbar disk eller välj en annan typ av delning för backupen.</trans>
+  </entry>
+  <entry>
+   <base>HOURS</base>
+   <trans>timmar.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_FULL_BACKUP</base>
+   <trans>Avbryter återställning eftersom den fullständiga backup som krävs saknas eller är ej läsbar.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_INC_BACKUP</base>
+   <trans>Avbryter återställning eftersom uppsättningen saknar eller har oläsligt inkremitelt backupnummer</trans>
+  </entry>
+  <entry>
+   <base>CHECK_TO_VERIFY_FULL_RESTORE</base>
+   <trans>Markera här för att prova integriteten av alla backup:er som behövs för fullständig återställning av den valda backup:en</trans>
+  </entry>
+  <entry>
+   <base>TESTING_NEEDED_BACKUPS_FOR_RESTORE</base>
+   <trans>Testar alla backup:er som behövs för en fullständig återställning av den valda backup:en</trans>
+  </entry>
+  <entry>
+   <base>TESTED_BACKUP</base>
+   <trans>Testar integriteten av backup:en</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_VERIFY_FAILED</base>
+   <trans>Verifiering av integriteten misslyckades</trans>
+  </entry>
+  <entry>
+   <base>CHECK_INTEGRITY_WARNING</base>
+   <trans>Varning: För stora backup:er, kontrollering av integriteten kan vara en stor och lång uppgift som skall göras med den dagliga backupen till arbetsstationen avaktiverad.</trans>
+  </entry>
+  <entry>
+    <base>cifs</base>
+    <trans>cifs</trans>
+  </entry>
+  <entry>
+    <base>nfs</base>
+    <trans>nfs</trans>
+  </entry>
+  <entry>
+    <base>local removable disk</base>
+    <trans>Lokal flyttbar disk</trans>
+  </entry>
+  <entry>
+    <base>Mounted disk</base>
+    <trans>Monterad</trans>
+  </entry>
+  <entry>
+   <base>ERROR_WHEN_TESTING_REMOTE_SERVER</base>
+   <trans>The parameters have been saved, however the remote host is not reachable, please check your settings.</trans>
+  </entry>
+  <entry>
+   <base>DO_NOT_RESTORE_BIN_SBIN_LIB_LIB64_FROM_SME9</base>
+   <trans>If you restore from Koozali SME Server 9 or before, pay attention that some folders in the system are now symlinks. Basic backup configuration does not include /bin, /lib, /lib64, /sbin, /var/lock and /var/run. If you have added them for files in their subdirectories, we will prevent the restoration of those folders to prevent dar from replacing those symlinks and leave the system unusable. Those additions are, however, not recommended as they are at risk to overwrite files provides by rpms.</trans>
+  </entry>
+  <entry>
+   <base>SMBV1</base>
+   <trans>Mount as legacy SMB v1 share (unsecure, not recommended).</trans>
+  </entry>
+
+
+</lexicon>

@@ -1,0 +1,87 @@
+<lexicon lang="it">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Analisi File di Log Posta</trans>
+    </entry>
+    <entry>
+	<base>INITIAL_DESC</base>
+	<trans><![CDATA[ <p>L'analisi dei file di log del sistema di posta permette sia di valutare le prestazioni che di diagnosticare eventuali problemi di consegna. Sono disponibili diversi rapporti.</p> <p>Potrebbero essere necessari alcuni minuti per generare questi rapporti.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>REPORT_TYPE</base>
+	<trans>Selezionare il tipo di rapporto</trans>
+    </entry>
+    <entry>
+	<base>GENERATE_REPORT</base>
+	<trans>Genera rapporto</trans>
+    </entry>
+    <entry>
+	<base>LIST_OUTGOING</base>
+	<trans>Elenca messaggi in uscita e destinatari</trans>
+    </entry>
+    <entry>
+	<base>SUMMARIZE_QUEUE</base>
+	<trans>Stato generale della coda di posta</trans>
+    </entry>
+    <entry>
+	<base>SUCCESSFUL_DELIVERY_DELAY</base>
+	<trans>Distribuzione dei ritardi di consegna con successo</trans>
+    </entry>
+    <entry>
+	<base>REASONS_DEFERRAL</base>
+	<trans>Ragioni for deferral(rinvio)</trans>
+    </entry>
+    <entry>
+	<base>REASONS_FAILURE</base>
+	<trans>Ragioni di fallimento(failure)</trans>
+    </entry>
+    <entry>
+	<base>BASIC_STATS</base>
+	<trans>Statistiche di base</trans>
+    </entry>
+    <entry>
+	<base>RECIP_STATS</base>
+	<trans>Statistiche destinatari</trans>
+    </entry>
+    <entry>
+	<base>RECIP_HOSTS</base>
+	<trans>Host di destinazione</trans>
+    </entry>
+    <entry>
+	<base>RECIP_ORDERED</base>
+	<trans>Destinatari ordinati per le mailing lists</trans>
+    </entry>
+    <entry>
+	<base>SENDER_STATS</base>
+	<trans>Statistiche mittenti</trans>
+    </entry>
+    <entry>
+	<base>SENDMAIL_STYLE</base>
+	<trans>Log stile Sendmail</trans>
+    </entry>
+    <entry>
+	<base>REASONS_SUCCESS</base>
+	<trans>Ragioni per il successo</trans>
+    </entry>
+    <entry>
+	<base>SENDER_UIDS</base>
+	<trans>uid mittenti</trans>
+    </entry>
+    <entry>
+	<base>INVALID_REPORT_TYPE</base>
+	<trans>Tipo di rapporto non valido:</trans>
+    </entry>
+    <entry>
+	<base>REPORT_GENERATED</base>
+	<trans>Rapporto generato:</trans>
+    </entry>
+    <entry>
+	<base>END_OF_REPORT</base>
+	<trans>Fine Rapporto</trans>
+    </entry>
+    <entry>
+	<base>Mail log file analysis</base>
+	<trans>Analisi file di log posta</trans>
+    </entry>
+
+</lexicon>

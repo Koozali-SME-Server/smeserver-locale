@@ -1,0 +1,520 @@
+<lexicon lang="pt-br">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>Collaboration</base>
+        <trans>Colaboração</trans>
+    </entry>
+    <entry>
+      <base>Administration</base>
+      <trans>Administração</trans>
+    </entry>
+    <entry>
+        <base>Security</base>
+        <trans>Segurança</trans>
+    </entry>
+    <entry>
+        <base>Configuration</base>
+        <trans>Configuração</trans>
+    </entry>
+    <entry>
+        <base>Miscellaneous</base>
+        <trans>Miscelânea</trans>
+    </entry>
+    <entry>
+        <base>Your Settings</base>
+        <trans>Suas Configurações</trans>
+    </entry>
+    <entry>
+        <base>SAVE</base>
+        <trans>Salvar</trans>
+    </entry>
+    <entry>
+        <base>CANCEL</base>
+        <trans>Cancelar</trans>
+    </entry>
+    <entry>
+        <base>ENABLED</base>
+        <trans>Habilitado</trans>
+    </entry>
+    <entry>
+        <base>DISABLED</base>
+        <trans>Desabilitado</trans>
+    </entry>
+    <entry>
+        <base>NO</base>
+        <trans>Não</trans>
+    </entry>
+    <entry>
+        <base>YES</base>
+        <trans>Sim</trans>
+    </entry>
+    <entry>
+        <base>ADD</base>
+        <trans>Adicionar</trans>
+    </entry>
+    <entry>
+        <base>CREATE</base>
+        <trans>Criar</trans>
+    </entry>
+    <entry>
+        <base>MODIFY</base>
+        <trans>Modificar</trans>
+    </entry>
+    <entry>
+        <base>REMOVE</base>
+        <trans>Remover</trans>
+    </entry>
+    <entry>
+        <base>COMMENT</base>
+        <trans>Comentário</trans>
+    </entry>
+    <entry>
+        <base>NEXT</base>
+        <trans>Próximo</trans>
+    </entry>
+    <entry>
+        <base>SELF</base>
+        <trans>Próprio</trans>
+    </entry>
+    <entry>
+        <base>REMOTE</base>
+        <trans>Remoto</trans>
+    </entry>
+    <entry>
+        <base>LOCAL</base>
+        <trans>Local</trans>
+    </entry>
+    <entry>
+        <base>ACTION</base>
+        <trans>Ação</trans>
+    </entry>
+    <entry>
+        <base>NETWORK</base>
+        <trans>Rede</trans>
+    </entry>
+    <entry>
+        <base>ROUTER</base>
+        <trans>Roteador</trans>
+    </entry>
+    <entry>
+        <base>OPERATION_STATUS_REPORT</base>
+        <trans>Relatório de status da operação</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT</base>
+        <trans>Conta</trans>
+    </entry>
+    <entry>
+        <base>GROUP</base>
+        <trans>Grupo</trans>
+    </entry>
+    <entry>
+        <base>DESC_SECTIONBAR</base>
+        <trans><![CDATA[]]></trans>
+    </entry>
+    <entry>
+        <base>NO_PIPES_ALLOWED</base>
+        <trans>Símbolos pipe (|) não são permitidos neste campo</trans>
+    </entry>
+    <entry>
+        <base>ERROR_BELOW</base>
+        <trans>ERRO: Existiu um erro na validação desta página. Favor rolar para baixo para encontrar o problema detectado.</trans>
+    </entry>
+    <entry>
+        <base>ACCESS</base>
+        <trans>Acesso</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_LOCKED</base>
+        <trans>Conta bloqueada</trans>
+    </entry>
+    <entry>
+        <base>GROUP_ADD</base>
+        <trans>Adicionar grupo</trans>
+    </entry>
+    <entry>
+        <base>NETWORKS_ALLOW_LOCAL</base>
+        <trans>Permite acesso somente da rede local</trans>
+    </entry>
+    <entry>
+        <base>NETWORKS_ALLOW_PUBLIC</base>
+        <trans>Permite acesso público (Internet inteira)</trans>
+    </entry>
+    <entry>
+        <base>ERROR_PASSWORD_CHANGE</base>
+        <trans>Ocorreu um erro enquanto tentando mudar sua senha. Por favor assegure-se de que a senha antiga digitada esteja correta.</trans>
+    </entry>
+    <entry>
+        <base>BACK</base>
+        <trans>Voltar</trans>
+    </entry>
+    <entry>
+        <base>BACKUP</base>
+        <trans>Backup</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION_BRIEF</base>
+        <trans>Breve descrição</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE</base>
+        <trans>Trocar senha</trans>
+    </entry>
+    <entry>
+        <base>RESET_PASSWORD_TITLE</base>
+        <trans>Resetar senha de usuário</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_PASSWORD_CHANGE</base>
+        <trans>Mudar a senha da conta</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>Conteúdo</trans>
+    </entry>
+    <entry>
+        <base>CREATE_GROUP</base>
+        <trans>Criar grupo de usuários</trans>
+    </entry>
+    <entry>
+        <base>USER_LIST_CURRENT</base>
+        <trans>Lista atual de usuários</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans>Descrição</trans>
+    </entry>
+    <entry>
+        <base>DESTINATION</base>
+        <trans>Destino</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME</base>
+        <trans>Nome do domínio</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN</base>
+        <trans>Domínio</trans>
+    </entry>
+    <entry>
+        <base>DOMAINS</base>
+        <trans>Domínios</trans>
+    </entry>
+    <entry>
+        <base>DOWNLOAD</base>
+        <trans>Baixar</trans>
+    </entry>
+    <entry>
+        <base>ERROR_UPDATING_CONFIGURATION</base>
+        <trans>Ocorreu erro enquanto atualizava a configuração do sistema.</trans>
+    </entry>
+    <entry>
+        <base>GROUP_MEMBERS</base>
+        <trans>Membros do Grupo</trans>
+    </entry>
+    <entry>
+        <base>GROUP_NAME</base>
+        <trans>Nome do grupo</trans>
+    </entry>
+    <entry>
+        <base>GROUPS</base>
+        <trans>Grupos</trans>
+    </entry>
+    <entry>
+        <base>IP_ADDRESS</base>
+        <trans>Endereço IP</trans>
+    </entry>
+    <entry>
+        <base>IP_ADDRESS_OR_FQDN</base>
+        <trans>Endereço IP ou FQDN</trans>
+    </entry>
+    <entry>
+        <base>USER_INVALID</base>
+        <trans>Usuário inválido</trans>
+    </entry>
+    <entry>
+        <base>LOCATION</base>
+        <trans>Localização</trans>
+    </entry>
+    <entry>
+        <base>MB</base>
+        <trans>Mb</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_USER_GROUP</base>
+        <trans>Modificar grupo de usuários</trans>
+    </entry>
+    <entry>
+        <base>NAME</base>
+        <trans>Nome</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_VERIFY_NEW</base>
+        <trans>Nova senha (verificação):</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_NEW</base>
+        <trans>Nova senha:</trans>
+    </entry>
+    <entry>
+        <base>OFF</base>
+        <trans>Desligado</trans>
+    </entry>
+    <entry>
+        <base>OK</base>
+        <trans>Ok</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_OLD</base>
+        <trans>Senha antiga:</trans>
+    </entry>
+    <entry>
+        <base>ON</base>
+        <trans>On</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD</base>
+        <trans>Senha</trans>
+    </entry>
+    <entry>
+        <base>PERFORM</base>
+        <trans>Executar</trans>
+    </entry>
+    <entry>
+        <base>RECONFIGURE</base>
+        <trans>Reconfigurar</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_USER_GROUP</base>
+        <trans>Remover grupo de usuários</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_RESET</base>
+        <trans>Resetar senha</trans>
+    </entry>
+    <entry>
+        <base>RESTORE</base>
+        <trans>Restaurar</trans>
+    </entry>
+    <entry>
+        <base>SHUTDOWN</base>
+        <trans>Desligar</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Sucesso</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME_INVALID</base>
+        <trans>O nome de conta digitado é inválido.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME_INVALID_CHARS</base>
+        <trans>O nome de conta que você digitou contém caracteres inválidos.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_OLD_INVALID_CHARS</base>
+        <trans>A senha antiga que você digitou contém caracteres inválidos.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_INVALID_CHARS</base>
+        <trans>A senha que você digitou contém caracteres inválidos.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_VERIFY_ERROR</base>
+        <trans>As senhas que você entrou não são iguais.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_USER_NONE</base>
+        <trans>Não há contas de usuário no sistema.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_GROUP_NONE</base>
+        <trans>Não existe grupo de usuários no sistema.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_INVALID_CHARS</base>
+        <trans>Caracteres inesperados na descrição.</trans>
+    </entry>
+    <entry>
+        <base>USER_NAME</base>
+        <trans>Nome do usuário</trans>
+    </entry>
+    <entry>
+        <base>YOUR_ACCOUNT</base>
+        <trans>Sua conta:</trans>
+    </entry>
+    <entry>
+      <base>YOUR_ACCOUNT_INVALID</base>
+      <trans>O nome de conta digitado é inválido.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE_SUCCESS</base>
+        <trans>Sua senha foi trocada com sucesso.</trans>
+    </entry>
+    <entry>
+        <base>FM_NONBLANK</base>
+        <trans>Este campo não pode ser deixado em branco</trans>
+    </entry>
+    <entry>
+        <base>FM_INTEGER</base>
+        <trans>Este campo tem que conter um número inteiro positivo</trans>
+    </entry>
+    <entry>
+        <base>FM_NUMBER</base>
+        <trans>Este campo tem que conter um número</trans>
+    </entry>
+    <entry>
+        <base>FM_WORD</base>
+        <trans>Este campo tem que parecer uma única palavra.</trans>
+    </entry>
+    <entry>
+        <base>FM_DATE</base>
+        <trans>A data entrada não pode ser interpretada como data</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER1</base>
+        <trans>Você tem que entrar um número de cartão de crédito</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER2</base>
+        <trans>Número de cartão de crédito só podem conter número, espaço e barra</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER3</base>
+        <trans>Tem que ter pelo menos 14 caracteres</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER4</base>
+        <trans>Não parece ser o número de um cartão de crédito válido</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY1</base>
+        <trans>Falta entrar data de expiração.</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY2</base>
+        <trans>Data de expiração tem que ter o formato MM/YY ou MM/YYYY</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY3</base>
+        <trans>Esta data de expiração parece já ter passado</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY4</base>
+        <trans>Esta data de expiração parece ser em um futuro muito distante</trans>
+    </entry>
+    <entry>
+        <base>FM_ISO_COUNTRY_CODE1</base>
+        <trans>Você tem que fornecer o código do país</trans>
+    </entry>
+    <entry>
+        <base>FM_ISO_COUNTRY_CODE2</base>
+        <trans>O campo não contem um código ISO de um país</trans>
+    </entry>
+    <entry>
+        <base>FM_US_STATE</base>
+        <trans>Isto não parece ser a abreviação de um estado americano com 2 letras</trans>
+    </entry>
+    <entry>
+        <base>FM_US_ZIPCODE</base>
+        <trans>O código ZIP americano (o CEP deles) tem que conter 5 ou 9 números</trans>
+    </entry>
+    <entry>
+        <base>FM_MINLENGTH1</base>
+        <trans>O tamanho mínimo foi especificado inexpressivamente como {$minlength}</trans>
+    </entry>
+    <entry>
+        <base>FM_MINLENGTH2</base>
+        <trans>O campo precisa conter pelo menos {$minlength} caracteres</trans>
+    </entry>
+    <entry>
+        <base>FM_MAXLENGTH1</base>
+        <trans>O tamanho máximo foi especificado inexpressivamente como {$maxlength}</trans>
+    </entry>
+    <entry>
+        <base>FM_MAXLENGTH2</base>
+        <trans>Este campo precisa conter não mais que {$maxlength} caracteres</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH1</base>
+        <trans>Você precisa especificar um tamanho para o campo.</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH2</base>
+        <trans>Você precisa especificar o comprimento máximo do campo como um número inteiro</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH3</base>
+        <trans>Este campo precisa ter exatamente {$exactlength} caracteres</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE1</base>
+        <trans>Você tem que especificar os comprimentos máximo e o mínimo para o campo.</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE2</base>
+        <trans>Você precisa especificar os comprimentos máximo e mínimo para o campo usando um número inteiro</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE3</base>
+        <trans>Este campo precisa ter entre {$minlength} e {$maxlength} caracteres</trans>
+    </entry>
+    <entry>
+        <base>FM_URL</base>
+        <trans>Este campo precisa conter uma URL começando com http:// ou ftp://</trans>
+    </entry>
+    <entry>
+        <base>FM_EMAIL_SIMPLE1</base>
+        <trans>Você precisa entrar um endereço de email.</trans>
+    </entry>
+    <entry>
+        <base>FM_EMAIL_SIMPLE2</base>
+        <trans>Este campo não parece ser um endereço de email compatível com a RFC822</trans>
+    </entry>
+    <entry>
+        <base>FM_DOMAIN_NAME</base>
+        <trans>Este campo não parece ser um endereço de domínio válido ou um nome de host.</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER1</base>
+        <trans>Este campo precisa conter um endereço IP e não pode ser deixado em branco.</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER2</base>
+        <trans>Formato do endereço IP inválido (deve ser X.X.X.X)</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER3</base>
+        <trans>{$octet} é maior que 255</trans>
+    </entry>
+    <entry>
+        <base>FM_USERNAME</base>
+        <trans>Este campo precisa parecer um nome de usuário válido (3 à 8 letras e números)</trans>
+    </entry>
+    <entry>
+        <base>FM_PASSWORD1</base>
+        <trans>Você tem que fornecer uma senha.</trans>
+    </entry>
+    <entry>
+        <base>FM_PASSWORD2</base>
+        <trans>A senha fornecida não parece ser uma boa senha. Uma boa senha tem que conter tudo o que segue: letra maiúscula, minúscula, números e caracteres não alfabéticos, e ter pelo menos 7 caracteres.</trans>
+    </entry>
+    <entry>
+        <base>FM_MAC_ADDRESS1</base>
+        <trans>Você precisa fornecer um endereço MAC.</trans>
+    </entry>
+    <entry>
+        <base>FM_MAC_ADDRESS2</base>
+        <trans>O endereço MAC fornecido não é válido.</trans>
+    </entry>
+    <entry>
+	<base>FM_ERR_UNEXPECTED_DESC</base>
+	<trans>Erro: caracter inesperado ou faltando na descrição</trans>
+    </entry>
+    <entry>
+        <base>CSRF_VALIDATION_FAILURE</base>
+        <trans>Erro: token CSRF é inválido ou está desatualizado.</trans>
+    </entry>
+</lexicon>

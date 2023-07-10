@@ -1,0 +1,174 @@
+<lexicon lang="tr" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>i-bay oluştur, değiştir veya kaldır</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> <a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify">i-bay ekle</a> </p> <p> Herhangi bir i-bay'ı silmek için, o i-bayın sonundaki komutları seçmelisiniz. Eğer i-bay kırmızı renkte gösteriliyorsa, standart şifre değerinin değiştirilmediğini göstermektedir, en yakın zamanda şifrenin değiştirilmesi gerekmektedir. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>i-bay oluştur veya değiştir</trans>
+    </entry>
+    <entry>
+        <base>NAME_FIELD_DESC</base>
+        <trans>i-bay adı sadece küçük harfer, rakamlar, tire altçizgi ve nokta içermelidir, sadece üçük harfle başlamalıdır. Örneğin "johnson", "intra" ve "cust3.prj12" geçerli, fakat "3associates", "John Smith" and "Bus!Partner" geçersizdir. İsimler en fazla {$maxLength} karakterden oluşmaktadır.</trans>
+    </entry>
+    <entry>
+        <base>NAME_LABEL</base>
+        <trans>i-bay (bilgi yuvası) adı</trans>
+    </entry>
+    <entry>
+        <base>USER_ACCESS</base>
+        <trans>Kullanıcı, erişim dosya paylaşımı veya ftp üzerinden yapılabilir</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS</base>
+        <trans>web veya anonim ftp yoluyla kamu erişimi</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS_DESCRIPTION</base>
+        <trans>Genel erişim modu "yerel ağ dışında şifre gerekir" FTP sunucusu bileşeni tarafından desteklenmemektedir şifre gereklidir. Bu modu seçerseniz, FTP sunucusuna parola gerek içeriden ve dışarıdan bu i-bay'a erişebilirsiniz.</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_DYNAMIC_CONTENT</base>
+        <trans>Dinamik içerik yürütmesi (CGI, PHP, SSI)</trans>
+    </entry>
+	<entry>
+        <base>HTTPS_Only</base>
+        <trans>Force secure connections</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>i-bay kaldır</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans><![CDATA[ <p> "{$name}" ({$description}) isimli i-bay kaldırılacak. </p> <p> bu i-baydaki bütün bilgiler silinecektir. </p> <p> Bu i-bay'ı silmek istediğinizden eminmisiniz? </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_IBAY</base>
+        <trans>i-bay oluşturulurken hata meydana geldi.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED_IBAY</base>
+        <trans>i-bay başarıyla oluşturuldu.</trans>
+    </entry>
+    <entry>
+        <base>NO_IBAYS</base>
+        <trans>Yapılandırılmış i-bay yok.</trans>
+    </entry>
+    <entry>
+        <base>CANT_FIND_IBAY</base>
+        <trans>{$name} hesabı bulunamadı (mevcut mu kontrol edin)</trans>
+    </entry>
+    <entry>
+        <base>CANT_CREATE_IBAY</base>
+        <trans>{$name} hesabı oluşturulamadı (mevcut olabilir)</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_IBAY</base>
+        <trans>i-bay yapılandırılırken hata oluştu.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED_IBAY</base>
+        <trans>i-bay başarıyla yapılandırıldı.</trans>
+    </entry>
+    <entry>
+        <base>VIRTUAL_HOST_MESSAGE</base>
+        <trans>Bazı alan adları bu i-bay'ı kullanıyor, silindiğinde bunu kullanan alan adları birincil i-bay'a bağlanacaktır (daha sonra onları istediğiniz başka birine bağlayabilirsiniz).</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED_IBAY</base>
+        <trans>i-bay başarıyla silindi.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_IBAY</base>
+        <trans>i-bay silinirken hata oluştu.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_DESC</base>
+        <trans>{$name} isimli i-bay şifresi başarıyla değiştirildi.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VALIDATION_ERROR</base>
+        <trans>Şifre sadece harfler ve rakamlardan oluşmalıdır.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VERIFY_ERROR</base>
+        <trans>Şifreler eşleşmedi.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_RESET_PASSWORD</base>
+        <trans>Şifre başarıyla resetlendi.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_RESETTING_PASSWORD</base>
+        <trans>Şifre resetlenirken hata oluştu.</trans>
+    </entry>
+    <entry>
+        <base>VHOST_MESSAGE</base>
+        <trans><![CDATA[ <P>Aşaığdaki alan adları bu i-bay'ı kullanmaktadır ve içeriği birincil i-bay'a taşınacaktır (daha sonra bunları değiştirebilirsiniz):</P> <ul>{$vhostList}</ul> ]]></trans>
+    </entry>
+    <entry>
+        <base>Information bays</base>
+        <trans>i-bay (bilgi yuvaları)</trans>
+    </entry>
+    <entry>
+        <base>WGRG</base>
+        <trans>Yazma = grup, Okuma = grup</trans>
+    </entry>
+    <entry>
+        <base>WGRE</base>
+        <trans>Yazma = grup, Okuma = herkes</trans>
+    </entry>
+    <entry>
+        <base>WARG</base>
+        <trans>Yazma = admin, Okuma = grup</trans>
+    </entry>
+    <entry>
+        <base>NONE</base>
+        <trans>Erişim yok</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_NO_PASSWORD</base>
+        <trans>Yerel ağ (şifre grekmez)</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_PASSWORD</base>
+        <trans>Yerel ağ (şifre grekir)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_NO_PASSWORD</base>
+        <trans>Bütün internet (şifre grekmez)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD</base>
+        <trans>Bütün internet (şifre grekir)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD_REMOTE</base>
+        <trans>Bütün internet (yerel ağ hariçi şifre gerekir)</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IBAY_DESCRIPTION</base>
+        <trans>Hata: i-bay açıklamasında geçersiz karakter bulunuyor</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>i-bay adı "{$acctName}" geçersiz karakter içeriyor. i-bay isimleri küçük harf veya rakalma başlamalı ve küçük harf, rakam ve nokta içerebilir.</trans>
+    </entry>
+    <entry>
+        <base>MAX_IBAY_NAME_LENGTH_ERROR</base>
+        <trans>i-bay adı "{$name}" çok uzun. En fazla {$maxIbayNameLength} karakterden oluşmalıdır.</trans>
+    </entry>
+    <entry>
+        <base>ACCT_CLASHES_WITH_PSEUDONYM</base>
+        <trans><![CDATA[ "{$acctName}" hesabı, {$acctType} hesap çeşidi "{$acct}" takma adıyla çakışıyor . <p>{$acctName}, {$acct} nın takma adıdır.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_EXISTS</base>
+        <trans>"{$acctName}" hesabı {$acctType} hesabıyla çeşidindedir.</trans>
+    </entry>
+</lexicon>

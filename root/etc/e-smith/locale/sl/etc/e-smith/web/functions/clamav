@@ -1,0 +1,38 @@
+<lexicon lang="sl">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Nastavitve protivirusne zascite</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FILESYSTEM_SCAN_PERIOD</base>
+        <trans>Preisci celoten datotecni sistem</trans>
+    </entry>
+    <entry>
+        <base>DESC_FILESYSTEM_SCAN_PERIOD</base>
+        <trans><![CDATA[ <h2>Splosne nastavitve</h2> Ce je ta opcija izbrana, potem bo celoten datotecni sistem pregledan. Ce bo najdena okuzena datoteka, bo le ta nemudoma sporocena administratorju.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_QUARANTINE</base>
+        <trans>Okozene datoteke v karanteno</trans>
+    </entry>
+    <entry>
+        <base>LABEL_CLAM_VERSIONS</base>
+        <trans>ClamAV in verzije podatkovne baze</trans>
+    </entry>
+    <entry>
+      <base>WEEKLY</base>
+      <trans>Tedensko</trans>
+    </entry>
+    <entry>
+      <base>NEVER</base>
+      <trans>Nikoli</trans>
+    </entry>
+    <entry>
+      <base>DAILY</base>
+      <trans>Dnevno</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Nove nastavitve za clamav antivirus so shranjene.</trans>
+    </entry>
+</lexicon>

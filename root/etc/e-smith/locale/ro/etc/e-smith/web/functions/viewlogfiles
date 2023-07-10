@@ -1,0 +1,83 @@
+<lexicon lang="ro">
+    <entry>
+        <base>View log files</base>
+        <trans>Vizualizează log</trans>
+    </entry>
+
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[Acest panou vă permite să vizualizați sau descărcați fișierele de log generate de server. ]]></trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_SELECT_DESC</base>
+        <trans>Alege un fișier de evidență</trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>Puteți opta pentru un anume model de filtru în fișierul de evidență, numai liniile ce au modelul impus vor fi afișate . Dacă nu completați nimic toate înregistrările din fișierul de evidență vor fi afișate. Luați aminte că această opțiune nu este utilizată daca optați pentu tranferul fișierului.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_LABEL</base>
+        <trans>Model filtru (opțional)</trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>Puteți specifica opțional un filtru ce va fi adus in atenție prin ingroșarea liniilor din log ce vor fi conforme filtrului. Filtrul va fi aplicat oricărei linii din log ce a fost identificata ca conformă. Notă: această opțiune nu se aplică la descărcarea logului.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_LABEL</base>
+        <trans>Filtru de evidențiere (opțional) </trans>
+    </entry>
+    <entry>
+        <base>END_DESC</base>
+        <trans>Notă: este posibil ca generarea raportului să dureze câteva minute.</trans>
+    </entry>
+    <entry>
+        <base>VIEW</base>
+        <trans>Vizualizează log</trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_EMPTY</base>
+        <trans>Fișierul de log "{$filename}" este gol!</trans>
+    </entry>
+    <entry>
+        <base>VIEWING_TIME</base>
+        <trans>Vizualizat la {$time}.</trans>
+    </entry>
+    <entry>
+        <base>MATCH_HEADER</base>
+        <trans>Listare linii conforme filtru: "{$matchPattern}".</trans>
+    </entry>
+    <entry>
+        <base>HIGHLIGHT_HEADER</base>
+        <trans>Ingrosare linii conforme: "{$highlightPattern}".</trans>
+    </entry>
+    <entry>
+        <base>NO_MATCHING_LINES</base>
+        <trans>Nici o linie nu e conforma cu filtrul.</trans>
+    </entry>
+    <entry>
+        <base>FILENAME_ERROR</base>
+        <trans><![CDATA[ <p>Eroare în numele fișierului de log.</p> <p>Tip de raport invalid "{$filename}".</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>REFRESH</base>
+	<trans>Actualizează acest fisier de log.</trans>
+    </entry>
+    <entry>
+	<base>OP_DESC</base>
+	<trans><![CDATA[ <p>Trebuie să alegeți intre vizualizarea pe monitor sau descărcare pe computer. Dacă fișierul de log este foarte mare, probabil că doriți să îl descărcați decât să îl vizualizați direct, deoarece poate crea probleme unor browsere de internet.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>OP_LABEL</base>
+	<trans>Operație</trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_PAGE_DESC</base>
+	<trans><![CDATA[ <p>Fișierul de evidență este pregătit. Tranferul va contiuna imediat ce se apasă butonul &quot;Next&quot; de mai jos și veti accepta ferestrele de confirmare ce vor apare în browserului dumneavoastră.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_FILE</base>
+	<trans>Pregtire tranfer fișier de evidență {$logfile}.</trans>
+    </entry>
+</lexicon>

@@ -1,0 +1,84 @@
+<lexicon lang="hu">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Felhasználói csoportok létrehozása, módosítása, vagy törlése</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_TOO_LONG</base>
+        <trans>Hiba: a csoport neve túl hosszú. Legfeljebb {$maxLength} karakter hosszúságú lehet.</trans>
+    </entry>    
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>Hiba: A "{$group}" nevű csoport nem hozható létre, mert már van egy ilyen nevű {$type} fiók.</trans>
+    </entry>    
+    <entry>
+        <base>INVALID_GROUP_DESCRIPTION</base>
+        <trans>Hiba: nem várt, vagy hiányzó karakterek a csoport leírásában</trans>
+    </entry>
+    <entry>
+        <base>NO_MEMBERS</base>
+        <trans>Hiba: nincsenek tagok a csoportban. Nincs új csoport létrehozva.</trans>
+    </entry>
+    <entry>
+        <base>CREATED_GROUP</base>
+        <trans>Felhasználói csoport sikeresen létrehozva</trans>
+    </entry> 
+    <entry>
+        <base>DELETED_GROUP</base>
+        <trans>Felhasználói csoport sikeresen törölve</trans>
+    </entry> 
+    <entry>
+        <base>MODIFIED_GROUP</base>
+        <trans>Felhasználói csoport sikeresen módosítva</trans>
+    </entry>	
+    <entry>
+        <base>CREATE_ERROR</base>
+        <trans>Hiba történt a felhasználói csoport létrehozásakor.</trans>
+    </entry> 
+    <entry>
+        <base>DELETE_ERROR</base>
+        <trans>Hiba történt a felhasználói csoport törlésekor.</trans>
+    </entry> 
+    <entry>
+        <base>MODIFY_ERROR</base>
+        <trans>Hiba történt a felhasználói csoport módosításakor.</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_NAMING</base>
+        <trans><![CDATA[ A csoportnév csak kisbetűket, számokat, elválasztójeleket, pontokat és aláhúzásokat tartalmazhat és csak kisbetűvel kezdődhet. Például a "titkarsag", "reszleg5", és "gyarto_uzem" érvényes csoportnevek, de a "hr-iroda", "Marketing Team" és a "lost&found" nem. ]]></trans>
+    </entry>
+    <entry>
+        <base>GROUP_HAS_MEMBERS</base>
+        <trans>Ennek a csoportnak a tagjai:</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_GROUP</base>
+        <trans>Hiba: Ez egy nem létező csoport.</trans>
+    </entry>
+    <entry>
+        <base>GROUP_DESC</base>
+        <trans>Rövid leírás/Windows csoport alias-név</trans>
+    </entry>
+   <entry>
+        <base>GROUP_DESC_EXPL</base>
+        <trans>Írja be a lenti mezőbe a csoport rövid leírását. Ez a leírás látható lesz a Windows munkaállomásokon is.</trans>
+   </entry>
+
+
+    <entry>
+        <base>IBAYS_WILL_BE_CHANGED</base>
+        <trans>A következő adattárak hozzá lettek rendelve ehhez a csoporthoz és az Administrator csoporthoz (késöbb ez megváltoztatható):</trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DELETE_GROUP</base>
+        <trans><![CDATA[ <p><b>Biztos el kívánja távolítani ezt a csoportot?</b></p> ]]></trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST</base>
+        <trans><![CDATA[<p>Felhasználói csoportok listája</p>]]></trans>
+    </entry>
+    <entry>
+		<base>DELETE_DESCRIPTION</base>
+       	<trans><![CDATA[ Most készül eltávolítani a(z) "<b>{$group}</b>" felhasználói csoportot]]></trans>
+    </entry>
+</lexicon>

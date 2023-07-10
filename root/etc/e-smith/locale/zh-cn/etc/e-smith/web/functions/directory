@@ -1,0 +1,79 @@
+<lexicon lang="zh-cn">
+   <entry>
+     <base>FORM_TITLE</base>
+       <trans>改变LDAP目录设置</trans>
+   </entry>	
+<entry>
+<base>LABEL_ROOT</base>
+<trans>Server root</trans>
+</entry>
+
+<entry>
+<base>DESCRIPTION</base>
+<trans>LDAP 服务器提供了在服务器上的用户帐户和群组的可用列表，并且可以通过使用一个LDAP客户端（如Netscape Communicator的地址簿功能）来访问。使用服务器的本地IP，端口号389来设置LDAP客户端，服务器的根参数如下。</trans>
+</entry>
+<entry>
+<base>DESC_DIRECTORY_ACCESS</base>
+<trans>您可以控制对LDAP目录的访问：“私有”设置只允许从本地网络访问，“公开”设置允许从互联网的任何地方访问。</trans>
+</entry>
+<entry>
+<base>DIRECTORY_ACCESS</base>
+<trans>LDAP 目录访问</trans>
+</entry>
+<entry>
+	<base>DESC_DEPARTMENT</base>
+<trans>这些字段是LDAP的默认值。当您创建了一个新的用户账号，您将会被提示输入所有这些字段（每个用户可能不一样），但是在此处设置的值将会被视为默认值。这样可以方便快速地创建用户账号。</trans>
+</entry>
+<entry>
+        <base>DEPARTMENT</base>
+        <trans>默认的部门</trans>
+</entry>
+
+<entry>
+        <base>COMPANY</base>
+        <trans>默认的公司</trans>
+</entry>
+<entry>
+        <base>STREET</base>
+        <trans>默认的街道地址</trans>
+</entry>
+
+<entry>
+        <base>CITY</base>
+        <trans>默认的城市</trans>
+</entry>
+
+<entry>
+        <base>PHONENUMBER</base>
+        <trans>默认的电话号码</trans>
+</entry>
+
+<entry>
+<base>DESC_EXISTING</base>
+<trans>您既可以让已存在的用户保持原样、让新用户使用上述默认值，也可以将上述默认值应用到所有已存在用户。</trans>
+</entry>
+
+
+
+<entry>
+<base>EXISTING</base>
+<trans>已存在的用户</trans>
+</entry>
+<entry>
+<base>SUCCESS</base>
+<trans>LDAP 默认设置已被保存。</trans>
+</entry>
+
+<entry>
+<base>LEAVE</base>
+<trans>保持原样</trans>
+</entry>
+<entry>
+<base>UPDATE</base>
+<trans>更新默认值</trans>
+</entry>
+    <entry>
+        <base>Directory</base>
+        <trans>目录</trans>
+    </entry>
+</lexicon>

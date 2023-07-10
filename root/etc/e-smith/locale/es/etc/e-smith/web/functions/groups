@@ -1,0 +1,84 @@
+<lexicon lang="es">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Crear, modificar o eliminar grupos de usuarios</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_TOO_LONG</base>
+        <trans>Error: el nombre del grupo es demasiado largo. El máximo es de {$maxLength} caracteres.</trans>
+    </entry>    
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>Error: el grupo "{$group}" no se puede crear porque ya hay una cuenta {$type} con ese nombre.</trans>
+    </entry>    
+    <entry>
+        <base>INVALID_GROUP_DESCRIPTION</base>
+        <trans>Error: caracteres erróneos o faltantes en la descripción del grupo</trans>
+    </entry>
+    <entry>
+        <base>NO_MEMBERS</base>
+        <trans>Error: no hay miembros en el grupo. No se creó el nuevo grupo.</trans>
+    </entry>
+    <entry>
+        <base>CREATED_GROUP</base>
+        <trans>Se creó con éxito el grupo de usuario</trans>
+    </entry> 
+    <entry>
+        <base>DELETED_GROUP</base>
+        <trans>Se eliminó con éxito el grupo de usuario</trans>
+    </entry> 
+    <entry>
+        <base>MODIFIED_GROUP</base>
+        <trans>Se modificó con éxito el grupo de usuario</trans>
+    </entry>	
+    <entry>
+        <base>CREATE_ERROR</base>
+        <trans>Ocurrió un error al crear el grupo de usuario.</trans>
+    </entry> 
+    <entry>
+        <base>DELETE_ERROR</base>
+        <trans>Ocurrió un error al eliminar el grupo de usuario.</trans>
+    </entry> 
+    <entry>
+        <base>MODIFY_ERROR</base>
+        <trans>Ocurrió un error al modificar el grupo de usuario.</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_NAMING</base>
+        <trans><![CDATA[ El nombre del grupo debe contener sólo letras minúsculas números, puntos, guiones y subguiones, y debe comenzar con una letra minúscula. Por ejemplo, "ventas", "beta5", y "clientes_vip" son todos nombres de grupo válidos, pero "3asociados", "Juan Smith" y "Equipo de Marketing" no lo son. ]]></trans>
+    </entry>
+    <entry>
+        <base>GROUP_HAS_MEMBERS</base>
+        <trans>Este grupo contiene los siguientes miembros:</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_GROUP</base>
+        <trans>Error: Esa no es una cuenta de grupo existente.</trans>
+    </entry>
+    <entry>
+        <base>GROUP_DESC</base>
+        <trans>Breve Descripción/Alias de Grupo de Windows</trans>
+    </entry>
+   <entry>
+        <base>GROUP_DESC_EXPL</base>
+        <trans>Ingrese una breve descripción en el campo inferior. Este campo también designa el nombre de grupo visible por los clientes Windows.</trans>
+   </entry>
+
+
+    <entry>
+        <base>IBAYS_WILL_BE_CHANGED</base>
+        <trans>Las siguientes bahías de información se asignaron a este grupo y se cambiarán al grupo del Administrador (puede cambiarlas posteriormente a otra cosa):</trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DELETE_GROUP</base>
+        <trans><![CDATA[ <p><b>¿Está seguro de que desea eliminar este grupo?</b></p> ]]></trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST</base>
+        <trans><![CDATA[<p>Lista actual de Grupos de Usuario</p>]]></trans>
+    </entry>
+    <entry>
+		<base>DELETE_DESCRIPTION</base>
+       	<trans><![CDATA[ Está a punto de eliminar el grupo de usuario "<b>{$group}</b>". ]]></trans>
+    </entry>
+</lexicon>

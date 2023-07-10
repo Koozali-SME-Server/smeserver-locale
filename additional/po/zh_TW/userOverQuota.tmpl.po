@@ -1,0 +1,49 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:15
+msgid "Automated quota report"
+msgstr "自動回報磁碟分配容量"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:17
+msgid "You have exceeded your disk quota"
+msgstr "您已經超過您的磁碟分配容量"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:19
+msgid "Your current disk usage:"
+msgstr "您目前磁碟的使用量："
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:20
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:23
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:25
+msgid "Mb"
+msgstr "百萬位元(Mb)"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:21
+msgid "Your maximum usage:"
+msgstr "您的最大使用量："
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:22
+msgid " no limit set"
+msgstr "無限制設定"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:24
+msgid "Warnings start at:"
+msgstr "警告將開始於："
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:26
+msgid "Grace period ends:"
+msgstr "寬限期將結束於："
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:27
+msgid "System name:"
+msgstr "系統名稱："
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:29
+msgid "You are currently using more disk space than you have been allotted. You have until the Grace Period above to remove files so that you no longer exceed the warning level. At no time will you be permitted to store more than the maximum usage indicated above. This disk allocation includes all your e-mail, including unread e-mail."
+msgstr "您目前使用的磁碟空間已經超過您的配置容量。您必須在寬限期之前刪除文件，以便不再列入警告。您已不再被允許儲存超過上述指定的最大磁碟容量。該磁碟容量包含您全部的電子郵件，也包括尚未讀取的新郵件。"

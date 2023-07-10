@@ -1,0 +1,749 @@
+<lexicon lang="nb">
+  <entry>
+   <base>BACKUP_TITLE</base>
+   <trans>Lag sikkerhetskopi eller gjenopprett server data</trans>
+  </entry>
+  <entry>
+   <base>BACKUP_DESC</base>
+   <trans><![CDATA[ <P>Serveren har to mulige måter å sikkerhetskopiere og gjenopprette din server: Dit lokale skrivebord, eller tapestasjon.</P> <P>Den første metoden oppretter en kopi av server oppsettet og brukernes datafiler, og lagerer den på skrivebordet ditt via nettleseren. Konfigurasjonsfilene og bruker datafilene er ca <b>$tarsize</b> store. Backupfilen er noe mindre en dette avhengig av hvor komprimerbar dataene er. \"Verifiser skrivebord backup filen\" valget kan brukes til å sjekke integriteten til skrivebords backupfilen.</P> <P>Tape backup metoden bruker et program kalt <I>$module</I> til å ta backup av hele harddisken til tape hver natt. Det krever en støttet tapestasjon og en tape som ikke er skrivebeskyttet. Backup blir kjørt automatisk til valgt tid hver natt (med en påminnelse automatisk sendt på e-post til administrator i løpet av dagen). Nå inneholder harddisken <b>$dumpsize</b> med data.</P> <P>Begge gjenopprettings metoder tillater å gjenopprette oppsett og bruker datafiler. <b>Ideelt, bør gjenoppretting foretas på en nyinstallert server</b>.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_DESC_DAR</base>
+   <trans><![CDATA[ <P>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</P> <P>Tape Backup. This method uses a software package called <I>$module</I> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>$dumpsize</b> of data.</P> <P>Workstation backup. This method uses a software package called <I>dar</I> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>$tarsize</b> uncompressed. Twice the compressed data size must be available on the backup share.</P> <P>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>$tarsize</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</P> <P>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_CONFIG_STATUS</base>
+   <trans>Sikkerhetskopi oppsett og status</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUPS_ENABLED</base>
+   <trans><![CDATA[ sikkerhetskopi til bånd er for tiden <b>aktiveret</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUPS_RUN_AT</base>
+   <trans>Sikkerhetskopi til tape vil foregå kl.:</trans>
+  </entry>
+  <entry>
+   <base>REMINDER_MESSAGE_AT</base>
+   <trans>Påminnelses e-post vil bli sendt:</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUPS_DISABLED</base>
+   <trans><![CDATA[ sikkerhetskopi til tape er <b>deaktiveret</b> ]]></trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_BACKUP</base>
+   <trans>Sikkerhetskopi til arbeidsstasjon</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_RESTORE</base>
+   <trans>Gjenopprett fra arbeidsstasjon</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_VERIFY</base>
+   <trans>Undersøk sikkerhetskopi til arbeidsstasjon</trans>
+  </entry>
+  <entry>
+   <base>TAPE_CONFIGURE</base>
+   <trans>Oppsett av sikkerhetskopi til bånd</trans>
+  </entry>
+  <entry>
+   <base>TAPE_RESTORE</base>
+   <trans>Gjenopprett fra bånd</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS_BEGAN_AT</base>
+   <trans>Gjenopprettelsen er i gang. Den startet:</trans>
+  </entry>
+  <entry>
+   <base>REFRESH_THIS_DISPLAY</base>
+   <trans>Gjenoppfrisk skjerm</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_TAPE_BACKUP</base>
+   <trans>Oppsett av sikkerhetskopi til bånd</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_COMPLETED</base>
+   <trans>Systemgjenopprettelsen er fullført</trans>
+  </entry>
+  <entry>
+   <base>STARTED_AT</base>
+   <trans>Starttid:</trans>
+  </entry>
+  <entry>
+   <base>FINISHED_AT</base>
+   <trans>sluttid:</trans>
+  </entry>
+  <entry>
+   <base>YOU_MUST_REBOOT</base>
+   <trans>Du må starte om serveren for å aktivere endringerne fra gjenopprettelsen.</trans> 
+  </entry> 
+  <entry>
+   <base>REBOOT</base>
+   <trans>Restart</trans>
+  </entry>
+  <entry>
+   <base>SELECT_AN_ACTION</base>
+   <trans>Velg en aktivitet</trans>
+  </entry>
+  <entry>
+   <base>X_BACKUP_OR_RESTORE</base>
+   <trans>X Sikkerhetskopi eller gjenopprett server data</trans>
+  </entry>
+  <entry>
+   <base>ERR_PRE_BACKUP</base>
+   <trans>Det skjedde en feil under klargøring av sikkerhetskopien.</trans>
+  </entry>
+  <entry>
+   <base>ERR_PRE_RESTORE</base>
+   <trans>Det skjedde en feil under klargøring av gjenopprettelsen.</trans>
+  </entry>
+  <entry>
+   <base>ERR_POST_BACKUP</base>
+   <trans>Det skjedde en feil under etterbehandling av sikkerhetskopien.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_SERVER_CONFIG</base>
+   <trans>gjenopprett serverOppsett</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_RESTORE_DESC</base>
+   <trans><![CDATA[ Denne prosess vil hente en sikkerhetskopi fra din arbeidsstasjon til serveren og gjenopprette serveroppsett og brukerdata. <B>gjenopprettelsen bør utføres på en nyinstalleret server</B>. ]]></trans>
+  </entry>
+  <entry>
+   <base>FREE_SPACE</base>
+   <trans><![CDATA[ Du har omtrent $tmpfree ledig plass på serveren. Kontroller at sikkerhetskopien er mindre en $halffree innen du utfører gjenopprettingen. ]]></trans>
+  </entry>
+  <entry>
+   <base>MUST_REBOOT_AFTER_RESTORE</base>
+   <trans>etter at gjenopprettelsen er gjennomført, skal du starte om serveren.</trans>
+  </entry>
+  <entry>
+   <base>FILE_TO_RESTORE</base>
+   <trans>Hent sikkerhetskopien fra</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_BACKUP_DESC</base>
+   <trans><![CDATA[Dette valget vil vise filnavnene i tidligere opprettede sikkerhetskopi til arbeidsstasjon. Du kan bruke denne mulighet til å kontrollere innholdet i sikkerhetskopien.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>SELECT_BACKUP_FILE</base>
+   <trans>Velg sikkerhetskopi</trans>
+  </entry>
+  <entry>
+   <base>VERIFY</base>
+   <trans>Kontroller</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CANNOT_PROCEED</base>
+   <trans>Kan ikke fortsette med gjenopprettelse av serverOppsettet</trans>
+  </entry>
+  <entry>
+   <base>ANOTHER_RESTORE_IN_PROGRESS</base>
+   <trans>En annen gjenopprettelse er i gang. Venligst forsøk igen senere.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS</base>
+   <trans>gjenopprettelse er i gang</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS_DESC</base>
+   <trans>Etter at gjenopprettelsen er utført må du starte om serveren. Gjenopprettelsen er gjennomført når ordene "gjenopprettelse gjennomført" dukker opp i bunnen av skjermen.</trans>
+  </entry>
+  <entry>
+   <base>FILES_HAVE_BEEN_RESTORED</base>
+   <trans>Følgende filer og biblioteker er blit gjenopprettet:</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FAILED_MSG</base>
+   <trans>gjenopprettelsen feilet! Det oppsto en feil under lesing av sikkerhetskopien.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_COMPLETE</base>
+   <trans>gjenoppretting gjennomført</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_GID</base>
+   <trans>feil under gjenoppretting av gid for 'www'</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_INITIAL_GRP</base>
+   <trans>feil under gjenoppretting av innledende gruppe 'www'.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FAILED</base>
+   <trans>gjenopprettelsen feilet! sikkerhetskopien var ikke komplett.</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_EXEC_PIPELINE</base>
+   <trans>Kunne ikke utføre sikkerhetskopi-forbinnelseslinje:</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_DECODE</base>
+   <trans>Kunne ikke avkode sikkerhetskopien:</trans>
+  </entry>
+  <entry>
+   <base>FILES_IN_BACKUP</base>
+   <trans>Sikkerhetskopien inneholder følgende filer :</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_COMPLETE</base>
+   <trans>Kontrollen er gjennomført</trans>
+  </entry>
+  <entry>
+   <base>BACKUP_FILE_INCOMPLETE</base>
+   <trans>sikkerhetskopien var ikke komplett</trans>
+  </entry>
+  <entry>
+   <base>ERR_READING_FILE</base>
+   <trans>Der opstod en feil under lesing av sikkerhetskopien.</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_DISABLE_TAPE</base>
+   <trans>Slå på/av nattlig sikkerhetskopi til bånd</trans>
+  </entry>
+  <entry>
+   <base>TAPE_CONFIG_DESC</base>
+   <trans><![CDATA[ <p>Velg om du ønsker å kjøre backup på natten. Velg så ønsket starttid for backup jobben, og ønsket tid for å sende ut påminnelse om å sette inn tapeen.</p> <p>Tape backupen krever en støttet stasjon. En advarsel vil bli sendt til administratoren til angitt tid dersom tapestasjonen er tom.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>ENABLE_TAPE_BACKUP</base>
+   <trans>Slå på sikkerhetskopi til bånd</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUP_TIME</base>
+   <trans>Tidspunkt for sikkerhetskopiering (timer(0-11)/min(0-59))</trans>
+  </entry>
+  <entry>
+   <base>LOAD_TAPE_REMINDER_TIME</base>
+   <trans>Tidspunkt for påminnelse for å sette i tape (timer(0-11)/min(0-59))</trans>
+  </entry>
+  <entry>
+   <base>AM/PM</base>
+   <trans>AM (før middag) / PM (etter middag)</trans>
+  </entry>
+  <entry>
+   <base>AM</base>
+   <trans>AM (før middag)</trans>
+  </entry>
+  <entry>
+   <base>PM</base>
+   <trans>PM (etter middag)</trans>
+  </entry>
+  <entry>
+   <base>UPDATE_CONF</base>
+   <trans>Oppdater</trans>
+  </entry>
+  <entry>
+   <base>UPDATING_TAPE_CONF</base>
+   <trans>Oppdaterer Oppsett av sikkerhetskopi til bånd</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_HOUR</base>
+   <trans>feil: Ulovlig sikkerhetskopi time:</trans>
+  </entry>
+  <entry>
+   <base>BETWEEN_0_AND_12</base>
+   <trans>Velg en time mellom 0 og 12.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_MINUTE</base>
+   <trans>feil: Ulovligt sikkerhetskopi minutt:</trans>
+  </entry>
+  <entry>
+   <base>BETWEEN_0_AND_59</base>
+   <trans>Velg et minutt mellom 0 og 59.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_REMINDER_HOUR</base>
+   <trans>Feil: ulovlig påminnelses time:</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_REMINDER_MINUTE</base>
+   <trans>Feil: ugyldig påminnelse minutt:</trans>
+  </entry>
+  <entry>
+   <base>ERR_CONF_BACKUP</base>
+   <trans>Der skjedde en feil under conf-backup begivenheten.</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_ENABLED_TAPE</base>
+   <trans>Oppsett av sikkerhetskopi til bånd lyktes</trans>
+  </entry>
+  <entry>
+   <base>WITH_BACKUP_TIME</base>
+   <trans>med tidspunktet:</trans>
+  </entry>
+  <entry>
+   <base>WITH_REMINDER_TIME</base>
+   <trans>og sett i tape påminnelsestid:</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_DISABLED</base>
+   <trans>Det ble slått av for sikkerhetskopi til bånd</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_TAPE</base>
+   <trans>gjenopprett fra bånd</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_TAPE_DESC</base>
+   <trans><![CDATA[ <P>Denne prosess vil gjenopprette serverOppsett og brukerdata fra en sikkerhetskopi på bånd. <B>gjenopprettelsen bør foregå på en nyinstallert server</B>.</P> <P>Du må forsikre deg om, at det rette bånd er satt inn i båndstasjonen innen gjenoppretting.</P> <P>etter gjenopprettelsen skal serveren starte på nytt.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FROM_TAPE</base>
+   <trans>gjenopprett fra bånd</trans>
+  </entry>
+  <entry>
+   <base>UNABLE_TO_RESTORE_CONF</base>
+   <trans>Kan ikke gjenopprette serverOppsettet</trans>
+  </entry>
+  <entry>
+   <base>RESTORING_FROM_TAPE</base>
+   <trans>gjenoppretter fra bånd</trans>
+  </entry>
+  <entry>
+   <base>NOW_RESTORING_FROM_TAPE</base>
+   <trans>ServerOppsett og brukerdata blir gjenopprettet fra bånd.</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_FROM_TAPE</base>
+   <trans>Det skjedde en feil under gjenopprettelsen fra bånd.</trans>
+  </entry>
+  <entry>
+   <base>ERR_UPDATING_CONF_AFTER_TAPE_RESTORE</base>
+   <trans>Der skjedde en feil under oppdatering av serverOppsettet etter båndgjenopprettelsen.</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_FORK</base>
+   <trans>Følgende kunne ikke deles ut:</trans>
+  </entry>
+  <entry>
+   <base>SERVER_REBOOT</base>
+   <trans>ServerRestart</trans>
+  </entry>
+  <entry>
+   <base>SERVER_WILL_REBOOT</base>
+   <trans>Din server vil starte på nytt.</trans>
+  </entry>
+  <entry>
+   <base>NO_UID_FOR_NAME</base>
+   <trans>Kunne ikke finne brukerID for brukeren:</trans>
+  </entry>
+  <entry>
+   <base>PAGE_REFRESH_IN</base>
+   <trans><![CDATA[ Siden vil Gjenoppfiske statusvisningen om {$sec} sekunder, ellers klikk <a href="/server-manager/cgi-bin/backup">her</a>. ]]></trans>
+  </entry>
+    <entry>
+	<base>Backup or restore</base>
+	<trans>sikkerhetskopi eller gjenoppretting</trans>
+    </entry>
+
+  <entry>
+	<base>BACKUP_DESKTOP_TOO_BIG</base>
+	<trans><![CDATA[ <div class="error"> Din server har for mye data til en pålitlig sikkerhetskopi til arbeidsstasjon. </div> ]]></trans>
+  </entry>
+   <entry>
+   <base>WORKSTN_BACKUPS_DISABLED</base>
+   <trans><![CDATA[ sikkerhetskopi til lokalnett er <b>deaktivert</b> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUPS_ENABLED</base>
+   <trans><![CDATA[ sikkerhetskopi til lokalnett er <b>aktivert</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>WKBACKUPS_RUN_AT</base>
+   <trans>sikkerhetskopi til lokalnett vil foregå kl.:</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_CONFIGURE</base>
+   <trans>Oppsett av sikkerhetskopi til lokalnett</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_VERIFY</base>
+   <trans>Kontroller sikkerhetskopi på lokalnett</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_RESTORE</base>
+   <trans>gjenopprett fra lokalnett</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_WORKSTN_BACKUP</base>
+   <trans>sett opp sikkerhetskopi til lokalnett</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_DISABLE_WORKSTN</base>
+   <trans>Aktiver/deaktiver daglig sikkerhetskopi til lokalnett</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_WORKSTN_BACKUP</base>
+   <trans>Aktiver sikkerhetskopi til lokalnett</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TIME</base>
+   <trans>Tidspunkt for sikkerhetskopi (time/min)</trans>
+  </entry>
+  <entry>
+   <base>UPDATING_WORKSTN_CONF</base>
+   <trans>Oppdaterer innstillinger for sikkerhetskopi</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_ENABLED_WORKSTN</base>
+   <trans>sikkerhetskopi til lokalnett er aktivert</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_DISABLED_WORKSTN</base>
+   <trans>sikkerhetskopi til lokalnett er deaktivert</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_WORKSTN_BACKUP_FILE</base>
+   <trans>Kontroller sikkerhetskopi på lokalnett</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_WORKSTN_BACKUP_DESC</base>
+   <trans><![CDATA[ Denne muligheten vil vise navnene på alle filer i sikkerhetskopien og kan brukes til å bekrefte sikkerhetskopiens innhold.<b> Du må velge den sikkerhetskopi du ønsker å undersøke</b></p> <p>Kun filer merket med [Lagret] ligger i sikkerhetskopien.</p> Filene i sikkerhetskopien blir kontrolleret fra den delte mappe: ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_WORKSTN</base>
+   <trans>gjenopprett fra lokalnett</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_WORKSTN_DESC</base>
+   <trans><![CDATA[ <p>Denne proces vil gjenopprettne Oppsett og brukerdata fra en sikkerhetskopi på lokalnetet. <b>gjenopprettelsen bør utføres på en nyinstalleret server</b>.</p> <p>Du må sikre dig at du velger den rigtige sikkerhetskopi innen du fortsetter.</p> <p>etter gjenopprettelsen skal serveren starte oms.</p> gjenopprettelsen vil ske fra: ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FROM_WORKSTN</base>
+   <trans>Gjenopprett fra lokalnett</trans>
+  </entry>
+  <entry>
+   <base>RESTORING_FROM_WORKSTN</base>
+   <trans>Gjenoppretter fra lokalnett</trans>
+  </entry>
+  <entry>
+   <base>NOW_RESTORING_FROM_WORKSTN</base>
+   <trans>Ditt serveroppsett og brukerdata holder på å bli innlest fra en delt mappe på lokalnettet.</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_FROM_WORKSTN</base>
+   <trans>Det har skjedd en feil under gjenoppretting fra lokalnettet.</trans>
+  </entry>
+  <entry>
+   <base>ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE</base>
+   <trans>Det har skjedd en feil med serveroppsettet etter geninnlesing av sikkerhetskopien fra lokalnettet.</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_NAME</base>
+   <trans>Arbeidsstasjonens IP-adresse eller vertsnavn</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SETTINGS</base>
+   <trans>Innstillinger for sikkerhetskopi</trans>
+  </entry>
+  <entry>
+   <base>SHARED_FOLDER_NAME</base>
+   <trans>Delt mappe for sikkerhetskopi</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_LOGIN</base>
+   <trans>Brukernavn</trans>
+  </entry>
+  <entry>
+   <base>WORKSTATION_BACKUP_DEST</base>
+   <trans>Innstillinger for sikkerhetskopi til lokalnett</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_WORKSTN_BACKUP_DESC</base>
+   <trans>Du kan innstille et antall sikkerhetskopisett med automatisk rullering. Hvert sikkerhetskopisett kan inneholde data for en rekke etterfølgende dager. Den første sikkerhetskopien i et sett inneholder en full sikkerhetskopi, mens etterfølgende daglige kopier kun inneholder endrede eller tilføyde data. Det kan settes tidsgrense for sikkerhetskopisett eller for antallet av tilføyde dager. Når denne grensen nås stoppes sikkerhetskopisettet og det neste sikkerhetskopisettet vil fortsette først med en full kopi og deretter med nye og endrede data.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_WORKSTN</base>
+   <trans>Ugyldig IPadresse eller vertsnavn for arbeidsstasjon</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_FOLDER</base>
+   <trans>Ugyldigt navn på delt mappe</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_LOGIN</base>
+   <trans>Ugyldigt brukernavn</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_PASSWORD</base>
+   <trans>Ugyldig passord</trans>
+  </entry>
+  <entry>
+   <base>ERR_ALREADY_MOUNTED</base>
+   <trans>Backup directory is already mounted</trans>
+  </entry>
+  <entry>
+   <base>ERR_MOUNTING_SMBSHARE</base>
+   <trans>Var ikke i stand til å montere arbeidsstasjonens delte mappe</trans>
+  </entry>
+  <entry>
+   <base>ERR_NOT_MOUNTED</base>
+   <trans>sikkerhetskopien ble ikke funnet</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_NOT_SET</base>
+   <trans>Du må først sette opp sikkerhetskopien til lokalnettet korrekt</trans>
+  </entry>
+  <entry>
+   <base>NO_BACKUPS_TO_RESTORE</base>
+   <trans>Der er ikke sat oppt noen sikkerhetskopisett til delte mapper på lokalnettet. Kontroller oppsettet ditt.</trans>
+  </entry>
+  <entry>
+   <base>NUMBER_OF_SETS</base>
+   <trans>Antall rullerende sikkerhetsett</trans>
+  </entry>
+  <entry>
+   <base>NUMBER_OF_FILES_IN_SET</base>
+   <trans>Antall daglige kopier i hvert sett</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_SETS_NUMBER</base>
+   <trans>Sett-antallet må være 1 eller mer</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_FILES_IN_SET_NUMBER</base>
+   <trans>Antallet må være minst 1. Første sikkerhetskopi i settet er <b>full</b> følgende inneholder kun <b>endrede/tilføyde data</b></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_TIMEOUT</base>
+   <trans>Mulig utløpstid for sikkerhetskopier (i timer)</trans>
+  </entry>
+  <entry>
+   <base>INC_ONLY_TIMEOUT</base>
+   <trans>Ingen utløpstid for fulle sikkerhetskopier</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_TIMEOUT</base>
+   <trans>Maksimal sikkerhetskopi-tid må være mellom 1 og 24 timer</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_HOST_DIR</base>
+   <trans>Ingen mappe for din vert i delte mapper. Kanskje er vertsnavnet ditt forskjellig fra sikkerhetskopien</trans>
+  </entry>
+  <entry>
+   <base>ERROR_READING_FILE</base>
+   <trans>Feil under lesing fra</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SEL_RESTORE</base>
+   <trans>Individuell gjenoppretting fra lokalnettet</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SELECTIVE_RESTORE</base>
+   <trans>Individuell gjenoppretting fra lokalnettet</trans>
+  </entry>
+  <entry>
+   <base>ALL_BACKUPS</base>
+   <trans>Alle sikkerhetskopier</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SEL_REST_DESC</base>
+   <trans><![CDATA[ Denne prosessen vil kun gjenopprette valgte filer og mapper. Du skal først velge den sikkerhetskopi som filer skal gjenopprettes fra. Vet du ikke hvilken sikkerhetskopi du skal bruke, kan du velge 'Alle sikkerhetskopier'.<br/> Det neste panelet vil vise filer og mapper, så du kan velge dem som skal gjenopprettes. For å begrense antallet viste filer og mapper, kan du angi et filteruttrykk, tilføyd som regulært uttrykk for de viste navnene.<br/><br/> Du har ansvaret for ikke at gjenopprette filer, som vil kunne ødelegge din servers funksjoner.<br/><br/>Aktuelt, vil filene gjenopprettes fra: ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_CHOICE</base>
+   <trans>Velg filer som skal vises</trans>
+  </entry>
+  <entry>
+   <base>SELECT_DATE_BEFORE</base>
+   <trans>gjenopprett seneste innen</trans>
+  </entry>
+  <entry>
+   <base>FILTER_EXPRESSION</base>
+   <trans>Navn filtrert etter</trans>
+  </entry>
+  <entry>
+   <base>READ_COMPLETE</base>
+   <trans><![CDATA[ Du kan velge alle filer og mapper du ønsker gjenopprettet fra den viste liste (bruk ctrl og shift til massevalg). <br/> <b>Advarsel :</b> Velger du en mappe vil alle filer og mapper i mappen bli gjenopprettet.<p/> I utgangspunktet vil de seneste versjoner av de valgte filene bli gjenopprettet, med mindre du specifiserer en dato i formatet <i>[ [ [åååå/]mm/]dd-]tt:mm[:ss]</i> denne prosessen vil kun gjenopprette de seneste endrede versjoner <b>innen den angitte dato</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_SELDATE</base>
+   <trans>Ugyldig datoformat, det må være [ [ [åååå/]mm/]dd-]tt:mm[:ss]. F.eks.: 2005/12/31-08:23:32 eller 10-08:32 eller 08:32</trans>
+  </entry>
+  <entry>
+   <base>SELECT_FILES_TO_RESTORE</base>
+   <trans>Velg filer til gjenoppretting</trans>
+  </entry>
+  <entry>
+   <base>ERR_WHILE_UNMOUNTING</base>
+   <trans>Det skjedde en feil under avmonteringen av den delte fjernmappen</trans>
+  </entry>
+  <entry>
+   <base>ERR_DAR_CATALOG</base>
+   <trans>Feil under bruk av Dar katalogen</trans>
+  </entry>
+  <entry>
+   <base>COMPRESSION_LEVEL</base>
+   <trans>Komprimeringsnivå [0-9]</trans>
+  </entry>
+  <entry>
+   <base>FULL_ONLY_ON</base>
+   <trans>full sikkerhetskopi er tillatt på</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_COMPRESSION</base>
+   <trans>Komprimeringsnivå må være mellom 0 (ingen komprimering) og 9 (maksimal komprimering)</trans>
+  </entry>
+  <entry>
+   <base>DOW</base>
+   <trans>Søndag Mandag Tirsdag Onsdag Torsdag Fredag Lørdag 'Hver dag'</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURATION_TO_BE_DONE</base>
+   <trans>Vennligst angi innstillinger for sikkerhetskopi.</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Dette panelet viser oppsett for den aktuelle sikkerhetskopi til lokalnettet.</p><p/> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_NOT_CONFIGURED</base>
+   <trans><![CDATA[ <p>Det er ikke satt opp noen sikkerhetskopi til lokalnett. Du kan lage et oppsett i dette og de neste panelene.</p><p/> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_ENABLED</base>
+   <trans>sikkerhetskopi er</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_USB</base>
+   <trans>sikkerhetskopi er opprettet på lokal USB-disk</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_MNT</base>
+   <trans>sikkerhetskopi er opprettet på lokal USB-disk</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_HOST</base>
+   <trans>sikkerhetskopi er opprettet på lokalnettet</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_VFSTYPE</base>
+   <trans>via</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SHARE</base>
+   <trans>Mål-mappen for sikkerhetskopien er</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TOD</base>
+   <trans>Daglig sikkerhetskopi utføres kl.:</trans>
+  </entry>
+  <entry>
+   <base>LOGIN</base>
+   <trans>brukernavn er</trans>
+  </entry>
+  <entry>
+   <base>PASSWORD</base>
+   <trans>Passordet er</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SETSNUM</base>
+   <trans>Antall rullerende sikkerhetskopisett er</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_DAYSINSET</base>
+   <trans>Antall daglige sikkerhetskopier i hvert sett er</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_COMPRESSION</base>
+   <trans>Komprimeringsgrad (0-9) for sikkerhetskopien er</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TIMEOUT</base>
+   <trans>Hver dagligt sikkerhetskopi-jobb blir avsluttet rent etter</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_INCONLY_TIMEOUT</base>
+   <trans>Unntaget er fulle sikkerhetskopijobber som blir avsluttet rent etter 24 timer</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_FULL_BACKUP_EVERYDAY</base>
+   <trans>Fulle (nye) sikkerhetskopisett er tillatt daglig</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_FULL_BACKUP_DAY</base>
+   <trans>Fulle (nye) sikkerhetskopisett er kun tillatt på</trans>
+  </entry>
+  <entry>
+   <base>WORKSTATION_BACKUP_SETCONF</base>
+   <trans>Oprette eller endre oppsett av sikkerhetskopi til lokalnett</trans>
+  </entry>
+  <entry>
+   <base>SELECT_VFS_TYPE</base>
+   <trans>Velg typen delt disk som er mål for sikkerhetskopien</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_USB_DISK</base>
+   <trans>Feil: Ingen USB disk er tilgengelig. Koble til en USB disk eller velg en annen form for delt disk til sikkerhetskopien.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_MOUNTED_DISK</base>
+   <trans>Feil: Ingen USB disk er tilgengelig. Koble til en USB disk eller velg en annen form for delt disk til sikkerhetskopien.</trans>
+  </entry>
+  <entry>
+   <base>HOURS</base>
+   <trans>timer.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_FULL_BACKUP</base>
+   <trans>Avbryter gjenoppretting fordi påkrevd full sikkerhetskopi mangler eller er uleslig.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_INC_BACKUP</base>
+   <trans>Avbryter gjenoppretting fordi settet har manglende eller uleslige inkrementelle sikkerhetskopi antall</trans>
+  </entry>
+  <entry>
+   <base>CHECK_TO_VERIFY_FULL_RESTORE</base>
+   <trans>Mer av her for å kontrollere integriteten på alle sikkerhetskopier påkrevd for en komplett gjenoppretting med valgte sikkerhetskopi</trans>
+  </entry>
+  <entry>
+   <base>TESTING_NEEDED_BACKUPS_FOR_RESTORE</base>
+   <trans>Kontrollerer alle sikkerhetskopier for en full gjenoppretting med valgt sikkerhetskopi</trans>
+  </entry>
+  <entry>
+   <base>TESTED_BACKUP</base>
+   <trans>Kontrollerer integriteten av sikkerhetskopien</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_VERIFY_FAILED</base>
+   <trans>Bekreft integritet feilet</trans>
+  </entry>
+  <entry>
+   <base>CHECK_INTEGRITY_WARNING</base>
+   <trans>Advarsel: For store sikkerhetskopier, vil kontroll av integritet ta lang tid og bør kjøres med funksjonen daglig arbeidssatsjon sikkerhetskopi slått av.</trans>
+  </entry>
+  <entry>
+    <base>cifs</base>
+    <trans>cifs</trans>
+  </entry>
+  <entry>
+    <base>nfs</base>
+    <trans>nfs</trans>
+  </entry>
+  <entry>
+    <base>local removable disk</base>
+    <trans>sikkerhetskopi er opprettet på lokal USB-disk</trans>
+  </entry>
+  <entry>
+    <base>Mounted disk</base>
+    <trans>Installerte disker</trans>
+  </entry>
+  <entry>
+   <base>ERROR_WHEN_TESTING_REMOTE_SERVER</base>
+   <trans>The parameters have been saved, however the remote host is not reachable, please check your settings.</trans>
+  </entry>
+  <entry>
+   <base>DO_NOT_RESTORE_BIN_SBIN_LIB_LIB64_FROM_SME9</base>
+   <trans>If you restore from Koozali SME Server 9 or before, pay attention that some folders in the system are now symlinks. Basic backup configuration does not include /bin, /lib, /lib64, /sbin, /var/lock and /var/run. If you have added them for files in their subdirectories, we will prevent the restoration of those folders to prevent dar from replacing those symlinks and leave the system unusable. Those additions are, however, not recommended as they are at risk to overwrite files provides by rpms.</trans>
+  </entry>
+  <entry>
+   <base>SMBV1</base>
+   <trans>Mount as legacy SMB v1 share (unsecure, not recommended).</trans>
+  </entry>
+
+
+</lexicon>

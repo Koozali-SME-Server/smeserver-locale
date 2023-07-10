@@ -1,0 +1,202 @@
+<lexicon lang="da">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Dato- og tidsindstillinger</trans>
+    </entry>
+    <entry>
+      <base>INITIAL_DESC</base>
+      <trans>Her kan du indstille dato og tid for serveren. Du kan hente tiden fra en tidsserver på nettet eller selv angive dato, tid og din tidszone.</trans>
+    </entry>
+    <entry>
+      <base>SET_DATE_TITLE</base>
+      <trans>Indstil Dato og Tid</trans>
+    </entry>
+    <entry>
+      <base>COULD_NOT_OPEN_TZ_FILE</base>
+      <trans>Fejl: Kunne ikke åbne tidszonefilen til læsning:</trans>
+    </entry>
+    <entry>
+      <base>JANUARY</base>
+      <trans>Januar</trans>
+    </entry>
+    <entry>
+      <base>FEBRUARY</base>
+      <trans>Februar</trans>
+    </entry>
+    <entry>
+      <base>MARCH</base>
+      <trans>Marts</trans>
+    </entry>
+    <entry>
+      <base>APRIL</base>
+      <trans>April</trans>
+    </entry>
+    <entry>
+      <base>MAY</base>
+      <trans>Maj</trans>
+    </entry>
+    <entry>
+      <base>JUNE</base>
+      <trans>Juni</trans>
+    </entry>
+    <entry>
+      <base>JULY</base>
+      <trans>Juli</trans>
+    </entry>
+    <entry>
+      <base>AUGUST</base>
+      <trans>August</trans>
+    </entry>
+    <entry>
+      <base>SEPTEMBER</base>
+      <trans>September</trans>
+    </entry>
+    <entry>
+      <base>OCTOBER</base>
+      <trans>Oktober</trans>
+    </entry>
+    <entry>
+      <base>NOVEMBER</base>
+      <trans>November</trans>
+    </entry>
+    <entry>
+      <base>DECEMBER</base>
+      <trans>December</trans>
+    </entry>
+    <entry>
+      <base>NEW_M/D/Y</base>
+      <trans>Ny måned/dag/år:</trans>
+    </entry>
+    <entry>
+      <base>NEW_H/M/S</base>
+      <trans>Ny time/min/sek:</trans>
+    </entry>
+    <entry>
+      <base>AM/PM_AND_TZ</base>
+      <trans>AM/PM og tidszone:</trans>
+    </entry>
+    <entry>
+      <base>NTP_ENABLE_DESC</base>
+      <trans>Serveren kan periodisk synkronsere systemet ur med en Network Time Protocol (NTP) server. Vælger du denne mulighed, angiv værtsnavn eller IP-addresse nedenfor.</trans>
+    </entry>
+    <entry>
+      <base>NTP_CONFIGURE_DESC</base>
+      <trans>Serveren synkronisere periodisk systemets ur med netværks tids protokol (NTP) serveren nedenfor. For at synkronisere med en anden server, indtast et andet værtsnavn eller en anden IPadresse i feltet nedenfor.</trans>
+    </entry>
+    <entry>
+      <base>NTP_DISABLE_DESC</base>
+      <trans>Vælg denne mulighed for at stoppe synkronisering med NTPserveren. Når servicen er stoppet kan du indstille dato og tid manuelt fra denne side.</trans>
+    </entry>
+    <entry>
+      <base>NTP_SERVER</base>
+      <trans>NTPserver</trans>
+    </entry>
+    <entry>
+      <base>VERIFY_DATE_AND_TIME</base>
+      <trans>Kontroller dato og tid</trans>
+    </entry>
+    <entry>
+      <base>NEW_DATE_AND_TIME</base>
+      <trans>Ny dato- og tidsindstilling:</trans>
+    </entry>
+    <entry>
+      <base>SETTING_DATE_AND_TIME</base>
+      <trans>Indstil dato og tid</trans>
+    </entry>
+    <entry>
+      <base>INVALID_DAY</base>
+      <trans>Fejl: ugyldig dag i maneden:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_1_AND_31</base>
+      <trans>Vælg venligst en dag mellem 1 og 31.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_YEAR</base>
+      <trans>Fejl: Ugyldigt år:</trans>
+    </entry>
+    <entry>
+      <base>FOUR_DIGIT_YEAR</base>
+      <trans>Vælg venligst et firecifret årstal mellem 1900 og 2200.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_HOUR</base>
+      <trans>Fejl: Ugyldig time:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_1_AND_12</base>
+      <trans>Vælg venligst et timetal mellem 1 og 12.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_MINUTE</base>
+      <trans>Fejl: Ugyldigt minut:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_0_AND_59</base>
+      <trans>Vælg et minut mellem 0 og 59.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_SECOND</base>
+      <trans>Fejl: Ugyldigt sekund</trans>
+    </entry>
+    <entry>
+      <base>UPDATING_CLOCK</base>
+      <trans><![CDATA[ Sytemuret bliver opdateret. Vent venligst nogle sekunder og klik så <A HREF="datetime?page=1&wherenext=Verify" TARGET="main">her</A> for at kontrollere ændringerne. ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_SETTING_CLOCK</base>
+      <trans>Der skete en fejl under indstilling af tiden og systemuret.</trans>
+    </entry>
+    <entry>
+      <base>SERVER_DISABLED</base>
+      <trans>Synkronisering med NTP server er slået fra</trans>
+    </entry>
+    <entry>
+      <base>SERVER_DISABLED_DESC</base>
+      <trans><![CDATA[ Du har slået denne service fra: Serveren vil anvende det interne ur, og <b>vil ikke</b> forsøge at synkronisere tiden fra en NTPserver. ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_CHANGING_TS</base>
+      <trans>Der skete en fejl under ændringen af indstillingerne for NTP server</trans>
+    </entry>
+    <entry>
+      <base>INVALID_NTP_ADDR</base>
+      <trans>Ugyldig NTPserver adresse:</trans>
+    </entry>
+    <entry>
+      <base>SETTINGS_CHANGED</base>
+      <trans>Indstillingerne for NTP server er ændret</trans>
+    </entry>
+    <entry>
+      <base>SYNC_WITH</base>
+      <trans>Serveren er nu indstillet til periodisk at synkronisere (via Internet) med:</trans>
+    </entry>
+    <entry>
+      <base>INVALID_NTP_SERVER</base>
+      <trans><![CDATA[ Ugyldig NTPserver, serveren <b>vil ikke</b> forsøge at synkronisere fra en tidsserver. ]]></trans>
+    </entry>
+    <entry>
+      <base>NETWORK_TIME_SERVER</base>
+      <trans>NetværksTidsServer</trans>
+    </entry>
+    <entry>
+      <base>NTP_CONFIGURE_TITLE</base>
+      <trans>Indstil NTPserver</trans>
+    </entry>
+    <entry>
+      <base>NTP_ENABLE_TITLE</base>
+      <trans>Slå NTPserver til</trans>
+    </entry>
+    <entry>
+      <base>NTP_DISABLE_TITLE</base>
+      <trans>Slå NTPserver fra</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_SETTING</base>
+      <trans>Aktuel indstilling</trans>
+    </entry>
+    <entry>
+      <base>Date and time</base>
+      <trans>Dato og tid</trans>
+    </entry>
+  </lexicon>

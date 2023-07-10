@@ -1,0 +1,15 @@
+<lexicon lang="hu">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>Online kézikönyv és más dokumentáció</trans>
+      </entry>	
+      <entry> 
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ <ul> <li><a target="new" href="https://wiki.koozali.org/documentation/manual/"> Online kézikönyv</a> <li><a target="new" href="https://wiki.koozali.org/documentation/FAQ/"> FAQs</a> </ul> <H2>Terméktámogatás és licenszelés</H2> Ezen szoftver terjesztési feltételei a <a href="/server-manager/cgi-bin/support"> Terméktámogatás és licenszelés</a> oldalon olvashatók. ]]></trans>
+      </entry>		
+      <entry>
+	<base>Online manual</base>
+	<trans>Online kézikönyv</trans>
+      </entry>
+
+</lexicon>

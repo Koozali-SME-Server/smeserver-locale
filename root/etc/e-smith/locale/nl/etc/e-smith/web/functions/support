@@ -1,0 +1,10 @@
+<lexicon lang="nl">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Ondersteuning, garantie en licentie informatie</trans>
+    </entry>
+    <entry>
+        <base>Support and licensing</base>
+        <trans>Ondersteuning en licenties</trans>
+    </entry>
+</lexicon>

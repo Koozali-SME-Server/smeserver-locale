@@ -1,0 +1,193 @@
+<lexicon lang="bg"> 
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+	<base>Software installer</base>
+	<trans>Инсталатор на софтуер</trans>
+    </entry>
+
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Новите настройки бяха запазени.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_YUM_STATUS</base>
+        <trans>Проверка за актуализации</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_YUM_AUTOINSTALLUPDATES</base>
+	<trans>Автоматично инсталиране на актуализации</trans>
+   </entry>
+    <entry>
+        <base>LABEL_YUM_AUTOINSTALLUPDATES_DESCRIPTION</base>
+        <trans>Ако бъде включено, това ще вземе предимство пред уведомлението при обикновената проверка за актуализации и възможността за предварително сваляне. Вместо това ще инсталира наличните актуализации от разрешените хранилища. За повече информация вижте ръководството за yum и yum-cron.</trans>
+   </entry>
+
+    <entry>
+	<base>LABEL_YUM_PACKAGEFUNCTIONS</base>
+	<trans>Управление на отделни пакети</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_YUM_PACKAGEFUNCTIONS</base>
+	<trans>Инсталаторът може да управлява групи от свързани пакети или отделни пакети. По подразбиране се показват само групите пакети. Ако желаете да управлявате отделни пакети включете тази настройка. Това трябва да се прави само от опитни администратори.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_ENABLED_REPOSITORIES</base>
+	<trans>Разрешени хранилища</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_ENABLED_REPOSITORIES</base>
+	<trans>Инсталаторът може да инсталира софтуер от всяко разрешено хранилище. За да разрешите дадено хранилище го изберете от списъка. За да го изключите, махнете селекцията от него в списъка. По подразбиране за инсталация са налични само стабилните и тествани софтуери.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_UPTODATE</base>
+        <trans><![CDATA[ <div class="success"> <h2>Системата е актуална.</h2> Всички актуализации са сложени. </div> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_UPDATES_AVAILABLE</base>
+        <trans><![CDATA[ <div class="success"> <h2>Налични актуализации</h2> Има налични актуализации за системата. Тези актуализации трябва да се сложат възможно най-скоро. </div> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_AVAILABLE_UPDATES</base>
+        <trans>Налични актуализации</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_AVAILABLE_UPDATES</base>
+        <trans>Следните актуализации са достъпни за тази система. По принцип трябва да инсталирате всички актуализации. Ако има актуализации, които не искате да сложите, махнете селекцията от тях в списъка по-долу.</trans>
+    </entry>
+
+    <entry>
+        <base>INSTALL_UPDATES</base>
+        <trans>Инсталиране на избраните актуализации</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_INSTALL_UPDATES</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_UPDATES">Списък с наличните актуализации</a> ]]></trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_AVAILABLE_SOFTWARE</base>
+	<trans>Следния софтуер е наличен за инсталиране на системата. Трябва да инсталирате допълнителен софтуер на тази система, ако сте наясно от последиците за това.</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_AVAILABLE_GROUPS</base>
+	<trans>Можете да изберете групи софтуер за инсталиране от списъка по-долу.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_AVAILABLE_GROUPS</base>
+	<trans>Налични групи</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_AVAILABLE_PACKAGES</base>
+	<trans>Също така можете да изберете отделни пакети за инсталация от списъка по-долу.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_AVAILABLE_PACKAGES</base>
+	<trans>Налични пакети</trans>
+    </entry>
+
+    <entry>
+	<base>INSTALL_SOFTWARE</base>
+	<trans>Инсталиране</trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_INSTALLED_SOFTWARE</base>
+	<trans>Следния софтуер е инсталиран на системата. Трябва да махате софтуер от системата само ако сте наясно от последиците за това.</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_INSTALLED_GROUPS</base>
+	<trans>Можете да изберете групи софтуер за премахване от списъка по-долу.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_INSTALLED_GROUPS</base>
+	<trans>Инсталирани групи</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_INSTALLED_PACKAGES</base>
+	<trans>Можете също да избирате отделни пакети за премахване от списъка по-долу.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_INSTALLED_PACKAGES</base>
+	<trans>Инсталирани пакети</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_CONFIGURATION</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_CONFIGURATION">Промяна на настройките на инсталатора</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_INSTALL_AVAILABLE</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_AVAILABLE">Инсталация на допълнителен софтуер</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_REMOVE</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_REMOVE">Премахване на инсталиран софтуер</a> ]]></trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_POSTUPGRADE_REQUIRED</base>
+	<trans><![CDATA[ Системата изисква преконфигурация след инсталиране и махане на софтуер или след слагане на актуализации. <p> Моля, натиснете бутона Преконфигурация от долу, за да започне процеса по преконфигурация . <b>По време на преконфигурацията ще бъде направено автоматично рестартиране.</b> </p> ]]></trans>
+     </entry>
+
+    <entry>
+	<base>SYSTEM_BEING_RECONFIGURED</base>
+	<trans>Системата се рестартира автоматично за да завърши процеса по преконфигурация.</trans>
+    </entry>
+
+    <entry>
+      <base>1DAILY</base>
+      <trans>Ежедневно</trans>
+    </entry>
+
+    <entry>
+      <base>2WEEKLY</base>
+      <trans>седмично</trans>
+    </entry>
+
+    <entry>
+      <base>3MONTHLY</base>
+      <trans>Месечно</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DELTARPMPROCESS</base>
+      <trans>Актуализация от делта Rpm</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DELTARPM</base>
+      <trans>Delta rpm съдържа разликата между стара и нова версия на rpm, което може да спести трафик. Отрицателната страна е че операцията по актуализация ще консумира значително повече процесорно време</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DOWNLOADONLY</base>
+      <trans>Предварително сваляне на актуализации</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DOWNLOADONLY_DESCRIPTION</base>
+      <trans>Пакетите на актуализациите могат да бъдат свалени през нощта, което ще улесни и ускори процеса по актуализация на yum (като ще бъдат използвани само разрешените хранилища)</trans>
+    </entry>
+
+</lexicon>

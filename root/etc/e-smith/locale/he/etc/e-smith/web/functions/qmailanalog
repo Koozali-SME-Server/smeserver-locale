@@ -1,0 +1,87 @@
+<lexicon lang="he">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>ניתוח קובץ יומן דואר</trans>
+    </entry>
+    <entry>
+	<base>INITIAL_DESC</base>
+	<trans><![CDATA[<P>ניתוח קבצי יומן מערכת דואר יכול לסייע בהבנת ביצועי המערכת שלך ובאבחון בעיות משלוח. דוחות שונים זמינים. </P><P> שים לב שזה עלול לקחת כמה דקות כדי להפיק את הדוחות הללו </P>]]></trans>
+    </entry>
+    <entry>
+	<base>REPORT_TYPE</base>
+	<trans>בחר סוג דוח</trans>
+    </entry>
+    <entry>
+	<base>GENERATE_REPORT</base>
+	<trans>הפק דוח</trans>
+    </entry>
+    <entry>
+	<base>LIST_OUTGOING</base>
+	<trans>הצג רשימת הודעות יוצאות ונמענים</trans>
+    </entry>
+    <entry>
+	<base>SUMMARIZE_QUEUE</base>
+	<trans>סכם מצב של תור דואר</trans>
+    </entry>
+    <entry>
+	<base>SUCCESSFUL_DELIVERY_DELAY</base>
+	<trans>Successful delivery delay distribution</trans>
+    </entry>
+    <entry>
+	<base>REASONS_DEFERRAL</base>
+	<trans>סיבות לדחייה</trans>
+    </entry>
+    <entry>
+	<base>REASONS_FAILURE</base>
+	<trans>סיבות לכשלון</trans>
+    </entry>
+    <entry>
+	<base>BASIC_STATS</base>
+	<trans>סטטיסטיקה בסיסית</trans>
+    </entry>
+    <entry>
+	<base>RECIP_STATS</base>
+	<trans>סטטיסטיקת נמענים</trans>
+    </entry>
+    <entry>
+	<base>RECIP_HOSTS</base>
+	<trans>מארחי נמענים</trans>
+    </entry>
+    <entry>
+	<base>RECIP_ORDERED</base>
+	<trans>נמענים בסדר הטוב ביותר עבור רשימות דיוור</trans>
+    </entry>
+    <entry>
+	<base>SENDER_STATS</base>
+	<trans>סטטיסטיקת שולחים</trans>
+    </entry>
+    <entry>
+	<base>SENDMAIL_STYLE</base>
+	<trans>יומן בסגנון Sendmail</trans>
+    </entry>
+    <entry>
+	<base>REASONS_SUCCESS</base>
+	<trans>סיבות להצלחה</trans>
+    </entry>
+    <entry>
+	<base>SENDER_UIDS</base>
+	<trans>uidים של שלוח</trans>
+    </entry>
+    <entry>
+	<base>INVALID_REPORT_TYPE</base>
+	<trans>סוג דוח לא חוקי:</trans>
+    </entry>
+    <entry>
+	<base>REPORT_GENERATED</base>
+	<trans>הדוח שהופק:</trans>
+    </entry>
+    <entry>
+	<base>END_OF_REPORT</base>
+	<trans>סוף הדוח</trans>
+    </entry>
+    <entry>
+	<base>Mail log file analysis</base>
+	<trans>ניתוח קובץ יומן דואר</trans>
+    </entry>
+
+</lexicon>

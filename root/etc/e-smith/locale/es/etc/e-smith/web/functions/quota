@@ -1,0 +1,106 @@
+<lexicon lang="es">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Crear, modificar o eliminar cuotas de la cuenta de usuario</trans>
+    </entry>
+    <entry>
+      <base>UNABLE_TO_OPEN_ACCOUNTS</base>
+      <trans>No se puede abrir la base de datos de las cuentas</trans>
+    </entry>
+    <entry>
+      <base>QUOTA_DESC</base>
+      <trans><![CDATA[ <p>Usted puede configurar cuotas de espacio en disco para los usuarios del sistema, haga click en el botón "Modificar", que está junto al usuario que desea actualizar. <p>Si el usuario excede el "Límite con período de gracia", se generarán advertencias. Si se excede este límite por más de una semana o si se alcanza el "Límite absoluto", el usuario no podrá almacenar más archivos ni recibir más correos electrónicos. <p>Si ambos límites se configuran en '0', se deshabilitarán esos límites para el usuario correspondiente. <p>El espacio en el disco para cada usuario incluye el directorio principal, el correo electrónico y cualquier archivo que posea el usuario en las bahías de información. ]]></trans>
+    </entry>
+    <entry>
+      <base>CURRENT_USAGE_AND_SETTINGS</base>
+      <trans>Ajustes y Uso Actual de Cuota</trans>
+    </entry>
+    <entry>
+      <base>LIMIT_WITH_GRACE</base>
+      <trans>Límite con período de gracia</trans>
+    </entry>
+    <entry>
+      <base>LIMIT_WITH_GRACE_MB</base>
+      <trans>Límite con período de gracia (MB)</trans>
+    </entry>
+    <entry>
+      <base>ABS_LIMIT</base>
+      <trans>Límite absoluto</trans>
+    </entry>
+    <entry>
+      <base>ABS_LIMIT_MB</base>
+      <trans>Límite absoluto (MB)</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_USAGE</base>
+      <trans>Uso actual (MB)</trans>
+    </entry>
+    <entry>
+      <base>COULD_NOT_GET_UID</base>
+      <trans>No se pudo determinar el uid del usuario:</trans>
+    </entry>
+    <entry>
+      <base>ERR_NO_SUCH_ACCT</base>
+      <trans>Error: no existe una cuenta con el nombre:</trans>
+    </entry>
+    <entry>
+      <base>ERR_NOT_A_USER_ACCT</base>
+      <trans>Error: la cuenta no es una cuenta de usuario:</trans>
+    </entry>
+    <entry>
+      <base>ACCOUNT_IS_TYPE</base>
+      <trans>Es una cuenta del tipo:</trans>
+    </entry>
+    <entry>
+      <base>MODIFY_USER_TITLE</base>
+      <trans>Modificar los límites de cuota del usuario</trans>
+    </entry>
+    <entry>
+      <base>USER</base>
+      <trans>Usuario:</trans>
+    </entry>
+    <entry>
+      <base>CURRENTLY_HAS</base>
+      <trans>actualmente tiene:</trans>
+    </entry>
+    <entry>
+      <base>FILES</base>
+      <trans>archivos</trans>
+    </entry>
+    <entry>
+      <base>OCCUPYING</base>
+      <trans>ocupando:</trans>
+    </entry>
+    <entry>
+      <base>MEGABYTES</base>
+      <trans>megabytes</trans>
+    </entry>
+    <entry>
+      <base>INSTRUCTIONS</base>
+      <trans>Introduzca la cuota como un número entero con los sufijos de unidad opcionales 'K' para kilobytes, 'M' para megabytes, 'G' para gigabytes o 'T' para terabytes. Se asume que las entradas sin sufijo están en megabytes. Si ambos límites se configuran en '0', se deshabilitarán esos límites para el usuario correspondiente.</trans>
+    </entry>
+    <entry>
+      <base>SOFT_VAL_MUST_BE_NUMBER</base>
+      <trans>Error: los límites con período de gracia deben ser en números enteros, seguidos opcionalmente por uno de los sufijos de unidad K, M, G o T.</trans>
+    </entry>
+    <entry>
+      <base>HARD_VAL_MUST_BE_NUMBER</base>
+      <trans>Error: los límites absolutos deben ser en números enteros, seguidos opcionalmente por uno de los sufijos de unidad K, M, G o T.</trans>
+    </entry>
+    <entry>
+      <base>ERR_HARD_LT_SOFT</base>
+      <trans>Error: el límite absoluto debe ser mayor al límite con período de gracia.</trans>
+    </entry>
+    <entry>
+      <base>ERR_MODIFYING</base>
+      <trans>Ocurrió un error al modificar el usuario.</trans>
+    </entry>
+    <entry>
+      <base>SUCCESSFULLY_MODIFIED</base>
+      <trans>Cuota modificada con éxito para la cuenta de usuario:</trans>
+    </entry>
+    <entry>
+	<base>Quotas</base>
+	<trans>Cuotas</trans>
+    </entry>
+</lexicon>

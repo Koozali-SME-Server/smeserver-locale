@@ -1,0 +1,58 @@
+<lexicon lang="et">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Muuda töörühma seadeid</trans>
+    </entry>	
+    <entry> 
+        <base>DESC_WORKGROUP</base>
+        <trans><![CDATA[ Sisesta Windowsi töörühma nimi kuhu server peaks kuuluma. ]]></trans>	
+    </entry>
+    <entry>
+        <base>LABEL_WORKGROUP</base>
+        <trans>Windowsi töörühm</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERVERNAME</base>
+        <trans>Sisesta serverile nimi mida kasutatakse failide jagamisel Windowsi ja MAC-ga.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERVERNAME</base>
+        <trans>Serveri nimi</trans>
+    </entry>
+    <entry>
+        <base>DESC_PDC</base>
+        <trans><![CDATA[Kas see server kontrollib windowsi töörühma ja domeeni? Jäta see nii nagu on<b> 'Ei'</b> kui mõni teine server seda juba teeb.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_PDC</base>
+        <trans>Töörühma ja domeeni kontrollija</trans>
+    </entry>
+    <entry>
+        <base>DESC_ROAM</base>
+        <trans><![CDATA[ Kas see server toetab rändprofiile? Jäta see nii nagu on <b>'Ei'</b>  Kui sul puudub kogemus rändprofiilide administreerimisel windowsis või sa pole kindel mida sa teed. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_ROAM</base>
+        <trans>Liikuvad profiilid</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Uued töörühma sedistused on salvestatud</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP</base>
+        <trans>Töörühma nimi peab algama tähega (upper or lower case), followed by any combination of letters, numbers, underscores, periods and hyphens.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SERVERNAME</base>
+        <trans>Serveri nimi peab algama tähega (upper or lower case), followed by any combination of letters, numbers, underscores and hyphens.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP_MATCHES_SERVERNAME</base>
+        <trans>The server and workgroup names match, when compared in lower case. These values must be different in order for filesharing to be turned on.</trans>
+    </entry>
+    <entry>
+        <base>Workgroup</base>
+        <trans>Töörühm</trans>
+    </entry>
+</lexicon>

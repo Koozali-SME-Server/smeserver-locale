@@ -1,0 +1,386 @@
+<lexicon lang="el" params="getExtraParams()">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Ρυθμίσεις ηλεκτρονικής αλληλογραφίας</trans>
+    </entry>
+    <entry>
+        <base>E-mail</base>
+        <trans>Ηλεκτρονική αλληλογραφία</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Οι νέες ρυθμίσεις ηλεκτρονικής αλληλογραφίας έχουν αποθηκευθεί.</trans>
+    </entry>
+    <entry>
+        <base>NEVER</base>
+        <trans>καθόλου</trans>
+    </entry>
+    <entry>
+        <base>EVERY5MIN</base>
+        <trans>Κάθε 5 λεπτά</trans>
+    </entry>
+    <entry>
+        <base>EVERY15MIN</base>
+        <trans>Κάθε 15 λεπτά</trans>
+    </entry>
+    <entry>
+        <base>EVERY30MIN</base>
+        <trans>Κάθε 30 λεπτά</trans>
+    </entry>
+    <entry>
+        <base>EVERYHOUR</base>
+        <trans>Κάθε ώρα</trans>
+    </entry>
+    <entry>
+        <base>EVERY2HRS</base>
+        <trans>Κάθε 2 ώρες</trans>
+    </entry>
+    <entry>
+        <base>STANDARD</base>
+        <trans>Πρότυπο (SMTP)</trans>
+    </entry>
+    <entry>
+        <base>ETRN</base>
+        <trans>ETRN (SMTP με αίτημα πελάτη)</trans>
+    </entry>
+    <entry>
+        <base>DEFAULT</base>
+        <trans>Προεπιλογή</trans>
+    </entry>
+    <entry>
+        <base>SPECIFY_BELOW</base>
+        <trans>Καθορίστε παρακάτω</trans>
+    </entry>
+    <entry>
+        <base>MULTIDROP</base>
+        <trans>λειτουργία multi-drop</trans>
+    </entry>
+    <entry>
+        <base>LABEL_MODE</base>
+        <trans>Κατάσταση λειτουργίας συλλογής ηλεκτρονικής αλληλογραφίας</trans>
+    </entry>
+    <entry>
+        <base>DESC_MODE</base>
+        <trans>Η κατάσταση λειτουργίας συλλογής ηλεκτρονικής αλληλογραφίας μπορεί να ρυθμισθεί σαν standard (για μόνιμη σύνδεση στο Internet), ETRN (συνιστάται για συνδέσεις dialup), ή multi-drop (για συνδέσεις dialup αν το ETRN δεν υποστηρίζεται από τον πάροχο διαδικτύου σας). Σημειώστε ότι η κατάσταση λειτουργίας multi-drop είναι η μοναδική διαθέσιμη επιλογή όταν ο διακομιστής είναι ρυθμισμένος για λειτουργία σαν ιδιωτικού διακομιστή (private server) και πύλης (gateway).</trans>
+    </entry>
+    <entry>
+        <base>LABEL_DELEGATE</base>
+        <trans>Διεύθυνση του εσωτερικού διακομιστή αλληλογραφίας</trans>
+    </entry>
+    <entry>
+        <base>DESC_DELEGATE</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Ανάθεση λειτουργιών διακομιστή αλληλογραφίας</h2> Ο διακομιστής σας περιλαμβάνει έναν διακομιστή αλληλογραφίας με όλες τις δυνατότητες. Ωστόσο, εάν για οποιονδήποτε λόγο, επιθυμείτε να αναθέσετε τη λειτουργία επεξεργασίας ηλεκτρονικής αλληλογραφίας σε άλλο σύστημα, ορίστε την διεύθυνση IP του εν λόγω συστήματος εδώ. Για κανονική λειτουργία, αφήστε αυτό το πεδίο κενό. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SECONDARY</base>
+        <trans>Δευτερεύων διακομιστής αλληλογραφίας</trans>
+    </entry>
+    <entry>
+        <base>DESC_SECONDARY</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Ρυθμίσεις λειτουργίας ETRN ή multi-drop</h2> Για λειτουργία ETRN ή multi-drop, ορίστε τη δικτυακή ονομασία του διακομιστή ή την διεύθυνση IP του δευτερεύοντος διακομιστή αλληλογραφίας. (Αν χρησιμοποιείτε τη συνήθη εγκατάσταση ηλεκτρονικής αλληλογραφίας, αυτό το πεδίο μπορεί να αφεθεί κενό.) ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_FETCH_PERIOD</base>
+        <trans>Για λειτουργίες ETRN ή multi-drop, μπορείτε να ελέγξετε πόσο συχνά ο συγκεκριμένος διακομιστής θα επικοινωνεί με τον δευτερεύοντα διακομιστή αλληλογραφίας για να λάβει τα μηνύματα. Συχνότερες συνδέσεις συνεπάγονται ταχύτερη λήψη των μηνυμάτων σας, αλλά επίσης και συχνότερη αποστολή αιτημάτων προς το διαδίκτυο, αυξάνοντας ενδεχομένως το λογαριασμό του τηλεφώνου και του πρόσβασης.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD</base>
+        <trans>Εντός ωρών γραφείου (8:00 πμ έως 6:00 μμ) τις καθημερινές</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD_NIGHTS</base>
+        <trans>Εκτός ωρών γραφείου (6:00 μμ έως 8:00 πμ) τις καθημερινές</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD_WEEKENDS</base>
+        <trans>Κατά το Σαββατοκύριακο</trans>
+    </entry>
+    <entry>
+        <base>DESC_POP_ACCOUNT</base>
+        <trans>Για λειτουργία ηλεκτρονικής αλληλογραφίας τύπου multi-drop, ορίστε τον λογαριασμό χρήστη POP και τον κωδικό πρόσβασης. (Εάν χρησιμοποιείτε κλασική ή ETRN λειτουργία ηλεκτρονικής αλληλογραφίας, αυτά τα πεδία μπορούν να αφεθούν κενά.) Επίσης, για λειτουργία multi-drop και όσον αφορά την ταξινόμηση της αλληλογραφίας, μπορείτε είτε να χρησιμοποιείτε την προεπιλεγμένη μέθοδο, ή να ορίσετε μια συγκεκριμένη κεφαλίδα μηνύματος βάσει της οποίας θα γίνεται η ταξινόμηση.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_POP_PASS</base>
+        <trans>Κωδικός πρόσβασης χρήστη POP (για multi-drop)</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_POP_ACCOUNT</base>
+        <trans>Λογαριασμός χρήστη POP (για multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SORT_METHOD</base>
+        <trans>Επιλογή μεθόδου ταξινόμησης (για multi-drop)</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SORT_HEADER</base>
+        <trans>Επιλογή κεφαλίδας ταξινόμησης (για multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PROTO</base>
+        <trans>Πρωτόκολλο (για multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_SECURE</base>
+        <trans>Τούνελ με χρήση SSL (για multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>AUTO</base>
+        <trans>Αυτόματο</trans>
+    </entry>
+    <entry>
+        <base>ENABLED_BOTH</base>
+        <trans>Επιτρέπεται HTTP και HTTPS</trans>
+    </entry>
+    <entry>
+        <base>ENABLED_SECURE_ONLY</base>
+        <trans>Επιτρέπεται με ασφάλεια HTTPS</trans>
+    </entry>
+     <entry>
+        <base>ONLY_LOCAL_NETWORK_SSL</base>
+        <trans>Επιτρέπετε πρόσβασή μόνο απο το τοπικό δίκτυο</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_POP3</base>
+        <trans>Επιτρέπεται POP3 και POP3S</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_PRIVATE</base>
+        <trans>Επιτρέπεται η ιδιωτική</trans>
+    </entry>
+    <entry>
+        <base>SECURE_POP3</base>
+        <trans>Επιτρέπεται η ιδιωτική και δημόσια (με ασφάλεια POP3S)</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_IMAP</base>
+        <trans>Επιτρέπεται IMAP και IMAPS</trans>
+    </entry>
+    <entry>
+        <base>SECURE_IMAP</base>
+        <trans>Επιτρέπεται η ιδιωτική και δημόσια (με ασφάλεια IMAPS)</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_SMTP</base>
+        <trans>Επιτρέπονται SMTP και SSMTP</trans>
+    </entry>
+    <entry>
+        <base>SECURE_SMTP</base>
+        <trans>Επιτρέπεται με ασφάλεια SSMTP</trans>
+    </entry>
+    <entry>
+        <base>LABEL_POP_ACCESS_CONTROL</base>
+        <trans>Πρόσβαση διακομιστή POP3</trans>
+    </entry>
+    <entry>
+        <base>LABEL_IMAP_ACCESS_CONTROL</base>
+        <trans>Πρόσβαση διακομιστή IMAP</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SMTP_AUTH_CONTROL</base>
+        <trans>Πιστοποίηση γνησιότητας SMTP</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_TO_ADMIN</base>
+        <trans>Αποστολή στον διαχειριστή</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_TO</base>
+        <trans>Αποστολή προς</trans>
+    </entry>
+    <entry>
+        <base>RETURN_TO_SENDER</base>
+        <trans>Απόρριψη</trans>
+    </entry>
+    <entry>
+        <base>LABEL_UNKNOWN</base>
+        <trans>Ηλεκτρονική αλληλογραφία προς άγνωστους χρήστες</trans>
+    </entry>
+    <entry>
+        <base>DESC_UNKNOWN</base>
+        <trans><![CDATA[ <h2>Άγνωστοι χρήστες</h2> Με την επιλογή "Απόρριψη" (συνιστώμενη επιλογή) ο διακομιστής θα ρυθμιστεί ώστε να αποδέχεται μηνύματα μόνο προς έγκυρες διευθύνσεις ηλεκτρονικής αλληλογραφίας (π.χ. χρήστες, ομάδες, ψευδώνυμα). Μηνύματα προς άλλες διευθύνσεις θα απορρίπτονται. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SMARTHOST</base>
+        <trans>Διεύθυνση του διακομιστή αλληλογραφίας του παρόχου διαδικτύου σας</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_SMARTHOST</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Ο διακομιστής SMTP</h2> μπορεί να παραδώσει τα εξερχόμενα μηνύματα απευθείας στους προορισμούς τους (συνιστάται στις περισσότερες περιπτώσεις) ή μέσω του διακομιστή SMTP του παρόχου διαδικτύου σας (συνιστάται αν έχετε μια μη αξιόπιστη σύνδεση στο διαδίκτυο ή χρησιμοποιείτε μία οικιακή υπηρεσία διαδικτύου). Εάν χρησιμοποιείτε τον διακομιστή SMTP του παρόχου διαδικτύου σας, προσδιορίστε τη δικτυακή ονομασία του Η/Υ ή την διεύθυνση IP παρακάτω. Διαφορετικά, αφήστε αυτό το πεδίο κενό. ]]></trans>
+    </entry>
+
+    <entry>
+        <base>INVALID_SMARTHOST</base>
+        <trans>Η δικτυακή ονομασία Η/Υ που δώσατε δεν αποτελεί έγκυρη διαδικτυακή ονομασία τομέα ούτε έχει αφεθεί κενή</trans>
+    </entry>
+    <entry>
+        <base>DESC_POP_ACCESS_CONTROL</base>
+        <trans>Μπορείτε να ελέγξετε την πρόσβαση στο διακομιστή POP3. Η επιλογή 'Επιτρέπεται η ιδιωτική πρόσβαση δηλαδή μόνον από τοπικά δίκτυα' επιτρέπει πρόσβαση στον POP3 μόνο από το τοπικό σας δίκτυο(α). Η ρύθμιση POP3S μπορεί να χρησιμοποιηθεί για την παροχή κρυπτογραφημένης εξωτερικής πρόσβασης στο διακομιστή POP3. Συνιστάται να αφεθεί η ρύθμιση της παραμέτρου αυτής στο 'Επιτρέπεται η πρόσβαση μόνον από τοπικά δίκτυα', εκτός εάν υπάρχει συγκεκριμένος λόγος για το αντίθετο.</trans>
+    </entry>
+    <entry>
+        <base>DESC_IMAP_ACCESS_CONTROL</base>
+        <trans>Μπορείτε να ελέγξετε την πρόσβαση του IMAP διακομιστή. Η επιλογή 'Επιτρέπεται η ιδιωτική πρόσβαση δηλαδή μόνον από τοπικά δίκτυα' επιτρέπει πρόσβαση του IMAP μόνο από το τοπικό σας δίκτυο(α). Η IMAPS επιλογή μπορεί να χρησιμοποιηθεί για την παροχή κρυπτογραφημένης εξωτερικής πρόσβασης στο διακομιστή IMAP. Συνιστάται να αφεθεί η ρύθμιση της παραμέτρου αυτής στο 'Επιτρέπεται η πρόσβαση μόνον από τοπικά δίκτυα', εκτός εάν υπάρχει συγκεκριμένος λόγος για το αντίθετο.</trans>
+    </entry>
+    <entry>
+        <base>DESC_SMTP_AUTH_CONTROL</base>
+        <trans><![CDATA[ You can provide authenticated access to your SMTP server, or set it to Disabled. The SSMTP setting requires <b>all</b> users to use SSL/TLS authentication. The SMTP and SSMTP option additionally allows STARTTLS to be used to ensure secure authentication. ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_WEBMAIL</base>
+        <trans>Μπορείτε να ενεργοποιήσετε ή να απενεργοποιήσετε την αλληλογραφία μέσω ιστοσελίδας (webmail) στο συγκεκριμένο σύστημα. Το webmail επιτρέπει στους χρήστες να έχουν πρόσβαση στην ηλεκτρονική αλληλογραφία τους μέσα από ένα κοινό περιηγητή ιστοσελίδων, εισάγοντας στον περιηγητή την διεύθυνση https://{$FQDN}/webmail, και συνδεόμενοι στον λογαριασμό τους.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_WEBMAIL</base>
+        <trans>Πρόσβαση σε ηλεκτρονική αλληλογραφία μέσω ιστοσελίδων</trans>
+    </entry>
+     <entry>
+        <base>LABEL_BLOCK_EXECUTABLE_CONTENT</base>
+        <trans>Εμποδισμός εκτελέσιμου περιεχομένου</trans>
+     </entry>
+     <entry>
+        <base>LABEL_CONTENT_TO_BLOCK</base>
+        <trans>Περιεχόμενο για εμποδισμό</trans>
+     </entry>
+     <entry>
+        <base>DESC_BLOCK_EXECUTABLE_CONTENT</base>
+        <trans>Μπορείτε να εμποδίσετε τη λήψη ηλεκτρονικών μηνυμάτων με εκτελέσιμα συνημμένα αρχεία υποδεικνύοντας τους τύπους των εκτελέσιμων συνημμένων που θα θέλατε να εμποδίζονται. Μηνύματα που περιέχουν συνημμένα τέτοιου είδους θα επιστρέφονται αυτόματα στον παραλήπτη τους.</trans>
+    </entry>
+    <entry>
+        <base>UNACCEPTABLE_CHARS</base>
+        <trans>Αυτό το πεδίο απαιτεί μία έγκυρη διεύθυνση ηλεκτρονικής αλληλογραφίας που θα περιλαμβάνει το σύμβολο @ και μία ονομασία τομέα.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_ACCESS</base>
+        <trans><![CDATA[ <h2>Πρόσβαση στην ηλεκτρονική αλληλογραφία</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_ACCESS_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_ACCESS">Αλλαγή ρυθμίσεων πρόσβασης ηλεκτρονικής αλληλογραφίας</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_RECEPTION</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Λήψη ηλεκτρονικής αλληλογραφίας</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_RECEPTION_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_RECEPTION">Αλλαγή ρυθμίσεων λήψης ηλεκτρονικής αλληλογραφίας</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_DELIVERY</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Αποστολή ηλεκτρονικής αλληλογραφίας</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_DELIVERY_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_DELIVERY">Αλλαγή ρυθμίσεων αποστολής ηλεκτρονικής αλληλογραφίας</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_FILTERING_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_FILTERING">Αλλαγή ρυθμίσεων φιλτραρίσματος ηλεκτρονικής αλληλογραφίας</a> ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_VIRUS_SCAN</base>
+	<trans>Ανίχνευση ιών</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_VIRUS_SCAN</base>
+	<trans>Μπορείτε να ανιχνεύετε την εισερχόμενη και εξερχόμενη ηλεκτρονική αλληλογραφία για ύπαρξη ιών. Εάν η ανίχνευση είναι ενεργοποιημένη και εντοπισθεί κάποιος ιός, τότε το συγκεκριμένο μήνυμα θα απορριφθεί και θα επιστραφεί στον αποστολέα.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_SPAM_SCAN</base>
+	<trans>Φιλτράρισμα ανεπιθύμητης αλληλογραφίας</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_SPAM_SCAN</base>
+	<trans>Μπορείτε να ελέγχετε τα μηνύματα για ανεπιθύμητα. Εάν το φιλτράρισμα των ανεπιθύμητων είναι ενεργοποιημένο, προστίθεται μία κεφαλίδα κατάστασης X-Spam-Status: σε κάθε μήνυμα, η οποία μπορεί να χρησιμοποιηθεί για το φιλτράρισμα των ανεπιθύμητων. Μπορείτε να προσαρμόσετε την ευαισθησία ανίχνευσης ανεπιθύμητων αλλάζοντας την προεπιλεγμένη ρύθμιση "μεσαία". Για λεπτομερέστερο έλεγχο, μπορείτε να ορίσετε την ευαισθησία των ανεπιθύμητων στο "Εξατομικευμένη" ("Custom") και κατόπιν να επιλέξετε το εξατομικευμένο επίπεδο σήμανσης (tagging) και, προαιρετικά, το επίπεδο πάνω από το οποίο επιθυμείτε την απόρριψη του μηνύματος.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_SPAM_SUBJECT</base>
+	<trans>SPAM subject prefix</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_SPAM_SUBJECT</base>
+	<trans>You can enable to add a tag to the subject of each message that is classified as SPAM. The value for this tag can be defined below.</trans>
+    </entry>
+
+   <entry>
+        <base>LABEL_SPAM_SENSITIVITY</base>
+        <trans>Ευαισθησία σε ανεπιθύμητα μηνύματα (spam)</trans>
+    </entry>
+   <entry>
+        <base>LABEL_SPAM_TAGLEVEL</base>
+        <trans>Εξατομικευμένο επίπεδο σήμανσης ανεπιθύμητων spam</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SPAM_REJECTLEVEL</base>
+        <trans>Εξατομικευμένο επίπεδο απόρριψης ανεπιθύμητων spam</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SPAM_SUBJECTTAG</base>
+        <trans>Τροποποίηση του θέματος του ανεπιθύμητου μηνύματος spam</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SORTSPAM</base>
+        <trans>Ταξινόμησε τα spam στο φάκελο απορριπτέων μηνυμάτων (junkmail)</trans>
+    </entry>
+    <entry>
+        <base>VERYHIGH</base>
+        <trans>Πολύ υψηλή</trans>
+    </entry>
+    <entry>
+        <base>HIGH</base>
+        <trans>Υψηλή</trans>
+    </entry>
+    <entry>
+        <base>MEDIUM</base>
+        <trans>Μεσαία</trans>
+    </entry>
+    <entry>
+        <base>LOW</base>
+        <trans>Χαμηλή</trans>
+    </entry>
+    <entry>
+        <base>VERYLOW</base>
+        <trans>Πολύ χαμηλή</trans>
+    </entry>
+    <entry>
+        <base>CUSTOM</base>
+        <trans>Εξατομικευμένη</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_STATUS</base>
+        <trans>Πιστοποίηση γνησιότητας SMTP παρόχου διαδικτύου</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_USERID</base>
+        <trans>Ταυτότητα χρήστη στον διακομιστή ταχυδρομείου</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_PASSWD</base>
+        <trans>Κωδικός πρόσβασης διακομιστή ταχυδρομείου</trans>
+    </entry>
+
+    <entry>
+        <base>VALIDATION_SMTPAUTH_NONBLANK</base>
+        <trans>Το παρόν πεδίο δεν μπορεί να παραμείνει κενό εάν είναι ενεργοποιημένη η πιστοποίηση γνησιότητας στον SMTP.</trans>
+    </entry>
+
+</lexicon>

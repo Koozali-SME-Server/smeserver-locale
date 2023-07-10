@@ -1,0 +1,106 @@
+<lexicon lang="id">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Buat, ubah, atau hapus kuota pengguna</trans>
+    </entry>
+    <entry>
+      <base>UNABLE_TO_OPEN_ACCOUNTS</base>
+      <trans>Tidak dapat membuka db akun</trans>
+    </entry>
+    <entry>
+      <base>QUOTA_DESC</base>
+      <trans><![CDATA[ <p>Anda dapat mengeset kuota file untuk user dalam sistem anda dengan meng-klik tombol "Ubah" di sebelah pengguna yang ingin anda ubah. <p>Jika pengguna tersebut melewati "Batasan dengan masa kelonggaran", peringatan akan dibuat. Jika batas ini melebihi satu minggu atau jika "Batas Absolut" telah tercapai, user tersebut tidak akan dapat menyimpan file lagi atau menerima email lagi. <p>Setting '0' pada kedua batasan meniadakan batasan pada user tersebut. <p>Ruang disk untuk setiap pengguna meliputi  home directory pengguna, e-mail, dan segala berkas file yang dimiliki oleh user tersebut dalam information bays. ]]></trans>
+    </entry>
+    <entry>
+      <base>CURRENT_USAGE_AND_SETTINGS</base>
+      <trans>Penggunaan Kuota dan Setting saat ini.</trans>
+    </entry>
+    <entry>
+      <base>LIMIT_WITH_GRACE</base>
+      <trans>Batas dengan masa tenggang</trans>
+    </entry>
+    <entry>
+      <base>LIMIT_WITH_GRACE_MB</base>
+      <trans>Batas dengan masa tenggang (MB)</trans>
+    </entry>
+    <entry>
+      <base>ABS_LIMIT</base>
+      <trans>Batas mutlak</trans>
+    </entry>
+    <entry>
+      <base>ABS_LIMIT_MB</base>
+      <trans>Batas mutlak (MB)</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_USAGE</base>
+      <trans>Pemakaian sekarang (MB)</trans>
+    </entry>
+    <entry>
+      <base>COULD_NOT_GET_UID</base>
+      <trans>Tidak dapat menentukan uid pengguna:</trans>
+    </entry>
+    <entry>
+      <base>ERR_NO_SUCH_ACCT</base>
+      <trans>Error : tidak ada akun bernama :</trans>
+    </entry>
+    <entry>
+      <base>ERR_NOT_A_USER_ACCT</base>
+      <trans>Error: akun ini bukan akun pengguna:</trans>
+    </entry>
+    <entry>
+      <base>ACCOUNT_IS_TYPE</base>
+      <trans>Ini adalah akun jenis:</trans>
+    </entry>
+    <entry>
+      <base>MODIFY_USER_TITLE</base>
+      <trans>Ubah batas kuota pengguna</trans>
+    </entry>
+    <entry>
+      <base>USER</base>
+      <trans>Pengguna:</trans>
+    </entry>
+    <entry>
+      <base>CURRENTLY_HAS</base>
+      <trans>saat ini mempunyai:</trans>
+    </entry>
+    <entry>
+      <base>FILES</base>
+      <trans>berkas</trans>
+    </entry>
+    <entry>
+      <base>OCCUPYING</base>
+      <trans>menempati:</trans>
+    </entry>
+    <entry>
+      <base>MEGABYTES</base>
+      <trans>megabit</trans>
+    </entry>
+    <entry>
+      <base>INSTRUCTIONS</base>
+      <trans>Masukkan kota dalam bilangan bulat dengan akhiran 'K' untuk kilobyte, 'M' untuk megabyte, atau 'G' untuk gigabyte. Angka tanpa akhiran akan diasumsikan sebagai nilai dalam megabyte. Masukan '0' pada kedua limit untuk meniadakan batasan untuk pengguna tersebut.</trans>
+    </entry>
+    <entry>
+      <base>SOFT_VAL_MUST_BE_NUMBER</base>
+      <trans>Error: batasan dengan masa kelonggaran harus merupakan bilangan bulat, dan boleh diikuti dengan salah satu akhiran K,M, atau G.</trans>
+    </entry>
+    <entry>
+      <base>HARD_VAL_MUST_BE_NUMBER</base>
+      <trans>Error: batasan absolut harus merupakan bilangan bulat, dan boleh diikuti dengan salah satu akhiran K, M atau G.</trans>
+    </entry>
+    <entry>
+      <base>ERR_HARD_LT_SOFT</base>
+      <trans>Error: batasan absolut harus lebih besar daripada batasan dengan masa kelonggaran.</trans>
+    </entry>
+    <entry>
+      <base>ERR_MODIFYING</base>
+      <trans>Terjadi kesalahan saat mengubah pengguna.</trans>
+    </entry>
+    <entry>
+      <base>SUCCESSFULLY_MODIFIED</base>
+      <trans>Berhasil mengubah kuota untuk akun pengguna:</trans>
+    </entry>
+    <entry>
+	<base>Quotas</base>
+	<trans>Kuota</trans>
+    </entry>
+</lexicon>

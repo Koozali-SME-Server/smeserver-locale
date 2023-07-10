@@ -1,0 +1,114 @@
+<lexicon lang="sl">
+    <entry>
+      <base>NO_PSEUDONYMS</base>
+      <trans><![CDATA[ <b>V sistemu ni nobenih vzdevkov.</b> ]]></trans>
+     </entry>
+    <entry>
+        <base>REMOVE_PSEUDONYM</base>
+        <trans>Odstrani vzdevek</trans>
+    </entry>
+    <entry>
+        <base>ABOUT_TO_REMOVE</base>
+        <trans><![CDATA[ Si tik pred tem, da odstranis vzdevek:<br> <b>Ali si preprican, da to zelis?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Kreiraj, uredi ali odstrani vzdevek</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans><![CDATA[ <p>Streznik avtomatsko kreira e-postno ime za vsako skupino. Ce zelis dolociti e-postno ime za seznam uporabnikov enostavno kreiraj skupino in seznam bo avtomaticno vzdrzeva s strani streznika.</p> <p>Vzdevek ti omogoca dodati imena za obstojece uporabnike ali skupine. Primer: Zelis kreirati vzdevek "primer" za skupino "primerskupina" ali vzdevek "test" za uporabnika "testiranec".</p> <p>Streznik avtomatsko generira vzdevek po vzorcu ime.priimek in ime_priimek za vsakega uporabnika in vzdevek "everyone" ki vsebuje vse uporabnike v sistemu</p> <p>Za urejanje ali brisanje vzdevka pritisni na ustrezni napis poleg vzdevka.</p>]]></trans>
+    </entry>
+    <entry>
+        <base>LOCAL_ONLY</base>
+        <trans>(samo lokalno omrezje)</trans>
+    </entry>
+    <entry>
+        <base>SELECT_ACCOUNT</base>
+        <trans>Izberi racun ali skupino</trans>
+    </entry>
+    <entry>
+        <base>SELECT_INTERNAL</base>
+        <trans>(samo lokalno omrezje)</trans>
+    </entry>
+    <entry>
+        <base>CLICK_TO_CREATE</base>
+        <trans>Dodaj vzdevek</trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM</base>
+        <trans>Vzdevek</trans>
+    </entry>
+    <entry>
+        <base>USER_OR_GROUP</base>
+        <trans>Uporabnik ali skupina</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_PSEUDONYMS</base>
+        <trans><![CDATA[<b>Trenutni seznam vzdevkov</b>]]></trans>
+    </entry>
+    <entry>
+        <base>TITLE_CREATE</base>
+        <trans>Kreiraj vzdevek</trans>
+    </entry>
+    <entry>
+        <base>DESC_PSEUDONYM_NAME</base>
+       <trans>Prosim izberi obstojeci racun ali skupino za vzdevek z menuja spodaj</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_PSEUDONYM</base>
+        <trans>Uredi vzdevek</trans>
+    </entry>     
+       <entry>
+        <base>PSEUDONYM_NAME</base>
+        <trans>Ime vzdevka</trans>
+    </entry>
+    <entry>
+        <base>VALID_PSEUDONYM_NAMES</base>
+        <trans><![CDATA[ Vzdevek lahko vsebuje samo male crke, stevilke, pike in podcrtaje in se mora zaceti z malo crko ali stevilko. Na primer "prodaja", "marjan.glavni", "123" in "eposta-administrator" so vse pravilni vzdevki. <p>Vzdevki Marjan Glavni in Streznik Zavse pa niso pravilni. ]]></trans>
+    </entry>
+    <entry>
+        <base>NAME_IN_USE</base>
+        <trans>Napaka: To ime je v uporabi in ne mores kreirati vzdevka z tem imenom.</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_PSEUDONYM</base>
+        <trans>Ta racun ni vzdevek</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_DOMAIN</base>
+        <trans>That domain is not hosted on this server</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_NOACCT</base>
+        <trans>That account is not hosted on this server</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_SAMEACCT</base>
+        <trans>A pseudonym cannot point to the same account</trans>
+    </entry>
+    <entry>
+        <base>CREATE_SUCCEEDED</base>
+        <trans>Uspesno kreiran vzdevek</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_SUCCEEDED</base>
+        <trans>Uspesno urejen vzdevek</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_SUCCEEDED</base>
+        <trans>Uspesno odstranjen vzdevek</trans>
+    </entry>
+    <entry>
+      <base>EVERYONE</base>
+      <trans>Everyone</trans>
+    </entry>
+      <entry>
+        <base>Pseudonyms</base>
+        <trans>Vzdevek</trans>
+      </entry>
+
+</lexicon>

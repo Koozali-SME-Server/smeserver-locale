@@ -1,0 +1,749 @@
+<lexicon lang="nl">
+  <entry>
+   <base>BACKUP_TITLE</base>
+   <trans>Backup of herstel server data</trans>
+  </entry>
+  <entry>
+   <base>BACKUP_DESC</base>
+   <trans><![CDATA[ <P>De server heeft twee manieren van backup en herstellen van uw server.</P><P>De eerste methode creëert een kopie van de server configuratie en gebruikers bestanden en download het naar het bureaublad over uw webbrowser. Op dit moment is de omvang van uw configuratie en gebruikers bestanden ongeveer <b>$tarsize</b>. Het backup bestand zal wat kleiner zijn afhankelijk van hoe de bestanden te comprimeren zijn. De \"Controleer bureaublad backup bestand\" optie kan gebruikt worden om de integriteit van het backup bestand te testen.</P><P>De tape backup methode gebruikt een software pakket genaamd <I>$module</I> om elke nacht de volledige harddisk naar tape te schrijven. Dit vereist een een ondersteunde tape drive en een tape die niet beveiligd is tegen schrijven. De backup wordt automatisch uitgevoerd op de ingestelde tijd 's nachts (met een herinnering e-mail naar de beheerder gedurende de dag). Op dit moment bevat uw vaste schijfstation <b>$dumpsize</b> aan data.</P> <P>Beide methodes maken herstellen van configuratie en gebruikers bestanden mogelijk. <b>Het verdient de voorkeur de herstel operatie uit te voeren op een vers geïnstalleerde server</b>.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_DESC_DAR</base>
+   <trans><![CDATA[ <P>Er worden drie methoden aangeboden om uw server te backuppen en herstellen: gebruik maken van een tape drive, gebruik maken van een gedeelde netwerkschijf of een lokale verwisselbare schijf, of gebruik maken van je lokale bureaublad.</P> <P>Tape Backup: Deze methode maakt gebruik van een software pakket genaamd <I>$module</I> om uw gehele harddisk elke nacht naar tape te schrijven. Hiervoor is een ondersteunde tape drive nodig en een tape welke niet schrijfbeveiligd is. De backup wordt elke nacht automatisch op de geselecteerde tijd uitgevoerd (met een automatische herinnering welke gedurende de dag per e-mail aan de beheerder gestuurd wordt). Momenteel bevat uw hard disk <b>$dumpsize</b> aan gegevens.</P> <P>Werkstation Backup: Deze methode maakt gebruik van een software pakket genaamd <I>dar</I> om uw configuratie- en gegevensbestanden elke nacht naar een gedeelde netwerkschijf of een lokale verwisselbare schijf zoals een USB schijf. U kunt instellen hoeveel roterende backup sets worden bewaard, en hoeveel incrementele backups er in elke set zijn. De backup wordt dagelijks automatisch uitgevoerd op de geselecteerde tijd. De huidige ongecomprimeerde configuratie- en gegevensbestandgrootte is ongeveer <b>$tarsize</b>. Op de gedeelde backup schijf moet ongeveer twee maal de gecomprimeerde gegevensgrootte beschikbaar zijn.</P> <P>Backup naar Bureaublad: Deze methode maakt een kopie van uw configuratie- en gegevensbestanden, en download deze naar uw lokale desktop via uw webbrowser. De huidige configuratie- en gegevensbestandsgrootte is ongeveer <b>$tarsize</b>. Het backup bestand zal iets kleiner zijn, afhankelijk van de comprimeerbaarheid van de gegevens. Dit bestand kan gebruikt worden om uw server te herstellen vanaf het console wanneer u het bestand kopieert naar een lokale verwisselbare schijf, zoals een USB-schijf.</P> <P>Alle backup methoden maken het mogelijk uw configuratie en gegevensbestanden te herstellen. Werkstation Backup biedt daarnaast ook de mogelijkheid individuele bestanden te herstellen. <b>Bij voorkeur dient U een volledig herstel uit te voeren op een schoon geïnstalleerde server</b>.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_CONFIG_STATUS</base>
+   <trans>Backup configuratie en status</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUPS_ENABLED</base>
+   <trans><![CDATA[ Tape backups zijn momenteel <b>geactiveerd</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUPS_RUN_AT</base>
+   <trans>Geautomatiseerde tape backups starten om:</trans>
+  </entry>
+  <entry>
+   <base>REMINDER_MESSAGE_AT</base>
+   <trans>Herinneringsberichten worden verzonden naar:</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUPS_DISABLED</base>
+   <trans><![CDATA[ Tape backups zijn <b>niet geactiveerd</b> ]]></trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_BACKUP</base>
+   <trans>Backup naar bureaublad</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_RESTORE</base>
+   <trans>Herstellen vanaf bureaublad</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_VERIFY</base>
+   <trans>Controleer bureaublad backup bestand</trans>
+  </entry>
+  <entry>
+   <base>TAPE_CONFIGURE</base>
+   <trans>Configureer tape backup</trans>
+  </entry>
+  <entry>
+   <base>TAPE_RESTORE</base>
+   <trans>Herstellen vanaf tape</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS_BEGAN_AT</base>
+   <trans>Er is een systeemherstel gestart. Het begon om:</trans>
+  </entry>
+  <entry>
+   <base>REFRESH_THIS_DISPLAY</base>
+   <trans>Vernieuw het scherm</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_TAPE_BACKUP</base>
+   <trans>Configureer tape backup</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_COMPLETED</base>
+   <trans>Een systeemherstel is voltooid</trans>
+  </entry>
+  <entry>
+   <base>STARTED_AT</base>
+   <trans>Het begon om:</trans>
+  </entry>
+  <entry>
+   <base>FINISHED_AT</base>
+   <trans>en is voltooid om:</trans>
+  </entry>
+  <entry>
+   <base>YOU_MUST_REBOOT</base>
+   <trans>U moet de server omwille van het systeemherstel herstarten om configuratie wijzigingen die gemaakt zijn te activeren.</trans> 
+  </entry> 
+  <entry>
+   <base>REBOOT</base>
+   <trans>Herstarten</trans>
+  </entry>
+  <entry>
+   <base>SELECT_AN_ACTION</base>
+   <trans>Selecteer een actie</trans>
+  </entry>
+  <entry>
+   <base>X_BACKUP_OR_RESTORE</base>
+   <trans>X Backup of herstel server data</trans>
+  </entry>
+  <entry>
+   <base>ERR_PRE_BACKUP</base>
+   <trans>Fout opgetreden tijdens pre-backup acties.</trans>
+  </entry>
+  <entry>
+   <base>ERR_PRE_RESTORE</base>
+   <trans>Er is een fout opgetreden tijdens de voorbereiding van herstel acties.</trans>
+  </entry>
+  <entry>
+   <base>ERR_POST_BACKUP</base>
+   <trans>Fout opgetreden tijdens na-backup acties.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_SERVER_CONFIG</base>
+   <trans>Server configuratie herstellen</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_RESTORE_DESC</base>
+   <trans><![CDATA[ Dit proces laadt een server backup bestand van uw lokale computer naar uw server en herstelt de configuratie en gebruikers data. <B>Het herstel kan best uitgevoerd worden op een nieuw geïnstalleerde server</B>. ]]></trans>
+  </entry>
+  <entry>
+   <base>FREE_SPACE</base>
+   <trans><![CDATA[ U heeft ongeveer $tmpfree vrije schijfruimte op de server. Controleer dat het bureaublad backup bestand kleiner is dan $halffree voordat U het herstel start. ]]></trans>
+  </entry>
+  <entry>
+   <base>MUST_REBOOT_AFTER_RESTORE</base>
+   <trans>Nadat het herstel voltooid is moet u de server herstarten.</trans>
+  </entry>
+  <entry>
+   <base>FILE_TO_RESTORE</base>
+   <trans>Backup bestand om van te herstellen</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Deze optie toont de namen van alle bestanden in een eerder gemaakt bureaublad backup bestand. U kan deze optie gebruiken om de inhoud van het backup bestand te verifieren.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>SELECT_BACKUP_FILE</base>
+   <trans>Selecteer backup bestand</trans>
+  </entry>
+  <entry>
+   <base>VERIFY</base>
+   <trans>Controleer</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CANNOT_PROCEED</base>
+   <trans>Kan server configuratie niet verder herstellen</trans>
+  </entry>
+  <entry>
+   <base>ANOTHER_RESTORE_IN_PROGRESS</base>
+   <trans>Een ander herstel is lopend. Probeer op een ander moment opnieuw.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS</base>
+   <trans>Herstel is lopend</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS_DESC</base>
+   <trans>Nadat het herstel is voltooid moet u de server herstarten. Uw herstel is voltooid wanneer de woorden "Herstel voltooid" onder op uw scherm verschijnen.</trans>
+  </entry>
+  <entry>
+   <base>FILES_HAVE_BEEN_RESTORED</base>
+   <trans>De volgende bestanden en mappen zijn hersteld:</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FAILED_MSG</base>
+   <trans>Herstel mislukt! Er was een fout bij het lezen van het backup bestand.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_COMPLETE</base>
+   <trans>Herstel voltooid</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_GID</base>
+   <trans>Fout opgetreden tijdens herstellen van gid voor 'www'</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_INITIAL_GRP</base>
+   <trans>Fout opgetreden tijdens herstellen initiële groep van 'www'.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FAILED</base>
+   <trans>Herstel mislukt! Het backup bestand is niet volledig.</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_EXEC_PIPELINE</base>
+   <trans>Kan backup pipeline niet uitvoeren:</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_DECODE</base>
+   <trans>Kan backup bestand niet decoderen:</trans>
+  </entry>
+  <entry>
+   <base>FILES_IN_BACKUP</base>
+   <trans>De volgende bestanden komen in de back-up:</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_COMPLETE</base>
+   <trans>Verificatie is voltooid</trans>
+  </entry>
+  <entry>
+   <base>BACKUP_FILE_INCOMPLETE</base>
+   <trans>Het backup bestand is onvolledig</trans>
+  </entry>
+  <entry>
+   <base>ERR_READING_FILE</base>
+   <trans>Er is een fout bij het lezen van het backup bestand.</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_DISABLE_TAPE</base>
+   <trans>Activeer/De-activeer Nachtelijke Tape Backup</trans>
+  </entry>
+  <entry>
+   <base>TAPE_CONFIG_DESC</base>
+   <trans><![CDATA[ <p>Selecteer of u nachtelijke backups wil activeren. Geef daarna de tijdstippen aan voor de backup en de herinnering om de tape te plaatsen.</p> <p>De tape backup heeft een ondersteund tape station nodig. Een opgelet bericht zal naar de administrator verzonden worden op het vastgestelde herinneringstijdstip als het tape station leeg is.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>ENABLE_TAPE_BACKUP</base>
+   <trans>Activeer tape backup</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUP_TIME</base>
+   <trans>Tape backup tijdstip (uur/min)</trans>
+  </entry>
+  <entry>
+   <base>LOAD_TAPE_REMINDER_TIME</base>
+   <trans>Laad tape herinnering tijdstip (uur/min)</trans>
+  </entry>
+  <entry>
+   <base>AM/PM</base>
+   <trans>VM/NM</trans>
+  </entry>
+  <entry>
+   <base>AM</base>
+   <trans>VM</trans>
+  </entry>
+  <entry>
+   <base>PM</base>
+   <trans>NM</trans>
+  </entry>
+  <entry>
+   <base>UPDATE_CONF</base>
+   <trans>Wijzigen</trans>
+  </entry>
+  <entry>
+   <base>UPDATING_TAPE_CONF</base>
+   <trans>Past tape backup configuratie aan</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_HOUR</base>
+   <trans>Fout: foutief backup uur:</trans>
+  </entry>
+  <entry>
+   <base>BETWEEN_0_AND_12</base>
+   <trans>Kies een uur tussen 0 en 12.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_MINUTE</base>
+   <trans>Fout: foutieve backup minuut:</trans>
+  </entry>
+  <entry>
+   <base>BETWEEN_0_AND_59</base>
+   <trans>Kies een minuut tussen 0 en 59.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_REMINDER_HOUR</base>
+   <trans>Fout: foutief herinneringsuur:</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_REMINDER_MINUTE</base>
+   <trans>Fout: foutieve herinneringsminuut:</trans>
+  </entry>
+  <entry>
+   <base>ERR_CONF_BACKUP</base>
+   <trans>Fout opgetreden tijdens conf-backup actie.</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_ENABLED_TAPE</base>
+   <trans>Tape backups zijn met succes geactiveerd</trans>
+  </entry>
+  <entry>
+   <base>WITH_BACKUP_TIME</base>
+   <trans>met backup tijd:</trans>
+  </entry>
+  <entry>
+   <base>WITH_REMINDER_TIME</base>
+   <trans>en laad tape herinneringstijd:</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_DISABLED</base>
+   <trans>Tape backups zijn met succes gedeactiveerd</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_TAPE</base>
+   <trans>Herstel server configuratie van tape backup</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_TAPE_DESC</base>
+   <trans><![CDATA[ <p>Dit proces zal de configuratie en gebruikers data herstellen van een server tape backup. <B>Het herstel moet uitgevoerd worden op een nieuw geïnstalleerde server</B>.</P> <P>Kijk na of u de benodigde backup tape in het tape station heeft geplaatst vooraleer te starten.</P> <P>Nadat het herstel voltooid is moet u de server herstarten.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FROM_TAPE</base>
+   <trans>Herstellen Vanaf Tape</trans>
+  </entry>
+  <entry>
+   <base>UNABLE_TO_RESTORE_CONF</base>
+   <trans>Niet mogelijk om server configuratie te herstellen</trans>
+  </entry>
+  <entry>
+   <base>RESTORING_FROM_TAPE</base>
+   <trans>Aan het herstellen vanaf Tape</trans>
+  </entry>
+  <entry>
+   <base>NOW_RESTORING_FROM_TAPE</base>
+   <trans>Uw server configuratie en gebruikers data bestanden worden nu hersteld vanaf tape.</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_FROM_TAPE</base>
+   <trans>Fout opgetreden bij het herstellen van bestanden vanaf tape.</trans>
+  </entry>
+  <entry>
+   <base>ERR_UPDATING_CONF_AFTER_TAPE_RESTORE</base>
+   <trans>Er is een fout opgetreden bij het wijzigen van de systeemconfiguratie na het herstel van tape.</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_FORK</base>
+   <trans>Kan niet splitsen:</trans>
+  </entry>
+  <entry>
+   <base>SERVER_REBOOT</base>
+   <trans>Server herstart</trans>
+  </entry>
+  <entry>
+   <base>SERVER_WILL_REBOOT</base>
+   <trans>Uw server zal nu herstarten.</trans>
+  </entry>
+  <entry>
+   <base>NO_UID_FOR_NAME</base>
+   <trans>Kan uid niet vinden voor gebruiker:</trans>
+  </entry>
+  <entry>
+   <base>PAGE_REFRESH_IN</base>
+   <trans><![CDATA[ Deze pagina vernieuwt naar het status scherm binnen {$sec} seconden, of klik <a href="/server-manager/cgi-bin/backup">hier</a>. ]]></trans>
+  </entry>
+    <entry>
+	<base>Backup or restore</base>
+	<trans>Backup of herstel</trans>
+    </entry>
+
+  <entry>
+	<base>BACKUP_DESKTOP_TOO_BIG</base>
+	<trans><![CDATA[ <div class="error"> Uw server heeft te veel data voor een betrouwbare backup naar bureaublad. </div> ]]></trans>
+  </entry>
+   <entry>
+   <base>WORKSTN_BACKUPS_DISABLED</base>
+   <trans><![CDATA[ Werkstation backups zijn <b>niet geactiveerd</b> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUPS_ENABLED</base>
+   <trans><![CDATA[ Werkstation backups zijn <b>geactiveerd</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>WKBACKUPS_RUN_AT</base>
+   <trans>Werkstation backups starten om:</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_CONFIGURE</base>
+   <trans>Configureer werkstation backup</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_VERIFY</base>
+   <trans>Controleer werkstation backup</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_RESTORE</base>
+   <trans>Herstel vanaf werkstation</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_WORKSTN_BACKUP</base>
+   <trans>Configureer Werkstation Backup</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_DISABLE_WORKSTN</base>
+   <trans>Activeer/De-activeer Dagelijkse Werkstation Backup</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_WORKSTN_BACKUP</base>
+   <trans>Activeer Werkstation backup</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TIME</base>
+   <trans>Werkstation backup tijdstip (uur/min)</trans>
+  </entry>
+  <entry>
+   <base>UPDATING_WORKSTN_CONF</base>
+   <trans>Werkstation backup configuratie aan het wijzigen</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_ENABLED_WORKSTN</base>
+   <trans>Werkstation backups zijn met succes geactiveerd</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_DISABLED_WORKSTN</base>
+   <trans>Werkstation backups zijn met succes gedeactiveerd</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_WORKSTN_BACKUP_FILE</base>
+   <trans>Controleer werkstation backup</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_WORKSTN_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Deze optie toont de namen van alle bestanden in eerder gemaakte dagelijkse werkstation backups. U kunt deze optie gebruiken om de inhoud van de backup te controleren.<b>U dient de backup te kiezen die u wilt controleren.</b></p> <p>Alleen bestanden gemerkt met [Saved] zullen zich in de backup bevinden.</p> Backup bestanden zijn gecontroleerd vanaf de gedeelde map : ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_WORKSTN</base>
+   <trans>Herstel server configuratie vanaf werkstation backup</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_WORKSTN_DESC</base>
+   <trans><![CDATA[ <p>Dit proces zal de configuratie en gebruikers bestanden herstellen van een Server werkstation backup. <b>Het herstel moet uitgevoerd worden op een nieuw geinstalleerde server</b>.</p> <p>Controleer dat u de juiste backup selecteert vooraleer door te gaan.</p> <p>Nadat het herstel voltooid is moet u de server herstarten.</p> Backup wordt hersteld vanaf : ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FROM_WORKSTN</base>
+   <trans>Herstel Vanaf Werkstation</trans>
+  </entry>
+  <entry>
+   <base>RESTORING_FROM_WORKSTN</base>
+   <trans>Aan het herstellen vanaf werkstation</trans>
+  </entry>
+  <entry>
+   <base>NOW_RESTORING_FROM_WORKSTN</base>
+   <trans>Uw server configuratie en gebruikers data bestanden worden nu hersteld vanaf de gedeelde map van het werkstation.</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_FROM_WORKSTN</base>
+   <trans>Fout opgetreden tijdens het herstellen vanaf werkstation.</trans>
+  </entry>
+  <entry>
+   <base>ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE</base>
+   <trans>Er is een fout opgetreden bij het wijzigen van de systeemconfiguratie na het herstel vanaf een werkstation.</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_NAME</base>
+   <trans>Werkstation IP of hostnaam</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SETTINGS</base>
+   <trans>Werkstation Backup Instellingen</trans>
+  </entry>
+  <entry>
+   <base>SHARED_FOLDER_NAME</base>
+   <trans>Backup gedeelde map</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_LOGIN</base>
+   <trans>Gebruikersnaam</trans>
+  </entry>
+  <entry>
+   <base>WORKSTATION_BACKUP_DEST</base>
+   <trans>Backup werkstation instellingen</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_WORKSTN_BACKUP_DESC</base>
+   <trans>U kan het aantal succesvolle backups die worden bijgehouden op het werkstation instellen met automatische rotatie. Elke backup kan opgeslagen data voor meerdere dagen bevatten. In dit geval is de eerste backup een volledige backup, en de volgenden een dagelijkse incrementele backup. U kan tevens een tijdslimiet instellen voor elke backup sessie of enkel voor incrementele backups. Wanneer deze limiet wordt bereikt wordt de backup netjes gestopt en zal de volgende incrementele backup veilig verder gaan met niet opgeslagen en gewijzigde data.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_WORKSTN</base>
+   <trans>Fout Werkstation IP of Hostnaam</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_FOLDER</base>
+   <trans>Foute gedeelde map naam</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_LOGIN</base>
+   <trans>Foute Gebruikersnaam</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_PASSWORD</base>
+   <trans>Fout Wachtwoord</trans>
+  </entry>
+  <entry>
+   <base>ERR_ALREADY_MOUNTED</base>
+   <trans>Backup directory is reeds gemonteerd</trans>
+  </entry>
+  <entry>
+   <base>ERR_MOUNTING_SMBSHARE</base>
+   <trans>Niet mogelijk om werkstation gedeelde map te laden</trans>
+  </entry>
+  <entry>
+   <base>ERR_NOT_MOUNTED</base>
+   <trans>Backup directory is niet gemonteerd</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_NOT_SET</base>
+   <trans>U moet eerst uw werkstation backup correct configureren</trans>
+  </entry>
+  <entry>
+   <base>NO_BACKUPS_TO_RESTORE</base>
+   <trans>Er is geen backup ingesteld op de geconfigureerde werkstation gedeelde map. Controleer uw configuratie instellingen.</trans>
+  </entry>
+  <entry>
+   <base>NUMBER_OF_SETS</base>
+   <trans>Aantal sets rotatie backups</trans>
+  </entry>
+  <entry>
+   <base>NUMBER_OF_FILES_IN_SET</base>
+   <trans>Dagelijkse backups in elke set</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_SETS_NUMBER</base>
+   <trans>Sets aantal moet groter of gelijk zijn aan 1</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_FILES_IN_SET_NUMBER</base>
+   <trans>Dit getal moet groter of gelijk zijn aan 1. De eerste backup in de set is <b>volledig</b> de andere zijn <b>incrementeel</b></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_TIMEOUT</base>
+   <trans>Optionele backup sessie tijdsstop (uren)</trans>
+  </entry>
+  <entry>
+   <base>INC_ONLY_TIMEOUT</base>
+   <trans>Geen tijdsstop voor volledige backup sessies</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_TIMEOUT</base>
+   <trans>Maximum backup tijd moet zich tussen 1 en 24 uur bevinden</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_HOST_DIR</base>
+   <trans>Geen map voor uw host in gedeelde map. Misschien is uw hostnaam verschillend van de backup hostnaam</trans>
+  </entry>
+  <entry>
+   <base>ERROR_READING_FILE</base>
+   <trans>Fout bij het lezen van bestanden vanaf</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SEL_RESTORE</base>
+   <trans>Bestandsselectie herstel vanaf werkstation</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SELECTIVE_RESTORE</base>
+   <trans>Werkstation bestandsselectie herstel</trans>
+  </entry>
+  <entry>
+   <base>ALL_BACKUPS</base>
+   <trans>Alle backups</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SEL_REST_DESC</base>
+   <trans><![CDATA[ Dit proces herstelt enkel geselecteerde bestanden en mappen. U moet eerst de juiste backup selecteren van waar u wil herstellen. Als u niet weet in welke backup de bestanden zich bevinden, kan u de 'alle backups' optie selecteren. <br/><br/> Het volgende paneel toont beschikbare bestanden en mappen zodat u diegene kan selecteren die u nodig heeft. Om het aantal bestanden en mappen te beperken kan u nu een filter ingeven, toegepast als een reguliere expressie op de getoonde namen.<br/><br/> U heeft de verantwoordelijkheid om bestanden die het functioneren van uw systeem te beschadigen niet te herstellen.<br/><br/>Momenteel worden bestanden hersteld vanaf: ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_CHOICE</base>
+   <trans>Selecteer bestanden om te tonen</trans>
+  </entry>
+  <entry>
+   <base>SELECT_DATE_BEFORE</base>
+   <trans>Herstel meest recente voor</trans>
+  </entry>
+  <entry>
+   <base>FILTER_EXPRESSION</base>
+   <trans>Namen gefilterd door</trans>
+  </entry>
+  <entry>
+   <base>READ_COMPLETE</base>
+   <trans><![CDATA[ U kunt de mappen en bestanden die hersteld moeten worden selecteren in de getoonde lijst (gebruik Ctrl of Shift voor veelvoudige keuze). <br/><b>Waarschuwing: </b>Als een map worden geselecteerd, worden alle onderliggende mappen en bestanden hersteld.<p/>Als standaard instelling worden de meest recent versies van de geselecteerde bestanden hersteld, maar als een datum in het formaat <i>[ [ [jjjj/]mm/]dd-]uu:mm[:ss]</i> is gespecificeerd word alleen de meest recente versie <b>voor de aangegeven datum</b> herstelt. ]]></trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_SELDATE</base>
+   <trans>Datum formaat is niet correct, gewenst formaat [ [ [jjjj/]mm/]dd-]uu:mm[:ss]. bijvoorbeeld: 2005/12/31-08:23:32 of 10-08:32 of 08:32</trans>
+  </entry>
+  <entry>
+   <base>SELECT_FILES_TO_RESTORE</base>
+   <trans>Selecteer bestanden om te herstellen</trans>
+  </entry>
+  <entry>
+   <base>ERR_WHILE_UNMOUNTING</base>
+   <trans>Fout opgetreden bij het ontladen van gedeelde map</trans>
+  </entry>
+  <entry>
+   <base>ERR_DAR_CATALOG</base>
+   <trans>Fout bij het gebruiken van Dar cataloog</trans>
+  </entry>
+  <entry>
+   <base>COMPRESSION_LEVEL</base>
+   <trans>Backup compressie level [0-9]</trans>
+  </entry>
+  <entry>
+   <base>FULL_ONLY_ON</base>
+   <trans>Volledige backup is toegelaten op</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_COMPRESSION</base>
+   <trans>Compressie level moet zich tussen 0 (geen compressie) en 9 (maximum compressie) bevinden</trans>
+  </entry>
+  <entry>
+   <base>DOW</base>
+   <trans>Zondag Maandag Dinsdag Woensdag Donderdag Vrijdag Zaterdag Alle dagen</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURATION_TO_BE_DONE</base>
+   <trans>A.u.b. de backup instellingen configureren.</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Dit paneel toont de huidige workstation backup configuratie. U kan deze wijzigen in dit en het volgende paneel.</p><p/> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_NOT_CONFIGURED</base>
+   <trans><![CDATA[ <p>Op dit moment is werkstation backup niet geconfigureerd. U kan dit instellen in dit en het volgende paneel.</p><p/> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_ENABLED</base>
+   <trans>Backup is</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_USB</base>
+   <trans>Backup is gemaakt op lokale verwijderbare schijf</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_MNT</base>
+   <trans>Backup is gemaakt op gemonteerde schijf</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_HOST</base>
+   <trans>Backup is gemaakt op LAN werkstation</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_VFSTYPE</base>
+   <trans>met</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SHARE</base>
+   <trans>De bestemming van de backup gedeelde map is</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TOD</base>
+   <trans>Dagelijkse backup vindt plaats op</trans>
+  </entry>
+  <entry>
+   <base>LOGIN</base>
+   <trans>Gebruikersnaam is</trans>
+  </entry>
+  <entry>
+   <base>PASSWORD</base>
+   <trans>Wachtwoord is</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SETSNUM</base>
+   <trans>Aantal geroteerde backup sets is</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_DAYSINSET</base>
+   <trans>Aantal dagelijkse backups die zich in elke set bevinden zijn</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_COMPRESSION</base>
+   <trans>Compressie level (0-9) van backup is</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TIMEOUT</base>
+   <trans>Elke dagelijkse backup sessie wordt veilig gestopt na</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_INCONLY_TIMEOUT</base>
+   <trans>uitgezonderd volledige backups die veilig worden gestopt na 24 uren</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_FULL_BACKUP_EVERYDAY</base>
+   <trans>Volledige backup sessies (nieuwe backup set) zijn alle dagen toegelaten</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_FULL_BACKUP_DAY</base>
+   <trans>Volledige backup sessie (nieuwe backup sets) is enkel toegelaten op</trans>
+  </entry>
+  <entry>
+   <base>WORKSTATION_BACKUP_SETCONF</base>
+   <trans>Werkstation backup configuratie toevoegen or wijzigen</trans>
+  </entry>
+  <entry>
+   <base>SELECT_VFS_TYPE</base>
+   <trans>Selecteer het type van gedeelde map voor de backup's bestemming</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_USB_DISK</base>
+   <trans>Fout: Geen verwijderbare schijf beschikbaar. Plaats een verwijderbare schijf of selecteer een ander type werkstation backup.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_MOUNTED_DISK</base>
+   <trans>Fout: Geen gemonteerde schijf beschikbaar. Monteer een schijf of selecteer een ander type werkstation backup.</trans>
+  </entry>
+  <entry>
+   <base>HOURS</base>
+   <trans>uren.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_FULL_BACKUP</base>
+   <trans>Herstel is afgebroken omdat het benodigde backup bestand niet bestaat of onleesbaar is.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_INC_BACKUP</base>
+   <trans>Herstel is afgebroken omdat het incrementele backup nummer niet bestaat of onleesbaar is.</trans>
+  </entry>
+  <entry>
+   <base>CHECK_TO_VERIFY_FULL_RESTORE</base>
+   <trans>Tik hier om de integriteit van alle backups die benodigd zijn voor een volledig herstel door middel van de geselecteerde backup te controleren.</trans>
+  </entry>
+  <entry>
+   <base>TESTING_NEEDED_BACKUPS_FOR_RESTORE</base>
+   <trans>Testen van alle backups benodigd voor een volledig herstel met de geselecteerde backup</trans>
+  </entry>
+  <entry>
+   <base>TESTED_BACKUP</base>
+   <trans>Testen van backup integriteit</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_VERIFY_FAILED</base>
+   <trans>Verifiëren van integriteit gefaald</trans>
+  </entry>
+  <entry>
+   <base>CHECK_INTEGRITY_WARNING</base>
+   <trans>Waarschuwing: Voor grote backups kan de integriteits controle lang duren en zou alleen gedaan moeten worden terwijl de dagelijkse werkstation backup uit staat.</trans>
+  </entry>
+  <entry>
+    <base>cifs</base>
+    <trans>cifs</trans>
+  </entry>
+  <entry>
+    <base>nfs</base>
+    <trans>nfs</trans>
+  </entry>
+  <entry>
+    <base>local removable disk</base>
+    <trans>Lokale verwijderbare schijf</trans>
+  </entry>
+  <entry>
+    <base>Mounted disk</base>
+    <trans>Gemonteerde schijf</trans>
+  </entry>
+  <entry>
+   <base>ERROR_WHEN_TESTING_REMOTE_SERVER</base>
+   <trans>De parameters zijn opgeslagen, maar de externe host is niet bereikbaar. Controleer uw instellingen.</trans>
+  </entry>
+  <entry>
+   <base>DO_NOT_RESTORE_BIN_SBIN_LIB_LIB64_FROM_SME9</base>
+   <trans>Als u herstelt vanaf Koozali SME Server 9 of eerder, let er dan op dat sommige mappen in het systeem nu symlinks zijn. De basisconfiguratie voor back-ups omvat niet / bin, / lib, / lib64, / sbin, / var / lock en / var / run. Als u ze hebt toegevoegd voor bestanden in hun submappen, zullen we het herstel van die mappen blokkeren om te voorkomen dat dar die symlinks vervangt en het systeem onbruikbaar wordt. Deze toevoegingen worden echter niet aanbevolen omdat ze het risico opleveren om door rpms geleverde bestanden te overschrijven.</trans>
+  </entry>
+  <entry>
+   <base>SMBV1</base>
+   <trans>Mount as legacy SMB v1 share (unsecure, not recommended).</trans>
+  </entry>
+
+
+</lexicon>

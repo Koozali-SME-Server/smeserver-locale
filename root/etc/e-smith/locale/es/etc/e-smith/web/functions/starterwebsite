@@ -1,0 +1,43 @@
+<lexicon lang="es">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>Crear un sitio Web de inicio</trans>
+      </entry>
+      <entry>
+	<base>SUCCESS</base>
+	<trans>Sitio Web de inicio creado con éxito (archivo index.htm). Puede visitar su nuevo sitio Web en la siguiente dirección:</trans>
+      </entry>
+      <entry>
+	<base>DESCRIPTION</base>
+	  <trans><![CDATA[ <p> Para crear una página Web simple para su empresa, complete los siguientes campos y haga clic en <b>Crear</b>. </p> <p> Puede dejar cualquier campo en blanco si no lo necesita. </p> <p> El texto que escriba a continuación estará rodeado por líneas para que tenga una apariencia más agradable en su página Web. Deje una línea en blanco cada vez que desee comenzar un párrafo nuevo. Si necesita introducir un corte de línea sin comenzar un nuevo párrafo (por ejemplo, después de cada línea de una dirección de correo), escriba la secuencia de cuatro caracteres <blockquote>&lt;BR&gt;</blockquote> donde desee añadir un salto de línea. </p> <p> <em>No use esta opción</em> si ya ha personalizado su sitio Web, debido a que se sobrescribirá el archivo "index.htm" en el directorio de su sitio Web. </p> ]]></trans>
+      </entry>
+      <entry>
+	<base>LABEL_COMPANYNAME</base>
+	<trans>Nombre de la compañía</trans>
+      </entry>
+	
+      <entry> 
+	<base>DESC_HEADER1</base>
+	<trans>El primer encabezado se usa generalmente para frases cortas como "Líder en el campo de la fabricación de textiles"</trans>
+      </entry>
+      <entry> 
+	<base>DESC_TEXT1</base>
+	<trans>El texto que sigue al primer encabezado se usa generalmente para un párrafo de información de marketing.</trans>
+      </entry>
+      <entry> 
+	  <base>DESC_HEADER2</base>
+	<trans>El segundo encabezado se usa generalmente para frases cortas como "Para obtener más información" o "Para solicitar nuestros productos":</trans>
+	</entry>
+      <entry> 
+	<base>DESC_TEXT2</base>
+	<trans>El texto que sigue al segundo encabezado se usa generalmente para información de contacto o de solicitud:</trans>
+	</entry>
+      <entry>
+	<base>DESC_SUBMIT</base>
+	<trans><![CDATA[ <p>Cuando cree esta página Web, el archivo "index.htm" se sobrescribirá en el directorio de su sitio Web.</p> <p>¿Desea continuar?</p> ]]></trans>
+      </entry>
+      <entry>
+	<base>Create starter web site</base>
+	<trans>Crear sitio Web de inicio</trans>
+      </entry>
+</lexicon>

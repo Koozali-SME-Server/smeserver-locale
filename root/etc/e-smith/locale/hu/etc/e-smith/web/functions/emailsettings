@@ -1,0 +1,386 @@
+<lexicon lang="hu" params="getExtraParams()">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>E-mail beállítások</trans>
+    </entry>
+    <entry>
+        <base>E-mail</base>
+        <trans>E-mail</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Az új e-mail beállítások lementődtek.</trans>
+    </entry>
+    <entry>
+        <base>NEVER</base>
+        <trans>egyáltalán nem</trans>
+    </entry>
+    <entry>
+        <base>EVERY5MIN</base>
+        <trans>Minden 5 percben</trans>
+    </entry>
+    <entry>
+        <base>EVERY15MIN</base>
+        <trans>Minden 15 percben</trans>
+    </entry>
+    <entry>
+        <base>EVERY30MIN</base>
+        <trans>Minden 30 percben</trans>
+    </entry>
+    <entry>
+        <base>EVERYHOUR</base>
+        <trans>Minden órában</trans>
+    </entry>
+    <entry>
+        <base>EVERY2HRS</base>
+        <trans>Kétóránként</trans>
+    </entry>
+    <entry>
+        <base>STANDARD</base>
+        <trans>Szabványos (SMTP)</trans>
+    </entry>
+    <entry>
+        <base>ETRN</base>
+        <trans>ETRN (SMTP kliens kérelemmel)</trans>
+    </entry>
+    <entry>
+        <base>DEFAULT</base>
+        <trans>Alapértelmezett</trans>
+    </entry>
+    <entry>
+        <base>SPECIFY_BELOW</base>
+        <trans>Lentebb meghatározva</trans>
+    </entry>
+    <entry>
+        <base>MULTIDROP</base>
+        <trans>multi-drop</trans>
+    </entry>
+    <entry>
+        <base>LABEL_MODE</base>
+        <trans>E-mail fogadási mód</trans>
+    </entry>
+    <entry>
+        <base>DESC_MODE</base>
+        <trans>Az e-mail fogadási mód beállítható szabványosra (állandó Internet kapcsolat esetén), ETRN-re (betárcsázós kapcsolatnál), vagy multi-drop-ra (ha betárcsázós a kapcsolat és az ETRN-t nem támogatja a szolgáltató). Ha a szerver egyedülálló szerver és átjáróként van konfigurálva, akkor csak a multi drop mód választható.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_DELEGATE</base>
+        <trans>Belső levelezőszerver címe</trans>
+    </entry>
+    <entry>
+        <base>DESC_DELEGATE</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Levelezőszerver delegálása</h2> A szervere egy teljes funkcionalitású e-mail szervert tartalmaz. Azonban, ha valamilyen okból másik rendszerre akarja bízni az e-mail-ek feldolgozását, adja meg a delegált rendszer IP címét. Normál esetben hagyja ezt a mezőt üresen. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SECONDARY</base>
+        <trans>Másodlagos levelezőszerver</trans>
+    </entry>
+    <entry>
+        <base>DESC_SECONDARY</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>ETRN vagy multi-drop beállítás</h2> ETRN vagy multi-drop használata esetén adja meg a másodlagos levelezőszerver nevét, vagy IP címét. (Szabványos e-mail beállítás esetén hagyja üresen ezt a mezőt.) ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_FETCH_PERIOD</base>
+        <trans>Az ETRN vagy multi-drop szolgáltatásnál beállíthatja, hogy az ön szervere milyen gyakran kapcsolódjon a másodlagos e-mail szerverhez a levelek letöltéséhez. Minél gyakoribb csatlakozást állít be, annál gyakrabban frissülnek a postafiókok, viszont annál több internetes forgalom generálódik, amelynek bizonyos esetben nagyobb költségei lehetnek.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD</base>
+        <trans>Munkaidőben (reggel 8-tól este 6-ig) hétköznap</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD_NIGHTS</base>
+        <trans>Munkaidőn kívül (este 6-tól reggel 8-ig) hétköznap</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD_WEEKENDS</base>
+        <trans>Hétvégén</trans>
+    </entry>
+    <entry>
+        <base>DESC_POP_ACCOUNT</base>
+        <trans>A multi-drop e-mail esetében állítsa be a POP felhasználónevet és jelszót. (Ha ETRN-el tölti le a leveleket, hagyja üresen ezeket a mezőket.) Továbbá a multi-drop esetében használhatja az alapértelmezett levélválogatási módszert, vagy meghatározhat egy egyéni üzenet fejlécet a levelek leválogatásához.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_POP_PASS</base>
+        <trans>POP jelszó (multi-drop-hoz)</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_POP_ACCOUNT</base>
+        <trans>POP felhasználónév (multi-drop-hoz)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SORT_METHOD</base>
+        <trans>Leválogatási mód (multi-drop-hoz)</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SORT_HEADER</base>
+        <trans>Egyedi fejléc (multi-drop-hoz)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PROTO</base>
+        <trans>Protokoll (multi-drop-hoz)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_SECURE</base>
+        <trans>Tunnel over SSL (multi-drop-hoz)</trans>
+    </entry>
+    <entry>
+        <base>AUTO</base>
+        <trans>Automatikus</trans>
+    </entry>
+    <entry>
+        <base>ENABLED_BOTH</base>
+        <trans>Engedélyezve HTTP és HTTPS</trans>
+    </entry>
+    <entry>
+        <base>ENABLED_SECURE_ONLY</base>
+        <trans>Engedélyezve HTTPS (biztonságos)</trans>
+    </entry>
+     <entry>
+        <base>ONLY_LOCAL_NETWORK_SSL</base>
+        <trans>Biztonságos HTTPS engedélyezése a helyi hálózatokból</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_POP3</base>
+        <trans>Engedélyezve POP3 és POP3S</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_PRIVATE</base>
+        <trans>Engedélyezve hálózaton belül</trans>
+    </entry>
+    <entry>
+        <base>SECURE_POP3</base>
+        <trans>Engedélyezve hálózaton belül és kívül (biztonságos POP3S)</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_IMAP</base>
+        <trans>Engedélyezve IMAP és IMAPS</trans>
+    </entry>
+    <entry>
+        <base>SECURE_IMAP</base>
+        <trans>Engedélyezve hálózaton belül és kívül (biztonságos IMAPS)</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_SMTP</base>
+        <trans>Engedélyezve SMTP és SSMTP</trans>
+    </entry>
+    <entry>
+        <base>SECURE_SMTP</base>
+        <trans>Engedélyezve SSMTP (biztonságos)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_POP_ACCESS_CONTROL</base>
+        <trans>POP3 szerver hozzáférés</trans>
+    </entry>
+    <entry>
+        <base>LABEL_IMAP_ACCESS_CONTROL</base>
+        <trans>IMAP szerver hozzáférés</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SMTP_AUTH_CONTROL</base>
+        <trans>SMTP hitelesítés</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_TO_ADMIN</base>
+        <trans>Küldés: rendszergazda</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_TO</base>
+        <trans>Küldés:</trans>
+    </entry>
+    <entry>
+        <base>RETURN_TO_SENDER</base>
+        <trans>Eldobás</trans>
+    </entry>
+    <entry>
+        <base>LABEL_UNKNOWN</base>
+        <trans>E-mail ismeretlen felhasználóknak</trans>
+    </entry>
+    <entry>
+        <base>DESC_UNKNOWN</base>
+        <trans><![CDATA[ <h2>Ismeretlen felhasználók</h2> Az eldobás választása esetén (ajánlott beállítás) a szerver csak létező e-mail címekre jövő leveleket fogad el (például felhasználók, csoportok, álnevek). Más címekre érkező levelek elutasításra kerülnek. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SMARTHOST</base>
+        <trans>Az internet szolgáltató levelezőszerverének címe</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_SMARTHOST</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>SMTP szerver</h2> A szerver saját maga is továbbítani tudja a leveleket a címzetteknek (ez a beállítás ajánlott a legtöbb esetben) vagy pedig az internet szolgáltatója SMTP szerverén keresztül történhet a továbbítás (ez akkor ajánlott, ha megbízhatatlan, vagy betárcsázós Internet kapcsolata van). Ha a szolgáltatója SMTP szerverét kívánja használni, az alábbi mezőben adja meg annak nevét, vagy IP címét. Más esetben hagyja azt üresen. ]]></trans>
+    </entry>
+
+    <entry>
+        <base>INVALID_SMARTHOST</base>
+        <trans>A beírt smarthost név nem érvényes internet domén név</trans>
+    </entry>
+    <entry>
+        <base>DESC_POP_ACCESS_CONTROL</base>
+        <trans>Beállíthatja a POP3 szerver hozzáférését, hogy csak a belső hálózatban adjon hozzáférést. A POP3S beállítás lehetővé teszi a biztonságos külső hozzáférést a POP3 szerverhez. Javasolt az alapbeállítás használata, hacsak nincs szükség a külső hozzáférésre.</trans>
+    </entry>
+    <entry>
+        <base>DESC_IMAP_ACCESS_CONTROL</base>
+        <trans>Beállíthatja az IMAP szerver hozzáférését, hogy csak a belső hálózatban adjon hozzáférést. Az IMAPS beállítás lehetővé teszi a biztonságos külső hozzáférést az IMAP szerverhez. Javasolt az alapbeállítás használata, hacsak nincs szükség a külső hozzáférésre.</trans>
+    </entry>
+    <entry>
+        <base>DESC_SMTP_AUTH_CONTROL</base>
+        <trans><![CDATA[ Hitelesített hozzáférést biztosíthat az SMTP-kiszolgálóhoz, vagy letilthatja. Az SSMTP-beállításhoz <b>minden</b> felhasználónak használnia kell az SSL / TLS hitelesítést. Az SMTP és az SSMTP opció lehetővé teszi a STARTTLS használatát a biztonságos hitelesítés biztosítására. ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_WEBMAIL</base>
+        <trans>Engedélyezheti a rendszer webes levelező felületét. A webmail lehetővé teszi a felhasználóknak, hogy web-böngésző segítségével hozzáférjenek a levelezésükhöz a https://{$FQDN}/webmail címen.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_WEBMAIL</base>
+        <trans>Webmail hozzáférés</trans>
+    </entry>
+     <entry>
+        <base>LABEL_BLOCK_EXECUTABLE_CONTENT</base>
+        <trans>Végrehajtható tartalom blokkolása</trans>
+     </entry>
+     <entry>
+        <base>LABEL_CONTENT_TO_BLOCK</base>
+        <trans>Blokkolandó tartalom</trans>
+     </entry>
+     <entry>
+        <base>DESC_BLOCK_EXECUTABLE_CONTENT</base>
+        <trans>Blokkolhatja a végrehajtható fájlokat az e-mailek mellékleteiben, ha kiválasztja a listából azokat a fájltípusokat amelyeket blokkolni kíván. Az ilyen mellékleteket tartalmazó leveleket a szerver visszadobja a feladónak.  </trans>
+    </entry>
+    <entry>
+        <base>UNACCEPTABLE_CHARS</base>
+        <trans>Ennek a mezőnek érvényes e-mail címet kell tartalmaznia @ jellel és domén névvel.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_ACCESS</base>
+        <trans><![CDATA[ <h2>E-mail hozzáférés</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_ACCESS_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_ACCESS">E-mail hozzáférés beállításának változtatása</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_RECEPTION</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>E-mail fogadás</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_RECEPTION_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_RECEPTION">E-mail fogadás beállításának változtatása</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_DELIVERY</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>E-mail kézbesítés</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_DELIVERY_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_DELIVERY">E-mail kézbesítés beállításának változtatása</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_FILTERING_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_FILTERING">E-mail szűrés beállításának változtatása</a> ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_VIRUS_SCAN</base>
+	<trans>Víruskeresés</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_VIRUS_SCAN</base>
+	<trans>Kereshet vírusokat a ki és bejövő levelekben. Ha a víruskeresés engedélyezve van, és vírust észlel, a levél vissza lesz dobva a feladónak.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_SPAM_SCAN</base>
+	<trans>Spamszűrés</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_SPAM_SCAN</base>
+	<trans>Alkalmazhat spamszűrést a levelekre. Ha a spamszűrést engedélyezi egy X-Spam-Status: fejléc adódik minden levélhez, ami alapján a spamszűrés történik. A szűrés érzékenységét az alapértelmezett közepesről átállíthatja. A még finomabb szűréshez a szűrés érzékenységét egyénire is állíthatja és egyéni osztályozási szintet választhat, valamint olyan szintet, ahol a levél eldobásra kerül.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_SPAM_SUBJECT</base>
+	<trans>SPAM tárgy előtag</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_SPAM_SUBJECT</base>
+	<trans>Engedélyezheti egy jelölés hozzáadását minden SPAM-nek minősített levél tárgysorához. A jelölő beállítását itt végezheti el.</trans>
+    </entry>
+
+   <entry>
+        <base>LABEL_SPAM_SENSITIVITY</base>
+        <trans>Szűrés érzékenysége</trans>
+    </entry>
+   <entry>
+        <base>LABEL_SPAM_TAGLEVEL</base>
+        <trans>Egyéni spam osztályozási szint</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SPAM_REJECTLEVEL</base>
+        <trans>Egyéni spam eldobási szint</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SPAM_SUBJECTTAG</base>
+        <trans>A spam üzenetek tárgyának módosítása</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SORTSPAM</base>
+        <trans>Helyezze a spam-eket a levélszemét mappába</trans>
+    </entry>
+    <entry>
+        <base>VERYHIGH</base>
+        <trans>Nagyon nagy</trans>
+    </entry>
+    <entry>
+        <base>HIGH</base>
+        <trans>Nagy</trans>
+    </entry>
+    <entry>
+        <base>MEDIUM</base>
+        <trans>Közepes</trans>
+    </entry>
+    <entry>
+        <base>LOW</base>
+        <trans>Kicsi</trans>
+    </entry>
+    <entry>
+        <base>VERYLOW</base>
+        <trans>Nagyon kicsi</trans>
+    </entry>
+    <entry>
+        <base>CUSTOM</base>
+        <trans>Egyéni</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_STATUS</base>
+        <trans>SMTP hitelesítés az Internet szolgáltatóhoz</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_USERID</base>
+        <trans>Levelezőszerver felhasználói azonosító</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_PASSWD</base>
+        <trans>Levelezőszerver jelszó</trans>
+    </entry>
+
+    <entry>
+        <base>VALIDATION_SMTPAUTH_NONBLANK</base>
+        <trans>Ez a mező nem lehet üres, ha az SMTP hitelesítés engedélyezve van.</trans>
+    </entry>
+
+</lexicon>

@@ -1,0 +1,174 @@
+<lexicon lang="ro" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Create, modify, or remove i-bays</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> <a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify">Add i-bay</a> </p> <p> You can remove any information bay or reset its password by clicking on the corresponding command next to the information bay. If the information bay shows up in red, that means that the password has not yet been changed from the default, and should be changed soon. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>Create or modify an i-bay</trans>
+    </entry>
+    <entry>
+        <base>NAME_FIELD_DESC</base>
+        <trans>The information bay name should contain only lower-case letters, numbers, periods, hyphens and underscores, and should start with a lower-case letter. For example "johnson", "intra", and "cust3.prj12" are all valid names, but "3associates", "John Smith" and "Bus!Partner" are not. The name is limited to {$maxLength} characters.</trans>
+    </entry>
+    <entry>
+        <base>NAME_LABEL</base>
+        <trans>Information bay name</trans>
+    </entry>
+    <entry>
+        <base>USER_ACCESS</base>
+        <trans>User access via file sharing or user ftp</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS</base>
+        <trans>Public access via web or anonymous ftp</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS_DESCRIPTION</base>
+        <trans>The public access mode "password required outside local network" is not supported by the FTP server component. If you select this mode, the FTP server will require a password both inside and outside the local network for this i-bay.</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_DYNAMIC_CONTENT</base>
+        <trans>Execution of dynamic content (CGI, PHP, SSI)</trans>
+    </entry>
+	<entry>
+        <base>HTTPS_Only</base>
+        <trans>Permiteți conexiuni directe SMTP</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Remove information bay</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans><![CDATA[ <p> You are about to remove the information bay "{$name}" ({$description}). </p> <p> All files belonging to this information bay will be deleted. </p> <p> Are you sure you wish to remove this information bay? </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_IBAY</base>
+        <trans>An error occurred while creating the i-bay.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED_IBAY</base>
+        <trans>Successfully created i-bay.</trans>
+    </entry>
+    <entry>
+        <base>NO_IBAYS</base>
+        <trans>There are no i-bays currently configured.</trans>
+    </entry>
+    <entry>
+        <base>CANT_FIND_IBAY</base>
+        <trans>Can't find account for {$name} (does it exist?)</trans>
+    </entry>
+    <entry>
+        <base>CANT_CREATE_IBAY</base>
+        <trans>Can't create new account for {$name} (does it already exist?)</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_IBAY</base>
+        <trans>An error occurred while modifying the i-bay.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED_IBAY</base>
+        <trans>Successfully modified i-bay.</trans>
+    </entry>
+    <entry>
+        <base>VIRTUAL_HOST_MESSAGE</base>
+        <trans>Următoarele domenii virtuale folosesc aceasta information bay pe post de continut și va fi modificată către cea primară (puteți modifica ulterior catre altceva)</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED_IBAY</base>
+        <trans>Successfully deleted i-bay.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_IBAY</base>
+        <trans>An error occurred while deleting the i-bay.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_DESC</base>
+        <trans>You are about to change the password for the i-bay {$name}.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VALIDATION_ERROR</base>
+        <trans>The password may contain only letters and numbers.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VERIFY_ERROR</base>
+        <trans>The passwords do not match.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_RESET_PASSWORD</base>
+        <trans>Successfully reset password.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_RESETTING_PASSWORD</base>
+        <trans>Error while resetting password.</trans>
+    </entry>
+    <entry>
+        <base>VHOST_MESSAGE</base>
+        <trans><![CDATA[ <P>The following virtual domains were using this information bay as their content and will be changed to the primary web site (you can change them to something else afterward):</P> <ul>{$vhostList}</ul> ]]></trans>
+    </entry>
+    <entry>
+        <base>Information bays</base>
+        <trans>Information bays</trans>
+    </entry>
+    <entry>
+        <base>WGRG</base>
+        <trans>Write = group, Read = group</trans>
+    </entry>
+    <entry>
+        <base>WGRE</base>
+        <trans>Write = group, Read = everyone</trans>
+    </entry>
+    <entry>
+        <base>WARG</base>
+        <trans>Write = admin, Read = group</trans>
+    </entry>
+    <entry>
+        <base>NONE</base>
+        <trans>No access</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_NO_PASSWORD</base>
+        <trans>Local network (no password required)</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_PASSWORD</base>
+        <trans>Local network (password required)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_NO_PASSWORD</base>
+        <trans>Entire Internet (no password required)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD</base>
+        <trans>Entire Internet (password required)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD_REMOTE</base>
+        <trans>Entire Internet (password required outside local network)</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IBAY_DESCRIPTION</base>
+        <trans>Error: unexpected or missing characters in i-bay description</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>The i-bay name "{$acctName}" contains invalid characters. I-bay names must start with a lower case letter and contain only lower case letters, numbers, and hyphens.</trans>
+    </entry>
+    <entry>
+        <base>MAX_IBAY_NAME_LENGTH_ERROR</base>
+        <trans>The i-bay name "{$name}" is too long. The maximum is {$maxIbayNameLength} characters.</trans>
+    </entry>
+    <entry>
+        <base>ACCT_CLASHES_WITH_PSEUDONYM</base>
+        <trans><![CDATA[ Contul "{$acctName}" este ăn conflict cu detaliile pseudonimului contulrui de tip {$acctType} "{$acct}". <p>{$acctName} este pseudonim pentru {$acct}.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_EXISTS</base>
+        <trans>Contul "{$acctName}" este deja cont de tip {$acctType} </trans>
+    </entry>
+</lexicon>

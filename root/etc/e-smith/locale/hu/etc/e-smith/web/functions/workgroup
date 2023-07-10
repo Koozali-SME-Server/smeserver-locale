@@ -1,0 +1,58 @@
+<lexicon lang="hu">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Munkacsoport beállítások változtatása</trans>
+    </entry>	
+    <entry> 
+        <base>DESC_WORKGROUP</base>
+        <trans><![CDATA[ Írja be annak a Windows munkacsoportnak a nevét amelyben ennek a szervernek meg kell jelennie. ]]></trans>	
+    </entry>
+    <entry>
+        <base>LABEL_WORKGROUP</base>
+        <trans>Windows munkacsoport</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERVERNAME</base>
+        <trans>Írja be azt a nevet, amit a szerver a Windows és Macintosh fájlmegosztáshoz használjon.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERVERNAME</base>
+        <trans>Szerver név</trans>
+    </entry>
+    <entry>
+        <base>DESC_PDC</base>
+        <trans><![CDATA[Ez a szerver munkacsoport és tartományvezérlőként működjön a Windows hálózatban? Hagyja ezt a beállítást <b>Nem</b> -en ha egy másik szerver végzi ezt a szerepkört a hálózatban.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_PDC</base>
+        <trans>Munkacsoport és tartományvezérlő</trans>
+    </entry>
+    <entry>
+        <base>DESC_ROAM</base>
+        <trans><![CDATA[ Támogassa a szerver a mozgó profilok használatát? Hagyja ezt a beállítást <b>Nem</b> -en hacsak van tapasztalata a szerveren tárolt Windows mozgó profilok adminisztrálásában és tudja, hogy erre a funkcióra szükség van. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_ROAM</base>
+        <trans>Mozgó profilok</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Az új munkacsoport beállítások lementődtek</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP</base>
+        <trans>A munkacsoport nevének (kis vagy nagy) betűvel kell kezdődnie, ezt követheti bármilyen kombinációban betű, szám, aláhúzás, pont és kötőjel.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SERVERNAME</base>
+        <trans>A szerver nevének (kis vagy nagy) betűvel kell kezdődnie, ezt követheti bármilyen kombinációban betű, szám, aláhúzás, pont és kötőjel.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP_MATCHES_SERVERNAME</base>
+        <trans>A szerver és a munkacsoport neve kisbetűsen összehasonlítva megegyezik. Ahhoz, hogy a fájlmegosztás működjön ezeknek különbözőeknek kell lenniük.</trans>
+    </entry>
+    <entry>
+        <base>Workgroup</base>
+        <trans>Munkacsoport</trans>
+    </entry>
+</lexicon>

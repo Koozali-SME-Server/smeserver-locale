@@ -1,0 +1,42 @@
+<lexicon lang="ru">
+    <entry>
+        <base>Proxy settings</base>
+        <trans>Настройки прокси</trans>
+    </entry>
+    <entry>
+        <base>FIRST_PAGE_DESCRIPTION</base>
+        <trans>На этой странице вы можете настроить прокси-серверы. Сервер включает прозрачный прокси и кэш для HTTP трафика. Он включен по умолчанию, но не действует если сервер работает в режиме &quot;serveronly&quot;. Если этот сервер работает как почтовый, соединения от клиентов локальной сети к внешним SMTP серверам по умолчанию будут перенаправлены на локальный почтовый сервер.</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>HTTP прокси сервера работает чтобы снизить использование интернет-соединения кэшируя часто-посещаемые страницы. Прокси прозрачен для веб-браузеров использующих этот сервер в качестве шлюза. Включите или выключите прокси следующим переключателем.</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_LABEL</base>
+        <trans>Состояние HTTP прокси</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>Прозрачный SMTP прокси-сервер работает, чтобы умньшить вирусный трафик с заражённых клиентских машин, перенаправляя весь исхлдящий SMTP трафик через этот сервер. Если вы хотите использовать альтернативный SMTP сервер и этот сервер является вашим шлюзом к нему, отключите этот прокси.</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_LABEL</base>
+        <trans>Состояние SMTP прокси</trans>
+    </entry>
+    <entry>
+        <base>ERR_PROXY_UPDATE_FAILED</base>
+        <trans>ERROR: Событие обновления прокси возвратило ошибку.</trans>
+    </entry>
+    <entry>
+        <base>ERR_NO_SQUID_REC</base>
+        <trans>ERROR: Нет записи squid в базе данных конфигурации.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Новые настройки прокси успешно применены.</trans>
+    </entry>
+    <entry>
+        <base>BLOCKED</base>
+        <trans>Заблокированный</trans>
+    </entry>
+</lexicon>

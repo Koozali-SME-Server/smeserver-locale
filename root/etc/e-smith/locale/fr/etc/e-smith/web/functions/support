@@ -1,0 +1,10 @@
+<lexicon lang="fr">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Informations sur le support technique, la garantie et la licence d'exploitation</trans>
+    </entry>
+    <entry>
+        <base>Support and licensing</base>
+        <trans>Support technique et licences</trans>
+    </entry>
+</lexicon>

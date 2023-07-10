@@ -1,0 +1,83 @@
+<lexicon lang="sl">
+    <entry>
+        <base>View log files</base>
+        <trans>Poglej LOG datoteko</trans>
+    </entry>
+
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ Ta funkcija ti omogoca pregled ali prenos LOG datotek, ki so jih zapisali procesi, ki tecejo na Strezniku. ]]></trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_SELECT_DESC</base>
+        <trans>Izberi LOG datoteko za ogled</trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>Tu lahko dolocis nastavitve filtra, ki ti izpise samo zapise, ki se ujemajo z besedami v filtru. Ce ostane to polje prazno bodo prikazani vsi zapisi v datoteki. Pazi pri opciji prenosa LOG datoteke ta opcija ne velja. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_LABEL</base>
+        <trans>Nastavitev filtra (opcija)</trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>Lahko izberes tudi opcijo poudarjeno besedilo, ki bo poudarilo vrstico zapisa, ki se ujema z izbranim besedilom. Pazi pri opciji prenosa LOG datoteke ta opcija ne velja. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_LABEL</base>
+        <trans>Poudarjeno besedilo (opcija)</trans>
+    </entry>
+    <entry>
+        <base>END_DESC</base>
+        <trans>Prosim pocakaj ta operacija lahko traja, da zgenerira porocilo.</trans>
+    </entry>
+    <entry>
+        <base>VIEW</base>
+        <trans>Poglej LOG datoteko</trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_EMPTY</base>
+        <trans>LOG datoteka "{$filename}" je brez zapisov!</trans>
+    </entry>
+    <entry>
+        <base>VIEWING_TIME</base>
+        <trans>Pogledano {$time}.</trans>
+    </entry>
+    <entry>
+        <base>MATCH_HEADER</base>
+        <trans>Izpis zapisov, ki se ujemajo: "{$matchPattern}".</trans>
+    </entry>
+    <entry>
+        <base>HIGHLIGHT_HEADER</base>
+        <trans>Ojacani zapisi, ki se ujemajo: "{$highlightPattern}".</trans>
+    </entry>
+    <entry>
+        <base>NO_MATCHING_LINES</base>
+        <trans>Ni zapisov za prikazNo matching lines displayed.</trans>
+    </entry>
+    <entry>
+        <base>FILENAME_ERROR</base>
+        <trans><![CDATA[ <p>Napaka pri procesiranju LOG datoteke.</p> <p>Napacen tip porocila "{$filename}".</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>REFRESH</base>
+	<trans>Osvezi LOG datoteko</trans>
+    </entry>
+    <entry>
+	<base>OP_DESC</base>
+	<trans><![CDATA[ <p>Izbrati moras med ogledom datoteke v brkljalniku ali med prenosom LOG datoteke na svoj racunalnik. Ce je LOG datoteka izredno velika, jo bos morda raje prenesel dol namesto da si jo ogledas z brkljalnikom, ker je za nekatere brkljalnike to lahko problem.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>OP_LABEL</base>
+	<trans>Postopek</trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_PAGE_DESC</base>
+	<trans><![CDATA[ <p>Tvoja LOG datoteka je pripravljena za prenos. Prenos sledi takoj ko bos kliknil na gubm &quot;Next&quot; ki je spodaj in potrdil prenos datoteke.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_FILE</base>
+	<trans>Pripravljam prenos LOG datoteke {$logfile}.</trans>
+    </entry>
+</lexicon>

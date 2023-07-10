@@ -1,0 +1,10 @@
+<lexicon lang="el">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Υποστήριξη, εγγύηση και πληροφορίες άδειας</trans>
+    </entry>
+    <entry>
+        <base>Support and licensing</base>
+        <trans>Υποστήριξη και άδεια χρήσης</trans>
+    </entry>
+</lexicon>

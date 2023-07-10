@@ -1,0 +1,141 @@
+<lexicon lang="sv" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Hantera domäner</trans>
+    </entry>
+    <entry>
+        <base>FORM_DESCRIPTION</base>
+        <trans><![CDATA[ <p>När du skapar en domän kommer din server att kunna ta emot e-post för denna domän men också kunna vara värd för en webbplats för denna domän.</p> <p><a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CREATE">Lägg till domän</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>Det finns inte domäner i systemet.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST_OF_DOMAINS</base>
+        <trans>Aktuell lista över domäner</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_SITE</base>
+        <trans>primär plats</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>{$content} i-bay</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Skapa en ny domän</trans>
+    </entry>
+    <entry>
+        <base>CONTENT_FIELD_DESCRIPTION</base>
+        <trans>Som webbplats kan du välja den primära webbplatsen eller valfri i-bay för innehåll.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME_VALIDATION_ERROR</base>
+        <trans>Fel: Ogiltigt eller saknat tecken i domännamnet {$domainName}. Domännamnet måste innehålla en eller flera bokstäver, siffror, punkter eller minustecken. Skapade inte en ny domän.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_DESCRIPTION_VALIDATION_ERROR</base>
+        <trans>Fel: Ogiltigt eller saknat tecken i domänbeskrivningen {$domainDesc}. Skapade inte en ny domän.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_IN_USE_ERROR</base>
+        <trans>Fel: Domänen {$domainName} används redan. Skapade inte en ny domän.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_DOMAIN_ERROR</base>
+        <trans>Fel: Domänen {$domainName} är ditt systems domännamn. Du kan inte ha en domän med samma namn. Skapade inte en ny domän.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>Skapat den nya domänen {$domainName}. Din webb-server startas nu om. Länkarna på denna sida kommer att vara inaktiva tills dess att webb-serverns omstart är klar.</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_TITLE</base>
+        <trans>Ändra domän</trans>
+    </entry>
+    <entry>
+        <base>NONEXISTENT_DOMAIN_ERROR</base>
+        <trans>Fel: {$domainName} är inte en existerande domän.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>Domänen ändrad {$domainName}. Din webb-server startas nu om. Länkarna på denna sina är inaktiva tills webb-serverns omstart är klar.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Radera domän</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESCRIPTION</base>
+        <trans><![CDATA[ <p> Du håller på att radera den domänen {$domain} ({$domainDesc}). </p> <p> <b>Är du säker på att du vill ta bort denna domän?</b> </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_REMOVING_DOMAIN</base>
+        <trans>Fel: internt fel vid radering av den domänen {$domain}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>Domänen {$domain} är raderad. Din webbserver startas nu om. Länkarna på denna sida är inaktiva tills webbserverns omstart är klar.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS_CURRENT</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Företagets DNS-inställningar</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>BUTTON_CORPORATE_DNS</base>
+        <trans><![CDATA[ <p>Om denna server inte har åtkomst till eller om du har särskilda krav på din DNS-uppslagning, ange DNS-serverns IP-adress här. Du bör inte ange din ISP's DNS-servrar här eftersom denna server klarar av att slå upp alla Internet DNS-namn utan denna extra konfiguration.</p> <p> <a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CORPORATE_DNS">Ändra företagets DNS-inställningar</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS</base>
+        <trans>Om denna server inte har Internetåtkomst eller om du har specifika krav på DNS-uppslagning, ange DNS-serverns IP-adresser här. Dessa fält bör lämnas tomma om du inte har särskilda skäl för att konfigurera andra DNS-servrar. De bör inte ange adressen för din ISP's DNS-servrar här, eftersom denna server klarar av att slå upp alla Internet DNS-namn utan denna extra konfiguration.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_PRIMARY</base>
+        <trans>Primär företags DNS-server</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_SECONDARY</base>
+        <trans>Sekundär företags DNS-server</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_NAMESERVERS</base>
+        <trans>Du kan välja om denna domän slås upp lokalt, skickas till företagets DNS-servrar eller slås upp av DNS-servrarna på Internet. Det förvalda är korrekt för de flesta nätverk.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_NAMESERVERS</base>
+        <trans>Domänens DNS-servrar</trans>
+    </entry>
+
+    <entry>
+        <base>localhost</base>
+        <trans>Lokal uppslagning</trans>
+    </entry>
+
+    <entry>
+        <base>internet</base>
+        <trans>Internets DNS-servrar</trans>
+    </entry>
+
+    <entry>
+        <base>corporate</base>
+        <trans>Företagets DNS-servrar</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Du är på väg att radera skrivaren:</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans>Är du säker på att du vill radera denna skrivare?</trans>
+    </entry>
+
+</lexicon>

@@ -1,0 +1,171 @@
+<lexicon lang="da">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Fjernadgang</trans>
+    </entry>	
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans>For hver af mulighederne nedenfor, giver indstillingen Privat, at enhver fra lokalnettet har adgang. Indstilligen Offentlig tillader adgang fra hele Internet. Ingen adgang lukker for adgang. Før du ændre disse indstillinger bør du af sikkerhedsmæssige grunde læse brugermanualens afsnit om fjernadgang.</trans>	
+    </entry>
+    <entry>
+	<base>SUCCESS</base>
+	<trans>De nye fjernadgangsindstillinger er gemt.</trans>
+    </entry>
+    <entry>
+	<base>NO_ACCESS</base>
+	<trans>Ingen adgang</trans>
+    </entry>
+    <entry>
+	<base>PASSWORD_LOGIN_PRIVATE</base>
+	<trans>Accepter kun adgangskoder fra lokalnet</trans>
+    </entry>
+    <entry>
+	<base>PASSWORD_LOGIN_PUBLIC</base>
+	<trans>Accepter adgangskoder både fra lokalnet og Internet</trans>
+    </entry>
+    <entry>
+	<base>LABEL_TELNET_ACCESS</base>
+	<trans>Telnet adgang</trans>
+    </entry>
+    <entry>
+	<base>LABEL_FTP_ACCESS</base>
+	<trans>FTP adgang</trans>
+    </entry>
+    <entry>
+	<base>LABEL_FTP_LOGIN</base>
+	<trans>FTP adgang med adgangskode</trans>
+    </entry>
+    <entry>
+	<base>LABEL_PPTP</base>
+	<trans>Antal VPNklienter</trans>
+    </entry>
+     <entry>
+       <base>NUMBER_OF_VPN_CLIENTS_MUST_BE_LESSER_THAN_NUMBER_OF_IP_IN_DHCP_RANGE</base>
+       <trans>Antallet af pptp klienter er større end antallet af reserverede ip numre for DHCP. Du skal vælge et mindre antal.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SSH_PORT</base>
+        <trans>TCP-port for secure shell adgang</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH</base>
+	<trans>Secure shell adgang</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH_ADMIN</base>
+	<trans>Tillad administrativ komandolinie-adgang over secure shell</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH_PASSWORD_ACCESS</base>
+	<trans>Tillad secure shell adgang med standard adgangskoder</trans>
+    </entry>
+    <entry>
+	<base>DESC_SSH</base>
+	<trans><![CDATA[ <hr class="sectionbar" /> <h2>'Secure Shell' indstillinger</h2>Du kan styre Secure Shell adgang til serveren. Offentlig adgang bør kun gives af erfarne administratorer til fjern fejlsøgning og fejlretning. Vi anbefaler indstillingen "Ingen adgang" medmindre du har specielle grunde til andet. ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_FTP_ACCESS</base>
+	<trans><![CDATA[ <hr class="sectionbar" /><h2>FTP-indstillinger</h2> Du kan styre <b>FTP</b> adgang til serveren. Vi anbefaler indstillingen Ingen adgang medmindre du har specielle grunde til at gøre andet. <p> Bemærk: Disse indstillinger begænser adgangen til serveren og overskiver andre indstillinger, også de individuelle indstillinger for i-bays.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_FTP_LOGIN</base>
+	<trans><![CDATA[ Du kan også styre brugergodkendt FTP-adgang til i-bays og brugerkonti. Vi vil på det bestemteste anbefale et efterlade denne indstilling på privat, medmindre du har specifikke grunde til at gøre andet. <p> Bemærk: secure shell sftp klienten kan også bruges til at få adgang til serveren, når fjernadgang via secure shell er slået til. Denne form for adgang beskytter adgangskoder og data for FTP-sessionen, mens standard FTP ikke yder nogen beskyttelse.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_PPTP</base>
+	<trans><![CDATA[ <hr class="sectionbar"/><h2>VPNadgang</h2> Du kan tillade VPNadgang til din server. Du bør efterlade denne funktion deaktiveret ved at sætte værdien til tallet 0, medmindre du har behov for VPNadgang. ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_VPN</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>VPNadgang</h2> Du kan tillade VPNadgang til din server. Du bør efterlade denne funktion deaktiveret ved at sætte værdien til tallet 0, medmindre du har behov for VPNadgang. ]]></trans>
+    </entry>
+    <entry>
+	<base>VALUE_ZERO_OR_POSITIVE</base>
+	<trans>Værdien skal være et helt positivt tal eller 0</trans>
+    </entry>
+    <entry>
+	<base>REMOTE_MANAGEMENT</base>
+	<trans>Fjernadministration</trans>
+    </entry>
+    <entry>
+	<base>VALIDFROM_DESC</base>
+	<trans><![CDATA[ <hr class="sectionbar" /><h2>{$REMOTE_MANAGEMENT}</h2> <p>Det er muligt, at tillade værter på fjerne netværker adgang til Serverstyringen, ved at tilføje disse netværker her. Enhver vært indenfor det angivne område vil være i stand til at få adgang til Serverstyringen ved at bruge HTTPS. Brug subnetmaske 255.255.255.255 for at begrænse adgangen til en bestemt vært.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_VALID_FROM_ENTRIES</base>
+	<trans>For at tilføje et nyt netværk til fjernadministration, angiv detaljer nedenfor.</trans>
+    </entry>
+    <entry>
+	<base>SUBNET_MASK</base>
+	<trans>Subnetmaske</trans>
+    </entry>
+    <entry>
+	<base>NUM_OF_HOSTS</base>
+	<trans>Antal værter</trans>
+    </entry>
+    <entry>
+	<base>NO_ENTRIES_YET</base>
+	<trans>Der er ingen noter endnu</trans>
+    </entry>
+    <entry>
+	<base>INVALID_SUBNET_MASK</base>
+	<trans>Ugyldig subnetmaske</trans>
+    </entry>
+    <entry>
+	<base>ERR_INVALID_PARAMS</base>
+	<trans>Angiv både en netværksadresse og en subnetmaske, eller efterlad begge felter tomme.</trans>
+    </entry>
+    <entry>
+	<base>ERR_NO_RECORD</base>
+	<trans>Er ikke i stand til at lokalisere en http-admin optegnelse i konfigurationsdatabasen</trans>
+    </entry>
+    <entry>
+	<base>Remote access</base>
+	<trans>Fjernadgang</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERIAL_CONSOLE_ACCESS</base>
+        <trans>Seriel konsol</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERIAL_CONSOLE_ACCESS</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Seriel konsol</h2> Du kan tillade adgang til serverkonsollen fra en terminal tilsluttet serverens serielle port.]]></trans>
+    </entry>
+    <entry>
+        <base>PORT1_ENABLED</base>
+        <trans>Tilladt på seriel port 1</trans>
+    </entry>
+    <entry>
+        <base>PORT2_ENABLED</base>
+        <trans>Tilladt på seriel port 2</trans>
+    </entry>   
+
+    <entry>
+        <base>LABEL_PPTP_ACCESS</base>
+        <trans>Grundlæggende VPNbrugeradgang</trans>
+    </entry>
+    <entry>
+        <base>DESC_TELNET_ACCESS</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Telnet indstillinger</h2> ADVARSEL: Telnet er pt. tændt, men denne funktion er ikke længere understøttet. Telnet er grundlæggende usikker og bør kun anvendes når der ikke er andre alternativer. Du bør ændre indstillingen til {$NO_ACCESS} og bruge secure shell når fjernadgang er påkrævet. Slås funktionen fra, vil telnet ikke længere dukke op på dette skærmbillede. ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_IPSECRW</base>
+	<trans><![CDATA[ <h2>IPSEC klient (Roadwarrior) indstillinger</h2> Du kan tillade IPSEC klientadgang til din server, brugergodkendt med digitale certifikater. Du bør efterlade denne indstilling slukket, ved at sætte værdien til tallet 0, medmindre du har behov for IPSEC klientadgang. ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_IPSECRW_SESS</base>
+	<trans>Antal IPSEC-klienter</trans>
+    </entry>
+    <entry>
+	<base>DESC_IPSECRW_RESET</base>
+	<trans><![CDATA[Ønsker du at nulstille alle digitale certifikater, kan du gøre det her.<br>Samtlige gamle certifikater vil ikke kunne brugergodkende på denne server, så <b><i>alle IPSEC klienter må importere et nyt certifikat!</i></b>. ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_IPSECRW_RESET</base>
+	<trans>Nulstil digitale certifikater</trans>
+    </entry>
+    <entry>
+        <base>DESC_IPSEC_VPN_UNAVAILABLE</base>
+        <trans>IPSEC VPN is not installed. Please install the contrib if you need VPN access.</trans>
+    </entry>
+</lexicon>

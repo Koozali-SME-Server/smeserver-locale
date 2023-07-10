@@ -1,0 +1,10 @@
+<lexicon lang="bg">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Информация за поддръжката, гаранцията и лицензирането</trans>
+    </entry>
+    <entry>
+        <base>Support and licensing</base>
+        <trans>Поддръжка и лицензиране</trans>
+    </entry>
+</lexicon>

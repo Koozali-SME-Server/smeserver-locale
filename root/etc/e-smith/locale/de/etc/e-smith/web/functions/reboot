@@ -1,0 +1,42 @@
+<lexicon lang="de">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Herunterfahren oder Neustart</trans>
+    </entry>
+    <entry>
+	<base>REBOOT</base>
+	<trans>Neustart</trans>
+    </entry>
+    <entry>
+	<base>REBOOT_SUCCEEDED</base>
+	<trans>Neustart ist erfiolgreich angestoßen worden.</trans>
+    </entry>
+    <entry>
+	<base>DESC_REBOOT</base>
+	<trans>Der Server hat den Neustart angestoßen.</trans>
+    </entry>
+    <entry>
+	<base>RECONFIGURE_SUCCEEDED</base>
+	<trans>Rekonfiguration erfolgreich angestoßen.</trans>
+    </entry>
+    <entry>
+	<base>DESC_RECONFIGURE</base>
+	<trans>Ihr Server hat eine volle System-Rekonfiguration und Neustart angestoßen.</trans>
+    </entry>
+    <entry>
+	<base>DESC_SHUTDOWN</base>
+	<trans>Ihr Server wird heruntergefahren. Dies dauert einige Minuten, danach können Sie die Stromversorgung ausschalten.</trans>
+    </entry>
+    <entry>
+	<base>LABEL_REBOOT</base>
+	<trans>Wählen Sie Herunterfahren, Neustart oder Rekonfigurieren</trans>
+    </entry>
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ Hier können Sie den Server herunterfahren, neu starten oder eine volle System-Rekonfigurierung durchführen. Bevor Sie die Spannungsversorgung ausschalten, müssen Sie den Server herunterfahren. Alle Funktionen benötigen einige Minuten, bis sie abgeschlossen sind. Wenn Sie auf <b>Ausführen</b> drücken, wird die gewählte Funktion gestartet, seien Sie bereit! ]]></trans>
+    </entry>
+    <entry>
+	<base>Reboot or shutdown</base>
+	<trans>Neustart oder Herunterfahren</trans>
+    </entry>
+</lexicon>

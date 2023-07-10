@@ -1,0 +1,38 @@
+<lexicon lang="id">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Pengaturan Antivirus</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FILESYSTEM_SCAN_PERIOD</base>
+        <trans>Scan filesistem</trans>
+    </entry>
+    <entry>
+        <base>DESC_FILESYSTEM_SCAN_PERIOD</base>
+        <trans><![CDATA[ <h2>Pengaturan Umum</h2> Jika pilihan ini di-enable maka filesistem akan di pindai untuk mencari virus. Sebuah laporan tentang virus yang ditemukan akan dikirimkan ke email pengelola.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_QUARANTINE</base>
+        <trans>Karantina file-file yang terinfeksi</trans>
+    </entry>
+    <entry>
+        <base>LABEL_CLAM_VERSIONS</base>
+        <trans>ClamAV dan versi db</trans>
+    </entry>
+    <entry>
+      <base>WEEKLY</base>
+      <trans>Setiap minggu</trans>
+    </entry>
+    <entry>
+      <base>NEVER</base>
+      <trans>Tidak pernah</trans>
+    </entry>
+    <entry>
+      <base>DAILY</base>
+      <trans>Setiap hari</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Setting anti virus clamav terbaru telah disimpan.</trans>
+    </entry>
+</lexicon>

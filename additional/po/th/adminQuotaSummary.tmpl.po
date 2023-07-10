@@ -1,0 +1,43 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: th\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/adminQuotaSummary.tmpl:11
+msgid "System Administrator"
+msgstr "ผู้ดูแลระบบ"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/adminQuotaSummary.tmpl:13
+msgid "Automated quota report"
+msgstr "รายงานโควต้าอัตโนมัติ"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/adminQuotaSummary.tmpl:16
+msgid "One or more users have exceeded their disk quota"
+msgstr "ผู้ใช้หนึ่งรายหรือมากกว่า ได้ใช้พื้นที่เกินโควต้าดิสก์ของเขา"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/adminQuotaSummary.tmpl:23
+msgid "The following users have exceeded their disk quota on the server called"
+msgstr "ผู้ใช้ต่อไปได้ใช้พื้นที่ดิสก์เกินโควต้าของเซิร์ฟเวอร์ที่ชื่อ"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/adminQuotaSummary.tmpl:24
+msgid "All values are in megabytes."
+msgstr "หน่วยทั้งหมดเป็นเมกะไบต์"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/adminQuotaSummary.tmpl:28
+msgid "Account"
+msgstr "บัญชี"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/adminQuotaSummary.tmpl:29
+msgid "Usage"
+msgstr "ถูกใช้ไป"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/adminQuotaSummary.tmpl:30
+msgid "Limit with grace period"
+msgstr "อยู่ในช่วงค่าระยะผ่อนผัน"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/adminQuotaSummary.tmpl:31
+msgid "Absolute limit"
+msgstr "ถึงข้อกำหนดสูงสุด"

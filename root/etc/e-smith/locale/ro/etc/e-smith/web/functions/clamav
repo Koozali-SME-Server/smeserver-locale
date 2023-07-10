@@ -1,0 +1,38 @@
+<lexicon lang="ro">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Setari antivirus</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FILESYSTEM_SCAN_PERIOD</base>
+        <trans>Scanare sistem</trans>
+    </entry>
+    <entry>
+        <base>DESC_FILESYSTEM_SCAN_PERIOD</base>
+        <trans><![CDATA[ <h2>Setari Generale</h2> Daca aceasta optiune este bifata sistemul va fi scanat de virusi. Administratoruil de sistem va primi un email cu eventualele probleme gasite.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_QUARANTINE</base>
+        <trans>Fisierele infectate vor fi trecute in carantina</trans>
+    </entry>
+    <entry>
+        <base>LABEL_CLAM_VERSIONS</base>
+        <trans>Versiunile ClamAV si ale bazei de date </trans>
+    </entry>
+    <entry>
+      <base>WEEKLY</base>
+      <trans>Saptamanal</trans>
+    </entry>
+    <entry>
+      <base>NEVER</base>
+      <trans>Niciodata</trans>
+    </entry>
+    <entry>
+      <base>DAILY</base>
+      <trans>Zilnic</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Noile setari pentru antivirusul clamav au fost salvate.</trans>
+    </entry>
+</lexicon>

@@ -1,0 +1,147 @@
+<lexicon lang="tr">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Yazıcı ekle veya kaldır</trans>
+    </entry>
+    <entry>
+      <base>INITIAL_DESC</base>
+      <trans><![CDATA[ <P><A class="button-like" HREF="printers?page=0&Next=Add">Yazıcı ekle</A></P> ]]></trans>
+    </entry>
+    <entry>
+      <base>NO_PRINTERS</base>
+      <trans>Sistemde yazıcı bulunmuyor.</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_LIST</base>
+      <trans>Yazıcılar Listesi</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_ADDRESS</base>
+      <trans>Uzaktaki adres</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_NAME</base>
+      <trans>Uzaktaki isim</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NEW_PRINTER</base>
+      <trans>Yeni yazıcı oluştur</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NEW_DESC</base>
+      <trans>Yazıcı için özgün bir ad ve açıklama belirtin. Yazıcı adı sadece küçük harfler ve sayılar içermeli ve bir küçük harf ile başlamalıdır. Örneğin "hplaser", "epsonlp" ve "canonbj" geçerli isimlerdir, fakat "HP Laser Jet", "Canon BubbleJet" ve "HP JetDirect Printer" geçersizdir. Yazıcı adı veya açıklamalarında "offline", "disabled", "down", "off", "waiting", "jam", "paper", "error" ve "responding" kelimeleri kullanılmamalıdır.</trans>
+    </entry>
+    <entry>
+      <base>PRINTER_NAME</base>
+      <trans>Yazıcı adı</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_0</base>
+      <trans>Yerel yazıcı, port 0 (LPT1)</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_1</base>
+      <trans>Yerel yazıcı, port 1 (LPT2)</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_2</base>
+      <trans>Yerel yazıcı, port 2 (LPT3)</trans>
+    </entry>
+    <entry>
+      <base>NET_PRINTER</base>
+      <trans>Ağ yazıcısı ...</trans>
+    </entry>
+    <entry>
+      <base>FIRST_USB_PRINTER</base>
+      <trans>USB bağlı ilk yazıcı</trans>
+    </entry>
+    <entry>
+      <base>SECOND_USB_PRINTER</base>
+      <trans>USB bağlı ikinci yazıcı</trans>
+    </entry>
+    <entry>
+      <base>ERR_UNEXPECTED_NAME</base>
+      <trans><![CDATA[ <P>Hata: yazıcı adında geçersiz karakter.</P> <P>Yazıcı adı sadece küçük harf ve rakamlardan oluşmalı ve küçük hrfle başlamalıdır. Örneğin "hplaser", "epsonlp" ve "canonbj" gibi.</P> ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_UNEXPECTED_DESC</base>
+      <trans>Hata: açıklama geçersiz karakter içeriyor. Yazıcı oluşturulamadı.</trans>
+    </entry>
+    <entry>
+      <base>ERR_EXISTS</base>
+      <trans>Hata: Aynı isme sahip hesap adı bulunuyor:</trans>
+    </entry>
+    <entry>
+      <base>ERR_INVALID_ADDRESS</base>
+      <trans>Hata: geçersiz ağ adresi. Yeni yazıcı oluşturulamadı.</trans>
+    </entry>
+    <entry>
+      <base>ERR_INVALID_REMOTE_NAME</base>
+      <trans>Hata: geçersiz ağ yazıcısı adı. Yeni yazıcı oluşturulamadı.</trans>
+    </entry>
+    <entry>
+      <base>ERR_CREATING</base>
+      <trans>Yazıcı oluşturulurken hata meydana geldi.</trans>
+    </entry>
+    <entry>
+      <base>CREATED_SUCCESSFULLY</base>
+      <trans>Yazıcı başarılı şekilde oluşturuldu:</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NETWORK_PRINTER</base>
+      <trans>Yeni ağ yazıcısı oluştur</trans>
+    </entry>
+    <entry>
+      <base>ERR_OPENING_DB</base>
+      <trans>Hesap veritabanı açılırken hata oluştu.</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NETWORK_DESC</base>
+      <trans>Lütfen ağ yazıcısı adresi ve adını girin</trans>
+    </entry>
+    <entry>
+      <base>HOSTNAME_OR_IP</base>
+      <trans>Ağ yazıcısının alan adı veya IP adresi</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_NAME_DESC</base>
+      <trans><![CDATA[ Ağ yazıcısının adı (emin değilseniz kaynak adını girin) ]]></trans>
+    </entry>
+    <entry>
+      <base>REMOVE_PRINTER</base>
+      <trans>Yazıcı kaldır</trans>
+    </entry>
+    <entry>
+      <base>ABOUT_TO_REMOVE</base>
+      <trans>Yazıcıyı silmek üzeresiniz:</trans>
+    </entry>
+    <entry>
+      <base>SPOOL_FILE_WARNING</base>
+      <trans>Bu yazıcının tüm yazdırılmayı bekleyen dosyaları silinecektir.</trans>
+    </entry>
+    <entry>
+      <base>ARE_YOU_SURE</base>
+      <trans>Bu yazıcıyı kaldırmak istediğinizden eminmisiniz?</trans>
+    </entry>
+    <entry>
+      <base>ERR_INTERNAL_FAILURE</base>
+      <trans>Hata: yazıcı kaldırılırken iç hata oluştu:</trans>
+    </entry>
+    <entry>
+      <base>ERR_DELETING</base>
+      <trans>Yazıcı kaldırılırkrn hata oluştu.</trans>
+    </entry>
+    <entry>
+      <base>DELETED_SUCCESSFULLY</base>
+      <trans>Yazıcı başarıyla kaldırıldı:</trans>
+    </entry>
+    <entry>
+        <base>MUST_BE_VALID_HOSTNAME_OR_IP</base>
+        <trans>Geçerli alan adı veya IP adresi içermelidir</trans>
+    </entry>
+    <entry>
+	<base>Printers</base>
+	<trans>Yazıcılar</trans>
+    </entry>
+
+</lexicon>

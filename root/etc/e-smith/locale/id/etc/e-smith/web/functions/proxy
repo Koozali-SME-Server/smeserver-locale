@@ -1,0 +1,42 @@
+<lexicon lang="id">
+    <entry>
+        <base>Proxy settings</base>
+        <trans>Pengaturan Proxy</trans>
+    </entry>
+    <entry>
+        <base>FIRST_PAGE_DESCRIPTION</base>
+        <trans>Halaman ini memungkinkan pengaturan proxy server's. Server ini memiliki sebuah transparent proxy dan cache untuk lalulintas HTTP. Hal ini di-enable secara default, namun tidak dijalankan jika server dalam mode &quot;serveronly&quot; . Jika server ini bertindak sebagai sebuah server e-mail, sambungan dari klien jaringan lokal ke SMTP server eksternal akan secara default dialihkan ke email server lokal.</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>HTTP proxy server berguna untuk mengurangi pemakaian sambungan keluar dengan cara menyimpan halaman-halaman yang baru dikunjungi. Proxy ini transparan bagi penjelajah webyang menggunakan server ini sebagai gateway. Enable atau disable proxy ini dengan pilihan dibawah.</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_LABEL</base>
+        <trans>Status HTTP proxy</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>SMTP proxy server transparan berguna untuk mengurangi perpindahan virus komputer terinfeksi dengan memaksa semua lalulintas keluar SMTP agar melalui server ini. Jika anda ingin menggunakan SMTP server lain, dan server ini adalah gateway kesana, disable proxy ini.</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_LABEL</base>
+        <trans>Status SMTP proxy</trans>
+    </entry>
+    <entry>
+        <base>ERR_PROXY_UPDATE_FAILED</base>
+        <trans>ERROR: ada kesalahan pada event proxy-update .</trans>
+    </entry>
+    <entry>
+        <base>ERR_NO_SQUID_REC</base>
+        <trans>ERROR: Tidak ada record squid dalam konfigurasi database.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Setting proxy telah berhasil diterapkan.</trans>
+    </entry>
+    <entry>
+        <base>BLOCKED</base>
+        <trans>Blocked</trans>
+    </entry>
+</lexicon>

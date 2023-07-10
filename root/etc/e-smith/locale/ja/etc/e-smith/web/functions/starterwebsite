@@ -1,0 +1,43 @@
+<lexicon lang="ja">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>Create a starter website</trans>
+      </entry>
+      <entry>
+	<base>SUCCESS</base>
+	<trans>Successfully created starter web site (wrote file index.htm). You can visit your new website at the address below:</trans>
+      </entry>
+      <entry>
+	<base>DESCRIPTION</base>
+	  <trans><![CDATA[ <p> To create a simple web page for your company, fill in the fields below and click on <b>Create</b>. </p> <p> You can leave any field blank if you do not need it. </p> <p> The text that you enter below will be line wrapped for a nicer appearance in your web page. Leave a blank line whenever you want to start a new paragraph. If you need to force a line break without starting a new paragraph (for example after each line of a mailing address), then type the four-character sequence <blockquote>&lt;BR&gt;</blockquote> where you would like each line break. </p> <p> <em>Do not use this option</em> if you have already customized your web site, since it will overwrite the "index.htm" file in your web site directory. </p> ]]></trans>
+      </entry>
+      <entry>
+	<base>LABEL_COMPANYNAME</base>
+	<trans>Company name</trans>
+      </entry>
+	
+      <entry> 
+	<base>DESC_HEADER1</base>
+	<trans>First header, typically used for short phrases such as "Leader in the field of textile manufacturing"</trans>
+      </entry>
+      <entry> 
+	<base>DESC_TEXT1</base>
+	<trans>Text following first header, typically used for a paragraph of marketing information.</trans>
+      </entry>
+      <entry> 
+	  <base>DESC_HEADER2</base>
+	<trans>Second header, typically used for short phrases such as "For more information" or "To order our products":</trans>
+	</entry>
+      <entry> 
+	<base>DESC_TEXT2</base>
+	<trans>Text following second header, typically used for contact or ordering information:</trans>
+	</entry>
+      <entry>
+	<base>DESC_SUBMIT</base>
+	<trans><![CDATA[ <p>When you create this web page, the file "index.htm" will be overwritten in your web site directory.</p> <p>Do you wish to proceed?</p> ]]></trans>
+      </entry>
+      <entry>
+	<base>Create starter web site</base>
+	<trans>Create starter web site</trans>
+      </entry>
+</lexicon>

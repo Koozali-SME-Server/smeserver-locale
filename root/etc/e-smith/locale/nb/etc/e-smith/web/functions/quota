@@ -1,0 +1,106 @@
+<lexicon lang="nb">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Opprette, Endre eller fjern kvota for bruker</trans>
+    </entry>
+    <entry>
+      <base>UNABLE_TO_OPEN_ACCOUNTS</base>
+      <trans>Kan ikke åpne kontodatabasen</trans>
+    </entry>
+    <entry>
+      <base>QUOTA_DESC</base>
+      <trans><![CDATA[ <p>Du kan opprette diskkvota for brukere på systemet ved å klikke "Endre"-knappen ut for brukeren. <p>Hvis brukeren overskrider "Henstandsperiode", vil Det bli udsendt en advarsel. Overskrides denne grense i mer enn en uke eller hvis "Absolutt grense" blir nådd, vil brukeren ikke kunne lagre mer på serveren og heller ikke motta mer e-post. <p>Indstilles begge Verdier til '0' vil det ikke være noen begrensning for brukeren. <p>Diskplassen for hver bruker omfatter e-post, inneholdet i hjemmemappen, samt hva brukeren har lagret i diverse i-bays. ]]></trans>
+    </entry>
+    <entry>
+      <base>CURRENT_USAGE_AND_SETTINGS</base>
+      <trans>Aktuell kvote og innstillinger</trans>
+    </entry>
+    <entry>
+      <base>LIMIT_WITH_GRACE</base>
+      <trans>Henstandsperiode</trans>
+    </entry>
+    <entry>
+      <base>LIMIT_WITH_GRACE_MB</base>
+      <trans>Henstandsperiode (MB)</trans>
+    </entry>
+    <entry>
+      <base>ABS_LIMIT</base>
+      <trans>Absolutt grense</trans>
+    </entry>
+    <entry>
+      <base>ABS_LIMIT_MB</base>
+      <trans>Absolutt grense (MB)</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_USAGE</base>
+      <trans>Aktuelt forbruk (MB)</trans>
+    </entry>
+    <entry>
+      <base>COULD_NOT_GET_UID</base>
+      <trans>Kunne ikke fastslå brukerID for bruker:</trans>
+    </entry>
+    <entry>
+      <base>ERR_NO_SUCH_ACCT</base>
+      <trans>Feil: Det findes ikke noen konto med navn:</trans>
+    </entry>
+    <entry>
+      <base>ERR_NOT_A_USER_ACCT</base>
+      <trans>Feil: Følgende konto er ikke en brukerkonto:</trans>
+    </entry>
+    <entry>
+      <base>ACCOUNT_IS_TYPE</base>
+      <trans>Kontotypen er:</trans>
+    </entry>
+    <entry>
+      <base>MODIFY_USER_TITLE</base>
+      <trans>Endre brukerkvotagrenser</trans>
+    </entry>
+    <entry>
+      <base>USER</base>
+      <trans>Bruker:</trans>
+    </entry>
+    <entry>
+      <base>CURRENTLY_HAS</base>
+      <trans>har aktuelt:</trans>
+    </entry>
+    <entry>
+      <base>FILES</base>
+      <trans>filer</trans>
+    </entry>
+    <entry>
+      <base>OCCUPYING</base>
+      <trans>opptar:</trans>
+    </entry>
+    <entry>
+      <base>MEGABYTES</base>
+      <trans>megabytes</trans>
+    </entry>
+    <entry>
+      <base>INSTRUCTIONS</base>
+      <trans>Skriv inn kvotaen som heltall etterfulgt af 'K' for kilobytes,' M' for megabytes, og 'G' for gigabytes. Inntastinger uten endelse antas å være megabytes. Innstillingen '0' for begge verdier opphever begrensningen.</trans>
+    </entry>
+    <entry>
+      <base>SOFT_VAL_MUST_BE_NUMBER</base>
+      <trans>Feil: Henstandsperiode skal være et heltall eventuelt fulgt av enhetsbetegnelse K, M eller G.</trans>
+    </entry>
+    <entry>
+      <base>HARD_VAL_MUST_BE_NUMBER</base>
+      <trans>Feil: Absolutt grense skal være et heltall eventuelt fulgt av enhetsbetegnelse K, M eller G.</trans>
+    </entry>
+    <entry>
+      <base>ERR_HARD_LT_SOFT</base>
+      <trans>Feil: Verdien for "Absolutt grense" skal være høyere enn Verdien for "Henstandsperiode".</trans>
+    </entry>
+    <entry>
+      <base>ERR_MODIFYING</base>
+      <trans>Det oppsto en feil under endringen.</trans>
+    </entry>
+    <entry>
+      <base>SUCCESSFULLY_MODIFIED</base>
+      <trans>Har gjennomført endringen for bruker:</trans>
+    </entry>
+    <entry>
+	<base>Quotas</base>
+	<trans>Kvota</trans>
+    </entry>
+</lexicon>

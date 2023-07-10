@@ -1,0 +1,202 @@
+<lexicon lang="tr">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Tarih ve zaman ayarları</trans>
+    </entry>
+    <entry>
+      <base>INITIAL_DESC</base>
+      <trans>Buradan sunucunuzun tarih ve saat ayarını yapabilirsiniz. Mevcut bir Zaman Sunucusunu kullanabilirsinizi veya kendi zaman diliminize göre tarih ve zaman ayarlarını elle yapabilirsiniz.</trans>
+    </entry>
+    <entry>
+      <base>SET_DATE_TITLE</base>
+      <trans>Tarih ve saati ayarla</trans>
+    </entry>
+    <entry>
+      <base>COULD_NOT_OPEN_TZ_FILE</base>
+      <trans>Hata: Zamandilimi dosyası okunamadı:</trans>
+    </entry>
+    <entry>
+      <base>JANUARY</base>
+      <trans>Ocak</trans>
+    </entry>
+    <entry>
+      <base>FEBRUARY</base>
+      <trans>Şubat</trans>
+    </entry>
+    <entry>
+      <base>MARCH</base>
+      <trans>Mart</trans>
+    </entry>
+    <entry>
+      <base>APRIL</base>
+      <trans>Nisan</trans>
+    </entry>
+    <entry>
+      <base>MAY</base>
+      <trans>Mayıs</trans>
+    </entry>
+    <entry>
+      <base>JUNE</base>
+      <trans>Haziran</trans>
+    </entry>
+    <entry>
+      <base>JULY</base>
+      <trans>Temmuz</trans>
+    </entry>
+    <entry>
+      <base>AUGUST</base>
+      <trans>Ağustos</trans>
+    </entry>
+    <entry>
+      <base>SEPTEMBER</base>
+      <trans>Eylül</trans>
+    </entry>
+    <entry>
+      <base>OCTOBER</base>
+      <trans>Ekim</trans>
+    </entry>
+    <entry>
+      <base>NOVEMBER</base>
+      <trans>Kasım</trans>
+    </entry>
+    <entry>
+      <base>DECEMBER</base>
+      <trans>Aralık</trans>
+    </entry>
+    <entry>
+      <base>NEW_M/D/Y</base>
+      <trans>Yeni ay/gün/yıl:</trans>
+    </entry>
+    <entry>
+      <base>NEW_H/M/S</base>
+      <trans>Yeni saat/daikika/saniye:</trans>
+    </entry>
+    <entry>
+      <base>AM/PM_AND_TZ</base>
+      <trans>AM/PM (ÖÖ/ÖS) ve zamn dilimi:</trans>
+    </entry>
+    <entry>
+      <base>NTP_ENABLE_DESC</base>
+      <trans>Bu sunucu aralıklı olarak sistem tarih ve saatini Zaman Sunucusu (NTP) ile senkronize edebilir. Bu seçeneği işaretlerseniz NTP sunucu adresi veya IP numarasını belirtmeniz gerekir.</trans>
+    </entry>
+    <entry>
+      <base>NTP_CONFIGURE_DESC</base>
+      <trans>Bu sunucu aralıklı olarak sistem tarih ve saatini, brlirtilen Zaman Sunucusu (NTP) ile senkronize eder. Farklı bir NTP sunucusuyla senkronize etmek için aşağıda farklı bir web adresi veya IP numarası girin.</trans>
+    </entry>
+    <entry>
+      <base>NTP_DISABLE_DESC</base>
+      <trans>NTP sunucusuyla senkronizasyınu devre dışı bırakmak için bu seçeneği işaretleyin. Senkronizasyon devre dışı bırakıldığında, sistem tarih ve zaman ayarı bu sayfadan elle yapılabilir.</trans>
+    </entry>
+    <entry>
+      <base>NTP_SERVER</base>
+      <trans>NTP Sunucusu</trans>
+    </entry>
+    <entry>
+      <base>VERIFY_DATE_AND_TIME</base>
+      <trans>Tarih ve zamanı doğrula</trans>
+    </entry>
+    <entry>
+      <base>NEW_DATE_AND_TIME</base>
+      <trans>Yeni tarih ve saat ayarı:</trans>
+    </entry>
+    <entry>
+      <base>SETTING_DATE_AND_TIME</base>
+      <trans>Tarih ve saat ayarı</trans>
+    </entry>
+    <entry>
+      <base>INVALID_DAY</base>
+      <trans>Hata: ayın geçersiz günü:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_1_AND_31</base>
+      <trans>Lütfen 1ile 31 arası bir gün belirtin.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_YEAR</base>
+      <trans>Hata: gecersiz yıl:</trans>
+    </entry>
+    <entry>
+      <base>FOUR_DIGIT_YEAR</base>
+      <trans>Lütfen 1900 ile 2200 arası dört basamaklı bir yıl belirtin.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_HOUR</base>
+      <trans>Hata: gecersiz saat:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_1_AND_12</base>
+      <trans>Lütfen 1 ile 12 arası bir saat belirtin.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_MINUTE</base>
+      <trans>Hata: geçersiz dakika:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_0_AND_59</base>
+      <trans>Lütfen 0 ile 59 arası bir dakika belirtin.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_SECOND</base>
+      <trans>Hata: geçersiz saniye</trans>
+    </entry>
+    <entry>
+      <base>UPDATING_CLOCK</base>
+      <trans><![CDATA[ Sistem saati güncelleniyor. Lütfen birkaç dakika bekleyin, sonra <A HREF="datetime?page=1&wherenext=Verify" TARGET="main">buraya</A> tıklayarak değişiklikleri doğrulayın. ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_SETTING_CLOCK</base>
+      <trans>Sistem tarih ve saati ayarlanırken hata oluştu.</trans>
+    </entry>
+    <entry>
+      <base>SERVER_DISABLED</base>
+      <trans>Zaman Sunucusu devre dışı bırakıldı</trans>
+    </entry>
+    <entry>
+      <base>SERVER_DISABLED_DESC</base>
+      <trans><![CDATA[ Bu servisi devre dışı bıraktınız: Bu sunucu sadece kendi sitem saatini dikkate alacak ve <b>asla</b> Zaman Sunucusuyla senkronizasyon yapmayacaktır. ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_CHANGING_TS</base>
+      <trans>Zaman Sunucusu ayarları değiştirlirken hata oluştu</trans>
+    </entry>
+    <entry>
+      <base>INVALID_NTP_ADDR</base>
+      <trans>Geçersiz NTP sunucu adresi:</trans>
+    </entry>
+    <entry>
+      <base>SETTINGS_CHANGED</base>
+      <trans>Zaman sunucusu ayarları başarıyla uygulandı</trans>
+    </entry>
+    <entry>
+      <base>SYNC_WITH</base>
+      <trans>Bu sunucu ( internet üzerinden ) aralıklı olarak bu makinayla senkronize edilmeye ayarlandı:</trans>
+    </entry>
+    <entry>
+      <base>INVALID_NTP_SERVER</base>
+      <trans><![CDATA[ Geçersiz NTP sunucusu, bu sunucu verlien zaman sunucusuyla senkronize <b>edilemez</b>.  ]]></trans>
+    </entry>
+    <entry>
+      <base>NETWORK_TIME_SERVER</base>
+      <trans>Zaman sunucusu</trans>
+    </entry>
+    <entry>
+      <base>NTP_CONFIGURE_TITLE</base>
+      <trans>Zaman Sunucusunu Ayarla</trans>
+    </entry>
+    <entry>
+      <base>NTP_ENABLE_TITLE</base>
+      <trans>Zaman Sunucusunu Etkinleştir</trans>
+    </entry>
+    <entry>
+      <base>NTP_DISABLE_TITLE</base>
+      <trans>Zaman Sunucusunu Devre dışı bırak</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_SETTING</base>
+      <trans>Geçerli Ayarlar</trans>
+    </entry>
+    <entry>
+      <base>Date and time</base>
+      <trans>Tarih ve zaman</trans>
+    </entry>
+  </lexicon>

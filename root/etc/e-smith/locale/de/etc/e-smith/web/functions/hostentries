@@ -1,0 +1,180 @@
+<lexicon lang="de" params="lexicon_params()">
+    <!-- vim: ft=xml
+    -->
+    <entry>
+        <base>Hostnames and addresses</base>
+        <trans>Hostnamen und Adressen</trans>
+    </entry>
+    <entry>
+        <base>UNABLE_TO_OPEN_CONFIGDB</base>
+        <trans>Es ist nicht möglich, die Datenbank für die Einstellungen zu öffnen</trans>
+    </entry>
+    <entry>
+        <base>DNS_FORWARDER_ENABLED</base>
+        <trans>Eine DNS-Weiterleitung wurde eingerichtet. Dies bedeutet, daß alle DNS-Anfragen von der DNS-Weiterleitung bearbeitet werden. Hostnamen und Adressen können auf diesem Server nicht mehr geändert werden, solange die DNS-Weiterleitung eingerichtet ist.</trans>
+    </entry>
+    <entry>
+        <base>ADD_HOSTNAME</base>
+        <trans><![CDATA[ <a class="button-like" href="hostentries?page=0&page_stack=&Next=Next&wherenext=CreateModify">Hostnamen hinzufügen</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME</base>
+        <trans>Hostname</trans>
+    </entry>
+    <entry>
+        <base>HOSTTYPE</base>
+        <trans>Standort</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP</base>
+        <trans>Lokale IP</trans>
+    </entry>
+    <entry>
+        <base>ETHERNET_ADDRESS</base>
+        <trans>MAC-Adresse</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_HOSTNAMES_FOR_DOMAIN</base>
+        <trans>Aktuelle Liste der Hostnamen für {$domain}.</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTNAMES_FOR_SERVICENAME</base>
+        <trans>Es sind keine Hostnamen auf dem Server für {$serviceName} vorhanden.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_HOSTNAMES_FOR_LOCAL_DOMAIN</base>
+        <trans>Aktuelle Liste der Hostnamen für {$localDomainName}</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTNAMES_FOR_LOCAL_DOMAIN</base>
+        <trans>Es gibt keine Hostnamen auf dem Server für {$localDomainName}.</trans>
+    </entry>
+    <entry>
+        <base>STATIC_HOST_MESSAGE</base>
+        <trans>- Dieser Host steht für Ihren Systemnamen und kann weder geändert noch entfernt werden.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_LOCAL_HOST_TITLE</base>
+        <trans>Einen neuen Hostnamen für diesen Server erstellen</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_VALIDATION_ERROR</base>
+        <trans>FEHLER: Ungültige Zeichen im Hostnamen: "{$HostName}". Der Hostname darf nur Buchstaben, Zahlen und Bindestriche enthalten und muß mit einem Buchstaben oder einer Zahl beginnen.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_LENGTH_ERROR</base>
+        <trans>FEHLER: Der Hostname {$HostName} ist zu lang. Die maximale Länge beträgt 32 Zeichen.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_VALIDATION_ERROR</base>
+        <trans>FEHLER: Ungültige oder fehlende Zeichen im Domänen-Namen {$DomainName}. Der Domänen-Name muß einen oder mehr Buchstaben sowie Nummern, Punkte und Bindestriche enthalten. Neue Domäne wurde nicht erstellt.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_EXISTS_ERROR</base>
+        <trans>FEHLER: Das Hostkonto {$fullHostName} ist ein bestehender {$type} Hostname.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>Hostname erfolgreich erstellt.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_DESCRIPTION</base>
+        <trans>Der Hostname darf nur Buchstaben, Zahlen und Bindestriche enthalten und muß mit einem Buchstaben oder einer Zahl beginnen.</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP_DESCRIPTION</base>
+        <trans>Die lokale IP-Adresse ist die IP-Adresse eines anderen Systems in Ihren lokalem Netz. Bitte geben Sie eine gültige IP-Adresse in der Form von "aaa.bbb.ccc.ddd" ein.</trans>
+    </entry>
+    <entry>
+        <base>ETHERNET_ADDRESS_DESCRIPTION</base>
+        <trans>Die Angabe der MAC-Adresse ist optional, bei Hinterlegung der MAC-Adresse vergibt der DHCP-Server eine fest vergebene lokale IP-Adresse and das Gerät mit dieser MAC-Adresse. Wenn angegeben muß die MAC-Adresse in Form von Hex Zeichen "AA:BB:CC:DD:EE:FF" vorliegen, wobei nur Nummern von 0-9 und Buchstaben von A-F verwendet werden dürfen.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_LOCAL_HOST_TITLE</base>
+        <trans>Neuen Hostnamen in Bezug zum lokalem Host erstellen.</trans>
+    </entry>
+    <entry>
+        <base>DIDNT_ENTER_LOCAL_IP</base>
+        <trans>FEHLER: Sie haben keine lokale IP-Adresse angegeben. Die IP-Adresse muß in Form von "aaa.bbb.ccc.ddd" eingegeben werden und darf nur Nummen und Punkte enthalten. Der Hostname wurde nicht erstellt.</trans>
+    </entry>
+    <entry>
+        <base>IP_VALIDATION_ERROR</base>
+        <trans>FEHLER: Die IP-Adresse {$InternalIP} ist ungültig. Die IP-Adresse muß in Form von "aaa.bbb.ccc.ddd" eingegeben werden und darf nur Nummen und Punkte enthalten. Der Hostname wurde nicht erstellt.</trans>
+    </entry>
+    <entry>
+        <base>MAC_ADDRESS_VALIDATION_ERROR</base>
+        <trans>FEHLER: Die MAC-Adresse ist ungültig. Die MAC-Adresse muß in Form von "AA:BB:CC:DD:EE:FF" eingegeben werden und darf nur Nummern 0-9 und die Buchstaben A-F enthalten. Der Hostname wurde nicht erstellt.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_REMOTE_HOST_TITLE</base>
+        <trans>Einen neuen Hostnamen in Bezug zu einem "Remote Host" erstellen.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Hostname erstellen oder ändern</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_PAGE_DESCRIPTION</base>
+        <trans>Bitte geben Sie die folgenden zusätzlichen Informationen für den lokalen Host an:</trans>
+    </entry>
+    <entry>
+        <base>REMOTE_PAGE_DESCRIPTION</base>
+        <trans>Bitte geben Sie die folgenden zusätzlichen Informationen für den Remote Host an:</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>Host wurde erfolgreich gelöscht.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>Host wurde erfolgreich geändert.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_PAGE_DESCRIPTION</base>
+        <trans><![CDATA[ Sie sind dabei, den Hostnamen "{$hostname}.{$domain}" zu entfernen. <b>Sind Sie sicher, dass Sie den Hostnamen entfernen wollen?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DESCRIPTION</base>
+        <trans>Bitte bestätigen Sie die folgenden Informationen.</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTS_FOR_THIS_DOMAIN</base>
+        <trans>Es gibt keine Hosts für diese Domäne.</trans>
+    </entry>
+    <entry>
+        <base>ADDR_IN_DHCP_RANGE</base>
+        <trans>Die Adresse ist innerhalb des durch DHCP festgelegten dynamischen Bereichs</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_HOST</base>
+        <trans>Es ist ein Fehler beim Erstellen des Hostnamens aufgetreten.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_HOST</base>
+        <trans>Es ist ein Fehler beim Ändern des Hostnamens aufgetreten.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_HOST</base>
+        <trans>Es ist ein Fehler beim Löschen des Hostnamens aufgetreten.</trans>
+    </entry>
+    <entry>
+        <base>ERR_IP_IS_LOCAL_OR_GATEWAY</base>
+        <trans>Fehler: Die IP-Adresse darf nicht mit der des Servers oder des Gateways identisch sein.</trans>
+    </entry>
+    <entry>
+        <base>ERR_IP_NOT_LOCAL</base>
+        <trans>Fehler: Diese IP-Adresse liegt außerhalb unserer lokalen Netzwerke.</trans>
+    </entry>
+    <entry>
+        <base>MUST_BE_VALID_HOSTNAME_OR_IP</base>
+        <trans>Es muss ein gültiger Hostname oder eine gültige IP-Adresse sein</trans>
+    </entry>
+  <entry>
+   <base>HOSTNAME_COMMENT_ERROR</base>
+    <trans>FEHLER: Ungültige Zeichen im Hostnamen: "{$hostname}.{$domain}". Der Hostname darf nur Buchstaben, Zahlen und Bindestriche enthalten und muß mit einem Buchstaben oder einer Zahl beginnen.</trans>
+  </entry>
+    <entry>
+      <base>HOSTNAME_VALIDATOR_ERROR</base>
+    <trans>FEHLER: Ungültige Zeichen im Hostnamen: "{$hostname}.{$domain}". Der Hostname sollte nur Buchstaben, Zahlen und Bindestriche enthalten und muß mit einem Buchstaben oder einer Zahl beginnen.</trans>
+  </entry>
+</lexicon>

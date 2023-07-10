@@ -1,0 +1,42 @@
+<lexicon lang="nl">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Afsluiten of herstarten</trans>
+    </entry>
+    <entry>
+	<base>REBOOT</base>
+	<trans>Herstarten</trans>
+    </entry>
+    <entry>
+	<base>REBOOT_SUCCEEDED</base>
+	<trans>Herstart verzoek met succes gestart.</trans>
+    </entry>
+    <entry>
+	<base>DESC_REBOOT</base>
+	<trans>Uw server heeft het herstart proces in gang gezet.</trans>
+    </entry>
+    <entry>
+	<base>RECONFIGURE_SUCCEEDED</base>
+	<trans>Herconfiguratie verzoek met succes gestart.</trans>
+    </entry>
+    <entry>
+	<base>DESC_RECONFIGURE</base>
+	<trans>Uw server heeft een volwaardige systeem herconfiguratie en herstart in gang gezet.</trans>
+    </entry>
+    <entry>
+	<base>DESC_SHUTDOWN</base>
+	<trans>Uw server heeft het afsluit proces in gang gezet. Dit proces neemt enige minuten om af te ronden, aansluitend kunt u de stroomtoevoer afkoppelen.</trans>
+    </entry>
+    <entry>
+	<base>LABEL_REBOOT</base>
+	<trans>Kies Afsluiten, Herstarten of Herconfigureren</trans>
+    </entry>
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ U kunt herstarten, afsluiten of een volledige herconfiguratie van uw server uitvoeren via dit scherm. U moet het systeem afsluiten voordat u de stroomtoevoer afkoppelt. Al deze functies nemen enige minuten in beslag. Als u op <b>uitvoeren</b> klikt wordt deze actie direct uitgevoerd, wees er dus klaar voor! ]]></trans>
+    </entry>
+    <entry>
+	<base>Reboot or shutdown</base>
+	<trans>Herstarten of afsluiten</trans>
+    </entry>
+</lexicon>

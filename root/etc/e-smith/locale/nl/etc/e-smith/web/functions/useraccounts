@@ -1,0 +1,242 @@
+<lexicon lang="nl">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Gebruikersaccount toevoegen, wijzigen of verwijderen</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> <a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">Gebruikersaccount toevoegen</a> </p> <p>U kan een account wijzigen, vergrendelen of verwijderen of het wachtwoord opnieuw instellen door op de corresponderende opdracht te klikken naast de account. </p> <p> Een vergrendelde account betekent dat het wachtwoord van deze account opnieuw moet worden ingesteld. Houd er rekening mee dat nieuw aangemaakte accounts automatisch worden vergrendeld tot het wachtwoord opnieuw is ingesteld. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>P2_TITLE</base>
+        <trans>Toevoegen of wijzigen</trans>
+    </entry>
+    <entry>
+        <base>CREATE_MODIFY_DESC</base>
+        <trans><![CDATA[ <p> De accountnaam mag alleen kleine letters, cijfers, koppeltekens, punten en lage streepjes bevatten en moet met een kleine letter beginnen. Bijvoorbeeld "betty", "hjohnson", en "mary-jane" zijn geldige accountnamen, maar "3vrienden", "Jan Smit", en "henry:miller" niet. </p> <p> Merk op dat voor elke account twee speciale pseudoniemen worden aangemaakt. Deze pseudoniemen geven de mogelijkheid om alternatieve mail accounts aan een gebruiker te geven welke de voornaam en familienaam gescheiden door een punt (.) en laag streepje (_). Bijvoorbeeld, voor de account "betty", met voornaam "Betty" en familienaam "Rubble", worden twee pseudoniemen aangemaakt: betty.rubble en betty_rubble. </p> <p> De directory gegevens (afdeling, bedrijf, enz.) kunnen hieronder worden aangepast. De wijzigingen zullen alleen op deze gebruiker van toepassing zijn. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MODIFY_ADMIN_TITLE</base>
+        <trans>Beheerders account wijzigen</trans>
+    </entry>
+    <entry>
+        <base>USER_CREATED</base>
+        <trans>De gebruikersaccount is met succes toegevoegd.</trans>
+    </entry>
+    <entry>
+        <base>USER_MODIFIED</base>
+        <trans>De gebruikersaccount is met succes gewijzigd.</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER</base>
+        <trans>Fout: er is een fout opgetreden tijdens het wijzigen van de gebruikersaccount "{$acctName}".</trans> 
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER_GROUPS</base> 
+        <trans>Fout: er is een fout opgetreden tijdens het wijzigen van de groep "{$group}" voor gebruiker "{$acctName}".</trans>
+    </entry>
+    <entry>
+        <base>TAINTED_USER</base>
+        <trans>De accountnaam "{$acctName}" bevat ongeldige tekens.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME</base>
+        <trans>Accountnaam</trans>
+    </entry>
+    <entry>
+        <base>FIRSTNAME</base>
+        <trans>Voornaam</trans>
+    </entry>
+    <entry>
+        <base>LASTNAME</base>
+        <trans>Achternaam</trans>
+    </entry>
+    <entry>
+        <base>DEPARTMENT</base>
+        <trans>Afdeling</trans>
+    </entry>
+    <entry>
+        <base>COMPANY</base>
+        <trans>Bedrijf</trans>
+    </entry>
+    <entry>
+        <base>STREET_ADDRESS</base>
+        <trans>Straatnaam</trans>
+    </entry>
+    <entry>
+        <base>CITY</base>
+        <trans>Stad</trans>
+    </entry>
+    <entry>
+        <base>PHONE_NUMBER</base>
+        <trans>Telefoonnummer</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_DELIVERY</base>
+        <trans>E-mail bezorging</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_EMAIL_LOCALLY</base>
+        <trans>E-mail lokaal bezorgen</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_EMAIL</base>
+        <trans>E-mail doorsturen naar onderstaand adres</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_AND_FORWARD</base>
+        <trans>Zowel lokaal bezorgen als doorsturen</trans>
+    </entry>
+    <entry>
+        <base>FORWARDING_ADDRESS</base>
+        <trans>Doorstuur adres</trans>
+    </entry>
+    <entry>
+        <base>GROUP_MEMBERSHIPS</base>
+        <trans>Groepslidmaatschappen</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC</base>
+        <trans>U staat op het punt om het wachtwoord voor de gebruikersaccount te wijzigen</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC2</base>
+        <trans>Vul het nieuwe wachtwoord in de onderstaande velden in</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_MODIFYING_PASSWORD</base>
+        <trans>Er is een fout opgetreden bij het wijzigen van het wachtwoord</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE_SUCCEEDED</base>
+        <trans>Het wachtwoord voor gebruiker "{$acctName}" is met succes gewijzigd.</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC</base>
+        <trans>U staat op het punt om de gebruikersaccount te vergrendelen</trans>
+    </entry>
+    <entry>
+        <base>LOCKED_ACCOUNT</base>
+        <trans>Gebruikersaccount "{$acctName}" is met succes vergrendeld.</trans>
+    </entry>
+    <entry>
+        <base>NO_SUCH_USER</base>
+        <trans>Fout: de gebruikersaccount "{$acctName}" bestaat niet.</trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM_CLASH</base>
+        <trans>Fout: het pseudoniem "{$pseudonym}" is reeds in gebruik door de gebruikersaccount "{$clashName}". Voeg aan dit veld de initialen toe om een onderscheid te maken.</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT</base>
+        <trans>Account vergrendelen</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT_TITLE</base>
+        <trans>Gebruikersaccount vergrendelen</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC2</base>
+        <trans><![CDATA[ Deze gebruikersaccount zal vergrendeld worden. Dit betekend dat deze gebruiker niet meet in kan loggen en geen e-mail kan bekijken of ophalen. E-mail voor deze gebruiker zal worden opgeslagen en/of doorgestuurd worden als ingesteld. De account kan geheractiveerd worden door een nieuw wachtwoord in te stellen. het huidige wachtwoord is niet meer geldig. </p> <p> <b>Weet U zeker dat U deze account wilt vergrendelen?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>REMOVE_ACCOUNT_TITLE</base>
+        <trans>Gebruikersaccount verwijderen</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>U staat op het punt om de gebruikersaccount te verwijderen</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans><![CDATA[ All bestanden behorende bij deze gebruikersaccount zullen verwijdert worden. Tevens zal alle e-mail voor deze gebruikers account (voor zover dit niet opgehaald is) verwijderd worden. </p> <p> <b>Bent U zeker dat U deze gebruikersaccount wilt verwijderen?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>LOCK</base>
+        <trans>Vergrendel</trans>
+    </entry>
+    <entry>
+        <base>NO_USER_ACCOUNTS</base>
+        <trans>Er zijn geen gebruikersaccounts op dit systeem.</trans>
+    </entry>
+    <entry>
+        <base>Users</base>
+        <trans>Gebruikers</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>De accountnaam "{$acctName}" bevat ongeldige tekens. Accountnamen moeten beginnen met een kleine letter en mogen alleen kleine letters, cijfers, koppeltekens, punten en lage streepjes bevatten.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_TOO_LONG</base>
+        <trans>Fout: de accountnaam is te lang. De maximum lengte is {$maxLength} tekens.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>Fout: de account "{$account}" kan niet worden toegevoegd omdat er is all een {$type} account met die naam bestaat.</trans>
+    </entry>    
+    <entry>
+        <base>ERR_OCCURRED_CREATING</base>
+        <trans>Er heeft zich een fout voorgedaan bij het toevoegen van de gebruiker.</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_CONTAIN_WHITESPACE</base>
+        <trans>Dit veld mag geen spaties bevatten</trans>
+    </entry>
+    <entry>
+        <base>UNACCEPTABLE_CHARS</base>
+        <trans>Dit veld mag alleen letters, cijfers, punten, koppeltekens en lage streepjes bevatten en moet met een letter beginnen</trans>
+    </entry>
+    <entry>
+        <base>MEMBER</base>
+        <trans>Lidmaatschap?</trans>
+    </entry>
+    <entry>
+        <base>VPN_CLIENT_ACCESS</base>
+        <trans>VPN toegang</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_FORM_TITLE</base>
+        <trans>Systeem wachtwoord wijzigen</trans>
+    </entry>    
+    <entry> 
+        <base>SYSTEM_PASSWORD_DESCRIPTION</base>
+        <trans><![CDATA[ Voor bepaalde diensten op deze server installatie is een gebruikersnaam en wachtwoord nodig (bijvoorbeeld deze webpagina van de Server Manager). De beheerder gebruikersnaam is altijd admin. U kan het systeem wachtwoord in de velden hieronder wijzigen. ]]></trans>        
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS</base>
+        <trans>Het wachtwoord mag alleen afdrukbare tekens bevatten</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_VERIFY_ERROR</base>
+        <trans>De twee wachtwoorden komen niet overeen.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_AUTH_ERROR</base>
+        <trans>Het huidige wachtwoord is niet correct.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_CHANGED</base>
+        <trans>Het systeem wachtwoord is gewijzigd.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_SYSTEM_PASSWORD</base>
+        <trans>Huidig systeem wachtwoord</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD</base>
+        <trans>Nieuw systeem wachtwoord</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD_VERIFY</base>
+        <trans>Nieuw systeem wachtwoord (verificatie)</trans>
+    </entry>            
+    <entry>
+        <base>LABEL_IPSECRW_DOWNLOAD</base>
+        <trans>Digitaal certificaat voor IPSec client ophalen</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_DELETING</base>
+        <trans>Er is een fout opgetreden tijdens het verwijderen van de gebruiker.</trans>
+    </entry>
+</lexicon>

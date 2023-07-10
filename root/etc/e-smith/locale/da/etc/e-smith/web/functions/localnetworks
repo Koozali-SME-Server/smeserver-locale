@@ -1,0 +1,108 @@
+<lexicon lang="da">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>Local networks</base>
+        <trans>Lokale netværk</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ Af hensyn til sikkerheden er der kun adgang fra lokalnettet til mange services på serveren. Du kan tildele yderligere netværker tilsvarende adgang ved at tilføje dem til listen nedenfor. De fleste installationer bør efterlade listen tom.</P><P> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Tilføj netværk</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>Tilføj et lokalt netværk</trans>
+    </entry>
+    <entry>
+        <base>ADD_DESC</base>
+        <trans><![CDATA[ Hver indtastning skal være i formen #.#.#.# (hvert # er et nummer fra 0 til 255). Serverprogrammet vil nulstille den sidste del (værtsidentifikationen) af netværksadressen i overenstemmelse med subnetmasken, for at sikre at netværksadressen er gyldig. </P><P> "Router" bør være IP-adressen på den router på lokalnetværket, der giver adgang til det andet netværk. ]]></trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ADDRESS</base>
+        <trans>Netværks-adresse</trans>
+    </entry>
+    <entry>
+        <base>SUBNET_MASK</base>
+        <trans>Subnetmaske</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IP_ADDRESS</base>
+        <trans>Ugyldig IP adresse</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SUBNET_MASK</base>
+        <trans>Ugyldig subnetmaske</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Fjern lokalt netværk</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Du er ved at fjerne følgende lokale netværk.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_CONFIRM</base>
+        <trans>Er du sikker på at du vil fjerne dette lokale netværk?</trans>
+    </entry>
+    <entry>
+        <base>DEFAULT</base>
+        <trans>standard</trans>
+    </entry>
+    <entry>
+        <base>NUMBER_OF_HOSTS</base>
+        <trans>Antal værter</trans>
+    </entry>
+    <entry>
+        <base>NOT_ACCESSIBLE_FROM_LOCAL_NETWORK</base>
+        <trans>Fejl: Der er ingen adgang til router-adressen {$networkRouter} fra lokal-nettet. Netværket blev ikke oprettet.</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_LOCAL</base>
+        <trans>Fejl: Netværket {$network} (beregnet fra netadressen {$networkAddress} og subnetmasken {$networkMask}) ses allerede som en del af det lokale net. Netværket blev ikke oprettet.</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_ADDED</base>
+        <trans>Fejl: Netværket {$network} (beregnet fra netadressen {$networkAddress} og subnetmasken {$networkMask}) er allerede tilføjet. Netværket blev ikke oprettet.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_CREATING_NETWORK</base>
+        <trans>Der skete en fejl under oprettelse af netværk.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Netværket er tilføjet {$network}/{$networkMask} via router {$networkRouter}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_SINGLE_ADDRESS</base>
+        <trans>Netværket er tilføjet {$network}/{$networkMask} via router {$networkRouter}. De nedenfor nævnte IP adresser har adgang til serveren svarende til adgangen fra lokalnet {$network}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NETWORK_RANGE</base>
+        <trans>Netværket er tilføjet {$network}/{$networkMask} via router {$networkRouter}. Serveren vil tildele lokal adgangsret til {$totalHosts} IP-adresser i området {$firstAddr} til {$lastAddr}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NONSTANDARD_RANGE</base>
+        <trans><![CDATA[ <p> Netværket er tilføjet {$network}/{$networkMask} via router {$networkRouter}. </p> <p> Serveren vil tildele lokal adgangsret til {$totalHosts} IP-adresser i området {$firstAddr} til {$lastAddr}. </p> <p> Advarsel: ProFTPd FTP-server kan ikke håndtere denne ikke-standard subnetmaske. <b>{$simpleMask}</b> vil blive brugt i stedet for. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_REMOVED_NETWORK</base>
+        <trans>Netværket {$network}/{$networkMask} via router {$networkRouter} blev fjernet.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_DELETING_NETWORK</base>
+        <trans>Fejl under sletning af netværk.</trans>
+    </entry>
+    <entry>
+        <base>NO_ADDITIONAL_NETWORKS</base>
+        <trans>Ingen yderligere netværker</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_DESC</base>
+        <trans>Der er registreret lokale værter på det netværk, du er ved at fjerne. I udgangspunkt fjernes også disse. Fjern fluebenet, hvis du ikke ønsker dette, men bemærk, at de ikke vil blive behandlet som lokale og måske er de ikke engang er tilgængelige, hvis netværket fjernes.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_LABEL</base>
+        <trans>Fjern værter på netværket</trans>
+    </entry>
+</lexicon>

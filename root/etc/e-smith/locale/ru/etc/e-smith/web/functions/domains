@@ -1,0 +1,141 @@
+<lexicon lang="ru" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Управление доменами</trans>
+    </entry>
+    <entry>
+        <base>FORM_DESCRIPTION</base>
+        <trans><![CDATA[ <p>При создании домена, ваш сервер будет иметь возможность получать электронную почту для этого домена, а также будет возможность разместить у себя веб-сайт для этого домена.</p> <p><a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CREATE">Добавить домен</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>В системе нет доменов.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST_OF_DOMAINS</base>
+        <trans>Список доменов</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_SITE</base>
+        <trans>основной сайт</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>{$content} и-раздел</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Создать новый домен</trans>
+    </entry>
+    <entry>
+        <base>CONTENT_FIELD_DESCRIPTION</base>
+        <trans>Для веб-сайта вы можете выбрать свой основной веб-сайт или любой и-блок, в качестве содержимого.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME_VALIDATION_ERROR</base>
+        <trans>Ошибка: неожиданные или недостающие символы в имени домена {$domainName}. Имя домена может содержать одну или более букв, цифр, точек и знаков минус. Новый домен не создать.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_DESCRIPTION_VALIDATION_ERROR</base>
+        <trans>Ошибка: неожиданные или недостающие символы в описании домена {$domainDesc}. Новый домен не создать.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_IN_USE_ERROR</base>
+        <trans>Ошибка: домен {$domainName} уже используется. Новый домен не создать.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_DOMAIN_ERROR</base>
+        <trans>Ошибка: домен {$domainName} - доменное имя вашей системы. У вас не может быть домена с темм же именем. Новый домен не создать.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>Домен {$domainName} успешно создан. Ваш веб-сервер сейчас будет перезапущен. Ссылки на этой странице будут неактивны, пока перезапуск веб-сервера не завершится.</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_TITLE</base>
+        <trans>Изменить домен</trans>
+    </entry>
+    <entry>
+        <base>NONEXISTENT_DOMAIN_ERROR</base>
+        <trans>Ошибка: Домен {$domainName} не существует.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>Домен {$domainName} успешно изменён. Ваш веб-сервер сейчас будет перезапущен. Ссылки на этой странице будут неактивны, пока перезапуск веб-сервера не завершится.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Удалить домен</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESCRIPTION</base>
+        <trans><![CDATA[ <p> Вы собираетесь удалить домен {$domain} ({$domainDesc}). </p> <p> <b>Вы действительно хотите удалить этот домен?</b> </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_REMOVING_DOMAIN</base>
+        <trans>Ошибка: внутренний сбой при удалении домена {$domain}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>Домен {$domain} успешно удалён. Ваш веб-сервер сейчас будет перезапущен. Ссылки на этой странице будут неактивны, пока перезапуск веб-сервера не завершится.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS_CURRENT</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Параметры корпоративных DNS</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>BUTTON_CORPORATE_DNS</base>
+        <trans><![CDATA[ <p>Если этот сервер не имеет доступа к интернету или у Вас есть особые требования к DNS разрешению имён, введите IP адрес DNS сервера здесь. Вы не должны вводить адрес DNS-серверов вашего провайдера, так как сервер способен разрешать все DNS имена интернет без дополнительных настроек.</p> <p> <a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CORPORATE_DNS">Изменить настройки корпоративных DNS</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS</base>
+        <trans>Если этот сервер не имеет доступа к интернету или у Вас есть особые требования к DNS разрешению имён, введите IP адрес DNS сервера здесь. Эти поля должны быть пустыми, пока у вас нет конкретных причины для настройки других серверов DNS. Вы не должны вводить адрес DNS-серверов вашего провайдера, так как сервер способен разрешать все DNS имена интернет без дополнительных настроек.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_PRIMARY</base>
+        <trans>Основной корпоративный сервер DNS</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_SECONDARY</base>
+        <trans>Вторичный корпоративный сервер DNS</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_NAMESERVERS</base>
+        <trans>Вы можете выбрать, будет ли этот домен разрешаться локально, передаваться корпоративным DNS серверам, или разрешаться интернет DNS серверами. Умолчание будет правильным для большинства сетей.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_NAMESERVERS</base>
+        <trans>DNS серверы домена</trans>
+    </entry>
+
+    <entry>
+        <base>localhost</base>
+        <trans>Разрешать имена локально</trans>
+    </entry>
+
+    <entry>
+        <base>internet</base>
+        <trans>Интернет серверы DNS</trans>
+    </entry>
+
+    <entry>
+        <base>corporate</base>
+        <trans>Корпоративные серверы DNS</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Вы собираетесь удалить принтер:</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans>Вы действительно хотите удалить принтер?</trans>
+    </entry>
+
+</lexicon>

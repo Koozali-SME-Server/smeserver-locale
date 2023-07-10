@@ -1,0 +1,42 @@
+<lexicon lang="tr">
+    <entry>
+        <base>Proxy settings</base>
+        <trans>Proksi (vekil sunucu) ayarları</trans>
+    </entry>
+    <entry>
+        <base>FIRST_PAGE_DESCRIPTION</base>
+        <trans>Buradan vekil sunucu ayarlarını yapabilirsiniz. Bu sunucu, saydam vekil sunucu ve HTTP trafiği için önbellekleme işilevelerine sahiptir. Varsayılan olarak bu özellik aktiftir, &quot;serveronly&quot; modunda çalışan sunucular için mecburi değil</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>Bu HTTP proksi sunucusu, ziyaret edilen web sayfalarını önbelleğinde tutarak sunucu yükünü azaltmaktadır. Bu servis onları kullanan web tarayıcıları için bir gizlilik sağlamaz. Bu proksi (vekil sunucu) devre dışı bırakabilir veya etkinleştirebilirsiniz.</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_LABEL</base>
+        <trans>HTTP proksi (vekil sunucu) durumu</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>Sunucunun şeffaf SMTP proxy özelliği, enfekte istemci bilgisayarlardan gelen ve giden tüm SMTP trafiği bu sunucudan yapmaya zorlayarak virüs trafiği azaltmak için çalışıyor. Eğer bu sunucudan başka bir SMTP sunucusu kullanacaksanız ve bu sunucu sizin ağ geçidiniz ise bu özelliği kapatın.</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_LABEL</base>
+        <trans>SMTP vekil sunucu durumu</trans>
+    </entry>
+    <entry>
+        <base>ERR_PROXY_UPDATE_FAILED</base>
+        <trans>HATA: Vekil sunucu tazeleme işleminde hata oluştu.</trans>
+    </entry>
+    <entry>
+        <base>ERR_NO_SQUID_REC</base>
+        <trans>HATA: Yapılandırma veritabanında squid kaydı bulunamadı.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Yeni vekil sunucu ayarları başarıyla uygulandı.</trans>
+    </entry>
+    <entry>
+        <base>BLOCKED</base>
+        <trans>Engellenmiş</trans>
+    </entry>
+</lexicon>

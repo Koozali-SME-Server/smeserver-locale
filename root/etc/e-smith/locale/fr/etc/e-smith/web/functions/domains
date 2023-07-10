@@ -1,0 +1,141 @@
+<lexicon lang="fr" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Gestion des domaines</trans>
+    </entry>
+    <entry>
+        <base>FORM_DESCRIPTION</base>
+        <trans><![CDATA[ <p>Si vous créez un domaine, le serveur pourra recevoir des courriels et héberger un site Web pour ce domaine.</p> <p><a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CREATE">Ajouter un domaine</a></p> ]]></trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>Aucun domaine n'a été créé dans le système.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST_OF_DOMAINS</base>
+        <trans>Liste actuelle des domaines</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_SITE</base>
+        <trans>site primaire</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>i-bay {$content}</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Créer un domaine</trans>
+    </entry>
+    <entry>
+        <base>CONTENT_FIELD_DESCRIPTION</base>
+        <trans>Pour le contenu du site Web, vous pouvez sélectionner votre site primaire ou toute baie d'information :</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME_VALIDATION_ERROR</base>
+        <trans>ERREUR : caractères inattendus ou manquants dans le nom du domaine "{$domainName}". Le nom du domaine doit contenir au moins une lettre, des chiffres, des points et des traits d'union. Le domaine n'a pas été créé.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_DESCRIPTION_VALIDATION_ERROR</base>
+        <trans>ERREUR : caractères inattendus ou manquants dans la description du domaine "{$domainDesc}". Le domaine n'a pas été créé.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_IN_USE_ERROR</base>
+        <trans>ERREUR : le domaine "{$domainName}" existe déjà. Le domaine n'a pas été créé.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_DOMAIN_ERROR</base>
+        <trans>ERREUR : "{$domainName}" est le nom du domaine primaire de votre système. Il est impossible d'avoir un domaine avec le même nom. Le domaine n'a pas été créé.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>Le domaine "{$domainName}" a été créé avec succès. Votre service Web redémarre. Les liens de cette page seront inactifs jusqu'à la fin du redémarrage du service Web.</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_TITLE</base>
+        <trans>Modifier le domaine</trans>
+    </entry>
+    <entry>
+        <base>NONEXISTENT_DOMAIN_ERROR</base>
+        <trans>ERREUR : le domaine "{$domainName}" est inexistant.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>Le domaine "{$domainName}" a été modifié avec succès. Votre service Web redémarre. Les liens de cette page seront inactifs jusqu'à la fin du redémarrage du service Web.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Supprimer le domaine</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESCRIPTION</base>
+        <trans><![CDATA[ <p>Vous êtes sur le point de supprimer le domaine "{$domain}" ({$domainDesc}).</p> <p><b>Voulez-vous vraiment supprimer ce domaine ?</b></p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_REMOVING_DOMAIN</base>
+        <trans>ERREUR : une erreur s'est produite lors de la suppression du domaine "{$domain}".</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>Le domaine "{$domain}" a été supprimé avec succès. Votre service Web redémarre. Les liens de cette page seront inactifs jusqu'à la fin du redémarrage du service Web.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS_CURRENT</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Paramètres DNS de votre organisation</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>BUTTON_CORPORATE_DNS</base>
+        <trans><![CDATA[ <a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CORPORATE_DNS">Modifier les paramètres DNS de votre organisation</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS</base>
+        <trans>Si ce serveur n'a pas d'accès à Internet ou que vous avez une contrainte spécifique pour la résolution DNS, tapez ici les adresses IP de vos serveurs DNS. Laissez ces champs vides à moins que vous n'ayez une raison incontournable d'utiliser d'autres serveurs DNS. Ne tapez pas ici l'adresse du serveur DNS de votre FAI (ISP) : ce serveur est capable de résoudre les noms de domaine Internet sans configuration supplémentaire.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_PRIMARY</base>
+        <trans>Serveur DNS primaire de votre organisation</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_SECONDARY</base>
+        <trans>Serveur DNS secondaire de votre organisation</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_NAMESERVERS</base>
+        <trans>Vous pouvez choisir si ce domaine doit être résolu localement, géré par les serveurs DNS de votre organisation, ou résolu par les serveurs DNS de l'Internet. La valeur par défaut conviendra à la plupart des réseaux.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_NAMESERVERS</base>
+        <trans>Serveurs DNS du domaine</trans>
+    </entry>
+
+    <entry>
+        <base>localhost</base>
+        <trans>Résolu localement</trans>
+    </entry>
+
+    <entry>
+        <base>internet</base>
+        <trans>Serveurs DNS de l'Internet</trans>
+    </entry>
+
+    <entry>
+        <base>corporate</base>
+        <trans>Serveurs DNS de votre organisation</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Vous êtes sur le point de supprimer le domaine</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans>Voulez-vous vraiment supprimer ce domaine ?</trans>
+    </entry>
+
+</lexicon>

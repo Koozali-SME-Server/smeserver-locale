@@ -1,0 +1,242 @@
+<lexicon lang="de">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Anlegen, Ändern, Sperren oder Löschen von Benutzerkonten</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> <a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">Benutzerkonto anlegen</a> </p> <p> Sie können jedes Konto ändern, sperren, löschen oder das Kennwort zurücksetzen, indem Sie unter Aktion den entsprechenden Link anklicken. </p> <p> Wenn das Konto als gesperrt markiert ist, muss das Kennwort des Benutzers zurückgesetzt werden. Bitte beachten Sie, dass neu angelegte Konten automatisch gesperrt sind, bis das Kennwort geändert wird. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>P2_TITLE</base>
+        <trans>Anlegen oder ändern</trans>
+    </entry>
+    <entry>
+        <base>CREATE_MODIFY_DESC</base>
+        <trans><![CDATA[ <p> Der Name des Benutzerkontos darf nur Kleinbuchstaben, Zahlen, Bindestriche, Punkte und Unterstriche enthalten und muss mit einem Kleinbuchstaben beginnen. Zum Beispiel sind "betty", "hjohnson" und "mary-jane" gültige Kontennamen, aber "3friends", "John Smith" und "henry:miller" nicht. </p> <p> Beachten Sie, dass für jedes Benutzerkonto zwei Pseudonyme angelegt werden. Diese Pseudonyme stellen alternative E-Mailkonten für den Benutzer zur Verfügung, diese enthalten den Vor- und Nachnamen getrennt durch einen Punkt (.) und einen Unterstrich (_). Das Konto "betty" mit Vorname "Betty" und Nachname "Rubble" hat die Pseudonyme betty.rubble und betty_rubble. </p> <p> Die LDAP Verzeichnisinformationen (Abteilung, Firma, etc.) können unten geändert werden. Änderungen betreffen nur dieses Benutzerkonto. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MODIFY_ADMIN_TITLE</base>
+        <trans>Ändern des ADMIN Kontos</trans>
+    </entry>
+    <entry>
+        <base>USER_CREATED</base>
+        <trans>Benutzerkonto wurde erfolgreich angelegt.</trans>
+    </entry>
+    <entry>
+        <base>USER_MODIFIED</base>
+        <trans>Benutzerkonto wurde erfolgreich geändert.</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER</base>
+        <trans>FEHLER: Ein interner Fehler ist beim Ändern des Benutzerkontos "{$acctName}" aufgetreten.</trans> 
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER_GROUPS</base> 
+        <trans>FEHLER: Ein interner Fehler ist beim Ändern der Benutzerguppe "{$group}" für den Benutzer "{$acctName}" aufgetreten.</trans>
+    </entry>
+    <entry>
+        <base>TAINTED_USER</base>
+        <trans>Das Konto "{$acctName}" enthält ungültige Zeichen.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME</base>
+        <trans>Kontoname</trans>
+    </entry>
+    <entry>
+        <base>FIRSTNAME</base>
+        <trans>Vorname</trans>
+    </entry>
+    <entry>
+        <base>LASTNAME</base>
+        <trans>Nachname</trans>
+    </entry>
+    <entry>
+        <base>DEPARTMENT</base>
+        <trans>Abteilung</trans>
+    </entry>
+    <entry>
+        <base>COMPANY</base>
+        <trans>Firma</trans>
+    </entry>
+    <entry>
+        <base>STREET_ADDRESS</base>
+        <trans>Straße</trans>
+    </entry>
+    <entry>
+        <base>CITY</base>
+        <trans>Ort</trans>
+    </entry>
+    <entry>
+        <base>PHONE_NUMBER</base>
+        <trans>Telefonnummer</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_DELIVERY</base>
+        <trans>E-Mail Zustellung</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_EMAIL_LOCALLY</base>
+        <trans>E-Mail lokal zustellen</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_EMAIL</base>
+        <trans>E-Mail an unten angegebene Adresse weiterleiten</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_AND_FORWARD</base>
+        <trans>Auslieferung sowohl lokal als auch weiterleiten</trans>
+    </entry>
+    <entry>
+        <base>FORWARDING_ADDRESS</base>
+        <trans>Weiterleitungsadresse</trans>
+    </entry>
+    <entry>
+        <base>GROUP_MEMBERSHIPS</base>
+        <trans>Gruppenmitgliedschaften</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC</base>
+        <trans>Sie ändern gerade das Kennwort für das Benutzerkonto</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC2</base>
+        <trans>Geben Sie das neue Kennwort im Feld unten ein</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_MODIFYING_PASSWORD</base>
+        <trans>Ein Fehler ist beim Erstellen des Kennworts aufgetreten</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE_SUCCEEDED</base>
+        <trans>Das Kennwort für das Benutzerkonto "{$acctName}" wurde erfolgreich geändert.</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC</base>
+        <trans>Sie sperren gerade das Benutzerkonto</trans>
+    </entry>
+    <entry>
+        <base>LOCKED_ACCOUNT</base>
+        <trans>Das Benutzerkonto "{$acctName}" wurde gesperrt.</trans>
+    </entry>
+    <entry>
+        <base>NO_SUCH_USER</base>
+        <trans>FEHLER: Das Benutzerkonto "{$acctName}" existiert nicht.</trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM_CLASH</base>
+        <trans>FEHLER: Das Pseudonym "{$pseudonym}" wird bereits vom bestehenden Benutzerkonto "{$clashName}" verwendet. Fügen Sie beispielsweise Initialen ein, um die Namen zu differenzieren.</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT</base>
+        <trans>Konto sperren</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT_TITLE</base>
+        <trans>Benutzerkonto sperren</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC2</base>
+        <trans><![CDATA[ <p>Dieses Benutzerkonto wird gesperrt. Das bedeutet, dass dieser Benutzer sich nicht mehr einloggen oder E-Mails empfangen kann. Alle ankommenden E-Mails werden weiterhin gespeichert und/oder an eine externe E-Mail Adresse weitergeleitet, wenn dies eingestellt wurde. Das Konto kann durch Eingabe eines neuen Kennworts wieder aktiviert werden. Das zuvor eingegebene Kennwort wird nicht erhalten. </p> <p> <b>Wollen Sie dieses Konto wirklich sperren?</b>  ]]></trans>
+    </entry>
+    <entry>
+        <base>REMOVE_ACCOUNT_TITLE</base>
+        <trans>Benutzerkonto löschen</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Sie löschen gerade das Benutzerkonto</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans><![CDATA[ Alle Dateien des Benutzerkontos werden gelöscht. Alle E-Mails für dieses Benutzerkonto, die noch auf dem Server liegen (z.B. noch nicht abgeholte E-Mails), werden ebenfalls entfernt. </p> <p>  <b>Wollen Sie dieses Konto wirklich löschen?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>LOCK</base>
+        <trans>Sperren</trans>
+    </entry>
+    <entry>
+        <base>NO_USER_ACCOUNTS</base>
+        <trans>Es existieren keine Benutzerkonten auf diesem System.</trans>
+    </entry>
+    <entry>
+        <base>Users</base>
+        <trans>Benutzer</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>Der Kontoname "{$acctName}" enthält ungültige Zeichen. Kontonamen dürfen nur Kleinbuchstaben, Zahlen, Bindestriche, Punkte und Unterstriche enthalten und müssen darüber hinaus mit einem Kleinbuchstaben beginnen.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_TOO_LONG</base>
+        <trans>FEHLER: Der Kontoname ist zu lang. Die maximale Anzahl beträgt {$maxLength} Zeichen.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>FEHLER: Das Konto "{$account}" kann nicht erstellt werden, da bereits ein {$type} Konto mit diesem Namen besteht.</trans>
+    </entry>    
+    <entry>
+        <base>ERR_OCCURRED_CREATING</base>
+        <trans>Es ist ein Fehler beim Anlegen des Benutzers aufgetreten.</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_CONTAIN_WHITESPACE</base>
+        <trans>Dieses Feld darf nicht leer sein</trans>
+    </entry>
+    <entry>
+        <base>UNACCEPTABLE_CHARS</base>
+        <trans>Dieses Feld darf nur Buchstaben, Zahlen, Punkte, Unterstriche und Bindestriche enthalten</trans>
+    </entry>
+    <entry>
+        <base>MEMBER</base>
+        <trans>Mitglied?</trans>
+    </entry>
+    <entry>
+        <base>VPN_CLIENT_ACCESS</base>
+        <trans>VPN Client Zugriff</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_FORM_TITLE</base>
+        <trans>Systemkennwort ändern</trans>
+    </entry>    
+    <entry> 
+        <base>SYSTEM_PASSWORD_DESCRIPTION</base>
+        <trans><![CDATA[ Einige Dienste auf diesem Server benötigen einen Benutzernamen und ein Kennwort (zum Beispiel diese Webseite für den Server-Manager). Der Benutzername ist immer admin. Sie können das Systemkennwort in den Feldern unten geändert werden. ]]></trans>        
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS</base>
+        <trans>Das Kennwort darf nur druckbare Zeichen enthalten</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_VERIFY_ERROR</base>
+        <trans>Die beiden Kennwörter sind nicht identisch.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_AUTH_ERROR</base>
+        <trans>Das aktuelle Kennwort ist nicht korrekt.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_CHANGED</base>
+        <trans>Das Systemkennwort wurde geändert.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_SYSTEM_PASSWORD</base>
+        <trans>Aktuelles Systemkennwort</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD</base>
+        <trans>Neues Systemkennwort</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD_VERIFY</base>
+        <trans>Neues Systemkennwort (bestätigen)</trans>
+    </entry>            
+    <entry>
+        <base>LABEL_IPSECRW_DOWNLOAD</base>
+        <trans>Herunterladen des digitalen Zertifikats für den IPSec client</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_DELETING</base>
+        <trans>Es ist ein Fehler aufgetreten beim Versuch den Benutzer zu löschen.</trans>
+    </entry>
+</lexicon>

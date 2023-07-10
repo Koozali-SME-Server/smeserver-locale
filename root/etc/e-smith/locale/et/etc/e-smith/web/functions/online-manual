@@ -1,0 +1,15 @@
+<lexicon lang="et">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>Kasutusjuhend ja muud dokumendid võrgus</trans>
+      </entry>	
+      <entry> 
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ <ul> <li><a target="new" href="https://wiki.koozali.org/documentation/manual/"> KAsutusjuhend võrgus</a> <li><a target="new" href="https://wiki.koozali.org/documentation/FAQ/"> FAQs</a> </ul> <H2>Kasutajatugi ja litsents</H2> See tarkvara kasutus põhineb õigustel mis on kättesaadvad<a href="/server-manager/cgi-bin/support"> Kasutajatugi ja litsentsi lehel</a> page. ]]></trans>
+      </entry>		
+      <entry>
+	<base>Online manual</base>
+	<trans>Kasutsusjuhend võrgus</trans>
+      </entry>
+
+</lexicon>

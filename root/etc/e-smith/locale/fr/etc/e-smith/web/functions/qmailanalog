@@ -1,0 +1,87 @@
+<lexicon lang="fr">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Analyse des journaux de messagerie</trans>
+    </entry>
+    <entry>
+	<base>INITIAL_DESC</base>
+	<trans><![CDATA[ <p>L'analyse des fichiers du journal de messagerie peut vous aider à comprendre le fonctionnement de votre système et à diagnostiquer des problèmes liés à la messagerie. Plusieurs rapports différents sont disponibles.</p> <p>Veuillez noter que la génération de ces rapports peut prendre plusieurs minutes.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>REPORT_TYPE</base>
+	<trans>Type de rapport</trans>
+    </entry>
+    <entry>
+	<base>GENERATE_REPORT</base>
+	<trans>Générer le rapport</trans>
+    </entry>
+    <entry>
+	<base>LIST_OUTGOING</base>
+	<trans>Dresser la liste des courriels sortants et des destinataires</trans>
+    </entry>
+    <entry>
+	<base>SUMMARIZE_QUEUE</base>
+	<trans>Résumer l'état de la file d'attente des courriels</trans>
+    </entry>
+    <entry>
+	<base>SUCCESSFUL_DELIVERY_DELAY</base>
+	<trans>Envois réussis de courriels avec délais de diffusion</trans>
+    </entry>
+    <entry>
+	<base>REASONS_DEFERRAL</base>
+	<trans>Raisons du report</trans>
+    </entry>
+    <entry>
+	<base>REASONS_FAILURE</base>
+	<trans>Raisons de l'échec</trans>
+    </entry>
+    <entry>
+	<base>BASIC_STATS</base>
+	<trans>Statistiques de base</trans>
+    </entry>
+    <entry>
+	<base>RECIP_STATS</base>
+	<trans>Statistiques relatives aux destinataires</trans>
+    </entry>
+    <entry>
+	<base>RECIP_HOSTS</base>
+	<trans>Hôtes de destination</trans>
+    </entry>
+    <entry>
+	<base>RECIP_ORDERED</base>
+	<trans>Destinataires triés pour les listes d'envoi</trans>
+    </entry>
+    <entry>
+	<base>SENDER_STATS</base>
+	<trans>Statistiques relatives à l'expéditeur</trans>
+    </entry>
+    <entry>
+	<base>SENDMAIL_STYLE</base>
+	<trans>Journal au format "sendmail"</trans>
+    </entry>
+    <entry>
+	<base>REASONS_SUCCESS</base>
+	<trans>Raisons du succès</trans>
+    </entry>
+    <entry>
+	<base>SENDER_UIDS</base>
+	<trans>UIDs des expéditeurs</trans>
+    </entry>
+    <entry>
+	<base>INVALID_REPORT_TYPE</base>
+	<trans>Type de rapport non valide :</trans>
+    </entry>
+    <entry>
+	<base>REPORT_GENERATED</base>
+	<trans>Rapport généré le</trans>
+    </entry>
+    <entry>
+	<base>END_OF_REPORT</base>
+	<trans>Fin du rapport.</trans>
+    </entry>
+    <entry>
+	<base>Mail log file analysis</base>
+	<trans>Journaux de messagerie</trans>
+    </entry>
+
+</lexicon>

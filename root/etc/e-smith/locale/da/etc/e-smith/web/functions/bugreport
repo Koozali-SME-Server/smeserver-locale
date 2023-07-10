@@ -1,0 +1,101 @@
+<lexicon lang="da">
+
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Rapporter en bug</trans>
+    </entry>
+    <entry>
+        <base>DO_NOT_PANIC</base>
+        <trans>Gå ikke i panik!</trans>
+    </entry>
+    <entry>
+        <base>SME_EXPERIENCE</base>
+        <trans>Desværre findes der ikke software uden fejl, og du er sikkert havnet på denne side på grund af et problem med din SME-server</trans>
+    </entry>
+    <entry>
+        <base>PLEASE_REPORT_HERE</base>
+        <trans>For at hjælpe udviklerne med at diagnosticere og rette det problem du er stødt på, beder vi dig om at downloade et af følgende templates, udfylde det og indsætte det i din bug-rapport her</trans>
+    </entry>
+    <entry>
+        <base>USE_TEMPLATE</base>
+        <trans>I nedenstående link kan du se hvordan du rapporterer en bug og hvordan du bruger template</trans>
+    </entry>
+    <entry>
+        <base>FOLLOWING_REPORT_MIGHT_HELP</base>
+        <trans>Det vil også hjælpe, hvis du giver nogle grundlæggende informationer om konfigurationen af din SME-server i bug-rapporten. Ved at klikke på knappen "Dan konfigurationsrapport" nedenfor, kan du danne og hente en tekst fil som indeholder den information. Vedhæft venligst også den fil til din bug-rapport.</trans>
+    </entry>
+    <entry>
+        <base>REPORT_CONTENT</base>
+        <trans>Rapporten vil indeholde følgende information</trans>
+    </entry>
+    <entry>
+        <base>SME_VERSION</base>
+        <trans>Koozali SME Server version</trans>
+    </entry>
+    <entry>
+        <base>SERVER_MODE</base>
+        <trans>Server mode</trans>
+    </entry>
+    <entry>
+        <base>PREVIOUS_SERVER_MODE</base>
+        <trans>Tidligere server mode</trans>
+    </entry>
+    <entry>
+        <base>KERNEL_AND_ARCH</base>
+        <trans>Nuværende kørende kernel version og arkitektur</trans>
+    </entry>
+    <entry>
+        <base>INSTALLED_RPMS</base>
+        <trans>En liste over yderligere installerede RPMs på din server</trans>
+    </entry>
+    <entry>
+        <base>ALTERED_TEMPLATES</base>
+        <trans>En liste over SME templates som er ændret på din server i forhold til en basis installation</trans>
+    </entry>
+    <entry>
+        <base>ALTERED_EVENTS</base>
+        <trans>En liste over SME begivenheder som er ændret på din server i forhold til en basis installation</trans>
+    </entry>
+    <entry>
+        <base>YUM_REPOS</base>
+        <trans>En liste over ekstra software repositories som er konfigureret på din server</trans>
+    </entry>
+    <entry>
+        <base>PRIVACY</base>
+        <trans>Ingen fortrolig information (som f.eks. brugernavne, kodeord, IP-adresser) er inkluderet i rapporten.</trans>
+    </entry>
+    <entry>
+            <base>CREATE_REPORT</base>
+            <trans>Dan konfigurations rapporten</trans>
+    </entry>
+
+    <entry>
+            <base>DONATING</base>
+            <trans>Har du overvejet at donere?</trans>
+    </entry>
+    <entry>
+            <base>AWARE_SME</base>
+            <trans>Du er sikkert opmærksom på, at SME server er udviklet og vedligeholdes af et fællesskab af frivillige fra hele verden. Og selv om SME server i sig selv er gratis og kan hentes og bruges uden udgifter, så koster det penge at drifte og vedligeholde den bagvedliggende infrastruktur (som f.eks. hostning af fora, wiki, repositories og at bygge servere og lignende).</trans>
+    </entry>
+    <entry>
+            <base>YOUR_HELP</base>
+            <trans>På samme måde som du har brug for at få os til se se på dit problem, så har vi brug for DIN hjælp for at holde dette projekt i live!</trans>
+    </entry>
+    <entry>
+            <base>CONSIDER_DONATING</base>
+            <trans>Vælgj venligst at donere til projektet ved at klikke på billedet nedenfor:</trans>
+    </entry>
+    <entry>
+            <base>THANK_YOU</base>
+            <trans>Tak for din støtte!</trans>
+    </entry>
+    <entry>
+            <base>Download this report</base>
+            <trans>Hent denne rapport!</trans>
+    </entry>
+    <entry>
+            <base>Report a bug</base>
+            <trans>Rapporter en bug</trans>
+    </entry>
+
+</lexicon>

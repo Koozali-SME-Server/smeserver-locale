@@ -1,0 +1,386 @@
+<lexicon lang="sv" params="getExtraParams()">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>E-postinställningar</trans>
+    </entry>
+    <entry>
+        <base>E-mail</base>
+        <trans>E-post</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>De nya e-postinställningarna har sparats.</trans>
+    </entry>
+    <entry>
+        <base>NEVER</base>
+        <trans>aldrig</trans>
+    </entry>
+    <entry>
+        <base>EVERY5MIN</base>
+        <trans>Var 5:e minut</trans>
+    </entry>
+    <entry>
+        <base>EVERY15MIN</base>
+        <trans>Var 15:e minut</trans>
+    </entry>
+    <entry>
+        <base>EVERY30MIN</base>
+        <trans>Var 30:e minut</trans>
+    </entry>
+    <entry>
+        <base>EVERYHOUR</base>
+        <trans>Varje timme</trans>
+    </entry>
+    <entry>
+        <base>EVERY2HRS</base>
+        <trans>Varannan timme</trans>
+    </entry>
+    <entry>
+        <base>STANDARD</base>
+        <trans>Standard (SMTP)</trans>
+    </entry>
+    <entry>
+        <base>ETRN</base>
+        <trans>ETRN (SMTP med klientbegäran)</trans>
+    </entry>
+    <entry>
+        <base>DEFAULT</base>
+        <trans>Förvalt</trans>
+    </entry>
+    <entry>
+        <base>SPECIFY_BELOW</base>
+        <trans>Ange nedan</trans>
+    </entry>
+    <entry>
+        <base>MULTIDROP</base>
+        <trans>multi-drop</trans>
+    </entry>
+    <entry>
+        <base>LABEL_MODE</base>
+        <trans>Hämtningsmetod e-post</trans>
+    </entry>
+    <entry>
+        <base>DESC_MODE</base>
+        <trans>Hämtningemetoden för e-post kan anges till standard (för fast Internetuppkoppling), ETRN (rekommenderas för uppringd förbindelse), eller multi-drop (för uppringd förbindelse om ETRN inte stöds av din Internetleverantör). Notera att multi-drop mod endast är ett alternativ som är valbart när servern är konfigurerad som privata server och gateway-mod.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_DELEGATE</base>
+        <trans>Adress till intern mailserver</trans>
+    </entry>
+    <entry>
+        <base>DESC_DELEGATE</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Delegering av mailserver</h2> Din server innehåller en komplett, fullfjädrad mailserver. Om du av någon orsak vill delegera e-posthanteringen till ett annan server , specificera IP-adressen på detta system här. För normalt användande, lämna detta fält tomt. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SECONDARY</base>
+        <trans>Sekundär mailserver</trans>
+    </entry>
+    <entry>
+        <base>DESC_SECONDARY</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>ETRN eller multi-drop-inställningar</h2> För ETRN eller multi-drop, specificera värdnamnet eller IP-adress för din sekundära mailserver. (Om du använder standardinställningarna för e-post, kan detta fält lämnas tomt.) ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_FETCH_PERIOD</base>
+        <trans>För ETRN eller multi-drop, kan du kontrollera hur ofta denna server skall kontakta din sekundära mailserver för att hämta e-post. Ju oftare servern kopplar upp sig desto snabbare mottager du de e-postmeddelanden som skickas till dig, men detta betyder också att du troligtvis får högre telefon- eller Internetkostnader.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD</base>
+        <trans>Under kontorstid (08:00 till 18:00) under veckodagar</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD_NIGHTS</base>
+        <trans>Utanför kontorstid (18:00 till 08:00) under veckodagar</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD_WEEKENDS</base>
+        <trans>Under helger</trans>
+    </entry>
+    <entry>
+        <base>DESC_POP_ACCOUNT</base>
+        <trans>För multi-drop av e-post, ange POP användarkonto och lösenord. (Vid användning av standard eller ETRN e-post, Kan dessa fält lämnas tomma.) Vid multi-drop, kan du antingen använda det förvalda sorteringssättet för e-post eller så kan du ange ett speciellt meddelandehuvud som används vid e-postsortering.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_POP_PASS</base>
+        <trans>POP användarlösenord (för multi-drop)</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_POP_ACCOUNT</base>
+        <trans>POP användarnamn (för multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SORT_METHOD</base>
+        <trans>Välj sorteringsmetod (för multi-drop)</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SORT_HEADER</base>
+        <trans>Välj sorteringshuvud (för multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PROTO</base>
+        <trans>Protokoll (för multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_SECURE</base>
+        <trans>Tunnla över SSL (för multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>AUTO</base>
+        <trans>Automatisk</trans>
+    </entry>
+    <entry>
+        <base>ENABLED_BOTH</base>
+        <trans>Tillåt både HTTP och HTTPS</trans>
+    </entry>
+    <entry>
+        <base>ENABLED_SECURE_ONLY</base>
+        <trans>Tillåt HTTPS (säker)</trans>
+    </entry>
+     <entry>
+        <base>ONLY_LOCAL_NETWORK_SSL</base>
+        <trans>Tillåt åtkomst endast från lokalt nätverk</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_POP3</base>
+        <trans>Tillåt både POP3 och POP3S</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_PRIVATE</base>
+        <trans>Tillåt privata</trans>
+    </entry>
+    <entry>
+        <base>SECURE_POP3</base>
+        <trans>Tillåt privat och publik (säker POP3S)</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_IMAP</base>
+        <trans>Tillåt både IMAP och IMAPS</trans>
+    </entry>
+    <entry>
+        <base>SECURE_IMAP</base>
+        <trans>Tillåt privat och publik (säker IMAPS)</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_SMTP</base>
+        <trans>Tillåt både SMTP och SSMTP</trans>
+    </entry>
+    <entry>
+        <base>SECURE_SMTP</base>
+        <trans>Tillåt SSMTP (säker)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_POP_ACCESS_CONTROL</base>
+        <trans>POP3 serveråtkomst</trans>
+    </entry>
+    <entry>
+        <base>LABEL_IMAP_ACCESS_CONTROL</base>
+        <trans>IMAP serveråtkomst</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SMTP_AUTH_CONTROL</base>
+        <trans>SMTP autenticiering</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_TO_ADMIN</base>
+        <trans>Skicka till administratör</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_TO</base>
+        <trans>Skicka till</trans>
+    </entry>
+    <entry>
+        <base>RETURN_TO_SENDER</base>
+        <trans>Förkasta</trans>
+    </entry>
+    <entry>
+        <base>LABEL_UNKNOWN</base>
+        <trans>E-post till okända användare</trans>
+    </entry>
+    <entry>
+        <base>DESC_UNKNOWN</base>
+        <trans><![CDATA[ <h2>Okända användare</h2> Genom att välja Förhindra (rekommenderad inställning) kommer du att konfigurera servern att endast acceptera e-post för giltiga e-postadresser (exempelvis användare, grupper, pseudonymer). E-post för andra adresser kommer att förhindras. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SMARTHOST</base>
+        <trans>Adress till Internetleverantörens mailserver</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_SMARTHOST</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>SMTP server</h2> Servern kan leverera utgående meddelanden direkt till deras destination (rekommenderas i de flesta fall) eller så kan de skickas via din Internetleverantörs SMTP-server (rekommenderas om du har en instabil Internetförbindelse eller använder en bostadsrättsförenings Internettjänst). Om du använder dig av din Internetleverantörs SMTP-server, ange dess värdnamn eller IP-adress nedan, annars lämna detta fält tomt. ]]></trans>
+    </entry>
+
+    <entry>
+        <base>INVALID_SMARTHOST</base>
+        <trans>Smarthostnamnet du angav är inte ett giltigt domännamn eller så är det inte tomt</trans>
+    </entry>
+    <entry>
+        <base>DESC_POP_ACCESS_CONTROL</base>
+        <trans>Du kan kontrollera POP3-serverns åtkomst. Inställningen 'Tillåt endast åtkomst från lokalt nätverk' möjliggör POP3-åtkomst endast från ditt lokala nätverk. POP3S-inställningen kan användas för att ge en krypterad extern åtkomst till din POP3-server. Vi rekommenderar att du anger 'Tillåt endast åtkomst från lokalt nätverk' såvida du inte har ett särskilt skäl att göra annorlunda.</trans>
+    </entry>
+    <entry>
+        <base>DESC_IMAP_ACCESS_CONTROL</base>
+        <trans>Du kan kontrollera IMAP-serverns åtkomst. Inställningen 'Tillåt endast från lokalt nätverk' ´tillåter IMAP-åtkomst endast från ditt lokala nätverk. IMAPS-inställningen kan användas för att ge en krypterad extern åtkomst till din IMAP-server. Vi rekommenderar att du anger 'Tillåt endast åtkomst från lokalt nätverk' om du inte har ett särskilt skäl att göra annorlunda.</trans>
+    </entry>
+    <entry>
+        <base>DESC_SMTP_AUTH_CONTROL</base>
+        <trans><![CDATA[ Du kan ange att autentisering krävs till din SMTP server, eller inte. SSMTP inställningarna kräver att <b>alla</b> användare använder SSL/TLS autentisering. SMTP och SSMTP inställningarna tillåter även att STARTTLS används för ge säker autentisering. ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_WEBMAIL</base>
+        <trans>Du kan tillåta eller ej tillåta webbmail på detta system. Webbmail tillåter åtkomst för användare till deras e-post genom en vanlig webbläsare genom adressen https://{$FQDN}/webmail och därefter inloggning på deras konto.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_WEBMAIL</base>
+        <trans>Åtkomst webbmail</trans>
+    </entry>
+     <entry>
+        <base>LABEL_BLOCK_EXECUTABLE_CONTENT</base>
+        <trans>Exekvera innehållsblockering</trans>
+     </entry>
+     <entry>
+        <base>LABEL_CONTENT_TO_BLOCK</base>
+        <trans>Innehåll att blockera</trans>
+     </entry>
+     <entry>
+        <base>DESC_BLOCK_EXECUTABLE_CONTENT</base>
+        <trans>Du kan blockera exekverbart innehåll i bihang till e-post genom att markera de exekverbara bihang som du önskar blockera. E-post som innehåller dessa bihang kommer automatiskt att returneras till avsändaren.</trans>
+    </entry>
+    <entry>
+        <base>UNACCEPTABLE_CHARS</base>
+        <trans>Detta fält kräver en giltig e-postadress, som måste innehålla @-symbolen och ett domännamn.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_ACCESS</base>
+        <trans><![CDATA[ <h2>E-poståtkomst</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_ACCESS_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_ACCESS">Ändra inställningar för e-poståtkomst</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_RECEPTION</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>E-postmottagning</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_RECEPTION_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_RECEPTION">Ändra inställningarna för e-postmottagning</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_DELIVERY</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>E-postleverans</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_DELIVERY_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_DELIVERY">Ändra inställningarna för e-postleverans</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_FILTERING_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_FILTERING">Ändra inställning för e-postfiltrering</a> ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_VIRUS_SCAN</base>
+	<trans>Virussökning</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_VIRUS_SCAN</base>
+	<trans>Du kan söka igenom inkommande och utgående e-post efter virus. Om genomsökning är tillåten och ett virus upptäckts kommer e-postmeddelandet att förkastas och returneras till avsändaren.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_SPAM_SCAN</base>
+	<trans>Spam-filtrering</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_SPAM_SCAN</base>
+	<trans>Du kan söka igenom e-post efter spam. Om spam-filtrering är tillåten, kommer ett X-Spam-Status: huvud att adderas till varje meddelade, som sedan kan användas för att filtrar bort spam. Du kan justera känsligheten för spam-detektion från den förvalda nivån, medel. För finkänslig inställning kan du ställa in spam-känsligheten till Egen och därefter välja en egen nivå för markering av spam i meddelandehuvudet samt nivå för förkastande av meddelande.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_SPAM_SUBJECT</base>
+	<trans>Prefix i ämnet för SPAM</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_SPAM_SUBJECT</base>
+	<trans>Du kan tillåta att en tag läggs till ämnet i varje meddelande som klassificeras SPAM. Värdet för denna tag anges nedan.</trans>
+    </entry>
+
+   <entry>
+        <base>LABEL_SPAM_SENSITIVITY</base>
+        <trans>Spam-känslighet</trans>
+    </entry>
+   <entry>
+        <base>LABEL_SPAM_TAGLEVEL</base>
+        <trans>Egen inställning av nivån för markering av spam</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SPAM_REJECTLEVEL</base>
+        <trans>Egen inställning av nivå för förkastning av meddelande</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SPAM_SUBJECTTAG</base>
+        <trans>Ändra ämnet på spam-meddelanden</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SORTSPAM</base>
+        <trans>Sortera spam i mappen för junkmail</trans>
+    </entry>
+    <entry>
+        <base>VERYHIGH</base>
+        <trans>Mycket hög</trans>
+    </entry>
+    <entry>
+        <base>HIGH</base>
+        <trans>Hög</trans>
+    </entry>
+    <entry>
+        <base>MEDIUM</base>
+        <trans>Medel</trans>
+    </entry>
+    <entry>
+        <base>LOW</base>
+        <trans>Låg</trans>
+    </entry>
+    <entry>
+        <base>VERYLOW</base>
+        <trans>Mycket låg</trans>
+    </entry>
+    <entry>
+        <base>CUSTOM</base>
+        <trans>Egen inställning</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_STATUS</base>
+        <trans>SMTP-autenticiering för Internetleverantör</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_USERID</base>
+        <trans>Mail-serverns användar-id</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_PASSWD</base>
+        <trans>Mail-serverns lösenord</trans>
+    </entry>
+
+    <entry>
+        <base>VALIDATION_SMTPAUTH_NONBLANK</base>
+        <trans>Detta fält får inte lämnas tomt om SMTP-autenticiering är tillåten.</trans>
+    </entry>
+
+</lexicon>

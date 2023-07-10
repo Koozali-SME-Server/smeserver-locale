@@ -1,0 +1,386 @@
+<lexicon lang="th" params="getExtraParams()">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>ตั้งค่าอีเมล์</trans>
+    </entry>
+    <entry>
+        <base>E-mail</base>
+        <trans>อีเมล์</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>การตั้งค่าอีเมลใหม่ได้รับการบันทึก</trans>
+    </entry>
+    <entry>
+        <base>NEVER</base>
+        <trans>ไม่ทั้งหมด</trans>
+    </entry>
+    <entry>
+        <base>EVERY5MIN</base>
+        <trans>ทุกๆ 5 นาที</trans>
+    </entry>
+    <entry>
+        <base>EVERY15MIN</base>
+        <trans>ทุกๆ 15 นาที</trans>
+    </entry>
+    <entry>
+        <base>EVERY30MIN</base>
+        <trans>ทุกๆ 30 นาที</trans>
+    </entry>
+    <entry>
+        <base>EVERYHOUR</base>
+        <trans>ทุกๆ ชั่วโมง</trans>
+    </entry>
+    <entry>
+        <base>EVERY2HRS</base>
+        <trans>ทุกๆ 2 ชั่วโมง</trans>
+    </entry>
+    <entry>
+        <base>STANDARD</base>
+        <trans>แบบมาตรฐาน (SMTP)</trans>
+    </entry>
+    <entry>
+        <base>ETRN</base>
+        <trans>ETRN (SMTP with client request)</trans>
+    </entry>
+    <entry>
+        <base>DEFAULT</base>
+        <trans>ค่าปริยาย</trans>
+    </entry>
+    <entry>
+        <base>SPECIFY_BELOW</base>
+        <trans>ระบุึด้านล่าง</trans>
+    </entry>
+    <entry>
+        <base>MULTIDROP</base>
+        <trans>multi-drop</trans>
+    </entry>
+    <entry>
+        <base>LABEL_MODE</base>
+        <trans>โหมดการรับอีเมล์</trans>
+    </entry>
+    <entry>
+        <base>DESC_MODE</base>
+        <trans>โหมดการรับอีเมล์สามารถตัวเป็น แบบมาตรฐาน (สำหับการเชื่อมต่ออินเตอร์เน็ตแบบถาวร) หรือ ETRN (แนะนำให้ใช้สำหรับการเชื่อมต่อแบบไดอัลอัพ) หรือ multi-drop (สำหรับการเชื่อมต่อแบบไดอัลอัพกรณีที่ผู้ให้บริการอินเตอร์เน็ตของคุณไม่รองรับ) หมายเหตุ จะมีเพียงโหมด multi-drop ให้เลือกเท่านั้นเมื่อเซิร์ฟเวอร์ของคุณถูกตั้งให้ทำงานในโหมด private server และโหมด gateway</trans>
+    </entry>
+    <entry>
+        <base>LABEL_DELEGATE</base>
+        <trans>ที่อยู่ของ internal mail server</trans>
+    </entry>
+    <entry>
+        <base>DESC_DELEGATE</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Delegate mail servers</h2>เซิร์ฟเวอร์ของคุณมีคุณสมบัติของเมล์เซอร์ฟเวอร์ที่ครบสมบูรณ์ อย่างไรก็ตาม คุณยังมีบางเหตุผลที่ทำให้คุณต้องเลือกส่งงานจัดการอีเมล์ไปยังเซิร์ฟเวอร์ตัวอื่น ให้ระบุหมายเลข IP ของเซิร์ฟเวอร์ที่จะทำงานนี้แทนที่นี่ โดยปกติการใช้งานทั้่วไปแล้วจะไม่ต้องกรอกข้อมูลช่องนี้ ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SECONDARY</base>
+        <trans>เมล์เซิร์ฟเวอร์สำรอง</trans>
+    </entry>
+    <entry>
+        <base>DESC_SECONDARY</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>ตั้งค่า ETRN หรือ multi-drop</h2> สำหรับ ETRN หรือ multi-drop ให้ระบุชื่อโฮสต์หรือหมายเลข IP ของเมล์เซิร์ฟเวอร์สำรองของคุณ (หากเลือใช้แบบมาตรฐานสามารถปล่อยฟิลด์นี้ว่างไว้ได้) ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_FETCH_PERIOD</base>
+        <trans>สำหรับ ETRN หรือ multi-drop คุณสามารถควบคุมอัตราความถี่ที่เซอร์ฟเวอร์นี้จะทำการติดต่อกับเซอร์ฟเวอร์อีเมล์ที่สองในการเรียกรับอีเมล์ ความถี่สูงขึ้น หมายถึงคุณจะได้รับอีเมล์ที่เข้ามาเร็วขึ้น แต่การส่งคำขอที่บ่อยขึ้นอาจทำให้ค่าโทรศัพท์และค่าอินเตอร์เน็ตสูงขึ้นในบางกรณี</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD</base>
+        <trans>ระหว่างเวลาราชการ (8:00 AM ถึง 6:00 PM) ในวันธรรมดา</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD_NIGHTS</base>
+        <trans>นอกเวลาราชการ (6:00 AM ถึง 8:00 PM) ในวันธรรมดา</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD_WEEKENDS</base>
+        <trans>ในช่วงวันหยุดสุดสัปดาห์</trans>
+    </entry>
+    <entry>
+        <base>DESC_POP_ACCOUNT</base>
+        <trans>สำหรับอีเมล์แบบ multi-drop ให้กรอกชื่อผู้ใช้และรหัสผ่านของ POP (ถ้าใช้อีเมล์แบบมาตรฐานหรือ ETRN ข้อมูลเหล่านี้สามารถปล่อยว่างไว้) สำหรับระบบ multi-drop คุณสามารถเลือกการเรียงสำดับอีเมล์แบบมาตรฐาน หรือเลือกกำหนดให้ใช้ข้อความหัวจดหมายในการจัดเรียงได้</trans>
+    </entry>
+    <entry>
+        <base>LABEL_POP_PASS</base>
+        <trans>รหัสผ่าน POP ของผู้ใช้ (สำหรับ multi-drop)</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_POP_ACCOUNT</base>
+        <trans>ชื่อบัญชื่อ POP ของผู้ใช้ (สำหรับ multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SORT_METHOD</base>
+        <trans>เลือกการเรียงลำดับจดหมาย (สำหรับ multi-drop)</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SORT_HEADER</base>
+        <trans>จัดเรียงด้วยเฮดเดอร์ (สำหรับ multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PROTO</base>
+        <trans>โปรโตคอล (สำหรับ multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_SECURE</base>
+        <trans>Tunnel over SSL (สำหรับ multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>AUTO</base>
+        <trans>อัตโนมัติ</trans>
+    </entry>
+    <entry>
+        <base>ENABLED_BOTH</base>
+        <trans>อนุญาตทั้ง HTTP และ HTTPS</trans>
+    </entry>
+    <entry>
+        <base>ENABLED_SECURE_ONLY</base>
+        <trans>อนุญาต HTTPS (secure)</trans>
+    </entry>
+     <entry>
+        <base>ONLY_LOCAL_NETWORK_SSL</base>
+        <trans>ให้เข้าถึงได้เฉพาะจากเครือข่ายท้องถิ่นเท่านั้น</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_POP3</base>
+        <trans>อนุญาตทั้ง POP3 และ POP3S</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_PRIVATE</base>
+        <trans>อนุญาตแบบ private</trans>
+    </entry>
+    <entry>
+        <base>SECURE_POP3</base>
+        <trans>อนุญาตแบบ private และแบบ public (secure POP3S)</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_IMAP</base>
+        <trans>อนุญาตทั้ง IMAP และ IMAPS</trans>
+    </entry>
+    <entry>
+        <base>SECURE_IMAP</base>
+        <trans>อนุญาตแบบ private และแบบ public (secure IMAPS)</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_SMTP</base>
+        <trans>อนุญาตทั้ง SMTP และ SSMTP</trans>
+    </entry>
+    <entry>
+        <base>SECURE_SMTP</base>
+        <trans>อนุญาต SSMTP (secure)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_POP_ACCESS_CONTROL</base>
+        <trans>การเข้าถึง POP3 เซอร์ฟเวอร์</trans>
+    </entry>
+    <entry>
+        <base>LABEL_IMAP_ACCESS_CONTROL</base>
+        <trans>การเข้าถึง IMAP เซอร์ฟเวอร์</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SMTP_AUTH_CONTROL</base>
+        <trans>การตรวจสอบสิทธิ์ SMTP</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_TO_ADMIN</base>
+        <trans>ส่งให้ผู้ดูแลระบบ</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_TO</base>
+        <trans>ส่งให้</trans>
+    </entry>
+    <entry>
+        <base>RETURN_TO_SENDER</base>
+        <trans>ไม่รับ</trans>
+    </entry>
+    <entry>
+        <base>LABEL_UNKNOWN</base>
+        <trans>อีเมล์ถึงผู้ใช้ที่ไม่รู้จัก</trans>
+    </entry>
+    <entry>
+        <base>DESC_UNKNOWN</base>
+        <trans><![CDATA[ <h2>ผู้ใช้ที่ไม่รู้จัก</h2>การเลือกปฏิเสธ (แนะนำให้ใช้) จะเป็นการตั้งให้เซิร์ฟเวอร์รับเฉพาะอีเมล์ที่ส่งถึงที่อยู่มีอยู่จริง (ตัวอย่างเช่น ผู้ใช้, กลุ่มผู้ใช้, นามแฝง) ส่วนนอกนั้นจะถูกปฏิเสธ ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SMARTHOST</base>
+        <trans>ที่อยู่เมล์เซิร์ฟเวอร์ของผู้ให้บริการอินเตอร์เน็ต</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_SMARTHOST</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>เซิร์ฟเวอร์ SMTP</h2>เซิร์ฟเวอร์สามารถส่งข้อความไปยังปลายทางต่างๆ ได้เอง (แนะนำให้ใช้ในกรณีทั่วไป) หรือให้ส่งผ่านเซิร์ฟเวอร์ SMPT ของผู้ให้บริการอินเตอร์เน็ต (ISP) ของคุณ (แนะนำให้ใช้หากคุณใช้การเชื่อมต่อที่ไม่ค่อยเสถียรหรือใช้บริการอินเตอร์เน็ตสำหรับบ้านพักอาศัย) หากคุณเลือกใช้การส่งผ่านเซิร์ฟเวอร์ SMPT ของผู้ให้บริการอินเตอร์เน็ต ให้คุณระบุชื่อโฮสต์หรือ IP ของเซอร์ฟเวอร์ของผู้บริการนั้นด้านล่าง หากไม่ใช่ให้ปล่อยว่างไว้ ]]></trans>
+    </entry>
+
+    <entry>
+        <base>INVALID_SMARTHOST</base>
+        <trans>ชื่อ smarthost ที่คุณกรอกไม่ใช่ชื่ออินเทอร์เน็ตโดเมน และจะปล่อยว่างไว้ไม่ได้</trans>
+    </entry>
+    <entry>
+        <base>DESC_POP_ACCESS_CONTROL</base>
+        <trans>คุณสามารถควบคุมการเข้าถึงบริการของเซิร์เวอร์ POP3 ได้ การตั้งค่า 'Allow access only from local networks' จะเป็นการอนุญาตให้ใช้บริการนี้ได้เฉพาะจากภายในเครือข่ายท้องถิ่นของคุณเท่านั้น การให้บริการนี้สามารถที่จะตั้งให้สามารถใช้บริการจากภายนอกโดยผ่านการเชื่อมต่อแบบเข้ารหัสข้อมูลได้ด้วย เราแนะนำให้คุณปล่อยการตั้งค่านี้ให้เป็นแบบ 'Allow access only from local networks' เอาไว้หากไม่มีความประสงค์อย่างอื่น</trans>
+    </entry>
+    <entry>
+        <base>DESC_IMAP_ACCESS_CONTROL</base>
+        <trans>คุณสามารถควบคุมการเข้าถึงบริการของเซิร์เวอร์ IMAP ได้ การตั้งค่า 'Allow access only from local networks' จะเป็นการอนุญาตให้ใช้บริการนี้ได้เฉพาะจากภายในเครือข่ายท้องถิ่นของคุณเท่านั้น การให้บริการนี้สามารถที่จะตั้งให้สามารถใช้บริการจากภายนอกโดยผ่านการเชื่อมต่อแบบเข้ารหัสข้อมูลได้ด้วย เราแนะนำให้คุณปล่อยการตั้งค่านี้ให้เป็นแบบ 'Allow access only from local networks' เอาไว้หากไม่มีความประสงค์อย่างอื่น</trans>
+    </entry>
+    <entry>
+        <base>DESC_SMTP_AUTH_CONTROL</base>
+        <trans><![CDATA[ You can provide authenticated access to your SMTP server, or set it to Disabled. The SSMTP setting requires <b>all</b> users to use SSL/TLS authentication. The SMTP and SSMTP option additionally allows STARTTLS to be used to ensure secure authentication. ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_WEBMAIL</base>
+        <trans>คุณสามารถเลือกเปิดหรือปิดการให้บริการเว็บเมล์ได้ บริการเว็บเมล์จะทำให้ผู้ใช้สามารถเข้าถึงอีเมล์ของเขาผ่านเว็บเบราว์เซอร์ โดยการระบุที่อยู่เว็บบนเบราว์เซอร์มาที่ https://{$FQDN}/webmail และล็อกอินเข้าสู่บัญชีของเขา</trans>
+    </entry>
+    <entry>
+        <base>LABEL_WEBMAIL</base>
+        <trans>การเข้าถึงเว็บเมล์</trans>
+    </entry>
+     <entry>
+        <base>LABEL_BLOCK_EXECUTABLE_CONTENT</base>
+        <trans>ไม่รวมเนื้อหาที่ถูกบล็อค</trans>
+     </entry>
+     <entry>
+        <base>LABEL_CONTENT_TO_BLOCK</base>
+        <trans>เนื้อหาที่จะบล๊อก</trans>
+     </entry>
+     <entry>
+        <base>DESC_BLOCK_EXECUTABLE_CONTENT</base>
+        <trans>คุณสามารถบล็อคโปรแกรมทำงาน (executable) ที่ถูกแนบมากับอีเมล์ได้โดยการเลือกทำไฮไลท์ชนิดโปรแกรมที่คุณต้องการบล็อคจากรายการ อีเมล์ที่มีไฟล์แนบตามรายการที่เลือกจะถูกตีกลับไปยังผู้ส่ง</trans>
+    </entry>
+    <entry>
+        <base>UNACCEPTABLE_CHARS</base>
+        <trans>ฟิลด์นี้ต้องเป็นข้อมูลชื่ออีเมล์ที่ถูกต้อง ซึ่งต้องประกอบด้วยเครื่องหมาย @ และชื่อโดเมน</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_ACCESS</base>
+        <trans><![CDATA[ <h2>การเข้าถึงอีเมล์</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_ACCESS_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_ACCESS">เปลี่ยนการตั้งค่าการเข้าถึงอีเมล์</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_RECEPTION</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>การรับอีเมล์</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_RECEPTION_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_RECEPTION">เปลี่ยนการตั้งค่าการรับอีเมล์</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_DELIVERY</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>E-mail delivery</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_DELIVERY_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_DELIVERY">เปลี่ยนการตั้งค่าการรับส่งอีเมล์</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_FILTERING_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_FILTERING">เปลี่ยนการตั้งค่าการกรองอีเมล์</a> ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_VIRUS_SCAN</base>
+	<trans>การสแกนไวรัส</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_VIRUS_SCAN</base>
+	<trans>คุณสามารถให้สแกนหาไวรัสในอีเมล์เข้าออกได้ ถ้าเลือกให้ทำการแสกนและพบไวรัส อีเมล์นั้นจะปฏิเสธการส่งต่อและตีกลับไปยังผู้ส่ง</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_SPAM_SCAN</base>
+	<trans>การกรองจดหมายขยะ</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_SPAM_SCAN</base>
+	<trans>คุณสามารถให้ทำการแสกนเพื่อตรวจจับจดหมายขยะได้  หากเปิดใช้การกรองจดหมายขยะ จะมีสถานะ X-Spam-Status:header เพิ่มเข้าไปในทุกฉบับเพื่อจะใช้ประโยชน์ในการตรวจจับ คุณสามารถเลือกตั้งความไวของตัวตรวจจับซึ่งปกติตั้งไว้ที่ ปานกลาง เพื่อควบคุมระดับการป้องกันได้ คุณสามารถตั้งความไวเป็น Custom แล้วตั้ง custom tagging level เอง และเลือกตัวเลือกระดับของการปฎิเสธจดหมายได้</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_SPAM_SUBJECT</base>
+	<trans>เติมข้อความหน้าหัวข้อ (subject) ของจดหมายที่เป็นสแปม</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_SPAM_SUBJECT</base>
+	<trans>คุณสามารถกำหนดให้เพิ่มข้อความ (tag) หน้าหัวข้อของจดหมาย (subject) ในทุกๆ ฉบับที่ตรวจสอบแล้วว่าเป็นสแปม ข้อความ (tag) นั้น กำหนดได้ด้านล่างนี้</trans>
+    </entry>
+
+   <entry>
+        <base>LABEL_SPAM_SENSITIVITY</base>
+        <trans>ระดับความไวต่อจดหมายขยะ</trans>
+    </entry>
+   <entry>
+        <base>LABEL_SPAM_TAGLEVEL</base>
+        <trans>ระดับ spam tagging แบบกำหนดเอง</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SPAM_REJECTLEVEL</base>
+        <trans>ระดับการการปฏิเสธจดหมายขยะแบบกำหนดเอง</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SPAM_SUBJECTTAG</base>
+        <trans>การแก้ไขหัวข้อ (subject) ของจดหมายขยะ</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SORTSPAM</base>
+        <trans>ส่งจดหมายขยะลงไปที่โฟล์เดอร์ junkmail</trans>
+    </entry>
+    <entry>
+        <base>VERYHIGH</base>
+        <trans>สูงมาก</trans>
+    </entry>
+    <entry>
+        <base>HIGH</base>
+        <trans>สูง</trans>
+    </entry>
+    <entry>
+        <base>MEDIUM</base>
+        <trans>ปานกลาง</trans>
+    </entry>
+    <entry>
+        <base>LOW</base>
+        <trans>ต่ำ</trans>
+    </entry>
+    <entry>
+        <base>VERYLOW</base>
+        <trans>ต่ำมาก</trans>
+    </entry>
+    <entry>
+        <base>CUSTOM</base>
+        <trans>กำหนดเอง</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_STATUS</base>
+        <trans>ข้อมูลในการตรวจสอบสิทธิ์ SMTP ที่จะใช้กับผู้ให้บริการอินเตอร์เน็ต (ISP)</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_USERID</base>
+        <trans>ชื่อผู้ใช้ของเมล์เซอร์เวอร์</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_PASSWD</base>
+        <trans>รหัสผ่านของเมล์เซอร์เวอร์</trans>
+    </entry>
+
+    <entry>
+        <base>VALIDATION_SMTPAUTH_NONBLANK</base>
+        <trans>ฟิลด์นี้ไม่สามารถปล่อยว่างไว้หากเลือกเปิดใช้การตรวจสอบสิทธิ์ของ SMTP</trans>
+    </entry>
+
+</lexicon>

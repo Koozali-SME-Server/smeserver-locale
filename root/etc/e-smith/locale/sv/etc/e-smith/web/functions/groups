@@ -1,0 +1,84 @@
+<lexicon lang="sv">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Skapa, ändra och radera användargrupper</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_TOO_LONG</base>
+        <trans>Fel: Gruppens namn är för långt. Maximal längd är {$maxLength} tecken.</trans>
+    </entry>    
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>Fel: gruppen "{$group}" kan inte skapas eftersom det redan finns ett {$type} konto med detta namn.</trans>
+    </entry>    
+    <entry>
+        <base>INVALID_GROUP_DESCRIPTION</base>
+        <trans>Fel: ej tillåtet eller saknat tecken i gruppbeskrivningen</trans>
+    </entry>
+    <entry>
+        <base>NO_MEMBERS</base>
+        <trans>Fel: Inga medlemmar i denna grupp. Skapade ingen ny grupp.</trans>
+    </entry>
+    <entry>
+        <base>CREATED_GROUP</base>
+        <trans>Skapade en användargrupp</trans>
+    </entry> 
+    <entry>
+        <base>DELETED_GROUP</base>
+        <trans>Raderade användargrupp</trans>
+    </entry> 
+    <entry>
+        <base>MODIFIED_GROUP</base>
+        <trans>Ändrade användargrupp</trans>
+    </entry>	
+    <entry>
+        <base>CREATE_ERROR</base>
+        <trans>Ett fel inträffade vid skapandet av användargrupp.</trans>
+    </entry> 
+    <entry>
+        <base>DELETE_ERROR</base>
+        <trans>Ett fel inträffade vid borttagning av användargrupp.</trans>
+    </entry> 
+    <entry>
+        <base>MODIFY_ERROR</base>
+        <trans>Ett fel uppstod vid ändring av användargrupp.</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_NAMING</base>
+        <trans><![CDATA[ Gruppens namn får bara innehålla gemener, siffror, bindestreck, punkt, understreck och skall börja med en gemen. Exempelvis "sales", "beta5" och "reseller_partners" är alla tillåtna gruppnamn, ment "3rd-event", "Marketing Team" och "lost&found" är det inte. ]]></trans>
+    </entry>
+    <entry>
+        <base>GROUP_HAS_MEMBERS</base>
+        <trans>Denna grupp innehåller följande medlemmar:</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_GROUP</base>
+        <trans>Fel: Detta är inte en existerande grupp.</trans>
+    </entry>
+    <entry>
+        <base>GROUP_DESC</base>
+        <trans>Kort beskrivning/Windows gruppalias</trans>
+    </entry>
+   <entry>
+        <base>GROUP_DESC_EXPL</base>
+        <trans>Ange en kort beskrivning i fältet nedan. Detta fält anger även gruppnamnet som syns Windows-klienter.</trans>
+   </entry>
+
+
+    <entry>
+        <base>IBAYS_WILL_BE_CHANGED</base>
+        <trans>Följande informations bay var tilldelad denna grupp och kommer att ändras till Administratörsgruppen (du kan ändra dessa till något annat efteråt):</trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DELETE_GROUP</base>
+        <trans><![CDATA[ <p><b>Vill du verkligen radera denna grupp?</b></p> ]]></trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST</base>
+        <trans><![CDATA[<p>Aktuell lista över användargrupper</p>]]></trans>
+    </entry>
+    <entry>
+		<base>DELETE_DESCRIPTION</base>
+       	<trans><![CDATA[ Du är på väg att radera denna användargrupp "<b>{$group}</b>." ]]></trans>
+    </entry>
+</lexicon>

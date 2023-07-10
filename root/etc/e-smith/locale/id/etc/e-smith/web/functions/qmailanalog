@@ -1,0 +1,87 @@
+<lexicon lang="id">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Analisa File Log Mail</trans>
+    </entry>
+    <entry>
+	<base>INITIAL_DESC</base>
+	<trans><![CDATA[ <p>Menganalisa log file dari mail sistem dapat membantu anda mengerti bagaimana dayaguna sistem anda dan dalam mendiagnosa masalah pengiriman. Beberapa jenis laporan tersedia.</p> <p>Harap dicatat bahwa mungkin diperlukan beberapa menit untuk membuat laporan-laporan tersebut</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>REPORT_TYPE</base>
+	<trans>Pilih jenis laporan</trans>
+    </entry>
+    <entry>
+	<base>GENERATE_REPORT</base>
+	<trans>Buat laporan</trans>
+    </entry>
+    <entry>
+	<base>LIST_OUTGOING</base>
+	<trans>Daftar pesan keluar dan penerima</trans>
+    </entry>
+    <entry>
+	<base>SUMMARIZE_QUEUE</base>
+	<trans>Ringkasan status dari antrian surat</trans>
+    </entry>
+    <entry>
+	<base>SUCCESSFUL_DELIVERY_DELAY</base>
+	<trans>Sebaran waktu tunda yang berhasil dikirim</trans>
+    </entry>
+    <entry>
+	<base>REASONS_DEFERRAL</base>
+	<trans>Alasan ditangguhkan</trans>
+    </entry>
+    <entry>
+	<base>REASONS_FAILURE</base>
+	<trans>Alasan gagal</trans>
+    </entry>
+    <entry>
+	<base>BASIC_STATS</base>
+	<trans>Statistik dasar</trans>
+    </entry>
+    <entry>
+	<base>RECIP_STATS</base>
+	<trans>Statistik penerima</trans>
+    </entry>
+    <entry>
+	<base>RECIP_HOSTS</base>
+	<trans>Host penerima</trans>
+    </entry>
+    <entry>
+	<base>RECIP_ORDERED</base>
+	<trans>Penerima diurutkan dari yang terbaik untuk daftar alamat surat</trans>
+    </entry>
+    <entry>
+	<base>SENDER_STATS</base>
+	<trans>Statistik pengirim</trans>
+    </entry>
+    <entry>
+	<base>SENDMAIL_STYLE</base>
+	<trans>Log dengan style Sendmail</trans>
+    </entry>
+    <entry>
+	<base>REASONS_SUCCESS</base>
+	<trans>Alasan berhasil</trans>
+    </entry>
+    <entry>
+	<base>SENDER_UIDS</base>
+	<trans>Uid pengirim</trans>
+    </entry>
+    <entry>
+	<base>INVALID_REPORT_TYPE</base>
+	<trans>Jenis laporan invalid:</trans>
+    </entry>
+    <entry>
+	<base>REPORT_GENERATED</base>
+	<trans>Laporan yang dibuat:</trans>
+    </entry>
+    <entry>
+	<base>END_OF_REPORT</base>
+	<trans>Akhir dari laporan</trans>
+    </entry>
+    <entry>
+	<base>Mail log file analysis</base>
+	<trans>Analisa File Log Mail</trans>
+    </entry>
+
+</lexicon>

@@ -1,0 +1,749 @@
+<lexicon lang="fr">
+  <entry>
+   <base>BACKUP_TITLE</base>
+   <trans>Sauvegarde et restauration des données du serveur</trans>
+  </entry>
+  <entry>
+   <base>BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Vous disposez de deux méthodes pour sauvegarder et restaurer votre serveur : à distance sur un ordinateur du réseau local ou sur un lecteur/enregistreur de bande magnétique.</p><p>La première méthode crée une archive des fichiers de configuration du serveur et des données des utilisateurs et la télécharge sur un ordinateur de votre réseau local à l'aide d'un navigateur Internet. Actuellement, vos fichiers de configuration et de données totalisent environ <b>$tarsize</b>. La taille du fichier de sauvegarde sera quelque peu inférieure à cela, en fonction du degré de compressibilité des données. L'option \"Vérifier le fichier de sauvegarde de l'ordinateur\" peut être utilisée pour vérifier l'intégrité d'un fichier de sauvegarde stocké sur l'ordinateur local.</p> <p>La méthode de sauvegarde sur bande utilise le programme <i>$module</i> pour sauvegarder quotidiennement tout votre disque dur. Ceci nécessite que le lecteur/enregistreur de bande magnétique soit pris en charge et que la bande ne soit pas protégée contre l'écriture. La sauvegarde est exécutée automatiquement chaque jour à l'heure sélectionnée, (avec un rappel envoyé à l'administrateur dans la journée par courriel.<br>Actuellement, votre disque dur contient <b>$dumpsize</b> de données.</p><p>Les deux méthodes de restauration vous permettent de restaurer vos fichiers de configuration et les données des utilisateurs.<br><b>Idéalement, la restauration ne devrait se faire que sur un serveur nouvellement installé</b>.</p>]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_DESC_DAR</base>
+   <trans><![CDATA[ <P>Vous disposez de trois méthodes de sauvegarde et de restauration de votre serveur : sur votre ordinateur local, un lecteur/enregistreur de bandes ou un ordinateur distant sur votre réseau local.</P> <P>La première méthode crée une copie de la configuration du serveur et des données utilisateur puis les transfère sur votre ordinateur local, via votre navigateur Internet. Actuellement, la taille totale de ces données représente approximativement <b>$tarsize</b>. La taille du fichier de sauvegarde sera légèrement inférieure à ceci, en fonction de la compressibilité de ces données. Ce fichier peut être utilisé pour restaurer votre serveur depuis la console si vous le copiez sur un média de stockage tel qu'un disque amovible.</P><P>La méthode de sauvegarde sur bande exploite le programme <i>$module</i> pour sauvegarder quotidiennement l'intégralité du disque dur du serveur. Ceci nécessite l'emploi d'un lecteur/enregistreur de bandes reconnu et d'une bande non protégée en écriture. La sauvegarde est effectuée automatiquement à l'heure sélectionnée (un courriel de rappel est aussi envoyé automatiquement à l'administrateur). Actuellement, la taille totale utilisée sur le disque dur de votre serveur représente approximativement <b>$dumpsize</b>.</P> <p>La méthode de sauvegarde sur un ordinateur distant exploite le programme <i>dar</i> pour sauvegarder la configuration de votre serveur et les données utilisateur vers un ordinateur sur votre réseau local (ou un disque USB connecté au serveur). Ceci nécessite que vous disposiez d'un partage accessible en écriture (smbfs, cifs, ou nfs) sur l'ordinateur distant ou d'un disque USB sur le serveur. Vous pouvez définir le nombre de jeux de sauvegardes devant être conservés sur le partage, ainsi que la possibilité de créer des jeux de sauvegardes incrémentales sur plusieurs jours. La sauvegarde est effectuée automatiquement à l'heure sélectionnée. Actuellement, les fichiers de configuration et de données représentent approximativement <b>$tarsize</b> non compressés. Le partage de sauvegarde doit offrir deux fois la taille d'une sauvegarde non compressée.</p> <p>Toutes les méthodes de restauration vous permettent de restaurer la configuration du serveur et des données utilisateur. La sauvegarde sur un ordinateur distant permet de restaurer chaque fichier individuellement. <b>Idéalement, une restauration complète devrait être effectuée sur un serveur nouvellement installé</b>.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_CONFIG_STATUS</base>
+   <trans>Configuration et état de la sauvegarde</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUPS_ENABLED</base>
+   <trans><![CDATA[ Les sauvegardes sur bande sont actuellement <b>activées</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUPS_RUN_AT</base>
+   <trans>Les sauvegardes régulières sur bande seront exécutées à:</trans>
+  </entry>
+  <entry>
+   <base>REMINDER_MESSAGE_AT</base>
+   <trans>Les courriels de rappel seront envoyés à:</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUPS_DISABLED</base>
+   <trans><![CDATA[ Les sauvegardes sur bande sont actuellement <b>désactivées</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_BACKUP</base>
+   <trans>Sauvegarder sur l'ordinateur local</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_RESTORE</base>
+   <trans>Restaurer depuis l'ordinateur local</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_VERIFY</base>
+   <trans>Vérifier le fichier de sauvegarde sur l'ordinateur local</trans>
+  </entry>
+  <entry>
+   <base>TAPE_CONFIGURE</base>
+   <trans>Configurer la sauvegarde sur bande magnétique</trans>
+  </entry>
+  <entry>
+   <base>TAPE_RESTORE</base>
+   <trans>Restaurer à partir de la bande magnétique</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS_BEGAN_AT</base>
+   <trans>Restauration du système en cours. Elle a commencé à :</trans>
+  </entry>
+  <entry>
+   <base>REFRESH_THIS_DISPLAY</base>
+   <trans>Actualiser cet affichage</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_TAPE_BACKUP</base>
+   <trans>Configurer la sauvegarde sur bande magnétique</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_COMPLETED</base>
+   <trans>Restauration de système terminée</trans>
+  </entry>
+  <entry>
+   <base>STARTED_AT</base>
+   <trans>Elle a commencé le :</trans>
+  </entry>
+  <entry>
+   <base>FINISHED_AT</base>
+   <trans>et s'est terminée le :</trans>
+  </entry>
+  <entry>
+   <base>YOU_MUST_REBOOT</base>
+   <trans>Vous devez redémarrer le serveur pour activer tous les changements de configuration qui ont été effectués suite à cette restauration.</trans> 
+  </entry> 
+  <entry>
+   <base>REBOOT</base>
+   <trans>Redémarrer</trans>
+  </entry>
+  <entry>
+   <base>SELECT_AN_ACTION</base>
+   <trans>Sélectionnez une action :</trans>
+  </entry>
+  <entry>
+   <base>X_BACKUP_OR_RESTORE</base>
+   <trans>X Sauvegarder ou restaurer les données du serveur</trans>
+  </entry>
+  <entry>
+   <base>ERR_PRE_BACKUP</base>
+   <trans>Une erreur est survenue lors des opérations préparatoires à la sauvegarde.</trans>
+  </entry>
+  <entry>
+   <base>ERR_PRE_RESTORE</base>
+   <trans>Une erreur est survenue lors des opérations préparatoires à la restauration.</trans>
+  </entry>
+  <entry>
+   <base>ERR_POST_BACKUP</base>
+   <trans>Une erreur est survenue lors des opérations succédant à la sauvegarde.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_SERVER_CONFIG</base>
+   <trans>Restaurer la configuration du serveur</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_RESTORE_DESC</base>
+   <trans><![CDATA[ Cette action va vous permettre de télécharger un fichier de sauvegarde depuis votre ordinateur local vers votre serveur. Ceci permettra de restaurer la configuration du serveur et les données des utilisateurs. <B>Cette restauration ne devrait être effectuée que sur un serveur nouvellement installé</B>. ]]></trans>
+  </entry>
+  <entry>
+   <base>FREE_SPACE</base>
+   <trans><![CDATA[ L'espace libre disponible sur votre serveur est d'environ <b>$tmpfree</b>. Vérifiez que la taille du fichier de sauvegarde sur votre ordinateur local est inférieure à <b>$halffree</b> avant de commencer la restauration. ]]></trans>
+  </entry>
+  <entry>
+   <base>MUST_REBOOT_AFTER_RESTORE</base>
+   <trans>À la fin de la restauration, vous devrez redémarrer le serveur.</trans>
+  </entry>
+  <entry>
+   <base>FILE_TO_RESTORE</base>
+   <trans>Sélectionnez le fichier de sauvegarde à restaurer</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Cette option va afficher le nom de tous les fichiers contenus dans un fichier de sauvegarde déjà stocké sur l'ordinateur local. Vous pouvez utiliser cette option pour vérifier le contenu du fichier de sauvegarde.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>SELECT_BACKUP_FILE</base>
+   <trans>Sélectionnez le fichier de sauvegarde</trans>
+  </entry>
+  <entry>
+   <base>VERIFY</base>
+   <trans>Vérifier</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CANNOT_PROCEED</base>
+   <trans>Impossible de poursuivre la restauration de la configuration du serveur.</trans>
+  </entry>
+  <entry>
+   <base>ANOTHER_RESTORE_IN_PROGRESS</base>
+   <trans>Une autre restauration est en cours. Veuillez réessayer plus tard.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS</base>
+   <trans>Restauration en cours...</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS_DESC</base>
+   <trans>Après la fin de la restauration, vous devrez redémarrer le serveur. Cette restauration sera terminée quand le message "Restauration terminée" apparaitra en bas de l'écran.</trans>
+  </entry>
+  <entry>
+   <base>FILES_HAVE_BEEN_RESTORED</base>
+   <trans>Les fichiers et répertoires suivants ont été restaurés :</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FAILED_MSG</base>
+   <trans>Échec de la restauration ! Erreur de lecture du fichier de sauvegarde.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_COMPLETE</base>
+   <trans>Restauration terminée.</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_GID</base>
+   <trans>Une erreur s'est produite pendant la restauration du GID de l'utilisateur "www".</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_INITIAL_GRP</base>
+   <trans>Une erreur s'est produite pendant la restauration du groupe initial de l'utilisateur "www".</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FAILED</base>
+   <trans>Échec de la restauration ! Le fichier de sauvegarde était incomplet.</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_EXEC_PIPELINE</base>
+   <trans>Impossible d'exécuter la sauvegarde en mode pipeline :</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_DECODE</base>
+   <trans>Impossible de décoder le fichier de sauvegarde :</trans>
+  </entry>
+  <entry>
+   <base>FILES_IN_BACKUP</base>
+   <trans>Le fichier de sauvegarde contient les fichiers suivants :</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_COMPLETE</base>
+   <trans>La vérification est terminée.</trans>
+  </entry>
+  <entry>
+   <base>BACKUP_FILE_INCOMPLETE</base>
+   <trans>Le fichier de sauvegarde était incomplet.</trans>
+  </entry>
+  <entry>
+   <base>ERR_READING_FILE</base>
+   <trans>Erreur de lecture du fichier de sauvegarde.</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_DISABLE_TAPE</base>
+   <trans>Activer/désactiver la sauvegarde quotidienne sur bande magnétique</trans>
+  </entry>
+  <entry>
+   <base>TAPE_CONFIG_DESC</base>
+   <trans><![CDATA[ <p>Vous pouvez définir ici si vous souhaitez activer les sauvegardes quotidiennes. Indiquez les heures souhaitées pour la sauvegarde et l'envoi du courriel de rappel de chargement de la bande.</p> <p>La sauvegarde sur bande nécessite que le lecteur/enregistreur de bande soit pris en charge. Un courriel d'avertissement sera envoyé à l'administrateur à l'heure indiquée pour le rappel si le lecteur de bande est vide.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>ENABLE_TAPE_BACKUP</base>
+   <trans>Activer la sauvegarde sur bande</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUP_TIME</base>
+   <trans>Heure de la sauvegarde sur bande (heure/min)</trans>
+  </entry>
+  <entry>
+   <base>LOAD_TAPE_REMINDER_TIME</base>
+   <trans>Heure du rappel du chargement de la bande (heure/min)</trans>
+  </entry>
+  <entry>
+   <base>AM/PM</base>
+   <trans>AM/PM</trans>
+  </entry>
+  <entry>
+   <base>AM</base>
+   <trans>AM</trans>
+  </entry>
+  <entry>
+   <base>PM</base>
+   <trans>PM</trans>
+  </entry>
+  <entry>
+   <base>UPDATE_CONF</base>
+   <trans>Mettre à jour</trans>
+  </entry>
+  <entry>
+   <base>UPDATING_TAPE_CONF</base>
+   <trans>Mise à jour de la configuration de la sauvegarde sur bande magnétique</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_HOUR</base>
+   <trans>ERREUR : heure non valide pour la sauvegarde :</trans>
+  </entry>
+  <entry>
+   <base>BETWEEN_0_AND_12</base>
+   <trans>Veuillez choisir une heure entre 0 et 12.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_MINUTE</base>
+   <trans>ERREUR : minute non valide pour la sauvegarde :</trans>
+  </entry>
+  <entry>
+   <base>BETWEEN_0_AND_59</base>
+   <trans>Veuillez choisir une minute entre 0 et 59.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_REMINDER_HOUR</base>
+   <trans>ERREUR : heure non valide pour le rappel :</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_REMINDER_MINUTE</base>
+   <trans>ERREUR : minute non valide pour le rappel :</trans>
+  </entry>
+  <entry>
+   <base>ERR_CONF_BACKUP</base>
+   <trans>Une erreur s'est produite pendant la configuration de la sauvegarde.</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_ENABLED_TAPE</base>
+   <trans>Activation réussie des sauvegardes sur bande.</trans>
+  </entry>
+  <entry>
+   <base>WITH_BACKUP_TIME</base>
+   <trans>Heure de la sauvegarde :</trans>
+  </entry>
+  <entry>
+   <base>WITH_REMINDER_TIME</base>
+   <trans>Heure de rappel du chargement de la bande :</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_DISABLED</base>
+   <trans>Désactivation réussie des sauvegardes sur bande.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_TAPE</base>
+   <trans>Restaurer la configuration du serveur à partir de la sauvegarde sur bande magnétique</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_TAPE_DESC</base>
+   <trans><![CDATA[ <p>Cette action restaurera les fichiers de configuration du serveur et les données des utilisateurs à partir d'une sauvegarde sur bande du serveur.<br> <b>Cette restauration ne devrait être effectuée que sur un serveur nouvellement installé</b>.</p> <p>Assurez-vous de charger la bande de sauvegarde désirée dans le lecteur/enregistreur avant de poursuivre.</p> <p>Après la fin de la restauration, vous devrez redémarrer le serveur.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FROM_TAPE</base>
+   <trans>Restaurer à partir de la bande</trans>
+  </entry>
+  <entry>
+   <base>UNABLE_TO_RESTORE_CONF</base>
+   <trans>Impossible de restaurer la configuration serveur.</trans>
+  </entry>
+  <entry>
+   <base>RESTORING_FROM_TAPE</base>
+   <trans>Restauration à partir de la bande magnétique</trans>
+  </entry>
+  <entry>
+   <base>NOW_RESTORING_FROM_TAPE</base>
+   <trans>Les fichiers de configuration et les données des utilisateurs de votre serveur sont en cours de restauration à partir de la bande.</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_FROM_TAPE</base>
+   <trans>Une erreur s'est produite pendant la restauration des fichiers à partir la bande.</trans>
+  </entry>
+  <entry>
+   <base>ERR_UPDATING_CONF_AFTER_TAPE_RESTORE</base>
+   <trans>Une erreur s'est produite pendant la mise à jour de la configuration du serveur après la restauration à partir de la bande.</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_FORK</base>
+   <trans>Processus de duplication impossible :</trans>
+  </entry>
+  <entry>
+   <base>SERVER_REBOOT</base>
+   <trans>Redémarrage du serveur</trans>
+  </entry>
+  <entry>
+   <base>SERVER_WILL_REBOOT</base>
+   <trans>Votre serveur va maintenant redémarrer.</trans>
+  </entry>
+  <entry>
+   <base>NO_UID_FOR_NAME</base>
+   <trans>Impossible d'obtenir l'UID de l'utilisateur :</trans>
+  </entry>
+  <entry>
+   <base>PAGE_REFRESH_IN</base>
+   <trans><![CDATA[ Cette page s'actualisera dans {$sec} secondes pour afficher l'état de l'opération en cours. Vous pouvez également actualiser la page en cliquant <a href="/server-manager/cgi-bin/backup">ici</a>. ]]></trans>
+  </entry>
+    <entry>
+	<base>Backup or restore</base>
+	<trans>Sauvegarde et restauration</trans>
+    </entry>
+
+  <entry>
+	<base>BACKUP_DESKTOP_TOO_BIG</base>
+	<trans><![CDATA[ <div class="error"> Le volume de données stockées sur votre serveur est trop important pour assurer la fiabilité de la sauvegarde sur l'ordinateur local. </div> ]]></trans>
+  </entry>
+   <entry>
+   <base>WORKSTN_BACKUPS_DISABLED</base>
+   <trans><![CDATA[ Les sauvegardes sur un ordinateur distant sont actuellement <b>désactivées</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUPS_ENABLED</base>
+   <trans><![CDATA[ Les sauvegardes sur un ordinateur distant sont actuellement <b>activées</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>WKBACKUPS_RUN_AT</base>
+   <trans>Les sauvegardes quotidiennes sur un ordinateur distant seront exécutées à</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_CONFIGURE</base>
+   <trans>Configurer les sauvegardes sur un ordinateur distant</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_VERIFY</base>
+   <trans>Vérifier les sauvegardes sur un ordinateur distant</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_RESTORE</base>
+   <trans>Restaurer depuis un ordinateur distant</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_WORKSTN_BACKUP</base>
+   <trans>Configurer les sauvegardes sur un ordinateur distant</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_DISABLE_WORKSTN</base>
+   <trans>Activer/Désactiver les sauvegardes quotidiennes sur un ordinateur distant</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_WORKSTN_BACKUP</base>
+   <trans>Activer les sauvegardes sur un ordinateur distant</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TIME</base>
+   <trans>Heure de la sauvegarde sur un ordinateur distant (heure/min)</trans>
+  </entry>
+  <entry>
+   <base>UPDATING_WORKSTN_CONF</base>
+   <trans>Mise à jour de la configuration de la sauvegarde sur un ordinateur distant</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_ENABLED_WORKSTN</base>
+   <trans>Activation réussie des sauvegardes sur un ordinateur distant</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_DISABLED_WORKSTN</base>
+   <trans>Désactivation réussie des sauvegardes sur un ordinateur distant</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_WORKSTN_BACKUP_FILE</base>
+   <trans>Vérifier les sauvegardes sur un ordinateur distant</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_WORKSTN_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Cette option va afficher le nom de tous les fichiers inclus dans une précédente sauvegarde quotidienne sur un ordinateur distant. Vous pouvez utiliser cette option pour vérifier le contenu de la sauvegarde.<b>Vous allez choisir la sauvegarde à vérifier.</b></p> <p>Seuls les fichiers portant la mention [Saved] sont effectivement inclus dans la sauvegarde sélectionnée.</p> Les fichiers de sauvegarde sont vérifiés à partir du dossier partagé : ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_WORKSTN</base>
+   <trans>Restaurer la configuration du serveur à partir d'une sauvegarde sur un ordinateur distant</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_WORKSTN_DESC</base>
+   <trans><![CDATA[ <p>Cette action restaurera les fichiers de configuration du serveur et les données des utilisateurs à partir d'une sauvegarde sur un ordinateur distant.<br> <b>Cette restauration ne devrait être effectuée que sur un serveur nouvellement installé</b>.</p> <p>Assurez-vous de sélectionner le bon fichier de sauvegarde avant de poursuivre.</p> <p>Après la fin de la restauration, vous devrez redémarrer le serveur.</p> La restauration va être effectuée à partir de : ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FROM_WORKSTN</base>
+   <trans>Restaurer à partir d'un ordinateur distant</trans>
+  </entry>
+  <entry>
+   <base>RESTORING_FROM_WORKSTN</base>
+   <trans>Restauration à partir d'un ordinateur distant</trans>
+  </entry>
+  <entry>
+   <base>NOW_RESTORING_FROM_WORKSTN</base>
+   <trans>Les fichiers de configuration et les données des utilisateurs de votre serveur sont en cours de restauration à partir d'un ordinateur distant.</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_FROM_WORKSTN</base>
+   <trans>Une erreur s'est produite pendant la restauration des fichiers à partir d'un ordinateur distant.</trans>
+  </entry>
+  <entry>
+   <base>ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE</base>
+   <trans>Une erreur s'est produite pendant la mise à jour de la configuration du serveur après la restauration à partir d'un ordinateur distant.</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_NAME</base>
+   <trans>IP ou nom d'hôte de l'ordinateur distant</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SETTINGS</base>
+   <trans>Paramètres de la sauvegarde sur ordinateur distant</trans>
+  </entry>
+  <entry>
+   <base>SHARED_FOLDER_NAME</base>
+   <trans>Dossier partagé de sauvegarde</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_LOGIN</base>
+   <trans>Nom de connexion</trans>
+  </entry>
+  <entry>
+   <base>WORKSTATION_BACKUP_DEST</base>
+   <trans>Paramètres de la sauvegarde sur ordinateur distant</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_WORKSTN_BACKUP_DESC</base>
+   <trans>Vous pouvez fixer le nombre de jeux de sauvegarde successifs à conserver sur l'ordinateur distant, avec rotation automatique. Chaque jeu peut contenir les données sauvegardées sur plusieurs jours consécutifs. Dans ce cas, la première sauvegarde d'un jeu est une sauvegarde complète, les autres sauvegardes quotidiennes étant incrémentales. Vous pouvez aussi imposer une durée maximale pour chaque session de sauvegarde ou seulement pour les sauvegardes incrémentales. Quand cette limite de temps est atteinte, la sauvegarde est arrêtée proprement et la sauvegarde incrémentale suivante redémarrera de façon fiable pour les données non encore sauvegardées et celles modifiées entre temps.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_WORKSTN</base>
+   <trans>IP ou nom d'hôte de l'ordinateur distant invalides</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_FOLDER</base>
+   <trans>Nom de partage invalide</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_LOGIN</base>
+   <trans>Nom de connexion invalide</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_PASSWORD</base>
+   <trans>Mot de passe invalide</trans>
+  </entry>
+  <entry>
+   <base>ERR_ALREADY_MOUNTED</base>
+   <trans>Le répertoire de sauvegarde est déjà monté</trans>
+  </entry>
+  <entry>
+   <base>ERR_MOUNTING_SMBSHARE</base>
+   <trans>Impossible de monter le dossier partagé de l'ordinateur distant</trans>
+  </entry>
+  <entry>
+   <base>ERR_NOT_MOUNTED</base>
+   <trans>Le répertoire de sauvegarde est non monté</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_NOT_SET</base>
+   <trans>Vous devez d'abord configurer correctement votre sauvegarde sur ordinateur distant</trans>
+  </entry>
+  <entry>
+   <base>NO_BACKUPS_TO_RESTORE</base>
+   <trans>Il n'y a pas de jeu de sauvegarde dans le dossier partagé distant que vous avez configuré. Vérifiez vos paramètres de configuration.</trans>
+  </entry>
+  <entry>
+   <base>NUMBER_OF_SETS</base>
+   <trans>Nombre de jeux de sauvegarde tournants</trans>
+  </entry>
+  <entry>
+   <base>NUMBER_OF_FILES_IN_SET</base>
+   <trans>Sauvegardes quotidiennes dans chaque jeu</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_SETS_NUMBER</base>
+   <trans>Le nombre de jeux doit être supérieur ou égal à 1</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_FILES_IN_SET_NUMBER</base>
+   <trans>Ce nombre doit être supérieur ou égal à 1. La première sauvegarde dans un jeu est <b>complète</b>, les autres sont <b>incrémentales</b></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_TIMEOUT</base>
+   <trans>Durée maximale d'une session de sauvegarde (heures)</trans>
+  </entry>
+  <entry>
+   <base>INC_ONLY_TIMEOUT</base>
+   <trans>Pas de limitation de durée pour les sauvegardes complètes</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_TIMEOUT</base>
+   <trans>La durée maximale d'une sauvegarde doit être comprise entre 1 et 24 heures</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_HOST_DIR</base>
+   <trans>Pas de répertoire pour votre hôte dans le dossier partagé. Peut-être que votre nom d'hôte est différent de celui des sauvegardes</trans>
+  </entry>
+  <entry>
+   <base>ERROR_READING_FILE</base>
+   <trans>Erreur durant la lecture des fichiers depuis</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SEL_RESTORE</base>
+   <trans>Restauration sélective de fichier depuis un ordinateur distant</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SELECTIVE_RESTORE</base>
+   <trans>Restauration sélective de fichier depuis un ordinateur distant</trans>
+  </entry>
+  <entry>
+   <base>ALL_BACKUPS</base>
+   <trans>Toutes les sauvegardes</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SEL_REST_DESC</base>
+   <trans><![CDATA[ Cette action va restaurer uniquement les fichiers et répertoires spécifiés.Vous devez dans un premier temps choisir la sauvegarde à utiliser. Si vous ne savez pas dans quelle sauvegarde sont les fichiers voulus, vous pouvez sélectionner 'Toutes les sauvegardes'. <br/><br/> L'écran suivant affichera les fichiers et répertoires disponibles, et vous pourrez choisir ceux à restaurer. Pour réduire le nombre de fichiers et de répertoires affichés, il vous est possible de fournir une expression de filtrage, utilisée comme une expression régulière qui sera appliquée aux noms affichés.<br/><br/> Vous devez veiller à <b>ne pas restaurer</b> de fichiers empêchant le fonctionnement de votre serveur.<br/><br/>Actuellement, les fichiers vont être restaurés à partir de : ]]> </trans>
+  </entry>
+  <entry>
+   <base>BACKUP_CHOICE</base>
+   <trans>Sélectionner les fichiers à afficher</trans>
+  </entry>
+  <entry>
+   <base>SELECT_DATE_BEFORE</base>
+   <trans>Restaurer les plus récents avant cette date</trans>
+  </entry>
+  <entry>
+   <base>FILTER_EXPRESSION</base>
+   <trans>Filtrage des noms par</trans>
+  </entry>
+  <entry>
+   <base>READ_COMPLETE</base>
+   <trans><![CDATA[ Vous pouvez choisir tous les dossiers et les fichiers que vous voulez restaurer dans la liste affichée (utiliser ctrl ou shift pour des sélections multiples). <br/> <b>Attention :</b> Si vous sélectionnez un répertoire, tous ses fichiers et sous-dossiers vont être restaurés.<p/> Par défaut, la version la plus récente des fichiers sélectionnés est restaurée mais si vous indiquez une date avec le format <i>[ [ [aaaa/]mm/]jj-]hh:mm[:ss]</i> le processus va uniquement restaurer la plus récente des versions ayant été modifiée <b>avant cette date</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_SELDATE</base>
+   <trans>Le format de la date est invalide. Il doit être du style [ [ [aaaa/]mm/]jj-]hh:mm[:ss]. Ex: 2005/12/31-08:23:32, 10-08:32 ou 08:32</trans>
+  </entry>
+  <entry>
+   <base>SELECT_FILES_TO_RESTORE</base>
+   <trans>Sélectionnez les fichiers à restaurer</trans>
+  </entry>
+  <entry>
+   <base>ERR_WHILE_UNMOUNTING</base>
+   <trans>Une erreur est survenue pendant le démontage du partage distant</trans>
+  </entry>
+  <entry>
+   <base>ERR_DAR_CATALOG</base>
+   <trans>Erreur durant l'utilisation du catalogue DAR</trans>
+  </entry>
+  <entry>
+   <base>COMPRESSION_LEVEL</base>
+   <trans>Niveau de compression de la sauvegarde [0-9]</trans>
+  </entry>
+  <entry>
+   <base>FULL_ONLY_ON</base>
+   <trans>La sauvegarde complète est autorisée sur</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_COMPRESSION</base>
+   <trans>Le niveau de compression doit être réglé entre 0 (aucune compression) et 9 (compression maximale)</trans>
+  </entry>
+  <entry>
+   <base>DOW</base>
+   <trans>Dimanche Lundi Mardi Mercredi Jeudi Vendredi Samedi Tous les jours</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURATION_TO_BE_DONE</base>
+   <trans>Veuillez confirmer les paramétrages de la sauvegarde :</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Cette page présente la configuration actuelle de la sauvegarde sur ordinateur distant. Vous pouvez la modifier ici et dans les pages suivantes.</p><p/> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_NOT_CONFIGURED</base>
+   <trans><![CDATA[ <p>Pour l'instant, la sauvegarde sur ordinateur distant n'est configurée. Vous pouvez configurer cette fonctionnalité avec ce panneau et le suivant.</p><p/> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_ENABLED</base>
+   <trans>Le système de sauvegarde est</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_USB</base>
+   <trans>La sauvegarde est effectuée sur disque amovible local</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_MNT</base>
+   <trans>La sauvegarde est effectuée sur un disque monté</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_HOST</base>
+   <trans>La sauvegarde est effectuée sur un ordinateur distant du LAN</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_VFSTYPE</base>
+   <trans>via</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SHARE</base>
+   <trans>Le dossier partagé de destination de la sauvegarde est</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TOD</base>
+   <trans>La sauvegarde journalière démarre à</trans>
+  </entry>
+  <entry>
+   <base>LOGIN</base>
+   <trans>Le login est</trans>
+  </entry>
+  <entry>
+   <base>PASSWORD</base>
+   <trans>Le mot de passe est</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SETSNUM</base>
+   <trans>Le nombre de jeux de sauvegardes tournantes est</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_DAYSINSET</base>
+   <trans>Le nombre de sauvegardes quotidiennes contenues dans chaque jeu est</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_COMPRESSION</base>
+   <trans>Le niveau de compression (0-9) de la sauvegarde est</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TIMEOUT</base>
+   <trans>Chaque sauvegarde quotidienne est proprement interrompue au bout de</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_INCONLY_TIMEOUT</base>
+   <trans>exception faite des sauvegardes complètes qui sont proprement interrompues au bout de 24 heures</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_FULL_BACKUP_EVERYDAY</base>
+   <trans>Les sessions de sauvegarde complète (nouveau jeu de sauvegarde) sont autorisées tous les jours</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_FULL_BACKUP_DAY</base>
+   <trans>La session de sauvegarde complète (nouveaux jeux de sauvegarde) n'est autorisée que le</trans>
+  </entry>
+  <entry>
+   <base>WORKSTATION_BACKUP_SETCONF</base>
+   <trans>Créer ou modifier une configuration de sauvegarde sur ordinateur distant</trans>
+  </entry>
+  <entry>
+   <base>SELECT_VFS_TYPE</base>
+   <trans>Choisissez le type de partage pour la destination de sauvegarde</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_USB_DISK</base>
+   <trans>Erreur : Pas de disque amovible disponible. Merci de connecter un disque amovible ou de choisir un autre type de sauvegarde.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_MOUNTED_DISK</base>
+   <trans>Erreur : Pas de disque amovible disponible. Merci de connecter un disque amovible ou de choisir un autre type de sauvegarde.</trans>
+  </entry>
+  <entry>
+   <base>HOURS</base>
+   <trans>heure(s).</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_FULL_BACKUP</base>
+   <trans>Restauration abandonnée car la sauvegarde complète à utiliser est absente ou corrompue.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_INC_BACKUP</base>
+   <trans>Sauvegarde interrompue car une sauvegarde incrémentale est absente ou corrompue</trans>
+  </entry>
+  <entry>
+   <base>CHECK_TO_VERIFY_FULL_RESTORE</base>
+   <trans>Cocher pour vérifier l'intégrité de toutes les sauvegardes nécessaires à une restauration complète</trans>
+  </entry>
+  <entry>
+   <base>TESTING_NEEDED_BACKUPS_FOR_RESTORE</base>
+   <trans>Test de l'ensemble des sauvegardes nécessaires pour restaurer la sauvegarde choisie</trans>
+  </entry>
+  <entry>
+   <base>TESTED_BACKUP</base>
+   <trans>Test d'intégrité de la sauvegarde</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_VERIFY_FAILED</base>
+   <trans>La vérification d'intégrité des sauvegardes a échoué</trans>
+  </entry>
+  <entry>
+   <base>CHECK_INTEGRITY_WARNING</base>
+   <trans>Attention : pour les sauvegardes volumineuses le test d'intégrité peut nécessiter un temps important et doit se réaliser avec la sauvegarde journalière désactivée.</trans>
+  </entry>
+  <entry>
+    <base>cifs</base>
+    <trans>cifs</trans>
+  </entry>
+  <entry>
+    <base>nfs</base>
+    <trans>nfs</trans>
+  </entry>
+  <entry>
+    <base>local removable disk</base>
+    <trans>Disque amovible local</trans>
+  </entry>
+  <entry>
+    <base>Mounted disk</base>
+    <trans>Disque monté</trans>
+  </entry>
+  <entry>
+   <base>ERROR_WHEN_TESTING_REMOTE_SERVER</base>
+   <trans>Les paramètres ont été sauvegardés, cependant l'hôte distant n'est pas joignable, merci de vérifier vos réglages.</trans>
+  </entry>
+  <entry>
+   <base>DO_NOT_RESTORE_BIN_SBIN_LIB_LIB64_FROM_SME9</base>
+   <trans>Si vous restaurez depuis une sauvegarde de Koozali SME Server 9 ou plus ancien, faites attention que quelques dossiers sont maintenant des liens symboliques. Une sauvegarde de base n'incle pas les emplacements /bin, /lib, /lib64, /sbin, /var/lock et /var/run. Si vous avez ajouté un de ces dossiers ou un de leurs sous-dossiers, nous allons empêcher leur restauration pour éviter que dar ne  remplace les liens symbolique par de vrais dossiers ce qui rendrait votre système inutilisable. Veuillez noter que ces ajouts ne sont pas recommandé comme ils peuvent provoquer l'écrasement de fichier appartenant à des paquets rpm </trans>
+  </entry>
+  <entry>
+   <base>SMBV1</base>
+   <trans>Monté comme partage au format historique SMB v1 (peu sûr, non recommandé).</trans>
+  </entry>
+
+
+</lexicon>

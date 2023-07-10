@@ -1,0 +1,43 @@
+<lexicon lang="zh-tw">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>建立起始網站</trans>
+      </entry>
+      <entry>
+	<base>SUCCESS</base>
+	<trans>成功建立起始網站（已寫入index.htm）。您可在以下網址拜訪您的網站：</trans>
+      </entry>
+      <entry>
+	<base>DESCRIPTION</base>
+	  <trans><![CDATA[ <p>欲為貴寶號建立簡單的首頁，請填寫下方區塊並點選<b>建立</b>。</p> <p>不需要的區塊可以留白。</p> <p>您於下方建立的文字將經行修飾後重顯於您的網頁中。每當您欲重開段落時請留一行空白。倘若您欲強迫斷行而非重開段落（例如一行一電郵），可在每行欲中斷處輸入4個連續字元的<blockquote>&lt;BR&gt;</blockquote>。</p> <p>倘若您已客製化完成網站時 <em>勿用此選項</em>，因為這將覆寫網站目錄中的 "index.htm" 檔案。</p> ]]></trans>
+      </entry>
+      <entry>
+	<base>LABEL_COMPANYNAME</base>
+	<trans>公司名稱</trans>
+      </entry>
+	
+      <entry> 
+	<base>DESC_HEADER1</base>
+	<trans>第1標題，通常是幾句簡短語如”執某行業之牛耳”。</trans>
+      </entry>
+      <entry> 
+	<base>DESC_TEXT1</base>
+	<trans>第１標題之後的文字，通常是市場消息的段落。</trans>
+      </entry>
+      <entry> 
+	  <base>DESC_HEADER2</base>
+	<trans>第２標題，通常是幾句簡短語如”進一步消息”或”訂購產品”：</trans>
+	</entry>
+      <entry> 
+	<base>DESC_TEXT2</base>
+	<trans>第２標題之後的文字，通常是連繫或訂購消息。</trans>
+	</entry>
+      <entry>
+	<base>DESC_SUBMIT</base>
+	<trans><![CDATA[ <p>當您建立此網頁，網站目錄中的此檔案 "index.htm" 將被覆寫。</p> <p>是否希望繼續？</p> ]]></trans>
+      </entry>
+      <entry>
+	<base>Create starter web site</base>
+	<trans>建立起始網站</trans>
+      </entry>
+</lexicon>

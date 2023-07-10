@@ -1,0 +1,87 @@
+<lexicon lang="ru">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Анализ почтовых лог файлов</trans>
+    </entry>
+    <entry>
+	<base>INITIAL_DESC</base>
+	<trans><![CDATA[ <P>Анализ лог файлов почтовой системы может помочь в понимании того, как ваша система работает и в диагностике проблем доставки. Доступны несколько различных отчётов .</P> <P>Имейте в виду, что может потребоваться несколько минут для создания этих отчётов</P> ]]></trans>
+    </entry>
+    <entry>
+	<base>REPORT_TYPE</base>
+	<trans>Выберите тип отчёта</trans>
+    </entry>
+    <entry>
+	<base>GENERATE_REPORT</base>
+	<trans>Создать отчёт</trans>
+    </entry>
+    <entry>
+	<base>LIST_OUTGOING</base>
+	<trans>Список исходящих сообщений и адресатов</trans>
+    </entry>
+    <entry>
+	<base>SUMMARIZE_QUEUE</base>
+	<trans>Итоговое состояние почтовой очереди</trans>
+    </entry>
+    <entry>
+	<base>SUCCESSFUL_DELIVERY_DELAY</base>
+	<trans>Распределение по задержке успешной доставки</trans>
+    </entry>
+    <entry>
+	<base>REASONS_DEFERRAL</base>
+	<trans>Причины отсрочек</trans>
+    </entry>
+    <entry>
+	<base>REASONS_FAILURE</base>
+	<trans>Причины сбоев</trans>
+    </entry>
+    <entry>
+	<base>BASIC_STATS</base>
+	<trans>Базовая статистика</trans>
+    </entry>
+    <entry>
+	<base>RECIP_STATS</base>
+	<trans>Статистика по получателям</trans>
+    </entry>
+    <entry>
+	<base>RECIP_HOSTS</base>
+	<trans>Узлы получателей</trans>
+    </entry>
+    <entry>
+	<base>RECIP_ORDERED</base>
+	<trans>Получатели, упорядоченные по списку адресатов</trans>
+    </entry>
+    <entry>
+	<base>SENDER_STATS</base>
+	<trans>Статистика по отправителям</trans>
+    </entry>
+    <entry>
+	<base>SENDMAIL_STYLE</base>
+	<trans>Стиль логов Sendmail</trans>
+    </entry>
+    <entry>
+	<base>REASONS_SUCCESS</base>
+	<trans>Причины успехов</trans>
+    </entry>
+    <entry>
+	<base>SENDER_UIDS</base>
+	<trans>UIDS отправителей</trans>
+    </entry>
+    <entry>
+	<base>INVALID_REPORT_TYPE</base>
+	<trans>Неверный тип отчёта:</trans>
+    </entry>
+    <entry>
+	<base>REPORT_GENERATED</base>
+	<trans>Отчёт создан:</trans>
+    </entry>
+    <entry>
+	<base>END_OF_REPORT</base>
+	<trans>Конец отчёта</trans>
+    </entry>
+    <entry>
+	<base>Mail log file analysis</base>
+	<trans>Анализ почтовых лог файлов</trans>
+    </entry>
+
+</lexicon>

@@ -1,0 +1,242 @@
+<lexicon lang="da">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Oprette, ændre eller fjerne brugerkonti</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> <a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">Tilføj brugerkonto</a> </p> <p> Du kan ændre, låse, fjerne brugerkonti eller skifte adgangskoden ved at klikke på den aktuelle kommando ud for brugernavnet. </p> <p> Hvis brugerkontoen er markeret som låst, betyder det, at brugerens adgangskode skal skiftes. Bemærk venligst at nyoprettede konti automatisk er låst indtil adgangskoden er skiftet. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>P2_TITLE</base>
+        <trans>Oprette eller ændre</trans>
+    </entry>
+    <entry>
+        <base>CREATE_MODIFY_DESC</base>
+        <trans><![CDATA[ <p> Brugernavnet må kun indeholde små bogstaver, tal, bindestreg, punktum, understregningskode og skal starte med lille bogstev. F.eks. er "betty", "hjohnson" og "mary-jane" alle gyldige brugernavne, mens "3venner", "John Smith" og "henry:miller" er ugyldige. </p> <p> Bemærk, at der vil blive dannet 2 specielle pseudonymer for hvert nyt brugernavn. Disse pseudonymer giver brugeren mulighed for alternative e-postadresser, som indeholder brugerens fornavn og efternavn, adskilt med et punktum (.) og et understregningstegn (_). For brugernavnet "betty" med fornavn "Betty" og efternavn "Rubble" dannes 2 pseudonymer, betty.rubble og betty_rubble. </p> <p> Adresseinformation (afdeling, virksomhed og så videre) kan ændres fra de viste standardværdier. Ændringerne gælder kun den enkelte bruger. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MODIFY_ADMIN_TITLE</base>
+        <trans>Ændre administratorkonto</trans>
+    </entry>
+    <entry>
+        <base>USER_CREATED</base>
+        <trans>Brugerkontoen er oprettet.</trans>
+    </entry>
+    <entry>
+        <base>USER_MODIFIED</base>
+        <trans>Brugerkontoen er ændret.</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER</base>
+        <trans>FEJL: Der skete en intern fejl i forbindelse med forsøget på at ændre brugeren "{$acctName}".</trans> 
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER_GROUPS</base> 
+        <trans>FEJL: Der er sket en intern fejl i forbindelse med forsøget på at ændre gruppen "{$group}" for brugeren "{$acctName}".</trans>
+    </entry>
+    <entry>
+        <base>TAINTED_USER</base>
+        <trans>Brugernavnet "{$acctName}" indeholder ugyldige tegn.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME</base>
+        <trans>Brugernavn</trans>
+    </entry>
+    <entry>
+        <base>FIRSTNAME</base>
+        <trans>Fornavn</trans>
+    </entry>
+    <entry>
+        <base>LASTNAME</base>
+        <trans>Efternavn</trans>
+    </entry>
+    <entry>
+        <base>DEPARTMENT</base>
+        <trans>Afdeling</trans>
+    </entry>
+    <entry>
+        <base>COMPANY</base>
+        <trans>Virksomhedsnavn</trans>
+    </entry>
+    <entry>
+        <base>STREET_ADDRESS</base>
+        <trans>Adresse</trans>
+    </entry>
+    <entry>
+        <base>CITY</base>
+        <trans>Postnr. og by</trans>
+    </entry>
+    <entry>
+        <base>PHONE_NUMBER</base>
+        <trans>Telefonnummer</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_DELIVERY</base>
+        <trans>Postlevering</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_EMAIL_LOCALLY</base>
+        <trans>Aflever post lokalt</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_EMAIL</base>
+        <trans>Videresend til adressen nedenfor</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_AND_FORWARD</base>
+        <trans>Aflever lokalt og videresend</trans>
+    </entry>
+    <entry>
+        <base>FORWARDING_ADDRESS</base>
+        <trans>Adresse til videresendelse</trans>
+    </entry>
+    <entry>
+        <base>GROUP_MEMBERSHIPS</base>
+        <trans>Gruppemedlemskab</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC</base>
+        <trans>Du er ved at skifte adgangskoden for brugerkontoen</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC2</base>
+        <trans>Indtast ny adgangskode i felterne nedenfor</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_MODIFYING_PASSWORD</base>
+        <trans>Der er sket en fejl under opdatering af adgangskoden</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE_SUCCEEDED</base>
+        <trans>Adgangskoden er skiftet for bruger "{$acctName}".</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC</base>
+        <trans>Du er ved at låse brugerkontoen</trans>
+    </entry>
+    <entry>
+        <base>LOCKED_ACCOUNT</base>
+        <trans>Kontoen er låst for bruger "{$acctName}".</trans>
+    </entry>
+    <entry>
+        <base>NO_SUCH_USER</base>
+        <trans>Fejl: Brugerkonto "{$acctName}" findes ikke.</trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM_CLASH</base>
+        <trans>Fejl: Pseudonymet "{$pseudonym}" bruges allerede af brugerkonto "{$clashName}". For at lave en forskel kan du evt. tilføje initialer i dette felt.</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT</base>
+        <trans>Lås konto</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT_TITLE</base>
+        <trans>Lås brugerkonto</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC2</base>
+        <trans><![CDATA[ Denne brugerkonto vil blive låst, så brugeren ikke kan logge ind og ikke vil være i stand til at hente e-post. Post til brugeren vil blive gemt og/eller videresendt til en ekstern e-postadresse ifølge opsætningen. Kontoen aktiveres igen ved at skifte adgangskoden. Den aktuelle adgangskode vil ikke blive bevaret. </p> <p> <b>Er du sikker på, at du vil låse denne konto?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>REMOVE_ACCOUNT_TITLE</base>
+        <trans>Fjerne brugerkonto</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Du er ved at fjerne brugerkontoen</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans><![CDATA[ Alle filer tilhørende denne brugerkonto vil blive slettet. Endvidere, alle e-mail for denne brugerkonto, som stadig ligger på serveren (det vil sige e-mails som endnu ikke er hentet af brugeren) vil blive slettet</p> <p> <b>Er du sikker på, at du ønsker at fjerne denne brugerkonto?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>LOCK</base>
+        <trans>Lås</trans>
+    </entry>
+    <entry>
+        <base>NO_USER_ACCOUNTS</base>
+        <trans>Der er ingen brugerkonti på dette system.</trans>
+    </entry>
+    <entry>
+        <base>Users</base>
+        <trans>Brugere</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>Brugerkontoen "{$acctName}" indeholder ugyldige tegn. Brugerkontoen skal starte med små bogstaver, og må kun indeholde små bogstaver, tal, punktum, bindestreg og understregningskode.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_TOO_LONG</base>
+        <trans>Fejl: Kontonavnet er for langt. Maksimum er {$maxLength} tegn.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>Fejl: Kontoen "{$account}" kan ikke oprettes. Der findes allerede en {$type} konto med det navn.</trans>
+    </entry>    
+    <entry>
+        <base>ERR_OCCURRED_CREATING</base>
+        <trans>Der opstod en fejl under oprettelse af brugeren.</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_CONTAIN_WHITESPACE</base>
+        <trans>Dette felt må ikke indeholde mellemrum</trans>
+    </entry>
+    <entry>
+        <base>UNACCEPTABLE_CHARS</base>
+        <trans>Dette felt skal starte med et bogstav, og må kun indeholde bogstaver, tal, punktum, bindestreg og understregningskode</trans>
+    </entry>
+    <entry>
+        <base>MEMBER</base>
+        <trans>Medlem?</trans>
+    </entry>
+    <entry>
+        <base>VPN_CLIENT_ACCESS</base>
+        <trans>VPN-klient adgang</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_FORM_TITLE</base>
+        <trans>Skift systemadgangskode</trans>
+    </entry>    
+    <entry> 
+        <base>SYSTEM_PASSWORD_DESCRIPTION</base>
+        <trans><![CDATA[ Bestemte tjenester på denne server forudsætter brugernavn og adgangskode (f.eks. denne webside til serverstyringen). Brugernavnet er altid admin. Du kan skifte systemadgangskoden ved at bruge felterne nedenfor. ]]></trans>        
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS</base>
+        <trans>Adgangskoden skal indeholde skrivelige tegn</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_VERIFY_ERROR</base>
+        <trans>De to adgangskoder er ikke identiske.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_AUTH_ERROR</base>
+        <trans>Forkert adgangskode.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_CHANGED</base>
+        <trans>Systemadgangskoden er ændret.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_SYSTEM_PASSWORD</base>
+        <trans>Aktuel systemadgangskode</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD</base>
+        <trans>Ny systemadgangskode</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD_VERIFY</base>
+        <trans>Ny systemadgangskode (bekræft)</trans>
+    </entry>            
+    <entry>
+        <base>LABEL_IPSECRW_DOWNLOAD</base>
+        <trans>Hent digitalt certifikat til IPSEC-klient</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_DELETING</base>
+        <trans>Der opstod en fejl under forsøg på sletning af bruger.</trans>
+    </entry>
+</lexicon>

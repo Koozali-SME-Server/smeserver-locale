@@ -1,0 +1,171 @@
+<lexicon lang="th">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>แก้ไขการตั้งค่า  remote access</trans>
+    </entry>	
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans>การตั้งค่าเป็น private จะเปิดให้ทุกคนในเครือข่ายท้องถิ่นสามารถเข้าถึงเซิร์ฟเวอร์ได้ การตั้งเป็น public จะเปิดให้สามารถเข้าถึงได้จากอินเตอร์เน็ต  ตั้งเป็น no access จะเป็นการปิดไม่ให้เข้าถึงได้ โปรดทราบว่ามันจะมีผลกระทบต่อความปลอดภัยหากเปลี่ยนค่าไปจากค่าตั้งต้นที่ให้มา คุณควรศึกษาจากคู่มือผู้ใช้เรื่อง remote access ก่อนทำการแก้ไข</trans>	
+    </entry>
+    <entry>
+	<base>SUCCESS</base>
+	<trans>ข้อมูลใหม่ของการตั้งค่า remote access   ถูกบันทึกแล้ว</trans>
+    </entry>
+    <entry>
+	<base>NO_ACCESS</base>
+	<trans>ไม่เปิดให้เข้าถึง</trans>
+    </entry>
+    <entry>
+	<base>PASSWORD_LOGIN_PRIVATE</base>
+	<trans>เปิดรับเฉพาะจากเครือข่ายท้องถิ่นโดยใช้รหัสผ่าน</trans>
+    </entry>
+    <entry>
+	<base>PASSWORD_LOGIN_PUBLIC</base>
+	<trans>เปิดรับจากทุกที่โดยใช้รหัสผ่าน</trans>
+    </entry>
+    <entry>
+	<base>LABEL_TELNET_ACCESS</base>
+	<trans>การเข้าถึงผ่าน telnet</trans>
+    </entry>
+    <entry>
+	<base>LABEL_FTP_ACCESS</base>
+	<trans>การเข้าถึงแบบ FTP</trans>
+    </entry>
+    <entry>
+	<base>LABEL_FTP_LOGIN</base>
+	<trans>การเข้าถึงจาก FTP โดยใช้รหัสผ่าน</trans>
+    </entry>
+    <entry>
+	<base>LABEL_PPTP</base>
+	<trans>ตัวเลขจำนวน PPTP clients</trans>
+    </entry>
+     <entry>
+       <base>NUMBER_OF_VPN_CLIENTS_MUST_BE_LESSER_THAN_NUMBER_OF_IP_IN_DHCP_RANGE</base>
+       <trans>The number of VPN clients is greater than the number of reserved IP for DHCP. You should take a smaller number.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SSH_PORT</base>
+        <trans>หมายเลขพอร์ท TCP ของการเข้าถึงแบบ secure shell </trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH</base>
+	<trans>เข้าถึงแบบ secure shell</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH_ADMIN</base>
+	<trans>อนุญาตให้ใช้คำสั่งจัดการระบบ (administrative command line) ผ่าน secure shell</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH_PASSWORD_ACCESS</base>
+	<trans>อนุญาตให้เข้าถึง secure shell โดยใช้รหัสผ่านแบบ standard</trans>
+    </entry>
+    <entry>
+	<base>DESC_SSH</base>
+	<trans><![CDATA[ <hr class="sectionbar" /> <h2>ตั้งค่า Secure Shell</h2>คุณสามารถควบคุมการเข้าถึงแบบ ของเซิร์ฟเวอร์นี้ของคุณได้ การเปิดให้เข้าถึงแบบสาธารณะควรเปิดให้ใช้เฉพาะกับผู้ดูแลระบบที่มีความชำนาญ เพื่อใช้ในการตรวจสอบหาและแก้ไขความผิดปกติของระบบจากภายนอก เราแนะนำให้คุณปล่อยเป็น "No Access" เอาไว้ตามค่าตั้งต้น ยกเว้นหากคุณมีความประสงค์เป็นอย่างอื่น ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_FTP_ACCESS</base>
+	<trans><![CDATA[ <hr class="sectionbar" /><h2>FTP Settings</h2>คุณสามารถควบคุมการเข้าถึง  <b>FTP</b> ของเซิร์ฟเวอร์นี้ของคุณ เราแนะนำให้ปล่อยค่าให้เป็น 'no access' เอาไว้ยกเว้นหากคุณมีเหตุผลในการตั้งค่าเป็นอย่างอื่น <p> หมายเหตุ: การการตั้งค่าเหล่านี้จะเป็นการจำกัดการเข้าถึงเซิร์ฟเวอร์ และจะมีผลเหนือการตั้งค่าอื่นๆ รวมถึงค่าที่ตั้งไว้ของ information bays แต่ละตัวด้วย</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_FTP_LOGIN</base>
+	<trans><![CDATA[ คุณสามารถควบคุมการเข้าถึง authenticated FTP ของ information bays และบัญชีผู้ใช้ได้ เราแนะนำอย่างยิ่งว่าควรปล่อยการตั้งค่าให้เป็น private เอาไว้ ยกเว้นคุณมีเหตุผลอื่นที่จะใช้งาน<p>หมายเหตุ: เซิร์ฟเวอร์นี้สามารถทำการเข้าถึงแบบ secure shell sftp ได้หากเปิดใช้การเข้าถึงแบบ secure shell เอาไว้ การเข้าถึงแบบนี้จะช่วยปกป้องข้อมูลและรหัสผ่านที่ของคุณขณะทำการสื่อสารผ่านการเชื่อมต่อ FTP นั้นๆ ซึ่งจะไม่มีในการการสื่อสารผ่าน FTP แบบปกติ</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_PPTP</base>
+	<trans><![CDATA[ <hr class="sectionbar" /><h2>ตั้งค่า PPTP</h2>คุณสามารถให้เข้าถึงเซิร์ฟเวอร์นี้ผ่าน PPTP ได้ กรอกตัวเลขจำนวนการเข้าถึงผ่าน PPTP สูงสุดที่ต้องการเปิดที่นี่ หรือกรอก 0 หากต้องการปิดการใช้งาน ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_VPN</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>ตั้งค่า PPTP</h2>คุณสามารถให้เข้าถึงเซิร์ฟเวอร์นี้ผ่าน PPTP ได้ กรอกตัวเลขจำนวนการเข้าถึงผ่าน PPTP สูงสุดที่ต้องการเปิดที่นี่ หรือกรอก 0 หากต้องการปิดการใช้งาน ]]></trans>
+    </entry>
+    <entry>
+	<base>VALUE_ZERO_OR_POSITIVE</base>
+	<trans>ต้องเป็นตัวเลขเต็มบวก หรือ 0</trans>
+    </entry>
+    <entry>
+	<base>REMOTE_MANAGEMENT</base>
+	<trans>Remote Management</trans>
+    </entry>
+    <entry>
+	<base>VALIDFROM_DESC</base>
+	<trans><![CDATA[ <hr class="sectionbar" /><h2>{$REMOTE_MANAGEMENT}</h2> <p>คุณสามารถเปิดให้โฮสต์จาก remote networks สามารถเข้าถึงเซิร์ฟเวอร์นี้ได้โดยกรอกข้อมูลเครือข่ายเหล่านั้นด้านล่าง Use a subnet mask of 255.255.255.255 to limit the access to the specified host. Any hosts within the specified range will be able to access the server manager using HTTPS.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_VALID_FROM_ENTRIES</base>
+	<trans>กรอกข้อมูลด้านล่าง เพื่อเพิ่มข้อมูล remote management network</trans>
+    </entry>
+    <entry>
+	<base>SUBNET_MASK</base>
+	<trans>Subnet mask</trans>
+    </entry>
+    <entry>
+	<base>NUM_OF_HOSTS</base>
+	<trans>จำนวนของโฮสท์</trans>
+    </entry>
+    <entry>
+	<base>NO_ENTRIES_YET</base>
+	<trans>ยังไม่มีการกรอกข้อมูล</trans>
+    </entry>
+    <entry>
+	<base>INVALID_SUBNET_MASK</base>
+	<trans>subnet mask ไม่ถูกต้อง</trans>
+    </entry>
+    <entry>
+	<base>ERR_INVALID_PARAMS</base>
+	<trans>กรอกทั้ง network และ subnet mask หรือไม่กรอกทั้งสอง</trans>
+    </entry>
+    <entry>
+	<base>ERR_NO_RECORD</base>
+	<trans>ไม่พบข้อ httpd-admin record  ใน configuration db</trans>
+    </entry>
+    <entry>
+	<base>Remote access</base>
+	<trans>Remote access</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERIAL_CONSOLE_ACCESS</base>
+        <trans>Serial console</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERIAL_CONSOLE_ACCESS</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Serial console</h2>คุณสามารถเปิดใช้งาน server console จากเทอร์มินัลที่ต่อกับซีเรียลพอร์ตของเซิร์ฟเวอร์ได้  ]]></trans>
+    </entry>
+    <entry>
+        <base>PORT1_ENABLED</base>
+        <trans>เปิดใช้ซีเรียลพอร์ต 1</trans>
+    </entry>
+    <entry>
+        <base>PORT2_ENABLED</base>
+        <trans>เปิดใช้ซีเรียลพอร์ต 2</trans>
+    </entry>   
+
+    <entry>
+        <base>LABEL_PPTP_ACCESS</base>
+        <trans>ค่าเริ่มต้นของการเข้าถึง PPTP ของผู้ใช้</trans>
+    </entry>
+    <entry>
+        <base>DESC_TELNET_ACCESS</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>การตั้งค่า telnet</h2> คำเตือน: ขณะนี้การเข้าถึงแบบ telnet ถูกเปิดไว้ แต่คุณสมบัตินี้ไม่ได้รับการสนับสนุนให้ใช้แล้ว การเข้าถึงแบบ telnet มีความไม่ปลอดภัยในตัวของมันและควรถูกใช้ในกรณีที่ไม่ทางเลือกอื่นที่ดีกว่า คุณควรเลือกตั้งให้เป็น {$NO_ACCESS} และใช้งาน secure shell แทนหากจไเป็นต้องใช้การ remote access, Once disabled, telnet will no longer appear on this screen. ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_IPSECRW</base>
+	<trans><![CDATA[ <h2>ตั้งค่า IPSEC Client (Roadwarrior)</h2> คุณสามารถเปิดให้ผู้ใช้เข้าถึงเซิร์ฟเวอร์นี้ของคุณผ่าน IPSEC client access ได้ โดยการตรวจสอบสิทธิ์จะกระทำผ่านใบรับรองดิจิตอล (digital certificates) การปิดการใช้งานนี้ทำได้โดยกรอกตัวเลขเป็น 0 ยกเว้นหาคุณมีความประสงค์ที่จะให้ใช้ IPSEC client access ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_IPSECRW_SESS</base>
+	<trans> ตัวเลขจำนวน IPSEC clients</trans>
+    </entry>
+    <entry>
+	<base>DESC_IPSECRW_RESET</base>
+	<trans><![CDATA[ คุณสามารถทำการรีเซ็ต ใบรับรองดิจิตอล (digital certificates) ได้ที่นี่<br>การรับรองอันเดิมทั้งหมดจะไม่สามารถใช้เพื่อเข้าถึงเซิรฟเวอร์นี้ได้อีกต่อไป ดังนั้น <b><i>เครื่อง IPSEC clients ทุกเครื่องต้องทำการนำเข้า (import) ใบรับรองอันใหม่!</i></b>. ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_IPSECRW_RESET</base>
+	<trans>รีเซ็ตใบรับรองดิจิตอล (digital certificates)</trans>
+    </entry>
+    <entry>
+        <base>DESC_IPSEC_VPN_UNAVAILABLE</base>
+        <trans>IPSEC VPN is not installed. Please install the contrib if you need VPN access.</trans>
+    </entry>
+</lexicon>

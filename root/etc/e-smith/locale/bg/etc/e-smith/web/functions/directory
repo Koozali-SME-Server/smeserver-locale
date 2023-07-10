@@ -1,0 +1,79 @@
+<lexicon lang="bg">
+   <entry>
+     <base>FORM_TITLE</base>
+       <trans>Промяна на настройките на LDAP директорията</trans>
+   </entry>	
+<entry>
+<base>LABEL_ROOT</base>
+<trans>Server root</trans>
+</entry>
+
+<entry>
+<base>DESCRIPTION</base>
+<trans>LDAP сървъра предоставя достъпен по мрежа списък на потребителските акаунти и групи от Вашия сървър и може да бъде достъпван като се използва LDAP-клиент като функционалността "Адресна книга" в Netscape Communicator. Настройте Вашия LDAP-клиент е локалния IP адрес на сървъра Ви, номер на порта 389 и параметъра "server root" както е показано по-долу.</trans>
+</entry>
+<entry>
+<base>DESC_DIRECTORY_ACCESS</base>
+<trans>Можете да управлявате достъпа до Вашия LDAP директория: "вътрешен" (private) Ви позволява достъп само от локалната мрежа, а "публичен" (public) позволява достъп от всяко място в интернет.</trans>
+</entry>
+<entry>
+<base>DIRECTORY_ACCESS</base>
+<trans>Достъп до LDAP директорията</trans>
+</entry>
+<entry>
+	<base>DESC_DEPARTMENT</base>
+<trans>Тези полета са подразбиращите се данни за LDAP във Вашата организация. Когато създавате нов акаунт ще бъдете питани да въведете всички тези полета (те могат да бъдат различни за всеки от потребителите), но стойностите въведени тук ще се покажат като подразбиращи се. Това е удобство за да бъде по-бързо създаването на потрбителски акаунти.</trans>
+</entry>
+<entry>
+        <base>DEPARTMENT</base>
+        <trans>Подразбиращ се отдел</trans>
+</entry>
+
+<entry>
+        <base>COMPANY</base>
+        <trans>Подразбираща се фирма</trans>
+</entry>
+<entry>
+        <base>STREET</base>
+        <trans>Подразбиращ се адрес</trans>
+</entry>
+
+<entry>
+        <base>CITY</base>
+        <trans>Подразбиращ се град</trans>
+</entry>
+
+<entry>
+        <base>PHONENUMBER</base>
+        <trans>Подразбиращ се телефонен номер</trans>
+</entry>
+
+<entry>
+<base>DESC_EXISTING</base>
+<trans>Можете или да оставите съществуващите потребителски акаунти както са, като използвате дадените по-горе подразбиращи се само за новите потрбители или можете да ги зададете на всички съществуващи потребители.</trans>
+</entry>
+
+
+
+<entry>
+<base>EXISTING</base>
+<trans>За съществуващите потрбители</trans>
+</entry>
+<entry>
+<base>SUCCESS</base>
+<trans>Новите подразбиращи се настройки на LDAP бяха записани.</trans>
+</entry>
+
+<entry>
+<base>LEAVE</base>
+<trans>Да останат както са</trans>
+</entry>
+<entry>
+<base>UPDATE</base>
+<trans>Актуализане с новите подразбиращи</trans>
+</entry>
+    <entry>
+        <base>Directory</base>
+        <trans>Директория</trans>
+    </entry>
+</lexicon>

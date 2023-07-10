@@ -1,0 +1,749 @@
+<lexicon lang="id">
+  <entry>
+   <base>BACKUP_TITLE</base>
+   <trans>Backup atau restore data server</trans>
+  </entry>
+  <entry>
+   <base>BACKUP_DESC</base>
+   <trans><![CDATA[ <P>Server menyediakan dua cara untuk membackup dan me-restore server: : menggunakan desktop lokal atau sebuah tape drive.</P> <P>Metode pertama membuat salinan dari konfigurasi server dan file data pengguna, dan mengunduhnya pada desktop lokal anda melalui web browser anda. Saat ini total file konfigurasi dan data sekitar <b>$tarsize</b>. File backup akan sedikit lebih kecil dari ini, tergantung seberapa bisa data dimampatkan . Pilihan \"Periksa file backup dekstop\" option dapat digunakanuntuk memeriksa integritas dari sebuah file backup.</P> <P>Metode tape backup menggunakan paket perangkat lunak <I>$module</I> untuk membackup seluruh harddisk kedalam tape setiap malam. Ini memerlukan tape drive yang di-support dan sebuah tape yang tidak di write-protect. Backup dilakukan secara otomatis pada waktu yang ditentukan setiap malam (dengan reminder yang secara otomatis di e-mailed kepada administrator pada hari berikutnya). Saat ini harddisk anda berisi data <b>$dumpsize</b> .</P> <P>Kedua metode restore membolehkan anda untuk me-restore file konfigurasi dan data pengguna. <b>Sebaiknya, restore dilakukan pada server yang baru di-install</b>.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_DESC_DAR</base>
+   <trans><![CDATA[ <P>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</P> <P>Tape Backup. This method uses a software package called <I>$module</I> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>$dumpsize</b> of data.</P> <P>Workstation backup. This method uses a software package called <I>dar</I> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>$tarsize</b> uncompressed. Twice the compressed data size must be available on the backup share.</P> <P>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>$tarsize</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</P> <P>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_CONFIG_STATUS</base>
+   <trans>Konfigurasi dan status backup</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUPS_ENABLED</base>
+   <trans><![CDATA[ Backup Tape saat ini di <b>enabled</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUPS_RUN_AT</base>
+   <trans>Tape backup akan dijalankan secara teratur pada:</trans>
+  </entry>
+  <entry>
+   <base>REMINDER_MESSAGE_AT</base>
+   <trans>Pesan pengingat akan dikirim pada:</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUPS_DISABLED</base>
+   <trans><![CDATA[ Backups Tape di <b>disabled</b> ]]></trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_BACKUP</base>
+   <trans>Backup ke desktop</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_RESTORE</base>
+   <trans>Restore dari desktop</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_VERIFY</base>
+   <trans>Verifikasi file backup desktop</trans>
+  </entry>
+  <entry>
+   <base>TAPE_CONFIGURE</base>
+   <trans>Konfigurasi pita backup</trans>
+  </entry>
+  <entry>
+   <base>TAPE_RESTORE</base>
+   <trans>Restore dari pita</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS_BEGAN_AT</base>
+   <trans>Sistem restore sedang berlangsung. Dimulai pada:</trans>
+  </entry>
+  <entry>
+   <base>REFRESH_THIS_DISPLAY</base>
+   <trans>Refresh display ini</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_TAPE_BACKUP</base>
+   <trans>Konfigurasi pita backup</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_COMPLETED</base>
+   <trans>Sistem restore telah selesai</trans>
+  </entry>
+  <entry>
+   <base>STARTED_AT</base>
+   <trans>Dimulai pada:</trans>
+  </entry>
+  <entry>
+   <base>FINISHED_AT</base>
+   <trans>dan selesai pada:</trans>
+  </entry>
+  <entry>
+   <base>YOU_MUST_REBOOT</base>
+   <trans>Anda harus tutup-padam server untuk meng-aktivasi perubahan konfigurasi yang telah terjadi sebagai akibat dari sistem restore.</trans> 
+  </entry> 
+  <entry>
+   <base>REBOOT</base>
+   <trans>Re-boot</trans>
+  </entry>
+  <entry>
+   <base>SELECT_AN_ACTION</base>
+   <trans>Pilih aksi</trans>
+  </entry>
+  <entry>
+   <base>X_BACKUP_OR_RESTORE</base>
+   <trans>X Backup atau restore data server</trans>
+  </entry>
+  <entry>
+   <base>ERR_PRE_BACKUP</base>
+   <trans>Terjadi kesalahan saat melakukan pre-backup.</trans>
+  </entry>
+  <entry>
+   <base>ERR_PRE_RESTORE</base>
+   <trans>Error terjadi saat melakukan pre-restore.</trans>
+  </entry>
+  <entry>
+   <base>ERR_POST_BACKUP</base>
+   <trans>Terjadi kesalahan saat melakuka post-backup.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_SERVER_CONFIG</base>
+   <trans>Restore konfigurasi server</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_RESTORE_DESC</base>
+   <trans><![CDATA[ Proses ini akan meng-upload file  backup dari desktop lokal anda ke server dan me-restore konfigurasi dan data pengguna.  <B>Restore harus dilakukan pada server yang baru diinstall</B>. ]]></trans>
+  </entry>
+  <entry>
+   <base>FREE_SPACE</base>
+   <trans><![CDATA[ Anda memiliki ruang kosong sekitar $tmpfree di server. Periksa kembali apakah file backup dekstop lebih kecil dari $halffree sebelum menjalankan restore. ]]></trans>
+  </entry>
+  <entry>
+   <base>MUST_REBOOT_AFTER_RESTORE</base>
+   <trans>Setelah restore selesai anda harus me-reboot server</trans>
+  </entry>
+  <entry>
+   <base>FILE_TO_RESTORE</base>
+   <trans>File backup yang akan direstore dari</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Pilihan ini akan menampilkan nama dari semua file di dalam file backup yang telah dibuat sebelumnya. Anda dapat menggunakan opsi ini untuk memeriksa isi dari file backup.</p> <p>File terakhir yang ada didalam file backup adalah file yang bernama "smbpasswd".</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>SELECT_BACKUP_FILE</base>
+   <trans>Pilih file backup</trans>
+  </entry>
+  <entry>
+   <base>VERIFY</base>
+   <trans>Verifikasi</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CANNOT_PROCEED</base>
+   <trans>Tidak dapat menjalankan restore konfigurasi server.</trans>
+  </entry>
+  <entry>
+   <base>ANOTHER_RESTORE_IN_PROGRESS</base>
+   <trans>Proses restore sedang berlangsung. Silakan coba lagi nanti.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS</base>
+   <trans>Restore sedang berlangsung</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS_DESC</base>
+   <trans>Setelah proses restore selesai anda harus me-reboot server. Proses restore selesai saat /etc/smbpasswd telah di restore dan tampak tulisan "Restore selesai"  di bagian bawah layar anda.</trans>
+  </entry>
+  <entry>
+   <base>FILES_HAVE_BEEN_RESTORED</base>
+   <trans>File dan direktori berikut telah di-restore</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FAILED_MSG</base>
+   <trans>Restore gagal! Terjadi kesalahan dalam membaca file backup.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_COMPLETE</base>
+   <trans>Restore selesai</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_GID</base>
+   <trans>Terjadi kesalahan saat me-restore gid dari 'www'</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_INITIAL_GRP</base>
+   <trans>Terjadi kesalahan saat me-restore initial group dari 'www'.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FAILED</base>
+   <trans>Restore gagal! File backup tidak lengkap.</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_EXEC_PIPELINE</base>
+   <trans>Tidak dapat menjalankan backup pipeline:</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_DECODE</base>
+   <trans>Tidak dapat men-dekode file backup:</trans>
+  </entry>
+  <entry>
+   <base>FILES_IN_BACKUP</base>
+   <trans>File berikut ini terdapat dalam file backup:</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_COMPLETE</base>
+   <trans>Verifikasi selesai</trans>
+  </entry>
+  <entry>
+   <base>BACKUP_FILE_INCOMPLETE</base>
+   <trans>File backup tidak lengkap</trans>
+  </entry>
+  <entry>
+   <base>ERR_READING_FILE</base>
+   <trans>Terjadi kesalahan membaca file backup.</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_DISABLE_TAPE</base>
+   <trans>Enable/Disable Backup Pita Malam Hari</trans>
+  </entry>
+  <entry>
+   <base>TAPE_CONFIG_DESC</base>
+   <trans><![CDATA[ <p>Pilih apakan anda ingin meng-enable backup tiap malam. Kemudian tentukan jam untuk mem-backup dan reminder untuk memasang pita.</p> <p>Tape backup memerlukan tape drive yang didukung. Pesan peringatan akan dikirim kepada administrator pada saat yang ditentukan jika tape drive kosong.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>ENABLE_TAPE_BACKUP</base>
+   <trans>Enable backup pita</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUP_TIME</base>
+   <trans>Waktu melakukan backup (Jam/Menit)</trans>
+  </entry>
+  <entry>
+   <base>LOAD_TAPE_REMINDER_TIME</base>
+   <trans>Waktu Pengingat load pita (jam/menit)</trans>
+  </entry>
+  <entry>
+   <base>AM/PM</base>
+   <trans>AM/PM</trans>
+  </entry>
+  <entry>
+   <base>AM</base>
+   <trans>AM</trans>
+  </entry>
+  <entry>
+   <base>PM</base>
+   <trans>PM</trans>
+  </entry>
+  <entry>
+   <base>UPDATE_CONF</base>
+   <trans>Update</trans>
+  </entry>
+  <entry>
+   <base>UPDATING_TAPE_CONF</base>
+   <trans>Meng-update konfigurasi tape backup</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_HOUR</base>
+   <trans>Error: jam backup salah:</trans>
+  </entry>
+  <entry>
+   <base>BETWEEN_0_AND_12</base>
+   <trans>Pilih jam antara 0 dan 12.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_MINUTE</base>
+   <trans>Error: Menit backup salah:</trans>
+  </entry>
+  <entry>
+   <base>BETWEEN_0_AND_59</base>
+   <trans>Silakan pilih menit antara 0 dan 59.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_REMINDER_HOUR</base>
+   <trans>Error: jam pengingat salah:</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_REMINDER_MINUTE</base>
+   <trans>Error: menit pengingat salah:</trans>
+  </entry>
+  <entry>
+   <base>ERR_CONF_BACKUP</base>
+   <trans>Terjadi kesalahan pada event conf-backup.</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_ENABLED_TAPE</base>
+   <trans>Tape backup berhasil diaktifkan</trans>
+  </entry>
+  <entry>
+   <base>WITH_BACKUP_TIME</base>
+   <trans>dengan waktu backup:</trans>
+  </entry>
+  <entry>
+   <base>WITH_REMINDER_TIME</base>
+   <trans>dan waktu pengingat load pita:</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_DISABLED</base>
+   <trans>Berhasil men-disable tape backup</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_TAPE</base>
+   <trans>Restore konfigurasi server dari tape backup</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_TAPE_DESC</base>
+   <trans><![CDATA[ <p>Proses ini akan me-restore konfigurasi dan data pengguna dari sebuah backup tape. <B>Restore harus dilakukan pada server yang baru saja di-install.</B>.</p> <p>Pastikan bahwa anda sudah memasukkan backup tape yang benar kedalam tape drive sebelum melanjutkan.</p> <p>Setelah proses restore selesai, anda harus me-reboot server.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FROM_TAPE</base>
+   <trans>Restore Dari Tape</trans>
+  </entry>
+  <entry>
+   <base>UNABLE_TO_RESTORE_CONF</base>
+   <trans>Tidak dapat me-restore konfigurasi server</trans>
+  </entry>
+  <entry>
+   <base>RESTORING_FROM_TAPE</base>
+   <trans>Sedang me-restore dari Tape</trans>
+  </entry>
+  <entry>
+   <base>NOW_RESTORING_FROM_TAPE</base>
+   <trans>Konfigurasi server dan berkas data pengguna sedang di-restore dari tape.</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_FROM_TAPE</base>
+   <trans>Gagal me-restore dari tape.</trans>
+  </entry>
+  <entry>
+   <base>ERR_UPDATING_CONF_AFTER_TAPE_RESTORE</base>
+   <trans>Gagal saat meng-update konfigurasi sistem setelah restore dari tape.</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_FORK</base>
+   <trans>Tidak dapat melakukan fork:</trans>
+  </entry>
+  <entry>
+   <base>SERVER_REBOOT</base>
+   <trans>Server reboot</trans>
+  </entry>
+  <entry>
+   <base>SERVER_WILL_REBOOT</base>
+   <trans>Server akan reboot sekarang</trans>
+  </entry>
+  <entry>
+   <base>NO_UID_FOR_NAME</base>
+   <trans>Tidak dapat mengambil uid untuk user:</trans>
+  </entry>
+  <entry>
+   <base>PAGE_REFRESH_IN</base>
+   <trans><![CDATA[ Halaman ini akan me-refresh ke display status dalam {$sec} detik, atau klik<a href="/server-manager/cgi-bin/backup">di sini</a>. ]]></trans>
+  </entry>
+    <entry>
+	<base>Backup or restore</base>
+	<trans>Backup atau restore</trans>
+    </entry>
+
+  <entry>
+	<base>BACKUP_DESKTOP_TOO_BIG</base>
+	<trans><![CDATA[ <div class="error"> Terlalu banyak data pada server untuk backup ke desktop. </div> ]]></trans>
+  </entry>
+   <entry>
+   <base>WORKSTN_BACKUPS_DISABLED</base>
+   <trans><![CDATA[ Workstation backups di <b>disabled</b> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUPS_ENABLED</base>
+   <trans><![CDATA[ Workstation backups saat ini di <b>enabled</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>WKBACKUPS_RUN_AT</base>
+   <trans>Workstation Backup secara teratur dilakukan pada:</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_CONFIGURE</base>
+   <trans>Pengaturan workstation backup</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_VERIFY</base>
+   <trans>Periksa workstation backup</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_RESTORE</base>
+   <trans>Restore dari workstation</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_WORKSTN_BACKUP</base>
+   <trans>Pengaturan Workstation Backup</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_DISABLE_WORKSTN</base>
+   <trans>Enable/Disable Workstation Backup harian</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_WORKSTN_BACKUP</base>
+   <trans>Enable Workstation Backup</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TIME</base>
+   <trans>Waktu melakukan Workstation backup (jam/menit)</trans>
+  </entry>
+  <entry>
+   <base>UPDATING_WORKSTN_CONF</base>
+   <trans>Meng-update konfigurasi workstation backup</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_ENABLED_WORKSTN</base>
+   <trans>Workstation backup berhasil diaktifkan</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_DISABLED_WORKSTN</base>
+   <trans>Berhasil men-disable workstation backup</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_WORKSTN_BACKUP_FILE</base>
+   <trans>Periksa workstation backup</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_WORKSTN_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Pilihan ini akan menampilkan semua nama file didalam berkas workstation backup yang telah dilakukan sebelumnya. Anda dapat menggunakan pilihan ini untuk memeriksa isi dari backup.<b>Anda harus memilih backup yang ingin anda periksa</b></p> <p>Hanya file yang ditandai dengan [Saved] yang berada didalam backup.</p> File backup diperiksa dari shared folder: ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_WORKSTN</base>
+   <trans>Restore konfigurasi server dari workstation backup</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_WORKSTN_DESC</base>
+   <trans><![CDATA[ <p>Proses ini akan mengembalikan konfigurasi dan berkas data pengguna dari backup server. <B>Proses ini harus dilakukan pada server yang baru di install</B>.</p> <p>Pastikan anda telah memilih backup yang benar yang akan dikembalikan sebelum melanjutkan proses.</p> <p>Setelah proses restore selesai anda harus me-reboot server.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FROM_WORKSTN</base>
+   <trans>Restore dari Workstation</trans>
+  </entry>
+  <entry>
+   <base>RESTORING_FROM_WORKSTN</base>
+   <trans>Sedang me-restore dari Workstation</trans>
+  </entry>
+  <entry>
+   <base>NOW_RESTORING_FROM_WORKSTN</base>
+   <trans>Konfigurasi server anda dan berkas data pengguna sedang di-restore dari shared folder workstation.</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_FROM_WORKSTN</base>
+   <trans>Gagal merestore file dari workstation.</trans>
+  </entry>
+  <entry>
+   <base>ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE</base>
+   <trans>Gagal saat meng-update sistem konfigurasi setelah workstation restore.</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_NAME</base>
+   <trans>IP atau hostname workstation.</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SETTINGS</base>
+   <trans>Setting Workstation Backup.</trans>
+  </entry>
+  <entry>
+   <base>SHARED_FOLDER_NAME</base>
+   <trans>Backup Share</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_LOGIN</base>
+   <trans>Login name</trans>
+  </entry>
+  <entry>
+   <base>WORKSTATION_BACKUP_DEST</base>
+   <trans>Seting backup workstation</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_WORKSTN_BACKUP_DESC</base>
+   <trans>Anda dapat menentukan jumlah set backup untuk disimpan di workstation, dengan putaran otomatis. Setiap set mungkin berisi data yang disimpan untuk beberapa hari. Dalam hal ini, backup pertama adalah full backup, backup lainnya adalah incremental. Anda juga dapat menentukan batas waktu dari setiap sesi backup atau hanya untuk incremental backup saja. Jika batas waktu ini terlampaui, maka backup akan diberhentikan secara otomatis, dan incremental backup selanjutnya akan dilanjutkan dengan data selanjutnya.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_WORKSTN</base>
+   <trans>IP atau hostname Workstation tidak valid.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_FOLDER</base>
+   <trans>Nama share tidka valid</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_LOGIN</base>
+   <trans>Login tidak valid</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_PASSWORD</base>
+   <trans>Password tidak valid</trans>
+  </entry>
+  <entry>
+   <base>ERR_ALREADY_MOUNTED</base>
+   <trans>Backup directory is already mounted</trans>
+  </entry>
+  <entry>
+   <base>ERR_MOUNTING_SMBSHARE</base>
+   <trans>Tidak dapat me-mount shared folder workstation</trans>
+  </entry>
+  <entry>
+   <base>ERR_NOT_MOUNTED</base>
+   <trans>Berkas backup tidak ditemukan</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_NOT_SET</base>
+   <trans>Anda harus mengkonfigurasi workstation backup secara benar terlebih dahulu</trans>
+  </entry>
+  <entry>
+   <base>NO_BACKUPS_TO_RESTORE</base>
+   <trans>Tidak ada backup set di shared folder pada workstation. Periksa kembali setting konfigurasi anda.</trans>
+  </entry>
+  <entry>
+   <base>NUMBER_OF_SETS</base>
+   <trans>Jumlah putaran set backup</trans>
+  </entry>
+  <entry>
+   <base>NUMBER_OF_FILES_IN_SET</base>
+   <trans>Jumlah hari pada tiap set</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_SETS_NUMBER</base>
+   <trans>Jumlah set harus 1 atau lebih</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_FILES_IN_SET_NUMBER</base>
+   <trans>Angka ini harus 1 atau lebih besar dari 1. Backup set pertama adalah <b>full backup</b> selanjutnya adalah <b>incremental backup</b></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_TIMEOUT</base>
+   <trans>Waktu timeout sesi backup (Opsional)</trans>
+  </entry>
+  <entry>
+   <base>INC_ONLY_TIMEOUT</base>
+   <trans>Sesi full backup jangan di-timeout</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_TIMEOUT</base>
+   <trans>Waktu backup maksimal harus antara 1 dan 24 jam.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_HOST_DIR</base>
+   <trans>Tidak ada direktori untuk host anda di shared folder. Mungkin nama host anda berbeda dari yang ada pada backup.</trans>
+  </entry>
+  <entry>
+   <base>ERROR_READING_FILE</base>
+   <trans>Gagal membaca file dari</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SEL_RESTORE</base>
+   <trans>Restore secara selektif dari workstation</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SELECTIVE_RESTORE</base>
+   <trans>Restore secara selektif dari workstation</trans>
+  </entry>
+  <entry>
+   <base>ALL_BACKUPS</base>
+   <trans>Semua backup</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SEL_REST_DESC</base>
+   <trans><![CDATA[ Proses ini akan merestore hanya file dan direktori yang anda tentukan. Anda harus memilih backup asal dari mana file tersebut akan di-restore. Jika anda tidak tahu backup yang mana yang berisi file yang anda inginkan, anda dapat memilih 'Semua backup' . <br/><br/> Panel berikut akan menampilkan semua file dan direktori, sehingga anda dapat memilih yang anda ingin restore. Untuk membatasi jumlah file dan direktori yang ditampilkan pada panel ini, anda dapat memberi filtering expression, yang akan diterapkan sebagai regular expression pada nama yang ditampilkan.<br/><br/> Anda bertanggung jawab untuk tidak merestore file yang dapat menyebabkan fungsi server anda rusak..<br/> <br/>Saat ini, file akan di-restore dari : ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_CHOICE</base>
+   <trans>Memilih file yang ditampilkan</trans>
+  </entry>
+  <entry>
+   <base>SELECT_DATE_BEFORE</base>
+   <trans>Restore terbaru sebelum</trans>
+  </entry>
+  <entry>
+   <base>FILTER_EXPRESSION</base>
+   <trans>Nama difilter dengan </trans>
+  </entry>
+  <entry>
+   <base>READ_COMPLETE</base>
+   <trans><![CDATA[ Anda dapat memilih semua direktori dan file yang ingin ada restore pada daftar yang dipampilkan (gunakan ctrl atau shift untuk memilih lebih dari 1). <br/> <b>Peringatan :</b> Jika anda memilih direktori, semua file dan direktori didalamnya akan di-restore.<p/> Secara default versi yang terbaru dari file yang dipilih akan di-restore, tetapi jika anda menentukan tanggal dalam format <i>[ [ [yyyy/]mm/]dd-]hh:mm[:ss]</i> proses akan me-restore hanya versi terbaru <b>sebelum tanggal tersebut</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_SELDATE</base>
+   <trans>Format Tanggal invalid, harus dalam format [ [ [yyyy/]mm/]dd-]hh:mm[:ss]. ie: 2005/12/31-08:23:32 atau 10-08:32 atau 08:32</trans>
+  </entry>
+  <entry>
+   <base>SELECT_FILES_TO_RESTORE</base>
+   <trans>Pilih file yang ingin di restore</trans>
+  </entry>
+  <entry>
+   <base>ERR_WHILE_UNMOUNTING</base>
+   <trans>Gagal saat melakukan unmount pada share luar</trans>
+  </entry>
+  <entry>
+   <base>ERR_DAR_CATALOG</base>
+   <trans>Error saat menggunakan Dar catalog</trans>
+  </entry>
+  <entry>
+   <base>COMPRESSION_LEVEL</base>
+   <trans>Level kemampatan backup [0-9]</trans>
+  </entry>
+  <entry>
+   <base>FULL_ONLY_ON</base>
+   <trans>Full backup dibolehkan pada</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_COMPRESSION</base>
+   <trans>Level kemampatan harus antara 0 (tanpa kompresi) dan 9 (kompresi maksimal)</trans>
+  </entry>
+  <entry>
+   <base>DOW</base>
+   <trans>Minggu Senin Selasa rabu Kamis Jumat Sabtu Setiap-hari</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURATION_TO_BE_DONE</base>
+   <trans>Harap meng-konfigurasi setting backup</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Panel ini menampilkan konfigurasi workstation backup saat ini. Anda dapat mengubahnya pada panel ini dan panel selanjutnya.</p><p/> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_NOT_CONFIGURED</base>
+   <trans><![CDATA[ <p>Saat ini, workstation backup belum di konfigurasi. Anda dapat mengatur konfigurasi dengan panel ini dan panel selanjutnya.</p><p/> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_ENABLED</base>
+   <trans>Backup adalah</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_USB</base>
+   <trans>Backup dilakukan pada USB disk lokal</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_MNT</base>
+   <trans>Backup dilakukan pada USB disk lokal</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_HOST</base>
+   <trans>Backup dibuat pada workstation LAN</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_VFSTYPE</base>
+   <trans>via</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SHARE</base>
+   <trans>Folder tujuan backup adalah</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TOD</base>
+   <trans>Waktu backup harian pada </trans>
+  </entry>
+  <entry>
+   <base>LOGIN</base>
+   <trans>Login adalah</trans>
+  </entry>
+  <entry>
+   <base>PASSWORD</base>
+   <trans>Password adalah</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SETSNUM</base>
+   <trans>Jumlah putaran set backup adalah</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_DAYSINSET</base>
+   <trans>Jumlah backup harian dalam tiap set adalah</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_COMPRESSION</base>
+   <trans>Tingkat kemampatan (0-9) backup adalah</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TIMEOUT</base>
+   <trans>Backup harian setiap hari timeout setelah </trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_INCONLY_TIMEOUT</base>
+   <trans>kecuali full backup yang akan time-out setelah 24 jam</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_FULL_BACKUP_EVERYDAY</base>
+   <trans>Sesi full backup (set backup baru) dibolehkan setiap hari</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_FULL_BACKUP_DAY</base>
+   <trans>Full backup (set backup baru) dibolehkan hanya pada </trans>
+  </entry>
+  <entry>
+   <base>WORKSTATION_BACKUP_SETCONF</base>
+   <trans>Buat atau ubah konfigurasi workstation backup</trans>
+  </entry>
+  <entry>
+   <base>SELECT_VFS_TYPE</base>
+   <trans>Pilih jenis dari share untuk tujuan backup</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_USB_DISK</base>
+   <trans>Error: tidak ada USB disk. Silakan sambungkan USB disk atau pilih jenis backup share yang lain.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_MOUNTED_DISK</base>
+   <trans>Error: tidak ada USB disk. Silakan sambungkan USB disk atau pilih jenis backup share yang lain.</trans>
+  </entry>
+  <entry>
+   <base>HOURS</base>
+   <trans>jam</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_FULL_BACKUP</base>
+   <trans>Restore dibatalkan karena full backup yang diperlukan hilang atau tidak terbaca</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_INC_BACKUP</base>
+   <trans>Restore dibatalkan karena set backup ada yang hilang atau nomor backup incremental tidak terbaca</trans>
+  </entry>
+  <entry>
+   <base>CHECK_TO_VERIFY_FULL_RESTORE</base>
+   <trans>Check disini untuk mengetest integritas dari semua backup yang diperlukan untuk full restore dengan backup yang dipilih</trans>
+  </entry>
+  <entry>
+   <base>TESTING_NEEDED_BACKUPS_FOR_RESTORE</base>
+   <trans>Sedang mengetest semua backup yang diperlukan untuk full restore dengan backup yang dipilih</trans>
+  </entry>
+  <entry>
+   <base>TESTED_BACKUP</base>
+   <trans>Mengetest integritas dari backup</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_VERIFY_FAILED</base>
+   <trans>Verifikasi integritas gagal</trans>
+  </entry>
+  <entry>
+   <base>CHECK_INTEGRITY_WARNING</base>
+   <trans>Peringatan: Untuk backup berukuran besar, proses pemeriksaan integritas mungkin memakan waktu lama dan harus dilakukan dengan backup workstation harian di disable</trans>
+  </entry>
+  <entry>
+    <base>cifs</base>
+    <trans>cifs</trans>
+  </entry>
+  <entry>
+    <base>nfs</base>
+    <trans>nfs</trans>
+  </entry>
+  <entry>
+    <base>local removable disk</base>
+    <trans>Backup dilakukan pada USB disk lokal</trans>
+  </entry>
+  <entry>
+    <base>Mounted disk</base>
+    <trans>Disk terpasang</trans>
+  </entry>
+  <entry>
+   <base>ERROR_WHEN_TESTING_REMOTE_SERVER</base>
+   <trans>The parameters have been saved, however the remote host is not reachable, please check your settings.</trans>
+  </entry>
+  <entry>
+   <base>DO_NOT_RESTORE_BIN_SBIN_LIB_LIB64_FROM_SME9</base>
+   <trans>If you restore from Koozali SME Server 9 or before, pay attention that some folders in the system are now symlinks. Basic backup configuration does not include /bin, /lib, /lib64, /sbin, /var/lock and /var/run. If you have added them for files in their subdirectories, we will prevent the restoration of those folders to prevent dar from replacing those symlinks and leave the system unusable. Those additions are, however, not recommended as they are at risk to overwrite files provides by rpms.</trans>
+  </entry>
+  <entry>
+   <base>SMBV1</base>
+   <trans>Mount as legacy SMB v1 share (unsecure, not recommended).</trans>
+  </entry>
+
+
+</lexicon>

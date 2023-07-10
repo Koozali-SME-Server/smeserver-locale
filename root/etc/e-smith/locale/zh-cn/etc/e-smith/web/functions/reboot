@@ -1,0 +1,42 @@
+<lexicon lang="zh-cn">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>关机或者重启</trans>
+    </entry>
+    <entry>
+	<base>REBOOT</base>
+	<trans>重启</trans>
+    </entry>
+    <entry>
+	<base>REBOOT_SUCCEEDED</base>
+	<trans>正在重启。</trans>
+    </entry>
+    <entry>
+	<base>DESC_REBOOT</base>
+	<trans>服务器正在重启。</trans>
+    </entry>
+    <entry>
+	<base>RECONFIGURE_SUCCEEDED</base>
+	<trans>即将进行重新配置。</trans>
+    </entry>
+    <entry>
+	<base>DESC_RECONFIGURE</base>
+	<trans>服务器已经开始一个完整的系统重新配置过程，并且系统将重新启动。</trans>
+    </entry>
+    <entry>
+	<base>DESC_SHUTDOWN</base>
+	<trans>服务器正在关机。此过程可能需要花费几分钟时间，关机之后您可以关闭电源。</trans>
+    </entry>
+    <entry>
+	<base>LABEL_REBOOT</base>
+	<trans>选择关机、重启还是重新配置</trans>
+    </entry>
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[在此界面，您可以执行重启、关机或者重新配置系统。 在您关闭电源之前，请先关机。所有关闭服务可能会花费几分钟时间。当您点击 <b>执行</b> ，操作将会立即开始，请事先做好准备！]]></trans>
+    </entry>
+    <entry>
+	<base>Reboot or shutdown</base>
+	<trans>重启或关机</trans>
+    </entry>
+</lexicon>

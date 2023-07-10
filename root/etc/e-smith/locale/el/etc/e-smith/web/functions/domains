@@ -1,0 +1,141 @@
+<lexicon lang="el" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Διαχείριση τομέων</trans>
+    </entry>
+    <entry>
+        <base>FORM_DESCRIPTION</base>
+        <trans><![CDATA[ <p>Κατά τη δημιουργία ενός τομέα, ο διακομιστής σας θα μπορεί να λαμβάνει ηλεκτρονική αλληλογραφία και επίσης να φιλοξενεί ιστοτόπους για τον τομέα αυτό.</p> <p><a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CREATE">Προσθήκη τομέα</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>Δεν υπάρχουν τομείς στο σύστημα.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST_OF_DOMAINS</base>
+        <trans>Τρέχουσα λίστα τομέων</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_SITE</base>
+        <trans>πρωτεύων τόπος</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>{$content} i-bay</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Δημιουργία νέου τομέα</trans>
+    </entry>
+    <entry>
+        <base>CONTENT_FIELD_DESCRIPTION</base>
+        <trans>Ως περιεχόμενο ιστοτόπου, μπορείτε να επιλέξετε τον πρωτεύοντα ιστότοπο ή οποιοδήποτε i-bay.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME_VALIDATION_ERROR</base>
+        <trans>Σφάλμα: μη-αναμενόμενοι ή ελλείποντες χαρακτήρες στην ονομασία τομέα {$domainName}. Η ονομασία τομέα πρέπει να περιλαμβάνει ένα ή περισσότερα γράμματα, αριθμούς, τελείες και παύλες. Δεν δημιουργήθηκε νέος τομέας.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_DESCRIPTION_VALIDATION_ERROR</base>
+        <trans>Σφάλμα: μη-αναμενόμενοι ή ελλείποντες χαρακτήρες στην περιγραφή του τομέα {$domainDesc}. Δεν δημιουργήθηκε νέος τομέας.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_IN_USE_ERROR</base>
+        <trans>Σφάλμα: ο τομέας {$domainName} χρησιμοποιείται ήδη. Δεν δημιουργήθηκε νέος τομέας.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_DOMAIN_ERROR</base>
+        <trans>Σφάλμα: τομέας {$domainName} είναι η ονομασία του τομέα του συστήματός σας. Δεν μπορείτε να έχετε τομέα με το ίδιο όνομα. Δεν δημιουργήθηκε νέος τομέας.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>Επιτυχής δημιουργία τομέα {$domainName}. Ο διακομιστής ιστοσελίδων σας εκτελεί επανεκκίνηση. Οι σύνδεσμοι στην παρούσα σελίδα θα παραμείνουν ανενεργοί έως ότου ολοκληρωθεί η επανεκκίνηση.</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_TITLE</base>
+        <trans>Τροποποίηση τομέα</trans>
+    </entry>
+    <entry>
+        <base>NONEXISTENT_DOMAIN_ERROR</base>
+        <trans>Σφάλμα: Ο {$domainName} δεν είναι υφιστάμενος τομέας.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>Επιτυχής τροποποίηση τομέα {$domainName}. Ο διακομιστής ιστοσελίδων σας εκτελεί επανεκκίνηση. Οι σύνδεσμοι στην παρούσα σελίδα θα παραμείνουν ανενεργοί έως ότου ολοκληρωθεί η επανεκκίνηση.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Διαγραφή τομέα</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESCRIPTION</base>
+        <trans><![CDATA[ <p> Πρόκειται να διαγράψετε τον τομέα {$domain} ({$domainDesc}). </p> <p> <b>Είστε σίγουροι ότι θέλετε να διαγράψετε το συγκεκριμένο τομέα;</b> </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_REMOVING_DOMAIN</base>
+        <trans>Σφάλμα: εσωτερική αστοχία κατά την διαγραφή του τομέα {$domain}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>Επιτυχής διαγραφή τομέα {$domain}. Ο διακομιστής ιστοσελίδων σας εκτελεί επανεκκίνηση. Οι σύνδεσμοι στην παρούσα σελίδα θα παραμείνουν ανενεργοί έως ότου ολοκληρωθεί η επανεκκίνηση.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS_CURRENT</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Ρυθμίσεις Εταιρικού Διακομιστή DNS</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>BUTTON_CORPORATE_DNS</base>
+        <trans><![CDATA[ <p>Εάν ο συγκεκριμένος διακομιστής δεν έχει πρόσβαση στο Διαδίκτυο ή έχετε ειδικές απαιτήσεις για την επίλυση της ονομασίας DNS, πληκτρολογήστε την IP διεύθυνση του διακομιστή εδώ. Δεν πρέπει να πληκτρολογήσετε την διεύθυνση του διακομιστή DNS του παρόχου συνδεσιμότητας διαδικτύου (ISP), μιας και ο διακομιστής είναι ικανός να επιλύει όλες τις διαδικτυακές ονομασίες DNS χωρίς αυτήν την πρόσθετη ρύθμιση παραμέτρων συστήματος. </p> <p> <a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CORPORATE_DNS">Τροποποίηση ρυθμίσεων εταιρικού DNS</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS</base>
+        <trans>Εάν ο συγκεκριμένος διακομιστής δεν έχει πρόσβαση στο διαδίκτυο ή έχετε ειδικές απαιτήσεις για την επίλυση της ονομασίας DNS, πληκτρολογήστε την IP διεύθυνση του διακομιστή εδώ. Τα πεδία αυτά θα πρέπει να παραμείνουν κενά εκτός αν έχετε κάποιον ειδικό λόγο να ορίσετε άλλους διακομιστές DNS. Δεν πρέπει να πληκτρολογήσετε την διεύθυνση του διακομιστή DNS του παρόχου σας συνδεσιμότητας διαδικτύου (ISP) μιας και ο διακομιστής είναι ικανός να επιλύει όλες τις διαδικτυακές ονομασίες DNS χωρίς αυτήν την πρόσθετη ρύθμιση παραμέτρων συστήματος.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_PRIMARY</base>
+        <trans>Πρωτεύων εταιρικός διακομιστής DNS</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_SECONDARY</base>
+        <trans>Δευτερεύων εταιρικός διακομιστής DNS</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_NAMESERVERS</base>
+        <trans>Μπορείτε να επιλέξετε εάν η επίλυση της ονομασίας του συγκεκριμένου τομέα θα γίνει τοπικά, θα μεταβιβαστεί στους εταιρικούς διακομιστές DNS, ή θα επιλυθεί από τον διαδικτυακό διακομιστή DNS. Η αρχική ρύθμιση αποτελεί και τη σωστή επιλογή για τα περισσότερα δίκτυα.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_NAMESERVERS</base>
+        <trans>Διακομιστές DNS του τομέα</trans>
+    </entry>
+
+    <entry>
+        <base>localhost</base>
+        <trans>Επίλυση ονόματος τοπικά</trans>
+    </entry>
+
+    <entry>
+        <base>internet</base>
+        <trans>Διαδικτυακοί διακομιστές DNS</trans>
+    </entry>
+
+    <entry>
+        <base>corporate</base>
+        <trans>Εταιρικός διακομιστής DNS</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Πρόκειται να αφαιρέσετε τον εκτυπωτή:</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans>Είστε σίγουροι ότι επιθυμείτε να αφαιρέσετε το συγκεκριμένο εκτυπωτή;</trans>
+    </entry>
+
+</lexicon>

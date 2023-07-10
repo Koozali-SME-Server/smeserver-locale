@@ -1,0 +1,193 @@
+<lexicon lang="el"> 
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+	<base>Software installer</base>
+	<trans>Εγκαταστάτης λογισμικού</trans>
+    </entry>
+
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Οι νέες ρυθμίσεις έχουν αποθηκευθεί.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_YUM_STATUS</base>
+        <trans>Καθημερινός έλεγχος για ενημερώσεις</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_YUM_AUTOINSTALLUPDATES</base>
+	<trans>Αυτόματη εγκατάσταση ενημερώσεων</trans>
+   </entry>
+    <entry>
+        <base>LABEL_YUM_AUTOINSTALLUPDATES_DESCRIPTION</base>
+        <trans>If enabled this will take precedence over the simple check for updates notification and predownload features. Instead it will install the available updates from enabled repositories. For more information refer to yum and yum-cron manual page.</trans>
+   </entry>
+
+    <entry>
+	<base>LABEL_YUM_PACKAGEFUNCTIONS</base>
+	<trans>Διαχείριση μεμονωμένων πακέτων</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_YUM_PACKAGEFUNCTIONS</base>
+	<trans>Ο εγκαταστάτης λογισμικού μπορεί να διαχειρίζεται ομάδες σχετικών πακέτων, ή μεμονωμένων πακέτων. Αρχικά, μόνο ομάδες πακέτων εμφανίζονται. Αν επιθυμείτε την διαχείριση μεμονωμένων πακέτων, ενεργοποιήστε την δυνατότητα αυτή. Τούτο θα πρέπει να γίνει μόνο από έμπειρους διαχειριστές.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_ENABLED_REPOSITORIES</base>
+	<trans>Ενεργά αποθετήρια (repositories)</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_ENABLED_REPOSITORIES</base>
+	<trans>Ο εγκαταστάτης λογισμικού μπορεί εγκαθιστά λογισμικό από οποιοδήποτε ενεργοποιημένο αποθετήριο (repository). Για να ενεργοποιήσετε ένα αποθετήριο, επιλέξτε το από τη λίστα. Για ν' απενεργοποιήσετε ένα αποθετήριο, απο-επιλέξτε το από τη λίστα. Αρχικά, μόνο σταθερά, δοκιμασμένα λογισμικά είναι διαθέσιμα για εγκατάσταση.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_UPTODATE</base>
+        <trans><![CDATA[ <div class="success"> <h2>Το παρόν σύστημα είναι ενημερωμένο.</h2> Όλες οι ενημερώσεις έχουν εγκατασταθεί. </div> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_UPDATES_AVAILABLE</base>
+        <trans><![CDATA[ <div class="success"> <h2>Διαθέσιμες ενημερώσεις</h2> Υπάρχουν διαθέσιμες ενημερώσεις για το σύστημά σας. Οι ενημερώσεις αυτές πρέπει να εγκατασταθούν το ταχύτερο δυνατόν. </div> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_AVAILABLE_UPDATES</base>
+        <trans>Διαθέσιμες ενημερώσεις</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_AVAILABLE_UPDATES</base>
+        <trans>Οι ακόλουθες ενημερώσεις είναι διαθέσιμες για το σύστημά σας. Κανονικά πρέπει να εγκαταστήσετε όλες τις διαθέσιμες ενημερώσεις. Αν υπάρχουν ενημερώσεις που δεν θέλετε να εγκατασταθούν πρέπει να τις απο-επιλέξετε από την παρακάτω λίστα.</trans>
+    </entry>
+
+    <entry>
+        <base>INSTALL_UPDATES</base>
+        <trans>Εγκατάσταση επιλεγμένων ενημερώσεων</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_INSTALL_UPDATES</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_UPDATES">Εγκατάσταση διαθέσιμων ενημερώσεων</a> ]]></trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_AVAILABLE_SOFTWARE</base>
+	<trans>Το παρακάτω λογισμικό είναι διαθέσιμο για εγκατάσταση στο σύστημά σας. Θα πρέπει να εγκαταστήσετε το πρόσθετο λογισμικό στο σύστημά σας μόνον υπό την προϋπόθεση ότι γνωρίζετε τις συνέπειες αυτής της πράξης.</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_AVAILABLE_GROUPS</base>
+	<trans>Μπορείτε να επιλέξετε από την παρακάτω λίστα ομάδες λογισμικού για εγκατάσταση.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_AVAILABLE_GROUPS</base>
+	<trans>Διαθέσιμες ομάδες</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_AVAILABLE_PACKAGES</base>
+	<trans>Μπορείτε επίσης να επιλέξετε από την παρακάτω λίστα μεμονωμένα πακέτα για εγκατάσταση.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_AVAILABLE_PACKAGES</base>
+	<trans>Διαθέσιμα πακέτα</trans>
+    </entry>
+
+    <entry>
+	<base>INSTALL_SOFTWARE</base>
+	<trans>Εγκατάσταση</trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_INSTALLED_SOFTWARE</base>
+	<trans>Το παρακάτω λογισμικό είναι εγκατεστημένο στο παρόν σύστημα. Θα πρέπει να διαγράψετε λογισμικό απ΄ αυτό το σύστημα μόνον υπό την προϋπόθεση ότι γνωρίζετε τις συνέπειες αυτής της πράξης.</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_INSTALLED_GROUPS</base>
+	<trans>Μπορείτε να επιλέξετε από την παρακάτω λίστα ομάδες λογισμικού για διαγραφή.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_INSTALLED_GROUPS</base>
+	<trans>Εγκατεστημένες ομάδες</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_INSTALLED_PACKAGES</base>
+	<trans>Μπορείτε επίσης να επιλέξετε από την παρακάτω λίστα μεμονωμένα πακέτα για διαγραφή.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_INSTALLED_PACKAGES</base>
+	<trans>Εγκατεστημένα πακέτα</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_CONFIGURATION</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_CONFIGURATION">Αλλαγή ρυθμίσεων εγκαταστατών λογισμικού</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_INSTALL_AVAILABLE</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_AVAILABLE">Εγκατάσταση πρόσθετου λογισμικού</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_REMOVE</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_REMOVE">Διαγραφή εγκατεστημένου λογισμικού</a> ]]></trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_POSTUPGRADE_REQUIRED</base>
+	<trans><![CDATA[ Το σύστημα χρειάζεται να διαμορφωθεί εκ νέου ύστερα από την προσθήκη ή αφαίρεση λογισμικού, ή την εφαρμογή ενημερώσεων. <p> Παρακαλώ κάντε κλικ στο κουμπί "Επαναρύθμιση παραμέτρων" που βρίσκετε στο κάτω τμήμα της παρούσας σελίδας για ν' αρχίσει η διαδικασία επαναρύθμισης παραμέτρων. <b> Θα δοθεί αυτόματη επανεκκίνηση σαν μέρος της διαδικασίας αυτής</b> </p> ]]></trans>
+     </entry>
+
+    <entry>
+	<base>SYSTEM_BEING_RECONFIGURED</base>
+	<trans>Το σύστημά σας επανεκκινεί αυτόματα για να ολοκληρώσει την διαδικασία επαναδιαμόρφωσης.</trans>
+    </entry>
+
+    <entry>
+      <base>1DAILY</base>
+      <trans>Καθημερινά</trans>
+    </entry>
+
+    <entry>
+      <base>2WEEKLY</base>
+      <trans>Εβδομαδιαία</trans>
+    </entry>
+
+    <entry>
+      <base>3MONTHLY</base>
+      <trans>Monthly</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DELTARPMPROCESS</base>
+      <trans>Delta Rpm Update</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DELTARPM</base>
+      <trans>A deltarpm contains the difference between an old and a new version of a rpm, which can save bandwith. The drawback is that update operations consume considerably more CPU cycles</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DOWNLOADONLY</base>
+      <trans>Τα προσωπικά στοιχεία ενημερώθηκαν</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DOWNLOADONLY_DESCRIPTION</base>
+      <trans>The rpm updates can be downloaded during the night, this will ease and give faster the yum update process (only enabled repositories will be used).</trans>
+    </entry>
+
+</lexicon>

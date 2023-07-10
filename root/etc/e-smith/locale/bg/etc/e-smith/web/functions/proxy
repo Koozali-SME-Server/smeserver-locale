@@ -1,0 +1,42 @@
+<lexicon lang="bg">
+    <entry>
+        <base>Proxy settings</base>
+        <trans>Натройки на прокси</trans>
+    </entry>
+    <entry>
+        <base>FIRST_PAGE_DESCRIPTION</base>
+        <trans>Тази страница Ви позволява да задавате прокси настройките. Сървърът включва прозрачно прокси и кеш за HTTP трафика. То е включено по подразбиране, но не се задейства ако сървърът е настроен като &quot;serveronly&quot;. Ако този сървър действа като пощенски сървър, връзките от клиентите в локалната мрежа до външни SMTP сървъри по подразбиране ще бъдат пренасочени към локалния сървър за електронна поща.</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>HTTP проксито на сървъра служи за намаляване на общото използване на входящия поток като кешира последните посещавани страници. То е прозрачно за браузерите, които използват този сървър като gateway. Включете или изключете този вид прокси с този превключвател.</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_LABEL</base>
+        <trans>Състояние на HTTP проксито</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>Прозрачното SMTP прокси на сървъра служи за намаляване на вирусния трафик от заразени клиентски машини като форсира целия изходящ SMTP трафик през този сървър. Ако искате да използвате алтернативен SMTP сървър и този сървър е само gateway до него, забранете този вид прокси.</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_LABEL</base>
+        <trans>Състояние на SMTP проксито</trans>
+    </entry>
+    <entry>
+        <base>ERR_PROXY_UPDATE_FAILED</base>
+        <trans>ГРЕШКА: Събитието proxy-update завърши с грешка.</trans>
+    </entry>
+    <entry>
+        <base>ERR_NO_SQUID_REC</base>
+        <trans>ГРЕШКА: Няма запис за squid в базата данни за конфигурацията.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Новите настройки на прокси бяха приложени успешно.</trans>
+    </entry>
+    <entry>
+        <base>BLOCKED</base>
+        <trans>Блокиран</trans>
+    </entry>
+</lexicon>

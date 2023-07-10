@@ -1,0 +1,749 @@
+<lexicon lang="tr">
+  <entry>
+   <base>BACKUP_TITLE</base>
+   <trans>Sunucu verilerini yedekle veya geri yükle</trans>
+  </entry>
+  <entry>
+   <base>BACKUP_DESC</base>
+   <trans><![CDATA[ <P>Sunucunuz iki şekilde yedek alma ve geri yüklemeyi sağlar: yerel masaüstünüzü veya teyip sürücüsünü kullanarak.</P> <P>İlk yöntem ayar ve kullanıcı dosyalarınızın yedeğini oluşturup, web gezginiyle masaüstünüze kaydetmeyi sağlar. Mevcut ayar ve kullanıcı dosyalarınız yaklaşık olarak <b>$tarsize</b> yer kaplar. Yedekleme dosyası bundan daha az yer kaplar, ne kadar sıkıştırıldığına bağlı. \"Masaüstü yedeklemesini doğrula\" seçeneği masaüstünüze yüklenen yedeğin içeriğini bütünlüğünü doğrular.</P> <P>Teyip yedeklemesi ise <I>$module</I> programını kullanarak sunucunuzun yedeğini her gece teybe kaydetmek için kullanır . Bu işlem için tanımlanan bir teyip sürücüsü ve yazılabilir bir kaset gerekir. Yedekleme belirtilen saatte her gece otomatik olarak yapılır (hatırlatıcı kullanılırsa her gün yöneticiye hatırlatma e-postası gönderilir). Diskinizdeki mevcut veri iktarı <b>$dumpsize</b> .</P> <P>Her iki geri yükleme yöntemi hem sunucu ayarlarını hem de kullanıcı dosyalarını geri yüklemeyi sağlar. <b>En iyisi, geri yükleme işlemi yeni kurulum yapılmış sunucuda yapmaktır</b>.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_DESC_DAR</base>
+   <trans><![CDATA[ <P>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</P> <P>Tape Backup. This method uses a software package called <I>$module</I> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>$dumpsize</b> of data.</P> <P>Workstation backup. This method uses a software package called <I>dar</I> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>$tarsize</b> uncompressed. Twice the compressed data size must be available on the backup share.</P> <P>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>$tarsize</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</P> <P>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_CONFIG_STATUS</base>
+   <trans>Yedekleme ayarları ve durumu</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUPS_ENABLED</base>
+   <trans><![CDATA[ Teyip yedeklemesi <b>etkin</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUPS_RUN_AT</base>
+   <trans>Teyip yedeklemesi düzenli olarak bu saate gerçekleşecektir:</trans>
+  </entry>
+  <entry>
+   <base>REMINDER_MESSAGE_AT</base>
+   <trans>Hatırlatma mesajı gönderme zamanı:</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUPS_DISABLED</base>
+   <trans><![CDATA[ Teyip yedeklemesi <b>devredışı</b> ]]></trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_BACKUP</base>
+   <trans>Masaüstüne yedekle</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_RESTORE</base>
+   <trans>Masaüstünden geri yükle</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_VERIFY</base>
+   <trans>Masaüstündeki yedeği doğrula</trans>
+  </entry>
+  <entry>
+   <base>TAPE_CONFIGURE</base>
+   <trans>Yedekleme teyibini yapılandır</trans>
+  </entry>
+  <entry>
+   <base>TAPE_RESTORE</base>
+   <trans>Yedeklemeyi teyipten geri yükle</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS_BEGAN_AT</base>
+   <trans>Sistem geri yükleniyor. Başlama zamanı:</trans>
+  </entry>
+  <entry>
+   <base>REFRESH_THIS_DISPLAY</base>
+   <trans>Görünümü yenile</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_TAPE_BACKUP</base>
+   <trans>Yedekleme teyibini yapılandır</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_COMPLETED</base>
+   <trans>Sistem geri yüklemesi tamamlandı</trans>
+  </entry>
+  <entry>
+   <base>STARTED_AT</base>
+   <trans>Başlama zamanı:</trans>
+  </entry>
+  <entry>
+   <base>FINISHED_AT</base>
+   <trans>bitiş zamanı:</trans>
+  </entry>
+  <entry>
+   <base>YOU_MUST_REBOOT</base>
+   <trans>Geri yükleme sonucu oluşan değişiklikleri etkinleştirmek için, sistemin yeniden başlatılması gerekiyor.</trans> 
+  </entry> 
+  <entry>
+   <base>REBOOT</base>
+   <trans>Yeniden Başlat</trans>
+  </entry>
+  <entry>
+   <base>SELECT_AN_ACTION</base>
+   <trans>İşlemi seçin</trans>
+  </entry>
+  <entry>
+   <base>X_BACKUP_OR_RESTORE</base>
+   <trans>X Yedekle veya geri yükle</trans>
+  </entry>
+  <entry>
+   <base>ERR_PRE_BACKUP</base>
+   <trans>Yedekleme öncesi hazırlık aşamasında hata oluştu.</trans>
+  </entry>
+  <entry>
+   <base>ERR_PRE_RESTORE</base>
+   <trans>Geri yükleme hazırlık aşamasında hata oluştu.</trans>
+  </entry>
+  <entry>
+   <base>ERR_POST_BACKUP</base>
+   <trans>Yedekleme sonrası hata oluştu</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_SERVER_CONFIG</base>
+   <trans>Sunucu ayarlarını geri yükle</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_RESTORE_DESC</base>
+   <trans><![CDATA[ Bu işlem sunucu masaüstündeki yedekleme dosyası, sunucuya geri yüklenecek ve sistem yarları ve kullanıcı bilgileri geri yüklenecek. <B>Geri yükleme yeni kurulmuş sistem üzerinde yüklenmelidir</B>. ]]></trans>
+  </entry>
+  <entry>
+   <base>FREE_SPACE</base>
+   <trans><![CDATA[ Sunucunuzda yaklaşık olarak $tmpfree boş alan bulunuyor. Geri yüklenecek masaüstü yedeklemesi boyutunun $halffree daha az olmasına dikkat edin. ]]></trans>
+  </entry>
+  <entry>
+   <base>MUST_REBOOT_AFTER_RESTORE</base>
+   <trans>Geri yükleme işlemi bitince sunucuyu yeniden başlatmak gerekmektedir.</trans>
+  </entry>
+  <entry>
+   <base>FILE_TO_RESTORE</base>
+   <trans>Geri yüklenecek yedekleme dosyası</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Bu seçenek, daha önce oluşturulmuş masaüstü yedek dosyasındaki tüm dosyaların adlarını görüntüler. Yedek dosyanın içeriğini doğrulamak için bu seçeneği kullanabilirsiniz.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>SELECT_BACKUP_FILE</base>
+   <trans>Yedekleme dosyasını seçin</trans>
+  </entry>
+  <entry>
+   <base>VERIFY</base>
+   <trans>Doğrula</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CANNOT_PROCEED</base>
+   <trans>Sunucu yapılandırması geri yüklenemiyor</trans>
+  </entry>
+  <entry>
+   <base>ANOTHER_RESTORE_IN_PROGRESS</base>
+   <trans>Başka bir geri yükleme devam ediyor. Lütfen daha sonra tekrar deneyin.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS</base>
+   <trans>Geri yükleme devam ediyor</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS_DESC</base>
+   <trans>Geri yükleme işlemi tamamlanınca sunucuyu yeniden başlatmak gerkmektedir. Ekranın alt kısmında "Geri Yükleme Tamamlandı" yazısını gödüğünüzde geri yükleme tamamlanmıştır.</trans>
+  </entry>
+  <entry>
+   <base>FILES_HAVE_BEEN_RESTORED</base>
+   <trans>Geri yüklenecek klasör ve dosyalar:</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FAILED_MSG</base>
+   <trans>Geri yükleme başarısız oldu! Yedekleme dosyası okunurken hata oluştu.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_COMPLETE</base>
+   <trans>Geri Yükleme Tamamlandı</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_GID</base>
+   <trans>'www' klasörü geri yüklenirken hata oluştu</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_INITIAL_GRP</base>
+   <trans>'www' gurubu geri yüklenirken hata oluştu.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FAILED</base>
+   <trans>Geri yükleme başarısız oldu! Yedekleme dosyası tamamlanmamış.</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_EXEC_PIPELINE</base>
+   <trans>Geri yükleme linkleri oluşturulamıyor:</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_DECODE</base>
+   <trans>Yedekleme dosyası deşifre edilemedi:</trans>
+  </entry>
+  <entry>
+   <base>FILES_IN_BACKUP</base>
+   <trans>Yedeklemeye alınan dosyalar:</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_COMPLETE</base>
+   <trans>Doğrulama tamamlandı</trans>
+  </entry>
+  <entry>
+   <base>BACKUP_FILE_INCOMPLETE</base>
+   <trans>Yedekleme dosyası tamamlanamadı</trans>
+  </entry>
+  <entry>
+   <base>ERR_READING_FILE</base>
+   <trans>Yedekleme dosyasını okunurken hata oluştu</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_DISABLE_TAPE</base>
+   <trans>Gece Yedek Almayı Etkinleştir/Devre Dışı Bırak</trans>
+  </entry>
+  <entry>
+   <base>TAPE_CONFIG_DESC</base>
+   <trans><![CDATA[ <p>Gece yedek almayı etkinleştirmek isterseniz. Teyip yükleme hatırlatıcısının çalıştırılacağı saatleri belirtmelisiniz.</p> <p>Teyip sürücüsüne desteklediği bant tipini yerleştirmeniz gerkmektedir. Teyip sürücüsü boş olursa hatırlatıcı, sistem yöneticisini bant yerleştirmesi için uyaracaktır.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>ENABLE_TAPE_BACKUP</base>
+   <trans>Teyip yedeklemesini etkileştir</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUP_TIME</base>
+   <trans>Günün, teyibe yedek alma saati (saat/dak)</trans>
+  </entry>
+  <entry>
+   <base>LOAD_TAPE_REMINDER_TIME</base>
+   <trans>Teyibe bant yükleme hatırlatıcısının çalışma zamanı (saat/dak)</trans>
+  </entry>
+  <entry>
+   <base>AM/PM</base>
+   <trans>AM/PM (ÖÖ/ÖS)</trans>
+  </entry>
+  <entry>
+   <base>AM</base>
+   <trans>AM (ÖÖ)</trans>
+  </entry>
+  <entry>
+   <base>PM</base>
+   <trans>PM (ÖS)</trans>
+  </entry>
+  <entry>
+   <base>UPDATE_CONF</base>
+   <trans>Güncelle</trans>
+  </entry>
+  <entry>
+   <base>UPDATING_TAPE_CONF</base>
+   <trans>Teyip yedekleme ayarları güncelleniyor</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_HOUR</base>
+   <trans>Hata: geçersiz yedekleme saati:</trans>
+  </entry>
+  <entry>
+   <base>BETWEEN_0_AND_12</base>
+   <trans>Lütfen 1 ile 12 arası bir saat belirtin.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_MINUTE</base>
+   <trans>Hata: geçersiz yedekleme dakikası:</trans>
+  </entry>
+  <entry>
+   <base>BETWEEN_0_AND_59</base>
+   <trans>Lüthen 0 ile 59 arası bir dakika belirtin.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_REMINDER_HOUR</base>
+   <trans>Hata: geçersiz hatırlatma saati:</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_REMINDER_MINUTE</base>
+   <trans>Hata: geçersiz hatırlatma dakikası:</trans>
+  </entry>
+  <entry>
+   <base>ERR_CONF_BACKUP</base>
+   <trans>Yedek oluşturma konfigürasyonu oluşturulurken hata meydana geldi.</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_ENABLED_TAPE</base>
+   <trans>Teyip yedeklemesi başarıyla etkinleştirildi</trans>
+  </entry>
+  <entry>
+   <base>WITH_BACKUP_TIME</base>
+   <trans>yedekleme zamanı:</trans>
+  </entry>
+  <entry>
+   <base>WITH_REMINDER_TIME</base>
+   <trans>teyibi yerleştirmek için hatırlatma zamanı:</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_DISABLED</base>
+   <trans>Teyip yedeklemesi başarıyla devre dışı bırakıldı.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_TAPE</base>
+   <trans>Sunucu ayarlarını, teyip yedeklemesinden geri yükle</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_TAPE_DESC</base>
+   <trans><![CDATA[ <P>Bu işlem teyip yedeklemesini sunucuya geri yükler. <B>Geri yükleme yeni kurulmuş sisteme uygulanmalıdır.</B>.</P> <P>İstenen yedekleme bantını teyibe yerleştirdiğinizden emin olun.</P> <P>Geri yükleme tamamlandıktan sonra sunucuyu yeniden başlatmanız gerekmektedir.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FROM_TAPE</base>
+   <trans>Teyipten Geri Yükle</trans>
+  </entry>
+  <entry>
+   <base>UNABLE_TO_RESTORE_CONF</base>
+   <trans>Sunucu ayarları geri yüklenemiyor</trans>
+  </entry>
+  <entry>
+   <base>RESTORING_FROM_TAPE</base>
+   <trans>Teyipten Geri Yükleniyor</trans>
+  </entry>
+  <entry>
+   <base>NOW_RESTORING_FROM_TAPE</base>
+   <trans>Sunucu ayarları ve dosyaları şimdi geri yüklenecek</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_FROM_TAPE</base>
+   <trans>Teyipteki dosyalar geri yüklenirken hata oluştu</trans>
+  </entry>
+  <entry>
+   <base>ERR_UPDATING_CONF_AFTER_TAPE_RESTORE</base>
+   <trans>Teyipten yapılan geri gükleme sonrası, sunucu ayarları güncellenirken hata oluştu.</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_FORK</base>
+   <trans>Çatallaşma olmamalı:</trans>
+  </entry>
+  <entry>
+   <base>SERVER_REBOOT</base>
+   <trans>Sunucuyu yeniden başlat</trans>
+  </entry>
+  <entry>
+   <base>SERVER_WILL_REBOOT</base>
+   <trans>Sunucu yeniden başlatılıyor</trans>
+  </entry>
+  <entry>
+   <base>NO_UID_FOR_NAME</base>
+   <trans>Bu kullanıcınn UID numarası bulunamadı:</trans>
+  </entry>
+  <entry>
+   <base>PAGE_REFRESH_IN</base>
+   <trans><![CDATA[ Bu sayfa {$sec} saniyede bir kendini yenileyerek ilerleme durumunu gösterir, veya <a href="/server-manager/cgi-bin/backup">buraya tıklayın</a>. ]]></trans>
+  </entry>
+    <entry>
+	<base>Backup or restore</base>
+	<trans>Yedek oluştur veya geri yükle</trans>
+    </entry>
+
+  <entry>
+	<base>BACKUP_DESKTOP_TOO_BIG</base>
+	<trans><![CDATA[ <div class="error"> Sunucunuzda, masaüstünüze yedeklenecek gerğinden fazla veri bulunmaktadır. </div> ]]></trans>
+  </entry>
+   <entry>
+   <base>WORKSTN_BACKUPS_DISABLED</base>
+   <trans><![CDATA[ İş istasonu yedeklemesi <b>devre dışı</b> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUPS_ENABLED</base>
+   <trans><![CDATA[ İş istasonu yedeklemesi <b>etkin</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>WKBACKUPS_RUN_AT</base>
+   <trans>İş istasyonu yedeklemesi düzenli olarak bu saate gerçekleşecektir:</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_CONFIGURE</base>
+   <trans>İş istasyonu yedeklemesi ayarları</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_VERIFY</base>
+   <trans>İş istasyonu yedeğini doğrula</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_RESTORE</base>
+   <trans>İş istasyonundan geri yükle</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_WORKSTN_BACKUP</base>
+   <trans>İş istasyonu yedeklemesi ayarları</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_DISABLE_WORKSTN</base>
+   <trans>Günlük iş istasyonu yedeklemesini etkinleştir/devre dışı bırak</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_WORKSTN_BACKUP</base>
+   <trans>İş istasyonu yedeklemesini etkinleştir</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TIME</base>
+   <trans>İş istasyonu yedekleme zamanı (saat/dak)</trans>
+  </entry>
+  <entry>
+   <base>UPDATING_WORKSTN_CONF</base>
+   <trans>İş istasyonu yedekleme ayarları güncelleniyor</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_ENABLED_WORKSTN</base>
+   <trans>İş istasyonu yedeklemesi başarıyla etkinleştirildi</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_DISABLED_WORKSTN</base>
+   <trans>İş istasyonu yedeklemesi başarıyla devre dışı bırakıldı.</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_WORKSTN_BACKUP_FILE</base>
+   <trans>İş istasyonu yedeğini doğrula</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_WORKSTN_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Bu seçenek daha önce oluşturulan masaüstü yedeklemelerinin içeriğini göstermektedir. Bunu yedeklemenin içeriğini teyid etmek için kullanabilirsiniz.<b>Doğrulamak istediğiniz yedeklemeyi seçebilirsiniz</b></p> <p>Sadece [Kaydedildi] diye işaretlenen dosyalar yedekte yer almaktadır.</p> <br/>Yedek dosyaları paylaşılan bu klasörden kontrol edilecektir : ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_WORKSTN</base>
+   <trans>Sunucu ayarlarını masaüstü yedeğinden geri yükle</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_WORKSTN_DESC</base>
+   <trans><![CDATA[ <p>Bu işlem sunucu ayarlarını ve kullanıcı dosyalarını masaüstü yedeklemesinden geri yükler. <b>Geri yükleme yeni kurulmuş sisteme uygulanmalıdır</b>.</p> <p>Geri yükleme yapmadan önce doğru yedeklemeyi seçtiğinizden emin olun.</p> <p>Geri yükleme tamamlandıktan sonra sunucuyu yeniden başlatmanız gerekmektedir.</p> Geri yüklenecek yedek : ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FROM_WORKSTN</base>
+   <trans>İş istasyonundan geri yükle</trans>
+  </entry>
+  <entry>
+   <base>RESTORING_FROM_WORKSTN</base>
+   <trans>İş istasyonundan geri yükleniyor</trans>
+  </entry>
+  <entry>
+   <base>NOW_RESTORING_FROM_WORKSTN</base>
+   <trans>Sunucu ayarları ve kullanıcı dosyaları şimdi iş istasyonunnun paylaştırılmış klasöründen geri yüklenecek.</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_FROM_WORKSTN</base>
+   <trans>İş istasyonundan dosyalar geri yüklenirken hata oluştu</trans>
+  </entry>
+  <entry>
+   <base>ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE</base>
+   <trans>İş istasyonundan yapılan geri gükleme sonrası, sunucu ayarları güncellenirken hata oluştu.</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_NAME</base>
+   <trans>İş istasyonu IP veya alan adı</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SETTINGS</base>
+   <trans>İş istasyonu Yedekeleme Ayarları</trans>
+  </entry>
+  <entry>
+   <base>SHARED_FOLDER_NAME</base>
+   <trans>Yedekleme paylaşımı</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_LOGIN</base>
+   <trans>Giriş adı</trans>
+  </entry>
+  <entry>
+   <base>WORKSTATION_BACKUP_DEST</base>
+   <trans>İş istasyonu yedekleme arlarını kaydet</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_WORKSTN_BACKUP_DESC</base>
+   <trans>İş istasyonunda yedeklenecek kayıt sayısını, otomatik bönüşümlü olacak şekilde ayarlayabilirsiniz. Her seri birkaç günlük kayıt içerebilir. Bu durumda ilk kayıt tam yedeklemeyi içerir, diğerleri günlük deüşümleri içerir. Aynı zamanda yakıt için zanan sınırlaması konulabilir. Bu durumda yedekleme süresi aşıldığında, yedekleme durdurulacak ve bir sonraki ana yedeklemede tam yedek oluşturulacaktır.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_WORKSTN</base>
+   <trans>Geçersiz iş istasyonu IP veya alan adı</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_FOLDER</base>
+   <trans>Geçersiz paylaşım adı</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_LOGIN</base>
+   <trans>Geçersiz giriş</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_PASSWORD</base>
+   <trans>Geçersiz şifre</trans>
+  </entry>
+  <entry>
+   <base>ERR_ALREADY_MOUNTED</base>
+   <trans>Backup directory is already mounted</trans>
+  </entry>
+  <entry>
+   <base>ERR_MOUNTING_SMBSHARE</base>
+   <trans>İş istasyonu paylaşım klasörüne bağlanılamadı</trans>
+  </entry>
+  <entry>
+   <base>ERR_NOT_MOUNTED</base>
+   <trans>Yedek dosyası bulunamadı</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_NOT_SET</base>
+   <trans>Öncelikle iş istasyonu yedeklemesini doğru yapılandırmalısınız</trans>
+  </entry>
+  <entry>
+   <base>NO_BACKUPS_TO_RESTORE</base>
+   <trans>İş istasyonunda yedek kayıtları bulunamadı. Ayarlarınızı kontrol edin.</trans>
+  </entry>
+  <entry>
+   <base>NUMBER_OF_SETS</base>
+   <trans>Yedeklemele setinini adedi</trans>
+  </entry>
+  <entry>
+   <base>NUMBER_OF_FILES_IN_SET</base>
+   <trans>Yedekleme setinin günlük adedi</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_SETS_NUMBER</base>
+   <trans>Set sayısı 1 veya daha fazla olmalı</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_FILES_IN_SET_NUMBER</base>
+   <trans>Bu sayı 1 veya daha fazla olmalıdır. Setteki ilk yedekleme <b>tam</b> diğerleri <b>artan</b>dır</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_TIMEOUT</base>
+   <trans>İsteğe bağlı yedekleme zaman limiti (saat)</trans>
+  </entry>
+  <entry>
+   <base>INC_ONLY_TIMEOUT</base>
+   <trans>Tam yedekleme süresini sınırlama</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_TIMEOUT</base>
+   <trans>En fazla yedekleme süresi 1 ile 24 saat arasında olmalıdır</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_HOST_DIR</base>
+   <trans>Alan adında paylaştırılmış klasör bulunamadı. Alan adı, yedeklenecek olanından farklı olabilir.</trans>
+  </entry>
+  <entry>
+   <base>ERROR_READING_FILE</base>
+   <trans>Buradan dosyalar okunurken hata oluştu</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SEL_RESTORE</base>
+   <trans>İş istasyonundan seçimli geri yükleme</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SELECTIVE_RESTORE</base>
+   <trans>İş istasyonundan seçimli geri yükleme</trans>
+  </entry>
+  <entry>
+   <base>ALL_BACKUPS</base>
+   <trans>Bütün yedeklemeler</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SEL_REST_DESC</base>
+   <trans><![CDATA[ Bu işlem belirli dosya ve klasörleri geri yükler. Önce geri yüklenecek yedeği seçmelisiniz. İstediğiniz dosyanın hangi yedekte bulunduğunu bilmiyorsanız 'Bütün yedeklemeler' seçeneğini işaretleyebilirsiniz. <br/><br/> Sonraki panel dosya ve klasör isimlerini size gösterecektir, geri yüklemek istediğinizi seçiniz. Gösterilecek dosya ve klasör sayısını kısıtlamak için, sonuçlara ifade filtreleme yapabilirsiniz, gösterilecek isimler düzenli ifaderle sınırlandırılabilir .<br/><br/> Suncunuzun çalışmasını bozacak dosyaları geri yükleme sorumluluğu sizdedir.<br/> <br/>Geri yüklenecek, dosyaların yeri : ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_CHOICE</base>
+   <trans>Gösterilecek dosya seçimi</trans>
+  </entry>
+  <entry>
+   <base>SELECT_DATE_BEFORE</base>
+   <trans>Önce en son yedeklemeyi geri yükle</trans>
+  </entry>
+  <entry>
+   <base>FILTER_EXPRESSION</base>
+   <trans>Filtrelenen</trans>
+  </entry>
+  <entry>
+   <base>READ_COMPLETE</base>
+   <trans><![CDATA[ Geri yüklemek istediğiniz bütün dosya ve klasörleri listeden seçin (çoklu seçim için ctrl veya shift tuşunu basılı tutun). <br/> <b>Dikkat :</b> Eğer klasör seçerseniz, onun içerdiğiğ tim dosya ve klasörler de geri yüklenecektir.<p/> Varsayılan olarak seçilen dosyaların sadece son versiyonu geri yüklenir, fakat belirli bir tarih belirtilirse <i>[ [ [yyyy/]mm/]dd-]hh:mm[:ss]</i> formatında sadece <b>belitilen tarihten önceki</b> yedekler geri yüklenir. ]]></trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_SELDATE</base>
+   <trans>Geçersiz tarih formatı, gerekli format [ [ [yyyy/]mm/]dd-]hh:mm[:ss]. örn: 2005/12/31-08:23:32 veya 10-08:32 veya 08:32 olmalıdır</trans>
+  </entry>
+  <entry>
+   <base>SELECT_FILES_TO_RESTORE</base>
+   <trans>Geri yüklenecek dosyaları seçin</trans>
+  </entry>
+  <entry>
+   <base>ERR_WHILE_UNMOUNTING</base>
+   <trans>Uzaktaki paylaşımı ayırırken hata oluştu</trans>
+  </entry>
+  <entry>
+   <base>ERR_DAR_CATALOG</base>
+   <trans>Dar kataloğu kullanılırken hata oluştu</trans>
+  </entry>
+  <entry>
+   <base>COMPRESSION_LEVEL</base>
+   <trans>Yedekleme sıkıştırma oranı [0-9]</trans>
+  </entry>
+  <entry>
+   <base>FULL_ONLY_ON</base>
+   <trans>Tam yedeklemeye izin veriliyor</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_COMPRESSION</base>
+   <trans>Sıkıştırma oranı 0 (sıkıştırma yok) ile 9 (en fazla sıkıştırma) aralığında olmalıdır</trans>
+  </entry>
+  <entry>
+   <base>DOW</base>
+   <trans>Pazar Pazartesi Salı Çarşamba Perşembe Cuma Cumartesi Hergün</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURATION_TO_BE_DONE</base>
+   <trans>Lütfen yedekleme ayarlarını yapın</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Bu sayfa mevcut iş istasyonu yedekleme ayarlarını gösterir. Bu ayarları buradan veya sonraki sayfadan değiştirilebilir.</p><p/> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_NOT_CONFIGURED</base>
+   <trans><![CDATA[ <p>İş istasyonu yedeklemesi, hala ayarlı değil. Bu ayarları buradan veya sonraki sayfadan değiştirilebilir.</p><p/> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_ENABLED</base>
+   <trans>Yedekleme</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_USB</base>
+   <trans>Yedekleme yerel USB diske yapıldı</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_MNT</base>
+   <trans>Yedekleme yerel USB diske yapıldı</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_HOST</base>
+   <trans>Yedekleme ağdaki iş istasyonuna yapıldı</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_VFSTYPE</base>
+   <trans>ile</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SHARE</base>
+   <trans>Yedekleme için paylaştırılmış klasör hedefi</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TOD</base>
+   <trans>Günlük yedekleme saati</trans>
+  </entry>
+  <entry>
+   <base>LOGIN</base>
+   <trans>Giriş adı</trans>
+  </entry>
+  <entry>
+   <base>PASSWORD</base>
+   <trans>Şifre</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SETSNUM</base>
+   <trans>Yedekleme setlerinin sayısı</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_DAYSINSET</base>
+   <trans>Günlük yedekleme setlerinin sayısı</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_COMPRESSION</base>
+   <trans>Yedekleme sıkıştırma oranı (0-9)</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TIMEOUT</base>
+   <trans>Günlük yedekleme zaman aşımı</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_INCONLY_TIMEOUT</base>
+   <trans>tam yedekleme 24 saat sonra zaman aşımına uğramaya ayarlandı</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_FULL_BACKUP_EVERYDAY</base>
+   <trans>Tam yedekleme (yeni yedek seti) her gün için ayarlandı</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_FULL_BACKUP_DAY</base>
+   <trans>Tam yedekleme (yeni yedek seti) zamanı</trans>
+  </entry>
+  <entry>
+   <base>WORKSTATION_BACKUP_SETCONF</base>
+   <trans>İş istasyonu yedekleme ayarı oluştur veya değiştir</trans>
+  </entry>
+  <entry>
+   <base>SELECT_VFS_TYPE</base>
+   <trans>Yedekleme için paylaşım türünü belirtin</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_USB_DISK</base>
+   <trans>Hata: USB diski bulunmadı. Lütfen USB diskini bağlayın veya başka yedekleme türü seçin.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_MOUNTED_DISK</base>
+   <trans>Hata: USB diski bulunmadı. Lütfen USB diskini bağlayın veya başka yedekleme türü seçin.</trans>
+  </entry>
+  <entry>
+   <base>HOURS</base>
+   <trans>saat.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_FULL_BACKUP</base>
+   <trans>Geri yükleme iptal edildi çünkü tam yedek bulunamadı veya okunamadı.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_INC_BACKUP</base>
+   <trans>Geri yükleme iptal edildi çünkü set yok veya okunamayan parçalar var</trans>
+  </entry>
+  <entry>
+   <base>CHECK_TO_VERIFY_FULL_RESTORE</base>
+   <trans>Seçilen yedek ile tam geri yükleme yapılabilmesi için bütün yedeklemeleri doğrula</trans>
+  </entry>
+  <entry>
+   <base>TESTING_NEEDED_BACKUPS_FOR_RESTORE</base>
+   <trans>Seçilen yedek ile tam geri yükleme yapılabilmesi için bütün yedeklemeleri doğrulanıyor</trans>
+  </entry>
+  <entry>
+   <base>TESTED_BACKUP</base>
+   <trans>Yedeklerin doğruluğu test ediliyor</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_VERIFY_FAILED</base>
+   <trans>Yedeklerin doğruluğu hatalı</trans>
+  </entry>
+  <entry>
+   <base>CHECK_INTEGRITY_WARNING</base>
+   <trans>Dikkat: Büyük yedekler için, doğrulama işlemi uzun sürebilir ve bunun için iş istasyonu yedeklemesi devre dışı bırakılmalıdır.</trans>
+  </entry>
+  <entry>
+    <base>cifs</base>
+    <trans>cifs</trans>
+  </entry>
+  <entry>
+    <base>nfs</base>
+    <trans>nfs</trans>
+  </entry>
+  <entry>
+    <base>local removable disk</base>
+    <trans>Yedekleme yerel USB diske yapıldı</trans>
+  </entry>
+  <entry>
+    <base>Mounted disk</base>
+    <trans>Bağlı</trans>
+  </entry>
+  <entry>
+   <base>ERROR_WHEN_TESTING_REMOTE_SERVER</base>
+   <trans>The parameters have been saved, however the remote host is not reachable, please check your settings.</trans>
+  </entry>
+  <entry>
+   <base>DO_NOT_RESTORE_BIN_SBIN_LIB_LIB64_FROM_SME9</base>
+   <trans>If you restore from Koozali SME Server 9 or before, pay attention that some folders in the system are now symlinks. Basic backup configuration does not include /bin, /lib, /lib64, /sbin, /var/lock and /var/run. If you have added them for files in their subdirectories, we will prevent the restoration of those folders to prevent dar from replacing those symlinks and leave the system unusable. Those additions are, however, not recommended as they are at risk to overwrite files provides by rpms.</trans>
+  </entry>
+  <entry>
+   <base>SMBV1</base>
+   <trans>Mount as legacy SMB v1 share (unsecure, not recommended).</trans>
+  </entry>
+
+
+</lexicon>

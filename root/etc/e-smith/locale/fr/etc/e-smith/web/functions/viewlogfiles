@@ -1,0 +1,83 @@
+<lexicon lang="fr">
+    <entry>
+        <base>View log files</base>
+        <trans>Visualisation des fichiers journaux</trans>
+    </entry>
+
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ Cette page vous permet de visualiser ou de télécharger les fichiers journaux générés par les services en cours de fonctionnement sur votre serveur. ]]></trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_SELECT_DESC</base>
+        <trans>Choisissez le fichier journal à afficher</trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>Vous avez la possibilité de spécifier un modèle de filtre afin de n'afficher que les lignes du fichier journal qui correspondent à ce modèle. Si vous laissez ce champ vide, le fichier journal sera affiché dans son intégralité. Veuillez noter que cette option est ignorée en cas de téléchargement du fichier.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_LABEL</base>
+        <trans>Modèle de filtre (facultatif)</trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>Vous pouvez également spécifier un modèle de surbrillance afin de marquer en gras toutes les lignes du fichier journal qui correspondent à ce modèle. Ce modèle de surbrillance est appliqué à toutes les lignes qui ont déjà été mises en concordance avec le modèle de filtre. Veuillez noter que cette option est ignorée en cas de téléchargement du fichier.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_LABEL</base>
+        <trans>Modèle de surbrillance (facultatif)</trans>
+    </entry>
+    <entry>
+        <base>END_DESC</base>
+        <trans>Veuillez noter que la génération de ces rapports peut nécessiter un délai assez long.</trans>
+    </entry>
+    <entry>
+        <base>VIEW</base>
+        <trans>Afficher le fichier journal</trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_EMPTY</base>
+        <trans>Le fichier journal "{$filename}" est vide !</trans>
+    </entry>
+    <entry>
+        <base>VIEWING_TIME</base>
+        <trans>Affiché le {$time}.</trans>
+    </entry>
+    <entry>
+        <base>MATCH_HEADER</base>
+        <trans>Affichage des lignes qui concordent avec "{$matchPattern}".</trans>
+    </entry>
+    <entry>
+        <base>HIGHLIGHT_HEADER</base>
+        <trans>Surbrillance des lignes qui concordent avec "{$highlightPattern}".</trans>
+    </entry>
+    <entry>
+        <base>NO_MATCHING_LINES</base>
+        <trans>Aucune ligne ne concorde avec le modèle de filtre.</trans>
+    </entry>
+    <entry>
+        <base>FILENAME_ERROR</base>
+        <trans><![CDATA[ <p>Erreur de spécification du nom de fichier journal.</p> <p>Type de rapport non valide pour "{$filename}".</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>REFRESH</base>
+	<trans>Régénérer ce fichier journal</trans>
+    </entry>
+    <entry>
+	<base>OP_DESC</base>
+	<trans>Vous avez la possibilité d'afficher le fichier journal dans votre navigateur ou de le télécharger sur votre ordinateur. Si le fichier journal est particulièrement volumineux, il peut être préférable de le télécharger sur votre ordinateur. En effet, certains navigateurs peuvent éprouver des difficultés à afficher de trop gros fichiers.</trans>
+    </entry>
+    <entry>
+	<base>OP_LABEL</base>
+	<trans>Action</trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_PAGE_DESC</base>
+	<trans><![CDATA[ <p>Votre fichier journal est prêt à être téléchargé. Le téléchargement commencera dès que vous aurez cliqué sur le bouton "Suivant" ci-dessous et que vous aurez indiqué à votre navigateur d'accepter l'opération dans la boîte de dialogue qui s'affichera.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_FILE</base>
+	<trans>Préparation du téléchargement du fichier journal "{$logfile}".</trans>
+    </entry>
+</lexicon>

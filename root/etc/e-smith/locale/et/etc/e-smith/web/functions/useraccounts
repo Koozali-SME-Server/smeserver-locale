@@ -1,0 +1,242 @@
+<lexicon lang="et">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Lisa, muuda või eemalda kasutajakontosid</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> <a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">Lisa kasutajakonto</a> </p> <p> Kasutajakontosid saad muuta, lukustada ja kustutada kui klikid kasutajakonto taga olevaid linke. </p> <p> Kui konto tga on kirjas et "Konto on lukus" siis avamiseks tuleb talle uus parool luua. Pane tähele, et uue kasutajakonto loomisel on ta automaatselt lukus, kuni talle parool luuakse. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>P2_TITLE</base>
+        <trans>Lisa või muuda</trans>
+    </entry>
+    <entry>
+        <base>CREATE_MODIFY_DESC</base>
+        <trans><![CDATA[ <p> The account name should contain only lower-case letters, numbers, hyphens, periods, underscores and should start with a lower-case letter. For example "betty", "hjohnson", and "mary-jane" are all valid account names, but "3friends", "John Smith", and "henry:miller" are not. </p> <p> Note that two special pseudonyms will be created for each new account. These pseudonyms provide the ability to have alternative mail accounts for that user which include their first name and last name separated with a period (.) and underscore (_). So, for the account "betty" with first name "Betty" and last name "Rubble" two pseudonyms are created as betty.rubble and betty_rubble. </p>  <p> The directory information (department, company, etc.) can be changed from the defaults shown below. The changes will apply only to this user. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MODIFY_ADMIN_TITLE</base>
+        <trans>Muuda admin-i kontot</trans>
+    </entry>
+    <entry>
+        <base>USER_CREATED</base>
+        <trans>Kasutajakonto on edukalt loodud.</trans>
+    </entry>
+    <entry>
+        <base>USER_MODIFIED</base>
+        <trans>Kasutajakonto on edukalt muudetud.</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER</base>
+        <trans>Viga: süsteemi viga konto "{$acctName}" muutmisel</trans> 
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER_GROUPS</base> 
+        <trans>Error: an internal error occurred while attempting to modify the group "{$group}" for user "{$acctName}".</trans>
+    </entry>
+    <entry>
+        <base>TAINTED_USER</base>
+        <trans>Kasutajanimi "{$acctName}" sisaldab sobimatuid sümboleid.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME</base>
+        <trans>Kasutajanimi</trans>
+    </entry>
+    <entry>
+        <base>FIRSTNAME</base>
+        <trans>Eesnimi</trans>
+    </entry>
+    <entry>
+        <base>LASTNAME</base>
+        <trans>Perenimi</trans>
+    </entry>
+    <entry>
+        <base>DEPARTMENT</base>
+        <trans>Osakond</trans>
+    </entry>
+    <entry>
+        <base>COMPANY</base>
+        <trans>Asutus</trans>
+    </entry>
+    <entry>
+        <base>STREET_ADDRESS</base>
+        <trans>Tänav</trans>
+    </entry>
+    <entry>
+        <base>CITY</base>
+        <trans>Linn</trans>
+    </entry>
+    <entry>
+        <base>PHONE_NUMBER</base>
+        <trans>Telefon</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_DELIVERY</base>
+        <trans>E-posti saatmine</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_EMAIL_LOCALLY</base>
+        <trans>Edasta lokaalselt</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_EMAIL</base>
+        <trans>Edasta e-post aadressile</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_AND_FORWARD</base>
+        <trans>Edasta ja jäta koopia</trans>
+    </entry>
+    <entry>
+        <base>FORWARDING_ADDRESS</base>
+        <trans>Aadress kuhu edastada</trans>
+    </entry>
+    <entry>
+        <base>GROUP_MEMBERSHIPS</base>
+        <trans>Grupi liige</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC</base>
+        <trans>Oled kindel, et tahad kasutaja parooli muuta</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC2</base>
+        <trans>Sisesta uus parool allolevatele väljadele</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_MODIFYING_PASSWORD</base>
+        <trans>Parooli uuendamisel ilmnes viga</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE_SUCCEEDED</base>
+        <trans>Kasutaja "{$acctName}". parool on edukalt muudetud.</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC</base>
+        <trans>Oled kindel, et tahad kasutajakonto lukustada</trans>
+    </entry>
+    <entry>
+        <base>LOCKED_ACCOUNT</base>
+        <trans>Konto "{$acctName}" on edukalt lukustatud.</trans>
+    </entry>
+    <entry>
+        <base>NO_SUCH_USER</base>
+        <trans>Viga: kasutajakontot "{$acctName}" ei eksisteeri.</trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM_CLASH</base>
+        <trans>Viga:  pseudonym "{$pseudonym}" is already taken by the existing user account "{$clashName}". To differentiate, add initials to this field.</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT</base>
+        <trans>Lukusta konto</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT_TITLE</base>
+        <trans>Lukusta kasutajakonto</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC2</base>
+        <trans><![CDATA[ See kasutajakonto lukustatakse.See tähendab, et kasutaja ei saa sisse logida ja ta ei saa ka e-posti näha. Kuid kõik saabuvad kirjad salvestatakse ja/või saadetakse edasi muule aadressile, kui see on määratud. Seda kontot saab hiljem aktiveerida luues talle uue parooli. </p> <p> <b>Oled kindel et tahad siiski selle konto lukustada?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>REMOVE_ACCOUNT_TITLE</base>
+        <trans>Eemalda kasutajakonto</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Oled kindel, et tahad kasutajakonto kustutada</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans><![CDATA[ Kõik failid mis kuuluvad sellele kasutajakontole kustutatakse. Also, any e-mail for this user account still remaining on the server (i.e. that has not yet been retrieved by the user) will be discarded. </p> <p> <b>Oled kindel, et tahad seda kasutajakontot kustutada?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>LOCK</base>
+        <trans>Lukusta</trans>
+    </entry>
+    <entry>
+        <base>NO_USER_ACCOUNTS</base>
+        <trans>Selles serveris pole kasutajakontosid.</trans>
+    </entry>
+    <entry>
+        <base>Users</base>
+        <trans>Kasutajad</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>Kasutajanimi "{$acctName}" sisaldab sobimatuid sümboleid.Kasutajanimi peab algama väiketähega ja koosnema ainult väiketähtedest, numbritest, hyphens, periods ja underscores.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_TOO_LONG</base>
+        <trans>VIGA: konto nimi on liiga pikk. Maksimum on {$maxLength} sümbolit.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>Viga: Kasutajat "{$account}" ei saanud luua kuna on juba {$type} sellise nimega.</trans>
+    </entry>    
+    <entry>
+        <base>ERR_OCCURRED_CREATING</base>
+        <trans>Kasutaja loomisel ilmnes viga.</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_CONTAIN_WHITESPACE</base>
+        <trans>See väli ei tohi sisaldada tühikuid</trans>
+    </entry>
+    <entry>
+        <base>UNACCEPTABLE_CHARS</base>
+        <trans>See väli tohib sisaldada ainult tähti, numbreid, punkte, hypens ja underscores ja algama tähega</trans>
+    </entry>
+    <entry>
+        <base>MEMBER</base>
+        <trans>Liige?</trans>
+    </entry>
+    <entry>
+        <base>VPN_CLIENT_ACCESS</base>
+        <trans>VPN juurdepääs</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_FORM_TITLE</base>
+        <trans>Muuda süsteemi parooli</trans>
+    </entry>    
+    <entry> 
+        <base>SYSTEM_PASSWORD_DESCRIPTION</base>
+        <trans><![CDATA[ Certain services on this server installation require a username and password (for example this web page for the server manager application). The username is always admin. You can change the system password using the fields below. ]]></trans>        
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS</base>
+        <trans>Parool peab koosnema ainult prinditavatest sümbolitest</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_VERIFY_ERROR</base>
+        <trans>Sisestatud paroolid ei ühti.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_AUTH_ERROR</base>
+        <trans>Kehtiv parool on vale.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_CHANGED</base>
+        <trans>Süsteemi parool on edukalt muudetud.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_SYSTEM_PASSWORD</base>
+        <trans>Kehtiv süsteemi parool</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD</base>
+        <trans>Uus süsteemi parool</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD_VERIFY</base>
+        <trans>Uus süsteemi parool (korda uut parooli)</trans>
+    </entry>            
+    <entry>
+        <base>LABEL_IPSECRW_DOWNLOAD</base>
+        <trans>Download digital certificate to IPSec client</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_DELETING</base>
+        <trans>Kasutaja kustutamisel ilmnes viga.</trans>
+    </entry>
+</lexicon>

@@ -1,0 +1,58 @@
+<lexicon lang="th">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>แก้ไขค่า workgroup</trans>
+    </entry>	
+    <entry> 
+        <base>DESC_WORKGROUP</base>
+        <trans><![CDATA[ ตั้งชื่อ Windows workgroup ให้เซอร์ฟเวอร์นี้ ]]></trans>	
+    </entry>
+    <entry>
+        <base>LABEL_WORKGROUP</base>
+        <trans>Windows workgroup</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERVERNAME</base>
+        <trans>ป้อนชื่อที่เซิร์ฟเวอร์นี้จะแชร์ไฟล์กับระบบ Windows และ Macintosh</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERVERNAME</base>
+        <trans>ชื่อที่เซิร์ฟเวอร์</trans>
+    </entry>
+    <entry>
+        <base>DESC_PDC</base>
+        <trans><![CDATA[ คุณอาจต้องการให้เซิร์ฟเวอร์นี้ทำหน้าที่เป็น workgroup และ domain controller ของเครือข่ายระบบ Windows ด้วย? หาก <b>ไม่</b> หรือหากมีเซอร์ฟเวอร์อื่นทำหน้าที่นี้อยู่แล้วในเครือข่ายให้ปล่อยค่าให้ว่างนี้ไว้ ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_PDC</base>
+        <trans>Workgroup และ Domain Controller</trans>
+    </entry>
+    <entry>
+        <base>DESC_ROAM</base>
+        <trans><![CDATA[ คุณอาจต้องการให้เซิร์ฟเวอร์นี้รองรับ roaming profiles หรือไม่? คุณอาจจะปล่อยค่าเป็น <b>ไม่</b> ไว้ตามเดิม ยกเว้นคุณมีความชำนาญในการจัดการงาน server-based Windows roaming profiles และทราบว่าคุณสมบัตินี้ต้องมีองค์ประกอบอะไรบ้างในการทำงาน ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_ROAM</base>
+        <trans>Roaming profiles</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>การตั้งค่า workgroup ถูกบันทึกแล้ว</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP</base>
+        <trans>ชื่อกลุ่มต้องเริ่มต้นด้วยตัวอักษร (ตัวพิมพ์ใหญ่หรือตัวพิมพ์เล็ก) ตามด้วยอักขระอื่นใดๆ คือตัวอักษร ตัวเลข ขีดล่าง (_) จุด (.) และ ยติภังค์ (-)</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SERVERNAME</base>
+        <trans>ชื่อเซอร์ฟเวอร์ต้องเริ่มต้นด้วยตัวอักษร (ตัวพิมพ์ใหญ่หรือตัวพิมพ์เล็ก) ตามด้วยอักขระอื่นๆ คือตัวอักษร ตัวเลข ขีดล่าง (_) จุด (.) และ ยติภังค์ (-) หรือใช้รวม</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP_MATCHES_SERVERNAME</base>
+        <trans>ชื่อเซอร์ฟเวอร์และชื่อ workgroup เปรียบเทียบโดยการแปลงทั้งสองเป็นตัวพิมพ์เล็กแล้วเหมือนกัน ในกรณีที่เปิดคุณสมบัติแชร์ไฟล์ ชื่อทั้งสองนี้ต้องไม่เทียบได้ว่าเหมือนกัน</trans>
+    </entry>
+    <entry>
+        <base>Workgroup</base>
+        <trans>Workgroup</trans>
+    </entry>
+</lexicon>

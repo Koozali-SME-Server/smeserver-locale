@@ -1,0 +1,84 @@
+<lexicon lang="ro">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Crează, modifica sau șterge grupuri de useri</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_TOO_LONG</base>
+        <trans>Eroare: numele este prea lung. Maxim {$maxLength} caractere.</trans>
+    </entry>    
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>Eroare: grupul "{$group}" nu poate fi creat deorece există deja un cont de tipul {$type} cu același nume</trans>
+    </entry>    
+    <entry>
+        <base>INVALID_GROUP_DESCRIPTION</base>
+        <trans>Eroare: caracter neașteptat sau lipsă în descrierea grupului</trans>
+    </entry>
+    <entry>
+        <base>NO_MEMBERS</base>
+        <trans>Eroare: nu există nici un membru în grup. Nu s-a creat grup.</trans>
+    </entry>
+    <entry>
+        <base>CREATED_GROUP</base>
+        <trans>Grup creat cu succes</trans>
+    </entry> 
+    <entry>
+        <base>DELETED_GROUP</base>
+        <trans>Grup șters cu succes</trans>
+    </entry> 
+    <entry>
+        <base>MODIFIED_GROUP</base>
+        <trans>Grup modificat cu succes</trans>
+    </entry>	
+    <entry>
+        <base>CREATE_ERROR</base>
+        <trans>A apărut o eroare în timpul creerii grupului.</trans>
+    </entry> 
+    <entry>
+        <base>DELETE_ERROR</base>
+        <trans>A apărut o eroare în timpul ștergerii grupului.</trans>
+    </entry> 
+    <entry>
+        <base>MODIFY_ERROR</base>
+        <trans>A apărut o eroare în timpul modificării grupului.</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_NAMING</base>
+        <trans><![CDATA[ Numele grupului trebuei să conțină numai litere mnuscule, numere, cratime, paranteze și sublinieri, trebuie să înceapă cu o litera minuscula . De exemplu "sales", "beta5", și "reseller_partners" sunt nume valide, dar  "3rd-event", "Marketing Team" și "lost&found" nu sunt. ]]></trans>
+    </entry>
+    <entry>
+        <base>GROUP_HAS_MEMBERS</base>
+        <trans>Acest grup cuprinde următorii membrii:</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_GROUP</base>
+        <trans>Eroare: Grup inexistent.</trans>
+    </entry>
+    <entry>
+        <base>GROUP_DESC</base>
+        <trans>Descriere sumară/Alias de grup Windows</trans>
+    </entry>
+   <entry>
+        <base>GROUP_DESC_EXPL</base>
+        <trans>Introduceți o scurtă descriere în câmpul de dedesupt. Acest câmp este deasemenea numele grupului vizibil in clienții Windows</trans>
+   </entry>
+
+
+    <entry>
+        <base>IBAYS_WILL_BE_CHANGED</base>
+        <trans>Următoarele i-bay-uri erau asignate acestui grup și vor fi alocate grupului administratorilor (le puteți modifica mai târziu după dorință): </trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DELETE_GROUP</base>
+        <trans><![CDATA[ <p><b>Sunteți sigur(ă) că vreți să ștergeți acest grup?</b></p> ]]></trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST</base>
+        <trans><![CDATA[<p>Lista curentă de grupuri</p>]]></trans>
+    </entry>
+    <entry>
+		<base>DELETE_DESCRIPTION</base>
+       	<trans><![CDATA[ Sunteți pe cale să ștergeți grupul "<b>{$group}</b>." ]]></trans>
+    </entry>
+</lexicon>

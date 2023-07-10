@@ -1,0 +1,58 @@
+<lexicon lang="id">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Ubah setting workgroup</trans>
+    </entry>	
+    <entry> 
+        <base>DESC_WORKGROUP</base>
+        <trans><![CDATA[ Isi nama dari Windows workgroup dimana server ini harus tampak. ]]></trans>	
+    </entry>
+    <entry>
+        <base>LABEL_WORKGROUP</base>
+        <trans>Workgroup Windows </trans>
+    </entry>
+    <entry>
+        <base>DESC_SERVERNAME</base>
+        <trans>Ketik nama yang akan digunakan server ini untuk Windows dan Macintosh file sharing.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERVERNAME</base>
+        <trans>Nama Server</trans>
+    </entry>
+    <entry>
+        <base>DESC_PDC</base>
+        <trans><![CDATA[Jadikan server ini sebagai pengendali workgroup dan domain dalam jaringan Windows anda? Anda harus memilih <b>Tidak</b> jika telah ada server lain yang melakukan tugas ini dalam network anda.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_PDC</base>
+        <trans>Pengendali Workgroup dan Domain</trans>
+    </entry>
+    <entry>
+        <base>DESC_ROAM</base>
+        <trans><![CDATA[ Jadikan server ini mendukung roaming profiles? Anda sebaiknya membiarkan kepada nilai default yaitu <b>Tidak</b> kecuali anda memiliki pengalaman mengelola Windows roaming profile berbasis server dan mengetahui dan mengetahui bahwa fitur ini diperlukan. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_ROAM</base>
+        <trans>Roaming profiles</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Perubahan setting workgroup telah disimpan.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP</base>
+        <trans>Nama workgroup harus dimulai dengan sebuah huruf (huruf besar atau huruf kecil), diikuti dengan kombinasi apa saja dari huruf, angka, garis bawah, titik dan strip.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SERVERNAME</base>
+        <trans>Nama server harus dimulai dengan sebuah huruf (huruf besar atau huruf kecil), diikuti dengan kombinasi apa saja dari huruf, angka, garis bawah, titik dan strip.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP_MATCHES_SERVERNAME</base>
+        <trans>Nama server dan workgroup sama, ketika dibandingkan dengan menjadikan semua huruf kecil. Keduanya harus berbeda supaya filesharing dapat diaktifkan.</trans>
+    </entry>
+    <entry>
+        <base>Workgroup</base>
+        <trans>Workgroup</trans>
+    </entry>
+</lexicon>

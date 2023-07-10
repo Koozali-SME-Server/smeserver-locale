@@ -1,0 +1,15 @@
+<lexicon lang="sl">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>Navodila na spletu</trans>
+      </entry>	
+      <entry> 
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ <p> Navodila kako uporabljati SME streznik lahko dobite na naslovu: <a target="new" href="http://sme.pcklinika.si"> http://sme.pcklinika.si</a> </p> ]]></trans>
+      </entry>		
+      <entry>
+	<base>Online manual</base>
+	<trans>Online manual</trans>
+      </entry>
+
+</lexicon>

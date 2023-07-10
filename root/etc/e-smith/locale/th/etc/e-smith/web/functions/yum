@@ -1,0 +1,193 @@
+<lexicon lang="th"> 
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+	<base>Software installer</base>
+	<trans>การติดตั้งซอฟต์แวร์</trans>
+    </entry>
+
+    <entry>
+        <base>SUCCESS</base>
+        <trans>การตั้งค่าใหม่ได้รับการบันทึก</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_YUM_STATUS</base>
+        <trans>ตรวจสอบการอัพเดต</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_YUM_AUTOINSTALLUPDATES</base>
+	<trans>ติดตั้งการอัพเดตโดยอัตโนมัติ</trans>
+   </entry>
+    <entry>
+        <base>LABEL_YUM_AUTOINSTALLUPDATES_DESCRIPTION</base>
+        <trans>If enabled this will take precedence over the simple check for updates notification and predownload features. Instead it will install the available updates from enabled repositories. For more information refer to yum and yum-cron manual page.</trans>
+   </entry>
+
+    <entry>
+	<base>LABEL_YUM_PACKAGEFUNCTIONS</base>
+	<trans>จัดการแยกแต่ละแพ็คเกจ</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_YUM_PACKAGEFUNCTIONS</base>
+	<trans>ในการติดตั้งซอฟต์แวร์ ตัวติดตั้งสามารถจัดการกับของกลุ่มของแพคเกจที่ทำงานร่วมกันเป็นชุด (groups of related package) หรือจะจัดการแพคเกจแต่ละแพคเกจภายในกลุ่มแยกกันก็ได้ โดยค่าปริยายแล้วแพคเกจทั้งกลุ่มจะนำมาแสดงรวมเป็นชุดเพียงชุดเดียว หากคุณต้องการแยกจัดการแต่ละแพ็คเกจเองให้เลือกใช้ตัวเลือกนี้ ซึ่งควรจะทำโดยผู้ดูแลระบบที่มีความเชี่ยวชาญเท่านั้น</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_ENABLED_REPOSITORIES</base>
+	<trans>เปิดใช้งาน repositories</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_ENABLED_REPOSITORIES</base>
+	<trans>ตัวติดตั้งซอฟต์แวร์สามารถติดตั้งซอฟต์แวร์จาก repository ใดก็ได้ที่ถูกเปิดให้ใช้งาน การเปิดใช้ repository ให้เลือกที่ต้องการจากรายการที่แสดง การปิดไม่ใช้งานก็โดยไม่ต้องเลือกจากรายการนั้น โดยค่าปริยาย เฉพาะ stable, test software เท่านั้นที่มีให้เลือกติดตั้ง</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_UPTODATE</base>
+        <trans><![CDATA[ <div class="success"> <h2>ระบบถูกปรับปรุงให้เป็นรุ่นล่าสุดแล้ว</h2>รายการอัพเดตทั้งหมดถูกติดตั้งเรียบร้อยแล้ว</div> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_UPDATES_AVAILABLE</base>
+        <trans><![CDATA[ <div class="success"> <h2>มีอัพเดตมาใหม่</h2> มีรายการอัพเดตใหม่สำหรับระบบของคุณ อัพเดตเหล่านั้นควรถูกติดตั้งให้เร็วที่สุดเท่าที่เป็นไปได้</div> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_AVAILABLE_UPDATES</base>
+        <trans>มีอัพเดตใหม่</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_AVAILABLE_UPDATES</base>
+        <trans>มีรายการอัพเดตใหม่สำหรับระบบของคุณ ปกติคุณควรติดตั้งทั้งหมดที่มีการอัพเดต หากมีรายการอัพเดตที่คุณไม่ต้องการติดตั้ง ให้ทำการไม่เลือกจากรายการที่แสดงด้านล่าง</trans>
+    </entry>
+
+    <entry>
+        <base>INSTALL_UPDATES</base>
+        <trans>ติดตั้งรายการอัพเดตที่เลือกไว้</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_INSTALL_UPDATES</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_UPDATES">แสดงรายการอัพเดตใหม่ที่มี</a> ]]></trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_AVAILABLE_SOFTWARE</base>
+	<trans>คุณสามารถที่จะติดตั้งซอฟต์แวร์เพิ่มเติมต่อไปนี้เพิ่มในระบบของคุณได้ คุณควรทำเมื่อคุณรู้จักและยอมรับผลที่จะเกิด</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_AVAILABLE_GROUPS</base>
+	<trans>คุณสามารถเลือกติดตั้งกลุ่มของซอฟต์แวร์ตามรายการด้านล่างนี้</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_AVAILABLE_GROUPS</base>
+	<trans>กลุ่มที่มี</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_AVAILABLE_PACKAGES</base>
+	<trans>คุณยังสามารถเลือกแพ็คเกจที่จะติดตั้งจากรายการด้านล่างนี้ได้อย่างอิสระ</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_AVAILABLE_PACKAGES</base>
+	<trans>แพ็คเกจที่มี</trans>
+    </entry>
+
+    <entry>
+	<base>INSTALL_SOFTWARE</base>
+	<trans>ติดตั้ง</trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_INSTALLED_SOFTWARE</base>
+	<trans>ซอฟต์แวร์ต่อไปนี้ได้ถูกติดตั้งลงในระบบแล้ว หากคุณต้องการถอนการติดตั้ง คุณควรทำเมื่อคุณทราบและยอมรับผลที่จะเกิด </trans>
+    </entry>
+
+    <entry>
+	<base>DESC_INSTALLED_GROUPS</base>
+	<trans>คุณสามารถเลือกกลุ่มของซอฟต์แวร์ที่จะลบออกจากรายการด้านล่างนี้</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_INSTALLED_GROUPS</base>
+	<trans>กลุ่มที่ถูกติดตั้งแล้ว</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_INSTALLED_PACKAGES</base>
+	<trans>คุณยังสามารถเลือกแพ็คเกจที่คุณต้องการลบจากรายการด้านล่างนี้อย่างอิสระ</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_INSTALLED_PACKAGES</base>
+	<trans>แพคเกจที่ถูกติดตั้งแล้ว</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_CONFIGURATION</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_CONFIGURATION">แก้ไขค่าตัวติดตั้งซอฟต์แวร์</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_INSTALL_AVAILABLE</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_AVAILABLE">ติดตั้งซอฟต์แวร์ตัวเพิ่มเติม</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_REMOVE</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_REMOVE">ลบซอฟต์แวร์ที่ถูกติดตั้ง</a> ]]></trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_POSTUPGRADE_REQUIRED</base>
+	<trans><![CDATA[ หลังจากเพิ่มหรือลบออกระบบต้องทำการปรับปรุงการตั้งค่าของระบบ หรือ applying updates<p>โปรดคลิ๊กปุ่ม ทำปรับปรุงการตั้งค่าของระบบ ที่ด้านล่างของจอเพื่อเริ่มขั้นตอน <b>จะทำการรีบู๊ตเครื่องอัตโนมัติหลังเสร็จสิ้นขั้นตอนนั้นแล้ว</b></p> ]]></trans>
+     </entry>
+
+    <entry>
+	<base>SYSTEM_BEING_RECONFIGURED</base>
+	<trans>ระบบของคุณกำลังจะรีบู๊ตโดยอัตโนมัติเพื่อให้การปรับปรุงการตั้งค่าของระบบเสร็จสมบูรณ์</trans>
+    </entry>
+
+    <entry>
+      <base>1DAILY</base>
+      <trans>รายวัน</trans>
+    </entry>
+
+    <entry>
+      <base>2WEEKLY</base>
+      <trans>รายสัปดาห์</trans>
+    </entry>
+
+    <entry>
+      <base>3MONTHLY</base>
+      <trans>รายเดือน</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DELTARPMPROCESS</base>
+      <trans>Delta Rpm Update</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DELTARPM</base>
+      <trans>A deltarpm contains the difference between an old and a new version of a rpm, which can save bandwith. The drawback is that update operations consume considerably more CPU cycles</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DOWNLOADONLY</base>
+      <trans>Predownload updates</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DOWNLOADONLY_DESCRIPTION</base>
+      <trans>The rpm updates can be downloaded during the night, this will ease and give faster the yum update process (only enabled repositories will be used).</trans>
+    </entry>
+
+</lexicon>

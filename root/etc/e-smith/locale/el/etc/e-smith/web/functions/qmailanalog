@@ -1,0 +1,87 @@
+<lexicon lang="el">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Ανάλυση αρχείου καταγραφής αλληλογραφίας</trans>
+    </entry>
+    <entry>
+	<base>INITIAL_DESC</base>
+	<trans><![CDATA[ <p>Η ανάλυση των αρχείων καταγραφής συστήματος αλληλογραφίας μπορεί να βοηθήσει τόσο στην κατανόηση του τρόπου λειτουργίας του συστήματος όσο και στην διάγνωση προβλημάτων παράδοσης. Είναι διαθέσιμες αρκετές διαφορετικές αναφορές.</p> <p>Παρακαλώ σημειώστε ότι μπορεί να χρειαστούν αρκετά λεπτά για τη δημιουργία αυτών των αναφορών</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>REPORT_TYPE</base>
+	<trans>Επιλέξτε ένα τύπο αναφοράς</trans>
+    </entry>
+    <entry>
+	<base>GENERATE_REPORT</base>
+	<trans>Δημιουργία αναφοράς</trans>
+    </entry>
+    <entry>
+	<base>LIST_OUTGOING</base>
+	<trans>Προβολή λίστας εξερχομένων μηνυμάτων και παραλήπτες</trans>
+    </entry>
+    <entry>
+	<base>SUMMARIZE_QUEUE</base>
+	<trans>Σύνοψη κατάστασης ουράς αναμονής αλληλογραφίας</trans>
+    </entry>
+    <entry>
+	<base>SUCCESSFUL_DELIVERY_DELAY</base>
+	<trans>Επιτυχής παράδοση καθυστερημένης διανομής</trans>
+    </entry>
+    <entry>
+	<base>REASONS_DEFERRAL</base>
+	<trans>Λόγοι αναβολής</trans>
+    </entry>
+    <entry>
+	<base>REASONS_FAILURE</base>
+	<trans>Λόγοι αποτυχίας</trans>
+    </entry>
+    <entry>
+	<base>BASIC_STATS</base>
+	<trans>Βασικά στατιστικά</trans>
+    </entry>
+    <entry>
+	<base>RECIP_STATS</base>
+	<trans>Στατιστικά παραληπτών</trans>
+    </entry>
+    <entry>
+	<base>RECIP_HOSTS</base>
+	<trans>Λαμβάνοντες Η/Υ</trans>
+    </entry>
+    <entry>
+	<base>RECIP_ORDERED</base>
+	<trans>Παραλήπτες σε βέλτιστη σειρά για λίστες αλληλογραφίας</trans>
+    </entry>
+    <entry>
+	<base>SENDER_STATS</base>
+	<trans>Στατιστικά αποστολέων</trans>
+    </entry>
+    <entry>
+	<base>SENDMAIL_STYLE</base>
+	<trans>Αρχείο καταγραφής τύπου Sendmail</trans>
+    </entry>
+    <entry>
+	<base>REASONS_SUCCESS</base>
+	<trans>Λόγοι επιτυχίας</trans>
+    </entry>
+    <entry>
+	<base>SENDER_UIDS</base>
+	<trans>uids αποστολέα</trans>
+    </entry>
+    <entry>
+	<base>INVALID_REPORT_TYPE</base>
+	<trans>Μη-έγκυρος τύπος αναφορών:</trans>
+    </entry>
+    <entry>
+	<base>REPORT_GENERATED</base>
+	<trans>Η αναφορά δημιουργήθηκε:</trans>
+    </entry>
+    <entry>
+	<base>END_OF_REPORT</base>
+	<trans>Τέλος Αναφοράς</trans>
+    </entry>
+    <entry>
+	<base>Mail log file analysis</base>
+	<trans>Ανάλυση αρχείων καταγραφής αλληλογραφίας</trans>
+    </entry>
+
+</lexicon>

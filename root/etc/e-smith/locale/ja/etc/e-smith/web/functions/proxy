@@ -1,0 +1,42 @@
+<lexicon lang="ja">
+    <entry>
+        <base>Proxy settings</base>
+        <trans>Proxy settings</trans>
+    </entry>
+    <entry>
+        <base>FIRST_PAGE_DESCRIPTION</base>
+        <trans>This page allows configuration of the server's proxy settings. The server includes a transparent proxy and cache for HTTP traffic. This is enabled by default, but not enforced if the server is in &quot;serveronly&quot; mode. If this server is acting as an e-mail server, connections from local network clients to external SMTP servers will default to being redirected to the local e-mail server.</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>The server's HTTP proxy works to reduce overall uplink usage by caching recently-visited pages. It is transparent to web browsers using this server as their gateway. Enable or disable this proxy with the following toggle.</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_LABEL</base>
+        <trans>HTTP proxy status</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>The server's transparent SMTP proxy works to reduce virus traffic from infected client hosts by forcing all outgoing SMTP traffic through this server if set to "enabled". If you wish to use an alternate SMTP server, and this server is your gateway to it, set this proxy to "disabled". Setting the proxy to "blocked" prevents all SMTP traffic to other servers, this is the default. The proxy only intercepts/blocks normal smtp (port 25) traffic.</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_LABEL</base>
+        <trans>SMTP proxy status</trans>
+    </entry>
+    <entry>
+        <base>ERR_PROXY_UPDATE_FAILED</base>
+        <trans>ERROR: The proxy-update event returned an error.</trans>
+    </entry>
+    <entry>
+        <base>ERR_NO_SQUID_REC</base>
+        <trans>ERROR: There is no squid record in the configuration database.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>The new proxy settings were applied successfully.</trans>
+    </entry>
+    <entry>
+        <base>BLOCKED</base>
+        <trans>ブロックする</trans>
+    </entry>
+</lexicon>

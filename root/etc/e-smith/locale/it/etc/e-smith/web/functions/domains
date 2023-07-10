@@ -1,0 +1,141 @@
+<lexicon lang="it" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Gestione domini</trans>
+    </entry>
+    <entry>
+        <base>FORM_DESCRIPTION</base>
+        <trans><![CDATA[ <p>Creando un dominio, il server potrà ricevere e-mail per quel dominio e potrà anche ospitare il sito web di quel dominio.</p> <p><a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CREATE">Aggiungi dominio</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>Non ci sono domini nel sistema.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST_OF_DOMAINS</base>
+        <trans>Lista domini</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_SITE</base>
+        <trans>Sito principale</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>I-bay per {$content}</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Crea nuovo dominio</trans>
+    </entry>
+    <entry>
+        <base>CONTENT_FIELD_DESCRIPTION</base>
+        <trans>Per il sito web, è possibile selezionare il sito principale o qualsiasi i-bay.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME_VALIDATION_ERROR</base>
+        <trans>Errore: carattere inaspettato o mancante nel nome di dominio {$domainName}. Il nome può contenere uno o più lettere, numeri, punti e segni meno (trattino). Dominio non creato.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_DESCRIPTION_VALIDATION_ERROR</base>
+        <trans>Errore: carattere inaspettato o mancante nella descrizione {$domainDesc}. Dominio non creato.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_IN_USE_ERROR</base>
+        <trans>Errore: dominio {$domainName} già in uso. Dominio non creato.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_DOMAIN_ERROR</base>
+        <trans>Errore: dominio {$domainName} è il dominio di sistema. Impossibile creare un dominio con lo stesso nome. Dominio non creato.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>Dominio {$domainName} creato con successo. Riavvio del server web in corso. I link su questa pagina rimarranno inattivi fino al completamento dell'operazione.</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_TITLE</base>
+        <trans>Modifica dominio</trans>
+    </entry>
+    <entry>
+        <base>NONEXISTENT_DOMAIN_ERROR</base>
+        <trans>Errore: {$domainName} non è un dominio esistente.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>Dominio {$domainName} modificato con successo. Riavvio del server web in corso. I link su questa pagina rimarranno inattivi fino al completamento dell'operazione.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Rimuovi dominio</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESCRIPTION</base>
+        <trans><![CDATA[ <p> Sta per essere rimosso il dominio {$domain} ({$domainDesc}). </p> <p> <b>Siete sicuri di voler rimuovere questo dominio ?</b> </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_REMOVING_DOMAIN</base>
+        <trans>Errore: problema interno durante la rimozione del dominio {$domain}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>Dominio {$domainName} eliminato con successo. Riavvio del server web in corso. I link su questa pagina rimarranno inattivi fino al completamento dell'operazione.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS_CURRENT</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Configurazione DNS</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>BUTTON_CORPORATE_DNS</base>
+        <trans><![CDATA[ <a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CORPORATE_DNS">Modifica la configurazione del DNS</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS</base>
+        <trans>Se il server non ha accesso ad Internet o la risoluzione dei nomi è affidata ad altri server, inserire gli indirizzi IP dei server DNS nei campi sottostanti. Si consiglia di lasciarli vuoti e non inserire gli indirizzi dei DNS del provider perché il server è in grado di risolvere direttamente tutti i nomi di dominio Internet senza necessità di ulteriori configurazioni.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_PRIMARY</base>
+        <trans>Server DNS primario</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_SECONDARY</base>
+        <trans>Server DNS secondario</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_NAMESERVERS</base>
+        <trans>E' possibile scegliere se il dominio verrà risolto localmente, passato al server DNS aziendale o risolto dai server DNS Internet. Nella maggior parte dei casi si consiglia di lasciare il valore di default.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_NAMESERVERS</base>
+        <trans>Server DNS per il dominio</trans>
+    </entry>
+
+    <entry>
+        <base>localhost</base>
+        <trans>Risolvi localmente</trans>
+    </entry>
+
+    <entry>
+        <base>internet</base>
+        <trans>Server DNS Internet</trans>
+    </entry>
+
+    <entry>
+        <base>corporate</base>
+        <trans>Server DNS aziendale</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Sta per essere rimossa il dominio:</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans>Siete sicuri di voler rimuovere questo dominio ?</trans>
+    </entry>
+
+</lexicon>

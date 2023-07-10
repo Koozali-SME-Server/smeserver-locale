@@ -1,0 +1,180 @@
+<lexicon lang="id" params="lexicon_params()">
+    <!-- vim: ft=xml
+    -->
+    <entry>
+        <base>Hostnames and addresses</base>
+        <trans>Hostname dan alamat-alamat</trans>
+    </entry>
+    <entry>
+        <base>UNABLE_TO_OPEN_CONFIGDB</base>
+        <trans>Tidak dapat membuka database konfigurasi</trans>
+    </entry>
+    <entry>
+        <base>DNS_FORWARDER_ENABLED</base>
+        <trans>DNS forwarder telah terkonfigurasi. Artinya bahwa semua pencarian DNS akan dilakukan oleh DNS forwarder. Nama host dan alamat didalam server ini tidak bisa diubah selama DNS forwarder terkonfigurasi.</trans>
+    </entry>
+    <entry>
+        <base>ADD_HOSTNAME</base>
+        <trans><![CDATA[ <a class="button-like" href="hostentries?page=0&page_stack=&Next=Next&wherenext=CreateModify">Buat hostname</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME</base>
+        <trans>Hostname</trans>
+    </entry>
+    <entry>
+        <base>HOSTTYPE</base>
+        <trans>Lokasi</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP</base>
+        <trans>IP Lokal</trans>
+    </entry>
+    <entry>
+        <base>ETHERNET_ADDRESS</base>
+        <trans>Alamat Ethernet</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_HOSTNAMES_FOR_DOMAIN</base>
+        <trans>Daftar hostname saat ini untuk {$domain}.</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTNAMES_FOR_SERVICENAME</base>
+        <trans>Tidak ada hostname dalam system untuk {$serviceName}.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_HOSTNAMES_FOR_LOCAL_DOMAIN</base>
+        <trans>Daftar hostname saat ini untuk {$localDomainName}</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTNAMES_FOR_LOCAL_DOMAIN</base>
+        <trans>tidak ada hostname dalam system untuk {$localDomainName}</trans>
+    </entry>
+    <entry>
+        <base>STATIC_HOST_MESSAGE</base>
+        <trans>- Host ini mewakili nama system anda dan tidak bisa diubah atau dihapus.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_LOCAL_HOST_TITLE</base>
+        <trans>Buat hostname baru untuk server ini</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_VALIDATION_ERROR</base>
+        <trans>Error: karakter yang tidak diperbolehkan dalam host name: "{$HostName}". nama host hanya boleh terdiri dari huruf, angka, dan hyphens harus dimulai dengan huruf atau angka.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_LENGTH_ERROR</base>
+        <trans>Error: nama akun {$HostName} terlalu panjang. Maksimal 32 karakter.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_VALIDATION_ERROR</base>
+        <trans>Error: karakter yang tidak diinginkan atau hilang dalam nama domain {$DomainName}. Nama domain hanya boleh terdiri dari huruf, angka, titik, dan tanda minus. Domain baru tidak dibuat.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_EXISTS_ERROR</base>
+        <trans>Error: akun {$fullHostName} adalah nama host  {$type} yang sudah ada.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>Berhasil membuat hostname</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_DESCRIPTION</base>
+        <trans>Hostname hanya boleh terdiri dari huruf, angka, hyphen dan harus dimulai dengan huruf dan angka.</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP_DESCRIPTION</base>
+        <trans>Alamat IP adalah alamt IP computer lain didalam jaringan lokal. Silakan isi alamat IP yang valid dalam format "aaa.bbb.ccc.ddd".</trans>
+    </entry>
+    <entry>
+        <base>ETHERNET_ADDRESS_DESCRIPTION</base>
+        <trans>Alamat ethernet adalah opsional dan akan menyebabkan server DHCP memberikan alamat IP lokal tersebut secara tetap kepada komputer yang memiliki alamat ethernet ini. Jika diisi, harus dalam format "AA:BB:CC:DD:EE:FF" dan hanya boleh berisi angka  0-9 dan huruf A-F.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_LOCAL_HOST_TITLE</base>
+        <trans>Buat nama host yang baru</trans>
+    </entry>
+    <entry>
+        <base>DIDNT_ENTER_LOCAL_IP</base>
+        <trans>Error: Anda tidak mengisi alamat IP lokal. Alamat IP harus terdiri dari angka dan titik dalam format "aaa.bbb.ccc.ddd". Hostname tidak dibuat.</trans>
+    </entry>
+    <entry>
+        <base>IP_VALIDATION_ERROR</base>
+        <trans>Error: Alamat IP lokal {$InternalIP} tidak valid . Alamat IP harus terdiri dari angka dan titik dalam format "aaa.bbb.ccc.ddd". Hostname tidak dibuat.</trans>
+    </entry>
+    <entry>
+        <base>MAC_ADDRESS_VALIDATION_ERROR</base>
+        <trans>Error: Alamat Ethernet {$MACAddress} tidak valid. Alamat Ethernet harus dalam format "AA:BB:CC:DD:EE:FF" dan hanya boleh terdiri dari angka 0-9 dan huruf A-F. Hostname tidak dibuat.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_REMOTE_HOST_TITLE</base>
+        <trans>Buat hostname baru yang mereferensikan pada remote host</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Buat atau ubah hostname</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_PAGE_DESCRIPTION</base>
+        <trans>Silakan masukkan detil tambahan berikut pada local host:</trans>
+    </entry>
+    <entry>
+        <base>REMOTE_PAGE_DESCRIPTION</base>
+        <trans>Silakan masukkan detil tambahan berikut pada remote host:</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>Berhasil menghapus host.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>Berhasil mengubah host.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_PAGE_DESCRIPTION</base>
+        <trans><![CDATA[ Anda akan menghapus nama host "{$hostname}.{$domain}". </p> <p> <b>Anda yakin menghapus hostname ini?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DESCRIPTION</base>
+        <trans>Silakan konfirmasi detil berikut ini.</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTS_FOR_THIS_DOMAIN</base>
+        <trans>Tidak ada host untuk domain ini.</trans>
+    </entry>
+    <entry>
+        <base>ADDR_IN_DHCP_RANGE</base>
+        <trans>Alamat berada dalam jangkauan alamat yang telah ditentukan bagi alamat dinamis DHCP.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_HOST</base>
+        <trans>Terjadi kesalahan pada saat membuat hostname.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_HOST</base>
+        <trans>Terjadi kesalahan pada saat mengubah hostname.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_HOST</base>
+        <trans>Terjadi kesalahan pada saat menghapus hostname.</trans>
+    </entry>
+    <entry>
+        <base>ERR_IP_IS_LOCAL_OR_GATEWAY</base>
+        <trans>Error: IP tidak boleh alamat IP server atau alamat IP Gateway.</trans>
+    </entry>
+    <entry>
+        <base>ERR_IP_NOT_LOCAL</base>
+        <trans>Error : Alamat IP ini tidak termasuk dalam jaringan lokal ini.</trans>
+    </entry>
+    <entry>
+        <base>MUST_BE_VALID_HOSTNAME_OR_IP</base>
+        <trans>Harus hostname atau alamat IP yang valid</trans>
+    </entry>
+  <entry>
+   <base>HOSTNAME_COMMENT_ERROR</base>
+    <trans>Error: karakter yang tidak diperbolehkan dalam host name: "{$hostname}.{$domain}". nama host hanya boleh terdiri dari huruf, angka, dan hyphens harus dimulai dengan huruf atau angka.</trans>
+  </entry>
+    <entry>
+      <base>HOSTNAME_VALIDATOR_ERROR</base>
+    <trans>Error: karakter yang tidak diperbolehkan dalam host name: "{$hostname}.{$domain}". nama host hanya boleh terdiri dari huruf, angka, dan hyphens harus dimulai dengan huruf atau angka.</trans>
+  </entry>
+</lexicon>

@@ -1,0 +1,242 @@
+<lexicon lang="tr">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Kullanıcı hesabı oluştur, değiştir veya sil</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> <a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">Kullanıcı hesabı ekle</a> </p> <p> Herhangi bir hesapta değişiklik yapmak, kilitlemek, şifresini değiştirmek veya şifresini sıfırlamak için ilgili hesabın sonundaki butonlara tıklayın. </p> <p> Eğer kullanıcı durumu kiltli görünüyorsa, bu kullanıcının şifresi sıfırlanmalıdır. Yeni oluşturulan hesaplar, şifresi değiştirilene kadar kilitlidir. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>P2_TITLE</base>
+        <trans>Oluştur veya değiştir</trans>
+    </entry>
+    <entry>
+        <base>CREATE_MODIFY_DESC</base>
+        <trans><![CDATA[ <p> Hesap adı sadece küçük harf, rakam, tire aplçizgi ve noktadan oluşabilir ve küçük harfle başlamalıdır. Örneğin "betty", "hjohnson" ve "mary-jane" geçerli kullanıcı isimleridir, fakat "3friends", "John Smith", and "henry:miller" geçersizdir. </p> <p> Her yeni hesap için iki takma ad atandığını unutmayın. Bu takma adlar kullanıcı için alternatif e-posta kutuları oluşturur, kullanıcının adı ve soyadı arasında nokta (.) ve  altçizgi (_) konarak oluşturulur. Örneğin "betty" kullanıcısını ilk adı "Betty" ve soyadı "Rubble" ise e-posta için iki takma ad oluşturulacaktır betty.rubble ve betty_rubble. </p> <p> Adres defteri bilgileri (departman, şirket vb.) aşağıda değiştirilebilri. Bu bilgiler sadece bu kullanıcı için geçerli olacaktır. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MODIFY_ADMIN_TITLE</base>
+        <trans>admin hesabını değiştir</trans>
+    </entry>
+    <entry>
+        <base>USER_CREATED</base>
+        <trans>Kullanıcı hesabı başarıyla oluşturuldu</trans>
+    </entry>
+    <entry>
+        <base>USER_MODIFIED</base>
+        <trans>Kullanıcı hesabı başarıyla değiştirildi</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER</base>
+        <trans>Hata: "{$acctName}" isimli kullanıcının ayarları değiştirilirken hata meydana geldi.</trans> 
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER_GROUPS</base> 
+        <trans>Hata: "{$acctName}" isimli kullanıcının bağlı olduğu gurubu değiştirilirken hata meydana geldi, ilgili rup "{$group}" .</trans>
+    </entry>
+    <entry>
+        <base>TAINTED_USER</base>
+        <trans>Girilen hesap adı "{$acctName}" geçersiz karakterler içeriyor.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME</base>
+        <trans>Hesap adı</trans>
+    </entry>
+    <entry>
+        <base>FIRSTNAME</base>
+        <trans>Kullanıcı adı</trans>
+    </entry>
+    <entry>
+        <base>LASTNAME</base>
+        <trans>Soayadı</trans>
+    </entry>
+    <entry>
+        <base>DEPARTMENT</base>
+        <trans>Departman</trans>
+    </entry>
+    <entry>
+        <base>COMPANY</base>
+        <trans>Şirket</trans>
+    </entry>
+    <entry>
+        <base>STREET_ADDRESS</base>
+        <trans>Adres</trans>
+    </entry>
+    <entry>
+        <base>CITY</base>
+        <trans>Şehir</trans>
+    </entry>
+    <entry>
+        <base>PHONE_NUMBER</base>
+        <trans>Telefon numarası</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_DELIVERY</base>
+        <trans>E-posta dağıtımı</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_EMAIL_LOCALLY</base>
+        <trans>E-posta dağıtımını bu sunucudan yap</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_EMAIL</base>
+        <trans>Aşağıdaki e-posta adresine ilet</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_AND_FORWARD</base>
+        <trans>Hem yerel, hem de harici adrese yönlendir</trans>
+    </entry>
+    <entry>
+        <base>FORWARDING_ADDRESS</base>
+        <trans>Varış adresi</trans>
+    </entry>
+    <entry>
+        <base>GROUP_MEMBERSHIPS</base>
+        <trans>Grup üyeleri</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC</base>
+        <trans>Kullanıcı hesabının şifresini değiştirmek üzeresiniz</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC2</base>
+        <trans>Aşağıdaki alanlara yeni şifrenizi girin</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_MODIFYING_PASSWORD</base>
+        <trans>Şifre güncellenirken hata oluştu</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE_SUCCEEDED</base>
+        <trans>"{$acctName}" kullanıcısının şifresi başarıyla değiştirildi.</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC</base>
+        <trans>Kullanıcının hesabını kilitlemek üzeresiniz</trans>
+    </entry>
+    <entry>
+        <base>LOCKED_ACCOUNT</base>
+        <trans>"{$acctName}" kullanıcısının hesabı başarıyla kilitlendi.</trans>
+    </entry>
+    <entry>
+        <base>NO_SUCH_USER</base>
+        <trans>Hata: "{$acctName}" kullanıcısının hesabı bulunamadı.</trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM_CLASH</base>
+        <trans>Hata: takma isim "{$pseudonym}" zaten var olan "{$clashName}" kullanıcının hesabı ile alınır . Farklılaştırmak için, bu alanın başına harfleri ekleyin.</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT</base>
+        <trans>Hesabı kilitle</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT_TITLE</base>
+        <trans>Kullanıcı hesabını kilitle</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC2</base>
+        <trans><![CDATA[ Bu kullanıcının hesabı kilitlenecektir. Bu durumda bu kullanıcı sisteme giriş yapamayacaktır ve e-postalarına ulaşamayacaktır. Gelen e-postalar saklanacak ve / veya harici e-posta adresine yönlendirilecek, yapılandırılmış ise. Hesap, daha sonra şifre verilerek tekrar aktifleştirilebilir. Geçerli şifre korunmayacaktır. </p> <p> <b>Hesabı kiltlemek istediğinizden eminmisiniz?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>REMOVE_ACCOUNT_TITLE</base>
+        <trans>Kullanıcı hesabını sil</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Kullanıcı hesabını silmek üzeresiniz</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans><![CDATA[ Bu kullanıcı hesabına ait bütün dosyalar silinecektir. Sunucuda bu kullanıcıya ait bekleyen e-postalar da dahil (örn. kullanıcı tarafından henüz okunmamış mesajlar) iptal edilecektir. </p> <p> <b>Bu kullanıcı hesabını silmek istediğinizden eminmisiniz?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>LOCK</base>
+        <trans>Kilitli</trans>
+    </entry>
+    <entry>
+        <base>NO_USER_ACCOUNTS</base>
+        <trans>Kullanıcı hesabı bulunamadı.</trans>
+    </entry>
+    <entry>
+        <base>Users</base>
+        <trans>Kullanıcılar</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>"{$acctName}" kullancı adı geçersiz karakter içeriyor. Hesap adı küçük harfle başlamalı ve küçük harfler, rakamlar, tire, nokta ve alt çizgi içermelidir.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_TOO_LONG</base>
+        <trans>Hata: kullanıcı adı çok uzun. En fazla {$maxLength} karakter kullanılabilir.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>Hata: "{$account}" hesabı oluşturulamadı çünkü {$type} isimli bir hesap zaten mevcut.</trans>
+    </entry>    
+    <entry>
+        <base>ERR_OCCURRED_CREATING</base>
+        <trans>Kullanıcı oluşturulurken hata meydana geldi.</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_CONTAIN_WHITESPACE</base>
+        <trans>Bu alan boşluk içermemelidir</trans>
+    </entry>
+    <entry>
+        <base>UNACCEPTABLE_CHARS</base>
+        <trans>Bu alan sadece harfler, sayılar, nokta, tire ve altçizgi içerebilir ve harfle başlamalıdır</trans>
+    </entry>
+    <entry>
+        <base>MEMBER</base>
+        <trans>Üye?</trans>
+    </entry>
+    <entry>
+        <base>VPN_CLIENT_ACCESS</base>
+        <trans>VPN Kullanıcı Erişimi</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_FORM_TITLE</base>
+        <trans>Sistem şifresini değiştir</trans>
+    </entry>    
+    <entry> 
+        <base>SYSTEM_PASSWORD_DESCRIPTION</base>
+        <trans><![CDATA[ Bu sunucudaki bazı servisler kullanıcı adı ve şifre gerktirir (örneğin sunucu yöneticisinin web erişimi için). Kullanıcı adı her zaman "admin" dir. Sistem şifresini aşaığdaki alanı kullanarak değiştirebilirsiniz. ]]></trans>        
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS</base>
+        <trans>Şifre, sadece yazdırılabilir karakterlerden oluşmalıdır</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_VERIFY_ERROR</base>
+        <trans>İki şifre aynı değil.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_AUTH_ERROR</base>
+        <trans>Mevcut şifre doğru girilmedi.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_CHANGED</base>
+        <trans>Sistem şifresi değiştirildi.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_SYSTEM_PASSWORD</base>
+        <trans>Geçerli sistem şifresi</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD</base>
+        <trans>Sistemin yeni şifresi</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD_VERIFY</base>
+        <trans>Sistemin yeni şifresi (doğrula)</trans>
+    </entry>            
+    <entry>
+        <base>LABEL_IPSECRW_DOWNLOAD</base>
+        <trans>Dijital sertifikaları IPSec istemcisine indir</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_DELETING</base>
+        <trans>Kullanıcı silinirken hata oluştu</trans>
+    </entry>
+</lexicon>

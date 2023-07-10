@@ -1,0 +1,42 @@
+<lexicon lang="th">
+    <entry>
+        <base>Proxy settings</base>
+        <trans>การตั้งค่า proxy</trans>
+    </entry>
+    <entry>
+        <base>FIRST_PAGE_DESCRIPTION</base>
+        <trans>หน้าเพจนี้จะเป็นการตั้งค่า proxy ของเซอร์ฟเวอร์นี้ เซิร์ฟเวอร์นี้มีคุณสมบัติ transparent proxy และแคชข้อมูลสำหหรับข้อมูล HTTP มันจะถูกเปิดใช้งานแล้วโดยปริยาย แต่จะไม่มีผลกับโหมดทำงานแบบ &quot;serveronly&quot; หากให้เซิร์ฟเวอร์นี้ทำหน้าที่เป็นอีเมล์เซอร์ฟเวอร์ด้วย การเชื่อมต่อจากเครื่องลูกที่อยู่ในเครือข่ายภายในที่ติดต่อไปยังเซอร์เวอร์ SMTP ภายนอก จะถูกเบี่ยงทิศทาง (redirect) ไปยังอีเมล์เซอร์เวอร์ภายในแทน (local e-mail server) โดยปริยาย</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>HTTP proxy เซิร์ฟเวอร์จะทำหน้าที่ลดปริมาณข้อมูลที่ส่งออก โดยจะทำการแคชหน้าเข้าชมเมื่อเร็วๆ นี้เอาไว้ทำให้แสดงผลข้อมูลหน้านี้ได้เร็วขึ้น แต่จะไม่มีผลกระทบอย่างอื่นกับเว็บเบราเซอร์ที่ใช้เซิร์ฟเวอร์นี้เป็นเกตเวย์ การจะใช้หรือไม่ใช้มันทำโดยเลือกทางเลือกต่อไปนี้</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_LABEL</base>
+        <trans>สถานะของ HTTP proxy</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>เซอร์ฟเวอร์ประเภท transparent SMTP proxy นั้นจะทำหน้าที่ลดปริมาณข้อมูลที่เกิดจากเครื่องลูกข่ายที่ติดไวรัส โดยเมื่อเมื่อทำการเปิดใช้งาน (enabled) มันจะบังคับให้การส่งข้อมูล SMTP ต้องผ่านเซอร์ฟเวอร์นี้เท่านั้น แต่ถ้าหากคุณใช้เซอร์ฟเวอร์ SMTP เครื่องอื่นทำหน้าที่นี้แล้ว และมีเซอร์ฟเวอร์นี้ทำหน้าที่เป็นเกตเวย์ส่งผ่านข้อมูลไปให้ และค่าตั้งต้นของรายการนี้คือให้ปิดกั้น (disabled) proxy ซึ่งจะไม่ให้ข้อมูล SMTP ทั้งหมดถูกส่งต่อไปเซร์ฟเวอร์อื่น ตัว proxy นี้จะรองรับเฉพาะพอร์ต smtp ปกติที่ใช้ทั่วไป (พอร์ต 25) เท่านั้น</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_LABEL</base>
+        <trans>สถานะของ SMTP proxy</trans>
+    </entry>
+    <entry>
+        <base>ERR_PROXY_UPDATE_FAILED</base>
+        <trans>ผิดพลาด: proxy-update event รายงานความผิดพลาดกลับมา</trans>
+    </entry>
+    <entry>
+        <base>ERR_NO_SQUID_REC</base>
+        <trans>ผิดพลาด: ไม่มีข้อมูลการตั้งค่า squid ในฐานข้อมูล</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>ค่าพร็อกซี่ที่ตั้งใหม่ถูกนำมาใช้แล้ว</trans>
+    </entry>
+    <entry>
+        <base>BLOCKED</base>
+        <trans>ถูกบล็อก</trans>
+    </entry>
+</lexicon>

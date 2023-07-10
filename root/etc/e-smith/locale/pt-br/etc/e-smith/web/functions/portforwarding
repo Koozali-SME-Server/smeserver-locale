@@ -1,0 +1,114 @@
+<lexicon lang="pt-br">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Configurar redirecionamento de porta</trans>
+    </entry>
+    <entry>
+        <base>FIRST_PAGE_DESCRIPTION</base>
+        <trans><![CDATA[ <p> Você pode usar esse painel para modificar as regras de seu firewall abrindo uma porta específica e redirecionando para outra porta em outro host. Fazendo isso voce vai permitir trafego externo acessar um host privado em sua rede. </p> <p> AVISO: O mau uso deste recurso pode comprometer seriamente a segurança de sua rede. Não use esse recurso levianamente ou sem uma compreensão profunda das implicações de suas ações. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>CREATE_RULE</base>
+        <trans>Criar regra de redirecionamento de porta</trans>
+    </entry>
+    <entry>
+        <base>SUMMARY_ADD_DESC</base>
+        <trans>O seguinte resume a regra de redirecionamento de porta que você está para adicionar. Se você está satisfeito com a regra, clique o botão &quot;Adicionar&quot; . Se você não está, clique o botão &quot;Cancelar&quot; .</trans>
+    </entry>
+    <entry>
+        <base>SUMMARY_REMOVE_DESC</base>
+        <trans>O seguinte resume a regra de redirecionamento de portas que você está para eliminar. Se você tem certeza de que deseja eliminar a regra, clique o botão &quot;Remover&quot;. Senão clique o botão &quot;Cancelar&quot;.</trans>
+    </entry>
+    <entry>
+        <base>SHOW_FORWARDS</base>
+        <trans>Abaixo você encontrará uma tabela atual resumindo as regras de redirecionamento de portas deste servidor. Clique no link &quot;Remover&quot; para remover a regra corrrespondente.</trans>
+    </entry>
+    <entry>
+        <base>NO_FORWARDS</base>
+        <trans>No momento não existe nenhum redirecionamento de portas no sistema.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_PAGE_DESCRIPTION</base>
+        <trans><![CDATA[ <p>Selecione o protocolo, a porta que deseja redirecionar, o host de destino e a porta no host de destino a qual você deseja redirecionar. Se você deseja especificar uma faixa de portas, entre com o valor mais baixo e mais alto do limite separados por um hífen. A porta de destino pode ser deixada em branco, o que instruirá o firewall para deixar a porta origem inalterada.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SOURCE_PORT</base>
+        <trans>Porta(s) de Origem(ns)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_PROTOCOL</base>
+        <trans>Protocolo</trans>
+    </entry>
+    <entry>
+        <base>LABEL_DESTINATION_PORT</base>
+        <trans>Porta(s) de Destino</trans>
+    </entry>
+    <entry>
+        <base>LABEL_DESTINATION_HOST</base>
+        <trans>Endereço IP do Host de Destino</trans>
+    </entry>
+    <entry>
+        <base>LABEL_RULE_COMMENT</base>
+        <trans>Comentário da Regra</trans>
+    </entry>
+    <entry>
+        <base>LABEL_ALLOW_HOSTS</base>
+        <trans>Hosts Permitidos</trans>
+    </entry>
+    <entry>
+        <base>Port forwarding</base>
+        <trans>Redirecionamento de porta</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Sua alteração na regra de redirecionamento de porta foi salva com sucesso.</trans>
+    </entry>
+    <entry>
+        <base>RULE_COMMENT</base>
+        <trans>Comentário da Regra</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_HOSTS</base>
+        <trans>Hosts Permitidos</trans>
+    </entry>
+    <entry>
+        <base>ERR_NO_MASQ_RECORD</base>
+        <trans>Incapaz de recuperar a configuração do registro de máscara do banco de dados.</trans>
+    </entry>
+    <entry>
+        <base>ERR_UNSUPPORTED_MODE</base>
+        <trans>Modo não suportado.</trans>
+    </entry>
+    <entry>
+        <base>ERR_CANNOT_REMOVE_NORULE</base>
+        <trans>Incapaz de remover regras inexistentes.</trans>
+    </entry>
+    <entry>
+        <base>ERR_NONZERO_RETURN_EVENT</base>
+        <trans>Evento retornou um valor de retorno diferente de zero.</trans>
+    </entry>
+    <entry>
+        <base>ERR_BADPORT</base>
+        <trans>As portas tem que ser um inteiro positivo menor que 65536.</trans>
+    </entry>
+    <entry>
+        <base>ERR_BADIP</base>
+        <trans>Isso não parece ser um endereço IP. Você tem que usar a notação padrão de IP (xxx.xxx.xxx.xxx), e cada um dos 4 números deve ser menor que 256. Exemplo: 192.168.0.5</trans>
+    </entry>
+    <entry>
+        <base>ERR_DUPRULE</base>
+        <trans>Esta regra já foi adicionada e não pode ser adicionada duas vezes.</trans>
+    </entry>
+    <entry>
+        <base>ERR_PORT_COLLISION</base>
+        <trans>ERRO: Esta porta ou faixa de portas conflita com uma das regras já existentes. Favor modificar esta regra ou eliminar a regra antiga.</trans>
+    </entry>
+    <entry>
+        <base>ERR_BADAHOST</base>
+        <trans>Não parece que você tenha digitado uma lista de endereços IP válida. Exemplo: 192.168.0.1,192.168.1.1/24</trans>
+    </entry>
+    <entry>
+        <base>IN_SERVERONLY</base>
+        <trans>Este servidor está atuando no modo Somente Servidor assim o redirecinamento de portas não é possível.</trans>
+    </entry>
+</lexicon>

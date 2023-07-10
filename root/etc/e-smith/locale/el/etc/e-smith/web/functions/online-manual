@@ -1,0 +1,15 @@
+<lexicon lang="el">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>Online εγχειρίδιο και άλλα έγραφα</trans>
+      </entry>	
+      <entry> 
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ <ul> <li><a target="new" href="https://wiki.koozali.org/documentation/manual/"> Online εγχειρίδιο</a> <li><a target="new" href="https://wiki.koozali.org/documentation/FAQ/"> FAQs</a></ul><H2>Υποστήριξη και χορήγηση αδειών</H2> Αυτό το λογισμικό διανέμεται υπό τους όρους που παρατίθενται στη σελίδα <a href="/server-manager/cgi-bin/support">Υποστήριξη και χορήγηση αδειών.</a>  ]]></trans>
+      </entry>		
+      <entry>
+	<base>Online manual</base>
+	<trans>Online εγχειρίδιο</trans>
+      </entry>
+
+</lexicon>

@@ -1,0 +1,174 @@
+<lexicon lang="nb" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Opprett, endre eller fjern informasjonsgrupper</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> <a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify">Legg til i-bay</a> </p> <p> Du kan fjerne en informasjons gruppe eller nulstille passordet ved å klikke på tilhørende link ved ønsket informasjonsgruppe. Hvis informasjonsgruppen vises i rødt, betyr det at passordet enda ikke er endret fra standard, og bør endres snarest. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>Opprett eller endre en informasjonsgruppe</trans>
+    </entry>
+    <entry>
+        <base>NAME_FIELD_DESC</base>
+        <trans>Informasjonsgruppens navn kan bare inneholde små bokstaver, tall, punktum og understreker, og må starte med liten bokstav. For eksempel er "jonsen", intra", og "cust3.prj12" gyldige navn, mens "3part", Jon Jonsen" og "Bus!Partner" ikker er gyldige. Navnet er begrenset til en lengde på {$maxLength} tegn.</trans>
+    </entry>
+    <entry>
+        <base>NAME_LABEL</base>
+        <trans>Informasjonsgruppe navn</trans>
+    </entry>
+    <entry>
+        <base>USER_ACCESS</base>
+        <trans>Brukertilgang via fildeling eller bruker ftp</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS</base>
+        <trans>Offentlig tilgang via web eller anonym ftp</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS_DESCRIPTION</base>
+        <trans>Offentlig tilgangsmodus "passord påkrevd utenfor lokalt nettverk" er ikke støttet av FTP serveren. Hvis du velger denne modusen vil FTP serveren kreve passord både på innsiden og utsiden av det lokale nettverket for denne informasjonsgruppen.</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_DYNAMIC_CONTENT</base>
+        <trans>Kjøring av dynamisk innhold (CGI, PHP, SSI)</trans>
+    </entry>
+	<entry>
+        <base>HTTPS_Only</base>
+        <trans>Force secure connections</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Fjerne informasjonsgruppe</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans><![CDATA[ <p> Du er i ferd med å fjerne informasjonsgruppen "{$name}" ({$description}). </p> <p> Alle filer som hører til gruppen vil bli slettet. </p> <p> Er du sikker på at du vil fjerne informasjonsgruppen? </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_IBAY</base>
+        <trans>En feil oppsto under opprettelsen av informasjonsgruppen.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED_IBAY</base>
+        <trans>Informasjonsgruppen er opprettet.</trans>
+    </entry>
+    <entry>
+        <base>NO_IBAYS</base>
+        <trans>Ingen informasjonsgrupper er opprettet.</trans>
+    </entry>
+    <entry>
+        <base>CANT_FIND_IBAY</base>
+        <trans>Kan ikke finne en konto for {$name} (eksisterer det?)</trans>
+    </entry>
+    <entry>
+        <base>CANT_CREATE_IBAY</base>
+        <trans>Kan ikke opprette ny konto for {$name} (eksisterer det allerede?)</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_IBAY</base>
+        <trans>En feil oppsto under endring av informasjonsgruppen.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED_IBAY</base>
+        <trans>Informasjonsgruppen er endret.</trans>
+    </entry>
+    <entry>
+        <base>VIRTUAL_HOST_MESSAGE</base>
+        <trans>Følgende virituelle domener brukte denne informasjonsgruppens innhold, og de vil bli flyttet til hoved webstedet (du kan endre det til noe annet senere).</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED_IBAY</base>
+        <trans>Informasjonsgruppen er slettet.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_IBAY</base>
+        <trans>En feil oppsto under sletting av informasjonsgruppen.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_DESC</base>
+        <trans>Du er i ferdi med å endre passordet for informasjonsgruppen {$name}.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VALIDATION_ERROR</base>
+        <trans>Passordet kan kun inneholde bokstaver og tall.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VERIFY_ERROR</base>
+        <trans>Passordene er ikke like.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_RESET_PASSWORD</base>
+        <trans>Passodet er nullstilt.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_RESETTING_PASSWORD</base>
+        <trans>En feil oppsto under nulstilling av passordet.</trans>
+    </entry>
+    <entry>
+        <base>VHOST_MESSAGE</base>
+        <trans><![CDATA[ <P>Følgende virituelle domener brukte denne informasjonsgruppens innhold, og de vil bli flyttet til hoved webstedet (du kan endre det til noe annet senere):</P> <ul>{$vhostList}</ul> ]]></trans>
+    </entry>
+    <entry>
+        <base>Information bays</base>
+        <trans>Informasjonsgrupper</trans>
+    </entry>
+    <entry>
+        <base>WGRG</base>
+        <trans>Skrive = gruppe, Lese = gruppe</trans>
+    </entry>
+    <entry>
+        <base>WGRE</base>
+        <trans>Skrive = gruppe, Lese = alle</trans>
+    </entry>
+    <entry>
+        <base>WARG</base>
+        <trans>Skrive = admin, Lese = gruppe</trans>
+    </entry>
+    <entry>
+        <base>NONE</base>
+        <trans>Ingen tilgang</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_NO_PASSWORD</base>
+        <trans>Lokalt nettverk (passord ikke påkrevd)</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_PASSWORD</base>
+        <trans>Lokalt nettverk (passord påkrevd)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_NO_PASSWORD</base>
+        <trans>Hele internett (passord ikke påkrevd)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD</base>
+        <trans>Hele internett (passord påkrevd)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD_REMOTE</base>
+        <trans>Hele internett (passord påkrevd utenfor det lokale nettverket)</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IBAY_DESCRIPTION</base>
+        <trans>Feil: uventet Feil:uventet eller manglende tegn i informasjonsgruppe beskrivelsen</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>Informasjonsgruppens navn "{$acctName}" inneholder ugyldige tegn. Informasjonsgruppenavn må starte med liten bokstav og kun inneholde små bokstaver, tall og bindestreker.</trans>
+    </entry>
+    <entry>
+        <base>MAX_IBAY_NAME_LENGTH_ERROR</base>
+        <trans>Informasjonsgruppenavnet "{$name}" er for langt. maksimallengden er {$maxIbayNameLength} tegn.</trans>
+    </entry>
+    <entry>
+        <base>ACCT_CLASHES_WITH_PSEUDONYM</base>
+        <trans><![CDATA[ Kontoen "{$acctName}" er i konflikt med pseudonym detaljene for {$acctType} kontoen "{$acct}". <p>{$acctName} er et pseudonym for {$acct}.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_EXISTS</base>
+        <trans>Kontoen "{$acctName}" er en eksisterende {$acctType} konto.</trans>
+    </entry>
+</lexicon>

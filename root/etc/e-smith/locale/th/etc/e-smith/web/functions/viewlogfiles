@@ -1,0 +1,83 @@
+<lexicon lang="th">
+    <entry>
+        <base>View log files</base>
+        <trans>ดู log files</trans>
+    </entry>
+
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ แผงควบคุมนี้สำหรับให้คุณเลือกดูหรือดาวน์โหลด log files ที่ถูกสร้างโดยเซอร์วิสที่ทำงานบนเซอร์ฟเวอร์ของคุณ ]]></trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_SELECT_DESC</base>
+        <trans>เลือก log file ที่ต้องกาีรดู</trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>คุณอาจตั้งแพทเทิร์นการแสดงผลเพิ่มเติมเพื่อให้กรองเฉพาะบรรทัดจาก log file ที่ตรงกับแพทเทิร์นนั้น การปล่อยฟิลด์นี้ให้ว่างไว้จะเป็นการให้แสดงทุกบรรทัดที่มี หมายเหตุ:แพทเทิร์นนี้จะไม่มีผล หากเป็นการเลือกดาวน์โหลด</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_LABEL</base>
+        <trans>แพทเทิร์นกรอง (เพิ่มเติม)</trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>คุณอาจตั้งแพทเทิร์นให้แสดงผลการเน้น (highlight) เพิ่มเติม เพื่อให้ทำการเน้นโดยทำตัวหนาแก่บรรทัดใดก็ตามที่ตรงตามแพทเทิร์นนั้น การเน้นจะรวมเน้นบรรทัดที่มาจากแพทเทิร์นกรองการแสดงผลด้วย หมายเหตุ:แพทเทิร์นนี้จะไม่มีผล หากเป็นการเลือกดาวน์โหลด</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_LABEL</base>
+        <trans>แพทเทิร์นแสดงตัวเน้น (เพิ่มเติม)</trans>
+    </entry>
+    <entry>
+        <base>END_DESC</base>
+        <trans>โปรดทราบว่าอาจใช้เวลามากในการสร้างรายงานเหล่านี้</trans>
+    </entry>
+    <entry>
+        <base>VIEW</base>
+        <trans>ดู log file</trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_EMPTY</base>
+        <trans>แฟ้ม (Log file) "{$filename}" ว่างเปล่า!</trans>
+    </entry>
+    <entry>
+        <base>VIEWING_TIME</base>
+        <trans>ดูเมื่อ {$time}</trans>
+    </entry>
+    <entry>
+        <base>MATCH_HEADER</base>
+        <trans>กำลังแสดงผลบรรทัดที่ตรงตาม "{$matchPattern}"</trans>
+    </entry>
+    <entry>
+        <base>HIGHLIGHT_HEADER</base>
+        <trans>กำลังแสดงผลโดยเน้นบรรทัดที่ตรงตาม "{$highlightPattern}"</trans>
+    </entry>
+    <entry>
+        <base>NO_MATCHING_LINES</base>
+        <trans>ไม่มีบรรทัดที่เหมาะสมที่จะแสดง</trans>
+    </entry>
+    <entry>
+        <base>FILENAME_ERROR</base>
+        <trans><![CDATA[ <p>เกิดข้อผิดพลาดขณะทำการระบุชื่อ log file </p> <p>ประเภทของรายงานไม่ถูกต้อง "{$filename}"</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>REFRESH</base>
+	<trans>รีเฟรช logfile นี้</trans>
+    </entry>
+    <entry>
+	<base>OP_DESC</base>
+	<trans><![CDATA[ <p>คุณต้องเลือกระหว่างดู logfile ในบราวเซอร์ หรือดาวน์โหลด logfile ลงคอมพิวเตอร์ของคุณ สำหรับ logfile ที่มีขนาดใหญ่ คุณอาจต้องทำการดาวน์โหลดแทนการพยายามที่จะเปิดดู เพราะอาจเป็นปัญหาสำหรับบางเบราเซอร์</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>OP_LABEL</base>
+	<trans>ดำเนินการ </trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_PAGE_DESC</base>
+	<trans><![CDATA[ <p>ขณะนี้ได้เสร็จสิ้นการเตรียมการ logfile ที่คุณต้องการดาวน์โหลดแล้ว การดำเนินการจะเริ่มทันทีที่คุณคลิกที่ปุ่ม &quot;ถัดไป&quot; ด้านล่าง และคุณต้องสั่งบราวเซอร์ของคุณยอมรับการถามดาวน์โหลดจะที่ปรากฎขึ้นในหน้าต่างป๊อปอัพ</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_FILE</base>
+	<trans>เตรียมการดาวน์โหลด logfile {$logfile}</trans>
+    </entry>
+</lexicon>

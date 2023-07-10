@@ -1,0 +1,520 @@
+<lexicon lang="et">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>Collaboration</base>
+        <trans>Collaboration</trans>
+    </entry>
+    <entry>
+      <base>Administration</base>
+      <trans>Administreerimine</trans>
+    </entry>
+    <entry>
+        <base>Security</base>
+        <trans>Turvalisus</trans>
+    </entry>
+    <entry>
+        <base>Configuration</base>
+        <trans>Seadistused</trans>
+    </entry>
+    <entry>
+        <base>Miscellaneous</base>
+        <trans>Muu</trans>
+    </entry>
+    <entry>
+        <base>Your Settings</base>
+        <trans>Sinu seaded</trans>
+    </entry>
+    <entry>
+        <base>SAVE</base>
+        <trans>Salvesta</trans>
+    </entry>
+    <entry>
+        <base>CANCEL</base>
+        <trans>Tühista</trans>
+    </entry>
+    <entry>
+        <base>ENABLED</base>
+        <trans>Lubatud</trans>
+    </entry>
+    <entry>
+        <base>DISABLED</base>
+        <trans>Keelatud</trans>
+    </entry>
+    <entry>
+        <base>NO</base>
+        <trans>Ei</trans>
+    </entry>
+    <entry>
+        <base>YES</base>
+        <trans>Jah</trans>
+    </entry>
+    <entry>
+        <base>ADD</base>
+        <trans>Lisa</trans>
+    </entry>
+    <entry>
+        <base>CREATE</base>
+        <trans>Loo</trans>
+    </entry>
+    <entry>
+        <base>MODIFY</base>
+        <trans>Muuda</trans>
+    </entry>
+    <entry>
+        <base>REMOVE</base>
+        <trans>Eemalda</trans>
+    </entry>
+    <entry>
+        <base>COMMENT</base>
+        <trans>Kommentaar</trans>
+    </entry>
+    <entry>
+        <base>NEXT</base>
+        <trans>Edasi</trans>
+    </entry>
+    <entry>
+        <base>SELF</base>
+        <trans>Ise</trans>
+    </entry>
+    <entry>
+        <base>REMOTE</base>
+        <trans>Eemalt</trans>
+    </entry>
+    <entry>
+        <base>LOCAL</base>
+        <trans>Kohalik</trans>
+    </entry>
+    <entry>
+        <base>ACTION</base>
+        <trans>Tegevus</trans>
+    </entry>
+    <entry>
+        <base>NETWORK</base>
+        <trans>Võrk</trans>
+    </entry>
+    <entry>
+        <base>ROUTER</base>
+        <trans>Ruuter</trans>
+    </entry>
+    <entry>
+        <base>OPERATION_STATUS_REPORT</base>
+        <trans>Operatsiooni tulemus</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT</base>
+        <trans>Konto</trans>
+    </entry>
+    <entry>
+        <base>GROUP</base>
+        <trans>Grupp</trans>
+    </entry>
+    <entry>
+        <base>DESC_SECTIONBAR</base>
+        <trans><![CDATA[ <hr class="sectionbar"/> ]]></trans>
+    </entry>
+    <entry>
+        <base>NO_PIPES_ALLOWED</base>
+        <trans>Pipe sümboleid (|) pole siin väljal lubatud</trans>
+    </entry>
+    <entry>
+        <base>ERROR_BELOW</base>
+        <trans>VIGA: Lehe valideerimisel ilmnes viga. Probleemi kirjeldus lehe lõpus.</trans>
+    </entry>
+    <entry>
+        <base>ACCESS</base>
+        <trans>Juurdepääs</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_LOCKED</base>
+        <trans>Konto on lukus</trans>
+    </entry>
+    <entry>
+        <base>GROUP_ADD</base>
+        <trans>Lisa grupp</trans>
+    </entry>
+    <entry>
+        <base>NETWORKS_ALLOW_LOCAL</base>
+        <trans>Luba juurdepääs ainult kohtvõrgust</trans>
+    </entry>
+    <entry>
+        <base>NETWORKS_ALLOW_PUBLIC</base>
+        <trans>Luba avalik juurdepääs (internetist)</trans>
+    </entry>
+    <entry>
+        <base>ERROR_PASSWORD_CHANGE</base>
+        <trans>Parooli muutmisel ilmnes viga. Palun kontrolli kas sisestasid vana parooli õieti.</trans>
+    </entry>
+    <entry>
+        <base>BACK</base>
+        <trans>Tagasi</trans>
+    </entry>
+    <entry>
+        <base>BACKUP</base>
+        <trans>Varukoopia</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION_BRIEF</base>
+        <trans>Brief kirjeldus</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE</base>
+        <trans>Muuda parooli</trans>
+    </entry>
+    <entry>
+        <base>RESET_PASSWORD_TITLE</base>
+        <trans>Tühista kasutaja parool</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_PASSWORD_CHANGE</base>
+        <trans>Parooli muutmine</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>Sisu</trans>
+    </entry>
+    <entry>
+        <base>CREATE_GROUP</base>
+        <trans>Loo kasutajate grupp</trans>
+    </entry>
+    <entry>
+        <base>USER_LIST_CURRENT</base>
+        <trans>Nimekiri kasutajatest</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans>Kirjeldus</trans>
+    </entry>
+    <entry>
+        <base>DESTINATION</base>
+        <trans>Asukoht</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME</base>
+        <trans>Domeeni nimi</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN</base>
+        <trans>Domeen</trans>
+    </entry>
+    <entry>
+        <base>DOMAINS</base>
+        <trans>Domeenid</trans>
+    </entry>
+    <entry>
+        <base>DOWNLOAD</base>
+        <trans>Allalaadimine</trans>
+    </entry>
+    <entry>
+        <base>ERROR_UPDATING_CONFIGURATION</base>
+        <trans>Viga süsteemi seadete uuendamisel</trans>
+    </entry>
+    <entry>
+        <base>GROUP_MEMBERS</base>
+        <trans>Grupi liikmed</trans>
+    </entry>
+    <entry>
+        <base>GROUP_NAME</base>
+        <trans>Grupi nimi</trans>
+    </entry>
+    <entry>
+        <base>GROUPS</base>
+        <trans>Grupid</trans>
+    </entry>
+    <entry>
+        <base>IP_ADDRESS</base>
+        <trans>IP aadress</trans>
+    </entry>
+    <entry>
+        <base>IP_ADDRESS_OR_FQDN</base>
+        <trans>IP aadress või FQDN</trans>
+    </entry>
+    <entry>
+        <base>USER_INVALID</base>
+        <trans>Olematu kasutaja</trans>
+    </entry>
+    <entry>
+        <base>LOCATION</base>
+        <trans>Asukoht</trans>
+    </entry>
+    <entry>
+        <base>MB</base>
+        <trans>Mb</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_USER_GROUP</base>
+        <trans>Muuda kasutaja kuuluvust gruppi</trans>
+    </entry>
+    <entry>
+        <base>NAME</base>
+        <trans>Nimi</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_VERIFY_NEW</base>
+        <trans>Uus parool (korda uut parooli):</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_NEW</base>
+        <trans>Uus parool:</trans>
+    </entry>
+    <entry>
+        <base>OFF</base>
+        <trans>Väljas</trans>
+    </entry>
+    <entry>
+        <base>OK</base>
+        <trans>Ok</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_OLD</base>
+        <trans>Vana parool:</trans>
+    </entry>
+    <entry>
+        <base>ON</base>
+        <trans>Sees</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD</base>
+        <trans>Parool</trans>
+    </entry>
+    <entry>
+        <base>PERFORM</base>
+        <trans>Perform</trans>
+    </entry>
+    <entry>
+        <base>RECONFIGURE</base>
+        <trans>Seadista ümber</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_USER_GROUP</base>
+        <trans>Eemalda kasutajate grupp</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_RESET</base>
+        <trans>Tühista parool</trans>
+    </entry>
+    <entry>
+        <base>RESTORE</base>
+        <trans>Taasta</trans>
+    </entry>
+    <entry>
+        <base>SHUTDOWN</base>
+        <trans>Sulge</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Õnnestus</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME_INVALID</base>
+        <trans>Sisestatud kasutajanime ei leitud.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME_INVALID_CHARS</base>
+        <trans>Kasutajanimi mis sa sisestasid sisaldab sobimatuid sümboleid.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_OLD_INVALID_CHARS</base>
+        <trans>Vana parool mis sa sisestasid sisaldab sobimatuid sümboleid.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_INVALID_CHARS</base>
+        <trans>Parool mis sa sisestasid sisaldab sobimatuid sümboleid.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_VERIFY_ERROR</base>
+        <trans>Paroolid mis sa sisestasid ei ühti.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_USER_NONE</base>
+        <trans>Süsteemis pole kasutajakontosid.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_GROUP_NONE</base>
+        <trans>Süsteemis pole kasutajagruppe.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_INVALID_CHARS</base>
+        <trans>Sobimatu sümbol kirjelduses.</trans>
+    </entry>
+    <entry>
+        <base>USER_NAME</base>
+        <trans>Kasutajanimi</trans>
+    </entry>
+    <entry>
+        <base>YOUR_ACCOUNT</base>
+        <trans>Sinu konto:</trans>
+    </entry>
+    <entry>
+      <base>YOUR_ACCOUNT_INVALID</base>
+      <trans>Sisestatud kasutajanime ei leitud.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE_SUCCESS</base>
+        <trans>Sinu parool on edukalt muudetud.</trans>
+    </entry>
+    <entry>
+        <base>FM_NONBLANK</base>
+        <trans>See väli peab täidetud olema</trans>
+    </entry>
+    <entry>
+        <base>FM_INTEGER</base>
+        <trans>See väli peab sisaldama positiivset täisarvu</trans>
+    </entry>
+    <entry>
+        <base>FM_NUMBER</base>
+        <trans>Sellele väljale saab ainult numbreid sisestada</trans>
+    </entry>
+    <entry>
+        <base>FM_WORD</base>
+        <trans>Selle välja sisestus peab välja nägema nagu üks sõna.</trans>
+    </entry>
+    <entry>
+        <base>FM_DATE</base>
+        <trans>Sisestatud andmeid ei saa kuupäevaks lugeda</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER1</base>
+        <trans>Sa pead sisestama krediitkaardi numbri</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER2</base>
+        <trans>Krediitkaardi number ei tohi sisaldada mitte midagi muud kui numbreid ja tühikuid</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER3</base>
+        <trans>Peab olema vähemalt 14 sümbolit pikk</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER4</base>
+        <trans>Ei tundu sobivat krediikaardi numbriks</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY1</base>
+        <trans>Kaardi kehtivuse lõpu kuupäeva ei sisestatud.</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY2</base>
+        <trans>Kehtivuse lõpp peab olema vormingus KK/AA või KK/AAAA</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY3</base>
+        <trans>See kuupäev on juba möödas</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY4</base>
+        <trans>See kehtivuse lõpu kuupäev on liiga kaugel tulevikus</trans>
+    </entry>
+    <entry>
+        <base>FM_ISO_COUNTRY_CODE1</base>
+        <trans>Sisesta riigi kood</trans>
+    </entry>
+    <entry>
+        <base>FM_ISO_COUNTRY_CODE2</base>
+        <trans>Väli ei sisalda maa koodi ISO vormingus</trans>
+    </entry>
+    <entry>
+        <base>FM_US_STATE</base>
+        <trans>This doesn't appear to be a valid 2-letter US state abbreviation</trans>
+    </entry>
+    <entry>
+        <base>FM_US_ZIPCODE</base>
+        <trans>US indeks koosneb ainult 5 või 9 numbrist</trans>
+    </entry>
+    <entry>
+        <base>FM_MINLENGTH1</base>
+        <trans>Minimum length has been specified meaninglessly as {$minlength}</trans>
+    </entry>
+    <entry>
+        <base>FM_MINLENGTH2</base>
+        <trans>See väli peab sisaldama vähemalt {$minlength} sümbolit</trans>
+    </entry>
+    <entry>
+        <base>FM_MAXLENGTH1</base>
+        <trans>Maximum length has been specified meaninglessly as {$maxlength}</trans>
+    </entry>
+    <entry>
+        <base>FM_MAXLENGTH2</base>
+        <trans>See väli ei tohi sisaldada rohkem kui {$maxlength} sümbolit</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH1</base>
+        <trans>You must specify the length for the field.</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH2</base>
+        <trans>You must specify the exactlength of the field with an integer</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH3</base>
+        <trans>This field must be exactly {$exactlength} characters</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE1</base>
+        <trans>Pead täpsustama maksimum ja miinimum pikkuse sellele väljale</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE2</base>
+        <trans>You must specify the maximum and minimum lengths of the field with an integer</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE3</base>
+        <trans>See väli saab sisaldada {$minlength} ja {$maxlength} vahemikus sümboleid</trans>
+    </entry>
+    <entry>
+        <base>FM_URL</base>
+        <trans>Väli peab sisaldama URL-i algusega http:// või ftp://</trans>
+    </entry>
+    <entry>
+        <base>FM_EMAIL_SIMPLE1</base>
+        <trans>Pead sisestama e-maili aadressi:</trans>
+    </entry>
+    <entry>
+        <base>FM_EMAIL_SIMPLE2</base>
+        <trans>Sisestus sellel väljal ei ole RFC822-vormingus e-maili aadress</trans>
+    </entry>
+    <entry>
+        <base>FM_DOMAIN_NAME</base>
+        <trans>Sisestus sellel väljal ei paista olevat domeeni või hostinimi.</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER1</base>
+        <trans>See väli peab sisaldama IP aadressi ja ei tohi sisaldada tühikuid.</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER2</base>
+        <trans>Sobimatu IP aadress DHCP alguseks (mall X.X.X.X)</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER3</base>
+        <trans>{$octet} on rohkem kui 255</trans>
+    </entry>
+    <entry>
+        <base>FM_USERNAME</base>
+        <trans>See väli peab sisaldama kasutajanime (3 kuni 8 tähte ja numbrit)</trans>
+    </entry>
+    <entry>
+        <base>FM_PASSWORD1</base>
+        <trans>Pead parooli looma.</trans>
+    </entry>
+    <entry>
+        <base>FM_PASSWORD2</base>
+        <trans>Sinu poolt valitud parool ei ole kuigi turvaline. Turvaline parool peaks sisaldama: Suuri ja väikseid tähti, numbreid, tähestikus mitte olevaid sümboleid ja vähemalt 7 sümbolit pikk.</trans>
+    </entry>
+    <entry>
+        <base>FM_MAC_ADDRESS1</base>
+        <trans>Sisesta MAC aadress:</trans>
+    </entry>
+    <entry>
+        <base>FM_MAC_ADDRESS2</base>
+        <trans>Sisestatud MAC aadress ei sobi.</trans>
+    </entry>
+    <entry>
+	<base>FM_ERR_UNEXPECTED_DESC</base>
+	<trans>Viga: sobimatu või puuduv sümbol kirjelduses</trans>
+    </entry>
+    <entry>
+        <base>CSRF_VALIDATION_FAILURE</base>
+        <trans>Error: CSRF token is invalid or outdated.</trans>
+    </entry>
+</lexicon>

@@ -1,0 +1,15 @@
+<lexicon lang="tr">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>Çevrimiçi klavuz ve diğer dökümanlar</trans>
+      </entry>	
+      <entry> 
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ <ul> <li><a target="new" href="https://wiki.koozali.org/documentation/manual/"> Çevrimiçi klavuz</a> <li><a target="new" href="https://wiki.koozali.org/documentation/FAQ/"> S.S.S.</a> </ul> <H2>Destek ve Lisanslama</H2> Bu yazılımın kullanım süreci <a href="/server-manager/cgi-bin/support"> Destek ve Lisanslama</a> sayfasında belirtilmiştir. ]]></trans>
+      </entry>		
+      <entry>
+	<base>Online manual</base>
+	<trans>Çevrimiçi klavuz</trans>
+      </entry>
+
+</lexicon>

@@ -1,0 +1,58 @@
+<lexicon lang="ru">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Изменить настройки рабочей группы</trans>
+    </entry>	
+    <entry> 
+        <base>DESC_WORKGROUP</base>
+        <trans><![CDATA[ Введите имя рабочей группы Windows в которую должен входить этот сервер. ]]></trans>	
+    </entry>
+    <entry>
+        <base>LABEL_WORKGROUP</base>
+        <trans>Рабочая группа Windows</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERVERNAME</base>
+        <trans>Введите имя, которое этот сервер должен использовать для общего доступа к файлам Windows и Macintosh.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERVERNAME</base>
+        <trans>Имя сервера</trans>
+    </entry>
+    <entry>
+        <base>DESC_PDC</base>
+        <trans><![CDATA[Должен этот сервер выступать в качестве контроллера рабочей группы и домена в вашей сети Windows? Вы должны оставить эту настройку в <b>Нет</b>, если другой сервер уже выполняет эту роль в вашей сети.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_PDC</base>
+        <trans>Контроллер домена и рабочая группа</trans>
+    </entry>
+    <entry>
+        <base>DESC_ROAM</base>
+        <trans><![CDATA[ Должен этот сервер поддерживать перемещаемые профили? Вы должны оставить эту настройку по умолчанию в <b>Нет</b> пока у вас недостаточно опыта администрирования перемещаемых профилей на основе сервера Windows и знания, что эта функция необходима. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_ROAM</base>
+        <trans>Перемещаемый профиль</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Новые настройки рабочей группы сохранены</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP</base>
+        <trans>Имя рабочей группы должно начинаться с буквы (верхнего или нижнего регистра), за ней может следовать комбинация букв, цифр, подчёркиваний, точек и дефисов.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SERVERNAME</base>
+        <trans>Имя сервера должно начинаться с буквы (верхнего или нижнего регистра), за ней может следовать комбинация букв, цифр, подчёркиваний и дефисов.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP_MATCHES_SERVERNAME</base>
+        <trans>Имя сервера и рабочей группы совпадают при сравнении в нижнем регистре. Эти значения должны различаться для включения совместного доступа к файлам.</trans>
+    </entry>
+    <entry>
+        <base>Workgroup</base>
+        <trans>Рабочая группа</trans>
+    </entry>
+</lexicon>

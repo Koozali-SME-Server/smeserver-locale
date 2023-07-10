@@ -1,0 +1,141 @@
+<lexicon lang="da" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Administrer domæner</trans>
+    </entry>
+    <entry>
+        <base>FORM_DESCRIPTION</base>
+        <trans><![CDATA[ <p>Når du opsætter et virtuelt domæne, vil serveren være i stand til at modtage post, være vært for webstedet og lig. for dette domæne.</p> <p><a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CREATE">Tilføj domæne</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>Der er ikke oprettet nogen virtuelle domæner på serveren.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST_OF_DOMAINS</base>
+        <trans>Liste over domæner</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_SITE</base>
+        <trans>primært websted</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>{$content} i-bay</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Opret nyt domæne</trans>
+    </entry>
+    <entry>
+        <base>CONTENT_FIELD_DESCRIPTION</base>
+        <trans>Som kilde for websideindholdet kan du vælge enten serverens primære webside eller en i-bay.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME_VALIDATION_ERROR</base>
+        <trans>Fejl: uventede eller manglende tegn i domænenavn {$domainName}. Domænenavnet skal indeholde et eller flere bogstaver, tal, punktum eller bindestreger. Domænet blev ikke oprettet.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_DESCRIPTION_VALIDATION_ERROR</base>
+        <trans>Fejl: uventede eller manglende tegn i domænebeskrivelsen {$domainDesc}. Domænet blev ikke oprettet.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_IN_USE_ERROR</base>
+        <trans>Fejl: domænenavn {$domainName} er allerede i brug. Domænet blev ikke oprettet.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_DOMAIN_ERROR</base>
+        <trans>Fejl: domænenavn {$domainName} er dit systems domænenavn. Du kan ikke have flere domæner med samme navn. Domænet blev ikke oprettet.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>Virtuelt domæne {$domainName} er oprettet. Webserveren vil blive gensartet. Genvejene på denne side vil ikke være inaktive indtil webserveren kører igen.</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_TITLE</base>
+        <trans>Ændre virtuelt domæne</trans>
+    </entry>
+    <entry>
+        <base>NONEXISTENT_DOMAIN_ERROR</base>
+        <trans>Fejl: {$domainName} findes ikke.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>Virtuelt domæne {$domainName} er ændret. Webserveren vil blive gensartet. Genvejene på denne side vil være inaktive indtil webserveren kører igen.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Remove virtual domain</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESCRIPTION</base>
+        <trans><![CDATA[ <p> Du er ved at fjerne domænet {$domain} ({$domainDesc}). </p> <p> <b>Er du sikker på du ønsker at fjerne domænet?</b> </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_REMOVING_DOMAIN</base>
+        <trans>Fejl: intern fejl under fjernelse af domæne {$domain}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>Domæne {$domainName} er slettet. Webserveren vil blive genstartet. Genvejene på denne side vil være inaktive indtil webserveren kører igen.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS_CURRENT</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Virksomheds DNS indstillinger</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>BUTTON_CORPORATE_DNS</base>
+        <trans><![CDATA[ <p>Hvis din server ikke har adgang til Internet, eller du har specielle krav til DNS-opslag så angiv DNSserverens IPadresse her. Det er ikke internetudbyderens DNSserver der skalangives. Denne server er fuldt ud i stand til selv at omsætte Internet DNS uden yderligere opsætning.</p> <p> <a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CORPORATE_DNS">Ændre firma DNS opsætning</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS</base>
+        <trans>Hvis din server ikke har adgang til Internet, eller du har specielle krav til DNS-opslag så angiv DNSserverens IPadresse her. Efterlad disse felter tomme medmindre du har specielle grunde til at opsætte en anden DNS server. Det er ikke internetudbyderens DNSserver der skal angives. Denne server er fuldt ud i stand til selv at omsætte Internet DNS uden yderligere opsætning.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_PRIMARY</base>
+        <trans>Primær firma DNS server</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_SECONDARY</base>
+        <trans>Sekundær firma DNS server</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_NAMESERVERS</base>
+        <trans>Du kan indstille hvorvidt dette domæne slås op lokalt, på firma DNS serveren eller på Internet DNS serverne. Det forudindstillede skulle fungere for de fleste netværker.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_NAMESERVERS</base>
+        <trans>Domæne DNS servere</trans>
+    </entry>
+
+    <entry>
+        <base>localhost</base>
+        <trans>Slå op lokalt</trans>
+    </entry>
+
+    <entry>
+        <base>internet</base>
+        <trans>Internet DNS servere</trans>
+    </entry>
+
+    <entry>
+        <base>corporate</base>
+        <trans>Firma DNS server</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Du er ved at fjerne domænet</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans>Er du sikker på du vil fjerne dette domæne?</trans>
+    </entry>
+
+</lexicon>

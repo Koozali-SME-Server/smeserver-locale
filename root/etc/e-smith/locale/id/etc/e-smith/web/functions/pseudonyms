@@ -1,0 +1,114 @@
+<lexicon lang="id">
+    <entry>
+      <base>NO_PSEUDONYMS</base>
+      <trans><![CDATA[ <b>Tidak ada pseudonym dalam sistem.</b> ]]></trans>
+     </entry>
+    <entry>
+        <base>REMOVE_PSEUDONYM</base>
+        <trans>Hapus pseudonym</trans>
+    </entry>
+    <entry>
+        <base>ABOUT_TO_REMOVE</base>
+        <trans><![CDATA[ Anda akan menghapus pseudonym:<br> <b>Anda yakin ingin melanjutkan?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Buat, ubah, atau hapus pseudonym</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans><![CDATA[ <p>TServer secara otomatis membuat sebuah e-mail untuk setiap grup. Jika anda ingin mendefinisikan sebuah email alias untuk sejumlah user, cukup buat sebuah grup dan list akan dikelola oleh server secara otomatis..</p> <p>Dengan Pseudonym anda bisa membuat nama lain dari user atau grup yang telah ada. Contohnya , anda ingin membuat pseudonym "webmaster" untuk grup "pengembangweb" atau pseudonym "joe" untuk pengguna "joseph".</p> <p>Server secara otomatis membuat pseudonym dalam bentuk firstname.lastname dan firstname_lastname untuk setiap userdalam sistem dan sebuah pseudonym "everyone" yang memuat semua user dalam sistem.</p> <p>Pseudonym juga membuat anda dapat membuat alamat email alias untuk (virtual) domains dan pengguna yang valid. COntohnya anda dapat meneruskan "sales@virtualdomain1.com" ke pengguna "mary" dan "sales@virtualdomain2.com" ke pengguna "john". Anda harus membuat domain-domain dan akun pengguna sebelum membuat alamat email alias.</p> <p>Pseudonyms juga dapat meneruskan ke pseudonyms yang lain, walaupun hal ini terbatas sampai satu langkah saja. Contoh pseudonym "webmaster" dapat meneruskan ke pseudonym "techsupport" yang kemudian meneruskan ke pengguna yang spesifik "ray". Hal ini berguna ketika satu pengguna bertanggung jawab untuk berbagai bagian dan sangat menolong sehingga tidak perlu mengubah pseudonym's yang terhubung dengan user tersebut pada saat user tersebut keluar dari organisasi.</p> <p>Anda dapat mengubah atau menghapus pseudonym dengan cara meng-klik perintah yang bersangkutan disebelah pseudonym.</p>]]></trans>
+    </entry>
+    <entry>
+        <base>LOCAL_ONLY</base>
+        <trans>(jaringan lokal saja)</trans>
+    </entry>
+    <entry>
+        <base>SELECT_ACCOUNT</base>
+        <trans>Pilih akun atau grup</trans>
+    </entry>
+    <entry>
+        <base>SELECT_INTERNAL</base>
+        <trans>Jaringan lokal saja</trans>
+    </entry>
+    <entry>
+        <base>CLICK_TO_CREATE</base>
+        <trans>Tambah pseudonym</trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM</base>
+        <trans>Pseudonym</trans>
+    </entry>
+    <entry>
+        <base>USER_OR_GROUP</base>
+        <trans>Pengguna atau grup</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_PSEUDONYMS</base>
+        <trans><![CDATA[<b>Daftar Pseudonym</b>]]></trans>
+    </entry>
+    <entry>
+        <base>TITLE_CREATE</base>
+        <trans>Buat sebuah pseudonym</trans>
+    </entry>
+    <entry>
+        <base>DESC_PSEUDONYM_NAME</base>
+       <trans>Silakan pilih akun atau grup yang telah ada untuk pseudonym dari pulldown menu dibawah ini</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_PSEUDONYM</base>
+        <trans>Ubah pseudonym</trans>
+    </entry>     
+       <entry>
+        <base>PSEUDONYM_NAME</base>
+        <trans>Nama pseudonym</trans>
+    </entry>
+    <entry>
+        <base>VALID_PSEUDONYM_NAMES</base>
+        <trans><![CDATA[ Pseudonym hanya boleh mengandung huruf kecil,angka, titik, strip dan garis bawah dan harus dimulai dengan huruf kecil atau angka. Contoh "sales", "john.holland", "123" dan "email-administrator" adalah pseudonym yang benar, tetapi "John Smith" dan "Henry Miller" tidak benar. <p>Anda juga dapat membuat nama lain dari email untuk akun dan domain (virtual) yang valid dalam server ini. Contohnya "fred@virtualdomain.com" dapat diforward ke "mary" (atau ke akun pengguna lain yang valid).</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>NAME_IN_USE</base>
+        <trans>Error: Nama tersebut sudah digunakan. Anda tidak dapat membuat pseudonym menggunakan nama itu.</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_PSEUDONYM</base>
+        <trans>Akun ini bukan sebuah pseudonym</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_DOMAIN</base>
+        <trans>Domain tersebut tidak berada dalam server ini</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_NOACCT</base>
+        <trans>Akun tersebut tidak berada dalam server ini</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_SAMEACCT</base>
+        <trans>Pseudonym tidak dapat menunjuk pada akun yang sama</trans>
+    </entry>
+    <entry>
+        <base>CREATE_SUCCEEDED</base>
+        <trans>Berhasil membuat pseudonym</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_SUCCEEDED</base>
+        <trans>Berhasil mengubah pseudonym</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_SUCCEEDED</base>
+        <trans>Berhasil menghapus pseudonym</trans>
+    </entry>
+    <entry>
+      <base>EVERYONE</base>
+      <trans>Semua user</trans>
+    </entry>
+      <entry>
+        <base>Pseudonyms</base>
+        <trans>Pseudonym</trans>
+      </entry>
+
+</lexicon>

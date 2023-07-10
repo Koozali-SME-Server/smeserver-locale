@@ -1,0 +1,58 @@
+<lexicon lang="el">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Αλλαγή ρυθμίσεων ομάδας εργασίας</trans>
+    </entry>	
+    <entry> 
+        <base>DESC_WORKGROUP</base>
+        <trans><![CDATA[ Πληκτρολογήστε το όνομα της ομάδας εργασίας των Windows στην οποία ο διακομιστής αυτός πρέπει να εμφανισθεί. ]]></trans>	
+    </entry>
+    <entry>
+        <base>LABEL_WORKGROUP</base>
+        <trans>Ομάδα εργασίας των Windows</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERVERNAME</base>
+        <trans>Πληκτρολογήστε το όνομα το οποίο πρέπει να χρησιμοποιεί αυτός ο διακομιστής για την ανταλλαγή αρχείων με άλλους σε περιβάλλον Windows και Macintosh.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERVERNAME</base>
+        <trans>Όνομα διακομιστή</trans>
+    </entry>
+    <entry>
+        <base>DESC_PDC</base>
+        <trans><![CDATA[Θα έπρεπε αυτός ο διακομιστής να εκτελεί καθήκοντα ελεγκτή ομάδας εργασίας (workgroup) και τομέα (domain) στο δίκτυο των Windows σας; Θα πρέπει ν' αφήσετε αυτή την επιλογή στο <b>Όχι</b> εάν ένας άλλος διακομιστής έχει ήδη αναλάβει αυτό τον ρόλο στο δίκτυό σας.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_PDC</base>
+        <trans>Ελεγκτής ομάδας εργασίας και τομέα</trans>
+    </entry>
+    <entry>
+        <base>DESC_ROAM</base>
+        <trans><![CDATA[ Πρέπει αυτός ο διακομιστής να υποστηρίζει προφίλ περιαγώμενων (roaming) χρηστών; Αφήστε την αρχική ρύθμιση <b>Όχι</b> εκτός εάν διαθέτετε εμπειρία στη διαχείριση προφίλ περιαγώμενων χρηστών σε περιβάλλον διακομιστών Windows και γνωρίζετε ότι απαιτείται το χαρακτηριστικό αυτό. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_ROAM</base>
+        <trans>Προφίλ περιαγώμενων χρηστών</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Οι νέες ρυθμίσεις της ομάδας εργασίας αποθηκεύτηκαν</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP</base>
+        <trans>Το όνομα της ομάδας εργασίας πρέπει ν' αρχίζει με ένα γράμμα (κεφαλαίο ή πεζό), ακολουθούμενο από οποιονδήποτε συνδυασμό από γράμματα,αριθμούς,τελείες, παύλες και κάτω παύλες.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SERVERNAME</base>
+        <trans>Το όνομα του διακομιστή πρέπει ν' αρχίζει με ένα γράμμα (κεφαλαίο ή πεζό), ακολουθούμενο από οποιονδήποτε συνδυασμό από γράμματα,αριθμούς,παύλες και κάτω παύλες.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP_MATCHES_SERVERNAME</base>
+        <trans>Το όνομα του διακομιστή ταυτίζεται με αυτό της ομάδας εργασίας, αν συγκριθούν σε επίπεδο πεζών χαρακτήρων. Αυτές οι δύο τιμές πρέπει να διαφέρουν προκειμένου να ξεκινήσει η ανταλλαγή αρχείων.</trans>
+    </entry>
+    <entry>
+        <base>Workgroup</base>
+        <trans>Ομάδα εργασίας</trans>
+    </entry>
+</lexicon>

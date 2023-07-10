@@ -1,0 +1,58 @@
+<lexicon lang="bg">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Промяна на настройките на работна група</trans>
+    </entry>	
+    <entry> 
+        <base>DESC_WORKGROUP</base>
+        <trans><![CDATA[ Въведете името на работната група на Windows, в която този сървър трябва да се появи. ]]></trans>	
+    </entry>
+    <entry>
+        <base>LABEL_WORKGROUP</base>
+        <trans>Работна група</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERVERNAME</base>
+        <trans>Въведете името, което този сървър ще използва при Windows и Macintosh споделяне на файлове.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERVERNAME</base>
+        <trans>Име на сървър</trans>
+    </entry>
+    <entry>
+        <base>DESC_PDC</base>
+        <trans><![CDATA[Трябва ли този сървър да действа като контролер на работна група и домейн във Вашата Windows мрежа? Трябва да оставите тази настройка да бъде <b>No</b> ако друг сървър вече изпълнява тази роля във Вашата мрежа.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_PDC</base>
+        <trans>Работна група и контролер на домейна</trans>
+    </entry>
+    <entry>
+        <base>DESC_ROAM</base>
+        <trans><![CDATA[ Трябва ли този сървър да поддържа мобилни профили? Трябва да оставите тази настройка в подразбиращото се <b>No</b> освен ако нямата опит в администрацията на сървърно-базирани Windows мобилни профили и знаете, че тази възможнос е нужна. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_ROAM</base>
+        <trans>Мобилен профил</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Новите настройки на работната група бяха записани</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP</base>
+        <trans>Името на работната група трябва да започва с буква (голяма или малка), последвана от произволна комбинация от букви, цифри, знаци за подчертаване, точки и тирета.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SERVERNAME</base>
+        <trans>Името на сървъра трябва да започва с буква (голяма или малка), последвана от произволна комбинация от букви, цифри, знаци за подчертаване и тирета.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP_MATCHES_SERVERNAME</base>
+        <trans>Имената на сървъра и работната група съвпадат, когато бъдат сравнени, обърнати само с малки букви. Тези стойности трябва да са различни за да може споделянето на файлове да бъде включено.</trans>
+    </entry>
+    <entry>
+        <base>Workgroup</base>
+        <trans>Работна група</trans>
+    </entry>
+</lexicon>

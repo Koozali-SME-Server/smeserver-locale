@@ -1,0 +1,42 @@
+<lexicon lang="nb">
+    <entry>
+        <base>Proxy settings</base>
+        <trans>Proxy innstillinger</trans>
+    </entry>
+    <entry>
+        <base>FIRST_PAGE_DESCRIPTION</base>
+        <trans>Denne siden lar deg konfigurere serverens proxy innstillinger. serveren har en gjennomfiktig proxy og mellomlager for HTTP trafikk. Dette er slått på som standard, men blir ikke håndhevd hvis serveren er i &quot;serveronly&quot; modus. Hvis serveren opptrer som e-post server, vil tilkoblinger fra lokale maskiner på nettverket mot eksterne SMTP servere som standard bli videresendt til den lokale e-postserveren.</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>Serverens HTTP proxy jobber for å redusere den totale opplastnings bruken ved å mellomlagre nylig besøkte sider. Den er gjennomsiktig for nettlesere som bruker denne serveren som gateway. Slå av eller på proxy med følgende bryter.</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_LABEL</base>
+        <trans>HTTP proxy status</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>Serverens gjennomsiktige SMTP proxy jobber for å redusere virustrafikk fra infiserte maskiner ved å tvinge all utgående SMTP trafikk gjennom serveren. Hvis du ønsker å bruke en annen SMTP server, og denne serveren er gatewayen til den, slår du av denne proxyen.</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_LABEL</base>
+        <trans>SMTP proxy status</trans>
+    </entry>
+    <entry>
+        <base>ERR_PROXY_UPDATE_FAILED</base>
+        <trans>Feil: proxy-oppdatering hendelsen møtte på en feil.</trans>
+    </entry>
+    <entry>
+        <base>ERR_NO_SQUID_REC</base>
+        <trans>Feil: det er ingen squid oppføring i konfigurasjonsdatabasen</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>De nye proxy instillingene er lagt til.</trans>
+    </entry>
+    <entry>
+        <base>BLOCKED</base>
+        <trans>Blokkert</trans>
+    </entry>
+</lexicon>

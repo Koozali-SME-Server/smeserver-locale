@@ -1,0 +1,38 @@
+<lexicon lang="hu">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Vírusírtó beállítások</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FILESYSTEM_SCAN_PERIOD</base>
+        <trans>Fájlrendszer vizsgálata</trans>
+    </entry>
+    <entry>
+        <base>DESC_FILESYSTEM_SCAN_PERIOD</base>
+        <trans><![CDATA[ <h2>Általános beállítások</h2> Ha ezt a funkciót engedélyezi, a fájlrendszeren be lesz kapcsolva a vírusellenőrzés. Minden talált vírusról a rendszergazda emailben értesítést kap.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_QUARANTINE</base>
+        <trans>Fertőzött fájlok karanténba helyezése</trans>
+    </entry>
+    <entry>
+        <base>LABEL_CLAM_VERSIONS</base>
+        <trans>ClamAV és adatbázis verziók</trans>
+    </entry>
+    <entry>
+      <base>WEEKLY</base>
+      <trans>Hetente</trans>
+    </entry>
+    <entry>
+      <base>NEVER</base>
+      <trans>Soha</trans>
+    </entry>
+    <entry>
+      <base>DAILY</base>
+      <trans>Naponta</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Az vírusírtó új beállításai lementődtek.</trans>
+    </entry>
+</lexicon>

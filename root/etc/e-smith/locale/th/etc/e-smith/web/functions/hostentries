@@ -1,0 +1,180 @@
+<lexicon lang="th" params="lexicon_params()">
+    <!-- vim: ft=xml
+    -->
+    <entry>
+        <base>Hostnames and addresses</base>
+        <trans>ชื่อโฮสต์และที่อยู่</trans>
+    </entry>
+    <entry>
+        <base>UNABLE_TO_OPEN_CONFIGDB</base>
+        <trans>ไม่สามารถเปิดฐานข้อมูลเก็บการตั้งค่า</trans>
+    </entry>
+    <entry>
+        <base>DNS_FORWARDER_ENABLED</base>
+        <trans>ได้กำหนดค่า DNS forwarder แล้ว ซึ่งหมายความว่าการขอบริการ DNS (DNS lookup) ทุกรายการจะถูกจัดการที่ DNS forwarder ที่กำหนด และการแก้ไขหมายเลขและชื่อของโฮสต์บนเซิร์ฟเวอร์นี้จะใช้การไม่ได้ขณะมีการตั้งค่า DNS forwarder นี้อยู่</trans>
+    </entry>
+    <entry>
+        <base>ADD_HOSTNAME</base>
+        <trans><![CDATA[ <a class="button-like" href="hostentries?page=0&page_stack=&Next=Next&wherenext=CreateModify">เพิ่มชื่อโฮสต์</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME</base>
+        <trans>ชื่อโฮสต์</trans>
+    </entry>
+    <entry>
+        <base>HOSTTYPE</base>
+        <trans>ที่ตั้ง</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP</base>
+        <trans>Local IP</trans>
+    </entry>
+    <entry>
+        <base>ETHERNET_ADDRESS</base>
+        <trans>หมายเลขอีเธอร์เน็ต</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_HOSTNAMES_FOR_DOMAIN</base>
+        <trans>รายการชื่อโฮสต์ปัจจุบันของ {$domain}</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTNAMES_FOR_SERVICENAME</base>
+        <trans>ไม่มีชื่อโฮสต์อยู่ในระบบของ {$serviceName}</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_HOSTNAMES_FOR_LOCAL_DOMAIN</base>
+        <trans>รายการชื่อโฮสต์ปัจจุบันของ {$localDomainName}</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTNAMES_FOR_LOCAL_DOMAIN</base>
+        <trans>ไม่มีชื่อโฮสต์อยู่ในระบบของ {$localDomainName}</trans>
+    </entry>
+    <entry>
+        <base>STATIC_HOST_MESSAGE</base>
+        <trans>- ชื่อโฮสต์นี้เป็นชื่อของระบบ จะแก้ไขหรือลบไม่ได้</trans>
+    </entry>
+    <entry>
+        <base>CREATE_LOCAL_HOST_TITLE</base>
+        <trans>สร้างชื่อโฮสต์ใหม่สำหรับเซิร์ฟเวอร์นี้</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_VALIDATION_ERROR</base>
+        <trans>ผิดพลาด: มีตัวอักษรที่ไม่ถูกต้องในชื่อโฮสต์: "{$HostName}" ชื่อโฮสต์ต้องมีเฉพาะตัวอักษร ตัวเลข ยัติภังค์ (-) และต้องเริ่มต้นด้วยตัวอักษรหรือตัวเลขเท่านั้น</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_LENGTH_ERROR</base>
+        <trans>ผิดพลาด: ชื่อ {$HostName} ยาวเกินไป ความยาวสูงสุดที่มีได้คือ 32 ตัวอักษร</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_VALIDATION_ERROR</base>
+        <trans>ผิดพลาด: ไม่มีการสร้างโดเมนเนื่องจากไม่กรอกชื่อ หรือชื่อมีตัวอักษรที่ไม่ถูกต้อง ชื่อโดเมนต้องยาวอย่างน้อย 1 ตัวอักษร และต้องเป็นตัวอักษร (ภาษาอังกฤษ), ตัวเลข, จุด, และ ยติภังค์ (-) เท่านั้น</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_EXISTS_ERROR</base>
+        <trans>ผิดพลาด: ชื่อ {$fullHostName} ถูกใช้เป็นเป็นชื่อของ {$type} ไปแล้ว (need clear)</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>สร้างชื่อโฮสต์สำเร็จ</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_DESCRIPTION</base>
+        <trans>ชื่อโฮสต์ต้องเป็นตัวอักษร (ภาษาอังกฤษ), ตัวเลข, จุด (.), และ ยติภังค์ (-) และจะเริ่มต้องต้นด้วยตัวอักษรเท่านั้น</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP_DESCRIPTION</base>
+        <trans>หมายเลข IP ของเครื่องอื่นในเครือข่ายท้องถิ่นนี้, โปรดกรอกหมายเลข IP ที่ถูกต้องในรูปแบบ "aaa.bbb.ccc.ddd"</trans>
+    </entry>
+    <entry>
+        <base>ETHERNET_ADDRESS_DESCRIPTION</base>
+        <trans>หมายเลขอีเธอร์เน็ต (ethernet address) เป็นตัวเลือก และเป็นการเจาะจงให้เซอร์ฟเวอร์ DHCP ทำการกำนด (bind) เลข IP ภายในที่แน่นอนให้แก่เครื่องที่มีหมายเลขอีเธอร์เน็ตที่ระบุ หากจะกำหนดให้กำหนดให้อยู่ในรูปแบบ "AA:BB:CC:DD:EE:FF" โดยแต่ละหลักต้องเป็นตัวเลข 0-9 และตัวอักษร A-F เท่านั้น</trans>
+    </entry>
+    <entry>
+        <base>CREATE_LOCAL_HOST_TITLE</base>
+        <trans>สร้างชื่อโฮสต์ใหม่โดยอ้างอิงถึงโฮสต์ท้องถิ่น (local host)</trans>
+    </entry>
+    <entry>
+        <base>DIDNT_ENTER_LOCAL_IP</base>
+        <trans>ผิดพลาด: คุณไม่ได้ระบุหมายเลข IP ภายใน หมายเลข IP ที่ต้องระบุต้องมีเฉพาะตัวเลข เครื่องหมายจุด และต้องอยู่ในรูปแบบ "aaa.bbb.ccc.ddd" เท่านั้น ไม่มีการสร้างชื่อโฮส</trans>
+    </entry>
+    <entry>
+        <base>IP_VALIDATION_ERROR</base>
+        <trans>ผิดพลาด: หมายเลข IP ไม่ถูกต้อง หมายเลข IP ต้องมีเฉพาะตัวเลข เครื่องหมายจุด และต้องอยู่ในรูปแบบ "aaa.bbb.ccc.ddd" เท่านั้น ไม่มีการสร้างชื่อโฮส</trans>
+    </entry>
+    <entry>
+        <base>MAC_ADDRESS_VALIDATION_ERROR</base>
+        <trans>ผิดพลาด: หมายเลขอีเธอร์เน็ต {$MACAddress} ไม่ถูกต้อง หมายเลขอีเธอร์เน็ตต้องอยู่ในรูปแบบ "AA:BB:CC:DD:EE:FF" และต้องมีเฉพาะตัวเลข 0-9 และตัวอักษร A-F เท่านั้น ไม่มีการสร้างชื่อโฮส</trans>
+    </entry>
+    <entry>
+        <base>CREATE_REMOTE_HOST_TITLE</base>
+        <trans>สร้างชื่อโฮสต์ใหม่ที่อ้างอิงไปยังรีโมทโฮสต์</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>สร้างหรือแก้ไขชื่อโฮสต์</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_PAGE_DESCRIPTION</base>
+        <trans>กรุณากรอกรายละเอียดเพิ่มเติมของโฮสต์ท้องถิ่น:</trans>
+    </entry>
+    <entry>
+        <base>REMOTE_PAGE_DESCRIPTION</base>
+        <trans>กรุณากรอกรายละเอียดเพิ่มเติมของรีโมทโฮสต์:</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>ลบโฮสต์สำเร็จ</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>แก้ไขโฮสต์เสร็จแล้ว</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_PAGE_DESCRIPTION</base>
+        <trans><![CDATA[ คุณกำลังจะลบชื่อโฮสต์ "{$hostname}.{$domain}". </p> <p> <b>คุณแน่ใจหรือว่าต้องการลบชื่อโฮสต์นี้ ?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DESCRIPTION</base>
+        <trans>กรุณายืนยันรายละเอียดเหล่านี้</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTS_FOR_THIS_DOMAIN</base>
+        <trans>ไม่มีโฮสต์ในโดเมนนี้</trans>
+    </entry>
+    <entry>
+        <base>ADDR_IN_DHCP_RANGE</base>
+        <trans>ช่วงหมายเลขที่ใช้ของ dynamic DHCP</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_HOST</base>
+        <trans>เกิดข้อผิดพลาดขึ้นระหว่างการสร้างชื่อโฮสต์</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_HOST</base>
+        <trans>เกิดข้อผิดพลาดขึ้นระหว่างการแก้ไขชื่อโฮสต์</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_HOST</base>
+        <trans>เกิดข้อผิดพลาดขึ้นระหว่างการลบชื่อโฮสต์</trans>
+    </entry>
+    <entry>
+        <base>ERR_IP_IS_LOCAL_OR_GATEWAY</base>
+        <trans>ผิดพลาด: หมายเลข IP จะเป็นหมายเลขของเซิร์ฟเวอร์หรือหมายเลขของเกตเวย์ไม่ได้</trans>
+    </entry>
+    <entry>
+        <base>ERR_IP_NOT_LOCAL</base>
+        <trans>ผิดพลาด: หมายเลข IP นี้ไม่ได้เป็นหมายเลขที่อยู่ในเครือข่ายท้องถิ่นแห่งนี้</trans>
+    </entry>
+    <entry>
+        <base>MUST_BE_VALID_HOSTNAME_OR_IP</base>
+        <trans>ต้องเป็นชื่อโฮสต์ที่ถูกต้อง หรือเป็นหมายเลข IP</trans>
+    </entry>
+  <entry>
+   <base>HOSTNAME_COMMENT_ERROR</base>
+    <trans>ผิดพลาด: มีตัวอักษรที่ไม่ถูกต้องในชื่อโฮสต์: "{$hostname}.{$domain}" ชื่อโฮสต์ต้องมีเฉพาะตัวอักษร ตัวเลข ยัติภังค์ (-) และต้องเริ่มต้นด้วยตัวอักษรหรือตัวเลขเท่านั้น</trans>
+  </entry>
+    <entry>
+      <base>HOSTNAME_VALIDATOR_ERROR</base>
+    <trans>ผิดพลาด: มีตัวอักษรที่ไม่ถูกต้องในชื่อโฮสต์: "{$hostname}.{$domain}" ชื่อโฮสต์ต้องมีเฉพาะตัวอักษร ตัวเลข ยัติภังค์ (-) และต้องเริ่มต้นด้วยตัวอักษรหรือตัวเลขเท่านั้น</trans>
+  </entry>
+</lexicon>

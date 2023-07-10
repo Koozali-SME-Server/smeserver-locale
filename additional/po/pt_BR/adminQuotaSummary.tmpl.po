@@ -1,0 +1,43 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/adminQuotaSummary.tmpl:11
+msgid "System Administrator"
+msgstr "Administrador do Sistema"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/adminQuotaSummary.tmpl:13
+msgid "Automated quota report"
+msgstr "Relatório de quota automatizado"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/adminQuotaSummary.tmpl:16
+msgid "One or more users have exceeded their disk quota"
+msgstr "Um ou mais usuários excederam suas quotas de disco"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/adminQuotaSummary.tmpl:23
+msgid "The following users have exceeded their disk quota on the server called"
+msgstr "Os seguintes usuários excederam suas quotas em disco no servidor chamado"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/adminQuotaSummary.tmpl:24
+msgid "All values are in megabytes."
+msgstr "Todos valores são em megabytes."
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/adminQuotaSummary.tmpl:28
+msgid "Account"
+msgstr "Conta"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/adminQuotaSummary.tmpl:29
+msgid "Usage"
+msgstr "Uso"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/adminQuotaSummary.tmpl:30
+msgid "Limit with grace period"
+msgstr "Limite com período cedido"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/adminQuotaSummary.tmpl:31
+msgid "Absolute limit"
+msgstr "Limite absoluto"

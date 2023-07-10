@@ -1,0 +1,171 @@
+<lexicon lang="sl">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Spremeni dostop na daljavo</trans>
+    </entry>	
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans>Vse spodnje opcije omogocajo lokalni dostop do streznika iz lokalnega omrezja. Javni dostop omogoca dostop iz celega interneta. Opcija "NE" onemogoca dostop. Za razumevanje zapletenosti varnostnih nastavitev in spreminjanje le teh iz osnovnih nastavitev, bi moral prebrati uporabniski prirocnik (user's guide) za oddaljen dostop.</trans>	
+    </entry>
+    <entry>
+	<base>SUCCESS</base>
+	<trans>Nove nastavitve dostopa na daljavo so bile shranjene.</trans>
+    </entry>
+    <entry>
+	<base>NO_ACCESS</base>
+	<trans>Ni dostopa</trans>
+    </entry>
+    <entry>
+	<base>PASSWORD_LOGIN_PRIVATE</base>
+	<trans>Sprejmi geslo samo z lokalnega omrezja</trans>
+    </entry>
+    <entry>
+	<base>PASSWORD_LOGIN_PUBLIC</base>
+	<trans>Sprejmi geslo od kjerkoli</trans>
+    </entry>
+    <entry>
+	<base>LABEL_TELNET_ACCESS</base>
+	<trans>Telnet dostop</trans>
+    </entry>
+    <entry>
+	<base>LABEL_FTP_ACCESS</base>
+	<trans>FTP dostop</trans>
+    </entry>
+    <entry>
+	<base>LABEL_FTP_LOGIN</base>
+	<trans>FTP geslo dostop</trans>
+    </entry>
+    <entry>
+	<base>LABEL_PPTP</base>
+	<trans>Stevilo PPTP klientov</trans>
+    </entry>
+     <entry>
+       <base>NUMBER_OF_VPN_CLIENTS_MUST_BE_LESSER_THAN_NUMBER_OF_IP_IN_DHCP_RANGE</base>
+       <trans>The number of VPN clients is greater than the number of reserved IP for DHCP. You should take a smaller number.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SSH_PORT</base>
+        <trans>TCP Port for secure shell access</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH</base>
+	<trans>Varni shell dostop</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH_ADMIN</base>
+	<trans>Dovoli administrativni command line dostop preko varne shell povezave</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH_PASSWORD_ACCESS</base>
+	<trans>Dovoli varen shell dostop z uporabo standardnega gesla</trans>
+    </entry>
+    <entry>
+	<base>DESC_SSH</base>
+	<trans><![CDATA[ <hr class="sectionbar"/><h2>Varnostne nastavitve lupine Shell</h2> Tu lahko nastavis Varnostne Nastavitve Lupine Shell za dostop do streznika. Javni dostop naj bi bil izbran samo za zelo izkusene Administratorje za resevanje tezav na daljavo. Priporocam ti, da pustis to opcijo nastavljeno na "ni dostopa", razen ce imas tehten razlog za spremembo. ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_FTP_ACCESS</base>
+	<trans><![CDATA[ <hr class="sectionbar"/><h2>FTP Nastavitve</h2> Nastavis lahko tudi <b>FTP</b> dostop do streznika. Predlagam ti, da pustis ta parameter nastavljen na "Ni dostopa" razen ce imas tehten razlog, da to spremenis. <p> Pozor: Ta nastavitev omeji dostop do streznika in prepise vse nastavitve vkljucno z individualnimi v information bays. </p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_FTP_LOGIN</base>
+	<trans><![CDATA[ Lahko tudi controliras identifikacijo za dostop do informations bays in uporabniskih racunov. Mocno ti priporocam, da pustis te parametre take kot so razen ce imas tehten razlog, da to spremenis. <p> Pozor: Lahko uporabis tudi Varni Dostop do <b>sFTP</b>, ce je omogocen Varni Dostop. Ta nacin dostopa zasciti geslo in podatke v FTP seji, kar standarden dostop ne omogoca..</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_PPTP</base>
+	<trans><![CDATA[ <hr class="sectionbar"/><h2>PPTP Nastavitve</h2> Tu lahko omogocis PPTP dostop do streznika. To opcijo pusti onemogoceno z vneseno stevilko "0" razen, ce potrbujes PPTP dostop. ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_VPN</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>PPTP Nastavitve</h2> Tu lahko omogocis PPTP dostop do streznika. To opcijo pusti onemogoceno z vneseno stevilko "0" razen, ce potrbujes PPTP dostop. ]]></trans>
+    </entry>
+    <entry>
+	<base>VALUE_ZERO_OR_POSITIVE</base>
+	<trans>Vrednost mora biti nic (0) ali pozitivno stevilo</trans>
+    </entry>
+    <entry>
+	<base>REMOTE_MANAGEMENT</base>
+	<trans>Oddaljeno upravljanje</trans>
+    </entry>
+    <entry>
+	<base>VALIDFROM_DESC</base>
+	<trans><![CDATA[ <hr class="sectionbar"/><h2>{$REMOTE_MANAGEMENT}</h2> <p>Tu je mozno dolociti oddaljeno omrezje za dostop do Upravljalca Streznika (server-manager). Uporabi masko podomrezja 255.255.255.255, da omogocis dostop samo izbranemu gostitelju (host-u). Vsak gostitelj v izbranem obmocju bo imel dostop do Upravljalca Streznika preko <b>HTTPS</b> povezave..</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_VALID_FROM_ENTRIES</base>
+	<trans>Za dodajanje oddaljenega omrezja vnesi spodnje podatke.</trans>
+    </entry>
+    <entry>
+	<base>SUBNET_MASK</base>
+	<trans>Podomrezna maska</trans>
+    </entry>
+    <entry>
+	<base>NUM_OF_HOSTS</base>
+	<trans>Stevilo gostiteljev (host)</trans>
+    </entry>
+    <entry>
+	<base>NO_ENTRIES_YET</base>
+	<trans>Tukaj se ni vnosov</trans>
+    </entry>
+    <entry>
+	<base>INVALID_SUBNET_MASK</base>
+	<trans>Nepravilna podomrezna maska</trans>
+    </entry>
+    <entry>
+	<base>ERR_INVALID_PARAMS</base>
+	<trans>Vnesti moras tako omrezje kot masko podomrezja ali pa pusti obe polji prazni.</trans>
+    </entry>
+    <entry>
+	<base>ERR_NO_RECORD</base>
+	<trans>Ne morem locirati httpd-admin zapisa v Konfiguracijski db</trans>
+    </entry>
+    <entry>
+	<base>Remote access</base>
+	<trans>Oddaljen dostop</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERIAL_CONSOLE_ACCESS</base>
+        <trans>Serijska konzola</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERIAL_CONSOLE_ACCESS</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Serijska konzola</h2> Tu lahko omogocis dostop do Konzole Streznika preko terminala, ki je prikljucen preko serijskega porta na strezniku..]]></trans>
+    </entry>
+    <entry>
+        <base>PORT1_ENABLED</base>
+        <trans>Omogoci na serijskem portu 1</trans>
+    </entry>
+    <entry>
+        <base>PORT2_ENABLED</base>
+        <trans>Omogoci na serijskem portu 2</trans>
+    </entry>   
+
+    <entry>
+        <base>LABEL_PPTP_ACCESS</base>
+        <trans>PPTP osnovni dostop uporabnikov</trans>
+    </entry>
+    <entry>
+        <base>DESC_TELNET_ACCESS</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Telnet nastavitve</h2> POZOR: Telnet dostop je trenutno omogocen. Toda ta opcija ni vec podprta. Telnet je izredno brez varnosti in naj bo uporabljen samo takrat, ko ni popolnoma nobene druge moznosti. Moral bi spremeniti v {$NO_ACCESS} in uporabiti Varen Dostop, ce potrebujes oddaljen dostop. Ko bo Telnet enkrat onemogocen se na ekranu ne bo vec pojavil ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_IPSECRW</base>
+	<trans><![CDATA[ <h2>IPSEC Klient nastavitve</h2> Tu lahko omogocis certificiran dostop IPSEC Klientu do streznika z digitalnim potrdilom. To opcijo pusti onemogoceno z vredostjo stevilke "0" razen ce potrebujes IPSEC dostop za kliente. ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_IPSECRW_SESS</base>
+	<trans>Stevilo IPSEC klientov</trans>
+    </entry>
+    <entry>
+	<base>DESC_IPSECRW_RESET</base>
+	<trans><![CDATA[ Ce zelis resetirati vse digitalne certifikate, lahko to storis tukaj. <br> Vsi stari certifikati ne bodo vec veljavni na strezniku in bodo morali <b><i>vsi IPSEC klienti morali uvoziti nove certifikate!</i></b>. ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_IPSECRW_RESET</base>
+	<trans>Resetiraj digitalne certifikate</trans>
+    </entry>
+    <entry>
+        <base>DESC_IPSEC_VPN_UNAVAILABLE</base>
+        <trans>IPSEC VPN is not installed. Please install the contrib if you need VPN access.</trans>
+    </entry>
+</lexicon>

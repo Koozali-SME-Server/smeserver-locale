@@ -1,0 +1,126 @@
+<lexicon lang="sl">
+    <entry>
+        <base>Review configuration</base>
+        <trans>Review configuration</trans>
+    </entry>	
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans>To porocilo je povzetek parametrov omrezja, streznika in domen na tem strezniku, ki je primeren za nastavitev uporabniskih racunalnikov v omrezju. Morda bi lahko stiskal to stran kot napotek.</trans>	
+    </entry>
+    <entry>
+        <base>NETWORKING_PARAMS</base>
+        <trans>Parametri omrezja</trans>
+    </entry> 
+    <entry>
+        <base>SERVER_MODE</base>
+        <trans>Nacin delovanja Streznika</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP_ADDRESS_SUBNET_MASK</base>
+        <trans>Lokalni IP naslov / podomrezna maska</trans>
+    </entry>
+    <entry>
+        <base>EXTERNAL_IP_ADDRESS_SUBNET_MASK</base>
+        <trans>Zunanji IP naslov / podomrezna maska</trans>
+    </entry>
+    <entry>
+        <base>GATEWAY</base>
+        <trans>Prehod</trans>
+    </entry>
+    <entry>
+        <base>ADDITIONAL_LOCAL_NETWORKS</base>
+        <trans>Dodatna lokalna omrezja</trans>
+    </entry>
+    <entry>
+        <base>DHCP_SERVER</base>
+        <trans>DHCP streznik</trans>
+    </entry>
+    <entry>
+        <base>BEGINNING_OF_DHCP_ADDRESS_RANGE</base>
+        <trans>Zacetni naslov DHCP obmocja</trans>
+    </entry>
+    <entry>
+        <base>END_OF_DHCP_ADDRESS_RANGE</base>
+        <trans>Koncni naslov DHCP obmocja</trans>
+    </entry>
+    <entry>
+        <base>SERVER_NAMES</base>
+        <trans>Ime Streznika</trans>
+    </entry>
+    <entry>
+        <base>DNS_SERVER</base>
+        <trans>DNS streznik</trans>
+    </entry>
+    <entry>
+        <base>WEB_SERVER</base>
+        <trans>Spletni streznik</trans>
+    </entry>
+    <entry>
+        <base>PROXY_SERVER</base>
+        <trans>Proxy streznik</trans>
+    </entry>
+    <entry>
+        <base>FTP_SERVER</base>
+        <trans>FTP streznik</trans>
+    </entry>
+    <entry>
+        <base>SMTP_POP_AND_IMAP_MAIL_SERVERS</base>
+        <trans>SMTP, POP, and IMAP postni streznik</trans>
+    </entry>
+    <entry>
+        <base>HOSTS</base>
+        <trans>Gostitelji</trans>
+    </entry> 
+    <entry>
+        <base>DOMAIN_INFORMATION</base>
+        <trans>Informacije o domeni</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_DOMAIN</base>
+        <trans>Osnovna domena</trans>
+    </entry>
+    <entry>
+        <base>VIRTUAL_DOMAINS</base>
+        <trans>Virtualne domene</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_WEB_SITE</base>
+        <trans>Osnovna spletna stran</trans>
+    </entry>
+    <entry>
+        <base>MITEL_NETWORKS_SME_SERVER_MANAGER</base>
+        <trans>Upravljanje streznika</trans>
+    </entry>
+    <entry>
+        <base>MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL</base>
+        <trans>Plosca za gesla uporabnikov</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_ADDRESSES</base>
+        <trans>E-postni naslovi</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_USERACCOUNT</base>
+        <trans>Zakleni uporabniski racun</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_FIRSTNAME</base>
+        <trans>Ime</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_LASTNAME</base>
+        <trans>Priimek</trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>Virtualne domene niso definirane</trans>
+    </entry>
+    <entry>
+        <base>NO_NETWORKS</base>
+        <trans>Dodatna omrezja niso definirana</trans>
+    </entry>
+    <entry>
+        <base>INTERNET_VISIBLE_ADDRESS</base>
+        <trans>Vidni internet IP naslov</trans>
+    </entry>
+</lexicon>

@@ -1,0 +1,106 @@
+<lexicon lang="sv">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Skapa, ändra eller ta bort användarkontons kvoter</trans>
+    </entry>
+    <entry>
+      <base>UNABLE_TO_OPEN_ACCOUNTS</base>
+      <trans>Kan ej öppna kontots db</trans>
+    </entry>
+    <entry>
+      <base>QUOTA_DESC</base>
+      <trans><![CDATA[ <p>Du kan ange filsystemskvot för användare på ditt system, genom att klicka på "Ändra"-knappen, vid sidan om den användare som du vill uppdatera. <p>Om användaren överskrider "gränsen för anståndsperioden", kommer varning att generas. Om denna gräns överskrids med mer än en vecka eller om den "Absoluta gränsen" nås, kommer användaren ej att kunna spara med filer eller erhålla fler e-postmeddelanden. <p>Inställningen '0' för någon av gränserna, tar bort just den gränsen för aktuell användare. <p>Diskutrymmet för varje användare inkluderar användarens hem-mapp, e-post och alla filer som användaren äger i information bays. ]]></trans>
+    </entry>
+    <entry>
+      <base>CURRENT_USAGE_AND_SETTINGS</base>
+      <trans>Nuvarande kvotanvändning och inställningar</trans>
+    </entry>
+    <entry>
+      <base>LIMIT_WITH_GRACE</base>
+      <trans>Gräns med anståndsperiod</trans>
+    </entry>
+    <entry>
+      <base>LIMIT_WITH_GRACE_MB</base>
+      <trans>Gräns med anståndsperiod (MB)</trans>
+    </entry>
+    <entry>
+      <base>ABS_LIMIT</base>
+      <trans>Absolut gräns</trans>
+    </entry>
+    <entry>
+      <base>ABS_LIMIT_MB</base>
+      <trans>Absolut gräns (MB)</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_USAGE</base>
+      <trans>Nuvarande utnyttjande (MB)</trans>
+    </entry>
+    <entry>
+      <base>COULD_NOT_GET_UID</base>
+      <trans>Kunde inte bestämma uid för användare:</trans>
+    </entry>
+    <entry>
+      <base>ERR_NO_SUCH_ACCT</base>
+      <trans>Fel: det finns inget konto namngivet:</trans>
+    </entry>
+    <entry>
+      <base>ERR_NOT_A_USER_ACCT</base>
+      <trans>Fel: kontot är inte ett användarkonto:</trans>
+    </entry>
+    <entry>
+      <base>ACCOUNT_IS_TYPE</base>
+      <trans>Det är ett konto av typen:</trans>
+    </entry>
+    <entry>
+      <base>MODIFY_USER_TITLE</base>
+      <trans>Ändra användarkvotens gräns</trans>
+    </entry>
+    <entry>
+      <base>USER</base>
+      <trans>Användare:</trans>
+    </entry>
+    <entry>
+      <base>CURRENTLY_HAS</base>
+      <trans>har för närvarande:</trans>
+    </entry>
+    <entry>
+      <base>FILES</base>
+      <trans>filer</trans>
+    </entry>
+    <entry>
+      <base>OCCUPYING</base>
+      <trans>använder:</trans>
+    </entry>
+    <entry>
+      <base>MEGABYTES</base>
+      <trans>megabytes</trans>
+    </entry>
+    <entry>
+      <base>INSTRUCTIONS</base>
+      <trans>Ange en kvot som ett heltal med valbart enhetssuffix 'K' för kilobytes, 'M' för megabytes, 'G' för gigabytes eller 'T' för Terabytes. Angivelser utan suffix antas vara i megabytes. Inställning med '0' för någon av gränserna tar bort begränsningen för angiven användare.</trans>
+    </entry>
+    <entry>
+      <base>SOFT_VAL_MUST_BE_NUMBER</base>
+      <trans>Fel: Gräns för anståndsperiod måste vara ett heltal med valbart efterföljande enhetssuffix K, M, G eller T.</trans>
+    </entry>
+    <entry>
+      <base>HARD_VAL_MUST_BE_NUMBER</base>
+      <trans>Fel: Absolut gräns måste vare ett heltal med valbart efterföljande enhetssuffix K, M, G eller T.</trans>
+    </entry>
+    <entry>
+      <base>ERR_HARD_LT_SOFT</base>
+      <trans>Fel: absolut gräns måste vara större än anståndstiden.</trans>
+    </entry>
+    <entry>
+      <base>ERR_MODIFYING</base>
+      <trans>Fel inträffade vid ändring av användare.</trans>
+    </entry>
+    <entry>
+      <base>SUCCESSFULLY_MODIFIED</base>
+      <trans>Ändrat kvot för användarkonto:</trans>
+    </entry>
+    <entry>
+	<base>Quotas</base>
+	<trans>Kvoter</trans>
+    </entry>
+</lexicon>

@@ -1,0 +1,83 @@
+<lexicon lang="id">
+    <entry>
+        <base>View log files</base>
+        <trans>Lihat log file</trans>
+    </entry>
+
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ Panel ini berfungsi untuk melihat atau men-download log file yang dibuat oleh layanan yang berjalan di server anda. ]]></trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_SELECT_DESC</base>
+        <trans>Pilih sebuah log file untuk dilihat</trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>Anda dapat secara opsional menentukan sebuah pattern filter untuk menampilkan hanya baris -baris dari log file yang cocok dengan pattern ini. Jika anda membiarkan field ini kosong, semua baris dari log file akan ditampilkan. Harap catat bahwa pilihan ini tidak berlaku jika anda mendownload logfile tersebut.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_LABEL</base>
+        <trans>Filter Pattern (opsional)</trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>Anda juga dapat secara opsional menentukan sebuat highlight pattern untuk menandai dengan menebalkan baris-bari dimana log file cocok dengan highlight pattern. Highlight pattern diterapkan pada setiap baris yang cocok dengan filter pattern. Harap catat bahwa pilihan ini tidak berlaku jika anda mendownload logfile tersebut.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_LABEL</base>
+        <trans>Highlight Pattern (opsional)</trans>
+    </entry>
+    <entry>
+        <base>END_DESC</base>
+        <trans>Harap diingat bahwa diperlukan waktu untuk membuat laporan-laporan tersebut.</trans>
+    </entry>
+    <entry>
+        <base>VIEW</base>
+        <trans>Lihat log file</trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_EMPTY</base>
+        <trans>Log file "{$filename}" kosong!</trans>
+    </entry>
+    <entry>
+        <base>VIEWING_TIME</base>
+        <trans>Dilihat pada {$time}.</trans>
+    </entry>
+    <entry>
+        <base>MATCH_HEADER</base>
+        <trans>Menampilkan baris yang matching: "{$matchPattern}".</trans>
+    </entry>
+    <entry>
+        <base>HIGHLIGHT_HEADER</base>
+        <trans>Menyoroti baris yang cocok dengan : "{$highlightPattern}".</trans>
+    </entry>
+    <entry>
+        <base>NO_MATCHING_LINES</base>
+        <trans>Tidak ada baris yang cocok yang ditampilkan</trans>
+    </entry>
+    <entry>
+        <base>FILENAME_ERROR</base>
+        <trans><![CDATA[ <p>Error saat menentukan nama log file.</p> <p>Jenis laporan invalid "{$filename}".</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>REFRESH</base>
+	<trans>Refresh logfile ini</trans>
+    </entry>
+    <entry>
+	<base>OP_DESC</base>
+	<trans><![CDATA[ <p>Anda harus memilih antara melihat logfile di penjelajah web anda, atau mendownload logfile ke komputer anda. Jika logfile berukuran besar, mungkin anda ingin mendownloadnya daripada mencoba membukanya di penjelajah web anda, karena ini bermasalah untuk beberapa jenis web browser.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>OP_LABEL</base>
+	<trans>Operasi</trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_PAGE_DESC</base>
+	<trans><![CDATA[ <p>Logfile download sedang disiapkan. Saat anda klik &quot;Next&quot; tombol dibawah ini proses segera dijalankan, dan instruksikan browser anda untuk menerima download lewat pop-up yang akan muncul.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_FILE</base>
+	<trans>Mempersiapkan untuk download logfile {$logfile}.</trans>
+    </entry>
+</lexicon>

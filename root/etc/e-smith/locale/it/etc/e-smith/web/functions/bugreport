@@ -1,0 +1,101 @@
+<lexicon lang="it">
+
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Segnala un Bug</trans>
+    </entry>
+    <entry>
+        <base>DO_NOT_PANIC</base>
+        <trans>Non fatevi prendere dal panico!</trans>
+    </entry>
+    <entry>
+        <base>SME_EXPERIENCE</base>
+        <trans>Sfortunatamente non esiste software senza difetti e probabilmente siete stati reindirizzati a questa pagina per un inconveniente verificatosi durante l'installazione di SME-Server.</trans>
+    </entry>
+    <entry>
+        <base>PLEASE_REPORT_HERE</base>
+        <trans>Per aiutare gli sviluppatori nella diagnosi e nella risoluzione del problema, scaricate uno dei seguenti modelli, compilatelo e incollatelo nel bug report.</trans>
+    </entry>
+    <entry>
+        <base>USE_TEMPLATE</base>
+        <trans>Utilizzate il collegamento seguente per informazioni su come notificare al meglio un bug ed utilizzare il modello.</trans>
+    </entry>
+    <entry>
+        <base>FOLLOWING_REPORT_MIGHT_HELP</base>
+        <trans>Sarà utile fornire alcune informazioni essenziali sulla configurazione del vostro Sme-Server nel bug report. Facendo click sul bottone "Crea report di configurazione", potete creare e scaricare un file di testo contenente queste informazioni. Allegate il file testo al vostro bug-report.</trans>
+    </entry>
+    <entry>
+        <base>REPORT_CONTENT</base>
+        <trans>Il report conterrà le seguenti informazioni:</trans>
+    </entry>
+    <entry>
+        <base>SME_VERSION</base>
+        <trans>Versione di Koozali SME Server</trans>
+    </entry>
+    <entry>
+        <base>SERVER_MODE</base>
+        <trans>Server mode</trans>
+    </entry>
+    <entry>
+        <base>PREVIOUS_SERVER_MODE</base>
+        <trans>Server mode precedente</trans>
+    </entry>
+    <entry>
+        <base>KERNEL_AND_ARCH</base>
+        <trans>Versione in uso del kernel e architettura</trans>
+    </entry>
+    <entry>
+        <base>INSTALLED_RPMS</base>
+        <trans>Lista degli RPM aggiuntivi installati sul server</trans>
+    </entry>
+    <entry>
+        <base>ALTERED_TEMPLATES</base>
+        <trans>Lista dei template di SME che sono stati modificati rispetto all'installazione base</trans>
+    </entry>
+    <entry>
+        <base>ALTERED_EVENTS</base>
+        <trans>Lista degli eventi di SME che sono stati modificati rispetto all'installazione base</trans>
+    </entry>
+    <entry>
+        <base>YUM_REPOS</base>
+        <trans>Lista dei repositories aggiuntivi configurati sul server</trans>
+    </entry>
+    <entry>
+        <base>PRIVACY</base>
+        <trans>Nessuna informazione riservata (p.e. nomi utente, password, indirizzi IP) sarà inserita nel report</trans>
+    </entry>
+    <entry>
+            <base>CREATE_REPORT</base>
+            <trans>Crea il report di configurazione</trans>
+    </entry>
+
+    <entry>
+            <base>DONATING</base>
+            <trans>Avete pensato ad una donazione?</trans>
+    </entry>
+    <entry>
+            <base>AWARE_SME</base>
+            <trans>Ti sarà probabilmente noto che SME server è sviluppato e mantenuto da una comunità di volontori provenienti da tutto il mondo. Mentre SME server è scaricabile ed utilizzabile gratuitamente, mantenere le infrastrutture che stanno dietro il progetto (p.e. l'hosting del forum e del wiki, gli strumenti per la conservazione dei file e per lo sviluppo ecc.) ha un costo "vero" nel mondo reale.</trans>
+    </entry>
+    <entry>
+            <base>YOUR_HELP</base>
+            <trans>Così come avete bisogno di noi per segnalarci i vostri problemi, allo stesso modo abbiamo bisogno del VOSTRO aiuto per mantenere il progetto in vita.</trans>
+    </entry>
+    <entry>
+            <base>CONSIDER_DONATING</base>
+            <trans>Prendete quindi in considerazione di fare una donazione al progetto servendovi del link sottostante:</trans>
+    </entry>
+    <entry>
+            <base>THANK_YOU</base>
+            <trans>Grazie per il vostro aiuto!</trans>
+    </entry>
+    <entry>
+            <base>Download this report</base>
+            <trans>Scaricate questo resoconto!</trans>
+    </entry>
+    <entry>
+            <base>Report a bug</base>
+            <trans>Segnalate un bug</trans>
+    </entry>
+
+</lexicon>

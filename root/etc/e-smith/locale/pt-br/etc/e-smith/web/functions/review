@@ -1,0 +1,126 @@
+<lexicon lang="pt-br">
+    <entry>
+        <base>Review configuration</base>
+        <trans>Revisão da configuração</trans>
+    </entry>	
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans>Este relatório resume os parâmetros relevantes da configuração da rede, servidor e domínio deste servidor para configuração de computadores cliente em sua rede. Você pode imprimir essa página para usá-la como refêrência.</trans>	
+    </entry>
+    <entry>
+        <base>NETWORKING_PARAMS</base>
+        <trans>Parâmetros de rede</trans>
+    </entry> 
+    <entry>
+        <base>SERVER_MODE</base>
+        <trans>Modo do servidor</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP_ADDRESS_SUBNET_MASK</base>
+        <trans>Endereço IP local / máscara de subrede</trans>
+    </entry>
+    <entry>
+        <base>EXTERNAL_IP_ADDRESS_SUBNET_MASK</base>
+        <trans>Endereço IP externo / máscara de subrede</trans>
+    </entry>
+    <entry>
+        <base>GATEWAY</base>
+        <trans>Gateway</trans>
+    </entry>
+    <entry>
+        <base>ADDITIONAL_LOCAL_NETWORKS</base>
+        <trans>Redes locais adicional</trans>
+    </entry>
+    <entry>
+        <base>DHCP_SERVER</base>
+        <trans>Servidor DHCP</trans>
+    </entry>
+    <entry>
+        <base>BEGINNING_OF_DHCP_ADDRESS_RANGE</base>
+        <trans>Endereço inicial de faixa do DHCP</trans>
+    </entry>
+    <entry>
+        <base>END_OF_DHCP_ADDRESS_RANGE</base>
+        <trans>Endereço final de faixa do DHCP</trans>
+    </entry>
+    <entry>
+        <base>SERVER_NAMES</base>
+        <trans>Nome dos servidores</trans>
+    </entry>
+    <entry>
+        <base>DNS_SERVER</base>
+        <trans>Servidor DNS</trans>
+    </entry>
+    <entry>
+        <base>WEB_SERVER</base>
+        <trans>Servidor web</trans>
+    </entry>
+    <entry>
+        <base>PROXY_SERVER</base>
+        <trans>Servidor proxy</trans>
+    </entry>
+    <entry>
+        <base>FTP_SERVER</base>
+        <trans>Servidor FTP</trans>
+    </entry>
+    <entry>
+        <base>SMTP_POP_AND_IMAP_MAIL_SERVERS</base>
+        <trans>Servidores de correio SMTP, POP e IMAP</trans>
+    </entry>
+    <entry>
+        <base>HOSTS</base>
+        <trans>Hosts</trans>
+    </entry> 
+    <entry>
+        <base>DOMAIN_INFORMATION</base>
+        <trans>Informação de domínio</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_DOMAIN</base>
+        <trans>Domínio primário</trans>
+    </entry>
+    <entry>
+        <base>VIRTUAL_DOMAINS</base>
+        <trans>Domínios virtuais</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_WEB_SITE</base>
+        <trans>Web site primário</trans>
+    </entry>
+    <entry>
+        <base>MITEL_NETWORKS_SME_SERVER_MANAGER</base>
+        <trans>Gerenciador do servidor</trans>
+    </entry>
+    <entry>
+        <base>MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL</base>
+        <trans>Painel de senha do usuário</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_ADDRESSES</base>
+        <trans>Endereço de e-mail</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_USERACCOUNT</base>
+        <trans>Conta do Usuário</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_FIRSTNAME</base>
+        <trans>Primeiro nome</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_LASTNAME</base>
+        <trans>Último nome</trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>Domínio virtual não definido</trans>
+    </entry>
+    <entry>
+        <base>NO_NETWORKS</base>
+        <trans>Redes adicionais não definidas</trans>
+    </entry>
+    <entry>
+        <base>INTERNET_VISIBLE_ADDRESS</base>
+        <trans>Endereço IP Visível da Internet </trans>
+    </entry>
+</lexicon>

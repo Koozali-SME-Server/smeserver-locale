@@ -1,0 +1,83 @@
+<lexicon lang="de">
+    <entry>
+        <base>View log files</base>
+        <trans>Log Dateien anzeigen</trans>
+    </entry>
+
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ Diese Ansicht erlaubt es Ihnen, die vom Server und den darauf laufenden Prozessen erzeugten Log Dateien anzusehen oder herunterzuladen. ]]></trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_SELECT_DESC</base>
+        <trans>Wählen Sie eine Log Datei zur Ansicht</trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>Sie können optional hier Filtermuster eingeben, um sich nur bestimmte Zeilen einer gewählten Log Datei anzeigen zu lassen. Wenn Sie das Feld leer lassen, werden alle verfügbaren Zeilen der Log Datei ausgegeben. Diese Funktion steht beim Herunterladen von Log Dateien nicht zur Verfügung.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_LABEL</base>
+        <trans>Filtermuster (optional)</trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>Sie haben optional auch die Möglichkeit, sich zusätzlich Zeilen in Fettdruck anzeigen zu lassen, welche den markierten Mustern entsprechen. Das Markiermuster wird auf alle Zeilen angewendet, die von dem Filtermuster bereits erkannt wurden. Diese Funktion steht beim Herunterladen von Log Dateien nicht zur Verfügung.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_LABEL</base>
+        <trans>Markierungsmuster (optional)</trans>
+    </entry>
+    <entry>
+        <base>END_DESC</base>
+        <trans>Beachten Sie, dass es einige Zeit dauern kann, diese Berichte zu erstellen.</trans>
+    </entry>
+    <entry>
+        <base>VIEW</base>
+        <trans>Log Dateien anzeigen</trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_EMPTY</base>
+        <trans>Die Log Datei "{$filename}" ist leer!</trans>
+    </entry>
+    <entry>
+        <base>VIEWING_TIME</base>
+        <trans>Angesehen am {$time}.</trans>
+    </entry>
+    <entry>
+        <base>MATCH_HEADER</base>
+        <trans>Angezeigte Zeilen entsprechen: "{$matchPattern}".</trans>
+    </entry>
+    <entry>
+        <base>HIGHLIGHT_HEADER</base>
+        <trans>Markierte Zeilen entsprechen: "{$highlightPattern}".</trans>
+    </entry>
+    <entry>
+        <base>NO_MATCHING_LINES</base>
+        <trans>Es werden keine passenden Zeilen angezeigt.</trans>
+    </entry>
+    <entry>
+        <base>FILENAME_ERROR</base>
+        <trans><![CDATA[ <p>Fehler bei der Eingabe des Log Dateinamens.</p> <p>Ungültiger Berichtstyp "{$filename}".</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>REFRESH</base>
+	<trans>Diese Log Datei neu laden</trans>
+    </entry>
+    <entry>
+	<base>OP_DESC</base>
+	<trans><![CDATA[ <p>Sie müssen auswählen, ob Sie die Log Datei im Webbrowser ansehen oder auf Ihren Computer herunterladen wollen. Wenn die Log Datei besonders groß ist, sollten Sie diese herunterladen und nicht in Ihrem Browser öffnen, weil das sonst bei manchen Webbrowsern zu Problemen führen kann.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>OP_LABEL</base>
+	<trans>Betrieb</trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_PAGE_DESC</base>
+	<trans><![CDATA[ <p>Das Herunterladen der Log-Datei wird vorbereitet. Dies wird durchgeführt, sobald Sie unten auf &quot;Weiter&quot; drücken und in Ihrem Browser das Herunterladen bestätigen.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_FILE</base>
+	<trans>Vorbereitung zum Herunterladen der Log Datei {$logfile}.</trans>
+    </entry>
+</lexicon>

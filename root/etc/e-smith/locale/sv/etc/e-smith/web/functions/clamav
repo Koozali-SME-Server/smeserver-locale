@@ -1,0 +1,38 @@
+<lexicon lang="sv">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Antivirusinställningar</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FILESYSTEM_SCAN_PERIOD</base>
+        <trans>Genomsök hela filsystemet</trans>
+    </entry>
+    <entry>
+        <base>DESC_FILESYSTEM_SCAN_PERIOD</base>
+        <trans><![CDATA[ <h2>Allmäna inställningar</h2> Om detta val är tillåtet kommer hela filsystemet att genomsökas efter virus. En rapport över funna virus kommer att e-postas till administratören.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_QUARANTINE</base>
+        <trans>Placera infekterade filer i karantän</trans>
+    </entry>
+    <entry>
+        <base>LABEL_CLAM_VERSIONS</base>
+        <trans>ClamAV och db versioner</trans>
+    </entry>
+    <entry>
+      <base>WEEKLY</base>
+      <trans>Varje vecka</trans>
+    </entry>
+    <entry>
+      <base>NEVER</base>
+      <trans>Aldrig</trans>
+    </entry>
+    <entry>
+      <base>DAILY</base>
+      <trans>En gång varje dag</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>De nya inställningarna för clamav antivirus har sparats.</trans>
+    </entry>
+</lexicon>

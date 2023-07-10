@@ -1,0 +1,114 @@
+<lexicon lang="pt">
+    <entry>
+      <base>NO_PSEUDONYMS</base>
+      <trans><![CDATA[ <b>Não existe pseudônimos neste sistema.</b> ]]></trans>
+     </entry>
+    <entry>
+        <base>REMOVE_PSEUDONYM</base>
+        <trans>Remover psedônimo</trans>
+    </entry>
+    <entry>
+        <base>ABOUT_TO_REMOVE</base>
+        <trans><![CDATA[ Você está prestes a remover um pseudônimo:<br> <b>Você tem certeza que deseja continuar?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Criar, modificar, ou remover pseudônimos</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans><![CDATA[ <p>O servidor cria automaticamente um e-mail pseudônimo para cada grupo. Se você deseja definir um e-mail pseudônimo para uma lista de usuários, simplesmente crie um grupo e a lista será mantida automaticamente pelo servidor. </p> <p>Isso permite você criar outros nomes para um usuário ou grupo de usuários existente. Por exemplo, você pode querer criar um pseudônimo "webmaster" para seu grupo "webdevelopers" ou o pseudônimo "ze" para o usuário "jose".</p> <p>O servidor criará automaticamente criará como primeironome.últimonome para cada usuário do sistema e um pseudônimo "everyone" para todos os usuários do sistema.</p> <p>Você pode modificar ou remover um pseudônimo clicando no comando correspondente próximo ao pseudônimo.</p>]]></trans>
+    </entry>
+    <entry>
+        <base>LOCAL_ONLY</base>
+        <trans>(somente rede local)</trans>
+    </entry>
+    <entry>
+        <base>SELECT_ACCOUNT</base>
+        <trans>Selecionar uma conta ou grupo</trans>
+    </entry>
+    <entry>
+        <base>SELECT_INTERNAL</base>
+        <trans>Somente rede local</trans>
+    </entry>
+    <entry>
+        <base>CLICK_TO_CREATE</base>
+        <trans>Adicionar pseudônimo</trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM</base>
+        <trans>Pseudônimo</trans>
+    </entry>
+    <entry>
+        <base>USER_OR_GROUP</base>
+        <trans>Usuário ou grupo</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_PSEUDONYMS</base>
+        <trans><![CDATA[<b>Lista Atual de Pseudônimos</b>]]></trans>
+    </entry>
+    <entry>
+        <base>TITLE_CREATE</base>
+        <trans>Criar um pseudônimo</trans>
+    </entry>
+    <entry>
+        <base>DESC_PSEUDONYM_NAME</base>
+       <trans>Favor selecionar uma conta ou grupo existente do menu de opções abaixo para o pseudônimo</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_PSEUDONYM</base>
+        <trans>Modificar Pseudônimo</trans>
+    </entry>     
+       <entry>
+        <base>PSEUDONYM_NAME</base>
+        <trans>Nome do pseudônimo</trans>
+    </entry>
+    <entry>
+        <base>VALID_PSEUDONYM_NAMES</base>
+        <trans><![CDATA[ O pseudônimo deverá conter somente letras minúsculas, números, pontos, hifens e barra em baixo e deverá iniciar com letra minúscula ou número. Por exemplo "sales", "john.holland", "123" e "email-administrator" são psedônimos válidos, mas "John Smith" e "Henry Miller" não são. Você também pode criar apelidos de e-mail para contas e domínios (virtuais) que são válidos neste servidor. Por exemplo "joca@dominiovirtual.com.br" pode ser encaminhado para "joao" (ou para qualquer outra conta de usuário válida).</p>]]></trans>
+    </entry>
+    <entry>
+        <base>NAME_IN_USE</base>
+        <trans>Erro: O nome está em uso, você não pode criar um pseudônimo com esse nome.</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_PSEUDONYM</base>
+        <trans>Esta conta não é um pseudônimo</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_DOMAIN</base>
+        <trans>Este domínio não está hospedado neste servidor</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_NOACCT</base>
+        <trans>Esta conta não está hospedada neste servidor</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_SAMEACCT</base>
+        <trans>Um pseudônimo não pode apontar para a mesma conta</trans>
+    </entry>
+    <entry>
+        <base>CREATE_SUCCEEDED</base>
+        <trans>Pseudônimo criado com sucesso</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_SUCCEEDED</base>
+        <trans>Pseudônimo modificado com sucesso</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_SUCCEEDED</base>
+        <trans>Pseudônimo removido com sucesso</trans>
+    </entry>
+    <entry>
+      <base>EVERYONE</base>
+      <trans>Todos</trans>
+    </entry>
+      <entry>
+        <base>Pseudonyms</base>
+        <trans>Pseudônimos</trans>
+      </entry>
+
+</lexicon>

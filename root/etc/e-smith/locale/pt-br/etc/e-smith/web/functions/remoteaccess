@@ -1,0 +1,171 @@
+<lexicon lang="pt-br">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Trocar configuração de acesso remoto</trans>
+    </entry>	
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans>Para cada uma das opções abaixo, a configuração privada permite qualquer um de sua rede local acessar seu servidor. O modo público permite acesso de qualquer ponto da Internet. O modo sem acesso desabilita o acesso. Para entender as implicações de segurança na troca de configuração dessas opções padrão, você deverá ler no guia do usuário a seção sobre acesso remoto.</trans>	
+    </entry>
+    <entry>
+	<base>SUCCESS</base>
+	<trans>A nova configuração de acesso remoto foi salva.</trans>
+    </entry>
+    <entry>
+	<base>NO_ACCESS</base>
+	<trans>Sem Acesso</trans>
+    </entry>
+    <entry>
+	<base>PASSWORD_LOGIN_PRIVATE</base>
+	<trans>Aceitar senhas apenas da rede local</trans>
+    </entry>
+    <entry>
+	<base>PASSWORD_LOGIN_PUBLIC</base>
+	<trans>Aceitar senhas de qualquer lugar</trans>
+    </entry>
+    <entry>
+	<base>LABEL_TELNET_ACCESS</base>
+	<trans>Acesso telnet</trans>
+    </entry>
+    <entry>
+	<base>LABEL_FTP_ACCESS</base>
+	<trans>Acesso FTP</trans>
+    </entry>
+    <entry>
+	<base>LABEL_FTP_LOGIN</base>
+	<trans>Senha de acesso FTP</trans>
+    </entry>
+    <entry>
+	<base>LABEL_PPTP</base>
+	<trans>Número de clientes PPTP</trans>
+    </entry>
+     <entry>
+       <base>NUMBER_OF_VPN_CLIENTS_MUST_BE_LESSER_THAN_NUMBER_OF_IP_IN_DHCP_RANGE</base>
+       <trans>O número de clientes VPN é maior do que o número de IPs reservados para DHCP. Você precisa escolher um número menor.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SSH_PORT</base>
+        <trans>Porta TCP para acesso via shell segura</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH</base>
+	<trans>Acesso shell seguro</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH_ADMIN</base>
+	<trans>Permite acesso a linhas de comando administrativa sobre shell segura</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH_PASSWORD_ACCESS</base>
+	<trans>Permite acesso seguro ao shell usando senhas padrão</trans>
+    </entry>
+    <entry>
+	<base>DESC_SSH</base>
+	<trans><![CDATA[ <hr class="sectionbar"/><h2>Configuração de shell segura</h2>Você pode controlar acesso ao Shell Seguro para seu servidor. A configuração pública deve somente ser habilitada por administradores experientes para resolução e diagnóstico de problemas. Nós recomendamos deixar este parâmetro configurado para "Sem Acesso" a não ser que você tenha uma razão específica para fazer o contrário. ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_FTP_ACCESS</base>
+	<trans><![CDATA[ <hr class="sectionbar"/><h2>Configurar FTP</h2> Você também pode controlar o acesso <b>FTP</b> para o seu servidor. Nós recomendamos deixar esse parâmetro configurado para 'sem acesso' a não ser que você tenha uma razão específica para fazer o contrário. <p> Nota: essas configurações limitam o acesso ao servidor e sobrepõem-se outras configurações, incluindo aquelas para compartilhamentos individuais.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_FTP_LOGIN</base>
+	<trans><![CDATA[ Você também pode controlar autenticação de acesso FTP para compartilhamentos e conta de usuários. Nós recomendamos fortemente deixar esses parâmetros configurados para privados, a não ser que exista uma razão específica para fazer o contrário. <p> Nota: o cliente de shell segura sftp também pode ser usado para acessar o servidor, se o acesso remoto via shell seguro estiver habilitado. Este método de acesso protege a senha e os dados da seção FTP, ao passo que FTP padrão não suporta nenhuma proteção.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_PPTP</base>
+	<trans><![CDATA[ <hr class="sectionbar"/><h2>Configurar PPTP</h2> Você pode habilitar acesso PPTP ao seu servidor. Você dev eria deixar esta configuração desabilitada entrando o número 0 (zero) a não ser que precise de acesso PPPT. ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_VPN</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Configurar VPN</h2> Você pode habilitar acesso PPTP ao seu servidor. Você dev eria deixar esta configuração desabilitada entrando o número 0 (zero) a não ser que precise de acesso VPN. ]]></trans>
+    </entry>
+    <entry>
+	<base>VALUE_ZERO_OR_POSITIVE</base>
+	<trans>Valor deve ser 0 (zero) ou um número inteiro positivo</trans>
+    </entry>
+    <entry>
+	<base>REMOTE_MANAGEMENT</base>
+	<trans>Gerenciamento Remoto</trans>
+    </entry>
+    <entry>
+	<base>VALIDFROM_DESC</base>
+	<trans><![CDATA[ <hr class="sectionbar"/><h2>{$REMOTE_MANAGEMENT}</h2> <p>É possível permitir que hosts em uma rede remota acessem o gerenciador do servidor entrando essas redes aqui. Use uma máscara de subrede de 255.255.255.255 para limitar o acesso a um determinado host. Qualquer host dentro da faixa especificada estará habilitado a acessar o gerenciador do servidor usando HTTPS.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_VALID_FROM_ENTRIES</base>
+	<trans>Para adicionar uma nova rede de gerenciamento remoto, entre com os detalhes abaixo.</trans>
+    </entry>
+    <entry>
+	<base>SUBNET_MASK</base>
+	<trans>Máscara de subrede</trans>
+    </entry>
+    <entry>
+	<base>NUM_OF_HOSTS</base>
+	<trans>Número de hosts</trans>
+    </entry>
+    <entry>
+	<base>NO_ENTRIES_YET</base>
+	<trans>Não existe entradas ainda</trans>
+    </entry>
+    <entry>
+	<base>INVALID_SUBNET_MASK</base>
+	<trans>Máscara de subrede inválida</trans>
+    </entry>
+    <entry>
+	<base>ERR_INVALID_PARAMS</base>
+	<trans>Escolha entre fornecer ambos, uma rede e máscara de subrede, ou deixar ambos os campos em branco.</trans>
+    </entry>
+    <entry>
+	<base>ERR_NO_RECORD</base>
+	<trans>Incapaz de localizar registro httpd-admin na configuração do banco de dados</trans>
+    </entry>
+    <entry>
+	<base>Remote access</base>
+	<trans>Acesso remoto</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERIAL_CONSOLE_ACCESS</base>
+        <trans>Console serial</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERIAL_CONSOLE_ACCESS</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Console serial</h2> Você pode permitir o acesso ao console do servidor de um terminal conectado a porta serial.]]></trans>
+    </entry>
+    <entry>
+        <base>PORT1_ENABLED</base>
+        <trans>Habilitar na porta serial 1</trans>
+    </entry>
+    <entry>
+        <base>PORT2_ENABLED</base>
+        <trans>Habilitar na porta serial 2</trans>
+    </entry>   
+
+    <entry>
+        <base>LABEL_PPTP_ACCESS</base>
+        <trans>Acesso padrão de usuário PPTP</trans>
+    </entry>
+    <entry>
+        <base>DESC_TELNET_ACCESS</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Configuração telnet</h2> AVISO: Telnet está atualmente habilitado, mas esta opção não é mais suportada. Telnet é inerentemente inseguro e somente deve ser usado numa circunstância onde uma prática alternativa não exista. Você deve trocar essa opção para {$NO_ACCESS} e usar shell segura se acesso remoto for necessário. Uma vez desabilitada, telnet não mais aparecerá nessa tela. ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_IPSECRW</base>
+	<trans><![CDATA[ <h2>Configuração Clientes IPSEC  (Roadwarrior)</h2> Você pode permitir acesso de clientes IPSEC para o seu servidor, autenticado por certificado digital. Você deve deixar esta opção desabilitada configurando o valor numérico para 0 (zero) a não ser que deseje acesso de clientes IPSEC. ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_IPSECRW_SESS</base>
+	<trans>Número de clientes IPSEC</trans>
+    </entry>
+    <entry>
+	<base>DESC_IPSECRW_RESET</base>
+	<trans><![CDATA[Se você deseja apagar todos os certificados digitais, você pode fazê-lo aqui.<br>Qualquer certificado antigo não funcionará mais para este servidor, então <b><i>todos os clientes IPSEC terão que importar um novo certificado!</i></b>. ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_IPSECRW_RESET</base>
+	<trans>Apagar certificados digitais</trans>
+    </entry>
+    <entry>
+        <base>DESC_IPSEC_VPN_UNAVAILABLE</base>
+        <trans>VPN IPSEC não está instalada. Por favor instale a contribuição se você precisa de acesso via VPN.</trans>
+    </entry>
+</lexicon>

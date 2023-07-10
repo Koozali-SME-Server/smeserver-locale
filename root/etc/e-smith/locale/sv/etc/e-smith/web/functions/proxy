@@ -1,0 +1,42 @@
+<lexicon lang="sv">
+    <entry>
+        <base>Proxy settings</base>
+        <trans>Proxyinställningar</trans>
+    </entry>
+    <entry>
+        <base>FIRST_PAGE_DESCRIPTION</base>
+        <trans>Denna sida ger dig möjligheten att konfigurera serverns proxyinställningar. Servern innehåller en transparant proxy och cache för HTTP trafik. Detta är tillåten som förvald inställning, om inte servern är i &quot;endast servermod&quot;. Om servern arbetar som en e-postserver, kommer anslutningar från det lokal nätverkets klienter till externa SMTP-servrar att automatiskt styras om till den lokal e-postservern.</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>Serverns HTTP-proxy har till uppgift att minska den övergripande uppströmstrafiken genom att cacha alla nyligen besökta sidor. Detta är transparent för webbläsare som använder denna server som deras gateway. Tillåt eller tillåt inte denna proxy med nedanstående inställning.</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_LABEL</base>
+        <trans>HTTP-proxy status</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>Serverns transparanta SMTP-proxy arbetar för att minska virustrafik från infekterade klintvärdar genom att tvinga all utgående SMTP-trafik genom denna server om tjänsten är aktiverad. Om du önskar använda en alternativ SMTP-server, och denna server är din gateway till den, aktivera ej denna proxy. Genom att ställa proxyn i "blockerad" förhindras all SMTP trafik till andra servrar, vilket är förvalt. Proxyn fångar endast upp/blockerar normal SMTP-trafik (port 25).</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_LABEL</base>
+        <trans>SMTP-proxy status</trans>
+    </entry>
+    <entry>
+        <base>ERR_PROXY_UPDATE_FAILED</base>
+        <trans>Fel: proxy-update händelsen returnerade ett fel.</trans>
+    </entry>
+    <entry>
+        <base>ERR_NO_SQUID_REC</base>
+        <trans>Fel: Det finns inga squid-poster i konfigurationens databas.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>De nya proxyinställningarna sparades.</trans>
+    </entry>
+    <entry>
+        <base>BLOCKED</base>
+        <trans>Blockerad</trans>
+    </entry>
+</lexicon>

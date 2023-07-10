@@ -1,0 +1,16 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: root/etc/e-smith/templates/etc/crontab/backup:16
+msgid "Backup task is disabled"
+msgstr "备份任务被禁用"
+
+#: root/etc/e-smith/templates/etc/crontab/backup:33
+#: root/etc/e-smith/templates/etc/crontab/backup:34
+msgid "Remember to load the backup tape!"
+msgstr "记住要加载备份磁带！"

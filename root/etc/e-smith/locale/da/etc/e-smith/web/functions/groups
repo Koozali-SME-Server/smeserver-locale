@@ -1,0 +1,84 @@
+<lexicon lang="da">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Oprete, ændre eller fjern grupper</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_TOO_LONG</base>
+        <trans>Fejl: Gruppenavn er for langt. Den maksimale længde er {$maxLength} tegn.</trans>
+    </entry>    
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>Fejl: Gruppen "{$group}" kan ikke oprettes fordi der allerede findes en {$type} konto med det navn.</trans>
+    </entry>    
+    <entry>
+        <base>INVALID_GROUP_DESCRIPTION</base>
+        <trans>Fejl: Uventede eller manglende tegn i gruppebeskrivelsen</trans>
+    </entry>
+    <entry>
+        <base>NO_MEMBERS</base>
+        <trans>Fejl: Der er ingen medlemmer i gruppen. Gruppen blev ikke oprettet.</trans>
+    </entry>
+    <entry>
+        <base>CREATED_GROUP</base>
+        <trans>Gruppe oprettet</trans>
+    </entry> 
+    <entry>
+        <base>DELETED_GROUP</base>
+        <trans>Gruppe fjernet</trans>
+    </entry> 
+    <entry>
+        <base>MODIFIED_GROUP</base>
+        <trans>Gruppe ændret</trans>
+    </entry>	
+    <entry>
+        <base>CREATE_ERROR</base>
+        <trans>Der opstod en fejl ved oprettelse af gruppen.</trans>
+    </entry> 
+    <entry>
+        <base>DELETE_ERROR</base>
+        <trans>Der opstod en fejl ved fjernelse af gruppen.</trans>
+    </entry> 
+    <entry>
+        <base>MODIFY_ERROR</base>
+        <trans>Der opstod en fejl ved ændring af gruppen.</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_NAMING</base>
+        <trans><![CDATA[ Gruppenavne må kun indeholde små bogstaver, tal, bindestreg, punktum, understregningstegn og skal starte med et lille bogstav, f.eks er "salg", "beta5" eller "salgs_team" gyldige navne, mens "3.-kl", "Marketing Team" og "gemt&fundet" er ugyldige. ]]></trans>
+    </entry>
+    <entry>
+        <base>GROUP_HAS_MEMBERS</base>
+        <trans>Denne gruppe har følgende medlemmer:</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_GROUP</base>
+        <trans>Fejl: Det er ikke en eksisterende gruppekonto.</trans>
+    </entry>
+    <entry>
+        <base>GROUP_DESC</base>
+        <trans>Kort beskrivelse/Windows gruppealias</trans>
+    </entry>
+   <entry>
+        <base>GROUP_DESC_EXPL</base>
+        <trans>Indtast en kort beskrivelse for gruppen nedenfor. Dette felt betegner også gruppenavnet som det ses af Windows-klienterne.</trans>
+   </entry>
+
+
+    <entry>
+        <base>IBAYS_WILL_BE_CHANGED</base>
+        <trans>Følgende i-bay(s) var tildelt til denne gruppe. De(n) vil blive tildelt gruppen Administrator (det kan ændres senere):</trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DELETE_GROUP</base>
+        <trans><![CDATA[ <p><b>Er du sikker på at du vil slette denne gruppe?</b></p> ]]></trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST</base>
+        <trans><![CDATA[<p>Aktuel liste af grupper</p>]]></trans>
+    </entry>
+    <entry>
+		<base>DELETE_DESCRIPTION</base>
+       	<trans><![CDATA[ Du er igang med at slette gruppen "<b>{$group}</b>." ]]></trans>
+    </entry>
+</lexicon>

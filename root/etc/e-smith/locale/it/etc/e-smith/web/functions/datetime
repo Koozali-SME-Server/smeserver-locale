@@ -1,0 +1,202 @@
+<lexicon lang="it">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Configurazione data e ora</trans>
+    </entry>
+    <entry>
+      <base>INITIAL_DESC</base>
+      <trans>Impostare la data e l'ora del server. E' possibile utilizzare un Network Time Server oppure impostare manualmente data e ora per la zona (time zone) corrente.</trans>
+    </entry>
+    <entry>
+      <base>SET_DATE_TITLE</base>
+      <trans>Imposta Data e Ora</trans>
+    </entry>
+    <entry>
+      <base>COULD_NOT_OPEN_TZ_FILE</base>
+      <trans>Errore: impossibile aprire la timezone:</trans>
+    </entry>
+    <entry>
+      <base>JANUARY</base>
+      <trans>Gennaio</trans>
+    </entry>
+    <entry>
+      <base>FEBRUARY</base>
+      <trans>Febbraio</trans>
+    </entry>
+    <entry>
+      <base>MARCH</base>
+      <trans>Marzo</trans>
+    </entry>
+    <entry>
+      <base>APRIL</base>
+      <trans>Aprile</trans>
+    </entry>
+    <entry>
+      <base>MAY</base>
+      <trans>Maggio</trans>
+    </entry>
+    <entry>
+      <base>JUNE</base>
+      <trans>Giugno</trans>
+    </entry>
+    <entry>
+      <base>JULY</base>
+      <trans>Luglio</trans>
+    </entry>
+    <entry>
+      <base>AUGUST</base>
+      <trans>Agosto</trans>
+    </entry>
+    <entry>
+      <base>SEPTEMBER</base>
+      <trans>Settembre</trans>
+    </entry>
+    <entry>
+      <base>OCTOBER</base>
+      <trans>Ottobre</trans>
+    </entry>
+    <entry>
+      <base>NOVEMBER</base>
+      <trans>Novembre</trans>
+    </entry>
+    <entry>
+      <base>DECEMBER</base>
+      <trans>Dicembre</trans>
+    </entry>
+    <entry>
+      <base>NEW_M/D/Y</base>
+      <trans>Nuovo mese/giorno/anno:</trans>
+    </entry>
+    <entry>
+      <base>NEW_H/M/S</base>
+      <trans>Nuovo ore/min/sec:</trans>
+    </entry>
+    <entry>
+      <base>AM/PM_AND_TZ</base>
+      <trans>AM/PM e time zone:</trans>
+    </entry>
+    <entry>
+      <base>NTP_ENABLE_DESC</base>
+      <trans>E' possibile sincronizzare periodicamente l'orologio di sistema con un server NTP (Network Time Protocol). Inserire il nome host o l'indirizzo IP del server NTP.</trans>
+    </entry>
+    <entry>
+      <base>NTP_CONFIGURE_DESC</base>
+      <trans>Il server sincronizza periodicamente l'orologio di sistema con il server NTP indicato sotto. Per sincronizzarsi con un server NTP diverso, inserire un nome host o indirizzo IP nel campo sottostante.</trans>
+    </entry>
+    <entry>
+      <base>NTP_DISABLE_DESC</base>
+      <trans>Selezionare questa opzione per interrompere la sincronizzazione dell'orologio di sistema con il server NTP. Quando il servizio NTP è disabilitato, è possibile impostare data e ora manualmente da questa pagina.</trans>
+    </entry>
+    <entry>
+      <base>NTP_SERVER</base>
+      <trans>Server NTP</trans>
+    </entry>
+    <entry>
+      <base>VERIFY_DATE_AND_TIME</base>
+      <trans>Verifica data e ora</trans>
+    </entry>
+    <entry>
+      <base>NEW_DATE_AND_TIME</base>
+      <trans>Nuova data e ora: </trans>
+    </entry>
+    <entry>
+      <base>SETTING_DATE_AND_TIME</base>
+      <trans>Impostazione data e ora in corso</trans>
+    </entry>
+    <entry>
+      <base>INVALID_DAY</base>
+      <trans>Errore: giorno del mese non valido:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_1_AND_31</base>
+      <trans>Selezionare un giorno compreso tra 1 e 31.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_YEAR</base>
+      <trans>Errore: anno non valido:</trans>
+    </entry>
+    <entry>
+      <base>FOUR_DIGIT_YEAR</base>
+      <trans>Selezionare un anno a quattro cifre tra 1900 e 2200.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_HOUR</base>
+      <trans>Errore: ora non valida:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_1_AND_12</base>
+      <trans>Selezionare un'ora compresa tra 1 e 12.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_MINUTE</base>
+      <trans>Errore: minuto non valido:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_0_AND_59</base>
+      <trans>Selezionare un minuto compreso tra 0 e 59.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_SECOND</base>
+      <trans>Errore: secondo non valido</trans>
+    </entry>
+    <entry>
+      <base>UPDATING_CLOCK</base>
+      <trans><![CDATA[ Orologio di sistema in aggiornamento. Attendere alcuni secondi, poi fare clic <A HREF="datetime?page=1&wherenext=Verify" TARGET="main">qui</A> per verificare le modifiche. ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_SETTING_CLOCK</base>
+      <trans>Errore durante la scrittura dell'orologio hardware.</trans>
+    </entry>
+    <entry>
+      <base>SERVER_DISABLED</base>
+      <trans>Network time server disabilitato con successo</trans>
+    </entry>
+    <entry>
+      <base>SERVER_DISABLED_DESC</base>
+      <trans><![CDATA[ Servizio NTP disabilitato: Il server utilizzerà l'orologio interno e <b>non</b> tenterà di sincronizzarsi con un server NTP. ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_CHANGING_TS</base>
+      <trans>Errore durante il cambio impostazioni NTP</trans>
+    </entry>
+    <entry>
+      <base>INVALID_NTP_ADDR</base>
+      <trans>Indirizzo server NTP non valido:</trans>
+    </entry>
+    <entry>
+      <base>SETTINGS_CHANGED</base>
+      <trans>Network time server modificato con successo</trans>
+    </entry>
+    <entry>
+      <base>SYNC_WITH</base>
+      <trans>Il server è ora configurato per sincronizzarsi periodicamente (via Internet) con:</trans>
+    </entry>
+    <entry>
+      <base>INVALID_NTP_SERVER</base>
+      <trans><![CDATA[ Server NTP non valido, il server <b>non</b> tenterà di sincronizzarsi con un time server. ]]></trans>
+    </entry>
+    <entry>
+      <base>NETWORK_TIME_SERVER</base>
+      <trans>Network Time Server</trans>
+    </entry>
+    <entry>
+      <base>NTP_CONFIGURE_TITLE</base>
+      <trans>Configura il Network Time Server</trans>
+    </entry>
+    <entry>
+      <base>NTP_ENABLE_TITLE</base>
+      <trans>Abilita il Network Time Server</trans>
+    </entry>
+    <entry>
+      <base>NTP_DISABLE_TITLE</base>
+      <trans>Disabilita il Network Time Server</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_SETTING</base>
+      <trans>Impostazioni correnti</trans>
+    </entry>
+    <entry>
+      <base>Date and time</base>
+      <trans>Data e ora</trans>
+    </entry>
+  </lexicon>

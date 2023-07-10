@@ -1,0 +1,193 @@
+<lexicon lang="tr"> 
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+	<base>Software installer</base>
+	<trans>Yazılım yükleyici</trans>
+    </entry>
+
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Yeni ayarlar kaydedildi.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_YUM_STATUS</base>
+        <trans>Güncellemeleri kontrol et</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_YUM_AUTOINSTALLUPDATES</base>
+	<trans>Güncellemeleri otomatik olarak kur</trans>
+   </entry>
+    <entry>
+        <base>LABEL_YUM_AUTOINSTALLUPDATES_DESCRIPTION</base>
+        <trans>If enabled this will take precedence over the simple check for updates notification and predownload features. Instead it will install the available updates from enabled repositories. For more information refer to yum and yum-cron manual page.</trans>
+   </entry>
+
+    <entry>
+	<base>LABEL_YUM_PACKAGEFUNCTIONS</base>
+	<trans>Özgün paketleri yönet</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_YUM_PACKAGEFUNCTIONS</base>
+	<trans>Yazılım yükleyici, paket bağımlılıkları ve özgün yazılımları yönetebilir. Varsayılan olarak, sadece paket grupları sunulmuştur. Tek tek paketleri yönetmek istiyorsanız, bu seçeneği etkinleştirin. Bu sadece deneyimli sistem yöneticileri tarafından yapılmalıdır.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_ENABLED_REPOSITORIES</base>
+	<trans>Aktif depolar</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_ENABLED_REPOSITORIES</base>
+	<trans>Yazılım yükleyici etkinleştirilmiş depolardaki yazılımları kurabilir. Bir yazılım deposunu etkinleştirmek için listeden seçin. Bir yazılım deposunu devre dışı bırakmak için listeden seçimi kaldırın. Varsayılan olarak; sadece kararlı, test edilmiş yazılımlar kurulabilir.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_UPTODATE</base>
+        <trans><![CDATA[ <div class="success"> <h2>Sistem günceldir.</h2> Bütün güncellemeler yüklüdür. </div> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_UPDATES_AVAILABLE</base>
+        <trans><![CDATA[ <div class="success"> <h2>Yeni Güncellemeler Mevcut</h2> Sisteminiz için yeni güncellemeler mevcuttur. Bunları en kısa sürede yüklrmrniz önerilir. </div> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_AVAILABLE_UPDATES</base>
+        <trans>Yeni güncellemeler var</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_AVAILABLE_UPDATES</base>
+        <trans>Sisteminiz için aşağıdaki güncellemeler mevcuttur. Bütün güncellemeleri normal olarak kurabilirsiniz. Kurmak istemediğiniz güncellemeler varsa aşağıdaki listeden pakete ait seçimi kaldırın.</trans>
+    </entry>
+
+    <entry>
+        <base>INSTALL_UPDATES</base>
+        <trans>Seçili güncellemeleri kur</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_INSTALL_UPDATES</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_UPDATES">Mevcut güncellemeleri kur</a> ]]></trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_AVAILABLE_SOFTWARE</base>
+	<trans>Aşağıdaki yazılım mevcut sistem üzerine kurulabilir. Sisteme ek yazılımlar yüklemek, sonuçlarının ne olacağını çok iyi bilen kişiler tarafından yapılmalıdır.</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_AVAILABLE_GROUPS</base>
+	<trans>Yüklenecek yazılım gruplarını listeden seçebilirsiniz.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_AVAILABLE_GROUPS</base>
+	<trans>Kurulabilir yazılım grupları</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_AVAILABLE_PACKAGES</base>
+	<trans>Aşağıdaki listeden, ayrıca kurulmasını istediğiniz paketleri seçebilirsiniz.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_AVAILABLE_PACKAGES</base>
+	<trans>Kurulabilir paketler</trans>
+    </entry>
+
+    <entry>
+	<base>INSTALL_SOFTWARE</base>
+	<trans>Kurulum</trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_INSTALLED_SOFTWARE</base>
+	<trans>Bu bilgisayarda kurulu olan yazılımlar aşağıda gösterilmektedir. Yazılımları kaldırdığınızda meydana gelecek sonuçlar iyi düşünülmelidir.</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_INSTALLED_GROUPS</base>
+	<trans>Silinecek paket gruplarını listeden seçebilirsiniz.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_INSTALLED_GROUPS</base>
+	<trans>Kurulu paket grupları</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_INSTALLED_PACKAGES</base>
+	<trans>Aşağıdaki listeden, ayrıca kaldırmak istediğiniz paketleri seçebilirsiniz.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_INSTALLED_PACKAGES</base>
+	<trans>Kurulu paketler</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_CONFIGURATION</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_CONFIGURATION">Yazılım yükleyici ayarlarını değiştirin</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_INSTALL_AVAILABLE</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_AVAILABLE">Ek yazılım yükle</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_REMOVE</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_REMOVE">Kurulu yazılımı kaldır</a> ]]></trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_POSTUPGRADE_REQUIRED</base>
+	<trans><![CDATA[ Yazılım yükleme, kaldırma veya güncelleme sonunda sistemin yeniden yapılandırılması gerekmektedir. <p> Yeniden yapılandırma sürecini başlatmak için bu sayfanın altındaki yeniden yapılandır düğmesine tıklayınız . <b>Sistemi yeniden başlatma işlemi bu sürecin bir parçası olarak uygulanacaktır</b> </p> ]]></trans>
+     </entry>
+
+    <entry>
+	<base>SYSTEM_BEING_RECONFIGURED</base>
+	<trans>Yeniden yapılandırma uygulanabilmesi için sistem yeniden başlatılıyor.</trans>
+    </entry>
+
+    <entry>
+      <base>1DAILY</base>
+      <trans>Günlük</trans>
+    </entry>
+
+    <entry>
+      <base>2WEEKLY</base>
+      <trans>Haftalık</trans>
+    </entry>
+
+    <entry>
+      <base>3MONTHLY</base>
+      <trans>Aylık</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DELTARPMPROCESS</base>
+      <trans>Delta Rpm Update</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DELTARPM</base>
+      <trans>A deltarpm contains the difference between an old and a new version of a rpm, which can save bandwith. The drawback is that update operations consume considerably more CPU cycles</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DOWNLOADONLY</base>
+      <trans>Kişisel ayrıntılar güncellendi</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DOWNLOADONLY_DESCRIPTION</base>
+      <trans>The rpm updates can be downloaded during the night, this will ease and give faster the yum update process (only enabled repositories will be used).</trans>
+    </entry>
+
+</lexicon>

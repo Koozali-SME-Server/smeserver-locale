@@ -1,0 +1,108 @@
+<lexicon lang="it">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>Local networks</base>
+        <trans>Reti locali</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ Per ragioni di sicurezza, diversi servizi del server sono a disposizione soltanto della rete locale. E' comunque possibile assegnare gli stessi privilegi locali a reti aggiuntive elencandole qui sotto. Nella maggior parte delle installazioni non è necessario modificare nulla in questa lista. </p><p> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Aggiungi rete</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>Aggiunge una rete locale</trans>
+    </entry>
+    <entry>
+        <base>ADD_DESC</base>
+        <trans><![CDATA[ Ogni parametro deve avere la forma #.#.#.# (ogni # è un numero da 0 a 255). Il server metterà a zero la parte finale (identificatore host) dell'indirizzo di rete in base alla subnet mask, in modo che l'indirizzo di rete sia corretto. </p><p> "Router" è l'indirizzo IP del router sulla rete locale attraverso il quale raggiungere la rete aggiuntiva. ]]></trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ADDRESS</base>
+        <trans>Indirizzo di rete</trans>
+    </entry>
+    <entry>
+        <base>SUBNET_MASK</base>
+        <trans>Maschera di rete</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IP_ADDRESS</base>
+        <trans>Indirizzo IP non valido</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SUBNET_MASK</base>
+        <trans>Subnet mask non valida</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Rimuovi rete locale</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>State per rimuovere le seguenti reti locali.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_CONFIRM</base>
+        <trans>Siete sicuri di voler rimuovere questa rete ?</trans>
+    </entry>
+    <entry>
+        <base>DEFAULT</base>
+        <trans>Default</trans>
+    </entry>
+    <entry>
+        <base>NUMBER_OF_HOSTS</base>
+        <trans>Numero di host</trans>
+    </entry>
+    <entry>
+        <base>NOT_ACCESSIBLE_FROM_LOCAL_NETWORK</base>
+        <trans>Errore: l'indirizzo del router {$networkRouter} non è accessibile dalla rete locale. Rete non aggiunta.</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_LOCAL</base>
+        <trans>Errore: la rete {$network} (derivata da {$networkAddress} con subnet mask {$networkMask}) è già considerata locale. Rete non aggiunta.</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_ADDED</base>
+        <trans>Errore: la rete {$network} (derivata da {$networkAddress} con subnet mask {$networkMask}) è già stata aggiunta. Rete non aggiunta.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_CREATING_NETWORK</base>
+        <trans>Errore durante la creazione della rete</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Rete {$network}/{$networkMask} via router {$networkRouter} aggiunta con successo.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_SINGLE_ADDRESS</base>
+        <trans>Rete {$network}/{$networkMask} via router {$networkRouter} aggiunta con successo. Il server assegnerà privilegi di accesso locale al singolo indirizzo IP {$network}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NETWORK_RANGE</base>
+        <trans>Rete {$network}/{$networkMask} via router {$networkRouter} aggiunta con successo. Il server assegnerà privilegi di accesso locale a {$totalHosts} indirizzi IP nel range da {$firstAddr} a {$lastAddr}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NONSTANDARD_RANGE</base>
+        <trans><![CDATA[ Rete {$network}/{$networkMask} via router {$networkRouter} aggiunta con successo. </p> <p> Il server assegnerà privilegi di accesso locale a {$totalHosts} indirizzi IP nel range da {$firstAddr} a {$lastAddr}. </p> <p> Attenzione: il server FTP ProFTPd non è in grado di gestire questa subnet mask non standard. Verrà usata la maschera semplice <b>{$simpleMask}</b>. ]]></trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_REMOVED_NETWORK</base>
+        <trans>Rete {$network}/{$networkMask} via router {$networkRouter} rimossa con successo.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_DELETING_NETWORK</base>
+        <trans>Errore durante l'eliminazione della rete.</trans>
+    </entry>
+    <entry>
+        <base>NO_ADDITIONAL_NETWORKS</base>
+        <trans>Nessuna rete aggiuntiva</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_DESC</base>
+        <trans>Sono stati rilevati nomi di host locali nella rete che state per rimuovere. Di default, verrano anch'essi rimossi. Deselezionare il campo sottostante per evitare che vengano cancellati. Notare che non verranno considerati locali e potrebbero non essere più raggiungibili dopo aver rimosso questa rete.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_LABEL</base>
+        <trans>Rimuovi hosts nella rete</trans>
+    </entry>
+</lexicon>

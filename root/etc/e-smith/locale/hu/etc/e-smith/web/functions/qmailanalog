@@ -1,0 +1,87 @@
+<lexicon lang="hu">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Levelezés naplófájl analízis</trans>
+    </entry>
+    <entry>
+	<base>INITIAL_DESC</base>
+	<trans><![CDATA[ <P>A levelezőrendszer naplófájljainak vizsgálata segíti nyomon követni a rendszer működését és a kézbesítési problémák felderítését. Számos különböző jelentés készíthető.</P> <P>Vegye  figyelembe, hogy a jelentések generálása több percet is igénybevehet</P> ]]></trans>
+    </entry>
+    <entry>
+	<base>REPORT_TYPE</base>
+	<trans>Válasszon egy jelentés típust</trans>
+    </entry>
+    <entry>
+	<base>GENERATE_REPORT</base>
+	<trans>Jelentés generálása</trans>
+    </entry>
+    <entry>
+	<base>LIST_OUTGOING</base>
+	<trans>Kimenő levelek és címzettek listája</trans>
+    </entry>
+    <entry>
+	<base>SUMMARIZE_QUEUE</base>
+	<trans>Várakozó levelek állapotának összegzése</trans>
+    </entry>
+    <entry>
+	<base>SUCCESSFUL_DELIVERY_DELAY</base>
+	<trans>Sikeresen kézbesített várakozó levelek</trans>
+    </entry>
+    <entry>
+	<base>REASONS_DEFERRAL</base>
+	<trans>Késés okai</trans>
+    </entry>
+    <entry>
+	<base>REASONS_FAILURE</base>
+	<trans>Hibák</trans>
+    </entry>
+    <entry>
+	<base>BASIC_STATS</base>
+	<trans>Alapvető statisztikák</trans>
+    </entry>
+    <entry>
+	<base>RECIP_STATS</base>
+	<trans>Címzettek statisztikája</trans>
+    </entry>
+    <entry>
+	<base>RECIP_HOSTS</base>
+	<trans>Címzett hosztok</trans>
+    </entry>
+    <entry>
+	<base>RECIP_ORDERED</base>
+	<trans>Leggyakoribb címzettek listája</trans>
+    </entry>
+    <entry>
+	<base>SENDER_STATS</base>
+	<trans>Feladó statisztikák</trans>
+    </entry>
+    <entry>
+	<base>SENDMAIL_STYLE</base>
+	<trans>Sendmail stílusú napló</trans>
+    </entry>
+    <entry>
+	<base>REASONS_SUCCESS</base>
+	<trans>Sikeres kézbesítések</trans>
+    </entry>
+    <entry>
+	<base>SENDER_UIDS</base>
+	<trans>Feladó azonosítók</trans>
+    </entry>
+    <entry>
+	<base>INVALID_REPORT_TYPE</base>
+	<trans>Érvénytelen jelentés típus:</trans>
+    </entry>
+    <entry>
+	<base>REPORT_GENERATED</base>
+	<trans>Jelentés létrehozva:</trans>
+    </entry>
+    <entry>
+	<base>END_OF_REPORT</base>
+	<trans>Jelentés vége</trans>
+    </entry>
+    <entry>
+	<base>Mail log file analysis</base>
+	<trans>Levelezés naplófájl analízis</trans>
+    </entry>
+
+</lexicon>

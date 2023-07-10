@@ -1,0 +1,15 @@
+<lexicon lang="he">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>מדריך מקוון ומסמכים אחרים</trans>
+      </entry>	
+      <entry> 
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ <ul> <li><a target="new" href="https://wiki.koozali.org/documentation/manual/">מדריך מקוון</a> <li><a target="new" href="https://www.koozali.org/documentation/FAQ/">שאלות נפוצות</a> </ul> <H2>תמיכה ורישוי</H2> תוכנה זו משוחררת תחת התנאים המפורטים בדף <a href="/server-manager/cgi-bin/support">תמיכה ורישוי</a>]]></trans>
+      </entry>		
+      <entry>
+	<base>Online manual</base>
+	<trans>מדריך מקוון</trans>
+      </entry>
+
+</lexicon>

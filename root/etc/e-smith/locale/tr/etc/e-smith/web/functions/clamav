@@ -1,0 +1,38 @@
+<lexicon lang="tr">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Antivirüs ayarları</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FILESYSTEM_SCAN_PERIOD</base>
+        <trans>Dosya sistemini tara</trans>
+    </entry>
+    <entry>
+        <base>DESC_FILESYSTEM_SCAN_PERIOD</base>
+        <trans><![CDATA[ <h2>Genel Ayarlar</h2> Bu seçenek etkinse, dosya sistemi virüslere karşı taranır. Bulunan virüslere ilişkin rapor sistem yöneticisine gönderilecektir.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_QUARANTINE</base>
+        <trans>Virüslü dosyaları karantinaya al.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_CLAM_VERSIONS</base>
+        <trans>ClamAV ve db versiyonu</trans>
+    </entry>
+    <entry>
+      <base>WEEKLY</base>
+      <trans>Haftalık</trans>
+    </entry>
+    <entry>
+      <base>NEVER</base>
+      <trans>Asla</trans>
+    </entry>
+    <entry>
+      <base>DAILY</base>
+      <trans>Günlük</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>clamav antivirüs için yeni ayarlar kaydedildi.</trans>
+    </entry>
+</lexicon>

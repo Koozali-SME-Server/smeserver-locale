@@ -1,0 +1,87 @@
+<lexicon lang="et">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Mailide logid ja failide analüüs</trans>
+    </entry>
+    <entry>
+	<base>INITIAL_DESC</base>
+	<trans><![CDATA[ <P>Analysing the mail system log files can aid both in understanding how your system is performing and in diagnosing delivery problems. Several different reports are available.</P> <P>Pane tähele, et raporti koostamine võib võtta mitu minutit</P> ]]></trans>
+    </entry>
+    <entry>
+	<base>REPORT_TYPE</base>
+	<trans>Vali raporti tüüp</trans>
+    </entry>
+    <entry>
+	<base>GENERATE_REPORT</base>
+	<trans>Koosta raport</trans>
+    </entry>
+    <entry>
+	<base>LIST_OUTGOING</base>
+	<trans>List outgoing messages and recipients</trans>
+    </entry>
+    <entry>
+	<base>SUMMARIZE_QUEUE</base>
+	<trans>Ootel olevate mailide olek</trans>
+    </entry>
+    <entry>
+	<base>SUCCESSFUL_DELIVERY_DELAY</base>
+	<trans>Successful delivery delay distribution</trans>
+    </entry>
+    <entry>
+	<base>REASONS_DEFERRAL</base>
+	<trans>Reasons for deferral</trans>
+    </entry>
+    <entry>
+	<base>REASONS_FAILURE</base>
+	<trans>Reasons for failure</trans>
+    </entry>
+    <entry>
+	<base>BASIC_STATS</base>
+	<trans>Üldine statistika</trans>
+    </entry>
+    <entry>
+	<base>RECIP_STATS</base>
+	<trans>Recipients statistics</trans>
+    </entry>
+    <entry>
+	<base>RECIP_HOSTS</base>
+	<trans>Recipient hosts</trans>
+    </entry>
+    <entry>
+	<base>RECIP_ORDERED</base>
+	<trans>Recipients in best order for mailing lists</trans>
+    </entry>
+    <entry>
+	<base>SENDER_STATS</base>
+	<trans>Saatjate statistika</trans>
+    </entry>
+    <entry>
+	<base>SENDMAIL_STYLE</base>
+	<trans>Sendmail style log</trans>
+    </entry>
+    <entry>
+	<base>REASONS_SUCCESS</base>
+	<trans>Reasons for success</trans>
+    </entry>
+    <entry>
+	<base>SENDER_UIDS</base>
+	<trans>Saatja uids</trans>
+    </entry>
+    <entry>
+	<base>INVALID_REPORT_TYPE</base>
+	<trans>Sobimatu raporti tüüp:</trans>
+    </entry>
+    <entry>
+	<base>REPORT_GENERATED</base>
+	<trans>Raport koostatud:</trans>
+    </entry>
+    <entry>
+	<base>END_OF_REPORT</base>
+	<trans>Raporti lõpp</trans>
+    </entry>
+    <entry>
+	<base>Mail log file analysis</base>
+	<trans>E-maili logide analüüs</trans>
+    </entry>
+
+</lexicon>

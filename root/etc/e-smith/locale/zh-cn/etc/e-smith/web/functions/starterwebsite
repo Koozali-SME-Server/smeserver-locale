@@ -1,0 +1,43 @@
+<lexicon lang="zh-cn">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>创建一个起始站点</trans>
+      </entry>
+      <entry>
+	<base>SUCCESS</base>
+	<trans>成功创建了起始网站（已经写入index.htm），可以通过下面地址访问网站：</trans>
+      </entry>
+      <entry>
+	<base>DESCRIPTION</base>
+	  <trans><![CDATA[ <p> 要创建一个简单的网页，请填写以下字段然后点击<b>创建</b>. </p> <p>可以将任何不需要的字段留空 。</p> <p> 在下面输入的文本将在网页中加以修饰后显示出来。每当要另起段落，请输入一个空行。如果要强制分开一行又不想另起段落（例如每行一个电子邮件地址），可以在任意行中输入4个字符序列 <blockquote>&lt;BR&gt;</blockquote>。</p> <p>如果已经建好了网站， <em>请勿使用该选项</em>  因为这将覆盖网站目录中的"index.htm"文件。 </p> ]]></trans>
+      </entry>
+      <entry>
+	<base>LABEL_COMPANYNAME</base>
+	<trans>企业名称</trans>
+      </entry>
+	
+      <entry> 
+	<base>DESC_HEADER1</base>
+	<trans>第一标题，通常是诸如“某某行业的领导者”等等之类的短语</trans>
+      </entry>
+      <entry> 
+	<base>DESC_TEXT1</base>
+	<trans>第一标题下的文本，通常是些市场信息方面的报道。</trans>
+      </entry>
+      <entry> 
+	  <base>DESC_HEADER2</base>
+	<trans>第二标题，通常是诸如“更多信息”或“订购产品”等短语：</trans>
+	</entry>
+      <entry> 
+	<base>DESC_TEXT2</base>
+	<trans>第二标题下的文本，通常是联系方式或订购信息：</trans>
+	</entry>
+      <entry>
+	<base>DESC_SUBMIT</base>
+	<trans><![CDATA[ <p>一旦创建了网页，在网站根目录下的文件 "index.htm" 将被覆盖。</p> <p>是否继续？</p> ]]></trans>
+      </entry>
+      <entry>
+	<base>Create starter web site</base>
+	<trans>创建起始站点</trans>
+      </entry>
+</lexicon>

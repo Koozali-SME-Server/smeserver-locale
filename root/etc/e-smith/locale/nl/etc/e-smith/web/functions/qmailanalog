@@ -1,0 +1,87 @@
+<lexicon lang="nl">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>E-mail log bestand analyse</trans>
+    </entry>
+    <entry>
+	<base>INITIAL_DESC</base>
+	<trans><![CDATA[ <P>De analyse van de systeem e-mail log bestanden kan helpen in zowel het inzicht in de prestaties van uw systeem alsmede de diagnose van verzend problemen. Er zijn diverse rapporten beschikbaar.</P> <P>Opm.: het kan enkele minuten duren om deze rapporten te genereren</P> ]]></trans>
+    </entry>
+    <entry>
+	<base>REPORT_TYPE</base>
+	<trans>Kies een rapport type</trans>
+    </entry>
+    <entry>
+	<base>GENERATE_REPORT</base>
+	<trans>Genereer rapport</trans>
+    </entry>
+    <entry>
+	<base>LIST_OUTGOING</base>
+	<trans>Geef een overzicht van de uitgaande berichten en -ontvangers</trans>
+    </entry>
+    <entry>
+	<base>SUMMARIZE_QUEUE</base>
+	<trans>Samenvattende status e-mail wachtrij</trans>
+    </entry>
+    <entry>
+	<base>SUCCESSFUL_DELIVERY_DELAY</base>
+	<trans>Succesvolle afleveringsvertraging distributie</trans>
+    </entry>
+    <entry>
+	<base>REASONS_DEFERRAL</base>
+	<trans>Reden voor uitstel</trans>
+    </entry>
+    <entry>
+	<base>REASONS_FAILURE</base>
+	<trans>Reden voor mislukken</trans>
+    </entry>
+    <entry>
+	<base>BASIC_STATS</base>
+	<trans>Basis statistieken</trans>
+    </entry>
+    <entry>
+	<base>RECIP_STATS</base>
+	<trans>Ontvangst statistieken</trans>
+    </entry>
+    <entry>
+	<base>RECIP_HOSTS</base>
+	<trans>Ontvangende hosts</trans>
+    </entry>
+    <entry>
+	<base>RECIP_ORDERED</base>
+	<trans>Ontvangers in de beste volgorde voor mailing-lijsten</trans>
+    </entry>
+    <entry>
+	<base>SENDER_STATS</base>
+	<trans>Verzend statistieken</trans>
+    </entry>
+    <entry>
+	<base>SENDMAIL_STYLE</base>
+	<trans>Sendmail-stijl log</trans>
+    </entry>
+    <entry>
+	<base>REASONS_SUCCESS</base>
+	<trans>Redenen voor succes</trans>
+    </entry>
+    <entry>
+	<base>SENDER_UIDS</base>
+	<trans>Verzender uids</trans>
+    </entry>
+    <entry>
+	<base>INVALID_REPORT_TYPE</base>
+	<trans>Ongeldig rapport type:</trans>
+    </entry>
+    <entry>
+	<base>REPORT_GENERATED</base>
+	<trans>Gegenereerd rapport:</trans>
+    </entry>
+    <entry>
+	<base>END_OF_REPORT</base>
+	<trans>Einde rapport</trans>
+    </entry>
+    <entry>
+	<base>Mail log file analysis</base>
+	<trans>E-mail log bestand analyse</trans>
+    </entry>
+
+</lexicon>

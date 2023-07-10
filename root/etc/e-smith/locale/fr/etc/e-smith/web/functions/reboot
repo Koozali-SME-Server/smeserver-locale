@@ -1,0 +1,42 @@
+<lexicon lang="fr">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Arrêt, redémarrage ou reconfiguration du serveur</trans>
+    </entry>
+    <entry>
+	<base>REBOOT</base>
+	<trans>Redémarrer</trans>
+    </entry>
+    <entry>
+	<base>REBOOT_SUCCEEDED</base>
+	<trans>Lancement réussi de la requête de redémarrage.</trans>
+    </entry>
+    <entry>
+	<base>DESC_REBOOT</base>
+	<trans>Votre serveur a commencé le processus de redémarrage.</trans>
+    </entry>
+    <entry>
+	<base>RECONFIGURE_SUCCEEDED</base>
+	<trans>Lancement réussi de la requête de reconfiguration.</trans>
+    </entry>
+    <entry>
+	<base>DESC_RECONFIGURE</base>
+	<trans>Votre serveur a commencé le processus de reconfiguration et de redémarrage.</trans>
+    </entry>
+    <entry>
+	<base>DESC_SHUTDOWN</base>
+	<trans>Votre serveur a commencé le processus d'arrêt. L'exécution complète de ce processus pourra durer quelques minutes, après lesquelles vous pourrez couper l'alimentation.</trans>
+    </entry>
+    <entry>
+	<base>LABEL_REBOOT</base>
+	<trans>Action</trans>
+    </entry>
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ Vous pouvez arrêter, redémarrer ou effectuer une reconfiguration complète de votre serveur à partir de cette page. Vous devez lancer la séquence d'arrêt avant de couper l'alimentation. L'exécution de ces fonctions peut durer quelques minutes. Lorsque vous cliquerez sur "<b>Exécuter</b>" l'opération se lancera immédiatement, alors soyez prêt ! ]]></trans>
+    </entry>
+    <entry>
+	<base>Reboot or shutdown</base>
+	<trans>Arrêt et redémarrage</trans>
+    </entry>
+</lexicon>

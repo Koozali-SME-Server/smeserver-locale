@@ -1,0 +1,79 @@
+<lexicon lang="sv">
+   <entry>
+     <base>FORM_TITLE</base>
+       <trans>Ändra LDAP-katalogens inställningar</trans>
+   </entry>	
+<entry>
+<base>LABEL_ROOT</base>
+<trans>Serverroot</trans>
+</entry>
+
+<entry>
+<base>DESCRIPTION</base>
+<trans>LDAP-servern möjliggör en nätverks publicering av användarkonton och grupper på din server och kan nås via en LDAP-klient som exvis adressboksfunktionen i Communicator. Konfigurera din LDAP-klient med den lokal IP-adressen för din server, portnummer 389 och serverns rootparametrar som visas nedan.</trans>
+</entry>
+<entry>
+<base>DESC_DIRECTORY_ACCESS</base>
+<trans>Du kan kontrollera åtkomsten till din LDAP-katalog: Den privata inställningen tillåter åtkomst endast från ditt lokala nätverk och den publika inställningen tillåter åtkomst från alla anslutna till Internet.</trans>
+</entry>
+<entry>
+<base>DIRECTORY_ACCESS</base>
+<trans>Åtkomst till LDAP-katalog</trans>
+</entry>
+<entry>
+	<base>DESC_DEPARTMENT</base>
+<trans>Dessa fält är de förvalda LDAP-värdena för din organisation. När du skapar ett nytt användarkonto, kommer du att uppmanas att ange alla dessa fält (de kan innehålla olika värden för olika användare) men värdena som du anger här kommer att visas som förvalda. Detta underlättar och snabbar upp skapandet av nya användarkonton.</trans>
+</entry>
+<entry>
+        <base>DEPARTMENT</base>
+        <trans>Förvald avdelning</trans>
+</entry>
+
+<entry>
+        <base>COMPANY</base>
+        <trans>Förvalt företag</trans>
+</entry>
+<entry>
+        <base>STREET</base>
+        <trans>Förvald gatuadress</trans>
+</entry>
+
+<entry>
+        <base>CITY</base>
+        <trans>Förvald postadress</trans>
+</entry>
+
+<entry>
+        <base>PHONENUMBER</base>
+        <trans>Förvalt telefonnummer</trans>
+</entry>
+
+<entry>
+<base>DESC_EXISTING</base>
+<trans>Du kan antingen lämna de existerande användarkontona som de är och använda de ovanstående inställningarna endast för nya användare, eller så kan du använda ovanstående inställningar även på befintliga användare.</trans>
+</entry>
+
+
+
+<entry>
+<base>EXISTING</base>
+<trans>Befintliga användare</trans>
+</entry>
+<entry>
+<base>SUCCESS</base>
+<trans>De nya förvalda LDAP-inställningarna har sparats.</trans>
+</entry>
+
+<entry>
+<base>LEAVE</base>
+<trans>Lämna som de är</trans>
+</entry>
+<entry>
+<base>UPDATE</base>
+<trans>Uppdatera med de nya förvalda inställningarna</trans>
+</entry>
+    <entry>
+        <base>Directory</base>
+        <trans>Katalog</trans>
+    </entry>
+</lexicon>

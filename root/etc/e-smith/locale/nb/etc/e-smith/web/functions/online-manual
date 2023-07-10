@@ -1,0 +1,15 @@
+<lexicon lang="nb">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>Online manual og dokumentasjon</trans>
+      </entry>	
+      <entry> 
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ <ul> <li><a target="new" href="https://wiki.koozali.org/documentation/manual/"> Online manual</a> <li><a target="new" href="https://wiki.koozali.org/documentation/FAQ/"> FAQs</a> </ul> <H2>Støtte og lisensiering</H2> Dette programmet er sluppet under betingelsene på <a href="/server-manager/cgi-bin/support"> Støtte og Lisensiering</a> siden. ]]></trans>
+      </entry>		
+      <entry>
+	<base>Online manual</base>
+	<trans>Online manual</trans>
+      </entry>
+
+</lexicon>

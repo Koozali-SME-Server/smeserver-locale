@@ -1,0 +1,10 @@
+<lexicon lang="id">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Informasi dukungan, garansi dan lisensi</trans>
+    </entry>
+    <entry>
+        <base>Support and licensing</base>
+        <trans>Dukungan dan lisensi</trans>
+    </entry>
+</lexicon>

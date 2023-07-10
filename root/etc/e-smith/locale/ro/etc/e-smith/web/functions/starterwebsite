@@ -1,0 +1,43 @@
+<lexicon lang="ro">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>Creați o pagina web de start</trans>
+      </entry>
+      <entry>
+	<base>SUCCESS</base>
+	<trans>Pagina de start a fost creată cu succes (s-a scris fisierul index.htm). Puteti vizita noua pagina la adresa de mai jos:</trans>
+      </entry>
+      <entry>
+	<base>DESCRIPTION</base>
+	  <trans><![CDATA[ <p> Pentru a crea o pagina minimală a companiei, completați câmpurile de mai jos si apăsați OK <b>Creați</b>. </p> <p> Puteți lăsa orice câmp necompletat daca nu aveți nevoie de el. </p> <p> Textul pe care îl completați va fi aranjat pentru o mai plăcută pe pagina dumneavoastră de Web. Lăsați un rând liber pentru orice paragraf nou pe care îl doriți . Dacă doriți sa scrieți pe alt rând fără a deschide un paragraf nou (de ex după fiecare line ce conține o adresă de mail), atunci scrieți secventa de caractere <blockquote>&lt;BR&gt;</blockquote> Unde aveți nevoie de rând nou. </p> <p> <em>Nu utilizați această opțiune </em> dacă deja ați actualizat agina dumneavoastra de Internet, deoarece această opțiune va suprascrie fișierul "index.htm" din directorul de bază al paginii. </p> ]]></trans>
+      </entry>
+      <entry>
+	<base>LABEL_COMPANYNAME</base>
+	<trans>Nume companie</trans>
+      </entry>
+	
+      <entry> 
+	<base>DESC_HEADER1</base>
+	<trans>Primul header. uzual se utilizează fraze scurte de genul "Leader în industria de Textile"</trans>
+      </entry>
+      <entry> 
+	<base>DESC_TEXT1</base>
+	<trans>Textul următor, uzual utilizat pentru patagraful de marketing.</trans>
+      </entry>
+      <entry> 
+	  <base>DESC_HEADER2</base>
+	<trans>Cel de al doi-lea header, utilizat de obicei pentru fraze scurte de genul "Pentru mai multe informații" sau "Pentru a comanda produsele noastre"</trans>
+	</entry>
+      <entry> 
+	<base>DESC_TEXT2</base>
+	<trans>Text pentu cel de al doi-lea header, utilizat de obicei pentru datele de contact sau de comandă.</trans>
+	</entry>
+      <entry>
+	<base>DESC_SUBMIT</base>
+	<trans><![CDATA[ <p>Când creați această pagina, fișierul "index.htm" din rădăcina paginii de itnernet va fi suprascris.</p> <p>Vreți să contiunăm?</p> ]]></trans>
+      </entry>
+      <entry>
+	<base>Create starter web site</base>
+	<trans>Creați pagină de start</trans>
+      </entry>
+</lexicon>

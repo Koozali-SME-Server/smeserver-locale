@@ -1,0 +1,386 @@
+<lexicon lang="de" params="getExtraParams()">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>E-Mail Einstellungen</trans>
+    </entry>
+    <entry>
+        <base>E-mail</base>
+        <trans>E-Mail</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Die neuen E-Mail Einstellungen wurden gespeichert.</trans>
+    </entry>
+    <entry>
+        <base>NEVER</base>
+        <trans>niemals</trans>
+    </entry>
+    <entry>
+        <base>EVERY5MIN</base>
+        <trans>Alle 5 Minuten</trans>
+    </entry>
+    <entry>
+        <base>EVERY15MIN</base>
+        <trans>Alle 15 Minuten</trans>
+    </entry>
+    <entry>
+        <base>EVERY30MIN</base>
+        <trans>Alle 30 Minuten</trans>
+    </entry>
+    <entry>
+        <base>EVERYHOUR</base>
+        <trans>Jede Stunde</trans>
+    </entry>
+    <entry>
+        <base>EVERY2HRS</base>
+        <trans>Alle 2 Stunden</trans>
+    </entry>
+    <entry>
+        <base>STANDARD</base>
+        <trans>Standard (SMTP)</trans>
+    </entry>
+    <entry>
+        <base>ETRN</base>
+        <trans>ETRN (SMTP mit Client Abfrage)</trans>
+    </entry>
+    <entry>
+        <base>DEFAULT</base>
+        <trans>Vorgabe</trans>
+    </entry>
+    <entry>
+        <base>SPECIFY_BELOW</base>
+        <trans>Unten angeben</trans>
+    </entry>
+    <entry>
+        <base>MULTIDROP</base>
+        <trans>Multidrop</trans>
+    </entry>
+    <entry>
+        <base>LABEL_MODE</base>
+        <trans>E-Mail Abrufmodus</trans>
+    </entry>
+    <entry>
+        <base>DESC_MODE</base>
+        <trans>Der E-Mail Empfangsmodus kann auf Standard (für kontinuierliche Internetverbindung), ETRN (empfohlen für Einwahlverbindungen) oder Multidrop (für Einwahlverbindungen wenn ETRN von Ihrem Internet Provider nicht unterstützt wird) eingestellt werden. Beachten Sie, dass der Multidrop Mode nur zur Verfügung steht, wenn Ihr Server im Modus Privater Server und Gateway läuft.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_DELEGATE</base>
+        <trans>Adresse des internen Mailservers</trans>
+    </entry>
+    <entry>
+        <base>DESC_DELEGATE</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Externer Mailserver</h2> Ihr Server verfügt über einen kompletten E-Mail Server mit allen Funktionen. Jedoch kann es aus verschieden Gründen notwendig sein, die Mailserver-Funktion eines anderen Mailserver zu nutzen. Geben Sie hierfür die IP Adresse des externen Mailservers unten an. Für eine normale Installation lassen Sie bitte das Feld leer. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SECONDARY</base>
+        <trans>Sekundärer Mailserver</trans>
+    </entry>
+    <entry>
+        <base>DESC_SECONDARY</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Einstellungen für ETRN oder Multidrop</h2> Geben Sie für ETRN oder Multidrop den Hostnamen oder die IP-Adresse Ihres sekundären Mailservers an. (Wenn Sie die Standard E-Mail Einstellungen verwenden, kann dieses Feld leer bleiben.) ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_FETCH_PERIOD</base>
+        <trans>Für ETRN oder Multidrop können Sie hier einstellen, wie oft dieser Server Ihren sekundären E-Mail Server die Mails kontaktiert. Je öfter die Verbindung augenommen wird, desto schneller erhalten Sie Ihre E-Mails, aber Sie sollten bedenken, daß hierfür mehr Datenverkehr entsteht und Sie eventuell höhere Internetkosten haben.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD</base>
+        <trans>Während den Bürozeiten (8:00 Uhr bis 18:00 Uhr) an Wochentagen</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD_NIGHTS</base>
+        <trans>Außerhalb der Bürozeiten (18:00 Uhr bis 08:00 Uhr) an Wochentagen</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD_WEEKENDS</base>
+        <trans>Während des Wochenendes</trans>
+    </entry>
+    <entry>
+        <base>DESC_POP_ACCOUNT</base>
+        <trans>Für Multidrop von E-Mails geben Sie bitte das POP Benutzerkonto sowie das Passwort an. (Wenn Sie Standard oder ETRN E-Mail verwenden kann dieses Feld leer bleiben.) Für Multidrop können Sie auch angeben, ob Sie die Standard Mail Sortiermethode verwenden wollen, oder Sie definieren spezielle Nachrichtenheader für die Sortierung der Mails.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_POP_PASS</base>
+        <trans>POP Benutzerpasswort (für Multidrop)</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_POP_ACCOUNT</base>
+        <trans>POP Benutzerkonto (für Multidrop)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SORT_METHOD</base>
+        <trans>Wählen Sie die Sortiermethode (für Multidrop)</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SORT_HEADER</base>
+        <trans>Wählen Sie einen Nachrichtenheader (für Multidrop)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PROTO</base>
+        <trans>Protokoll (für Multi-Drop)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_SECURE</base>
+        <trans>Tunnel über SSL (für Multi-Drop)</trans>
+    </entry>
+    <entry>
+        <base>AUTO</base>
+        <trans>Automatisch</trans>
+    </entry>
+    <entry>
+        <base>ENABLED_BOTH</base>
+        <trans>Sowohl HTTP als auch HTTPS erlauben</trans>
+    </entry>
+    <entry>
+        <base>ENABLED_SECURE_ONLY</base>
+        <trans>HTTPS (sicherer Zugang) erlauben</trans>
+    </entry>
+     <entry>
+        <base>ONLY_LOCAL_NETWORK_SSL</base>
+        <trans>HTTPS (sicherer Zugang) vom lokalen Netzwerk erlauben</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_POP3</base>
+        <trans>Sowohl POP3 als auch POP3S erlauben</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_PRIVATE</base>
+        <trans>Lokal erlauben</trans>
+    </entry>
+    <entry>
+        <base>SECURE_POP3</base>
+        <trans>Lokal und öffentlich erlauben (Secure POP3S)</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_IMAP</base>
+        <trans>Sowohl IMAP als auch IMAPS erlauben</trans>
+    </entry>
+    <entry>
+        <base>SECURE_IMAP</base>
+        <trans>Lokal und öffentlich erlauben (Secure IMAPS)</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_SMTP</base>
+        <trans>Sowohl SMTP als auch SSMTP erlauben</trans>
+    </entry>
+    <entry>
+        <base>SECURE_SMTP</base>
+        <trans>Nur SSMTP (Secure) erlauben</trans>
+    </entry>
+    <entry>
+        <base>LABEL_POP_ACCESS_CONTROL</base>
+        <trans>POP3 Server Zugang</trans>
+    </entry>
+    <entry>
+        <base>LABEL_IMAP_ACCESS_CONTROL</base>
+        <trans>IMAP Server Zugang</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SMTP_AUTH_CONTROL</base>
+        <trans>SMTP Authentifizierung</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_TO_ADMIN</base>
+        <trans>An den Administrator schicken</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_TO</base>
+        <trans>Senden an</trans>
+    </entry>
+    <entry>
+        <base>RETURN_TO_SENDER</base>
+        <trans>Ablehnen</trans>
+    </entry>
+    <entry>
+        <base>LABEL_UNKNOWN</base>
+        <trans>E-Mail an unbekannte Benutzer</trans>
+    </entry>
+    <entry>
+        <base>DESC_UNKNOWN</base>
+        <trans><![CDATA[ <h2>Unbekannte Benutzer</h2> Das Auswählen von Ablehnen (empfohlene Einstellung) konfiguriert den Server so, dass er nur E-Mails für gültige E-Mail Adressen (zum Beispiel Benutzer, Gruppen, Pseudonyme) annimmt. E-Mails für andere Adressen werden abgelehnt. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SMARTHOST</base>
+        <trans>Adresse des E-Mail Servers Ihres Internet Providers</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_SMARTHOST</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>SMTP Server</h2> Der Server kann ausgehende E-Mails direkt selbst an den Empfänger versenden (in den meisten Fällen empfohlen) oder aber über den SMTP Server Ihres Internet Providers (empfohlen bei einer unzuverlässigen Internet-Verbindung oder bei Einwahlverbindung). Wenn Sie den SMTP Server Ihres Internet Providers verwenden, geben Sie den Hostnamen oder die IP-Adresse unten ein. Ansonsten lassen Sie das Feld leer. ]]></trans>
+    </entry>
+
+    <entry>
+        <base>INVALID_SMARTHOST</base>
+        <trans>Der Smart Host-Name, den Sie eingegeben haben, ist kein gültiger Internet-Domänenname und auch nicht leer</trans>
+    </entry>
+    <entry>
+        <base>DESC_POP_ACCESS_CONTROL</base>
+        <trans>Sie können den Zugang zu Ihrem POP3-Server einstellen. Die Einstellung 'Zugang nur von lokalen Netzwerken' erlaubt den POP3-Zugang nur über lokales Netzwerk(e). Die POP3S-Einstellung ermöglicht verschlüsselten externen Zugriff auf Ihren POP3-Server. Wir empfehlen die Einstellung 'Zugang nur von lokalen Netzwerken' nur in begründeten Fällen zu ändern.</trans>
+    </entry>
+    <entry>
+        <base>DESC_IMAP_ACCESS_CONTROL</base>
+        <trans>Sie können den Zugang zu ihren IMAP-Server einstellen. Die Einstellung 'Zugang nur von lokalen Netzwerken' erlaubt der Zugang nur über lokales Netzwerk(e). Die IMAPS-Einstellung ermöglicht den verschlüsselten externen Zugriff auf Ihren IMAP-Server. Wir empfehlen die 'Zugang nur von lokalem Netzwerk' nur zu ändern, wenn Sie besondere Gründe haben.</trans>
+    </entry>
+    <entry>
+        <base>DESC_SMTP_AUTH_CONTROL</base>
+        <trans><![CDATA[ Sie können authentifizierten Zugriff auf den SMTP-Server bereitstellen oder deaktivieren. Die SSMTP Einstellung erfordert von <b>allen</b> Benutzer eine SSL/TLS-Authentifizierung. Die Auswahl SMTP und SSMTP lässt zusätzlich STARTTLS zu, was eine sichere Authentifizierung gewährleistet. ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_WEBMAIL</base>
+        <trans>Sie können Webmail auf diesem System aktivieren oder deaktivieren. Webmail erlaubt den Benutzern, ihre E-Mails mit einem normalen Webbrowser über https://{$FQDN}/webmail und Anmeldung auf Ihrem Konto einzusehen.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_WEBMAIL</base>
+        <trans>Webmail Zugang</trans>
+    </entry>
+     <entry>
+        <base>LABEL_BLOCK_EXECUTABLE_CONTENT</base>
+        <trans>Ausführbare Dateianhänge blockieren</trans>
+     </entry>
+     <entry>
+        <base>LABEL_CONTENT_TO_BLOCK</base>
+        <trans>Zu blockierender Inhalt</trans>
+     </entry>
+     <entry>
+        <base>DESC_BLOCK_EXECUTABLE_CONTENT</base>
+        <trans>Sie können ausführbare Inhalte in E-Mail Anhängen blockieren, indem Sie die zu blockierenden ausführbaren Typen markieren. E-Mail mit diesen angehängten Dateitypen werden automatisch an den Sender zurückgesandt.</trans>
+    </entry>
+    <entry>
+        <base>UNACCEPTABLE_CHARS</base>
+        <trans>Dieses Feld erfordert eine gültige E-Mail-Adresse, die das @ Symbol und einen Domänennamen enthalten muß.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_ACCESS</base>
+        <trans><![CDATA[ <h2>E-Mail Zugang</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_ACCESS_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_ACCESS">Einstellungen für E-Mail-Zugang ändern</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_RECEPTION</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>E-Mail Empfang</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_RECEPTION_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_RECEPTION">Einstellungen für E-Mail-Empfang ändern</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_DELIVERY</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>E-Mail Auslieferung</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_DELIVERY_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_DELIVERY">Einstellungen für E-Mail-Auslieferung ändern</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_FILTERING_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_FILTERING">Einstellungen für E-Mail-Filter ändern</a> ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_VIRUS_SCAN</base>
+	<trans>Viren-Scanner</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_VIRUS_SCAN</base>
+	<trans>Ein- und ausgehende E-Mails können nach Viren durchsucht werden. Wenn die Viruserkennung eingeschaltet ist und ein Virus gefunden wird, wird die E-Mail abgewiesen und an den Absender zurückgeschickt.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_SPAM_SCAN</base>
+	<trans>Spam-Filter</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_SPAM_SCAN</base>
+	<trans>E-Mails können nach Spam gefiltert werden. Bei Einschalten des Spam-Filters wird jeder E-Mail ein Header mit X-Spam-Status hinzugefügt, der für das Filtern von Spam benutzt werden kann. Die Sensibilität, mit der der Filter E-Mails als Spam einstuft, ist auf Mittel voreingestellt. Zur Feineinstellung kann die Empfindlichkeit auf Spezifisch mit spezifischem Tagging Level geändert werden, und optional ein Level, bei der eine E-Mail abgewiesen wird.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_SPAM_SUBJECT</base>
+	<trans>SPAM-Kennzeichnung in der Betreffzeile</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_SPAM_SUBJECT</base>
+	<trans>Sie können ein Kennzeichen zur E-Mail-Betreffzeile hinzu fügen, das die E-Mail als SPAM eingestuft ist. Die Eingabe dieses Kennzeichens erfolgt unten.</trans>
+    </entry>
+
+   <entry>
+        <base>LABEL_SPAM_SENSITIVITY</base>
+        <trans>Spam Sensibilität</trans>
+    </entry>
+   <entry>
+        <base>LABEL_SPAM_TAGLEVEL</base>
+        <trans>Spezifische Spam-Einstellungen</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SPAM_REJECTLEVEL</base>
+        <trans>Spezifische Einstellung zur Mail-Abweisung</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SPAM_SUBJECTTAG</base>
+        <trans>Spam Nachricht Betreff verändern</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SORTSPAM</base>
+        <trans>Spam in den Junkmail-Ordner verschieben</trans>
+    </entry>
+    <entry>
+        <base>VERYHIGH</base>
+        <trans>Sehr hoch</trans>
+    </entry>
+    <entry>
+        <base>HIGH</base>
+        <trans>Hoch</trans>
+    </entry>
+    <entry>
+        <base>MEDIUM</base>
+        <trans>Mittel</trans>
+    </entry>
+    <entry>
+        <base>LOW</base>
+        <trans>Niedrig</trans>
+    </entry>
+    <entry>
+        <base>VERYLOW</base>
+        <trans>Sehr niedrig</trans>
+    </entry>
+    <entry>
+        <base>CUSTOM</base>
+        <trans>Spezifische Einstellung</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_STATUS</base>
+        <trans>SMTP Anmeldung beim Internet-Provider</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_USERID</base>
+        <trans>Mail-Server Benutzer-ID</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_PASSWD</base>
+        <trans>Mail-Server Kennwort</trans>
+    </entry>
+
+    <entry>
+        <base>VALIDATION_SMTPAUTH_NONBLANK</base>
+        <trans>Dieses Feld darf nicht leer sein, wenn SMTP Authentifizierung aktiviert ist.</trans>
+    </entry>
+
+</lexicon>

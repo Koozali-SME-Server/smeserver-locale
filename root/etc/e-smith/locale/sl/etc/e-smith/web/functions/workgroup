@@ -1,0 +1,58 @@
+<lexicon lang="sl">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Spremeni nastavitve za DelovnoSkupino</trans>
+    </entry>	
+    <entry> 
+        <base>DESC_WORKGROUP</base>
+        <trans><![CDATA[ Vnesi ime DelovneSkupine v kateri se bo pojavil ta Streznik. ]]></trans>	
+    </entry>
+    <entry>
+        <base>LABEL_WORKGROUP</base>
+        <trans>Windows DelovnaSkupina</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERVERNAME</base>
+        <trans>Vnesi ime ki ga bo Streznik uporabljal za Windows in Macintosh delitev datotek.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERVERNAME</base>
+        <trans>Ime Streznika</trans>
+    </entry>
+    <entry>
+        <base>DESC_PDC</base>
+        <trans><![CDATA[Ali naj streznik deluje kot domain in workgroup controller v omrezju Windows? To opcijo moras nastaviti na <b>NE</b> ce v omrezju to funkcijo opravlja drug streznik. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_PDC</base>
+        <trans>Domain in Workgroup Kontroler</trans>
+    </entry>
+    <entry>
+        <base>DESC_ROAM</base>
+        <trans><![CDATA[ Ali naj ta Streznik podpira roaming profile ? Ta opcija naj ostane nastavljena na <b>NE</b> rezen ce imas dovolj izkusenj z administriranjem server-based Windows roaming profilov in ves, da je ta funkcija potrebna. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_ROAM</base>
+        <trans>Roaming profili</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Nove nastavitve DelovneSkupine so shranjene.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP</base>
+        <trans>Ime DelovneSkupine se mora zaceti z crko (malo ali veliko) in nadaljuje z kombinacijo crk in stevilk.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SERVERNAME</base>
+        <trans>Ime Streznika se mora zaceti z crko (veliko ali malo) in nadaljuje z kombinacijo crk in stevilk.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP_MATCHES_SERVERNAME</base>
+        <trans>Ime Streznika in DelovneSkupine sta enaka v primeru malih crk. Imeni morata biti razlicni, da se lahko vkljuci deljenje datotek.</trans>
+    </entry>
+    <entry>
+        <base>Workgroup</base>
+        <trans>DelovnaSkupina</trans>
+    </entry>
+</lexicon>

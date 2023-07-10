@@ -1,0 +1,141 @@
+<lexicon lang="id" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Pengaturan domain</trans>
+    </entry>
+    <entry>
+        <base>FORM_DESCRIPTION</base>
+        <trans><![CDATA[ <p>Saat anda membuat sebuah domain, server anda akan dapatmenerima e-mail untuk domain tersebut dan juga bisa sebagai tuan rumah bagi situs web untuk domain tersebut.</p> <p><a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CREATE">Tambah domain</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>Tidak ada domain dalam sistem</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST_OF_DOMAINS</base>
+        <trans>Daftar domain saat ini</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_SITE</base>
+        <trans>Situs primary</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>{$content} i-bay</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Buat domain baru</trans>
+    </entry>
+    <entry>
+        <base>CONTENT_FIELD_DESCRIPTION</base>
+        <trans>Untuk situs web anda dapat memilih situs primary atau i-bay manapun sebagai konten.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME_VALIDATION_ERROR</base>
+        <trans>Error: terdapat karakter yang tidak dibolehkan atau hilang dalam nama domain {$domainName}. Nama domain hanya boleh terdiri dari satu atau lebih huruf, angka, titik dan tanda minus. Gagal membuat domain baru.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_DESCRIPTION_VALIDATION_ERROR</base>
+        <trans>Error: terdapat karakter yang tidak dibolehkan atau hilang dalam deskripsi domain {$domainDesc}. . Gagal membuat domain baru.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_IN_USE_ERROR</base>
+        <trans>Error: domain {$domainName} sudah digunakan. Gagal membuat domain baru.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_DOMAIN_ERROR</base>
+        <trans>Error: domain {$domainName} adalah nama domain dari sistem anda. Anda tidak dapat memiliki domain dengan nama rangkap. Gagal membuat doamin baru.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>Berhasil membuat domain {$domainName}. Web server anda sedang di-restart. Link pada halaman ini akan tidak aktif sampai proses restart web server selesai.</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_TITLE</base>
+        <trans>Ubah domain</trans>
+    </entry>
+    <entry>
+        <base>NONEXISTENT_DOMAIN_ERROR</base>
+        <trans>Error: {$domainName} tidak ada.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>Sukses mengubah domain {$domainName}. Web server sedang di-restart. Link di halaman ini akan akan nonaktif sampai prosest restart web server selesai.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Hapus domain</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESCRIPTION</base>
+        <trans><![CDATA[ <p> Anda akan menghapusdomain {$domain} ({$domainDesc}). </p> <p> <b>Anda yakin menghapus domain ini?</b> </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_REMOVING_DOMAIN</base>
+        <trans>Error: gagal saat menghapus domain {$domain}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>Sukses menghapus domain {$domain}. Web server anda sedang di-restart. Link pada halaman ini akan nonaktif sampai proses restart web server selesai.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS_CURRENT</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Corporate DNS Settings</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>BUTTON_CORPORATE_DNS</base>
+        <trans><![CDATA[ <p>Jika server ini tidak memiliki akses keInternet, atau jika anda memiliki aturan khusus untuk resolusi DNS, masukkan alamat IP DNS server disini. Jangan isikan DNS servers ISP anda disini, karena server dapat mencari semua nama DNS Internet tanpa konfigurasi tambahan ini.</p> <p> <a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CORPORATE_DNS">Ubah pengaturan DNS korporat</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS</base>
+        <trans>Jika server ini tidak memiliki akses keInternet, atau jika anda memiliki aturan khusus untuk resolusi DNS, masukkan alamat IP DNS server disini. Kosongkan Field tersebut kecuali anda memiliki alasan khusus untuk mengkonfigurasi server DNS lain. Jangan isikan DNS servers ISP anda disini, karena server dapat mencari semua nama DNS Internet tanpa konfigurasi tambahan ini.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_PRIMARY</base>
+        <trans>DNS server primer korporat </trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_SECONDARY</base>
+        <trans>DNS server sekunder korporat </trans>
+    </entry>
+
+    <entry>
+        <base>DESC_NAMESERVERS</base>
+        <trans>Anda dapat memilih apakah domain di-resolve secara lokal, melewati server DNS korporat, atau di-resolve oleh server DNS Internet. Sebagian besar network akan dapat bekerja pada pilihan Default </trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_NAMESERVERS</base>
+        <trans>Server DNS domain</trans>
+    </entry>
+
+    <entry>
+        <base>localhost</base>
+        <trans>Resolve secara lokal</trans>
+    </entry>
+
+    <entry>
+        <base>internet</base>
+        <trans>DNS Server Internet</trans>
+    </entry>
+
+    <entry>
+        <base>corporate</base>
+        <trans>Alamat server DNS perusahaan</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Anda akan menghapus printer:</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans>Anda yakin menghapus printer ini?</trans>
+    </entry>
+
+</lexicon>

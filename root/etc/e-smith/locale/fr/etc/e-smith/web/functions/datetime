@@ -1,0 +1,202 @@
+<lexicon lang="fr">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Configuration de la date et de l'heure</trans>
+    </entry>
+    <entry>
+      <base>INITIAL_DESC</base>
+      <trans>Vous pouvez configurer sur cette page la date et l'heure de ce serveur. Vous avez la possibilité d'utiliser un serveur de temps (protocole NTP ou Network Time Protocol) existant ou de régler manuellement la date et l'heure en fonction de votre fuseau horaire.</trans>
+    </entry>
+    <entry>
+      <base>SET_DATE_TITLE</base>
+      <trans>Régler la date et l'heure</trans>
+    </entry>
+    <entry>
+      <base>COULD_NOT_OPEN_TZ_FILE</base>
+      <trans>ERREUR : Impossible d'ouvrir en lecture le fichier de fuseau horaire :</trans>
+    </entry>
+    <entry>
+      <base>JANUARY</base>
+      <trans>Janvier</trans>
+    </entry>
+    <entry>
+      <base>FEBRUARY</base>
+      <trans>Février</trans>
+    </entry>
+    <entry>
+      <base>MARCH</base>
+      <trans>Mars</trans>
+    </entry>
+    <entry>
+      <base>APRIL</base>
+      <trans>Avril</trans>
+    </entry>
+    <entry>
+      <base>MAY</base>
+      <trans>Mai</trans>
+    </entry>
+    <entry>
+      <base>JUNE</base>
+      <trans>Juin</trans>
+    </entry>
+    <entry>
+      <base>JULY</base>
+      <trans>Juillet</trans>
+    </entry>
+    <entry>
+      <base>AUGUST</base>
+      <trans>Août</trans>
+    </entry>
+    <entry>
+      <base>SEPTEMBER</base>
+      <trans>Septembre</trans>
+    </entry>
+    <entry>
+      <base>OCTOBER</base>
+      <trans>Octobre</trans>
+    </entry>
+    <entry>
+      <base>NOVEMBER</base>
+      <trans>Novembre</trans>
+    </entry>
+    <entry>
+      <base>DECEMBER</base>
+      <trans>Décembre</trans>
+    </entry>
+    <entry>
+      <base>NEW_M/D/Y</base>
+      <trans>Nouvelle date (mois/jour/an)</trans>
+    </entry>
+    <entry>
+      <base>NEW_H/M/S</base>
+      <trans>Nouvelle heure (heure/min/sec)</trans>
+    </entry>
+    <entry>
+      <base>AM/PM_AND_TZ</base>
+      <trans>AM/PM et fuseau horaire</trans>
+    </entry>
+    <entry>
+      <base>NTP_ENABLE_DESC</base>
+      <trans>Le serveur peut synchroniser périodiquement l'horloge système avec un serveur de temps (protocole NTP ou Network Time Protocol). Si vous sélectionnez cette option, veuillez taper ci-dessous le nom d'hôte ou l'adresse IP du serveur NTP.</trans>
+    </entry>
+    <entry>
+      <base>NTP_CONFIGURE_DESC</base>
+      <trans>Le serveur synchronise périodiquement l'horloge système avec le serveur de temps (protocole NTP ou Network Time Protocol) indiqué ci-dessous. Pour synchroniser l'heure avec un serveur NTP différent, veuillez taper un autre nom d'hôte ou une autre adresse IP dans le champ ci-dessous.</trans>
+    </entry>
+    <entry>
+      <base>NTP_DISABLE_DESC</base>
+      <trans>Sélectionnez cette option pour cesser de synchroniser l'horloge système avec le serveur NTP. Lorsque le service NTP est désactivé, vous pouvez régler manuellement l'heure et la date du système à partir de cette page.</trans>
+    </entry>
+    <entry>
+      <base>NTP_SERVER</base>
+      <trans>Serveur NTP</trans>
+    </entry>
+    <entry>
+      <base>VERIFY_DATE_AND_TIME</base>
+      <trans>Vérifier la date et l'heure</trans>
+    </entry>
+    <entry>
+      <base>NEW_DATE_AND_TIME</base>
+      <trans>Nouveau réglage de la date et de l'heure :</trans>
+    </entry>
+    <entry>
+      <base>SETTING_DATE_AND_TIME</base>
+      <trans>Réglage de la date et de l'heure</trans>
+    </entry>
+    <entry>
+      <base>INVALID_DAY</base>
+      <trans>ERREUR : jour du mois non valide :</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_1_AND_31</base>
+      <trans>Choisissez un jour entre 1 et 31.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_YEAR</base>
+      <trans>ERREUR : année non valide :</trans>
+    </entry>
+    <entry>
+      <base>FOUR_DIGIT_YEAR</base>
+      <trans>Choisissez une année sur 4 chiffres entre 1900 et 2200.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_HOUR</base>
+      <trans>ERREUR : heure non valide :</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_1_AND_12</base>
+      <trans>Choisissez une heure entre 1 et 12.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_MINUTE</base>
+      <trans>ERREUR : minute non valide :</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_0_AND_59</base>
+      <trans>Choisissez une minute entre 0 et 59.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_SECOND</base>
+      <trans>ERREUR : seconde non valide.</trans>
+    </entry>
+    <entry>
+      <base>UPDATING_CLOCK</base>
+      <trans><![CDATA[ L'horloge système est en train d'être mise à jour. Attendez quelques secondes, puis cliquez <a href="datetime?page=1&wherenext=Verify" target="main">ici</a> pour vérifier les changements. ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_SETTING_CLOCK</base>
+      <trans>Une erreur s'est produite pendant la mise à jour de l'heure système et de l'horloge matérielle.</trans>
+    </entry>
+    <entry>
+      <base>SERVER_DISABLED</base>
+      <trans>Serveur de temps désactivé avec succès.</trans>
+    </entry>
+    <entry>
+      <base>SERVER_DISABLED_DESC</base>
+      <trans><![CDATA[ Vous avez désactivé ce service. Le serveur se fiera à son horloge interne et <b>n'essaiera pas</b> de se synchroniser à un serveur de temps. ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_CHANGING_TS</base>
+      <trans>Une erreur s'est produite pendant la modification du serveur de temps.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_NTP_ADDR</base>
+      <trans>ERREUR : adresse du serveur de temps non valide :</trans>
+    </entry>
+    <entry>
+      <base>SETTINGS_CHANGED</base>
+      <trans>Modification du serveur de temps effectuée avec succès.</trans>
+    </entry>
+    <entry>
+      <base>SYNC_WITH</base>
+      <trans>Ce serveur est maintenant configuré pour se synchroniser périodiquement avec :</trans>
+    </entry>
+    <entry>
+      <base>INVALID_NTP_SERVER</base>
+      <trans><![CDATA[ Serveur de temps non valide. Le serveur <b>n'essaiera pas</b> de synchroniser son horloge à partir d'un serveur de temps. ]]></trans>
+    </entry>
+    <entry>
+      <base>NETWORK_TIME_SERVER</base>
+      <trans>Serveur de temps</trans>
+    </entry>
+    <entry>
+      <base>NTP_CONFIGURE_TITLE</base>
+      <trans>Configurer le serveur de temps</trans>
+    </entry>
+    <entry>
+      <base>NTP_ENABLE_TITLE</base>
+      <trans>Activer un serveur de temps</trans>
+    </entry>
+    <entry>
+      <base>NTP_DISABLE_TITLE</base>
+      <trans>Désactiver le serveur de temps</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_SETTING</base>
+      <trans>Réglage actuel</trans>
+    </entry>
+    <entry>
+      <base>Date and time</base>
+      <trans>Date et heure</trans>
+    </entry>
+  </lexicon>

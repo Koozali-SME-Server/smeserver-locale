@@ -1,0 +1,520 @@
+<lexicon lang="fr">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>Collaboration</base>
+        <trans>Collaboration</trans>
+    </entry>
+    <entry>
+      <base>Administration</base>
+      <trans>Administration</trans>
+    </entry>
+    <entry>
+        <base>Security</base>
+        <trans>Sécurité</trans>
+    </entry>
+    <entry>
+        <base>Configuration</base>
+        <trans>Configuration</trans>
+    </entry>
+    <entry>
+        <base>Miscellaneous</base>
+        <trans>Divers</trans>
+    </entry>
+    <entry>
+        <base>Your Settings</base>
+        <trans>Vos paramètres</trans>
+    </entry>
+    <entry>
+        <base>SAVE</base>
+        <trans>Enregistrer</trans>
+    </entry>
+    <entry>
+        <base>CANCEL</base>
+        <trans>Annuler</trans>
+    </entry>
+    <entry>
+        <base>ENABLED</base>
+        <trans>Activé</trans>
+    </entry>
+    <entry>
+        <base>DISABLED</base>
+        <trans>Désactivé</trans>
+    </entry>
+    <entry>
+        <base>NO</base>
+        <trans>Non</trans>
+    </entry>
+    <entry>
+        <base>YES</base>
+        <trans>Oui</trans>
+    </entry>
+    <entry>
+        <base>ADD</base>
+        <trans>Ajouter</trans>
+    </entry>
+    <entry>
+        <base>CREATE</base>
+        <trans>Créer</trans>
+    </entry>
+    <entry>
+        <base>MODIFY</base>
+        <trans>Modifier</trans>
+    </entry>
+    <entry>
+        <base>REMOVE</base>
+        <trans>Supprimer</trans>
+    </entry>
+    <entry>
+        <base>COMMENT</base>
+        <trans>Commentaire</trans>
+    </entry>
+    <entry>
+        <base>NEXT</base>
+        <trans>Suivant</trans>
+    </entry>
+    <entry>
+        <base>SELF</base>
+        <trans>Ce serveur</trans>
+    </entry>
+    <entry>
+        <base>REMOTE</base>
+        <trans>Distant</trans>
+    </entry>
+    <entry>
+        <base>LOCAL</base>
+        <trans>Local</trans>
+    </entry>
+    <entry>
+        <base>ACTION</base>
+        <trans>Action</trans>
+    </entry>
+    <entry>
+        <base>NETWORK</base>
+        <trans>Réseau</trans>
+    </entry>
+    <entry>
+        <base>ROUTER</base>
+        <trans>Routeur</trans>
+    </entry>
+    <entry>
+        <base>OPERATION_STATUS_REPORT</base>
+        <trans>Rapport d'état de l'opération</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT</base>
+        <trans>Compte</trans>
+    </entry>
+    <entry>
+        <base>GROUP</base>
+        <trans>Groupe</trans>
+    </entry>
+    <entry>
+        <base>DESC_SECTIONBAR</base>
+        <trans><![CDATA[ <hr class="sectionbar"/> ]]></trans>
+    </entry>
+    <entry>
+        <base>NO_PIPES_ALLOWED</base>
+        <trans>La barre verticale "|" (pipe) n'est pas autorisée dans ce champ.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_BELOW</base>
+        <trans>ERREUR : Une erreur s'est produite lors de la validation de cette page. Vous trouverez ci-dessous les raisons de ce problème :</trans>
+    </entry>
+    <entry>
+        <base>ACCESS</base>
+        <trans>Accès</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_LOCKED</base>
+        <trans>Le compte est verrouillé</trans>
+    </entry>
+    <entry>
+        <base>GROUP_ADD</base>
+        <trans>Ajouter un groupe</trans>
+    </entry>
+    <entry>
+        <base>NETWORKS_ALLOW_LOCAL</base>
+        <trans>N'autoriser l'accès que depuis les réseaux locaux</trans>
+    </entry>
+    <entry>
+        <base>NETWORKS_ALLOW_PUBLIC</base>
+        <trans>Autoriser l'accès complet (LAN et Internet)</trans>
+    </entry>
+    <entry>
+        <base>ERROR_PASSWORD_CHANGE</base>
+        <trans>Une erreur s'est produite pendant la modification de votre mot de passe. Veuillez vous assurer de l'exactitude de l'ancien mot de passe tapé.</trans>
+    </entry>
+    <entry>
+        <base>BACK</base>
+        <trans>Retour</trans>
+    </entry>
+    <entry>
+        <base>BACKUP</base>
+        <trans>Sauvegarde</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION_BRIEF</base>
+        <trans>Brève description</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE</base>
+        <trans>Changer le mot de passe</trans>
+    </entry>
+    <entry>
+        <base>RESET_PASSWORD_TITLE</base>
+        <trans>Réinitialiser le mot de passe de l'utilisateur</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_PASSWORD_CHANGE</base>
+        <trans>Changer le mot de passe du compte</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>Contenu</trans>
+    </entry>
+    <entry>
+        <base>CREATE_GROUP</base>
+        <trans>Créer un groupe d'utilisateurs</trans>
+    </entry>
+    <entry>
+        <base>USER_LIST_CURRENT</base>
+        <trans>Liste des utilisateurs</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans>Description</trans>
+    </entry>
+    <entry>
+        <base>DESTINATION</base>
+        <trans>Destination</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME</base>
+        <trans>Nom de Domaine</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN</base>
+        <trans>Domaine</trans>
+    </entry>
+    <entry>
+        <base>DOMAINS</base>
+        <trans>Domaines</trans>
+    </entry>
+    <entry>
+        <base>DOWNLOAD</base>
+        <trans>Télécharger</trans>
+    </entry>
+    <entry>
+        <base>ERROR_UPDATING_CONFIGURATION</base>
+        <trans>Une erreur s'est produite pendant la mise à jour de la configuration du serveur.</trans>
+    </entry>
+    <entry>
+        <base>GROUP_MEMBERS</base>
+        <trans>Membres du groupe</trans>
+    </entry>
+    <entry>
+        <base>GROUP_NAME</base>
+        <trans>Nom du groupe</trans>
+    </entry>
+    <entry>
+        <base>GROUPS</base>
+        <trans>Groupes</trans>
+    </entry>
+    <entry>
+        <base>IP_ADDRESS</base>
+        <trans>Adresse IP</trans>
+    </entry>
+    <entry>
+        <base>IP_ADDRESS_OR_FQDN</base>
+        <trans>Adresse IP ou FQDN</trans>
+    </entry>
+    <entry>
+        <base>USER_INVALID</base>
+        <trans>Utilisateur non autorisé</trans>
+    </entry>
+    <entry>
+        <base>LOCATION</base>
+        <trans>Emplacement</trans>
+    </entry>
+    <entry>
+        <base>MB</base>
+        <trans>Mo</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_USER_GROUP</base>
+        <trans>Modifier le groupe d'utilisateurs</trans>
+    </entry>
+    <entry>
+        <base>NAME</base>
+        <trans>Nom</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_VERIFY_NEW</base>
+        <trans>Nouveau mot de passe (vérification)</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_NEW</base>
+        <trans>Nouveau mot de passe</trans>
+    </entry>
+    <entry>
+        <base>OFF</base>
+        <trans>Désactivé</trans>
+    </entry>
+    <entry>
+        <base>OK</base>
+        <trans>Ok</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_OLD</base>
+        <trans>Ancien mot de passe</trans>
+    </entry>
+    <entry>
+        <base>ON</base>
+        <trans>Activé</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD</base>
+        <trans>Mot de passe</trans>
+    </entry>
+    <entry>
+        <base>PERFORM</base>
+        <trans>Exécuter</trans>
+    </entry>
+    <entry>
+        <base>RECONFIGURE</base>
+        <trans>Reconfigurer</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_USER_GROUP</base>
+        <trans>Supprimer le groupe d'utilisateurs</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_RESET</base>
+        <trans>Réinitialiser le mot de passe</trans>
+    </entry>
+    <entry>
+        <base>RESTORE</base>
+        <trans>Restaurer</trans>
+    </entry>
+    <entry>
+        <base>SHUTDOWN</base>
+        <trans>Arrêter</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Opération réussie</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME_INVALID</base>
+        <trans>Le nom d'utilisateur que vous avez tapé n'est pas valide.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME_INVALID_CHARS</base>
+        <trans>Le nom d'utilisateur que vous avez tapé contient des caractères non valides.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_OLD_INVALID_CHARS</base>
+        <trans>L'ancien mot de passe que vous avez tapé contient des caractères non valides.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_INVALID_CHARS</base>
+        <trans>Le mot de passe que vous avez tapé contient des caractères non valides.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_VERIFY_ERROR</base>
+        <trans>Les mots de passe ne concordent pas.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_USER_NONE</base>
+        <trans>Aucun compte utilisateur n'a été défini dans le système.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_GROUP_NONE</base>
+        <trans>Il n'y a aucun groupe d'utilisateurs défini dans le système.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_INVALID_CHARS</base>
+        <trans>Caractères inattendus dans la description.</trans>
+    </entry>
+    <entry>
+        <base>USER_NAME</base>
+        <trans>Nom d'utilisateur</trans>
+    </entry>
+    <entry>
+        <base>YOUR_ACCOUNT</base>
+        <trans>Votre compte utilisateur:</trans>
+    </entry>
+    <entry>
+      <base>YOUR_ACCOUNT_INVALID</base>
+      <trans>Le nom d'utilisateur que vous avez tapé n'est pas valide.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE_SUCCESS</base>
+        <trans>Le mot de passe a été modifié avec succès.</trans>
+    </entry>
+    <entry>
+        <base>FM_NONBLANK</base>
+        <trans>Ce champ ne doit pas être vide.</trans>
+    </entry>
+    <entry>
+        <base>FM_INTEGER</base>
+        <trans>Ce champ doit contenir un entier positif.</trans>
+    </entry>
+    <entry>
+        <base>FM_NUMBER</base>
+        <trans>Ce champ doit contenir un nombre.</trans>
+    </entry>
+    <entry>
+        <base>FM_WORD</base>
+        <trans>Ce champ doit être composé d'un seul mot.</trans>
+    </entry>
+    <entry>
+        <base>FM_DATE</base>
+        <trans>La valeur tapée ne correspond pas à une date.</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER1</base>
+        <trans>Vous devez taper un numéro de carte de paiement.</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER2</base>
+        <trans>Le numéro de carte de paiement ne doit contenir que des nombres, des espaces ou des tirets.</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER3</base>
+        <trans>Il doit être composé d'au moins 14 caractères.</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER4</base>
+        <trans>Il ne semble pas correspondre à un numéro valide de carte de paiement.</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY1</base>
+        <trans>Aucune date d'expiration n'a été tapée.</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY2</base>
+        <trans>La date d'expiration doit être tapée sous la forme MM/AA ou MM/AAAA.</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY3</base>
+        <trans>La date d'expiration a déjà expirée.</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY4</base>
+        <trans>La date d'expiration semble trop éloignée dans le futur.</trans>
+    </entry>
+    <entry>
+        <base>FM_ISO_COUNTRY_CODE1</base>
+        <trans>Vous devez taper un code de région.</trans>
+    </entry>
+    <entry>
+        <base>FM_ISO_COUNTRY_CODE2</base>
+        <trans>Ce champ ne contient pas de code ISO de région valide.</trans>
+    </entry>
+    <entry>
+        <base>FM_US_STATE</base>
+        <trans>Cette abréviation en deux lettres d'état américain n'est pas valide.</trans>
+    </entry>
+    <entry>
+        <base>FM_US_ZIPCODE</base>
+        <trans>Les codes postaux américains doivent contenir 5 ou 9 chiffres.</trans>
+    </entry>
+    <entry>
+        <base>FM_MINLENGTH1</base>
+        <trans>La longueur minimale a été définie arbitrairement à {$minlength} caractères.</trans>
+    </entry>
+    <entry>
+        <base>FM_MINLENGTH2</base>
+        <trans>Ce champ doit contenir au minimum {$minlength} caractères.</trans>
+    </entry>
+    <entry>
+        <base>FM_MAXLENGTH1</base>
+        <trans>La longueur maximale a été définie arbitrairement à {$maxlength} caractères.</trans>
+    </entry>
+    <entry>
+        <base>FM_MAXLENGTH2</base>
+        <trans>Ce champ doit ne doit pas dépasser {$maxlength} caractères.</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH1</base>
+        <trans>Vous devez définir la longueur de ce champ.</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH2</base>
+        <trans>Vous devez définir la longueur exacte de ce champ avec un entier.</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH3</base>
+        <trans>Ce champ doit faire exactement {$exactlength} caractères.</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE1</base>
+        <trans>Vous devez définir les longueurs maximale et minimale de ce champ.</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE2</base>
+        <trans>Vous devez définir les longueurs maximale et minimale de ce champ avec des entiers.</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE3</base>
+        <trans>La longueur de ce champ doit être comprise entre {$minlength} et {$maxlength} caractères.</trans>
+    </entry>
+    <entry>
+        <base>FM_URL</base>
+        <trans>Ce champ doit contenir une URL commençant par http:// ou ftp://</trans>
+    </entry>
+    <entry>
+        <base>FM_EMAIL_SIMPLE1</base>
+        <trans>Vous devez taper une adresse de courriel.</trans>
+    </entry>
+    <entry>
+        <base>FM_EMAIL_SIMPLE2</base>
+        <trans>Ce champ ne semble pas respecter le format RFC822 des adresses de courriel.</trans>
+    </entry>
+    <entry>
+        <base>FM_DOMAIN_NAME</base>
+        <trans>Ce champ ne semble pas contenir de nom de domaine Internet ou d'hôte valide.</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER1</base>
+        <trans>Ce champ doit contenir une adresse IP valide et ne doit pas être vide.</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER2</base>
+        <trans>Format d\'adresse IP incorrect (X.X.X.X attendu)</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER3</base>
+        <trans>La valeur {$octet} dépasse 255.</trans>
+    </entry>
+    <entry>
+        <base>FM_USERNAME</base>
+        <trans>Ce champ doit contenir un nom d'utilisateur valide (3 à 8 lettres et chiffres).</trans>
+    </entry>
+    <entry>
+        <base>FM_PASSWORD1</base>
+        <trans>Vous devez taper un mot de passe.</trans>
+    </entry>
+    <entry>
+        <base>FM_PASSWORD2</base>
+        <trans>Le mot de passe que vous avez tapé n'était pas bon. Un bon mot de passe doit contenir au moins : des lettres en majuscule et en minuscule, des chiffres et des caractères non alphanumériques et être composé d'au moins 7 caractères.</trans>
+    </entry>
+    <entry>
+        <base>FM_MAC_ADDRESS1</base>
+        <trans>Vous devez taper une adresse Ethernet.</trans>
+    </entry>
+    <entry>
+        <base>FM_MAC_ADDRESS2</base>
+        <trans>L'adresse Ethernet que vous avez tapé n'est pas valide.</trans>
+    </entry>
+    <entry>
+	<base>FM_ERR_UNEXPECTED_DESC</base>
+	<trans>ERREUR : caractères invalides ou manquants dans la description.</trans>
+    </entry>
+    <entry>
+        <base>CSRF_VALIDATION_FAILURE</base>
+        <trans>Erreur: le jeton CSRF est invalide ou expiré.</trans>
+    </entry>
+</lexicon>

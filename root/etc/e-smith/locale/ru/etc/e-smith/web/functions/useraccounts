@@ -1,0 +1,242 @@
+<lexicon lang="ru">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Создание, изменение и удаление учётных записей пользователей</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> <a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">Добавить учётную запись пользователя</a> </p> <p> Вы можете изменить, заблокировать или удалить учетную запись или сбросить её пароль, нажав на соответствующую команду рядом с учётной записью. </p> <p> Если учетная запись помечена как заблокированнная, это означает, что пароль пользователя необходимо сбросить. Имейте в виду, что вновь созданные учётные записи будут автоматически заблокированы до тех пор, пока не изменен пароль. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>P2_TITLE</base>
+        <trans>Создать или изменить</trans>
+    </entry>
+    <entry>
+        <base>CREATE_MODIFY_DESC</base>
+        <trans><![CDATA[ <p> Имя учётной записи должно содержать только прописные буквы, цифры, дефисы, точки и подчёркивания и начинаться с прописной буквы. Например, "betty", "hjohnson" и "mary-jane" - допустимые имена, а "3friends", "John Smith" и "henry:miller" - нет. </p> <p> Заметим, что два специальных псевдонима будут созданы для каждой новой учетной записи. Эти псевдонимы предоставляют возможность иметь альтернативные учетные записи тем пользователям, которые используют имя и фамилию, разделенные точкой (.) и подчеркиванием (_). Так, для учётной записи "betty" с именем "Betty" и фамилией "Rubble" будут созданы два псевдонима, betty.rubble и betty_rubble. </p> <p> Справочная информация (отдел, компания и т.д.) может быть изменена с умолчаний показаных ниже. Эти изменения будут применены только к этому пользователю. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MODIFY_ADMIN_TITLE</base>
+        <trans>Изменить учётную запись администратора</trans>
+    </entry>
+    <entry>
+        <base>USER_CREATED</base>
+        <trans>Учётная запись пользователя успешно создана.</trans>
+    </entry>
+    <entry>
+        <base>USER_MODIFIED</base>
+        <trans>Учётная запись пользователя успешно изменена.</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER</base>
+        <trans>Ошибка: произошла внутренняя ошибка при попытке изменить пользователя "{$acctName}".</trans> 
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER_GROUPS</base> 
+        <trans>Ошибка: произошла внутренняя ошибка при попытке изменить группу "{$group}" для пользователя "{$acctName}".</trans>
+    </entry>
+    <entry>
+        <base>TAINTED_USER</base>
+        <trans>Имя учётной записи "{$acctName}" содержит недопустимые символы.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME</base>
+        <trans>Имя учётной записи</trans>
+    </entry>
+    <entry>
+        <base>FIRSTNAME</base>
+        <trans>Имя</trans>
+    </entry>
+    <entry>
+        <base>LASTNAME</base>
+        <trans>Фамилия</trans>
+    </entry>
+    <entry>
+        <base>DEPARTMENT</base>
+        <trans>Отдел</trans>
+    </entry>
+    <entry>
+        <base>COMPANY</base>
+        <trans>Компания</trans>
+    </entry>
+    <entry>
+        <base>STREET_ADDRESS</base>
+        <trans>Улица</trans>
+    </entry>
+    <entry>
+        <base>CITY</base>
+        <trans>Город</trans>
+    </entry>
+    <entry>
+        <base>PHONE_NUMBER</base>
+        <trans>Номер телефона</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_DELIVERY</base>
+        <trans>Доставка почты</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_EMAIL_LOCALLY</base>
+        <trans>Доставлять почту локально</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_EMAIL</base>
+        <trans>Перенаправлять почту на указанный адрес</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_AND_FORWARD</base>
+        <trans>Доставлять локально и перенаправлять</trans>
+    </entry>
+    <entry>
+        <base>FORWARDING_ADDRESS</base>
+        <trans>Адрес перенаправления</trans>
+    </entry>
+    <entry>
+        <base>GROUP_MEMBERSHIPS</base>
+        <trans>Членство в группах</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC</base>
+        <trans>Вы собираетесь изменить пароль для учетной записи пользователя</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC2</base>
+        <trans>Введите новый пароль в поле ниже</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_MODIFYING_PASSWORD</base>
+        <trans>Произошла ошибка при обновлении пароля</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE_SUCCEEDED</base>
+        <trans>Успешно изменён пароль пользователя "{$acctName}".</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC</base>
+        <trans>Вы собираетесь заблокировать учетную запись пользователя</trans>
+    </entry>
+    <entry>
+        <base>LOCKED_ACCOUNT</base>
+        <trans>Успешно заблокирована учётная запись пользователя "{$acctName}".</trans>
+    </entry>
+    <entry>
+        <base>NO_SUCH_USER</base>
+        <trans>Ошибка: учётная запись пользователя "{$acctName}" не существует.</trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM_CLASH</base>
+        <trans>Ошибка: псевдоним "{$pseudonym}" уже дан существующей учетной записи пользователя "{$clashName}". Для различения, добавьте инициалы в это поле.</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT</base>
+        <trans>Блокировать учётную запись</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT_TITLE</base>
+        <trans>Блокировать учётную запись пользователя</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC2</base>
+        <trans><![CDATA[ Эта учетная запись пользователя будет заблокирована. Это означает, что данный пользователь не сможет войти в систему, и не будет иметь возможности забирать почту. Любая принятая электронная почта будет храниться и/или перенаправлятся на внешний адрес электронной почты, как настроено. Учетная запись может быть задействована в будущем, установкой нового пароля. Текущий пароль не будет сохранен. </p> <p> <b>Вы уверены, что хотите заблокировать эту учётную запись?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>REMOVE_ACCOUNT_TITLE</base>
+        <trans>Удалить учётную запись пользователя</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Вы собираетесь удалить учетную запись пользователя</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans><![CDATA[ Все файлы, принадлежащие этому пользователю будет удалены. Кроме того, любая электронная почта для этой учетной записи пользователя, все еще остающаяся на сервере (т.е. та, что до сих пор не запрошена пользователем) будет стёрта. </p> <p> <b>Вы уверены, что хотите удалить эту учётную запись?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>LOCK</base>
+        <trans>Блокировать</trans>
+    </entry>
+    <entry>
+        <base>NO_USER_ACCOUNTS</base>
+        <trans>В этой системе нет учётных записей пользователей.</trans>
+    </entry>
+    <entry>
+        <base>Users</base>
+        <trans>Пользователи</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>Имя учётной записи "{$acctName}" содержит недопустимые символы. Имена учётных записей должны начинаться с прописной буквы и содержать только прописные буквы, цифры, дефисы, точки и подчёркивания.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_TOO_LONG</base>
+        <trans>Ошибка: слишком длинное имя учётной записи. Максимум - {$maxLength} символов.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>Ошибка: учётная запись "{$account}" не может быть создана, т.к. уже есть учётная запись {$type} с таким именем.</trans>
+    </entry>    
+    <entry>
+        <base>ERR_OCCURRED_CREATING</base>
+        <trans>Произошла ошибка создания пользователя.</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_CONTAIN_WHITESPACE</base>
+        <trans>Это поле не может содержать пробелы</trans>
+    </entry>
+    <entry>
+        <base>UNACCEPTABLE_CHARS</base>
+        <trans>Это поле должно содержать только буквы, цифры, точки, дефисы и подчёркивания и начинаться с буквы</trans>
+    </entry>
+    <entry>
+        <base>MEMBER</base>
+        <trans>Член?</trans>
+    </entry>
+    <entry>
+        <base>VPN_CLIENT_ACCESS</base>
+        <trans>Доступ VPN клиента</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_FORM_TITLE</base>
+        <trans>Изменить пароль системы</trans>
+    </entry>    
+    <entry> 
+        <base>SYSTEM_PASSWORD_DESCRIPTION</base>
+        <trans><![CDATA[ Некоторые службы этого сервера требуют имя пользователя и пароль (например, эта веб-страница менеджера приложений сервера). Имя пользователя всегда admin. Вы можете изменить пароль системы, используя поля ниже. ]]></trans>        
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS</base>
+        <trans>Пароль должен содержать только печатные символы</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_VERIFY_ERROR</base>
+        <trans>Пароли не совпадают.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_AUTH_ERROR</base>
+        <trans>Текущий пароль неверен.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_CHANGED</base>
+        <trans>Пароль системы был изменён.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_SYSTEM_PASSWORD</base>
+        <trans>Текущий системный пароль</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD</base>
+        <trans>Новый системный пароль</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD_VERIFY</base>
+        <trans>Новый системный пароль (подтверждение)</trans>
+    </entry>            
+    <entry>
+        <base>LABEL_IPSECRW_DOWNLOAD</base>
+        <trans>Загрузите цифровой сертификат в клиента IPSec</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_DELETING</base>
+        <trans>Произошла ошибка при попытке удалить пользователя.</trans>
+    </entry>
+</lexicon>

@@ -1,0 +1,15 @@
+<lexicon lang="pl">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>Podręcznik online i inne dokumentacje</trans>
+      </entry>	
+      <entry> 
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ <ul> <li><a target="new" href="https://wiki.koozali.org/documentation/manual/"> Podręcznik online</a> <li><a target="new" href="https://wiki.koozali.org/documentation/FAQ/"> FAQ</a> </ul> <H2>Wsparcie i licencjonowanie</H2> Te oprogramowanie jest wydane na warunkach podanych na <a href="/server-manager/cgi-bin/support">tej</a> stronie. ]]></trans>
+      </entry>		
+      <entry>
+	<base>Online manual</base>
+	<trans>Podręcznik online</trans>
+      </entry>
+
+</lexicon>

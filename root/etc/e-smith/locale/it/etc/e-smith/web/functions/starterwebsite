@@ -1,0 +1,43 @@
+<lexicon lang="it">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>Crea un sito web di partenza</trans>
+      </entry>
+      <entry>
+	<base>SUCCESS</base>
+	<trans>Sito web di partenza creato con successo (scritto file index.htm). Il nuovo sito web si trova all'indirizzo:</trans>
+      </entry>
+      <entry>
+	<base>DESCRIPTION</base>
+	  <trans><![CDATA[ <p> Per creare una semplice pagina web per l'azienda riempire i campi sottostanti e fare clic su <b>Crea</b>. </p> <p> E' possibile lasciare vuoto qualsiasi campo se necessario. </p> <p> Il testo inserito sotto andrà a capo in automatico per una visualizzazione migliore nella pagina web. Lasciare una linea bianca per iniziare un nuovo paragrafo. Per forzare un ritorno a capo senza iniziare un nuovo paragrafo (per esempio dopo ogni linea di un indirizzo postale), digitare la sequenza di quattro caratteri <blockquote>&lt;BR&gt;</blockquote> nel punto in cui si desidera l'interruzione di linea. </p> <p> <em>Non utilizzare questa opzione</em> dopo aver già personalizzato il sito web, perché verrà sovrascritto il file "index.htm" nella cartella del sito web. </p> ]]></trans>
+      </entry>
+      <entry>
+	<base>LABEL_COMPANYNAME</base>
+	<trans>Nome azienda</trans>
+      </entry>
+	
+      <entry> 
+	<base>DESC_HEADER1</base>
+	<trans>Primo header, normalmente usato in frasi brevi tipo "Leader nel campo della manifattura tessile"</trans>
+      </entry>
+      <entry> 
+	<base>DESC_TEXT1</base>
+	<trans>Testo seguente il primo header, normalmente usato per un paragrafo di informazioni commerciali.</trans>
+      </entry>
+      <entry> 
+	  <base>DESC_HEADER2</base>
+	<trans>Secondo header, normalmente usato in frasi brevi tipo "Per maggiori informazioni" o "Per ordinare i prodotti:"</trans>
+	</entry>
+      <entry> 
+	<base>DESC_TEXT2</base>
+	<trans>Testo seguente il secondo header, normalmente usato per informazioni su come contattarci o ordinare</trans>
+	</entry>
+      <entry>
+	<base>DESC_SUBMIT</base>
+	<trans><![CDATA[ <p>Creando questa pagina web, il file "index.htm" verrà sovrascritto nella cartella del sito web.</p> <p>Siete sicuri di voler continuare?</p> ]]></trans>
+      </entry>
+      <entry>
+	<base>Create starter web site</base>
+	<trans>Crea sito web di partenza</trans>
+      </entry>
+</lexicon>

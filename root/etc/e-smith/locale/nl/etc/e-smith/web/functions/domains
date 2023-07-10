@@ -1,0 +1,141 @@
+<lexicon lang="nl" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Beheer domeinen</trans>
+    </entry>
+    <entry>
+        <base>FORM_DESCRIPTION</base>
+        <trans><![CDATA[ <p>Wanneer u een domein toevoegd zal uw server e-mail kunnen ontvangen voor dat domein en zal de server ook een website kunnen hosten voor dat domein.</p> <p><a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CREATE">Voeg domein toe</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>Er zijn geen domeinen op dit systeem.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST_OF_DOMAINS</base>
+        <trans>Huidige lijst met domeinen</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_SITE</base>
+        <trans>primaire site</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>{$content} informatie-baai</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Voeg een nieuw domein toe</trans>
+    </entry>
+    <entry>
+        <base>CONTENT_FIELD_DESCRIPTION</base>
+        <trans>Voor de website, mag u uw primaire website als inhoud kiezen of een van de informatie-baaien.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME_VALIDATION_ERROR</base>
+        <trans>Fout: Onverwachte of missende tekens in domeinnaam {$domainName}. De domeinnaam moet uit een of meer letters, cijfers, punten of koppeltekens bestaan. Het nieuw domein is niet toegevoegd.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_DESCRIPTION_VALIDATION_ERROR</base>
+        <trans>Fout: Onverwachte of missende tekens in de domein beschrijving {$domainDesc}. Het nieuw domein is niet toegevoegd.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_IN_USE_ERROR</base>
+        <trans>Fout: domein {$domainName} is reeds in gebruik. Het nieuw domein is niet toegevoegd.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_DOMAIN_ERROR</base>
+        <trans>Fout: Domein {$domainName} is uw systeems domein naam. U kan geen domein hebben met dezelfde naam. Het nieuw domein is niet toegevoegd.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>Domein {$domainName} is met succes toegevoegd. Uw webserver wordt nu herstart. De links op deze pagina zullen inactief blijven totdat de webserver herstart voltooid is.</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_TITLE</base>
+        <trans>Wijzig domein</trans>
+    </entry>
+    <entry>
+        <base>NONEXISTENT_DOMAIN_ERROR</base>
+        <trans>Fout: {$domainName} is geen bestaand domein.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>Domein {$domainName} is met succes gewijzigd. Uw webserver wordt nu herstart. De links op deze pagina zullen inactief blijven totdat de webserver herstart voltooid is.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Domein verwijderen</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESCRIPTION</base>
+        <trans><![CDATA[ <p> U staat op het punt het domein {$domain} ({$domainDesc}) te verwijderen. </p> <p> <b>Bent u zeker dat u dit domein wil verwijderen?</b> </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_REMOVING_DOMAIN</base>
+        <trans>Fout: interne fout opgetreden tijdens verwijderen van domein {$domain}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>Domein {$domainName} is met succes verwijderd. Uw webserver wordt nu herstart. De links op deze pagina zullen inactief blijven totdat de webserver herstart voltooid is.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS_CURRENT</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Ondernemings DNS instellingen</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>BUTTON_CORPORATE_DNS</base>
+        <trans><![CDATA[ <p>Als deze server geen verbinding met het Internet heeft, of u heeft speciale eisen voor de DNS bepaling, geef het DNS server IP adres hier op. U moet hier niet uw ISP's DNS server adres invullen omdat de server zelf in staat is om alle Internet DNS namen op te zoeken zonder een bijkomende configuratie.</p> <p> <a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CORPORATE_DNS">Wijzig DNS instellingen</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS</base>
+        <trans>Als deze server geen verbinding met het Internet heeft, of u heeft speciale eisen voor de DNS bepaling, geef het DNS server IP adres hier op. Deze velden moeten leeg gelaten worden tenzij u specifieke redenen hebt om andere DNS servers te configureren. U moet hier niet de Internet DNS servers van uw ISP ingeven omdat de server alle Internet DNS namen zelf kan opzoeken zonder bijkomende configuratie.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_PRIMARY</base>
+        <trans>Primaire DNS server</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_SECONDARY</base>
+        <trans>Secundaire DNS server</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_NAMESERVERS</base>
+        <trans>U kan kiezen of dit domein lokaal wordt opgezocht, doorgegeven naar de DNS servers, of opgezocht door de Internet DNS servers. De standaard is voor de meeste netwerken correct.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_NAMESERVERS</base>
+        <trans>Domein DNS servers</trans>
+    </entry>
+
+    <entry>
+        <base>localhost</base>
+        <trans>Zoek lokaal op</trans>
+    </entry>
+
+    <entry>
+        <base>internet</base>
+        <trans>Internet DNS servers</trans>
+    </entry>
+
+    <entry>
+        <base>corporate</base>
+        <trans>Ondernemings DNS servers</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>U staat op het punt om het domein te verwijderen</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans>Weet u zeker dat u dit domein wilt verwijderen?</trans>
+    </entry>
+
+</lexicon>

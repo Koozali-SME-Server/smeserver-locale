@@ -1,0 +1,114 @@
+<lexicon lang="ru">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Настроить перенаправления портов</trans>
+    </entry>
+    <entry>
+        <base>FIRST_PAGE_DESCRIPTION</base>
+        <trans><![CDATA[ <p> Вы можете использовать эту панель для изменения правил брандмауэра, чтобы открыть конкретный порт на этом сервере, и перенаправить его на другой порт на другом узле. Это разрешает прямой доступ входящему трафику на отдельные узлы вашей локальной сети. </p> <p> ПРЕДУПРЕЖДЕНИЕ: Неправильное использование этой функции может серьезно подорвать безопасность вашей сети. Не используйте эту функцию необдуманно и без полного понимания последствий ваших действий. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>CREATE_RULE</base>
+        <trans>Создать правило перенаправления портов</trans>
+    </entry>
+    <entry>
+        <base>SUMMARY_ADD_DESC</base>
+        <trans>Далее следует резюме правила перенаправления портов, которое вы собираетесь добавить. Если вас устраивает правило, нажмите на кнопку &quot;Добавить&quot;. Если нет, нажмите на кнопку &quot;Отмена&quot;.</trans>
+    </entry>
+    <entry>
+        <base>SUMMARY_REMOVE_DESC</base>
+        <trans>Далее следует резюме правила перенаправления портов, которое вы собираетесь удалить. Если вы действительно хотите удалить правило, нажмите на кнопку &quot;Удалить&quot;. Если нет, нажмите на кнопку &quot;Отмена&quot;.</trans>
+    </entry>
+    <entry>
+        <base>SHOW_FORWARDS</base>
+        <trans>Ниже вы найдёте таблицу суммирующую текущие правила перенаправления портов установленные на этом сервере. Нажмите на ссылку &quot;Удалить&quot; для удаления соответствующего правила.</trans>
+    </entry>
+    <entry>
+        <base>NO_FORWARDS</base>
+        <trans>Сейчас в системе отсутствуют перенаправленные порты.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_PAGE_DESCRIPTION</base>
+        <trans><![CDATA[ <p>Выберите протокол и порт, который вы хотите перенаправить, узел назначения и порт на который вы хотите сделать перенаправление. Если вы хотите указать диапазон портов, введите нижнюю и верхнюю границы разедлённые дефисом. Порт назначения можно оставить пустым, это даёт указание брандмауэру оставить порт источника неизменным.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SOURCE_PORT</base>
+        <trans>Порт(ы) источника</trans>
+    </entry>
+    <entry>
+        <base>LABEL_PROTOCOL</base>
+        <trans>Протокол</trans>
+    </entry>
+    <entry>
+        <base>LABEL_DESTINATION_PORT</base>
+        <trans>Порт(ы) назначения</trans>
+    </entry>
+    <entry>
+        <base>LABEL_DESTINATION_HOST</base>
+        <trans>IP адрес узла назначения</trans>
+    </entry>
+    <entry>
+        <base>LABEL_RULE_COMMENT</base>
+        <trans>Комментарий к правилу</trans>
+    </entry>
+    <entry>
+        <base>LABEL_ALLOW_HOSTS</base>
+        <trans>Разрешить узлы</trans>
+    </entry>
+    <entry>
+        <base>Port forwarding</base>
+        <trans>Перенаправление портов</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Ваши изменения в правилах перенаправления портов были успешно сохранены.</trans>
+    </entry>
+    <entry>
+        <base>RULE_COMMENT</base>
+        <trans>Комментарий к правилу</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_HOSTS</base>
+        <trans>Разрешить узлы</trans>
+    </entry>
+    <entry>
+        <base>ERR_NO_MASQ_RECORD</base>
+        <trans>Невозможно получить masq запись из базы данных конфигурации.</trans>
+    </entry>
+    <entry>
+        <base>ERR_UNSUPPORTED_MODE</base>
+        <trans>Неподдерживаемый режим.</trans>
+    </entry>
+    <entry>
+        <base>ERR_CANNOT_REMOVE_NORULE</base>
+        <trans>Невозможно удалить несуществующее правило.</trans>
+    </entry>
+    <entry>
+        <base>ERR_NONZERO_RETURN_EVENT</base>
+        <trans>Событие возвратило ненулевое возвращаемое значение.</trans>
+    </entry>
+    <entry>
+        <base>ERR_BADPORT</base>
+        <trans>Порт должен быть положительным целым числом, меньше чем 65536.</trans>
+    </entry>
+    <entry>
+        <base>ERR_BADIP</base>
+        <trans>Это не похоже на IP адрес. Вы должны использовать четыре числа, разделённые точками и каждое из чисел должно быть меньше 256, например, 192.168.0.5</trans>
+    </entry>
+    <entry>
+        <base>ERR_DUPRULE</base>
+        <trans>Это правило уже добавлено и не может быть добавлено повторно.</trans>
+    </entry>
+    <entry>
+        <base>ERR_PORT_COLLISION</base>
+        <trans>ERROR: Этот порт или диапазон конфликтует с существующим правилом. Пожалуйста, измените новое правило или удалите старое.</trans>
+    </entry>
+    <entry>
+        <base>ERR_BADAHOST</base>
+        <trans>Это, по всей видимости, не список IP адресов. Например: 192.168.0.1,192.168.1.1/24</trans>
+    </entry>
+    <entry>
+        <base>IN_SERVERONLY</base>
+        <trans>Сервер сейчас в режиме только сервер и перенаправление портов доступно только на localhost.</trans>
+    </entry>
+</lexicon>

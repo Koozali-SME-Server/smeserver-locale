@@ -1,0 +1,174 @@
+<lexicon lang="pt" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Criar, modificar ou remover compartilhamentos</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> <a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify">Adicionar i-bay</a> </p> <p> Voce pode remover qualquer informação do compartilhamento ou resetar a senha clicando no comando correspondente próximo ao compartilhamento. Se o compartilhamento estiver em vermelho, isto significa que a senha ainda não foi definida, e deverá ser trocada tão logo possível. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>Criar ou modificar um i-bay</trans>
+    </entry>
+    <entry>
+        <base>NAME_FIELD_DESC</base>
+        <trans>O nome do compartilhamento deverá conter somente letras minúsculas números, pontos, hífens e sublinhado, e deverá iniciar com letra minúscula. Por exemplo "joao", "intra", e "cust3.prj12" são todos nomes válidos, mas "3associados", "Joao Silva" e "Parceiros!Comerciais" não são. O tamanho do nome está limitado a {$maxLength} caracteres.</trans>
+    </entry>
+    <entry>
+        <base>NAME_LABEL</base>
+        <trans>Nome do compartilhamento</trans>
+    </entry>
+    <entry>
+        <base>USER_ACCESS</base>
+        <trans>Acesso do usuário via compartilhamento de arquivos ou ftp</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS</base>
+        <trans>Acesso público via web ou ftp anônimo</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS_DESCRIPTION</base>
+        <trans>O modo de acesso público "senha é requerida externamente à rede local" não é suportado pelo componente do servidor FTP. Se você selecionar este modo, o servidor FTP sempre irá requerer uma senha para esse compartilhamento.</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_DYNAMIC_CONTENT</base>
+        <trans>Conteúdo de execução dinâmica (CGI, PHP, SSI)</trans>
+    </entry>
+	<entry>
+        <base>HTTPS_Only</base>
+        <trans>Forçar conexões seguras</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Remover compartilhamento</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans><![CDATA[ <p> Você está prestes a remover o compartilhamento "{$name}" ({$description}). </p> <p> Todos os arquivos pertencentes a este compartilhamento serão apagados. </p> <p> Você tem certeza que deseja remover este compartilhamento? </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_IBAY</base>
+        <trans>Um erro ocoreu quando criava o compartilhamento.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED_IBAY</base>
+        <trans>Compartilhamento criado com sucesso.</trans>
+    </entry>
+    <entry>
+        <base>NO_IBAYS</base>
+        <trans>Não existe nenhum compartilhamento configurado.</trans>
+    </entry>
+    <entry>
+        <base>CANT_FIND_IBAY</base>
+        <trans>Incapaz de encontrar conta para {$name} (isto não existe?)</trans>
+    </entry>
+    <entry>
+        <base>CANT_CREATE_IBAY</base>
+        <trans>Incapaz de criar conta para {$name} (isto já existe?)</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_IBAY</base>
+        <trans>Ocorreu um erro quando modificava a i-bay.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED_IBAY</base>
+        <trans>Compartilhamento modificado com sucesso.</trans>
+    </entry>
+    <entry>
+        <base>VIRTUAL_HOST_MESSAGE</base>
+        <trans>Os seguinte domínios virtuais estavam usando este compartilhamento como seu conteúdo e serão mudados para o web site primário (você pode mudá-los para outro local mais tarde).</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED_IBAY</base>
+        <trans>Compartilhamento eliminado com sucesso.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_IBAY</base>
+        <trans>Um erro ocorreu enquanto eliminava o compartilhamento.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_DESC</base>
+        <trans>Você está prestes a trocar a senha do compartilhamento {$name}.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VALIDATION_ERROR</base>
+        <trans>A senha deve conter apenas letras e números.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VERIFY_ERROR</base>
+        <trans>As senhas que você entrou não são iguais.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_RESET_PASSWORD</base>
+        <trans>Senha resetada com sucesso.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_RESETTING_PASSWORD</base>
+        <trans>Erro enquanto resetava senha.</trans>
+    </entry>
+    <entry>
+        <base>VHOST_MESSAGE</base>
+        <trans><![CDATA[ <p>Os seguinte domínios virtuais estavam usando este compartilhamento como seu conteúdo e serão mudados para o web site primário (você pode mudá-los para outro local mais tarde):</p> <ul>{$vhostList}</ul> ]]></trans>
+    </entry>
+    <entry>
+        <base>Information bays</base>
+        <trans>Compartilhamentos</trans>
+    </entry>
+    <entry>
+        <base>WGRG</base>
+        <trans>Escrever = grupo, Ler = grupo</trans>
+    </entry>
+    <entry>
+        <base>WGRE</base>
+        <trans>Escrever = grupo, Ler = todos</trans>
+    </entry>
+    <entry>
+        <base>WARG</base>
+        <trans>Escrever = admin, Ler = grupo</trans>
+    </entry>
+    <entry>
+        <base>NONE</base>
+        <trans>Sem acesso</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_NO_PASSWORD</base>
+        <trans>Rede local (não requer senha)</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_PASSWORD</base>
+        <trans>Rede local (requer senha)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_NO_PASSWORD</base>
+        <trans>Toda a Internet (não requer senha)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD</base>
+        <trans>Toda a Internet (requer senha)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD_REMOTE</base>
+        <trans>Toda a Internet (requer senha para rede externa)</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IBAY_DESCRIPTION</base>
+        <trans>Erro: inesperado ou ausência de caracter na descrição da i-bay</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>O nome de i-bay "{$acctName}" contem caracteres inválidos. Nome de I-bay tem que iniciar com letra minúscula e conter somente letras minúsculas, números e hifens.</trans>
+    </entry>
+    <entry>
+        <base>MAX_IBAY_NAME_LENGTH_ERROR</base>
+        <trans>O nome do i-bay "{$name}" é muito longo. O máximo é de {$maxIbayNameLength} caracteres.</trans>
+    </entry>
+    <entry>
+        <base>ACCT_CLASHES_WITH_PSEUDONYM</base>
+        <trans><![CDATA[ A conta "{$acctName}" conflita com detalhes do apelido para a conta "{$acct}" do tipo {$acctType}. <p>{$acctName} é um apelido para {$acct}.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_EXISTS</base>
+        <trans>A conta "{$acctName}" é uma conta do tipo {$acctType} já existente.</trans>
+    </entry>
+</lexicon>

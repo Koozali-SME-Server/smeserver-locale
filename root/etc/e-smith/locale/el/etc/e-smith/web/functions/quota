@@ -1,0 +1,106 @@
+<lexicon lang="el">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Δημιουργία, τροποποίηση, ή διαγραφή ποσοστώσεων λογαριασμών χρηστών</trans>
+    </entry>
+    <entry>
+      <base>UNABLE_TO_OPEN_ACCOUNTS</base>
+      <trans>Αδυναμία ανοίγματος της βάσης δεδομένων των λογαριασμών</trans>
+    </entry>
+    <entry>
+      <base>QUOTA_DESC</base>
+      <trans><![CDATA[ <p>Μπορείτε να ορίσετε για κάθε χρήστη ποσοστώσεις χώρου στο σύστημα αρχείων πατώντας το κουμπί "Τροποποίηση" δίπλα από τον χρήστη που θέλετε να ορίσετε. <p>Εάν ο χρήστης ξεπεράσει το "Όριο με περίοδο χάριτος", θα παραχθούν προειδοποιήσεις. Εάν το όριο αυτό ξεπεραστεί για διάστημα μεγαλύτερο της εβδομάδας ή το "Απόλυτο όριο" πληρωθεί, ο χρήστης δεν θα μπορεί στη συνέχεια ν' αποθηκεύει άλλα αρχεία ή να λαμβάνει ηλεκτρονική αλληλογραφία. <p>Μια ρύθμιση "0" για οποιοδήποτε από τα δύο όρια, καταργεί το συγκεκριμένο όριο του αντίστοιχου χρήστη. <p>Ο χώρος δίσκων για κάθε χρήστη περιλαμβάνει τον τοπικό κατάλογο του χρήστη, την ηλεκτρονική αλληλογραφία, και οποιαδήποτε αρχεία κυριότητας του χρήστη στα i-bays. ]]></trans>
+    </entry>
+    <entry>
+      <base>CURRENT_USAGE_AND_SETTINGS</base>
+      <trans>Τρέχουσα χρήση ποσοστώσεων και ρυθμίσεων</trans>
+    </entry>
+    <entry>
+      <base>LIMIT_WITH_GRACE</base>
+      <trans>Όριο με περίοδο χάριτος</trans>
+    </entry>
+    <entry>
+      <base>LIMIT_WITH_GRACE_MB</base>
+      <trans>Όριο με περίοδο χάριτος (MB)</trans>
+    </entry>
+    <entry>
+      <base>ABS_LIMIT</base>
+      <trans>Απόλυτο όριο</trans>
+    </entry>
+    <entry>
+      <base>ABS_LIMIT_MB</base>
+      <trans>Απόλυτο όριο (MB)</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_USAGE</base>
+      <trans>Τρέχουσα χρήση (MB)</trans>
+    </entry>
+    <entry>
+      <base>COULD_NOT_GET_UID</base>
+      <trans>Αδυναμία καθορισμού του uid για το χρήστη:</trans>
+    </entry>
+    <entry>
+      <base>ERR_NO_SUCH_ACCT</base>
+      <trans>Σφάλμα: δεν υπάρχει λογαριασμός με ονομασία:</trans>
+    </entry>
+    <entry>
+      <base>ERR_NOT_A_USER_ACCT</base>
+      <trans>Σφάλμα: ο λογαριασμός δεν είναι λογαριασμός χρήστη:</trans>
+    </entry>
+    <entry>
+      <base>ACCOUNT_IS_TYPE</base>
+      <trans>Είναι ένας λογαριασμός τύπου:</trans>
+    </entry>
+    <entry>
+      <base>MODIFY_USER_TITLE</base>
+      <trans>Τροποποίηση ορίων ποσόστωσης χρήστη</trans>
+    </entry>
+    <entry>
+      <base>USER</base>
+      <trans>Χρήστης:</trans>
+    </entry>
+    <entry>
+      <base>CURRENTLY_HAS</base>
+      <trans>επί του παρόντος έχει:</trans>
+    </entry>
+    <entry>
+      <base>FILES</base>
+      <trans>αρχεία</trans>
+    </entry>
+    <entry>
+      <base>OCCUPYING</base>
+      <trans>καταλαμβάνοντας:</trans>
+    </entry>
+    <entry>
+      <base>MEGABYTES</base>
+      <trans>megabytes</trans>
+    </entry>
+    <entry>
+      <base>INSTRUCTIONS</base>
+      <trans>Δώστε την ποσόστωση με μορφή ακέραιου και προαιρετικά, επίθεμα μονάδας 'K' για kilobytes, 'M' για megabytes ή 'G' για gigabytes. Εισαγωγές χωρίς επίθεμα θεωρούνται ότι είναι σε megabytes. Εάν τεθεί τιμή "0" σε οποιοδήποτε από τα δύο όρια, καταργεί το συγκεκριμένο όριο για τον αντίστοιχο χρήστη.</trans>
+    </entry>
+    <entry>
+      <base>SOFT_VAL_MUST_BE_NUMBER</base>
+      <trans>Σφάλμα: το όριο με περίοδο χάριτος πρέπει να είναι ένας ακέραιος αριθμός, που ακολουθείται προαιρετικά από ένα από τα επιθέματα μονάδων K, M, or G.</trans>
+    </entry>
+    <entry>
+      <base>HARD_VAL_MUST_BE_NUMBER</base>
+      <trans>Σφάλμα: το απόλυτο όριο πρέπει να είναι ένας ακέραιος αριθμός, που ακολουθείται προαιρετικά από ένα από τα επιθήματα μονάδων K, M, or G.</trans>
+    </entry>
+    <entry>
+      <base>ERR_HARD_LT_SOFT</base>
+      <trans>Σφάλμα: το απόλυτο όριο πρέπει να είναι μεγαλύτερο από το όριο με περίοδο χάριτος.</trans>
+    </entry>
+    <entry>
+      <base>ERR_MODIFYING</base>
+      <trans>Παρουσιάσθηκε σφάλμα κατά την τροποποίηση του χρήστη.</trans>
+    </entry>
+    <entry>
+      <base>SUCCESSFULLY_MODIFIED</base>
+      <trans>Επιτυχής τροποποίηση ποσόστωσης για τον λογαριασμό του χρήστη:</trans>
+    </entry>
+    <entry>
+	<base>Quotas</base>
+	<trans>Ποσοστώσεις</trans>
+    </entry>
+</lexicon>

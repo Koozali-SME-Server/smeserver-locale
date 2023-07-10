@@ -1,0 +1,193 @@
+<lexicon lang="es"> 
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+	<base>Software installer</base>
+	<trans>Instalador de software</trans>
+    </entry>
+
+    <entry>
+        <base>SUCCESS</base>
+        <trans>La nueva configuración ha sido guardada.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_YUM_STATUS</base>
+        <trans>Comprobar actualizaciones</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_YUM_AUTOINSTALLUPDATES</base>
+	<trans>Instalar actualizaciones automáticamente</trans>
+   </entry>
+    <entry>
+        <base>LABEL_YUM_AUTOINSTALLUPDATES_DESCRIPTION</base>
+        <trans>If enabled this will take precedence over the simple check for updates notification and predownload features. Instead it will install the available updates from enabled repositories. For more information refer to yum and yum-cron manual page.</trans>
+   </entry>
+
+    <entry>
+	<base>LABEL_YUM_PACKAGEFUNCTIONS</base>
+	<trans>Gestionar los paquetes individualmente</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_YUM_PACKAGEFUNCTIONS</base>
+	<trans>El instalador de software puede manejar grupos de paquetes relacionados o paquetes individuales. Por defecto, solamente son presentados los paquetes agrupados. Si usted desea manejar paquetes individuales, habilite esta opción. Esto solo debe ser hecho por administradores experimentados.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_ENABLED_REPOSITORIES</base>
+	<trans>Repositorios habilitados</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_ENABLED_REPOSITORIES</base>
+	<trans>El instalador de software puede instalar desde cualquiera de los repositorios habilitados. Para habilitar un repositorio, selecciónelo en la lista. Para deshabilitar un repositorio, deselecciónelos en la lista. Por defecto, solamente los estables, están disponibles para instalación.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_UPTODATE</base>
+        <trans><![CDATA[ <div class="success"><h2>El sistema está actualizado.</h2> Todas las actualizaciones fueron instaladas. </div> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_UPDATES_AVAILABLE</base>
+        <trans><![CDATA[ <div class="success"><h2>Actualizaciones Disponibles</h2> Hay actualizaciones disponibles para su sistema. Estas actualizaciones deben instalarse lo antes posible. </div> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_AVAILABLE_UPDATES</base>
+        <trans>Actualizaciones disponibles</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_AVAILABLE_UPDATES</base>
+        <trans>Las siguientes actualizaciones están disponibles para su sistema. Normalmente usted debe instalar todas las actualizaciones disponibles. Si hay actualizaciones que no desea instalar, entonces deselecciónelas en la lista de abajo.</trans>
+    </entry>
+
+    <entry>
+        <base>INSTALL_UPDATES</base>
+        <trans>Instalar actualizaciones seleccionadas</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_INSTALL_UPDATES</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_UPDATES">Instalar actualizaciones disponibles</a> ]]></trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_AVAILABLE_SOFTWARE</base>
+	<trans>El siguiente software está disponible para ser instalado en su sistema. Solo debe instalar software adicional en su sistema si usted esta seguro de las consecuencias de hacerlo.</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_AVAILABLE_GROUPS</base>
+	<trans>Puede elegir grupos de software para instalar, en la lista de abajo.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_AVAILABLE_GROUPS</base>
+	<trans>Grupos disponibles</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_AVAILABLE_PACKAGES</base>
+	<trans>También puede elegir paquetes individuales para instalar, en la lista de abajo.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_AVAILABLE_PACKAGES</base>
+	<trans>Paquetes disponibles</trans>
+    </entry>
+
+    <entry>
+	<base>INSTALL_SOFTWARE</base>
+	<trans>Instalar</trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_INSTALLED_SOFTWARE</base>
+	<trans>El siguiente software esta instalado en su sistema. Solo debe eliminar software del sistema si usted esta seguro de las consecuencias de hacerlo.</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_INSTALLED_GROUPS</base>
+	<trans>Puede elegir grupos de software para eliminar de la lista de abajo.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_INSTALLED_GROUPS</base>
+	<trans>Grupos instalados</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_INSTALLED_PACKAGES</base>
+	<trans>También puede elegir paquetes individuales que usted desee eliminar, de la lista de abajo.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_INSTALLED_PACKAGES</base>
+	<trans>Paquetes instalados</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_CONFIGURATION</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_CONFIGURATION">Cambiar configuración de la instalación de software</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_INSTALL_AVAILABLE</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_AVAILABLE">Instalar software adicional</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_REMOVE</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_REMOVE">Eliminar software instalado</a> ]]></trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_POSTUPGRADE_REQUIRED</base>
+	<trans><![CDATA[ El sistema necesita ser reconfigurado luego de agregar o eliminar software, o aplicar actualizaciones. <p> Por favor, haga click sobre el botón Reconfigurar al pie de esta página para comenzar el proceso de reconfiguración. <b>El sistema se reiniciará como parte del proceso de reconfiguración</b> </p> ]]></trans>
+     </entry>
+
+    <entry>
+	<base>SYSTEM_BEING_RECONFIGURED</base>
+	<trans>Su sistema se está reiniciando automáticamente para completar el proceso de reconfiguración.</trans>
+    </entry>
+
+    <entry>
+      <base>1DAILY</base>
+      <trans>Diariamente</trans>
+    </entry>
+
+    <entry>
+      <base>2WEEKLY</base>
+      <trans>Semanal</trans>
+    </entry>
+
+    <entry>
+      <base>3MONTHLY</base>
+      <trans>Mensualmente</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DELTARPMPROCESS</base>
+      <trans>Delta Rpm Update</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DELTARPM</base>
+      <trans>A deltarpm contains the difference between an old and a new version of a rpm, which can save bandwith. The drawback is that update operations consume considerably more CPU cycles</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DOWNLOADONLY</base>
+      <trans>Detalles personales actualizados</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DOWNLOADONLY_DESCRIPTION</base>
+      <trans>The rpm updates can be downloaded during the night, this will ease and give faster the yum update process (only enabled repositories will be used).</trans>
+    </entry>
+
+</lexicon>

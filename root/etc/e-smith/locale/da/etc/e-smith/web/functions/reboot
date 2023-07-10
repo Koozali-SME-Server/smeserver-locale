@@ -1,0 +1,42 @@
+<lexicon lang="da">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Luk ned eller genstart</trans>
+    </entry>
+    <entry>
+	<base>REBOOT</base>
+	<trans>Genstart</trans>
+    </entry>
+    <entry>
+	<base>REBOOT_SUCCEEDED</base>
+	<trans>Genstart iværksættes.</trans>
+    </entry>
+    <entry>
+	<base>DESC_REBOOT</base>
+	<trans>Serveren har iværksat en genstart.</trans>
+    </entry>
+    <entry>
+	<base>RECONFIGURE_SUCCEEDED</base>
+	<trans>Omkonfiguration iværksættes.</trans>
+    </entry>
+    <entry>
+	<base>DESC_RECONFIGURE</base>
+	<trans>Din server har iværksat en komplet system omkonfiguration efterfulgt af en genstart.</trans>
+    </entry>
+    <entry>
+	<base>DESC_SHUTDOWN</base>
+	<trans>Din Server har iværksat en nedlukning. Processen kan tage adskillige minutter, hvorefter du kan slukke for strømmen.</trans>
+    </entry>
+    <entry>
+	<base>LABEL_REBOOT</base>
+	<trans>Vælg Sluk, Genstart eller Omkonfigurér</trans>
+    </entry>
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ Du kan genstarte, lukke serveren ned eller foretage en omkonfigurering af serveren fra dette skærmbillede. Du skal gennemføre "Luk ned"-proceduren før du tager strømmen. Alle funktioner kan vare adskillige minutter. Når du klikker på <b>Udfør</b> starter udførelsen af dit valg, så vær varsom! ]]></trans>
+    </entry>
+    <entry>
+	<base>Reboot or shutdown</base>
+	<trans>Genstart eller luk ned</trans>
+    </entry>
+</lexicon>

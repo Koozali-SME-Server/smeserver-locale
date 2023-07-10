@@ -1,0 +1,10 @@
+<lexicon lang="he">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>מידע תמיכה, אחריות ורישוי</trans>
+    </entry>
+    <entry>
+        <base>Support and licensing</base>
+        <trans>תמיכה ורישוי</trans>
+    </entry>
+</lexicon>

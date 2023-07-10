@@ -1,0 +1,42 @@
+<lexicon lang="ru">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Выключение или перезагрузка</trans>
+    </entry>
+    <entry>
+	<base>REBOOT</base>
+	<trans>Перезагрузка</trans>
+    </entry>
+    <entry>
+	<base>REBOOT_SUCCEEDED</base>
+	<trans>Запрос на перезагрузку успешно инициирован.</trans>
+    </entry>
+    <entry>
+	<base>DESC_REBOOT</base>
+	<trans>Ваш сервер начал процесс перезагрузки.</trans>
+    </entry>
+    <entry>
+	<base>RECONFIGURE_SUCCEEDED</base>
+	<trans>Запрос на реконфигурирование успешно инициирован.</trans>
+    </entry>
+    <entry>
+	<base>DESC_RECONFIGURE</base>
+	<trans>Ваш сервер начал полное реконфигурирование системы и перезагрузку.</trans>
+    </entry>
+    <entry>
+	<base>DESC_SHUTDOWN</base>
+	<trans>Ваш сервер начал процесс завершения работы. Этот процесс требует несколько минут, после чего вы можете отключить питание.</trans>
+    </entry>
+    <entry>
+	<base>LABEL_REBOOT</base>
+	<trans>Выберите выключение, перезагрузка или реконфигурирование</trans>
+    </entry>
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ Вы можете перезагрузить, выключить ваш сервер или провести полное реконфигурирование с этого экрана. Вы должны провести выключение перед отключением питания. Все эти действия требуют некоторого времени для выполнения. Когда вы нажимаете <b>выполнить</b>, действие будет начато немедленно, будьте готовы к этому! ]]></trans>
+    </entry>
+    <entry>
+	<base>Reboot or shutdown</base>
+	<trans>Перезагрузка или выключение</trans>
+    </entry>
+</lexicon>

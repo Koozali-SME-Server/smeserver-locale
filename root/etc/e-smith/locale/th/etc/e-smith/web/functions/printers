@@ -1,0 +1,147 @@
+<lexicon lang="th">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>เพิ่มหรือลบเครื่องพิมพ์</trans>
+    </entry>
+    <entry>
+      <base>INITIAL_DESC</base>
+      <trans><![CDATA[ <P><A class="button-like" HREF="printers?page=0&Next=Add">เพิ่มเครื่องพิมพ์</A></P> ]]></trans>
+    </entry>
+    <entry>
+      <base>NO_PRINTERS</base>
+      <trans>ไม่มีเครื่องพิมพ์ในระบบ</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_LIST</base>
+      <trans>รายการเครื่องพิมพ์ที่มีอยู่ในปัจจุบัน</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_ADDRESS</base>
+      <trans>Remote address</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_NAME</base>
+      <trans>Remote name</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NEW_PRINTER</base>
+      <trans>สร้างเครื่องพิมพ์ใหม่</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NEW_DESC</base>
+      <trans>กรุณาเลือกชื่อที่ไม่ซ้ำสำหรับเครื่องพิมพ์ และใส่คำอธิบายสั้นๆ ชื่อเครื่องพิมพ์ควรมีเพียง ตัวอักษรภาษาอังกฤษตัวพิมพ์เล็ก ตัวเลข และต้องเริ่มด้วยตัวอักษร เช่น "hplaser", "epsonlp" และ "canonbj" แต่ "HP Laser Jet", "Canon BubbleJet" และ "HP JetDirect Printer" ใช้ไม่ได้ <br/>ควรหลีกเลี่ยงชื่อและคำอธิบายที่มีคำเหล่านี้ "offline", "disabled", "down", "off", "waiting", "jam", "paper", "error" และ "responding".</trans>
+    </entry>
+    <entry>
+      <base>PRINTER_NAME</base>
+      <trans>ชื่อเครื่องพิมพ์</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_0</base>
+      <trans>พอร์ตเครื่องพิมพ์หมายเลข 0 (LPT1)</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_1</base>
+      <trans>พอร์ตเครื่องพิมพ์หมายเลข 1 (LPT2)</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_2</base>
+      <trans>พอร์ตเครื่องพิมพ์หมายเลข 2 (LPT3)</trans>
+    </entry>
+    <entry>
+      <base>NET_PRINTER</base>
+      <trans>เครื่องพิมพ์เครือข่าย ...</trans>
+    </entry>
+    <entry>
+      <base>FIRST_USB_PRINTER</base>
+      <trans>เครื่องพิมพ์แบบ USB ตัวแรกที่ต่อ</trans>
+    </entry>
+    <entry>
+      <base>SECOND_USB_PRINTER</base>
+      <trans>เครื่องพิมพ์แบบ USB ตัวที่สองที่ต่อ</trans>
+    </entry>
+    <entry>
+      <base>ERR_UNEXPECTED_NAME</base>
+      <trans><![CDATA[ <P>เกิดข้อผิดพลาด: มีตัวอักษรการที่ไม่ถูกต้องในชื่อของเครื่องพิมพ์ชื่อ</P> <P>ชื่อเครื่องพิมพ์ต้องมีเพียงตัวอักษรภาษาอังกฤษตัวพิมพ์เล็กและตัวเลข และต้องเริ่มต้นด้วยตัวอักษร ตัวอย่างเช่น "hplaser", "epsonlp" และ "canonbj"</P> ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_UNEXPECTED_DESC</base>
+      <trans>เกิดข้อผิดพลาด: ไม่ได้กรอกรายละเอียดของเครื่องพิมพ์ชื่อ ไม่ได้สร้างเครื่องพิมพ์ใหม่</trans>
+    </entry>
+    <entry>
+      <base>ERR_EXISTS</base>
+      <trans>ผิดพลาด: ชื่อบัญชีตรงกันกับชื่อที่มีอยู่แล้วของ:</trans>
+    </entry>
+    <entry>
+      <base>ERR_INVALID_ADDRESS</base>
+      <trans>ผิดพลาด: ที่อยู่เครือข่ายไม่ถูกต้อง ไม่สามารถสร้างเครื่องพิมพ์ใหม่ได้</trans>
+    </entry>
+    <entry>
+      <base>ERR_INVALID_REMOTE_NAME</base>
+      <trans>ผิดพลาด: ชื่อเครื่องพิมพ์ที่ไม่ถูกต้อง ไม่สามารถสร้างเครื่องพิมพ์เครือข่าย (network printer) ใหม่ได้</trans>
+    </entry>
+    <entry>
+      <base>ERR_CREATING</base>
+      <trans>เกิดผิดพลาดขึ้นระหว่างการสร้างเครื่องพิมพ์</trans>
+    </entry>
+    <entry>
+      <base>CREATED_SUCCESSFULLY</base>
+      <trans>สร้างเครื่องพิมพ์สำเร็จ:</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NETWORK_PRINTER</base>
+      <trans>สร้างเครื่องพิมพ์เครือข่าย (network printer) ใหม่</trans>
+    </entry>
+    <entry>
+      <base>ERR_OPENING_DB</base>
+      <trans>เกิดข้อผิดพลาดขึ้นระหว่างการเปิดฐานข้อมูลบัญชี</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NETWORK_DESC</base>
+      <trans>กรุณากรอกที่อยู่และชื่อของเครื่องพิมพ์เครือข่าย</trans>
+    </entry>
+    <entry>
+      <base>HOSTNAME_OR_IP</base>
+      <trans>ชื่อโฮสต์หรือที่อยู่ IP ของเครื่องพิมพ์เครือข่าย</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_NAME_DESC</base>
+      <trans><![CDATA[ ชื่อเครื่องพิมพ์เครือข่าย (enter raw if not sure) ]]></trans>
+    </entry>
+    <entry>
+      <base>REMOVE_PRINTER</base>
+      <trans>ลบเครื่องพิมพ์</trans>
+    </entry>
+    <entry>
+      <base>ABOUT_TO_REMOVE</base>
+      <trans>คุณกำลังจะลบเครื่องพิมพ์:</trans>
+    </entry>
+    <entry>
+      <base>SPOOL_FILE_WARNING</base>
+      <trans>ไฟล์เก็บข้อมูลรอพิมพ์ (spool files) ทั้งหมดของพิมพ์นี้จะถูกลบด้วย</trans>
+    </entry>
+    <entry>
+      <base>ARE_YOU_SURE</base>
+      <trans>คุณแน่ใจหรือว่าต้องการลบเครื่องพิมพ์นี้?</trans>
+    </entry>
+    <entry>
+      <base>ERR_INTERNAL_FAILURE</base>
+      <trans>ผิดพลาด: เกิดความผิดพลาดภายในขณะลบเครื่องพิมพ์:</trans>
+    </entry>
+    <entry>
+      <base>ERR_DELETING</base>
+      <trans>เกิดข้อผิดพลาดเกิดขึ้นขณะที่ลบเครื่องพิมพ์</trans>
+    </entry>
+    <entry>
+      <base>DELETED_SUCCESSFULLY</base>
+      <trans>ลบเครื่องพิมพ์เสร็จแล้ว:</trans>
+    </entry>
+    <entry>
+        <base>MUST_BE_VALID_HOSTNAME_OR_IP</base>
+        <trans>ต้องเป็นชื่อโฮสต์ที่ถูกต้อง หรือเป็นหมายเลข IP</trans>
+    </entry>
+    <entry>
+	<base>Printers</base>
+	<trans>เครื่องพิมพ์</trans>
+    </entry>
+
+</lexicon>

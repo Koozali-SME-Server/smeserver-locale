@@ -1,0 +1,1530 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:16
+msgid "Manage disk redundancy"
+msgstr "Mengatur disk redundan"
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:42
+msgid "Disk redundancy status as of"
+msgstr "Status disk redundan pada"
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:43
+msgid "Current RAID status:"
+msgstr "Status RAID sekarang:"
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:52
+msgid "There are no RAID devices configured"
+msgstr "Tidak ada peralatan RAID yang terkonfigurasi"
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:93
+msgid "A RAID resynchronization is in progress."
+msgstr "Sinkronisasi RAID sedang berlangsung."
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:101
+msgid "Only some of the RAID devices are unclean or contain failed disks."
+msgstr "Hanya beberapa peralatan RAID yang unclean."
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:103
+msgid "Manual intervention may be required."
+msgstr "Intervensi manual mungkin diperlukan."
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:112
+msgid "All RAID devices are in a clean state."
+msgstr "Semua peralatan raid dalam kondisi clean"
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:120
+msgid "All RAID devices are in an unclean state or contain failed disks."
+msgstr "Semua peralatan raid dalam kondisi clean"
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:125
+msgid "Current disk status:"
+msgstr "Status disk sekarang:"
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:126
+msgid "Installed disks"
+msgstr "Disk terpasang"
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:128
+msgid "Used disks"
+msgstr "Disk terpakai"
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:130
+msgid "Free disks"
+msgstr "Disk siap pakai"
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:139
+msgid "To ensure continued redundancy, please shut down, install another drive of the same capacity and then return to this screen."
+msgstr "System anda hanya memiliki satu disk drive terpasang atau menggunakan hardware mirroring. Jika anda ingin menjalankan software mirroring, silakan shut down, pasang disk drive kedua (dengan kapasitas yang sama) dan kemudian kembali ke layar ini."
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:150
+msgid "Your RAID devices are in an inconsistent state, and no spare drives were detected. You may need to manually remove a failed drive from your arrays using mdadm."
+msgstr ""
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:161
+msgid "Multiple spare drives have been detected. This utility can only add one drive at a time. Please either shut down and remove all but one of your spare drives, or configure your array manually."
+msgstr ""
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:170
+msgid "There is an unused disk drive in your system. Do you want to add it to the existing RAID array(s)?"
+msgstr "Ada sebuah disk drive tidak terpakai dalam sistem anda. Apakah anda ingin menambahkannya dalam jajaran RAID?"
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:172
+msgid "WARNING: ALL DATA ON THE NEW DISK WILL BE DESTROYED!"
+msgstr "PERINGATAN: SEMUA DATA DALAM DISK YANG BARU AKAN DIHAPUS!"
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:185
+msgid "The command failed:"
+msgstr "Perintah gagal:"
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:195
+msgid "Couldn't open"
+msgstr "Tidak bisa membuka"
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:212
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:225
+msgid "Couldn't call"
+msgstr "Tidak bisa memanggil"
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:267
+msgid "Couldn't read"
+msgstr "Tidak bisa membaca"
+
+#: root/sbin/e-smith/console-menu-items/reboot.pl:11
+msgid "Reboot, reconfigure or shut down this server"
+msgstr "Reboot, rekonfigurasi atau tutup padam server ini"
+
+#: root/sbin/e-smith/console-menu-items/reboot.pl:36
+#: root/sbin/e-smith/console-menu-items/reboot.pl:62
+msgid "Reboot"
+msgstr "Re-boot"
+
+#: root/sbin/e-smith/console-menu-items/reboot.pl:36
+msgid "Reboot this server"
+msgstr "Reboot server ini"
+
+#: root/sbin/e-smith/console-menu-items/reboot.pl:37
+#: root/sbin/e-smith/console-menu-items/reboot.pl:67
+msgid "Reconfigure"
+msgstr "Rekonfigurasi"
+
+#: root/sbin/e-smith/console-menu-items/reboot.pl:37
+msgid "Reconfigure this server"
+msgstr "Rekonfigurasi server ini"
+
+#: root/sbin/e-smith/console-menu-items/reboot.pl:38
+#: root/sbin/e-smith/console-menu-items/reboot.pl:57
+msgid "Shutdown"
+msgstr "Tutup padam"
+
+#: root/sbin/e-smith/console-menu-items/reboot.pl:38
+msgid "Shutdown this server"
+msgstr "Tutup padam server ini"
+
+#: root/sbin/e-smith/console-menu-items/reboot.pl:43
+msgid "Reboot, reconfigure or shutdown this server"
+msgstr "Reboot, rekonfigurasi atau tutup padam server ini"
+
+#: root/sbin/e-smith/console-menu-items/reboot.pl:45
+msgid "Please select whether you wish to reboot, reconfigure or shutdown. The process will start as soon as you make your selection."
+msgstr "Silahkan memilih apakah anda hendak reboot atau tutup padam. Proses akan dimulai segera setelah anda membuat pilihan."
+
+#: root/sbin/e-smith/console-menu-items/reboot.pl:47
+msgid "If you have an older computer without power management, the shutdown process will perform a clean halt of all system services, but will not actually power off your computer. In this case, wait for the power down message and then shut off the power manually."
+msgstr "Jika anda mempunyai suatu komputer tua yang tidak memiliki manajemen power, proses tutup padam akan menghentikan semua layanan sistem dengan baik, tetapi tidak akan benar-benar memadamkan komputer anda. Dalam hal ini, tunggu sampai muncul pesan power down, kemudian padamkan komputer secara manual."
+
+#: root/sbin/e-smith/console-menu-items/reboot.pl:49
+msgid "If you have changed your mind and do not want to reboot or shutdown, use the Tab key to select Cancel, then press Enter."
+msgstr "Jika anda berubah pikiran dan tidak ingin reboot atau tutup padam, gunakan tombol Tab untuk memilih Cancel, kemudian tekan Enter."
+
+#: root/sbin/e-smith/console-menu-items/reboot.pl:51
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:207
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:231
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:244
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:216
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:269
+msgid "Cancel"
+msgstr "Batal"
+
+#: root/sbin/e-smith/console-menu-items/reboot.pl:52
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:232
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:270
+msgid "OK"
+msgstr "OK"
+
+#: root/sbin/e-smith/console-menu-items/serverManager.pl:11
+#: root/sbin/e-smith/console-menu-items/serverManager.pl:37
+msgid "Access server manager"
+msgstr "Akses manajer server"
+
+#: root/sbin/e-smith/console-menu-items/serverManager.pl:39
+msgid "This option will start a text-mode browser to access the server manager from this console.  Normally you would access the server manager from a web browser at the following url:"
+msgstr "Pilihan ini akan memulai suatu penjelajah mode-teks untuk mengakses server manajer dari konsol ini. Secara normal anda akan mengakses server manajer dari suatu penjelajah web di url yang berikut:"
+
+#: root/sbin/e-smith/console-menu-items/serverManager.pl:43
+msgid "You should only proceed if you are comfortable using a text-mode browser.  Note that you will be prompted for the administrator password in order to access the server manager."
+msgstr "Anda sebaiknya hanya memproses jika anda merasa nyaman menggunakan penjelajah mode-teks. Anda akan diminta memasukkan kata sandi pengelola untuk mengakses server manajer."
+
+#: root/sbin/e-smith/console-menu-items/serverManager.pl:45
+msgid "NOTE: The 'q' key is used to quit from the text-mode browser."
+msgstr "CATATAN: Tombol 'q' digunakan untuk keluar dari penjelajah mode-teks."
+
+#: root/sbin/e-smith/console-menu-items/serverManager.pl:47
+msgid "Do you wish to proceed?"
+msgstr "Anda ingin memproses?"
+
+#: root/sbin/e-smith/console-menu-items/status.pl:11
+msgid "Check status of this server"
+msgstr "Periksa status server ini"
+
+#: root/sbin/e-smith/console-menu-items/status.pl:60
+msgid "Status of this server as of"
+msgstr "Status server ini sebagai"
+
+#: root/sbin/e-smith/console-menu-items/status.pl:62
+msgid "This server has been running for"
+msgstr "Server ini telah beroperasi selama"
+
+#: root/sbin/e-smith/console-menu-items/status.pl:63
+msgid "days"
+msgstr "hari"
+
+#: root/sbin/e-smith/console-menu-items/status.pl:64
+msgid "hours"
+msgstr "jam"
+
+#: root/sbin/e-smith/console-menu-items/status.pl:65
+msgid "minutes"
+msgstr "menit"
+
+#: root/sbin/e-smith/console-menu-items/support.pl:11
+msgid "View support and licensing information"
+msgstr "Lihat informasi dukungan, garansi dan lisensi"
+
+#: root/sbin/e-smith/console-menu-items/support.pl:37
+msgid "Support and licensing information"
+msgstr "Lihat informasi dukungan, garansi dan lisensi"
+
+#: root/sbin/e-smith/console-menu-items/testInternet.pl:10
+#: root/sbin/e-smith/console-menu-items/testInternet.pl:33
+msgid "Test Internet access"
+msgstr "Tes akses Internet"
+
+#: root/sbin/e-smith/console-menu-items/testInternet.pl:35
+msgid "After your Internet connection is operational and your server has been connected and configured, this test will verify that your server can communicate with the Internet."
+msgstr "Setelah koneksi Internet anda beroperasi dan server anda telah dihubungkan dan dikonfigurasi, tes ini akan memverifikasi bahwa server anda dapat berkomunikasi dengan Internet."
+
+#: root/sbin/e-smith/console-menu-items/testInternet.pl:37
+msgid "As part of this test, two pieces of information will be sent to koozali.org - the version installed on your server and a string used to differentiate your server from others using this test. This string is generated by a one-way hash function and access to the string does not provide any information about your server."
+msgstr "Sebagai bagian dari tes ini, dua potong informasi akan dikirimkan ke koozali.org - yaitu versi yang terpasang pada server dan seuntai kata untuk membedakan server anda dari yang lain yang menggunakan tes ini. Untaian kata ini dibuat dengan fungsi pencampuran satu-arah dan kata ini tidak berisi informasi apapun tentang server anda."
+
+#: root/sbin/e-smith/console-menu-items/testInternet.pl:39
+msgid "We appreciate your assistance in sending this information so we can gain an accurate count of the installed servers."
+msgstr "Kami menghargai bantuan anda dalam mengirimkan informasi ini agar kami dapat mencapai penghitungan secara akurat jumlah server yang telah terpasang."
+
+#: root/sbin/e-smith/console-menu-items/testInternet.pl:41
+msgid "Do you wish to run the test?"
+msgstr "Anda hendak menjalankan test ini?"
+
+#: root/sbin/e-smith/console-menu-items/testInternet.pl:47
+msgid "Attempting to test Internet connection."
+msgstr "Sedang mencoba koneksi Internet."
+
+#: root/sbin/e-smith/console-menu-items/testInternet.pl:48
+msgid "If this test takes too long, please halt it by typing Ctrl-C."
+msgstr "Jika tes ini terlalu lama, silahkan diberhentikan dengan mengetik Ctrl-C."
+
+#: root/sbin/e-smith/console-menu-items/testInternet.pl:55
+msgid "Internet connection successful"
+msgstr "Koneksi internet sukses"
+
+#: root/sbin/e-smith/console-menu-items/testInternet.pl:57
+msgid "The test was successful! Your server was able to communicate with koozali.org."
+msgstr "Tes berhasil! Server anda bisa berkomunikasi dengan jaringan koozali.org."
+
+#: root/sbin/e-smith/console-menu-items/testInternet.pl:64
+msgid "Internet connection failed"
+msgstr "Sambungan internet gagal"
+
+#: root/sbin/e-smith/console-menu-items/testInternet.pl:66
+msgid "The test failed. Your server was unable to establish contact with koozali.org via the Internet."
+msgstr "Tes gagal. Server anda tidak bisa mengadakan kontak dengan koozali.org melalui Internet."
+
+#: root/sbin/e-smith/console-menu-items/testInternet.pl:68
+msgid "Please check that your server is correctly configured. A reboot may be required if certain settings are modified and the configuration process will advise you if this is required."
+msgstr "Silahkan dipastikan bahwa server anda sudah dikonfigurasi dengan benar. Reboot mungkin diperlukan jika setelan telah dimodifikasi dan proses konfigurasi akan menganjurkan anda jika ini diperlukan."
+
+#: root/sbin/e-smith/console-menu-items/testInternet.pl:70
+msgid "You might also want to check with your Internet provider to make sure that your Internet connection is working properly."
+msgstr "Anda barangkali juga ingin memeriksa penyedia Internet anda untuk meyakinkan bahwa koneksi internet anda sedang berfungsi dengan benar."
+
+#: root/sbin/e-smith/console-menu-items/testInternet.pl:72
+msgid "It is also possible (although unlikely) that there is a technical problem at the koozali.org site. In this case, you should proceed with your installation and run this test again later."
+msgstr "Mungkin juga (walaupun jarang terjadi) ada problem teknik di situs contribs.org. Dalam hal ini, anda sebaiknya melanjutkan instalasi anda dan melakukan test ini lagi kemudian."
+
+#: root/sbin/e-smith/console.pl:88
+msgid "Server console"
+msgstr "Konsol server"
+
+#: root/sbin/e-smith/console.pl:91
+msgid "** unsaved changes **"
+msgstr "** perubahan belum tersimpan **"
+
+#: root/sbin/e-smith/console.pl:98
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:32
+msgid "Welcome to the server console!"
+msgstr "Selamat datang di konsol server!"
+
+#: root/sbin/e-smith/console.pl:100
+msgid "Use the Arrow and Tab keys to make your selection, then press Enter."
+msgstr "Gunakan tombol Tanda Panah dan Tab untuk membuat pilihan, kemudian tekan Enter."
+
+#: root/sbin/e-smith/console.pl:102
+msgid "Exit"
+msgstr "Keluar"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:86
+msgid "Bad ttyname:"
+msgstr "Nama tty jelek:"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:89
+msgid "Can't redirect stdin"
+msgstr "Gagal mengalihkan stdin"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:90
+msgid "Can't redirect stdout"
+msgstr "Gagal mengalihkan stdout"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:93
+msgid "Can't fork"
+msgstr "Fork gagal"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:143
+msgid "Couldn't create pipe"
+msgstr "Tidak dapat membuat pipe"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:149
+msgid "Couldn't fork"
+msgstr "Fork gagal"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:160
+msgid "Couldn't close reading end of pipe"
+msgstr "Gagal menutup pembacaaan terakhir dari pipe"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:168
+msgid "Couldn't connect STDERR to pipe"
+msgstr "Gagal menyambung STDERR ke pipe"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:171
+msgid "Couldn't close writing end of pipe"
+msgstr "Gagal menutup penulisan akhir dari pipe"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:185
+msgid "Couldn't exec:"
+msgstr "Gagal menjalankan:"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:237
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:269
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:292
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:353
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:437
+msgid "Back"
+msgstr "Kembali"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:238
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:270
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:293
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:354
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:438
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:243
+msgid "Next"
+msgstr "Selanjutnya"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:264
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:201
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:210
+msgid "please try again"
+msgstr "silakan coba kembali"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:321
+msgid "Yes"
+msgstr "Ya"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:322
+msgid "No"
+msgstr "Tidak"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:462
+msgid "Keep the current setting"
+msgstr "Simpan setting ini"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:464
+msgid "keep"
+msgstr "terima"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/backup_running.pm:29
+msgid "Inconsistent system state"
+msgstr "Status inkonsistensi sistem"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/backup_running.pm:31
+msgid "********** Inconsistent system state detected ***********"
+msgstr "********** Status inkonsistensi sistem terdeteksi ***********"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/backup_running.pm:33
+msgid "The restoration of a system backup was running and incomplete at the time of the last reboot. The system should not be used in this state."
+msgstr "Pengembalian sistem cadangan telah dijalankan dan belum komplit pada saat reboot terakhir. Sistem tidak boleh dipergunakan dalam keadaan ini."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/backup_running.pm:35
+msgid "Consult the User Guide for further instructions."
+msgstr "Cari keterangan di Panduan Pengguna untuk instruksi lebih lanjut."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/backup_running.pm:40
+msgid "System will be halted"
+msgstr "Sistem akan diberhentikan"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/backup_running.pm:42
+msgid "The server will now be halted."
+msgstr "Server akan diberhentikan sekarang."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/backup_running.pm:44
+msgid "Consult the User Guide for recovery instructions."
+msgstr "Cari keterangan di Panduan Pengguna untuk instruksi pemulihan."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/backup_running.pm:46
+msgid "Do you wish to halt the system right now?"
+msgstr "Apakah anda ingin menghentikan sistem sekarang?"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:21
+msgid "Configure this server"
+msgstr "Rekonfigurasi server ini"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:99
+msgid "Use"
+msgstr "Pergunakan"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:114
+msgid "local"
+msgstr "Lokal"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:115
+msgid "external"
+msgstr "Nama Printer"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:120
+msgid "Select %s network device"
+msgstr "Memilih %s driver ethernet jaringan"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:124
+msgid "You now need to select the proper device for your %s network. The server can attempt to do this automatically, or you can do it manually.  The network driver, MAC address and model of your network adapter are listed below.\n"
+msgstr "Anda sekarang harus memilih driver yang sesuai untuk %s adapter ethernet jaringan anda. Server dapat mencoba untuk melakukan ini secara otomatis, atau anda dapat melakukannya secara manual - dengan menentukan model dari adapter ethernet anda atau dengan memilih suatu driver secara langsung.\n"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:179
+msgid "No network interfaces found"
+msgstr "Printer jaringan ..."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:180
+msgid "The installer can't continue because no network interfaces are installed or recognised. Please install at least one network interface."
+msgstr ""
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:194
+msgid "Primary domain name"
+msgstr "Nama domain utama"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:196
+msgid "Please enter the primary domain name for your server."
+msgstr "Silakan enter nama domain utama untuk server anda."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:198
+msgid "This will be the default domain for your e-mail and web server. Virtual domains can be added later using the server manager."
+msgstr "Ini akan menjadi domain anggapan untuk server surat dan web. Domain maya nanti dapat ditambahkan dengan menggunakan manajer server."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:224
+msgid "Invalid domain name"
+msgstr "Nama domain cacat"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:242
+msgid "Select system name"
+msgstr "Pilih nama sistem"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:244
+msgid "Please enter the system name for your server."
+msgstr "Silakan enter nama sistem untuk server anda."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:246
+msgid "You should select unique system names for each server."
+msgstr "Anda sebaiknya memilih nama sistem yang unik untuk tiap server."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:248
+msgid "The system name must start with a letter and can be composed of  letters, numbers and hyphens."
+msgstr "Nama sistem harus dimulai dengan sebuah huruf dan dapat disusun dari huruf, angka dan strip."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:282
+msgid "Invalid system name"
+msgstr "Nama sistem cacat"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:295
+msgid "The specified driver failed to load."
+msgstr "Driver yang ditetapkan gagal dimuat."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:333
+msgid "Local networking parameters"
+msgstr "Paramater jaringan lokal"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:335
+msgid "Please enter the local IP address for this server."
+msgstr "Silakan masukkan alamat IP local untuk server ini."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:337
+msgid "If this server is the first machine on your network, we recommend accepting the default value unless you have a specific reason to choose something else."
+msgstr "Jika server ini adalah mesin pertama di jaringan anda, kami merekomendasikan untuk menerima nilai anggapan kecuali jika anda punya alasan khusus untuk memilih yang lain."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:339
+msgid "If your server is being installed into an existing network, you must choose an address which is not in use by any other computer on this network."
+msgstr "Jika server anda akan dipasang ke dalam jaringan yang sudah ada, anda harus memilih alamat yang tidak sedang dipergunakan oleh komputer lain dalam jaringan ini."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:361
+msgid "Invalid local IP address"
+msgstr "Alamat IP lokal cacat"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:374
+msgid "Select local subnet mask"
+msgstr "Pilih subnet mask lokal"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:376
+msgid "Please enter the local subnet mask for this server."
+msgstr "Silakan masukkan subnet mask lokal untuk server ini."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:378
+msgid "If this server is the first machine on your network, we recommend using the default unless you have a specific reason to choose something else."
+msgstr "Jika server ini adalah mesin pertama pada jaringan anda, kami merekomendasikan untuk menggunakan nilai anggapan kecuali anda punya alasan khusus untuk memilih yang lain."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:380
+msgid "If your server is being installed into an existing network, you must choose the same subnet mask used by other computers on this network."
+msgstr "Jika server anda akan dipasang ke dalam jaringan yang sudah ada, anda harus memilih subnet mask yang sama dengan yang dipergunakan oleh komputer yang lain dalam jaringan ini."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:403
+msgid "Invalid local subnet mask"
+msgstr "Subnet mask lokal cacat"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:420
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:435
+msgid "Server and gateway"
+msgstr "Server dan gerbang"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:425
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:436
+msgid "Private server and gateway"
+msgstr "Server pribadi dan gerbang"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:430
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:437
+msgid "Server-only"
+msgstr "Hanya-server"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:442
+msgid "Select operation mode"
+msgstr "Pilih mode pengoperasian"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:445
+msgid "If you want this server to act as a gateway to the Internet, choose one of the server and gateway options. Server and gateway mode acts as a firewall and provides an external web and mail server. Private server and gateway mode also acts as a firewall but disables all incoming services."
+msgstr "Jika anda ingin server ini bertindak sebagai gerbang ke internet, pilih salah satu opsi server dan gerbang. Mode server dan gerbang bertindak sebagai firewall dan menyediakan server web dan surat eksternal. Mode server privat dan gerbang juga bertindak sebagai firewall tetapi menolak semua layanan yang datang."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:447
+msgid "Server-only mode provides services to a local, protected network. If you choose this mode and Internet access is required, the network must be protected by another server configured in server and gateway mode (or another firewall)."
+msgstr "Mode hanya-server menyediakan layanan ke lokal, jaringan yang dilindungi. Jika anda memilih mode ini dan akses internet dibutuhkan, jaringan harus dilindungi oleh server lain yang telah dikonfgurasi dalam mode server dan gerbang ( atau firewall yang lain)."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:493
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:503
+msgid "Server and gateway - dedicated"
+msgstr "Server dan gerbang - khusus"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:498
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:504
+msgid "Server and gateway - dialup"
+msgstr "Server dan gerbang - dialup"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:509
+msgid "Select external access mode"
+msgstr "Pilih mode akses eksternal"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:512
+msgid "The next step is to select the access mode that your server will use to connect to the Internet."
+msgstr "Langkah berikut adalah memilih mode akses yang akan dipergunakan server untuk terhubung ke internet."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:514
+msgid "Choose the dedicated option if you access the Internet via a router, a cable modem or ADSL. Choose the dialup option if you use a modem or ISDN connection."
+msgstr "Pilih opsi khusus jika anda mengakses internet melalui router, modem kabel atau ADSL. Pilih opsi dialup jika anda menggunakan sambungan modem atau ISDN."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:542
+msgid "Only one network adapter"
+msgstr "Hanya satu adapter jaringan"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:544
+msgid "Your system only has a single network adapter. It cannot be used in this configuration."
+msgstr "Sistem anda hanya mempunyai satu adapter jaringan. Itu tidak bisa dipergunakan dalam konfigurasi ini."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:582
+msgid "use DHCP (send account name as client identifier)"
+msgstr "menggunakan DHCP (mengirimkan nama akun sebagai pengenal klien)"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:583
+msgid "DHCP with account name"
+msgstr "DHCP dengan nama akun"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:589
+msgid "use DHCP (send ethernet address as client identifier)"
+msgstr "menggunakan DHCP (mengirimkan alamat ethernet sebagai pengenal klien)"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:590
+msgid "DHCP with ethernet address"
+msgstr "DHCP dengan alamat ethernet"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:596
+msgid "use PPP over Ethernet (PPPoE)"
+msgstr "menggunakan PPP over Ethernet (PPPoE)"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:597
+msgid "PPPoE"
+msgstr "PPPoE"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:603
+msgid "use static IP address (do not use DHCP or PPPoE)"
+msgstr "menggunakan alamat IP statis (jangan menggunakan DHCP atau PPPoE)"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:604
+msgid "static IP"
+msgstr "alamat IP statis"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:609
+msgid "Use DHCP (send account name as client identifier)"
+msgstr "Menggunakan DHCP (mengirimkan nama akun sebagai pengenal klien)"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:610
+msgid "Use DHCP (send ethernet address as client identifier)"
+msgstr "Menggunakan DHCP (mengirimkan alamat ethernet sebagai pengenal klien)"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:611
+msgid "Use PPP over Ethernet (PPPoE)"
+msgstr "Gunakan PPP over Ethernet (PPPoE)"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:612
+msgid "Use static IP address"
+msgstr "Menggunakan alamat IP statis"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:617
+msgid "External Interface Configuration"
+msgstr "Konfigurasi Antarmuka Eksternal"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:620
+msgid "Next, specify how to configure the external ethernet adapter."
+msgstr "Berikut, menetapkan bagaimana mengkonfigurasi adapter ethernet eksternal."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:622
+msgid "For cable modem connections, select DHCP. If your ISP has assigned a system name for your connection, use the account name option. Otherwise use the ethernet address option. For residential ADSL, use PPPoE. For most corporate connections, use a static IP address."
+msgstr "Untuk koneksi modem kabel, pilih DHCP. Jika ISP anda telah menunjuk sebuah nama sistem untuk koneksi anda, pergunakan opsi nama akun. Jika tidak pergunakan opsi alamat ethernet. Untuk ADSL perumahan, gunakan PPPoE. Untuk kebanyakan koneksi perusahaan, gunakan alamat IP statis."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:675
+msgid "Enter ISP assigned hostname"
+msgstr "Masukkan nama host yang ditunjuk ISP"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:677
+msgid "You have selected DHCP (send account name). Please enter the account name assigned by your ISP. You must enter the account name exactly as specified by your ISP."
+msgstr "Anda telah memilih DHCP (mengirim nama akun). Silahkan memasukkan nama akun yang telah diberikan oleh ISP anda. Anda harus memasukkan nama akun persis seperti yang telah ditentukan oleh ISP anda."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:694
+msgid "Select PPPoE user account"
+msgstr "Memilih akun pengguna PPPoE"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:696
+msgid "Please enter the user account name for your PPPoE Internet connection. Most PPPoE service providers use an account name and e-mail domain. For example, "
+msgstr "Silahkan memasukkan nama akun pengguna untuk koneksi internet PPPoE anda. Kebanyakan penyedia layanan PPPoE menggunakan nama akun dan domain surat.Contoh, "
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:714
+msgid "Select PPPoE password"
+msgstr "Pilih kata sandi PPPoE"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:716
+msgid "Please enter the password for your PPPoE Internet connection."
+msgstr "Silahkan memasukkan kata sandi untuk koneksi internet PPPoE anda."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:739
+msgid "Select static IP address"
+msgstr "Pilih alamat IP statis"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:741
+msgid "You have chosen to configure your external Ethernet connection with a static IP address. Please enter the IP address which should be used for the external interface on this server."
+msgstr "Anda telah memilih untuk mengkonfigurasi koneksi ethernet eksternal dengan sebuah alamat IP statis. Silahkan memasukkan alamat IP yang akan dipergunakan untuk antarmuka eksternal pada server ini."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:743
+msgid "Please note, this is not the address of your external gateway."
+msgstr "Sebagai catatan, ini bukan alamat gerbang eksternal anda."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:764
+msgid "Invalid external IP address"
+msgstr "Alamat IP eksternal tidak valid"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:778
+msgid "Select subnet mask"
+msgstr "Pilih subnet mask"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:780
+msgid "Please enter the subnet mask for your Internet connection. A typical subnet mask is 255.255.255.0."
+msgstr "Silahkan memasukkan subnet mask koneksi internet anda. Subnet mask yang khas adalah 255.255.255.0."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:805
+msgid "Invalid address ranges"
+msgstr "IP address cacat"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:807
+msgid ""
+"Internal address range overlaps external address range\n"
+"\n"
+"Local interface: %s/%s\n"
+"External interface: %s/%s\n"
+"\n"
+"Please review your settings."
+msgstr ""
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:833
+msgid "Invalid external subnet mask"
+msgstr "Subnet mask eksternal tidak valid"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:856
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1471
+msgid "Select gateway IP address"
+msgstr "Memilih alamat IP gerbang"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:858
+msgid "Please enter the gateway IP address for your Internet connection."
+msgstr "Silahkan memasukkan alamat IP gerbang untuk koneksi internet anda."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:883
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1507
+msgid "Invalid"
+msgstr "Tidak berlaku"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:899
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:900
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:901
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:902
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:903
+msgid "Set modem port to"
+msgstr "Setel port modem ke"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:903
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:937
+msgid "ISDN"
+msgstr "ISDN"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:904
+msgid "internal ISDN card"
+msgstr "kartu ISDN internal"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:909
+msgid "Select modem/ISDN port"
+msgstr "Memilih port modem/ISDN"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:912
+msgid "Please specify which serial port your modem or ISDN terminal adapter is connected to. Select ISDN if you wish to use an internal ISDN card."
+msgstr "Silahkan ditentukan serial port modem anda atau adapter terminal ISDN yang terhubung. Pilih ISDN jika anda ingin menggunakan kartu ISDN internal."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1090
+msgid "ISDN card detected"
+msgstr "Kartu ISDN terdeteksi"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1092
+msgid "Do you wish to use the following ISDN card for your Internet connection?"
+msgstr "Apakah anda ingin menggunakan kartu ISDN berikut untuk koneksi Internet anda?"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1108
+msgid "ISDN driver options"
+msgstr "Opsi driver ISDN"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1110
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1174
+msgid "You have selected an internal ISDN card."
+msgstr "Anda telah memilih sebuah kartu ISDN internal."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1112
+msgid "The ISDN software will need to be told what ISDN hardware you have. It may also need to be told what protocol number to use and may need to be given some additional information about your hardware such as the I/O address and interrupt settings."
+msgstr "Perangkat lunak ISDN perlu mengetahui perangkat keras ISDN yang anda miliki. Ia juga perlu mengetahui apa nomer protokol yang dipergunakan dan barangkali perlu informasi tambahan tentang perangkat keras anda seperti alamat I/O dan setelan interrupt."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1114
+msgid "This information is provided via an options string. An example is"
+msgstr "Informasi ini diberikan melalui string opsi. Contohnya adalah"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1116
+msgid "which would be used to set the"
+msgstr "mana yang akan digunakan untuk menyetel"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1118
+msgid "to EURO-ISDN."
+msgstr "ke EURO-ISDN."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1144
+msgid "Multiple Subscriber Numbering"
+msgstr "Penomoran Langganan Ganda"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1146
+msgid "Your ISDN line may have more than one number associated with it known as Multiple Subscriber Numbering (MSN). In order to receive an incoming ISDN call from an ISP or a remote site, you may need to configure your ISDN card with its MSN so that ISDN calls are routed correctly. If you do not know this number, you can leave this value blank."
+msgstr "Saluran ISDN anda mungkin memiliki lebih dari satu nomer yang dikenal sebagai Multiple Subscriber Numbering (MSN). Dalam rangka menerima panggilan ISDN yang datang dari ISP atau lokasi jauh, anda mungkin perlu mengkonfigurasi kartu ISDN anda dengan MSN-nya sehingga panggilan ISDN diarahkan dengan benar. Jika anda tidak mengetahui nomer ini, anda dapat membiarkan nilai ini kosong."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1156
+msgid "Invalid Multiple Subscriber Numbering (MSN)"
+msgstr "Multiple Subscriber Numbering (MSN) tidak valid"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1176
+msgid "The driver for this card includes modem emulation software, and modem control commands are used by the networking software to configure and control the ISDN interface card."
+msgstr "Driver untuk kartu ini meliputi perangkat lunak emulasi modem, dan perintah kendali modem digunakan oleh perangkat lunak untuk mengatur dan mengendalikan kartu antarmuka ISDN."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1178
+msgid "The precise behavior of your ISDN card can be modified by using a specific modem initialization string, to adjust the settings of the card, or to modify its default behavior. Most cards should work correctly with the default settings, but you may enter a modem initialization string here if required."
+msgstr "Perilaku yang tepat dari kartu ISDN anda dapat dimodifikasi dengan menggunakan suatu string inisialisasi modem yang spesifik, untuk melakukan penyesuaian pengaturan dari kartu, atau untuk memodifikasi perilaku anggapannya. Kebanyakan kartu bekerja dengan tepat dengan setelan anggapan, tetapi anda boleh memasukkan suatu string inisialisasi modem di sini jika diperlukan."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1181
+msgid "You have selected a modem device."
+msgstr "Anda telah memilih sebuah divais modem."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1183
+msgid "The precise behavior of your modem can be modified by using a specific modem initialization string, to adjust the settings of your modem, or to modify its default behavior. You may enter a modem initialization string here."
+msgstr "Perilaku yang tepat dari modem anda dapat dimodifikasi dengan menggunakan suatu string initialisasi modem yang spesifik, untuk melakukan penyesuaian pengaturan dari modem anda, atau untuk memodifikasi perilaku anggapannya. Anda boleh memasukkan suatu string initialisasi modem di sini."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1185
+msgid "Many modems will work correctly without any special settings. If you leave this field blank, the default string of"
+msgstr "Banyak modem akan bekerja dengan tepat tanpa pengaturan yang khusus. Jika anda biarkan kolom ini kosong, string anggapan dari"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1187
+msgid "will be used. This turns the modem speaker off, so that you will not be bothered by the noises that a modem makes when it starts a connection."
+msgstr "akan digunakan. Ini memadamkan pengeras suara, sehingga anda tidak akan terganggu oleh suara gaduh yang terjadi ketika modem memulai suatu koneksi."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1193
+msgid "Modem initialization string"
+msgstr "String inisialisasi modem"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1226
+msgid "Select access phone number"
+msgstr "Memilih nomer telepon akses"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1229
+msgid "Please enter the access phone number for your Internet connection. Long distance numbers can be entered. The phone number must not contain spaces, but may contain dashes for readability. Commas may be inserted where a delay is required. For example, if you need to dial 9 first, then wait, then dial a phone number, you could enter"
+msgstr "Silahkan memasukkan nomor telepon akses untuk koneksi Internet anda. Nomer interlokal dapat dimasukkan. Nomor telepon harus tidak berisi spasi, tetapi boleh berisi strip supaya mudah dibaca. Tanda koma bisa disisipkan di mana suatu penundaan diperlukan. Sebagai contoh, jika anda harus memutar angka telepon 9 dulu, kemudian menunggu, kemudian memutar suatu nomer telepon, anda bisa memasukkan"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1256
+msgid "Invalid access phone number"
+msgstr "Nomer telepon akses tidak valid"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1268
+msgid "Please enter the user account name for your Internet connection."
+msgstr "Silahkan memasukkan nama akun pengguna untuk koneksi Internet anda."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1270
+msgid "Please note that account names are usually case sensitive."
+msgstr "Silahkan diperhatikan biasanya nama akun membedakan huruf besar dan huruf kecil."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1274
+msgid "Select dialup user account"
+msgstr "Memilih akun pengguna dialup"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1290
+msgid "Please enter the password for your Internet connection."
+msgstr "Silahkan memasukkan kata sandi untuk koneksi Internet anda."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1292
+msgid "Please note that passwords are usually case sensitive."
+msgstr "Silahkan diperhatikan bahwa kata sandi biasanya membedakan huruf besar dan huruf kecil."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1296
+msgid "Select dialup password"
+msgstr "Memilih kata sandi dialup"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1338
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1362
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1384
+msgid "Select connect policy"
+msgstr "Memilih kebijakan menghubungkan"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1341
+msgid "Select the dialup connect policy that you would like to use during office hours (8:00 AM to 6:00 PM) on weekdays."
+msgstr "Memilih kebijakan menghubungkan dialup yang hendak anda pergunakan selama jam kerja (8:00 AM sampai 6:00 PM) pada hari kerja."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1365
+msgid "Please select the dialup connect policy that you would like to use outside office hours (6:00 PM to 8:00 AM) on weekdays."
+msgstr "Silahkan memilih kebijakan menghubungkan dialup yang hendak anda pergunakan diluar jam kerja (6:00 PM sampai 8:00 AM) pada hari kerja."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1387
+msgid "Please select the dialup connect policy that you would like to use during the weekend."
+msgstr "Silahkan memilih kebijakan menghubungkan dialup yang hendak anda pergunakan selama akhir pekan."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1414
+msgid "Enable NIC bonding"
+msgstr "Hidupkan NIC Bonding"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1414
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1428
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1430
+msgid "enabled"
+msgstr "dihidupkan"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1415
+msgid "Disable NIC bonding"
+msgstr "Matikan NIC bonding"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1415
+msgid "disabled"
+msgstr "dimatikan"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1420
+msgid "NIC Bonding"
+msgstr "NIC Bonding"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1423
+msgid "You have more than one network adapter. Would you like to bond them together into a single interface? This can provide greater throughput and/or failure resiliency, depending on your adapters and network configuration."
+msgstr "Anda memiliki lebih dari satu adapter jaringan. Apakah anda ingin menggabungkan mereka menjadi satu antarmuka? Hal ini dapat menyediakan throughput lebih besar dan/atau ketahanan terhadap kegagalan, tergantung kepada adapter atau konfigurasi jaringan anda."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1441
+msgid ""
+"The NIC bonding driver allows various modes and performance options. Edit the option string below if the defaults are not suitable.\n"
+"\n"
+"Most users do not need to change this setting.\n"
+msgstr ""
+"Driver NIC bonding membolehkan bermacam pilihan mode dan dayaguna. Edit pilihan dibawah ini jika default tidak cocok.\n"
+"\n"
+"Kebanyakan pengguna tidak perlu mengubah setting ini.\n"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1445
+msgid "NIC Bonding Options"
+msgstr "Pilihan NIC Bonding"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1473
+msgid "In server-only mode, this server will use only one ethernet adapter connected to your local network. If you have a firewall and wish to use this server as your e-mail/web server, you should consult the firewall documentation for networking details."
+msgstr "Di mode server-saja, server ini hanya akan menggunakan satu adapter ethernet yang terhubung ke jaringan lokal anda. Jika anda mempunyai suatu firewall dan ingin menggunakan server ini sebagai server surat/web, anda sebaiknya melihat dokumentasi firewall untuk detil jaringan."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1475
+msgid "Please specify the gateway IP address that this server should use to access the Internet. Leave blank if you have no Internet access."
+msgstr "Silahkan menetapkan alamat IP gerbang yang bisa dipergunakan oleh server untuk mengakses Internet. Biarkan kosong jika anda tidak punya akses Internet."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1550
+msgid "Can't open output file"
+msgstr "Tidak dapat membuka berkas keluaran"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1571
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1576
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1597
+msgid "Off"
+msgstr "Padam"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1571
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1575
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1592
+msgid "On"
+msgstr "Hidup"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1575
+msgid "Provide DHCP service to local network"
+msgstr "Menyediakan layanan DHCP kepada jaringan lokal"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1576
+msgid "Do not provide DHCP service to local network"
+msgstr "Jangan menyediakan layanan DHCP kepada jaringan lokal"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1581
+msgid "Select DHCP server configuration"
+msgstr "Pilih konfigurasi server DHCP"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1584
+msgid "Please specify whether you would like this server to provide DHCP service to your local network. This will let you assign IP addresses to your other network computers automatically by configuring them to obtain their IP information using DHCP."
+msgstr "Silahkan ditentukan apakah anda ingin server ini menyediakan layanan DHCP ke jaringan lokal anda atau tidak. Ini akan memberikan alamat IP ke komputer lain di jaringan anda secara otomatis dengan mengkonfigurasi komputer tersebut untuk memperoleh informasi IP dari DHCP."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1586
+msgid "We strongly advise that all clients are configured using DHCP."
+msgstr "Kita sangat menganjurkan bahwa semua klien diatur menggunakan DHCP."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1620
+msgid "Select beginning of DHCP host number range"
+msgstr "Pilih awal dari cakupan nomer host DHCP"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1622
+msgid "You must reserve a range of host numbers for the DHCP server to use."
+msgstr "Anda harus mencadangkan cakupan nomer host untuk dipergunakan oleh server DHCP."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1624
+msgid "Please enter the first host number in this range. If you are using the standard server defaults and have no particular preference, you should keep the default values."
+msgstr "Silahkan memasukkan nomor host pertama di cakupan ini. Jika anda menggunakan anggapan server yang baku dan tidak punya pilihan yang tertentu, anda sebaiknya mempertahankan nilai anggapan."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1646
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1742
+msgid "That address is not on the local network."
+msgstr "Alamat itu tidak termasuk di jaringan lokal."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1651
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1747
+msgid "Invalid IP address for DHCP start"
+msgstr "Alamat IP tidak valid untuk memulai DHCP"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1657
+msgid "You must provide an IP address for the start of the DHCP range."
+msgstr "Anda harus memberikan sebuah alamat IP untuk batas awal dari cakupan DHCP."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1683
+msgid "Select end of DHCP host number range"
+msgstr "Memilih batas akhir dari cakupan nomer host DHCP"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1685
+msgid "Please enter the last host address in this range. If you are using the standard server defaults and have no particular preference, you should keep the default value. Think to add enough ip for vpn sessions."
+msgstr "Silahkan memasukkan alamat host terakhir di cakupan ini. Jika anda sedang menggunakan anggapan server yang baku dan tidak punya pilihan tertentu, anda sebaiknya mempertahankan nilai anggapan."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1725
+msgid "There is not enough IP in the range to include all your vpn sessions"
+msgstr ""
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1730
+msgid "The IP range cannot include our private network address."
+msgstr "Cakupan IP tidak dapat meliputi alamat jaringan privat kita."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1736
+msgid "The end of the range must be larger than the start."
+msgstr "Batas akhir cakupan harus lebih besar dari batas awal."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1753
+msgid "You must provide an IP address for the end of the DHCP range."
+msgstr "Anda harus memberikan sebuah alamat IP untuk batas akhir dari cakupan DHCP."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1773
+msgid "Corporate DNS server address"
+msgstr "Alamat server DNS perusahaan"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1775
+msgid "If this server does not have access to the Internet, or you have special requirements for DNS resolution, enter the DNS server IP address here."
+msgstr "Jika server ini tidak mempunyai akses ke Internet, atau anda mempunyai persyaratan khusus untuk resolusi DNS, masukkan alamat IP server DNS di sini."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1777
+msgid "This field should be left blank unless you have a specific reason to configure another DNS server."
+msgstr "Kolom ini harus ditinggalkan kosong kecuali jika anda mempunyai suatu alasan yang spesifik untuk mengatur server DNS yang lain."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1779
+msgid "You should not enter the address of your ISP's DNS servers here, as the server is capable of resolving all Internet DNS names without this additional configuration."
+msgstr "Anda sebaiknya tidak memasukkan alamat server DNS milik ISP di sini, karena server mampu menemukan semua nama DNS Internet tanpa konfigurasi tambahan ini."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1809
+msgid "Invalid IP address for DNS forwarder"
+msgstr "Alamat IP tidak valid untuk DNS forwarder"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1825
+msgid "No unsaved changes"
+msgstr "Tidak ada perubahan yang belum disimpan"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1827
+msgid "No changes were made during the configuration process"
+msgstr "Tidak ada perubahan yang dibuat selama proses konfigurasi"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1829
+msgid "Press ENTER to proceed."
+msgstr "Tekan ENTER untuk memproses."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1830
+msgid "Finish"
+msgstr "Selesai"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1843
+msgid "Changes will take effect after reboot"
+msgstr "Perubahan akan terjadi setelah reboot"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1845
+msgid "The new configuration will take effect when you reboot the server."
+msgstr "Konfigurasi baru akan terjadi saat anda me-reboot server ini."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1847
+msgid "Do you wish to reboot right now?"
+msgstr "Anda hendak reboot sekarang juga?"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1865
+msgid "Activate configuration changes"
+msgstr "Mengaktifkan perubahan konfigurasi"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1867
+msgid "Your configuration changes will now be activated. The configuration files on this server will be changed to reflect your new settings. This may take a few minutes."
+msgstr "Perubahan konfigurasi anda sekarang akan diaktifkan. Berkas konfigurasi pada server ini akan dirubah untuk mencerminkan setelan baru anda. Ini mungkin butuh waktu beberapa menit."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1869
+msgid "Do you wish to activate your changes?"
+msgstr "Apakah anda ingin mengaktifkan perubahan anda?"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1884
+#: root/usr/share/perl5/vendor_perl/esmith/console/save_config.pm:27
+msgid "Activating configuration settings"
+msgstr "Mengkatifkan setelan konfigurasi"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1885
+#: root/usr/share/perl5/vendor_perl/esmith/console/save_config.pm:28
+msgid "Please stand by while your configuration settings are activated ..."
+msgstr "Silakan bersiap-siap sementara setelan konfigurasi anda diaktifkan ..."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1916
+#: root/usr/share/perl5/vendor_perl/esmith/console/quitConsole.pm:34
+msgid "*** THERE ARE UNACTIVATED CHANGES - QUIT ANYWAY? ***"
+msgstr "*** ADA PERUBAHAN YANG TIDAK DIAKTIFKAN - TETAP KELUAR ? ***"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1919
+#: root/usr/share/perl5/vendor_perl/esmith/console/quitConsole.pm:37
+msgid "Your configuration changes have been saved but have not yet been activated. This may result in unpredictable system behavior. We recommend that you complete the configuration process and activate the changes before exiting the console."
+msgstr "Perubahan konfigurasi anda telah disimpan tetapi belum diaktifkan. Ini bisa mengakibatkan perilaku sistem yang tak dapat diramalkan. Kita merekomendasikan bahwa anda menyelesaikan proses konfigurasi dan mengaktifkan perubahan sebelum meninggalkan konsol."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1921
+#: root/usr/share/perl5/vendor_perl/esmith/console/quitConsole.pm:39
+msgid "Are you sure you want to quit with unactivated changes?"
+msgstr "Apakah anda yakin ingin keluar dengan perubahan tidak diaktifkan?"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:25
+msgid "Perform backup to removable media"
+msgstr "Buat Backup ke disk USB"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:85
+msgid "Could not create backup file on device"
+msgstr "Tidak dapat membuat file backup pada peralatan"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:150
+msgid "Backup failed. Look at the log files for more details."
+msgstr ""
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:150
+msgid "Backup successfully created."
+msgstr "Berhasil membuat i-bay."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:171
+msgid "Create Backup to removable media"
+msgstr "Buat Backup ke disk USB"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:173
+msgid "Do you wish to create a backup on removable media?"
+msgstr "Apakah anda ingin membuat backup di peralatan USB?"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:174
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:173
+msgid "Insert removable media before proceeding."
+msgstr "Pasang memory stick atau disk USB, kemudian tekan tombol enter."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:175
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:174
+msgid "It may take many seconds to scan for media."
+msgstr ""
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:191
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:202
+msgid "These filesystems are not valid:"
+msgstr ""
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:194
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:205
+msgid "Reason"
+msgstr ""
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:200
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:209
+msgid "No valid backup device found"
+msgstr "Tidak ada berkas backup"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:200
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:220
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:228
+msgid "size"
+msgstr "ukuran"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:206
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:215
+msgid "Try again"
+msgstr "silakan coba kembali"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:219
+msgid "The following are valid for backup"
+msgstr "File berikut ini terdapat dalam file backup:"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:228
+msgid "Choose device to use for backup"
+msgstr "Pilih peralatan yang digunakan untuk backup"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:242
+msgid "Some parts are excluded of your backup"
+msgstr ""
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:251
+msgid "Preparing for backup"
+msgstr "Sedang mempersiapkan untuk backup"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:252
+msgid "Please stand by while the system is prepared for backup..."
+msgstr "Silakan tunggu sementara sistem sedang disiapkan untuk backup..."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:257
+msgid "Creating backup file"
+msgstr "Sedang mempersiapkan untuk backup"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:265
+msgid "Backup complete"
+msgstr "Backup selesai"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:266
+msgid "Remove backup media."
+msgstr "Peralatan backup tidak ditemukan"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:21
+msgid "Restore from removable media"
+msgstr "Buat Backup ke disk USB"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:137
+msgid "Restore failed. Your system is likely in an inconsistent state - look at the log files for more details."
+msgstr ""
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:140
+msgid "Restore successful."
+msgstr "Koneksi internet sukses"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:170
+msgid "Restore From Backup"
+msgstr "Pulihkan Dari Backup"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:172
+msgid "Do you wish to restore from backup?"
+msgstr "Apakah anda ingin memulihkan dari backup?"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:189
+msgid "These filesystems could hold backups"
+msgstr ""
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:234
+msgid "Date"
+msgstr ""
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:235
+msgid "Size"
+msgstr "ukuran"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:239
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:264
+msgid "Start restore from backup"
+msgstr "Memulai pemulihan dari backup"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:241
+msgid "Backup found on device"
+msgstr "Backup menghasilkan non-zero"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:243
+msgid "Backup details"
+msgstr "Backup adalah"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:245
+msgid "Do you wish to restore from this file?"
+msgstr "Anda ingin pulihkan dari berkas ini?"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:252
+msgid "Backups found on these devices"
+msgstr "Backup menghasilkan non-zero"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:267
+msgid "Please select the backup that you wish to restore from."
+msgstr "Silakan pilih peralatan mana yang berisi berkas backup yang ingin anda pulihkan."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:283
+msgid "Preparing for restore"
+msgstr "Sedang mempersiapkan untuk backup"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:284
+msgid "Please stand by while the system is prepared for restore..."
+msgstr "Silakan tunggu sementara sistem sedang disiapkan untuk backup..."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:293
+msgid "Restoring from backup"
+msgstr "Pulihkan Dari Backup"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:309
+msgid "Restore Complete"
+msgstr "Restore selesai"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:310
+msgid "You must restart your system to finish the restore."
+msgstr ""
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:311
+msgid "Do you want to restart now?"
+msgstr "Anda hendak reboot sekarang juga?"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/quitConsole.pm:10
+msgid "Exit from the server console"
+msgstr "Keluar dari konsol server"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/startup.pm:112
+msgid "Starting system services"
+msgstr ""
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/startup.pm:114
+msgid "Please standby while system services are started ..."
+msgstr "Silakan tunggu sementara sistem sedang disiapkan untuk backup..."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:30
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:109
+msgid "Choose administrator password"
+msgstr "Masukkan kata sandi administrator"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:34
+msgid "You will now be taken through a sequence of screens to perform basic networking configuration on this server."
+msgstr "Sekarang anda akan mengikuti rangkain langkah-langkah untuk melakukan konfigurasi jaringan dasar pada server ini."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:36
+msgid "You can make your selections in each screen using the Arrow and Tab keys. At any point, if you select Back you will be returned to the previous screen."
+msgstr "Anda dapat membuat pilihan anda di tiap layar dengan menggunakan tombol Tanda Panah dan Tab. Di sembarang poin, jika anda memilih Kembali anda akan dikembalikan ke layar sebelumnya."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:38
+msgid "Before you start, you must first choose the administrator password for your system and enter it below. You will not see the password as you enter it."
+msgstr "Sebelum anda mulai, anda harus memilih kata sandi pengelola untuk sistem anda dan masukkan itu di bawah. Anda tidak akan melihat kata sandi yang anda masukkan itu."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:45
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:117
+msgid "Administrator password not set"
+msgstr "Kata sandi pengelola tidak diset"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:46
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:118
+msgid "Sorry, you must set the administrator password now."
+msgstr "Maaf, anda harus mengeset kata sandi pengelola sekarang juga."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:56
+msgid "Unprintable characters in password"
+msgstr "Ada karakter tidak bisa dicetak di dalam kata sandi"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:57
+msgid "The password must contain only printable characters."
+msgstr "Password harus berisi hanya karakter bisa dicetak."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:70
+msgid "it is based on your username"
+msgstr "ini berdasar pada nama pengguna anda"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:71
+msgid "it is based upon your password entry"
+msgstr "ini berdasar pada entri kata sandi anda"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:72
+msgid "it is derived from your password entry"
+msgstr "ini turunan dari entri kata sandi anda"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:73
+msgid "it is derivable from your password entry"
+msgstr "ini dapat diturunkan dari entri kata sandi anda"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:74
+msgid "it is too short"
+msgstr "ini terlalu pendek"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:75
+msgid "it is all whitespace"
+msgstr "ini tanda spasi semua"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:76
+msgid "it is too simplistic/systematic"
+msgstr "ini terlalu sederhana/sistematis"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:77
+msgid "it is based on a dictionary word"
+msgstr "ini berdasar pada kata di kamus"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:78
+msgid "it is based on a (reversed) dictionary word"
+msgstr "ini berdasar pada kata di kamus (yang dibalik)"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:79
+msgid "it does not contain numbers"
+msgstr "ini tidak mengandung angka"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:80
+msgid "it does not contain uppercase characters"
+msgstr "ini tidak mengandung huruf besar"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:81
+msgid "it does not contain lowercase characters"
+msgstr "ini tidak mengandung huruf kecil"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:82
+msgid "it does not contain special characters"
+msgstr "ini tidak mengandung special character"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:91
+msgid "Software error: password check failed"
+msgstr "Perangkat lunak galat: pemeriksaan kata sandi gagal"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:96
+msgid "Bad Password Choice"
+msgstr "Pilihan kata sandi jelek"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:98
+msgid "The password you have chosen is not a good choice, because "
+msgstr "Kata sandi pilihan anda tidak bagus, karena "
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:101
+msgid "Do you wish to choose a better one?"
+msgstr "Anda ingin memilih yang lebih baik?"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:110
+msgid "Please type your administrator password again to verify."
+msgstr "Silakan ketik ulang kata sandi pengelola untuk memeriksa."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:128
+msgid "Passwords do not match"
+msgstr "Kata sandi tidak cocok"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:129
+msgid "The two passwords did not match"
+msgstr "Kedua kata sandi tidak cocok"
+
+#~ msgid "The server has detected these ethernet adapters:"
+#~ msgstr "Server telah mendeteksi adapter ethernet ini:"
+
+#~ msgid "You now need to select the proper driver for your %s network ethernet adapter. The server can attempt to do this automatically, or you can do it manually - either by specifying the model of your ethernet adapter or by directly choosing a driver."
+#~ msgstr "Anda sekarang harus memilih driver yang sesuai untuk %s adapter ethernet jaringan anda. Server dapat mencoba untuk melakukan ini secara otomatis, atau anda dapat melakukannya secara manual - dengan penetapan model dari adapter ethernet anda atau dengan secara langsung memilih suatu driver."
+
+#~ msgid "Please select which device should be used for the backup file."
+#~ msgstr "Silakan pilih peralatan mana yang akan digunakan untuk mem-backup berkas."
+
+#~ msgid "Please select whether you want to operate in normal or swapped mode."
+#~ msgstr "Silakan pilih apakah anda ingin mengoperasikan dalam mode normal atau ditukar."
+
+#~ msgid "You have two Ethernet cards which use the same driver. The server will automatically designate one for your local network (called eth0) and one for your external Internet connection (called eth1). If this default assignment is not appropriate for your situation, you can select the opposite assignment using swapped mode. Most installations can accept the default setting of normal."
+#~ msgstr "Anda memiliki dua kartu ethernet yang menggunakan driver yang sama. Server secara otomatis akan menunjuk satu untuk jaringan lokal anda (disebut eth0) dan satu untuk koneksi internet eksternal (disebut eth1). Jika penempatan anggapan ini tidak sesuai dengan situasi anda, anda bisa memilih kebalikan dari penempatan ini menggunakan mode menukar. Kebanyakan instalasi bisa menerima penataan anggapan dari normal."
+
+#~ msgid "Select ethernet card assignment"
+#~ msgstr "Pilih penempatan kartu ethernet"
+
+#~ msgid "swapped"
+#~ msgstr "menukar"
+
+#~ msgid "eth1 is local, eth0 is external"
+#~ msgstr "eth1 adalah lokal, eth0 adalah eksternal"
+
+#~ msgid "normal"
+#~ msgstr "normal"
+
+#~ msgid "eth0 is local, eth1 is external"
+#~ msgstr "eth0 adalah lokal, eth1 adalah eksternal"
+
+#~ msgid "Please specify the driver to use for the %s ethernet adapter"
+#~ msgstr "Silahkan menentukan driver untuk digunakan oleh %s adapter ethernet"
+
+#~ msgid "Specify %s ethernet driver"
+#~ msgstr "Menentukan %s driver ethernet"
+
+#~ msgid "Please specify your %s ethernet adapter and corresponding driver"
+#~ msgstr "Silahkan menetapkan %s adapter ethernet anda dan driver yang sesuai"
+
+#~ msgid "Specify %s adapter and driver"
+#~ msgstr "Menentukan %s adapter dan driver"
+
+#~ msgid "Please select one of the following:"
+#~ msgstr "Silahkan memilih salah satu dari berikut:"
+
+#~ msgid "Select %s adapter manually"
+#~ msgstr "Memilih %s adapter secara manual"
+
+#~ msgid "Choose driver directly"
+#~ msgstr "Pilih driver secara langsung"
+
+#~ msgid "Choose driver by specifying ethernet adapter model"
+#~ msgstr "Memilih driver dengan menentukan model adapter ethernet"
+
+#~ msgid "unknown"
+#~ msgstr "tak dikenal"
+
+#~ msgid "Manually select driver for %s ethernet adapter"
+#~ msgstr "Memilih driver untuk %s adapter ethernet secara manual"
+
+#~ msgid "for chipset"
+#~ msgstr "untuk chipset"
+
+#~ msgid "Success"
+#~ msgstr "Berhasil"
+
+#~ msgid "You can scroll through this document using the up and down arrow keys or the Page Up and Page Down keys."
+#~ msgstr "Anda dapat menggulung dokumen ini dengan menggunakan tombol panah naik dan panah turun atau tombol Page Down dan Page Up."
+
+#~ msgid "Mitel Networks Corporation support and licensing information"
+#~ msgstr "Dukungan Mitel Networks Corporation dan informasi perijinan"
+
+#~ msgid "bytes"
+#~ msgstr "bytes"
+
+#~ msgid "Backup file found:"
+#~ msgstr "Berkas backup ditemukan:"
+
+#~ msgid "Backup file not found"
+#~ msgstr "Berkas backup tidak ditemukan"
+
+#~ msgid "Choose device to restore from"
+#~ msgstr "Pilih peralatan sumber pemulihan"
+
+#~ msgid "No removable media or device found"
+#~ msgstr "Tidak ada media removable atau peralatan yg ditemukan"
+
+#~ msgid "Backup medium not found"
+#~ msgstr "Peralatan backup tidak ditemukan"
+
+#~ msgid "Insert removable media containing your backup file, then hit the enter key."
+#~ msgstr "Pasang memory stick atau CDROM berisi berkas backup, kemudian tekan tombol enter."
+
+#~ msgid "Insert media containing backup"
+#~ msgstr "Pasang media yang berisi backup"
+
+#~ msgid "Remove removable media, then hit the enter key."
+#~ msgstr "Lepaskan memory stick atau disk USB, kemudian tekan tombol enter."
+
+#~ msgid "No removable and/or writable media or device found"
+#~ msgstr "Tidak ada media removable atau peralatan yg ditemukan"
+
+#~ msgid "Writable backup medium not found"
+#~ msgstr "Peralatan backup tidak ditemukan"
+
+#~ msgid "Insert media to use for backup"
+#~ msgstr "Pasang media yang digunakan untuk backup"
+
+#~ msgid "This configuration is not yet fully supported in these screens."
+#~ msgstr "Konfigurasi ini belum didukung sepenuhnya dalam layar ini."
+
+#~ msgid "The free and used disk count must equal one."
+#~ msgstr "Kapasitas disk siap pakai harus sama."
+
+#~ msgid "Please enter the password for your dynamic DNS service"
+#~ msgstr "Silakan masukkan kata sandi untuk layanan DNS dinamis anda"
+
+#~ msgid "Select dynamic DNS password"
+#~ msgstr "Pilih kata sandi DNS dinamis"
+
+#~ msgid "Please enter the account name for your dynamic DNS service"
+#~ msgstr "Silahkan memasukkan nama akun untuk layanan DNS dinamis anda"
+
+#~ msgid "Select dynamic DNS account"
+#~ msgstr "Pilih akun DNS dinamis"
+
+#~ msgid "Choose which dynamic DNS service you would like to use."
+#~ msgstr "Memilih layanan DNS dinamis mana yang akan anda pergunakan."
+
+#~ msgid "Please specify whether you wish to subscribe to a dynamic DNS service. Such services allow you to have a domain name without a static IP address, and are available from various organizations for free or for a reasonable charge. A notification must be sent to the dynamic DNS service whenever your IP address changes. Your server can automatically do this for some dynamic DNS services."
+#~ msgstr "Silahkan ditentukan apakah anda ingin berlangganan layanan DNS dinamis atau tidak. Layanan seperti itu memungkinkan anda memiliki nama domain tanpa alamat IP statis, dan tersedia gratis dari beragam organisasi atau membayar dengan harga yang layak. Pemberitahuan harus dikirim ke layanan DNS dinamis ketika alamat IP anda berubah. Server anda dapat melakukan ini secara otomatis untuk beberapa layanan DNS dinamis."
+
+#~ msgid "Select dynamic DNS service"
+#~ msgstr "Pilih layanan DNS dinamis"
+
+#~ msgid "custom DynDNS service"
+#~ msgstr "pengganti layanan DynDNS"
+
+#~ msgid "commercial service"
+#~ msgstr "layanan komersil"
+
+#~ msgid "free service"
+#~ msgstr "layanan bebas"
+
+#~ msgid "Do not use a dynamic DNS service"
+#~ msgstr "Jangan menggunakan layanan DNS dinamis"
+
+#~ msgid "Cannot read directory"
+#~ msgstr "Tidak dapat membaca direktori"

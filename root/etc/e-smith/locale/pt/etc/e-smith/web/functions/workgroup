@@ -1,0 +1,58 @@
+<lexicon lang="pt">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Trocar configuração de grupos de trabalho</trans>
+    </entry>	
+    <entry> 
+        <base>DESC_WORKGROUP</base>
+        <trans><![CDATA[ Entrar com o nome do grupo de trabalho do windows que este servidor deverá aparecer. ]]></trans>	
+    </entry>
+    <entry>
+        <base>LABEL_WORKGROUP</base>
+        <trans>Grupo de trabalho do windows</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERVERNAME</base>
+        <trans>Entrar com o nome que esee servidor deverá usar para conpartilhar arquivos com Windows e Macintosh.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERVERNAME</base>
+        <trans>Nome do Servidor</trans>
+    </entry>
+    <entry>
+        <base>DESC_PDC</base>
+        <trans><![CDATA[Este servidor deverá agir como grupo de trabalho e controlador de domínio em sua rede Windows? Você deverá deixar em branco para <b>Não</b> se outro servidor já estiver fazendo esse papel em sua rede.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_PDC</base>
+        <trans>Grupo de trbalho e Controlador de Domínio</trans>
+    </entry>
+    <entry>
+        <base>DESC_ROAM</base>
+        <trans><![CDATA[ Este servidor deve suportar roaming profiles? Você deverá deixar este campo como padrão para <b>Não</b> a não ser que tenha experiência em administrar um servidor Windows usando roaming profiles e saiba que esta opção é requerida. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_ROAM</base>
+        <trans>Perfis móveis</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>O novo grupo de trabalho foi salvo com sucesso</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP</base>
+        <trans>O nome do grupo de trabalho tem começar com uma letra (maiúscula ou minúscula), seguida de qualquer combinação de letras, números, barras em baixo, pontos e hifens.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SERVERNAME</base>
+        <trans>O nome do servidor tem que começar com uma letra (maiúscula ou minúscula), seguida de qualquer combinação de letras, números, barras em baixo, pontos e hifens.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP_MATCHES_SERVERNAME</base>
+        <trans>Os nomes do grupo de trabalho e servidor coincidem, quando comparados em letras minúsculas. Esses valores tem que ser diferentes para que o compartilhamento de arquivos seja ligado.</trans>
+    </entry>
+    <entry>
+        <base>Workgroup</base>
+        <trans>Grupo de trabalho</trans>
+    </entry>
+</lexicon>

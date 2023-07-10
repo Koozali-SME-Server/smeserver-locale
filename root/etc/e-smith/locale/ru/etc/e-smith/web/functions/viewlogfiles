@@ -1,0 +1,83 @@
+<lexicon lang="ru">
+    <entry>
+        <base>View log files</base>
+        <trans>Просмотр логфайлов</trans>
+    </entry>
+
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ Эта панель позволяет просматривать или скачивать файлы журналов, созданные службами работающим на сервере ]]></trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_SELECT_DESC</base>
+        <trans>Выберите лог файл для просмотра</trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>You may optionally specify a filter pattern to display only the lines from the log file which match this pattern. If you leave this field blank, all available lines of the log file will be displayed. Note that this option is not used if you download the logfile.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_LABEL</base>
+        <trans>Шаблон фильтра (необязательный)</trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>You may also optionally specify a highlight pattern to mark in bold any lines from the log file which match the highlight pattern. The highlight pattern is applied to any lines which have already matched the filter pattern. Note that this option is not used if you download the logfile.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_LABEL</base>
+        <trans>Шаблон подсветки (необязательный)</trans>
+    </entry>
+    <entry>
+        <base>END_DESC</base>
+        <trans>Обратите внимание, что это может занять некоторое время для формирования этих отчётов.</trans>
+    </entry>
+    <entry>
+        <base>VIEW</base>
+        <trans>Просмотр логфайла</trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_EMPTY</base>
+        <trans>Логфайл "{$filename}" пуст!</trans>
+    </entry>
+    <entry>
+        <base>VIEWING_TIME</base>
+        <trans>Просмотрен в {$time}.</trans>
+    </entry>
+    <entry>
+        <base>MATCH_HEADER</base>
+        <trans>Показаны строки соответствующие: "{$matchPattern}".</trans>
+    </entry>
+    <entry>
+        <base>HIGHLIGHT_HEADER</base>
+        <trans>Подсветить строки соответствующие: "{$highlightPattern}".</trans>
+    </entry>
+    <entry>
+        <base>NO_MATCHING_LINES</base>
+        <trans>Нет совпадающих строк.</trans>
+    </entry>
+    <entry>
+        <base>FILENAME_ERROR</base>
+        <trans><![CDATA[ <p>Ошибка при указании имени логфайла.</p> <p>Неверный тип отчёта "{$filename}".</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>REFRESH</base>
+	<trans>Обновить этот логфайл</trans>
+    </entry>
+    <entry>
+	<base>OP_DESC</base>
+	<trans><![CDATA[ <p>Вы должны выбрать между просмотром лог-файла в вашем браузере или загрузкой лог-файла на ваш компьютер. Если лог-файл особенно велик, вы можете загрузить его вместо того чтобы попытаться открыть его в браузере, так как это является проблемой для некоторых веб-браузеров.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>OP_LABEL</base>
+	<trans>Действие</trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_PAGE_DESC</base>
+	<trans><![CDATA[ <p>Your logfile download is now prepared. It will proceed as soon as you click on the &quot;Next&quot; button below, and instruct your browser to accept the download via the pop-up window that will appear.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_FILE</base>
+	<trans>Подготовка к загрузке логфайла {$logfile}.</trans>
+    </entry>
+</lexicon>

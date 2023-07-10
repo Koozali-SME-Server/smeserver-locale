@@ -1,0 +1,193 @@
+<lexicon lang="it"> 
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+	<base>Software installer</base>
+	<trans>Installazione Software</trans>
+    </entry>
+
+    <entry>
+        <base>SUCCESS</base>
+        <trans>La nuova configurazione è stata salvata.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_YUM_STATUS</base>
+        <trans>Verifica presenza aggiornamenti automatica</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_YUM_AUTOINSTALLUPDATES</base>
+	<trans>Installazione automatica aggiormanenti</trans>
+   </entry>
+    <entry>
+        <base>LABEL_YUM_AUTOINSTALLUPDATES_DESCRIPTION</base>
+        <trans>Se abilitato ha la precedenza sul semplice controllo ed avviso dell'esistenza di nuovi aggiornamenti e sul pre-scaricamento. Al contrario installerà gli aggiornamenti disponibili sui repository abilitati.. Per maggiori informazioni fare riferimento ai manuali di yum e yum-cron.</trans>
+   </entry>
+
+    <entry>
+	<base>LABEL_YUM_PACKAGEFUNCTIONS</base>
+	<trans>Gestione dei singoli pacchetti</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_YUM_PACKAGEFUNCTIONS</base>
+	<trans>Installazione software può gestire gruppi di pacchetti o pacchetti singoli. Per default, vengono gestiti solo gruppi di pacchetti. Se si desidera gestire pacchetti singoli abilitare questa opzione. L'opzione andrebbe usata solo da amministratori esperti.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_ENABLED_REPOSITORIES</base>
+	<trans>Repository abilitati</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_ENABLED_REPOSITORIES</base>
+	<trans>Installazione software può installare pacchetti da diversi repository. Per abilitare un repository, selezionarlo dalla lista. Per dibasilitarlo deselezionarlo dalla lista. Di default, solo il sofware stabile è disponibile per l'installazione.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_UPTODATE</base>
+        <trans><![CDATA[ <div class="success"><h2>Il sistema è aggiornato.</h2> Tutti gli aggiornamenti sono stati installati. </div> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_UPDATES_AVAILABLE</base>
+        <trans><![CDATA[ <div class="success"><h2>Aggiornamenti disponibili</h2> Ci sono aggiornamenti disponibili per il sistema. Installarli appena possibile. </div> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_AVAILABLE_UPDATES</base>
+        <trans>Aggiornamenti disponibili</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_AVAILABLE_UPDATES</base>
+        <trans>Di seguito sono riportati gli aggiornamenti disponibili. Tutti gli aggiornamenti disponibili dovrebbero esssere installati. Se ci sono degli aggiornamenti che non si desidera installare, deselezionarli dalla lista sottostante.</trans>
+    </entry>
+
+    <entry>
+        <base>INSTALL_UPDATES</base>
+        <trans>Installa aggiornamenti selezionati</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_INSTALL_UPDATES</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_UPDATES">Lista aggiornamenti disponibili</a> ]]></trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_AVAILABLE_SOFTWARE</base>
+	<trans>E' possibile installare il seguente software addizionale. Non installare software addizionale se non si è sicuri di quello che si sta facendo.</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_AVAILABLE_GROUPS</base>
+	<trans>E' possibile selezionare gruppi di software da installare dalla lista sottostante.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_AVAILABLE_GROUPS</base>
+	<trans>Gruppi disponibili</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_AVAILABLE_PACKAGES</base>
+	<trans>E' possibile selezionare pacchetti individuali da installare dalla lista sottostante.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_AVAILABLE_PACKAGES</base>
+	<trans>Pacchetti disponibili</trans>
+    </entry>
+
+    <entry>
+	<base>INSTALL_SOFTWARE</base>
+	<trans>Installa</trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_INSTALLED_SOFTWARE</base>
+	<trans>Elenco dei pacchetti installati nel sistema. Non rimuovere pacchetti se non si è sicuri di quello che si sta facendo.</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_INSTALLED_GROUPS</base>
+	<trans>E' possibile selezionare gruppi da rimuovere dalla lista sottostante.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_INSTALLED_GROUPS</base>
+	<trans>Gruppi installati</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_INSTALLED_PACKAGES</base>
+	<trans>E' possibile selezionare pacchetti singoli da rimuovere dalla lista sottostante.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_INSTALLED_PACKAGES</base>
+	<trans>Pacchetti installati</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_CONFIGURATION</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_CONFIGURATION">Cambia impostazioni installazione software</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_INSTALL_AVAILABLE</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_AVAILABLE">Installa software addizionale</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_REMOVE</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_REMOVE">Rimuovi software installato</a> ]]></trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_POSTUPGRADE_REQUIRED</base>
+	<trans>Il sistema deve essere riconfigurato dopo aver aggiunto o rimosso software o applicato aggiornamenti. <p> Fare clic sul pulsante Riconfigura in fondo a questa pagina per iniziare la procedura di riconfigurazione. <b>Il sistema verrà riavviato automaticamente al termine della riconfigurazione</b> </p></trans>
+     </entry>
+
+    <entry>
+	<base>SYSTEM_BEING_RECONFIGURED</base>
+	<trans>E' in corso un riavvio automatico del sistema per completare la procedura di riconfigurazione.</trans>
+    </entry>
+
+    <entry>
+      <base>1DAILY</base>
+      <trans>Ogni giorno</trans>
+    </entry>
+
+    <entry>
+      <base>2WEEKLY</base>
+      <trans>Ogni settimana</trans>
+    </entry>
+
+    <entry>
+      <base>3MONTHLY</base>
+      <trans>Ogni mese</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DELTARPMPROCESS</base>
+      <trans>Aggiornamento Delta Rpm</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DELTARPM</base>
+      <trans>Un pacchetto Delta Rpm contiene le differenza fra la vecchia e la nuova versione di un Rpm, il che consente un risparmio di banda. Per contro l'applicazione degli aggiornamenti causa un considerevole aumento di utilizzo della CPU.</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DOWNLOADONLY</base>
+      <trans>Aggiornamenti scaricati preliminarmente.</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DOWNLOADONLY_DESCRIPTION</base>
+      <trans>Gli aggiornamenti dei file Rpm possono essere scaricati durante la notte, rendendo più veloce il processo di yum update (saranno usati solo i repository abilitati).</trans>
+    </entry>
+
+</lexicon>

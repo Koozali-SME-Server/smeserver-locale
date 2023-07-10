@@ -1,0 +1,87 @@
+<lexicon lang="tr">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>E-posta Log Dosya Analizi</trans>
+    </entry>
+    <entry>
+	<base>INITIAL_DESC</base>
+	<trans><![CDATA[ <P>E-posta sisteminin, log dosyaların analizi sistem performansını ve gönderme sorunları teşhis etmek için yardım eder. Farklı raporlama çeşitleri mevcuttur.</P> <P>Bu raporların oluşturulması birkaç dakika sürebileceğini gözönünde bulundurmalısınız</P> ]]></trans>
+    </entry>
+    <entry>
+	<base>REPORT_TYPE</base>
+	<trans>Rapor türünü seçin</trans>
+    </entry>
+    <entry>
+	<base>GENERATE_REPORT</base>
+	<trans>Rapor oluştur</trans>
+    </entry>
+    <entry>
+	<base>LIST_OUTGOING</base>
+	<trans>Giden e-posta mesajları ve alıcılarını listele</trans>
+    </entry>
+    <entry>
+	<base>SUMMARIZE_QUEUE</base>
+	<trans>E-posta bekleme kuyruğundaki durum özeti</trans>
+    </entry>
+    <entry>
+	<base>SUCCESSFUL_DELIVERY_DELAY</base>
+	<trans>Bekleme zamanı dağılım başarısı</trans>
+    </entry>
+    <entry>
+	<base>REASONS_DEFERRAL</base>
+	<trans>Erteleme nedenleri</trans>
+    </entry>
+    <entry>
+	<base>REASONS_FAILURE</base>
+	<trans>Başarısız olma nedenleri</trans>
+    </entry>
+    <entry>
+	<base>BASIC_STATS</base>
+	<trans>Temel istatistikler</trans>
+    </entry>
+    <entry>
+	<base>RECIP_STATS</base>
+	<trans>Alıcı istatistikleri</trans>
+    </entry>
+    <entry>
+	<base>RECIP_HOSTS</base>
+	<trans>Alıcı alan adları</trans>
+    </entry>
+    <entry>
+	<base>RECIP_ORDERED</base>
+	<trans>E-posta alıcıları listesi sıralaması</trans>
+    </entry>
+    <entry>
+	<base>SENDER_STATS</base>
+	<trans>Gönderici istatistikleri</trans>
+    </entry>
+    <entry>
+	<base>SENDMAIL_STYLE</base>
+	<trans>Sendmail tarzı log</trans>
+    </entry>
+    <entry>
+	<base>REASONS_SUCCESS</base>
+	<trans>Başarı nedenleri</trans>
+    </entry>
+    <entry>
+	<base>SENDER_UIDS</base>
+	<trans>Göndrici UID numarası</trans>
+    </entry>
+    <entry>
+	<base>INVALID_REPORT_TYPE</base>
+	<trans>Geçersiz raporlama tipi:</trans>
+    </entry>
+    <entry>
+	<base>REPORT_GENERATED</base>
+	<trans>Oluşturulan rapor:</trans>
+    </entry>
+    <entry>
+	<base>END_OF_REPORT</base>
+	<trans>Raporun Sonu</trans>
+    </entry>
+    <entry>
+	<base>Mail log file analysis</base>
+	<trans>E-posta log dosyası analizi</trans>
+    </entry>
+
+</lexicon>

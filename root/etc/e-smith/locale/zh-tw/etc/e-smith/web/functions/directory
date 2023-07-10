@@ -1,0 +1,79 @@
+<lexicon lang="zh-tw">
+   <entry>
+     <base>FORM_TITLE</base>
+       <trans>改變LDAP名錄設定</trans>
+   </entry>	
+<entry>
+<base>LABEL_ROOT</base>
+<trans>伺服器根目錄</trans>
+</entry>
+
+<entry>
+<base>DESCRIPTION</base>
+<trans>LDAP伺服器讓您在伺服器主機上，提供可在網路上表列的使用者帳戶與群組，並且可讓Netscape Communicator通訊錄般的LDAP客戶端來存取。</trans>
+</entry>
+<entry>
+<base>DESC_DIRECTORY_ACCESS</base>
+<trans>您可對LDAP名錄進行存取控管：「私有」設定僅允許從您的區網進行存取，而「公開」設定允許來自網路上各地的存取。</trans>
+</entry>
+<entry>
+<base>DIRECTORY_ACCESS</base>
+<trans>存取LDAP名錄</trans>
+</entry>
+<entry>
+	<base>DESC_DEPARTMENT</base>
+<trans>這些區塊是您組織裡的LDAP預設值。每當您建立新使用者帳戶，您將受提示輸入所有區塊（每位使用者的區塊內容可能不一樣），但是您於該區塊的設定將被視為預設值。這種方便可以加速建立使用者帳戶。</trans>
+</entry>
+<entry>
+        <base>DEPARTMENT</base>
+        <trans>預設部門</trans>
+</entry>
+
+<entry>
+        <base>COMPANY</base>
+        <trans>預設公司</trans>
+</entry>
+<entry>
+        <base>STREET</base>
+        <trans>預設街道住址</trans>
+</entry>
+
+<entry>
+        <base>CITY</base>
+        <trans>預設城市</trans>
+</entry>
+
+<entry>
+        <base>PHONENUMBER</base>
+        <trans>預設電話</trans>
+</entry>
+
+<entry>
+<base>DESC_EXISTING</base>
+<trans>您既能讓現任使用者維持原貌、讓新用戶採用預設值，亦或可讓所有現任用戶採用上述預設值。</trans>
+</entry>
+
+
+
+<entry>
+<base>EXISTING</base>
+<trans>現任用戶</trans>
+</entry>
+<entry>
+<base>SUCCESS</base>
+<trans>新的LDAP預設值已存檔</trans>
+</entry>
+
+<entry>
+<base>LEAVE</base>
+<trans>維持原貌</trans>
+</entry>
+<entry>
+<base>UPDATE</base>
+<trans>新的預設值更新</trans>
+</entry>
+    <entry>
+        <base>Directory</base>
+        <trans>目錄</trans>
+    </entry>
+</lexicon>

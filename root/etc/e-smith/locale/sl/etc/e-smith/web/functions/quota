@@ -1,0 +1,106 @@
+<lexicon lang="sl">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Kreiraj, spremeni ali odstrani delez prostora uporabiskega racuna</trans>
+    </entry>
+    <entry>
+      <base>UNABLE_TO_OPEN_ACCOUNTS</base>
+      <trans>Ne morem odpreti baze racuna</trans>
+    </entry>
+    <entry>
+      <base>QUOTA_DESC</base>
+      <trans><![CDATA[ <p>Tu lahko dolocis koliko prostora na disku ima na razpolago uporabnik. S klikom na "Spremeni" poleg uporabnika, ki ga zelis spremeniti bos lahko spremenil nastavitve.. <p>Ce uporabnik prekoraci "Limit pred maximumom", bo generirano opozorilo. Ce je limit presezen za dlje kot teden dni ali ce je dosezen "Maximalni limit" potem uporabnik ne bo mogel vec shranjevati datotek in prejemati e-poste. <p>Nastavitev "0" pri obeh onemogoci limit za izbranega uporabnika. <p>Prostor na disku zajema uporabniski domaci direktorij, e-postni predal in vse datoteke, ki so v uporabnikovi lasti (tudi vsebina informacijskih listov). ]]></trans>
+    </entry>
+    <entry>
+      <base>CURRENT_USAGE_AND_SETTINGS</base>
+      <trans>Trenutna uporaba prostora in nastavitve</trans>
+    </entry>
+    <entry>
+      <base>LIMIT_WITH_GRACE</base>
+      <trans>Limit pred maksimumom</trans>
+    </entry>
+    <entry>
+      <base>LIMIT_WITH_GRACE_MB</base>
+      <trans>Limit pred maksimumom (MB)</trans>
+    </entry>
+    <entry>
+      <base>ABS_LIMIT</base>
+      <trans>Maksimalni limit</trans>
+    </entry>
+    <entry>
+      <base>ABS_LIMIT_MB</base>
+      <trans>Maksimalni limit (MB)</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_USAGE</base>
+      <trans>Trenutna uporaba (MB)</trans>
+    </entry>
+    <entry>
+      <base>COULD_NOT_GET_UID</base>
+      <trans>Ne morem ugotoviti uid za uporabnika:</trans>
+    </entry>
+    <entry>
+      <base>ERR_NO_SUCH_ACCT</base>
+      <trans>Napaka: tu ni racuna z nazivom:</trans>
+    </entry>
+    <entry>
+      <base>ERR_NOT_A_USER_ACCT</base>
+      <trans>Napaka: ta racun ni uporabniski racun:</trans>
+    </entry>
+    <entry>
+      <base>ACCOUNT_IS_TYPE</base>
+      <trans>To je racun tipa:</trans>
+    </entry>
+    <entry>
+      <base>MODIFY_USER_TITLE</base>
+      <trans>Spremeni prostor namenjen uporabnikom</trans>
+    </entry>
+    <entry>
+      <base>USER</base>
+      <trans>Uporabnik:</trans>
+    </entry>
+    <entry>
+      <base>CURRENTLY_HAS</base>
+      <trans>ima trenutno:</trans>
+    </entry>
+    <entry>
+      <base>FILES</base>
+      <trans>%d datoteke</trans>
+    </entry>
+    <entry>
+      <base>OCCUPYING</base>
+      <trans>zasedeno:</trans>
+    </entry>
+    <entry>
+      <base>MEGABYTES</base>
+      <trans>MegaBajtov</trans>
+    </entry>
+    <entry>
+      <base>INSTRUCTIONS</base>
+      <trans>Vnesi vrednost v celem stevilu kot dodatno opcijo pa lahko uporabis "K" za KiloBajte, "M" za Mega Bajte ali "G" za Giga Bajte. Vrednost "0" v obeh poljih onemogoci limitiranje prostora za uporabnika.</trans>
+    </entry>
+    <entry>
+      <base>SOFT_VAL_MUST_BE_NUMBER</base>
+      <trans>Napaka: "Limit pred maximumom" mora biti celo stevilo, ki mu sledi pripona "K", "M" ali "G".</trans>
+    </entry>
+    <entry>
+      <base>HARD_VAL_MUST_BE_NUMBER</base>
+      <trans>Napaka: "Maximalni limit" mora vsebovati celo stevilo, ki mu sledi pripona "K", "M" ali "G".</trans>
+    </entry>
+    <entry>
+      <base>ERR_HARD_LT_SOFT</base>
+      <trans>Napaka: "Maximalni limit" mora biti vecji ali enak "Limit pred maximumom".</trans>
+    </entry>
+    <entry>
+      <base>ERR_MODIFYING</base>
+      <trans>Pri spremembi je prislo do napake.</trans>
+    </entry>
+    <entry>
+      <base>SUCCESSFULLY_MODIFIED</base>
+      <trans>Uspesno spremenjen prostor za uporabniski racun:</trans>
+    </entry>
+    <entry>
+	<base>Quotas</base>
+	<trans>Prostor</trans>
+    </entry>
+</lexicon>

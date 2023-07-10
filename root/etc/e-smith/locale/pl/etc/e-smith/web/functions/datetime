@@ -1,0 +1,202 @@
+<lexicon lang="pl">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Konfiguracja daty i czasu</trans>
+    </entry>
+    <entry>
+      <base>INITIAL_DESC</base>
+      <trans>Tutaj możesz skonfigurować datę i czas dla tego serwera. Możesz użyć obecnego serwera czasu lub ręcznie ustawić datę i czas.</trans>
+    </entry>
+    <entry>
+      <base>SET_DATE_TITLE</base>
+      <trans>Ustaw datę i czas</trans>
+    </entry>
+    <entry>
+      <base>COULD_NOT_OPEN_TZ_FILE</base>
+      <trans>Błąd: nie można odczytać pliku strefy czasowej:</trans>
+    </entry>
+    <entry>
+      <base>JANUARY</base>
+      <trans>Styczeń</trans>
+    </entry>
+    <entry>
+      <base>FEBRUARY</base>
+      <trans>Luty</trans>
+    </entry>
+    <entry>
+      <base>MARCH</base>
+      <trans>Marzec</trans>
+    </entry>
+    <entry>
+      <base>APRIL</base>
+      <trans>Kwiecień</trans>
+    </entry>
+    <entry>
+      <base>MAY</base>
+      <trans>Maj</trans>
+    </entry>
+    <entry>
+      <base>JUNE</base>
+      <trans>Czerwiec</trans>
+    </entry>
+    <entry>
+      <base>JULY</base>
+      <trans>Lipiec</trans>
+    </entry>
+    <entry>
+      <base>AUGUST</base>
+      <trans>Sierpień</trans>
+    </entry>
+    <entry>
+      <base>SEPTEMBER</base>
+      <trans>Wrzesień</trans>
+    </entry>
+    <entry>
+      <base>OCTOBER</base>
+      <trans>Październik</trans>
+    </entry>
+    <entry>
+      <base>NOVEMBER</base>
+      <trans>Listopad</trans>
+    </entry>
+    <entry>
+      <base>DECEMBER</base>
+      <trans>Grudzień</trans>
+    </entry>
+    <entry>
+      <base>NEW_M/D/Y</base>
+      <trans>Nowy miesiąc/dzień/rok:</trans>
+    </entry>
+    <entry>
+      <base>NEW_H/M/S</base>
+      <trans>Nowa godzina/minuta/sekunda:</trans>
+    </entry>
+    <entry>
+      <base>AM/PM_AND_TZ</base>
+      <trans>AM/PM i strefa czasowa:</trans>
+    </entry>
+    <entry>
+      <base>NTP_ENABLE_DESC</base>
+      <trans>Serwer może okresowo synchronizować zegar systemowy z sieciowym serwerem czasu (NTP). Jeżeli wybrałeś tę opcję, wpisz nazwę hosta lub adres IP serwera NTP poniżej.</trans>
+    </entry>
+    <entry>
+      <base>NTP_CONFIGURE_DESC</base>
+      <trans>Serwer okresowo synchronizuje zegar systemowy z sieciowym serwerem czasu (NTP) określonym poniżej. Aby zsynchronizować go do innego sewera NTP, wpisz inną nazwę hosta lub adres IP poniżej.</trans>
+    </entry>
+    <entry>
+      <base>NTP_DISABLE_DESC</base>
+      <trans>Wybierz tę opcję, aby zatrzymać synchronizację z serwerem NTP. Kiedy usługa NTP jest wyłączona, możesz ręcznie ustawić datę i czas dzięki tej stronie</trans>
+    </entry>
+    <entry>
+      <base>NTP_SERVER</base>
+      <trans>Serwer NTP</trans>
+    </entry>
+    <entry>
+      <base>VERIFY_DATE_AND_TIME</base>
+      <trans>Sprawdź datę i czas</trans>
+    </entry>
+    <entry>
+      <base>NEW_DATE_AND_TIME</base>
+      <trans>Nowe ustawienia daty i czasu:</trans>
+    </entry>
+    <entry>
+      <base>SETTING_DATE_AND_TIME</base>
+      <trans>Ustawienia daty i czasu</trans>
+    </entry>
+    <entry>
+      <base>INVALID_DAY</base>
+      <trans>Błąd: nieprawidłowy dzień miesiąca:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_1_AND_31</base>
+      <trans>Proszę wybrać dzień pomiędzy 1 a 31.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_YEAR</base>
+      <trans>Błąd: nieprawidłowy rok:</trans>
+    </entry>
+    <entry>
+      <base>FOUR_DIGIT_YEAR</base>
+      <trans>Proszę wybrać czterocyfrowy rok między 1900 a 2200.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_HOUR</base>
+      <trans>Błąd: nieprawidłowy zapis godziny:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_1_AND_12</base>
+      <trans>Proszę wybrać godzinę między 1 a 12.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_MINUTE</base>
+      <trans>Błąd: nieprawidłowy zapis minuty:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_0_AND_59</base>
+      <trans>Proszę wybrać minutę między 0 a 59.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_SECOND</base>
+      <trans>Błąd: nieprawidłowy zapis sekundy</trans>
+    </entry>
+    <entry>
+      <base>UPDATING_CLOCK</base>
+      <trans><![CDATA[ Zegar systemowy będzie zaktualizowany. Proszę poczekać kilka sekund, a następnie kliknąć <A HREF="datetime?page=1&wherenext=Verify" TARGET="main">tutaj</A> ,aby sprawdzić zmiany ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_SETTING_CLOCK</base>
+      <trans>Wystąpił błąd podczas ustawiania czasu systemowego i zegaru sprzętowego.</trans>
+    </entry>
+    <entry>
+      <base>SERVER_DISABLED</base>
+      <trans>Serwer czasu sieciowego został pomyślnie wyłączony</trans>
+    </entry>
+    <entry>
+      <base>SERVER_DISABLED_DESC</base>
+      <trans><![CDATA[ Wyłączyłeś tą usługę. Teraz ten serwer będzie używał swojego wewnętrznego zegara, i <b>nie będzie</b> próbował go zsynchronizować do serwera czasu. ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_CHANGING_TS</base>
+      <trans>Wystąpił błąd podczas zmiany ustawień sieciowego serwera czasu</trans>
+    </entry>
+    <entry>
+      <base>INVALID_NTP_ADDR</base>
+      <trans>Nieprawidłowy adres serwera NTP:</trans>
+    </entry>
+    <entry>
+      <base>SETTINGS_CHANGED</base>
+      <trans>Ustawienia sieciowego serwera czasu zostały pomyślnie zmienione</trans>
+    </entry>
+    <entry>
+      <base>SYNC_WITH</base>
+      <trans>Ten serwer jest skonfigurowany do synchronizacji (przez internet) z serwerem: </trans>
+    </entry>
+    <entry>
+      <base>INVALID_NTP_SERVER</base>
+      <trans><![CDATA[ Nieprawidłowy serwer NTP, ten serwer <b>nie będzie</b> synchronizował czasu z serwerem NTP. ]]></trans>
+    </entry>
+    <entry>
+      <base>NETWORK_TIME_SERVER</base>
+      <trans>Sieciowy serwer czasu (NTP)</trans>
+    </entry>
+    <entry>
+      <base>NTP_CONFIGURE_TITLE</base>
+      <trans>Skonfiguruj sieciowego serwera czasu</trans>
+    </entry>
+    <entry>
+      <base>NTP_ENABLE_TITLE</base>
+      <trans>Włącz sieciowego serwera czasu</trans>
+    </entry>
+    <entry>
+      <base>NTP_DISABLE_TITLE</base>
+      <trans>Wyłącz sieciowego serwera czasu</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_SETTING</base>
+      <trans>Obecne ustawienia</trans>
+    </entry>
+    <entry>
+      <base>Date and time</base>
+      <trans>Data i czas</trans>
+    </entry>
+  </lexicon>

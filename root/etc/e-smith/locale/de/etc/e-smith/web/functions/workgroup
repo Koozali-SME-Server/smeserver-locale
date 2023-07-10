@@ -1,0 +1,58 @@
+<lexicon lang="de">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Arbeitsgruppen-Einstellungen ändern</trans>
+    </entry>	
+    <entry> 
+        <base>DESC_WORKGROUP</base>
+        <trans><![CDATA[ Geben Sie den Windows-Arbeitsgruppennamen an, mit dem dieser Server in einem Windows-Netzwerk unter "Netzwerkumgebung" erscheinen soll. ]]></trans>	
+    </entry>
+    <entry>
+        <base>LABEL_WORKGROUP</base>
+        <trans>Windows-Arbeitsgruppe</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERVERNAME</base>
+        <trans>Geben Sie den Namen an, den dieser Server für Windows und Macintosh Dateifreigaben benutzen soll.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERVERNAME</base>
+        <trans>Servername</trans>
+    </entry>
+    <entry>
+        <base>DESC_PDC</base>
+        <trans><![CDATA[Soll dieser Server als primärer Domänen-Controller für Ihr Windows-Netzwerk arbeiten? Sie sollten dies auf <b>Nein</b> belassen, wenn ein anderer Server in Ihrem Netzwerk bereits mit dieser Rolle arbeitet.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_PDC</base>
+        <trans>Arbeitsgruppe und Primärer Domänen-Controller</trans>
+    </entry>
+    <entry>
+        <base>DESC_ROAM</base>
+        <trans><![CDATA[ Sollen servergespeicherte Benutzerprofile zur Verfügung gestellt werden? Sie sollten diese Einstellung auf <b>Nein</b> belassen, es sei denn, daß Sie über fundierte Kenntnisse mit Windows und servergespeicherten Benutzerprofilen verfügen und Sie wissen, daß Sie diese Funktion benötigen. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_ROAM</base>
+        <trans>Servergespeicherte Benutzerprofile</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Die neuen Arbeitsgruppen-Einstellungen wurden gespeichert.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP</base>
+        <trans>Der Arbeitsgruppenname muß mit einem Buchstaben (Groß- oder Kleinschreibung) beginnen und darf nur Buchstaben, Zahlen, Unterstriche, Bindestriche und Punkte enthalten.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SERVERNAME</base>
+        <trans>Der Servername muß mit einem Buchstaben (Groß- oder Kleinschreibung) beginnen und darf nur Buchstaben, Nummern, Unterstriche und Bindestriche enthalten.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP_MATCHES_SERVERNAME</base>
+        <trans>Der Server- und Arbeitsgruppenname stimmen beim Vergleich in Kleinbuchstaben überein. Die Namen müssen jedoch unterschiedlich sein, um Verzeichnisfreigaben zu ermöglichen.</trans>
+    </entry>
+    <entry>
+        <base>Workgroup</base>
+        <trans>Arbeitsgruppe</trans>
+    </entry>
+</lexicon>

@@ -1,0 +1,79 @@
+<lexicon lang="pl">
+   <entry>
+     <base>FORM_TITLE</base>
+       <trans>Zmień ustawienia katalogu LDAP</trans>
+   </entry>	
+<entry>
+<base>LABEL_ROOT</base>
+<trans>Główny serwer</trans>
+</entry>
+
+<entry>
+<base>DESCRIPTION</base>
+<trans>Serwer LDAP, umożliwia zarządzanie w sieci użytkownikami i grupami, zgromadzonych na twoim serwerze. Możesz mieć do nich dostęp za pomocą klienta LDAP, jak Apache Directory Studio lub JXplorer. Skonfiguruj klienta LDAP, za pomocą danych jak lokalny adres IP, numer portu (domyślnie 389), i głównych parametrów serwera pokazanych poniżej.</trans>
+</entry>
+<entry>
+<base>DESC_DIRECTORY_ACCESS</base>
+<trans>Możesz ustawić dostęp do twojego katalogu LDAP: prywatne, jak dostęp do katalogu tylko z sieci lokalnej, oraz publiczny, który umożliwia dostęp z każdego miejsca za pomocą Internetu.</trans>
+</entry>
+<entry>
+<base>DIRECTORY_ACCESS</base>
+<trans>Dostęp do katalogu LDAP</trans>
+</entry>
+<entry>
+	<base>DESC_DEPARTMENT</base>
+<trans>Te ustawienia, są domyślnymi dla twojej firmy. Kiedy utworzysz nowe konto użytkownika, możesz wpisać własne ustawienia, jednak te wartości są pokazywane domyślnie. Aby tworzyć szybciej konta użytkowników, ustaw domyślne ustawienia dla katalogu LDAP.</trans>
+</entry>
+<entry>
+        <base>DEPARTMENT</base>
+        <trans>Domyślny oddział</trans>
+</entry>
+
+<entry>
+        <base>COMPANY</base>
+        <trans>Domyślna firma</trans>
+</entry>
+<entry>
+        <base>STREET</base>
+        <trans>Domyślny adres</trans>
+</entry>
+
+<entry>
+        <base>CITY</base>
+        <trans>Domyślne miasto</trans>
+</entry>
+
+<entry>
+        <base>PHONENUMBER</base>
+        <trans>Domyślny numer telefonu</trans>
+</entry>
+
+<entry>
+<base>DESC_EXISTING</base>
+<trans>Możesz zostawić stare dane, dla obecnych użytkowników, używając powyższych tylko dla nowych kont. Możesz także zastosować te ustawienia do wszystkich kont.</trans>
+</entry>
+
+
+
+<entry>
+<base>EXISTING</base>
+<trans>Dane katalogu dla obecnych użytkowników</trans>
+</entry>
+<entry>
+<base>SUCCESS</base>
+<trans>Nowe ustawienia katalogu LDAP zostały zapisane.</trans>
+</entry>
+
+<entry>
+<base>LEAVE</base>
+<trans>pozostaw</trans>
+</entry>
+<entry>
+<base>UPDATE</base>
+<trans>zaktualizuj z nowymi ustawieniami</trans>
+</entry>
+    <entry>
+        <base>Directory</base>
+        <trans>Katalog</trans>
+    </entry>
+</lexicon>

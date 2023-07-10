@@ -1,0 +1,106 @@
+<lexicon lang="de">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Anlegen, Ändern oder Entfernen von Speicherlimits von Benutzerkonten</trans>
+    </entry>
+    <entry>
+      <base>UNABLE_TO_OPEN_ACCOUNTS</base>
+      <trans>Es ist nicht möglich, die Kontendatenbank zu öffnen</trans>
+    </entry>
+    <entry>
+      <base>QUOTA_DESC</base>
+      <trans><![CDATA[ <p> Sie können die Speicherbelegung eines Benutzers auf Ihrem System begrenzen, indem Sie in der Zeile des Benutzers unter Aktion auf "Ändern" klicken. </p> <p> Wenn ein Benutzer das "Limit mit Gnadenfrist" erreicht, wird eine Warnung erzeugt. Wird dieses Limit für mehr als eine Woche überschritten oder der Benutzer erreicht das "Absolute Limit", können von Ihm keine Dateien mehr gespeichert werden. Dieser Benutzer erhält auch keine E-Mails mehr. </p> <p> Sobald '0' eingegeben wird, werden alle Limits für diesen Benutzer 'abgeschaltet'. </p> <p> Der Speicherplatz für den Benutzer beinhaltet das Home-Verzeichnis, E-Mails und alle Dateien, die diesem Benutzer in den i-bays gehören. </p> ]]></trans>
+    </entry>
+    <entry>
+      <base>CURRENT_USAGE_AND_SETTINGS</base>
+      <trans>Aktuelle Speicherbelegung und Einstellungen</trans>
+    </entry>
+    <entry>
+      <base>LIMIT_WITH_GRACE</base>
+      <trans>Limit mit Gnadenfrist</trans>
+    </entry>
+    <entry>
+      <base>LIMIT_WITH_GRACE_MB</base>
+      <trans>Limit mit Gnadenfrist (MB)</trans>
+    </entry>
+    <entry>
+      <base>ABS_LIMIT</base>
+      <trans>Absolutes Limit</trans>
+    </entry>
+    <entry>
+      <base>ABS_LIMIT_MB</base>
+      <trans>Absolutes Limit (MB)</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_USAGE</base>
+      <trans>Aktuell benutzt (MB)</trans>
+    </entry>
+    <entry>
+      <base>COULD_NOT_GET_UID</base>
+      <trans>Die UID konnte nicht ermittelt für den Nutzer:</trans>
+    </entry>
+    <entry>
+      <base>ERR_NO_SUCH_ACCT</base>
+      <trans>FEHLER: Sie haben kein Konto angegeben:</trans>
+    </entry>
+    <entry>
+      <base>ERR_NOT_A_USER_ACCT</base>
+      <trans>FEHLER: das Konto ist kein Benutzerkonto:</trans>
+    </entry>
+    <entry>
+      <base>ACCOUNT_IS_TYPE</base>
+      <trans>Dies ist ein Konto vom Typ:</trans>
+    </entry>
+    <entry>
+      <base>MODIFY_USER_TITLE</base>
+      <trans>Speicherlimits des Benutzers ändern</trans>
+    </entry>
+    <entry>
+      <base>USER</base>
+      <trans>Benutzer:</trans>
+    </entry>
+    <entry>
+      <base>CURRENTLY_HAS</base>
+      <trans>aktuell vergeben:</trans>
+    </entry>
+    <entry>
+      <base>FILES</base>
+      <trans>Dateien</trans>
+    </entry>
+    <entry>
+      <base>OCCUPYING</base>
+      <trans>belegt:</trans>
+    </entry>
+    <entry>
+      <base>MEGABYTES</base>
+      <trans>Megabytes</trans>
+    </entry>
+    <entry>
+      <base>INSTRUCTIONS</base>
+      <trans>Geben Sie das Speicherlimit an, optional mit nachfolgendem Zeichen 'K' für Kilobytes, 'M' für Megabytes, 'G' für Gigabytes oder 'T' für Terabyte. Eingaben ohne zusätzliches Zeichen werden als Megabyte gewertet. Eingabe '0' schaltet das jeweilige Limit für diesen Benutzer ab.</trans>
+    </entry>
+    <entry>
+      <base>SOFT_VAL_MUST_BE_NUMBER</base>
+      <trans>Fehler: Das Limit mit Gnadenfrist muss als Zahl eingegeben werden und kann die Zusätze K, M, G oder T enthalten.</trans>
+    </entry>
+    <entry>
+      <base>HARD_VAL_MUST_BE_NUMBER</base>
+      <trans>Fehler: Das "Absolute Limit" muss als ganze Zahl eingegeben werden und kann die Zusätze K, M, G oder T enthalten.</trans>
+    </entry>
+    <entry>
+      <base>ERR_HARD_LT_SOFT</base>
+      <trans>FEHLER: Das absolute Limit muß größer/gleich der Eingabe vom Limit mit Gnadenfrist sein.</trans>
+    </entry>
+    <entry>
+      <base>ERR_MODIFYING</base>
+      <trans>Es ist ein Fehler beim ändern des Benutzers aufgetreten.</trans>
+    </entry>
+    <entry>
+      <base>SUCCESSFULLY_MODIFIED</base>
+      <trans>Die Speicherbelegung für das Benutzerkonto wurde erfolgreich geändert:</trans>
+    </entry>
+    <entry>
+	<base>Quotas</base>
+	<trans>Speicherlimit (Quotas)</trans>
+    </entry>
+</lexicon>

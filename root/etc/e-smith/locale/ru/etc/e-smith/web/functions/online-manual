@@ -1,0 +1,15 @@
+<lexicon lang="ru">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>Онлайн руководство и прочая документация</trans>
+      </entry>	
+      <entry> 
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ <ul> <li><a target="new" href="https://wiki.koozali.org/documentation/manual/"> Онлайн руководство</a> <li><a target="new" href="https://wiki.koozali.org/documentation/FAQ/"> FAQs</a> </ul> <H2>Поддержка и лицензирование</H2> Это программное обеспечение выпущено на условиях указанных на странице <a href="/server-manager/cgi-bin/support"> Поддержка и лицензирование</a>. ]]></trans>
+      </entry>		
+      <entry>
+	<base>Online manual</base>
+	<trans>Онлайн руководство</trans>
+      </entry>
+
+</lexicon>

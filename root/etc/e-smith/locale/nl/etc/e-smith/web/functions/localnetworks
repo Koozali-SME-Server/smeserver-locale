@@ -1,0 +1,108 @@
+<lexicon lang="nl">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>Local networks</base>
+        <trans>Lokale netwerken</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ Om veiligheidsredenen zijn diverse diensten op de server enkel beschikbaar voor het lokale netwerk. U kunt deze lokale toegangsrechten echter wel toekennen aan additionele netwerken indien ze hieronder worden toegevoegd. Voor de meeste installaties zal deze lijst echter leeg worden gelaten.</p><p> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Netwerk toevoegen</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>Een lokaal netwerk toevoegen</trans>
+    </entry>
+    <entry>
+        <base>ADD_DESC</base>
+        <trans><![CDATA[ Elke parameter dient in de vorm #.#.#.# te zijn (elk # is een getal van 0 tot 255). De server software zal het eind gedeelte door een nul vervangen (host herkenningsteken) afhankelijk van het deelnetwerkmasker om er voor te zorgen dat het een geldig netwerkadres betreft. </P><P> "Router" dient het IP adres van de router op het lokale netwerk te zijn via welke het additionele netwerk te bereiken is. ]]></trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ADDRESS</base>
+        <trans>Netwerk adres</trans>
+    </entry>
+    <entry>
+        <base>SUBNET_MASK</base>
+        <trans>Subnet masker</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IP_ADDRESS</base>
+        <trans>Ongeldig IP adres</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SUBNET_MASK</base>
+        <trans>Ongeldig subnet masker</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Lokale netwerk verwijderen</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>U staat op het punt het volgende lokale netwerk te verwijderen.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_CONFIRM</base>
+        <trans>Weet u zeker dat u dit netwerk wilt verwijderen?</trans>
+    </entry>
+    <entry>
+        <base>DEFAULT</base>
+        <trans>standaard</trans>
+    </entry>
+    <entry>
+        <base>NUMBER_OF_HOSTS</base>
+        <trans>Aantal hosts</trans>
+    </entry>
+    <entry>
+        <base>NOT_ACCESSIBLE_FROM_LOCAL_NETWORK</base>
+        <trans>Fout: router adres {$networkRouter} is niet toegankelijk vanaf het lokale netwerk. Het netwerk is niet toegevoegd.</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_LOCAL</base>
+        <trans>Fout: netwerk {$network} (afgeleid van netwerk {$networkAddress} en subnet masker {$networkMask}) wordt al gezien als lokaal. Het netwerk is niet toegevoegd.</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_ADDED</base>
+        <trans>Fout: netwerk {$network} (afgeleid van netwerk {$networkAddress} en subnet masker {$networkMask}) is reeds aanwezig. Het netwerk is niet toegevoegd.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_CREATING_NETWORK</base>
+        <trans>Fout tijdens het toevoegen van het netwerk.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Netwerk {$network}/{$networkMask} via router {$networkRouter} is met succes toegevoegd.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_SINGLE_ADDRESS</base>
+        <trans>Netwerk {$network}/{$networkMask} via router {$networkRouter} is met succes toegevoegd. De server zal lokale toegangsprivileges toekennen aan het enkele IP adres {$network}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NETWORK_RANGE</base>
+        <trans>Netwerk {$network}/{$networkMask} via router {$networkRouter} is met succes toegevoegd. De server zal lokale toegangsprivileges toekennen aan {$totalHosts} IP adressen in het bereik {$firstAddr} tot {$lastAddr}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NONSTANDARD_RANGE</base>
+        <trans><![CDATA[ <p> Netwerk {$network}/{$networkMask} via router {$networkRouter} is met succes toegevoegd. </p> <p> De server zal lokale toegangsprivileges toekennen aan {$totalHosts} IP adressen in het bereik {$firstAddr} tot {$lastAddr}. </p> <p> Waarschuwing: de ProFTPd FTP server herkent dit niet-standaard deelnetwerkmasker niet. De versimpelde specificatie <b>{$simpleMask}</b> zal in plaats hiervan worden gebruikt. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_REMOVED_NETWORK</base>
+        <trans>Netwerk {$network}/{$networkMask} via router {$networkRouter} is met succes verwijderd.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_DELETING_NETWORK</base>
+        <trans>Er is een fout opgetreden tijdens het verwijderen van het netwerk.</trans>
+    </entry>
+    <entry>
+        <base>NO_ADDITIONAL_NETWORKS</base>
+        <trans>Geen additionele netwerken</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_DESC</base>
+        <trans>Er zijn lokale hosts waargenomen die zijn geconfigureerd voor het netwerk waarvan u op het punt staat dit te verwijderen. Standaard worden deze eveneens verwijderd. De-selecteer dit aankruisvakje indien dit om enig reden niet gewenst is. Let op, ze zullen niet meer worden behandeld als lokaal en zijn mogelijk niet bereikbaar na het verwijderen van dit netwerk.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_LABEL</base>
+        <trans>Verwijder hosts van netwerk</trans>
+    </entry>
+</lexicon>

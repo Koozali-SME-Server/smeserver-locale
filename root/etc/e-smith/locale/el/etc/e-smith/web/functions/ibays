@@ -1,0 +1,174 @@
+<lexicon lang="el" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Δημιουργία, τροποποίηση ή διαγραφή i-bays</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> <a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify">Προσθήκη i-bay</a> </p> <p> Μπορείτε να διαγράψετε οποιοδήποτε information bay ή να αρχικοποιήσετε (reset) τον κωδικό πρόσβασης κάνοντας κλικ στην αντίστοιχη εντολή δίπλα στο i-bay. Αν το information bay εμφανίζετε με κόκκινο, αυτό σημαίνει ότι ο κωδικός πρόσβασης δεν έχει ακόμη αλλάξει από τον αρχικό και απαιτείται σύντομα αλλαγή. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>Δημιουργία ή τροποποίηση ενός i-bay</trans>
+    </entry>
+    <entry>
+        <base>NAME_FIELD_DESC</base>
+        <trans>Η ονομασία του i-bay πρέπει να περιέχει μόνο μικρά γράμματα, αριθμούς, τελείες, παύλες και παύλες υπογράμμισης, και θα πρέπει να ξεκινάει με μικρό γράμμα. Για παράδειγμα "johnson", "intra", και "cust3.prj12" είναι έγκυρες ονομασίες, αλλά "3associates", "John Smith" και "Bus!Partner" δεν είναι. Η ονομασία έχει περιορισμό μήκους {$maxLength}χαρακτήρων.</trans>
+    </entry>
+    <entry>
+        <base>NAME_LABEL</base>
+        <trans>Ονομασία i-bay</trans>
+    </entry>
+    <entry>
+        <base>USER_ACCESS</base>
+        <trans>Πρόσβαση χρηστών μέσω κοινής χρήσης αρχείων ή χρήστη ftp</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS</base>
+        <trans>Δημόσια πρόσβαση μέσω ιστοσελίδας ή ανώνυμου ftp</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS_DESCRIPTION</base>
+        <trans>Η κατάσταση λειτουργίας δημόσιας πρόσβασης κατά την οποία "εκτός τοπικού δικτύου απαιτείται κωδικός πρόσβασης" δεν υποστηρίζεται από το διακομιστή FTP. Αν επιλέξετε αυτή την κατάσταση λειτουργίας, ο διακομιστής FTP θα ζητήσει κωδικό πρόσβασης τόσο εντός, όσο και εκτός του τοπικού δικτύου για το συγκεκριμένο i-bay.</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_DYNAMIC_CONTENT</base>
+        <trans>Εκτέλεση ενός δυναμικού περιεχομένου (CGI, PHP, SSI)</trans>
+    </entry>
+	<entry>
+        <base>HTTPS_Only</base>
+        <trans>Force secure connections</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Διαγραφή i-bay</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans><![CDATA[ <p> Πρόκειται να διαγράψετε το i-bay "{$name}" ({$description}). </p> <p> Όλα τα αρχεία που ανήκουν σε αυτό το i-bay θα διαγραφούν. </p> <p> Είστε σίγουροι ότι θέλετε να διαγράψετε το συγκεκριμένο i-bay; </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_IBAY</base>
+        <trans>Παρουσιάσθηκε σφάλμα κατά την δημιουργία του i-bay.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED_IBAY</base>
+        <trans>Το i-bay δημιουργήθηκε με επιτυχία.</trans>
+    </entry>
+    <entry>
+        <base>NO_IBAYS</base>
+        <trans>Δεν υπάρχουν αυτή την στιγμή ρυθμισμένα i-bays.</trans>
+    </entry>
+    <entry>
+        <base>CANT_FIND_IBAY</base>
+        <trans>Δεν βρίσκω λογαριασμο για {$name} (μήπως δεν υπάρχει;)</trans>
+    </entry>
+    <entry>
+        <base>CANT_CREATE_IBAY</base>
+        <trans>Δεν είναι δυνατή η δημιουργία νέου λογαριασμού για {$name} (μήπως υπάρχει ήδη;)</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_IBAY</base>
+        <trans>Παρουσιάσθηκε σφάλμα κατά την τροποποίηση του i-bay.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED_IBAY</base>
+        <trans>Επιτυχής τροποποίηση i-bay.</trans>
+    </entry>
+    <entry>
+        <base>VIRTUAL_HOST_MESSAGE</base>
+        <trans>Οι παρακάτω εικονικοί τομείς χρησιμοποιούσαν αυτό το information bay σαν περιεχόμενό τους και θα αλλαχθούν στον πρωτεύοντα ιστότοπο (στη συνέχεια μπορείτε να τους αλλάξετε σε κάτι άλλο).</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED_IBAY</base>
+        <trans>Επιτυχής διαγραφή i-bay.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_IBAY</base>
+        <trans>Παρουσιάσθηκε σφάλμα κατά τη διαγραφή του το i-bay.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_DESC</base>
+        <trans>Πρόκειται ν' αλλάξετε τον κωδικό πρόσβασης για το i-bay {$name}.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VALIDATION_ERROR</base>
+        <trans>Ο κωδικός πρόσβασης μπορεί να περιέχει μόνο γράμματα και αριθμούς.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VERIFY_ERROR</base>
+        <trans>Οι προσωπικοί κωδικοί πρόσβασης δεν ταυτίζονται.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_RESET_PASSWORD</base>
+        <trans>Επιτυχής αρχικοποίηση κωδικού πρόσβασης.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_RESETTING_PASSWORD</base>
+        <trans>Σφάλμα κατά την αρχικοποίηση του κωδικού πρόσβασης.</trans>
+    </entry>
+    <entry>
+        <base>VHOST_MESSAGE</base>
+        <trans><![CDATA[ <p>Οι παρακάτω εικονικοί τομείς χρησιμοποιούσαν αυτό το information bay σαν περιεχόμενό τους και θα αλλαχθούν στον πρωτεύοντα ιστότοπο (στη συνέχεια μπορείτε να τους αλλάξετε σε κάτι άλλο):</p> <ul>{$vhostList}</ul> ]]></trans>
+    </entry>
+    <entry>
+        <base>Information bays</base>
+        <trans>I-bays</trans>
+    </entry>
+    <entry>
+        <base>WGRG</base>
+        <trans>Εγγραφή = ομάδα, ανάγνωση = ομάδα</trans>
+    </entry>
+    <entry>
+        <base>WGRE</base>
+        <trans>Εγγραφή = ομάδα, ανάγνωση = όλοι</trans>
+    </entry>
+    <entry>
+        <base>WARG</base>
+        <trans>Εγγραφή = admin, ανάγνωση = ομάδα</trans>
+    </entry>
+    <entry>
+        <base>NONE</base>
+        <trans>Καμία πρόσβαση</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_NO_PASSWORD</base>
+        <trans>Τοπικό δίκτυο (δεν απαιτείται κωδικός πρόσβασης)</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_PASSWORD</base>
+        <trans>Τοπικό δίκτυο (απαιτείται κωδικός πρόσβασης)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_NO_PASSWORD</base>
+        <trans>Ολόκληρο Διαδίκτυο (δεν απαιτείται κωδικός πρόσβασης)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD</base>
+        <trans>Ολόκληρο Διαδίκτυο (απαιτείται κωδικός πρόσβασης)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD_REMOTE</base>
+        <trans>Ολόκληρο Διαδίκτυο (εκτός τοπικού δικτύου απαιτείται κωδικός πρόσβασης)</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IBAY_DESCRIPTION</base>
+        <trans>Σφάλμα: μη-αναμενόμενοι ή ελλείποντες χαρακτήρες στην περιγραφή i-bay</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>Η ονομασία του i-bay "{$acctName}" περιέχει άκυρους χαρακτήρες. Οι ονομασίες των i-bays πρέπει να αρχίζουν με μικρά γράμματα και να περιέχουν μόνο μικρά γράμματα, αριθμούς και παύλες.</trans>
+    </entry>
+    <entry>
+        <base>MAX_IBAY_NAME_LENGTH_ERROR</base>
+        <trans>Η ονομασία του i-bay "{$name}" είναι πολύ μεγάλη. Το μέγιστο είναι {$maxIbayNameLength} χαρακτήρες.</trans>
+    </entry>
+    <entry>
+        <base>ACCT_CLASHES_WITH_PSEUDONYM</base>
+        <trans><![CDATA[ Ο λογαριασμός "{$acctName}" έρχεται σε αντίθεση με τις λεπτομέρειες των ψευδωνύμων του λογαριασμού τύπου {$acctType}με την ονομασία "{$acct}". <p>Το {$acctName} αποτελεί ψευδώνυμο του {$acct}.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_EXISTS</base>
+        <trans>Ο λογαριασμός "{$acctName}" είναι ένας υφιστάμενος {$acctType} λογαριασμός.</trans>
+    </entry>
+</lexicon>

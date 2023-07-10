@@ -1,0 +1,171 @@
+<lexicon lang="tr">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Uzaktan erişim ayarlarını değiştir</trans>
+    </entry>	
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans>Aşağıdaki ayarlar, genel erişim ayarları herhangi bir kullanıcının yerel ağdan sunucunuza bağlanmasına olanak sağlar. Genel erişim ayarları herhengi bir ağdan ve internetten erişim sağlar. Erişim yok ayarı ise erişimie izin vermez. Varsayılan ayarları değiştirmenin güvenlik üzerinde etkilerini anlamak için, kullanıcı klavuzunun uzaktan erişim bölümünü okuyunuz.</trans>	
+    </entry>
+    <entry>
+	<base>SUCCESS</base>
+	<trans>Yeni uzaktan erişim ayarları kaydedildi.</trans>
+    </entry>
+    <entry>
+	<base>NO_ACCESS</base>
+	<trans>Erişim yok</trans>
+    </entry>
+    <entry>
+	<base>PASSWORD_LOGIN_PRIVATE</base>
+	<trans>Sadece yerel ağdan şifre girişlerini kabul et</trans>
+    </entry>
+    <entry>
+	<base>PASSWORD_LOGIN_PUBLIC</base>
+	<trans>Her yerden şifre girişlerini kabul et</trans>
+    </entry>
+    <entry>
+	<base>LABEL_TELNET_ACCESS</base>
+	<trans>Telnet erişimi</trans>
+    </entry>
+    <entry>
+	<base>LABEL_FTP_ACCESS</base>
+	<trans>FTP erişimi</trans>
+    </entry>
+    <entry>
+	<base>LABEL_FTP_LOGIN</base>
+	<trans>Şifreli FTP erişimi</trans>
+    </entry>
+    <entry>
+	<base>LABEL_PPTP</base>
+	<trans>PPTP istemci sayısı</trans>
+    </entry>
+     <entry>
+       <base>NUMBER_OF_VPN_CLIENTS_MUST_BE_LESSER_THAN_NUMBER_OF_IP_IN_DHCP_RANGE</base>
+       <trans>The number of VPN clients is greater than the number of reserved IP for DHCP. You should take a smaller number.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SSH_PORT</base>
+        <trans>ssh erişimi için TCP Portu</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH</base>
+	<trans>ssh erişimi</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH_ADMIN</base>
+	<trans>ssh üzerinden yönetim komutlarını kabul et</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH_PASSWORD_ACCESS</base>
+	<trans>Standart şifreyle ssh üzerinden bağlanmaya izin ver</trans>
+    </entry>
+    <entry>
+	<base>DESC_SSH</base>
+	<trans><![CDATA[ <hr class="sectionbar" /> <h2>ssh Ayarları</h2>Sunucunuza ssh erişimini kontrol edebilirsiniz. Genel erişim sadece deneyimli yneticilerin sorun tespit ve çözümleri için aktifleştirilmelidir. Geçerli bir sebep yoksa "Erişim yok" olarak ayarlamanız önerilir. ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_FTP_ACCESS</base>
+	<trans><![CDATA[ <hr class="sectionbar" /><h2>FTP Ayarları</h2> Sunucunuzun <b>FTP</b> erişimini kontrol edebilirsiniz. Bir zorunluluk olmadığı sürece 'erişim yok' seçeneğini seçmenizi öneririz . <p> Not: bu ayarlar sunucu erişimini sınırlar ve diğer erişim ayarlarını etkiler, özgün i-bayları da kapsar.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_FTP_LOGIN</base>
+	<trans><![CDATA[  i-bay ve kullanıcı hesapları için yetkilendirilmiş FTP erişimini kontrol edebilirsiniz. Bir zorunluluk olmadığı sürece buradaki ayarları özel olarak seçmenizi öneririz. <p> Not: güvenli sftp kullanıcıları bu sunucuya erişebilir, eğer ssh erişimi etkinse. Bu yönetm FTP erişiminizin şifre ve verilerini korur, oysa standard FTP güvenlik sağlamaz.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_PPTP</base>
+	<trans><![CDATA[ <hr class="sectionbar" /><h2>PPTP Ayarları</h2> Sunucunuza PPTP erişimine izin verebilirsiniz. Eğer PPTP erişimi vermek istemiyorsanız 0 değerini vermeniz yeterlidir. ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_VPN</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>PPTP Ayarları</h2> Sunucunuza PPTP erişimine izin verebilirsiniz. Eğer PPTP erişimi vermek istemiyorsanız 0 değerini vermeniz yeterlidir. ]]></trans>
+    </entry>
+    <entry>
+	<base>VALUE_ZERO_OR_POSITIVE</base>
+	<trans>Değer sıfır veya pozitif tam sayı olmalıdır</trans>
+    </entry>
+    <entry>
+	<base>REMOTE_MANAGEMENT</base>
+	<trans>Uzaktan Yönetim</trans>
+    </entry>
+    <entry>
+	<base>VALIDFROM_DESC</base>
+	<trans><![CDATA[ <hr class="sectionbar" /><h2>{$REMOTE_MANAGEMENT}</h2> <p>Uzaktaki bir sistemden, yönetim arabirime erişim izni verebilirsiniz. Alt ağ maskesi olarak 255.255.255.255 girin. HTTPS kullanarak belirtilen ağ aralığındaki herhangi bir sistemden erişim sağlanabilir.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_VALID_FROM_ENTRIES</base>
+	<trans>Uzaktan yönetim ağı tanımlamak için ayrıntıları aşağıya girin.</trans>
+    </entry>
+    <entry>
+	<base>SUBNET_MASK</base>
+	<trans>Alt ağ maskesi</trans>
+    </entry>
+    <entry>
+	<base>NUM_OF_HOSTS</base>
+	<trans>Etki alanı sayısı</trans>
+    </entry>
+    <entry>
+	<base>NO_ENTRIES_YET</base>
+	<trans>Henüz bir giriş yok</trans>
+    </entry>
+    <entry>
+	<base>INVALID_SUBNET_MASK</base>
+	<trans>Geçersiz alt ağ maskesi</trans>
+    </entry>
+    <entry>
+	<base>ERR_INVALID_PARAMS</base>
+	<trans>Hem ağı hem de alt ağ maskesini girin, veya ikisini de boş bırakın.</trans>
+    </entry>
+    <entry>
+	<base>ERR_NO_RECORD</base>
+	<trans>httpd-admin kayıtları ayar veritabanında bulunamadı</trans>
+    </entry>
+    <entry>
+	<base>Remote access</base>
+	<trans>Uzaktan erişim</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERIAL_CONSOLE_ACCESS</base>
+        <trans>Konsol</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERIAL_CONSOLE_ACCESS</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Konsol</h2> Sunucuya seri porttan bağlı bir terminalden konsol erişimi verebilirsiniz.]]></trans>
+    </entry>
+    <entry>
+        <base>PORT1_ENABLED</base>
+        <trans>1 seri porttan erişimi etkin</trans>
+    </entry>
+    <entry>
+        <base>PORT2_ENABLED</base>
+        <trans>2 seri porttan erişimi etkin</trans>
+    </entry>   
+
+    <entry>
+        <base>LABEL_PPTP_ACCESS</base>
+        <trans>PPTP varsayılan kullanıcı erişimi</trans>
+    </entry>
+    <entry>
+        <base>DESC_TELNET_ACCESS</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Telnet Ayarları</h2> DİKKAT: Telnet erişimi etkin, fakat bu özellik artık kullanılmayacaktır. Telnet güvenli olmadığı için sadece başka bir alternatif bulunmadığında kullanılmalıdır. Seçimi {$NO_ACCESS} olarak değiştirip bağlantı için ssh kullanılmalıdır. Telnet inaktif edildiğinde, artık bu sayfa görünmeyecektir. ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_IPSECRW</base>
+	<trans><![CDATA[ <h2>IPSEC İstemci (Roadwarrior) Ayarları</h2> IPSEC istemcilerin bu sunucuya erişimini aktifleştirebilirsiniz, girişler dijital sertifikalarla doğrulanır. IPSEC istemcilerinini erişimine izin vermek istemiyorsanız buradaki ayarı 0 yapmanız yeterlidir. ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_IPSECRW_SESS</base>
+	<trans>IPSEC İstemci Sayısı</trans>
+    </entry>
+    <entry>
+	<base>DESC_IPSECRW_RESET</base>
+	<trans><![CDATA[Bütün dijital sertifikaları sıfırlamak için, burayı kullanabilirsiniz.<br>Herhangi eski bir sertifikanın geçerliliği kalmayacaktır, <b><i>bütün IPSEC istemcileri yeni sertifikaları edinmelidir!</i></b>. ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_IPSECRW_RESET</base>
+	<trans>Dijital sertifikaları sıfırla</trans>
+    </entry>
+    <entry>
+        <base>DESC_IPSEC_VPN_UNAVAILABLE</base>
+        <trans>IPSEC VPN is not installed. Please install the contrib if you need VPN access.</trans>
+    </entry>
+</lexicon>

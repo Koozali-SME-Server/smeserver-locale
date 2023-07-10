@@ -1,0 +1,141 @@
+<lexicon lang="pt" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Gerenciar domínios</trans>
+    </entry>
+    <entry>
+        <base>FORM_DESCRIPTION</base>
+        <trans><![CDATA[ <p>Quando criar um domínio virtual, seu servidor será capaz de receber e-mail para este domínio e também ser um hospedeiro de páginas web para este domínio.</p> <p><a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CREATE">Add domain</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>Não existem domínios virtuais no sistema.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST_OF_DOMAINS</base>
+        <trans>Lista atual de domínios</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_SITE</base>
+        <trans>site primário</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>compartilhamento {$content}</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Criar um novo domínio virtual</trans>
+    </entry>
+    <entry>
+        <base>CONTENT_FIELD_DESCRIPTION</base>
+        <trans>Para o web site, você pode escolher o web site primário ou qualquer compartilhamento como conteúdo.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME_VALIDATION_ERROR</base>
+        <trans>Erro: caracter inesperado ou faltando no nome de domínio {$domainName}. O nome do domínio deve conter uma ou mais letras, números, pontos e sinal de menos. Não criou novo domínio.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_DESCRIPTION_VALIDATION_ERROR</base>
+        <trans>Erro: caracter inesperado ou faltando na descrição do domínio {$domainDesc}. Não criou novo domínio.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_IN_USE_ERROR</base>
+        <trans>Erro: domínio {$domainName} já está em uso. Não criou novo domínio.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_DOMAIN_ERROR</base>
+        <trans>Erro: domínio {$domainName} é o nome de domínio seu sistema. Você não pode ter um domínio virtual com o mesmo nome. Novo domínio não criado.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>Domínio virtual {$domainName} criado com sucesso. Seu servidor web está sendo reinicializado. Os liks desta página estarão inativos até que a reinicialização do servidor de complete.</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_TITLE</base>
+        <trans>Modificar domínio virtual</trans>
+    </entry>
+    <entry>
+        <base>NONEXISTENT_DOMAIN_ERROR</base>
+        <trans>Erro: {$domainName} não é um domínio existente.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>Domínio virtual {$domainName} modificado com sucesso. Seu servidor web está sendo reinicializado. Os liks desta página estarão inativos até que a reinicialização do servidor de complete.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Remover domínio virtual</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESCRIPTION</base>
+        <trans><![CDATA[ <p> Você está prestes a remover o domínio virtual {$domain} ({$domainDesc}). </p> <p> <b>Tem certeza que deseja remover este domínio?</b> </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_REMOVING_DOMAIN</base>
+        <trans>Erro: falha interna enquanto removia o domínio virtual {$domain}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>Removeu o domínio virtual {$domain} com sucesso. Seu servidor web está sendo reinicializado. Os liks desta página estarão inativos até que a reinicialização do servidor de complete.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS_CURRENT</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Configuração de DNS corporativo</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>BUTTON_CORPORATE_DNS</base>
+        <trans><![CDATA[ <a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CORPORATE_DNS">Modificar configurações de DNS corporativo</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS</base>
+        <trans>Se seu servidor não possui acesso direto a Internet ou você tiver requerimentos especiais para resolução de DNS, entre com endereço IP do servidor DNS aqui. Estes campos devem ser deixados em branco a não ser que você tenha uma razão específica para configurar outro servidor DNS. Você não deve entrar o endereço IP do servidor DNS do seu provedor aqui, pois o servidor é capaz de resolver todos os nomes DNS da Internet sem configuração adicional.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_PRIMARY</base>
+        <trans>Servidor primário de DNS corporativo</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_SECONDARY</base>
+        <trans>Servidor secundário de DNS corporativo</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_NAMESERVERS</base>
+        <trans>Você pode selecionar se, este domínio será resolvido localmente, por meio dos servidores DNS corporativos, ou resolvidos por servidores DNS da Internet. O padrão será correto para a maioria das redes.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_NAMESERVERS</base>
+        <trans>Servidores de domínio DNS</trans>
+    </entry>
+
+    <entry>
+        <base>localhost</base>
+        <trans>Resolver localmente</trans>
+    </entry>
+
+    <entry>
+        <base>internet</base>
+        <trans>Servidores DNS da Internat</trans>
+    </entry>
+
+    <entry>
+        <base>corporate</base>
+        <trans>Servidores DNS corporativos</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Voce está prestes a remover o domínio</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans>Voce tem certeza que desaja remover este domínio?</trans>
+    </entry>
+
+</lexicon>

@@ -1,0 +1,114 @@
+<lexicon lang="tr">
+    <entry>
+      <base>NO_PSEUDONYMS</base>
+      <trans><![CDATA[ <b>Bu sistemde takma ad bulunmuyor.</b> ]]></trans>
+     </entry>
+    <entry>
+        <base>REMOVE_PSEUDONYM</base>
+        <trans>Takma ad sil</trans>
+    </entry>
+    <entry>
+        <base>ABOUT_TO_REMOVE</base>
+        <trans><![CDATA[ Takma adı silmek üzeresiniz:<br> <b>Devam etmek istediğinizden eminmisiniz?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Takma ad oluştur, değiştir veya sil</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans><![CDATA[ <p>Sunucu her kullanıcı gurubu için otomatik olarak e-posta takma adı oluşturur. Kullanıcı listesi için e-posta tanımlamak için, yeni bir grup oluşturun sunucunuz mevcut listeyı koruyacaktır.</p> <p>Mevcut kullanıcı ve gruplar için takma adlar tanımlanabilir. Örneğin, web tasrımcılarınız için "webmaster" adında takma ad tanımlamak isteyebilirsiniz veya  "joseph" isimli kullanıcı için "joe" takma adını tanımlayabilirsiniz.</p> <p>Sunucunuz otomatik olarak ad.soyad ve ad_soyad takma adını oluşturur ve "everyone" adında bütün kullanıcıları kapsayan takma ad oluşturulur.</p> <p>Sisteminizde barındırılan alanlar ve kullanıcılar için e-posta adları için de takma adlar tanımlayabilirsiniz. Örneğin "mary" isimli kullanıcıya "sales@virtualdomain1.com" adresini yönlendirmek ve "john" isimli kullanıcıya "sales@virtualdomain2.com" adresi yönlendirilebilir. E-posta adları oluşturulmadan önce barındırıcı ve kullanıcı adları oluşturulmalı.</p> <p>Takma adını bir başka takma ada yönlendirilebilir, bu özellik sınırlıdır. Örneğin "webmaster" takma adı "techsupport" takma adına yönlendirilebilir bu da "ray" isimli kullanıcıya yönlendirilebilir. Bu durum bir kullanıcı organizasyon içerisinde birden fazla görev üstlendiğinde kullanışlı olur.</p> <p>Takma adları değiştirmek veya silmek için adın sonundaki ilgili seçeneği seçin.</p>]]></trans>
+    </entry>
+    <entry>
+        <base>LOCAL_ONLY</base>
+        <trans>(sadece yerel ağ)</trans>
+    </entry>
+    <entry>
+        <base>SELECT_ACCOUNT</base>
+        <trans>Hesap veya grup seçin</trans>
+    </entry>
+    <entry>
+        <base>SELECT_INTERNAL</base>
+        <trans>Sadece yerel ağ</trans>
+    </entry>
+    <entry>
+        <base>CLICK_TO_CREATE</base>
+        <trans>Takma ad ekle</trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM</base>
+        <trans>Takma ad</trans>
+    </entry>
+    <entry>
+        <base>USER_OR_GROUP</base>
+        <trans>Kullanıcı veya grup</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_PSEUDONYMS</base>
+        <trans><![CDATA[<b>Mevcut takma adların listesi</b>]]></trans>
+    </entry>
+    <entry>
+        <base>TITLE_CREATE</base>
+        <trans>Takma ad oluştur</trans>
+    </entry>
+    <entry>
+        <base>DESC_PSEUDONYM_NAME</base>
+       <trans>Takma ad için açılan menüden mevcut kullanıcı veya grup seçin</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_PSEUDONYM</base>
+        <trans>Takma Adları Değiştir</trans>
+    </entry>     
+       <entry>
+        <base>PSEUDONYM_NAME</base>
+        <trans>Takma ad</trans>
+    </entry>
+    <entry>
+        <base>VALID_PSEUDONYM_NAMES</base>
+        <trans><![CDATA[ Takma adlar sadece küçük harflerden ,sayılardan ,  nokta, tire ve altçizgiden oluşmalı ve küçük harf veya rakamla başlamalıdır. Örneğin "sales", "john.holland", "123" ve "email-administrator" geçerli takma adlardır, fakat "John Smith" and "Henry Miller" geçerli değil. <p>E-posta adları için de takma dlar tanımlanabilir ve (sanal) alan adları tanımlanabilir bunlar bu sunucuda geçerli olur. Örneğin "fred@virtualdomain.com" tanımlaması "mary" yönlendirilebilir (veya geçerli herhengi bir kullanıcıya).</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>NAME_IN_USE</base>
+        <trans>Hata: Bu ad kullanımda. Bu ada sahip bir takma isim tanımlayamazsınız.</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_PSEUDONYM</base>
+        <trans>Bu hesap bir takma ad değil</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_DOMAIN</base>
+        <trans>Bu alan adı bu sunucuda barındırılmıyor</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_NOACCT</base>
+        <trans>Bu hesap bu sunucuda barındırılmıyor</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_SAMEACCT</base>
+        <trans>Takma ad hesapla aynı ada sahip olamaz</trans>
+    </entry>
+    <entry>
+        <base>CREATE_SUCCEEDED</base>
+        <trans>Takma ad başarıyla tanımlandı</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_SUCCEEDED</base>
+        <trans>Takma ad başarıyla değiştirildi</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_SUCCEEDED</base>
+        <trans>Takma ad başarıyla silindi</trans>
+    </entry>
+    <entry>
+      <base>EVERYONE</base>
+      <trans>Herkes</trans>
+    </entry>
+      <entry>
+        <base>Pseudonyms</base>
+        <trans>Takma adlar</trans>
+      </entry>
+
+</lexicon>

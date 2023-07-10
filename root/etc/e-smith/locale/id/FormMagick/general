@@ -1,0 +1,520 @@
+<lexicon lang="id">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>Collaboration</base>
+        <trans>Kolaborasi</trans>
+    </entry>
+    <entry>
+      <base>Administration</base>
+      <trans>Administrasi</trans>
+    </entry>
+    <entry>
+        <base>Security</base>
+        <trans>Keamanan</trans>
+    </entry>
+    <entry>
+        <base>Configuration</base>
+        <trans>Konfigurasi</trans>
+    </entry>
+    <entry>
+        <base>Miscellaneous</base>
+        <trans>Lain-lain</trans>
+    </entry>
+    <entry>
+        <base>Your Settings</base>
+        <trans>Pengaturan anda</trans>
+    </entry>
+    <entry>
+        <base>SAVE</base>
+        <trans>Simpan</trans>
+    </entry>
+    <entry>
+        <base>CANCEL</base>
+        <trans>Batal</trans>
+    </entry>
+    <entry>
+        <base>ENABLED</base>
+        <trans>Enabled</trans>
+    </entry>
+    <entry>
+        <base>DISABLED</base>
+        <trans>Disabled</trans>
+    </entry>
+    <entry>
+        <base>NO</base>
+        <trans>Tidak</trans>
+    </entry>
+    <entry>
+        <base>YES</base>
+        <trans>Ya</trans>
+    </entry>
+    <entry>
+        <base>ADD</base>
+        <trans>Tambah</trans>
+    </entry>
+    <entry>
+        <base>CREATE</base>
+        <trans>Buat</trans>
+    </entry>
+    <entry>
+        <base>MODIFY</base>
+        <trans>Ubah</trans>
+    </entry>
+    <entry>
+        <base>REMOVE</base>
+        <trans>Hapus</trans>
+    </entry>
+    <entry>
+        <base>COMMENT</base>
+        <trans>Komentar</trans>
+    </entry>
+    <entry>
+        <base>NEXT</base>
+        <trans>Selanjutnya</trans>
+    </entry>
+    <entry>
+        <base>SELF</base>
+        <trans>Sendiri</trans>
+    </entry>
+    <entry>
+        <base>REMOTE</base>
+        <trans>Remote</trans>
+    </entry>
+    <entry>
+        <base>LOCAL</base>
+        <trans>Lokal</trans>
+    </entry>
+    <entry>
+        <base>ACTION</base>
+        <trans>Aksi</trans>
+    </entry>
+    <entry>
+        <base>NETWORK</base>
+        <trans>Jaringan</trans>
+    </entry>
+    <entry>
+        <base>ROUTER</base>
+        <trans>Router</trans>
+    </entry>
+    <entry>
+        <base>OPERATION_STATUS_REPORT</base>
+        <trans>Laporan status operasi</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT</base>
+        <trans>Akun</trans>
+    </entry>
+    <entry>
+        <base>GROUP</base>
+        <trans>Grup</trans>
+    </entry>
+    <entry>
+        <base>DESC_SECTIONBAR</base>
+        <trans><![CDATA[ <hr class="sectionbar"/> ]]></trans>
+    </entry>
+    <entry>
+        <base>NO_PIPES_ALLOWED</base>
+        <trans>Simbol 'pipe' (|) tidak diperbolehkan dalam field ini</trans>
+    </entry>
+    <entry>
+        <base>ERROR_BELOW</base>
+        <trans>ERROR: Terjadi kesalahan dalam validasi halaman ini. Silakan gulung kebawah dan temukan masalah tersebut.</trans>
+    </entry>
+    <entry>
+        <base>ACCESS</base>
+        <trans>Akses</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_LOCKED</base>
+        <trans>Akun dikunci</trans>
+    </entry>
+    <entry>
+        <base>GROUP_ADD</base>
+        <trans>Tambah Grup</trans>
+    </entry>
+    <entry>
+        <base>NETWORKS_ALLOW_LOCAL</base>
+        <trans>Bolehkan akses hanya dari jaringan lokal</trans>
+    </entry>
+    <entry>
+        <base>NETWORKS_ALLOW_PUBLIC</base>
+        <trans>Bolehkan akses publik (seluruh internet)</trans>
+    </entry>
+    <entry>
+        <base>ERROR_PASSWORD_CHANGE</base>
+        <trans>Terjadi kesalahan saat mencoba mengganti password. Pastikan bahwa anda sudah mengisikan password lama dengan benar.</trans>
+    </entry>
+    <entry>
+        <base>BACK</base>
+        <trans>Kembali</trans>
+    </entry>
+    <entry>
+        <base>BACKUP</base>
+        <trans>Backup</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION_BRIEF</base>
+        <trans>Deskripsi singkat</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE</base>
+        <trans>Ganti password</trans>
+    </entry>
+    <entry>
+        <base>RESET_PASSWORD_TITLE</base>
+        <trans>Reset Password user</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_PASSWORD_CHANGE</base>
+        <trans>Ganti password akun</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>Isi</trans>
+    </entry>
+    <entry>
+        <base>CREATE_GROUP</base>
+        <trans>Buat grup pengguna</trans>
+    </entry>
+    <entry>
+        <base>USER_LIST_CURRENT</base>
+        <trans>Daftar pengguna</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans>Gambaran</trans>
+    </entry>
+    <entry>
+        <base>DESTINATION</base>
+        <trans>Tujuan</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME</base>
+        <trans>Nama domain</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN</base>
+        <trans>Domain</trans>
+    </entry>
+    <entry>
+        <base>DOMAINS</base>
+        <trans>Domain-domain</trans>
+    </entry>
+    <entry>
+        <base>DOWNLOAD</base>
+        <trans>Download</trans>
+    </entry>
+    <entry>
+        <base>ERROR_UPDATING_CONFIGURATION</base>
+        <trans>Terjadi kesalahan saat memutakhirkan konfigurasi sistem.</trans>
+    </entry>
+    <entry>
+        <base>GROUP_MEMBERS</base>
+        <trans>Anggota Grup</trans>
+    </entry>
+    <entry>
+        <base>GROUP_NAME</base>
+        <trans>Nama Grup</trans>
+    </entry>
+    <entry>
+        <base>GROUPS</base>
+        <trans>Grup</trans>
+    </entry>
+    <entry>
+        <base>IP_ADDRESS</base>
+        <trans>Alamat IP</trans>
+    </entry>
+    <entry>
+        <base>IP_ADDRESS_OR_FQDN</base>
+        <trans>Alamat IP</trans>
+    </entry>
+    <entry>
+        <base>USER_INVALID</base>
+        <trans>Pengguna Invalid</trans>
+    </entry>
+    <entry>
+        <base>LOCATION</base>
+        <trans>Lokasi</trans>
+    </entry>
+    <entry>
+        <base>MB</base>
+        <trans>Mb</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_USER_GROUP</base>
+        <trans>Ubah grup pengguna</trans>
+    </entry>
+    <entry>
+        <base>NAME</base>
+        <trans>Nama</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_VERIFY_NEW</base>
+        <trans>Password baru(verifikasi):</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_NEW</base>
+        <trans>Password baru:</trans>
+    </entry>
+    <entry>
+        <base>OFF</base>
+        <trans>Padam</trans>
+    </entry>
+    <entry>
+        <base>OK</base>
+        <trans>Ok</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_OLD</base>
+        <trans>Password lama:</trans>
+    </entry>
+    <entry>
+        <base>ON</base>
+        <trans>Hidup</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD</base>
+        <trans>Kata kunci</trans>
+    </entry>
+    <entry>
+        <base>PERFORM</base>
+        <trans>Jalankan</trans>
+    </entry>
+    <entry>
+        <base>RECONFIGURE</base>
+        <trans>Rekonfigurasi</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_USER_GROUP</base>
+        <trans>Hapus grup pengguna</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_RESET</base>
+        <trans>Reset Password</trans>
+    </entry>
+    <entry>
+        <base>RESTORE</base>
+        <trans>Kembalikan</trans>
+    </entry>
+    <entry>
+        <base>SHUTDOWN</base>
+        <trans>Tutup padam</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Berhasil</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME_INVALID</base>
+        <trans>Nama akun anda invalid</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME_INVALID_CHARS</base>
+        <trans>Nama akun anda mengandung karakter yang tidak diperkenankan</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_OLD_INVALID_CHARS</base>
+        <trans>Password lama anda mengandung karakter yang tidak diperkenankan</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_INVALID_CHARS</base>
+        <trans>Password anda mengandung karakter yang tidak diperkenankan</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_VERIFY_ERROR</base>
+        <trans>Password yang anda masukkan tidak sama.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_USER_NONE</base>
+        <trans>Tidak ada akun pengguna dalam sistem ini.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_GROUP_NONE</base>
+        <trans>Tidak ada grup pengguna dalam sistem.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_INVALID_CHARS</base>
+        <trans>Karakter yang tidak diharapkan dalam deskripsi</trans>
+    </entry>
+    <entry>
+        <base>USER_NAME</base>
+        <trans>Nama pengguna</trans>
+    </entry>
+    <entry>
+        <base>YOUR_ACCOUNT</base>
+        <trans>Akun anda:</trans>
+    </entry>
+    <entry>
+      <base>YOUR_ACCOUNT_INVALID</base>
+      <trans>Nama akun anda invalid</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE_SUCCESS</base>
+        <trans>Password anda telah berhasil diubah</trans>
+    </entry>
+    <entry>
+        <base>FM_NONBLANK</base>
+        <trans>Field ini tidak boleh dikosongkan</trans>
+    </entry>
+    <entry>
+        <base>FM_INTEGER</base>
+        <trans>Field ini harus berisi bilangan bulat positif</trans>
+    </entry>
+    <entry>
+        <base>FM_NUMBER</base>
+        <trans>Field ini harus berisi angka</trans>
+    </entry>
+    <entry>
+        <base>FM_WORD</base>
+        <trans>Field ini harus tampak seperti kata tunggal.</trans>
+    </entry>
+    <entry>
+        <base>FM_DATE</base>
+        <trans>Data yang dimasukkan tidak dapat dikenali sebagai tanggal</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER1</base>
+        <trans>Anda harus memasukkan nomor kartu kredit</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER2</base>
+        <trans>Nomor kartu kredit tidak boleh mengandung selain angka, spasi atau tanda minus</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER3</base>
+        <trans>Harus 14 karakter atau lebih</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER4</base>
+        <trans>Sepertinya bukan nomor kartu kredit yang valid</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY1</base>
+        <trans>Tanggal kadaluarsa belum diisi</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY2</base>
+        <trans>Tanggal kadaluarsa harus dalam format MM/YY atau MM/YYYY</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY3</base>
+        <trans>Tanggal kadaluarsa sudah lewat</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY4</base>
+        <trans>Tanggal kadaluarsa terlalu lama </trans>
+    </entry>
+    <entry>
+        <base>FM_ISO_COUNTRY_CODE1</base>
+        <trans>Anda harus mengisikan kode negara</trans>
+    </entry>
+    <entry>
+        <base>FM_ISO_COUNTRY_CODE2</base>
+        <trans>Field ini tidak mengandung kode negara standar ISO</trans>
+    </entry>
+    <entry>
+        <base>FM_US_STATE</base>
+        <trans>Sepertinya ini bukan 2 huruf singkatan negara bagian Amerika yang valid</trans>
+    </entry>
+    <entry>
+        <base>FM_US_ZIPCODE</base>
+        <trans>Kode Pos Amerika harus berisi 5 atau 9 angka</trans>
+    </entry>
+    <entry>
+        <base>FM_MINLENGTH1</base>
+        <trans>Minimum length has been specified meaninglessly as {$minlength}</trans>
+    </entry>
+    <entry>
+        <base>FM_MINLENGTH2</base>
+        <trans>Panjang field ini setidaknya harus {$minlength} karakter</trans>
+    </entry>
+    <entry>
+        <base>FM_MAXLENGTH1</base>
+        <trans>Maximum length has been specified meaninglessly as {$maxlength}</trans>
+    </entry>
+    <entry>
+        <base>FM_MAXLENGTH2</base>
+        <trans>Field ini tidak boleh lebih dari {$maxlength} karakter</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH1</base>
+        <trans>Anda harus menentukan panjang field.</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH2</base>
+        <trans>Anda harus menentukan panjang field dengan bilangan bulat</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH3</base>
+        <trans>Panjang field ini harus tepat {$exactlength} karakter</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE1</base>
+        <trans>Anda harus menentukan panjang maksimum dan minimum dari field ini</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE2</base>
+        <trans>Anda harus menentukan panjang maksimum dan minimum field dengan bilangan bulat</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE3</base>
+        <trans>Field ini harus antara {$minlength} dan {$maxlength} karakter</trans>
+    </entry>
+    <entry>
+        <base>FM_URL</base>
+        <trans>Field ini harus mengandung URL yang dimulai dengan http:// atau ftp://</trans>
+    </entry>
+    <entry>
+        <base>FM_EMAIL_SIMPLE1</base>
+        <trans>Anda harus mengisikan alamat email.</trans>
+    </entry>
+    <entry>
+        <base>FM_EMAIL_SIMPLE2</base>
+        <trans>Field ini tidak sesuai dengan alamat email menurut ketentuan RFC822-compliant</trans>
+    </entry>
+    <entry>
+        <base>FM_DOMAIN_NAME</base>
+        <trans>Field ini tidak tampak seperti alamat domain internet atau hostname yang valid</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER1</base>
+        <trans>Field ini harus berisi nomor IP yang valid dan tidak boleh dikosongkan</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER2</base>
+        <trans>Alamat IP tidak valid untuk memulai DHCP</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER3</base>
+        <trans>{$octet} lebih dari 255</trans>
+    </entry>
+    <entry>
+        <base>FM_USERNAME</base>
+        <trans>Field ini harus tampak seperti username yang valid (3 s.d 8 huruf dan angka)</trans>
+    </entry>
+    <entry>
+        <base>FM_PASSWORD1</base>
+        <trans>Anda harus mengisikan password.</trans>
+    </entry>
+    <entry>
+        <base>FM_PASSWORD2</base>
+        <trans>Password yang anda isikan kurang baik. Password yang baik harus berisikan : huruf besar, huruf kecil, angka, karakter non-alphanumerik, dan harus lebih dari 6 karakter.</trans>
+    </entry>
+    <entry>
+        <base>FM_MAC_ADDRESS1</base>
+        <trans>Anda harus mengisikan alamat MAC</trans>
+    </entry>
+    <entry>
+        <base>FM_MAC_ADDRESS2</base>
+        <trans>Alamat MAC yang anda sediakan tidak valid.</trans>
+    </entry>
+    <entry>
+	<base>FM_ERR_UNEXPECTED_DESC</base>
+	<trans>Error: karakter yang tidak diharapkan atau hilang dalam deskripsi</trans>
+    </entry>
+    <entry>
+        <base>CSRF_VALIDATION_FAILURE</base>
+        <trans>Error: CSRF token is invalid or outdated.</trans>
+    </entry>
+</lexicon>

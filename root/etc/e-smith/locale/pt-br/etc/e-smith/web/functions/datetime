@@ -1,0 +1,202 @@
+<lexicon lang="pt-br">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Configuração de data e hora</trans>
+    </entry>
+    <entry>
+      <base>INITIAL_DESC</base>
+      <trans>Aqui é onde você configura a data e hora desse servidor. Você pode usar um servidor de horário da rede ou manualmente configurar a data e a hora para sua zona.</trans>
+    </entry>
+    <entry>
+      <base>SET_DATE_TITLE</base>
+      <trans>Configurar data e hora</trans>
+    </entry>
+    <entry>
+      <base>COULD_NOT_OPEN_TZ_FILE</base>
+      <trans>Erro: Incapaz de abrir o arquivo de timezone para leitura:</trans>
+    </entry>
+    <entry>
+      <base>JANUARY</base>
+      <trans>Janeiro</trans>
+    </entry>
+    <entry>
+      <base>FEBRUARY</base>
+      <trans>Fevereiro</trans>
+    </entry>
+    <entry>
+      <base>MARCH</base>
+      <trans>Março</trans>
+    </entry>
+    <entry>
+      <base>APRIL</base>
+      <trans>Abril</trans>
+    </entry>
+    <entry>
+      <base>MAY</base>
+      <trans>Maio</trans>
+    </entry>
+    <entry>
+      <base>JUNE</base>
+      <trans>Junho</trans>
+    </entry>
+    <entry>
+      <base>JULY</base>
+      <trans>Julho</trans>
+    </entry>
+    <entry>
+      <base>AUGUST</base>
+      <trans>Agosto</trans>
+    </entry>
+    <entry>
+      <base>SEPTEMBER</base>
+      <trans>Setembro</trans>
+    </entry>
+    <entry>
+      <base>OCTOBER</base>
+      <trans>Outubro</trans>
+    </entry>
+    <entry>
+      <base>NOVEMBER</base>
+      <trans>Novembro</trans>
+    </entry>
+    <entry>
+      <base>DECEMBER</base>
+      <trans>Dezembro</trans>
+    </entry>
+    <entry>
+      <base>NEW_M/D/Y</base>
+      <trans>Novo mês/dia/ano:</trans>
+    </entry>
+    <entry>
+      <base>NEW_H/M/S</base>
+      <trans>Nova hora /min/sec:</trans>
+    </entry>
+    <entry>
+      <base>AM/PM_AND_TZ</base>
+      <trans>AM/PM e zona:</trans>
+    </entry>
+    <entry>
+      <base>NTP_ENABLE_DESC</base>
+      <trans>O sevidor periodicamente pode sincronizar o relógio com um servidor de horário (NTP). Se voce selecionar esta opção, entre con o nome do host ou o endereço IP do servidor NTP abaixo.</trans>
+    </entry>
+    <entry>
+      <base>NTP_CONFIGURE_DESC</base>
+      <trans>O servidor está periodicamente sincronizando o horário por meio do servidor NTP especificado abaixo. Para sincronizar com um servidor NTP diferente entre um nome de host ou endereço IP diferente no campo abaixo.</trans>
+    </entry>
+    <entry>
+      <base>NTP_DISABLE_DESC</base>
+      <trans>Escolha esta opção para parar a sincronização de horário com o servidor NTP. Quando o serviço for desabilitado, você poderá ajustar a data e hora do sistema manualmente usando esta página.</trans>
+    </entry>
+    <entry>
+      <base>NTP_SERVER</base>
+      <trans>Servidor NTP</trans>
+    </entry>
+    <entry>
+      <base>VERIFY_DATE_AND_TIME</base>
+      <trans>Verificar data e hora</trans>
+    </entry>
+    <entry>
+      <base>NEW_DATE_AND_TIME</base>
+      <trans>Configurando nova data e hora:</trans>
+    </entry>
+    <entry>
+      <base>SETTING_DATE_AND_TIME</base>
+      <trans>Configurar data e hora</trans>
+    </entry>
+    <entry>
+      <base>INVALID_DAY</base>
+      <trans>Erro: dia do mês inválido:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_1_AND_31</base>
+      <trans>Favor escolher um dia entre 1 e 31.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_YEAR</base>
+      <trans>Erro: ano inválido:</trans>
+    </entry>
+    <entry>
+      <base>FOUR_DIGIT_YEAR</base>
+      <trans>Favor escolher ano de quatro dígitos entre 1900 e 2200.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_HOUR</base>
+      <trans>Erro: hora inválida:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_1_AND_12</base>
+      <trans>Favor escolher uma hora entre 1 e 12.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_MINUTE</base>
+      <trans>Erro: minuto inválido:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_0_AND_59</base>
+      <trans>Favor escolher um minuto entre 0 e 59.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_SECOND</base>
+      <trans>Erro: segundos inválidos</trans>
+    </entry>
+    <entry>
+      <base>UPDATING_CLOCK</base>
+      <trans><![CDATA[ Relógio do sistema está sendo atualizado. Favor esperar alguns segundos, então clique <A HREF="datetime?page=1&wherenext=Verify" TARGET="main">aqui</A> para verificar as alterações. ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_SETTING_CLOCK</base>
+      <trans>Ocorreu um erro quanto configurava o horário do sistema e relógio do hardware.</trans>
+    </entry>
+    <entry>
+      <base>SERVER_DISABLED</base>
+      <trans>Servidor de horário da rede desabilitado com sucesso</trans>
+    </entry>
+    <entry>
+      <base>SERVER_DISABLED_DESC</base>
+      <trans><![CDATA[ Voce desabilitou esse serviço: O servidor irá usar seu relógio interno, e <b>não irá</b> tentar sincronizar com um servidor de horário. ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_CHANGING_TS</base>
+      <trans>Erro enquanto trocava configuração do servidor de horário da rede</trans>
+    </entry>
+    <entry>
+      <base>INVALID_NTP_ADDR</base>
+      <trans>Endereço de servidor NTP inválido:</trans>
+    </entry>
+    <entry>
+      <base>SETTINGS_CHANGED</base>
+      <trans>Sucesso na troca na configuração de servidor de horário da rede</trans>
+    </entry>
+    <entry>
+      <base>SYNC_WITH</base>
+      <trans>Este servidor está agora configurado para sincronizar periodicamente (via Internet) com:</trans>
+    </entry>
+    <entry>
+      <base>INVALID_NTP_SERVER</base>
+      <trans><![CDATA[ Servidor NTP inválido, o servidor <b>não irá</b> tentar sincronizar com o servidor de horário. ]]></trans>
+    </entry>
+    <entry>
+      <base>NETWORK_TIME_SERVER</base>
+      <trans>Servidor de Horário da Rede</trans>
+    </entry>
+    <entry>
+      <base>NTP_CONFIGURE_TITLE</base>
+      <trans>Configurar Servidor de Horário da Rede</trans>
+    </entry>
+    <entry>
+      <base>NTP_ENABLE_TITLE</base>
+      <trans>Habilitar Servidor de Horário da Rede</trans>
+    </entry>
+    <entry>
+      <base>NTP_DISABLE_TITLE</base>
+      <trans>Desabilitar Servidor de Horário da Rede</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_SETTING</base>
+      <trans>Configuração atual</trans>
+    </entry>
+    <entry>
+      <base>Date and time</base>
+      <trans>Data e hora</trans>
+    </entry>
+  </lexicon>

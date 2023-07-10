@@ -1,0 +1,141 @@
+<lexicon lang="es" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Administrar dominios</trans>
+    </entry>
+    <entry>
+        <base>FORM_DESCRIPTION</base>
+        <trans><![CDATA[ <p>Cuando crea un dominio, el servidor queda habilitado para recibir correo electrónico para ese dominio y también puede alojar un sitio web para ese dominio.</p> <p><a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CREATE">Agregar dominio</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>No hay dominios en el sistema.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST_OF_DOMAINS</base>
+        <trans>Lista actual de dominios</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_SITE</base>
+        <trans>sitio primario</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>i-bay {$content}</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Crear un nuevo dominio</trans>
+    </entry>
+    <entry>
+        <base>CONTENT_FIELD_DESCRIPTION</base>
+        <trans>Para el sitio web, usted puede escoger el sitio web primario o cualquier i-bay como contenido.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME_VALIDATION_ERROR</base>
+        <trans>Error: caracteres erróneos o faltantes en el nombre del dominio {$domainName}. El nombre del dominio debe contener una o más letras, números, puntos y signos menos. No es posible crear el nuevo dominio.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_DESCRIPTION_VALIDATION_ERROR</base>
+        <trans>Error: caracteres erróneos o faltantes en la descripción del dominio {$domainDesc}. No se creó el nuevo dominio.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_IN_USE_ERROR</base>
+        <trans>Error: el dominio {$domainName} ya está en uso. No se creó el nuevo dominio.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_DOMAIN_ERROR</base>
+        <trans>Error: el dominio {$domainName} es el nombre del dominio de su sistema. No puede tener un dominio con el mismo nombre. No se creó el nuevo dominio.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>Se creó con éxito el dominio {$domainName}. Ahora se está reiniciando el servidor web. Los vínculos en esta página estarán inactivos hasta que se complete el reinicio del servidor web.</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_TITLE</base>
+        <trans>Modificar dominio</trans>
+    </entry>
+    <entry>
+        <base>NONEXISTENT_DOMAIN_ERROR</base>
+        <trans>Error: {$domainName} no es un dominio existente.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>Se modificó con éxito el dominio {$domainName}. Ahora se está reiniciando el servidor web. Los vínculos en esta página estarán inactivos hasta que se complete el reinicio del servidor web.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Eliminar dominio</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESCRIPTION</base>
+        <trans><![CDATA[ <p> Está a punto de eliminar el dominio {$domain} ({$domainDesc}). </p> <p> <b>¿Está seguro de que desea eliminar este dominio?</b> </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_REMOVING_DOMAIN</base>
+        <trans>Error: falla interna al eliminar el dominio {$domain}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>Se eliminó con éxito el dominio {$domain}. Ahora se está reiniciando el servidor web. Los vínculos en esta página estarán inactivos hasta que se complete el reinicio del servidor web.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS_CURRENT</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Configuración de DNS Corporativa</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>BUTTON_CORPORATE_DNS</base>
+        <trans><![CDATA[ <p>Si este servidor no tiene acceso a Internet, o usted tiene requerimientos especiales para la resolución de DNS, ingrese aquí la dirección IP del servidor de DNS. No debe ingresar aquí la dirección de DNS de su ISP, debido a que el servidor es capaz de resolver todos los nombres DNS de Internet sin ninguna configuración adicional.</p> <p> <a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CORPORATE_DNS">Modificar configuración de DNS corporativa</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS</base>
+        <trans>Si este servidor no tiene acceso a Internet, o usted tiene requerimientos especiales para la resolución de DNS, ingrese aquí la dirección IP del servidor de DNS. Estos campos pueden dejarse en blanco a menos que tenga una razón específica para configurar otros servidores de DNS. No debe ingresar aquí la dirección de DNS de su ISP, debido a que el servidor es capaz de resolver todos los nombres de DNS de Internet sin ninguna configuración adicional.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_PRIMARY</base>
+        <trans>Servidor Primario corporativo de DNS</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_SECONDARY</base>
+        <trans>Servidor Secundario corporativo de DNS</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_NAMESERVERS</base>
+        <trans>Puede seleccionar si este dominio es resuelto localmente, por el servidor corporativo de DNS, o resolverlo por medio de un servidor DNS de Internet. El predeterminado será el correcto para la mayoría de las redes.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_NAMESERVERS</base>
+        <trans>Servidores DNS de dominio</trans>
+    </entry>
+
+    <entry>
+        <base>localhost</base>
+        <trans>Resolver localmente</trans>
+    </entry>
+
+    <entry>
+        <base>internet</base>
+        <trans>Servidores DNS de Internet</trans>
+    </entry>
+
+    <entry>
+        <base>corporate</base>
+        <trans>Servidor DNS corporativo</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Está a punto de eliminar la impresora:</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans>¿Está seguro de que desea eliminar esta impresora?</trans>
+    </entry>
+
+</lexicon>

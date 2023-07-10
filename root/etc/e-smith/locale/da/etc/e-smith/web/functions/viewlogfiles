@@ -1,0 +1,83 @@
+<lexicon lang="da">
+    <entry>
+        <base>View log files</base>
+        <trans>Vis logfiler</trans>
+    </entry>
+
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ Dette panel tillader dig at vise eller hente logfiler, dannet af tjenester, der kører på din server. ]]></trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_SELECT_DESC</base>
+        <trans>Vælg hvilken logfil du vil se</trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>Du har mulighed for at specificere et filtermønster, så kun linjer fra logfilen, der indeholder det angivne mønster vises. Efterlader du feltet tomt vises alle logfilens linjer. Bemærk at denne mulighed ikke benyttes, når du henter logfilen.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_LABEL</base>
+        <trans>Mønster til filtrering (mulig)</trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>Du har også muligheden for, at angive et fremhævelsesmønster, til at fremhæve linjer fra logfilen med fed, når de passer med det angivne fremhævelsesmønster. Fremhævelsesmønstret tilføres alle linjer som passer med filtermønstret. Bemærk at denne mulighed ikke benyttes, når du henter logfilen.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_LABEL</base>
+        <trans>Fremhævelsesmønster (muligt)</trans>
+    </entry>
+    <entry>
+        <base>END_DESC</base>
+        <trans>Bemærk at det kan tage noget tid at oprette denne visning.</trans>
+    </entry>
+    <entry>
+        <base>VIEW</base>
+        <trans>Vis logfil</trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_EMPTY</base>
+        <trans>Logfil "{$filename}" er tom!</trans>
+    </entry>
+    <entry>
+        <base>VIEWING_TIME</base>
+        <trans>Vist {$time}.</trans>
+    </entry>
+    <entry>
+        <base>MATCH_HEADER</base>
+        <trans>Viser linjer der passer med: "{$matchPattern}".</trans>
+    </entry>
+    <entry>
+        <base>HIGHLIGHT_HEADER</base>
+        <trans>Fremhæver linjer der passer med: "{$highlightPattern}".</trans>
+    </entry>
+    <entry>
+        <base>NO_MATCHING_LINES</base>
+        <trans>Ingen passende linjer at vise.</trans>
+    </entry>
+    <entry>
+        <base>FILENAME_ERROR</base>
+        <trans><![CDATA[ <p>Fejl under angivelse af logfilnavn.</p> <p>Ugyldig rapporttype "{$filename}".</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>REFRESH</base>
+	<trans>Genopfrisk logfil</trans>
+    </entry>
+    <entry>
+	<base>OP_DESC</base>
+	<trans><![CDATA[ <p>Du må vælge mellem, at vise logfiler i din browser eller at hente logfilen til din computer. Er logfilen specielt stor, kan du hente logfilen i stedet for at vise den i browseren, idet det kan være et problem for nogle browsere at vise meget store filer.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>OP_LABEL</base>
+	<trans>Handling</trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_PAGE_DESC</base>
+	<trans><![CDATA[ <p>Hent af logfilen er forberedt. Den vil fortsætte så snart du har klikket på &quot;Næste&quot; knappen nedenfor, og instrueret din browser til at acceptere hentningen via det pop-up vindue, der vil fremkomme.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_FILE</base>
+	<trans>Forbereder hentning af logfil {$logfile}.</trans>
+    </entry>
+</lexicon>

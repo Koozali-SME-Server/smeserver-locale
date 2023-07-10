@@ -1,0 +1,193 @@
+<lexicon lang="nb"> 
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+	<base>Software installer</base>
+	<trans>Programvare installasjon</trans>
+    </entry>
+
+    <entry>
+        <base>SUCCESS</base>
+        <trans>De nye innstillingene er lagret.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_YUM_STATUS</base>
+        <trans>Kontroller for opptateringer</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_YUM_AUTOINSTALLUPDATES</base>
+	<trans>Automatisk installer oppdateringer</trans>
+   </entry>
+    <entry>
+        <base>LABEL_YUM_AUTOINSTALLUPDATES_DESCRIPTION</base>
+        <trans>If enabled this will take precedence over the simple check for updates notification and predownload features. Instead it will install the available updates from enabled repositories. For more information refer to yum and yum-cron manual page.</trans>
+   </entry>
+
+    <entry>
+	<base>LABEL_YUM_PACKAGEFUNCTIONS</base>
+	<trans>Administrer individuelle pakker</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_YUM_PACKAGEFUNCTIONS</base>
+	<trans>Programvare installereren kan administrere grupper av sammenhengende pakker eller individuelle pakker. Som standard blir bare grupper av pakker vist. Dersom du ønsker å administrere individuelle pakker, må du slå på dette valget. Det bør bare gjøres av erfarne systemadministratorer.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_ENABLED_REPOSITORIES</base>
+	<trans>Mulige kilder</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_ENABLED_REPOSITORIES</base>
+	<trans>Programvare installereren kan bare installere programvare fra valgte kilder. For å velge en kilde, merker du den i listen. for å velge bort, avmerker du den i listen. Som standard er bare stabil, testet programvare tilgjenglig for installasjon.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_UPTODATE</base>
+        <trans><![CDATA[ <div class="success"> <h2>Systemet er oppdatert.</h2> Alle oppdateringer er installert. </div> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_UPDATES_AVAILABLE</base>
+        <trans><![CDATA[ <div class="success"> <h2>Oppdateringer tilgjenglig</h2> Det er oppdateringer tilgjenglig for ditt system. Disse oppdateringene bør installeres så snart som mulig. </div> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_AVAILABLE_UPDATES</base>
+        <trans>Oppdateringer tilgjenglig</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_AVAILABLE_UPDATES</base>
+        <trans>Følgende oppdatering er tilgjenglig for ditt system. Du bør normalt installere alle tilgjenglige oppdateringer. Dersom det er oppdateringer du ikke ønsker å installere, fjerner du merkingen i listen nedenfor.</trans>
+    </entry>
+
+    <entry>
+        <base>INSTALL_UPDATES</base>
+        <trans>Installer valgte oppdateringer</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_INSTALL_UPDATES</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_UPDATES">Installer tilgjenglige oppdateringer</a> ]]></trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_AVAILABLE_SOFTWARE</base>
+	<trans>Følgende programvare er tilgjenglig for å installeres på ditt system. Du bør bare installere ekstra programvare hvis du er klar over konsekvensene ved å gjøre det.</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_AVAILABLE_GROUPS</base>
+	<trans>Du kan velge programvaregrupper å installere fra i listen nedenfor.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_AVAILABLE_GROUPS</base>
+	<trans>Tilgjenglige grupper</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_AVAILABLE_PACKAGES</base>
+	<trans>Du kan også velge individuelle pakker å innstallere fra listen nedenfor.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_AVAILABLE_PACKAGES</base>
+	<trans>Tilgjenglige pakker</trans>
+    </entry>
+
+    <entry>
+	<base>INSTALL_SOFTWARE</base>
+	<trans>Installer</trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_INSTALLED_SOFTWARE</base>
+	<trans>Følgende programvare er installert på ditt system. Du bør bare fjerne programvare dersom du er klar over konsekvensene med å gjøre det.</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_INSTALLED_GROUPS</base>
+	<trans>Du kan velge programvaregrupper fra listen nedenfor.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_INSTALLED_GROUPS</base>
+	<trans>Installerte grupper</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_INSTALLED_PACKAGES</base>
+	<trans>Du kan også velge individuelle pakker du ønser å fjerne fra listen nedenfor.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_INSTALLED_PACKAGES</base>
+	<trans>Installerte pakker</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_CONFIGURATION</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_CONFIGURATION">Endre programvare installering innstillinger</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_INSTALL_AVAILABLE</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_AVAILABLE">Installer ekstra programvare</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_REMOVE</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_REMOVE">Fjern installert programvare</a> ]]></trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_POSTUPGRADE_REQUIRED</base>
+	<trans><![CDATA[ Systemet trenger å bli rekonfigurert etter å ha lagt til eller fjernet programvare, eller installert oppdateringer. <p> Vennligst klikk på Rekonfigurer knappen på bunnen av denne siden for å starte rekonfigureringsprosessen. <b>En automatisk omstart vil bli satt i gang som en del av rekonfigureringsprosessen</b> </p> ]]></trans>
+     </entry>
+
+    <entry>
+	<base>SYSTEM_BEING_RECONFIGURED</base>
+	<trans>Ditt system blir automatisk startet om for å fullføre rekonfigurasjonsprosessen.</trans>
+    </entry>
+
+    <entry>
+      <base>1DAILY</base>
+      <trans>Daglig</trans>
+    </entry>
+
+    <entry>
+      <base>2WEEKLY</base>
+      <trans>Ukentlig</trans>
+    </entry>
+
+    <entry>
+      <base>3MONTHLY</base>
+      <trans>Måndelig</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DELTARPMPROCESS</base>
+      <trans>Delta Rpm Update</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DELTARPM</base>
+      <trans>A deltarpm contains the difference between an old and a new version of a rpm, which can save bandwith. The drawback is that update operations consume considerably more CPU cycles</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DOWNLOADONLY</base>
+      <trans>Personlige detaljer oppdatert</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DOWNLOADONLY_DESCRIPTION</base>
+      <trans>The rpm updates can be downloaded during the night, this will ease and give faster the yum update process (only enabled repositories will be used).</trans>
+    </entry>
+
+</lexicon>

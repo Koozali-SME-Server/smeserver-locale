@@ -1,0 +1,38 @@
+<lexicon lang="da">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Antivirus indstillinger</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FILESYSTEM_SCAN_PERIOD</base>
+        <trans>Skan filsystem</trans>
+    </entry>
+    <entry>
+        <base>DESC_FILESYSTEM_SCAN_PERIOD</base>
+        <trans><![CDATA[ <h2>Generelle indstillinger</h2> Hvis denne indstilling er slået, til vil hele filsystemet blive skannet for virus. En rapport for hver funden virus bliver sendt til administrator.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_QUARANTINE</base>
+        <trans>Sæt inficerede filer i karantæne</trans>
+    </entry>
+    <entry>
+        <base>LABEL_CLAM_VERSIONS</base>
+        <trans>ClamAV og db versioner</trans>
+    </entry>
+    <entry>
+      <base>WEEKLY</base>
+      <trans>Ugentlig</trans>
+    </entry>
+    <entry>
+      <base>NEVER</base>
+      <trans>Aldrig</trans>
+    </entry>
+    <entry>
+      <base>DAILY</base>
+      <trans>Daglig</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>De nye clamav antivirus indstillinger er gemt.</trans>
+    </entry>
+</lexicon>

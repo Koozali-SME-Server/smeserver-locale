@@ -1,0 +1,749 @@
+<lexicon lang="ja">
+  <entry>
+   <base>BACKUP_TITLE</base>
+   <trans>サーバーデータをバックアップ・復元</trans>
+  </entry>
+  <entry>
+   <base>BACKUP_DESC</base>
+   <trans><![CDATA[ <P>The server provides two ways to back up and restore your server: using your local desktop or a tape drive.</P> <P>The first method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>$tarsize</b>. The backup file will be somewhat less than this, depending on how compressible the data are. The \"Verify desktop backup file\" option can be used to check the integrity of a desktop backup file.</P> <P>The tape backup method uses a software package called <I>$module</I> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>$dumpsize</b> of data.</P> <P>Both restore methods allow you to restore your configuration and user data files. <b>Ideally, the restore should be performed on a freshly installed server</b>.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_DESC_DAR</base>
+   <trans><![CDATA[ <P>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</P> <P>Tape Backup. This method uses a software package called <I>$module</I> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>$dumpsize</b> of data.</P> <P>Workstation backup. This method uses a software package called <I>dar</I> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>$tarsize</b> uncompressed. Twice the compressed data size must be available on the backup share.</P> <P>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>$tarsize</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</P> <P>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_CONFIG_STATUS</base>
+   <trans>設定と状態をバックアップ</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUPS_ENABLED</base>
+   <trans><![CDATA[ 現在テープバックアップが<b>有効になる</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUPS_RUN_AT</base>
+   <trans>ワークステーション バクアプ まで　の　時間：</trans>
+  </entry>
+  <entry>
+   <base>REMINDER_MESSAGE_AT</base>
+   <trans>Reminder messages will be sent at:</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUPS_DISABLED</base>
+   <trans>ワークステーション バクアプ　は　無能</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_BACKUP</base>
+   <trans>デスクトップにバックアップを用意する</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_RESTORE</base>
+   <trans>デスクトップから復元する</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_VERIFY</base>
+   <trans>デスクトップのバックアップを認証する</trans>
+  </entry>
+  <entry>
+   <base>TAPE_CONFIGURE</base>
+   <trans>テープバックアップを管理する</trans>
+  </entry>
+  <entry>
+   <base>TAPE_RESTORE</base>
+   <trans>テープから復元する</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS_BEGAN_AT</base>
+   <trans>システムの復元中です。復元開始時刻は</trans>
+  </entry>
+  <entry>
+   <base>REFRESH_THIS_DISPLAY</base>
+   <trans>画面を更新する</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_TAPE_BACKUP</base>
+   <trans>テープバックアップを管理する</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_COMPLETED</base>
+   <trans>システムの復元が完了しました</trans>
+  </entry>
+  <entry>
+   <base>STARTED_AT</base>
+   <trans>開始時刻は</trans>
+  </entry>
+  <entry>
+   <base>FINISHED_AT</base>
+   <trans>終了時刻は:</trans>
+  </entry>
+  <entry>
+   <base>YOU_MUST_REBOOT</base>
+   <trans>システム復元による変更を反映するにはサーバーの再起動が必要です。</trans> 
+  </entry> 
+  <entry>
+   <base>REBOOT</base>
+   <trans>再起動</trans>
+  </entry>
+  <entry>
+   <base>SELECT_AN_ACTION</base>
+   <trans>実行する作業を指定してください</trans>
+  </entry>
+  <entry>
+   <base>X_BACKUP_OR_RESTORE</base>
+   <trans>X サーバーデータをバックアップ・復元</trans>
+  </entry>
+  <entry>
+   <base>ERR_PRE_BACKUP</base>
+   <trans>バックアップ作業を行う前にエラーが発生しました</trans>
+  </entry>
+  <entry>
+   <base>ERR_PRE_RESTORE</base>
+   <trans>復元作業を行う前にエラーが発生しました</trans>
+  </entry>
+  <entry>
+   <base>ERR_POST_BACKUP</base>
+   <trans>バックアップ作業を行った後にエラーが発生しました</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_SERVER_CONFIG</base>
+   <trans>サーバーの設定を復元する</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_RESTORE_DESC</base>
+   <trans><![CDATA[ この作業は復元ファイルをデスクトップからサーバーへアップロードし、設定およびユーザのデータファイルを復元します。 <B>復元は新規インストールされたサーバーにて行うことをおすすめします。</B>. ]]></trans>
+  </entry>
+  <entry>
+   <base>FREE_SPACE</base>
+   <trans><![CDATA[ You have approximately $tmpfree free space on the server. Check that desktop backup file is less than $halffree before commencing the restore. ]]></trans>
+  </entry>
+  <entry>
+   <base>MUST_REBOOT_AFTER_RESTORE</base>
+   <trans>After the restore completes you must reboot the server.</trans>
+  </entry>
+  <entry>
+   <base>FILE_TO_RESTORE</base>
+   <trans>Backup file to restore from</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>この項目では以前作った全ての一日毎のワークステーションバックアップファイルの名前を表示する。この項目でバックアップの内容を確認できる。<b>確認したいバックアップを選ばなければならない。</b></p><p>あなたが選んだ全てのバックアップファイルが見れる。</p>共有フォルダでバックアップファイルが確認できる : ]]></trans>
+  </entry>
+  <entry>
+   <base>SELECT_BACKUP_FILE</base>
+   <trans>バックアップファイルを選択</trans>
+  </entry>
+  <entry>
+   <base>VERIFY</base>
+   <trans>認証</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CANNOT_PROCEED</base>
+   <trans>Unable to proceed with restore of server configuration</trans>
+  </entry>
+  <entry>
+   <base>ANOTHER_RESTORE_IN_PROGRESS</base>
+   <trans>Another restore is in progress. Please try again later.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS</base>
+   <trans>Restore in progress</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS_DESC</base>
+   <trans>After the restore completes you must reboot the server. Your restore is complete when the words "Restore complete" appear at the bottom of your screen.</trans>
+  </entry>
+  <entry>
+   <base>FILES_HAVE_BEEN_RESTORED</base>
+   <trans>以下のファイルとディレクトリーは復元されました：</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FAILED_MSG</base>
+   <trans>Restore failed! There was an error in reading the backup file.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_COMPLETE</base>
+   <trans>Restore complete</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_GID</base>
+   <trans>Error occurred while restoring gid of 'www'</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_INITIAL_GRP</base>
+   <trans>Error occurred while restoring initial group of 'www'.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FAILED</base>
+   <trans>Restore failed! The backup file was incomplete.</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_EXEC_PIPELINE</base>
+   <trans>Could not execute backup pipeline:</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_DECODE</base>
+   <trans>Could not decode backup file:</trans>
+  </entry>
+  <entry>
+   <base>FILES_IN_BACKUP</base>
+   <trans>以下のファイルとディレクトリーは復元されました：</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_COMPLETE</base>
+   <trans>確認 が　終わりました</trans>
+  </entry>
+  <entry>
+   <base>BACKUP_FILE_INCOMPLETE</base>
+   <trans>バクアプ　ファイル　が　不完全　でした</trans>
+  </entry>
+  <entry>
+   <base>ERR_READING_FILE</base>
+   <trans>バクアプ　ファイル　読んでる　最中　エラー　が　でました</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_DISABLE_TAPE</base>
+   <trans>ナイトリ　テープ　バクアプ　を　可能／無能　に　する</trans>
+  </entry>
+  <entry>
+   <base>TAPE_CONFIG_DESC</base>
+   <trans><![CDATA[ <p>Select whether you wish to enable nightly backups. Then indicate the desired times for the backup and the load tape reminder.</p> <p>The tape backup requires a supported tape drive. A warning message will be sent to the administrator at the designated reminder time if the tape drive is empty.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>ENABLE_TAPE_BACKUP</base>
+   <trans>テープ　バクアプ　を　可能</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUP_TIME</base>
+   <trans>テープ　バクアプ　の　時間　(時／分）</trans>
+  </entry>
+  <entry>
+   <base>LOAD_TAPE_REMINDER_TIME</base>
+   <trans>ロード　テープ　備忘　の　時間　（時／分）</trans>
+  </entry>
+  <entry>
+   <base>AM/PM</base>
+   <trans>午前／夕</trans>
+  </entry>
+  <entry>
+   <base>AM</base>
+   <trans>午前</trans>
+  </entry>
+  <entry>
+   <base>PM</base>
+   <trans>夕</trans>
+  </entry>
+  <entry>
+   <base>UPDATE_CONF</base>
+   <trans>更新</trans>
+  </entry>
+  <entry>
+   <base>UPDATING_TAPE_CONF</base>
+   <trans>テープ　バクアプ　コンフィグレーション　を　更新　してます</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_HOUR</base>
+   <trans>エラー：　時　が　不当</trans>
+  </entry>
+  <entry>
+   <base>BETWEEN_0_AND_12</base>
+   <trans>時　を　セット　する　とき　０-１２　を　 撰んで　下さい</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_MINUTE</base>
+   <trans>エラー：　分　が　不当</trans>
+  </entry>
+  <entry>
+   <base>BETWEEN_0_AND_59</base>
+   <trans>分　を　セット　する　とき　０-59　を　 撰んで　下さい</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_REMINDER_HOUR</base>
+   <trans>エラー：　時　が　不当</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_REMINDER_MINUTE</base>
+   <trans>エラー：　分　が　不当</trans>
+  </entry>
+  <entry>
+   <base>ERR_CONF_BACKUP</base>
+   <trans>コンフィグーバクアプ　する　時　エラー　が　おこりました</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_ENABLED_TAPE</base>
+   <trans>テープのバックアップの有効化に成功</trans>
+  </entry>
+  <entry>
+   <base>WITH_BACKUP_TIME</base>
+   <trans>バックアップ　時間：</trans>
+  </entry>
+  <entry>
+   <base>WITH_REMINDER_TIME</base>
+   <trans>ロード　テープ　リマインダー　時間</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_DISABLED</base>
+   <trans>テープバックアップの無効化に成功</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_TAPE</base>
+   <trans>テープバックアップファイルからサーバー設定を復元する</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_TAPE_DESC</base>
+   <trans><![CDATA[ <p>この工程でサーバーワークステーションバックアップファイルから設定とユーザーのデータファイルを復元する。<b>この復元は新しくインストールされたサーバーにされる</b>,</p><p>始める前に正しいバックアップファイルを選ぶように注意する</p><p>復元が終わったらサーバーを再起動しなければならない。</p>復元するバックアップファイルはここに : ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FROM_TAPE</base>
+   <trans>テープから復元する</trans>
+  </entry>
+  <entry>
+   <base>UNABLE_TO_RESTORE_CONF</base>
+   <trans>サーバー　コンフィグレーシオン　を　レストア　する　こと　が　出来ません</trans>
+  </entry>
+  <entry>
+   <base>RESTORING_FROM_TAPE</base>
+   <trans>テープ　から　リストア</trans>
+  </entry>
+  <entry>
+   <base>NOW_RESTORING_FROM_TAPE</base>
+   <trans>サーバー　コンフィグレーシオン　と　ユーサー　データ　は　今　リストア　されてます</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_FROM_TAPE</base>
+   <trans>テープより復元中にエラー発生。</trans>
+  </entry>
+  <entry>
+   <base>ERR_UPDATING_CONF_AFTER_TAPE_RESTORE</base>
+   <trans>システムコンフィグレーシオン　より復元後、アップデート中にエラー発生。</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_FORK</base>
+   <trans>フォーク　出来ませんでした</trans>
+  </entry>
+  <entry>
+   <base>SERVER_REBOOT</base>
+   <trans>サーバー　リブート</trans>
+  </entry>
+  <entry>
+   <base>SERVER_WILL_REBOOT</base>
+   <trans>サーバー　は　いま　リブート　します</trans>
+  </entry>
+  <entry>
+   <base>NO_UID_FOR_NAME</base>
+   <trans>ユーザネーム　の　ため　の　UID が貰えませんでした</trans>
+  </entry>
+  <entry>
+   <base>PAGE_REFRESH_IN</base>
+   <trans>この　ページ　は　{$sec} 秒 に　リフレシ　します、もしくわ　ここ　に　クリク　して下さい</trans>
+  </entry>
+    <entry>
+	<base>Backup or restore</base>
+	<trans>バクアプ、リストア</trans>
+    </entry>
+
+  <entry>
+	<base>BACKUP_DESKTOP_TOO_BIG</base>
+	<trans>サーバー　に　データ　が　ありすぎて　ちゃんとした　バクアプ　が　出来ません</trans>
+  </entry>
+   <entry>
+   <base>WORKSTN_BACKUPS_DISABLED</base>
+   <trans>ワークステーション バクアプ　は　無能</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUPS_ENABLED</base>
+   <trans><![CDATA[ ワークステーションテープバックアップが<b>有効になる</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>WKBACKUPS_RUN_AT</base>
+   <trans>ワークステーション バクアプ まで　の　時間：</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_CONFIGURE</base>
+   <trans>ワークステーション バクアプ　を　せてい</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_VERIFY</base>
+   <trans>ワークステーションバックアップのチェック</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_RESTORE</base>
+   <trans>ワークステーションから復元する</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_WORKSTN_BACKUP</base>
+   <trans>ワークステーション バクアプ　を　せてい</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_DISABLE_WORKSTN</base>
+   <trans>毎日　の　ワークステーション バクアプ　可能／無能 </trans>
+  </entry>
+  <entry>
+   <base>ENABLE_WORKSTN_BACKUP</base>
+   <trans>ワークステーション バクアプ　可能／無能 </trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TIME</base>
+   <trans>ワークステーション バクアプ　の　時間　(時／分）</trans>
+  </entry>
+  <entry>
+   <base>UPDATING_WORKSTN_CONF</base>
+   <trans>バックアップしたワークステーションの設定をアップデートする</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_ENABLED_WORKSTN</base>
+   <trans>ワークステーションのバックアップの有効化に成功</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_DISABLED_WORKSTN</base>
+   <trans>ワークステーションバックアップの無効化に成功</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_WORKSTN_BACKUP_FILE</base>
+   <trans>ワークステーションバックアップのチェック</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_WORKSTN_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>この項目では以前作った全ての一日毎のワークステーションバックアップファイルの名前を表示する。この項目でバックアップの内容を確認できる。<b>確認したいバックアップを選ばなければならない。</b></p><p>あなたが選んだ全てのバックアップファイルが見れる。</p>共有フォルダでバックアップファイルが確認できる : ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_WORKSTN</base>
+   <trans>ワークステーションバックアップファイルからサーバー設定を復元する</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_WORKSTN_DESC</base>
+   <trans><![CDATA[ <p>この工程でサーバーワークステーションバックアップファイルから設定とユーザーのデータファイルを復元する。<b>この復元は新しくインストールされたサーバーにされる</b>,</p><p>始める前に正しいバックアップファイルを選ぶように注意する</p><p>復元が終わったらサーバーを再起動しなければならない。</p>復元するバックアップファイルはここに : ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FROM_WORKSTN</base>
+   <trans>ワークステーションから復元する</trans>
+  </entry>
+  <entry>
+   <base>RESTORING_FROM_WORKSTN</base>
+   <trans>ワークステーションから復元中</trans>
+  </entry>
+  <entry>
+   <base>NOW_RESTORING_FROM_WORKSTN</base>
+   <trans>ワークステーション共有フォルダからサーバー設定とユーザーのデータファイルを現在復元している。</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_FROM_WORKSTN</base>
+   <trans>ワークステーションより復元中にエラー発生。</trans>
+  </entry>
+  <entry>
+   <base>ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE</base>
+   <trans>ワークステーションより復元後、アップデート中にエラー発生。</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_NAME</base>
+   <trans>ワークステーションのIP又はホスト名</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SETTINGS</base>
+   <trans>ワークステーションバックアップ設定</trans>
+  </entry>
+  <entry>
+   <base>SHARED_FOLDER_NAME</base>
+   <trans>バックアップの共有</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_LOGIN</base>
+   <trans>ログイン名</trans>
+  </entry>
+  <entry>
+   <base>WORKSTATION_BACKUP_DEST</base>
+   <trans>ワークステーション設定をバックアップする</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_WORKSTN_BACKUP_DESC</base>
+   <trans>You can set the number of successive backup sets to keep on the workstation, with automatic rotation. Each set may contain saved data for several consecutive days. In this case first backup of the set is full backup, others daily backups are incremental. You can also set a time limit for each backup session or for incremental backups only. When this limit occurs, backup is cleanly stopped and the next incremental backup will safely continue with unsaved and modified datas.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_WORKSTN</base>
+   <trans>無効なワークステーションIP又はホスト名</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_FOLDER</base>
+   <trans>無効な共有名</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_LOGIN</base>
+   <trans>無効なログイン</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_PASSWORD</base>
+   <trans>無効なパスワード</trans>
+  </entry>
+  <entry>
+   <base>ERR_ALREADY_MOUNTED</base>
+   <trans>Backup directory is already mounted</trans>
+  </entry>
+  <entry>
+   <base>ERR_MOUNTING_SMBSHARE</base>
+   <trans>ワークステーション共有フォルダを認証できない</trans>
+  </entry>
+  <entry>
+   <base>ERR_NOT_MOUNTED</base>
+   <trans>Backup directory is not mounted</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_NOT_SET</base>
+   <trans>まず最初にワークステーションバックアップを正しく設定しなければならない</trans>
+  </entry>
+  <entry>
+   <base>NO_BACKUPS_TO_RESTORE</base>
+   <trans>ワークステーション共有フォルダにバックアップ設定が見つかりません。設定を確認してください。</trans>
+  </entry>
+  <entry>
+   <base>NUMBER_OF_SETS</base>
+   <trans>循環してるバックアップ設定の数</trans>
+  </entry>
+  <entry>
+   <base>NUMBER_OF_FILES_IN_SET</base>
+   <trans>各セットにある一日毎のバックアップ</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_SETS_NUMBER</base>
+   <trans>セットの数字は１より大きくなければならない</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_FILES_IN_SET_NUMBER</base>
+   <trans>この数字は１より大きくなければならない。最初のセットのバックアップは<b>満</b>他のは<b>増加</b></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_TIMEOUT</base>
+   <trans>任意のバックアップセッション時間切れ(時)</trans>
+  </entry>
+  <entry>
+   <base>INC_ONLY_TIMEOUT</base>
+   <trans>フルバックアップセッションを中断させない</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_TIMEOUT</base>
+   <trans>最大限度のバックアップ時間は１から２４時間の間に設定しなければならない</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_HOST_DIR</base>
+   <trans>このホストでは共有フォルダにディレクトリがない。もしかしたらあなたのホスト名はバックアップしたのと違うかもしれない</trans>
+  </entry>
+  <entry>
+   <base>ERROR_READING_FILE</base>
+   <trans>ファイル読み込み中にエラー発生</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SEL_RESTORE</base>
+   <trans>ワークステーションより選択されたファイルを復元</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SELECTIVE_RESTORE</base>
+   <trans>ワークステーションの選択されたファイルが復元する</trans>
+  </entry>
+  <entry>
+   <base>ALL_BACKUPS</base>
+   <trans>すべてのバックアップ</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SEL_REST_DESC</base>
+   <trans><![CDATA[ This process will restore only specified files and directories. You must first choose the backup from which the files will be restored. If you don't know in which backup are the required files, you can select 'All backups' option. <br/><br/> The next panel will display available files and directories, so you can choose the ones to restore. To restrict the number of files and directories displayed in this panel, you have the option to give now a filtering expression, applied as a regular expression to the displayed names.<br/><br/> You have the responsibility not to restore files which could break the functioning of your server.<br/> <br/>Currently, files will be restored from : ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_CHOICE</base>
+   <trans>ファイルを選択して表示させる</trans>
+  </entry>
+  <entry>
+   <base>SELECT_DATE_BEFORE</base>
+   <trans>一番新しいのを復元する</trans>
+  </entry>
+  <entry>
+   <base>FILTER_EXPRESSION</base>
+   <trans>名前フィルター：</trans>
+  </entry>
+  <entry>
+   <base>READ_COMPLETE</base>
+   <trans><![CDATA[ You can choose all the directories and files you want to restore in the displayed list (use ctrl or shift for multiple selection). <br/> <b>Warning :</b> If you select a directory, all contained files and directories will be restored.<p/> By default the most recent version of selected files is restored, but if you specify a date in the format <i>[ [ [yyyy/]mm/]dd-]hh:mm[:ss]</i> the process will restore only the most recent version modified <b>before the given date</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_SELDATE</base>
+   <trans>無効なデータフォーマット。こうでなければならない[ [ [yyyy/]mm/]dd-]hh:mm[:ss]. 例: 2005/12/31-08:23:32 or 10-08:32 or 08:32</trans>
+  </entry>
+  <entry>
+   <base>SELECT_FILES_TO_RESTORE</base>
+   <trans>復元するファイルを選択する</trans>
+  </entry>
+  <entry>
+   <base>ERR_WHILE_UNMOUNTING</base>
+   <trans>ヂスタント　シェア　を　アンマウント　する　とき　に　エラー　が　派生　します</trans>
+  </entry>
+  <entry>
+   <base>ERR_DAR_CATALOG</base>
+   <trans>Darカタログ使用中にエラー発生</trans>
+  </entry>
+  <entry>
+   <base>COMPRESSION_LEVEL</base>
+   <trans>バックアップ圧縮レベル[0-9]</trans>
+  </entry>
+  <entry>
+   <base>FULL_ONLY_ON</base>
+   <trans>完全のバックアップは許可されてる</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_COMPRESSION</base>
+   <trans>圧縮レベルは0(無圧縮)-9(最高圧縮)の間でなければならない</trans>
+  </entry>
+  <entry>
+   <base>DOW</base>
+   <trans>日曜　月曜　火曜　水曜　木曜　金曜　土曜　毎日</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURATION_TO_BE_DONE</base>
+   <trans>バックアップ設定をしてください</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>このパネルは現在のバックアップ設定を表示しています。あなたはこのパネルと次のを変更することが出来ます。</p><p/> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_NOT_CONFIGURED</base>
+   <trans><![CDATA[ <p>Presently, workstation backup is not configured. You can set this configuration with this panel and the next one.</p><p/> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_ENABLED</base>
+   <trans>Backup is</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_USB</base>
+   <trans>Backup is made on local removable disk</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_MNT</base>
+   <trans>Backup is made on mounted disk</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_HOST</base>
+   <trans>Backup is made on LAN workstation</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_VFSTYPE</base>
+   <trans>via</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SHARE</base>
+   <trans>Destination backup share folder is</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TOD</base>
+   <trans>Daily backup occurs at</trans>
+  </entry>
+  <entry>
+   <base>LOGIN</base>
+   <trans>Login is</trans>
+  </entry>
+  <entry>
+   <base>PASSWORD</base>
+   <trans>Password is</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SETSNUM</base>
+   <trans>循環してるバックアップ設定の数</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_DAYSINSET</base>
+   <trans>Number of daily backups contained in each set is</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_COMPRESSION</base>
+   <trans>バックアップ圧縮レベル[0-9]</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TIMEOUT</base>
+   <trans>Each daily backup session is cleanly timed out after</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_INCONLY_TIMEOUT</base>
+   <trans>except full backups which are cleanly timed out after 24 hours</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_FULL_BACKUP_EVERYDAY</base>
+   <trans>Full backup sessions (new backup set) are allowed everyday</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_FULL_BACKUP_DAY</base>
+   <trans>Full backup session (new backup sets) is allowed only on</trans>
+  </entry>
+  <entry>
+   <base>WORKSTATION_BACKUP_SETCONF</base>
+   <trans>Create or modify workstation backup configuration</trans>
+  </entry>
+  <entry>
+   <base>SELECT_VFS_TYPE</base>
+   <trans>Select the type of share for backup destination</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_USB_DISK</base>
+   <trans>Error : No removable disk available. Please connect a removable disk or select another type of workstation backup.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_MOUNTED_DISK</base>
+   <trans>Error : No mounted disk available. Please mount a disk or select another type of workstation backup.</trans>
+  </entry>
+  <entry>
+   <base>HOURS</base>
+   <trans>hours.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_FULL_BACKUP</base>
+   <trans>Aborting restore because needed full backup is missing or unreadable.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_INC_BACKUP</base>
+   <trans>Aborting restore because the set has missing or unreadable incremental backup number</trans>
+  </entry>
+  <entry>
+   <base>CHECK_TO_VERIFY_FULL_RESTORE</base>
+   <trans>Check here to test integrity of all backups needed for a full restore with the selected backup</trans>
+  </entry>
+  <entry>
+   <base>TESTING_NEEDED_BACKUPS_FOR_RESTORE</base>
+   <trans>Testing all backups needed for a full restore with selected backup</trans>
+  </entry>
+  <entry>
+   <base>TESTED_BACKUP</base>
+   <trans>Testing integrity of backup</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_VERIFY_FAILED</base>
+   <trans>Verify integrity failed</trans>
+  </entry>
+  <entry>
+   <base>CHECK_INTEGRITY_WARNING</base>
+   <trans>Warning : For large backups, checking integrity may be a long task and should be made with daily workstation backup disabled.</trans>
+  </entry>
+  <entry>
+    <base>cifs</base>
+    <trans>cifs</trans>
+  </entry>
+  <entry>
+    <base>nfs</base>
+    <trans>nfs</trans>
+  </entry>
+  <entry>
+    <base>local removable disk</base>
+    <trans>Local removable disk</trans>
+  </entry>
+  <entry>
+    <base>Mounted disk</base>
+    <trans>Mounted disk</trans>
+  </entry>
+  <entry>
+   <base>ERROR_WHEN_TESTING_REMOTE_SERVER</base>
+   <trans>The parameters have been saved, however the remote host is not reachable, please check your settings.</trans>
+  </entry>
+  <entry>
+   <base>DO_NOT_RESTORE_BIN_SBIN_LIB_LIB64_FROM_SME9</base>
+   <trans>If you restore from Koozali SME Server 9 or before, pay attention that some folders in the system are now symlinks. Basic backup configuration does not include /bin, /lib, /lib64, /sbin, /var/lock and /var/run. If you have added them for files in their subdirectories, we will prevent the restoration of those folders to prevent dar from replacing those symlinks and leave the system unusable. Those additions are, however, not recommended as they are at risk to overwrite files provides by rpms.</trans>
+  </entry>
+  <entry>
+   <base>SMBV1</base>
+   <trans>Mount as legacy SMB v1 share (unsecure, not recommended).</trans>
+  </entry>
+
+
+</lexicon>

@@ -1,0 +1,106 @@
+<lexicon lang="ro">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Crează, modifică sau sterge quota utilizatorilor</trans>
+    </entry>
+    <entry>
+      <base>UNABLE_TO_OPEN_ACCOUNTS</base>
+      <trans>Nu s-a putut deschide baza de conturi</trans>
+    </entry>
+    <entry>
+      <base>QUOTA_DESC</base>
+      <trans><![CDATA[ <p>Puteți seta quota de disk pentru utilizatori apăsând butonul "Modifică" de lângă utilizatorul dorit. <p>Dacă utilizatorul depășeste "Limita cu perioadă de grație", un avertisment va fi generat. Dacă limita este incălcată pentru o perioadă mai mare de o săptamână sau dacă se atinge "Limita absolută", utilizatorul nu va mai putea salva alte fișiere sau să primeasca alte emailuri. <p>Setarea '0' pentru ambele limite dezactiveaza limitele utilizatorului. <p>Spațiul utilizat de utilizator include directorul home al lui, emailurile și toate fișierele deținute în ibay-uri.. ]]></trans>
+    </entry>
+    <entry>
+      <base>CURRENT_USAGE_AND_SETTINGS</base>
+      <trans>Utilizare actuală quota și setări</trans>
+    </entry>
+    <entry>
+      <base>LIMIT_WITH_GRACE</base>
+      <trans>Limitare cu perioadă de grație</trans>
+    </entry>
+    <entry>
+      <base>LIMIT_WITH_GRACE_MB</base>
+      <trans>Limitare cu perioadă de grație (MB)</trans>
+    </entry>
+    <entry>
+      <base>ABS_LIMIT</base>
+      <trans>Limită absolută</trans>
+    </entry>
+    <entry>
+      <base>ABS_LIMIT_MB</base>
+      <trans>Limită absolută (MB)</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_USAGE</base>
+      <trans>Utilizare curentă (MB)</trans>
+    </entry>
+    <entry>
+      <base>COULD_NOT_GET_UID</base>
+      <trans>Nu se poate determina UID-ul utilizatorului:</trans>
+    </entry>
+    <entry>
+      <base>ERR_NO_SUCH_ACCT</base>
+      <trans>Eroare: nu există cont:</trans>
+    </entry>
+    <entry>
+      <base>ERR_NOT_A_USER_ACCT</base>
+      <trans>Eroare: contul nu este de tip utilizator:</trans>
+    </entry>
+    <entry>
+      <base>ACCOUNT_IS_TYPE</base>
+      <trans>Este un cont de tip:</trans>
+    </entry>
+    <entry>
+      <base>MODIFY_USER_TITLE</base>
+      <trans>Modifică limitele de quota ale utilizatorului</trans>
+    </entry>
+    <entry>
+      <base>USER</base>
+      <trans>Utilizator:</trans>
+    </entry>
+    <entry>
+      <base>CURRENTLY_HAS</base>
+      <trans>actual are:</trans>
+    </entry>
+    <entry>
+      <base>FILES</base>
+      <trans>fișiere</trans>
+    </entry>
+    <entry>
+      <base>OCCUPYING</base>
+      <trans>ce ocupă:</trans>
+    </entry>
+    <entry>
+      <base>MEGABYTES</base>
+      <trans>megaocteți</trans>
+    </entry>
+    <entry>
+      <base>INSTRUCTIONS</base>
+      <trans>Introduceți quota cu sufix opțional "K" pentru Kiloocteți, "M" pentru Megaocteți, "G" pentru Gigaocteți, "T" pentru Teraocteți. Unitatea implicită dacă nu se trece nici un sufix este Megaoctetul. Setarea cu 0 a ambelor dezactiveaza limitele pentru utilizatorul respectiv.</trans>
+    </entry>
+    <entry>
+      <base>SOFT_VAL_MUST_BE_NUMBER</base>
+      <trans>Eroare: limitarea cu perioadă de grație trebuie să fie un număr, opțional urmat de unitatea de mărime K, M, G  sau T.</trans>
+    </entry>
+    <entry>
+      <base>HARD_VAL_MUST_BE_NUMBER</base>
+      <trans>Eroare: limitarea absolută trebuie să fie un număr, opțional urmat de unitatea de mărime K, M, G sau T.</trans>
+    </entry>
+    <entry>
+      <base>ERR_HARD_LT_SOFT</base>
+      <trans>Eroare: limita absolută trebuie să fie mai mare ca ce cu perioadă de grație.</trans>
+    </entry>
+    <entry>
+      <base>ERR_MODIFYING</base>
+      <trans>O eroare a apărut la actualizarea utilizatorului.</trans>
+    </entry>
+    <entry>
+      <base>SUCCESSFULLY_MODIFIED</base>
+      <trans>Quota modificată cu succes pentru utilizatorul:</trans>
+    </entry>
+    <entry>
+	<base>Quotas</base>
+	<trans>Quote</trans>
+    </entry>
+</lexicon>

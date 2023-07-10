@@ -1,0 +1,126 @@
+<lexicon lang="ru">
+    <entry>
+        <base>Review configuration</base>
+        <trans>Обзор конфигурации</trans>
+    </entry>	
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans>Этот отчёт суммирует параметры сети, сервера и домена на этом сервере, имеющие отношение к настройке клиентских компьютеров в сети. Вы можете распечатать эту страницу и использовать ее, как справочную информацию.</trans>	
+    </entry>
+    <entry>
+        <base>NETWORKING_PARAMS</base>
+        <trans>Сетевые параметы</trans>
+    </entry> 
+    <entry>
+        <base>SERVER_MODE</base>
+        <trans>Режим сервера</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP_ADDRESS_SUBNET_MASK</base>
+        <trans>Внутренний IP адрес / маска подсети</trans>
+    </entry>
+    <entry>
+        <base>EXTERNAL_IP_ADDRESS_SUBNET_MASK</base>
+        <trans>Внешний IP адрес / маска подсети</trans>
+    </entry>
+    <entry>
+        <base>GATEWAY</base>
+        <trans>Шлюз</trans>
+    </entry>
+    <entry>
+        <base>ADDITIONAL_LOCAL_NETWORKS</base>
+        <trans>Дополнительные локальные сети</trans>
+    </entry>
+    <entry>
+        <base>DHCP_SERVER</base>
+        <trans>DHCP сервер</trans>
+    </entry>
+    <entry>
+        <base>BEGINNING_OF_DHCP_ADDRESS_RANGE</base>
+        <trans>Начало DHCP диапазона адресов</trans>
+    </entry>
+    <entry>
+        <base>END_OF_DHCP_ADDRESS_RANGE</base>
+        <trans>Конец DHCP диапазона адресов</trans>
+    </entry>
+    <entry>
+        <base>SERVER_NAMES</base>
+        <trans>Имена сервера</trans>
+    </entry>
+    <entry>
+        <base>DNS_SERVER</base>
+        <trans>DNS сервер</trans>
+    </entry>
+    <entry>
+        <base>WEB_SERVER</base>
+        <trans>Веб-сервер</trans>
+    </entry>
+    <entry>
+        <base>PROXY_SERVER</base>
+        <trans>Прокси-сервер</trans>
+    </entry>
+    <entry>
+        <base>FTP_SERVER</base>
+        <trans>FTP сервер</trans>
+    </entry>
+    <entry>
+        <base>SMTP_POP_AND_IMAP_MAIL_SERVERS</base>
+        <trans>SMTP, POP и IMAP серверы</trans>
+    </entry>
+    <entry>
+        <base>HOSTS</base>
+        <trans>Узлы</trans>
+    </entry> 
+    <entry>
+        <base>DOMAIN_INFORMATION</base>
+        <trans>Информация о домене</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_DOMAIN</base>
+        <trans>Первичный домен</trans>
+    </entry>
+    <entry>
+        <base>VIRTUAL_DOMAINS</base>
+        <trans>Виртуальные домены</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_WEB_SITE</base>
+        <trans>Первичный веб-сайт</trans>
+    </entry>
+    <entry>
+        <base>MITEL_NETWORKS_SME_SERVER_MANAGER</base>
+        <trans>Менеджер сервера</trans>
+    </entry>
+    <entry>
+        <base>MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL</base>
+        <trans>Панель пароля пользователя</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_ADDRESSES</base>
+        <trans>Адреса email</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_USERACCOUNT</base>
+        <trans>учётная запись пользователя</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_FIRSTNAME</base>
+        <trans>имя</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_LASTNAME</base>
+        <trans>фамилия</trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>Виртуальные домены не определены</trans>
+    </entry>
+    <entry>
+        <base>NO_NETWORKS</base>
+        <trans>Дополнительные сети не заданы</trans>
+    </entry>
+    <entry>
+        <base>INTERNET_VISIBLE_ADDRESS</base>
+        <trans>Видимый в интернет IP адрес</trans>
+    </entry>
+</lexicon>

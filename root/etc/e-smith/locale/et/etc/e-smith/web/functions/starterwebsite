@@ -1,0 +1,43 @@
+<lexicon lang="et">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>Loo omale veebileht</trans>
+      </entry>
+      <entry>
+	<base>SUCCESS</base>
+	<trans>Veebileht edukalt loodud. Uut lehte näed aadressil: </trans>
+      </entry>
+      <entry>
+	<base>DESCRIPTION</base>
+	  <trans><![CDATA[ <p> Omale lihtsa veebilehe loomiseks, täida allolevad väljad ja vajuta <b>Salvesta</b>. </p> <p>Võib ka väljad tühjaks jätta kui sa ei vaja neid. </p> <p> The text that you enter below will be line wrapped for a nicer appearance in your web page. Leave a blank line whenever you want to start a new paragraph. If you need to force a line break without starting a new paragraph (for example after each line of a mailing address), then type the four-character sequence <blockquote>&lt;BR&gt;</blockquote> where you would like each line break. </p> <p> <em>Pea meeles et,</em> kui sa oled juba varem omale loonud veebilehe, siis nüüd kirjutatakse üle juba olemasolev "index.htm" fail. </p> ]]></trans>
+      </entry>
+      <entry>
+	<base>LABEL_COMPANYNAME</base>
+	<trans>Asutuse nimi</trans>
+      </entry>
+	
+      <entry> 
+	<base>DESC_HEADER1</base>
+	<trans>First header, typically used for short phrases such as "Leader in the field of textile manufacturing"</trans>
+      </entry>
+      <entry> 
+	<base>DESC_TEXT1</base>
+	<trans>Text following first header, typically used for a paragraph of marketing information.</trans>
+      </entry>
+      <entry> 
+	  <base>DESC_HEADER2</base>
+	<trans>Second header, typically used for short phrases such as "For more information" or "To order our products":</trans>
+	</entry>
+      <entry> 
+	<base>DESC_TEXT2</base>
+	<trans>Text following second header, typically used for contact or ordering information:</trans>
+	</entry>
+      <entry>
+	<base>DESC_SUBMIT</base>
+	<trans><![CDATA[ <p>Kui sa otsustad luua selle lehe, siis "index.htm" kirjutatakse üle.</p> <p>Oled kindel , et jätkad?</p> ]]></trans>
+      </entry>
+      <entry>
+	<base>Create starter web site</base>
+	<trans>Loo veebileht</trans>
+      </entry>
+</lexicon>

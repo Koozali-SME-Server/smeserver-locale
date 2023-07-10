@@ -1,0 +1,520 @@
+<lexicon lang="el">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>Collaboration</base>
+        <trans>Συνεργασία</trans>
+    </entry>
+    <entry>
+      <base>Administration</base>
+      <trans>Διαχείριση</trans>
+    </entry>
+    <entry>
+        <base>Security</base>
+        <trans>Ασφάλεια</trans>
+    </entry>
+    <entry>
+        <base>Configuration</base>
+        <trans>Ρύθμιση παραμέτρων συστήματος</trans>
+    </entry>
+    <entry>
+        <base>Miscellaneous</base>
+        <trans>Διάφορα</trans>
+    </entry>
+    <entry>
+        <base>Your Settings</base>
+        <trans>Οι ρυθμίσεις σας</trans>
+    </entry>
+    <entry>
+        <base>SAVE</base>
+        <trans>Αποθήκευση</trans>
+    </entry>
+    <entry>
+        <base>CANCEL</base>
+        <trans>Ακύρωση</trans>
+    </entry>
+    <entry>
+        <base>ENABLED</base>
+        <trans>Ενεργοποιήθηκε</trans>
+    </entry>
+    <entry>
+        <base>DISABLED</base>
+        <trans>Απενεργοποιημένος/η/ο</trans>
+    </entry>
+    <entry>
+        <base>NO</base>
+        <trans>Όχι</trans>
+    </entry>
+    <entry>
+        <base>YES</base>
+        <trans>Ναι</trans>
+    </entry>
+    <entry>
+        <base>ADD</base>
+        <trans>Προσθήκη</trans>
+    </entry>
+    <entry>
+        <base>CREATE</base>
+        <trans>Δημιουργία</trans>
+    </entry>
+    <entry>
+        <base>MODIFY</base>
+        <trans>Τροποποίηση</trans>
+    </entry>
+    <entry>
+        <base>REMOVE</base>
+        <trans>Διαγραφή</trans>
+    </entry>
+    <entry>
+        <base>COMMENT</base>
+        <trans>Σχόλιο</trans>
+    </entry>
+    <entry>
+        <base>NEXT</base>
+        <trans>Επόμενο</trans>
+    </entry>
+    <entry>
+        <base>SELF</base>
+        <trans>Ίδιο</trans>
+    </entry>
+    <entry>
+        <base>REMOTE</base>
+        <trans>Απομακρυσμένο</trans>
+    </entry>
+    <entry>
+        <base>LOCAL</base>
+        <trans>Τοπικό</trans>
+    </entry>
+    <entry>
+        <base>ACTION</base>
+        <trans>Ενέργεια</trans>
+    </entry>
+    <entry>
+        <base>NETWORK</base>
+        <trans>Δίκτυο</trans>
+    </entry>
+    <entry>
+        <base>ROUTER</base>
+        <trans>Δρομολογητής</trans>
+    </entry>
+    <entry>
+        <base>OPERATION_STATUS_REPORT</base>
+        <trans>Αναφορά κατάστασης λειτουργίας</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT</base>
+        <trans>Λογαριασμός</trans>
+    </entry>
+    <entry>
+        <base>GROUP</base>
+        <trans>Ομάδα</trans>
+    </entry>
+    <entry>
+        <base>DESC_SECTIONBAR</base>
+        <trans><![CDATA[ <hr class="sectionbar"/> ]]></trans>
+    </entry>
+    <entry>
+        <base>NO_PIPES_ALLOWED</base>
+        <trans>Το σύμβολο της κατακόρυφης μπάρας (|) δεν επιτρέπεται σ΄ετούτο το πεδίο</trans>
+    </entry>
+    <entry>
+        <base>ERROR_BELOW</base>
+        <trans>ΣΦΑΛΜΑ: Συνέβη κάποιο σφάλμα στην επικύρωση της παρούσας σελίδας. Παρακαλώ κάντε κύλιση της οθόνη προς τα κάτω για να βρείτε το συγκεκριμένο πρόβλημα.</trans>
+    </entry>
+    <entry>
+        <base>ACCESS</base>
+        <trans>Πρόσβαση</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_LOCKED</base>
+        <trans>Ο Λογαριασμός είναι κλειδωμένος</trans>
+    </entry>
+    <entry>
+        <base>GROUP_ADD</base>
+        <trans>Προσθήκη ομάδας</trans>
+    </entry>
+    <entry>
+        <base>NETWORKS_ALLOW_LOCAL</base>
+        <trans>Επιτρέπεται η πρόσβαση μόνον από τοπικά δίκτυα</trans>
+    </entry>
+    <entry>
+        <base>NETWORKS_ALLOW_PUBLIC</base>
+        <trans>Επιτρέπεται η δημόσια πρόσβαση (από ολόκληρο το Διαδίκτυο)</trans>
+    </entry>
+    <entry>
+        <base>ERROR_PASSWORD_CHANGE</base>
+        <trans>Παρουσιάσθηκε κάποιο σφάλμα κατά την διάρκεια αλλαγής του κωδικού πρόσβασης. Παρακαλώ σιγουρευτείτε ότι έγινε σωστή εισαγωγή του παλιού κωδικού πρόσβασης.</trans>
+    </entry>
+    <entry>
+        <base>BACK</base>
+        <trans>Πίσω</trans>
+    </entry>
+    <entry>
+        <base>BACKUP</base>
+        <trans>Αντίγραφο Ασφαλείας</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION_BRIEF</base>
+        <trans>Σύντομη περιγραφή</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE</base>
+        <trans>Αλλαγή κωδικού πρόσβασης</trans>
+    </entry>
+    <entry>
+        <base>RESET_PASSWORD_TITLE</base>
+        <trans>Αρχικοποίηση (reset) αρχικού κωδικού πρόσβασης χρήστη</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_PASSWORD_CHANGE</base>
+        <trans>Αλλαγή κωδικού πρόσβασης λογαριασμού</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>Περιεχόμενο</trans>
+    </entry>
+    <entry>
+        <base>CREATE_GROUP</base>
+        <trans>Δημιουργία ομάδας χρηστών</trans>
+    </entry>
+    <entry>
+        <base>USER_LIST_CURRENT</base>
+        <trans>Τρέχουσα λίστα χρηστών</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans>Περιγραφή</trans>
+    </entry>
+    <entry>
+        <base>DESTINATION</base>
+        <trans>Προορισμός</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME</base>
+        <trans>Όνομα τομέα</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN</base>
+        <trans>Τομέας</trans>
+    </entry>
+    <entry>
+        <base>DOMAINS</base>
+        <trans>Τομείς</trans>
+    </entry>
+    <entry>
+        <base>DOWNLOAD</base>
+        <trans>Λήψη</trans>
+    </entry>
+    <entry>
+        <base>ERROR_UPDATING_CONFIGURATION</base>
+        <trans>Σφάλμα συνέβη κατά την ενημέρωση των ρυθμίσεων παραμέτρων συστήματος.</trans>
+    </entry>
+    <entry>
+        <base>GROUP_MEMBERS</base>
+        <trans>Μέλη ομάδας</trans>
+    </entry>
+    <entry>
+        <base>GROUP_NAME</base>
+        <trans>Όνομα ομάδας</trans>
+    </entry>
+    <entry>
+        <base>GROUPS</base>
+        <trans>Ομάδες</trans>
+    </entry>
+    <entry>
+        <base>IP_ADDRESS</base>
+        <trans>Διεύθυνση IP</trans>
+    </entry>
+    <entry>
+        <base>IP_ADDRESS_OR_FQDN</base>
+        <trans>Διεύθυνση IP</trans>
+    </entry>
+    <entry>
+        <base>USER_INVALID</base>
+        <trans>Μη-έγκυρος χρήστης</trans>
+    </entry>
+    <entry>
+        <base>LOCATION</base>
+        <trans>Τοποθεσία</trans>
+    </entry>
+    <entry>
+        <base>MB</base>
+        <trans>Mb</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_USER_GROUP</base>
+        <trans>Τροποποίηση ομάδας χρηστών</trans>
+    </entry>
+    <entry>
+        <base>NAME</base>
+        <trans>Όνομα</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_VERIFY_NEW</base>
+        <trans>Νέος κωδικός πρόσβασης (επαλήθευση)</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_NEW</base>
+        <trans>Νέος κωδικός πρόσβασης:</trans>
+    </entry>
+    <entry>
+        <base>OFF</base>
+        <trans>Εκτός</trans>
+    </entry>
+    <entry>
+        <base>OK</base>
+        <trans>Εντάξει</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_OLD</base>
+        <trans>Παλαιός κωδικός πρόσβασης:</trans>
+    </entry>
+    <entry>
+        <base>ON</base>
+        <trans>Εντός</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD</base>
+        <trans>Κωδικός πρόσβασης</trans>
+    </entry>
+    <entry>
+        <base>PERFORM</base>
+        <trans>Εκτέλεση</trans>
+    </entry>
+    <entry>
+        <base>RECONFIGURE</base>
+        <trans>Επαναρύθμιση παραμέτρων</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_USER_GROUP</base>
+        <trans>Διαγραφή ομάδας χρηστών</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_RESET</base>
+        <trans>Αρχικοποίηση κωδικού πρόσβασης</trans>
+    </entry>
+    <entry>
+        <base>RESTORE</base>
+        <trans>Επαναφορά</trans>
+    </entry>
+    <entry>
+        <base>SHUTDOWN</base>
+        <trans>Τερματισμός</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Επιτυχής</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME_INVALID</base>
+        <trans>Η ονομασία λογαριασμού που πληκτρολογήσατε δεν είναι έγκυρη.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME_INVALID_CHARS</base>
+        <trans>Η ονομασία του λογαριασμού που πληκτρολογήσατε περιλαμβάνει μη-έγκυρους χαρακτήρες.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_OLD_INVALID_CHARS</base>
+        <trans>Ο παλαιός κωδικός πρόσβασης που πληκτρολογήσατε περιέχει μη-έγκυρους χαρακτήρες.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_INVALID_CHARS</base>
+        <trans>Ο κωδικός πρόσβασης που πληκτρολογήσατε περιέχει μη-έγκυρους χαρακτήρες.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_VERIFY_ERROR</base>
+        <trans>Οι κωδικοί πρόσβασης που πληκτρολογήσατε δεν ταυτίζονται.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_USER_NONE</base>
+        <trans>Δεν υφίστανται λογαριασμοί χρηστών στο σύστημα.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_GROUP_NONE</base>
+        <trans>Δεν υφίστανται ομάδες χρηστών στο σύστημα.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_INVALID_CHARS</base>
+        <trans>Μη-αναμενόμενοι χαρακτήρες στην περιγραφή.</trans>
+    </entry>
+    <entry>
+        <base>USER_NAME</base>
+        <trans>Όνομα χρήστη</trans>
+    </entry>
+    <entry>
+        <base>YOUR_ACCOUNT</base>
+        <trans>Ο λογαριασμός σας:</trans>
+    </entry>
+    <entry>
+      <base>YOUR_ACCOUNT_INVALID</base>
+      <trans>Η ονομασία λογαριασμού που πληκτρολογήσατε δεν είναι έγκυρη.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE_SUCCESS</base>
+        <trans>Ο κωδικός πρόσβασής σας άλλαξε επιτυχώς.</trans>
+    </entry>
+    <entry>
+        <base>FM_NONBLANK</base>
+        <trans>Αυτό το πεδίο δεν πρέπει ν΄αφεθεί κενό</trans>
+    </entry>
+    <entry>
+        <base>FM_INTEGER</base>
+        <trans>Αυτό το πεδίο πρέπει να περιέχει ένα θετικό ακέραιο αριθμό</trans>
+    </entry>
+    <entry>
+        <base>FM_NUMBER</base>
+        <trans>Αυτό το πεδίο πρέπει να περιέχει έναν αριθμό</trans>
+    </entry>
+    <entry>
+        <base>FM_WORD</base>
+        <trans>Αυτό το πεδίο πρέπει να μοιάζει με μία λέξη.</trans>
+    </entry>
+    <entry>
+        <base>FM_DATE</base>
+        <trans>Τα δεδομένα που πληκτρολογήθηκαν δεν μπορούν να ερμηνευτούν σαν ημερομηνία</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER1</base>
+        <trans>Πρέπει να πληκτρολογήσετε έναν αριθμό πιστωτικής κάρτας</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER2</base>
+        <trans>Ο αριθμός πιστωτικής κάρτας δεν μπορεί να περιέχει τίποτε άλλο παρά αριθμούς, κενά ή παύλες</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER3</base>
+        <trans>Πρέπει να έχει μήκος τουλάχιστον 14 χαρακτήρες</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER4</base>
+        <trans>Δεν φαίνεται να είναι ένας έγκυρος αριθμός πιστωτικής κάρτας</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY1</base>
+        <trans>Δεν πληκτρολογήθηκε ημερομηνία λήξης ισχύος.</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY2</base>
+        <trans>Η ημερομηνία λήξης ισχύος πρέπει να είναι φόρμας MM/YY ή MM/YYYY</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY3</base>
+        <trans>Η ημερομηνία λήξης ισχύος φαίνεται να έχει ήδη παρέλθει</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY4</base>
+        <trans>Η ημερομηνία λήξης ισχύος φαίνεται να είναι πολύ μακριά στο μέλλον</trans>
+    </entry>
+    <entry>
+        <base>FM_ISO_COUNTRY_CODE1</base>
+        <trans>Πρέπει να δώσετε ένα κωδικό χώρας</trans>
+    </entry>
+    <entry>
+        <base>FM_ISO_COUNTRY_CODE2</base>
+        <trans>Αυτό το πεδίο δεν περιέχει έναν ISO κωδικό χώρας</trans>
+    </entry>
+    <entry>
+        <base>FM_US_STATE</base>
+        <trans>Αυτός δεν φαίνεται να είναι ένας έγκυρος διγράμματος κωδικός Πολιτείας των Η.Π.Α</trans>
+    </entry>
+    <entry>
+        <base>FM_US_ZIPCODE</base>
+        <trans>Οι ταχυδρομικοί κωδικοί των Η.Π.Α πρέπει να περιέχουν 5 ή 9 ψηφία</trans>
+    </entry>
+    <entry>
+        <base>FM_MINLENGTH1</base>
+        <trans>Το ελάχιστο μήκος έχει ορισθεί χωρίς νόημα ως {$minlength}</trans>
+    </entry>
+    <entry>
+        <base>FM_MINLENGTH2</base>
+        <trans>Αυτό το πεδίο πρέπει να είναι τουλάχιστον {$minlength} χαρακτήρες</trans>
+    </entry>
+    <entry>
+        <base>FM_MAXLENGTH1</base>
+        <trans>Το μέγιστο μήκος έχει ορισθεί χωρίς νόημα ως {$maxlength}</trans>
+    </entry>
+    <entry>
+        <base>FM_MAXLENGTH2</base>
+        <trans>Αυτό το πεδίο δεν μπορεί να περιέχει περισσότερους από {$maxlength} χαρακτήρες</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH1</base>
+        <trans>Πρέπει να ορίσετε το μήκος του πεδίου.</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH2</base>
+        <trans>Πρέπει να ορίσετε το ακριβές μήκος του πεδίου δι΄ ενός ακεραίου</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH3</base>
+        <trans>Αυτό το πεδίο θα πρέπει να είναι ακριβώς {$exactlength} χαρακτήρες</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE1</base>
+        <trans>Πρέπει να ορίσετε το μέγιστο και το ελάχιστο μήκος για το πεδίο.</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE2</base>
+        <trans>Πρέπει να ορίσετε το μέγιστο και ελάχιστο μήκος του πεδίου δι΄ ενός ακεραίου</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE3</base>
+        <trans>Αυτό το πεδίο πρέπει να είναι μεταξύ {$minlength} και {$maxlength} χαρακτήρες</trans>
+    </entry>
+    <entry>
+        <base>FM_URL</base>
+        <trans>Το πεδίο πρέπει να περιέχει ένα URL που ν΄αρχίζει με http:// ή ftp://</trans>
+    </entry>
+    <entry>
+        <base>FM_EMAIL_SIMPLE1</base>
+        <trans>Πρέπει να πληκτρολογήσετε μια διεύθυνση ηλεκτρονικής αλληλογραφίας.</trans>
+    </entry>
+    <entry>
+        <base>FM_EMAIL_SIMPLE2</base>
+        <trans>Αυτό το πεδίο δεν μοιάζει με μία συμβατή προς RFC822 διεύθυνση ηλεκτρονικής αλληλογραφίας</trans>
+    </entry>
+    <entry>
+        <base>FM_DOMAIN_NAME</base>
+        <trans>Αυτό το πεδίο δεν μοιάζει με μία έγκυρη ονομασία τομέα διαδικτύου ή δικτυακή ονομασία Η/Υ.</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER1</base>
+        <trans>Αυτό το πεδίο πρέπει να περιέχει μία έγκυρη διεύθυνση IP και δεν μπορεί να αφεθεί κενό.</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER2</base>
+        <trans>Invalid IP address format (expected X.X.X.X)</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER3</base>
+        <trans>{$octet} είναι μεγαλύτερο από 255</trans>
+    </entry>
+    <entry>
+        <base>FM_USERNAME</base>
+        <trans>Το πεδίο πρέπει να μοιάζει με ένα έγκυρο όνομα χρήστη (3 έως 8 γράμματα και αριθμητικά ψηφία)</trans>
+    </entry>
+    <entry>
+        <base>FM_PASSWORD1</base>
+        <trans>Πρέπει να δώσετε ένα κωδικό πρόσβασης.</trans>
+    </entry>
+    <entry>
+        <base>FM_PASSWORD2</base>
+        <trans>Ο κωδικός που δώσατε δεν είναι ένας καλός κωδικός πρόσβασης. Ένας καλός κωδικός πρέπει να περιέχει τα παρακάτω: Κεφαλαία γράμματα, πεζά γράμματα, αριθμητικά ψηφία, μη αλφαριθμητικούς χαρακτήρες και να έχει μήκος τουλάχιστον 7 χαρακτήρων.</trans>
+    </entry>
+    <entry>
+        <base>FM_MAC_ADDRESS1</base>
+        <trans>Πρέπει να δώσετε μια MAC διεύθυνση.</trans>
+    </entry>
+    <entry>
+        <base>FM_MAC_ADDRESS2</base>
+        <trans>Η MAC διεύθυνση που δώσατε δεν είναι έγκυρη.</trans>
+    </entry>
+    <entry>
+	<base>FM_ERR_UNEXPECTED_DESC</base>
+	<trans>Σφάλμα: μη αναμενόμενοι ή ελλείποντες χαρακτήρες στην περιγραφή</trans>
+    </entry>
+    <entry>
+        <base>CSRF_VALIDATION_FAILURE</base>
+        <trans>Error: CSRF token is invalid or outdated.</trans>
+    </entry>
+</lexicon>

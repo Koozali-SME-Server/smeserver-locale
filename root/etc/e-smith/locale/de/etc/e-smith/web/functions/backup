@@ -1,0 +1,749 @@
+<lexicon lang="de">
+  <entry>
+   <base>BACKUP_TITLE</base>
+   <trans>Sichern oder Wiederherstellen der Serverdaten</trans>
+  </entry>
+  <entry>
+   <base>BACKUP_DESC</base>
+   <trans><![CDATA[ <P>Der Server bietet zwei Möglichkeiten, den Server zu sichern und wiederherzustellen: entweder auf dem lokalen Desktop oder auf ein Bandlaufwerk.</P> <P>Die erste Methode erzeugt eine Kopie der Servereinstellungen sowie der Benutzerdaten und lädt diese über den Webbrowser auf den Arbeitsplatzrechner herunter. Im Moment beträgt die Größe Ihrer Einstellungen und Benutzerdaten ungefähr<b>$tarsize</b>. Die Sicherungsdatei wird etwas kleiner als dieser Wert, abhängig davon wie die Daten komprimierbar sind. Mit \"Überprüfung der Sicherungsdatei\" kann die Datei noch einmal auf Integrität überprüft werden.</P> <P>Die Bandsicherungmethode benutzt ein Softwarepaket mit dem Namen <I>$module</I>, um die Daten der Festplatte jede Nacht zu sichern. Dafür wird ein Bandsicherungslaufwerk und ein nicht schreibgeschütztes Band benötigt. Die Sicherung wird automatisch zu der angegebenen Zeit jede Nacht durchgeführt (sowie im Laufe des Tages eine E-Mail an den Administrator geschickt). Aktuell sind auf Festplatten Ihres Servers <b>$dumpsize</b> an Daten gespeichert. <b>Im Idealfall sollte die Wiederherstellung auf einem frisch installierten Server durchgeführt werden.</b></P> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_DESC_DAR</base>
+   <trans><![CDATA[ <P>Drei Möglichkeiten sind vorgesehen, um Ihren Server zu sichern und wiederherzustellen: mit einem Bandlaufwerk, mit einer Netzwerkfreigabe oder mit Hilfe Ihres lokalen Arbeitsplatzrechners.</P> <P>Bandsicherung. Diese Methode verwendet ein Software-Paket namens <I>$module</I>, um jede Nacht die gesamte Server-Festplatte auf Band zu sichern. Dies erfordert ein unterstütztes Bandlaufwerk und ein nicht schreibgeschütztes Band. Die Sicherung wird automatisch zur gewählten Zeit in der Nacht durchgeführt (eine Erinnerung wird automatisch während des Tages an den Administrator gemailt). Zur Zeit enthält Ihre Festplatte <b>$dumpsize</b> an Daten.</P> <P>Workstation-Sicherung. Diese Methode verwendet ein Software-Paket namens <I>dar</I>, um Ihre Server-Konfiguration und Daten auf eine Netzwerkfreigabe oder eine lokale Wechselfestplatte, z.B. eine USB-Festplatte, zu sichern. Sie können bestimmen, wie viele rotierende Sätze der Sicherungen aufbewahrt werden und wie viele inkrementelle Sicherungen in jedem Satz enthalten sind. Die Sicherung wird automatisch täglich zu der ausgewählten Zeit durchgeführt. Die derzeitige Gesamtgröße der Konfigurationsdateien und Daten ist unkomprimiert etwa <b>$tarsize</b>. Die doppelte Größe muß frei auf der Netzwerkfreigabe zur Verfügung stehen.</P> <P>Sicherung auf lokalem Arbeitsplatzrechner. Diese Methode erstellt eine Kopie der Serverkonfiguration und Benutzerdaten und lädt diese mit Hilfe des Web-Browsers auf Ihren lokalen Arbeitsplatzrechner herunter. Die derzeitige Gesamtgröße der Konfigurationsdateien und Daten ist unkomprimiert etwa <b>$tarsize</b>. Die Sicherungsdatei kann je nach Komprimierungsgrad etwas kleiner sein. Diese Datei kann verwendet werden, um die Serverdaten von der Konsole wiederherstellen, wenn die Datei auf ein lokales Wechselmedium, z.B. lokale USB-Festplatte, kopiert wird.</P> <P>Mit allen Sicherungsmethoden können Sie Ihre Konfigurations- und Benutzerdateien wiederherstellen. Die Workstation-Sicherung ermöglicht es individuelle Dateien wiederherzustellen. <b>Im Idealfall sollte eine vollständige Rücksicherung auf einem frisch installierten Server durchgeführt werden</b>.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_CONFIG_STATUS</base>
+   <trans>Sichern von Konfiguration und Status</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUPS_ENABLED</base>
+   <trans><![CDATA[ Bandsicherung ist im Moment <b>aktiviert</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUPS_RUN_AT</base>
+   <trans>Die normale Bandsicherung läuft um:</trans>
+  </entry>
+  <entry>
+   <base>REMINDER_MESSAGE_AT</base>
+   <trans>Erinnerungsmitteilung wird gesendet um:</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUPS_DISABLED</base>
+   <trans><![CDATA[ Bandsicherungen sind <b>deaktiviert</b> ]]></trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_BACKUP</base>
+   <trans>Sicherung auf den Arbeitsplatzrechner</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_RESTORE</base>
+   <trans>Wiederherstellen vom Arbeitsplatzrechner</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_VERIFY</base>
+   <trans>Überprüfung der Sicherungsdatei</trans>
+  </entry>
+  <entry>
+   <base>TAPE_CONFIGURE</base>
+   <trans>Bandsicherung konfigurieren</trans>
+  </entry>
+  <entry>
+   <base>TAPE_RESTORE</base>
+   <trans>Wiederherstellen vom Band</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS_BEGAN_AT</base>
+   <trans>Es läuft gerade eine Systemwiederherstellung. Diese wurde begonnen um:</trans>
+  </entry>
+  <entry>
+   <base>REFRESH_THIS_DISPLAY</base>
+   <trans>Anzeige neu laden</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_TAPE_BACKUP</base>
+   <trans>Bandsicherung konfigurieren</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_COMPLETED</base>
+   <trans>Die Systemwiederherstellung wurde beendet</trans>
+  </entry>
+  <entry>
+   <base>STARTED_AT</base>
+   <trans>Sie begann um:</trans>
+  </entry>
+  <entry>
+   <base>FINISHED_AT</base>
+   <trans>und endete um:</trans>
+  </entry>
+  <entry>
+   <base>YOU_MUST_REBOOT</base>
+   <trans>Sie müssen den Server neu starten, um die Änderungen zu aktivieren, die durch das Wiederherstellen übertragen wurden.</trans> 
+  </entry> 
+  <entry>
+   <base>REBOOT</base>
+   <trans>Neustart</trans>
+  </entry>
+  <entry>
+   <base>SELECT_AN_ACTION</base>
+   <trans>Wählen Sie eine Aktion</trans>
+  </entry>
+  <entry>
+   <base>X_BACKUP_OR_RESTORE</base>
+   <trans>X Sichern oder Wiederherstellen der Serverdaten</trans>
+  </entry>
+  <entry>
+   <base>ERR_PRE_BACKUP</base>
+   <trans>Es ist ein Fehler während der Pre-Backup Aktionen aufgetreten.</trans>
+  </entry>
+  <entry>
+   <base>ERR_PRE_RESTORE</base>
+   <trans>Es ist ein Fehler während der Pre-Restore Aktionen aufgetreten.</trans>
+  </entry>
+  <entry>
+   <base>ERR_POST_BACKUP</base>
+   <trans>Es ist ein Fehler während der Post-Backup Aktionen aufgetreten.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_SERVER_CONFIG</base>
+   <trans>Wiederherstellen der Server Einstellungen</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_RESTORE_DESC</base>
+   <trans><![CDATA[ Dieser Prozess wird eine Sicherungsdatei von Ihrem Arbeitsplatzrechner auf Ihren Server hochladen und stellt die Einstellungen sowie die Benutzerdaten wieder her. <B>Die Wiederherstellung sollte auf einem neu installierten Server durchgeführt werden.</B> ]]></trans>
+  </entry>
+  <entry>
+   <base>FREE_SPACE</base>
+   <trans><![CDATA[ Sie haben ungefähr $tmpfree freien Speicherplatz auf Ihrem Server. Prüfen Sie, ob die Sicherungsdatei kleiner als $halffree ist, bevor Sie mit der Wiederherstellung beginnen. ]]></trans>
+  </entry>
+  <entry>
+   <base>MUST_REBOOT_AFTER_RESTORE</base>
+   <trans>Nach Beendigung der Wiederherstellung müssen Sie Ihren Server neu starten.</trans>
+  </entry>
+  <entry>
+   <base>FILE_TO_RESTORE</base>
+   <trans>Sicherungsdatei aus der wiederhergestellt werden soll</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Diese Option zeigt Ihnen die Namen aller erzeugten lokalen Sicherungsdateien an. Sie können diese Option dazu verwenden, den Inhalt Ihrer Sicherungsdateien zu überprüfen.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>SELECT_BACKUP_FILE</base>
+   <trans>Sicherungsdatei auswählen</trans>
+  </entry>
+  <entry>
+   <base>VERIFY</base>
+   <trans>Bestätigen</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CANNOT_PROCEED</base>
+   <trans>Es ist nicht möglich, mit der Wiederherstellung der Servereinstellungen fortzufahren</trans>
+  </entry>
+  <entry>
+   <base>ANOTHER_RESTORE_IN_PROGRESS</base>
+   <trans>Eine andere Wiederherstellung wird gerade ausgeführt. Versuchen Sie es später noch einmal.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS</base>
+   <trans>Wiederherstellung im Gange</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS_DESC</base>
+   <trans>Nach dem Wiederherstellen muss der Server neu gestartet werden. Ihre Wiederherstellung ist komplett, wenn "Wiederherstellung durchgeführt" unten auf der Seite angezeigt wird.</trans>
+  </entry>
+  <entry>
+   <base>FILES_HAVE_BEEN_RESTORED</base>
+   <trans>Die folgenden Dateien und Verzeichnisse wurden wieder hergestellt:</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FAILED_MSG</base>
+   <trans>Wiederherstellung fehlgeschlagen! Es ist ein Fehler beim Lesen der Sicherungsdatei aufgetreten.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_COMPLETE</base>
+   <trans>Wiederherstellung durchgeführt</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_GID</base>
+   <trans>Es ist ein Fehler bei der Wiederherstellung der GID von 'www' aufgetreten</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_INITIAL_GRP</base>
+   <trans>Es ist ein Fehler bei der Wiederherstellung der ursprünglichen Gruppe 'www' aufgetreten.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FAILED</base>
+   <trans>Wiederherstellung fehlgeschlagen! Die Sicherungsdatei ist unvollständig.</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_EXEC_PIPELINE</base>
+   <trans>Kann die Sicherungsverbindung nicht ausführen:</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_DECODE</base>
+   <trans>Kann die Sicherungsdatei nicht dekodieren:</trans>
+  </entry>
+  <entry>
+   <base>FILES_IN_BACKUP</base>
+   <trans>Die folgenden Dateien werden in der Sicherung berücksichtigt:</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_COMPLETE</base>
+   <trans>Die Überprüfung ist beendet</trans>
+  </entry>
+  <entry>
+   <base>BACKUP_FILE_INCOMPLETE</base>
+   <trans>Die Sicherungsdatei ist unvollständig</trans>
+  </entry>
+  <entry>
+   <base>ERR_READING_FILE</base>
+   <trans>Es ist ein Fehler beim Lesen der Sicherungsdatei aufgetreten.</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_DISABLE_TAPE</base>
+   <trans>Aktivieren/Deaktivieren der nächtlichen Bandsicherung</trans>
+  </entry>
+  <entry>
+   <base>TAPE_CONFIG_DESC</base>
+   <trans><![CDATA[ <p>Auswählen ob die nächtliche Bandsicherung durchgeführt werden soll. Danach die gewünschte Zeit und die Erinnerungsmeldung zum Laden des Bandes eingeben.</p> <p>Die Bandsicherung benötigt ein unterstütztes Bandlaufwerk. Sollte das Bandlaufwerk leer sein, wird eine Warnmeldung zum gesetzten Zeitpunkt an den Administrator gesendet.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>ENABLE_TAPE_BACKUP</base>
+   <trans>Aktivieren der Bandsicherung</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUP_TIME</base>
+   <trans>Bandsicherungszeit am Tag (Stunde/Minute)</trans>
+  </entry>
+  <entry>
+   <base>LOAD_TAPE_REMINDER_TIME</base>
+   <trans>Banderinnerung laden am Tag (Stunde/Minute)</trans>
+  </entry>
+  <entry>
+   <base>AM/PM</base>
+   <trans>AM (Vormittag)/PM (Nachmittag)</trans>
+  </entry>
+  <entry>
+   <base>AM</base>
+   <trans>AM (Vormittag)</trans>
+  </entry>
+  <entry>
+   <base>PM</base>
+   <trans>PM (Nachmittag)</trans>
+  </entry>
+  <entry>
+   <base>UPDATE_CONF</base>
+   <trans>Aktualisieren</trans>
+  </entry>
+  <entry>
+   <base>UPDATING_TAPE_CONF</base>
+   <trans>Bandsicherungseinstellungen aktualisieren</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_HOUR</base>
+   <trans>Fehler: ungültige Stundeneingabe:</trans>
+  </entry>
+  <entry>
+   <base>BETWEEN_0_AND_12</base>
+   <trans>Bitte wählen Sie eine Stunde zwischen 0 - 12.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_MINUTE</base>
+   <trans>Fehler: ungültige Backup Minuteneingabe:</trans>
+  </entry>
+  <entry>
+   <base>BETWEEN_0_AND_59</base>
+   <trans>Bitte wählen Sie eine Minute zwischen 0 - 59.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_REMINDER_HOUR</base>
+   <trans>Fehler: Ungültige Stundeneingabe für Erinnerung:</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_REMINDER_MINUTE</base>
+   <trans>Fehler: Ungültige Minuteneingabe für Erinnerung:</trans>
+  </entry>
+  <entry>
+   <base>ERR_CONF_BACKUP</base>
+   <trans>Fehler während des Events des conf-backup.</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_ENABLED_TAPE</base>
+   <trans>Bandsicherung wurde erfolgreich aktiviert</trans>
+  </entry>
+  <entry>
+   <base>WITH_BACKUP_TIME</base>
+   <trans>mit Sicherungszeit:</trans>
+  </entry>
+  <entry>
+   <base>WITH_REMINDER_TIME</base>
+   <trans>und Zeit um an das Laden des Bands zu erinnern:</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_DISABLED</base>
+   <trans>Bandsicherung erfolgreich aktiviert</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_TAPE</base>
+   <trans>Servereinstellungen vom Band wiederherstellen</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_TAPE_DESC</base>
+   <trans><![CDATA[ <P>Dieser Prozess stellt die Konfigurations- und Benutzerdaten von Ihrem Bandlaufwerk wieder her. <B>Die Wiederherstellung sollte auf einem neu installierten Server durchgeführt werden.</B></P> <P>Vergewissern Sie sich, dass das richtige Band im Bandlaufwerk eingelegt wurde, bevor Sie beginnen. </P> <P>Nach der Wiederherstellung muss der Server neu gestartet werden.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FROM_TAPE</base>
+   <trans>Wiederherstellen vom Band</trans>
+  </entry>
+  <entry>
+   <base>UNABLE_TO_RESTORE_CONF</base>
+   <trans>Es ist nicht möglich, die Konfiguration des Servers wiederherzustellen</trans>
+  </entry>
+  <entry>
+   <base>RESTORING_FROM_TAPE</base>
+   <trans>Wiederherstellung vom Band</trans>
+  </entry>
+  <entry>
+   <base>NOW_RESTORING_FROM_TAPE</base>
+   <trans>Ihre Servereinstellungen und Benutzerdaten wurden vom Band wiederhergestellt.</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_FROM_TAPE</base>
+   <trans>Es ist ein Fehler beim Wiederherstellen vom Band aufgetreten.</trans>
+  </entry>
+  <entry>
+   <base>ERR_UPDATING_CONF_AFTER_TAPE_RESTORE</base>
+   <trans>Es ist ein Fehler bei der Systemaktualisierung nach dem Wiederherstellen vom Band aufgetreten.</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_FORK</base>
+   <trans>Prozess konnte nicht gestartet werden:</trans>
+  </entry>
+  <entry>
+   <base>SERVER_REBOOT</base>
+   <trans>Server Neustart</trans>
+  </entry>
+  <entry>
+   <base>SERVER_WILL_REBOOT</base>
+   <trans>Der Server wird jetzt neu gestartet.</trans>
+  </entry>
+  <entry>
+   <base>NO_UID_FOR_NAME</base>
+   <trans>Kann keine UID für den Benutzer mit dem folgenden Namen bekommen:</trans>
+  </entry>
+  <entry>
+   <base>PAGE_REFRESH_IN</base>
+   <trans><![CDATA[ Diese Seite wird in {$sec} Sekunden mit der Statusanzeige erneuert, oder drücken Sie <a href="/server-manager/cgi-bin/backup">hier</a>. ]]></trans>
+  </entry>
+    <entry>
+	<base>Backup or restore</base>
+	<trans>Sichern oder Wiederherstellen</trans>
+    </entry>
+
+  <entry>
+	<base>BACKUP_DESKTOP_TOO_BIG</base>
+	<trans><![CDATA[ <div class="error"> Auf Ihrem Server befinden sich zu viele Daten, um eine verläßliche Sicherung auf den lokalen Arbeitsplatz durchführen zu können. </div> ]]></trans>
+  </entry>
+   <entry>
+   <base>WORKSTN_BACKUPS_DISABLED</base>
+   <trans><![CDATA[ Workstation Backups sind <b>deaktiviert</b> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUPS_ENABLED</base>
+   <trans><![CDATA[ Workstation Backups sind im Moment <b>aktiviert</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>WKBACKUPS_RUN_AT</base>
+   <trans>Das normale Workstation Backup wird laufen um:</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_CONFIGURE</base>
+   <trans>Konfiguriere Workstation Backup</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_VERIFY</base>
+   <trans>Workstation Backup überprüfen</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_RESTORE</base>
+   <trans>Wiederherstellung aus Workstation</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_WORKSTN_BACKUP</base>
+   <trans>Workstation-Backup konfigurieren</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_DISABLE_WORKSTN</base>
+   <trans>Tägliches Workstation-Backup aktivieren/deaktivieren</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_WORKSTN_BACKUP</base>
+   <trans>Workstation Backup aktivieren</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TIME</base>
+   <trans>Workstation Backup Zeit am Tag (Stunde/Minute)</trans>
+  </entry>
+  <entry>
+   <base>UPDATING_WORKSTN_CONF</base>
+   <trans>Aktualisieren der Workstation Backup Einstellungen</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_ENABLED_WORKSTN</base>
+   <trans>Workstation Backups wurden erfolgreich aktiviert</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_DISABLED_WORKSTN</base>
+   <trans>Workstation Backups erfolgreich deaktiviert</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_WORKSTN_BACKUP_FILE</base>
+   <trans>Workstation Backup überprüfen</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_WORKSTN_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Mit dieser Option werden Ihnen alle Dateinamen in einer erstellten Workstation Sicherung angezeigt. Sie können damit den Inhalt der Sicherung überprüfen. <b>Wählen Sie die Sicherung aus, die Sie prüfen möchten.</b></p> <p>Nur Dateien gekennzeichnet mit [Saved] sind in der Sicherung enthalten.</p> <br/>Sicherungsdateien aus folgendem Verzeichnis werden geprüft: ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_WORKSTN</base>
+   <trans>Server Einstellungen aus Workstation Backup wiederherstellen</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_WORKSTN_DESC</base>
+   <trans><![CDATA[ <p>Dieser Prozess stellt die Konfigurations- und Benutzerdaten aus Ihrem Workstation Backup wieder her. <b>Die Wiederherstellung sollte auf einem neu installierten Server durchgeführt werden.</b></p> <p>Vergewissern Sie sich, dass das richtige Band eingelegt wurde, bevor Sie beginnen.</p> <p>Nach der Wiederherstellung muß der Server neu gestartet werden.</p>Wiederherstellung von: ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FROM_WORKSTN</base>
+   <trans>Wiederherstellung aus Workstation Backup</trans>
+  </entry>
+  <entry>
+   <base>RESTORING_FROM_WORKSTN</base>
+   <trans>Wiederherstellung aus Workstation Backup läuft</trans>
+  </entry>
+  <entry>
+   <base>NOW_RESTORING_FROM_WORKSTN</base>
+   <trans>Ihre Servereinstellungen und Benutzerdaten wurden aus dem Workstation Backup wiederhergestellt.</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_FROM_WORKSTN</base>
+   <trans>Es ist ein Fehler beim Wiederherstellen aus dem Workstation Backup aufgetreten.</trans>
+  </entry>
+  <entry>
+   <base>ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE</base>
+   <trans>Es ist ein Fehler bei der Systemaktualisierung nach dem Wiederherstellen aus dem Workstation Backup aufgetreten.</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_NAME</base>
+   <trans>Workstation-IP-Adresse oder Hostename</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SETTINGS</base>
+   <trans>Einstellungen für Workstation Backup</trans>
+  </entry>
+  <entry>
+   <base>SHARED_FOLDER_NAME</base>
+   <trans>Ordner für die Datensicherung</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_LOGIN</base>
+   <trans>Login Name</trans>
+  </entry>
+  <entry>
+   <base>WORKSTATION_BACKUP_DEST</base>
+   <trans>Einstellungen für Workstation Backup</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_WORKSTN_BACKUP_DESC</base>
+   <trans>Sie können eine Anzahl von sukzessiven, automatisch rollierenden Backup-Sätzen auf der Workstation vorgeben. Jeder Backup-Satz kann gesicherte Daten für mehrere aufeinanderfolgende Tage enthalten. Jeder erste Backup-Satz ist ein Voll-Backup, alle anderen täglichen Backups sind nur inkrementell. Sie können außerdem ein Zeitlimit für jeden Backup-Prozess setzen, oder auch nur für inkrementelle Backups. Wenn dieses Limit erreicht wird, wird der Backup-Prozess ordnungsgemäß beendet, und das nächste inkrementelle Backup setzt das Sichern der ungesicherten und veränderten Daten fort.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_WORKSTN</base>
+   <trans>Ungültige Workstation IP-Adresse oder Hostname</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_FOLDER</base>
+   <trans>Ungültiger Freigabename</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_LOGIN</base>
+   <trans>Ungültige Anmeldung</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_PASSWORD</base>
+   <trans>Ungültiges Kennwort</trans>
+  </entry>
+  <entry>
+   <base>ERR_ALREADY_MOUNTED</base>
+   <trans>Sicherungsverzeichnis ist bereits eingebunden</trans>
+  </entry>
+  <entry>
+   <base>ERR_MOUNTING_SMBSHARE</base>
+   <trans>Keine Verbindung mit Freigabe auf der Workstation möglich</trans>
+  </entry>
+  <entry>
+   <base>ERR_NOT_MOUNTED</base>
+   <trans>Sicherungsverzeichnis ist nicht eingebunden</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_NOT_SET</base>
+   <trans>Bitte konfigurieren Sie zuerst die Einstellungen für die Datensicherung auf der Workstation</trans>
+  </entry>
+  <entry>
+   <base>NO_BACKUPS_TO_RESTORE</base>
+   <trans>Es gibt keinen Backupsatz auf der konfigurierten Workstation Freigabe. Prüfen Sie Ihre Konfigurationseinstellungen.</trans>
+  </entry>
+  <entry>
+   <base>NUMBER_OF_SETS</base>
+   <trans>Anzahl der rotierenden Backup-Sets</trans>
+  </entry>
+  <entry>
+   <base>NUMBER_OF_FILES_IN_SET</base>
+   <trans>Anzahl der täglichen Backups in jedem Satz</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_SETS_NUMBER</base>
+   <trans>Die Anzahl der Datensicherungssätze muss 1 oder größer sein</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_FILES_IN_SET_NUMBER</base>
+   <trans>Diese Zahl muss größer oder gleich 1 sein. Das Erste Backup ist ein <b>Vollbackup</b> alle anderen sind <b>inkrementell</b></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_TIMEOUT</base>
+   <trans>Optionales Backup Session Timeout (Stunden)</trans>
+  </entry>
+  <entry>
+   <base>INC_ONLY_TIMEOUT</base>
+   <trans>Kein Timeout für Vollsicherungen</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_TIMEOUT</base>
+   <trans>Die maximale Datensicherungszeit muss zwischen 1 und 24 Stunden betragen</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_HOST_DIR</base>
+   <trans>Es existiert kein Verzeichnis für Ihren Host im freigegebenen Ordner. Möglicherweise unterscheidet sich Ihr Hostname von denen im Backup</trans>
+  </entry>
+  <entry>
+   <base>ERROR_READING_FILE</base>
+   <trans>Fehler beim Lesen der Dateien von</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SEL_RESTORE</base>
+   <trans>Gezielte Wiederherstellung einzelner Dateien aus dem Workstation Backup</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SELECTIVE_RESTORE</base>
+   <trans>Gezielte Wiederherstellung einzelner Dateien aus dem Workstation Backup</trans>
+  </entry>
+  <entry>
+   <base>ALL_BACKUPS</base>
+   <trans>Alle Sicherungen</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SEL_REST_DESC</base>
+   <trans><![CDATA[ Dieser Vorgang stellt nur ausgewählte Dateien und Verzeichnisse wieder her. Wählen Sie zuerst die Sicherung, aus der Dateien wiederhergestellt werden sollen. Falls Sie nicht wissen, in welchem Backup sich die benötigten Dateien befinden, können Sie 'Alle Sicherungen' auswählen. <br/><br/>Die nächste Seite zeigt Ihnen die verfügbaren Dateien und Verzeichnisse, aus denen Sie die zu wiederherstellenden auswählen können. Um die Anzahl der angezeigten Dateien und Verzeichnisse zu beschränken, können Sie Filterausdrücke erstellen, die auf die anzuzeigenden Namen wirken.<br/><br/>Achtung: Schließen Sie Dateien aus der Wiederherstellung aus, die für Funktion des Servers benötigt werden.<br/><br/>Aktuell werden die Dateien zurückgesichert von: ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_CHOICE</base>
+   <trans>Dateien für Anzeige auswählen</trans>
+  </entry>
+  <entry>
+   <base>SELECT_DATE_BEFORE</base>
+   <trans>Wiederherstellung der letzten Änderungen vor</trans>
+  </entry>
+  <entry>
+   <base>FILTER_EXPRESSION</base>
+   <trans>Namen gefiltert nach</trans>
+  </entry>
+  <entry>
+   <base>READ_COMPLETE</base>
+   <trans><![CDATA[ Sie können alle Verzeichnisse und Dateien, die Sie wiederherstellen möchten in der angezeigten Liste auswählen (benutzen Sie <i>Strg</i> oder <i>Shift</i> für Mehrfachselektionen).<br/> <b>Warnung:</b> Wenn Sie ein Verzeichnis selektieren, werden alle enthaltenen Dateien und Verzeichnisse wiederhergestellt.<p/> Standardmäßig wird die neueste Version der ausgewählten Dateien wiederhergestellt, falls Sie aber ein Datum im Format <i>[ [ [yyyy/]mm/]tt-]hh:mm[:ss]</i> angeben, wird der Prozess nur die neueste <b>vor dem gegebenen Datum</b> geänderte Version wiederherstellen. ]]></trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_SELDATE</base>
+   <trans>Das Datumsformat ist ungültig, es muß wie folgt angegeben werden [ [ [yyyy/]mm/]dd-]hh:mm[:ss]. Das bedeutet: 2005/12/31-08:23:32 or 10-08:32 or 08:32</trans>
+  </entry>
+  <entry>
+   <base>SELECT_FILES_TO_RESTORE</base>
+   <trans>Dateien für Wiederherstellung auswählen</trans>
+  </entry>
+  <entry>
+   <base>ERR_WHILE_UNMOUNTING</base>
+   <trans>Fehler bei der Trennung entfernter Freigaben</trans>
+  </entry>
+  <entry>
+   <base>ERR_DAR_CATALOG</base>
+   <trans>Fehler bei der Nutzung des Dar-Kataloges</trans>
+  </entry>
+  <entry>
+   <base>COMPRESSION_LEVEL</base>
+   <trans>Komprimierungsgrad [0-9] für das Backup</trans>
+  </entry>
+  <entry>
+   <base>FULL_ONLY_ON</base>
+   <trans>Gesamtsicherung erlaubt auf</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_COMPRESSION</base>
+   <trans>Der Komprimierungsgrad muss zwischen 0 (keine) und 9 (maximale Komprimierung) eingestellt sein</trans>
+  </entry>
+  <entry>
+   <base>DOW</base>
+   <trans>Sonntag Montag Dienstag Mittwoch Donnerstag Freitag Samstag Täglich</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURATION_TO_BE_DONE</base>
+   <trans>Bitte konfigurieren Sie die Backup Einstellungen.</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Diese Seite zeigt die aktuelle Workstation-Backup Konfiguration. Sie können diese hier und auf der folgenden Seite ändern.</p><p/> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_NOT_CONFIGURED</base>
+   <trans><![CDATA[ <p>Keine aktuelle Konfiguration für Workstation Backup vorhanden. Sie können diese hier und auf der folgenden Seite vornehmen.</p><p/> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_ENABLED</base>
+   <trans>Sicherung ist</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_USB</base>
+   <trans>Das Backup wird auf einem lokalen Wechseldatenträger erstellt</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_MNT</base>
+   <trans>Sicherung wird auf einem eingebundenen Datenträger erstellt</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_HOST</base>
+   <trans>Die Sicherung wird auf einer Workstation im LAN erstellt</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_VFSTYPE</base>
+   <trans>über</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SHARE</base>
+   <trans>Ziel-Ordner für Backup ist</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TOD</base>
+   <trans>Die tägliche Sicherung erfolgt um</trans>
+  </entry>
+  <entry>
+   <base>LOGIN</base>
+   <trans>Login lautet</trans>
+  </entry>
+  <entry>
+   <base>PASSWORD</base>
+   <trans>Das Passwort lautet</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SETSNUM</base>
+   <trans>Die Anzahl der rotierenden Datensicherungs-Sets ist</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_DAYSINSET</base>
+   <trans>Die Anzahl der täglichen Sicherungen in jedem Einstellungsset beträgt</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_COMPRESSION</base>
+   <trans>Kompressionsgrad (0-9) des Backup ist</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TIMEOUT</base>
+   <trans>Jede tägliche Sicherung wird ordentlich beendet nach</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_INCONLY_TIMEOUT</base>
+   <trans>außer Vollsicherungen mit einer Zeitüberschreitung nach 24 Stunden</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_FULL_BACKUP_EVERYDAY</base>
+   <trans>Gesamtsicherungen (neue Sicherungssätze) sind täglich erlaubt</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_FULL_BACKUP_DAY</base>
+   <trans>Gesamtsicherung (neue Sicherungseinstellungen) ist nur erlaubt auf</trans>
+  </entry>
+  <entry>
+   <base>WORKSTATION_BACKUP_SETCONF</base>
+   <trans>Erstellen oder Ändern der Workstation Backup Einstellungen</trans>
+  </entry>
+  <entry>
+   <base>SELECT_VFS_TYPE</base>
+   <trans>Wählen Sie den Typ der Freigabe für die Datensicherung</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_USB_DISK</base>
+   <trans>Fehler: Kein Wechseldatenträger vorhanden. Schließen Sie diesen an oder wählen Sie einen anderen Typ eines Workstation Backup.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_MOUNTED_DISK</base>
+   <trans>Fehler: Kein Wechseldatenträger eingebunden. Binden Sie diesen ein oder wählen Sie einen anderen Typ eines Workstation Backup.</trans>
+  </entry>
+  <entry>
+   <base>HOURS</base>
+   <trans>Stunden.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_FULL_BACKUP</base>
+   <trans>Wiederherstellung wird abgebrochen, da die benötigte Gesamtsicherung fehlt oder nicht lesbar ist.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_INC_BACKUP</base>
+   <trans>Wiederherstellung wird abgebrochen, weil das Sicherungsset fehlende oder unlesbare inkrementelle Sicherungsnummern enthält</trans>
+  </entry>
+  <entry>
+   <base>CHECK_TO_VERIFY_FULL_RESTORE</base>
+   <trans>Hier ankreuzen, um die Integrität aller Sicherungen für eine vollständige Wiederherstellung mit der gewählten Sicherung zu prüfen</trans>
+  </entry>
+  <entry>
+   <base>TESTING_NEEDED_BACKUPS_FOR_RESTORE</base>
+   <trans>Alle Backups, die für eine Vollsicherung benötigt werden, aus ausgewähltem Backup prüfen</trans>
+  </entry>
+  <entry>
+   <base>TESTED_BACKUP</base>
+   <trans>Überprüfe die Integrität der Sicherung</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_VERIFY_FAILED</base>
+   <trans>Prüfung der Integrität ist fehlgeschlagen</trans>
+  </entry>
+  <entry>
+   <base>CHECK_INTEGRITY_WARNING</base>
+   <trans>Warnung: Bei großen Sicherungen kann die Überprüfung der Integrität eine langwierige Sache werden und sollte bei täglichem Workstation Backup deaktiviert sein.</trans>
+  </entry>
+  <entry>
+    <base>cifs</base>
+    <trans>CIFS</trans>
+  </entry>
+  <entry>
+    <base>nfs</base>
+    <trans>NFS</trans>
+  </entry>
+  <entry>
+    <base>local removable disk</base>
+    <trans>Lokaler Wechseldatenträger</trans>
+  </entry>
+  <entry>
+    <base>Mounted disk</base>
+    <trans>Eingebunder Datenträger</trans>
+  </entry>
+  <entry>
+   <base>ERROR_WHEN_TESTING_REMOTE_SERVER</base>
+   <trans>Die Parameter wurden gespeichert, aber der entfernte Host ist nicht erreichbar, bitte überprüfen Sie die Einstellungen.</trans>
+  </entry>
+  <entry>
+   <base>DO_NOT_RESTORE_BIN_SBIN_LIB_LIB64_FROM_SME9</base>
+   <trans>Wenn Sie vom Koozali SME Server 9 oder früher zurücksichern, beachten Sie, dass einige Ordner im System nun symbolische Links sind. Die Grundkonfiguration des Backups enthält die Ordner /bin, /lib, /lib64, /sbin, /var/lock and /var/run nicht. Wenn Sie diese Ordner aufgrund bestimmter Dateien in Unterverzeichnissen hinzugefügt haben, werden wir die Rücksicherung dieser Verzeichnisse verhindern, damit DAR die symlinks nicht ersetzt und das System unbrauchbar zurücklässt. Diese Ergänzungen sind auch nicht zu empfehlen, weil die Gefahr besteht, dass Dateien überschrieben werden, die von rpms zur Verfügung gestellt werden.</trans>
+  </entry>
+  <entry>
+   <base>SMBV1</base>
+   <trans>Mount as legacy SMB v1 share (unsecure, not recommended).</trans>
+  </entry>
+
+
+</lexicon>

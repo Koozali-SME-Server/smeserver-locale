@@ -1,0 +1,42 @@
+<lexicon lang="es">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Apagar o reiniciar</trans>
+    </entry>
+    <entry>
+	<base>REBOOT</base>
+	<trans>Reiniciar</trans>
+    </entry>
+    <entry>
+	<base>REBOOT_SUCCEEDED</base>
+	<trans>Petición de reinicio iniciada con éxito.</trans>
+    </entry>
+    <entry>
+	<base>DESC_REBOOT</base>
+	<trans>Su servidor ha comenzado el proceso de reinicio.</trans>
+    </entry>
+    <entry>
+	<base>RECONFIGURE_SUCCEEDED</base>
+	<trans>Petición de reconfiguración iniciada con éxito.</trans>
+    </entry>
+    <entry>
+	<base>DESC_RECONFIGURE</base>
+	<trans>Su servidor ha comenzado la reconfiguración completa del sistema y reinicio.</trans>
+    </entry>
+    <entry>
+	<base>DESC_SHUTDOWN</base>
+	<trans>Su servidor ha comenzado el proceso de apagado. El proceso tomará varios minutos en completarse, luego del cual usted podrá desconectar la alimentación.</trans>
+    </entry>
+    <entry>
+	<base>LABEL_REBOOT</base>
+	<trans>Seleccione Apagar, Reiniciar o Reconfigurar</trans>
+    </entry>
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ Puede reiniciar, apagar el servidor o realizar una reconfiguración completa del sistema desde esta pantalla. Debe realizar el apagado antes de desconectar la alimentación. Todas estas funciones demoran varios minutos en finalizar. Cuando haga click en <b>ejecutar</b>, la operación se iniciará inmediatamente, por lo que debe estar atento. ]]></trans>
+    </entry>
+    <entry>
+	<base>Reboot or shutdown</base>
+	<trans>Reiniciar o apagar</trans>
+    </entry>
+</lexicon>

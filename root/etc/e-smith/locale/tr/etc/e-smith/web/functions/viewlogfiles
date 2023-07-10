@@ -1,0 +1,83 @@
+<lexicon lang="tr">
+    <entry>
+        <base>View log files</base>
+        <trans>Log dosyalarını görüntüle</trans>
+    </entry>
+
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ Bu panel, sunucuda çalışan hizmetlerin log dosyalarını görüntülemeyi ve indirmeyi sağlar. ]]></trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_SELECT_DESC</base>
+        <trans>Görmek istediğiniz log dosyasını seçin</trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>Görmek istediğiniz kelimeleri içeren satırları filtreleyebilirsiniz. Bir kelime belirtmediğiniz zaman log dosyasının tamamı görüntülenecektir. Log dosyasını indirdiğinizde bu opsiyonu kullanamazsınız.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_LABEL</base>
+        <trans>Filtrelenecek kelime (isteğe bağlı)</trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>Ayrıca isteğe bağlı olarak vurgulamak istediğiniz kelimeyle eşleşen log dosyası satırı, kalın bir hat olarak görüntülemek için belirtebilirsiniz. Filtre ile eşleşen satırlar kalın bir hat olarak görüntülenecektir. Log dosyasını indirdiğinizde bu opsiyonu kullanamazsınız.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_LABEL</base>
+        <trans>Kelimeyi Vurgula (isteğe bağlı)</trans>
+    </entry>
+    <entry>
+        <base>END_DESC</base>
+        <trans>Raporları oluşturmak zaman alabilir.</trans>
+    </entry>
+    <entry>
+        <base>VIEW</base>
+        <trans>Log dosyasını görüntüle</trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_EMPTY</base>
+        <trans>"{$filename}" dosyası boş!</trans>
+    </entry>
+    <entry>
+        <base>VIEWING_TIME</base>
+        <trans>Görüntülenme zamanı {$time}.</trans>
+    </entry>
+    <entry>
+        <base>MATCH_HEADER</base>
+        <trans> "{$matchPattern}" ile eşleşen satırlar.</trans>
+    </entry>
+    <entry>
+        <base>HIGHLIGHT_HEADER</base>
+        <trans> "{$highlightPattern}" ile eşleşip vurgulanan satırlar.</trans>
+    </entry>
+    <entry>
+        <base>NO_MATCHING_LINES</base>
+        <trans>Eşleşen satır yok.</trans>
+    </entry>
+    <entry>
+        <base>FILENAME_ERROR</base>
+        <trans><![CDATA[ <p>Log dosyasının adı yanlış.</p> <p> "{$filename}" dosyası geçersiz log içeriyor.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>REFRESH</base>
+	<trans>Log dosyasını yenile</trans>
+    </entry>
+    <entry>
+	<base>OP_DESC</base>
+	<trans><![CDATA[ <p>Log dosyalarını görüntülemek veya indirmeyi seçebilirsiniz. Görmek istediğiniz log dosyası çok büyük ise görüntülemek yerine indirmeniz önerilir, çünkü büyük dosyaları görüntülemek bazı web tarayıcılarında sorunlara neden olabilir.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>OP_LABEL</base>
+	<trans>İşlem</trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_PAGE_DESC</base>
+	<trans><![CDATA[ <p>Log dosyası indirmek için hazır. İndirmek için &quot;Next&quot; butonuna tıkladığınızda, dosya indirme pencersi belirecektir, dosyayı istediğiniz yere yükleyebilirsiniz.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_FILE</base>
+	<trans>Log dosyası indirme için hazırlanıyor {$logfile}.</trans>
+    </entry>
+</lexicon>

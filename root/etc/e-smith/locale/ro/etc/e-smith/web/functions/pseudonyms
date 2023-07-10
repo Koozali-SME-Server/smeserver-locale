@@ -1,0 +1,114 @@
+<lexicon lang="ro">
+    <entry>
+      <base>NO_PSEUDONYMS</base>
+      <trans><![CDATA[ <b>There are no pseudonyms in the system.</b> ]]></trans>
+     </entry>
+    <entry>
+        <base>REMOVE_PSEUDONYM</base>
+        <trans>Remove pseudonym</trans>
+    </entry>
+    <entry>
+        <base>ABOUT_TO_REMOVE</base>
+        <trans><![CDATA[ You are about to remove the pseudonym:<br> <b>Are you sure you wish to continue?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Create, modify, or remove pseudonyms</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans><![CDATA[ <p>The server automatically creates an e-mail alias for each group. If you want to define an e-mail alias for a list of users, simply create a group and the list will automatically be maintained by the server.</p> <p>Pseudonyms allow you to create other names for existing users or groups. For example, you may wish to create a pseudonym "webmaster" for your "webdevelopers" group or a pseudonym "joe" for the user "joseph".</p> <p>The server automatically creates pseudonyms of the form firstname.lastname and firstname_lastname for every user on the system and a pseudonym "everyone" which contains all users on the system.</p> <p>Pseudonyms also allow you to create e-mail aliases for valid (virtual) domains & users. For example you can forward "sales@virtualdomain1.com" to user "mary" and "sales@virtualdomain2.com" to user "john". You must create the domains and user accounts before creating the email aliases.</p> <p>Pseudonyms can also forward to other pseudonyms, although this is limited to one further level. For example the pseudonym "webmaster" can forward to the pseudonym "techsupport" which then forwards to a specified user "ray". This is useful where one user is responsible for multiple roles and saves having to change the pseudonym's associated with that user many times in the event that the user departs the organisation.</p> <p>You can modify or remove a pseudonym by clicking on the corresponding command next to the pseudonym.</p>]]></trans>
+    </entry>
+    <entry>
+        <base>LOCAL_ONLY</base>
+        <trans>(local network only)</trans>
+    </entry>
+    <entry>
+        <base>SELECT_ACCOUNT</base>
+        <trans>Select account or group</trans>
+    </entry>
+    <entry>
+        <base>SELECT_INTERNAL</base>
+        <trans>Local network only</trans>
+    </entry>
+    <entry>
+        <base>CLICK_TO_CREATE</base>
+        <trans>Add pseudonym</trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM</base>
+        <trans>Pseudonym</trans>
+    </entry>
+    <entry>
+        <base>USER_OR_GROUP</base>
+        <trans>User or group</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_PSEUDONYMS</base>
+        <trans><![CDATA[<b>Current List of Pseudonyms</b>]]></trans>
+    </entry>
+    <entry>
+        <base>TITLE_CREATE</base>
+        <trans>Create a pseudonym</trans>
+    </entry>
+    <entry>
+        <base>DESC_PSEUDONYM_NAME</base>
+       <trans>Please select an existing account or group for the pseudonym from the pulldown menu below</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_PSEUDONYM</base>
+        <trans>Modify Pseudonym</trans>
+    </entry>     
+       <entry>
+        <base>PSEUDONYM_NAME</base>
+        <trans>Pseudonym name</trans>
+    </entry>
+    <entry>
+        <base>VALID_PSEUDONYM_NAMES</base>
+        <trans><![CDATA[ The pseudonym should contain only lower-case letters, numbers, period, hyphen and underscore and should start with a lower-case letter or number. For example "sales", "john.holland", "123" and "email-administrator" are all valid pseudonyms, but "John Smith" and "Henry Miller" are not. <p>You can also create email aliases for accounts and (virtual) domains that are valid on this server. For example "fred@virtualdomain.com" can be forwarded to "mary" (or to another valid user account).</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>NAME_IN_USE</base>
+        <trans>Error: That name is in use You cannot create a pseudonym with that name.</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_PSEUDONYM</base>
+        <trans>That account is not a pseudonym</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_DOMAIN</base>
+        <trans>That domain is not hosted on this server</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_NOACCT</base>
+        <trans>That account is not hosted on this server</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_SAMEACCT</base>
+        <trans>A pseudonym cannot point to the same account</trans>
+    </entry>
+    <entry>
+        <base>CREATE_SUCCEEDED</base>
+        <trans>Successfully created pseudonym</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_SUCCEEDED</base>
+        <trans>Successfully modified pseudonym</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_SUCCEEDED</base>
+        <trans>Successfully removed pseudonym</trans>
+    </entry>
+    <entry>
+      <base>EVERYONE</base>
+      <trans>Everyone</trans>
+    </entry>
+      <entry>
+        <base>Pseudonyms</base>
+        <trans>Pseudonyms</trans>
+      </entry>
+
+</lexicon>

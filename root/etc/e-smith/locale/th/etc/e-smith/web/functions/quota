@@ -1,0 +1,106 @@
+<lexicon lang="th">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>สร้าง แก้ไข หรือ ลบข้อมูลโควต้าของผู้ใช้</trans>
+    </entry>
+    <entry>
+      <base>UNABLE_TO_OPEN_ACCOUNTS</base>
+      <trans>ไม่สามารถเปิดฐานข้อมูลเก็บข้อมูลบัญชี</trans>
+    </entry>
+    <entry>
+      <base>QUOTA_DESC</base>
+      <trans><![CDATA[ <p>คุณสามารถกำหนดโควต้าปริมาณพื้นที่ใช้งานในสำหรับผู้ใช้ในระบบได้โดยคลิ๊กที่ปุ่ม "แก้ไข" ที่อยู่ถัดจากรายการผู้ใช้ที่คุณต้องการแก้ไข</p><p>ถ้าผู้ใช้นั้นใช้งานพื้นที่จนถึงระดับ "จำกัดระยะผ่อนผัน" (Limit with grace period) ระบบก็จะเริ่มส่งคำเตือนให้ผู้ใช้นั้น ถ้าถูกเตือนอยู่นานเกินหนึ่งสัปดาห์ หรือถ้ามีการใช้จำนวนพื้นที่จนถึงระดับ "จำกัดสุทธิ" (Absolute limit) แล้ว ผู้ใช้นั้นจะไม่สามารถบันทึกไฟล์หรือรับเมล์ที่เข้ามาได้อีก</p><p>ตั้งค่าเป็น '0' หากไม่ต้องการจำกัดโควต้าให้ผู้ใช้นั้นๆ</p><p>พื้นที่ใช้งานนี้นับรวมพื้นที่ในโฮมไดเร็คทอรีของผู้ใช้ (user's home directory), อีเมล์, และไฟล์ที่อยู่ใน information bays ที่ผู้ใช้นั้นเป็นเจ้าของ ]]></trans>
+    </entry>
+    <entry>
+      <base>CURRENT_USAGE_AND_SETTINGS</base>
+      <trans>การใช้พื้นที่และโควต้าที่กำหนดขณะนี้</trans>
+    </entry>
+    <entry>
+      <base>LIMIT_WITH_GRACE</base>
+      <trans>จำกัดระยะผ่อนผัน</trans>
+    </entry>
+    <entry>
+      <base>LIMIT_WITH_GRACE_MB</base>
+      <trans>จำกัดระยะผ่อนผัน (MB)</trans>
+    </entry>
+    <entry>
+      <base>ABS_LIMIT</base>
+      <trans>จำกัดสุทธิ</trans>
+    </entry>
+    <entry>
+      <base>ABS_LIMIT_MB</base>
+      <trans>จำกัดสุทธิ (MB)</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_USAGE</base>
+      <trans>จำนวนพื้นที่ที่ใช้อยู่ขณะนี้ (MB)</trans>
+    </entry>
+    <entry>
+      <base>COULD_NOT_GET_UID</base>
+      <trans>ไม่สามารถหาค่า uid ของผู้ใช้ได้:</trans>
+    </entry>
+    <entry>
+      <base>ERR_NO_SUCH_ACCT</base>
+      <trans>ผิดพลาด: ไม่มีบัญชีชื่อนี้:</trans>
+    </entry>
+    <entry>
+      <base>ERR_NOT_A_USER_ACCT</base>
+      <trans>ผิดพลาด: มันไม่ใช่ชื่อบัญชีผู้ใช้:</trans>
+    </entry>
+    <entry>
+      <base>ACCOUNT_IS_TYPE</base>
+      <trans>It is an account of type:</trans>
+    </entry>
+    <entry>
+      <base>MODIFY_USER_TITLE</base>
+      <trans>แก้ไขการจำกัดโควต้าของผู้ใช้</trans>
+    </entry>
+    <entry>
+      <base>USER</base>
+      <trans>ผู้ใช้:</trans>
+    </entry>
+    <entry>
+      <base>CURRENTLY_HAS</base>
+      <trans>ขณะนี้มีไฟล์อยู่:</trans>
+    </entry>
+    <entry>
+      <base>FILES</base>
+      <trans>ไฟล์</trans>
+    </entry>
+    <entry>
+      <base>OCCUPYING</base>
+      <trans>ใช้พื้นที่ไป:</trans>
+    </entry>
+    <entry>
+      <base>MEGABYTES</base>
+      <trans>เมกะไบต์</trans>
+    </entry>
+    <entry>
+      <base>INSTRUCTIONS</base>
+      <trans>กรอกจำนวนโควต้าเป็นตัวเลขจำนวนเต็มบวก และอาจตามด้วยตัวย่อหน่วย 'K' (กิโลไบต์), 'M' (เมกะไบต์), 'G' (กิกะไบต์) หรือ T (เทอราไบต์) ถ้ากรอกตัวเลขโดยไม่ใส่หน่วยจะหมายถึงหน่วยเป็นเมกะไบต์ การตั้งค่าเป็น '0' หมายถึงไม่จำกัดโควต้าของผู้ใช้รายนั้น</trans>
+    </entry>
+    <entry>
+      <base>SOFT_VAL_MUST_BE_NUMBER</base>
+      <trans>ผิดพลาด: พื้นที่จำกัดระยะผ่อนผันจะต้องเป็นจำนวนเต็มเท่านั้น และอาจตามด้วยหน่วย K, M, G หรือ T ก็ได้</trans>
+    </entry>
+    <entry>
+      <base>HARD_VAL_MUST_BE_NUMBER</base>
+      <trans>ผิดพลาด: พื้นที่จำกัดสุทธิจะต้องเป็นจำนวนเต็ม และอาจตามด้วยหน่วย K, M, G หรือ T ก็ได้</trans>
+    </entry>
+    <entry>
+      <base>ERR_HARD_LT_SOFT</base>
+      <trans>ผิดพลาด: จำนวนพื้นที่จำกัดสุทธิจะต้องมากกว่าจำนวนพื้นที่ระยะผ่อนผัน</trans>
+    </entry>
+    <entry>
+      <base>ERR_MODIFYING</base>
+      <trans>เกิดข้อผิดพลาดขึ้นระหว่างการแก้ไขข้อมูลผู้ใช้</trans>
+    </entry>
+    <entry>
+      <base>SUCCESSFULLY_MODIFIED</base>
+      <trans>แก้ไขโควต้าของผู้ใช้เรียบร้อยแล้ว:</trans>
+    </entry>
+    <entry>
+	<base>Quotas</base>
+	<trans>โควต้า</trans>
+    </entry>
+</lexicon>

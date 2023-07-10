@@ -1,0 +1,171 @@
+<lexicon lang="fr">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Configuration des paramètres d'accès à distance</trans>
+    </entry>	
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans>Pour chacune des options ci-dessous, la valeur 'Privé' permet à toute personne du réseau local d'accéder au serveur. La valeur 'Public' permet l'accès depuis n'importe où sur Internet. La valeur 'Aucun accès' interdit tout accès. Pour comprendre l'importance des effets produits sur la sécurité par le changement des valeurs par défaut, nous vous recommandons de lire la section ayant trait à l'accès distant dans la documentation utilisateur.</trans>	
+    </entry>
+    <entry>
+	<base>SUCCESS</base>
+	<trans>Les nouveaux paramètres d'accès à distance ont été enregistrés.</trans>
+    </entry>
+    <entry>
+	<base>NO_ACCESS</base>
+	<trans>Aucun accès</trans>
+    </entry>
+    <entry>
+	<base>PASSWORD_LOGIN_PRIVATE</base>
+	<trans>N'autoriser l'authentification que depuis les réseaux locaux</trans>
+    </entry>
+    <entry>
+	<base>PASSWORD_LOGIN_PUBLIC</base>
+	<trans>Permettre l'authentification depuis n'importe où</trans>
+    </entry>
+    <entry>
+	<base>LABEL_TELNET_ACCESS</base>
+	<trans>Accès Telnet</trans>
+    </entry>
+    <entry>
+	<base>LABEL_FTP_ACCESS</base>
+	<trans>Accès FTP</trans>
+    </entry>
+    <entry>
+	<base>LABEL_FTP_LOGIN</base>
+	<trans>Accès FTP par mot de passe</trans>
+    </entry>
+    <entry>
+	<base>LABEL_PPTP</base>
+	<trans>Nombre de connexions simultanées</trans>
+    </entry>
+     <entry>
+       <base>NUMBER_OF_VPN_CLIENTS_MUST_BE_LESSER_THAN_NUMBER_OF_IP_IN_DHCP_RANGE</base>
+       <trans>Le nombre de sessions VPN est supérieur au nombre d'IP réservées par le DHCP. Vous devez réduire ce nombre.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SSH_PORT</base>
+        <trans>Port TCP pour l'accès SSH</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH</base>
+	<trans>Accès par terminal sécurisé (SSH)</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH_ADMIN</base>
+	<trans>Autoriser l'administrateur à se connecter au serveur par SSH</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH_PASSWORD_ACCESS</base>
+	<trans>Autoriser l'authentification par SSH à l'aide de mots de passe standards</trans>
+    </entry>
+    <entry>
+	<base>DESC_SSH</base>
+	<trans><![CDATA[ <hr class="sectionbar"/><h2>Paramètres SSH</h2> <p>Vous pouvez contrôler l'accès à votre serveur par terminal sécurisé (SSH). L'accès "public" ne doit être activé que par des administrateurs expérimentés afin de pouvoir diagnostiquer et résoudre des problèmes à distance. Nous vous recommandons de laisser ce paramètre validé sur "Aucun accès", à moins que vous n'ayez une raison bien précise de faire autrement.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_FTP_ACCESS</base>
+	<trans><![CDATA[ <hr class="sectionbar"/><h2>Paramètres FTP</h2> <p>Vous pouvez aussi contrôler l'accès par FTP à votre serveur. Nous vous recommandons de laisser ce paramètre validé sur "aucun accès", à moins que vous n'ayez une raison bien précise de faire autrement.</p> <p>Remarque : ces paramètres limitent l'accès global au serveur FTP et priment sur tout autre, y compris ceux définis pour chaque i-bay.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_FTP_LOGIN</base>
+	<trans><![CDATA[ <p>Vous pouvez contrôler l'accès authentifié par FTP aux i-bays et aux comptes utilisateur. Nous vous recommandons de n'autoriser l'autentification que depuis les réseaux locaux, à moins que vous n'ayez une raison bien précise de faire autrement.</p> <p>Remarque : il est également possible d'utiliser un client SFTP (terminal sécurisé) pour accéder au serveur, à condition que l'accès à distance par SSH ait été activé. Ce mode d'accès protège les mots de passe et les données de la session FTP, tandis que le FTP standard n'offre aucune protection à cet égard.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_PPTP</base>
+	<trans><![CDATA[ <hr class="sectionbar"/><h2>Paramètres PPTP</h2> <p>Vous pouvez autoriser l'accès VPN par PPTP à votre serveur. Nous vous recommandons de laisser cette fonctionnalité désactivée en fixant la valeur à 0, à moins que vous n'ayez absolument besoin d'un accès par PPTP.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_VPN</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Paramètres VPN</h2> <p>Vous pouvez autoriser l'accès VPN à votre serveur. Nous vous recommandons de laisser cette fonctionnalité désactivée en fixant la valeur à 0, à moins que vous n'ayez absolument besoin d'un accès par VPN.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>VALUE_ZERO_OR_POSITIVE</base>
+	<trans>La valeur doit être un entier supérieur ou égal à zéro.</trans>
+    </entry>
+    <entry>
+	<base>REMOTE_MANAGEMENT</base>
+	<trans>Gestion à distance</trans>
+    </entry>
+    <entry>
+	<base>VALIDFROM_DESC</base>
+	<trans><![CDATA[ <hr class="sectionbar"/><h2>{$REMOTE_MANAGEMENT}</h2> <p>Il est possible de permettre l'accès au gestionnaire du serveur à des hôtes situés sur des réseaux distants en indiquant ces réseaux ici. Utilisez le masque de sous-réseau 255.255.255.255 pour ne permettre l'accès qu'à une machine unique. Tout hôte contenu dans la plage d'adresses spécifiée pourra alors accéder au gestionnaire du serveur à l'aide du protocole sécurisé HTTPS.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_VALID_FROM_ENTRIES</base>
+	<trans>Pour ajouter une nouvelle plage d'adresses de gestion à distance, entrez les informations ci-dessous :</trans>
+    </entry>
+    <entry>
+	<base>SUBNET_MASK</base>
+	<trans>Masque de sous-réseau</trans>
+    </entry>
+    <entry>
+	<base>NUM_OF_HOSTS</base>
+	<trans>Nombre d'hôtes</trans>
+    </entry>
+    <entry>
+	<base>NO_ENTRIES_YET</base>
+	<trans>Aucun hôte défini</trans>
+    </entry>
+    <entry>
+	<base>INVALID_SUBNET_MASK</base>
+	<trans>Masque de sous-réseau non valide.</trans>
+    </entry>
+    <entry>
+	<base>ERR_INVALID_PARAMS</base>
+	<trans>Vous devez soit entrer l'adresse de réseau et le masque de sous-réseau, soit laisser ces deux champs vides.</trans>
+    </entry>
+    <entry>
+	<base>ERR_NO_RECORD</base>
+	<trans>Impossible de trouver les informations relatives au gestionnaire du serveur dans la base de données de configuration.</trans>
+    </entry>
+    <entry>
+	<base>Remote access</base>
+	<trans>Accès à distance</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERIAL_CONSOLE_ACCESS</base>
+        <trans>Console sur port série</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERIAL_CONSOLE_ACCESS</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Console sur port série</h2> Vous pouvez autoriser l'accès à la console du serveur à partir d'un terminal relié à un port série du serveur. ]]></trans>
+    </entry>
+    <entry>
+        <base>PORT1_ENABLED</base>
+        <trans>Activé sur le port série 1</trans>
+    </entry>
+    <entry>
+        <base>PORT2_ENABLED</base>
+        <trans>Activé sur le port série 2</trans>
+    </entry>   
+
+    <entry>
+        <base>LABEL_PPTP_ACCESS</base>
+        <trans>Accès utilisateur par défaut via PPTP</trans>
+    </entry>
+    <entry>
+        <base>DESC_TELNET_ACCESS</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Paramètres Telnet</h2> AVERTISSEMENT : Telnet est actuellement activé, mais cette fonctionnalité n'est plus prise en charge. Intrinsèquement, Telnet n'est pas sécurisé et nous vous recommandons de ne pas l'utiliser, à moins que vous n'ayez pas d'autre alternative. Vous devriez définir cette option à "{$NO_ACCESS}" et utiliser un terminal sécurisé (SSH) si l'accès distant est nécessaire. Une fois désactivé, Telnet n'apparaîtra plus sur cette page. ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_IPSECRW</base>
+	<trans><![CDATA[ <h2>Paramètres du client IPSEC (Roadwarrior)</h2> Vous pouvez autoriser l'accès authentifié par certificat numérique à votre serveur via un client IPSEC. Nous vous recommandons de laisser cette fonctionnalité désactivée en réglant la valeur à 0, à moins que vous n'ayez absolument besoin d'un accès par IPSEC. ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_IPSECRW_SESS</base>
+	<trans>Nombre de connexions simultanées</trans>
+    </entry>
+    <entry>
+	<base>DESC_IPSECRW_RESET</base>
+	<trans><![CDATA[ Si vous le désirez, vous pouvez régénérer les certificats numériques ici.<br> Les anciens certificats ne permettront plus l'authentification auprès du serveur et <b><i>tous les clients IPSEC devront donc importer un nouveau certificat !</i></b> ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_IPSECRW_RESET</base>
+	<trans>Régénérer les certificats numériques</trans>
+    </entry>
+    <entry>
+        <base>DESC_IPSEC_VPN_UNAVAILABLE</base>
+        <trans>IPSEC VPN n'est pas installé. Veuillez installer la contribution si vous avez besoin d'un accès VPN.</trans>
+    </entry>
+</lexicon>

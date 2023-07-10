@@ -1,0 +1,193 @@
+<lexicon lang="fr"> 
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+	<base>Software installer</base>
+	<trans>Mise à jour logicielle</trans>
+    </entry>
+
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Les nouveaux paramètres ont été enregistrés.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_YUM_STATUS</base>
+        <trans>Vérification des mises à jour</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_YUM_AUTOINSTALLUPDATES</base>
+	<trans>Installation automatique des mises à jour</trans>
+   </entry>
+    <entry>
+        <base>LABEL_YUM_AUTOINSTALLUPDATES_DESCRIPTION</base>
+        <trans>Si cette option est activée, elle prévaudra sur la simple vérification des fonctionnalités de notification des mises à jour et de téléchargement préalable. À la place, les mises à jour disponibles à partir des dépôts activés seront installées. Pour plus d'informations, reportez-vous à la page du manuel de yum et de yum-cron.</trans>
+   </entry>
+
+    <entry>
+	<base>LABEL_YUM_PACKAGEFUNCTIONS</base>
+	<trans>Gestion individuelle des paquetages</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_YUM_PACKAGEFUNCTIONS</base>
+	<trans>La mise à jour logicielle peut gérer des groupes de paquetages apparentés ou les paquetages individuels. Par défaut, seuls les groupes de paquetages sont affichés. Si vous souhaitez gérer les paquetages individuellement, activez cette option. Cette option ne devrait être utilisée que par des administrateurs expérimentés.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_ENABLED_REPOSITORIES</base>
+	<trans>Sélection des sites de téléchargement</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_ENABLED_REPOSITORIES</base>
+	<trans>La mise à jour logicielle permet d'installer des logiciels à partir de n'importe quel site de téléchargement autorisé. Pour activer un site de téléchargement, sélectionnez-le dans la liste. Pour désactiver un site de téléchargement, désélectionnez-le dans la liste. Par défaut, seules les versions stables et testées des logiciels sont disponibles pour la mise à jour.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_UPTODATE</base>
+        <trans><![CDATA[ <div class="success"><h2>Le système est à jour.</h2> Toutes les mises à jour ont été installées </div> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_UPDATES_AVAILABLE</base>
+        <trans><![CDATA[ <div class="success"><h2>Mises à jour disponibles</h2> Il y a des mises à jour disponibles pour votre système. Ces mises à jour devraient être installées dès que possible. </div> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_AVAILABLE_UPDATES</base>
+        <trans>Mises à jour disponibles</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_AVAILABLE_UPDATES</base>
+        <trans>Les mises à jour suivantes sont disponibles pour votre système. Vous devriez normalement installer toutes les mises à jour disponibles. Si vous ne souhaitez pas en installer certaines, désélectionnez-les dans la liste ci-dessous :</trans>
+    </entry>
+
+    <entry>
+        <base>INSTALL_UPDATES</base>
+        <trans>Installer les mises à jour sélectionnées</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_INSTALL_UPDATES</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_UPDATES">Afficher les mises à jour disponibles</a> ]]></trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_AVAILABLE_SOFTWARE</base>
+	<trans>Les applications suivantes sont prêtes à être installées sur votre système. Vous ne devriez installer d'application additionnelle que si vous savez parfaitement à quoi vous vous exposez.</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_AVAILABLE_GROUPS</base>
+	<trans>Vous pouvez sélectionner des groupes de mises à jour à installer à partir de la liste ci-dessous :</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_AVAILABLE_GROUPS</base>
+	<trans>Groupes disponibles</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_AVAILABLE_PACKAGES</base>
+	<trans>Vous pouvez aussi sélectionner les paquetages individuels à installer dans la liste ci-dessous :</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_AVAILABLE_PACKAGES</base>
+	<trans>Paquetages disponibles</trans>
+    </entry>
+
+    <entry>
+	<base>INSTALL_SOFTWARE</base>
+	<trans>Installer</trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_INSTALLED_SOFTWARE</base>
+	<trans>Les mises à jour suivantes sont installées sur ce système. Vous ne devriez retirer des paquetages que si vous êtes conscient des conséquences que cela peut avoir.</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_INSTALLED_GROUPS</base>
+	<trans>Vous pouvez sélectionner des groupes de mises à jour à désinstaller dans la liste ci-dessous :</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_INSTALLED_GROUPS</base>
+	<trans>Groupes de mises à jour installés</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_INSTALLED_PACKAGES</base>
+	<trans>Vous pouvez aussi sélectionner les paquetages individuels que vous voulez retirer dans la liste ci-dessous :</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_INSTALLED_PACKAGES</base>
+	<trans>Paquetages installés</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_CONFIGURATION</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_CONFIGURATION">Modifier les paramètres de mise à jour</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_INSTALL_AVAILABLE</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_AVAILABLE">Installer une application additionnelle</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_REMOVE</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_REMOVE">Retirer une application installée</a> ]]></trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_POSTUPGRADE_REQUIRED</base>
+	<trans><![CDATA[ Le système doit être reconfiguré après l'ajout ou la suppression de paquetages, ou l'application de mises à jour. <p> Veuillez cliquer sur le bouton "Reconfigurer" au bas decette page pour démarrer le processus de reconfiguration. <b>Le système redémarrera automatiquement à l'issue de ce processus de reconfiguration.</b> </p> ]]></trans>
+     </entry>
+
+    <entry>
+	<base>SYSTEM_BEING_RECONFIGURED</base>
+	<trans>Votre système va redémarrer automatiquement afin d'achever le processus de reconfiguration.</trans>
+    </entry>
+
+    <entry>
+      <base>1DAILY</base>
+      <trans>Chaque jour</trans>
+    </entry>
+
+    <entry>
+      <base>2WEEKLY</base>
+      <trans>Chaque semaine</trans>
+    </entry>
+
+    <entry>
+      <base>3MONTHLY</base>
+      <trans>Chaque mois</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DELTARPMPROCESS</base>
+      <trans>Mise à jour Delta RPM</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DELTARPM</base>
+      <trans>Un deltarpm contient les différences entre une ancienne et une nouvelle version d'un rpm, ce qui peut sauvegarder de la bande passante. L'inconvénient est que ce processus utilise plus de temps processeur</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DOWNLOADONLY</base>
+      <trans>Précharger les mises à jours</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DOWNLOADONLY_DESCRIPTION</base>
+      <trans>Les fichiers rpm à mettre à jour peuvent être téléchargés pendant la nuit. Ceci facilite et accélère les mises à jours avec yum (seulement les dépôts activés seront utilisés).</trans>
+    </entry>
+
+</lexicon>

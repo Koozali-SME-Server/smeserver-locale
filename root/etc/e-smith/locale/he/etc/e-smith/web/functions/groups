@@ -1,0 +1,84 @@
+<lexicon lang="he">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>יצירה, שינוי או הסרה של קבוצות משתמשים</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_TOO_LONG</base>
+        <trans>שגיאה: שם קבוצה ארוך מדי. האורך המירבי הוא {$maxLength} תווים.</trans>
+    </entry>    
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>שגיאה: לא ניתן ליצור את הקבוצה "{$group}" מאחר ויש כבר חשבון {$type} בשם זה.</trans>
+    </entry>    
+    <entry>
+        <base>INVALID_GROUP_DESCRIPTION</base>
+        <trans>שגיאה: סימון לא חוקי או חסר בתיאור הקבוצה</trans>
+    </entry>
+    <entry>
+        <base>NO_MEMBERS</base>
+        <trans>שגיאה: אין חברים בקבוצה. לא נוצרה קבוצה חדשה.</trans>
+    </entry>
+    <entry>
+        <base>CREATED_GROUP</base>
+        <trans>קבוצה חדשה נוצרה בהצלחה</trans>
+    </entry> 
+    <entry>
+        <base>DELETED_GROUP</base>
+        <trans>קבוצת משתמשים הוסרה בהצלחה</trans>
+    </entry> 
+    <entry>
+        <base>MODIFIED_GROUP</base>
+        <trans>קבוצת משתמשים שונתה בהצלחה</trans>
+    </entry>	
+    <entry>
+        <base>CREATE_ERROR</base>
+        <trans>קרתה שגיאה בעת יצירת קבוצת משתמשים.</trans>
+    </entry> 
+    <entry>
+        <base>DELETE_ERROR</base>
+        <trans>קרתה שגיאה בעת הסרת קבוצת משתמשים.</trans>
+    </entry> 
+    <entry>
+        <base>MODIFY_ERROR</base>
+        <trans>קרתה שגיאה בעת שינוי קבוצת משתמשים.</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_NAMING</base>
+        <trans><![CDATA[שם הקבוצה צריך להתחיל באות קטנה ולהכיל אך ורק אותיות קטנות, מספרים, מקפים, נקודות וקווים תחתיים. לדוגמא "מכירות", "beta5", ו "reseller_partners" הם כולם שמות קבוצה חוקיים, אך "3rd-event", "Marketing Team" "lost&found" והם לא. ]]></trans>
+    </entry>
+    <entry>
+        <base>GROUP_HAS_MEMBERS</base>
+        <trans>קבוצה זו מכילה את החברים הבאים:</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_GROUP</base>
+        <trans>שגיאה: לא קיים חשבון קבוצה כזה.</trans>
+    </entry>
+    <entry>
+        <base>GROUP_DESC</base>
+        <trans>תיאור קצר \ שם קבוצת עבודה של Windows</trans>
+    </entry>
+   <entry>
+        <base>GROUP_DESC_EXPL</base>
+        <trans>נא להכניס תיאור קצר לקבוצה בשדה למטה. שדה זה מיועד גם לצורך שם קבוצה נראה מלקוחות Windows.</trans>
+   </entry>
+
+
+    <entry>
+        <base>IBAYS_WILL_BE_CHANGED</base>
+        <trans>ה Ibayים הבאים הוקצו לקבוצה זו וישויכו לקבוצה Administrator (אתה יכול לשייך אותם למשהו אחר אחר כך):</trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DELETE_GROUP</base>
+        <trans><![CDATA[ <p><b> האם אתה בטוח שאתה רוצה להסיר את הקבוצה הזאת? </b></p> ]]></trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST</base>
+        <trans><![CDATA[<p>הרשימה הנוכחית של קבוצות משתמשים </p>]]></trans>
+    </entry>
+    <entry>
+		<base>DELETE_DESCRIPTION</base>
+       	<trans><![CDATA[ אתה עומד להסיר את קבוצת המשתמשים הבאה"<b>{$group}</b>." ]]></trans>
+    </entry>
+</lexicon>

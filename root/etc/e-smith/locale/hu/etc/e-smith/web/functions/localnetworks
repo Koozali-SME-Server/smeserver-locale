@@ -1,0 +1,108 @@
+<lexicon lang="hu">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>Local networks</base>
+        <trans>Helyi hálózatok</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ Biztonsági okokból a szerver néhány szolgáltatása csak hálózaton belül érhető el. Azonban lehetősége van ezen szolgáltatásokhoz hozzáférést adni további hálózatok számára, úgy hogy hozzáadja őket az alábbi listához. Más esetben hagyja üresen ezt a listát.</P><P> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Hálózat hozzáadása</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>Helyi hálózat hozzáadása</trans>
+    </entry>
+    <entry>
+        <base>ADD_DESC</base>
+        <trans><![CDATA[ Minden paramétert a #.#.#.# formában kell megadni (minden # egy szám 0 és 255 között). A szerver kinullázza a hálózati cím alhálózati maszk által meghatározott végét (gép azonosítót) hogy a hálózati cím érvényes legyen. </P><P> Az "Átjáró" annak az eszköznek az IP címe amelyen keresztül elérhetők a további külső hálózatok ]]></trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ADDRESS</base>
+        <trans>Hálózati cím</trans>
+    </entry>
+    <entry>
+        <base>SUBNET_MASK</base>
+        <trans>Alhálózati maszk</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IP_ADDRESS</base>
+        <trans>Érvénytelen IP cím</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SUBNET_MASK</base>
+        <trans>Érvénytelen alhálózati maszk</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Helyi hálózat eltávolítása</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>A következő helyi hálózatokat készül eltávolítani.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_CONFIRM</base>
+        <trans>Biztos benne, hogy eltávolítja ezt a hálózatot?</trans>
+    </entry>
+    <entry>
+        <base>DEFAULT</base>
+        <trans>alapértelmezett</trans>
+    </entry>
+    <entry>
+        <base>NUMBER_OF_HOSTS</base>
+        <trans>Gépek száma</trans>
+    </entry>
+    <entry>
+        <base>NOT_ACCESSIBLE_FROM_LOCAL_NETWORK</base>
+        <trans>Hiba: a {$networkRouter} átjáró címe nem érhető el a helyi hálózatból. A hálózat hozzáadása sikertelen.</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_LOCAL</base>
+        <trans>Hiba: a {$network} hálózat ({$networkAddress} hálózati címből és {$networkMask} alhálózati maszkból képezve) már helyinek számít. A hálózat hozzáadása sikertelen.</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_ADDED</base>
+        <trans>Hiba: a {$network} hálózat ({$networkAddress} hálózati címből és {$networkMask} alhálózati maszkból képezve) már hozzá lett adva.A hálózat hozzáadása sikertelen.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_CREATING_NETWORK</base>
+        <trans>Hiba történt a hálózat létrehozásakor.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>A {$networkRouter} átjárón keresztüli {$network}/{$networkMask} hálózatot sikeresen hozzáadta.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_SINGLE_ADDRESS</base>
+        <trans>A {$networkRouter} átjárón keresztüli {$network}/{$networkMask} hálózatot sikeresen hozzáadta. A szerver helyi jogosultságokat biztosít a {$network} IP címnek.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NETWORK_RANGE</base>
+        <trans>A {$networkRouter} átjárón keresztüli {$network}/{$networkMask} hálózatot sikeresen hozzáadta. A szerver helyi jogosultságokat biztosít a {$totalHosts} IP címeknek a {$firstAddr} -tól {$lastAddr} -ig terjedő címtartományban.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NONSTANDARD_RANGE</base>
+        <trans><![CDATA[ <p> A {$networkRouter} átjárón keresztüli {$network}/{$networkMask} hálózatot sikeresen hozzáadta. A szerver helyi jogosultságokat biztosít a {$totalHosts} IP címeknek a {$firstAddr} -tól {$lastAddr} -ig terjedő címtartományban.. </p> <p> Figyelem: a ProFTPd FTP szerver nem tudja kezelni az ilyen fajta alhálózati maszkot. Az egyszerűbb <b>{$simpleMask}</b> lesz helyette használatban. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_REMOVED_NETWORK</base>
+        <trans>A {$networkRouter} átjárón keresztüli {$network}/{$networkMask} hálózatot sikeresen eltávolította.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_DELETING_NETWORK</base>
+        <trans>Hiba történt a hálózat eltávolításakor.</trans>
+    </entry>
+    <entry>
+        <base>NO_ADDITIONAL_NETWORKS</base>
+        <trans>Nincsenek hozzáadott hálózatok</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_DESC</base>
+        <trans>Az a hálózat amelyet eltávolítani készül, konfigurált gépeket tartalmaz. Alapesetben ezek is eltávolításra kerülnek. Ha valamilyen okból azt akarja, hogy ez ne történjen meg, vegye ki a jelölést a négyzetből. Miután a hálózatot eltávolítja, ezeknek a gépeknek már nem lesznek helyi jogosultságaik, sőt lehetséges, hogy nem lesznek elérhetők.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_LABEL</base>
+        <trans>A hálózat gépeinek eltávolítása</trans>
+    </entry>
+</lexicon>

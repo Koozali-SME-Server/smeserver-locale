@@ -1,0 +1,101 @@
+<lexicon lang="fr">
+
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Rapporter un bogue</trans>
+    </entry>
+    <entry>
+        <base>DO_NOT_PANIC</base>
+        <trans>Ne paniquez pas !</trans>
+    </entry>
+    <entry>
+        <base>SME_EXPERIENCE</base>
+        <trans>Il n'y a malheureusement aucun logiciel sans bogues, et vous en avez probablement rencontré un avec votre Serveur SME pour consulter cette page.</trans>
+    </entry>
+    <entry>
+        <base>PLEASE_REPORT_HERE</base>
+        <trans>Afin d'aider les développeurs à diagnostiquer et résoudre votre problème, merci d'utiliser un des gabarits suivant, remplissez le et collez le tout dans votre rapport de bogue à   </trans>
+    </entry>
+    <entry>
+        <base>USE_TEMPLATE</base>
+        <trans>Merci de vous référer à ce lien sur comment rapporter efficacement un bogue et utilisez le comme un gabarit </trans>
+    </entry>
+    <entry>
+        <base>FOLLOWING_REPORT_MIGHT_HELP</base>
+        <trans>Cela aidera aussi si vous fournissez des informations importantes sur la configuration de votre Serveur SME dans votre rapport de bogue. En cliquant sur le bouton "Créer un rapport de configuration" ci-dessous, vous pouvez créer et télécharger un fichier texte contenant ces informations. Merci d'attacher ce fichier à votre rapport de bogue.</trans>
+    </entry>
+    <entry>
+        <base>REPORT_CONTENT</base>
+        <trans>Le rapport contiendra les informations suivantes </trans>
+    </entry>
+    <entry>
+        <base>SME_VERSION</base>
+        <trans>Version du Serveur Koozali SME</trans>
+    </entry>
+    <entry>
+        <base>SERVER_MODE</base>
+        <trans>Mode d’installation du serveur</trans>
+    </entry>
+    <entry>
+        <base>PREVIOUS_SERVER_MODE</base>
+        <trans>Précédent mode d’installation du serveur</trans>
+    </entry>
+    <entry>
+        <base>KERNEL_AND_ARCH</base>
+        <trans>Version chargée du kernel et architecture</trans>
+    </entry>
+    <entry>
+        <base>INSTALLED_RPMS</base>
+        <trans>Une liste des RPMs additionnels installés sur votre serveur</trans>
+    </entry>
+    <entry>
+        <base>ALTERED_TEMPLATES</base>
+        <trans>Une liste des gabarits SME qui ont été altérés sur votre serveur par rapport à une installation de base</trans>
+    </entry>
+    <entry>
+        <base>ALTERED_EVENTS</base>
+        <trans>Une liste des événements SME qui ont été altérés sur votre serveur par rapport à une installation de base</trans>
+    </entry>
+    <entry>
+        <base>YUM_REPOS</base>
+        <trans>Une liste des dépôts logiciels qui ont été configurés sur votre serveur</trans>
+    </entry>
+    <entry>
+        <base>PRIVACY</base>
+        <trans>Aucune donnée compromettant votre vie privée n'est incluse (comme vos utilisateurs, mots de passe ou adresses IP). </trans>
+    </entry>
+    <entry>
+            <base>CREATE_REPORT</base>
+            <trans>Créer un rapport de configuration</trans>
+    </entry>
+
+    <entry>
+            <base>DONATING</base>
+            <trans>Avez-vous considéré faire une donation ?</trans>
+    </entry>
+    <entry>
+            <base>AWARE_SME</base>
+            <trans>Vous savez probablement que SME Serveur est développé et maintenu par une communauté de volontaires du monde entier. Bien que SME Serveur est libre à télécharger et à utiliser, maintenir son infrastructure en arrière du projet (incluant héberger les forums, wiki, fournir les dépôts de téléchargement ou les serveurs de fabrication des paquets logiciels) n'est pas gratuit, et nécessite vraiment de l'argent.</trans>
+    </entry>
+    <entry>
+            <base>YOUR_HELP</base>
+            <trans>De la même façon que vous avez besoin de nous pour votre problème, nous avons besoin de VOTRE aide pour garder ce projet actif!</trans>
+    </entry>
+    <entry>
+            <base>CONSIDER_DONATING</base>
+            <trans>Merci de faire un don pour le projet en cliquant sur l'image ci-dessous :</trans>
+    </entry>
+    <entry>
+            <base>THANK_YOU</base>
+            <trans>Merci pour votre soutient !</trans>
+    </entry>
+    <entry>
+            <base>Download this report</base>
+            <trans>Télécharger ce rapport !</trans>
+    </entry>
+    <entry>
+            <base>Report a bug</base>
+            <trans>Rapporter un bogue</trans>
+    </entry>
+
+</lexicon>

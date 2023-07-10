@@ -1,0 +1,79 @@
+<lexicon lang="tr">
+   <entry>
+     <base>FORM_TITLE</base>
+       <trans>LDAP dizin ayarlarını değiştirin</trans>
+   </entry>	
+<entry>
+<base>LABEL_ROOT</base>
+<trans>Sunucu ana dizini</trans>
+</entry>
+
+<entry>
+<base>DESCRIPTION</base>
+<trans>LDAP sunucusu kullanıcı hesapları ve sunucunuzda ağ kullanılabilir grup listesini vermektedir, Netscape Communicator Adres Defteri özelliği gibi bir LDAP istemci kullanılarak ulaşılabilir. LDAP istemcinizi sunucunuzun yerel IP adresi ile yapılandırın , port numarası 389 ve sunucu kök parametreleri aşağıda gösterilmiştir.</trans>
+</entry>
+<entry>
+<base>DESC_DIRECTORY_ACCESS</base>
+<trans>LDAP dizin erişimini kontrol edebilirsiniz: özel ayar seçildiğinde sadece yerel ağınızdan erişilebilir, herkese açık ayar seçildiğinde internet dahil her yerden erişim sağlanır.</trans>
+</entry>
+<entry>
+<base>DIRECTORY_ACCESS</base>
+<trans>LDAP dizin erişimi</trans>
+</entry>
+<entry>
+	<base>DESC_DEPARTMENT</base>
+<trans>Bu alanlar kuruluşunuz için varsayılan LDAP bilgileridir. Yeni bir kullanıcı hesabı oluşturduğunuzda, bu bilgileri tekrar girmeniz istenecektir (bu bilgiler her kullanıcı için farklı olabilir), burada verilen bilgiler varsayılan olarak gösterilecektir. Bu işlem yeni kullanıcı hesabını daha hızlı oluşturmanızı sağlayacaktır.</trans>
+</entry>
+<entry>
+        <base>DEPARTMENT</base>
+        <trans>Varsayılan departman</trans>
+</entry>
+
+<entry>
+        <base>COMPANY</base>
+        <trans>Varsayılan Şirket</trans>
+</entry>
+<entry>
+        <base>STREET</base>
+        <trans>Varsayılan Sokak</trans>
+</entry>
+
+<entry>
+        <base>CITY</base>
+        <trans>Varsayılan Şehir</trans>
+</entry>
+
+<entry>
+        <base>PHONENUMBER</base>
+        <trans>Varsayılan Telefon numarası</trans>
+</entry>
+
+<entry>
+<base>DESC_EXISTING</base>
+<trans>Var olan kullanıcı hesaplarını olduğu gibi bırakabilirsiniz, varsayılan bilgiler sadece yeni kullanıcılara uygulanır veya mevcut kullanıcılar dahil bütün kullanıcı hesapları için bu varsayılan bilgileri atayabilirsiniz.</trans>
+</entry>
+
+
+
+<entry>
+<base>EXISTING</base>
+<trans>Mevcut kullanıcılar</trans>
+</entry>
+<entry>
+<base>SUCCESS</base>
+<trans>Yeni LDAP varsayılan değerleri kaydedildi.</trans>
+</entry>
+
+<entry>
+<base>LEAVE</base>
+<trans>Olduğu gibi bırak</trans>
+</entry>
+<entry>
+<base>UPDATE</base>
+<trans>Yeni varsayılan bilgileri kullanarak güncelle</trans>
+</entry>
+    <entry>
+        <base>Directory</base>
+        <trans>Dizin</trans>
+    </entry>
+</lexicon>

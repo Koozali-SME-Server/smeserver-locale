@@ -1,0 +1,42 @@
+<lexicon lang="th">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>ปิดเครื่อง หรือ รีบูต</trans>
+    </entry>
+    <entry>
+	<base>REBOOT</base>
+	<trans>รีบูต</trans>
+    </entry>
+    <entry>
+	<base>REBOOT_SUCCEEDED</base>
+	<trans>การเริ่มต้นงานตามคำขอรีบูตทำได้สำเร็จ</trans>
+    </entry>
+    <entry>
+	<base>DESC_REBOOT</base>
+	<trans>เซิร์ฟเวอร์ได้เริ่มต้นกระบวนการรีบูตเครื่องแล้ว</trans>
+    </entry>
+    <entry>
+	<base>RECONFIGURE_SUCCEEDED</base>
+	<trans>การเริ่มต้นงานตามคำขอ Reconfiguration ทำได้สำเร็จ</trans>
+    </entry>
+    <entry>
+	<base>DESC_RECONFIGURE</base>
+	<trans>เซิร์ฟเวอร์ได้เริ่มกระบวนการ full system reconfiguration แล้ว และจากนั้นจะทำการรีบูตเครื่อง</trans>
+    </entry>
+    <entry>
+	<base>DESC_SHUTDOWN</base>
+	<trans>ได้เริ่มต้นกระบวนเพื่อทำการปิดเครื่องแล้ว กระบวนการนี้จะกินเวลาทั้งหมดเป็นเวลาใช้เวลาสั้นๆ ไม่กี่นาที หลังจากนี้หากเครื่องไม่ปิดเอง คุณก็สามารถปิดสวิตซ์เครื่องด้วยมือได้อย่างปลอดภัยต่อระบบ</trans>
+    </entry>
+    <entry>
+	<base>LABEL_REBOOT</base>
+	<trans>เลือก ปิดเครื่อง รีบูต หรือ Reconfigure</trans>
+    </entry>
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ สามารถเลือกรีบูต ปิดเครื่อง หรือ ดำเนิน full system reconfiguration หากต้องการปิดเครื่อง คุณต้องทำการสั่ง "ปิดเครื่อง" นี้ก่อนที่จะปิดสวิตซ์ที่ตัวเครื่อง คำสั่งเหล่านี้จะกินเวลาหลายนาที และเมื่อคลิ๊ก <b>ดำเนินการ</b> แล้ว มันจะเริ่มต้นกระบวนการของมันทันทีและไม่สามารถยกเลิกคำสั่งได้ ดังนั้น โปรดทบทวนให้แน่ใจก่อนสั่งการ! ]]></trans>
+    </entry>
+    <entry>
+	<base>Reboot or shutdown</base>
+	<trans>รีบูต หรือ ปิดเครื่อง</trans>
+    </entry>
+</lexicon>

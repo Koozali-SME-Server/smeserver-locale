@@ -1,0 +1,87 @@
+<lexicon lang="pl">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Plik analizy dziennika poczty</trans>
+    </entry>
+    <entry>
+	<base>INITIAL_DESC</base>
+	<trans><![CDATA[ <P> Analiza plików dziennika systemu poczty może pomóc zarówno w zrozumieniu działania systemu, jak i w diagnozowaniu problemów z dostarczaniem poczty. Dostępnych jest kilka różnych raportów. </P> <P> Proszę pamiętać, że wygenerowanie tych raportów może zająć kilka minut </P>]]></trans>
+    </entry>
+    <entry>
+	<base>REPORT_TYPE</base>
+	<trans>Wybierz typ raportu</trans>
+    </entry>
+    <entry>
+	<base>GENERATE_REPORT</base>
+	<trans>Wygeneruj raport</trans>
+    </entry>
+    <entry>
+	<base>LIST_OUTGOING</base>
+	<trans>Spis wychodzących wiadomości i odbiorców</trans>
+    </entry>
+    <entry>
+	<base>SUMMARIZE_QUEUE</base>
+	<trans>Podsumuj stan kolejki wiadomości</trans>
+    </entry>
+    <entry>
+	<base>SUCCESSFUL_DELIVERY_DELAY</base>
+	<trans>Skuteczne dostarczenie opóźnionej dystrybucji</trans>
+    </entry>
+    <entry>
+	<base>REASONS_DEFERRAL</base>
+	<trans>Przyczyny odroczenia</trans>
+    </entry>
+    <entry>
+	<base>REASONS_FAILURE</base>
+	<trans>Przyczyny niepowodzenia</trans>
+    </entry>
+    <entry>
+	<base>BASIC_STATS</base>
+	<trans>Podstawowe statystyki</trans>
+    </entry>
+    <entry>
+	<base>RECIP_STATS</base>
+	<trans>Statystyki adresatów</trans>
+    </entry>
+    <entry>
+	<base>RECIP_HOSTS</base>
+	<trans>Hosty adresatów</trans>
+    </entry>
+    <entry>
+	<base>RECIP_ORDERED</base>
+	<trans>Odbiorcy w najlepszej kolejności na listach mailingowych</trans>
+    </entry>
+    <entry>
+	<base>SENDER_STATS</base>
+	<trans>Statystyki nadawcy</trans>
+    </entry>
+    <entry>
+	<base>SENDMAIL_STYLE</base>
+	<trans>Dziennik stylów poczty wysłanej</trans>
+    </entry>
+    <entry>
+	<base>REASONS_SUCCESS</base>
+	<trans>Powody sukcesu</trans>
+    </entry>
+    <entry>
+	<base>SENDER_UIDS</base>
+	<trans>Identyfikatory (UID) nadawcy</trans>
+    </entry>
+    <entry>
+	<base>INVALID_REPORT_TYPE</base>
+	<trans>Nieprawidłowy typ raportu:</trans>
+    </entry>
+    <entry>
+	<base>REPORT_GENERATED</base>
+	<trans>Wygenerowany raport:</trans>
+    </entry>
+    <entry>
+	<base>END_OF_REPORT</base>
+	<trans>Koniec raportu</trans>
+    </entry>
+    <entry>
+	<base>Mail log file analysis</base>
+	<trans>Plik analizy dziennika poczty</trans>
+    </entry>
+
+</lexicon>

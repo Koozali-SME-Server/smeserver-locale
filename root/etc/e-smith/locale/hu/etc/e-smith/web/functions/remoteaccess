@@ -1,0 +1,171 @@
+<lexicon lang="hu">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Távoli hozzáférés beállításainak módosítása</trans>
+    </entry>	
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans>Az alábbi minden egyes opciónál, a magán beállítás bárkinek a helyi hálózatból engedélyezi a hozzáférést a szerverhez. A nyilvános beállítás az egész Internetről engedélyezi a hozzáférést. A nincs hozzáférés beállítás letiltja a hozzáférést. Hogy megértse a biztonsági vonatkozásait ezen a beállítások megváltoztatásának, olvassa el a felhasználói kézikönyvben az ide vonatkozó részt.</trans>	
+    </entry>
+    <entry>
+	<base>SUCCESS</base>
+	<trans>Az új távoli hozzáférés beállítások lementődtek.</trans>
+    </entry>
+    <entry>
+	<base>NO_ACCESS</base>
+	<trans>Nincs hozzáférés</trans>
+    </entry>
+    <entry>
+	<base>PASSWORD_LOGIN_PRIVATE</base>
+	<trans>Csak helyi hálózatokból fogad el jelszavakat</trans>
+    </entry>
+    <entry>
+	<base>PASSWORD_LOGIN_PUBLIC</base>
+	<trans>Bárhonnan elfogadja a jelszavakat</trans>
+    </entry>
+    <entry>
+	<base>LABEL_TELNET_ACCESS</base>
+	<trans>Telnet hozzáférés</trans>
+    </entry>
+    <entry>
+	<base>LABEL_FTP_ACCESS</base>
+	<trans>FTP hozzáférés</trans>
+    </entry>
+    <entry>
+	<base>LABEL_FTP_LOGIN</base>
+	<trans>FTP jelszó hozzáférés</trans>
+    </entry>
+    <entry>
+	<base>LABEL_PPTP</base>
+	<trans>PPTP kliensek száma</trans>
+    </entry>
+     <entry>
+       <base>NUMBER_OF_VPN_CLIENTS_MUST_BE_LESSER_THAN_NUMBER_OF_IP_IN_DHCP_RANGE</base>
+       <trans>A pptp-ügyfelek száma nagyobb, mint a DHCP által fenntartott IP-címek száma. Kisebb számot kell megadni.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SSH_PORT</base>
+        <trans>A secure shell hozzáférés TCP portja</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH</base>
+	<trans>Secure shell hozzáférés</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH_ADMIN</base>
+	<trans>Rendszergazdai parancsok fogadása secure shell-en keresztül</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH_PASSWORD_ACCESS</base>
+	<trans>Secure shell hozzáférés engedélyezése hagyományos jelszavakkal</trans>
+    </entry>
+    <entry>
+	<base>DESC_SSH</base>
+	<trans><![CDATA[ <hr class="sectionbar" /> <h2>Secure Shell beállítások</h2>Szabályozhatja a Secure Shell hozzáférést a szerverhez. A nyilvános beállítást csak tapasztalt rendszergazdák alkalmazzák távoli hibaelhárításhoz. Ha nincs rá különösebb oka ezt használni, akkor ajánlott ezt a beállítást a "Nincs hozzáférés" -re állítani. ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_FTP_ACCESS</base>
+	<trans><![CDATA[ <hr class="sectionbar" /><h2>FTP beállítások</h2> Az <b>FTP</b> hozzáférést is szabályozhatja a szerveren. Ajánlatos ezt a paramétert 'Nincs hozzáférés' -re állítani, hacsak nincs rá oka hogy másképp tegyen. <p> Figyelem: ezek a beállítások korlátozzák a hozzáférést a szerverhez és felülírnak más beállításokat, beleértve az egyedi adattárak beállításait.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_FTP_LOGIN</base>
+	<trans><![CDATA[ Szabályozhatja a biztonságos FTP hozzáférést az adattárakhoz és a felhasználói fiókokhoz. Ajánlatos ezt a paramétert  private-ra állítani, hacsak nincs rá oka hogy másképp tegyen. <p> Figyelem: egy secure shell sftp kliens használható a szerverhez való hozzáféréshez, ha a távoli hozzáférés secure shellen keresztül engedélyezve van. Ez a módszer védi a jelszavakat és az adatokat az FTP kapcsolat során, míg a hagyományos FTP nem biztosít védelmet.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_PPTP</base>
+	<trans><![CDATA[ <hr class="sectionbar" /><h2>PPTP beállítások</h2> Engedélyezheti a PPTP hozzáférést a szerveréhez. Ha nincs szüksége a PPTP hozzáférésre, a 0 érték beállításával kikapcsolhatja azt. ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_VPN</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>PPTP beállítások</h2> Engedélyezheti a PPTP hozzáférést a szerveréhez. Ha nincs szüksége a PPTP hozzáférésre, a 0 érték beállításával kikapcsolhatja azt. ]]></trans>
+    </entry>
+    <entry>
+	<base>VALUE_ZERO_OR_POSITIVE</base>
+	<trans>Az értéknek 0-nak vagy pozitív egész számnak kell lennie</trans>
+    </entry>
+    <entry>
+	<base>REMOTE_MANAGEMENT</base>
+	<trans>Távoli hozzáférés</trans>
+    </entry>
+    <entry>
+	<base>VALIDFROM_DESC</base>
+	<trans><![CDATA[ <hr class="sectionbar" /><h2>{$REMOTE_MANAGEMENT}</h2> <p>Lehetséges engedélyezni a távoli hálózatokban lévő gépeknek a szerver kezelőhöz való hozzáférést azok hálózatának bejegyzésével. Használja a 255.255.255.255 alhálózati maszkot a gépek hozzáférésének korlátozásához. Az alhálózati maszk által meghatározott címtartományban minden gép HTTPS használatával hozzáférhet a szerver kezelőhöz.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_VALID_FROM_ENTRIES</base>
+	<trans>Távoli hálózat hozzáadásához, adja meg az alábbi adatokat.</trans>
+    </entry>
+    <entry>
+	<base>SUBNET_MASK</base>
+	<trans>Alhálózati maszk</trans>
+    </entry>
+    <entry>
+	<base>NUM_OF_HOSTS</base>
+	<trans>Gépek száma</trans>
+    </entry>
+    <entry>
+	<base>NO_ENTRIES_YET</base>
+	<trans>Nincsenek még bejegyzések</trans>
+    </entry>
+    <entry>
+	<base>INVALID_SUBNET_MASK</base>
+	<trans>Érvénytelen alhálózati maszk</trans>
+    </entry>
+    <entry>
+	<base>ERR_INVALID_PARAMS</base>
+	<trans>Adja meg a hálózatot és az alhálózati maszkot is, vagy hagyja mindkét mezőt üresen.</trans>
+    </entry>
+    <entry>
+	<base>ERR_NO_RECORD</base>
+	<trans>Nem lehet megtalálni a http-admin rekordot a konfigurációs adatbázisban</trans>
+    </entry>
+    <entry>
+	<base>Remote access</base>
+	<trans>Távoli hozzáférés</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERIAL_CONSOLE_ACCESS</base>
+        <trans>Soros konzol</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERIAL_CONSOLE_ACCESS</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Soros konzol</h2> Engedélyezheti a hozzáférést a szerver konzolhoz egy szerverre kapcsolt soros terminálon keresztül.]]></trans>
+    </entry>
+    <entry>
+        <base>PORT1_ENABLED</base>
+        <trans>Engedélyezve az 1. soros porton</trans>
+    </entry>
+    <entry>
+        <base>PORT2_ENABLED</base>
+        <trans>Engedélyezve az 2. soros porton</trans>
+    </entry>   
+
+    <entry>
+        <base>LABEL_PPTP_ACCESS</base>
+        <trans>PPTP alapértelmezett hozzáférés</trans>
+    </entry>
+    <entry>
+        <base>DESC_TELNET_ACCESS</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Telnet beállítások</h2> Figyelem: A telnet jelenleg engedélyezett, de ez a szolgáltatás többé nem támogatott. A telnet alapvetően nem biztonságos és csak olyan körülmények között használja, ahol nem létezik más alternatíva. Állítsa ezt az opciót  {$NO_ACCESS} -re és használjon secure shell-t ha távoli hozzáférésre van szüksége. Miután letiltja, a telnet nem jelenik meg többé ezen az oldalon. ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_IPSECRW</base>
+	<trans><![CDATA[ <h2>IPSEC kliens (Roadwarrior) beállítások</h2> Engedélyezheti a digitális tanúsitvánnyal azonosított IPSEC kliensek számára a hozzáférést ehhez a szerverhez. Ha nincs szüksége az IPSEC kliens hozzáférésre, a 0 érték beállításával kikapcsolhatja azt. ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_IPSECRW_SESS</base>
+	<trans>IPSEC kliensek száma</trans>
+    </entry>
+    <entry>
+	<base>DESC_IPSECRW_RESET</base>
+	<trans><![CDATA[Ha meg akarja változtatni a digitális tanusítványokat, azt itt teheti meg.<br>Egyik régi tanúsítvánnyal sem lehet majd bejelentkezni, ezért <b><i>minden IPSEC kliensnek be kell szereznie egy új tanúsítványt!</i></b>. ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_IPSECRW_RESET</base>
+	<trans>Digitális tanúsítványok megváltoztatása</trans>
+    </entry>
+    <entry>
+        <base>DESC_IPSEC_VPN_UNAVAILABLE</base>
+        <trans>IPSEC VPN is not installed. Please install the contrib if you need VPN access.</trans>
+    </entry>
+</lexicon>

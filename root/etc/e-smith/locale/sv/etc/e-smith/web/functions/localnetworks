@@ -1,0 +1,108 @@
+<lexicon lang="sv">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>Local networks</base>
+        <trans>Lokala nätverk</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ Av säkerhetsskäl finns vissa tjänster på din server endast åtkomliga på ditt lokala nätverk. Du kan emellertid ge lokal åtkomst till ytterligare nätverk genom att ange dem nedan. De flesta installationer bör lämna denna lista tom</P><P> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Lägg till nätverk</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>Lägg till lokalt nätverk</trans>
+    </entry>
+    <entry>
+        <base>ADD_DESC</base>
+        <trans><![CDATA[ Varje parameter måste vara i formatet #.#.#.# (där varje # är ett tal från 0 till 255). Serverns mjukvara kommer att ta bort den avslutande delen (värdidentifieraren) av nätverksadressen enligt subnätmasken för att försäkra att nätverksadressen är giltig. </P><P> "Router" skall vara den IP-adress på ditt lokala nätverk som det ytterligare nätverket nås via. ]]></trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ADDRESS</base>
+        <trans>Nätverksadress</trans>
+    </entry>
+    <entry>
+        <base>SUBNET_MASK</base>
+        <trans>Subnätmask</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IP_ADDRESS</base>
+        <trans>Ogiltig IP-adress</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SUBNET_MASK</base>
+        <trans>Ogiltig subnätmask</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Radera lokalt nätverk</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Du håller på att radera följande lokal nätverk.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_CONFIRM</base>
+        <trans>Är du säker att du vill radera detta nätverk?</trans>
+    </entry>
+    <entry>
+        <base>DEFAULT</base>
+        <trans>förvalt</trans>
+    </entry>
+    <entry>
+        <base>NUMBER_OF_HOSTS</base>
+        <trans>Antal värdar</trans>
+    </entry>
+    <entry>
+        <base>NOT_ACCESSIBLE_FROM_LOCAL_NETWORK</base>
+        <trans>Fel: router-adressen {$networkRouter} är inte tillgänglig på det lokala nätverket. Nätverket lades inte till.</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_LOCAL</base>
+        <trans>Fel: Nätverk {$network} (tagen ur nätverk {$networkAddress} och subnätmask {$networkMask}) anses redan vara lokal. Nätverket lades inte till.</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_ADDED</base>
+        <trans>Fel: Nätverk {$network} (tagen ur nätverk {$networkAddress} och subnätmask {$networkMask}) har redan lagts till. Nätverk lades inte till.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_CREATING_NETWORK</base>
+        <trans>Fel inträffade vid skapandet av nätverk.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Lagt till nätverket {$network}/{$networkMask} via router {$networkRouter}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_SINGLE_ADDRESS</base>
+        <trans>Lagt till nätverket {$network}/{$networkMask} via router {$networkRouter}. Din server tillåter lokala åtkomstprivilegier till den enstaka nätverksadressen {$network}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NETWORK_RANGE</base>
+        <trans>Lagt till nätverket {$network}/{$networkMask} via router {$networkRouter}. Din server tillåter lokala åtkomstprivilegier till {$totalHosts} IP-adresser inom intervallet {$firstAddr} till {$lastAddr}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NONSTANDARD_RANGE</base>
+        <trans><![CDATA[ <p> Lagt till nätverk {$network}/{$networkMask} via router {$networkRouter}. </p> <p> Din server tillåter lokala åtkomstprivilegier till {$totalHosts} IP-adresser inom intervallet {$firstAddr} till {$lastAddr}. </p> <p> Varning: ProFTPd FTP-server kan inte hantera denna icke standardiserade nätverksmask. Den enklare specifikationen <b>{$simpleMask}</b> kommer att användas istället. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_REMOVED_NETWORK</base>
+        <trans>Radera nätverk {$network}/{$networkMask} via router {$networkRouter}.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_DELETING_NETWORK</base>
+        <trans>Ett fel inträffade vid radering av nätverk.</trans>
+    </entry>
+    <entry>
+        <base>NO_ADDITIONAL_NETWORKS</base>
+        <trans>Inga ytterligare nätverk</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_DESC</base>
+        <trans>Lokala värdar som är konfigurerade på nätverket och som du håller på att ta bort, har upptäckts. De kommer att bli raderade. Avmarkera denna ruta om du, av något skäl, inte vill att detta skall ske. Notera att de kommer att bli behandlade som lokala och att de kanske inte ens bli nåbara, efter det att detta nätverk har raderats.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_LABEL</base>
+        <trans>Radera värdar på nätverket</trans>
+    </entry>
+</lexicon>

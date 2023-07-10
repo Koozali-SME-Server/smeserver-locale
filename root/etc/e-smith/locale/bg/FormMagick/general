@@ -1,0 +1,520 @@
+<lexicon lang="bg">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>Collaboration</base>
+        <trans>Групова работа</trans>
+    </entry>
+    <entry>
+      <base>Administration</base>
+      <trans>Администриране</trans>
+    </entry>
+    <entry>
+        <base>Security</base>
+        <trans>Сигурност</trans>
+    </entry>
+    <entry>
+        <base>Configuration</base>
+        <trans>Конфигурация</trans>
+    </entry>
+    <entry>
+        <base>Miscellaneous</base>
+        <trans>Разни</trans>
+    </entry>
+    <entry>
+        <base>Your Settings</base>
+        <trans>Вашите настройки</trans>
+    </entry>
+    <entry>
+        <base>SAVE</base>
+        <trans>Запис</trans>
+    </entry>
+    <entry>
+        <base>CANCEL</base>
+        <trans>Отказ</trans>
+    </entry>
+    <entry>
+        <base>ENABLED</base>
+        <trans>Разрешен</trans>
+    </entry>
+    <entry>
+        <base>DISABLED</base>
+        <trans>Забранено</trans>
+    </entry>
+    <entry>
+        <base>NO</base>
+        <trans>Не</trans>
+    </entry>
+    <entry>
+        <base>YES</base>
+        <trans>Да</trans>
+    </entry>
+    <entry>
+        <base>ADD</base>
+        <trans>Добави</trans>
+    </entry>
+    <entry>
+        <base>CREATE</base>
+        <trans>Създай</trans>
+    </entry>
+    <entry>
+        <base>MODIFY</base>
+        <trans>Промени</trans>
+    </entry>
+    <entry>
+        <base>REMOVE</base>
+        <trans>Премахване</trans>
+    </entry>
+    <entry>
+        <base>COMMENT</base>
+        <trans>Коментар</trans>
+    </entry>
+    <entry>
+        <base>NEXT</base>
+        <trans>Следващ</trans>
+    </entry>
+    <entry>
+        <base>SELF</base>
+        <trans>Себе си</trans>
+    </entry>
+    <entry>
+        <base>REMOTE</base>
+        <trans>Отдалечен</trans>
+    </entry>
+    <entry>
+        <base>LOCAL</base>
+        <trans>Локален</trans>
+    </entry>
+    <entry>
+        <base>ACTION</base>
+        <trans>Действие</trans>
+    </entry>
+    <entry>
+        <base>NETWORK</base>
+        <trans>Мрежа</trans>
+    </entry>
+    <entry>
+        <base>ROUTER</base>
+        <trans>Маршрутизатор</trans>
+    </entry>
+    <entry>
+        <base>OPERATION_STATUS_REPORT</base>
+        <trans>Отчет за състоянието на операциите</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT</base>
+        <trans>Акаунт</trans>
+    </entry>
+    <entry>
+        <base>GROUP</base>
+        <trans>Група</trans>
+    </entry>
+    <entry>
+        <base>DESC_SECTIONBAR</base>
+        <trans><![CDATA[ <hr class="sectionbar"/> ]]></trans>
+    </entry>
+    <entry>
+        <base>NO_PIPES_ALLOWED</base>
+        <trans>Символите за предаване (|) не са позволени в това поле</trans>
+    </entry>
+    <entry>
+        <base>ERROR_BELOW</base>
+        <trans>ГРЕШКА: Има грешка при проверката на тази страница. Моля, придвижете се надолу и намерете специфичния проблем.</trans>
+    </entry>
+    <entry>
+        <base>ACCESS</base>
+        <trans>Достъп</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_LOCKED</base>
+        <trans>Акаунтът е заключен</trans>
+    </entry>
+    <entry>
+        <base>GROUP_ADD</base>
+        <trans>Добави група</trans>
+    </entry>
+    <entry>
+        <base>NETWORKS_ALLOW_LOCAL</base>
+        <trans>Разрешаване на достъп само от локални мрежи</trans>
+    </entry>
+    <entry>
+        <base>NETWORKS_ALLOW_PUBLIC</base>
+        <trans>Позволи публичен достъп (целия Интернет)</trans>
+    </entry>
+    <entry>
+        <base>ERROR_PASSWORD_CHANGE</base>
+        <trans>Възникна грешка по време на опита за промяна на Вашата парола. Моля, уверете се, че старата парола, която сте въвели е правилна.</trans>
+    </entry>
+    <entry>
+        <base>BACK</base>
+        <trans>Назад</trans>
+    </entry>
+    <entry>
+        <base>BACKUP</base>
+        <trans>Резервно копие</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION_BRIEF</base>
+        <trans>Кратко описание</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE</base>
+        <trans>Смяна на парола</trans>
+    </entry>
+    <entry>
+        <base>RESET_PASSWORD_TITLE</base>
+        <trans>Инициализиране на паролата на потребителя</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_PASSWORD_CHANGE</base>
+        <trans>Смяна на парола на потребител</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>Съдържание</trans>
+    </entry>
+    <entry>
+        <base>CREATE_GROUP</base>
+        <trans>Създаване на потребителска група</trans>
+    </entry>
+    <entry>
+        <base>USER_LIST_CURRENT</base>
+        <trans>Текущ списък с потребители</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans>Описание</trans>
+    </entry>
+    <entry>
+        <base>DESTINATION</base>
+        <trans>Направление</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME</base>
+        <trans>Име на домейн</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN</base>
+        <trans>Домейн</trans>
+    </entry>
+    <entry>
+        <base>DOMAINS</base>
+        <trans>Домейни</trans>
+    </entry>
+    <entry>
+        <base>DOWNLOAD</base>
+        <trans>Сваляне</trans>
+    </entry>
+    <entry>
+        <base>ERROR_UPDATING_CONFIGURATION</base>
+        <trans>Възникна грешка по време на актуализирането на системната конфигурация.</trans>
+    </entry>
+    <entry>
+        <base>GROUP_MEMBERS</base>
+        <trans>Членове на групата</trans>
+    </entry>
+    <entry>
+        <base>GROUP_NAME</base>
+        <trans>Име на група</trans>
+    </entry>
+    <entry>
+        <base>GROUPS</base>
+        <trans>Групи</trans>
+    </entry>
+    <entry>
+        <base>IP_ADDRESS</base>
+        <trans>IP адрес</trans>
+    </entry>
+    <entry>
+        <base>IP_ADDRESS_OR_FQDN</base>
+        <trans>IP адрес или FQDN</trans>
+    </entry>
+    <entry>
+        <base>USER_INVALID</base>
+        <trans>Невалиден потребител</trans>
+    </entry>
+    <entry>
+        <base>LOCATION</base>
+        <trans>Разположение</trans>
+    </entry>
+    <entry>
+        <base>MB</base>
+        <trans>Mb</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_USER_GROUP</base>
+        <trans>Промяна на потребителска група</trans>
+    </entry>
+    <entry>
+        <base>NAME</base>
+        <trans>Име</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_VERIFY_NEW</base>
+        <trans>Нова парола (проверка):</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_NEW</base>
+        <trans>Нова парола:</trans>
+    </entry>
+    <entry>
+        <base>OFF</base>
+        <trans>Изключване</trans>
+    </entry>
+    <entry>
+        <base>OK</base>
+        <trans>Ок</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_OLD</base>
+        <trans>Стара парола:</trans>
+    </entry>
+    <entry>
+        <base>ON</base>
+        <trans>Включване</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD</base>
+        <trans>Парола</trans>
+    </entry>
+    <entry>
+        <base>PERFORM</base>
+        <trans>Изпълни</trans>
+    </entry>
+    <entry>
+        <base>RECONFIGURE</base>
+        <trans>Преконфигурация</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_USER_GROUP</base>
+        <trans>Премахни потребителска група</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_RESET</base>
+        <trans>Инициализиране на парола</trans>
+    </entry>
+    <entry>
+        <base>RESTORE</base>
+        <trans>Възстанови</trans>
+    </entry>
+    <entry>
+        <base>SHUTDOWN</base>
+        <trans>Изключване</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Успех</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME_INVALID</base>
+        <trans>Грешно написано име на акаунт.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME_INVALID_CHARS</base>
+        <trans>Името на акаунта, който сте въвели съдържа грешни символи.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_OLD_INVALID_CHARS</base>
+        <trans>Старата парола, която сте въвели съдържа грешни символи.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_INVALID_CHARS</base>
+        <trans>Паролата, която сте въвели съдържа грешни символи.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_VERIFY_ERROR</base>
+        <trans>Паролите, които сте въвели не съвпадат.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_USER_NONE</base>
+        <trans>Няма потребителски акаунти в системата.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_GROUP_NONE</base>
+        <trans>Няма потребителски групи в системата.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_INVALID_CHARS</base>
+        <trans>Неочаквани символи в описанието.</trans>
+    </entry>
+    <entry>
+        <base>USER_NAME</base>
+        <trans>Потребителско име</trans>
+    </entry>
+    <entry>
+        <base>YOUR_ACCOUNT</base>
+        <trans>Вашия акаунт:</trans>
+    </entry>
+    <entry>
+      <base>YOUR_ACCOUNT_INVALID</base>
+      <trans>Грешно написано име на акаунт.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE_SUCCESS</base>
+        <trans>Вашата парола беше променена успешно.</trans>
+    </entry>
+    <entry>
+        <base>FM_NONBLANK</base>
+        <trans>Това поле не трябва да бъде оставяно празно</trans>
+    </entry>
+    <entry>
+        <base>FM_INTEGER</base>
+        <trans>Това поле трябва да съдържа положително цяло число</trans>
+    </entry>
+    <entry>
+        <base>FM_NUMBER</base>
+        <trans>Това поле трябва да съдържа число</trans>
+    </entry>
+    <entry>
+        <base>FM_WORD</base>
+        <trans>Това поле трябва да изглежда като една дума.</trans>
+    </entry>
+    <entry>
+        <base>FM_DATE</base>
+        <trans>Въведените данни не могат да бъдат възприети като дата</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER1</base>
+        <trans>Трябва да въведете номер на кредитна карта</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER2</base>
+        <trans>Номерата на кредитните карти не трябва да съдържат нищо друго освен цифри, празни символи и тирета</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER3</base>
+        <trans>Трябва да бъде поне 14 сивола дълго</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER4</base>
+        <trans>Не изглежда като валиден номер на кредитна карта</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY1</base>
+        <trans>Не е въведена дата на изтичане.</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY2</base>
+        <trans>Датата на изтичане трябва да бъде във формат MM/YY или MM/YYYY</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY3</base>
+        <trans>Посочената дата на изтичане изглежда вече е минала</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY4</base>
+        <trans>Датата на изтичане изглежда е твърде далеч в бъдещето</trans>
+    </entry>
+    <entry>
+        <base>FM_ISO_COUNTRY_CODE1</base>
+        <trans>Трябва да предоставите код на държавата</trans>
+    </entry>
+    <entry>
+        <base>FM_ISO_COUNTRY_CODE2</base>
+        <trans>Това поле не съдържа код на държавата по ISO</trans>
+    </entry>
+    <entry>
+        <base>FM_US_STATE</base>
+        <trans>Това не изглежда като валиден 2-буквено съкращение на щат от САЩ</trans>
+    </entry>
+    <entry>
+        <base>FM_US_ZIPCODE</base>
+        <trans>ПК в САЩ трябва да съдържат 5 или 9 цифри</trans>
+    </entry>
+    <entry>
+        <base>FM_MINLENGTH1</base>
+        <trans>Минималната дължина беше зададена около {$minlength}</trans>
+    </entry>
+    <entry>
+        <base>FM_MINLENGTH2</base>
+        <trans>Полето трябва да бъде най-малко {$minlength} символа</trans>
+    </entry>
+    <entry>
+        <base>FM_MAXLENGTH1</base>
+        <trans>Максималната дължина беше зададена около {$minlength}</trans>
+    </entry>
+    <entry>
+        <base>FM_MAXLENGTH2</base>
+        <trans>Полето трябва да бъде не повече от {$minlength} символа</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH1</base>
+        <trans>Трябва да определите дължина на полето.</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH2</base>
+        <trans>Трябва да зададете точната дължина на полето с цяло число</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH3</base>
+        <trans>Полето трябва да бъде точно {$minlength} символа</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE1</base>
+        <trans>Трябва да зададете максимална и минимална дължина на полето.</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE2</base>
+        <trans>Трябва да зададете максимална и минимална дължина на полето като цели числа</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE3</base>
+        <trans>Това поле трябва да бъде между {$minlength} и {$maxlength} символа</trans>
+    </entry>
+    <entry>
+        <base>FM_URL</base>
+        <trans>Това поле трябва да съдържа URL и да започва с http:// или ftp://</trans>
+    </entry>
+    <entry>
+        <base>FM_EMAIL_SIMPLE1</base>
+        <trans>Трябва да напишете валиден email адрес.</trans>
+    </entry>
+    <entry>
+        <base>FM_EMAIL_SIMPLE2</base>
+        <trans>Това поле не изглежда като електронен адрес съвместим с RFC822</trans>
+    </entry>
+    <entry>
+        <base>FM_DOMAIN_NAME</base>
+        <trans>Това поле не изглежда като валидно име на интернет домейн или хост.</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER1</base>
+        <trans>Това поле трябва да съдържа валиден номер на IP и не може да остане празно.</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER2</base>
+        <trans>Неправилен формат на IP адрес (очаква се X.X.X.X)</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER3</base>
+        <trans>{$octet} е повече от 255</trans>
+    </entry>
+    <entry>
+        <base>FM_USERNAME</base>
+        <trans>Това поле трябва да изглежда като валидно потребителско име (от 3 до 8 букви и цифри)</trans>
+    </entry>
+    <entry>
+        <base>FM_PASSWORD1</base>
+        <trans>Трябва да предоставите парола.</trans>
+    </entry>
+    <entry>
+        <base>FM_PASSWORD2</base>
+        <trans>Паролата която сте предоставили не е добра парола. Добрата парола трябва да съдържа всеки от следните знаци: главни букви, малки букви, цифри и специални символи. И нейната дължина трябва да бъде поне 7 знака.</trans>
+    </entry>
+    <entry>
+        <base>FM_MAC_ADDRESS1</base>
+        <trans>Трябва да предоставите MAC адрес.</trans>
+    </entry>
+    <entry>
+        <base>FM_MAC_ADDRESS2</base>
+        <trans>MAC адреса, който сте предоставили е невалиден.</trans>
+    </entry>
+    <entry>
+	<base>FM_ERR_UNEXPECTED_DESC</base>
+	<trans>Грешка: неочаквани или липсващи знаци в описанието</trans>
+    </entry>
+    <entry>
+        <base>CSRF_VALIDATION_FAILURE</base>
+        <trans>Грешка: CSRF token е невалиден или е изтекъл.</trans>
+    </entry>
+</lexicon>

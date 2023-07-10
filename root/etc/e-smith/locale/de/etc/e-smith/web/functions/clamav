@@ -1,0 +1,38 @@
+<lexicon lang="de">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Antivirus-Einstellungen</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FILESYSTEM_SCAN_PERIOD</base>
+        <trans>Dateisystem prüfen</trans>
+    </entry>
+    <entry>
+        <base>DESC_FILESYSTEM_SCAN_PERIOD</base>
+        <trans><![CDATA[ <h2>Allgemeine Einstellungen</h2> Beim Einschalten dieser Option wird das gesamte Dateisystem nach Viren durchsucht. Ein Bericht über gefundene Viren wird an den Administrator versandt.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_QUARANTINE</base>
+        <trans>Infizierte Dateien isolieren</trans>
+    </entry>
+    <entry>
+        <base>LABEL_CLAM_VERSIONS</base>
+        <trans>ClamAV und DB Versionen</trans>
+    </entry>
+    <entry>
+      <base>WEEKLY</base>
+      <trans>Wöchentlich</trans>
+    </entry>
+    <entry>
+      <base>NEVER</base>
+      <trans>Nie</trans>
+    </entry>
+    <entry>
+      <base>DAILY</base>
+      <trans>Täglich</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Die neuen Einstellungen für Clamav Antivirus wurden gespeichert.</trans>
+    </entry>
+</lexicon>

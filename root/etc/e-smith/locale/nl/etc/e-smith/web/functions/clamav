@@ -1,0 +1,38 @@
+<lexicon lang="nl">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Antivirus instellingen</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FILESYSTEM_SCAN_PERIOD</base>
+        <trans>Scan bestandssyteem</trans>
+    </entry>
+    <entry>
+        <base>DESC_FILESYSTEM_SCAN_PERIOD</base>
+        <trans><![CDATA[ <h2>Standaard Instellingen</h2> Als deze optie geactiveerd is zal het bestandssysteem gescand worden op virussen. Een rapport over gevonden virussen zal naar de systeembeheerder gemaild worden.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_QUARANTINE</base>
+        <trans>Plaats geïnfecteerde bestanden in quarantaine</trans>
+    </entry>
+    <entry>
+        <base>LABEL_CLAM_VERSIONS</base>
+        <trans>ClamAV en db versies</trans>
+    </entry>
+    <entry>
+      <base>WEEKLY</base>
+      <trans>Wekelijks</trans>
+    </entry>
+    <entry>
+      <base>NEVER</base>
+      <trans>Nooit</trans>
+    </entry>
+    <entry>
+      <base>DAILY</base>
+      <trans>Dagelijks</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>De nieuwe clamav antivirus instellingen zijn opgeslagen.</trans>
+    </entry>
+</lexicon>

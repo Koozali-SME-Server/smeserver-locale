@@ -1,0 +1,108 @@
+<lexicon lang="bg">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>Local networks</base>
+        <trans>Локални мрежи</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ По причини, свързани с информационната сигурност, редица услуги на Вашия сървър са достъпни само в локалната мрежа. Обаче Вие можете да предоставите тези права за локален достъп и за допълнителни мрежи като го добавите по-долу. При повечето конфигурации този списък трябва да остане празен.</P><P> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Добави мрежа</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>Добавяне на локална мрежа</trans>
+    </entry>
+    <entry>
+        <base>ADD_DESC</base>
+        <trans><![CDATA[ Всеки параметър трябва да бъде във формат #.#.#.# (всеки # е число 0 до 255). Софтуерът на сървъра ще нулира крайната (идентификатора за машина) част на мрежвия адрес според маската за подмрежа, за да осигури, че мрежовия адрес е валиден.</P><P> "Маршрутизатор" трябва да бъде IP адреса на маршрутизатора на локалната мрежа през който допълнителната мрежа се достига. ]]></trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ADDRESS</base>
+        <trans>Адрес на мрежата</trans>
+    </entry>
+    <entry>
+        <base>SUBNET_MASK</base>
+        <trans>Маска на подмрежа</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IP_ADDRESS</base>
+        <trans>Некоректен IP адрес</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SUBNET_MASK</base>
+        <trans>Некоректна маска на подмрежа</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Премахване на локална мрежа</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Вие ще премахнете следните локални мрежи.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_CONFIRM</base>
+        <trans>Сигурни ли сте, че искате да премахнете тази мрежа?</trans>
+    </entry>
+    <entry>
+        <base>DEFAULT</base>
+        <trans>по подразбиране</trans>
+    </entry>
+    <entry>
+        <base>NUMBER_OF_HOSTS</base>
+        <trans>Брой машини</trans>
+    </entry>
+    <entry>
+        <base>NOT_ACCESSIBLE_FROM_LOCAL_NETWORK</base>
+        <trans>Грешка: адресът на маршрутизатора {$networkRouter} не е достъпен от локална мрежа. Мрежата не бе добавена.</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_LOCAL</base>
+        <trans>Грешка: мрежата {$network} (резултат от мрежов адрес {$networkAddress} и маска за подмрежа {$networkMask}) вече се счита за локална. Мрежата не бе добавена.</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_ADDED</base>
+        <trans>Грешка: мрежата {$network} (резултат от мрежов адрес {$networkAddress} и маска за подмрежа {$networkMask}) вече е била добавена. Не беше добавяна мрежа отново.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_CREATING_NETWORK</base>
+        <trans>Възникна грешка при създаването на мрежа.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Успешно добавяне на мрежа {$network}/{$networkMask} през маршрутизатор {$networkRouter}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_SINGLE_ADDRESS</base>
+        <trans>Успешно добавяне на мрежа {$network}/{$networkMask} през маршрутизатор {$networkRouter}. Вашият сървър ще предостави права за локален достъп на един IP адрес {$network}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NETWORK_RANGE</base>
+        <trans>Успешно добавяне на мрежа {$network}/{$networkMask} през маршрутизатор {$networkRouter}. Вашият сървър ще предостави права за локален достъп на {$totalHosts} IP адреса в обхвата {$firstAddr} до {$lastAddr}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NONSTANDARD_RANGE</base>
+        <trans><![CDATA[ <p> Успешно добавяне на мрежа {$network}/{$networkMask} през маршрутизатор {$networkRouter}. </p> <p> Вашият сървър ще предостави права за локален достъп на {$totalHosts} IP адреса в обхвата {$firstAddr} до {$lastAddr}. </p> <p> Внимание: Сървърът ProFTPd FTP не може да работи с тази нестандартна маска на подмрежа. Вместо това ще бъде използвана по-простата спецификация <b>{$simpleMask}</b>.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_REMOVED_NETWORK</base>
+        <trans>Успешно премахване на мрежа {$network}/{$networkMask} през маршрутизатор {$networkRouter}.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_DELETING_NETWORK</base>
+        <trans>Възникна грешка при изтриването на мрежата.</trans>
+    </entry>
+    <entry>
+        <base>NO_ADDITIONAL_NETWORKS</base>
+        <trans>Няма допълнителни мрежи</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_DESC</base>
+        <trans>Бяха открити локални машини, конфигурирани в мрежата, която смятате да премахнете. По подразбиране те също ще бъдат премахнати. Махнете отметката тук, ако по някаква причина не желаете това да се случи. Имайте предвид, че те няма да бъдат третирани като локални, и може даже да не са достъпни след премахването на мрежата.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_LABEL</base>
+        <trans>Премахване на машини от мрежата</trans>
+    </entry>
+</lexicon>

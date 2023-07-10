@@ -1,0 +1,42 @@
+<lexicon lang="pt">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Desligar ou reiniciar</trans>
+    </entry>
+    <entry>
+	<base>REBOOT</base>
+	<trans>Reiniciar</trans>
+    </entry>
+    <entry>
+	<base>REBOOT_SUCCEEDED</base>
+	<trans>Reinicialização iniciada com sucesso.</trans>
+    </entry>
+    <entry>
+	<base>DESC_REBOOT</base>
+	<trans>Seu servidor iniciou o processo de reinicialização.</trans>
+    </entry>
+    <entry>
+	<base>RECONFIGURE_SUCCEEDED</base>
+	<trans>Pedido de reconfiguração iniciado com sucesso.</trans>
+    </entry>
+    <entry>
+	<base>DESC_RECONFIGURE</base>
+	<trans>Seu servidor está fazendo uma reconfiguração completa do sistema e após terminar fará um reboot.</trans>
+    </entry>
+    <entry>
+	<base>DESC_SHUTDOWN</base>
+	<trans>Seu servidor iniciou o processo de desligamento. O processo levará alguns minutos para completar, depois você poderá desligar o computador. Ou este poderá já ser desligado automaticamente pelo processo.</trans>
+    </entry>
+    <entry>
+	<base>LABEL_REBOOT</base>
+	<trans>Selecione Desligar,  Reiniciar ou Reconfigurar</trans>
+    </entry>
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ Você pode reiniciar ou desligar seu servidor dessa tela. Você tem que desligar o servidor antes de desligar o computador. Mas ao mandar o linux desligar, pode ser que o equipamento já seja desligado na sequência. Ambas as funções levam vários minutos para completar. Quando você clica em <b>executar</b> a operação irá iniciar imediatamente, logo esteja pronto! ]]></trans>
+    </entry>
+    <entry>
+	<base>Reboot or shutdown</base>
+	<trans>Reiniciar ou desligar</trans>
+    </entry>
+</lexicon>

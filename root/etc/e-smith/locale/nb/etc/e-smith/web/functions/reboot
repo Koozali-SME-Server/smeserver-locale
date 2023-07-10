@@ -1,0 +1,42 @@
+<lexicon lang="nb">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Slå av eller restart</trans>
+    </entry>
+    <entry>
+	<base>REBOOT</base>
+	<trans>Restart</trans>
+    </entry>
+    <entry>
+	<base>REBOOT_SUCCEEDED</base>
+	<trans>Restart forespørsel satt i gang </trans>
+    </entry>
+    <entry>
+	<base>DESC_REBOOT</base>
+	<trans>Serveren har satt i gang restart prosessen</trans>
+    </entry>
+    <entry>
+	<base>RECONFIGURE_SUCCEEDED</base>
+	<trans>Rekonfigurasjon forespørsel satt i gang</trans>
+    </entry>
+    <entry>
+	<base>DESC_RECONFIGURE</base>
+	<trans>Serveren har satt i gang en full system rekonfigurasjon og restart.</trans>
+    </entry>
+    <entry>
+	<base>DESC_SHUTDOWN</base>
+	<trans>Serveren har satt i gang avsluttnings prosessen. Prosessen vil ta flere minutter. etter det kan du slå av strømmen.</trans>
+    </entry>
+    <entry>
+	<base>LABEL_REBOOT</base>
+	<trans>Velg Slå av,  Restart, eller Rekonfigurere</trans>
+    </entry>
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ Du kan restarte , slå av serveren, eller sette i gang en ful rekonfigurasjon fra dette vinduet. Du må utføre avsluttningsprosedyren før du slår av strømmen. Alle disse funksjonene vil ta flere minutter å fullføre. Når du trykker <b>utfør</b> vil valget bli satt i gang umiddelbart, så vær klar! ]]></trans>
+    </entry>
+    <entry>
+	<base>Reboot or shutdown</base>
+	<trans>Restart, eller avslutt</trans>
+    </entry>
+</lexicon>

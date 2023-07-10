@@ -1,0 +1,106 @@
+<lexicon lang="he">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Create, modify, or remove user account quotas</trans>
+    </entry>
+    <entry>
+      <base>UNABLE_TO_OPEN_ACCOUNTS</base>
+      <trans>Unable to open accounts db</trans>
+    </entry>
+    <entry>
+      <base>QUOTA_DESC</base>
+      <trans><![CDATA[ <p>You can set filesystem quotas for users on your system by clicking the "Modify" button next to the user you wish to update. <p>If the user exceeds the "Limit with grace period", warnings will be generated. If this limit is exceeded for longer than a week or if the "Absolute limit" is reached, the user will be unable to store any more files or receive any more e-mail. <p>A setting of '0' for either limit disables that limit for the corresponding user. <p>The disk space for each user includes the user's home directory, e-mail, and any files owned by the user in information bays. ]]></trans>
+    </entry>
+    <entry>
+      <base>CURRENT_USAGE_AND_SETTINGS</base>
+      <trans>Current Quota Usage and Settings</trans>
+    </entry>
+    <entry>
+      <base>LIMIT_WITH_GRACE</base>
+      <trans>הגבלה עם תקופת חסד</trans>
+    </entry>
+    <entry>
+      <base>LIMIT_WITH_GRACE_MB</base>
+      <trans>הגבלה עם תקופת חסד (MB)</trans>
+    </entry>
+    <entry>
+      <base>ABS_LIMIT</base>
+      <trans>מגבלה אבסלוטית</trans>
+    </entry>
+    <entry>
+      <base>ABS_LIMIT_MB</base>
+      <trans>Absolute limit (MB)</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_USAGE</base>
+      <trans>Current usage (MB)</trans>
+    </entry>
+    <entry>
+      <base>COULD_NOT_GET_UID</base>
+      <trans>Could not determine the uid for user:</trans>
+    </entry>
+    <entry>
+      <base>ERR_NO_SUCH_ACCT</base>
+      <trans>Error: there is no account named:</trans>
+    </entry>
+    <entry>
+      <base>ERR_NOT_A_USER_ACCT</base>
+      <trans>Error: the account is not a user account:</trans>
+    </entry>
+    <entry>
+      <base>ACCOUNT_IS_TYPE</base>
+      <trans>It is an account of type:</trans>
+    </entry>
+    <entry>
+      <base>MODIFY_USER_TITLE</base>
+      <trans>Modify user quota limits</trans>
+    </entry>
+    <entry>
+      <base>USER</base>
+      <trans>User:</trans>
+    </entry>
+    <entry>
+      <base>CURRENTLY_HAS</base>
+      <trans>currently has:</trans>
+    </entry>
+    <entry>
+      <base>FILES</base>
+      <trans>files</trans>
+    </entry>
+    <entry>
+      <base>OCCUPYING</base>
+      <trans>occupying:</trans>
+    </entry>
+    <entry>
+      <base>MEGABYTES</base>
+      <trans>megabytes</trans>
+    </entry>
+    <entry>
+      <base>INSTRUCTIONS</base>
+      <trans>Enter the quota with optional unit suffix of 'K' for kilobytes, 'M' for megabytes, 'G' for gigabytes or 'T' for terabytes. Entries with no suffix are assumed to be in megabytes. A setting of '0' for either limit disables that limit for the corresponding user.</trans>
+    </entry>
+    <entry>
+      <base>SOFT_VAL_MUST_BE_NUMBER</base>
+      <trans>Error: limit with grace period must be a number, optionally followed by one of the unit suffixes K, M, G, or T.</trans>
+    </entry>
+    <entry>
+      <base>HARD_VAL_MUST_BE_NUMBER</base>
+      <trans>Error: absolute limit must be a number, optionally followed by one of the unit suffixes K, M, G, or T.</trans>
+    </entry>
+    <entry>
+      <base>ERR_HARD_LT_SOFT</base>
+      <trans>Error: absolute limit must be greater than limit with grace time.</trans>
+    </entry>
+    <entry>
+      <base>ERR_MODIFYING</base>
+      <trans>Error occurred while modifying user.</trans>
+    </entry>
+    <entry>
+      <base>SUCCESSFULLY_MODIFIED</base>
+      <trans>Successfully modified quota for user account:</trans>
+    </entry>
+    <entry>
+	<base>Quotas</base>
+	<trans>Quotas</trans>
+    </entry>
+</lexicon>

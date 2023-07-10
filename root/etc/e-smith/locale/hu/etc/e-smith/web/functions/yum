@@ -1,0 +1,193 @@
+<lexicon lang="hu"> 
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+	<base>Software installer</base>
+	<trans>Szoftver telepítő</trans>
+    </entry>
+
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Az új beállítások lementődtek.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_YUM_STATUS</base>
+        <trans>Frissítések keresése</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_YUM_AUTOINSTALLUPDATES</base>
+	<trans>Automatikusan telepítse a frissítéseket</trans>
+   </entry>
+    <entry>
+        <base>LABEL_YUM_AUTOINSTALLUPDATES_DESCRIPTION</base>
+        <trans>If enabled this will take precedence over the simple check for updates notification and predownload features. Instead it will install the available updates from enabled repositories. For more information refer to yum and yum-cron manual page.</trans>
+   </entry>
+
+    <entry>
+	<base>LABEL_YUM_PACKAGEFUNCTIONS</base>
+	<trans>Egyedi csomagok kezelése</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_YUM_PACKAGEFUNCTIONS</base>
+	<trans>A szoftver telepítő egyedi csomagokat vagy összetartozó csomagok csoportjait tudja kezelni. Alapesetben csak a csomagcsoportok látszanak. Ha egyedi csomagokat szeretne kezelni, engedélyezze ezt az opciót. Ez csak tapasztalt rendszergazdáknak ajánlott.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_ENABLED_REPOSITORIES</base>
+	<trans>Engedélyezett tárolók</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_ENABLED_REPOSITORIES</base>
+	<trans>A szoftver telepítő bármelyik engedélyezett tárolóból tud szoftvert telepíteni. Egy tároló engedélyezéséhez jelölje azt be a listában. Tároló letiltásához távolítsa el a bejelölést. Alapesetben csak stabil, tesztelt szoftver érhető el a telepítéshez.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_UPTODATE</base>
+        <trans><![CDATA[ <div class="success"> <h2>Ez a rendszer friss.</h2> Minden frissítés telepítve van. </div> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_UPDATES_AVAILABLE</base>
+        <trans><![CDATA[ <div class="success"> <h2>Frissítések érhetők el</h2> Frissítések érhetők el az ön rendszeréhez. Ajánlatos minél előbb telepíteni ezeket a frissítéseket. </div> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_AVAILABLE_UPDATES</base>
+        <trans>Frissítések érhetők el</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_AVAILABLE_UPDATES</base>
+        <trans>Az alábbi frissítések érhetők el az ön rendszeréhez. Ajánlatos az összes frissítést telepíteni. Ha vannak olyan frissítések, amelyeket nem akar telepíteni, akkor azokról vegye le a bejelölést az alábbi listában.</trans>
+    </entry>
+
+    <entry>
+        <base>INSTALL_UPDATES</base>
+        <trans>Kiválasztott frissítések telepítése</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_INSTALL_UPDATES</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_UPDATES">Elérhető frissítések listázása</a> ]]></trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_AVAILABLE_SOFTWARE</base>
+	<trans>A következő szoftvert lehetősége van telepíteni a rendszerére. Csak akkor telepítsen további szoftvereket a rendszerre, ha tisztában van a következményekkel.</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_AVAILABLE_GROUPS</base>
+	<trans>Az alábbi listában kiválaszthatja telepítésre a szoftvercsoportokat.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_AVAILABLE_GROUPS</base>
+	<trans>Elérhető csoportok</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_AVAILABLE_PACKAGES</base>
+	<trans>Az alábbi listában egyedi szoftvercsomagokat is kiválaszthat telepítésre.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_AVAILABLE_PACKAGES</base>
+	<trans>Elérhető szoftvercsomagok</trans>
+    </entry>
+
+    <entry>
+	<base>INSTALL_SOFTWARE</base>
+	<trans>Telepítés</trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_INSTALLED_SOFTWARE</base>
+	<trans>A következő szoftvert feltelepült a rendszerére. Csak akkor távolítson el szoftvereket a rendszeréről, ha tisztában van a következményekkel.</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_INSTALLED_GROUPS</base>
+	<trans>Az alábbi listában kiválaszthatja az eltávolításra szánt szoftvercsoportokat.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_INSTALLED_GROUPS</base>
+	<trans>Telepített szoftvercsoportok</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_INSTALLED_PACKAGES</base>
+	<trans>Az alábbi listában egyedi szoftvercsomagokat is kiválaszthat eltávolításra.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_INSTALLED_PACKAGES</base>
+	<trans>Telepített csomagok</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_CONFIGURATION</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_CONFIGURATION">Szoftver telepítő beállításainak módosítása</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_INSTALL_AVAILABLE</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_AVAILABLE">További szoftver telepítése</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_REMOVE</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_REMOVE">Telepített szoftver eltávolítása</a> ]]></trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_POSTUPGRADE_REQUIRED</base>
+	<trans><![CDATA[ A rendszernek újrakonfigurálásra van szüksége miután programokat telepített, vagy eltávolított, vagy a frissítések telepítése után. <p> Kérem kattintson az Újrakonfigurálás gombra a lap alján, hogy elinduljon az újrakonfigurálási folyamat. <b>Az újrakonfigurálási folyamat részeként a szerver újra fog indulni</b> </p> ]]></trans>
+     </entry>
+
+    <entry>
+	<base>SYSTEM_BEING_RECONFIGURED</base>
+	<trans>A rendszer automatikusan újraindul az újrakonfigurálási folyamat végeztével.</trans>
+    </entry>
+
+    <entry>
+      <base>1DAILY</base>
+      <trans>Naponta</trans>
+    </entry>
+
+    <entry>
+      <base>2WEEKLY</base>
+      <trans>Hetente</trans>
+    </entry>
+
+    <entry>
+      <base>3MONTHLY</base>
+      <trans>Havonta</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DELTARPMPROCESS</base>
+      <trans>Delta Rqm frissítés</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DELTARPM</base>
+      <trans>A deltarpm egy régi és egy új rpm csomag közötti különbséget tárol, amellyell sávszélességet lehet megtakarítani. A hátránya, hogy a frissítési műveletek jelentősen több CPU erőforrást igényelnek</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DOWNLOADONLY</base>
+      <trans>Frissítések előtöltése</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DOWNLOADONLY_DESCRIPTION</base>
+      <trans>Az rpm frissítések letölthetők az éjszaka folyamán is ezzel könnyítve és gyorsítva az rpm frissítő folyamatot (csak az engedélyezett csomagtárolók lesznek használva)</trans>
+    </entry>
+
+</lexicon>

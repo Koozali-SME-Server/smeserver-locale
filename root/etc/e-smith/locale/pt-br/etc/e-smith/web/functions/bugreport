@@ -1,0 +1,101 @@
+<lexicon lang="pt-br">
+
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Reportar um problema</trans>
+    </entry>
+    <entry>
+        <base>DO_NOT_PANIC</base>
+        <trans>Não se assuste!</trans>
+    </entry>
+    <entry>
+        <base>SME_EXPERIENCE</base>
+        <trans>Infelizmente não há software sem bugs e você provavelmente chegou nesta página por causa de um problema que você está tendo com sua instalação de Servidor SME.</trans>
+    </entry>
+    <entry>
+        <base>PLEASE_REPORT_HERE</base>
+        <trans>Para ajudar os desenvolvedores a diagnosticar e resolver seu problema, por favor baixe um dos seguintes modelos de texto, complete-o e cole-o em seu relatório de problema em</trans>
+    </entry>
+    <entry>
+        <base>USE_TEMPLATE</base>
+        <trans>Por favor veja no seguinte link como reportar corretamente um problema e usar seus modelos</trans>
+    </entry>
+    <entry>
+        <base>FOLLOWING_REPORT_MIGHT_HELP</base>
+        <trans>Será de grande valia se você prover algumas informações vitais sobre a configuração do seu servidor SME no relatório de problema.  Clicando no botão "Criar um relatório da configuração" abaixo você irá gerar e baixar um arquivo texto contendo essa informação. Por favor anexe este arquivo no seu relatório de problemas.</trans>
+    </entry>
+    <entry>
+        <base>REPORT_CONTENT</base>
+        <trans>O relatório conterá a seguinte informação</trans>
+    </entry>
+    <entry>
+        <base>SME_VERSION</base>
+        <trans>versão do Servidor SME Koozali</trans>
+    </entry>
+    <entry>
+        <base>SERVER_MODE</base>
+        <trans>modo do servidor</trans>
+    </entry>
+    <entry>
+        <base>PREVIOUS_SERVER_MODE</base>
+        <trans>modo anterior do servidor</trans>
+    </entry>
+    <entry>
+        <base>KERNEL_AND_ARCH</base>
+        <trans>versão e arquitetura do kernel rodando atualmente</trans>
+    </entry>
+    <entry>
+        <base>INSTALLED_RPMS</base>
+        <trans>Uma lista de RPM extras instalados em seu servidor</trans>
+    </entry>
+    <entry>
+        <base>ALTERED_TEMPLATES</base>
+        <trans>Uma lista de modelos do SME que foram alterados no servidor em relação a versão original</trans>
+    </entry>
+    <entry>
+        <base>ALTERED_EVENTS</base>
+        <trans>Uma lista de eventos SME que foram alterados no seu servidor em relação a versão original</trans>
+    </entry>
+    <entry>
+        <base>YUM_REPOS</base>
+        <trans>Uma lista de repositorios de software adicionais que foram configurados em seu servidor</trans>
+    </entry>
+    <entry>
+        <base>PRIVACY</base>
+        <trans>Nenhuma informação privada (isto é: usuários, senhas, endereços IPs) será incluída no relatório</trans>
+    </entry>
+    <entry>
+            <base>CREATE_REPORT</base>
+            <trans>Criar o relatório de configuração</trans>
+    </entry>
+
+    <entry>
+            <base>DONATING</base>
+            <trans>Você considerou fazer uma doação ?</trans>
+    </entry>
+    <entry>
+            <base>AWARE_SME</base>
+            <trans>Você provavelmente sabe que o servidor SME é desenvolvido e suportado por uma comunidade colaborativa de voluntários espalhados pelo mundo. Enquanto o servidor SME é grátis para baixar e usar, manter a infraestrutura por detrás do projeto (custos de hospedagem para páginas, foruns, repositórios e ambiente de desenvolvimento, etc) custam dinheiro real no mundo real.</trans>
+    </entry>
+    <entry>
+            <base>YOUR_HELP</base>
+            <trans>Do mesmo modo que você precisa de nossa ajuda para resolver seu problema atual, nós precisamos de SUA ajuda para manter o projeto vivo!</trans>
+    </entry>
+    <entry>
+            <base>CONSIDER_DONATING</base>
+            <trans>Por favor considere doar uma quantia para o projeto clicando na imagem do link abaixo: </trans>
+    </entry>
+    <entry>
+            <base>THANK_YOU</base>
+            <trans>Obrigado pelo seu suporte!</trans>
+    </entry>
+    <entry>
+            <base>Download this report</base>
+            <trans>Faça download do relatório!</trans>
+    </entry>
+    <entry>
+            <base>Report a bug</base>
+            <trans>Reportar um problema</trans>
+    </entry>
+
+</lexicon>

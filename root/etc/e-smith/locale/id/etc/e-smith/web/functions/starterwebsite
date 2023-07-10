@@ -1,0 +1,43 @@
+<lexicon lang="id">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>Buat situs web permulaan</trans>
+      </entry>
+      <entry>
+	<base>SUCCESS</base>
+	<trans>Berhasil membuat situs web permulaan (file index.htm). Anda dapat mengunjungi situs web anda yang baru pada alamat dibawah ini :</trans>
+      </entry>
+      <entry>
+	<base>DESCRIPTION</base>
+	  <trans><![CDATA[ <p> Untuk membuat halaman web sederhana untuk perusahaan anda, isi field dibawah dan klik <b>Create</b>. </p> <p> Anda dapat membiarkan field kosong jika anda tidak memerlukannya. </p> <p> Teks yang anda masukkan dibawah ini akan di line wrap untuk tampilan yang lebih bagus dalam halaman web anda. Kosongkan satu baris jika anda ingin memulai satu paragraf. Jika anda ingin membuat baris baru tanpa memulai paragraf baru (contohnya pada setiap baris dari alamat surat), ketikkan <blockquote>&lt;BR&gt;</blockquote> di tempat anda ingin membuat baris baru. </p> <p> <em>Jangan gunakan cara ini </em> jika anda telah memiliki halaman web, karena ini akan menimpa file "index.htm" di dalam situs web anda. </p> ]]></trans>
+      </entry>
+      <entry>
+	<base>LABEL_COMPANYNAME</base>
+	<trans>Nama perusahaan</trans>
+      </entry>
+	
+      <entry> 
+	<base>DESC_HEADER1</base>
+	<trans>Header pertama, umumnya digunakan untuk kalimat pendek seperti "Nomor satu dibidang pembuatan tekstil"</trans>
+      </entry>
+      <entry> 
+	<base>DESC_TEXT1</base>
+	<trans>Teks yang mengikuti header pertama, umumnya berisi informasi pemasaran.</trans>
+      </entry>
+      <entry> 
+	  <base>DESC_HEADER2</base>
+	<trans>Header kedua, umumnya digunakan untuk kalimat pendek seperti "Untuk informasi lebih lanjut" atau "Cara memesan produk kami":</trans>
+	</entry>
+      <entry> 
+	<base>DESC_TEXT2</base>
+	<trans>Teks yang mengikuti header kedua, biasanya digunakan untuk informasi kontak dan pemesanan:</trans>
+	</entry>
+      <entry>
+	<base>DESC_SUBMIT</base>
+	<trans><![CDATA[ <p>Jika anda membuat halaman web ii, file "index.htm" akan ditimpa dalam direktori situs web anda.</p> <p>Lanjutkan?</p> ]]></trans>
+      </entry>
+      <entry>
+	<base>Create starter web site</base>
+	<trans>Buat situs web awal</trans>
+      </entry>
+</lexicon>

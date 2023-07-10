@@ -1,0 +1,84 @@
+<lexicon lang="de">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Anlegen, Ändern und Löschen von Benutzergruppen</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_TOO_LONG</base>
+        <trans>FEHLER: Der Gruppenname ist zu lang. Die max. Länge ist {$maxLength} Zeichen.</trans>
+    </entry>    
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>FEHLER: Die Gruppe "{$group}" kann nicht angelegt werden, da bereits ein {$type} Konto mit dem gleichen Namen besteht.</trans>
+    </entry>    
+    <entry>
+        <base>INVALID_GROUP_DESCRIPTION</base>
+        <trans>FEHLER: Ungültige oder fehlende Zeichen in der Gruppenbeschreibung</trans>
+    </entry>
+    <entry>
+        <base>NO_MEMBERS</base>
+        <trans>FEHLER: Keine Mitglieder in der Gruppe. Neue Gruppe wurde nicht angelegt.</trans>
+    </entry>
+    <entry>
+        <base>CREATED_GROUP</base>
+        <trans>Gruppe wurde erfolgreich angelegt</trans>
+    </entry> 
+    <entry>
+        <base>DELETED_GROUP</base>
+        <trans>Gruppe wurde erfolgreich gelöscht</trans>
+    </entry> 
+    <entry>
+        <base>MODIFIED_GROUP</base>
+        <trans>Gruppe wurde erfolgreich geändert</trans>
+    </entry>	
+    <entry>
+        <base>CREATE_ERROR</base>
+        <trans>Ein Fehler ist beim Anlegen der Benutzergruppe aufgetreten.</trans>
+    </entry> 
+    <entry>
+        <base>DELETE_ERROR</base>
+        <trans>Ein Fehler ist beim Löschen der Benutzergruppe aufgetreten.</trans>
+    </entry> 
+    <entry>
+        <base>MODIFY_ERROR</base>
+        <trans>Ein Fehler ist beim Ändern der Benutzergruppe aufgetreten.</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_NAMING</base>
+        <trans><![CDATA[ Der Gruppenname darf nur Kleinbuchstaben, Zahlen, Punkte, Bindestriche und Unterstriche enthalten und sollte mit einem Kleinbuchstaben beginnen. Zum Beispiel sind "vertrieb", "abteilung5" oder "vertriebs_kunden" gültige Namen, aber "2tes-Event", "Marketing Team" und "verloren&gefunden"</I> sind nicht gültig. ]]></trans>
+    </entry>
+    <entry>
+        <base>GROUP_HAS_MEMBERS</base>
+        <trans>Diese Gruppe enthält folgende Mitglieder:</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_GROUP</base>
+        <trans>FEHLER: Dies ist kein bestehendes Gruppenkonto.</trans>
+    </entry>
+    <entry>
+        <base>GROUP_DESC</base>
+        <trans>Kurzbeschreibung/Windows Gruppen Alias</trans>
+    </entry>
+   <entry>
+        <base>GROUP_DESC_EXPL</base>
+        <trans>Geben Sie unten eine möglichst sinnvolle Kurzbeschreibung für diese Gruppe ein. Diese ist dann auch im Windows-Netzwerk sichtbar.</trans>
+   </entry>
+
+
+    <entry>
+        <base>IBAYS_WILL_BE_CHANGED</base>
+        <trans>Die folgenden i-bays wurden dieser Gruppe hinzugefügt und werden auf die Administrator Gruppe geändert (Sie können dies später ändern):</trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DELETE_GROUP</base>
+        <trans><![CDATA[ <p><b>Sind Sie sicher, daß Sie diese Gruppe löschen wollen?</b></p> ]]></trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST</base>
+        <trans><![CDATA[ <p> Aktuelle Liste der Benutzergruppen</p>]]></trans>
+    </entry>
+    <entry>
+		<base>DELETE_DESCRIPTION</base>
+       	<trans><![CDATA[ Sie löschen gerade die Benutzergruppe "<b>{$group}</b>." ]]></trans>
+    </entry>
+</lexicon>

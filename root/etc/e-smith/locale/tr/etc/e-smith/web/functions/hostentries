@@ -1,0 +1,180 @@
+<lexicon lang="tr" params="lexicon_params()">
+    <!-- vim: ft=xml
+    -->
+    <entry>
+        <base>Hostnames and addresses</base>
+        <trans>Alan adları ve adresler</trans>
+    </entry>
+    <entry>
+        <base>UNABLE_TO_OPEN_CONFIGDB</base>
+        <trans>Yapılandırma veritabanı açılamadı</trans>
+    </entry>
+    <entry>
+        <base>DNS_FORWARDER_ENABLED</base>
+        <trans>DNS yönlendirme ayarlandı. Bunun anlamı bütün DNS sorgulamaları yönlendirilecektir. DNS yönlendirme aktif olduğu sürece alan adları ve edresler değiştirilemez.</trans>
+    </entry>
+    <entry>
+        <base>ADD_HOSTNAME</base>
+        <trans><![CDATA[ <a class="button-like" href="hostentries?page=0&page_stack=&Next=Next&wherenext=CreateModify">Alan adı ekle</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME</base>
+        <trans>Alan adı</trans>
+    </entry>
+    <entry>
+        <base>HOSTTYPE</base>
+        <trans>Konum</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP</base>
+        <trans>Yerel IP</trans>
+    </entry>
+    <entry>
+        <base>ETHERNET_ADDRESS</base>
+        <trans>Ethernet adresi</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_HOSTNAMES_FOR_DOMAIN</base>
+        <trans>{$domain} 'deki mevcut alan adları.</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTNAMES_FOR_SERVICENAME</base>
+        <trans>{$serviceName} sistemde alan adları tanımlı değil.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_HOSTNAMES_FOR_LOCAL_DOMAIN</base>
+        <trans>{$localDomainName} 'deki alan adları</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTNAMES_FOR_LOCAL_DOMAIN</base>
+        <trans>{$localDomainName} sisteminde alan adı bulunmuyor.</trans>
+    </entry>
+    <entry>
+        <base>STATIC_HOST_MESSAGE</base>
+        <trans>- Bu host sisteminizin adını gösterir değiştirilemez veya kaldırılamaz.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_LOCAL_HOST_TITLE</base>
+        <trans>Bu sunucu için yeni alan adı oluştur</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_VALIDATION_ERROR</base>
+        <trans>Hata: alan adında geçersiz karakter: "{$HostName}". Alan adları sadece harfler, rakamlar ve noktadan oluşturulabilir ve harf veya sayıyla başlamalıdır.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_LENGTH_ERROR</base>
+        <trans>Hata: hesap adı {$HostName} çok uzun. En fazla 32 karakter olamlı.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_VALIDATION_ERROR</base>
+        <trans>Hata: {$DomainName} alan adı geçersiz karakter içriyor. Alanı adı bir veya daha fazla harf, rakam, nokta ve eksi işaretleri içermelidir</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_EXISTS_ERROR</base>
+        <trans>Hata: {$fullHostName} adı, mevcut {$type} alan adıyla aynıdır.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>Alan adı başarıyla oluşturuldu.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_DESCRIPTION</base>
+        <trans>Alan adı sadece harfler, sayılar ve tire içermelidirve bir harf veya sayı ile başlamalıdır.</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP_DESCRIPTION</base>
+        <trans>Yerel IP adresleri ağınızdaki diğer sistemlere ait IP adreslernin ifade eder. Lütfen "aaa.bbb.ccc.ddd" şeklinde geçerli bi IP adresi girin.</trans>
+    </entry>
+    <entry>
+        <base>ETHERNET_ADDRESS_DESCRIPTION</base>
+        <trans>Ethernet adresi isteğe bağlıdır ve bilgisayarı yerel ağ bağlamak için DHCP sunucusunu bu ethernete kalıcı bir IP vermeye zorlar. Belirtmek için "AA:BB:CC:DD:EE:FF" şeklinde 0 ile 9 arası rakamlar ve A ile F arası harfler kullanılır.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_LOCAL_HOST_TITLE</base>
+        <trans>Yerel hostu gösteren yeni alan adı oluştur</trans>
+    </entry>
+    <entry>
+        <base>DIDNT_ENTER_LOCAL_IP</base>
+        <trans>Hata: Yerel ağ ait IP adresi belirtilmedi. IP adresleri sadece sayılar ve nokta içerebilir "aaa.bbb.ccc.ddd" formatında olmalıdır. Alan adı oluşturulamadı.</trans>
+    </entry>
+    <entry>
+        <base>IP_VALIDATION_ERROR</base>
+        <trans>Hata: {$InternalIP} IP adresi geçerli değildir. IP adresleri sadece sayılar ve nokta içerebilir "aaa.bbb.ccc.ddd" formatında olmalıdır. Alan adı oluşturulamadı.</trans>
+    </entry>
+    <entry>
+        <base>MAC_ADDRESS_VALIDATION_ERROR</base>
+        <trans>Hata: {$MACAddress} ethernet adresi geçerli değil. Ethernet adresi "AA:BB:CC:DD:EE:FF" formatında olmalı ve 0 ile 9 arası rakmlar ve A ile F arası harflerden oluşmalıdır. Alan adı oluşturulamadı.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_REMOTE_HOST_TITLE</base>
+        <trans>Uzak sunucuya yönlendirilmiş yeni alan adı oluştur</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Ala adı oluştur veya değiştir</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_PAGE_DESCRIPTION</base>
+        <trans>Lütfen yerel host için aşağıdaki bilgileri doldurun:</trans>
+    </entry>
+    <entry>
+        <base>REMOTE_PAGE_DESCRIPTION</base>
+        <trans>Lütfen uzaktaki sunucu için aşağıdaki bilgileri doldurun:</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>Host başarıyla silindi.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>Host başarıyla değiştirildi.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_PAGE_DESCRIPTION</base>
+        <trans><![CDATA[ "{$hostname}.{$domain}" alan adını silmek üzeresiniz. </p> <p> <b>Bu alan adını silmek istediğinizden eminmisiniz?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DESCRIPTION</base>
+        <trans>Lütfen aşağıdaki bilgileri doğrulayın.</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTS_FOR_THIS_DOMAIN</base>
+        <trans>Bu alan adı için host belirtilmedi.</trans>
+    </entry>
+    <entry>
+        <base>ADDR_IN_DHCP_RANGE</base>
+        <trans>DHCP'ye tanımlanan dinamik adres aralığı</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_HOST</base>
+        <trans>Alan adı oluşturulurken hata oluştu.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_HOST</base>
+        <trans>Alan adı değişikliği yapılırken hata oluştu.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_HOST</base>
+        <trans>Alan adı silinirken hata oluştu.</trans>
+    </entry>
+    <entry>
+        <base>ERR_IP_IS_LOCAL_OR_GATEWAY</base>
+        <trans>Hata: IP numarası sunucu veya ağ geçidi IP'si olamaz</trans>
+    </entry>
+    <entry>
+        <base>ERR_IP_NOT_LOCAL</base>
+        <trans>Hata: Bu IP adresi yerel ağ adresi değildir.</trans>
+    </entry>
+    <entry>
+        <base>MUST_BE_VALID_HOSTNAME_OR_IP</base>
+        <trans>Geçerli alan adı veya IP adresi içermelidir</trans>
+    </entry>
+  <entry>
+   <base>HOSTNAME_COMMENT_ERROR</base>
+    <trans>Hata: alan adında geçersiz karakter: "{$hostname}.{$domain}". Alan adları sadece harfler, rakamlar ve noktadan oluşturulabilir ve harf veya sayıyla başlamalıdır.</trans>
+  </entry>
+    <entry>
+      <base>HOSTNAME_VALIDATOR_ERROR</base>
+    <trans>Hata: alan adında geçersiz karakter: "{$hostname}.{$domain}". Alan adları sadece harfler, rakamlar ve noktadan oluşturulabilir ve harf veya sayıyla başlamalıdır.</trans>
+  </entry>
+</lexicon>

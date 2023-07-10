@@ -1,0 +1,520 @@
+<lexicon lang="nl">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>Collaboration</base>
+        <trans>Samenwerken</trans>
+    </entry>
+    <entry>
+      <base>Administration</base>
+      <trans>Beheer</trans>
+    </entry>
+    <entry>
+        <base>Security</base>
+        <trans>Beveiliging</trans>
+    </entry>
+    <entry>
+        <base>Configuration</base>
+        <trans>Configuratie</trans>
+    </entry>
+    <entry>
+        <base>Miscellaneous</base>
+        <trans>Diversen</trans>
+    </entry>
+    <entry>
+        <base>Your Settings</base>
+        <trans>Uw instellingen</trans>
+    </entry>
+    <entry>
+        <base>SAVE</base>
+        <trans>Opslaan</trans>
+    </entry>
+    <entry>
+        <base>CANCEL</base>
+        <trans>Annuleer</trans>
+    </entry>
+    <entry>
+        <base>ENABLED</base>
+        <trans>Actief</trans>
+    </entry>
+    <entry>
+        <base>DISABLED</base>
+        <trans>Inactief</trans>
+    </entry>
+    <entry>
+        <base>NO</base>
+        <trans>Nee</trans>
+    </entry>
+    <entry>
+        <base>YES</base>
+        <trans>Ja</trans>
+    </entry>
+    <entry>
+        <base>ADD</base>
+        <trans>Toevoegen</trans>
+    </entry>
+    <entry>
+        <base>CREATE</base>
+        <trans>Toevoegen</trans>
+    </entry>
+    <entry>
+        <base>MODIFY</base>
+        <trans>Wijzigen</trans>
+    </entry>
+    <entry>
+        <base>REMOVE</base>
+        <trans>Verwijderen</trans>
+    </entry>
+    <entry>
+        <base>COMMENT</base>
+        <trans>Commentaar</trans>
+    </entry>
+    <entry>
+        <base>NEXT</base>
+        <trans>Volgende</trans>
+    </entry>
+    <entry>
+        <base>SELF</base>
+        <trans>Zelf</trans>
+    </entry>
+    <entry>
+        <base>REMOTE</base>
+        <trans>Elders</trans>
+    </entry>
+    <entry>
+        <base>LOCAL</base>
+        <trans>Lokaal</trans>
+    </entry>
+    <entry>
+        <base>ACTION</base>
+        <trans>Actie</trans>
+    </entry>
+    <entry>
+        <base>NETWORK</base>
+        <trans>Netwerk</trans>
+    </entry>
+    <entry>
+        <base>ROUTER</base>
+        <trans>Router</trans>
+    </entry>
+    <entry>
+        <base>OPERATION_STATUS_REPORT</base>
+        <trans>Operationeel status rapport</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT</base>
+        <trans>Account</trans>
+    </entry>
+    <entry>
+        <base>GROUP</base>
+        <trans>Groep</trans>
+    </entry>
+    <entry>
+        <base>DESC_SECTIONBAR</base>
+        <trans><![CDATA[ <hr class="sectionbar"/> ]]></trans>
+    </entry>
+    <entry>
+        <base>NO_PIPES_ALLOWED</base>
+        <trans>Pijplijn symbolen (|) zijn niet toegestaan in dit veld</trans>
+    </entry>
+    <entry>
+        <base>ERROR_BELOW</base>
+        <trans>FOUT: Er is een fout opgetreden in de validatie van deze pagina. Blader naar onderen om het specifieke probleem te vinden.</trans>
+    </entry>
+    <entry>
+        <base>ACCESS</base>
+        <trans>Toegang</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_LOCKED</base>
+        <trans>De account is vergrendeld</trans>
+    </entry>
+    <entry>
+        <base>GROUP_ADD</base>
+        <trans>Groep toevoegen</trans>
+    </entry>
+    <entry>
+        <base>NETWORKS_ALLOW_LOCAL</base>
+        <trans>Alleen toegang accepteren vanaf lokale netwerken</trans>
+    </entry>
+    <entry>
+        <base>NETWORKS_ALLOW_PUBLIC</base>
+        <trans>Publieke toegang toestaan (volledig internet)</trans>
+    </entry>
+    <entry>
+        <base>ERROR_PASSWORD_CHANGE</base>
+        <trans>Er is een fout opgetreden tijdens het wijzigen van uw wachtwoord. Zorg er voor dat uw huidige wachtwoord correct is ingevoerd.</trans>
+    </entry>
+    <entry>
+        <base>BACK</base>
+        <trans>Terug</trans>
+    </entry>
+    <entry>
+        <base>BACKUP</base>
+        <trans>Veilig stellen</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION_BRIEF</base>
+        <trans>Korte beschrijving</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE</base>
+        <trans>Wachtwoord wijzigen</trans>
+    </entry>
+    <entry>
+        <base>RESET_PASSWORD_TITLE</base>
+        <trans>Gebruikerswachtwoord opnieuw instellen</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_PASSWORD_CHANGE</base>
+        <trans>Account wachtwoord wijzigen</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>Inhoud</trans>
+    </entry>
+    <entry>
+        <base>CREATE_GROUP</base>
+        <trans>Gebruikersgroep toevoegen</trans>
+    </entry>
+    <entry>
+        <base>USER_LIST_CURRENT</base>
+        <trans>Huidige lijst met gebruikers</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans>Beschrijving</trans>
+    </entry>
+    <entry>
+        <base>DESTINATION</base>
+        <trans>Bestemming</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME</base>
+        <trans>Domeinnaam</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN</base>
+        <trans>Domein</trans>
+    </entry>
+    <entry>
+        <base>DOMAINS</base>
+        <trans>Domeinen</trans>
+    </entry>
+    <entry>
+        <base>DOWNLOAD</base>
+        <trans>Ophalen</trans>
+    </entry>
+    <entry>
+        <base>ERROR_UPDATING_CONFIGURATION</base>
+        <trans>Er is een fout opgetreden bij het wijzigen van de systeemconfiguratie.</trans>
+    </entry>
+    <entry>
+        <base>GROUP_MEMBERS</base>
+        <trans>Groepsleden</trans>
+    </entry>
+    <entry>
+        <base>GROUP_NAME</base>
+        <trans>Groepsnaam</trans>
+    </entry>
+    <entry>
+        <base>GROUPS</base>
+        <trans>Groepen</trans>
+    </entry>
+    <entry>
+        <base>IP_ADDRESS</base>
+        <trans>IP adres</trans>
+    </entry>
+    <entry>
+        <base>IP_ADDRESS_OR_FQDN</base>
+        <trans>IP adres of FQDN</trans>
+    </entry>
+    <entry>
+        <base>USER_INVALID</base>
+        <trans>Ongeldige gebruiker</trans>
+    </entry>
+    <entry>
+        <base>LOCATION</base>
+        <trans>Locatie</trans>
+    </entry>
+    <entry>
+        <base>MB</base>
+        <trans>MB</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_USER_GROUP</base>
+        <trans>Gebruikersgroep wijzigen</trans>
+    </entry>
+    <entry>
+        <base>NAME</base>
+        <trans>Naam</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_VERIFY_NEW</base>
+        <trans>Nieuw wachtwoord (verificatie):</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_NEW</base>
+        <trans>Nieuw wachtwoord:</trans>
+    </entry>
+    <entry>
+        <base>OFF</base>
+        <trans>Uit</trans>
+    </entry>
+    <entry>
+        <base>OK</base>
+        <trans>Ok</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_OLD</base>
+        <trans>Huidig wachtwoord:</trans>
+    </entry>
+    <entry>
+        <base>ON</base>
+        <trans>Aan</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD</base>
+        <trans>Wachtwoord</trans>
+    </entry>
+    <entry>
+        <base>PERFORM</base>
+        <trans>Uitvoeren</trans>
+    </entry>
+    <entry>
+        <base>RECONFIGURE</base>
+        <trans>Herconfigureren</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_USER_GROUP</base>
+        <trans>Gebruikersgroep verwijderen</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_RESET</base>
+        <trans>Wachtwoord wijzigen</trans>
+    </entry>
+    <entry>
+        <base>RESTORE</base>
+        <trans>Herstellen</trans>
+    </entry>
+    <entry>
+        <base>SHUTDOWN</base>
+        <trans>Afsluiten</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Succes</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME_INVALID</base>
+        <trans>De ingegeven accountnaam is ongeldig.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME_INVALID_CHARS</base>
+        <trans>De ingegeven accountnaam bevat ongeldige tekens.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_OLD_INVALID_CHARS</base>
+        <trans>Het ingegeven huidige wachtwoord bevat ongeldige tekens.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_INVALID_CHARS</base>
+        <trans>Het ingegeven wachtwoord bevat ongeldige tekens.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_VERIFY_ERROR</base>
+        <trans>De ingegeven wachtwoorden komen niet overeen.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_USER_NONE</base>
+        <trans>Er zijn geen gebruikeraccounts op dit systeem.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_GROUP_NONE</base>
+        <trans>Er zijn geen gebruikersgroepen op dit systeem.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_INVALID_CHARS</base>
+        <trans>Onverwachte tekens in de beschrijving.</trans>
+    </entry>
+    <entry>
+        <base>USER_NAME</base>
+        <trans>Gebruikersnaam</trans>
+    </entry>
+    <entry>
+        <base>YOUR_ACCOUNT</base>
+        <trans>Uw account:</trans>
+    </entry>
+    <entry>
+      <base>YOUR_ACCOUNT_INVALID</base>
+      <trans>De ingegeven accountnaam is ongeldig.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE_SUCCESS</base>
+        <trans>Uw wachtwoord is met succes gewijzigd.</trans>
+    </entry>
+    <entry>
+        <base>FM_NONBLANK</base>
+        <trans>Dit veld mag niet leeg worden gelaten</trans>
+    </entry>
+    <entry>
+        <base>FM_INTEGER</base>
+        <trans>Dit veld moet een positieve integere waarde bevatten</trans>
+    </entry>
+    <entry>
+        <base>FM_NUMBER</base>
+        <trans>Dit veld moet een nummer bevatten</trans>
+    </entry>
+    <entry>
+        <base>FM_WORD</base>
+        <trans>Dit veld moet lijken op één enkel woord.</trans>
+    </entry>
+    <entry>
+        <base>FM_DATE</base>
+        <trans>De ingevoerde gegevens kunnen niet als datum worden benut</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER1</base>
+        <trans>U moet een kredietkaart nummer ingeven</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER2</base>
+        <trans>Kredietkaart nummers kunnen alleen nummers, spaties of streepjes bevatten</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER3</base>
+        <trans>Moet tenminste 14 tekens lang zijn</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER4</base>
+        <trans>Lijkt niet een geldig kredietkaart nummer te zijn</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY1</base>
+        <trans>Geen expiratie datum ingevoerd.</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY2</base>
+        <trans>Vervaldatum moet in het formaat MM/JJ of MM/JJJJ worden opgegeven</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY3</base>
+        <trans>De expiratie datum lijkt al te zijn gepasseerd</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY4</base>
+        <trans>De expiratie datum lijkt te ver in de toekomst te zijn</trans>
+    </entry>
+    <entry>
+        <base>FM_ISO_COUNTRY_CODE1</base>
+        <trans>U moet een landcode opgeven</trans>
+    </entry>
+    <entry>
+        <base>FM_ISO_COUNTRY_CODE2</base>
+        <trans>Dit veld bevat geen ISO landcode</trans>
+    </entry>
+    <entry>
+        <base>FM_US_STATE</base>
+        <trans>Dit lijkt niet een geldige 2-letter US staat afkorting te zijn</trans>
+    </entry>
+    <entry>
+        <base>FM_US_ZIPCODE</base>
+        <trans>US zip codes moeten 5 of 9 nummers bevatten</trans>
+    </entry>
+    <entry>
+        <base>FM_MINLENGTH1</base>
+        <trans>Minimale lengte is zinloos gespecificeerd als {$minlength}</trans>
+    </entry>
+    <entry>
+        <base>FM_MINLENGTH2</base>
+        <trans>Dit veld moet tenminste {$minlength} tekens zijn</trans>
+    </entry>
+    <entry>
+        <base>FM_MAXLENGTH1</base>
+        <trans>Maximale lengte is zinloos gespecificeerd als {$maxlength}</trans>
+    </entry>
+    <entry>
+        <base>FM_MAXLENGTH2</base>
+        <trans>Dit veld mag hooguit {$maxlength} tekens zijn</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH1</base>
+        <trans>U moet de lengte specificeren voor dit veld.</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH2</base>
+        <trans>U moet de exacte lengte van het veld opgeven met een integer</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH3</base>
+        <trans>Dit veld moet exact {$exactlength} tekens zijn</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE1</base>
+        <trans>U moet de maximale en minimale lengte voor dit veld specificeren.</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE2</base>
+        <trans>U moet de maximale en minimale lengtes voor dit veld opgeven met een integer</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE3</base>
+        <trans>Dit veld moet tussen {$minlength} en {$maxlength} tekens zijn</trans>
+    </entry>
+    <entry>
+        <base>FM_URL</base>
+        <trans>Dit veld moet een URL bevatten beginnend met http:// of ftp://</trans>
+    </entry>
+    <entry>
+        <base>FM_EMAIL_SIMPLE1</base>
+        <trans>U moet een geldig e-mail adres opgeven.</trans>
+    </entry>
+    <entry>
+        <base>FM_EMAIL_SIMPLE2</base>
+        <trans>Dit veld lijkt niet een RFC822-overeenkomstig e-mail adres</trans>
+    </entry>
+    <entry>
+        <base>FM_DOMAIN_NAME</base>
+        <trans>Dit veld lijkt niet een geldige Internet domeinnaam of hostnaam.</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER1</base>
+        <trans>Dit veld moet een geldig IP nummer bevatten en kan niet leeg worden gelaten.</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER2</base>
+        <trans>Ongeldig IP adres (geldig formaat X.X.X.X)</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER3</base>
+        <trans>{$octet} is meer dan 255</trans>
+    </entry>
+    <entry>
+        <base>FM_USERNAME</base>
+        <trans>Dit veld moet lijken op een geldige gebruikersnaam (3 tot 8 letters en nummers)</trans>
+    </entry>
+    <entry>
+        <base>FM_PASSWORD1</base>
+        <trans>U moet een wachtwoord opgeven.</trans>
+    </entry>
+    <entry>
+        <base>FM_PASSWORD2</base>
+        <trans>Het wachtwoord dat u opgaf was niet een goed wachtwoord. Een goed wachtwoord bevat alle volgende elementen: hoofdletters, kleine letters, cijfers, niet alfanumerieke tekens en tenminste 7 tekens lang.</trans>
+    </entry>
+    <entry>
+        <base>FM_MAC_ADDRESS1</base>
+        <trans>U moet een MAC adres opgeven.</trans>
+    </entry>
+    <entry>
+        <base>FM_MAC_ADDRESS2</base>
+        <trans>Het MAC adres dat u opgaf is niet geldig.</trans>
+    </entry>
+    <entry>
+	<base>FM_ERR_UNEXPECTED_DESC</base>
+	<trans>Fout: onverwachte of ontbrekende tekens in de beschrijving</trans>
+    </entry>
+    <entry>
+        <base>CSRF_VALIDATION_FAILURE</base>
+        <trans>Fout: CSRF-token is ongeldig of verouderd.</trans>
+    </entry>
+</lexicon>

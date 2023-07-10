@@ -1,0 +1,114 @@
+<lexicon lang="th">
+    <entry>
+      <base>NO_PSEUDONYMS</base>
+      <trans><![CDATA[ <b>ไม่มีนามแฝงนี้ในระบบ</b> ]]></trans>
+     </entry>
+    <entry>
+        <base>REMOVE_PSEUDONYM</base>
+        <trans>ลบนามแฝง</trans>
+    </entry>
+    <entry>
+        <base>ABOUT_TO_REMOVE</base>
+        <trans><![CDATA[ คุณกำลังจะลบนามแฝง:<br> <b>คุณแน่ใจที่จะทำการลบนี้หรือไม่ ?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>สร้างแก้ไขหรือลบนามแฝง</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans><![CDATA[ <p>เซิร์ฟเวอร์จะสร้างอีเมล์ให้กลุ่มแต่ละกลุ่ม หากคุณต้องการกำหนดอีเมล์ให้ผู้ใช้จำนวนหนึ่ง วิธีการง่ายๆ คือให้สร้างกลุ่มขึ้น และการสร้างอีเมล์ใช้แทนนั้นจะถูกจัดการให้เองโดยเซอร์ฟเวอร์</p><p>นามแฝงเปิดโอกาสให้คุณสร้างชื่อเรียกอื่นให้แก่ผู้ใช้หรือกลุ่มที่มีอยู่ เช่น คุณอาจต้องการสร้างนามแฝง "webmaster" ให้แก่กลุ่ม "webdevelopers" หรือ สร้างนามแฝง "joe" ให้กับผู้ใช้ "joseph" เป็นต้น</p> <p>ปกติเซอร์ฟเวอร์จะสร้างนามแฝงอัตโนมัติในชื่อ firstname.lastname และ firstname_lastname ให้กับทุกรายผู้ใช้อยู่แล้ว รวมถึงมีนามแฝง "everyone" ที่หมายถึงผู้ใช้ทุกคนในระบบอีกชื่อ</p> <p>นามแฝงเ้ปิดโอกาสให้คุณสร้างนามแฝงเป็นอีเมล์แทนให้ "ผู้ใช้ของโดเมนเสมือน (virtual domains)" ต่างๆ ที่มีอยู่ในเซอร์ฟเวอร์นี้ได้ด้วย เช่น คุณสามารถส่งผ่านอีเมล์ที่เข้ามาถึง "sales@virtualdomain1.com" ไปยังผู้ใช้ชื่อ "mary" และ "sales@virtualdomain2.com" ไปยังผู้ใช้ชื่อ "john" เป็นต้น โดยคุณจะต้องสร้างโดเมนและผู้ใช้ขึ้นก่อนการสร้างอีเมล์แทนนี้</p><p>และสามารถส่งผ่านจากนามแฝงสามารถไปยังนามแฝงได้ด้วยอื่นได้ด้วย เพียงแต่มันจำกัดไว้ให้ทำการส่งผ่านทำได้เพียงชั้นเดียวเท่านั้น เช่น นามแฝง "webmaster" สามารถส่งผ่านไปยัง "techsupport" แล้วค่อยส่งผ่านไปยังผู้ใช้ "ray" อีกที ความสามารถนี้มีประโยชน์ที่ทำให้สามารถสร้างกฎเกณฑ์ได้หลายอย่างให้ผู้ใช้หนึ่งราย ทำให้สามารถเปลี่ยนนามแฝงแก่ผู้ใช้รายเดิมได้หลายครั้ง เช่น กรณีผู้ใช้มีการเปลี่ยนแผนกหรือสังกัดเป็นต้น</p><p>คุณสามารถแก้ไขหรือลบนามแฝงโดยคลิ๊กลิงค์คำสั่งที่อยู่ถัดจากนามแฝงนั้นๆ</p>]]></trans>
+    </entry>
+    <entry>
+        <base>LOCAL_ONLY</base>
+        <trans>(เฉพาะ local network)</trans>
+    </entry>
+    <entry>
+        <base>SELECT_ACCOUNT</base>
+        <trans>เลือกบัญชีหรือกลุ่ม</trans>
+    </entry>
+    <entry>
+        <base>SELECT_INTERNAL</base>
+        <trans>เฉพาะ local network</trans>
+    </entry>
+    <entry>
+        <base>CLICK_TO_CREATE</base>
+        <trans>เพิ่มนามแฝง</trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM</base>
+        <trans>นามแฝง</trans>
+    </entry>
+    <entry>
+        <base>USER_OR_GROUP</base>
+        <trans>ผู้ใช้หรือกลุ่มผู้ใช้</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_PSEUDONYMS</base>
+        <trans><![CDATA[<b>รายการนามแฝงขณะนี้</b>]]></trans>
+    </entry>
+    <entry>
+        <base>TITLE_CREATE</base>
+        <trans>สร้างนามแฝง</trans>
+    </entry>
+    <entry>
+        <base>DESC_PSEUDONYM_NAME</base>
+       <trans>กรุณาเลือกบัญชีหรือกลุ่มสำหรับนามแฝงนี้จากตัวเลือกด้านล่าง</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_PSEUDONYM</base>
+        <trans>แก้ไขนามแฝง</trans>
+    </entry>     
+       <entry>
+        <base>PSEUDONYM_NAME</base>
+        <trans>ชื่อนามแฝง</trans>
+    </entry>
+    <entry>
+        <base>VALID_PSEUDONYM_NAMES</base>
+        <trans><![CDATA[ นามแฝงต้องเป็นตัวอักษรอังกฤษตัวพิมพ์เล็ก, ตัวเลข, จุด, ยัติภังค์ (-) และเส้นขีดล่าง (_) เท่านั้น และต้องเริ่มต้นด้วยตัวอักษรหรือตัวเลข ตัวอย่างที่ถูกต้อง เช่น "sales", "john.holland", "123" และ "email-administrator" แต่ "John Smith" และ "Henry Miller" ไม่ถูกต้องและใช้ไม่ได้<p>คุณยังสามารถสร้างนามแฝงเพื่อเป็น "อีเมลของโดเมนเสมือน (virtual domain)" ต่างๆ ที่อยู่ในเซอร์ฟเวอร์นี้ได้ด้วย เช่น  "fred@virtualdomain.com" ให้ส่งอีเมลผ่านต่อไปยัง "mary" (หรือบัญชีชื่ออื่นที่มีอยู่จริง)</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>NAME_IN_USE</base>
+        <trans>ผิดพลาด: ชื่อนี้ถูกใช้ไปแล้ว คุณไม่สามารถสร้างนามแฝงมีชื่อนี้ได้</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_PSEUDONYM</base>
+        <trans>ชื่อ (บัญชี) นี้ไม่ใช่นามแฝง</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_DOMAIN</base>
+        <trans>โดเมนที่ระบุไม่ได้อยู่บนเซิร์ฟเวอร์นี้</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_NOACCT</base>
+        <trans>ชื่อบัญชีที่ระบุไม่ได้อยู่บนเซิร์ฟเวอร์นี้</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_SAMEACCT</base>
+        <trans>นามแฝงไม่สามารถชี้ไปยังบัญชีเดียวกันได้</trans>
+    </entry>
+    <entry>
+        <base>CREATE_SUCCEEDED</base>
+        <trans>สร้างนามแฝงสำเร็จแล้ว</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_SUCCEEDED</base>
+        <trans>แก้ไขนามแฝงสำเร็จแล้ว</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_SUCCEEDED</base>
+        <trans>ลบนามแฝงสำเร็จแล้ว</trans>
+    </entry>
+    <entry>
+      <base>EVERYONE</base>
+      <trans>ทุกคน</trans>
+    </entry>
+      <entry>
+        <base>Pseudonyms</base>
+        <trans>นามแฝง</trans>
+      </entry>
+
+</lexicon>

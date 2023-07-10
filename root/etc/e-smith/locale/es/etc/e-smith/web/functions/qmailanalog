@@ -1,0 +1,87 @@
+<lexicon lang="es">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Análisis del Archivo de Registro de Correo</trans>
+    </entry>
+    <entry>
+	<base>INITIAL_DESC</base>
+	<trans><![CDATA[ <p>Al analizar los archivos de registro del sistema de correo, se puede entender cómo se está ejecutando el sistema, permitiendo diagnosticar problemas de entrega. Están disponibles varios informes distintos.</p> <p>Observe que puede demorar varios minutos en generar esos informes</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>REPORT_TYPE</base>
+	<trans>Elegir un tipo de informe</trans>
+    </entry>
+    <entry>
+	<base>GENERATE_REPORT</base>
+	<trans>Generar informe</trans>
+    </entry>
+    <entry>
+	<base>LIST_OUTGOING</base>
+	<trans>Lista de mensajes salientes y destinatarios</trans>
+    </entry>
+    <entry>
+	<base>SUMMARIZE_QUEUE</base>
+	<trans>Resumir el estado de la cola de correo</trans>
+    </entry>
+    <entry>
+	<base>SUCCESSFUL_DELIVERY_DELAY</base>
+	<trans>Distribución exitosa del retardo de la entrega</trans>
+    </entry>
+    <entry>
+	<base>REASONS_DEFERRAL</base>
+	<trans>Razones de la postergación</trans>
+    </entry>
+    <entry>
+	<base>REASONS_FAILURE</base>
+	<trans>Razones de la falla</trans>
+    </entry>
+    <entry>
+	<base>BASIC_STATS</base>
+	<trans>Estadística básica</trans>
+    </entry>
+    <entry>
+	<base>RECIP_STATS</base>
+	<trans>Estadística de los destinatarios</trans>
+    </entry>
+    <entry>
+	<base>RECIP_HOSTS</base>
+	<trans>Hosts destinatarios</trans>
+    </entry>
+    <entry>
+	<base>RECIP_ORDERED</base>
+	<trans>Destinatarios en el mejor orden para listas de correo</trans>
+    </entry>
+    <entry>
+	<base>SENDER_STATS</base>
+	<trans>Estadísticas del remitente</trans>
+    </entry>
+    <entry>
+	<base>SENDMAIL_STYLE</base>
+	<trans>Registro al estilo de Sendmail</trans>
+    </entry>
+    <entry>
+	<base>REASONS_SUCCESS</base>
+	<trans>Razones para el éxito</trans>
+    </entry>
+    <entry>
+	<base>SENDER_UIDS</base>
+	<trans>UIDs del remitente</trans>
+    </entry>
+    <entry>
+	<base>INVALID_REPORT_TYPE</base>
+	<trans>Tipo de informe inválido:</trans>
+    </entry>
+    <entry>
+	<base>REPORT_GENERATED</base>
+	<trans>Informe generado:</trans>
+    </entry>
+    <entry>
+	<base>END_OF_REPORT</base>
+	<trans>Fin de Informe</trans>
+    </entry>
+    <entry>
+	<base>Mail log file analysis</base>
+	<trans>Análisis del archivo de registro de correo</trans>
+    </entry>
+
+</lexicon>

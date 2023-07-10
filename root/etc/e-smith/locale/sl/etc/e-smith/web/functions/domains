@@ -1,0 +1,141 @@
+<lexicon lang="sl" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Upravljaj z domenami</trans>
+    </entry>
+    <entry>
+        <base>FORM_DESCRIPTION</base>
+        <trans><![CDATA[ <p>Ko ustvarite navidezno domeno, bo vas streznik lahko skrbel za elektronsko posto te domene in gostil spletne strani zanjo.</p> <p><a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CREATE">Dodaj domeno</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>V sistemu ni nobene navidezne domene.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST_OF_DOMAINS</base>
+        <trans>Trenuten seznam domen</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_SITE</base>
+        <trans>primarna spletna stran</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>{$content} i-lista</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Dodaj novo navidezno domeno</trans>
+    </entry>
+    <entry>
+        <base>CONTENT_FIELD_DESCRIPTION</base>
+        <trans>Za spletno stran te domene lahko izberete primarno ali vsebino katerega koli informacijskega lista.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME_VALIDATION_ERROR</base>
+        <trans>Napaka: v domeni {$domainName} so nepricakovani ali manjakjoci znaki. Domena lahko vsebuje eno ali vec crk, stevilk, pik ali minus znakov. Nova domena ni bila dodana.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_DESCRIPTION_VALIDATION_ERROR</base>
+        <trans>Napaka: v polju opisa domene {$domainDesc} so nepricakovani ali manjkajoci znaki. Nova domena ni bila dodana.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_IN_USE_ERROR</base>
+        <trans>Napaka: domena {$domainName} je ze uporabljena. Nova domena ni bila dodana.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_DOMAIN_ERROR</base>
+        <trans>Napaka: domena {$domainName} je vasa primarna domena. Ne morete imeti navidezne domene z enakim imenom. Nova domena ni bila dodana.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>Nova domena z imenom {$domainName} je bila dodana. Spletni streznik se sedaj ponovno zaganja. Link na tej spletni strani med tem casom ne bo aktiven.</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_TITLE</base>
+        <trans>Uredi navidezno domeno</trans>
+    </entry>
+    <entry>
+        <base>NONEXISTENT_DOMAIN_ERROR</base>
+        <trans>Napaka: {$domainName} ni obstojeca domena.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>Navidezna domena {$domainName} je bila uspesno posodobljena. Spletni streznik se sedaj ponovno zaganja. Link na tej spletni strani med tem casom ne bo aktiven.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Odstrani navidezno domeno</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESCRIPTION</base>
+        <trans><![CDATA[ <p> Ste tik pred tem, da odstranite navidezno domeno {$domain} ({$domainDesc}). </p> <p> <b>Ste prepricani, da zelite odstraniti to domeno?</b> </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_REMOVING_DOMAIN</base>
+        <trans>Napaka: pri odstranjevanju navidezne domene {$domain} je prislo do notranje napake.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>Navidezno domeno {$domain} ste uspesno odstranili. Spletni streznik se sedaj ponovno zaganja. Link na tej spletni strani med tem casom ne bo aktiven.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS_CURRENT</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Splosne DNS nastavitve streznika</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>BUTTON_CORPORATE_DNS</base>
+        <trans><![CDATA[ <a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CORPORATE_DNS">Uredite DNS nastavitve streznika</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS</base>
+        <trans>Ce ta streznik nima dostopa do Interneta, imate posebne zahteve po DNS zapisih, vpisite ta DNS streznik ali IP naslov tukaj. Ta polja lahko pustite prazna, razen ce nimate posebnega razloga za to. Tukaj ne vpisujte DNS streznikov vasega Internetnega ponudnika, saj streznik prevede vsa Internetna DNS imena brez dodatnih nastavitev.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_PRIMARY</base>
+        <trans>Primarni DNS streznik v lokalnem omrezju</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_SECONDARY</base>
+        <trans>Sekundarni DNS streznik v lokalnem omrezju</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_NAMESERVERS</base>
+        <trans>Izberete lahko ali bo ta domena prevajana lokalno z uporabo lokalnih DNS streznikov, ali z uprabo Internetnih DNS streznikov. Privzeto nastavitev lahko uporabite v vecini primerih.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_NAMESERVERS</base>
+        <trans>DNS strezniki</trans>
+    </entry>
+
+    <entry>
+        <base>localhost</base>
+        <trans>Prevajaj lokalno</trans>
+    </entry>
+
+    <entry>
+        <base>internet</base>
+        <trans>Internetni DNS strezniki</trans>
+    </entry>
+
+    <entry>
+        <base>corporate</base>
+        <trans>Lokalni DNS strezniki</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Ali si preprican, da zelis odstraniti tiskalnik:</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans>Ali si preprican, da zelis odstraniti tiskalnik?</trans>
+    </entry>
+
+</lexicon>

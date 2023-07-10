@@ -1,0 +1,114 @@
+<lexicon lang="nb">
+    <entry>
+      <base>NO_PSEUDONYMS</base>
+      <trans><![CDATA[ <b>Det er ingen pseudonymer i systemet.</b> ]]></trans>
+     </entry>
+    <entry>
+        <base>REMOVE_PSEUDONYM</base>
+        <trans>Fjern pseudonym</trans>
+    </entry>
+    <entry>
+        <base>ABOUT_TO_REMOVE</base>
+        <trans><![CDATA[ Du er i ferd med å fjerne pseudonymet:<br> <b>Er du sikker på at du vil fortsette?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Opprett, endre, eller fjerne pseudonymer</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans><![CDATA[ <p>Server oppretter automatisk et e-post alias for hver gruppe. Hvis du vil sette opp et e-post alias for en gruppe med brukere,  oppretter du bare en gruppe, så blir den automatisk vedlikeholdt av serveren.</p> <p>Pseudonymer tillater deg å opprette andre navn på eksisterende brukere eller grupper. For eksempel, du ønsker kanskje å opprette et pseudonym "webmaster" for din "webutviklere" gruppe eller et pseudonym "jon" for brukeren  "jonas".</p> <p>Serveren oppretter automatisk pseudonymer i formatet fornavn.etternavn og fornavn_etternavn for hver bruker på systemet og et pseudonym "everyone" som inneholder alle brukere på systemet.</p> <p>Pseudonymer tillater deg også å opprette e-post aliaser for gyldige (virtuelle) domener & brukere. For eksempel kan du videresende "salg@virtueltdomne1.com" til brukeren "mari" og "salg@virtueltdomene2.com" til brukeren "jon". Du må opprette domener og brukerkontoene før du oppretter e-post aliasene.</p> <p>Pseudonymer kan også videresendes til andre pseudonymer, men det er begrenset til en videresending (et nivå). For eksempel pseudonymet "webmaster" kan videresendes til pseudonymet "techsupport" som så videresendes til en spesifikk bruker "ray". Dette er nyttig der en bruker er ansvarlig for flere roller og sparer mye ekstraarbeid den gangen det skal flyttes over til et annet pseudonym eller bruker for eksempel dersom personen slutter i organisasjonen.</p> <p>Du kan endre eller fjerne et pseudonym ved å klikke på den korresponderende kommandoen ved siden av pseudonymet.</p>]]></trans>
+    </entry>
+    <entry>
+        <base>LOCAL_ONLY</base>
+        <trans>(kun lokalt nettverk)</trans>
+    </entry>
+    <entry>
+        <base>SELECT_ACCOUNT</base>
+        <trans>Velg konto eller gruppe</trans>
+    </entry>
+    <entry>
+        <base>SELECT_INTERNAL</base>
+        <trans>Kun lokalt nettverk</trans>
+    </entry>
+    <entry>
+        <base>CLICK_TO_CREATE</base>
+        <trans>Legg til pseudonym</trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM</base>
+        <trans>Pseudonym</trans>
+    </entry>
+    <entry>
+        <base>USER_OR_GROUP</base>
+        <trans>Bruker eller gruppe</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_PSEUDONYMS</base>
+        <trans><![CDATA[<p>Gjeldende liste over Pseudonymer</p>]]></trans>
+    </entry>
+    <entry>
+        <base>TITLE_CREATE</base>
+        <trans>Opprett et pseudonym</trans>
+    </entry>
+    <entry>
+        <base>DESC_PSEUDONYM_NAME</base>
+       <trans>Velg en eksisterende konto eller gruppe for pseudonymet fra rullegardinlisten nedenfor</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_PSEUDONYM</base>
+        <trans>Endre pseudonym</trans>
+    </entry>     
+       <entry>
+        <base>PSEUDONYM_NAME</base>
+        <trans>Pseudonym navn</trans>
+    </entry>
+    <entry>
+        <base>VALID_PSEUDONYM_NAMES</base>
+        <trans><![CDATA[ Pseudonymet kan bare bestå av små bokstaver, tall, punktum, bindestrek, og uderstrek og må starte med en liten bokstav eller tall. F.eks. "salg", "john.holland", "123" and "epost-administrator" er gyldige pseudonymer, mens "John Smith" and "Henry Miller" ikke er det. <p>Du kan også opprette epost aliaser for kontoer og (virtuelle) domener som er gyldige på denne serveren. F.eks "fred@virtualdomain.com" kan bli videresendt til "mary" (eller en annen gyldig brukerkonto).</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>NAME_IN_USE</base>
+        <trans>Feil: Navnet er i bruk. Du kan ikke opprette et pseudonym med det navnet.</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_PSEUDONYM</base>
+        <trans>Den kontoen er ikke et pseudonym</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_DOMAIN</base>
+        <trans>Serveren er ikke vert for det domenet</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_NOACCT</base>
+        <trans>Serveren er ikke vert for den kontoen</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_SAMEACCT</base>
+        <trans>Et pseudonym kan ikke peke til den samme kontoen</trans>
+    </entry>
+    <entry>
+        <base>CREATE_SUCCEEDED</base>
+        <trans>Pseudonymet er opprettet</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_SUCCEEDED</base>
+        <trans>Pseudonymet er endret</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_SUCCEEDED</base>
+        <trans>Pseudonymet er fjernet</trans>
+    </entry>
+    <entry>
+      <base>EVERYONE</base>
+      <trans>Alle</trans>
+    </entry>
+      <entry>
+        <base>Pseudonyms</base>
+        <trans>Pseudonymer</trans>
+      </entry>
+
+</lexicon>

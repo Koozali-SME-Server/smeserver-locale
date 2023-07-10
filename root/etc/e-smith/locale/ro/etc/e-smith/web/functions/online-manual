@@ -1,0 +1,15 @@
+<lexicon lang="ro">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>Manual online și alte documentații</trans>
+      </entry>	
+      <entry> 
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ <ul> <li><a target="new" href="https://wiki.koozali.org/documentation/manual/"> Manual online</a> <li><a target="new" href="https://wiki.koozali.org/documentation/FAQ/"> FAQs</a> </ul> <H2>Suport și licențiere</H2> Acest software se supune termenilor de la pagina <a href="/server-manager/cgi-bin/support"> Support and Licensing</a> . ]]></trans>
+      </entry>		
+      <entry>
+	<base>Online manual</base>
+	<trans>Manual online</trans>
+      </entry>
+
+</lexicon>

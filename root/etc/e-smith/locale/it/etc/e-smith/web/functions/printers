@@ -1,0 +1,147 @@
+<lexicon lang="it">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Aggiungi o rimuovi stampanti</trans>
+    </entry>
+    <entry>
+      <base>INITIAL_DESC</base>
+      <trans><![CDATA[ <p><A class="button-like" HREF="printers?page=0&Next=Add">Aggiungi stampante</A></p> ]]></trans>
+    </entry>
+    <entry>
+      <base>NO_PRINTERS</base>
+      <trans>Non ci sono stampanti nel sistema.</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_LIST</base>
+      <trans>Lista delle stampanti</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_ADDRESS</base>
+      <trans>Indirizzo remoto</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_NAME</base>
+      <trans>Nome remoto</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NEW_PRINTER</base>
+      <trans>Crea nuova stampante</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NEW_DESC</base>
+      <trans>Selezionare un nome univoco per la stampante e inserire una breve descrizione. Il nome della stampante può contenere soltanto lettere minuscole e numeri e deve iniziare con una lettera minuscola. Per esempio "hplaser", "epsonlp" e "canonbj" sono nomi validi, mentre "HP Laser Jet", "Canon Bubblejet" e "Stampante HP JetDirect" non sono validi.</trans>
+    </entry>
+    <entry>
+      <base>PRINTER_NAME</base>
+      <trans>Nome stampante</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_0</base>
+      <trans>Porta stampante locale 0 (LPT1)</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_1</base>
+      <trans>Porta stampante locale 1 (LPT2)</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_2</base>
+      <trans>Porta stampante locale 2 (LPT3)</trans>
+    </entry>
+    <entry>
+      <base>NET_PRINTER</base>
+      <trans>Stampante di rete ...</trans>
+    </entry>
+    <entry>
+      <base>FIRST_USB_PRINTER</base>
+      <trans>Prima stampante USB</trans>
+    </entry>
+    <entry>
+      <base>SECOND_USB_PRINTER</base>
+      <trans>Seconda stampante USB</trans>
+    </entry>
+    <entry>
+      <base>ERR_UNEXPECTED_NAME</base>
+      <trans><![CDATA[ <p>Errore: carattere inaspettato nel nome stampante.</p> <p>Il nome della stampante può contenere soltanto lettere minuscole e numeri e deve iniziare con una lettera minuscola. Per esempio "hplaser", "epsonlp" e "canonbj" sono nomi validi.</p> ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_UNEXPECTED_DESC</base>
+      <trans>Errore: carattere mancante o inaspettato nella descrizione. Stampante non creata.</trans>
+    </entry>
+    <entry>
+      <base>ERR_EXISTS</base>
+      <trans>Errore: esiste un account con lo stesso nome di tipo:</trans>
+    </entry>
+    <entry>
+      <base>ERR_INVALID_ADDRESS</base>
+      <trans>Errore: indirizzo di rete non valido. Stampante non creata.</trans>
+    </entry>
+    <entry>
+      <base>ERR_INVALID_REMOTE_NAME</base>
+      <trans>Errore: nome stampante di rete non valido. Stampante non creata.</trans>
+    </entry>
+    <entry>
+      <base>ERR_CREATING</base>
+      <trans>Errore durante la creazione della stampante.</trans>
+    </entry>
+    <entry>
+      <base>CREATED_SUCCESSFULLY</base>
+      <trans>Stampante creata con successo:</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NETWORK_PRINTER</base>
+      <trans>Crea una stampante di rete</trans>
+    </entry>
+    <entry>
+      <base>ERR_OPENING_DB</base>
+      <trans>Errore durante l'apertura del database accounts</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NETWORK_DESC</base>
+      <trans>Inserire nome e indirizzo della stampante di rete</trans>
+    </entry>
+    <entry>
+      <base>HOSTNAME_OR_IP</base>
+      <trans>Nome host o indirizzo IP della stampante di rete</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_NAME_DESC</base>
+      <trans><![CDATA[ Nome stampante di rete (selezionare raw se non si é sicuri) ]]></trans>
+    </entry>
+    <entry>
+      <base>REMOVE_PRINTER</base>
+      <trans>Rimuovi stampante</trans>
+    </entry>
+    <entry>
+      <base>ABOUT_TO_REMOVE</base>
+      <trans>Sta per essere rimossa la stampante:</trans>
+    </entry>
+    <entry>
+      <base>SPOOL_FILE_WARNING</base>
+      <trans>Tutti i file in spool di questa stampante saranno cancellati.</trans>
+    </entry>
+    <entry>
+      <base>ARE_YOU_SURE</base>
+      <trans>Siete sicuri di voler rimuovere questa stampante ?</trans>
+    </entry>
+    <entry>
+      <base>ERR_INTERNAL_FAILURE</base>
+      <trans>Errore: problema interno durante la rimozione della stampante:</trans>
+    </entry>
+    <entry>
+      <base>ERR_DELETING</base>
+      <trans>Errore durante la rimozione della stampante.</trans>
+    </entry>
+    <entry>
+      <base>DELETED_SUCCESSFULLY</base>
+      <trans>Stampante rimossa con successo:</trans>
+    </entry>
+    <entry>
+        <base>MUST_BE_VALID_HOSTNAME_OR_IP</base>
+        <trans>Deve essere un nome host valido o un indirizzo IP</trans>
+    </entry>
+    <entry>
+	<base>Printers</base>
+	<trans>Stampanti</trans>
+    </entry>
+
+</lexicon>

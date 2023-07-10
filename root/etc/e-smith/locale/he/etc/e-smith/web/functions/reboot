@@ -1,0 +1,42 @@
+<lexicon lang="he">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>כיבוי או הפעלה מחדש</trans>
+    </entry>
+    <entry>
+	<base>REBOOT</base>
+	<trans>הפעלה מחדש</trans>
+    </entry>
+    <entry>
+	<base>REBOOT_SUCCEEDED</base>
+	<trans>בקשת הפעלה מחדש הופעלה בהצלחה.</trans>
+    </entry>
+    <entry>
+	<base>DESC_REBOOT</base>
+	<trans>השרת שלך יזם תהליך הפעלה מחדש.</trans>
+    </entry>
+    <entry>
+	<base>RECONFIGURE_SUCCEEDED</base>
+	<trans>בקשת שינוי התצורה הופעלה בהצלחה.</trans>
+    </entry>
+    <entry>
+	<base>DESC_RECONFIGURE</base>
+	<trans>השרת שלך יזם שינוי תצורה מלא והפעלה מחדש.</trans>
+    </entry>
+    <entry>
+	<base>DESC_SHUTDOWN</base>
+	<trans>השרת שלך יזם תהליך כיבוי. התהליך יארך מספר דקות עד להשלמתו, לאחר מכן ניתן לכבות את מקור המתח.</trans>
+    </entry>
+    <entry>
+	<base>LABEL_REBOOT</base>
+	<trans>בחר כיבוי, הפעלה מחדש או שינוי תצורה</trans>
+    </entry>
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ You can reboot, shut down your server or perform a full system reconfiguration from this screen. You must perform a shutdown before switching the power off. All of these functions take several minutes to complete. When you click <b>ביצוע</b> הפעולה יתחיל מיד אז היה מוכן ! ]]></trans>
+    </entry>
+    <entry>
+	<base>Reboot or shutdown</base>
+	<trans>הפעלה מחדש או כיבוי</trans>
+    </entry>
+</lexicon>

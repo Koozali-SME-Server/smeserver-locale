@@ -1,0 +1,83 @@
+<lexicon lang="bg">
+    <entry>
+        <base>View log files</base>
+        <trans>Разглеждане на файловете с журнали</trans>
+    </entry>
+
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ Този панел позволява прегледа и свалянето на файловете с журнали, създадени от услугите, работещи на сървъра ]]></trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_SELECT_DESC</base>
+        <trans>Изберете файл с журнал за разглеждане</trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>Можете по желание да зададете шаблон за филтриране за да покажете само редовете от файла с журнала, които отговарят на шаблона. Ако оставите тов аполе празно, ще се покажат всички редове от файла с журнала. Имайте предвид, че тази възможност не важи при сваляне на файловете с журнали.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_LABEL</base>
+        <trans>Шаблон за филтриране (по желание)</trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>Можете също ако желаете да зададете шаблон за засветяване за да отбележите с получерно редовете от файла с журнал, които отговарят на шаблона за засветяване. Шаблонът за засветяване се прилага към всеки ред, който вече отговаря на шаблона за филтриране. Имайте предвид, че тази възможност не се използва при сваляне на файловете с журнали.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_LABEL</base>
+        <trans>Шаблон за засветяване (по желание)</trans>
+    </entry>
+    <entry>
+        <base>END_DESC</base>
+        <trans>Имайте предвид, че може да отнеме доста време за създаването на тези отчети.</trans>
+    </entry>
+    <entry>
+        <base>VIEW</base>
+        <trans>Разглеждане на файл с журнал</trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_EMPTY</base>
+        <trans>Файлът с журнал "{$filename}" е празен!</trans>
+    </entry>
+    <entry>
+        <base>VIEWING_TIME</base>
+        <trans>Показан в {$time}.</trans>
+    </entry>
+    <entry>
+        <base>MATCH_HEADER</base>
+        <trans>Показване на редовете отговарящи на: "{$matchPattern}".</trans>
+    </entry>
+    <entry>
+        <base>HIGHLIGHT_HEADER</base>
+        <trans>Показване на редовете отговарящи на: "{$highlightPattern}".</trans>
+    </entry>
+    <entry>
+        <base>NO_MATCHING_LINES</base>
+        <trans>Няма отговарящи редове.</trans>
+    </entry>
+    <entry>
+        <base>FILENAME_ERROR</base>
+        <trans><![CDATA[ <p>Грешка при задаване на име на файла с журнал.</p> <p>Невалиден тип на отчета "{$filename}".</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>REFRESH</base>
+	<trans>Обновяване на този файл с журнал.</trans>
+    </entry>
+    <entry>
+	<base>OP_DESC</base>
+	<trans><![CDATA[ <p>Трябва да изберете между разглеждане на файла с журнал в браузъра и свалянето му в компютъра. Ако файла е особено голям, можете да го свалите вместо да се опитвате да го отворите в браузъра, защото това е проблем за някои от браузърите.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>OP_LABEL</base>
+	<trans>действие</trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_PAGE_DESC</base>
+	<trans><![CDATA[ <p>Подготвя се свалянето на файловете с журнали. То ще продължи след като натиснете бутона &quot;Продължи&quot; по-долу, и укажете на браузъра да започне свалянето в прозореца, който ще изкочи.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_FILE</base>
+	<trans>Подготвя се свалянето на файл с журнал {$logfile}.</trans>
+    </entry>
+</lexicon>

@@ -1,0 +1,202 @@
+<lexicon lang="el">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Ρύθμιση παραμέτρων ημερομηνίας και ώρας</trans>
+    </entry>
+    <entry>
+      <base>INITIAL_DESC</base>
+      <trans>Εδώ ρυθμίζετε τις παραμέτρους ημερομηνίας και ώρας του παρόντος διακομιστή. Μπορείτε να κάνετε χρήση ενός υπάρχοντος διακομιστή ώρας ή να ρυθμίσετε με το χέρι την ημερομηνία και την ώρα για την ζώνη ώρας σας.</trans>
+    </entry>
+    <entry>
+      <base>SET_DATE_TITLE</base>
+      <trans>Ρυθμίσατε ημερομηνία και ώρα</trans>
+    </entry>
+    <entry>
+      <base>COULD_NOT_OPEN_TZ_FILE</base>
+      <trans>Σφάλμα: Αδυναμία ανοίγματος του αρχείου ζωνών ώρας για ανάγνωση:</trans>
+    </entry>
+    <entry>
+      <base>JANUARY</base>
+      <trans>Ιανουάριος</trans>
+    </entry>
+    <entry>
+      <base>FEBRUARY</base>
+      <trans>Φεβρουάριος</trans>
+    </entry>
+    <entry>
+      <base>MARCH</base>
+      <trans>Μάρτιος</trans>
+    </entry>
+    <entry>
+      <base>APRIL</base>
+      <trans>Απρίλιος</trans>
+    </entry>
+    <entry>
+      <base>MAY</base>
+      <trans>Μάιος</trans>
+    </entry>
+    <entry>
+      <base>JUNE</base>
+      <trans>Ιούνιος</trans>
+    </entry>
+    <entry>
+      <base>JULY</base>
+      <trans>Ιούλιος</trans>
+    </entry>
+    <entry>
+      <base>AUGUST</base>
+      <trans>Αύγουστος</trans>
+    </entry>
+    <entry>
+      <base>SEPTEMBER</base>
+      <trans>Σεπτέμβριος</trans>
+    </entry>
+    <entry>
+      <base>OCTOBER</base>
+      <trans>Οκτώβριος</trans>
+    </entry>
+    <entry>
+      <base>NOVEMBER</base>
+      <trans>Νοέμβριος</trans>
+    </entry>
+    <entry>
+      <base>DECEMBER</base>
+      <trans>Δεκέμβριος</trans>
+    </entry>
+    <entry>
+      <base>NEW_M/D/Y</base>
+      <trans>Νέος μήνας/ημέρα/έτος:</trans>
+    </entry>
+    <entry>
+      <base>NEW_H/M/S</base>
+      <trans>Νέα ώρα/λεπτά/δευτερόλεπτα</trans>
+    </entry>
+    <entry>
+      <base>AM/PM_AND_TZ</base>
+      <trans>πμ/μμ και ζώνη ώρας:</trans>
+    </entry>
+    <entry>
+      <base>NTP_ENABLE_DESC</base>
+      <trans>Ο διακομιστής μπορεί περιοδικά να συγχρονίζει το ρολόι συστήματος με ένα διακομιστή πρωτοκόλλου ώρας δικτύου (NTP). Εάν επιλέξετε αυτή τη δυνατότητα, κάνετε στη συνέχεια εισαγωγή του ονόματος ή της IP διεύθυνσης του διακομιστή NTP.</trans>
+    </entry>
+    <entry>
+      <base>NTP_CONFIGURE_DESC</base>
+      <trans>Ο διακομιστής συγχρονίζει περιοδικά το ρολόι συστήματος με ένα διακομιστή πρωτοκόλλου ώρας δικτύου (NTP) που προσδιορίζεται στη συνέχεια. Για να συγχρονίζει με ένα διαφορετικό διακομιστή NTP, εισάγετε στο πεδίο που ακολουθεί μία άλλη ονομασία διακομιστή ή την IP διεύθυνσή του.</trans>
+    </entry>
+    <entry>
+      <base>NTP_DISABLE_DESC</base>
+      <trans>Επιλέξατε την δυνατότητα διακοπής συγχρονισμού του ρολογιού συστήματος με τον διακομιστή NTP. Όταν η υπηρεσία NTP απενεργοποιηθεί, μπορείτε να ρυθμίσετε από την παρούσα σελίδα με το χέρι την ημερομηνία και ώρα συστήματος.</trans>
+    </entry>
+    <entry>
+      <base>NTP_SERVER</base>
+      <trans>Διακομιστής NTP</trans>
+    </entry>
+    <entry>
+      <base>VERIFY_DATE_AND_TIME</base>
+      <trans>Επιβεβαίωση ημερομηνίας και ώρας</trans>
+    </entry>
+    <entry>
+      <base>NEW_DATE_AND_TIME</base>
+      <trans>Νέα ρύθμιση ημερομηνίας και ώρας:</trans>
+    </entry>
+    <entry>
+      <base>SETTING_DATE_AND_TIME</base>
+      <trans>Ρύθμιση ημερομηνίας και ώρας</trans>
+    </entry>
+    <entry>
+      <base>INVALID_DAY</base>
+      <trans>Σφάλμα: μη-έγκυρη ημέρα του μήνα:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_1_AND_31</base>
+      <trans>Παρακαλώ επιλέξατε μία ημέρα μεταξύ 1 και 31.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_YEAR</base>
+      <trans>Σφάλμα: μη-έγκυρο έτος:</trans>
+    </entry>
+    <entry>
+      <base>FOUR_DIGIT_YEAR</base>
+      <trans>Παρακαλώ επιλέξατε έτος (σε τετραψήφια μορφή) μεταξύ 1900 και 2200.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_HOUR</base>
+      <trans>Σφάλμα: μη-έγκυρη ώρα:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_1_AND_12</base>
+      <trans>Παρακαλώ επιλέξατε ώρα μεταξύ 1 και 12.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_MINUTE</base>
+      <trans>Σφάλμα: μη-έγκυρα λεπτά:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_0_AND_59</base>
+      <trans>Παρακαλώ επιλέξατε λεπτά μεταξύ 0 και 59.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_SECOND</base>
+      <trans>Σφάλμα: μη-έγκυρο δευτερόλεπτο</trans>
+    </entry>
+    <entry>
+      <base>UPDATING_CLOCK</base>
+      <trans><![CDATA[ Το ρολόι συστήματος έχει ενημερωθεί. Παρακαλώ περιμένετε μερικά δευτερόλεπτα, στη συνέχεια κάντε κλικ <A HREF="datetime?page=1&wherenext=Verify" TARGET="main">εδώ</A> για επιβεβαίωση των αλλαγών. ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_SETTING_CLOCK</base>
+      <trans>Παρουσιάσθηκε σφάλμα κατά την ρύθμιση της ώρας συστήματος και του ρολογιού υλικού.</trans>
+    </entry>
+    <entry>
+      <base>SERVER_DISABLED</base>
+      <trans>Επιτυχής απενεργοποίηση διακομιστή ώρας NTP</trans>
+    </entry>
+    <entry>
+      <base>SERVER_DISABLED_DESC</base>
+      <trans><![CDATA[ Έχετε απενεργοποιήσει αυτή την υπηρεσία: Ο διακομιστής θα στηρίζεται στο εσωτερικό του ρολόι, και <b>δεν </b> θα προσπαθεί να συγχρονισθεί με κάποιο διακομιστή ώρας. ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_CHANGING_TS</base>
+      <trans>Σφάλμα κατά την αλλαγή της ρύθμισης του διακομιστή ώρας</trans>
+    </entry>
+    <entry>
+      <base>INVALID_NTP_ADDR</base>
+      <trans>Μη-έγκυρη διεύθυνση διακομιστή NTP:</trans>
+    </entry>
+    <entry>
+      <base>SETTINGS_CHANGED</base>
+      <trans>Επιτυχής τροποποίηση ρύθμισης διακομιστή ώρας NTP</trans>
+    </entry>
+    <entry>
+      <base>SYNC_WITH</base>
+      <trans>Ο παρών διακομιστής έχει τώρα ρυθμισθεί ώστε να συγχρονίζεται περιοδικά (μέσω διαδικτύου) με:</trans>
+    </entry>
+    <entry>
+      <base>INVALID_NTP_SERVER</base>
+      <trans><![CDATA[ Μη-έγκυρος διακομιστής NTP, ο διακομιστής σας <b>δεν </b> θα προσπαθεί να συγχρονισθεί με έναν άλλο διακομιστή ώρας. ]]></trans>
+    </entry>
+    <entry>
+      <base>NETWORK_TIME_SERVER</base>
+      <trans>Διακομιστής Ώρας Δικτύου</trans>
+    </entry>
+    <entry>
+      <base>NTP_CONFIGURE_TITLE</base>
+      <trans>Ρύθμιση παραμέτρων διακομιστή ώρας δικτύου</trans>
+    </entry>
+    <entry>
+      <base>NTP_ENABLE_TITLE</base>
+      <trans>Ενεργοποίηση διακομιστή ώρας δικτύου</trans>
+    </entry>
+    <entry>
+      <base>NTP_DISABLE_TITLE</base>
+      <trans>Απενεργοποίηση διακομιστή ώρας δικτύου</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_SETTING</base>
+      <trans>Τρέχουσα ρύθμιση</trans>
+    </entry>
+    <entry>
+      <base>Date and time</base>
+      <trans>Ημερομηνία και ώρα</trans>
+    </entry>
+  </lexicon>

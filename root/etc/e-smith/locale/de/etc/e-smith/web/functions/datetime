@@ -1,0 +1,202 @@
+<lexicon lang="de">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Datum- und Zeiteinstellung</trans>
+    </entry>
+    <entry>
+      <base>INITIAL_DESC</base>
+      <trans>Hier werden Datum und Zeit für diesen Server eingestellt. Sie haben die Möglichkeit, einen bestehenden NTP-Server zu verwenden oder Sie stellen die Zeit manuell für Ihre Zeitzone ein.</trans>
+    </entry>
+    <entry>
+      <base>SET_DATE_TITLE</base>
+      <trans>Datum und Uhrzeit einstellen</trans>
+    </entry>
+    <entry>
+      <base>COULD_NOT_OPEN_TZ_FILE</base>
+      <trans>FEHLER: die Zeitzonendatei kann nicht gelesen werden:</trans>
+    </entry>
+    <entry>
+      <base>JANUARY</base>
+      <trans>Januar</trans>
+    </entry>
+    <entry>
+      <base>FEBRUARY</base>
+      <trans>Februar</trans>
+    </entry>
+    <entry>
+      <base>MARCH</base>
+      <trans>März</trans>
+    </entry>
+    <entry>
+      <base>APRIL</base>
+      <trans>April</trans>
+    </entry>
+    <entry>
+      <base>MAY</base>
+      <trans>Mai</trans>
+    </entry>
+    <entry>
+      <base>JUNE</base>
+      <trans>Juni</trans>
+    </entry>
+    <entry>
+      <base>JULY</base>
+      <trans>Juli</trans>
+    </entry>
+    <entry>
+      <base>AUGUST</base>
+      <trans>August</trans>
+    </entry>
+    <entry>
+      <base>SEPTEMBER</base>
+      <trans>September</trans>
+    </entry>
+    <entry>
+      <base>OCTOBER</base>
+      <trans>Oktober</trans>
+    </entry>
+    <entry>
+      <base>NOVEMBER</base>
+      <trans>November</trans>
+    </entry>
+    <entry>
+      <base>DECEMBER</base>
+      <trans>Dezember</trans>
+    </entry>
+    <entry>
+      <base>NEW_M/D/Y</base>
+      <trans>Eingabe Monat/Tag/Jahr:</trans>
+    </entry>
+    <entry>
+      <base>NEW_H/M/S</base>
+      <trans>Eingabe Stunde/Minute/Sekunde:</trans>
+    </entry>
+    <entry>
+      <base>AM/PM_AND_TZ</base>
+      <trans>AM (Vormittag)/PM (Nachmittag) und Zeitzone:</trans>
+    </entry>
+    <entry>
+      <base>NTP_ENABLE_DESC</base>
+      <trans>Dieser Server bietet die Möglichkeit, die Systemzeit regelmäßig mit einem anderen Server über das Network Time Protocol (NTP) zu synchronisieren. Wenn Sie diese Option auswählen, müssen Sie unten die IP-Adresse oder den Hostnamen des NTP-Servers angeben.</trans>
+    </entry>
+    <entry>
+      <base>NTP_CONFIGURE_DESC</base>
+      <trans>Die Systemzeit des Server wird über das Network Time Protocol (NTP) regelmäßig mit der in der unten eingetragene Adresse synchronisiert. Um das System mit einem anderen NTP-Server zu synchronisieren, geben Sie bitte eine andere IP-Adresse oder Hostnamen ein.</trans>
+    </entry>
+    <entry>
+      <base>NTP_DISABLE_DESC</base>
+      <trans>Wählen Sie diese Option, um die Zeitsynchronisation zwischen dem Server und dem NTP-Server zu beenden. Wenn der NTP-Service deaktiviert ist, können Sie das Datum und die Uhrzeit manuell über diese Seite einstellen.</trans>
+    </entry>
+    <entry>
+      <base>NTP_SERVER</base>
+      <trans>NTP-Server</trans>
+    </entry>
+    <entry>
+      <base>VERIFY_DATE_AND_TIME</base>
+      <trans>Überprüfung des Datums und der Uhrzeit</trans>
+    </entry>
+    <entry>
+      <base>NEW_DATE_AND_TIME</base>
+      <trans>Neue Datum- und Uhrzeiteinstellung:</trans>
+    </entry>
+    <entry>
+      <base>SETTING_DATE_AND_TIME</base>
+      <trans>Datum und Uhrzeit einstellen</trans>
+    </entry>
+    <entry>
+      <base>INVALID_DAY</base>
+      <trans>FEHLER: Ungültiger Tag im Monat:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_1_AND_31</base>
+      <trans>Bitte wählen Sie einen Tag zwischen dem 1. und 31.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_YEAR</base>
+      <trans>FEHLER: Ungültiges Jahr:</trans>
+    </entry>
+    <entry>
+      <base>FOUR_DIGIT_YEAR</base>
+      <trans>Bitte wählen Sie ein vierstelliges Jahr zwischen 1900 und 2200.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_HOUR</base>
+      <trans>FEHLER: ungültige Stunde:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_1_AND_12</base>
+      <trans>Bitte wählen Sie eine Stunde zwischen 1 und 12.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_MINUTE</base>
+      <trans>FEHLER: ungültige Minute:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_0_AND_59</base>
+      <trans>Bitte wählen Sie eine Minute zwischen 0 und 59.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_SECOND</base>
+      <trans>FEHLER: ungültige Sekunde</trans>
+    </entry>
+    <entry>
+      <base>UPDATING_CLOCK</base>
+      <trans><![CDATA[ Die Systemzeit wird neu eingestellt. Bitte warten Sie einige Sekunden und dann klicken Sie <A HREF="datetime?page=1&wherenext=Verify" TARGET="main">hier</A> um die Änderungen zu überprüfen. ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_SETTING_CLOCK</base>
+      <trans>Beim Einstellen des Systemzeit und der Rechneruhr ist ein Fehler aufgetreten.</trans>
+    </entry>
+    <entry>
+      <base>SERVER_DISABLED</base>
+      <trans>NTP-Server Zeitsynchronisation wurde erfolgreich abgeschaltet</trans>
+    </entry>
+    <entry>
+      <base>SERVER_DISABLED_DESC</base>
+      <trans><![CDATA[ Sie haben diesen Service abgeschaltet: der Server arbeitet jetzt mit der internen Uhr und wird <b>nicht</b> versuchen, sich mit einem NTP-Server zu synchronisieren. ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_CHANGING_TS</base>
+      <trans>Fehler bei der Änderung der Einstellungen des NTP-Servers</trans>
+    </entry>
+    <entry>
+      <base>INVALID_NTP_ADDR</base>
+      <trans>Ungültige NTP-Server Adresse:</trans>
+    </entry>
+    <entry>
+      <base>SETTINGS_CHANGED</base>
+      <trans>NTP-Server Einstellungen wurden erfolgreich geändert</trans>
+    </entry>
+    <entry>
+      <base>SYNC_WITH</base>
+      <trans>Dieser Server ist nun eingerichtet, sich regelmäßig (über das Internet) mit folgendem NTP-Server zu synchronisieren:</trans>
+    </entry>
+    <entry>
+      <base>INVALID_NTP_SERVER</base>
+      <trans><![CDATA[ Ungültiger NTP-Server, der Server wird <b>nicht</b> versuchen, sich mit einem NTP-Server zu synchronisieren. ]]></trans>
+    </entry>
+    <entry>
+      <base>NETWORK_TIME_SERVER</base>
+      <trans>NTP-Server</trans>
+    </entry>
+    <entry>
+      <base>NTP_CONFIGURE_TITLE</base>
+      <trans>NTP-Server einstellen</trans>
+    </entry>
+    <entry>
+      <base>NTP_ENABLE_TITLE</base>
+      <trans>NTP-Server aktivieren</trans>
+    </entry>
+    <entry>
+      <base>NTP_DISABLE_TITLE</base>
+      <trans>NTP-Server deaktivieren</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_SETTING</base>
+      <trans>Aktuelle Einstellungen</trans>
+    </entry>
+    <entry>
+      <base>Date and time</base>
+      <trans>Datum und Uhrzeit</trans>
+    </entry>
+  </lexicon>

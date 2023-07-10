@@ -1,0 +1,108 @@
+<lexicon lang="nb">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>Local networks</base>
+        <trans>Lokale nettverk</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ Av sikkerhetsmessige grunner er flere av tjenestene på serveren bare tilgjenglig på det lokale nettverket. Imidlertid kan du gi rettigheter for disse til flere nettverk ved å oppgi nettverkene nedenfor. De fleste installasjoner kan la listen være tom.</P><P> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Legg til nettverk</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>Legg til et lokalt nettverk</trans>
+    </entry>
+    <entry>
+        <base>ADD_DESC</base>
+        <trans><![CDATA[ Hvert parameter må være i formatet #.#.#.# (hver # er et nummer fra 0 til 255). Server programvaren vil nulle ut enden (maskin identifikator) delen av nettverk adressen i henhold til subnet masken, for å forsikre at nettverk adressen er gyldig. </P><P> "Ruter" bør være IP adressen til ruteren på ditt lokale nettverk som det ekstra nettverket kan nås. ]]></trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ADDRESS</base>
+        <trans>Nettverksadresse</trans>
+    </entry>
+    <entry>
+        <base>SUBNET_MASK</base>
+        <trans>Subnett maske</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IP_ADDRESS</base>
+        <trans>Ugyldig IP-adresse</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SUBNET_MASK</base>
+        <trans>Ugyldig lokal subnettmaske</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Fjerne lokalt nettverk</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Du er i ferd med å fjerne følgende lokale nettverk.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_CONFIRM</base>
+        <trans>Er du sikker på atr du vil fjerne dette nettverket?</trans>
+    </entry>
+    <entry>
+        <base>DEFAULT</base>
+        <trans>Standard</trans>
+    </entry>
+    <entry>
+        <base>NUMBER_OF_HOSTS</base>
+        <trans>Antall maskiner</trans>
+    </entry>
+    <entry>
+        <base>NOT_ACCESSIBLE_FROM_LOCAL_NETWORK</base>
+        <trans>Feil: ruter adressen {$networkRouter} er ikke tilgjenglig fra det lokale nettverket. nettverket ble ikke lagt til.</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_LOCAL</base>
+        <trans>Feil: nettverket {$network} (avledet fra nettverket {$networkAddress} og subnettmasken {$networkMask})</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_ADDED</base>
+        <trans>Feil: nettverket {$network} (avledet fra nettverket {$networkAddress} og subnettmasken {$networkMask}) er allerede lagt til. Nettverket ble ikke lagt til.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_CREATING_NETWORK</base>
+        <trans>En feil oppsto under opprettelse av nettverk.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Nettverket {$network}/{$networkMask} lagt til via ruteren {$networkRouter}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_SINGLE_ADDRESS</base>
+        <trans>Nettverket {$network}/{$networkMask} lagt til via router {$networkRouter}.Serveren din vil gi lokale privilegier til den enkle IP adressen {$network}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NETWORK_RANGE</base>
+        <trans>Nettverket  {$network}/{$networkMask} lagt til via router {$networkRouter}.Serveren din vil gi lokale privilegier til den {$totalHosts} IP adressene i området {$network}  {$firstAddr} to {$lastAddr}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NONSTANDARD_RANGE</base>
+        <trans><![CDATA[ <p> Nettverket {$network}/{$networkMask} lagt til via router {$networkRouter}.Serveren din vil gi lokale privilegier til den {$totalHosts} IP adressene i området {$network} {$firstAddr} to {$lastAddr}.</p> <p> Advarsel: ProFTPd FTP serveren kan ikke håndtere ikke standardiserte subnetmasker. Den enklere spesifikasjonen<b>{$simpleMask}</b> blir brukt isteden. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_REMOVED_NETWORK</base>
+        <trans>Nettverket {$network}/{$networkMask} lagt til via router {$networkRouter}.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_DELETING_NETWORK</base>
+        <trans>En feil oppsto under sletting av nettverk. </trans>
+    </entry>
+    <entry>
+        <base>NO_ADDITIONAL_NETWORKS</base>
+        <trans>Ingen flere nettverk</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_DESC</base>
+        <trans>Lokale maskiner er satt opp på nettverket som du er i ferd med å fjerne. Som standard blir også disse fjernet. Hvis du av en eller annen grunn ikke vil fjerne disse fjerner du merket her. Merk at disse etterpå ikke vil bli sett på som lokale maskiner, og vil muligens ikke være tilgjenglige etter at nettverket er slettet.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_LABEL</base>
+        <trans>Fjern maskiner på nettverket</trans>
+    </entry>
+</lexicon>

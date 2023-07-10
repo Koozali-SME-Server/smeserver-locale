@@ -1,0 +1,242 @@
+<lexicon lang="el">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Δημιουργία, τροποποίηση ή διαγραφή λογαριασμών χρηστών</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> <a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">Προσθήκη λογαριασμού χρήστη</a> </p> <p> Μπορείτε να τροποποιήσετε, κλειδώσετε ή διαγράψετε οποιονδήποτε λογαριασμό, ή να ρυθμίσετε εκ νέου τον κωδικό πρόσβασής του κάνοντας κλικ στην αντίστοιχη εντολή δίπλα στον λογαριασμό. </p> <p> Αν ο λογαριασμός επισημαίνεται σαν κλειδωμένος αυτό σημαίνει ότι ο κωδικός πρόσβασης του χρήστη πρέπει να αρχικοποιηθεί (reset). Σημειώσατε ότι νεο-δημιουργημένοι λογαριασμοί κλειδώνονται αυτόματα μέχρις ότου αλλαχθεί ο κωδικός πρόσβασής των. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>P2_TITLE</base>
+        <trans>Δημιουργία ή τροποποίηση</trans>
+    </entry>
+    <entry>
+        <base>CREATE_MODIFY_DESC</base>
+        <trans><![CDATA[ <p> Η ονομασία λογαριασμού πρέπει να περιλαμβάνει μόνο πεζά γράμματα, αριθμούς, τελείες, παύλες, κάτω παύλες και ν΄αρχίζει με ένα πεζό γράμμα. Για παράδειγμα οι ονομασίες λογαριασμών "betty", "hjohnson" και "mary-jane" είναι έγκυρες σε αντίθεση με τις "John Smith" και "henry:miller" που δεν είναι. </p> <p> Σημειώσατε ότι σε κάθε νέο λογαριασμό θα δημιουργηθούν δύο εξατομικευμένα ψευδώνυμα. Τα ψευδώνυμα αυτά παρέχουν την δυνατότητα στο χρήστη να έχει δύο εναλλακτικούς λογαριασμούς ηλεκτρονικής αλληλογραφίας οι οποίοι περιλαμβάνουν το όνομα και το επίθετό του χωρισμένα με μία τελεία και μία παύλα υπογράμμισης. Έτσι για τον λογαριασμό "betty" με όνομα "Betty" και επίθετο "Rubble" δημιουργούνται δύο ψευδώνυμα όπως betty.rubble και betty_rubble. </p> <p> Οι πληροφορίες ευρετηρίου (υπηρεσία, εταιρεία, κ.λ.π.) μπορούν να μεταβληθούν σε σχέση με τις αρχικές που εμφανίζονται κατωτέρω. Οι αλλαγές θα έχουν εφαρμογή μόνο στον συγκεκριμένο χρήστη. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MODIFY_ADMIN_TITLE</base>
+        <trans>Τροποποίηση του λογαριασμού admin</trans>
+    </entry>
+    <entry>
+        <base>USER_CREATED</base>
+        <trans>Επιτυχής δημιουργία λογαριασμού χρήστη.</trans>
+    </entry>
+    <entry>
+        <base>USER_MODIFIED</base>
+        <trans>Επιτυχής τροποποίηση λογαριασμού χρήστη.</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER</base>
+        <trans>Σφάλμα: Παρουσιάστηκε εσωτερικό σφάλμα κατά την απόπειρα τροποποίησης του χρήστη "{$acctName}".</trans> 
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER_GROUPS</base> 
+        <trans>Σφάλμα: Παρουσιάστηκε εσωτερικό σφάλμα κατά την απόπειρα τροποποίησης της ομάδας "{$group}" για το χρήστη "{$acctName}".</trans>
+    </entry>
+    <entry>
+        <base>TAINTED_USER</base>
+        <trans>Η ονομασία λογαριασμού "{$acctName}" περιλαμβάνει μη-έγκυρους χαρακτήρες.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME</base>
+        <trans>Ονομασία λογαριασμού</trans>
+    </entry>
+    <entry>
+        <base>FIRSTNAME</base>
+        <trans>Όνομα</trans>
+    </entry>
+    <entry>
+        <base>LASTNAME</base>
+        <trans>Επίθετο</trans>
+    </entry>
+    <entry>
+        <base>DEPARTMENT</base>
+        <trans>Υπηρεσία</trans>
+    </entry>
+    <entry>
+        <base>COMPANY</base>
+        <trans>Εταιρεία</trans>
+    </entry>
+    <entry>
+        <base>STREET_ADDRESS</base>
+        <trans>Διεύθυνση</trans>
+    </entry>
+    <entry>
+        <base>CITY</base>
+        <trans>Πόλη</trans>
+    </entry>
+    <entry>
+        <base>PHONE_NUMBER</base>
+        <trans>Αριθμός τηλεφώνου</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_DELIVERY</base>
+        <trans>Επίδοση ηλεκτρονικής αλληλογραφίας</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_EMAIL_LOCALLY</base>
+        <trans>Τοπική επίδοση ηλεκτρονικής αλληλογραφίας</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_EMAIL</base>
+        <trans>Προώθηση ηλεκτρονικής αλληλογραφίας στην διεύθυνση που ακολουθεί</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_AND_FORWARD</base>
+        <trans>Τοπική επίδοση και προώθηση</trans>
+    </entry>
+    <entry>
+        <base>FORWARDING_ADDRESS</base>
+        <trans>Διεύθυνση προώθησης</trans>
+    </entry>
+    <entry>
+        <base>GROUP_MEMBERSHIPS</base>
+        <trans>Συμμετοχή σε ομάδες</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC</base>
+        <trans>Πρόκειται ν' αλλάξετε τον κωδικό πρόσβασης για το λογαριασμό χρήστη</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC2</base>
+        <trans>Πληκτρολογήστε τον νέο κωδικό πρόσβασης στα πεδία που ακολουθούν</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_MODIFYING_PASSWORD</base>
+        <trans>Σφάλμα κατά την διαδικασία επικαιροποίησης του κωδικού πρόσβασης</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE_SUCCEEDED</base>
+        <trans>Επιτυχής αλλαγή κωδικού πρόσβασης για τον χρήστη "{$acctName}".</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC</base>
+        <trans>Πρόκειται να κλειδώσετε το λογαριασμό χρήστη</trans>
+    </entry>
+    <entry>
+        <base>LOCKED_ACCOUNT</base>
+        <trans>Επιτυχές κλείδωμα του λογαριασμού του χρήστη "{$acctName}".</trans>
+    </entry>
+    <entry>
+        <base>NO_SUCH_USER</base>
+        <trans>Σφάλμα: Δεν υφίσταται λογαριασμός χρήστη "{$acctName}".</trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM_CLASH</base>
+        <trans>Σφάλμα: το ψευδώνυμο "{$pseudonym}" έχει ήδη παραχωρηθεί στον υπάρχοντα λογαριασμό χρήστη"{$clashName}". Για να διαφοροποιηθείτε, προσθέστε αρχικούς χαρακτήρες σ' αυτό το πεδίο.</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT</base>
+        <trans>Κλείδωμα λογαριασμού</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT_TITLE</base>
+        <trans>Κλείδωμα λογαριασμού χρήστη</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC2</base>
+        <trans><![CDATA[ Ο λογαριασμός αυτού του χρήστη θα κλειδωθεί. Αυτό σημαίνει ότι ο συγκεκριμένος χρήστης δεν θα μπορεί να συνδεθεί και να παραλάβει την ηλ. αλληλογραφία του. Κάθε μήνυμα ηλ. ταχυδρομείου που θα αφικνείται θα συνεχίζει να αποθηκεύεται και/ή να προωθείται προς έναν εξωτερικό λογαριασμό σύμφωνα με την ισχύουσα ρύθμιση. Ο λογαριασμός μπορεί να καταστεί ενεργός στο μέλλον μετά από νέα ρύθμιση του κωδικού πρόσβασης. Ο τωρινός κωδικός δεν θα διατηρηθεί. </p> <p> <b>Είστε σίγουροι ότι θέλετε να κλειδώσετε αυτόν το λογαριασμό;</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>REMOVE_ACCOUNT_TITLE</base>
+        <trans>Διαγραφή λογαριασμού χρήστη</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Πρόκειται να διαγράψετε το λογαριασμό χρήστη</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans><![CDATA[ Όλα τα αρχεία που ανήκουν σε αυτό τον λογαριασμό χρήστη θα διαγραφούν. Επίσης, κάθε μήνυμα ηλ. ταχυδρομείου προς αυτόν τον λογαριασμό χρήστη που ευρίσκεται ακόμη στον διακομιστή (δηλαδή, που δεν έχει παραληφθεί από τον χρήστη) θα πεταχθεί. </p> <p> <b>Είστε σίγουροι ότι επιθυμείτε ν' αφαιρεθεί αυτός ο λογαριασμός;</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>LOCK</base>
+        <trans>Κλείδωμα</trans>
+    </entry>
+    <entry>
+        <base>NO_USER_ACCOUNTS</base>
+        <trans>Δεν υφίστανται λογαριασμοί χρηστών σ΄αυτό το σύστημα.</trans>
+    </entry>
+    <entry>
+        <base>Users</base>
+        <trans>Χρήστες</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>Η ονομασία του λογαριασμού "{$acctName}"περιλαμβάνει μη-αποδεκτούς χαρακτήρες. Οι ονομασίες λογαριασμών πρέπει ν' αρχίζουν με πεζό γράμμα και να περιλαμβάνουν μόνο πεζά γράμματα, αριθμούς, hyphens, τελείες στίξης και μπάρες υπογράμμισης.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_TOO_LONG</base>
+        <trans>Σφάλμα: ονομασία λογαριασμού μεγάλου μήκους. Το μέγιστο μήκος είναι {$maxLength} χαρακτήρες.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>Σφάλμα: ο λογαριασμός "{$account}" δεν μπορεί να δημιουργηθεί διότι υπάρχει ήδη ένας λογαριασμός {$type}με την ίδια ονομασία.</trans>
+    </entry>    
+    <entry>
+        <base>ERR_OCCURRED_CREATING</base>
+        <trans>Παρουσιάσθηκε σφάλμα κατά τη δημιουργία του χρήστη.</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_CONTAIN_WHITESPACE</base>
+        <trans>Το παρόν πεδίο δεν μπορεί να περιλαμβάνει "αόρατους" χαρακτήρες (spaces, tabs, newlines)</trans>
+    </entry>
+    <entry>
+        <base>UNACCEPTABLE_CHARS</base>
+        <trans>Το παρόν πεδίο πρέπει να περιλαμβάνει μόνο γράμματα, αριθμούς, τελείες, παύλες και παύλες υπογράμμισης και να αρχίζει με ένα γράμμα</trans>
+    </entry>
+    <entry>
+        <base>MEMBER</base>
+        <trans>Μέλος;</trans>
+    </entry>
+    <entry>
+        <base>VPN_CLIENT_ACCESS</base>
+        <trans>Πρόσβαση Πελατών VPN</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_FORM_TITLE</base>
+        <trans>Αλλαγή κωδικού πρόσβασης συστήματος</trans>
+    </entry>    
+    <entry> 
+        <base>SYSTEM_PASSWORD_DESCRIPTION</base>
+        <trans><![CDATA[ Ορισμένες υπηρεσίες του παρόντος διακομιστή απαιτούν όνομα χρήστη και κωδικό πρόσβασης (όπως αυτή η ιστοσελίδα της εφαρμογής διαχείρισης του διακομιστή). Το όνομα χρήστη είναι πάντοτε admin. Μπορείτε να αλλάξετε τον κωδικό πρόσβασης χρησιμοποιώντας τα παρακάτω πεδία. ]]></trans>        
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS</base>
+        <trans>Ο κωδικός πρόσβασης πρέπει να περιέχει μόνο εκτυπώσιμους χαρακτήρες</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_VERIFY_ERROR</base>
+        <trans>Οι δύο κωδικοί πρόσβασης δεν είναι ταυτόσημοι.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_AUTH_ERROR</base>
+        <trans>Ο τρέχων κωδικός πρόσβασης είναι λανθασμένος.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_CHANGED</base>
+        <trans>Ο κωδικός πρόσβασης συστήματος έχει αλλάξει.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_SYSTEM_PASSWORD</base>
+        <trans>Τρέχων κωδικός πρόσβασης συστήματος</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD</base>
+        <trans>Νέος κωδικός πρόσβασης συστήματος</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD_VERIFY</base>
+        <trans>Νέος κωδικός πρόσβασης συστήματος (επιβεβαίωση)</trans>
+    </entry>            
+    <entry>
+        <base>LABEL_IPSECRW_DOWNLOAD</base>
+        <trans>Αποστολή (download) ψηφιακού πιστοποιητικού σε πελάτη IPSec</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_DELETING</base>
+        <trans>Παρουσιάστηκε σφάλμα κατά την απόπειρα διαγραφής του χρήστη.</trans>
+    </entry>
+</lexicon>

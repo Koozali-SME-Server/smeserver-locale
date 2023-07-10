@@ -1,0 +1,126 @@
+<lexicon lang="da">
+    <entry>
+        <base>Review configuration</base>
+        <trans>Vis opsætning</trans>
+    </entry>	
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans>Denne rapport viser de aktuelle indstillinger som er nødvendige, for at kunne konfigurere klientmaskinerne på dit lokalnet. Du kan udskrive denne side og bruge den som reference.</trans>	
+    </entry>
+    <entry>
+        <base>NETWORKING_PARAMS</base>
+        <trans>Netværksparametre</trans>
+    </entry> 
+    <entry>
+        <base>SERVER_MODE</base>
+        <trans>Server tilstand</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP_ADDRESS_SUBNET_MASK</base>
+        <trans>Lokal IP addresse / subnet maske</trans>
+    </entry>
+    <entry>
+        <base>EXTERNAL_IP_ADDRESS_SUBNET_MASK</base>
+        <trans>Ekstern IP addresse / subnet maske</trans>
+    </entry>
+    <entry>
+        <base>GATEWAY</base>
+        <trans>Gateway</trans>
+    </entry>
+    <entry>
+        <base>ADDITIONAL_LOCAL_NETWORKS</base>
+        <trans>Yderligere netværk</trans>
+    </entry>
+    <entry>
+        <base>DHCP_SERVER</base>
+        <trans>DHCPserver</trans>
+    </entry>
+    <entry>
+        <base>BEGINNING_OF_DHCP_ADDRESS_RANGE</base>
+        <trans>DHCP startadresse</trans>
+    </entry>
+    <entry>
+        <base>END_OF_DHCP_ADDRESS_RANGE</base>
+        <trans>DHCP slutadresse</trans>
+    </entry>
+    <entry>
+        <base>SERVER_NAMES</base>
+        <trans>Server navne</trans>
+    </entry>
+    <entry>
+        <base>DNS_SERVER</base>
+        <trans>DNSserver</trans>
+    </entry>
+    <entry>
+        <base>WEB_SERVER</base>
+        <trans>Webserver</trans>
+    </entry>
+    <entry>
+        <base>PROXY_SERVER</base>
+        <trans>Proxyserver</trans>
+    </entry>
+    <entry>
+        <base>FTP_SERVER</base>
+        <trans>FTPserver</trans>
+    </entry>
+    <entry>
+        <base>SMTP_POP_AND_IMAP_MAIL_SERVERS</base>
+        <trans>SMTP, POP, og IMAPmail servere</trans>
+    </entry>
+    <entry>
+        <base>HOSTS</base>
+        <trans>Værter</trans>
+    </entry> 
+    <entry>
+        <base>DOMAIN_INFORMATION</base>
+        <trans>Domæne-information</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_DOMAIN</base>
+        <trans>Primære domæne</trans>
+    </entry>
+    <entry>
+        <base>VIRTUAL_DOMAINS</base>
+        <trans>Virtuelle domæner</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_WEB_SITE</base>
+        <trans>Primær web side</trans>
+    </entry>
+    <entry>
+        <base>MITEL_NETWORKS_SME_SERVER_MANAGER</base>
+        <trans>Server-styring</trans>
+    </entry>
+    <entry>
+        <base>MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL</base>
+        <trans>Bruger password panel</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_ADDRESSES</base>
+        <trans>Email Adresser</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_USERACCOUNT</base>
+        <trans>brugerkonto</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_FIRSTNAME</base>
+        <trans>fornavn</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_LASTNAME</base>
+        <trans>efternavn</trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>Ingen virtuelle domæner defineret</trans>
+    </entry>
+    <entry>
+        <base>NO_NETWORKS</base>
+        <trans>Ingen yderligere netværk defineret</trans>
+    </entry>
+    <entry>
+        <base>INTERNET_VISIBLE_ADDRESS</base>
+        <trans>Internet Synlige IP Adresse</trans>
+    </entry>
+</lexicon>

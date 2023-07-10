@@ -1,0 +1,42 @@
+<lexicon lang="fr">
+    <entry>
+        <base>Proxy settings</base>
+        <trans>Services Proxy</trans>
+    </entry>
+    <entry>
+        <base>FIRST_PAGE_DESCRIPTION</base>
+        <trans>Cette page va vous permettre de définir le fonctionnement des services Proxy. Votre serveur intègre un Proxy transparent et un cache pour le trafic HTTP. Il est activé par défaut sauf dans le cas où le serveur est configuré en mode "Serveur uniquement". Si ce serveur est utilisé comme serveur de messagerie, les requêtes des hôtes du réseau local à destination des serveurs SMTP externes seront redirigées par défaut vers ce serveur.</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>Le service Proxy HTTP permet de réduire votre consommation de bande passante en mettant en cache les pages récemment visitées. Il est transparent vis à vis des navigateurs qui utilisent ce serveur comme passerelle. Vous pouvez activer ou désactiver ce Proxy avec le commutateur suivant :</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_LABEL</base>
+        <trans>État du service Proxy HTTP</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>Le service Proxy SMTP transparent permet de réduire le trafic lié aux virus à partir des hôtes infectés en forçant tout le trafic SMTP sortant à traverser ce serveur. Si vous souhaitez utiliser un autre serveur SMTP, et que ce serveur est votre passerelle vers celui-ci, désactivez ce Proxy. Régler ce proxy à "bloqué" empêche tout trafic vers d'autres serveurs, c'est le réglage par défaut. Le proxy intercepte/bloque seulement le trafic SMTP normal (port 25).</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_LABEL</base>
+        <trans>État du service Proxy SMTP</trans>
+    </entry>
+    <entry>
+        <base>ERR_PROXY_UPDATE_FAILED</base>
+        <trans>ERREUR : la mise à jour du service Proxy a retourné une erreur.</trans>
+    </entry>
+    <entry>
+        <base>ERR_NO_SQUID_REC</base>
+        <trans>ERREUR : le service squid n'est pas défini dans la base de données de configuration.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Les nouveaux paramètres du service Proxy ont été appliqués avec succès.</trans>
+    </entry>
+    <entry>
+        <base>BLOCKED</base>
+        <trans>Bloqué</trans>
+    </entry>
+</lexicon>

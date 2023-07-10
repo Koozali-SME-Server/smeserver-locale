@@ -1,0 +1,147 @@
+<lexicon lang="ro">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Add or remove printers</trans>
+    </entry>
+    <entry>
+      <base>INITIAL_DESC</base>
+      <trans><![CDATA[ <P><A class="button-like" HREF="printers?page=0&Next=Add">Add printer</A></P> ]]></trans>
+    </entry>
+    <entry>
+      <base>NO_PRINTERS</base>
+      <trans>Deocamdată nu sunt definiți utilizatori în sistem.</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_LIST</base>
+      <trans>Current List of printers</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_ADDRESS</base>
+      <trans>Stradă implicită</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_NAME</base>
+      <trans>Nume sistem</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NEW_PRINTER</base>
+      <trans>Creați pagină de start</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NEW_DESC</base>
+      <trans>Please choose a unique name for the printer and enter a brief description. The printer name should contain only lower-case letters and numbers, and should start with a lower-case letter. For example "hplaser", "epsonlp", and "canonbj" are valid choices, but "HP Laser Jet", "Canon BubbleJet", and "HP JetDirect Printer" are not. Avoid names and descriptions that contain these terms, "offline", "disabled", "down", "off", "waiting", "jam", "paper", "error" and "responding".</trans>
+    </entry>
+    <entry>
+      <base>PRINTER_NAME</base>
+      <trans>Nume imprimanta</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_0</base>
+      <trans>Local printer port 0 (LPT1)</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_1</base>
+      <trans>Local printer port 1 (LPT2)</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_2</base>
+      <trans>Local printer port 2 (LPT3)</trans>
+    </entry>
+    <entry>
+      <base>NET_PRINTER</base>
+      <trans>Network printer ...</trans>
+    </entry>
+    <entry>
+      <base>FIRST_USB_PRINTER</base>
+      <trans>First USB attached printer</trans>
+    </entry>
+    <entry>
+      <base>SECOND_USB_PRINTER</base>
+      <trans>Second USB attached printer</trans>
+    </entry>
+    <entry>
+      <base>ERR_UNEXPECTED_NAME</base>
+      <trans><![CDATA[ <P>Error: unexpected characters in printer name.</P> <P>The printer name should contain only lower-case letters and numbers, and should start with a lower-case letter. For example "hplaser", "epsonlp", and "canonbj" are valid names.</P> ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_UNEXPECTED_DESC</base>
+      <trans>Error: unexpected or missing characters in description. Did not create new printer.</trans>
+    </entry>
+    <entry>
+      <base>ERR_EXISTS</base>
+      <trans>Error: An account with the same name exists with type:</trans>
+    </entry>
+    <entry>
+      <base>ERR_INVALID_ADDRESS</base>
+      <trans>Eroare: nu există nici un membru în grup. Nu s-a creat grup.</trans>
+    </entry>
+    <entry>
+      <base>ERR_INVALID_REMOTE_NAME</base>
+      <trans>Eroare: nu există nici un membru în grup. Nu s-a creat grup.</trans>
+    </entry>
+    <entry>
+      <base>ERR_CREATING</base>
+      <trans>A apărut o eroare la creerea repository-ului.</trans>
+    </entry>
+    <entry>
+      <base>CREATED_SUCCESSFULLY</base>
+      <trans>Repository creat cu succes</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NETWORK_PRINTER</base>
+      <trans>Doar o singură placă de rețea</trans>
+    </entry>
+    <entry>
+      <base>ERR_OPENING_DB</base>
+      <trans>O eroare a apărut la actualizarea utilizatorului.</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NETWORK_DESC</base>
+      <trans>Vă rugăm introduceți numele de domeniu de bază pentru acest server.</trans>
+    </entry>
+    <entry>
+      <base>HOSTNAME_OR_IP</base>
+      <trans>Numele sau IP-ul serverului extern</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_NAME_DESC</base>
+      <trans><![CDATA[ Network printer name (enter raw if not sure) ]]></trans>
+    </entry>
+    <entry>
+      <base>REMOVE_PRINTER</base>
+      <trans>Eliminare utilizator</trans>
+    </entry>
+    <entry>
+      <base>ABOUT_TO_REMOVE</base>
+      <trans>Sunteți pe cale să ștergeți o regulă</trans>
+    </entry>
+    <entry>
+      <base>SPOOL_FILE_WARNING</base>
+      <trans>All the spool files for this printer will be deleted.</trans>
+    </entry>
+    <entry>
+      <base>ARE_YOU_SURE</base>
+      <trans><![CDATA[Sunteți sigur(ă) că vreți să ștergeți acest grup?]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_INTERNAL_FAILURE</base>
+      <trans>Eroare: reamintire minute nevalid:</trans>
+    </entry>
+    <entry>
+      <base>ERR_DELETING</base>
+      <trans>A apărut o eroare la stergerea repository-ului</trans>
+    </entry>
+    <entry>
+      <base>DELETED_SUCCESSFULLY</base>
+      <trans>Imprimanta a fost ștearsă cu succes</trans>
+    </entry>
+    <entry>
+        <base>MUST_BE_VALID_HOSTNAME_OR_IP</base>
+        <trans>Trebuie să fie un nume de gazdă valid sau un număr de IP</trans>
+    </entry>
+    <entry>
+	<base>Printers</base>
+	<trans>Printers</trans>
+    </entry>
+
+</lexicon>

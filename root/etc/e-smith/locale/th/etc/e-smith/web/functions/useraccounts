@@ -1,0 +1,242 @@
+<lexicon lang="th">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>สร้าง แก้ไข หรือลบบัญชีผู้ใช้</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p><a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">เพิ่มบัญชีผู้ใช้</a></p><p>คุณสามารถแก้ไข ล็อค ลบ หรือรีเซ็ตรหัสผ่านโดยการคลิ๊กคำสั่งที่อยู่ถัดจากชื่อบัญชี</p><p>ถ้าบัญชีใดถูกล็อค คุณต้องทำการรีเซ็ตรหัสผ่านของบัญชีนั้นเพื่อปลดล็อค หมายเหตุ ทุกบัญชีที่ทำการสร้างใหม่จะถูกล็อคจนกว่าจะทำการรีเซ็ตรหัสผ่าน</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>P2_TITLE</base>
+        <trans>สร้างหรือแก้ไข</trans>
+    </entry>
+    <entry>
+        <base>CREATE_MODIFY_DESC</base>
+        <trans><![CDATA[ <p>ชื่อบัญชีต้องเป็นตัวอักษรตัวพิมพ์เล็ก (ภาษาอังกฤษ) ตัวเลข, จุด, ยติภังค์ (-) และ ขีดล่าง (_) และจะต้องเริ่มต้นด้วยตัวอักษรเท่านั้น ตัวอย่างชื่อบัญชีที่ถูกต้อง เช่น "betty", "hjohnson", และ "mary-jane" และตัวอย่างชื่อบัญชีที่ไม่ถูกต้อง เช่น "3friends", "John Smith", และ "henry:miller" เป็นต้น</p> <p>หมายเหตุ: จะมีการสร้างนามแฝงให้บัญชีที่สร้างใหม่นี้ 2 ชื่อ นามแฝงเหล่านี้จะเป็นตัวเลือกสำหรับการระบุชื่อในการรับ/ส่งอีเมล์อีกทาง โดยจะสร้างจากการนำชื่อต้นมาต่อกับชื่อหลังโดยใช้เครื่องหมายจุด (.) คั่นกลาง ส่วนอีกนามแฝงจะคั่นด้วยยติภังค์ (_) เช่น บัญชีีชื่อ "betty" ที่มีชื่อต้นเป็น "Betty" และชื่อหลังเป็น "Rubble" นามแฝงทั้งสองจะเป็น betty.rubble และ betty_rubble</p> <p>ส่วนข้อมูลส่วนสังกัด (แผนก, บริษัท และอื่นๆ) สามารถแก้จากค่าปริยายที่ให้มาเป็นอย่างอื่นได้ ซึ่งจะส่งผลเฉพาะกับผู้ใช้รายนี้เท่านั้น</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MODIFY_ADMIN_TITLE</base>
+        <trans>แก้ไขบัญชีของผู้ดูแลระบบ (admin)</trans>
+    </entry>
+    <entry>
+        <base>USER_CREATED</base>
+        <trans>สร้างบัญชีผู้ใช้เสร็จแล้ว</trans>
+    </entry>
+    <entry>
+        <base>USER_MODIFIED</base>
+        <trans>แก้ไขบัญชีผู้ใช้เสร็จแล้ว</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER</base>
+        <trans>ผิดพลาด: เกิดผิดพลาดภายในขณะพยายามที่จะแก้ไขผู้ใช้ "{$acctName}"</trans> 
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER_GROUPS</base> 
+        <trans>ผิดพลาด: เกิดความผิดพลาดภายในขึ้นขณะที่พยายามจะแก้ไขกลุ่ม "{$group}" ของผู้ใช้ "{$acctName}"</trans>
+    </entry>
+    <entry>
+        <base>TAINTED_USER</base>
+        <trans>ชื่อบัญชี "{$acctName}" มีอักขระต้องห้าม</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME</base>
+        <trans>ชื่อบัญชี</trans>
+    </entry>
+    <entry>
+        <base>FIRSTNAME</base>
+        <trans>ชื่อ</trans>
+    </entry>
+    <entry>
+        <base>LASTNAME</base>
+        <trans>นามสกุล</trans>
+    </entry>
+    <entry>
+        <base>DEPARTMENT</base>
+        <trans>แผนก</trans>
+    </entry>
+    <entry>
+        <base>COMPANY</base>
+        <trans>บริษัท</trans>
+    </entry>
+    <entry>
+        <base>STREET_ADDRESS</base>
+        <trans>ถนน</trans>
+    </entry>
+    <entry>
+        <base>CITY</base>
+        <trans>เมือง</trans>
+    </entry>
+    <entry>
+        <base>PHONE_NUMBER</base>
+        <trans>หมายเลขโทรศัพท์</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_DELIVERY</base>
+        <trans>การส่งต่ออีเมล์</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_EMAIL_LOCALLY</base>
+        <trans>ส่งอีเมล์ภายในเท่านั้น</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_EMAIL</base>
+        <trans>ส่งต่ออีเมล์ไปที่อยู่ด้านล่าง</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_AND_FORWARD</base>
+        <trans>ทั้งส่งภายในและส่งต่อไปที่อยู่อื่น</trans>
+    </entry>
+    <entry>
+        <base>FORWARDING_ADDRESS</base>
+        <trans>ที่อยู่ส่งต่อ</trans>
+    </entry>
+    <entry>
+        <base>GROUP_MEMBERSHIPS</base>
+        <trans>สมาชิกกลุ่ม</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC</base>
+        <trans>คุณกำลังจะเปลี่ยนรหัสผ่านสำหรับบัญชีผู้ใช้</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC2</base>
+        <trans>ป้อนรหัสผ่านใหม่ในช่องด้านล่าง</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_MODIFYING_PASSWORD</base>
+        <trans>เกิดข้อผิดพลาดขณะบันทึกการแก้ไขรหัสผ่าน</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE_SUCCEEDED</base>
+        <trans>เสร็จสิ้นการเปลี่ยนรหัสผ่านของ "{$acctName}"</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC</base>
+        <trans>คุณกำลังจะล็อคบัญชีผู้ใช้</trans>
+    </entry>
+    <entry>
+        <base>LOCKED_ACCOUNT</base>
+        <trans>เสร็จสิ้นการล็อคบัญชีผู้ใช้ของ "{$acctName}"</trans>
+    </entry>
+    <entry>
+        <base>NO_SUCH_USER</base>
+        <trans>ผิดพลาด: ไม่มีบัญชีผู้ใช้ "{$acctName}" </trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM_CLASH</base>
+        <trans>ผิดพลาด: นามแฝง "{$pseudonym}" ถูกใช้ไปแล้วโดยผู้ใช้ "{$clashName}" การทำให้แตกต่างทำได้โดยเพิ่มชื่อย่อในฟิลด์นี้</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT</base>
+        <trans>ล็อคบัญชี</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT_TITLE</base>
+        <trans>ล็อคบัญชีผู้ใช้</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC2</base>
+        <trans><![CDATA[ บัญชีผู้ใช้นี้จะถูกล็อค ซึ่งหมายความว่าผู้ใช้รายนี้จะไม่สามารถเข้าสู่ระบบและจะไม่สามารถรับอีเมล์ได้ อีเมล์ใดๆ ที่เข้ามาจะถูกจัดเก็บไว้ และ/หรือ ส่งต่อไปยังที่อยู่ภายนอกหากได้ตั้งไว้ บัญชีอาจจะถูกเปิดใช้งานในอนาคตโดยการตั้งรหัสผ่านใหม่ ส่วนรหัสผ่านปัจจุบันจะไม่ถูกเก็บไว้แล้ว</p> <p> <b>คุณมั่นแล้วหรือที่จะทำการล็อคบัญชีผู้ใช้นี้?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>REMOVE_ACCOUNT_TITLE</base>
+        <trans>ลบบัญชีผู้ใช้</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>คุณกำลังจะลบบัญชีผู้ใช้</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans><![CDATA[ ทุกไฟล์เป็นของผู้ใช้นี้จะถูกลบ รวมถึงอีเมล์ที่ยังค้างอยู่ที่เซอร์ฟเวอร์ (กรณีผู้ใช้ยังไม่ได้เรียกเอาจากระบบ)</p> <p> <b>คุณมั่นแล้วหรือที่จะทำการลบบัญชีผู้ใช้นี้?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>LOCK</base>
+        <trans>ล็อค</trans>
+    </entry>
+    <entry>
+        <base>NO_USER_ACCOUNTS</base>
+        <trans>ไม่มีบัญชีผู้ใช้ในระบบนี้</trans>
+    </entry>
+    <entry>
+        <base>Users</base>
+        <trans>ผู้ใช้</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>ชื่อบัญชี "{$acctName}" มีตัวอักษรที่ไม่ถูกต้อง ชื่อบัญชีต้องเริ่มต้นด้วยตัวอักษรตัวพิมพ์เล็ก (ภาษาอังกฤษ), ตัวเลข, จุด, ยติภังค์ (-) และ ขีดล่าง (_) เท่านั้น</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_TOO_LONG</base>
+        <trans>ผิดพลาด: ชื่อบัญชียาวเกินไป ความยาวสูงสุดที่มีได้คือ {$maxLength} ตัวอักษร</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>ผิดพลาด: ไม่สามารถสร้างบัญชี "{$account}" ได้ เนื่องจากชื่อนี้ได้ถูกใช้ไปแล้ว โดยเป็นเป็นชื่อของ {$type}</trans>
+    </entry>    
+    <entry>
+        <base>ERR_OCCURRED_CREATING</base>
+        <trans>เกิดข้อผิดพลาดในการสร้างผู้ใช้</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_CONTAIN_WHITESPACE</base>
+        <trans>ฟิลด์นี้จะมีช่องว่างด้วยไม่ได้</trans>
+    </entry>
+    <entry>
+        <base>UNACCEPTABLE_CHARS</base>
+        <trans>ฟิลด์นี้ต้องเป็นตัวอักษร (ภาษาอังกฤษ) ตัวเลข, จุด, ยติภังค์ (-) และ ขีดล่าง (_) และเริ่มต้องต้นด้วยตัวอักษรเท่านั้น</trans>
+    </entry>
+    <entry>
+        <base>MEMBER</base>
+        <trans>เลือก</trans>
+    </entry>
+    <entry>
+        <base>VPN_CLIENT_ACCESS</base>
+        <trans>เปิดให้ใช้งาน VPN</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_FORM_TITLE</base>
+        <trans>เปลี่ยนรหัสผ่านของระบบ</trans>
+    </entry>    
+    <entry> 
+        <base>SYSTEM_PASSWORD_DESCRIPTION</base>
+        <trans><![CDATA[ การติดตั้งเซอร์วิสบางอย่างบนเซอร์ฟเวอร์นี้ต้องการชื่อผู้ใช้และรหัสผ่าน (เช่น หน้าเว็บที่ใช้จัดการงานของเซอร์ฟเวอร์ที่ใช้อยู่นี้) ชื่อผู้ใช้ที่ว่าคือ admin (เท่านั้น) และคุณสามารถเปลี่ยนรหัสโดยกรอกข้อมูลในช่องด้านล่างนี้ ]]></trans>        
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS</base>
+        <trans>รหัสผ่านต้องเป็นตัวพิมพ์ (printable) เท่านั้น</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_VERIFY_ERROR</base>
+        <trans>รหัสผ่านทั้งสองไม่เหมือนกัน</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_AUTH_ERROR</base>
+        <trans>รหัสผ่านเก่าไม่ถูกต้อง</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_CHANGED</base>
+        <trans>รหัสผ่านของระบบถูกเปลี่ยนแปลงแล้ว</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_SYSTEM_PASSWORD</base>
+        <trans>รหัสผ่านปัจจุบันของระบบ</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD</base>
+        <trans>รหัสผ่านใหม่ของระบบ</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD_VERIFY</base>
+        <trans>รหัสผ่านใหม่ของระบบ (ยืนยัน)</trans>
+    </entry>            
+    <entry>
+        <base>LABEL_IPSECRW_DOWNLOAD</base>
+        <trans>ดาวน์โหลด digital certificate ไป IPSec client</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_DELETING</base>
+        <trans>เกิดข้อผิดพลาดขณะพยายามลบผู้ใช้</trans>
+    </entry>
+</lexicon>

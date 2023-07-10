@@ -1,0 +1,101 @@
+<lexicon lang="pl">
+
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Zgłoś błąd</trans>
+    </entry>
+    <entry>
+        <base>DO_NOT_PANIC</base>
+        <trans>Nie panikuj!</trans>
+    </entry>
+    <entry>
+        <base>SME_EXPERIENCE</base>
+        <trans>Niestety, nie ma oprogramowania bez błędów i prawdopodobnie trafiłeś na tę stronę z powodu problemu, z którym zetknąłeś się podczas instalacji serwera SME.</trans>
+    </entry>
+    <entry>
+        <base>PLEASE_REPORT_HERE</base>
+        <trans>Aby pomóc programistom w zdiagnozowaniu i naprawieniu problemu, pobierz jeden z następujących szablonów tekstowych, wypełnij go i wklej do raportu o błędzie w</trans>
+    </entry>
+    <entry>
+        <base>USE_TEMPLATE</base>
+        <trans>Zapoznaj się z poniższym linkiem, aby dowiedzieć się, jak zgłosić skutecznie błąd używając szablonu</trans>
+    </entry>
+    <entry>
+        <base>FOLLOWING_REPORT_MIGHT_HELP</base>
+        <trans>Pomocne będzie również, jeśli podasz jakieś istotne informacje na temat konfiguracji twojego serwera SME w swoim raporcie o błędzie. Klikając przycisk „Utwórz raport konfiguracji” poniżej, możesz utworzyć i pobrać plik tekstowy zawierający te informacje. Proszę również dołączyć ten plik do swojego raportu o błędzie.</trans>
+    </entry>
+    <entry>
+        <base>REPORT_CONTENT</base>
+        <trans>Raport będzie zawierał następujące informacje</trans>
+    </entry>
+    <entry>
+        <base>SME_VERSION</base>
+        <trans>Wersja serwera SME (Koozali)</trans>
+    </entry>
+    <entry>
+        <base>SERVER_MODE</base>
+        <trans>Tryb serwera</trans>
+    </entry>
+    <entry>
+        <base>PREVIOUS_SERVER_MODE</base>
+        <trans>Poprzedni tryb pracy serwera</trans>
+    </entry>
+    <entry>
+        <base>KERNEL_AND_ARCH</base>
+        <trans>Bieżąca wersja jądra i architektura</trans>
+    </entry>
+    <entry>
+        <base>INSTALLED_RPMS</base>
+        <trans>Lista dodatkowych pakietów RPM zainstalowanych na twoim serwerze</trans>
+    </entry>
+    <entry>
+        <base>ALTERED_TEMPLATES</base>
+        <trans>Lista szablonów serwera SME, które zostały zmienione na serwerze od czasu instalacji podstawowej</trans>
+    </entry>
+    <entry>
+        <base>ALTERED_EVENTS</base>
+        <trans>Lista zdarzeń serwera SME, które zostały zmienione na Twoim serwerze od czasu instalacji podstawowej</trans>
+    </entry>
+    <entry>
+        <base>YUM_REPOS</base>
+        <trans>Lista dodatkowych repozytoriów oprogramowania skonfigurowanych na serwerze</trans>
+    </entry>
+    <entry>
+        <base>PRIVACY</base>
+        <trans>Żadne prywatne dane (np. Użytkownicy, hasła, adresy IP) nie zostaną uwzględnione w raporcie.</trans>
+    </entry>
+    <entry>
+            <base>CREATE_REPORT</base>
+            <trans>Utwórz raport konfiguracji</trans>
+    </entry>
+
+    <entry>
+            <base>DONATING</base>
+            <trans>Czy rozważałeś darowiznę?</trans>
+    </entry>
+    <entry>
+            <base>AWARE_SME</base>
+            <trans>Prawdopodobnie wiesz, że serwer SME jest rozwijany i wspierany przez współpracującą ze sobą społeczność wolontariuszy z całego świata. Podczas gdy serwer SME jest darmowy do pobrania i użytkowania, utrzymanie infrastruktury projektu (np. hosting forów i wikipedii, udostępnianie repozytoriów i tworzenie serwerów itp.) kosztuje prawdziwe pieniądze w rzeczywistym świecie.</trans>
+    </entry>
+    <entry>
+            <base>YOUR_HELP</base>
+            <trans>Na takiej samej zasadzie, na jakiej Ty potrzebujesz naszego SMEserwera aby rozwiązać swoje bieżące problemy, my potrzebujemy TWOJEJ pomocy, aby utrzymać ten projekt przy życiu!</trans>
+    </entry>
+    <entry>
+            <base>CONSIDER_DONATING</base>
+            <trans>Proszę rozważyć darowiznę na rzecz projektu, klikając poniższy obrazek z odnośnikiem:</trans>
+    </entry>
+    <entry>
+            <base>THANK_YOU</base>
+            <trans>Dziękuję za Twoje wsparcie!</trans>
+    </entry>
+    <entry>
+            <base>Download this report</base>
+            <trans>Pobierz ten raport!</trans>
+    </entry>
+    <entry>
+            <base>Report a bug</base>
+            <trans>Zgłoś błąd</trans>
+    </entry>
+
+</lexicon>

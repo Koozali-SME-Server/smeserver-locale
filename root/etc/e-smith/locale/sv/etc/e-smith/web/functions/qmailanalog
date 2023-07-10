@@ -1,0 +1,87 @@
+<lexicon lang="sv">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Analys av mailloggar</trans>
+    </entry>
+    <entry>
+	<base>INITIAL_DESC</base>
+	<trans><![CDATA[ <P>Analys av mailsystemets loggfiler kan både hjälpa till att ge kunskap om hur ditt system fungerar och undersöka förmedlingsproblem. Flera olika rapporter finns tillgängliga.</P> <P>Notera dock att det kan ta flera minuter att skapa en rapport</P> ]]></trans>
+    </entry>
+    <entry>
+	<base>REPORT_TYPE</base>
+	<trans>Välj rapporttyp</trans>
+    </entry>
+    <entry>
+	<base>GENERATE_REPORT</base>
+	<trans>Skapa rapport</trans>
+    </entry>
+    <entry>
+	<base>LIST_OUTGOING</base>
+	<trans>Lista utgående meddelanden och mottagare</trans>
+    </entry>
+    <entry>
+	<base>SUMMARIZE_QUEUE</base>
+	<trans>Summera status på mailkön</trans>
+    </entry>
+    <entry>
+	<base>SUCCESSFUL_DELIVERY_DELAY</base>
+	<trans>Försening vid lyckad förmedling</trans>
+    </entry>
+    <entry>
+	<base>REASONS_DEFERRAL</base>
+	<trans>Orsaker till försening</trans>
+    </entry>
+    <entry>
+	<base>REASONS_FAILURE</base>
+	<trans>Skäl vid misslyckande</trans>
+    </entry>
+    <entry>
+	<base>BASIC_STATS</base>
+	<trans>Grundläggande statistik</trans>
+    </entry>
+    <entry>
+	<base>RECIP_STATS</base>
+	<trans>Statistik över mottagare</trans>
+    </entry>
+    <entry>
+	<base>RECIP_HOSTS</base>
+	<trans>Mottagarens värdar</trans>
+    </entry>
+    <entry>
+	<base>RECIP_ORDERED</base>
+	<trans>Mottagare sorterade efter bästa mottagningssannolikhet</trans>
+    </entry>
+    <entry>
+	<base>SENDER_STATS</base>
+	<trans>Avsändarstatistik</trans>
+    </entry>
+    <entry>
+	<base>SENDMAIL_STYLE</base>
+	<trans>Sendmails logg</trans>
+    </entry>
+    <entry>
+	<base>REASONS_SUCCESS</base>
+	<trans>Orsaker till framgång</trans>
+    </entry>
+    <entry>
+	<base>SENDER_UIDS</base>
+	<trans>Avsändarens uids</trans>
+    </entry>
+    <entry>
+	<base>INVALID_REPORT_TYPE</base>
+	<trans>Otillåten rapporttyp:</trans>
+    </entry>
+    <entry>
+	<base>REPORT_GENERATED</base>
+	<trans>Rapport skapad:</trans>
+    </entry>
+    <entry>
+	<base>END_OF_REPORT</base>
+	<trans>Slut på rapporten</trans>
+    </entry>
+    <entry>
+	<base>Mail log file analysis</base>
+	<trans>Analys av mailloggar</trans>
+    </entry>
+
+</lexicon>

@@ -1,0 +1,114 @@
+<lexicon lang="nb">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Sett opp Port Videresending</trans>
+    </entry>
+    <entry>
+        <base>FIRST_PAGE_DESCRIPTION</base>
+        <trans><![CDATA[ <p> Du kan bruke dette panelet til å endre brannmur reglene som å åpne en spesifisert port på serveren, og videresende den til en annen port på en annen maskin. Ved å gjøre dette tillater du traffikken å få direkte tilgang til en maskin på det lokale nettverket. </p> <p> ADVARSEL: Misbruk av denne funksjonen vil kan redusere sikkerheten på ditt nettverk. Bruk funksjonen med forsiktighet, og ikke bruk den hvis du ikke er helt sikker på hva du gjør. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>CREATE_RULE</base>
+        <trans>Opprette portvideresendings regel</trans>
+    </entry>
+    <entry>
+        <base>SUMMARY_ADD_DESC</base>
+        <trans>Følgende oppsummerer port vidersenings reglen du er i ferd med å legge til. Hvis du er fornøyd med reglen, klikker du på &quot;Legg til&quot; knappen. Hvis ikke klikker du på &quot;Avbryt&quot; knappen.</trans>
+    </entry>
+    <entry>
+        <base>SUMMARY_REMOVE_DESC</base>
+        <trans>Følgende oppsummerer port vidersenings reglen du er i ferd med å fjerne. Hvis du er sikker på at du vil fjerne reglen, klikker du på &quot;Fjerne&quot; knappen. Hvis ikke klikker du på &quot;Avbryt&quot; knappen.</trans>
+    </entry>
+    <entry>
+        <base>SHOW_FORWARDS</base>
+        <trans>Under vil du finne en tabell med oppsummering over gjeldende port videresendings regler som er satt opp på serveren. Klikk på &quot;Fjern&quot; linken for å fjerne tilhørende regel.</trans>
+    </entry>
+    <entry>
+        <base>NO_FORWARDS</base>
+        <trans>Det er ingen videresendte porter på systemet.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_PAGE_DESCRIPTION</base>
+        <trans><![CDATA[ <p>Velg protokollen, porten du vil videresende, mottakermaskinen, og porten hos mottakermaskinen du ønsker å videresende til. Hvis du ønsker å spesifisere et område, oppgir du nedre og øvre grense skilt med bindestrek. Mottakerens port kan stå blank, noe som vil gjøre at brannmuren ikke endrer på kildeporten.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SOURCE_PORT</base>
+        <trans>Kildeport(er)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_PROTOCOL</base>
+        <trans>Protokoll</trans>
+    </entry>
+    <entry>
+        <base>LABEL_DESTINATION_PORT</base>
+        <trans>Målport(er)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_DESTINATION_HOST</base>
+        <trans>Målmaskinens IP adresse</trans>
+    </entry>
+    <entry>
+        <base>LABEL_RULE_COMMENT</base>
+        <trans>Regel Kommentar</trans>
+    </entry>
+    <entry>
+        <base>LABEL_ALLOW_HOSTS</base>
+        <trans>Tillat vert</trans>
+    </entry>
+    <entry>
+        <base>Port forwarding</base>
+        <trans>Port videresending</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Din endring på port videresending reglene er lagret.</trans>
+    </entry>
+    <entry>
+        <base>RULE_COMMENT</base>
+        <trans>Regel Kommentar</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_HOSTS</base>
+        <trans>Tillat vert</trans>
+    </entry>
+    <entry>
+        <base>ERR_NO_MASQ_RECORD</base>
+        <trans>Kan ikke finne masq oppføringen fra konfigurasjon databasen.</trans>
+    </entry>
+    <entry>
+        <base>ERR_UNSUPPORTED_MODE</base>
+        <trans>Modus ikke støttet.</trans>
+    </entry>
+    <entry>
+        <base>ERR_CANNOT_REMOVE_NORULE</base>
+        <trans>Kan ikke fjerne en ikke eksisterende regel.</trans>
+    </entry>
+    <entry>
+        <base>ERR_NONZERO_RETURN_EVENT</base>
+        <trans>Hendelsen returnerte ikke en nullverdi.</trans>
+    </entry>
+    <entry>
+        <base>ERR_BADPORT</base>
+        <trans>Portene må være et positiv tall mindre en 65536.</trans>
+    </entry>
+    <entry>
+        <base>ERR_BADIP</base>
+        <trans>Dette ser ikke ut til å være en IP adresse. adressen må bestå av fire nummerrekker under 256 adskilt med punktum f.eks: 192.168.0.5</trans>
+    </entry>
+    <entry>
+        <base>ERR_DUPRULE</base>
+        <trans>Reglen eksisterer allerede, og kan ikke legges til igjen.</trans>
+    </entry>
+    <entry>
+        <base>ERR_PORT_COLLISION</base>
+        <trans>Feil: porten eller portområdet er i konflikt med en eksisterende regel. Endre den nye reglen, eller fjerne den gamle.</trans>
+    </entry>
+    <entry>
+        <base>ERR_BADAHOST</base>
+        <trans>Dette ser ikke ut til å være en gyldig IP adresse list. f.eks: 192.168.0.1,192.168.1.1/2</trans>
+    </entry>
+    <entry>
+        <base>IN_SERVERONLY</base>
+        <trans>Serveren er satt opp som kun server modus og portvirderesending er ikke mulig bare til lokalhost.</trans>
+    </entry>
+</lexicon>

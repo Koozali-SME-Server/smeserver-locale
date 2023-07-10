@@ -1,0 +1,42 @@
+<lexicon lang="hu">
+    <entry>
+        <base>Proxy settings</base>
+        <trans>Proxy beállítások</trans>
+    </entry>
+    <entry>
+        <base>FIRST_PAGE_DESCRIPTION</base>
+        <trans>Ez az oldal lehetővé teszi a szerver proxy beállításainak konfigurálását. A szerver tartalmaz egy transzparens proxit és gyorsítótárazza a HTTP forgalmat. Ez alaphelyzetben engedélyezve van, de nem kötelező, ha a szerver &quot;csak szerver&quot; módban működik. Ha ez a szerver e-mail szerverként működik, a helyi hálózati kliensek külső SMTP szerverre irányuló kapcsolatai automatikusan a helyi e-mail szerverhez lesznek irányítva.</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>A szerver HTTP proxy szolgáltatása mérsékli a hálózati forgalmat a legutóbb látogatott weboldalak gyorsítótárazásával. Ez transzparens azon webböngészők számára, amelyek átjárónak használják ezt a szervert. A proxyt az alábbi vezérlőkkel ki-és-be kapcsolhatja.</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_LABEL</base>
+        <trans>HTTP proxy állapota</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>A szerver transzparens SMTP proxyja a vírusforgalom csökkentését teszi lehetővé a fertőzött ügyfélállomásoktól, ha az összes kimenő SMTP-forgalmat ezen a szerveren keresztül kényszeríti ki. Ha külső SMTP-kiszolgálót szeretne használni, és ez a kiszolgáló a hozzá tartozó átjáró, akkor ezt a proxy-t "tiltott" -ra állítsa. A proxy "blokkolt" beállítása megakadályozza az összes SMTP forgalmat más kiszolgálókra, ez az alapértelmezett. A proxy csak a normál smtp (25-ös port) forgalmat figyeli / blokkolja.</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_LABEL</base>
+        <trans>SMTP proxy állapota</trans>
+    </entry>
+    <entry>
+        <base>ERR_PROXY_UPDATE_FAILED</base>
+        <trans>HIBA: A proxy-frissítés folyamat hibát jelzett.</trans>
+    </entry>
+    <entry>
+        <base>ERR_NO_SQUID_REC</base>
+        <trans>HIBA: Nincs squid rekord a konfigurációs adatbázisban.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Az új proxy beállítások sikeresen alkalmazva.</trans>
+    </entry>
+    <entry>
+        <base>BLOCKED</base>
+        <trans>Blokkolt</trans>
+    </entry>
+</lexicon>

@@ -1,0 +1,43 @@
+<lexicon lang="hu">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>Kezdő weboldal létrehozása</trans>
+      </entry>
+      <entry>
+	<base>SUCCESS</base>
+	<trans>A kezdő weboldal sikeresen létrejött (index.htm felülírva). Az alábbi címen megtekintheti az új weboldalát:</trans>
+      </entry>
+      <entry>
+	<base>DESCRIPTION</base>
+	  <trans><![CDATA[ <p> Ha a cége számára szeretne egy egyszerű weboldalt létrehozni, töltse ki az alábbi mezőket, majd kattintson a <b>Létrehozás</b> gombra. </p> <p> Bármely mezőt üresen hagyhatja, ha nincs rá szüksége. </p> <p> A szöveg, amit lentebb beír tördelve lesz a szebb megjelenés érdekében. Ha új bekezdést kezd, hagyjon egy üres sort. Ha sortörést akar új bekezdés nélkül (például levelezési címek sorai után), akkor a <blockquote>&lt;BR&gt;</blockquote> kódot kell beírni oda, ahol sortörést szeretne. </p> <p> <em>Ne használja ezt az opciót</em> ha már testreszabta a weboldalát, mivel ez felülírja az "index.htm" fájlt a weboldalt tartalmazó könyvtárban. </p> ]]></trans>
+      </entry>
+      <entry>
+	<base>LABEL_COMPANYNAME</base>
+	<trans>Cégnév</trans>
+      </entry>
+	
+      <entry> 
+	<base>DESC_HEADER1</base>
+	<trans>Első fejléc, általában a cég rövid jelmondatát tartalmazza, mint például "A piacvezető a textilgyártásban"</trans>
+      </entry>
+      <entry> 
+	<base>DESC_TEXT1</base>
+	<trans>Első fejlécet követő szöveg, amely általában marketing információkat tartalmaz.</trans>
+      </entry>
+      <entry> 
+	  <base>DESC_HEADER2</base>
+	<trans>Második fejléc, amely olyan rövid mondatokat tartalmaz, mint "További információk" vagy "Termékeink megrendelése":</trans>
+	</entry>
+      <entry> 
+	<base>DESC_TEXT2</base>
+	<trans>Második fejlécet követő szöveg, amely elérhetőségi és rendelési információkat tartalmaz. </trans>
+	</entry>
+      <entry>
+	<base>DESC_SUBMIT</base>
+	<trans><![CDATA[ <p>Mikor létrehozza ezt a weboldalt az "index.htm" fájl felülíródik a weboldal könyvtárában.</p> <p>Kívánja folytatni?</p> ]]></trans>
+      </entry>
+      <entry>
+	<base>Create starter web site</base>
+	<trans>Kezdő weboldal létrehozása</trans>
+      </entry>
+</lexicon>

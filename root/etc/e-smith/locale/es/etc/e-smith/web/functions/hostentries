@@ -1,0 +1,180 @@
+<lexicon lang="es" params="lexicon_params()">
+    <!-- vim: ft=xml
+    -->
+    <entry>
+        <base>Hostnames and addresses</base>
+        <trans>Direcciones y nombres de host</trans>
+    </entry>
+    <entry>
+        <base>UNABLE_TO_OPEN_CONFIGDB</base>
+        <trans>No se puede abrir la base de datos de configuración</trans>
+    </entry>
+    <entry>
+        <base>DNS_FORWARDER_ENABLED</base>
+        <trans>Se ha configurado un desviador de DNS. Esto significa que todas las búsquedas de DNS serán manejadas por el desviador de DNS. En este servidor, no se pueden modificar las direcciones y los nombres de host mientras exista configurado un desviador de DNS.</trans>
+    </entry>
+    <entry>
+        <base>ADD_HOSTNAME</base>
+        <trans><![CDATA[ <a class="button-like" href="hostentries?page=0&page_stack=&Next=Next&wherenext=CreateModify">Agregar nombre de host</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME</base>
+        <trans>Nombre de host</trans>
+    </entry>
+    <entry>
+        <base>HOSTTYPE</base>
+        <trans>Ubicación</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP</base>
+        <trans>IP local</trans>
+    </entry>
+    <entry>
+        <base>ETHERNET_ADDRESS</base>
+        <trans>Dirección Ethernet</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_HOSTNAMES_FOR_DOMAIN</base>
+        <trans>Lista actual de nombres de host para {$domain}.</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTNAMES_FOR_SERVICENAME</base>
+        <trans>No hay nombres de host en el sistema para {$serviceName}.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_HOSTNAMES_FOR_LOCAL_DOMAIN</base>
+        <trans>Lista actual de nombres de host para {$localDomainName}</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTNAMES_FOR_LOCAL_DOMAIN</base>
+        <trans>No hay nombres de host en el sistema para {$localDomainName}.</trans>
+    </entry>
+    <entry>
+        <base>STATIC_HOST_MESSAGE</base>
+        <trans>- Este host representa su nombre de sistema y no se puede modificar o eliminar.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_LOCAL_HOST_TITLE</base>
+        <trans>Crear un nuevo nombre de host para este servidor</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_VALIDATION_ERROR</base>
+        <trans>Error: caracteres erróneos en el nombre de host: "{$HostName}". El nombre de host debe contener sólo letras, números y guiones y debe comenzar con una letra o un número.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_LENGTH_ERROR</base>
+        <trans>Error: el nombre de la cuenta {$HostName} es demasiado largo. El máximo es 32 caracteres.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_VALIDATION_ERROR</base>
+        <trans>Error: caracteres erróneos o faltantes en el nombre del dominio {$DomainName}. El nombre del dominio debe contener una o más letras, números, puntos y signos menos. No se creó un nuevo dominio.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_EXISTS_ERROR</base>
+        <trans>Error: la cuenta {$fullHostName} corresponde a un nombre de host {$type} existente.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>El nombre de host se creó con éxito.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_DESCRIPTION</base>
+        <trans>El nombre de host debe contener sólo letras, números y guiones y debe comenzar con una letra o un número.</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP_DESCRIPTION</base>
+        <trans>La dirección IP local es la dirección IP de otro equipo en la red local. Escriba una dirección IP válida en el formato "aaa.bbb.ccc.ddd".</trans>
+    </entry>
+    <entry>
+        <base>ETHERNET_ADDRESS_DESCRIPTION</base>
+        <trans>La dirección ethernet es opcional y permite que el servidor DHCP conecte de manera estática la dirección IP local al ordenador con esta dirección ethernet. Si se especifica, debe tener la forma "AA:BB:CC:DD:EE:FF" y debe contener sólo los números del 0-9 y las letras A-F.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_LOCAL_HOST_TITLE</base>
+        <trans>Crear un nuevo nombre de host que haga referencia a un host local.</trans>
+    </entry>
+    <entry>
+        <base>DIDNT_ENTER_LOCAL_IP</base>
+        <trans>Error: no especificó una dirección IP local. Las direcciones IP deben contener sólo números y puntos y deben tener la forma "aaa.bbb.ccc.ddd". No se creó el nombre de host.</trans>
+    </entry>
+    <entry>
+        <base>IP_VALIDATION_ERROR</base>
+        <trans>Error: la dirección IP {$InternalIP} no es válida. Las direcciones IP deben contener sólo números y puntos y deben tener la forma "aaa.bbb.ccc.ddd". No creó el nombre de host.</trans>
+    </entry>
+    <entry>
+        <base>MAC_ADDRESS_VALIDATION_ERROR</base>
+        <trans>Error: la dirección Ethernet {$MACAddress} no es válida. Las direcciones Ethernet deben tener la forma "AA:BB:CC:DD:EE:FF" y deben contener sólo los números del 0-9 y las letras A-F. No creó el nombre de host.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_REMOTE_HOST_TITLE</base>
+        <trans>Crear un nuevo nombre de host que haga referencia a un host remoto</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Crear o modificar el nombre de host</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_PAGE_DESCRIPTION</base>
+        <trans>Escriba los siguientes detalles adicionales para un host local:</trans>
+    </entry>
+    <entry>
+        <base>REMOTE_PAGE_DESCRIPTION</base>
+        <trans>Escriba los siguientes detalles adicionales para un host remoto:</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>El host se eliminó con éxito.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>El host se modificó con éxito.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_PAGE_DESCRIPTION</base>
+        <trans><![CDATA[ Está a punto de eliminar el nombre de host "{$hostname}.{$domain}". </p> <p> <b>¿Está seguro de que desea eliminar este nombre de host?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DESCRIPTION</base>
+        <trans>Confirme los siguientes detalles.</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTS_FOR_THIS_DOMAIN</base>
+        <trans>No hay ningún host para este dominio.</trans>
+    </entry>
+    <entry>
+        <base>ADDR_IN_DHCP_RANGE</base>
+        <trans>La dirección está dentro del rango dinámico asignado por DHCP</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_HOST</base>
+        <trans>Ocurrió un error al crear el nombre de host.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_HOST</base>
+        <trans>Ocurrió un error al modificar el nombre de host.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_HOST</base>
+        <trans>Ocurrió un error al eliminar el nombre de host.</trans>
+    </entry>
+    <entry>
+        <base>ERR_IP_IS_LOCAL_OR_GATEWAY</base>
+        <trans>Error: La IP no puede ser la IP del servidor o de la puerta de enlace.</trans>
+    </entry>
+    <entry>
+        <base>ERR_IP_NOT_LOCAL</base>
+        <trans>Error: Esta dirección IP no existe en nuestra red local.</trans>
+    </entry>
+    <entry>
+        <base>MUST_BE_VALID_HOSTNAME_OR_IP</base>
+        <trans>Debe ser un nombre de host o número de IP válidos</trans>
+    </entry>
+  <entry>
+   <base>HOSTNAME_COMMENT_ERROR</base>
+    <trans>Error: caracteres erróneos en el nombre de host: "{$hostname}.{$domain}". El nombre de host debe contener sólo letras, números y guiones y debe comenzar con una letra o un número.</trans>
+  </entry>
+    <entry>
+      <base>HOSTNAME_VALIDATOR_ERROR</base>
+    <trans>Error: caracteres erróneos en el nombre de host: "{$hostname}.{$domain}". El nombre de host debe contener sólo letras, números y guiones y debe comenzar con una letra o un número.</trans>
+  </entry>
+</lexicon>

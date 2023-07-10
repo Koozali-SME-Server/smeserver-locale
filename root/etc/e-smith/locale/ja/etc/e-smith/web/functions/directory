@@ -1,0 +1,79 @@
+<lexicon lang="ja">
+   <entry>
+     <base>FORM_TITLE</base>
+       <trans>Change LDAP directory settings</trans>
+   </entry>	
+<entry>
+<base>LABEL_ROOT</base>
+<trans>Server root</trans>
+</entry>
+
+<entry>
+<base>DESCRIPTION</base>
+<trans>The LDAP server provides a network-available listing of the user accounts and groups on your server, and can be accessed using an LDAP client such as the Address Book feature in Netscape Communicator. Configure your LDAP client with the local IP address of your server, port number 389, and the server root parameter shown below.</trans>
+</entry>
+<entry>
+<base>DESC_DIRECTORY_ACCESS</base>
+<trans>You can control access to your LDAP directory: the private setting allows access only from your local network, and the public setting allows access from anywhere on the Internet.</trans>
+</entry>
+<entry>
+<base>DIRECTORY_ACCESS</base>
+<trans>LDAP directory access</trans>
+</entry>
+<entry>
+	<base>DESC_DEPARTMENT</base>
+<trans>These fields are the LDAP defaults for your organization. Whenever you create a new user account, you will be prompted to enter all of these fields (they can be different for each user) but the values you set here will show up as defaults. This is a convenience to make it faster to create user accounts.</trans>
+</entry>
+<entry>
+        <base>DEPARTMENT</base>
+        <trans>Default department</trans>
+</entry>
+
+<entry>
+        <base>COMPANY</base>
+        <trans>Default company</trans>
+</entry>
+<entry>
+        <base>STREET</base>
+        <trans>Default Street address</trans>
+</entry>
+
+<entry>
+        <base>CITY</base>
+        <trans>Default City</trans>
+</entry>
+
+<entry>
+        <base>PHONENUMBER</base>
+        <trans>Default Phone Number</trans>
+</entry>
+
+<entry>
+<base>DESC_EXISTING</base>
+<trans>You can either leave existing user accounts as they are, using the above defaults only for new users, or you can apply the above defaults to all existing users as well.</trans>
+</entry>
+
+
+
+<entry>
+<base>EXISTING</base>
+<trans>Existing users</trans>
+</entry>
+<entry>
+<base>SUCCESS</base>
+<trans>The new LDAP default settings have been saved.</trans>
+</entry>
+
+<entry>
+<base>LEAVE</base>
+<trans>Leave as they are</trans>
+</entry>
+<entry>
+<base>UPDATE</base>
+<trans>Update with new defaults</trans>
+</entry>
+    <entry>
+        <base>Directory</base>
+        <trans>ディレクトリ</trans>
+    </entry>
+</lexicon>

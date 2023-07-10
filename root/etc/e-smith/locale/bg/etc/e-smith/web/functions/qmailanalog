@@ -1,0 +1,87 @@
+<lexicon lang="bg">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Анализ на журнала на пощата</trans>
+    </entry>
+    <entry>
+	<base>INITIAL_DESC</base>
+	<trans><![CDATA[ <P>Анализирането на файловете с журналите на пощенската система има за цел както да установите как действа Вашата система, така и да диагностицирате проблеми с доставката. Има достъпни няколко различни отчета.</P> <P>Моля, отбележете, че може да отнеме няколко минути за генерирането на тези отчети</P> ]]></trans>
+    </entry>
+    <entry>
+	<base>REPORT_TYPE</base>
+	<trans>Изберете вида на отчета</trans>
+    </entry>
+    <entry>
+	<base>GENERATE_REPORT</base>
+	<trans>Създайте отчет</trans>
+    </entry>
+    <entry>
+	<base>LIST_OUTGOING</base>
+	<trans>Покажи списък на изходящите съобщения и получателите</trans>
+    </entry>
+    <entry>
+	<base>SUMMARIZE_QUEUE</base>
+	<trans>Обобщение на състоянието на опашката за съобщения</trans>
+    </entry>
+    <entry>
+	<base>SUCCESSFUL_DELIVERY_DELAY</base>
+	<trans>Разпределние на закъсненията при успешно доставяне</trans>
+    </entry>
+    <entry>
+	<base>REASONS_DEFERRAL</base>
+	<trans>Причини за отлагане</trans>
+    </entry>
+    <entry>
+	<base>REASONS_FAILURE</base>
+	<trans>Причини за неуспех</trans>
+    </entry>
+    <entry>
+	<base>BASIC_STATS</base>
+	<trans>Опростена статистика</trans>
+    </entry>
+    <entry>
+	<base>RECIP_STATS</base>
+	<trans>Статистика по получатели</trans>
+    </entry>
+    <entry>
+	<base>RECIP_HOSTS</base>
+	<trans>Хостове на получателите</trans>
+    </entry>
+    <entry>
+	<base>RECIP_ORDERED</base>
+	<trans>Получатели подредени по най-добрия начин за пощенски списъци</trans>
+    </entry>
+    <entry>
+	<base>SENDER_STATS</base>
+	<trans>Статистика по изпращач</trans>
+    </entry>
+    <entry>
+	<base>SENDMAIL_STYLE</base>
+	<trans>Журнал в стил Sendmail</trans>
+    </entry>
+    <entry>
+	<base>REASONS_SUCCESS</base>
+	<trans>Причини за успех</trans>
+    </entry>
+    <entry>
+	<base>SENDER_UIDS</base>
+	<trans>uid-та на Изпращача</trans>
+    </entry>
+    <entry>
+	<base>INVALID_REPORT_TYPE</base>
+	<trans>Невалиден тип на отчета:</trans>
+    </entry>
+    <entry>
+	<base>REPORT_GENERATED</base>
+	<trans>Отчета е генериран:</trans>
+    </entry>
+    <entry>
+	<base>END_OF_REPORT</base>
+	<trans>Край на отчета</trans>
+    </entry>
+    <entry>
+	<base>Mail log file analysis</base>
+	<trans>Анализ на файла с журнала на пощата</trans>
+    </entry>
+
+</lexicon>

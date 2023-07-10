@@ -1,0 +1,141 @@
+<lexicon lang="de" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Domänen verwalten</trans>
+    </entry>
+    <entry>
+        <base>FORM_DESCRIPTION</base>
+        <trans><![CDATA[ <p>Wenn Sie eine Domäne anlegen, wird der Server in der Lage sein, Emails für diese Domäne zu empfangen sowie eine Website für diese Domäne zu hosten.</p> <p><a class="button-like" href="domains?page=0&page_stack=&Next=Next?wherenext=DOMAINS_PAGE_CREATE">Domäne hinzufügen</a></p> ]]></trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>Es sind keine Domänen auf dem System.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST_OF_DOMAINS</base>
+        <trans>Aktuelle Liste aller Domänen</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_SITE</base>
+        <trans>Primäre Seite</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>{$content} i-bay</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Neue Domäne erstellen</trans>
+    </entry>
+    <entry>
+        <base>CONTENT_FIELD_DESCRIPTION</base>
+        <trans>Für die Webseite können Sie als Inhalt entweder die primäre Seite oder ein i-bay auswählen.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME_VALIDATION_ERROR</base>
+        <trans>FEHLER: Ungültiges oder fehlendes Zeichen im Domänen-Namen {$domainName}. Der Domänen-Name darf nur Buchstaben, Nummern, Punkte oder Bindestriche enthalten. Neue Domäne wurde nicht erstellt.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_DESCRIPTION_VALIDATION_ERROR</base>
+        <trans>FEHLER: Ungültiges oder fehlendes Zeichen in der Domänenbeschreibung {$domainDesc}. Neue Domäne wurde nicht erstellt.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_IN_USE_ERROR</base>
+        <trans>FEHLER: Domäne {$domainName} ist bereits vorhanden. Neue Domäne wurde nicht erstellt.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_DOMAIN_ERROR</base>
+        <trans>FEHLER: Diese Domäne {$domainName} ist Ihre Haupt-Domäne. Es ist nicht möglich, eine Domäne mit dem gleichen Namen zu erstellen. Neue Domäne wurde nicht erstellt.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>Die Domäne {$domainName} wurde erfolgreich erstellt. Ihr Webserver wird nun neu gestartet. Die Links auf dieser Seite werden inaktiv sein, bis der Neustart des Webservers abgeschlossen ist.</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_TITLE</base>
+        <trans>Domäne ändern</trans>
+    </entry>
+    <entry>
+        <base>NONEXISTENT_DOMAIN_ERROR</base>
+        <trans>FEHLER: {$domainName} ist keine existierende Domäne.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>Die Domäne {$domainName} wurde erfolgreich geändert. Ihr Webserver wird nun neu gestartet. Die Links auf dieser Seite werden inaktiv sein, bis der Neustart des Webservers abgeschlossen ist.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Domäne entfernen</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESCRIPTION</base>
+        <trans><![CDATA[ <p> Sie sind dabei, die Domäne {$domain} ({$domainDesc}) zu entfernen. </p> <p> <b>Sind Sie sicher, dass Sie die Domäne entfernen wollen ?</b> </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_REMOVING_DOMAIN</base>
+        <trans>FEHLER: interner Fehler beim Entfernen der Domäne {$domain}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>Die Domäne {$domainName} wurde erfolgreich entfernt. Ihr Webserver wird nun neu gestartet. Die Links auf dieser Seite werden inaktiv sein, bis der Neustart des Webservers abgeschlossen ist.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS_CURRENT</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Zentrale DNS-Einstellungen</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>BUTTON_CORPORATE_DNS</base>
+        <trans><![CDATA[ <p>Wenn dieser Server keinen Internetzugang hat oder wenn Sie spezielle Anforderungen für die DNS-Auflösung haben, geben Sie hier die DNS-Server IP-Adresse ein. Sie sollten hier nicht die IP-Adresse des DNS-Servers Ihres Internet Service Providers angeben, weil der Server alle Internet-Adressen auch ohne diese Konfiguration auflösen kann.</p> <p> <a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CORPORATE_DNS">Ändere zentrale DNS-Einstellungen</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS</base>
+        <trans>Wenn dieser Server keinen Internetzugang hat oder aber Sie besondere Anforderungen für die DNS-Namensauflösungen haben, geben Sie hier bitte die IP-Adresse des DNS-Server ein. Diese Felder sollten leer bleiben, wenn Sie keine besonderen Gründe zur Konfiguration anderer DNS-Server haben. Geben Sie bitte nicht die IP-Adresse des DNS-Servers ein, der Ihnen von Ihrem Internet Service Provider zugewiesen wurde, denn Ihr Server ist in der Lage, alle Internet DNS-Anfragen ohne diese zusätzliche Konfigurationen aufzulösen.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_PRIMARY</base>
+        <trans>Erster zentraler DNS-Server</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_SECONDARY</base>
+        <trans>Zweiter zentraler DNS-Server</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_NAMESERVERS</base>
+        <trans>Sie können auswählen, ob diese Domäne lokal aufgelöst, an die zentralen DNS-Server weitergereicht, oder durch externe Internet DNS-Server aufgelöst wird. Die Standardeinstellung wird für die meisten Netzwerke richtig sein.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_NAMESERVERS</base>
+        <trans>Domänen DNS Server</trans>
+    </entry>
+
+    <entry>
+        <base>localhost</base>
+        <trans>Lokale DNS-Auflösung</trans>
+    </entry>
+
+    <entry>
+        <base>internet</base>
+        <trans>Internet DNS-Auflösung</trans>
+    </entry>
+
+    <entry>
+        <base>corporate</base>
+        <trans>Zentrale DNS-Server</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Sie sind dabei, die Domäne zu entfernen</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans>Sind Sie sicher, dass Sie diese Domäne entfernen wollen?</trans>
+    </entry>
+
+</lexicon>

@@ -1,0 +1,101 @@
+<lexicon lang="nl">
+
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Rapporteer een bug</trans>
+    </entry>
+    <entry>
+        <base>DO_NOT_PANIC</base>
+        <trans>Geen paniek!</trans>
+    </entry>
+    <entry>
+        <base>SME_EXPERIENCE</base>
+        <trans>Helaas is er geen software zonder bugs en bent u waarschijnlijk naar deze pagina gekomen vanwege een probleem dat u ondervindt met uw SME-server installatie.</trans>
+    </entry>
+    <entry>
+        <base>PLEASE_REPORT_HERE</base>
+        <trans>Om ontwikkelaars te helpen bij het diagnosticeren en oplossen van uw probleem, downloadt u een van de volgende tekstsjablonen, vul deze in en plak deze in uw bugrapport op</trans>
+    </entry>
+    <entry>
+        <base>USE_TEMPLATE</base>
+        <trans>Raadpleeg de volgende link om te zien hoe u een bug efficiënt kunt rapporteren en het bijbehorende sjabloon kunt gebruiken</trans>
+    </entry>
+    <entry>
+        <base>FOLLOWING_REPORT_MIGHT_HELP</base>
+        <trans>Het helpt ook als u in uw bugrapport essentiële informatie geeft over de configuratie van uw SME-server. Door hieronder op de knop "Configuratierapport maken" te klikken, kunt u een tekstbestand met deze informatie aanmaken en downloaden. Voeg dit bestand ook toe aan uw bugrapport.</trans>
+    </entry>
+    <entry>
+        <base>REPORT_CONTENT</base>
+        <trans>Het rapport bevat de volgende informatie</trans>
+    </entry>
+    <entry>
+        <base>SME_VERSION</base>
+        <trans>Koozali SME Server versie</trans>
+    </entry>
+    <entry>
+        <base>SERVER_MODE</base>
+        <trans>Server modus</trans>
+    </entry>
+    <entry>
+        <base>PREVIOUS_SERVER_MODE</base>
+        <trans>Vorige Server modus</trans>
+    </entry>
+    <entry>
+        <base>KERNEL_AND_ARCH</base>
+        <trans>Huidige actieve kernelversie en architectuur</trans>
+    </entry>
+    <entry>
+        <base>INSTALLED_RPMS</base>
+        <trans>Een lijst met extra RPM's die op uw server zijn geïnstalleerd</trans>
+    </entry>
+    <entry>
+        <base>ALTERED_TEMPLATES</base>
+        <trans>Een lijst met SME-sjablonen die op uw server zijn gewijzigd vanaf een basisinstallatie</trans>
+    </entry>
+    <entry>
+        <base>ALTERED_EVENTS</base>
+        <trans>Een lijst met SME-evenementen die op uw server zijn gewijzigd vanaf een basisinstallatie</trans>
+    </entry>
+    <entry>
+        <base>YUM_REPOS</base>
+        <trans>Een lijst met aanvullende softwarebronnen die op uw server zijn geconfigureerd</trans>
+    </entry>
+    <entry>
+        <base>PRIVACY</base>
+        <trans>Er worden geen privacygerelateerde gegevens (bijv. gebruikers, wachtwoorden, IP-adressen) in het rapport opgenomen.</trans>
+    </entry>
+    <entry>
+            <base>CREATE_REPORT</base>
+            <trans>Maak een configuratierapport</trans>
+    </entry>
+
+    <entry>
+            <base>DONATING</base>
+            <trans>Heb je overwogen om te doneren?</trans>
+    </entry>
+    <entry>
+            <base>AWARE_SME</base>
+            <trans>U bent zich er waarschijnlijk van bewust dat de SME-server wordt ontwikkeld en ondersteund door een samenwerkende gemeenschap van vrijwilligers van over de hele wereld. Hoewel de SME-server gratis te downloaden en te gebruiken is, kost het onderhouden van de infrastructuur achter het project (bijv. het hosten van de forums en wiki, het verstrekken van opslagplaatsen en het bouwen van servers enz.) in de echte wereld echt geld.</trans>
+    </entry>
+    <entry>
+            <base>YOUR_HELP</base>
+            <trans>Op dezelfde manier waarop u ons nodig heeft om uw huidige probleem aan te pakken, hebben wij UW hulp nodig om dit project levend te houden!</trans>
+    </entry>
+    <entry>
+            <base>CONSIDER_DONATING</base>
+            <trans>Overweeg alstublieft om aan het project te doneren door op de onderstaande afbeeldingslink te klikken:</trans>
+    </entry>
+    <entry>
+            <base>THANK_YOU</base>
+            <trans>Bedankt voor je ondersteuning!</trans>
+    </entry>
+    <entry>
+            <base>Download this report</base>
+            <trans>Download dit rapport!</trans>
+    </entry>
+    <entry>
+            <base>Report a bug</base>
+            <trans>Meld een bug</trans>
+    </entry>
+
+</lexicon>

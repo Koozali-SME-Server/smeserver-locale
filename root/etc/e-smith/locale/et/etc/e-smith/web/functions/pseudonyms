@@ -1,0 +1,114 @@
+<lexicon lang="et">
+    <entry>
+      <base>NO_PSEUDONYMS</base>
+      <trans><![CDATA[ <b>Süsteemis pole alias-i.</b> ]]></trans>
+     </entry>
+    <entry>
+        <base>REMOVE_PSEUDONYM</base>
+        <trans>Eemalda alias</trans>
+    </entry>
+    <entry>
+        <base>ABOUT_TO_REMOVE</base>
+        <trans><![CDATA[ Oled alustanud aliase eemaldamist:<br> <b>Oled kindel, et tahad jätkata?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Lisa, muuda või eemalda alias-i</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans><![CDATA[ <p>The server automatically creates an e-mail alias for each group. If you want to define an e-mail alias for a list of users, simply create a group and the list will automatically be maintained by the server.</p> <p>Pseudonyms allow you to create other names for existing users or groups. For example, you may wish to create a pseudonym "webmaster" for your "webdevelopers" group or a pseudonym "joe" for the user "joseph".</p> <p>The server automatically creates pseudonyms of the form firstname.lastname and firstname_lastname for every user on the system and a pseudonym "everyone" which contains all users on the system.</p> <p>Pseudonyms also allow you to create e-mail aliases for valid (virtual) domains & users. For example you can forward "sales@virtualdomain1.com" to user "mary" and "sales@virtualdomain2.com" to user "john". You must create the domains and user accounts before creating the email aliases.</p> <p>Pseudonyms can also forward to other pseudonyms, although this is limited to one further level. For example the pseudonym "webmaster" can forward to the pseudonym "techsupport" which then forwards to a specified user "ray". This is useful where one user is responsible for multiple roles and saves having to change the pseudonym's associated with that user many times in the event that the user departs the organisation.</p> <p>You can modify or remove a pseudonym by clicking on the corresponding command next to the pseudonym.</p>]]></trans>
+    </entry>
+    <entry>
+        <base>LOCAL_ONLY</base>
+        <trans>(local network only)</trans>
+    </entry>
+    <entry>
+        <base>SELECT_ACCOUNT</base>
+        <trans>VAli kasutaja konto või grupp</trans>
+    </entry>
+    <entry>
+        <base>SELECT_INTERNAL</base>
+        <trans>Local network only</trans>
+    </entry>
+    <entry>
+        <base>CLICK_TO_CREATE</base>
+        <trans>Lisa alias</trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM</base>
+        <trans>Alias</trans>
+    </entry>
+    <entry>
+        <base>USER_OR_GROUP</base>
+        <trans>Kasutaja või grupp</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_PSEUDONYMS</base>
+        <trans><![CDATA[<b>Nimekiri olemasolevatest aliastest</b>]]></trans>
+    </entry>
+    <entry>
+        <base>TITLE_CREATE</base>
+        <trans>Loo alias</trans>
+    </entry>
+    <entry>
+        <base>DESC_PSEUDONYM_NAME</base>
+       <trans>Please select an existing account or group for the pseudonym from the pulldown menu below</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_PSEUDONYM</base>
+        <trans>Muuda aliast</trans>
+    </entry>     
+       <entry>
+        <base>PSEUDONYM_NAME</base>
+        <trans>Aliase nimi</trans>
+    </entry>
+    <entry>
+        <base>VALID_PSEUDONYM_NAMES</base>
+        <trans><![CDATA[ Pseudonüüm võib koosneda ainult väiketähtedest, numbritest, sidekriipsust ja alakriipsust ning peab algama väiketähe või numbriga. Näiteks "müük", john.holland", "123" või "emaili-administraator" on kõik sobivad pseudonüümid aga ei sobi näiteks "John Smith"<p> Samas võid luu aka emaili aliase kontole ja (virtuaal) domeenile mis on serveris kirjeldatud. Näiteks "fred@virtuaaldomeen.ee" saab edastada "mary" ( või mõnele teisele kaontole)</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>NAME_IN_USE</base>
+        <trans>Viga: See nimi on juba kasutuses. Sa ei saa sellenimelist aliast luua</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_PSEUDONYM</base>
+        <trans>See konto pole alias</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_DOMAIN</base>
+        <trans>Server ei halda sellist domeeni</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_NOACCT</base>
+        <trans>Sellist kontot pole siin serveris</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_SAMEACCT</base>
+        <trans>Pseudonüümi ei saa suunata samale kontole</trans>
+    </entry>
+    <entry>
+        <base>CREATE_SUCCEEDED</base>
+        <trans>Alias edukalt loodud</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_SUCCEEDED</base>
+        <trans>Alias edukalt muudetud</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_SUCCEEDED</base>
+        <trans>Alias edukalt eemaldatud</trans>
+    </entry>
+    <entry>
+      <base>EVERYONE</base>
+      <trans>Everyone</trans>
+    </entry>
+      <entry>
+        <base>Pseudonyms</base>
+        <trans>Aliased</trans>
+      </entry>
+
+</lexicon>

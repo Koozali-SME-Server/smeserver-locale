@@ -1,0 +1,38 @@
+<lexicon lang="el">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Ρυθμίσεις Ανίχνευσης Ιών</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FILESYSTEM_SCAN_PERIOD</base>
+        <trans>Ανίχνευση στο σύστημα αρχείων</trans>
+    </entry>
+    <entry>
+        <base>DESC_FILESYSTEM_SCAN_PERIOD</base>
+        <trans><![CDATA[ <h2>Γενικές Ρυθμίσεις</h2> Εάν αυτή η επιλογή είναι ενεργοποιημένη τότε ολόκληρο το σύστημα αρχείων θα ανιχνευθεί για ιούς. Για οποιοδήποτε ιό ανιχνευθεί θα σταλεί μία αναφορά με ηλεκτρονική αλληλογραφία στο διαχειριστή του συστήματος.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_QUARANTINE</base>
+        <trans>Απομόνωση προσβεβλημένων αρχείων</trans>
+    </entry>
+    <entry>
+        <base>LABEL_CLAM_VERSIONS</base>
+        <trans>ClamAV και db εκδόσεις</trans>
+    </entry>
+    <entry>
+      <base>WEEKLY</base>
+      <trans>Εβδομαδιαία</trans>
+    </entry>
+    <entry>
+      <base>NEVER</base>
+      <trans>Ποτέ</trans>
+    </entry>
+    <entry>
+      <base>DAILY</base>
+      <trans>Καθημερινά</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Οι νέες ρυθμίσεις του λογισμικού ανίχνευσης ιών clamav έχουν αποθηκευθεί.</trans>
+    </entry>
+</lexicon>

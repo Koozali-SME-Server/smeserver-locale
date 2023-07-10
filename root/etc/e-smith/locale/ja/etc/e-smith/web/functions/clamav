@@ -1,0 +1,38 @@
+<lexicon lang="ja">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>アンティ ウイルス</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FILESYSTEM_SCAN_PERIOD</base>
+        <trans>ファイルシステム　を　スカン</trans>
+    </entry>
+    <entry>
+        <base>DESC_FILESYSTEM_SCAN_PERIOD</base>
+        <trans>ジェネラル　セタイングもし　この　オプシオン　が　可能　でしたら、ファイルシステム　を　スカン　します。　ウイルス を　みつかたら　アドミン　に　メール　します。　</trans>
+    </entry>
+    <entry>
+        <base>LABEL_QUARANTINE</base>
+        <trans>ファイル　を　遮断</trans>
+    </entry>
+    <entry>
+        <base>LABEL_CLAM_VERSIONS</base>
+        <trans>ClamAV　と　db　バージョン</trans>
+    </entry>
+    <entry>
+      <base>WEEKLY</base>
+      <trans>毎週</trans>
+    </entry>
+    <entry>
+      <base>NEVER</base>
+      <trans>決して</trans>
+    </entry>
+    <entry>
+      <base>DAILY</base>
+      <trans>毎日</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>新しい　ClamAV アンティ ウイルス セチング　セーブ　しました</trans>
+    </entry>
+</lexicon>

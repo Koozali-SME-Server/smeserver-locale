@@ -1,0 +1,180 @@
+<lexicon lang="sv" params="lexicon_params()">
+    <!-- vim: ft=xml
+    -->
+    <entry>
+        <base>Hostnames and addresses</base>
+        <trans>Värdnamn och adresser</trans>
+    </entry>
+    <entry>
+        <base>UNABLE_TO_OPEN_CONFIGDB</base>
+        <trans>Kan inte öppna konfigurationsdatabasen</trans>
+    </entry>
+    <entry>
+        <base>DNS_FORWARDER_ENABLED</base>
+        <trans>En DNS-forwarder har konfigurerats. Detta betyder att alla DNS uppslagningar kommer att hanteras av DNS forwarder. Värdnamn och adresser kan inte modifieras på denna server eftersom en DNS forwarder är konfigurerad.</trans>
+    </entry>
+    <entry>
+        <base>ADD_HOSTNAME</base>
+        <trans><![CDATA[ <a class="button-like" href="hostentries?page=0&page_stack=&Next=Next&wherenext=CreateModify">Lägg till värdnamn</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME</base>
+        <trans>Värdnamn</trans>
+    </entry>
+    <entry>
+        <base>HOSTTYPE</base>
+        <trans>Placering</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP</base>
+        <trans>Lokal IP</trans>
+    </entry>
+    <entry>
+        <base>ETHERNET_ADDRESS</base>
+        <trans>Ethernetadress</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_HOSTNAMES_FOR_DOMAIN</base>
+        <trans>Aktuell lista över värdnamn för {$domain}.</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTNAMES_FOR_SERVICENAME</base>
+        <trans>Det finns inga värdnamn i systemet för {$serviceName}.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_HOSTNAMES_FOR_LOCAL_DOMAIN</base>
+        <trans>Aktuell lista över värdnamn för {$localDomainName}</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTNAMES_FOR_LOCAL_DOMAIN</base>
+        <trans>Det finns inga värdnamn i systemet för {$localDomainName}.</trans>
+    </entry>
+    <entry>
+        <base>STATIC_HOST_MESSAGE</base>
+        <trans>- Denna värd representerar systemets namn och kan inte ändras eller raderas.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_LOCAL_HOST_TITLE</base>
+        <trans>Skapa ett nytt värdnamn för denna server</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_VALIDATION_ERROR</base>
+        <trans>Fel: Ogiltiga tecken i värdnamnet: "{$HostName}". Värdnamnet får bara innehålla bokstäver, siffror, bindestreck och måste börja med en bokstav eller en siffra.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_LENGTH_ERROR</base>
+        <trans>Fel: Kontonamnet {$HostName} är för långt. Maximalt tillåtna antal tecken är 32.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_VALIDATION_ERROR</base>
+        <trans>Fel: Ogiltigt eller saknat tecken i domännamnet {$DomainName}. Domännamnet måste innehålla en eller flera bokstäver, siffror, punkt eller minustecken. Skapade inte en ny domän.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_EXISTS_ERROR</base>
+        <trans>Fel: kontot {$fullHostName} är ett befintligt {$type} värdnamn.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>Värdnamn skapat.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_DESCRIPTION</base>
+        <trans>Värdnamnet måste innehålla bokstäver, nummer eller bindestreck och måste starta med en bokstav eller siffra.</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP_DESCRIPTION</base>
+        <trans>Den lokala IP-adressen är IP-adressen för en annan dator på det lokala nätverket. Ange en giltig IP-adress i formatet "aaa.bbb.ccc.ddd".</trans>
+    </entry>
+    <entry>
+        <base>ETHERNET_ADDRESS_DESCRIPTION</base>
+        <trans>Ethernetadressen är frivillig och gör så att DHCP-servern statiskt binder en lokal IP-adress till datorn med denna ethernetadress. Om angiven, så måste den vara i formatet "AA:BB:CC:DD:EE:FF" och endast innehålla numren 0-9 och bokstäverna A-F.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_LOCAL_HOST_TITLE</base>
+        <trans>Skapa ett nytt värdnamn refererande till en lokal värd.</trans>
+    </entry>
+    <entry>
+        <base>DIDNT_ENTER_LOCAL_IP</base>
+        <trans>Fel: Du angav inte en lokal IP-adress. IP-adresser får endast innehålla nummer och punkter i formatet "aaa.bbb.ccc.ddd". Skapade inte ett värdnamn.</trans>
+    </entry>
+    <entry>
+        <base>IP_VALIDATION_ERROR</base>
+        <trans>Fel: IP-adressen {$InternalIP} är ogiltig. IP-adresser får endast innehålla nummer och punkter i formatet "aaa.bbb.ccc.ddd". Skapade inte ett värdnamn.</trans>
+    </entry>
+    <entry>
+        <base>MAC_ADDRESS_VALIDATION_ERROR</base>
+        <trans>Fel: Ethernetadressen {$MACAddress} är ogiltig. Ethernetadresser måste vara i formatet "AA:BB:CC:DD:EE:FF" och endast innehålla numren 0-9 och bokstäverna A-F. Skapade inte ett värdnamn.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_REMOTE_HOST_TITLE</base>
+        <trans>Skapade ett nytt värdnamn refererande till en fjärrvärd</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Skapa eller modifiera värdnamn</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_PAGE_DESCRIPTION</base>
+        <trans>Ange följande kompletterande detaljer för en lokal värd:</trans>
+    </entry>
+    <entry>
+        <base>REMOTE_PAGE_DESCRIPTION</base>
+        <trans>Ange följande kompletterande detaljer för en fjärrvärd:</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>Värd raderad.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>Värd ändrad.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_PAGE_DESCRIPTION</base>
+        <trans><![CDATA[ Du håller på att radera värdnamnet "{$hostname}.{$domain}". </p> <p> <b>Är du säker på att du vill radera detta värdnamn?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DESCRIPTION</base>
+        <trans>Bekräfta följande uppgifter.</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTS_FOR_THIS_DOMAIN</base>
+        <trans>Det finns inga värdar för denna domän.</trans>
+    </entry>
+    <entry>
+        <base>ADDR_IN_DHCP_RANGE</base>
+        <trans>Adressen är innanför det av DHCP tilldelade dynamiska intervallet</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_HOST</base>
+        <trans>Ett fel inträffade vid skapandet av värdnamn.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_HOST</base>
+        <trans>Ett fel inträffade vid ändring av värdnamnet.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_HOST</base>
+        <trans>Ett fel inträffade vid radering av värdnamnet.</trans>
+    </entry>
+    <entry>
+        <base>ERR_IP_IS_LOCAL_OR_GATEWAY</base>
+        <trans>Fel: IP kan inte vara samma IP som för server eller gateway.</trans>
+    </entry>
+    <entry>
+        <base>ERR_IP_NOT_LOCAL</base>
+        <trans>Fel: Denna IP-adress finns inte på något av våra lokala nätverk.</trans>
+    </entry>
+    <entry>
+        <base>MUST_BE_VALID_HOSTNAME_OR_IP</base>
+        <trans>Måste vara ett giltigt värdnamn eller IP-nummer</trans>
+    </entry>
+  <entry>
+   <base>HOSTNAME_COMMENT_ERROR</base>
+    <trans>Fel: Ogiltiga tecken i värdnamnet: "{$hostname}.{$domain}". Värdnamnet får bara innehålla bokstäver, siffror, bindestreck och måste börja med en bokstav eller en siffra.</trans>
+  </entry>
+    <entry>
+      <base>HOSTNAME_VALIDATOR_ERROR</base>
+    <trans>Fel: Ogiltiga tecken i värdnamnet: "{$hostname}.{$domain}". Värdnamnet får bara innehålla bokstäver, siffror, bindestreck och måste börja med en bokstav eller en siffra.</trans>
+  </entry>
+</lexicon>

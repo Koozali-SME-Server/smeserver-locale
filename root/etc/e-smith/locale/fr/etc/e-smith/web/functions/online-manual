@@ -1,0 +1,15 @@
+<lexicon lang="fr">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>Documentation et manuel en ligne</trans>
+      </entry>	
+      <entry> 
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ <ul> <li><a target="new" href="https://wiki.koozali.org/documentation/manual/">Manuel en ligne</a> <li><a target="new" href="https://wiki.koozali.org/documentation/FAQ/">Questions fréquemment posées (FAQs)</a></ul><H2>Support technique et license d'exploitation</H2> Ce système d'exploitation est soumis aux règles décrites dans la page consacrée au <a href="/server-manager/cgi-bin/support">support technique et à la license d'exploitation</a>. ]]></trans>
+      </entry>		
+      <entry>
+	<base>Online manual</base>
+	<trans>Manuel en ligne</trans>
+      </entry>
+
+</lexicon>

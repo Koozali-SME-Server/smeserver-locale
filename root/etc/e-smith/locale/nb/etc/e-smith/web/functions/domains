@@ -1,0 +1,141 @@
+<lexicon lang="nb" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Administrer domener</trans>
+    </entry>
+    <entry>
+        <base>FORM_DESCRIPTION</base>
+        <trans><![CDATA[ <p>Når du oppretter et domene, vil serveren din kunne motta e-post for det domene og vil også kunne vise en webside for domenet.</p> <p><a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CREATE">Legg til domene</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>Det er ingen domener i systemet.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST_OF_DOMAINS</base>
+        <trans>Gjeldende liste over domener</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_SITE</base>
+        <trans>Hoved side</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>{$content} i-bay</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Opprett et nytt domene</trans>
+    </entry>
+    <entry>
+        <base>CONTENT_FIELD_DESCRIPTION</base>
+        <trans>For webstedet kan du velge å bruke hovedsiden eller en annen i-bay som innehold.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME_VALIDATION_ERROR</base>
+        <trans>Feil: uventede eller manglende tegn i domenenavnet {$domainName}. Domenenavnet skal inneholde en eller flere bokstaver, tall, punktum, og minustegn. Domenet er ikke opprettet.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_DESCRIPTION_VALIDATION_ERROR</base>
+        <trans>Feil: uventede eller manglene tegn i domenebeskrivelsen {$domainDesc}. Domenet er  ikke opprettet.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_IN_USE_ERROR</base>
+        <trans>Feil: domenet {$domainName} er allerede i bruk. Domenet er ikke opprettet.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_DOMAIN_ERROR</base>
+        <trans>Feil: domenet {$domainName} er systemets domenenavn. Du kan ikke ha et domene med det samme navnet. Domenet er ikke opprettet.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>Domenet {$domainName} er opprettet. Webserveren blir nå restartet. Linkene på denne siden er inaktive inntil webserverens restart er fullført</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_TITLE</base>
+        <trans>Endre domene</trans>
+    </entry>
+    <entry>
+        <base>NONEXISTENT_DOMAIN_ERROR</base>
+        <trans>Feil: {$domainName} eksisterer ikke.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>Domenet {$domainName} er oppdatert. Web serveren restarter nå. Linkene på denne siden vil være inaktive inntil web serverens restart er ferdig.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Fjerne domene</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESCRIPTION</base>
+        <trans><![CDATA[ <p> Du holder på å fjerne domenet {$domain} ({$domainDesc}). </p> <p> <b>Er du sikker på at du vil fjerne dette domenet?</b> </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_REMOVING_DOMAIN</base>
+        <trans>Feil: Intern feil ved forsøk på å fjerne domenet {$domain}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>Domenet {$domain} er slettet.Webserverne restarter nå. Linkene på denne siden vil være inaktive inntil web serverens restart er ferdig.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS_CURRENT</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Felles DNS Instillinger</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>BUTTON_CORPORATE_DNS</base>
+        <trans><![CDATA[ <p>Hvis denne serveren ikke har tilgang til internet, eller du har spesielle krav til DNS, skriver du inn DNS serverens IP adresse her. Du bør ikke skrive inn internettilbyderens DNS servere her, da serveren selv håndterer alle DNS navn uten yttligere konfigurasjoner.</p> <p> <a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CORPORATE_DNS">Endre felles DNS innstillinger</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS</base>
+        <trans>Hvis denne serveren ikke har tilgang til internet, eller du har spesielle krav til DNS, skriver du inn DNS serverens IP adresse her. Feltene bør stå tomme med mindre du har spesifikke grunner til å sette opp andre DNS servere. Du bør ikke skrive inn internettilbyderens DNS servere her, da serveren selv håndterer alle DNS navn uten yttligere konfigurasjoner.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_PRIMARY</base>
+        <trans>Første felles DNS server</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_SECONDARY</base>
+        <trans>Andre felles DNS server</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_NAMESERVERS</base>
+        <trans>Du kan velge om dette domenet løses lokalt, sendes til felles DNS servere, eller om den skal løses av internet DNS servere. Det forhåndsvalgte er riktig for de fleste nettverk.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_NAMESERVERS</base>
+        <trans>Domene DNS servere</trans>
+    </entry>
+
+    <entry>
+        <base>localhost</base>
+        <trans>Løse lokalt</trans>
+    </entry>
+
+    <entry>
+        <base>internet</base>
+        <trans>Internet DNS servere</trans>
+    </entry>
+
+    <entry>
+        <base>corporate</base>
+        <trans>Felles DNS servere</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Du er i ferd med å fjerne skriveren:</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans>Er du sikker på at du vil slette skriveren?</trans>
+    </entry>
+
+</lexicon>

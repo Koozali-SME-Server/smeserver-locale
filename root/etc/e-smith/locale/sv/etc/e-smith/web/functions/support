@@ -1,0 +1,10 @@
+<lexicon lang="sv">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Support, garanti och licensinformation</trans>
+    </entry>
+    <entry>
+        <base>Support and licensing</base>
+        <trans>Support och licens</trans>
+    </entry>
+</lexicon>

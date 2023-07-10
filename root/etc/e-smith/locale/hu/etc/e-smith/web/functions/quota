@@ -1,0 +1,106 @@
+<lexicon lang="hu">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Felhasználói fiók kvótájának létrehozása, módosítása vagy eltávolítása.</trans>
+    </entry>
+    <entry>
+      <base>UNABLE_TO_OPEN_ACCOUNTS</base>
+      <trans>Nem lehet a felhasználói adatbázist megnyitni</trans>
+    </entry>
+    <entry>
+      <base>QUOTA_DESC</base>
+      <trans><![CDATA[ <p>A felhasználó neve melletti "Módosítás" gombra kattintva fájlrendszer kvótát állíthat be. <p>Ha a felhasználó tárhelyének mérete eléri a "türelmi határt", figyelmeztető üzenetet kap. Ha a felhasználó túllépi ezt a türelmi határt, vagy eléri az abszolút határt, nem tud több fájlt lementeni és nem tud e-mailt fogadni. <p>A 0 érték megadása bármely határértéknél kikapcsolja az adott felhasználói határértéket. <p>Minden felhasználó tárhelyébe beleszámít a felhasználó home könyvtára, az e-mail fiókja és a felhasználó bármely adattárban tárolt fájljai. ]]></trans>
+    </entry>
+    <entry>
+      <base>CURRENT_USAGE_AND_SETTINGS</base>
+      <trans>Jelenlegi kvóta kihasználtság és beállítások</trans>
+    </entry>
+    <entry>
+      <base>LIMIT_WITH_GRACE</base>
+      <trans>Türelmi határ</trans>
+    </entry>
+    <entry>
+      <base>LIMIT_WITH_GRACE_MB</base>
+      <trans>Türelmi határ (MB)</trans>
+    </entry>
+    <entry>
+      <base>ABS_LIMIT</base>
+      <trans>Abszolút határ</trans>
+    </entry>
+    <entry>
+      <base>ABS_LIMIT_MB</base>
+      <trans>Abszolút határ (MB)</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_USAGE</base>
+      <trans>Jelenlegi kihasználtság (MB)</trans>
+    </entry>
+    <entry>
+      <base>COULD_NOT_GET_UID</base>
+      <trans>Ennek a felhasználónak nem határozható meg az uid-je:</trans>
+    </entry>
+    <entry>
+      <base>ERR_NO_SUCH_ACCT</base>
+      <trans>Hiba: nincs ilyen nevű fiók:</trans>
+    </entry>
+    <entry>
+      <base>ERR_NOT_A_USER_ACCT</base>
+      <trans>Hiba: ez a fiók nem felhasználói fiók:</trans>
+    </entry>
+    <entry>
+      <base>ACCOUNT_IS_TYPE</base>
+      <trans>Ez egy fiók, amelynek típusa:</trans>
+    </entry>
+    <entry>
+      <base>MODIFY_USER_TITLE</base>
+      <trans>Felhasználói kvóta módosítása</trans>
+    </entry>
+    <entry>
+      <base>USER</base>
+      <trans>Felhasználó:</trans>
+    </entry>
+    <entry>
+      <base>CURRENTLY_HAS</base>
+      <trans>jelenleg van:</trans>
+    </entry>
+    <entry>
+      <base>FILES</base>
+      <trans>fájl</trans>
+    </entry>
+    <entry>
+      <base>OCCUPYING</base>
+      <trans>amely lefoglal:</trans>
+    </entry>
+    <entry>
+      <base>MEGABYTES</base>
+      <trans>megabájtot</trans>
+    </entry>
+    <entry>
+      <base>INSTRUCTIONS</base>
+      <trans>A kvótát egész számként adja meg, opcionálisan kiegészítve a 'K' mint kilobájt, 'M' mint megabájt, vagy 'G' mint gigabájt utótagokkal. Ha nem ad meg utótagot, akkor az automatikusan megabájtnak minősül. A 0 beállítás bármelyik határértéknél kikapcsolja a korlátozást az adott felhasználónak.</trans>
+    </entry>
+    <entry>
+      <base>SOFT_VAL_MUST_BE_NUMBER</base>
+      <trans>Hiba: a korlátozás türelmi idővel értékének egész számnak kell lennie, opcionálisan kiegészítve a K, M, vagy G utótagokkal.</trans>
+    </entry>
+    <entry>
+      <base>HARD_VAL_MUST_BE_NUMBER</base>
+      <trans>Hiba: az abszolút korlátozás értékének egész számnak kell lennie, opcionálisan kiegészítve a K, M, vagy G utótagokkal.</trans>
+    </entry>
+    <entry>
+      <base>ERR_HARD_LT_SOFT</base>
+      <trans>Hiba: az abszolút határ értékének nagyobbnak kell lennie mint a türelmi korlát értékének.</trans>
+    </entry>
+    <entry>
+      <base>ERR_MODIFYING</base>
+      <trans>Hiba történt a felhasználó módosításakor.</trans>
+    </entry>
+    <entry>
+      <base>SUCCESSFULLY_MODIFIED</base>
+      <trans>A következő felhasználói fiók kvótája sikeresen módosult:</trans>
+    </entry>
+    <entry>
+	<base>Quotas</base>
+	<trans>Kvóták</trans>
+    </entry>
+</lexicon>

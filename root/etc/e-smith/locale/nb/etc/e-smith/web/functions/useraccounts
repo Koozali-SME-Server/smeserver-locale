@@ -1,0 +1,242 @@
+<lexicon lang="nb">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Opprett, endre, eller fjerne brukerkontoer</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> <a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">Legg til brukerkonto</a> </p> <p> Du kan endre, låse eller fjerne kontoer eller nullstille kontoens passord ved å klikke på tilhørende kommando ved siden av kontoen. </p> <p> Hvis kontoen er markert som låst, betyr det at brukerens passord må nullstilles. Merk at nyopprettede kontoer automatisk er låst inntil passordet endres. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>P2_TITLE</base>
+        <trans>Opprett eller endre</trans>
+    </entry>
+    <entry>
+        <base>CREATE_MODIFY_DESC</base>
+        <trans><![CDATA[ <p> Kontonavnet må bare inneholde små bokstaver, tall, bindestreker, punktum, understreker og må starte med liten bokstav. For eksempel "betty", "hjohnson", og "mary-jane" er gyldige kontonavn, men "3friends", "John Smith", og "henry:miller" er ikke. </p> <p> Merk at to spesielle pseudonymer vil bli opprettet for hver nye konto. Disse pseudonymene gir muligheten til å ha alternative e-post kontoer for den brukeren som inneholder fornavn og etternavn adskilt med punktum(.) og understrek (_). Så, for kontoen "betty" med fornavnet "Betty" og etternavnet "Rubble" blit to pseudonymer opprettet som betty.rubble og betty_rubble. </p> <p> Adressebokinformasjonen (avdeling, firma, osv.)kan bli endret fra standard vist nedenfor. Endringene vil kun gjelde for denne brukeren. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MODIFY_ADMIN_TITLE</base>
+        <trans>Endre admin kontoen</trans>
+    </entry>
+    <entry>
+        <base>USER_CREATED</base>
+        <trans>Kontoen ble opprettet.</trans>
+    </entry>
+    <entry>
+        <base>USER_MODIFIED</base>
+        <trans>Kontoen ble endret.</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER</base>
+        <trans>Feil: en intern feil oppsto under forsøk på å endre brukeren "{$acctName}".</trans> 
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER_GROUPS</base> 
+        <trans>Feil: en intern feil oppsto under forsøk på å endre gruppen"{$group}" for brukeren "{$acctName}".</trans>
+    </entry>
+    <entry>
+        <base>TAINTED_USER</base>
+        <trans>Kontonavnet "{$acctName}" inneholder ugyldige tegn.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME</base>
+        <trans>Kontonavn</trans>
+    </entry>
+    <entry>
+        <base>FIRSTNAME</base>
+        <trans>fornavn</trans>
+    </entry>
+    <entry>
+        <base>LASTNAME</base>
+        <trans>etternavn</trans>
+    </entry>
+    <entry>
+        <base>DEPARTMENT</base>
+        <trans>Avdeling</trans>
+    </entry>
+    <entry>
+        <base>COMPANY</base>
+        <trans>Firma</trans>
+    </entry>
+    <entry>
+        <base>STREET_ADDRESS</base>
+        <trans>Gateadresse</trans>
+    </entry>
+    <entry>
+        <base>CITY</base>
+        <trans>By</trans>
+    </entry>
+    <entry>
+        <base>PHONE_NUMBER</base>
+        <trans>Telefonnummer</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_DELIVERY</base>
+        <trans>E-post levering</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_EMAIL_LOCALLY</base>
+        <trans>Lever e-post lokalt</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_EMAIL</base>
+        <trans>Videresend e-post til adressen nedenfor</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_AND_FORWARD</base>
+        <trans>Lever både lokalt, og videresend</trans>
+    </entry>
+    <entry>
+        <base>FORWARDING_ADDRESS</base>
+        <trans>Videresendingsadresse</trans>
+    </entry>
+    <entry>
+        <base>GROUP_MEMBERSHIPS</base>
+        <trans>Gruppemedlemskap</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC</base>
+        <trans>Du er i ferdi med å endre passordet for brukerkontoen</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC2</base>
+        <trans>Skriv inn det nye passordet i feltet nedenfor</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_MODIFYING_PASSWORD</base>
+        <trans>En feil oppsto under oppdateringen av passordet</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE_SUCCEEDED</base>
+        <trans>Passordet for brukeren "{$acctName}" er endret.</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC</base>
+        <trans>Du er i ferd med å låse brukerkontoen</trans>
+    </entry>
+    <entry>
+        <base>LOCKED_ACCOUNT</base>
+        <trans>Kontoen til brukeren "{$acctName}" er låst.</trans>
+    </entry>
+    <entry>
+        <base>NO_SUCH_USER</base>
+        <trans>Feil: brukerkontoen "{$acctName}" eksisterer ikke.</trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM_CLASH</base>
+        <trans>Feil: Pseudonymet "{$pseudonym}" er allerede i bruk av den eksiterende brukerkontoen "{$clashName}". For å diffrensiere, legg til initialer til feltet.</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT</base>
+        <trans>Lås konto</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT_TITLE</base>
+        <trans>Lås brukerkonto</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC2</base>
+        <trans><![CDATA[ Brukerkontoen vil bli låst. Det betyr at brukeren ikke kan logge på, eller hente e-post. Mottatt e-post vil fortsatt lagres og eller videresendes til en ekstern adresse, som spesifisert. Kontoen kan aktiveres i fremtiden ved å sette et nytt passord. Gjeldende passord vil ikke bli beholdt. </p> <p> <b>Er du sikker på at du vil låse kontoen?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>REMOVE_ACCOUNT_TITLE</base>
+        <trans>Fjern brukerkonto</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Du er i ferd med å fjerne brukerkontoen</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans><![CDATA[ Alle filer tilhørende brukerkontoen vil bli slettet. Det gjelder også e-post til brukerkontoen som ennå ligger på serveren (d.v.s. som enda ikke har blit lastet ned av brukeren) vil bli forkastet. </p> <p> <b>Er du sikker på at du vil fjerne kontoen?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>LOCK</base>
+        <trans>Lås</trans>
+    </entry>
+    <entry>
+        <base>NO_USER_ACCOUNTS</base>
+        <trans>Det er ingen brukerkontoer på systemet.</trans>
+    </entry>
+    <entry>
+        <base>Users</base>
+        <trans>Brukere</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>Kontonavnet "{$acctName}" inneholder ugyldige tegn. Kontonavn må starte med liten bokstav og bare inneholde små bokstaver, tall, bindestrek, punktum og understreker.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_TOO_LONG</base>
+        <trans>Feil: kontonavnet er for langt. maksimal lengde er {$maxLength} tegn.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>Feil: kontoen "{$account}" kan ikke opprettes fordi det allerede er en {$type}konto med det navnet.</trans>
+    </entry>    
+    <entry>
+        <base>ERR_OCCURRED_CREATING</base>
+        <trans>En feil oppsto under oppretting av kontoen.</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_CONTAIN_WHITESPACE</base>
+        <trans>Dette feltet kan ikke inneholde tomme tegn</trans>
+    </entry>
+    <entry>
+        <base>UNACCEPTABLE_CHARS</base>
+        <trans>Dette feltet må bare inneholde bokstaver, tall, punktum, bindestrek og understrek, og må begynne med en bokstav</trans>
+    </entry>
+    <entry>
+        <base>MEMBER</base>
+        <trans>Medlem?</trans>
+    </entry>
+    <entry>
+        <base>VPN_CLIENT_ACCESS</base>
+        <trans>VPN klient tilgang</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_FORM_TITLE</base>
+        <trans>Endre systempassord</trans>
+    </entry>    
+    <entry> 
+        <base>SYSTEM_PASSWORD_DESCRIPTION</base>
+        <trans><![CDATA[ Noen tjenester på serverinstallasjonen krever brukernavn og passord (for eksempel denne websiden for server manager programmet). Brukernavnet er alltid admin. Du kan endre systempassordet ved å bruke feltet nedenfor. ]]></trans>        
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS</base>
+        <trans>Passordet må kun inneholde printbare tegn.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_VERIFY_ERROR</base>
+        <trans>De to passordene er ikke like.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_AUTH_ERROR</base>
+        <trans>Gjeldende passord er feil.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_CHANGED</base>
+        <trans>Systempassordet er endret.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_SYSTEM_PASSWORD</base>
+        <trans>Gjeldene systempassord</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD</base>
+        <trans>Nytt systempassord</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD_VERIFY</base>
+        <trans>Nytt systempassord (bekreft)</trans>
+    </entry>            
+    <entry>
+        <base>LABEL_IPSECRW_DOWNLOAD</base>
+        <trans>Last ned digitalt sertifikat til IPSec klient</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_DELETING</base>
+        <trans>En feil oppsto under forsøk på å slette brukeren.</trans>
+    </entry>
+</lexicon>

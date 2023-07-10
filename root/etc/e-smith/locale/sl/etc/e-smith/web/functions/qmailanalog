@@ -1,0 +1,87 @@
+<lexicon lang="sl">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>E-mail LOG datoteka</trans>
+    </entry>
+    <entry>
+	<base>INITIAL_DESC</base>
+	<trans><![CDATA[ <p>Analiza sistemske LOG e-mail datoteke lahko pomaga pri razumevanju delovanja in diagnozi pri tazavah z odposiljanjem e-poste. Na voljo je kar nekaj razlicnih vrst porocil. </p> <p>Prosim bodi pozoren, ker lahko generiranje porocila traja kar nekaj casa. </p> ]]></trans>
+    </entry>
+    <entry>
+	<base>REPORT_TYPE</base>
+	<trans>Izberi vrsto porocila</trans>
+    </entry>
+    <entry>
+	<base>GENERATE_REPORT</base>
+	<trans>Generiraj porocilo</trans>
+    </entry>
+    <entry>
+	<base>LIST_OUTGOING</base>
+	<trans>Seznam odposlanih sporocil in prejemnikov</trans>
+    </entry>
+    <entry>
+	<base>SUMMARIZE_QUEUE</base>
+	<trans>Summarize status of mail queue</trans>
+    </entry>
+    <entry>
+	<base>SUCCESSFUL_DELIVERY_DELAY</base>
+	<trans>Uspesno odposlana posta z zakasnitvijo</trans>
+    </entry>
+    <entry>
+	<base>REASONS_DEFERRAL</base>
+	<trans>Vzrok za zakasnitev</trans>
+    </entry>
+    <entry>
+	<base>REASONS_FAILURE</base>
+	<trans>Vzrok za napako</trans>
+    </entry>
+    <entry>
+	<base>BASIC_STATS</base>
+	<trans>Osnovna statistika</trans>
+    </entry>
+    <entry>
+	<base>RECIP_STATS</base>
+	<trans>Statistika prejemnikov</trans>
+    </entry>
+    <entry>
+	<base>RECIP_HOSTS</base>
+	<trans>Prejemnikovi host-i</trans>
+    </entry>
+    <entry>
+	<base>RECIP_ORDERED</base>
+	<trans>Prejemniki v boljsem redu mailing listo</trans>
+    </entry>
+    <entry>
+	<base>SENDER_STATS</base>
+	<trans>Statistika posiljateljev</trans>
+    </entry>
+    <entry>
+	<base>SENDMAIL_STYLE</base>
+	<trans>Sendmail stil log</trans>
+    </entry>
+    <entry>
+	<base>REASONS_SUCCESS</base>
+	<trans>Vzrok za uspeh</trans>
+    </entry>
+    <entry>
+	<base>SENDER_UIDS</base>
+	<trans>Posiljateljev uids</trans>
+    </entry>
+    <entry>
+	<base>INVALID_REPORT_TYPE</base>
+	<trans>Napacna vrsta porocila:</trans>
+    </entry>
+    <entry>
+	<base>REPORT_GENERATED</base>
+	<trans>Porocilo generirano:</trans>
+    </entry>
+    <entry>
+	<base>END_OF_REPORT</base>
+	<trans>Konec porocila</trans>
+    </entry>
+    <entry>
+	<base>Mail log file analysis</base>
+	<trans>Analiza E-mail log datoteke</trans>
+    </entry>
+
+</lexicon>

@@ -1,0 +1,15 @@
+<lexicon lang="nl">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>Online handleiding en andere documentatie</trans>
+      </entry>	
+      <entry> 
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ <ul> <li><a target="new" href="https://wiki.koozali.org/documentation/manual/"> Online handleiding</a> <li><a target="new" href="https://wiki.koozali.org/documentation/FAQ/"> FAQs</a></ul><H2>Ondersteuning en licenties</H2> Deze software is uitgegeven onder de voorwaarden zoals deze zijn benoemd in de <a href="/server-manager/cgi-bin/support"> Ondersteuning en Licenties</a> page. ]]></trans>
+      </entry>		
+      <entry>
+	<base>Online manual</base>
+	<trans>Online handleiding</trans>
+      </entry>
+
+</lexicon>

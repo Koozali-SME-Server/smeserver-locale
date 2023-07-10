@@ -1,0 +1,114 @@
+<lexicon lang="el">
+    <entry>
+      <base>NO_PSEUDONYMS</base>
+      <trans><![CDATA[ <b>Δεν υπάρχουν ψευδώνυμα στο σύστημα.</b> ]]></trans>
+     </entry>
+    <entry>
+        <base>REMOVE_PSEUDONYM</base>
+        <trans>Διαγραφή ψευδώνυμου</trans>
+    </entry>
+    <entry>
+        <base>ABOUT_TO_REMOVE</base>
+        <trans><![CDATA[ Πρόκειται να διαγράψετε το ψευδώνυμο:<br> <b>Είστε σίγουροι ότι επιθυμείτε να συνεχίσετε;</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Δημιουργία, τροποποιήση ή διαγραφή ψευδώνυμων</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans><![CDATA[ <p>Ο κεντρικός υπολογιστής δημιουργεί αυτόματα ένα ψευδώνυμο ηλεκτρονικής αλληλογραφίας για κάθε ομάδα. Εάν θέλετε να καθορίσετε ένα ψευδώνυμο ηλεκτρονικής αλληλογραφίας για έναν κατάλογο χρηστών, δημιουργήστε απλά μια ομάδα και ο κατάλογος θα διατηρηθεί αυτόματα από τον κεντρικό υπολογιστή.</p> <p>Τα ψευδώνυμα επιτρέπουν σε σας να δημιουργήσετε άλλα ονόματα για τους υπάρχοντες χρήστες ή τις ομάδες. Παραδείγματος χάριν, μπορείτε να θελήσετε να δημιουργήσετε ένα ψευδώνυμο "webmaster" για την ομάδα "webdevelopers" σας ή ένα ψευδώνυμο "Joe" για τον χρήστη "Joseph".</p> <p>Ο διακομιστής δημιουργεί αυτόματα ψευδώνυμα από το όνομα.επώνυμο και όνομα_επώνυμο για κάθε χρήστη στο σύστημα και ένα ψευδώνυμο "everyone" που περιέχει όλους τους χρήστες του συστήματος.</p> <p>Τα ψευδώνυμα επίσης σας επιτρέπουν να δημιουργήσετε ψευδώνυμα ηλεκτρονικής αλληλογραφίας για έγκυρους (εικονικούς) τομείς & χρήστες. Για παράδειγμα μπορείτε να προωθήσετε το "sales@virtualdomain1.com" στο χρήστη "mary" και το "sales@virtualdomain2.com" στο χρήστη "john". Πρέπει πρώτα να δημιουργήσετε τον τομέα και τον λογαριασμό χρήστη πριν δημιουργήσετε το ψευδώνυμο ηλεκτρονικής αλληλογραφίας.</p> <p>Τα ψευδώνυμα μπορούν επίσης να προωθηθούν σε άλλα ψευδώνυμα, αν και αυτό περιορίζεται σε ένα περαιτέρω επίπεδο. Για παράδειγμα το ψευδώνυμο "webmaster" μπορεί να προωθηθεί στο ψευδώνυμο "techsupport" το οποίο μετά προωθείται στο συγκεκριμένο χρήστη "ray". Αυτό είναι χρήσιμο στην περίπτωση που ένας χρήστης, υπεύθυνος για πολλούς ρόλους, αποχωρεί από τον οργανισμό περιορίζοντας τις πολλαπλές αλλαγές των ψευδωνύμων που είχαν σχέση με αυτόν τον χρήστη. </p> <p>Μπορείτε να τροποποιήσετε ή να διαγράψετε ένα ψευδώνυμο πατώντας στην αντίστοιχη εντολή δίπλα στο ψευδώνυμο.</p>]]></trans>
+    </entry>
+    <entry>
+        <base>LOCAL_ONLY</base>
+        <trans>(τοπικό δίκτυο μόνο)</trans>
+    </entry>
+    <entry>
+        <base>SELECT_ACCOUNT</base>
+        <trans>Επιλέξτε λογαριασμό ή ομάδα</trans>
+    </entry>
+    <entry>
+        <base>SELECT_INTERNAL</base>
+        <trans>Τοπικό δίκτυο μόνο</trans>
+    </entry>
+    <entry>
+        <base>CLICK_TO_CREATE</base>
+        <trans>Προσθήκη ψευδωνύμου</trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM</base>
+        <trans>Ψευδώνυμο</trans>
+    </entry>
+    <entry>
+        <base>USER_OR_GROUP</base>
+        <trans>Χρήστης ή ομάδα</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_PSEUDONYMS</base>
+        <trans><![CDATA[<b>Τρέχουσα λίστα ψευδωνύμων</b>]]></trans>
+    </entry>
+    <entry>
+        <base>TITLE_CREATE</base>
+        <trans>Δημιουργία ψευδωνύμου</trans>
+    </entry>
+    <entry>
+        <base>DESC_PSEUDONYM_NAME</base>
+       <trans>Παρακαλώ επιλέξτε έναν υπάρχοντα λογαριασμό ή ομάδα για το ψευδώνυμο από το παρακάτω αναδιπλούμενο μενού</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_PSEUDONYM</base>
+        <trans>Τροποποίηση Ψευδωνύμου</trans>
+    </entry>     
+       <entry>
+        <base>PSEUDONYM_NAME</base>
+        <trans>Ονομασία Ψευδωνύμου</trans>
+    </entry>
+    <entry>
+        <base>VALID_PSEUDONYM_NAMES</base>
+        <trans><![CDATA[ Το ψευδώνυμο πρέπει να περιέχει πεζά γράμματα, αριθμούς, τελείες, παύλες κάτω παύλες και πρέπει να ξεκινάει με πεζό γράμμα ή αριθμό. Για παράδειγμα "sales", "john.holland", "123" και "email-administrator" είναι όλα έγκυρα ψευδώνυμα, αλλά "John Smith" και "Henry Miller" δεν είναι. <p>Μπορείτε επίσης να δημιουργήσετε email ψευδώνυμα για λογαριασμούς και (εικονικούς) τομείς πού είναι έγκυρα σε αυτό τον διακομιστή. Για παράδειγμα "fred@virtualdomain.com" μπορεί να προωθηθεί στο "mary" (ή σε κάποιο άλλο έγκυρο λογαριασμό χρήστη).</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>NAME_IN_USE</base>
+        <trans>Σφάλμα: Αυτό το όνομα είναι ένας χρήστης δεν μπορείτε να δημιουργήσετε ένα ψευδώνυμο με αυτό το όνομα.</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_PSEUDONYM</base>
+        <trans>Αυτός ο λογαριασμός δεν είναι ψευδώνυμο</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_DOMAIN</base>
+        <trans>Αυτός ο τομέας δεν φιλοξενείται σε αυτό το διακομιστή</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_NOACCT</base>
+        <trans>Αυτός ο λογαριασμός δεν φιλοξενείται σε αυτό το διακομιστή</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_SAMEACCT</base>
+        <trans>Ένα ψευδώνυμο δεν μπορεί να ορίζει τον ίδιο λογαριασμό</trans>
+    </entry>
+    <entry>
+        <base>CREATE_SUCCEEDED</base>
+        <trans>Επιτυχής δημιουργία ψευδωνύμου</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_SUCCEEDED</base>
+        <trans>Επιτυχής τροποποίηση ψευδωνύμου</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_SUCCEEDED</base>
+        <trans>Επιτυχής αφαίρεση ψευδωνύμου</trans>
+    </entry>
+    <entry>
+      <base>EVERYONE</base>
+      <trans>Όλοι</trans>
+    </entry>
+      <entry>
+        <base>Pseudonyms</base>
+        <trans>Ψευδώνυμα</trans>
+      </entry>
+
+</lexicon>

@@ -1,0 +1,520 @@
+<lexicon lang="sv">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>Collaboration</base>
+        <trans>Samarbete</trans>
+    </entry>
+    <entry>
+      <base>Administration</base>
+      <trans>Administration</trans>
+    </entry>
+    <entry>
+        <base>Security</base>
+        <trans>Säkerhet</trans>
+    </entry>
+    <entry>
+        <base>Configuration</base>
+        <trans>Konfiguration</trans>
+    </entry>
+    <entry>
+        <base>Miscellaneous</base>
+        <trans>Övrigt</trans>
+    </entry>
+    <entry>
+        <base>Your Settings</base>
+        <trans>Dina inställningar</trans>
+    </entry>
+    <entry>
+        <base>SAVE</base>
+        <trans>Spara</trans>
+    </entry>
+    <entry>
+        <base>CANCEL</base>
+        <trans>Avbryt</trans>
+    </entry>
+    <entry>
+        <base>ENABLED</base>
+        <trans>Tillåten</trans>
+    </entry>
+    <entry>
+        <base>DISABLED</base>
+        <trans>Ej tillåten</trans>
+    </entry>
+    <entry>
+        <base>NO</base>
+        <trans>Nej</trans>
+    </entry>
+    <entry>
+        <base>YES</base>
+        <trans>Ja</trans>
+    </entry>
+    <entry>
+        <base>ADD</base>
+        <trans>Lägg till</trans>
+    </entry>
+    <entry>
+        <base>CREATE</base>
+        <trans>Skapa</trans>
+    </entry>
+    <entry>
+        <base>MODIFY</base>
+        <trans>Ändra</trans>
+    </entry>
+    <entry>
+        <base>REMOVE</base>
+        <trans>Radera</trans>
+    </entry>
+    <entry>
+        <base>COMMENT</base>
+        <trans>Kommentar</trans>
+    </entry>
+    <entry>
+        <base>NEXT</base>
+        <trans>Nästa</trans>
+    </entry>
+    <entry>
+        <base>SELF</base>
+        <trans>Själv</trans>
+    </entry>
+    <entry>
+        <base>REMOTE</base>
+        <trans>Fjärr</trans>
+    </entry>
+    <entry>
+        <base>LOCAL</base>
+        <trans>Lokal</trans>
+    </entry>
+    <entry>
+        <base>ACTION</base>
+        <trans>Verkställ</trans>
+    </entry>
+    <entry>
+        <base>NETWORK</base>
+        <trans>Nätverk</trans>
+    </entry>
+    <entry>
+        <base>ROUTER</base>
+        <trans>Router</trans>
+    </entry>
+    <entry>
+        <base>OPERATION_STATUS_REPORT</base>
+        <trans>Statusrapport över operationerna</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT</base>
+        <trans>Konto</trans>
+    </entry>
+    <entry>
+        <base>GROUP</base>
+        <trans>Grupp</trans>
+    </entry>
+    <entry>
+        <base>DESC_SECTIONBAR</base>
+        <trans><![CDATA[  ]]></trans>
+    </entry>
+    <entry>
+        <base>NO_PIPES_ALLOWED</base>
+        <trans>Pipe symboler (|) är inte tillåtna i detta fält</trans>
+    </entry>
+    <entry>
+        <base>ERROR_BELOW</base>
+        <trans>FEL: Det blev ett fel vid valideringen av denna sida. Skrolla ner på sidan och sök efter problemet.</trans>
+    </entry>
+    <entry>
+        <base>ACCESS</base>
+        <trans>Åtkomst</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_LOCKED</base>
+        <trans>Kontot är låst</trans>
+    </entry>
+    <entry>
+        <base>GROUP_ADD</base>
+        <trans>Lägg till grupp</trans>
+    </entry>
+    <entry>
+        <base>NETWORKS_ALLOW_LOCAL</base>
+        <trans>Acceptera endast åtkomst från lokala nätverk</trans>
+    </entry>
+    <entry>
+        <base>NETWORKS_ALLOW_PUBLIC</base>
+        <trans>Tillåt publik åtkomst (hela Internet)</trans>
+    </entry>
+    <entry>
+        <base>ERROR_PASSWORD_CHANGE</base>
+        <trans>Et fel uppstod vid försök att ändra ditt lösenord. Kontrollera att det gamla lösenordet som du angav är korrekt.</trans>
+    </entry>
+    <entry>
+        <base>BACK</base>
+        <trans>Tillbaka</trans>
+    </entry>
+    <entry>
+        <base>BACKUP</base>
+        <trans>Backup</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION_BRIEF</base>
+        <trans>Kort beskrivning</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE</base>
+        <trans>Ändra lösenord</trans>
+    </entry>
+    <entry>
+        <base>RESET_PASSWORD_TITLE</base>
+        <trans>Återställ användarens lösenord</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_PASSWORD_CHANGE</base>
+        <trans>Ändra lösenord för konto</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>Innehåll</trans>
+    </entry>
+    <entry>
+        <base>CREATE_GROUP</base>
+        <trans>Skapa användargrupp</trans>
+    </entry>
+    <entry>
+        <base>USER_LIST_CURRENT</base>
+        <trans>Aktuell lista över användare</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans>Beskrivning</trans>
+    </entry>
+    <entry>
+        <base>DESTINATION</base>
+        <trans>Destination</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME</base>
+        <trans>Domännamn</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN</base>
+        <trans>Domän</trans>
+    </entry>
+    <entry>
+        <base>DOMAINS</base>
+        <trans>Domäner</trans>
+    </entry>
+    <entry>
+        <base>DOWNLOAD</base>
+        <trans>Ladda ner</trans>
+    </entry>
+    <entry>
+        <base>ERROR_UPDATING_CONFIGURATION</base>
+        <trans>Ett fel inträffade under uppdateringen av systemets konfiguration.</trans>
+    </entry>
+    <entry>
+        <base>GROUP_MEMBERS</base>
+        <trans>Gruppmedlemmar</trans>
+    </entry>
+    <entry>
+        <base>GROUP_NAME</base>
+        <trans>Gruppnamn</trans>
+    </entry>
+    <entry>
+        <base>GROUPS</base>
+        <trans>Grupper</trans>
+    </entry>
+    <entry>
+        <base>IP_ADDRESS</base>
+        <trans>IP-adress</trans>
+    </entry>
+    <entry>
+        <base>IP_ADDRESS_OR_FQDN</base>
+        <trans>IP-adress eller FQDN</trans>
+    </entry>
+    <entry>
+        <base>USER_INVALID</base>
+        <trans>Otillåten användare</trans>
+    </entry>
+    <entry>
+        <base>LOCATION</base>
+        <trans>Placering</trans>
+    </entry>
+    <entry>
+        <base>MB</base>
+        <trans>Mb</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_USER_GROUP</base>
+        <trans>Ändra användargrupp</trans>
+    </entry>
+    <entry>
+        <base>NAME</base>
+        <trans>Namn</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_VERIFY_NEW</base>
+        <trans>Nytt lösenord (verifiering):</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_NEW</base>
+        <trans>Nytt lösenord:</trans>
+    </entry>
+    <entry>
+        <base>OFF</base>
+        <trans>Av</trans>
+    </entry>
+    <entry>
+        <base>OK</base>
+        <trans>Ok</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_OLD</base>
+        <trans>Gammalt lösenord:</trans>
+    </entry>
+    <entry>
+        <base>ON</base>
+        <trans>Aktiverad</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD</base>
+        <trans>Lösenord</trans>
+    </entry>
+    <entry>
+        <base>PERFORM</base>
+        <trans>Verkställ</trans>
+    </entry>
+    <entry>
+        <base>RECONFIGURE</base>
+        <trans>Omkonfigurera</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_USER_GROUP</base>
+        <trans>Radera användargrupp</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_RESET</base>
+        <trans>Återställ lösenord</trans>
+    </entry>
+    <entry>
+        <base>RESTORE</base>
+        <trans>Återställ</trans>
+    </entry>
+    <entry>
+        <base>SHUTDOWN</base>
+        <trans>Stäng av</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Genomfört</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME_INVALID</base>
+        <trans>Kontonamnet som angivits är ogiltigt.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME_INVALID_CHARS</base>
+        <trans>Kontonamnet du angav innehåller ogiltiga tecken.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_OLD_INVALID_CHARS</base>
+        <trans>Det gamla lösenordet som du angav innehåller ogiltiga tecken.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_INVALID_CHARS</base>
+        <trans>Lösenordet som du angav innehåller ogiltiga tecken.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_VERIFY_ERROR</base>
+        <trans>Lösenorden du angav stämmer inte överens.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_USER_NONE</base>
+        <trans>Det finns inga användarkonton på detta system.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_GROUP_NONE</base>
+        <trans>Det finns inga användargrupper i systemet.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_INVALID_CHARS</base>
+        <trans>Otillåtna tecken i beskrivningen.</trans>
+    </entry>
+    <entry>
+        <base>USER_NAME</base>
+        <trans>Användarnamn</trans>
+    </entry>
+    <entry>
+        <base>YOUR_ACCOUNT</base>
+        <trans>Ditt konto:</trans>
+    </entry>
+    <entry>
+      <base>YOUR_ACCOUNT_INVALID</base>
+      <trans>Kontonamnet som angivits är ogiltigt.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE_SUCCESS</base>
+        <trans>Ditt lösenord har ändrats.</trans>
+    </entry>
+    <entry>
+        <base>FM_NONBLANK</base>
+        <trans>Detta fält får inte vara tomt</trans>
+    </entry>
+    <entry>
+        <base>FM_INTEGER</base>
+        <trans>Detta fält måste innehålla ett positivt heltal</trans>
+    </entry>
+    <entry>
+        <base>FM_NUMBER</base>
+        <trans>Detta fält måste innehålla en siffra</trans>
+    </entry>
+    <entry>
+        <base>FM_WORD</base>
+        <trans>Detta fält måste innehålla ett ord.</trans>
+    </entry>
+    <entry>
+        <base>FM_DATE</base>
+        <trans>Datan som angavs kunde inte hanteras som datum</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER1</base>
+        <trans>Du måste ange ett kreditkortsnummer</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER2</base>
+        <trans>Kreditkortsnummer skall endast innehålla siffror, mellanslag eller streck</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER3</base>
+        <trans>Måste vara minst 14 tecken långt</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER4</base>
+        <trans>Verkar inte vara ett giltligt kreditkortsnummer</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY1</base>
+        <trans>Inget utgångsdatum angivet.</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY2</base>
+        <trans>Utgångsdatumet måste vara i formatet MM/YY eller MM/YYYY</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY3</base>
+        <trans>Utgångsdatumet verkar ha passerat</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY4</base>
+        <trans>Utgångsdatumet verkar ligga för långt fram i framtiden</trans>
+    </entry>
+    <entry>
+        <base>FM_ISO_COUNTRY_CODE1</base>
+        <trans>Du måste ange en landskod</trans>
+    </entry>
+    <entry>
+        <base>FM_ISO_COUNTRY_CODE2</base>
+        <trans>Fältet innehåller inte en landskod i ISO-format</trans>
+    </entry>
+    <entry>
+        <base>FM_US_STATE</base>
+        <trans>Detta verkar inte vara ett giltligt 2-bokstavs förkortning för en USA stat</trans>
+    </entry>
+    <entry>
+        <base>FM_US_ZIPCODE</base>
+        <trans>Postkoder i USA måste innehålla 5 eller 9 siffror</trans>
+    </entry>
+    <entry>
+        <base>FM_MINLENGTH1</base>
+        <trans>Minimala längden har angivits till {$minlength}</trans>
+    </entry>
+    <entry>
+        <base>FM_MINLENGTH2</base>
+        <trans>Detta fält måste innehålla minst {$minlength} tecken</trans>
+    </entry>
+    <entry>
+        <base>FM_MAXLENGTH1</base>
+        <trans>Maximala längden har angvits till {$maxlength}</trans>
+    </entry>
+    <entry>
+        <base>FM_MAXLENGTH2</base>
+        <trans>Detta fält får innehålla maximalt {$maxlength} tecken</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH1</base>
+        <trans>Du måste ange längden för detta fält.</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH2</base>
+        <trans>Du måste ange den exakta längden på fältet med ett heltal</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH3</base>
+        <trans>Detta fält måste innehålla exakt {$exactlength} tecken</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE1</base>
+        <trans>Du måste ange den maximala och minimala längden för detta fält.</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE2</base>
+        <trans>Du måste ange den maximala och minimala längden för detta fält med ett heltal</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE3</base>
+        <trans>Detta fält måste ha en längd mellan {$minlength} och {$maxlength} tecken</trans>
+    </entry>
+    <entry>
+        <base>FM_URL</base>
+        <trans>Detta fält måste innehålla en URL som börjar med http:// eller ftp://</trans>
+    </entry>
+    <entry>
+        <base>FM_EMAIL_SIMPLE1</base>
+        <trans>Du måste ange en e-postadress.</trans>
+    </entry>
+    <entry>
+        <base>FM_EMAIL_SIMPLE2</base>
+        <trans>Detta fält verkar inte innehålla en e-post som är kompatibel med RFC822</trans>
+    </entry>
+    <entry>
+        <base>FM_DOMAIN_NAME</base>
+        <trans>Detta fält verkar inte innehålla ett giltigt namn för en Internetdomän eller värd.</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER1</base>
+        <trans>Detta fält måste innehålla ett giltigt IP-nummer och kan inte lämnas tomt.</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER2</base>
+        <trans>Ogiltig IP-adress format (förväntat X.X.X.X)</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER3</base>
+        <trans>{$octet} är mer än 255</trans>
+    </entry>
+    <entry>
+        <base>FM_USERNAME</base>
+        <trans>Detta fält måste se ut som ett giltigt användarnamn (3 till 8 bokstäver eller siffror)</trans>
+    </entry>
+    <entry>
+        <base>FM_PASSWORD1</base>
+        <trans>Du måste ange ett lösenord.</trans>
+    </entry>
+    <entry>
+        <base>FM_PASSWORD2</base>
+        <trans>Lösenordet som du angav var inte ett bra lösenord. Ett bra lösenord måste innehålla allt av följande: versal, gemen, siffra, icke alfabetiskt tecken och vara minst 7 tecken långt.</trans>
+    </entry>
+    <entry>
+        <base>FM_MAC_ADDRESS1</base>
+        <trans>Du måste ange en MAC-adress.</trans>
+    </entry>
+    <entry>
+        <base>FM_MAC_ADDRESS2</base>
+        <trans>MAC-adressen som du angav var inte giltig.</trans>
+    </entry>
+    <entry>
+	<base>FM_ERR_UNEXPECTED_DESC</base>
+	<trans>Fel: oväntade eller saknade tecken i beskrivningen</trans>
+    </entry>
+    <entry>
+        <base>CSRF_VALIDATION_FAILURE</base>
+        <trans>Error: CSRF token is invalid or outdated.</trans>
+    </entry>
+</lexicon>

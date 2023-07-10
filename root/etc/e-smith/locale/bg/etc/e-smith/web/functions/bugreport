@@ -1,0 +1,101 @@
+<lexicon lang="bg">
+
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Докладване на грешка</trans>
+    </entry>
+    <entry>
+        <base>DO_NOT_PANIC</base>
+        <trans>Не изпадайте в паника!</trans>
+    </entry>
+    <entry>
+        <base>SME_EXPERIENCE</base>
+        <trans>За съжаление няма софтуер без грешки, и Вие вероятно сте попаднали на тази страница защото имате някакъв проблем с инсталацията на Вашия SME Server.</trans>
+    </entry>
+    <entry>
+        <base>PLEASE_REPORT_HERE</base>
+        <trans>За да помогнем на разработчиците да диагностицират и поправят Вашия проблем, моля свалете посочения шаблон за текст, попълнете го и го поставете от клипборда в доклада за грешката на</trans>
+    </entry>
+    <entry>
+        <base>USE_TEMPLATE</base>
+        <trans>Вижте следната връзка за това как да докладвате ефективно грешка и да използвате шаблона й</trans>
+    </entry>
+    <entry>
+        <base>FOLLOWING_REPORT_MIGHT_HELP</base>
+        <trans>Ще бъде от полза ако предоставите ключова информация за конфигурацията на Вашия сървър в доклада за грешката. Като щракнете на бутона "Създай отчет за конфигурацията" по-долу можете да създадете и да свалите текстов файл, съдържащ тази информация. Моля прикачете този файл към доклада за грешка.</trans>
+    </entry>
+    <entry>
+        <base>REPORT_CONTENT</base>
+        <trans>Докладът ще съдържа следната информация</trans>
+    </entry>
+    <entry>
+        <base>SME_VERSION</base>
+        <trans>Версия на Koozali SME Server</trans>
+    </entry>
+    <entry>
+        <base>SERVER_MODE</base>
+        <trans>Режим на сървъра</trans>
+    </entry>
+    <entry>
+        <base>PREVIOUS_SERVER_MODE</base>
+        <trans>Предишен режим на сървъра</trans>
+    </entry>
+    <entry>
+        <base>KERNEL_AND_ARCH</base>
+        <trans>Версия и архитектура на текущото ядро</trans>
+    </entry>
+    <entry>
+        <base>INSTALLED_RPMS</base>
+        <trans>Списък на допълнително инсталираните RPM-ми на Вашия сървър</trans>
+    </entry>
+    <entry>
+        <base>ALTERED_TEMPLATES</base>
+        <trans>Списък на шаблоните на SME, които са били променени на Вашия сървър спрямо базовата инсталация</trans>
+    </entry>
+    <entry>
+        <base>ALTERED_EVENTS</base>
+        <trans>Списък на събитията на SME, които са били променени на Вашия сървър спрямо базовата инсталация</trans>
+    </entry>
+    <entry>
+        <base>YUM_REPOS</base>
+        <trans>Списък на допълнителните хранилища за софтуер, настроени на Вашия сървър</trans>
+    </entry>
+    <entry>
+        <base>PRIVACY</base>
+        <trans>Никаква чувствителна информация (като потребители, пароли или IP адреси) няма да бъде включена в доклада.</trans>
+    </entry>
+    <entry>
+            <base>CREATE_REPORT</base>
+            <trans>Създаване на отчет за конфигурацията</trans>
+    </entry>
+
+    <entry>
+            <base>DONATING</base>
+            <trans>Помислихте ли дали ще направите дарение?</trans>
+    </entry>
+    <entry>
+            <base>AWARE_SME</base>
+            <trans>Вероятно знаете, че SME Server се разработва и поддържа от активна общност от доброволци от целия свят. Въпреки че SME Server е безплатна за сваляне и използване, обслужването на инфраструктурата на проекта (като хостинга на форумите и wiki-то, осигуряването на хранилищата, сървърите за компилиране и т.н.) струват реални пари в реалния свят.</trans>
+    </entry>
+    <entry>
+            <base>YOUR_HELP</base>
+            <trans>По абсолютно същия начин по който Вие се нуждаете ние да обърнем внимание на Вашия проблем, ние се нуждаем от ВАШАТА помощ за да запазим проекта жив!</trans>
+    </entry>
+    <entry>
+            <base>CONSIDER_DONATING</base>
+            <trans>Помислете дали да дарите на проекта като щракнете на картинката по-долу:</trans>
+    </entry>
+    <entry>
+            <base>THANK_YOU</base>
+            <trans>Благодарим за Вашата поддръжка!</trans>
+    </entry>
+    <entry>
+            <base>Download this report</base>
+            <trans>Свалете доклада !</trans>
+    </entry>
+    <entry>
+            <base>Report a bug</base>
+            <trans>Докладвайте грешката</trans>
+    </entry>
+
+</lexicon>

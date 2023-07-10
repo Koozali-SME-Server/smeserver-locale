@@ -1,0 +1,126 @@
+<lexicon lang="nl">
+    <entry>
+        <base>Review configuration</base>
+        <trans>Configuratie nakijken</trans>
+    </entry>	
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans>Dit rapport somt de netwerk-, server- en domeinparameters op van deze server die relevant zijn voor de client computers in uw netwerk. U kan deze pagina afdrukken en als referentie gebruiken.</trans>	
+    </entry>
+    <entry>
+        <base>NETWORKING_PARAMS</base>
+        <trans>Netwerkparameters</trans>
+    </entry> 
+    <entry>
+        <base>SERVER_MODE</base>
+        <trans>Server modus</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP_ADDRESS_SUBNET_MASK</base>
+        <trans>Lokaal IP adres / subnet masker</trans>
+    </entry>
+    <entry>
+        <base>EXTERNAL_IP_ADDRESS_SUBNET_MASK</base>
+        <trans>Extern IP adres / subnet masker</trans>
+    </entry>
+    <entry>
+        <base>GATEWAY</base>
+        <trans>Gateway</trans>
+    </entry>
+    <entry>
+        <base>ADDITIONAL_LOCAL_NETWORKS</base>
+        <trans>Bijkomende lokale netwerken</trans>
+    </entry>
+    <entry>
+        <base>DHCP_SERVER</base>
+        <trans>DHCP server</trans>
+    </entry>
+    <entry>
+        <base>BEGINNING_OF_DHCP_ADDRESS_RANGE</base>
+        <trans>Beginadres van het DHCP adresbereik</trans>
+    </entry>
+    <entry>
+        <base>END_OF_DHCP_ADDRESS_RANGE</base>
+        <trans>Eindadres van het DHCP adresbereik</trans>
+    </entry>
+    <entry>
+        <base>SERVER_NAMES</base>
+        <trans>Servernamen</trans>
+    </entry>
+    <entry>
+        <base>DNS_SERVER</base>
+        <trans>DNS server</trans>
+    </entry>
+    <entry>
+        <base>WEB_SERVER</base>
+        <trans>Webserver</trans>
+    </entry>
+    <entry>
+        <base>PROXY_SERVER</base>
+        <trans>Proxy server</trans>
+    </entry>
+    <entry>
+        <base>FTP_SERVER</base>
+        <trans>FTP server</trans>
+    </entry>
+    <entry>
+        <base>SMTP_POP_AND_IMAP_MAIL_SERVERS</base>
+        <trans>SMTP, POP en IMAP mailservers</trans>
+    </entry>
+    <entry>
+        <base>HOSTS</base>
+        <trans>Hosts</trans>
+    </entry> 
+    <entry>
+        <base>DOMAIN_INFORMATION</base>
+        <trans>Domeininformatie</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_DOMAIN</base>
+        <trans>Primaire domein</trans>
+    </entry>
+    <entry>
+        <base>VIRTUAL_DOMAINS</base>
+        <trans>Virtuele domeinen</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_WEB_SITE</base>
+        <trans>Primaire website</trans>
+    </entry>
+    <entry>
+        <base>MITEL_NETWORKS_SME_SERVER_MANAGER</base>
+        <trans>Server manager</trans>
+    </entry>
+    <entry>
+        <base>MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL</base>
+        <trans>Paneel gebruikerswachtwoorden</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_ADDRESSES</base>
+        <trans>E-mail adressen</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_USERACCOUNT</base>
+        <trans>gebruikersaccount</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_FIRSTNAME</base>
+        <trans>voornaam</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_LASTNAME</base>
+        <trans>achternaam</trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>Geen virtuele domeinen gedefinieerd</trans>
+    </entry>
+    <entry>
+        <base>NO_NETWORKS</base>
+        <trans>Geen bijkomende netwerken gedefinieerd</trans>
+    </entry>
+    <entry>
+        <base>INTERNET_VISIBLE_ADDRESS</base>
+        <trans>Via internet zichtbare IP adres</trans>
+    </entry>
+</lexicon>

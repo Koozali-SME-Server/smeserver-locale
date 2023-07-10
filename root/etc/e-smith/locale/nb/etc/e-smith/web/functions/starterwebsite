@@ -1,0 +1,43 @@
+<lexicon lang="nb">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>Opprett en start webside</trans>
+      </entry>
+      <entry>
+	<base>SUCCESS</base>
+	<trans>Star websiden er opprettet (filen index.htm ble opprettet). Du kan besøke din nye webside på adressen nedenfor:</trans>
+      </entry>
+      <entry>
+	<base>DESCRIPTION</base>
+	  <trans><![CDATA[ <p> For å opprette en enkel webside for ditt firma fyller du ut feltene nedenfor og klikker på <b>Opprett</b>. </p> <p> Du kan la felter du ikke trenger stå tomme. </p> <p> Teksten du skriver inn vil bli tilpasset sidebredden for et penere utseende i nettleseren. Legg til en blank linje der du ønsker et nytt avsnitt. Hvis du ønsker et linjeskift uten å opprette et nytt avsnitt (for ekempel etter hver linje i en liste med epostadresser), skriver du inn denne fire tegns kombinasjonen <blockquote>&lt;BR&gt;</blockquote> der linjeskift skal være. </p> <p> <em>Ikke bruk dette valget </em> hvis du allerede har tilpasset din webside, da det vil overskrive "index.htm" filen i webside mappen. </p> ]]></trans>
+      </entry>
+      <entry>
+	<base>LABEL_COMPANYNAME</base>
+	<trans>Firmanavn</trans>
+      </entry>
+	
+      <entry> 
+	<base>DESC_HEADER1</base>
+	<trans>Første tittel, vanligvis brukt til korte fraser som "ledende innenfor feltet tekstilproduksjon"</trans>
+      </entry>
+      <entry> 
+	<base>DESC_TEXT1</base>
+	<trans>Tekst som følger første tittel. vanligvis et avsnitt om markedsinformasjon.</trans>
+      </entry>
+      <entry> 
+	  <base>DESC_HEADER2</base>
+	<trans>Andre tittel, vanligvis brukt til korte fraser som "For mer informasjon" eller "For å bestille våre produkter":</trans>
+	</entry>
+      <entry> 
+	<base>DESC_TEXT2</base>
+	<trans>Tekst som følger andre tittel. vanligvis brukt for kontakt eller bestillingsinformasjon:</trans>
+	</entry>
+      <entry>
+	<base>DESC_SUBMIT</base>
+	<trans><![CDATA[ <p>Når du oppretter denne websiden vil filen "index.htm" bli overskrevet i  webside mappen.</p> <p>Ønsker du å fortsette?</p> ]]></trans>
+      </entry>
+      <entry>
+	<base>Create starter web site</base>
+	<trans>Opprett star webside</trans>
+      </entry>
+</lexicon>

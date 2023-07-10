@@ -1,0 +1,126 @@
+<lexicon lang="tr">
+    <entry>
+        <base>Review configuration</base>
+        <trans>Konfigürasyonu gözden geçir</trans>
+    </entry>	
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans>Bu rapor, sunucuyla ilgili alan parametreleri, ağınızdaki istemci bilgisayarlarla ilgili parametreleri ve sunucu ayarlarını özetlemektedir. Bu sayfayı yazdırıp referans olarak kullanabilirsiniz.</trans>	
+    </entry>
+    <entry>
+        <base>NETWORKING_PARAMS</base>
+        <trans>Ağ parametreleri</trans>
+    </entry> 
+    <entry>
+        <base>SERVER_MODE</base>
+        <trans>Sunucu Tarzı</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP_ADDRESS_SUBNET_MASK</base>
+        <trans>Yerel IP adresi / alt ağ maskesi</trans>
+    </entry>
+    <entry>
+        <base>EXTERNAL_IP_ADDRESS_SUBNET_MASK</base>
+        <trans>Harici IP adresi / alt ağ maskesi</trans>
+    </entry>
+    <entry>
+        <base>GATEWAY</base>
+        <trans>Ağ Geçidi</trans>
+    </entry>
+    <entry>
+        <base>ADDITIONAL_LOCAL_NETWORKS</base>
+        <trans>Ek yerel ağlar</trans>
+    </entry>
+    <entry>
+        <base>DHCP_SERVER</base>
+        <trans>DHCP sunucusu</trans>
+    </entry>
+    <entry>
+        <base>BEGINNING_OF_DHCP_ADDRESS_RANGE</base>
+        <trans>DHCP adres bloğu başlangıcı</trans>
+    </entry>
+    <entry>
+        <base>END_OF_DHCP_ADDRESS_RANGE</base>
+        <trans>DHCP adres bloğu sonu</trans>
+    </entry>
+    <entry>
+        <base>SERVER_NAMES</base>
+        <trans>Sunucu isimleri</trans>
+    </entry>
+    <entry>
+        <base>DNS_SERVER</base>
+        <trans>DNS sunucusu</trans>
+    </entry>
+    <entry>
+        <base>WEB_SERVER</base>
+        <trans>Web sunucusu</trans>
+    </entry>
+    <entry>
+        <base>PROXY_SERVER</base>
+        <trans>Proksi sunucusu</trans>
+    </entry>
+    <entry>
+        <base>FTP_SERVER</base>
+        <trans>FTP sunucusu</trans>
+    </entry>
+    <entry>
+        <base>SMTP_POP_AND_IMAP_MAIL_SERVERS</base>
+        <trans>SMTP, POP ve IMAP e-posta sunucuları</trans>
+    </entry>
+    <entry>
+        <base>HOSTS</base>
+        <trans>Ev sahibi (Hosts)</trans>
+    </entry> 
+    <entry>
+        <base>DOMAIN_INFORMATION</base>
+        <trans>Alan adı bilgisi</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_DOMAIN</base>
+        <trans>Birincil alan adı</trans>
+    </entry>
+    <entry>
+        <base>VIRTUAL_DOMAINS</base>
+        <trans>Sanal alan adları</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_WEB_SITE</base>
+        <trans>Birincil web sitesi</trans>
+    </entry>
+    <entry>
+        <base>MITEL_NETWORKS_SME_SERVER_MANAGER</base>
+        <trans>Sunucu yönetimi</trans>
+    </entry>
+    <entry>
+        <base>MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL</base>
+        <trans>Kullanıcı şifre paneli</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_ADDRESSES</base>
+        <trans>E-posta adresleri</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_USERACCOUNT</base>
+        <trans>KullanıcıHesabı</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_FIRSTNAME</base>
+        <trans>adı</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_LASTNAME</base>
+        <trans>soyadı</trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>Sanal etki alan adı tanımlanmadı</trans>
+    </entry>
+    <entry>
+        <base>NO_NETWORKS</base>
+        <trans>Ek ağ tanımlanmadı</trans>
+    </entry>
+    <entry>
+        <base>INTERNET_VISIBLE_ADDRESS</base>
+        <trans>İnternette görünen IP adresi</trans>
+    </entry>
+</lexicon>

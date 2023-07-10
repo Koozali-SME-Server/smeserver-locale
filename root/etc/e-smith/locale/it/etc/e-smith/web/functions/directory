@@ -1,0 +1,79 @@
+<lexicon lang="it">
+   <entry>
+     <base>FORM_TITLE</base>
+       <trans>Cambia impostazioni rubrica LDAP</trans>
+   </entry>	
+<entry>
+<base>LABEL_ROOT</base>
+<trans>Root LDAP server</trans>
+</entry>
+
+<entry>
+<base>DESCRIPTION</base>
+<trans>Il server LDAP fornisce un elenco in rete degli utenti e gruppi sul server cui è possibile accedere utilizzando un client LDAP quale la Rubrica delle popolari suite Internet. Impostare il client LDAP con l'indirizzo locale del server, la porta 389 e la server root sottostante.</trans>
+</entry>
+<entry>
+<base>DESC_DIRECTORY_ACCESS</base>
+<trans>E' possibile limitare l'accesso alla rubrica LDAP: accesso privato abilita soltanto le reti locali, accesso pubblico permette l'accesso dall'intera Internet.</trans>
+</entry>
+<entry>
+<base>DIRECTORY_ACCESS</base>
+<trans>Accesso rubrica LDAP</trans>
+</entry>
+<entry>
+	<base>DESC_DEPARTMENT</base>
+<trans>Questi campi contengono i valori di default per l'azienda. Creando un nuovo utente verrà richiesto di riempire tutti questi campi (possono essere diversi per ogni utente), ma i valori impostati in questa pagina verranno utilizzati come default velocizzando la creazione di nuovi utenti.</trans>
+</entry>
+<entry>
+        <base>DEPARTMENT</base>
+        <trans>Default Ufficio</trans>
+</entry>
+
+<entry>
+        <base>COMPANY</base>
+        <trans>Default Azienda</trans>
+</entry>
+<entry>
+        <base>STREET</base>
+        <trans>Default Indirizzo</trans>
+</entry>
+
+<entry>
+        <base>CITY</base>
+        <trans>Default Città</trans>
+</entry>
+
+<entry>
+        <base>PHONENUMBER</base>
+        <trans>Default Telefono</trans>
+</entry>
+
+<entry>
+<base>DESC_EXISTING</base>
+<trans>E' possibile mantenere le impostazioni attuali per gli utenti creati e usare i default soprastanti solo per nuovi utenti oppure applicare i nuovi default anche a tutti gli utenti preesistenti.</trans>
+</entry>
+
+
+
+<entry>
+<base>EXISTING</base>
+<trans>Utenti preesistenti</trans>
+</entry>
+<entry>
+<base>SUCCESS</base>
+<trans>Nuove impostazioni default LDAP salvate.</trans>
+</entry>
+
+<entry>
+<base>LEAVE</base>
+<trans>Mantenere le impostazioni attuali</trans>
+</entry>
+<entry>
+<base>UPDATE</base>
+<trans>Aggiornare con i nuovi defaults</trans>
+</entry>
+    <entry>
+        <base>Directory</base>
+        <trans>Rubrica</trans>
+    </entry>
+</lexicon>

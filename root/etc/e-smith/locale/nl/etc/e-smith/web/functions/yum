@@ -1,0 +1,193 @@
+<lexicon lang="nl"> 
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+	<base>Software installer</base>
+	<trans>Softwareinstallatie</trans>
+    </entry>
+
+    <entry>
+        <base>SUCCESS</base>
+        <trans>De nieuwe instellingen zijn opgeslagen.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_YUM_STATUS</base>
+        <trans>Kijk voor updates</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_YUM_AUTOINSTALLUPDATES</base>
+	<trans>Updates automatisch installeren</trans>
+   </entry>
+    <entry>
+        <base>LABEL_YUM_AUTOINSTALLUPDATES_DESCRIPTION</base>
+        <trans>Indien ingeschakeld, heeft dit voorrang op de eenvoudige controle op updatemeldingen en pre-downloadfuncties. In plaats daarvan worden de beschikbare updates van ingeschakelde repositories geïnstalleerd. Voor meer informatie refereer je naar de yum en yum-cron manual pagina.</trans>
+   </entry>
+
+    <entry>
+	<base>LABEL_YUM_PACKAGEFUNCTIONS</base>
+	<trans>Afzonderlijke pakketten beheren</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_YUM_PACKAGEFUNCTIONS</base>
+	<trans>Het software installatieprogramma kan groepen van gerelateerde pakketten of afzonderlijke pakketten beheren. Standaard worden alleen groepen van pakketten getoond. Activeer deze optie indien u afzonderlijke pakketten wenst te beheren. Dit is alleen aanbevolen voor ervaren administrators.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_ENABLED_REPOSITORIES</base>
+	<trans>Geactiveerde installatiebibliotheken</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_ENABLED_REPOSITORIES</base>
+	<trans>Het software installatieprogramma kan software installeren van eender welke geactiveerde installatiebibliotheek. Selecteer een bibliotheek in de lijst om deze te activeren. Om een bibliotheek te desactiveren, deselecteer haar in de lijst. Standaard is alleen stabiele, geteste software beschikbaar voor installatie.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_UPTODATE</base>
+        <trans><![CDATA[ <div class="success"> <h2>Dit systeem is up-to-date.</h2> Alle updates zijn geïnstalleerd. </div> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_UPDATES_AVAILABLE</base>
+        <trans><![CDATA[ <div class="success"> <h2>Updates beschikbaar</h2> Er zijn updates beschikbaar voor uw systeem. Het is aangeraden om deze updates zo snel mogelijk te installeren. </div> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_AVAILABLE_UPDATES</base>
+        <trans>Updates beschikbaar</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_AVAILABLE_UPDATES</base>
+        <trans>De volgende updates zijn beschikbaar voor uw systeem. Normaal dient u alle beschikbare updates te installeren. Deselecteer alle updates in de lijst hieronder, die u niet wenst te selecteren.</trans>
+    </entry>
+
+    <entry>
+        <base>INSTALL_UPDATES</base>
+        <trans>Geselecteerde updates installeren</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_INSTALL_UPDATES</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_UPDATES">Toon lijst van beschikbare updates</a> ]]></trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_AVAILABLE_SOFTWARE</base>
+	<trans>De volgende software is beschikbaar voor installatie op uw systeem. Het is aangeraden om alleen bijkomende software op dit systeem te installeren indien u bewust bent van de gevolgen hiervan.</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_AVAILABLE_GROUPS</base>
+	<trans>In de lijst hieronder kan u softwaregroepen selecteren om te installeren.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_AVAILABLE_GROUPS</base>
+	<trans>Beschikbare groepen</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_AVAILABLE_PACKAGES</base>
+	<trans>In de lijst hieronder kan u ook afzonderlijke pakketten selecteren om te installeren.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_AVAILABLE_PACKAGES</base>
+	<trans>Beschikbare pakketten</trans>
+    </entry>
+
+    <entry>
+	<base>INSTALL_SOFTWARE</base>
+	<trans>Installeren</trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_INSTALLED_SOFTWARE</base>
+	<trans>De volgende software is geïnstalleerd op dit systeem. Het is aangeraden om alleen software te verwijderen indien u zich bewust bent van de gevolgen hiervan.</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_INSTALLED_GROUPS</base>
+	<trans>In de lijst hieronder kan u softwaregroepen selecteren om te verwijderen.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_INSTALLED_GROUPS</base>
+	<trans>Geïnstalleerde groepen</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_INSTALLED_PACKAGES</base>
+	<trans>In de lijst hieronder kan u ook afzonderlijke pakketten selecteren die u wenst te verwijderen.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_INSTALLED_PACKAGES</base>
+	<trans>Geïnstalleerde pakketten</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_CONFIGURATION</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_CONFIGURATION">Instellingen software installatieprogramma wijzigen</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_INSTALL_AVAILABLE</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_AVAILABLE">Bijkomende software installeren</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_REMOVE</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_REMOVE">Geïnstalleerde software verwijderen</a> ]]></trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_POSTUPGRADE_REQUIRED</base>
+	<trans><![CDATA[ Na het installeren of verwijderen van software of het installeren van updates moet het systeem opnieuw geconfigureerd worden. <p> Klik alstublieft op de Configureren knop onderaan deze pagina om het configuratieproces te starten. <b>Het systeem zal automatisch worden herstart als onderdeel van het configuratieproces</b> </p> ]]></trans>
+     </entry>
+
+    <entry>
+	<base>SYSTEM_BEING_RECONFIGURED</base>
+	<trans>Uw systeem wordt automatisch heropgestart om het configuratieproces te voltooien.</trans>
+    </entry>
+
+    <entry>
+      <base>1DAILY</base>
+      <trans>Dagelijks</trans>
+    </entry>
+
+    <entry>
+      <base>2WEEKLY</base>
+      <trans>Wekelijks</trans>
+    </entry>
+
+    <entry>
+      <base>3MONTHLY</base>
+      <trans>Maandelijks</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DELTARPMPROCESS</base>
+      <trans>Delta Rpm Update</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DELTARPM</base>
+      <trans>Een deltarpm bevat het verschil tussen een oude en een nieuwe versie van een rpm, wat bandbreedte kan besparen. Het nadeel is dat updatebewerkingen aanzienlijk meer CPU-cycli verbruiken</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DOWNLOADONLY</base>
+      <trans>Updates vooraf downloaden</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DOWNLOADONLY_DESCRIPTION</base>
+      <trans>De rpm-updates kunnen 's nachts worden gedownload, dit zal het yum-updateproces vergemakkelijken en versnellen (alleen ingeschakelde repositories worden gebruikt).</trans>
+    </entry>
+
+</lexicon>

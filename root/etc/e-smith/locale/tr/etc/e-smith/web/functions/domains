@@ -1,0 +1,141 @@
+<lexicon lang="tr" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Alan adlarını yönet</trans>
+    </entry>
+    <entry>
+        <base>FORM_DESCRIPTION</base>
+        <trans><![CDATA[ <p>Bu sistemde bir alan adı oluşturulduğunda, bu alana bağlı e-posta alabilir ve web sitesini barındırabilirsiniz.</p> <p><a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CREATE">Alan adı ekle</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>Sistemde alan adı bulunmamaktadır.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST_OF_DOMAINS</base>
+        <trans>Mevcut alan adları listesi.</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_SITE</base>
+        <trans>birincil site</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>{$content} i-bay</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Yeni alan adı oluştur</trans>
+    </entry>
+    <entry>
+        <base>CONTENT_FIELD_DESCRIPTION</base>
+        <trans>Web sitesi için birincil sitenizi veya herhangi bir i-bay içerik olarak seçebilirsiniz.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME_VALIDATION_ERROR</base>
+        <trans>Hata: {$domainName} alan adı geçersiz karakter içriyor. Alanı adı bir veya daha fazla harf, rakam, nokta ve eksi işaretleri içermelidir</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_DESCRIPTION_VALIDATION_ERROR</base>
+        <trans>Hata: {$domainDesc} alan adı açıklamasi geçersiz karakter içriyor. Yeni alan adı olşturulamadı.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_IN_USE_ERROR</base>
+        <trans>Hata: alan adı {$domainName} zaten kullanımda. Yeni alan adı olşturulamadı.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_DOMAIN_ERROR</base>
+        <trans>Hata: alan adı {$domainName} sizin sistem adan adınızla aynı. Aynı isme sahip bir alan adı oluşturulamaz. Yeni alan adı olşturulamadı.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>{$domainName} alan adı başarıyla oluşturuldu. Sunucunuz şimdi yeniden başlatılacak. Web sunucunuz tekrar açılana kadar aşağıdaki bağlantılar etkin olmayacaklar.</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_TITLE</base>
+        <trans>Alan adını düzenle</trans>
+    </entry>
+    <entry>
+        <base>NONEXISTENT_DOMAIN_ERROR</base>
+        <trans>Hata: {$domainName} mevcut bir alan değildir.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>{$domainName} alan adı ayarları uygulandı. Web sunucunuz şimdi yeniden başlatılacaktır. Sunucu yeniden başlatılana kadar aşağıdaki bağlantılar etkinleşmeyecektir.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Alan adı Sil</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESCRIPTION</base>
+        <trans><![CDATA[ <p> {$domain} ({$domainDesc}) alan daını silmek üzeresiniz. </p> <p> <b>Bu alan adını silmek istediğinizden eminmisiniz?</b> </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_REMOVING_DOMAIN</base>
+        <trans>Hata: {$domain} silinirken iç hata oluştu.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>{$domain} başarıyla silindi. Web sunucunuz şimdi yeniden başlatılacaktır. Sunucu yeniden başlatılana kadar aşağıdaki bağlantılar etkinleşmeyecektir.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS_CURRENT</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Kurumsal DNS Ayarları</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>BUTTON_CORPORATE_DNS</base>
+        <trans><![CDATA[ <p>Bu cunucu internete bağlı değilse, veya DNS çözümlenmesi için özel ayarlara gereksinim varsa, DNS sunucunuzun IP adresini buraya yazın. ISP'nicin DNS adreslerini buraya yazmayın, bu sunucu ek bir yapılandırmaya gerek kalmadan tüm internet DNS adlarını çözme yeteneğine sahiptir.</p> <p> <a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CORPORATE_DNS">Kurumsal DNS Ayarlarını Değiştir</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS</base>
+        <trans>Bu sunucu internete bağlı değilse veya DNS çözümlemesi özel ayarlara ihtiyacınız varsa, buraya DNS sunucuların IP adresini girebilirsiniz. Özel durumlar dışında boş bırakmanız önerilir. Sunucu bu ek bir yapılandırmaya gerek kalmadan tüm internet DNS adlarını çözme yeteneğine sahiptir, bıraya ISP'nizin DNS adreslerini girmenize gerek yoktur.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_PRIMARY</base>
+        <trans>Birincil kurumsal DNS sunucusu</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_SECONDARY</base>
+        <trans>İkincil kurumsal DNS sunucusu</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_NAMESERVERS</base>
+        <trans>Bu alan adı çözümlemesini yerel olarak, kurumsal DNS sunucusunda veya internet DNS sunucusunda yapabilirsiniz. Pek çok ağ için varsayılanı kullanmak en doğrusudur.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_NAMESERVERS</base>
+        <trans>Alan adı DNS sunucuları</trans>
+    </entry>
+
+    <entry>
+        <base>localhost</base>
+        <trans>Yerel olarak çözümle</trans>
+    </entry>
+
+    <entry>
+        <base>internet</base>
+        <trans>İnternet DNS kullanarak çözümle</trans>
+    </entry>
+
+    <entry>
+        <base>corporate</base>
+        <trans>Kurumsal DNS kullanarak çözümle</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Yazıcıyı silmek üzeresiniz:</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans>Bu yazıcıyı kaldırmak istediğinizden eminmisiniz?</trans>
+    </entry>
+
+</lexicon>

@@ -1,0 +1,83 @@
+<lexicon lang="it">
+    <entry>
+        <base>View log files</base>
+        <trans>Visualizza log</trans>
+    </entry>
+
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ Questa pagina permette di visualizzare o scaricare i file di log generati dai servizi che girano sul server. ]]></trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_SELECT_DESC</base>
+        <trans>Selezionare un file di log da visualizzare</trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>E' possibile specificare un filtro che visualizzi solo le linee del log che soddisfano certi criteri. Lasciando vuoto il campo verranno mostrate tutte le linee del log. Notare che l'opzione viene ignorata in caso di download del log.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_LABEL</base>
+        <trans>Filtro (opzionale)</trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>E' possibile specificare un filtro che evidenzi in grassetto le linee corrispondenti a certi criteri. I criteri di evidenziazione vengono applicati alle linee che già soddisfano i criteri di filtro. Notare che questa opzione viene ignorata in caso di download del log.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_LABEL</base>
+        <trans>Filtro Evidenziazione (opzionale)</trans>
+    </entry>
+    <entry>
+        <base>END_DESC</base>
+        <trans>Notare che potrebbe essere necessario attendere alcuni minuti per la generazione del rapporto.</trans>
+    </entry>
+    <entry>
+        <base>VIEW</base>
+        <trans>Visualizza log</trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_EMPTY</base>
+        <trans>Il log "{$filename}" è vuoto!</trans>
+    </entry>
+    <entry>
+        <base>VIEWING_TIME</base>
+        <trans>Visualizzato alle {$time}.</trans>
+    </entry>
+    <entry>
+        <base>MATCH_HEADER</base>
+        <trans>Vengono mostrate le linee che comprendono: "{$matchPattern}".</trans>
+    </entry>
+    <entry>
+        <base>HIGHLIGHT_HEADER</base>
+        <trans>Vengono evidenziate le linee che comprendono: "{$highlightPattern}".</trans>
+    </entry>
+    <entry>
+        <base>NO_MATCHING_LINES</base>
+        <trans>Nessuna linea corrispondente al filtro.</trans>
+    </entry>
+    <entry>
+        <base>FILENAME_ERROR</base>
+        <trans><![CDATA[ <p>Errore nel nome del file di log.</p> <p>Tipo rapporto non valido "{$filename}".</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>REFRESH</base>
+	<trans>Aggiorna questo log</trans>
+    </entry>
+    <entry>
+	<base>OP_DESC</base>
+	<trans><![CDATA[ <p>E' necessario scegliere se visualizzare il log nel browser oppure scaricarlo sul computer. Se il file di log è particolarmente grande, è preferibile scaricarlo invece di aprirlo nel browser, perché alcuni browser hanno problemi con file molto grandi.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>OP_LABEL</base>
+	<trans>Operazione</trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_PAGE_DESC</base>
+	<trans><![CDATA[ <p>Il download del log è pronto. Continuerà dopo aver fatto clic su &quot;Avanti&quot; qui sotto. Sarà necessario accettare il download dalla finestra che apparirà.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_FILE</base>
+	<trans>Preparazione del log {$logfile} in corso.</trans>
+    </entry>
+</lexicon>

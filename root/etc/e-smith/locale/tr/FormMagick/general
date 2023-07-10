@@ -1,0 +1,520 @@
+<lexicon lang="tr">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>Collaboration</base>
+        <trans>Uyum (İşbirliği)</trans>
+    </entry>
+    <entry>
+      <base>Administration</base>
+      <trans>Yönetim</trans>
+    </entry>
+    <entry>
+        <base>Security</base>
+        <trans>Güvenlik</trans>
+    </entry>
+    <entry>
+        <base>Configuration</base>
+        <trans>Konfigürasyon</trans>
+    </entry>
+    <entry>
+        <base>Miscellaneous</base>
+        <trans>Çeşitli</trans>
+    </entry>
+    <entry>
+        <base>Your Settings</base>
+        <trans>Ayarlarınız</trans>
+    </entry>
+    <entry>
+        <base>SAVE</base>
+        <trans>Kaydet</trans>
+    </entry>
+    <entry>
+        <base>CANCEL</base>
+        <trans>İptal</trans>
+    </entry>
+    <entry>
+        <base>ENABLED</base>
+        <trans>Etkin</trans>
+    </entry>
+    <entry>
+        <base>DISABLED</base>
+        <trans>Etkin değil</trans>
+    </entry>
+    <entry>
+        <base>NO</base>
+        <trans>Hayır</trans>
+    </entry>
+    <entry>
+        <base>YES</base>
+        <trans>Evet</trans>
+    </entry>
+    <entry>
+        <base>ADD</base>
+        <trans>Ekle</trans>
+    </entry>
+    <entry>
+        <base>CREATE</base>
+        <trans>Oluştur</trans>
+    </entry>
+    <entry>
+        <base>MODIFY</base>
+        <trans>Değiştir</trans>
+    </entry>
+    <entry>
+        <base>REMOVE</base>
+        <trans>Kaldır</trans>
+    </entry>
+    <entry>
+        <base>COMMENT</base>
+        <trans>Açıklama</trans>
+    </entry>
+    <entry>
+        <base>NEXT</base>
+        <trans>İleri</trans>
+    </entry>
+    <entry>
+        <base>SELF</base>
+        <trans>Kendi</trans>
+    </entry>
+    <entry>
+        <base>REMOTE</base>
+        <trans>Uzaktan</trans>
+    </entry>
+    <entry>
+        <base>LOCAL</base>
+        <trans>Yerel</trans>
+    </entry>
+    <entry>
+        <base>ACTION</base>
+        <trans>Eylem</trans>
+    </entry>
+    <entry>
+        <base>NETWORK</base>
+        <trans>Ağ</trans>
+    </entry>
+    <entry>
+        <base>ROUTER</base>
+        <trans>Yönlendirici</trans>
+    </entry>
+    <entry>
+        <base>OPERATION_STATUS_REPORT</base>
+        <trans>İşlem durum raporu</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT</base>
+        <trans>Hesap</trans>
+    </entry>
+    <entry>
+        <base>GROUP</base>
+        <trans>Grup</trans>
+    </entry>
+    <entry>
+        <base>DESC_SECTIONBAR</base>
+        <trans><![CDATA[ <hr class="sectionbar"/> ]]></trans>
+    </entry>
+    <entry>
+        <base>NO_PIPES_ALLOWED</base>
+        <trans>Boru sembolü ( | ) bu alanda kullanılamaz</trans>
+    </entry>
+    <entry>
+        <base>ERROR_BELOW</base>
+        <trans>HATA: Bu sayfanın doğrulanmasında bir hata oluştu. Lütfen önce sayfanın aşağısına bakıp sorunu belirleyin.</trans>
+    </entry>
+    <entry>
+        <base>ACCESS</base>
+        <trans>Giriş</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_LOCKED</base>
+        <trans>Hesap kilitli</trans>
+    </entry>
+    <entry>
+        <base>GROUP_ADD</base>
+        <trans>Grup ekle</trans>
+    </entry>
+    <entry>
+        <base>NETWORKS_ALLOW_LOCAL</base>
+        <trans>Sadece yerel ağadan erişime izin ver</trans>
+    </entry>
+    <entry>
+        <base>NETWORKS_ALLOW_PUBLIC</base>
+        <trans>Her yerden erişime izin ver (bütün internet)</trans>
+    </entry>
+    <entry>
+        <base>ERROR_PASSWORD_CHANGE</base>
+        <trans>Şifrenizi değiştirmeye çalışırken bir hata oluştu. Lütfen eski şifrenizi doğru girdiğinizden emin olun.</trans>
+    </entry>
+    <entry>
+        <base>BACK</base>
+        <trans>Geri</trans>
+    </entry>
+    <entry>
+        <base>BACKUP</base>
+        <trans>Yedekleme</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION_BRIEF</base>
+        <trans>Kısa açıklama</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE</base>
+        <trans>Parolayı Değiştir</trans>
+    </entry>
+    <entry>
+        <base>RESET_PASSWORD_TITLE</base>
+        <trans>Kullanıcı şifresini sıfırla</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_PASSWORD_CHANGE</base>
+        <trans>Hesap şifresini değiştir</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>İçerik</trans>
+    </entry>
+    <entry>
+        <base>CREATE_GROUP</base>
+        <trans>Kullanıcı gurubu oluştur</trans>
+    </entry>
+    <entry>
+        <base>USER_LIST_CURRENT</base>
+        <trans>Mevcut kullanıcıların listesi</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans>Açıklama</trans>
+    </entry>
+    <entry>
+        <base>DESTINATION</base>
+        <trans>Hedef</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME</base>
+        <trans>Alan adı</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN</base>
+        <trans>Etki alanı</trans>
+    </entry>
+    <entry>
+        <base>DOMAINS</base>
+        <trans>Etki alanları</trans>
+    </entry>
+    <entry>
+        <base>DOWNLOAD</base>
+        <trans>İndirme</trans>
+    </entry>
+    <entry>
+        <base>ERROR_UPDATING_CONFIGURATION</base>
+        <trans>Sistem ayarları güncellenirken hata oluştu.</trans>
+    </entry>
+    <entry>
+        <base>GROUP_MEMBERS</base>
+        <trans>Grup Üyeleri</trans>
+    </entry>
+    <entry>
+        <base>GROUP_NAME</base>
+        <trans>Grup Adı</trans>
+    </entry>
+    <entry>
+        <base>GROUPS</base>
+        <trans>Gruplar</trans>
+    </entry>
+    <entry>
+        <base>IP_ADDRESS</base>
+        <trans>IP Adresi</trans>
+    </entry>
+    <entry>
+        <base>IP_ADDRESS_OR_FQDN</base>
+        <trans>IP Adresi veya FQDN</trans>
+    </entry>
+    <entry>
+        <base>USER_INVALID</base>
+        <trans>Geçersiz kullanıcı</trans>
+    </entry>
+    <entry>
+        <base>LOCATION</base>
+        <trans>Konum</trans>
+    </entry>
+    <entry>
+        <base>MB</base>
+        <trans>Mb</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_USER_GROUP</base>
+        <trans>Kullanıcı gurubunu değiştir</trans>
+    </entry>
+    <entry>
+        <base>NAME</base>
+        <trans>İsim</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_VERIFY_NEW</base>
+        <trans>Yeni şifre (doğrulayın):</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_NEW</base>
+        <trans>Yeni şifre:</trans>
+    </entry>
+    <entry>
+        <base>OFF</base>
+        <trans>Kapat</trans>
+    </entry>
+    <entry>
+        <base>OK</base>
+        <trans>Tamam</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_OLD</base>
+        <trans>Eski şifre</trans>
+    </entry>
+    <entry>
+        <base>ON</base>
+        <trans>Aç</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD</base>
+        <trans>Şifre</trans>
+    </entry>
+    <entry>
+        <base>PERFORM</base>
+        <trans>Uygula</trans>
+    </entry>
+    <entry>
+        <base>RECONFIGURE</base>
+        <trans>Yeniden yapılandır</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_USER_GROUP</base>
+        <trans>Kullanıcı gurubunu sil</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_RESET</base>
+        <trans>Şifreyi sıfırla</trans>
+    </entry>
+    <entry>
+        <base>RESTORE</base>
+        <trans>Eski haline getir</trans>
+    </entry>
+    <entry>
+        <base>SHUTDOWN</base>
+        <trans>Kapat</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Başarılı</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME_INVALID</base>
+        <trans>Girilen hesap adı geçersiz!</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME_INVALID_CHARS</base>
+        <trans>Girilen hesap adı geçersiz karakterler içeriyor.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_OLD_INVALID_CHARS</base>
+        <trans>Girilen eski şifre geçersiz karakterler içeriyor.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_INVALID_CHARS</base>
+        <trans>Girilen şifre geçersiz karakterler içeriyor.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_VERIFY_ERROR</base>
+        <trans>Girilen şifreler uyşmadı.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_USER_NONE</base>
+        <trans>Kullanıcı hesabı bulunamadı.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_GROUP_NONE</base>
+        <trans>Kullanıcı grubu bulunamadı.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_INVALID_CHARS</base>
+        <trans>Açıklamada geçersiz karakterler bulundu.</trans>
+    </entry>
+    <entry>
+        <base>USER_NAME</base>
+        <trans>Kullanıcı Adı</trans>
+    </entry>
+    <entry>
+        <base>YOUR_ACCOUNT</base>
+        <trans>Hesabınız:</trans>
+    </entry>
+    <entry>
+      <base>YOUR_ACCOUNT_INVALID</base>
+      <trans>Girilen hesap adı geçersiz!</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE_SUCCESS</base>
+        <trans>Şifreniz başarıyla değiştirildi.</trans>
+    </entry>
+    <entry>
+        <base>FM_NONBLANK</base>
+        <trans>Bu alan boş bırakılmamalı</trans>
+    </entry>
+    <entry>
+        <base>FM_INTEGER</base>
+        <trans>Bu alanın pozitif tamsayı içermelidir</trans>
+    </entry>
+    <entry>
+        <base>FM_NUMBER</base>
+        <trans>Bu alan bir sayı içermelidir</trans>
+    </entry>
+    <entry>
+        <base>FM_WORD</base>
+        <trans>Bu alanda bir tek kelime yer almalıdır.</trans>
+    </entry>
+    <entry>
+        <base>FM_DATE</base>
+        <trans>Girilen değer tarih olarak algılanmadı</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER1</base>
+        <trans>Kredi kartı numarası girmelisiniz</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER2</base>
+        <trans>Kredi kartı numaraları sadece rakamlardan oluşmalıdır. Boşluk yada tire olmamalıdır.</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER3</base>
+        <trans>Uzunluk en az 14 karakter olmalı</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER4</base>
+        <trans>Geçersiz kredi kartı numarası</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY1</base>
+        <trans>Son kullanma tarihi girilmedi.</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY2</base>
+        <trans>Son kullanma tarihi AA/YY yada AA/YYYY şeklinde olmalıdır</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY3</base>
+        <trans>Son kullanma tarihi geçmiş</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY4</base>
+        <trans>Son kullana tarihi çok uzak</trans>
+    </entry>
+    <entry>
+        <base>FM_ISO_COUNTRY_CODE1</base>
+        <trans>Ülke kodunu girmelisiniz</trans>
+    </entry>
+    <entry>
+        <base>FM_ISO_COUNTRY_CODE2</base>
+        <trans>Ülke kodunu ISO standartlarında girmelisiniz</trans>
+    </entry>
+    <entry>
+        <base>FM_US_STATE</base>
+        <trans>Bu geçerli 2 harfli ABD eyalet kısaltması olarak görünmüyor</trans>
+    </entry>
+    <entry>
+        <base>FM_US_ZIPCODE</base>
+        <trans>ABD posta kodları 5 yada 9 rakamlı olmalıdır</trans>
+    </entry>
+    <entry>
+        <base>FM_MINLENGTH1</base>
+        <trans>Minimum uzunluk anlamalı belirtilmedi {$minlength}</trans>
+    </entry>
+    <entry>
+        <base>FM_MINLENGTH2</base>
+        <trans>En az {$minlength} karakter içermelidir</trans>
+    </entry>
+    <entry>
+        <base>FM_MAXLENGTH1</base>
+        <trans>Mksimum uzunluk anlamalı belirtilmedi {$maxlength}</trans>
+    </entry>
+    <entry>
+        <base>FM_MAXLENGTH2</base>
+        <trans>En fazla {$maxlength} karakter içermelidir</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH1</base>
+        <trans>Bu alanın uzunluğu belirtmelisiniz.</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH2</base>
+        <trans>Bu alanın tam uzunluğunu sayıyla belirtmelisiniz</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH3</base>
+        <trans>Bu alan {$exactlength} karakterden oluşmalıdır</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE1</base>
+        <trans>Alanaın maksimum ve minimum değerlerlini belirtmelisiniz.</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE2</base>
+        <trans>Alanaın maksimum ve minimum değerlerlini sayıyla belirtmelisiniz.</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE3</base>
+        <trans>Bu alan en az {$minlength} en fazla {$maxlength} karakterden oluşmalıdır</trans>
+    </entry>
+    <entry>
+        <base>FM_URL</base>
+        <trans>Bu alan http:// veya tp:// ile başlayan bir URL içermelidir</trans>
+    </entry>
+    <entry>
+        <base>FM_EMAIL_SIMPLE1</base>
+        <trans>E-posta adresi girmelisiniz.</trans>
+    </entry>
+    <entry>
+        <base>FM_EMAIL_SIMPLE2</base>
+        <trans>RFC822 uyumlu bir e-posta adresi olarak görünmüyor</trans>
+    </entry>
+    <entry>
+        <base>FM_DOMAIN_NAME</base>
+        <trans>Bu alan, geçerli bir Internet web adresi gibi görünmüyor.</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER1</base>
+        <trans>Bu alan geçerli bir IP adresi içermelidir boş bırakılamaz.</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER2</base>
+        <trans>Standart DHCP için geçersiz adres</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER3</base>
+        <trans>{$octet} 255 ten büyüktür</trans>
+    </entry>
+    <entry>
+        <base>FM_USERNAME</base>
+        <trans>Bu alan, geçerli bir kullanıcı adı gibi görünmelidir (3-8 harf ve rakam)</trans>
+    </entry>
+    <entry>
+        <base>FM_PASSWORD1</base>
+        <trans>Şifre belirtmelisiniz.</trans>
+    </entry>
+    <entry>
+        <base>FM_PASSWORD2</base>
+        <trans>Belirttiğiniz şifre güvenli değil. İyi bir şifre bunları içermelidir: büyük harf, küçük harf, sayı, alfasayısal olmayan karakterler ve en az 7 karakter uzunluğunda olmalıdır.</trans>
+    </entry>
+    <entry>
+        <base>FM_MAC_ADDRESS1</base>
+        <trans>MAC adresi belirtmelisiniz.</trans>
+    </entry>
+    <entry>
+        <base>FM_MAC_ADDRESS2</base>
+        <trans>Tanımladığınız MAC adresi geçerli değildir.</trans>
+    </entry>
+    <entry>
+	<base>FM_ERR_UNEXPECTED_DESC</base>
+	<trans>Hata: açıklama geçersiz karakter içeriyor</trans>
+    </entry>
+    <entry>
+        <base>CSRF_VALIDATION_FAILURE</base>
+        <trans>Error: CSRF token is invalid or outdated.</trans>
+    </entry>
+</lexicon>

@@ -1,0 +1,84 @@
+<lexicon lang="it">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Creazione, modifica o rimozione gruppi di utenti</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_TOO_LONG</base>
+        <trans>Errore: il nome del gruppo è troppo lungo. Il massimo è {$maxLength} caratteri.</trans>
+    </entry>    
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>Errore: impossibile creare il gruppo "{$group}" perché esiste già un account {$type} con lo stesso nome.</trans>
+    </entry>    
+    <entry>
+        <base>INVALID_GROUP_DESCRIPTION</base>
+        <trans>Errore: carattere inaspettato o mancante nella descrizione del gruppo</trans>
+    </entry>
+    <entry>
+        <base>NO_MEMBERS</base>
+        <trans>Errore: nessun membro nel gruppo. Gruppo non creato.</trans>
+    </entry>
+    <entry>
+        <base>CREATED_GROUP</base>
+        <trans>Gruppo creato con successo</trans>
+    </entry> 
+    <entry>
+        <base>DELETED_GROUP</base>
+        <trans>Gruppo rimosso con successo</trans>
+    </entry> 
+    <entry>
+        <base>MODIFIED_GROUP</base>
+        <trans>Gruppo modificato con successo</trans>
+    </entry>	
+    <entry>
+        <base>CREATE_ERROR</base>
+        <trans>Errore durante la creazione del gruppo.</trans>
+    </entry> 
+    <entry>
+        <base>DELETE_ERROR</base>
+        <trans>Errore durante la rimozione del gruppo.</trans>
+    </entry> 
+    <entry>
+        <base>MODIFY_ERROR</base>
+        <trans>Errore durante la modifica del gruppo.</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_NAMING</base>
+        <trans><![CDATA[ Il nome del gruppo può contenere solo lettere minuscole, numeri, trattini, punti e trattino basso (underscore) e deve iniziare con una lettera minuscola. Per esempio "vendite", "beta3" e "riv_net" sono nomi validi, mentre "3d", "Ufficio Vendite" e "q&a" non lo sono. ]]></trans>
+    </entry>
+    <entry>
+        <base>GROUP_HAS_MEMBERS</base>
+        <trans>Questo gruppo contiene i seguenti membri:</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_GROUP</base>
+        <trans>Errore: gruppo inesistente.</trans>
+    </entry>
+    <entry>
+        <base>GROUP_DESC</base>
+        <trans>Breve Descrizione/Gruppo Windows</trans>
+    </entry>
+   <entry>
+        <base>GROUP_DESC_EXPL</base>
+        <trans>Inserire una breve descrizione nel campo sottostante. Questo campo indica anche il nome del gruppo visibile dai client Windows.</trans>
+   </entry>
+
+
+    <entry>
+        <base>IBAYS_WILL_BE_CHANGED</base>
+        <trans>Le seguenti information bays appartenevano a questo gruppo e verranno assegnate al gruppo Amministratore (sarà possibile riassegnarle in seguito):</trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DELETE_GROUP</base>
+        <trans><![CDATA[ <p><b>Siete sicuri di voler rimuovere questo gruppo ?</b></p> ]]></trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST</base>
+        <trans><![CDATA[<p>Lista dei gruppi</p>]]></trans>
+    </entry>
+    <entry>
+		<base>DELETE_DESCRIPTION</base>
+       	<trans><![CDATA[ Sta per essere rimosso il gruppo "<b>{$group}</b>." ]]></trans>
+    </entry>
+</lexicon>

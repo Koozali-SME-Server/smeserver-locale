@@ -1,0 +1,38 @@
+<lexicon lang="th">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>การตั้งค่าตัวป้องกันไวรัส</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FILESYSTEM_SCAN_PERIOD</base>
+        <trans>ค้นหาในไฟล์ของระบบ</trans>
+    </entry>
+    <entry>
+        <base>DESC_FILESYSTEM_SCAN_PERIOD</base>
+        <trans><![CDATA[ <h2>การตั้งค่าทั่วไป</h2>หากตัวเลือกนี้ถูกเปิดใช้ เมื่อไฟล์ของระบบจะถูกสแกนและหากมีการตรวจพบไวรัส จะทำการรายงานโดยการส่งอีเมล์ไปให้ผู้บริหารระบบนี้ ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_QUARANTINE</base>
+        <trans>กักกันไฟล์ที่ติดเชื้อ</trans>
+    </entry>
+    <entry>
+        <base>LABEL_CLAM_VERSIONS</base>
+        <trans>รุ่นของ ClamAV และฐานข้อมูล</trans>
+    </entry>
+    <entry>
+      <base>WEEKLY</base>
+      <trans>รายสัปดาห์</trans>
+    </entry>
+    <entry>
+      <base>NEVER</base>
+      <trans>ไม่ต้อง</trans>
+    </entry>
+    <entry>
+      <base>DAILY</base>
+      <trans>รายวัน</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>การตั้งค่าของตัวป้องกันไวรัส Clamav ได้รับการบันทึกแล้ว</trans>
+    </entry>
+</lexicon>

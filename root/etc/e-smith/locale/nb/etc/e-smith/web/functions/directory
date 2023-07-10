@@ -1,0 +1,79 @@
+<lexicon lang="nb">
+   <entry>
+     <base>FORM_TITLE</base>
+       <trans>Endre LDAP mappe instillingene</trans>
+   </entry>	
+<entry>
+<base>LABEL_ROOT</base>
+<trans>Server root</trans>
+</entry>
+
+<entry>
+<base>DESCRIPTION</base>
+<trans>LDAP serveren tilbyr en liste over brukerkontoer og grupper på serveren som er tilgjenglig over nettverket, og kan nås med en LDAP klient som adresseboken i Netscape Communicator. Sett opp LDAP klienten med den lokale IP adressen til serveren, port 389, og server root parameterene som vist nedenfor.</trans>
+</entry>
+<entry>
+<base>DESC_DIRECTORY_ACCESS</base>
+<trans>Du kan kontrollere tilgangen til din LDAP mappe: Privat tillater kun tilgang fra det lokale nettverket, og Offentlig tillater tilgang fra hvor som helst på internett.</trans>
+</entry>
+<entry>
+<base>DIRECTORY_ACCESS</base>
+<trans>LDAP mappetilgang</trans>
+</entry>
+<entry>
+	<base>DESC_DEPARTMENT</base>
+<trans>Disse feldtene er LDAP standard for din organisasjon. Hver gang du oppretter en ny bruker vil du bli bedt om å fylle ut disse feltene(de kan være ulike for alle brukere). Det du fyller inn her vil komme ferdigutfylt når du oppretter ny bruker.</trans>
+</entry>
+<entry>
+        <base>DEPARTMENT</base>
+        <trans>Forhåndsvalgt avdeling</trans>
+</entry>
+
+<entry>
+        <base>COMPANY</base>
+        <trans>Forhåndsvalgt firma</trans>
+</entry>
+<entry>
+        <base>STREET</base>
+        <trans>Forhåndsvalgt gateadresse</trans>
+</entry>
+
+<entry>
+        <base>CITY</base>
+        <trans>Forhåndsvalgt by</trans>
+</entry>
+
+<entry>
+        <base>PHONENUMBER</base>
+        <trans>Forhåndsvalgt telefonnummer</trans>
+</entry>
+
+<entry>
+<base>DESC_EXISTING</base>
+<trans>Du kan la de eksisterende brukerne være som de er, og bruke forhåndsvalgene over kun på nye brukere, eller du kan bruke forhåndsvalgene over også på eksisterende brukere.</trans>
+</entry>
+
+
+
+<entry>
+<base>EXISTING</base>
+<trans>Eksisterende brukere</trans>
+</entry>
+<entry>
+<base>SUCCESS</base>
+<trans>De nye forhåndsinnstilte LDAP innstillingene er lagret.</trans>
+</entry>
+
+<entry>
+<base>LEAVE</base>
+<trans>La de være som de er</trans>
+</entry>
+<entry>
+<base>UPDATE</base>
+<trans>Oppdater med nye forhåndsinnstillinger</trans>
+</entry>
+    <entry>
+        <base>Directory</base>
+        <trans>Mappe</trans>
+    </entry>
+</lexicon>

@@ -1,0 +1,42 @@
+<lexicon lang="pl">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Wyłącz lub uruchom ponownie</trans>
+    </entry>
+    <entry>
+	<base>REBOOT</base>
+	<trans>Uruchom ponownie</trans>
+    </entry>
+    <entry>
+	<base>REBOOT_SUCCEEDED</base>
+	<trans>Żądanie ponownego uruchomienia zostało wykonane pomyślnie.</trans>
+    </entry>
+    <entry>
+	<base>DESC_REBOOT</base>
+	<trans>Twój serwer jest w trakcie procesu ponownego uruchomienia.</trans>
+    </entry>
+    <entry>
+	<base>RECONFIGURE_SUCCEEDED</base>
+	<trans>Żądanie ponownej konfiguracji zostało wykonane pomyślnie.</trans>
+    </entry>
+    <entry>
+	<base>DESC_RECONFIGURE</base>
+	<trans>Twój serwer jest w trakcie procesu ponownego uruchomienia i konfiguracji.</trans>
+    </entry>
+    <entry>
+	<base>DESC_SHUTDOWN</base>
+	<trans>Twój serwer jest w trakcie procesu zamykania systemu. Proces ten może potrwać parę minut, potem możesz wyłączyć zasilanie.</trans>
+    </entry>
+    <entry>
+	<base>LABEL_REBOOT</base>
+	<trans>Wybierz: wyłączenie, ponowne uruchomienie lub rekonfiguracja</trans>
+    </entry>
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ W tym miejscu możesz zdalnie wyłączyć, uruchomić ponownie lub skonfigurować ponownie serwer.  Musisz wyłączyć komputer z tego miejsca, zanim odłączysz zasilanie. Wszystkie z podanych zadań mogą potrwać minutę lub dłużej. Gdy naciśniesz przycisk <b>wykonaj</b> , żądana operacja zostanie wykonana. ]]></trans>
+    </entry>
+    <entry>
+	<base>Reboot or shutdown</base>
+	<trans>Wyłącz lub uruchom ponownie</trans>
+    </entry>
+</lexicon>

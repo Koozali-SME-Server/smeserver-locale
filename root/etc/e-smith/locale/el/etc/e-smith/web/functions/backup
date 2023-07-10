@@ -1,0 +1,749 @@
+<lexicon lang="el">
+  <entry>
+   <base>BACKUP_TITLE</base>
+   <trans>Αντιγραφή ασφαλείας ή επαναφορά των δεδομένων του διακομιστή</trans>
+  </entry>
+  <entry>
+   <base>BACKUP_DESC</base>
+   <trans><![CDATA[ <P>Ο διακομιστής προσφέρει δύο τρόπους αντιγραφής ασφαλείας και επαναφοράς του: χρησιμοποιώντας την τοπική σας επιφάνεια εργασίας ή έναν οδηγό μαγνητικής ταινίας.</P> <P>Η πρώτη μέθοδος δημιουργεί ένα αντίγραφο των ρυθμίσεων παραμέτρων του διακομιστή σας και των αρχείων δεδομένων των χρηστών το οποίο αποστέλλει (downloads) στην τοπική επιφάνεια εργασίας σας μέσω του περιηγητή ιστοσελίδων σας (web browser). Επί του παρόντος οι ρυθμίσεις παραμέτρων και τα αρχεία δεδομένων των χρηστών ανέρχονται συνολικά σε περίπου <b>$tarsize</b>. Το αντίγραφο ασφαλείας θα είναι κατά τι μικρότερο από αυτό, αναλόγως πόσο συμπιέσιμα είναι τα δεδομένα. Η επιλογή \"Επιβεβαίωση αντιγράφου ασφαλείας επιφάνειας εργασίας\" μπορεί να χρησιμοποιηθεί για τον έλεγχο της ακεραιότητας του αρχείου αντιγράφου ασφαλείας της επιφάνειας εργασίας.</P> <P>για να δημιουργεί κάθε βράδυ ένα αντίγραφο ασφαλείας ολόκληρου του σκληρού σας δίσκου σε ταινία. Τούτο απαιτεί την ύπαρξη ενός υποστηριζόμενου οδηγού ταινίας και μίας ταινίας χωρίς προστασία εγγραφής. Η αντιγραφή ασφαλείας εκτελείται αυτόματα την προεπιλεγμένη ώρα κάθε βράδυ (με μία υπενθύμιση που αυτόματα αποστέλλεται στον διαχειριστή μέσω ηλεκτρονικής αλληλογραφίας κατά την διάρκεια της ημέρας). Την στιγμή αυτή ο σκληρός σας δίσκος περιέχει <b>$dumpsize</b> δεδομένων.</P> <P>Και οι δύο μέθοδοι επαναφοράς σας επιτρέπουν να επαναφέρετε τα αρχεία ρυθμίσεων παραμέτρων και δεδομένων χρηστών. <b>Ιδανικά, η πλήρης επαναφορά θα πρέπει να εκτελείται σε διακομιστή πρόσφατα εγκατεστημένο.</b></P> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_DESC_DAR</base>
+   <trans><![CDATA[ <P>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</P> <P>Tape Backup. This method uses a software package called <I>$module</I> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>$dumpsize</b> of data.</P> <P>Workstation backup. This method uses a software package called <I>dar</I> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>$tarsize</b> uncompressed. Twice the compressed data size must be available on the backup share.</P> <P>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>$tarsize</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</P> <P>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_CONFIG_STATUS</base>
+   <trans>Ρύθμιση παραμέτρων και κατάστασης αντιγράφου ασφαλείας</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUPS_ENABLED</base>
+   <trans><![CDATA[ Η αντιγραφή ασφαλείας σε ταινία είναι επί του παρόντος <b>ενεργοποιημένη.</b> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUPS_RUN_AT</base>
+   <trans>Η τακτική αντιγραφή ασφαλείας θα αρχίζει στις:</trans>
+  </entry>
+  <entry>
+   <base>REMINDER_MESSAGE_AT</base>
+   <trans>Μηνύματα υπενθύμισης θα σταλούν στις:</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUPS_DISABLED</base>
+   <trans><![CDATA[ Η αντιγραφή ασφαλείας σε ταινία είναι <b>απενεργοποιημένη</b> ]]></trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_BACKUP</base>
+   <trans>Αντιγραφή ασφαλείας στην επιφάνεια εργασίας</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_RESTORE</base>
+   <trans>Επαναφορά από την επιφάνεια εργασίας</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_VERIFY</base>
+   <trans>Επιβεβαίωση αντιγράφου ασφαλείας της επιφάνειας εργασίας</trans>
+  </entry>
+  <entry>
+   <base>TAPE_CONFIGURE</base>
+   <trans>Ρύθμιση παραμέτρων αντιγραφής ασφαλείας σε ταινία</trans>
+  </entry>
+  <entry>
+   <base>TAPE_RESTORE</base>
+   <trans>Επαναφορά από ταινία</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS_BEGAN_AT</base>
+   <trans>Επαναφορά συστήματος σε εξέλιξη. Άρχισε στις:</trans>
+  </entry>
+  <entry>
+   <base>REFRESH_THIS_DISPLAY</base>
+   <trans>Ανανέωση αυτής της οθόνης</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_TAPE_BACKUP</base>
+   <trans>Ρύθμιση παραμέτρων αντιγραφής ασφαλείας σε ταινία</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_COMPLETED</base>
+   <trans>Η επαναφορά συστήματος έχει ολοκληρωθεί</trans>
+  </entry>
+  <entry>
+   <base>STARTED_AT</base>
+   <trans>Άρχισε στις:</trans>
+  </entry>
+  <entry>
+   <base>FINISHED_AT</base>
+   <trans>και τελείωσε στις:</trans>
+  </entry>
+  <entry>
+   <base>YOU_MUST_REBOOT</base>
+   <trans>Πρέπει να επανεκκινήσετε τον διακομιστή για να ενεργοποιήσετε οποιεσδήποτε αλλαγές στη ρύθμιση παραμέτρων συστήματος έχουν προκύψει ως αποτέλεσμα της συγκεκριμένης επαναφοράς.</trans> 
+  </entry> 
+  <entry>
+   <base>REBOOT</base>
+   <trans>Επανεκκίνηση</trans>
+  </entry>
+  <entry>
+   <base>SELECT_AN_ACTION</base>
+   <trans>Επιλέξτε κάποια ενέργεια</trans>
+  </entry>
+  <entry>
+   <base>X_BACKUP_OR_RESTORE</base>
+   <trans>X Αντιγραφή ασφαλείας ή επαναφορά δεδομένων του διακομιστή</trans>
+  </entry>
+  <entry>
+   <base>ERR_PRE_BACKUP</base>
+   <trans>Παρουσιάσθηκε σφάλμα κατά την διάρκεια ενεργειών που προηγούνται της αντιγραφής ασφαλείας.</trans>
+  </entry>
+  <entry>
+   <base>ERR_PRE_RESTORE</base>
+   <trans>Παρουσιάσθηκε σφάλμα κατά την διάρκεια ενεργειών που προηγούνται της επαναφοράς.</trans>
+  </entry>
+  <entry>
+   <base>ERR_POST_BACKUP</base>
+   <trans>Παρουσιάσθηκε σφάλμα κατά την διάρκεια ενεργειών που έπονται της αντιγραφής ασφαλείας.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_SERVER_CONFIG</base>
+   <trans>Επαναφορά ρυθμίσεων παραμέτρων συστήματος του διακομιστή</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_RESTORE_DESC</base>
+   <trans><![CDATA[ Αυτή η διεργασία θα ανεβάσει ένα αντίγραφο ασφαλείας του διακομιστή από την τοπική επιφάνεια εργασίας σας στον διακομιστή σας και θα επαναφέρει τις ρυθμίσεις παραμέτρων και τα αρχεία χρηστών. <B>Η επαναφορά θα πρέπει να εκτελείτε σε ένα νέο-εγκατεστημένο διακομιστή.</B> ]]></trans>
+  </entry>
+  <entry>
+   <base>FREE_SPACE</base>
+   <trans><![CDATA[ Έχετε περίπου $tmpfree ελεύθερο χώρο στο διακομιστή. Ελέγξτε ότι το αντίγραφο ασφαλείας στην επιφάνεια εργασίας είναι μικρότερο από $halffree πριν ξεκινήσετε την επαναφορά. ]]></trans>
+  </entry>
+  <entry>
+   <base>MUST_REBOOT_AFTER_RESTORE</base>
+   <trans>Μετά την ολοκλήρωση της επαναφοράς πρέπει να επανεκκινήσετε τον διακομιστή.</trans>
+  </entry>
+  <entry>
+   <base>FILE_TO_RESTORE</base>
+   <trans>Αντίγραφο ασφαλείας από το οποίο θα γίνει η επαναφορά</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Η παρούσα επιλογή θα εμφανίσει τα ονόματα όλων των αρχείων που περιλαμβάνονται σ' ένα προγενέστερο αντίγραφο ασφαλείας επιφάνειας εργασίας. Μπορείτε να χρησιμοποιήσετε αυτή την επιλογή για να επιβεβαιώσετε τα περιεχόμενα του αντιγράφου ασφαλείας.</p> <p>Το τελευταίο αρχείο που περιλαμβάνεται στο αντίγραφο ασφαλείας πρέπει να είναι το αρχείο με όνομα "smbpasswd".</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>SELECT_BACKUP_FILE</base>
+   <trans>Επιλέξτε αντίγραφο ασφαλείας</trans>
+  </entry>
+  <entry>
+   <base>VERIFY</base>
+   <trans>Επιβεβαίωση</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CANNOT_PROCEED</base>
+   <trans>Αδύνατη η συνέχιση της επαναφοράς των ρυθμίσεων παραμέτρων του διακομιστή</trans>
+  </entry>
+  <entry>
+   <base>ANOTHER_RESTORE_IN_PROGRESS</base>
+   <trans>Μία άλλη επαναφορά ευρίσκεται σ' εξέλιξη. Παρακαλώ δοκιμάστε ξανά αργότερα.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS</base>
+   <trans>Επαναφορά σε εξέλιξη</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS_DESC</base>
+   <trans>Μετά την ολοκλήρωση της επαναφοράς πρέπει να επανεκκινήσετε τον διακομιστή. Η επαναφορά σας θα έχει ολοκληρωθεί όταν το /etc/smbpasswd έχει επανέλθει και η φράση "Η επαναφορά ολοκληρώθηκε" εμφανισθεί στην βάση της οθόνης σας.</trans>
+  </entry>
+  <entry>
+   <base>FILES_HAVE_BEEN_RESTORED</base>
+   <trans>Τα παρακάτω αρχεία και φάκελοι έχουν επανέλθει:</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FAILED_MSG</base>
+   <trans>Η επαναφορά απέτυχε! Παρουσιάστηκε σφάλμα κατά την ανάγνωση του αντιγράφου ασφαλείας.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_COMPLETE</base>
+   <trans>Η επαναφορά ολοκληρώθηκε</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_GID</base>
+   <trans>Παρουσιάσθηκε σφάλμα κατά την επαναφορά του gid του 'www'</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_INITIAL_GRP</base>
+   <trans>Παρουσιάσθηκε σφάλμα κατά την επαναφορά της αρχικής ομάδας του 'www'.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FAILED</base>
+   <trans>Η επαναφορά απέτυχε! Το αντίγραφο ασφαλείας ήταν ημιτελές.</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_EXEC_PIPELINE</base>
+   <trans>Δεν μπόρεσα να εκτελέσω το backup pipeline:</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_DECODE</base>
+   <trans>Δεν μπόρεσα να αποκωδικοποιήσω το αντίγραφο ασφαλείας:</trans>
+  </entry>
+  <entry>
+   <base>FILES_IN_BACKUP</base>
+   <trans>Τα παρακάτω αρχεία περιέχονται στο αντίγραφο ασφαλείας:</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_COMPLETE</base>
+   <trans>Η επιβεβαίωση ολοκληρώθηκε</trans>
+  </entry>
+  <entry>
+   <base>BACKUP_FILE_INCOMPLETE</base>
+   <trans>Το αντίγραφο ασφαλείας ήταν ημιτελές</trans>
+  </entry>
+  <entry>
+   <base>ERR_READING_FILE</base>
+   <trans>Παρουσιάσθηκε σφάλμα κατά την ανάγνωση του αντιγράφου ασφαλείας.</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_DISABLE_TAPE</base>
+   <trans>Ενεργοποίηση/Απενεργοποίηση νυχτερινής αντιγραφής ασφαλείας σε ταινία</trans>
+  </entry>
+  <entry>
+   <base>TAPE_CONFIG_DESC</base>
+   <trans><![CDATA[ <p>Επιλέξατε αν επιθυμείτε να ενεργοποιήσετε τις νυχτερινές αντιγραφές ασφαλείας. Μετά ορίσατε τις επιθυμητές ώρες για την αντιγραφή και την υπενθύμιση φορτώματος της ταινίας.</p> <p>Η αντιγραφή ασφαλείας σε ταινία απαιτεί έναν υποστηριζόμενο οδηγό ταινίας. Ένα προειδοποιητικό μήνυμα θα αποσταλεί στον διαχειριστή την καθορισμένη ώρα υπενθύμισης αν ο οδηγός ταινίας είναι κενός.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>ENABLE_TAPE_BACKUP</base>
+   <trans>Ενεργοποίηση της αντιγραφής ασφαλείας σε ταινία</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUP_TIME</base>
+   <trans>Ώρα της ημέρας για αντιγραφή ασφαλείας σε ταινία (ώρα/λεπτά)</trans>
+  </entry>
+  <entry>
+   <base>LOAD_TAPE_REMINDER_TIME</base>
+   <trans>Ώρα της ημέρας για υπενθύμιση φορτώματος ταινίας (ώρα/λεπτά)</trans>
+  </entry>
+  <entry>
+   <base>AM/PM</base>
+   <trans>πμ/μμ</trans>
+  </entry>
+  <entry>
+   <base>AM</base>
+   <trans>πμ</trans>
+  </entry>
+  <entry>
+   <base>PM</base>
+   <trans>μμ</trans>
+  </entry>
+  <entry>
+   <base>UPDATE_CONF</base>
+   <trans>Ενημέρωση</trans>
+  </entry>
+  <entry>
+   <base>UPDATING_TAPE_CONF</base>
+   <trans>Ενημέρωση ρύθμισης παραμέτρων αντιγραφής ασφαλείας σε ταινία</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_HOUR</base>
+   <trans>Σφάλμα: μη-έγκυρη ώρα αντιγραφής ασφαλείας:</trans>
+  </entry>
+  <entry>
+   <base>BETWEEN_0_AND_12</base>
+   <trans>Παρακαλώ επιλέξατε μια ώρα μεταξύ 0 και 12.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_MINUTE</base>
+   <trans>Σφάλμα: μη-έγκυρα λεπτά αντιγραφής ασφαλείας:</trans>
+  </entry>
+  <entry>
+   <base>BETWEEN_0_AND_59</base>
+   <trans>Παρακαλώ επιλέξατε λεπτά μεταξύ 0 και 59.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_REMINDER_HOUR</base>
+   <trans>Σφάλμα: μη-έγκυρη ώρα υπενθύμισης:</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_REMINDER_MINUTE</base>
+   <trans>Σφάλμα: μη-έγκυρα λεπτά υπενθύμισης:</trans>
+  </entry>
+  <entry>
+   <base>ERR_CONF_BACKUP</base>
+   <trans>Παρουσιάσθηκε σφάλμα κατά την αντιγραφή ασφαλείας των ρυθμίσεων παραμέτρων συστήματος.</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_ENABLED_TAPE</base>
+   <trans>Επιτυχής ενεργοποίηση αντιγραφής ασφαλείας σε ταινία</trans>
+  </entry>
+  <entry>
+   <base>WITH_BACKUP_TIME</base>
+   <trans>με ώρα αντιγραφής ασφαλείας:</trans>
+  </entry>
+  <entry>
+   <base>WITH_REMINDER_TIME</base>
+   <trans>και ώρα υπενθύμισης για εισαγωγή ταινίας:</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_DISABLED</base>
+   <trans>Επιτυχής απενεργοποίηση αντιγραφής ασφαλείας σε ταινία</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_TAPE</base>
+   <trans>Επαναφορά ρυθμίσεων παραμέτρων του διακομιστή από αντίγραφο ασφαλείας ταινίας</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_TAPE_DESC</base>
+   <trans><![CDATA[ <p>Αυτή η ενέργεια θα επαναφέρει τις ρυθμίσεις παραμέτρων και τα αρχεία χρηστών από ένα αντίγραφο ασφαλείας του διακομιστή σε ταινία. <B>Η επαναφορά πρέπει να γίνει σε ένα πρόσφατα εγκατεστημένο διακομιστή</B>.</p> <p>Επιβεβαιώστε ότι έχετε φορτώσει την επιθυμητή ταινία στον οδηγό πριν συνεχίσετε.</p> <p>Μετά την ολοκλήρωση της επαναφοράς πρέπει να επανεκκινήσετε τον διακομιστή.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FROM_TAPE</base>
+   <trans>Επαναφορά από ταινία</trans>
+  </entry>
+  <entry>
+   <base>UNABLE_TO_RESTORE_CONF</base>
+   <trans>Αδύνατη η επαναφορά των ρυθμίσεων παραμέτρων του διακομιστή</trans>
+  </entry>
+  <entry>
+   <base>RESTORING_FROM_TAPE</base>
+   <trans>Γίνεται επαναφορά από ταινία</trans>
+  </entry>
+  <entry>
+   <base>NOW_RESTORING_FROM_TAPE</base>
+   <trans>Οι ρυθμίσεις παραμέτρων του διακομιστή σας και τα αρχεία δεδομένων των χρηστών επαναφέρονται τώρα από την ταινία.</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_FROM_TAPE</base>
+   <trans>Παρουσιάσθηκε σφάλμα κατά την επαναφορά των αρχείων από την ταινία.</trans>
+  </entry>
+  <entry>
+   <base>ERR_UPDATING_CONF_AFTER_TAPE_RESTORE</base>
+   <trans>Παρουσιάσθηκε σφάλμα κατά την ενημέρωση των ρυθμίσεων παραμέτρων συστήματος μετά την επαναφορά από ταινία.</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_FORK</base>
+   <trans>Αδύνατη η δημιουργία διακλάδωσης (fork):</trans>
+  </entry>
+  <entry>
+   <base>SERVER_REBOOT</base>
+   <trans>Επανεκκίνηση του διακομιστή</trans>
+  </entry>
+  <entry>
+   <base>SERVER_WILL_REBOOT</base>
+   <trans>Ο διακομιστής σας τώρα θα επανεκκινήσει.</trans>
+  </entry>
+  <entry>
+   <base>NO_UID_FOR_NAME</base>
+   <trans>Αδύνατη η λήψη uid για το όνομα χρήστη:</trans>
+  </entry>
+  <entry>
+   <base>PAGE_REFRESH_IN</base>
+   <trans><![CDATA[ Αυτή η σελίδα θα ανανεωθεί σε οθόνη κατάστασης σε {$sec} δευτερόλεπτα, ή κάντε κλίκ <a href="/server-manager/cgi-bin/backup">εδώ</a>. ]]></trans>
+  </entry>
+    <entry>
+	<base>Backup or restore</base>
+	<trans>Αντιγραφή ασφαλείας ή επαναφορά</trans>
+    </entry>
+
+  <entry>
+	<base>BACKUP_DESKTOP_TOO_BIG</base>
+	<trans><![CDATA[ <div class="error"> Ο διακομιστής σας έχει πάρα πολλά δεδομένα για τη δημιουργία ενός αξιόπιστου αντιγράφου ασφαλείας στην επιφάνεια εργασίας. </div> ]]></trans>
+  </entry>
+   <entry>
+   <base>WORKSTN_BACKUPS_DISABLED</base>
+   <trans><![CDATA[ Η αντιγραφή ασφαλείας σε σταθμό εργασίας είναι <b>απενεργοποιημένη</b> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUPS_ENABLED</base>
+   <trans><![CDATA[ Η αντιγραφή ασφαλείας σε σταθμό εργασίας είναι επί του παρόντος <b>ενεργοποιημένη</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>WKBACKUPS_RUN_AT</base>
+   <trans>Η τακτική αντιγραφή ασφαλείας σε σταθμό εργασίας θα αρχίζει στις:</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_CONFIGURE</base>
+   <trans>Ρύθμιση παραμέτρων αντιγραφής ασφαλείας σε σταθμό εργασίας</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_VERIFY</base>
+   <trans>Επιβεβαίωση αντιγραφής ασφαλείας σε σταθμό εργασίας</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_RESTORE</base>
+   <trans>Επαναφορά από σταθμό εργασίας</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_WORKSTN_BACKUP</base>
+   <trans>Ρύθμιση παραμέτρων αντιγραφής ασφαλείας σε σταθμό εργασίας</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_DISABLE_WORKSTN</base>
+   <trans>Ενεργοποίηση/Απενεργοποίηση ημερησίας αντιγραφής ασφαλείας σε σταθμό εργασίας</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_WORKSTN_BACKUP</base>
+   <trans>Ενεργοποίηση αντιγραφής ασφαλείας σε σταθμό εργασίας</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TIME</base>
+   <trans>Ώρα της ημέρας αντιγραφής ασφαλείας σε σταθμό εργασίας (ώρα/λεπτά)</trans>
+  </entry>
+  <entry>
+   <base>UPDATING_WORKSTN_CONF</base>
+   <trans>Γίνεται ενημέρωση ρυθμίσεων παραμέτρων αντιγραφής ασφαλείας σε σταθμό εργασίας</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_ENABLED_WORKSTN</base>
+   <trans>Ενεργοποιήθηκε με επιτυχία η αντιγραφή ασφαλείας σε σταθμό εργασίας</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_DISABLED_WORKSTN</base>
+   <trans>Απενεργοποιήθηκε με επιτυχία η αντιγραφή ασφαλείας σε σταθμό εργασίας</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_WORKSTN_BACKUP_FILE</base>
+   <trans>Επιβεβαίωση αντιγραφής ασφαλείας σε σταθμό εργασίας</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_WORKSTN_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Αυτή η επιλογή θα εμφανίσει τα ονόματα όλων των αρχείων μιας προγενέστερης ημερήσιας αντιγραφής ασφαλείας σε σταθμό εργασίας. Μπορείτε να χρησιμοποιήσετε αυτή την επιλογή για να επιβεβαιώσετε το περιεχόμενο της αντιγραφής ασφαλείας.<b>Πρέπει να επιλέξετε την αντιγραφή ασφαλείας που επιθυμείτε να επιβεβαιώσετε</b></p> <p>Θα δείτε όλα τα αρχεία της επιλεγμένης αντιγραφής ασφαλείας.</p> Επιβεβαιώνονται αρχεία αντιγραφής ασφαλείας από κοινόχρηστο φάκελλο : ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_WORKSTN</base>
+   <trans>Επαναφορά ρυθμίσεων παραμέτρων διακομιστή από αντίγραφο ασφαλείας σταθμού εργασίας</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_WORKSTN_DESC</base>
+   <trans><![CDATA[ <p>Αυτή η διεργασία θα επαναφέρει τις ρυθμίσεις παραμέτρων και τα αρχεία δεδομένων χρηστών από ένα αντίγραφο ασφαλείας του διακομιστή. <B>Η επαναφορά πρέπει να γίνει σε ένα πρόσφατα εγκατεστημένο διακομιστή</B>.</p> <p>Εξασφαλίσατε ότι έχετε επιλέξει το σωστό αντίγραφο ασφαλείας προς επαναφορά προτού να προχωρήσετε.</p> <p>Μετά την ολοκλήρωση της επαναφοράς πρέπει να επανεκκινήσετε τον διακομιστή.</p>Η επαναφορά θα γίνει από το αντίγραφο ασφαλείας : ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FROM_WORKSTN</base>
+   <trans>Επαναφορά από σταθμό εργασίας</trans>
+  </entry>
+  <entry>
+   <base>RESTORING_FROM_WORKSTN</base>
+   <trans>Επαναφορά από σταθμό εργασίας σε εξέλιξη</trans>
+  </entry>
+  <entry>
+   <base>NOW_RESTORING_FROM_WORKSTN</base>
+   <trans>Οι ρυθμίσεις παραμέτρων του διακομιστή σας και τα αρχεία δεδομένων των χρηστών επαναφέρονται τώρα από κοινόχρηστο φάκελλο σταθμού εργασίας.</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_FROM_WORKSTN</base>
+   <trans>Παρουσιάσθηκε σφάλμα κατά την επαναφορά αρχείων από σταθμό εργασίας.</trans>
+  </entry>
+  <entry>
+   <base>ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE</base>
+   <trans>Παρουσιάσθηκε σφάλμα κατά την ενημέρωση των ρυθμίσεων παραμέτρων συστήματος μετά από επαναφορά από σταθμό εργασίας.</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_NAME</base>
+   <trans>Δικτυακό όνομα ή IP διεύθυνση σταθμού εργασίας</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SETTINGS</base>
+   <trans>Ρυθμίσεις αντιγραφής ασφαλείας σταθμού εργασίας</trans>
+  </entry>
+  <entry>
+   <base>SHARED_FOLDER_NAME</base>
+   <trans>Κοινόχρηστος χώρος αντιγραφής ασφαλείας</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_LOGIN</base>
+   <trans>Όνομα χρήστη για login</trans>
+  </entry>
+  <entry>
+   <base>WORKSTATION_BACKUP_DEST</base>
+   <trans>Ρυθμίσεις σταθμού εργασίας αντιγράφων ασφαλείας</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_WORKSTN_BACKUP_DESC</base>
+   <trans>Μπορείτε να ορίσετε το πλήθος των διαδοχικών σετ αντιγράφων ασφαλείας που θα διατηρούνται στο σταθμό εργασίας, με αυτόματη κυλιόμενη διαδοχή. Κάθε σετ μπορεί να περιλαμβάνει αποθηκευμένα δεδομένα αρκετών συνεχόμενων ημερών. Στην περίπτωση αυτή, το πρώτο αντίγραφο ασφαλείας κάθε σετ είναι ένα πλήρες αντίγραφο ασφαλείας (full backup) ενώ τα υπόλοιπα καθημερινές λήψης αποτελούν επαυξητικά αντίγραφα ασφαλείας (incremental backups). Μπορείτε επίσης να ορίσετε χρονικό όριο για τη λήψη των αντιγράφων ασφαλείας γενικότερα ή μόνον για τα incremental. Όταν εκπνεύσει το όριο αυτό, σταματά κάθε διαδικασία αντιγραφής ασφαλείας και το επόμενο incremental backup θα συνεχίσει ασφαλώς την αντιγραφή των μη-αποθηκευμένων και τροποποιημένων δεδομένων.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_WORKSTN</base>
+   <trans>Μη-έγκυρο δικτυακό όνομα ή IP διεύθυνση σταθμού εργασίας</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_FOLDER</base>
+   <trans>Μη-έγκυρο όνομα κοινόχρηστου χώρου</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_LOGIN</base>
+   <trans>Μη-έγκυρο Login</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_PASSWORD</base>
+   <trans>Μη-έγκυρος κωδικός</trans>
+  </entry>
+  <entry>
+   <base>ERR_ALREADY_MOUNTED</base>
+   <trans>Backup directory is already mounted</trans>
+  </entry>
+  <entry>
+   <base>ERR_MOUNTING_SMBSHARE</base>
+   <trans>Αδυναμία προσάρτησης του κοινόχρηστου φακέλου του σταθμού εργασίας</trans>
+  </entry>
+  <entry>
+   <base>ERR_NOT_MOUNTED</base>
+   <trans>Backup directory is not mounted</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_NOT_SET</base>
+   <trans>Πρέπει κατ' αρχήν να ρυθμίσετε σωστά τις παραμέτρους δημιουργίας αντιγράφων ασφαλείας του σταθμού εργασίας σας</trans>
+  </entry>
+  <entry>
+   <base>NO_BACKUPS_TO_RESTORE</base>
+   <trans>Δεν υπάρχει σετ αντιγράφων ασφαλείας στο καθορισμένο κοινόχρηστο φάκελο του σταθμού εργασίας. Επιβεβαιώστε τις ρυθμίσεις των παραμέτρων σας.</trans>
+  </entry>
+  <entry>
+   <base>NUMBER_OF_SETS</base>
+   <trans>Πλήθος κυλιόμενων ομάδων αντιγράφων ασφαλείας</trans>
+  </entry>
+  <entry>
+   <base>NUMBER_OF_FILES_IN_SET</base>
+   <trans>Καθημερινά αντίγραφα ασφαλείας σε κάθε ομάδα</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_SETS_NUMBER</base>
+   <trans>Το πλήθος των ομάδων πρέπει να είναι μεγαλύτερο ή ίσο του 1</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_FILES_IN_SET_NUMBER</base>
+   <trans>Ο αριθμός αυτός να είναι μεγαλύτερος ή ίσος του 1. Το πρώτο αντίγραφο ασφαλείας κάθε ομάδας είναι <b>πλήρες</b> ενώ τα υπόλοιπα <b>επαυξητικά</b></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_TIMEOUT</base>
+   <trans>Προαιρετικό χρονικό όριο δημιουργίας αντιγράφων ασφαλείας (ώρες)</trans>
+  </entry>
+  <entry>
+   <base>INC_ONLY_TIMEOUT</base>
+   <trans>Χωρίς χρονικό όριο η δημιουρία πλήρων αντιγράφων ασφαλείας</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_TIMEOUT</base>
+   <trans>Η μέγιστη χρονική διάρκεια δημιουργίας αντιγράφων ασφαλείας πρέπει να κυμαίνεται από 1 έως 24 ώρες</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_HOST_DIR</base>
+   <trans>Δεν υπάρχει κατάλογος για τον Η/Υ σας στον κοινόχρηστο φάκελο. Ενδέχεται το όνομα του Η/Υ να είναι διαφορετικό από αυτό των αντιγράφων ασφαλείας</trans>
+  </entry>
+  <entry>
+   <base>ERROR_READING_FILE</base>
+   <trans>Σφάλμα ανάγνωσης αρχείων από</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SEL_RESTORE</base>
+   <trans>Επαναφορά επιλεγμένων αρχείων από σταθμό εργασίας</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SELECTIVE_RESTORE</base>
+   <trans>Επιλεκτική επαναφορά αρχείων από σταθμό εργασίας</trans>
+  </entry>
+  <entry>
+   <base>ALL_BACKUPS</base>
+   <trans>Όλα τα αντίγραφα ασφαλείας</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SEL_REST_DESC</base>
+   <trans><![CDATA[ Αυτή η διαδικασία θα επαναφέρει μόνον καθορισμένα αρχεία και καταλόγους. Πρέπει πρώτα να επιλέξετε το αντίγραφο ασφαλείας από το οποίο θα γίνει η επαναφορά των αρχείων. Εάν δεν γνωρίζετε σε ποιο αντίγραφο ασφαλείας βρίσκονται τα απαιτούμενα αρχεία, επιλέξτε την εναλλακτική ρύθμιση "Όλα τα αντίγραφα ασφαλείας". <br/><br/> Στην επόμενη οθόνη θα εμφανισθούν όλα τα διαθέσιμα αρχεία και κατάλογοι, ώστε να επιλέξετε τα προς επαναφορά. Για τον περιορισμό του πλήθους των εμφανιζόμενων αρχείων και καταλόγων στην οθόνη αυτή, έχετε τη δυνατότητα να εισάγετε μία συνθήκη φίλτρου, η οποία θα εφαρμοσθεί ως κανόνας επιλογής στα εμφανιζόμενα ονόματα.<br/><br/> Έχετε την ευθύνη της <b>μη επαναφοράς</b> αρχείων τα οποία θα μπορούσαν να διακόψουν τη λειτουργία του διακομιστή σας <br/> <br/>Στην παρούσα φάση, η επαναφορά αρχείων θα γίνει από : ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_CHOICE</base>
+   <trans>Γίνεται επιλογή των αρχείων για προβολή</trans>
+  </entry>
+  <entry>
+   <base>SELECT_DATE_BEFORE</base>
+   <trans>Επαναφορά των πιο πρόσφατων πριν την</trans>
+  </entry>
+  <entry>
+   <base>FILTER_EXPRESSION</base>
+   <trans>Φιλτράρισμα ονομάτων από</trans>
+  </entry>
+  <entry>
+   <base>READ_COMPLETE</base>
+   <trans><![CDATA[ Μπορείτε να επιλέξετε για επαναφορά όλους τους καταλόγους και τα αρχεία που επιθυμείτε από την εμφανιζόμενη λίστα (χρησιμοποιήστε ctrl ή shift για πολλαπλή επιλογή). <br/> <b>Προειδοποίηση :</b> Εάν επιλέξετε έναν κατάλογο, θα γίνει επαναφορά όλων των αρχείων και καταλόγων που περιέχει.<p/> Η αρχική ρύθμιση είναι να γίνεται επαναφορά της πλέον πρόσφατης εκδοχής, αλλά εάν καθορίζετε μία ημερομηνία με τη μορφή <i>[ [ [hhhh/]mm/]dd-]hh:mm[:ss]</i> η διαδικασία θα επαναφέρει την πλέον πρόσφατη εκδοχή που άλλαξε <b>πριν τη δοθείσα ημερομηνία</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_SELDATE</base>
+   <trans>Μη-έγκυρη μορφή ημερομηνίας, πρέπει να είναι της μορφής [ [ [yyyy/]mm/]dd-]hh:mm[:ss]. ήτοι: 2005/12/31-08:23:32 ή 10-08:32 ή 08:32</trans>
+  </entry>
+  <entry>
+   <base>SELECT_FILES_TO_RESTORE</base>
+   <trans>Επιλογή αρχείων προς επαναφορά</trans>
+  </entry>
+  <entry>
+   <base>ERR_WHILE_UNMOUNTING</base>
+   <trans>Σφάλμα κατά την αποπροσάρτηση απομεμακρυσμένου κοινόχρηστου φακέλου</trans>
+  </entry>
+  <entry>
+   <base>ERR_DAR_CATALOG</base>
+   <trans>Σφάλμα κατά τη χρήση του καταλόγου Dar</trans>
+  </entry>
+  <entry>
+   <base>COMPRESSION_LEVEL</base>
+   <trans>Επίπεδο συμπίεσης αντιγράφου ασφαλείας [0-9]</trans>
+  </entry>
+  <entry>
+   <base>FULL_ONLY_ON</base>
+   <trans>Η δημιουργία πλήρους αντιγράφου ασφαλείας επιτρέπεται την</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_COMPRESSION</base>
+   <trans>Το επίπεδο συμπίεσης πρέπει να ορισθεί μεταξύ του 0 (χωρίς συμπίεση) και του 9 (μέγιστη συμπίεση)</trans>
+  </entry>
+  <entry>
+   <base>DOW</base>
+   <trans>Κυριακή Δευτέρα Τρίτη Τετάρτη Πέμπτη Παρασκευή Σάββατο Καθημερινά</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURATION_TO_BE_DONE</base>
+   <trans>Παρακαλώ ρυθμίστε τις παραμέτρους αντιγραφής ασφαλείας.</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Αυτή η οθόνη εμφανίζει τις τρέχουσες ρυθμίσεις παραμέτρων αντιγραφής ασφαλείας σε σταθμό εργασίας. Μπορείτε να τις τροποποιήσετε μέσω της παρούσας οθόνης και της επόμενης.</p><p/> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_NOT_CONFIGURED</base>
+   <trans><![CDATA[ <p>Επί του παρόντος, δεν έχουν ρυθμιστεί οι παράμετροι αντιγραφής ασφαλείας σε σταθμό εργασίας. Μπορείτε να τις ρυθμίσετε μέσω της παρούσας οθόνης και της επόμενης.</p><p/> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_ENABLED</base>
+   <trans>Το αντίγραφο ασφαλείας είναι</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_USB</base>
+   <trans>Το αντίγραφο ασφαλείας δημιουργήθηκε σε τοπικό USB δίσκο</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_MNT</base>
+   <trans>Το αντίγραφο ασφαλείας δημιουργήθηκε σε τοπικό USB δίσκο</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_HOST</base>
+   <trans>Το αντίγραφο ασφαλείας δημιουργήθηκε σε σταθμό εργασίας LAN</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_VFSTYPE</base>
+   <trans>μέσω</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SHARE</base>
+   <trans>Ο κοινόχρηστος φάκελος προορισμού του αντιγράφου ασφαλείας είναι</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TOD</base>
+   <trans>Η καθημερινή δημιουργία αντιγράφου ασφαλείας γίνεται στις</trans>
+  </entry>
+  <entry>
+   <base>LOGIN</base>
+   <trans>Το όνομα πρόσβασης είναι</trans>
+  </entry>
+  <entry>
+   <base>PASSWORD</base>
+   <trans>Ο κωδικός πρόσβασης είναι</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SETSNUM</base>
+   <trans>Το πλήθος των κυλιόμενων ομάδων αντιγράφων ασφαλείας είναι</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_DAYSINSET</base>
+   <trans>Το πλήθος των καθημερινών αντιγράφων ασφαλείας που περιλαμβάνει κάθε ομάδα είναι</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_COMPRESSION</base>
+   <trans>Το επίπεδο συμπίεσης (0-7) των αντιγράφων ασφαλείας είναι</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TIMEOUT</base>
+   <trans>Κάθε καθημερινή αντιγραφή ασφαλείας διακόπτεται όταν παρέλθουν</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_INCONLY_TIMEOUT</base>
+   <trans>εκτός της πλήρους αντιγραφής ασφαλείας που διακόπτεται όταν παρέλθουν 24 ώρες</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_FULL_BACKUP_EVERYDAY</base>
+   <trans>Πλήρεις αντιγραφές ασφαλείας (δημιουργία νέων ομάδων αντιγράφων ασφαλείας) επιτρέπονται σε ημερήσια βάση</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_FULL_BACKUP_DAY</base>
+   <trans>Πλήρεις αντιγραφές ασφαλείας (δημιουργία νέων ομάδων αντιγράφων ασφαλείας) επιτρέπονται μόνον την</trans>
+  </entry>
+  <entry>
+   <base>WORKSTATION_BACKUP_SETCONF</base>
+   <trans>Δημιουργία ή τροποποίηση ρυθμίσεων παραμέτρων αντιγραφής ασφαλείας σταθμού εργασίας</trans>
+  </entry>
+  <entry>
+   <base>SELECT_VFS_TYPE</base>
+   <trans>Επιλογή του τύπου του κοινόχρηστου μέσου στο οποίο θα αποθηκευτεί το αντίγραφο ασφαλείας</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_USB_DISK</base>
+   <trans>Σφάλμα: Δεν υπάρχει διαθέσιμος USB δίσκος. Παρακαλώ συνδέστε έναν USB δίσκο ή επιλέξτε άλλον τύπο κοινόχρηστου μέσου αποθήκευσης του αντιγράφου ασφαλείας.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_MOUNTED_DISK</base>
+   <trans>Σφάλμα: Δεν υπάρχει διαθέσιμος USB δίσκος. Παρακαλώ συνδέστε έναν USB δίσκο ή επιλέξτε άλλον τύπο κοινόχρηστου μέσου αποθήκευσης του αντιγράφου ασφαλείας.</trans>
+  </entry>
+  <entry>
+   <base>HOURS</base>
+   <trans>ώρες.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_FULL_BACKUP</base>
+   <trans>Aborting restore because needed full backup is missing or unreadable.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_INC_BACKUP</base>
+   <trans>Aborting restore because the set has missing or unreadable incremental backup number</trans>
+  </entry>
+  <entry>
+   <base>CHECK_TO_VERIFY_FULL_RESTORE</base>
+   <trans>Check here to test integrity of all backups needed for a full restore with the selected backup</trans>
+  </entry>
+  <entry>
+   <base>TESTING_NEEDED_BACKUPS_FOR_RESTORE</base>
+   <trans>Testing all backups needed for a full restore with selected backup</trans>
+  </entry>
+  <entry>
+   <base>TESTED_BACKUP</base>
+   <trans>Testing integrity of backup</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_VERIFY_FAILED</base>
+   <trans>Επιβεβαίωση ημερομηνίας και ώρας</trans>
+  </entry>
+  <entry>
+   <base>CHECK_INTEGRITY_WARNING</base>
+   <trans>Warning : For large backups, checking integrity may be a long task and should be made with daily workstation backup disabled.</trans>
+  </entry>
+  <entry>
+    <base>cifs</base>
+    <trans>cifs</trans>
+  </entry>
+  <entry>
+    <base>nfs</base>
+    <trans>nfs</trans>
+  </entry>
+  <entry>
+    <base>local removable disk</base>
+    <trans>Το αντίγραφο ασφαλείας δημιουργήθηκε σε τοπικό USB δίσκο</trans>
+  </entry>
+  <entry>
+    <base>Mounted disk</base>
+    <trans>Mounted disk</trans>
+  </entry>
+  <entry>
+   <base>ERROR_WHEN_TESTING_REMOTE_SERVER</base>
+   <trans>The parameters have been saved, however the remote host is not reachable, please check your settings.</trans>
+  </entry>
+  <entry>
+   <base>DO_NOT_RESTORE_BIN_SBIN_LIB_LIB64_FROM_SME9</base>
+   <trans>If you restore from Koozali SME Server 9 or before, pay attention that some folders in the system are now symlinks. Basic backup configuration does not include /bin, /lib, /lib64, /sbin, /var/lock and /var/run. If you have added them for files in their subdirectories, we will prevent the restoration of those folders to prevent dar from replacing those symlinks and leave the system unusable. Those additions are, however, not recommended as they are at risk to overwrite files provides by rpms.</trans>
+  </entry>
+  <entry>
+   <base>SMBV1</base>
+   <trans>Mount as legacy SMB v1 share (unsecure, not recommended).</trans>
+  </entry>
+
+
+</lexicon>

@@ -1,0 +1,520 @@
+<lexicon lang="sl">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>Collaboration</base>
+        <trans>Upravljanje</trans>
+    </entry>
+    <entry>
+      <base>Administration</base>
+      <trans>Administracija</trans>
+    </entry>
+    <entry>
+        <base>Security</base>
+        <trans>Varnost</trans>
+    </entry>
+    <entry>
+        <base>Configuration</base>
+        <trans>Konfiguracija</trans>
+    </entry>
+    <entry>
+        <base>Miscellaneous</base>
+        <trans>Mesano</trans>
+    </entry>
+    <entry>
+        <base>Your Settings</base>
+        <trans>Your Settings</trans>
+    </entry>
+    <entry>
+        <base>SAVE</base>
+        <trans>Shrani</trans>
+    </entry>
+    <entry>
+        <base>CANCEL</base>
+        <trans>Preklici</trans>
+    </entry>
+    <entry>
+        <base>ENABLED</base>
+        <trans>Omogoceno</trans>
+    </entry>
+    <entry>
+        <base>DISABLED</base>
+        <trans>Onemogoceno</trans>
+    </entry>
+    <entry>
+        <base>NO</base>
+        <trans>Ne</trans>
+    </entry>
+    <entry>
+        <base>YES</base>
+        <trans>Da</trans>
+    </entry>
+    <entry>
+        <base>ADD</base>
+        <trans>Dodaj</trans>
+    </entry>
+    <entry>
+        <base>CREATE</base>
+        <trans>Kreiraj</trans>
+    </entry>
+    <entry>
+        <base>MODIFY</base>
+        <trans>Uredi</trans>
+    </entry>
+    <entry>
+        <base>REMOVE</base>
+        <trans>Odstrani</trans>
+    </entry>
+    <entry>
+        <base>COMMENT</base>
+        <trans>Comment</trans>
+    </entry>
+    <entry>
+        <base>NEXT</base>
+        <trans>Naprej</trans>
+    </entry>
+    <entry>
+        <base>SELF</base>
+        <trans>Self</trans>
+    </entry>
+    <entry>
+        <base>REMOTE</base>
+        <trans>Odstrani</trans>
+    </entry>
+    <entry>
+        <base>LOCAL</base>
+        <trans>Local</trans>
+    </entry>
+    <entry>
+        <base>ACTION</base>
+        <trans>Izvedi</trans>
+    </entry>
+    <entry>
+        <base>NETWORK</base>
+        <trans>Omrezje</trans>
+    </entry>
+    <entry>
+        <base>ROUTER</base>
+        <trans>Router</trans>
+    </entry>
+    <entry>
+        <base>OPERATION_STATUS_REPORT</base>
+        <trans>Porocilo o delovanju</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT</base>
+        <trans>Racun</trans>
+    </entry>
+    <entry>
+        <base>GROUP</base>
+        <trans>Skupina</trans>
+    </entry>
+    <entry>
+        <base>DESC_SECTIONBAR</base>
+        <trans><![CDATA[ <hr class="sectionbar"/> ]]></trans>
+    </entry>
+    <entry>
+        <base>NO_PIPES_ALLOWED</base>
+        <trans>Simboli, kot je (|) niso dovoljeni vnos v tem polju</trans>
+    </entry>
+    <entry>
+        <base>ERROR_BELOW</base>
+        <trans>NAPAKA: Pri preverjanju te strani je prislo do napake. Prosimo premaknite se po strani navzdol in poiscite vzrok za napako.</trans>
+    </entry>
+    <entry>
+        <base>ACCESS</base>
+        <trans>Ni dostopa</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_LOCKED</base>
+        <trans>Racun je zaklenjen</trans>
+    </entry>
+    <entry>
+        <base>GROUP_ADD</base>
+        <trans>Dodaj skupino</trans>
+    </entry>
+    <entry>
+        <base>NETWORKS_ALLOW_LOCAL</base>
+        <trans>Sprejmi geslo samo z lokalnega omrezja</trans>
+    </entry>
+    <entry>
+        <base>NETWORKS_ALLOW_PUBLIC</base>
+        <trans>Allow public access (entire Internet)</trans>
+    </entry>
+    <entry>
+        <base>ERROR_PASSWORD_CHANGE</base>
+        <trans>Pri zamenjavi gesla je prislo do napake. Prosimo preverite, ce ste staro geslo vpisali pravilno.</trans>
+    </entry>
+    <entry>
+        <base>BACK</base>
+        <trans>Nazaj</trans>
+    </entry>
+    <entry>
+        <base>BACKUP</base>
+        <trans>Nazaj</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION_BRIEF</base>
+        <trans>Kratek opis</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE</base>
+        <trans>Zamenjaj geslo</trans>
+    </entry>
+    <entry>
+        <base>RESET_PASSWORD_TITLE</base>
+        <trans>Resetiraj uporabnisko geslo</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_PASSWORD_CHANGE</base>
+        <trans>Spreminjanje gesla za uporabnisko ime</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>Vsebina</trans>
+    </entry>
+    <entry>
+        <base>CREATE_GROUP</base>
+        <trans>Ustvari novo skupino uporabnikov</trans>
+    </entry>
+    <entry>
+        <base>USER_LIST_CURRENT</base>
+        <trans>Trenutni seznam tiskalnikov</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans>Opis</trans>
+    </entry>
+    <entry>
+        <base>DESTINATION</base>
+        <trans>St. ciljnih vrat</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME</base>
+        <trans>Ime domene</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN</base>
+        <trans>Domena</trans>
+    </entry>
+    <entry>
+        <base>DOMAINS</base>
+        <trans>Domene</trans>
+    </entry>
+    <entry>
+        <base>DOWNLOAD</base>
+        <trans>Prenesi LOG datoteko</trans>
+    </entry>
+    <entry>
+        <base>ERROR_UPDATING_CONFIGURATION</base>
+        <trans>Pri posodabljanju konfiguracijskih datotek iz ariva je prislo do napake.</trans>
+    </entry>
+    <entry>
+        <base>GROUP_MEMBERS</base>
+        <trans>Clani skupine</trans>
+    </entry>
+    <entry>
+        <base>GROUP_NAME</base>
+        <trans>Ime skupine</trans>
+    </entry>
+    <entry>
+        <base>GROUPS</base>
+        <trans>Skupine</trans>
+    </entry>
+    <entry>
+        <base>IP_ADDRESS</base>
+        <trans>IP naslov</trans>
+    </entry>
+    <entry>
+        <base>IP_ADDRESS_OR_FQDN</base>
+        <trans>IP naslov</trans>
+    </entry>
+    <entry>
+        <base>USER_INVALID</base>
+        <trans>Nepravilno ime strežnika</trans>
+    </entry>
+    <entry>
+        <base>LOCATION</base>
+        <trans>Lokacija</trans>
+    </entry>
+    <entry>
+        <base>MB</base>
+        <trans>Mb</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_USER_GROUP</base>
+        <trans>Posodobi skupino uporabnikov</trans>
+    </entry>
+    <entry>
+        <base>NAME</base>
+        <trans>Ime</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_VERIFY_NEW</base>
+        <trans>Novo geslo (se enkrat):</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_NEW</base>
+        <trans>Novo geslo:</trans>
+    </entry>
+    <entry>
+        <base>OFF</base>
+        <trans>Izklopljeno</trans>
+    </entry>
+    <entry>
+        <base>OK</base>
+        <trans>Ok</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_OLD</base>
+        <trans>Staro geslo:</trans>
+    </entry>
+    <entry>
+        <base>ON</base>
+        <trans>Vklopljeno</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD</base>
+        <trans>Geslo</trans>
+    </entry>
+    <entry>
+        <base>PERFORM</base>
+        <trans>Izvedi</trans>
+    </entry>
+    <entry>
+        <base>RECONFIGURE</base>
+        <trans>Spremeni nastavitve</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_USER_GROUP</base>
+        <trans>Odstrani skupino uporabnikov</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_RESET</base>
+        <trans>Resetiraj uporabnisko geslo</trans>
+    </entry>
+    <entry>
+        <base>RESTORE</base>
+        <trans>Restavriraj</trans>
+    </entry>
+    <entry>
+        <base>SHUTDOWN</base>
+        <trans>Zaustavitev ali ponovni zagon</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Ni dostopa</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME_INVALID</base>
+        <trans>Vneseno uporabnisko ime je napacno.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME_INVALID_CHARS</base>
+        <trans>Pri vnosu uporabniskega imena ste vnesli neveljavne znake.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_OLD_INVALID_CHARS</base>
+        <trans>Pri vnosu starega gesla ste vnesli neveljavne znake.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_INVALID_CHARS</base>
+        <trans>Vneseno geslo vsebuje neveljavne znake.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_VERIFY_ERROR</base>
+        <trans>Gesli se ne ujemata.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_USER_NONE</base>
+        <trans>Ta uporabniski racun ne obstaja.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_GROUP_NONE</base>
+        <trans>V sistemu ni nobene skupine uporabnikov.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_INVALID_CHARS</base>
+        <trans>Nepricakovani znaki so v opisu.</trans>
+    </entry>
+    <entry>
+        <base>USER_NAME</base>
+        <trans>Uporabnisko ime</trans>
+    </entry>
+    <entry>
+        <base>YOUR_ACCOUNT</base>
+        <trans>Uporabnisko ime:</trans>
+    </entry>
+    <entry>
+      <base>YOUR_ACCOUNT_INVALID</base>
+      <trans>Vneseno uporabnisko ime je napacno.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE_SUCCESS</base>
+        <trans>Vase geslo je bilo uspesno spremenjeno.</trans>
+    </entry>
+    <entry>
+        <base>FM_NONBLANK</base>
+        <trans>To polje je obvezen vnos</trans>
+    </entry>
+    <entry>
+        <base>FM_INTEGER</base>
+        <trans>To polje lahko vsebuje le celo pozitivno tevilo</trans>
+    </entry>
+    <entry>
+        <base>FM_NUMBER</base>
+        <trans>To polje lahko vsebuje le tevilo</trans>
+    </entry>
+    <entry>
+        <base>FM_WORD</base>
+        <trans>To polje lahko vsebuje samo eno besedo.</trans>
+    </entry>
+    <entry>
+        <base>FM_DATE</base>
+        <trans>Vnesene stevilke ne moremo uporabiti za zapis datuma</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER1</base>
+        <trans>Vpisati morate stevilko creditne kartice</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER2</base>
+        <trans>Stevilka kreditne kartice lahko vsebuje samo stevilke, presledke ali pomisljaje</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER3</base>
+        <trans>Dolzina zapisa mora biti najmanj 14 znakov</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER4</base>
+        <trans>Vnesena stevilka ne izgleda, kot veljavna stevilka kreditne kartice</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY1</base>
+        <trans>Manjka datum veljavnosti.</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY2</base>
+        <trans>Datum veljavnosti mora biti v formatu: MM/LL ali MM/LLLL</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY3</base>
+        <trans>Vnesenei datum poteka je ze pretekel</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY4</base>
+        <trans>Vneseni datum poteka je predalec naprej</trans>
+    </entry>
+    <entry>
+        <base>FM_ISO_COUNTRY_CODE1</base>
+        <trans>Vnesti morate kodo drzave</trans>
+    </entry>
+    <entry>
+        <base>FM_ISO_COUNTRY_CODE2</base>
+        <trans>To polje ne vsebuje veljavne kode drzave</trans>
+    </entry>
+    <entry>
+        <base>FM_US_STATE</base>
+        <trans>This doesn't appear to be a valid 2-letter US state abbreviation</trans>
+    </entry>
+    <entry>
+        <base>FM_US_ZIPCODE</base>
+        <trans>US zip codes must contain 5 or 9 numbers</trans>
+    </entry>
+    <entry>
+        <base>FM_MINLENGTH1</base>
+        <trans>Minimalna dolzina je bila dolocena kot {$minlength}</trans>
+    </entry>
+    <entry>
+        <base>FM_MINLENGTH2</base>
+        <trans>V tem polju mora biti najmanj {$minlength} znakov</trans>
+    </entry>
+    <entry>
+        <base>FM_MAXLENGTH1</base>
+        <trans>Maksimalna dolzina je bila definirana kot {$maxlength}</trans>
+    </entry>
+    <entry>
+        <base>FM_MAXLENGTH2</base>
+        <trans>V tem polju ne sme biti vec kot {$maxlength} znakov</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH1</base>
+        <trans>Definirati morate dolzino tega polja.</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH2</base>
+        <trans>Definirati morate natancno dolzino polja s celim stevilom</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH3</base>
+        <trans>To polje mora biti dolgo natancno {$exactlength} znakov</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE1</base>
+        <trans>Definirati morate maksimalno in minimalno dolzino polja.</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE2</base>
+        <trans>Definrati morate maksimalno in minimalno dolzino polja s celim stevilom</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE3</base>
+        <trans>To polje mora biti dolgo minimalno {$minlength} in maksimalno {$maxlength} znakov</trans>
+    </entry>
+    <entry>
+        <base>FM_URL</base>
+        <trans>To polje mora vsebovati URL ki se zacne z http:// ali ftp://</trans>
+    </entry>
+    <entry>
+        <base>FM_EMAIL_SIMPLE1</base>
+        <trans>Vpisati morate email naslov.</trans>
+    </entry>
+    <entry>
+        <base>FM_EMAIL_SIMPLE2</base>
+        <trans>Ta vnos ne izgleda, kot veljaven RFC822 email naslov</trans>
+    </entry>
+    <entry>
+        <base>FM_DOMAIN_NAME</base>
+        <trans>Ta vnos ne izgleda, kot veljavno ime Internetne domene ali ime racunalnika.</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER1</base>
+        <trans>To polje mora vsebovati veljavno IP stevilko in ne sme ostati prazno.</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER2</base>
+        <trans>Napačen začetni IP naslov</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER3</base>
+        <trans>{$octet} je vecji od 255</trans>
+    </entry>
+    <entry>
+        <base>FM_USERNAME</base>
+        <trans>To polje mora izgledati kot veljavno uporabnisko ime (3 do 8 crk in stevilk)</trans>
+    </entry>
+    <entry>
+        <base>FM_PASSWORD1</base>
+        <trans>Vnesti morate geslo.</trans>
+    </entry>
+    <entry>
+        <base>FM_PASSWORD2</base>
+        <trans>Vneseno geslo ni DOBRO geslo. Dobro geslo mora vsebovati naslednje: eno veliko crko, eno malo crko, stevilko, ne-alfanumericni znak (npr: # $ %) in biti najmanj 7 znakov dolgo.</trans>
+    </entry>
+    <entry>
+        <base>FM_MAC_ADDRESS1</base>
+        <trans>Vnesti morate MAC naslov.</trans>
+    </entry>
+    <entry>
+        <base>FM_MAC_ADDRESS2</base>
+        <trans>Vnesli ste neveljaven MAC naslov.</trans>
+    </entry>
+    <entry>
+	<base>FM_ERR_UNEXPECTED_DESC</base>
+	<trans>Napaka: v opisu je nepricakovan ali manjkajoci znak</trans>
+    </entry>
+    <entry>
+        <base>CSRF_VALIDATION_FAILURE</base>
+        <trans>Error: CSRF token is invalid or outdated.</trans>
+    </entry>
+</lexicon>

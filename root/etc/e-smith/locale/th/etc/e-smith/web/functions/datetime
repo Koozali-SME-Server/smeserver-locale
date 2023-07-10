@@ -1,0 +1,202 @@
+<lexicon lang="th">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>ตั้งค่าวันที่และเวลา</trans>
+    </entry>
+    <entry>
+      <base>INITIAL_DESC</base>
+      <trans>นี่คือที่ที่คุณจะใช้เพื่อกำหนดค่าเกี่ยวกับวันที่และเวลาของเซิร์ฟเวอร์นี้ คุณสามารถเลือกใช้การตั้งเวลาจาก network time server ให้บริการอยู่ หรือเลือกตั้งเองด้วยมือ (เป็นเวลาตาม time zone ของคุณ)</trans>
+    </entry>
+    <entry>
+      <base>SET_DATE_TITLE</base>
+      <trans>ตั้งวันที่และเวลา</trans>
+    </entry>
+    <entry>
+      <base>COULD_NOT_OPEN_TZ_FILE</base>
+      <trans>ผิดพลาด: ไม่สามารถเปิดอ่านไฟล์ข้อมูล timezone ได้:</trans>
+    </entry>
+    <entry>
+      <base>JANUARY</base>
+      <trans>มกราคม</trans>
+    </entry>
+    <entry>
+      <base>FEBRUARY</base>
+      <trans>กุมภาพันธ์</trans>
+    </entry>
+    <entry>
+      <base>MARCH</base>
+      <trans>มีนาคม</trans>
+    </entry>
+    <entry>
+      <base>APRIL</base>
+      <trans>เมษายน</trans>
+    </entry>
+    <entry>
+      <base>MAY</base>
+      <trans>พฤษภาคม</trans>
+    </entry>
+    <entry>
+      <base>JUNE</base>
+      <trans>มิถุนายน</trans>
+    </entry>
+    <entry>
+      <base>JULY</base>
+      <trans>กรกฎาคม</trans>
+    </entry>
+    <entry>
+      <base>AUGUST</base>
+      <trans>สิงหาคม</trans>
+    </entry>
+    <entry>
+      <base>SEPTEMBER</base>
+      <trans>กันยายน</trans>
+    </entry>
+    <entry>
+      <base>OCTOBER</base>
+      <trans>ตุลาคม</trans>
+    </entry>
+    <entry>
+      <base>NOVEMBER</base>
+      <trans>พฤศจิกายน</trans>
+    </entry>
+    <entry>
+      <base>DECEMBER</base>
+      <trans>ธันวาคม</trans>
+    </entry>
+    <entry>
+      <base>NEW_M/D/Y</base>
+      <trans>วันที่ใหม่ เดือน/วัน/ปี:</trans>
+    </entry>
+    <entry>
+      <base>NEW_H/M/S</base>
+      <trans>เวลาใหม่ ชั่วโมง/นาที/วินาที:</trans>
+    </entry>
+    <entry>
+      <base>AM/PM_AND_TZ</base>
+      <trans>AM/PM และ time zone:</trans>
+    </entry>
+    <entry>
+      <base>NTP_ENABLE_DESC</base>
+      <trans>เซิร์ฟเวอร์สามารถตั้งนาฬิกาเป็นระยะๆ โดยจะเทียบเวลากับเซอร์ฟเวอร์ที่ให้บริการเทียบเวลามาตรฐานผ่าน network time protocol (NTP) ถ้าคุณต้องการใช้ตัวเลือกนี้ ให้กรอกชื่อโฮสท์หรือหมายเลข IP ของเซอร์ฟเวอร์ NTP ที่จะใช้ลงไป</trans>
+    </entry>
+    <entry>
+      <base>NTP_CONFIGURE_DESC</base>
+      <trans>เซิร์ฟนี้ถูกสั่งให้ตั้งเวลาเป็นระยะๆ โดยเทียบเวลากับเซอร์ฟเวอร์ที่ให้บริการผ่าน network time protocol (NTP) ตามที่กำหนดไว้ด้านล่าง หากต้องการเปลี่ยน ให้กรอกชื่อโฮสท์หรือหมายเลข IP ของเซอร์ฟเวอร์ NTP ที่จะใช้แทนลงไป</trans>
+    </entry>
+    <entry>
+      <base>NTP_DISABLE_DESC</base>
+      <trans>เลือกตัวเลือกเพื่อให้เลิกเทียบเวลาของนาฬิการะบบไปยังเซิร์ฟเวอร์ NTP นี้</trans>
+    </entry>
+    <entry>
+      <base>NTP_SERVER</base>
+      <trans>เซิร์ฟเวอร์ NTP</trans>
+    </entry>
+    <entry>
+      <base>VERIFY_DATE_AND_TIME</base>
+      <trans>ตรวจสอบวันและเวลา</trans>
+    </entry>
+    <entry>
+      <base>NEW_DATE_AND_TIME</base>
+      <trans>ตั้งวันที่และเวลาใหม่:</trans>
+    </entry>
+    <entry>
+      <base>SETTING_DATE_AND_TIME</base>
+      <trans>ตั้งวันที่และเวลา</trans>
+    </entry>
+    <entry>
+      <base>INVALID_DAY</base>
+      <trans>ผิดพลาด: วันที่ไม่ถูกต้อง</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_1_AND_31</base>
+      <trans>โปรดเลือกวันที่ระหว่าง 1 ถึง 31</trans>
+    </entry>
+    <entry>
+      <base>INVALID_YEAR</base>
+      <trans>ข้อผิดพลาด: เลขปีที่ไม่ถูกต้อง:</trans>
+    </entry>
+    <entry>
+      <base>FOUR_DIGIT_YEAR</base>
+      <trans>กรุณาระบุตัวเลขของปีระหว่าง 1900 และ 2200</trans>
+    </entry>
+    <entry>
+      <base>INVALID_HOUR</base>
+      <trans>ข้อผิดพลาด: ตัวเลขชั่วโมงไม่ถูกต้อง:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_1_AND_12</base>
+      <trans>กรุณาระบุตัวเลขชั่วโมงระหว่าง 1 และ 12</trans>
+    </entry>
+    <entry>
+      <base>INVALID_MINUTE</base>
+      <trans>ข้อผิดพลาด: ตัวเลขนาทีไม่ถูกต้อง:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_0_AND_59</base>
+      <trans>กรุณาระบุตัวเลขนาทีระหว่าง 0 และ 59</trans>
+    </entry>
+    <entry>
+      <base>INVALID_SECOND</base>
+      <trans>ข้อผิดพลาด: ตัวเลขวินาทีไม่ถูกต้อง</trans>
+    </entry>
+    <entry>
+      <base>UPDATING_CLOCK</base>
+      <trans><![CDATA[ กำลังปรับปรุงเวลาของระบบ. โปรดรอสักครู่, จากนั้นคลิ๊ก <A HREF="datetime?page=1&wherenext=Verify" TARGET="main">ที่นี่</A> เพื่อตรวจสอบความเปลี่ยนแปลง ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_SETTING_CLOCK</base>
+      <trans>ข้อผิดพลาดขึ้นระหว่างการตั้งเวลาของระบบและนาฬิกาของฮาร์ดแวร์</trans>
+    </entry>
+    <entry>
+      <base>SERVER_DISABLED</base>
+      <trans>ทำการปิดไม่ใช้งาน Network time server แล้ว</trans>
+    </entry>
+    <entry>
+      <base>SERVER_DISABLED_DESC</base>
+      <trans><![CDATA[ คุณได้ปิดการทำงานของบริการนี้: เซิร์ฟเวอร์ใช้การพึ่งพานาฬิกาภายในของมัน และจะ <b>ไม่</b> พยายามที่จะ ปรับเวลาให้ถูกต้องจาก network time server ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_CHANGING_TS</base>
+      <trans>ผิดพลาดขณะเปลี่ยนแปลงค่าของ network time server</trans>
+    </entry>
+    <entry>
+      <base>INVALID_NTP_ADDR</base>
+      <trans>ที่อยู่เซิร์ฟเวอร์ NTP ไม่ถูกต้อง:</trans>
+    </entry>
+    <entry>
+      <base>SETTINGS_CHANGED</base>
+      <trans>เปลี่ยนค่า Network time server เสร็จแล้ว</trans>
+    </entry>
+    <entry>
+      <base>SYNC_WITH</base>
+      <trans>เซอร์เวอร์นี้ถูกกำหนดให้เทียบเวลาเป็นช่วงๆ (จากอินเตอร์เน็ต) กับ:</trans>
+    </entry>
+    <entry>
+      <base>INVALID_NTP_SERVER</base>
+      <trans><![CDATA[ เซอร์เวอร์ NTP ใช้ไม่ได้ เซอร์เวอร์นี้ <b>จะไม่</b> พยายามตั้งเวลาจาก time server อีก ]]></trans>
+    </entry>
+    <entry>
+      <base>NETWORK_TIME_SERVER</base>
+      <trans>Network Time Server</trans>
+    </entry>
+    <entry>
+      <base>NTP_CONFIGURE_TITLE</base>
+      <trans>ตั้งค่า Network Time Server</trans>
+    </entry>
+    <entry>
+      <base>NTP_ENABLE_TITLE</base>
+      <trans>เปิดใช้บริการ Network Time Server</trans>
+    </entry>
+    <entry>
+      <base>NTP_DISABLE_TITLE</base>
+      <trans>ปิดไม่ใช้บริการ Network Time Server</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_SETTING</base>
+      <trans>การตั้งค่าปัจจุบัน</trans>
+    </entry>
+    <entry>
+      <base>Date and time</base>
+      <trans>วันที่และเวลา</trans>
+    </entry>
+  </lexicon>

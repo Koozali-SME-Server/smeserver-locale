@@ -1,0 +1,49 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:15
+msgid "Automated quota report"
+msgstr "Laporan kuota otomatis"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:17
+msgid "You have exceeded your disk quota"
+msgstr "Anda telah melebihi kuota disk anda"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:19
+msgid "Your current disk usage:"
+msgstr "Pemakaian disk anda sekarang:"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:20
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:23
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:25
+msgid "Mb"
+msgstr "Mb"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:21
+msgid "Your maximum usage:"
+msgstr "Maksimum pemakaian anda:"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:22
+msgid " no limit set"
+msgstr " tidak ada pembatasan"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:24
+msgid "Warnings start at:"
+msgstr "Peringatan mulai pada:"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:26
+msgid "Grace period ends:"
+msgstr "Akhir masa tenggang:"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:27
+msgid "System name:"
+msgstr "Nama sistem:"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:29
+msgid "You are currently using more disk space than you have been allotted. You have until the Grace Period above to remove files so that you no longer exceed the warning level. At no time will you be permitted to store more than the maximum usage indicated above. This disk allocation includes all your e-mail, including unread e-mail."
+msgstr "Pemakain ruang disk anda sudah melebihi jatah. Anda mempunyai waktu sampai masa tenggang di atas untuk memindahkan berkas sehingga anda tidak lagi melebihi level peringatan. Anda tidak akaan diijinkan untuk menyimpan lebih dari pemakaian maksimum yang ditandai di atas. Alokasi disk ini meliputi semua surat anda, termasuk surat belum dibaca."

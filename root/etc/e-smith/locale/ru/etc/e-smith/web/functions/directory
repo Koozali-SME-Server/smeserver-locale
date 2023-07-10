@@ -1,0 +1,79 @@
+<lexicon lang="ru">
+   <entry>
+     <base>FORM_TITLE</base>
+       <trans>Изменить настройки LDAP каталога</trans>
+   </entry>	
+<entry>
+<base>LABEL_ROOT</base>
+<trans>Корень сервера</trans>
+</entry>
+
+<entry>
+<base>DESCRIPTION</base>
+<trans>LDAP сервер обеспечивает доступный в сети список учетных записей пользователей и групп на вашем сервере к которому можно получить доступ с помощью клиентов LDAP, таких, как адресная книга в Netscape Communicator. Настройте ваш LDAP клиент с локальным IP-адресом вашего сервера, номер порта 389, и корнем сервера показанным ниже.</trans>
+</entry>
+<entry>
+<base>DESC_DIRECTORY_ACCESS</base>
+<trans>Вы можете контролировать доступ к вашему LDAP каталогу: частный - позволяет иметь доступ только из локальной сети, публичный - позволяет получить доступ из любой точки мира через Интернет.</trans>
+</entry>
+<entry>
+<base>DIRECTORY_ACCESS</base>
+<trans>Доступ к LDAP каталогу</trans>
+</entry>
+<entry>
+	<base>DESC_DEPARTMENT</base>
+<trans>Эти поля LDAP - умолчания для вашей организации. Когда вы создаете новую учетную запись пользователя, вам будет предложено заполнить все эти поля (они могут быть разными для каждого пользователя), но значения которые вы установите здесь будут отображаться по умолчанию. Это удобно для быстрого создания учетных записей пользователей.</trans>
+</entry>
+<entry>
+        <base>DEPARTMENT</base>
+        <trans>Отдел по умолчанию</trans>
+</entry>
+
+<entry>
+        <base>COMPANY</base>
+        <trans>Компания по умолчанию</trans>
+</entry>
+<entry>
+        <base>STREET</base>
+        <trans>Улица по умолчанию</trans>
+</entry>
+
+<entry>
+        <base>CITY</base>
+        <trans>Город по умолчанию</trans>
+</entry>
+
+<entry>
+        <base>PHONENUMBER</base>
+        <trans>Номер телефона по умолчанию</trans>
+</entry>
+
+<entry>
+<base>DESC_EXISTING</base>
+<trans>Вы можете оставить существующие учетные записи пользователей как есть, используя умолчания выше только для новых пользователей или можете применить умолчания для всех существующих пользователей.</trans>
+</entry>
+
+
+
+<entry>
+<base>EXISTING</base>
+<trans>Существующие пользователи</trans>
+</entry>
+<entry>
+<base>SUCCESS</base>
+<trans>Новые настройки LDAP по умолчанию сохранены.</trans>
+</entry>
+
+<entry>
+<base>LEAVE</base>
+<trans>Оставить как есть</trans>
+</entry>
+<entry>
+<base>UPDATE</base>
+<trans>Обновить новыми настройками по умолчанию</trans>
+</entry>
+    <entry>
+        <base>Directory</base>
+        <trans>Каталог</trans>
+    </entry>
+</lexicon>

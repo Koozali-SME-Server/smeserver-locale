@@ -1,0 +1,114 @@
+<lexicon lang="bg">
+    <entry>
+      <base>NO_PSEUDONYMS</base>
+      <trans><![CDATA[ <b>В системата няма псевдоними.</b> ]]></trans>
+     </entry>
+    <entry>
+        <base>REMOVE_PSEUDONYM</base>
+        <trans>Премахване на псевдоним</trans>
+    </entry>
+    <entry>
+        <base>ABOUT_TO_REMOVE</base>
+        <trans><![CDATA[ Ще премахнете псевдоним:<br> <b>Сигурни ли сте, че искате да продължите?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Създаване, промяна и премахване на псевдоними</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans><![CDATA[ <p>Сървъра автоматично създава псевдоними за електронна поща за всяка група. Ако искате да зададете псевдоним за електронна поща за списък с потребители, просто създайте група и списъкът ще бъде автоматично поддържан от сървъра.</p> <p>Псевдонимите позволяват да задавате други имена за съществуващи потребители или групи. Например, можете зададете псевдоним "webmaster" за групата "webdevelopers" или псевдоним "joe" за потребителя "joseph".</p> <p>Сървърът автоматично създава псевдоними от вида име.фамилия и име фамилия за всеки потребител в системата и псевдоним "everyone", който съдържа всички потребители в системата.</p> <p>Псевдонимите също така позволяват да създавате псевдоними за електронна поща на валидни (виртуални) домейни и потребители. Например, можете да пренасочите "sales@virtualdomain1.com" към потребителя "mary" и "sales@virtualdomain2.com"  към потребителя "john". Трябва да създадете домейн или домейни и акаунти на потребителите, преди да създавате псевдоними. </p> <p> Псевдонимите могат да сочат към други псевдоними, но това е ограничено само до едно ниво. Например, псевдонимът "webmaster" може да сочи към псевдонима "techsupport", който след това да сочи към потребителя "ray". Това е полезно когато един потребител отговаря много функции и запазва необходимостта от промяна на псевдонимите, свързани с този потребител многократно в случай че потребителя напусне.</p> <p>Можете да промените или премахнете псевдонима, като щракнете върху съответната команда до псевдонима.</p>]]></trans>
+    </entry>
+    <entry>
+        <base>LOCAL_ONLY</base>
+        <trans>(само в локалната мрежа)</trans>
+    </entry>
+    <entry>
+        <base>SELECT_ACCOUNT</base>
+        <trans>Изберете акаунт или група</trans>
+    </entry>
+    <entry>
+        <base>SELECT_INTERNAL</base>
+        <trans>Само в локалната мрежа</trans>
+    </entry>
+    <entry>
+        <base>CLICK_TO_CREATE</base>
+        <trans>Добавяне на псевдоним</trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM</base>
+        <trans>Псевдоним</trans>
+    </entry>
+    <entry>
+        <base>USER_OR_GROUP</base>
+        <trans>Потребител или група</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_PSEUDONYMS</base>
+        <trans><![CDATA[<b>Текущ списък на псевдонимите</b>]]></trans>
+    </entry>
+    <entry>
+        <base>TITLE_CREATE</base>
+        <trans>Създаване на псевдоним</trans>
+    </entry>
+    <entry>
+        <base>DESC_PSEUDONYM_NAME</base>
+       <trans>Моля, изберете съществуващ акаунт или група за псевдонима от долното меню</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_PSEUDONYM</base>
+        <trans>Промяна на псевдоним</trans>
+    </entry>     
+       <entry>
+        <base>PSEUDONYM_NAME</base>
+        <trans>Име на пседоним</trans>
+    </entry>
+    <entry>
+        <base>VALID_PSEUDONYM_NAMES</base>
+        <trans><![CDATA[ Псевдонимът трябва да съдържа само малки букви, цифри, точки, тирета и подчерти и да започва с малка буква или цифра. Например, "sales", "john.holland", "123" и "email-administrator" са правилни псевдоними, а "John Smith" и "Henry Miller" - не са. <p>Можете също да създавате псевдоними за електронна поща за акаунтите и (виртуалните) домейни, които се държат от този сървър. Например, "fred@virtualdomain.com" може да бъде насочен към "mary" (или друг допустим потребител).</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>NAME_IN_USE</base>
+        <trans>Грешка: Това име се използва. Не можете да създавате псевдоним за това име.</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_PSEUDONYM</base>
+        <trans>Този акаунт не е псевдоним</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_DOMAIN</base>
+        <trans>Този домейн не се държи от този сървър</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_NOACCT</base>
+        <trans>Този акаунт не се държи от този сървър</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_SAMEACCT</base>
+        <trans>Псевдонимът не може да сочи на същия акаунт</trans>
+    </entry>
+    <entry>
+        <base>CREATE_SUCCEEDED</base>
+        <trans>Успешно създаден псевдоним</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_SUCCEEDED</base>
+        <trans>Успешно променен псевдоним</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_SUCCEEDED</base>
+        <trans>Успешно премахнат псевдоним</trans>
+    </entry>
+    <entry>
+      <base>EVERYONE</base>
+      <trans>Всеки</trans>
+    </entry>
+      <entry>
+        <base>Pseudonyms</base>
+        <trans>Псевдоними</trans>
+      </entry>
+
+</lexicon>

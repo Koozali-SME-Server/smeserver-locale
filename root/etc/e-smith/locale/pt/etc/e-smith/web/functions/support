@@ -1,0 +1,10 @@
+<lexicon lang="pt">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Suporte, garantia e licenciamento</trans>
+    </entry>
+    <entry>
+        <base>Support and licensing</base>
+        <trans>Suporte e licenciamento</trans>
+    </entry>
+</lexicon>

@@ -1,0 +1,242 @@
+<lexicon lang="it">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Crea, modifica o rimuovi utenti</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> <a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">Aggiungi utente</a> </p> <p> E' possibile modificare, bloccare o rimuovere un utente o modificare la password facendo clic sul comando corrispondente a fianco dell'utente. </p> <p> Se l'utente è bloccato, significa che la password deve essere modificata. Notare che gli utenti appena creati vengono automaticamente bloccati fino a quando non viene cambiata la password. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>P2_TITLE</base>
+        <trans>Crea o modifica</trans>
+    </entry>
+    <entry>
+        <base>CREATE_MODIFY_DESC</base>
+        <trans><![CDATA[ <p> Il nome utente può contenere solo lettere minuscole, numeri, trattini, punti e underscore (_) e deve iniziare con una lettera minuscola. Per esempio "luisa", "mrossi" e "liu-jo" sono nomi utente validi, mentre "4amici", "Franco Neri" e "aldo/sbaglio" non lo sono. </p> <p> Notare che verranno creati due pseudonimi speciali per ogni nuovo utente. Questi pseudonimi forniscono indirizzi email alternativi per l'utente, creati unendo nome e cognome con un punto (.) e un underscore (_). L'utente "mario" di nome "Mario" e cognome "Rossi" avrà due pseudonimi, mario.rossi e mario_rossi. </p> <p> Le informazioni di rubrica (ufficio, azienda, etc.) possono essere modificate dai default sottostanti. Le modifiche verranno applicate solo a questo utente. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MODIFY_ADMIN_TITLE</base>
+        <trans>Modifica l'utente admin</trans>
+    </entry>
+    <entry>
+        <base>USER_CREATED</base>
+        <trans>Utente creato con successo.</trans>
+    </entry>
+    <entry>
+        <base>USER_MODIFIED</base>
+        <trans>Utente modificato con successo.</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER</base>
+        <trans>Errore: errore interno durante la modifica dell'utente: "{$acctName}".</trans> 
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER_GROUPS</base> 
+        <trans>Errore: errore interno durante la modifica del gruppo "{$group}" per l'utente "{$acctName}".</trans>
+    </entry>
+    <entry>
+        <base>TAINTED_USER</base>
+        <trans>Il nome utente "{$acctName}" contiene caratteri non validi.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME</base>
+        <trans>Nome utente</trans>
+    </entry>
+    <entry>
+        <base>FIRSTNAME</base>
+        <trans>Nome</trans>
+    </entry>
+    <entry>
+        <base>LASTNAME</base>
+        <trans>Cognome</trans>
+    </entry>
+    <entry>
+        <base>DEPARTMENT</base>
+        <trans>Ufficio</trans>
+    </entry>
+    <entry>
+        <base>COMPANY</base>
+        <trans>Azienda</trans>
+    </entry>
+    <entry>
+        <base>STREET_ADDRESS</base>
+        <trans>Indirizzo</trans>
+    </entry>
+    <entry>
+        <base>CITY</base>
+        <trans>Città</trans>
+    </entry>
+    <entry>
+        <base>PHONE_NUMBER</base>
+        <trans>Telefono</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_DELIVERY</base>
+        <trans>Consegna email</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_EMAIL_LOCALLY</base>
+        <trans>Consegna email localmente</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_EMAIL</base>
+        <trans>Inoltra email all'indirizzo sottostante</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_AND_FORWARD</base>
+        <trans>Consegna localmente e inoltra</trans>
+    </entry>
+    <entry>
+        <base>FORWARDING_ADDRESS</base>
+        <trans>Indirizzo d'inoltro</trans>
+    </entry>
+    <entry>
+        <base>GROUP_MEMBERSHIPS</base>
+        <trans>Appartenenza ai gruppi</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC</base>
+        <trans>Inserire la password per l'utente</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC2</base>
+        <trans>Inserire la nuova password nei campi sottostanti</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_MODIFYING_PASSWORD</base>
+        <trans>Errore durante la modifica della password</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE_SUCCEEDED</base>
+        <trans>Password per l'utente "{$acctName}" modificata con successo.</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC</base>
+        <trans>Sta per essere bloccato l'utente</trans>
+    </entry>
+    <entry>
+        <base>LOCKED_ACCOUNT</base>
+        <trans>Utente "{$acctName}" bloccato con successo.</trans>
+    </entry>
+    <entry>
+        <base>NO_SUCH_USER</base>
+        <trans>Errore: l'utente "{$acctName}" non esiste.</trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM_CLASH</base>
+        <trans>Errore: lo pseudonimo "{$pseudonym}" è già usato dall'utente "{$clashName}". Per differenziare, aggiungere le iniziali a questo campo.</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT</base>
+        <trans>Blocca utente</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT_TITLE</base>
+        <trans>Blocca utente</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC2</base>
+        <trans><![CDATA[ L'utente verrà bloccato. Questo significa che l'utente non sarà in grado di effettuare il login e non potrà leggere la posta. La posta in arrivo continuerà a venire memorizzata e/o inoltrata ad un eventuale indirizzo esterno in base alla configurazione. L'utente potrà essere riattivato in futuro impostando una nuova password. La password attuale non verrà salvata. </p> <p> <b>Siete sicuri di voler bloccare questo utente?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>REMOVE_ACCOUNT_TITLE</base>
+        <trans>Rimuovi utente</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Sta per essere rimosso l'utente</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans><![CDATA[ Tutti i file appartenenti a questo utente verranno cancellati. Inoltre tutte le email dell'utente ancora sul server (non ancora eventualmente scaricate dall'utente) verranno cancellate. </p> <p> <b>Siete sicuri di voler rimuovere questo utente?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>LOCK</base>
+        <trans>Blocca</trans>
+    </entry>
+    <entry>
+        <base>NO_USER_ACCOUNTS</base>
+        <trans>Non ci sono utenti in questo sistema</trans>
+    </entry>
+    <entry>
+        <base>Users</base>
+        <trans>Utenti</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>L'utente "{$acctName}" contiene caratteri non validi. I nomi utente devono iniziare con una lettera minuscola e possono contenere solo lettere minuscole, numeri, trattini, punti e underscore.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_TOO_LONG</base>
+        <trans>Errore: il nome utente è troppo lungo. Il massimo è {$maxLength} caratteri.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>Errore: l'utente "{$account}" non può essere creato perché esiste già un {$type} con quel nome.</trans>
+    </entry>    
+    <entry>
+        <base>ERR_OCCURRED_CREATING</base>
+        <trans>Errore durante la creazione dell'utente</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_CONTAIN_WHITESPACE</base>
+        <trans>Questo campo non può contenere spazi bianchi</trans>
+    </entry>
+    <entry>
+        <base>UNACCEPTABLE_CHARS</base>
+        <trans>Questo campo deve contenere solo lettere, numeri, punti, trattini e underscore e iniziare con una lettera.</trans>
+    </entry>
+    <entry>
+        <base>MEMBER</base>
+        <trans>Membro?</trans>
+    </entry>
+    <entry>
+        <base>VPN_CLIENT_ACCESS</base>
+        <trans>Accesso VPN</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_FORM_TITLE</base>
+        <trans>Cambio password di sistema</trans>
+    </entry>    
+    <entry> 
+        <base>SYSTEM_PASSWORD_DESCRIPTION</base>
+        <trans><![CDATA[ Alcuni servizi del server richiedono un username e password (per esempio questa pagina web del server-manager). Lo username è sempre admin. La password di sistema può essere cambiata utilizzando i campi sottostanti. ]]></trans>        
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS</base>
+        <trans>La password deve contenere solo caratteri stampabili</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_VERIFY_ERROR</base>
+        <trans>Le due password non sono uguali.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_AUTH_ERROR</base>
+        <trans>La password attuale non è corretta.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_CHANGED</base>
+        <trans>La password di sistema è stata modificata.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_SYSTEM_PASSWORD</base>
+        <trans>Attuale password di sistema</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD</base>
+        <trans>Nuova password di sistema</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD_VERIFY</base>
+        <trans>Nuova password di sistema (verifica)</trans>
+    </entry>            
+    <entry>
+        <base>LABEL_IPSECRW_DOWNLOAD</base>
+        <trans>Carica certificato digitale nel client IPSec</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_DELETING</base>
+        <trans>Errore durante l'eliminazione dell'utente.</trans>
+    </entry>
+</lexicon>

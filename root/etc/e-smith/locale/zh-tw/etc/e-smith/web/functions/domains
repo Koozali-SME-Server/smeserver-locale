@@ -1,0 +1,141 @@
+<lexicon lang="zh-tw" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>管理眾網域</trans>
+    </entry>
+    <entry>
+        <base>FORM_DESCRIPTION</base>
+        <trans><![CDATA[ <p>當您建立網域後，您的伺服器將能為該網域接收電郵，並且能為該網域建立網站。</p> <p><a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CREATE">增加網域</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>系統中並無網域。</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST_OF_DOMAINS</base>
+        <trans>當前的網域列表</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_SITE</base>
+        <trans>主站台</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>{$content} i-bay</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>建立新網域</trans>
+    </entry>
+    <entry>
+        <base>CONTENT_FIELD_DESCRIPTION</base>
+        <trans>對於網站而言，您能選擇您的主要站台或任何 i-bay 以作為內容。</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME_VALIDATION_ERROR</base>
+        <trans>錯誤: 在網域名稱 {$domainName} 中含未知或缺少字元。網域名稱應該包含單一或更多的字元、數字、句號與減號。無法建立新網域。</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_DESCRIPTION_VALIDATION_ERROR</base>
+        <trans>錯誤: 在網域描述 {$domainDesc} 中含未知或缺少字元。無法建立新網域。</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_IN_USE_ERROR</base>
+        <trans>錯誤: 網域名稱 {$domainName} 正在使用中。無法建立新網域。</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_DOMAIN_ERROR</base>
+        <trans>錯誤: 網域名稱 {$domainName} 是您系統的網域名稱。您無法建立相同網域名稱。無法建立新網域。</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>成功建立了網域 {$domainName} 。您的網頁伺服器正重啟中。網頁伺服器重啟完畢前，此頁面上的連結都將會失效。</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_TITLE</base>
+        <trans>修正網域</trans>
+    </entry>
+    <entry>
+        <base>NONEXISTENT_DOMAIN_ERROR</base>
+        <trans>錯誤: {$domainName}並非既有網域。</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>成功修正網域{$domainName}。您的網頁伺服器正將重啟。網站伺服器重啟完成後，本頁的連結將啟用。</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>移除網域</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESCRIPTION</base>
+        <trans><![CDATA[ <p>您即將移除網域{$domain} ({$domainDesc})。</p> <p> <b>您確定要移除該網域？</b> </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_REMOVING_DOMAIN</base>
+        <trans>錯誤: 移除網域{$domain}時出現內部錯誤。</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>成功刪除網域 {$domain} 。您的網頁伺服器將被重啟。網頁伺服器重啟完成後，本頁的連結將啟用。</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS_CURRENT</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>組織DNS設定</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>BUTTON_CORPORATE_DNS</base>
+        <trans><![CDATA[ <p>倘若此伺服器並不存取網際網路，亦或您的DNS解析有特別需求，請於此處輸入DNS伺服器的IP網址。由於本伺服器足堪解析所有網際網路的網域名稱而無需額外設定，您不應於此處輸入ISP的DNS伺服器網址。</p> <p> <a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CORPORATE_DNS">修正組織DNS設定</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS</base>
+        <trans>倘若此伺服器並不存取網際網路，亦或您的 DNS 解析有特別需求，請於此處輸入 DNS 伺服器的 IP 網址。由於本伺服器足堪解析所有網際網路的網域名稱而無需額外設定，您不應於此處輸入 ISP 的 DNS 伺服器網址。</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_PRIMARY</base>
+        <trans>主要的組織DNS伺服器</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_SECONDARY</base>
+        <trans>次級的組織DNS伺服器</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_NAMESERVERS</base>
+        <trans>您可選擇由本組織伺服器解析本地網域，亦或由網際網路上的DNS來解析。預設值將適用於大多數的網路。</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_NAMESERVERS</base>
+        <trans>網域DNS伺服器</trans>
+    </entry>
+
+    <entry>
+        <base>localhost</base>
+        <trans>本地解析</trans>
+    </entry>
+
+    <entry>
+        <base>internet</base>
+        <trans>網際網路 DNS 服务器</trans>
+    </entry>
+
+    <entry>
+        <base>corporate</base>
+        <trans>組織DNS服务器</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>您正要移除此網域</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans><![CDATA[ <p><b>您確定希望移除此網域？</b></p> ]]></trans>
+    </entry>
+
+</lexicon>

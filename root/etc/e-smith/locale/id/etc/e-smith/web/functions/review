@@ -1,0 +1,126 @@
+<lexicon lang="id">
+    <entry>
+        <base>Review configuration</base>
+        <trans>Review konfigurasi</trans>
+    </entry>	
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans>Laporan ini meringkaskan jaringan, server, dan parameter domain pada server ini yang berhubungan dengan mengatur komputer klien pada jaringan anda. Anda mungkin ingin mencetak halaman ini dan menggunakannya sebagai referensi.</trans>	
+    </entry>
+    <entry>
+        <base>NETWORKING_PARAMS</base>
+        <trans>Parameter Jaringan</trans>
+    </entry> 
+    <entry>
+        <base>SERVER_MODE</base>
+        <trans>Mode Server</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP_ADDRESS_SUBNET_MASK</base>
+        <trans>Alamat IP Lokal/Subnet Mask</trans>
+    </entry>
+    <entry>
+        <base>EXTERNAL_IP_ADDRESS_SUBNET_MASK</base>
+        <trans>Alamat IP Eksternal / Subnet Mask</trans>
+    </entry>
+    <entry>
+        <base>GATEWAY</base>
+        <trans>Gateway</trans>
+    </entry>
+    <entry>
+        <base>ADDITIONAL_LOCAL_NETWORKS</base>
+        <trans>Jaringan lokal tambahan</trans>
+    </entry>
+    <entry>
+        <base>DHCP_SERVER</base>
+        <trans>Server DHCP</trans>
+    </entry>
+    <entry>
+        <base>BEGINNING_OF_DHCP_ADDRESS_RANGE</base>
+        <trans>Awal rentang alamat DHCP</trans>
+    </entry>
+    <entry>
+        <base>END_OF_DHCP_ADDRESS_RANGE</base>
+        <trans>Akhir rentang alamat DHCP</trans>
+    </entry>
+    <entry>
+        <base>SERVER_NAMES</base>
+        <trans>Nama-nama server</trans>
+    </entry>
+    <entry>
+        <base>DNS_SERVER</base>
+        <trans>Server DNS</trans>
+    </entry>
+    <entry>
+        <base>WEB_SERVER</base>
+        <trans>Server Web</trans>
+    </entry>
+    <entry>
+        <base>PROXY_SERVER</base>
+        <trans>Proxy server</trans>
+    </entry>
+    <entry>
+        <base>FTP_SERVER</base>
+        <trans>Server FTP</trans>
+    </entry>
+    <entry>
+        <base>SMTP_POP_AND_IMAP_MAIL_SERVERS</base>
+        <trans>Server SMTP, POP, dan IMAP </trans>
+    </entry>
+    <entry>
+        <base>HOSTS</base>
+        <trans>Hosts</trans>
+    </entry> 
+    <entry>
+        <base>DOMAIN_INFORMATION</base>
+        <trans>Informasi domain</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_DOMAIN</base>
+        <trans>Domain Utama</trans>
+    </entry>
+    <entry>
+        <base>VIRTUAL_DOMAINS</base>
+        <trans>Domain maya</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_WEB_SITE</base>
+        <trans>Situs web utama</trans>
+    </entry>
+    <entry>
+        <base>MITEL_NETWORKS_SME_SERVER_MANAGER</base>
+        <trans>Server manager</trans>
+    </entry>
+    <entry>
+        <base>MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL</base>
+        <trans>Panel Password Pengguna</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_ADDRESSES</base>
+        <trans>Alamat Email</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_USERACCOUNT</base>
+        <trans>Akun pengguna</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_FIRSTNAME</base>
+        <trans>Nama depan</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_LASTNAME</base>
+        <trans>Nama belakang</trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>Tidak ada domain virtual yang didefinisikan</trans>
+    </entry>
+    <entry>
+        <base>NO_NETWORKS</base>
+        <trans>Tidak ada jaringan tambahan yang didefinisikan</trans>
+    </entry>
+    <entry>
+        <base>INTERNET_VISIBLE_ADDRESS</base>
+        <trans>Alamat IP terhubung Internet</trans>
+    </entry>
+</lexicon>

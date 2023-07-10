@@ -1,0 +1,83 @@
+<lexicon lang="sv">
+    <entry>
+        <base>View log files</base>
+        <trans>Granska loggfil</trans>
+    </entry>
+
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ Denna panel tillåter dig att granska eller ladda ner loggfiler som genererats av tjänster som körs på din server. ]]></trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_SELECT_DESC</base>
+        <trans>Välj en loggfil för granskning</trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>Du har även möjligheten att ange ett filtermönster för att visa endast de rader från loggfilen som matchar detta mönster. Om du lämnar fältet tomt kommer alla tillgängliga rader att visas. Observera att denna möjlighet inte går att använda vid nerladdning av loggfilen.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_LABEL</base>
+        <trans>Filtermönster (option)</trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>Du kan också ange ett mönster för att markera rader i fet stil i loggfilen, som matchar mönstret. Mönstret för markeringen appliceras på alla rader som tidigare har matchat filtermönstret. Observera att denna funktion inte används om du laddar ner loggfilen.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_LABEL</base>
+        <trans>Highlightmönster (option)</trans>
+    </entry>
+    <entry>
+        <base>END_DESC</base>
+        <trans>Notera att det tar ett tag att generera dessa rapporter.</trans>
+    </entry>
+    <entry>
+        <base>VIEW</base>
+        <trans>Granska loggfil</trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_EMPTY</base>
+        <trans>Loggfilen "{$filename}" är tom!</trans>
+    </entry>
+    <entry>
+        <base>VIEWING_TIME</base>
+        <trans>Granskad kl {$time}.</trans>
+    </entry>
+    <entry>
+        <base>MATCH_HEADER</base>
+        <trans>Visar rader som matchar: "{$matchPattern}".</trans>
+    </entry>
+    <entry>
+        <base>HIGHLIGHT_HEADER</base>
+        <trans>Highlighta rader som matchar: "{$highlightPattern}".</trans>
+    </entry>
+    <entry>
+        <base>NO_MATCHING_LINES</base>
+        <trans>Inga matchande linjer visas.</trans>
+    </entry>
+    <entry>
+        <base>FILENAME_ERROR</base>
+        <trans><![CDATA[ <p>Fel vid angivandet av namnet på loggfilen.</p> <p>Ogiltig rapporttyp "{$filename}".</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>REFRESH</base>
+	<trans>Uppdatera denna loggfil</trans>
+    </entry>
+    <entry>
+	<base>OP_DESC</base>
+	<trans><![CDATA[ <p>Du måste välja mellan att granska denna loggfil i din webbläsare eller att ladda ner filen till din dator. Om loggfilen är onormalt stor kanske du vill ladda ner istället för att försöka öppna filen i din webbläsare, speciellt eftersom detta kan vara ett problem för visa webbläsare.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>OP_LABEL</base>
+	<trans>Åtgärd</trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_PAGE_DESC</base>
+	<trans><![CDATA[ <p>Din loggfil förbereds nu. Processen kommer att fortsätta så snart du klickar på &quot;Nästa&quot;-knappen nedan och du tillåter din webbläsare att ladda ner filen via det pop-up fönster som kommer fram.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_FILE</base>
+	<trans>Förbereder att ladda ner loggfilen {$logfile}.</trans>
+    </entry>
+</lexicon>

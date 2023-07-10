@@ -1,0 +1,42 @@
+<lexicon lang="ro">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Închidere sau repornire</trans>
+    </entry>
+    <entry>
+	<base>REBOOT</base>
+	<trans>Repornire</trans>
+    </entry>
+    <entry>
+	<base>REBOOT_SUCCEEDED</base>
+	<trans>S-a initiat cu succes procedura de repornire a serverului</trans>
+    </entry>
+    <entry>
+	<base>DESC_REBOOT</base>
+	<trans>Serverul procesează solicitarea de repornire</trans>
+    </entry>
+    <entry>
+	<base>RECONFIGURE_SUCCEEDED</base>
+	<trans>S-a inițiat cu succes procedura de reconfigurare</trans>
+    </entry>
+    <entry>
+	<base>DESC_RECONFIGURE</base>
+	<trans>Serverul procesează solicitarea de reconfigurare a sistemului urmată de repornire</trans>
+    </entry>
+    <entry>
+	<base>DESC_SHUTDOWN</base>
+	<trans>Serverul rulează procedurile de inchidere. După cateva minute puteti inchide și alimentarea de la buton.</trans>
+    </entry>
+    <entry>
+	<base>LABEL_REBOOT</base>
+	<trans>Alegeți Închidere, Repornire sau Reconfigurare</trans>
+    </entry>
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ Din acest meniu puteți reporni, opri serverul sau să faceti reconfigurarea completă a sistemului. Trebuie sa utilizati procedura de oprire înainte de a tăia alimentarea cu energie electrică. Aceste proceduri durează câteva minute. Când apăsați <b>efectuează</b> procedurile vor fi inițiate imediat, deci fiți pregătiți! ]]></trans>
+    </entry>
+    <entry>
+	<base>Reboot or shutdown</base>
+	<trans>Repornire sau închidere</trans>
+    </entry>
+</lexicon>

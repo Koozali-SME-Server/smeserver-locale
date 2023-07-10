@@ -1,0 +1,83 @@
+<lexicon lang="nb">
+    <entry>
+        <base>View log files</base>
+        <trans>Vis loggfiler</trans>
+    </entry>
+
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ Dette panelet gir deg muligheten til å se eller laste ned loggfiler generert av tjenester som kjører på serveren. ]]></trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_SELECT_DESC</base>
+        <trans>Velg en loggfil å vise</trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>Du kan velge å spesifisere et filtrengings mønster, som gjør at bare linjer fra loggfilen vises som stemmer med filteret. Hvis du lar dette feltet stå tomt, vil alle linjene vises. Merk at denne muligheten ikke brukes dersom du laster ned loggfilen.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_LABEL</base>
+        <trans>Filter mønster (valgfritt)</trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>Du kan velge å merke ut et mønster med fet skrift, som gjør at alle linjer merkes med fet skrift dersom linjene stemmer med filtrerings mønsteret. fet skrift mønsteret påføres en hver linje som allerede stemmer med mønsteret. Merk at denne muligheten ikke brukes dersom du laster ned loggfilen.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_LABEL</base>
+        <trans>Fet Skrift Mønster (valgfritt)</trans>
+    </entry>
+    <entry>
+        <base>END_DESC</base>
+        <trans>Merk at det kan ta lang tid å generere rapportene.</trans>
+    </entry>
+    <entry>
+        <base>VIEW</base>
+        <trans>Vis loggfil</trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_EMPTY</base>
+        <trans>Loggfilen "{$filename}" er tom!</trans>
+    </entry>
+    <entry>
+        <base>VIEWING_TIME</base>
+        <trans>Vist  {$time}.</trans>
+    </entry>
+    <entry>
+        <base>MATCH_HEADER</base>
+        <trans>Viser linjer som stemmer med: "{$matchPattern}".</trans>
+    </entry>
+    <entry>
+        <base>HIGHLIGHT_HEADER</base>
+        <trans>Viser linjer som stemmer med: "{$highlightPattern}".</trans>
+    </entry>
+    <entry>
+        <base>NO_MATCHING_LINES</base>
+        <trans>Ingen linjer som ligner er vist.</trans>
+    </entry>
+    <entry>
+        <base>FILENAME_ERROR</base>
+        <trans><![CDATA[ <p>Feil ved spesifisering av loggfilnavnet.</p> <p>Ugyldig rapport type "{$filename}".</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>REFRESH</base>
+	<trans>Oppfrisk loggfilen</trans>
+    </entry>
+    <entry>
+	<base>OP_DESC</base>
+	<trans><![CDATA[ <p>Du må velge mellom å se på loggfilen i nettleseren, eller å laste ned loggfilen til din datamaskin. Hvis loggfilen er spesiellt stor, bør du velge å laste den ned, da store filer kan være et problem for noen nettlesere.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>OP_LABEL</base>
+	<trans>Funksjon</trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_PAGE_DESC</base>
+	<trans><![CDATA[ <p>Din loggfil nedlasting blir forberedt. Det vil fortsette så snart du klikker på &quot;Neste&quot; knappen nedenfor, og gi nettleseren din beskjed om å godta nedlastingen via pop-up vinduet som vil komme.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_FILE</base>
+	<trans>Forbereder å laste ned loggfilen {$logfile}.</trans>
+    </entry>
+</lexicon>

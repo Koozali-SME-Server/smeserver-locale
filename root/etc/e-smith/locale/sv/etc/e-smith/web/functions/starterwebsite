@@ -1,0 +1,43 @@
+<lexicon lang="sv">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>Skapa en första webbsida</trans>
+      </entry>
+      <entry>
+	<base>SUCCESS</base>
+	<trans>Skapat en första webbsida (skriv till filen index.htm). Du kan besöka din nya webbsida på adressen nedan:</trans>
+      </entry>
+      <entry>
+	<base>DESCRIPTION</base>
+	  <trans><![CDATA[ <p> För att skapa en enkel webbsida för ditt företag, fyll i fälten nedan ock klicka på <b>Skapa</b>. </p> <p> Du kan lämna vilket fält som helst tomt om du inte vill ange någon information. </p> <p> Texten som du anger nedan kommer att sättas ihop radvis för ett trevliga utseende på din webbsida. Lämna en tom rad när du vill starta ett nytt stycke. Om du behöver framtvinga en radbrytning utan att starta en nytt stycke (exempelvis efter varje rad med en e-postadress), skriv de fyra tecknen <blockquote>&lt;BR&gt;</blockquote> varje gång du önskar en radbrytning. </p> <p> <em>Använd inte denna möjlighet</em> om du redan har skapat en egen webbsida, eftersom detta kommer att skriva över "index.htm"-filen i din webbsidas mapp. </p> ]]></trans>
+      </entry>
+      <entry>
+	<base>LABEL_COMPANYNAME</base>
+	<trans>Företagsnamn</trans>
+      </entry>
+	
+      <entry> 
+	<base>DESC_HEADER1</base>
+	<trans>Första rubriken, som typiskt används för kort fraser som exempelvis "Ledande inom textilframtagning"</trans>
+      </entry>
+      <entry> 
+	<base>DESC_TEXT1</base>
+	<trans>Text som kommer efter rubriken, som normalt används för en stycke med marknadsföringsinformation.</trans>
+      </entry>
+      <entry> 
+	  <base>DESC_HEADER2</base>
+	<trans>Andra rubriken, som normalt används för korta fraser som exempelvis "För mer information" eller "För att beställa våra produkter":</trans>
+	</entry>
+      <entry> 
+	<base>DESC_TEXT2</base>
+	<trans>Text som kommer efter den andra rubriken, som normalt används för kontakt- eller beställningsinformation:</trans>
+	</entry>
+      <entry>
+	<base>DESC_SUBMIT</base>
+	<trans><![CDATA[ <p>När du skapar denna webbsida kommer filen "index.htm" att skrivas över i din webbsidas mapp.</p> <p>Vill du fortsätta?</p> ]]></trans>
+      </entry>
+      <entry>
+	<base>Create starter web site</base>
+	<trans>Skapa en enkel webbsida</trans>
+      </entry>
+</lexicon>

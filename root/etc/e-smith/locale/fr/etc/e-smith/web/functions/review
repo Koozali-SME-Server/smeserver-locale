@@ -1,0 +1,126 @@
+<lexicon lang="fr">
+    <entry>
+        <base>Review configuration</base>
+        <trans>Vérification de la configuration</trans>
+    </entry>	
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans>Ce rapport établit une liste sommaire des paramètres de configuration du réseau, du serveur et des domaines pour ce serveur, pour tout ce qui a trait à la configuration des ordinateurs clients de votre réseau. Vous pouvez imprimer cette page et l'utiliser comme document de référence.</trans>	
+    </entry>
+    <entry>
+        <base>NETWORKING_PARAMS</base>
+        <trans>Paramètres réseau</trans>
+    </entry> 
+    <entry>
+        <base>SERVER_MODE</base>
+        <trans>Mode de fonctionnement</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP_ADDRESS_SUBNET_MASK</base>
+        <trans>Adresse IP locale / masque de sous-réseau</trans>
+    </entry>
+    <entry>
+        <base>EXTERNAL_IP_ADDRESS_SUBNET_MASK</base>
+        <trans>Adresse IP externe / masque de sous-réseau</trans>
+    </entry>
+    <entry>
+        <base>GATEWAY</base>
+        <trans>Passerelle</trans>
+    </entry>
+    <entry>
+        <base>ADDITIONAL_LOCAL_NETWORKS</base>
+        <trans>Réseaux locaux supplémentaires</trans>
+    </entry>
+    <entry>
+        <base>DHCP_SERVER</base>
+        <trans>Serveur DHCP</trans>
+    </entry>
+    <entry>
+        <base>BEGINNING_OF_DHCP_ADDRESS_RANGE</base>
+        <trans>Début de la plage d'allocation DHCP d'adresses</trans>
+    </entry>
+    <entry>
+        <base>END_OF_DHCP_ADDRESS_RANGE</base>
+        <trans>Fin de la plage d'allocation DHCP d'adresses</trans>
+    </entry>
+    <entry>
+        <base>SERVER_NAMES</base>
+        <trans>Adresses du serveur</trans>
+    </entry>
+    <entry>
+        <base>DNS_SERVER</base>
+        <trans>Serveur DNS</trans>
+    </entry>
+    <entry>
+        <base>WEB_SERVER</base>
+        <trans>Serveur Web</trans>
+    </entry>
+    <entry>
+        <base>PROXY_SERVER</base>
+        <trans>Serveur proxy</trans>
+    </entry>
+    <entry>
+        <base>FTP_SERVER</base>
+        <trans>Serveur FTP</trans>
+    </entry>
+    <entry>
+        <base>SMTP_POP_AND_IMAP_MAIL_SERVERS</base>
+        <trans>Serveurs de messagerie électronique SMTP, POP et IMAP</trans>
+    </entry>
+    <entry>
+        <base>HOSTS</base>
+        <trans>Hôtes</trans>
+    </entry> 
+    <entry>
+        <base>DOMAIN_INFORMATION</base>
+        <trans>Informations sur les domaines</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_DOMAIN</base>
+        <trans>Domaine primaire</trans>
+    </entry>
+    <entry>
+        <base>VIRTUAL_DOMAINS</base>
+        <trans>Domaines virtuels</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_WEB_SITE</base>
+        <trans>Site Web primaire</trans>
+    </entry>
+    <entry>
+        <base>MITEL_NETWORKS_SME_SERVER_MANAGER</base>
+        <trans>Gestionnaire du serveur</trans>
+    </entry>
+    <entry>
+        <base>MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL</base>
+        <trans>Gestionnaire des mots de passe utilisateur</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_ADDRESSES</base>
+        <trans>Adresses de courriel</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_USERACCOUNT</base>
+        <trans>Compte utilisateur</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_FIRSTNAME</base>
+        <trans>Prénom</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_LASTNAME</base>
+        <trans>Nom</trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>Aucun domaine virtuel défini</trans>
+    </entry>
+    <entry>
+        <base>NO_NETWORKS</base>
+        <trans>Aucun réseau supplémentaire défini</trans>
+    </entry>
+    <entry>
+        <base>INTERNET_VISIBLE_ADDRESS</base>
+        <trans>Adresse IP Internet visible</trans>
+    </entry>
+</lexicon>

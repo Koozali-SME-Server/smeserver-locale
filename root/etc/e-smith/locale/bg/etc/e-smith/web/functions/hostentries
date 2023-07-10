@@ -1,0 +1,180 @@
+<lexicon lang="bg" params="lexicon_params()">
+    <!-- vim: ft=xml
+    -->
+    <entry>
+        <base>Hostnames and addresses</base>
+        <trans>Имена на хостове и адреси</trans>
+    </entry>
+    <entry>
+        <base>UNABLE_TO_OPEN_CONFIGDB</base>
+        <trans>Не мога да се отвори базата данни с конфигурацията</trans>
+    </entry>
+    <entry>
+        <base>DNS_FORWARDER_ENABLED</base>
+        <trans>Беше настроен DNS forwarder. Това означава, че всички обръщения за преобразуване на имена ще бъдат обработвани от DNS forwarder. Имената на хостовете и адресите не могат да бъдат променяни от този сървър докато има настроен DNS forwarder.</trans>
+    </entry>
+    <entry>
+        <base>ADD_HOSTNAME</base>
+        <trans><![CDATA[ <a class="button-like" href="hostentries?page=0&page_stack=&Next=Next&wherenext=CreateModify">Добави име на хост</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME</base>
+        <trans>Име на хоста</trans>
+    </entry>
+    <entry>
+        <base>HOSTTYPE</base>
+        <trans>Разположение</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP</base>
+        <trans>Локален IP</trans>
+    </entry>
+    <entry>
+        <base>ETHERNET_ADDRESS</base>
+        <trans>Ethernet адрес</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_HOSTNAMES_FOR_DOMAIN</base>
+        <trans>Списък на имената на хостове за домейна {$domain}.</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTNAMES_FOR_SERVICENAME</base>
+        <trans>Няма имена на хостове в системата за {$serviceName}.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_HOSTNAMES_FOR_LOCAL_DOMAIN</base>
+        <trans>Списък на имената на хостове за домейна {$localDomainName}</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTNAMES_FOR_LOCAL_DOMAIN</base>
+        <trans>Няма имена на хостове в системата за {$localDomainName}.</trans>
+    </entry>
+    <entry>
+        <base>STATIC_HOST_MESSAGE</base>
+        <trans>- Този хост представлява името на системата и не може да бъде променян или премахван.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_LOCAL_HOST_TITLE</base>
+        <trans>Създаване на ново име на хоста за този сървър</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_VALIDATION_ERROR</base>
+        <trans>Грешка: неочаквани символи в името на хоста: "{$HostName}". Името на хоста трябва да съдържа само букви, цифри и тирета и трябва да започва с буква или цифра.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_LENGTH_ERROR</base>
+        <trans>Грешка: името на акаунта {$HostName} е твърде дълго. Максимумът е 32 символа.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_VALIDATION_ERROR</base>
+        <trans>Грешка: неочаквани или липсващи символи в името на домейна {$DomainName}. Името на домейна трябва да съдържа една или повече букви, цифри, точки и знаци минус. Новия домейн не бе създаден.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_EXISTS_ERROR</base>
+        <trans>Грешка: записът за {$fullHostName} съществува за хост от тип {$type}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>Успешно създаден запис за хост.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_DESCRIPTION</base>
+        <trans>Името на хоста трябва да съдържа само букви, цифри и тирета, и трябва да започва с буква или цифра.</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP_DESCRIPTION</base>
+        <trans>Локалния IP адрес е IP адрес на друга машина в локалната мрежа. Моля въведете валиден IP адрес във формат "aaa.bbb.ccc.ddd".</trans>
+    </entry>
+    <entry>
+        <base>ETHERNET_ADDRESS_DESCRIPTION</base>
+        <trans>Ethernet адресът е по желание и ще накара DHCP сървъра да свърже статично локалния IP адрес с компютъра имащ този Ethernet адрес. Ако бъде зададен, той трябва да бъде в следния формат "AA:BB:CC:DD:EE:FF" и трябва да съдържа цифрите от 0 до 9 и буквите от А до F на латиница.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_LOCAL_HOST_TITLE</base>
+        <trans>Създаване на ново име за хост, което да сочи към локален хост.</trans>
+    </entry>
+    <entry>
+        <base>DIDNT_ENTER_LOCAL_IP</base>
+        <trans>Грешка: Не сте задали локален IP адрес. IP адресите трябва да съдържат само цифри и точки, и трябва да са във формат "aaa.bbb.ccc.ddd" Името на хоста не бе създадено.</trans>
+    </entry>
+    <entry>
+        <base>IP_VALIDATION_ERROR</base>
+        <trans>Грешка: IP адресът {$InternalIP} е невалиден. IP адресите трябва да съдържат само цифри и точки и да са във формат "aaa.bbb.ccc.ddd". Името на хоста не бе създадено.</trans>
+    </entry>
+    <entry>
+        <base>MAC_ADDRESS_VALIDATION_ERROR</base>
+        <trans>Грешка: Ethernet адресът {$MACAddress} е невалиден. Ethernet адресите трябва да бъдат във формат "AA:BB:CC:DD:EE:FF" и трябва да съдържат само цифрите от 0 до 9 и буквите от А до F на латиница. Името на хоста не бе създадено.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_REMOTE_HOST_TITLE</base>
+        <trans>Създаване на ново име за хост, което да сочи към отдалечен хост</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Създаване и промяна на имена на хостове</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_PAGE_DESCRIPTION</base>
+        <trans>Моля, въведете следната допълнителна информация за локалния хост:</trans>
+    </entry>
+    <entry>
+        <base>REMOTE_PAGE_DESCRIPTION</base>
+        <trans>Моля, въведете следната допълнителна информация за отдалечения хост:</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>Хостът бе изтрит успешно.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>Хостът бе модифициран успешно.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_PAGE_DESCRIPTION</base>
+        <trans><![CDATA[ Вие възнамеряване да премахнете име на хост "{$hostname}.{$domain}". </p> <p> <b>Сигурни ли сте, че искате да премахнете това име на хост?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DESCRIPTION</base>
+        <trans>Моля, потвърдете следните подробности.</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTS_FOR_THIS_DOMAIN</base>
+        <trans>Няма хостове в този домейн.</trans>
+    </entry>
+    <entry>
+        <base>ADDR_IN_DHCP_RANGE</base>
+        <trans>Адресът попада в зададен динамичен DHCP обхват</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_HOST</base>
+        <trans>Възникна грешка при създаването на името на хоста.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_HOST</base>
+        <trans>Възникна грешка при промяната на името на хоста.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_HOST</base>
+        <trans>Възникна грешка при изтриването на името на хоста.</trans>
+    </entry>
+    <entry>
+        <base>ERR_IP_IS_LOCAL_OR_GATEWAY</base>
+        <trans>Грешка: IP адресът не може да бъде IP адреса на сървъра или шлюза.</trans>
+    </entry>
+    <entry>
+        <base>ERR_IP_NOT_LOCAL</base>
+        <trans>Грешка: Този IP адрес не е в никоя от нашите локални мрежи.</trans>
+    </entry>
+    <entry>
+        <base>MUST_BE_VALID_HOSTNAME_OR_IP</base>
+        <trans>Трябва да е валидно име на хост или IP адрес</trans>
+    </entry>
+  <entry>
+   <base>HOSTNAME_COMMENT_ERROR</base>
+    <trans>Грешка: неочаквани символи в името на хоста: "{$hostname}.{$domain}". Името на хоста трябва да съдържа само букви, цифри и тирета и трябва да започва с буква или цифра.</trans>
+  </entry>
+    <entry>
+      <base>HOSTNAME_VALIDATOR_ERROR</base>
+    <trans>Грешка: неочаквани символи в името на хоста: "{$hostname}.{$domain}". Името на хоста трябва да съдържа само букви, цифри и тирета и трябва да започва с буква или цифра.</trans>
+  </entry>
+</lexicon>

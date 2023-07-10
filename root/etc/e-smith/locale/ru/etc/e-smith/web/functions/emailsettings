@@ -1,0 +1,386 @@
+<lexicon lang="ru" params="getExtraParams()">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Настройки почты</trans>
+    </entry>
+    <entry>
+        <base>E-mail</base>
+        <trans>E-mail</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Новые настройки почты были сохранены.</trans>
+    </entry>
+    <entry>
+        <base>NEVER</base>
+        <trans>нисколько</trans>
+    </entry>
+    <entry>
+        <base>EVERY5MIN</base>
+        <trans>Каждые 5 минут</trans>
+    </entry>
+    <entry>
+        <base>EVERY15MIN</base>
+        <trans>Каждые 15 минут</trans>
+    </entry>
+    <entry>
+        <base>EVERY30MIN</base>
+        <trans>Каждые 30 минут</trans>
+    </entry>
+    <entry>
+        <base>EVERYHOUR</base>
+        <trans>Каждый час</trans>
+    </entry>
+    <entry>
+        <base>EVERY2HRS</base>
+        <trans>Каждые 2 часа</trans>
+    </entry>
+    <entry>
+        <base>STANDARD</base>
+        <trans>Стандартный (SMTP)</trans>
+    </entry>
+    <entry>
+        <base>ETRN</base>
+        <trans>ETRN (SMTP с клиентским запросом)</trans>
+    </entry>
+    <entry>
+        <base>DEFAULT</base>
+        <trans>По умолчанию</trans>
+    </entry>
+    <entry>
+        <base>SPECIFY_BELOW</base>
+        <trans>Укажите ниже</trans>
+    </entry>
+    <entry>
+        <base>MULTIDROP</base>
+        <trans>multi-drop</trans>
+    </entry>
+    <entry>
+        <base>LABEL_MODE</base>
+        <trans>Способ получения почты</trans>
+    </entry>
+    <entry>
+        <base>DESC_MODE</base>
+        <trans>Способ получения почты может быть стандартным (для выделенных подключений к интернет), ETRN (рекомендуется для соединений по телефонной линии) или multi-drop (для соединений по телефонной линии, когда ETRN не поддерживается вашим интернет-провайдером). Заметьте, что multi-drop доступен только когда сервер сконфигурирован как частный сервер в режиме шлюза.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_DELEGATE</base>
+        <trans>Адрес внутреннего почтового сервера</trans>
+    </entry>
+    <entry>
+        <base>DESC_DELEGATE</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Выделенные почтовые серверы</h2> Ваш сервер включает полнофункциональный почтовый сервер. Однако, в некоторых случаях вам может потребоваться передать обработку почты другой системе, укажите IP адрес выденной системы здесь. Для нормальной эксплуатации оставьте это поле пустым. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SECONDARY</base>
+        <trans>Вторичный почтовый сервер</trans>
+    </entry>
+    <entry>
+        <base>DESC_SECONDARY</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Настройки ETRN или multi-drop</h2> Для ETRN или multi-drop, укажите имя или IP адрес вашего вторичного почтового сервера. (Если используются стандартный способ получения, эти поля могут быть оставлены пустыми.) ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_FETCH_PERIOD</base>
+        <trans>Для ETRN или multi-drop, вы можете задавать, как часто этот сервер будет получать почту с вторичного почтового сервера. Более частые соединения означают, что вы получите вашу почту быстрее, но в этом случае вырастет число интернет-запросов, что может привести к увеличению платы за телефон и интернет.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD</base>
+        <trans>В рабочее время (с 8:00 по 18:00) на неделе</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD_NIGHTS</base>
+        <trans>В нерабочее время (с 18:00 по 8:00) на неделе</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD_WEEKENDS</base>
+        <trans>В выходные</trans>
+    </entry>
+    <entry>
+        <base>DESC_POP_ACCOUNT</base>
+        <trans>Для multi-drop получения, укажите имя пользователя и пароль POP. (Если используется стандартный способ или ETRN, эти поля можно оставить пустыми.) Так же для multi-drop вы можете использовать метод either use the default mail sorting method, or you can specify a particular message header to use for mail sorting.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_POP_PASS</base>
+        <trans>Пароль пользователя POP (для multi-drop)</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_POP_ACCOUNT</base>
+        <trans>Имя пользователя POP (для multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SORT_METHOD</base>
+        <trans>Выберите метод сортировки (для multi-drop)</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SORT_HEADER</base>
+        <trans>Выберите заголовки для сортировки (для multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PROTO</base>
+        <trans>Протокол (для multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_SECURE</base>
+        <trans>Тунель по SSL (для multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>AUTO</base>
+        <trans>Автоматически</trans>
+    </entry>
+    <entry>
+        <base>ENABLED_BOTH</base>
+        <trans>Разрешить HTTP и HTTPS</trans>
+    </entry>
+    <entry>
+        <base>ENABLED_SECURE_ONLY</base>
+        <trans>Разрешить HTTPS (безопасно)</trans>
+    </entry>
+     <entry>
+        <base>ONLY_LOCAL_NETWORK_SSL</base>
+        <trans>Разрешить доступ только из локальных сетей</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_POP3</base>
+        <trans>Разрешить POP3 и POP3S</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_PRIVATE</base>
+        <trans>Разрешить частный</trans>
+    </entry>
+    <entry>
+        <base>SECURE_POP3</base>
+        <trans>Разрешить частный и публичный (безопасный POP3S)</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_IMAP</base>
+        <trans>Разрешить IMAP и IMAPS</trans>
+    </entry>
+    <entry>
+        <base>SECURE_IMAP</base>
+        <trans>Разрешить частный и публичный (безопасный IMAPS)</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_SMTP</base>
+        <trans>Разрешить SMTP и SSMTP</trans>
+    </entry>
+    <entry>
+        <base>SECURE_SMTP</base>
+        <trans>Разрешить SSMTP (безопасно)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_POP_ACCESS_CONTROL</base>
+        <trans>Доступ к POP3 серверу</trans>
+    </entry>
+    <entry>
+        <base>LABEL_IMAP_ACCESS_CONTROL</base>
+        <trans>Доступ к IMAP серверу</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SMTP_AUTH_CONTROL</base>
+        <trans>SMTP аутентификация</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_TO_ADMIN</base>
+        <trans>Отправить администратору</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_TO</base>
+        <trans>Отправить</trans>
+    </entry>
+    <entry>
+        <base>RETURN_TO_SENDER</base>
+        <trans>Отказаться</trans>
+    </entry>
+    <entry>
+        <base>LABEL_UNKNOWN</base>
+        <trans>E-mail неизвестным пользователям</trans>
+    </entry>
+    <entry>
+        <base>DESC_UNKNOWN</base>
+        <trans><![CDATA[ <h2>Неизвестные пользователи</h2> Выбор Отклонять (рекомендуется) настроит сервер принимать почту только для действительных адресов электронной почты (например, пользователей, групп, псевдонимов). Почта на другие адреса будет отклонена. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SMARTHOST</base>
+        <trans>Адрес почтового сервера интернет-провайдера</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_SMARTHOST</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>SMTP сервер</h2> Сервер может доставлять исходящие сообщения напрямую (рекомендуется в большинстве случаев) или через SMTP-сервер Интернет-провайдера (рекомендуется, если ваше подключение к Интернету ненадежно или используется домашнее подключение). При использовании SMTP-сервера вашего Интернет-провайдера, укажите его имя или IP адрес ниже. В противном случае оставьте это поле пустым. ]]></trans>
+    </entry>
+
+    <entry>
+        <base>INVALID_SMARTHOST</base>
+        <trans>Имя smarthost'a, которое вы ввели - недействительное доменное интернет-имя и не пустое</trans>
+    </entry>
+    <entry>
+        <base>DESC_POP_ACCESS_CONTROL</base>
+        <trans>Вы можете управлять доступом к POP3 серверу. Настройка 'Разрешить доступ только из локальных сетей' позволяет POP3 доступ только из вашей локальной сети(ей). Настройка POP3S может быть использована для предоставления шифрованного доступа извне к вашему POP3 серверу. Мы рекомендуем оставить 'Разрешить доступ только из локальных сетей' пока у вас не появятся конкретные причины сделать иначе.</trans>
+    </entry>
+    <entry>
+        <base>DESC_IMAP_ACCESS_CONTROL</base>
+        <trans>Вы можете управлять доступом к IMAP серверу. Настройка 'Разрешить доступ только из локальных сетей' позволяет IMAP доступ только из вашей локальной сети(ей). Настройка IMAPS может быть использована для предоставления шифрованного доступа извне к вашему POP3 серверу. Мы рекомендуем оставить 'Разрешить доступ только из локальных сетей' пока у вас не появятся конкретные причины сделать иначе.</trans>
+    </entry>
+    <entry>
+        <base>DESC_SMTP_AUTH_CONTROL</base>
+        <trans><![CDATA[ You can provide authenticated access to your SMTP server, or set it to Disabled. The SSMTP setting requires <b>all</b> users to use SSL/TLS authentication. The SMTP and SSMTP option additionally allows STARTTLS to be used to ensure secure authentication. ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_WEBMAIL</base>
+        <trans>Вы можете включить или отключить веб-почту в этой системе. Веб-почта позволяет пользователям получить доступ к их почте с помощью обычного веб-браузера, указав в нём адрес https://{$FQDN}/webmail и войдя под своёй учётной записью.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_WEBMAIL</base>
+        <trans>Доступ к веб-почте</trans>
+    </entry>
+     <entry>
+        <base>LABEL_BLOCK_EXECUTABLE_CONTENT</base>
+        <trans>Блокирование исполняемого содержимого</trans>
+     </entry>
+     <entry>
+        <base>LABEL_CONTENT_TO_BLOCK</base>
+        <trans>Блокируемое содержимое</trans>
+     </entry>
+     <entry>
+        <base>DESC_BLOCK_EXECUTABLE_CONTENT</base>
+        <trans>Вы можете блокировать исполняемое содержимое в почтовых вложениях выделив типы исполняемых вложений, которые хотите блокировать. Сообщения, содержащие такие типы вложений будут автоматичесик возвращены отправителю.</trans>
+    </entry>
+    <entry>
+        <base>UNACCEPTABLE_CHARS</base>
+        <trans>Это поле требует ввода действительного адреса электронной почты, который должен включать символ @ и доменное имя.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_ACCESS</base>
+        <trans><![CDATA[ <h2>Доступ к е-mail</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_ACCESS_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_ACCESS">Изменить настройки доступа к почтеl</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_RECEPTION</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Получение почты</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_RECEPTION_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_RECEPTION">Изменить настройки получения почты</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_DELIVERY</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Доставка e-mail</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_DELIVERY_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_DELIVERY">Изменить настройки доставки почты</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_FILTERING_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_FILTERING">Изменить настройки фильтрования почты</a> ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_VIRUS_SCAN</base>
+	<trans>Сканирование вирусов</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_VIRUS_SCAN</base>
+	<trans>Вы можете сканировать входящую и исходящую почту на вирусы. Если сканирование включено и обнаружен вирус, сообщение будет отклонено и возвращено отправителю.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_SPAM_SCAN</base>
+	<trans>Фильтрация спама</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_SPAM_SCAN</base>
+	<trans>Вы можете проверять электронную почту на наличие спама. Если фильтрация спама включена, заголовок X-Spam-Status: добавляется в каждое сообщение, которое может быть использовано для фильтрации спама. Вы можете настроить чувствительность процесса обнаружения спама со стандартного среднего. Для тонкой настройки, вы можете установить чувствительность к спаму на Настраиваемую и потом выбирать пользовательский уровень пометки, и, дополнительно, уровень, при котором нужно отклонить сообщение.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_SPAM_SUBJECT</base>
+	<trans>Префикс SPAM темы</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_SPAM_SUBJECT</base>
+	<trans>Вы можете разрешить добавлять теги к теме каждого сообщения, которое классифицируется как SPAM. Значение этого тега может быть определено ниже.</trans>
+    </entry>
+
+   <entry>
+        <base>LABEL_SPAM_SENSITIVITY</base>
+        <trans>Чуствительность к спаму</trans>
+    </entry>
+   <entry>
+        <base>LABEL_SPAM_TAGLEVEL</base>
+        <trans>Пользовательский уровень пометки спама</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SPAM_REJECTLEVEL</base>
+        <trans>Пользовательский уровень отклонения спама</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SPAM_SUBJECTTAG</base>
+        <trans>Изменять тему спам-сообщений</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SORTSPAM</base>
+        <trans>Помещать спам в папку спама</trans>
+    </entry>
+    <entry>
+        <base>VERYHIGH</base>
+        <trans>Очень высокая</trans>
+    </entry>
+    <entry>
+        <base>HIGH</base>
+        <trans>Высокая</trans>
+    </entry>
+    <entry>
+        <base>MEDIUM</base>
+        <trans>Средняя</trans>
+    </entry>
+    <entry>
+        <base>LOW</base>
+        <trans>Низкая</trans>
+    </entry>
+    <entry>
+        <base>VERYLOW</base>
+        <trans>Очень низкая</trans>
+    </entry>
+    <entry>
+        <base>CUSTOM</base>
+        <trans>Пользовательский</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_STATUS</base>
+        <trans>SMTP аутентификация для интернет-провайдера</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_USERID</base>
+        <trans>Имя на почтовом сервере</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_PASSWD</base>
+        <trans>Пароль на почтовом сервере</trans>
+    </entry>
+
+    <entry>
+        <base>VALIDATION_SMTPAUTH_NONBLANK</base>
+        <trans>Это поле не может быть пустым, если включена SMTP аутентификация.</trans>
+    </entry>
+
+</lexicon>

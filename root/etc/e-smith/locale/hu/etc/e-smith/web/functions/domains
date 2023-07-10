@@ -1,0 +1,141 @@
+<lexicon lang="hu" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Domain-ek kezelése</trans>
+    </entry>
+    <entry>
+        <base>FORM_DESCRIPTION</base>
+        <trans><![CDATA[ <p>Amikor létrehoz egy új domain-t, a szerver képes lesz az arra a domain-re küldött levelek fogadására, valamint weboldalt közzéteni az adott domain alatt az Interneten.</p> <p><a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CREATE">Domain hozzáadása</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>Nincs domain beállítva a rendszerben.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST_OF_DOMAINS</base>
+        <trans>Domain-ek listája</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_SITE</base>
+        <trans>elsődleges webhely</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>{$content} Adattár</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Új domain létrehozása</trans>
+    </entry>
+    <entry>
+        <base>CONTENT_FIELD_DESCRIPTION</base>
+        <trans>A weboldalhoz kiválaszthatja az elsődleges webhelyet, vagy bármely adattárat.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME_VALIDATION_ERROR</base>
+        <trans>Hiba: Helytelen vagy hiányzó karakterek vannak a {$domainName} domain névben. A domain név egy vagy több betűt, számokat, pontokat és kötőjeleket tartalmazhat. A domain nem jött létre.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_DESCRIPTION_VALIDATION_ERROR</base>
+        <trans>Hiba: Helytelen vagy hiányzó karakterek vannak a {$domainDesc} domain leírásában. A domain nem jött létre.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_IN_USE_ERROR</base>
+        <trans>Hiba: a {$domainName} domain név már használatban van. A domain nem jött létre.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_DOMAIN_ERROR</base>
+        <trans>Hiba: a {$domainName} domain az ön rendszerének a domain neve. Nem hozhat létre új domaint ugyanezzel a névvel. A domain nem jött létre.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>A {$domainName} domain sikeresen létrejött. A webszerver újraindul. A hivatkozások ezen a weboldalon nem működnek addig, míg az újraindítás be nem fejeződik.</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_TITLE</base>
+        <trans>Domain módosítása</trans>
+    </entry>
+    <entry>
+        <base>NONEXISTENT_DOMAIN_ERROR</base>
+        <trans>Hiba: A {$domainName} nem létező domain név.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>Sikeresen módosította a {$domainName} -nevű domain-t. A szerver most újraindul. A hivatkozások ezen a weboldalon nem működnek addig, míg az újraindítás be nem fejeződik.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Domain eltávolítása</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESCRIPTION</base>
+        <trans><![CDATA[ <p> Most készül eltávolítani a {$domain} ({$domainDesc}) nevű domain-t. </p> <p> <b>Biztos benne, hogy törölni akarja?</b> </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_REMOVING_DOMAIN</base>
+        <trans>Hiba: probléma a {$domain} domain eltávolításakor.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>Sikeresen törölte a {$domain} nevű domain-t. A webszerver most újraindul. A hivatkozások ezen a weboldalon nem működnek addig, míg az újraindítás be nem fejeződik.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS_CURRENT</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Vállalati DNS beállítások</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>BUTTON_CORPORATE_DNS</base>
+        <trans><![CDATA[ <p>Ha ennek a szervernek nincs kapcsolata az Internethez, vagy különleges követelményei vannak a DNS névfeloldással kapcsolatban, írja be ide a külső DNS szerver IP címét. Nem kell ide beírnia az Internet szolgáltatója DNS címét, mivel ez a szerver enélkül is fel tudja oldani az internetes DNS neveket.</p> <p> <a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CORPORATE_DNS">Vállalati DNS beállítások módosítása</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS</base>
+        <trans>Ha ennek a szervernek nincs kapcsolata az Internethez, vagy különleges követelményei vannak a DNS névfeloldással kapcsolatban, írja be ide a külső DNS szerver IP címeit. Hagyja üresen ezeket a mezőket, ha nincs szüksége külső DNS szerverre. Nem kell ide beírnia az Internet szolgáltatója DNS címét sem, mivel ez a szerver enélkül is fel tudja oldani az internetes DNS neveket.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_PRIMARY</base>
+        <trans>Elsődleges vállalati DNS szerver</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_SECONDARY</base>
+        <trans>Másodlagos vállalati DNS szerver</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_NAMESERVERS</base>
+        <trans>Beállíthatja, hogy ebben a domain-ben helyileg legyen a névfeloldás, át legyen adva egy vállalati DNS szervernek, vagy az Internet DNS szerverei végezzék a névfeloldást. Az alapértelmezett beállítás a legtöbb hálózat számára megfelelő. </trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_NAMESERVERS</base>
+        <trans>Domain DNS szerverek</trans>
+    </entry>
+
+    <entry>
+        <base>localhost</base>
+        <trans>Helyi névfeloldás</trans>
+    </entry>
+
+    <entry>
+        <base>internet</base>
+        <trans>Internetes névfeloldás</trans>
+    </entry>
+
+    <entry>
+        <base>corporate</base>
+        <trans>Vállalati DNS szerver</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>A következő domain-t készül eltávolítani:</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans>Biztos benne, hogy eltávolítja ezt a domain-t?</trans>
+    </entry>
+
+</lexicon>

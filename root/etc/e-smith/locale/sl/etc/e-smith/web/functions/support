@@ -1,0 +1,10 @@
+<lexicon lang="sl">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Pomoč, garancija in licenčne informacije</trans>
+    </entry>
+    <entry>
+        <base>Support and licensing</base>
+        <trans>Pomoč in licence</trans>
+    </entry>
+</lexicon>

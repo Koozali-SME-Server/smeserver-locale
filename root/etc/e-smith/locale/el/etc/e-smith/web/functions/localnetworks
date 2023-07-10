@@ -1,0 +1,108 @@
+<lexicon lang="el">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>Local networks</base>
+        <trans>Τοπικά δίκτυα</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ Για λόγους ασφάλειας, διάφορες υπηρεσίες στον διακομιστή σας είναι διαθέσιμες μόνο στο τοπικό σας δίκτυο. Εντούτοις μπορείτε να χορηγήσετε αυτά τα τοπικά προνόμια πρόσβασης σε επιπλέον δίκτυα προσθέτοντάς τα στην παρακάτω λίστα. Οι περισσότερες εγκαταστάσεις θα πρέπει να αφήσουν αυτήν τη λίστα κενή.</p><p> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Προσθήκη δικτύου</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>Προσθήκη τοπικού δικτύου</trans>
+    </entry>
+    <entry>
+        <base>ADD_DESC</base>
+        <trans><![CDATA[ Κάθε παράμετρος πρέπει να έχει τη μορφή #. #. #. # (κάθε # είναι ένας αριθμός από 0 έως 255). Σε συμφωνία με τη μάσκα υποδικτύου, το λογισμικό του διακομιστή θα αντικαταστήσει την κατάληξη της διεύθυνσης (ταυτότητα του H/Y) με την διεύθυνση του δικτύου ώστε να εξασφαλιστεί η εγκυρότητά της. </p><p> Ως "Δρομολογητής" πρέπει να ορισθεί η διεύθυνση IP του δρομολογητή του τοπικού σας δικτύου δια μέσω του οποίου παρέχεται πρόσβαση στο πρόσθετο δίκτυο. ]]></trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ADDRESS</base>
+        <trans>Διεύθυνση δικτύου</trans>
+    </entry>
+    <entry>
+        <base>SUBNET_MASK</base>
+        <trans>Μάσκα υποδικτύου</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IP_ADDRESS</base>
+        <trans>Μη-έγκυρη διεύθυνση IP</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SUBNET_MASK</base>
+        <trans>Μη-έγκυρη μάσκα υποδικτύου</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Αφαίρεση τοπικού δικτύου</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Πρόκειται να αφαιρέσετε το ακόλουθο τοπικό δίκτυο.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_CONFIRM</base>
+        <trans>Είστε σίγουροι ότι επιθυμείτε να αφαιρέσετε το συγκεκριμένο δίκτυο;</trans>
+    </entry>
+    <entry>
+        <base>DEFAULT</base>
+        <trans>προεπιλογή</trans>
+    </entry>
+    <entry>
+        <base>NUMBER_OF_HOSTS</base>
+        <trans>Αριθμός Η/Υ</trans>
+    </entry>
+    <entry>
+        <base>NOT_ACCESSIBLE_FROM_LOCAL_NETWORK</base>
+        <trans>Σφάλμα: η διεύθυνση του δρομολογητή {$networkRouter} δεν είναι προσπελάσιμη από το τοπικό δίκτυο. Δεν προσετέθη το δίκτυο.</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_LOCAL</base>
+        <trans>Σφάλμα: το δίκτυο {$network} (που παράγεται από το δίκτυο {$networkAddress} και την μάσκα υποδικτύου {$networkMask}) θεωρείται ήδη τοπικό. Δεν προσετέθη νέο δίκτυο.</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_ADDED</base>
+        <trans>Σφάλμα: το δίκτυο {$network} (που παράγεται από το δίκτυο {$networkAddress} και την μάσκα υποδικτύου {$networkMask}) έχει ήδη προστεθεί. Δεν προσετέθη νέο δίκτυο.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_CREATING_NETWORK</base>
+        <trans>Παρουσιάσθηκε σφάλμα κατά τη δημιουργία του δικτύου.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Επιτυχής προσθήκη δικτύου {$network}/{$networkMask} μέσω του δρομολογητή {$networkRouter}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_SINGLE_ADDRESS</base>
+        <trans>Επιτυχής προσθήκη δικτύου {$network}/{$networkMask} μέσω του δρομολογητή {$networkRouter}. Ο διακομιστής σας θα χορηγήσει τα τοπικά προνόμια πρόσβασης στην μεμονωμένη διεύθυνση IP {$network}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NETWORK_RANGE</base>
+        <trans>Επιτυχής προσθήκη δικτύου {$network}/{$networkMask} μέσω του δρομολογητή {$networkRouter}. Ο διακομιστής σας θα χορηγήσει τα τοπικά προνόμια πρόσβασης στις {$totalHosts} διευθύνσεις IP εντός της περιοχής από {$firstAddr} έως {$lastAddr}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NONSTANDARD_RANGE</base>
+        <trans><![CDATA[ <p> Επιτυχής προσθήκη δικτύου {$network}/{$networkMask} μέσω του δρομολογητή {$networkRouter}. </p> <p> Ο διακομιστής σας θα χορηγήσει τα τοπικά προνόμια πρόσβασης στις {$totalHosts} διευθύνσεις IP εντός της περιοχής από {$firstAddr} έως {$lastAddr}. </p> <p> Προειδοποίηση: ο διακομιστής FTP ProFTPd δεν μπορεί να χειριστεί αυτήν την εξειδικευμένη μάσκα υποδικτύου. Η απλούστερη προδιαγραφή <b>{$simpleMask}</b> θα χρησιμοποιηθεί αντ' αυτής. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_REMOVED_NETWORK</base>
+        <trans>Επιτυχής αφαίρεση δικτύου {$network}/{$networkMask} μέσω του δρομολογητή {$networkRouter}.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_DELETING_NETWORK</base>
+        <trans>Παρουσιάστηκε σφάλμα κατά τη διαγραφή του δικτύου.</trans>
+    </entry>
+    <entry>
+        <base>NO_ADDITIONAL_NETWORKS</base>
+        <trans>Κανένα πρόσθετο δίκτυο</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_DESC</base>
+        <trans>Οι τοπικοί Η/Υ που διαμορφώνουν το δίκτυο που πρόκειται να αφαιρέσετε, έχουν εντοπισθεί. Εξ ορισμού, θα αφαιρεθούν και αυτοί. Αν, για κάποιους λόγους, δεν επιθυμείτε να συμβεί αυτό, αφαιρέστε το τσεκ από αυτό το κουτί. Σημειώστε ότι μετά την αφαίρεση του συγκεκριμένου δικτύου, δεν θα αντιμετωπίζονται σαν τοπικοί Η/Υ και ενδέχεται να μην είναι καν προσπελάσιμοι.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_LABEL</base>
+        <trans>Διαγραφή Η/Υ του δικτύου</trans>
+    </entry>
+</lexicon>

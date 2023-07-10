@@ -1,0 +1,174 @@
+<lexicon lang="ru" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Создать, измененить или удалить и-блок</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> <a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify">Добавить и-блок</a> </p> <p> Вы можете удалить любой информационный блок или сбосить его пароль, нажав на соответствующую команду, рядом с информационным блоком. Если информационный блок выделен красным, это означает, что не был и должен быть изменён стандартный пароль. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>Создание или изменение и-блока</trans>
+    </entry>
+    <entry>
+        <base>NAME_FIELD_DESC</base>
+        <trans>Имя информационного блока должны содержать только прописные буквы, цифры, дефисы, точки и подчёркивания и начинаться с прописной буквы. Например, "johnson", "intra" и "cust3.prj12" - правильные имена, а "3associates", "John Smith" и "Bus!Partner" - нет. Длина имени ограничена {$maxLength} символами.</trans>
+    </entry>
+    <entry>
+        <base>NAME_LABEL</base>
+        <trans>Название информационного блока</trans>
+    </entry>
+    <entry>
+        <base>USER_ACCESS</base>
+        <trans>Пользовательский доступ через общие файлы или ftp пользователя</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS</base>
+        <trans>Свободный доступ через веб или анонимный FTP</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS_DESCRIPTION</base>
+        <trans>Режим свободного доступа "пароль требуется только при подключении извне локальной сети" не поддерживается компонентами FTP сервера. Если вы выберите этот режим, FTP сервер будет требовать ввода пароля для этого и-блока при подключении как из локальной сети, так и извне неё.</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_DYNAMIC_CONTENT</base>
+        <trans>Выполнение динамического содержимого (CGI, PHP, SSI)</trans>
+    </entry>
+	<entry>
+        <base>HTTPS_Only</base>
+        <trans>Использовать безопасные соединения</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Удалить информационный блок</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans><![CDATA[ <p> Вы собираетесь удалить информационный блок "{$name}" ({$description}). </p> <p> Все файлы принадлежащие этому информационному блоку будут удалены. </p> <p> Вы действительно хотите удалить этот информационный блок ? </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_IBAY</base>
+        <trans>Произошла ошибка при создании и-блока.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED_IBAY</base>
+        <trans>И-блок успешно создан.</trans>
+    </entry>
+    <entry>
+        <base>NO_IBAYS</base>
+        <trans>Ни один и-блок сейчас не настроен.</trans>
+    </entry>
+    <entry>
+        <base>CANT_FIND_IBAY</base>
+        <trans>Невозможно найти учётную запись {$name} (она существует?)</trans>
+    </entry>
+    <entry>
+        <base>CANT_CREATE_IBAY</base>
+        <trans>Невозможно создать новую учётную запись {$name} (она уже существует?)</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_IBAY</base>
+        <trans>Произошла ошибка при изменении и-блока.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED_IBAY</base>
+        <trans>И-блок успешно изменён.</trans>
+    </entry>
+    <entry>
+        <base>VIRTUAL_HOST_MESSAGE</base>
+        <trans>Следующие виртуальные домены используют этот информационный блок, как их содержимое и будут изменены на основной веб-сайт (вы можете изменить их на что-то другое позже).</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED_IBAY</base>
+        <trans>И-блок успешно удалён.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_IBAY</base>
+        <trans>Произошла ошибка при удалении и-блока.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_DESC</base>
+        <trans>Вы собираетесь изменить пароль для и-блока {$name}.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VALIDATION_ERROR</base>
+        <trans>Пароль может состоять только из цифр и латинских букв.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VERIFY_ERROR</base>
+        <trans>Пароли не совпадают.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_RESET_PASSWORD</base>
+        <trans>Пароль успешно сброшен.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_RESETTING_PASSWORD</base>
+        <trans>Ошибка при сбросе пароля.</trans>
+    </entry>
+    <entry>
+        <base>VHOST_MESSAGE</base>
+        <trans><![CDATA[ <P>Следующие виртуальные домены используют этот информационный блок, как их содержимое и будут изменены на основной веб-сайт (вы можете изменить их на что-то другое позже):</P> <ul>{$vhostList}</ul> ]]></trans>
+    </entry>
+    <entry>
+        <base>Information bays</base>
+        <trans>Информационные блоки</trans>
+    </entry>
+    <entry>
+        <base>WGRG</base>
+        <trans>Запись = group, Чтение = group</trans>
+    </entry>
+    <entry>
+        <base>WGRE</base>
+        <trans>Запись = group, Чтение = everyone</trans>
+    </entry>
+    <entry>
+        <base>WARG</base>
+        <trans>Запись = admin, Чтение = group</trans>
+    </entry>
+    <entry>
+        <base>NONE</base>
+        <trans>Нет доступа</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_NO_PASSWORD</base>
+        <trans>Локальная сеть (пароль не требуется)</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_PASSWORD</base>
+        <trans>Локальная сеть (требуется пароль)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_NO_PASSWORD</base>
+        <trans>Интернет (пароль не требуется)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD</base>
+        <trans>Интернет (требуется пароль)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD_REMOTE</base>
+        <trans>Интернет (пароль требуется при доступе извне локальной сети)</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IBAY_DESCRIPTION</base>
+        <trans>Ошибка: непредвиденные или отсутствующие символы в описании и-блока</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>Имя и-блока "{$acctName}" содержит неверные символы. Имена и-блоков должны начинаться с прописной буквы и содержать только прописные буквы, цифры и дефисы.</trans>
+    </entry>
+    <entry>
+        <base>MAX_IBAY_NAME_LENGTH_ERROR</base>
+        <trans>Имя и-блока "{$name}" слишком длинное. Максимум - {$maxIbayNameLength} символов.</trans>
+    </entry>
+    <entry>
+        <base>ACCT_CLASHES_WITH_PSEUDONYM</base>
+        <trans><![CDATA[ Учётная запись "{$acctName}" конфликтует с деталями псевдонима {$acctType} учётной записи "{$acct}". <p>{$acctName} - псевдоним для {$acct}.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_EXISTS</base>
+        <trans>Учётная запись "{$acctName}" - существующая {$acctType} учётная запись.</trans>
+    </entry>
+</lexicon>

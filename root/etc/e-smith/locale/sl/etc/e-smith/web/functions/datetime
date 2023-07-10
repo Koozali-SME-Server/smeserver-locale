@@ -1,0 +1,202 @@
+<lexicon lang="sl">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Nastavitev datuma in ure</trans>
+    </entry>
+    <entry>
+      <base>INITIAL_DESC</base>
+      <trans>Tukaj nastavite datum in uro tega streznika. Uporabite lahko obstojeci casovni streznik ali rocno nastavite datum in uro rocno.</trans>
+    </entry>
+    <entry>
+      <base>SET_DATE_TITLE</base>
+      <trans>Nastavi datum in uro</trans>
+    </entry>
+    <entry>
+      <base>COULD_NOT_OPEN_TZ_FILE</base>
+      <trans>Napaka: ne morem odpreti datoteke za casovni pas:</trans>
+    </entry>
+    <entry>
+      <base>JANUARY</base>
+      <trans>Januar</trans>
+    </entry>
+    <entry>
+      <base>FEBRUARY</base>
+      <trans>Februar</trans>
+    </entry>
+    <entry>
+      <base>MARCH</base>
+      <trans>Marec</trans>
+    </entry>
+    <entry>
+      <base>APRIL</base>
+      <trans>April</trans>
+    </entry>
+    <entry>
+      <base>MAY</base>
+      <trans>Maj</trans>
+    </entry>
+    <entry>
+      <base>JUNE</base>
+      <trans>Junij</trans>
+    </entry>
+    <entry>
+      <base>JULY</base>
+      <trans>Julij</trans>
+    </entry>
+    <entry>
+      <base>AUGUST</base>
+      <trans>Avgust</trans>
+    </entry>
+    <entry>
+      <base>SEPTEMBER</base>
+      <trans>September</trans>
+    </entry>
+    <entry>
+      <base>OCTOBER</base>
+      <trans>Oktober</trans>
+    </entry>
+    <entry>
+      <base>NOVEMBER</base>
+      <trans>November</trans>
+    </entry>
+    <entry>
+      <base>DECEMBER</base>
+      <trans>December</trans>
+    </entry>
+    <entry>
+      <base>NEW_M/D/Y</base>
+      <trans>Novi mesec/dan/leto:</trans>
+    </entry>
+    <entry>
+      <base>NEW_H/M/S</base>
+      <trans>Nova ura/min/sek:</trans>
+    </entry>
+    <entry>
+      <base>AM/PM_AND_TZ</base>
+      <trans>DOP/POP in casovni pas:</trans>
+    </entry>
+    <entry>
+      <base>NTP_ENABLE_DESC</base>
+      <trans>Streznik lahko samodejno sinhronizira sistemsko uro z mreznim casovnim protokolom (NTP streznik). Ce izberete to opcijo, vpisite spodaj ime racunalnika ali IP naslov NTP streznika.</trans>
+    </entry>
+    <entry>
+      <base>NTP_CONFIGURE_DESC</base>
+      <trans>Streznik samodejno sinhronizira sistemsko uro z mreznim casovnim protokolom, ki je podaj zapisan. Ce zelite sinhronizacijo z drugim streznikom, vpisite novo ime oz. IP naslov v spodnje polje.</trans>
+    </entry>
+    <entry>
+      <base>NTP_DISABLE_DESC</base>
+      <trans>To opcijo izberite, ce zelite preklicati samodejno sinhronizacijo ure z NTP streznikom. Ko je NTP storitev preklicana, lahko na tej strani rocno vpisete datum in uro.</trans>
+    </entry>
+    <entry>
+      <base>NTP_SERVER</base>
+      <trans>NTP streznik</trans>
+    </entry>
+    <entry>
+      <base>VERIFY_DATE_AND_TIME</base>
+      <trans>Preveri datum in uro</trans>
+    </entry>
+    <entry>
+      <base>NEW_DATE_AND_TIME</base>
+      <trans>Novi datum in nastavitev ure:</trans>
+    </entry>
+    <entry>
+      <base>SETTING_DATE_AND_TIME</base>
+      <trans>Nastavitev datuma in sistemske ure</trans>
+    </entry>
+    <entry>
+      <base>INVALID_DAY</base>
+      <trans>Napaka: napacen dan</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_1_AND_31</base>
+      <trans>Prosimo izberite dan med 1 in 31.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_YEAR</base>
+      <trans>Napaka: napacno leto:</trans>
+    </entry>
+    <entry>
+      <base>FOUR_DIGIT_YEAR</base>
+      <trans>Prosimo izberite leto med 1900 in 2200.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_HOUR</base>
+      <trans>Napaka: napacna ura:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_1_AND_12</base>
+      <trans>Prosimo izberite uro med 1 in 12.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_MINUTE</base>
+      <trans>Napaka: napacne minute:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_0_AND_59</base>
+      <trans>Prosimo izberite minute med 0 in 59.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_SECOND</base>
+      <trans>Napaka: napacne sekunde</trans>
+    </entry>
+    <entry>
+      <base>UPDATING_CLOCK</base>
+      <trans><![CDATA[ Sistemska ura je bila posodobljena. Prosimo pocakajte par sekund, potem pa kliknite <A HREF="datetime?page=1&wherenext=Verify" TARGET="main">tukaj</A> in preverite spremembe. ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_SETTING_CLOCK</base>
+      <trans>Pri nastavitvi sistemske in strojne ure, je prislo do napake!</trans>
+    </entry>
+    <entry>
+      <base>SERVER_DISABLED</base>
+      <trans>NTP streznik je bil uspesno preklican</trans>
+    </entry>
+    <entry>
+      <base>SERVER_DISABLED_DESC</base>
+      <trans><![CDATA[ Pravkar ste preklicali ta servis: Streznik se bo sedaj zanasal na svojo notranjo uro in se <b>ne bo</b> sinhroniziral s casovnim streznikom. ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_CHANGING_TS</base>
+      <trans>Pri menjavi nastavitev casovnega streznika je prislo do napake</trans>
+    </entry>
+    <entry>
+      <base>INVALID_NTP_ADDR</base>
+      <trans>Napacen naslov NTP streznika:</trans>
+    </entry>
+    <entry>
+      <base>SETTINGS_CHANGED</base>
+      <trans>Nastavitve NTP streznika so bile uspesno spremenjene</trans>
+    </entry>
+    <entry>
+      <base>SYNC_WITH</base>
+      <trans>Streznik je sedaj nastavljen na samodejno posodobitev ure (cez Internet) z:</trans>
+    </entry>
+    <entry>
+      <base>INVALID_NTP_SERVER</base>
+      <trans><![CDATA[ Napacen NTP streznik. Streznik se <b>ne bo</b> skusal sinhronizirati s casovnim streznikom. ]]></trans>
+    </entry>
+    <entry>
+      <base>NETWORK_TIME_SERVER</base>
+      <trans>Mrezni casovni streznik</trans>
+    </entry>
+    <entry>
+      <base>NTP_CONFIGURE_TITLE</base>
+      <trans>Omogoci mrezni casovni streznik</trans>
+    </entry>
+    <entry>
+      <base>NTP_ENABLE_TITLE</base>
+      <trans>Omogoci mrezni casovni streznik</trans>
+    </entry>
+    <entry>
+      <base>NTP_DISABLE_TITLE</base>
+      <trans>Preklici mrezni casovni streznik</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_SETTING</base>
+      <trans>Trenutne nastavitve</trans>
+    </entry>
+    <entry>
+      <base>Date and time</base>
+      <trans>Datum in čas</trans>
+    </entry>
+  </lexicon>

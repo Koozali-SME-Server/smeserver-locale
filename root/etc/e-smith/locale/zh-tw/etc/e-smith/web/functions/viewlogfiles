@@ -1,0 +1,83 @@
+<lexicon lang="zh-tw">
+    <entry>
+        <base>View log files</base>
+        <trans>檢視眾日誌檔</trans>
+    </entry>
+
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[此版面允許您檢視伺服器運作中的服務所產生之日誌檔。]]></trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_SELECT_DESC</base>
+        <trans>請選擇一份日誌檔來檢視</trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>您能選擇性地指定過濾器模式來呈現日誌檔中符合條件的行。若您將此區塊留白，日誌檔中的所有行將完整呈現。請注意，若您欲下載日誌檔，此選項是不使用的。</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_LABEL</base>
+        <trans>過濾模式(選擇性)</trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>您亦可選擇性地指定醒目模式，以粗體字標示日誌檔中符合條件的行。醒目模式適用於任何已符合過濾條件的行。請注意，若您欲下載日誌檔，此選項是不使用的。</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_LABEL</base>
+        <trans>醒目模式(選擇性)</trans>
+    </entry>
+    <entry>
+        <base>END_DESC</base>
+        <trans>請注意，產生這些報告須花費一些時間。</trans>
+    </entry>
+    <entry>
+        <base>VIEW</base>
+        <trans>檢視日誌檔</trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_EMPTY</base>
+        <trans>日誌檔 "{$filename}" 是空的！</trans>
+    </entry>
+    <entry>
+        <base>VIEWING_TIME</base>
+        <trans>在 {$time} 檢視。</trans>
+    </entry>
+    <entry>
+        <base>MATCH_HEADER</base>
+        <trans>顯示符合 "{$matchPattern}"的行。</trans>
+    </entry>
+    <entry>
+        <base>HIGHLIGHT_HEADER</base>
+        <trans>醒目行符合："{$highlightPattern}"</trans>
+    </entry>
+    <entry>
+        <base>NO_MATCHING_LINES</base>
+        <trans>無符合的行。</trans>
+    </entry>
+    <entry>
+        <base>FILENAME_ERROR</base>
+        <trans><![CDATA[ <p>指定日誌檔名時錯誤。</p> <p>"{$filename}"ˋ無效的報告形式。</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>REFRESH</base>
+	<trans>更新此日誌檔</trans>
+    </entry>
+    <entry>
+	<base>OP_DESC</base>
+	<trans><![CDATA[ <p>您必須選擇將日誌檔於瀏覽器中檢視，或是下載到您的電腦上。如果日誌檔相當大，您可能會想要下載它而不是在瀏覽器中試圖打開它，打開大文件對某些瀏覽器而言會是個問題。</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>OP_LABEL</base>
+	<trans>作業</trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_PAGE_DESC</base>
+	<trans><![CDATA[ <p>您要下載的日誌檔已準備就緒。當您點擊下方的 &quot;下一步&quot; 按鍵後，下載即將執行，並請確認您的瀏覽器允許彈現視窗。</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_FILE</base>
+	<trans>正準備下載日誌檔{$logfile}。</trans>
+    </entry>
+</lexicon>

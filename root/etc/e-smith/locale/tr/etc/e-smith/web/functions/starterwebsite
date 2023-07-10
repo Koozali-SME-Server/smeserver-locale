@@ -1,0 +1,43 @@
+<lexicon lang="tr">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>Başlangıç web sitesi oluşturun</trans>
+      </entry>
+      <entry>
+	<base>SUCCESS</base>
+	<trans>Başlangıç web sayfanız başarıyla oluşturuldu (index.html yazıldı), Yeni web sitenizi bu adresten ziyaret edebilirsiniz:</trans>
+      </entry>
+      <entry>
+	<base>DESCRIPTION</base>
+	  <trans><![CDATA[ <p> Şirketinize temel web sayfası oluşturmak için <b>Oluştur</b> butonuna tıklayın. </p> <p> İhtiyaç duymadığınız yerleri boş geçebilirsiniz. </p> <p> Yazdıklarınızın güzel görünmesi için satırlar kaydırılacaktır. Yeni paragrafa başlamak için boş bir satır bırakın. Yeni paragraf oluşturmadan aşağı satıra geçmek için (örneğin her sayıra bir e-posta adresi) bu dört karakteri yazın <blockquote>&lt;BR&gt;</blockquote> . </p> <p> <em>Dikkat</em> daha önceden web sitenizi oluşturduysanız bu seçeneği kullanmayın, yoksa sitenizin "index.htm" dosyası üzerine yazılacaktır. </p> ]]> </trans>
+      </entry>
+      <entry>
+	<base>LABEL_COMPANYNAME</base>
+	<trans>Şirket adı</trans>
+      </entry>
+	
+      <entry> 
+	<base>DESC_HEADER1</base>
+	<trans>Birinci başlık, genelde kısa cümleler için "Tekstil alanında lider" gibi.</trans>
+      </entry>
+      <entry> 
+	<base>DESC_TEXT1</base>
+	<trans>İlk başlık metni, genellikle pazarlama stratejileri ile ilgili bilgi içeren bir paragraftan oluşur.</trans>
+      </entry>
+      <entry> 
+	  <base>DESC_HEADER2</base>
+	<trans>İkinci başlık, genellikle kısa ifadeler için örneğin "Daha fazla bilgi için" veya "Ürün siparişi" için kullanılır:</trans>
+	</entry>
+      <entry> 
+	<base>DESC_TEXT2</base>
+	<trans>İkinci başlık metni, genelde iletişim bilgileri veya sipariş verme formunu içerir:</trans>
+	</entry>
+      <entry>
+	<base>DESC_SUBMIT</base>
+	<trans><![CDATA[ <p>Bu sayfayı oluşturduğunuz zaman, sitenizdeki "index.htm" dosyasının üzerine yazılacaktır .</p> <p>Devam etmek istediğinizden eminmisiniz?</p> ]]></trans>
+      </entry>
+      <entry>
+	<base>Create starter web site</base>
+	<trans>Başlangıç web sayfasını oluştur</trans>
+      </entry>
+</lexicon>

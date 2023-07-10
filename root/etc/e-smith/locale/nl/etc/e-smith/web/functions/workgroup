@@ -1,0 +1,58 @@
+<lexicon lang="nl">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Werkgroep instellingen wijzigen</trans>
+    </entry>	
+    <entry> 
+        <base>DESC_WORKGROUP</base>
+        <trans><![CDATA[ Geef de naam in van de Windows werkgroep waarin deze server moet verschijnen. ]]></trans>	
+    </entry>
+    <entry>
+        <base>LABEL_WORKGROUP</base>
+        <trans>Windows werkgroep</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERVERNAME</base>
+        <trans>Geef de naam in die de server moet gebruiken voor bestandsdeling onder Windows en Macintosh.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERVERNAME</base>
+        <trans>Servernaam</trans>
+    </entry>
+    <entry>
+        <base>DESC_PDC</base>
+        <trans><![CDATA[Moet deze server dienst doen als werkgroep en domein controller in uw Windows netwerk? Kies de optie <b>Nee</b> indien een andere server deze rol reeds vervult in uw netwerk.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_PDC</base>
+        <trans>Werkgroep en domein controller</trans>
+    </entry>
+    <entry>
+        <base>DESC_ROAM</base>
+        <trans><![CDATA[ Moet deze server roaming profiles ondersteunen? Kies de standaardoptie <b>Nee</b> tenzij u ervaring hebt in het beheren van server gebaseerde roaming profiles en weet dat deze optie vereist is. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_ROAM</base>
+        <trans>Roaming profiles</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>De nieuwe werkgroepinstellingen zijn opgeslagen</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP</base>
+        <trans>De werkgroepnaam moet beginnen met een letter (kleine of hoofdletter), gevolgd door een combinatie van letters, cijfers, lage streepjes, punten en koppeltekens.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SERVERNAME</base>
+        <trans>De servernaam moet beginnen met een letter (kleine of hoofdletter), gevolgd door een combinatie van letters, cijfers, liggende streepjes, punten en koppeltekens.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP_MATCHES_SERVERNAME</base>
+        <trans>Vergeleken in kleine letters komen de server- en werkgroepnamen overeen. Deze namen moeten verschillend zijn om bestandsdeling in te kunnen schakelen.</trans>
+    </entry>
+    <entry>
+        <base>Workgroup</base>
+        <trans>Werkgroep</trans>
+    </entry>
+</lexicon>

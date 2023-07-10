@@ -1,0 +1,87 @@
+<lexicon lang="th">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>วิเคราะห์ Log File ของ Mail</trans>
+    </entry>
+    <entry>
+	<base>INITIAL_DESC</base>
+	<trans><![CDATA[ <P>การวิเคราะห์ล็อกไฟล์ของระบบเมล์จะช่วยให้ทราบและเข้าใจทั้งวิธีการที่ระบบจัดการ และข้อมูลช่วยวินิจฉัยปัญหาในการส่ง รูปแบบรายงานมีหลายแบบ</P> <P>โปรดทราบว่าอาจใช้เวลาหลายนาทีเพื่อสร้างรายงานเหล่านี้</P> ]]></trans>
+    </entry>
+    <entry>
+	<base>REPORT_TYPE</base>
+	<trans>เลือกประเภทของรายงาน</trans>
+    </entry>
+    <entry>
+	<base>GENERATE_REPORT</base>
+	<trans>สร้างรายงาน</trans>
+    </entry>
+    <entry>
+	<base>LIST_OUTGOING</base>
+	<trans>รายการข้อความที่ส่งออกและชื่อผู้รับ</trans>
+    </entry>
+    <entry>
+	<base>SUMMARIZE_QUEUE</base>
+	<trans>สถานะสรุปของคิวของ mail</trans>
+    </entry>
+    <entry>
+	<base>SUCCESSFUL_DELIVERY_DELAY</base>
+	<trans>ประสบความสำเร็จในการจัดส่งรายการที่ล่าช้า</trans>
+    </entry>
+    <entry>
+	<base>REASONS_DEFERRAL</base>
+	<trans>เหตุผลของการล่าช้า</trans>
+    </entry>
+    <entry>
+	<base>REASONS_FAILURE</base>
+	<trans>เหตุผลของการล้มเหลว</trans>
+    </entry>
+    <entry>
+	<base>BASIC_STATS</base>
+	<trans>สถิติพื้นฐาน</trans>
+    </entry>
+    <entry>
+	<base>RECIP_STATS</base>
+	<trans>สถิติผู้รับ</trans>
+    </entry>
+    <entry>
+	<base>RECIP_HOSTS</base>
+	<trans>โฮสต์ที่รับ</trans>
+    </entry>
+    <entry>
+	<base>RECIP_ORDERED</base>
+	<trans>ผู้รับในลำดับที่ดีที่สุดของ mailing lists</trans>
+    </entry>
+    <entry>
+	<base>SENDER_STATS</base>
+	<trans>สถิติผู้ส่ง</trans>
+    </entry>
+    <entry>
+	<base>SENDMAIL_STYLE</base>
+	<trans>log สไตล์ Sendmail </trans>
+    </entry>
+    <entry>
+	<base>REASONS_SUCCESS</base>
+	<trans>เหตุผลที่ประสบความสำเร็จ</trans>
+    </entry>
+    <entry>
+	<base>SENDER_UIDS</base>
+	<trans>uids ของผู้ส่ง</trans>
+    </entry>
+    <entry>
+	<base>INVALID_REPORT_TYPE</base>
+	<trans>ประเภทรายงานไม่ถูกต้อง:</trans>
+    </entry>
+    <entry>
+	<base>REPORT_GENERATED</base>
+	<trans>สร้างรายงาน:</trans>
+    </entry>
+    <entry>
+	<base>END_OF_REPORT</base>
+	<trans>สิ้นสุดการรายงาน</trans>
+    </entry>
+    <entry>
+	<base>Mail log file analysis</base>
+	<trans>วิเคราะห์ log file ของเมล์</trans>
+    </entry>
+
+</lexicon>

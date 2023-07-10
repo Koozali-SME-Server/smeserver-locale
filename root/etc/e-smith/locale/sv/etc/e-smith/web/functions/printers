@@ -1,0 +1,147 @@
+<lexicon lang="sv">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Lägg till eller radera skrivare</trans>
+    </entry>
+    <entry>
+      <base>INITIAL_DESC</base>
+      <trans><![CDATA[ <P><A class="button-like" HREF="printers?page=0&Next=Add">Lägg till skrivare</A></P> ]]></trans>
+    </entry>
+    <entry>
+      <base>NO_PRINTERS</base>
+      <trans>Det finns inga skrivare i systemet.</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_LIST</base>
+      <trans>Aktuell lista över skrivare</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_ADDRESS</base>
+      <trans>Fjärradress</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_NAME</base>
+      <trans>Fjärrnamn</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NEW_PRINTER</base>
+      <trans>Skapa en ny skrivare</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NEW_DESC</base>
+      <trans>Välj ett unikt namn för skrivaren och ange en kort beskrivning. Skrivarnamnet får bara bestå av gemener och siffror och skall börja med en gemen. Exempelvis "hplaser", "epsonlp", eller "canonbj" är godkända namn, medan "HP Laser Jet", "Canon BubbleJet" och "HP JetDirect Printer" inte är godkända namn. Undvik namn och beskrivningar som innehåller följande ord "offline", "disabled", "down", "off", "waiting", "jam", "paper", "error" och "responding".</trans>
+    </entry>
+    <entry>
+      <base>PRINTER_NAME</base>
+      <trans>Skrivarnamn</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_0</base>
+      <trans>Lokal skrivarport 0 (LPT1)</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_1</base>
+      <trans>Lokal skrivarport 1 (LPT2)</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_2</base>
+      <trans>Lokal skrivarport 2 (LPT3)</trans>
+    </entry>
+    <entry>
+      <base>NET_PRINTER</base>
+      <trans>Nätverksskrivare ...</trans>
+    </entry>
+    <entry>
+      <base>FIRST_USB_PRINTER</base>
+      <trans>Första anslutna USB-skrivaren</trans>
+    </entry>
+    <entry>
+      <base>SECOND_USB_PRINTER</base>
+      <trans>Andra anslutna USB-skrivaren</trans>
+    </entry>
+    <entry>
+      <base>ERR_UNEXPECTED_NAME</base>
+      <trans><![CDATA[ <P>Fel: Fel i skrivarnamnet.</P> <P>Skrivarnamnet för endast innehålla gemener och siffror och måste börja med en gemen. Exempelvis "hplaser", "epsonlp" eller "canonbj" är godkända namn.</P> ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_UNEXPECTED_DESC</base>
+      <trans>Fel: Otillåtet eller avsaknad av tecken i beskrivningen. Skapade inte en ny skrivare.</trans>
+    </entry>
+    <entry>
+      <base>ERR_EXISTS</base>
+      <trans>Fel: Ett konto med samma namn existerar av typen:</trans>
+    </entry>
+    <entry>
+      <base>ERR_INVALID_ADDRESS</base>
+      <trans>Fel: Ogiltig nätverksadress. Skapade inte en ny skrivare.</trans>
+    </entry>
+    <entry>
+      <base>ERR_INVALID_REMOTE_NAME</base>
+      <trans>Fel: Ogiltigt namn på nätverksskrivaren. Skapade inte en ny skrivare.</trans>
+    </entry>
+    <entry>
+      <base>ERR_CREATING</base>
+      <trans>Ett fel inträffade vid skapandet av skrivare.</trans>
+    </entry>
+    <entry>
+      <base>CREATED_SUCCESSFULLY</base>
+      <trans>Skrivare skapad:</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NETWORK_PRINTER</base>
+      <trans>Skapa en ny nätverksskrivare</trans>
+    </entry>
+    <entry>
+      <base>ERR_OPENING_DB</base>
+      <trans>Ett fel inträffade vid öppning av kontodatabasen.</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NETWORK_DESC</base>
+      <trans>Ange en adress och ett namn på nätverksskrivaren</trans>
+    </entry>
+    <entry>
+      <base>HOSTNAME_OR_IP</base>
+      <trans>Värdnamn eller IP-adress till nätverksskrivaren</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_NAME_DESC</base>
+      <trans><![CDATA[ Namnet på nätverksskrivare (skriv raw om du inte är säker) ]]></trans>
+    </entry>
+    <entry>
+      <base>REMOVE_PRINTER</base>
+      <trans>Radera skrivare</trans>
+    </entry>
+    <entry>
+      <base>ABOUT_TO_REMOVE</base>
+      <trans>Du är på väg att radera skrivaren:</trans>
+    </entry>
+    <entry>
+      <base>SPOOL_FILE_WARNING</base>
+      <trans>Alla spool-filer för denna skrivare kommer att raderas.</trans>
+    </entry>
+    <entry>
+      <base>ARE_YOU_SURE</base>
+      <trans>Är du säker på att du vill radera denna skrivare?</trans>
+    </entry>
+    <entry>
+      <base>ERR_INTERNAL_FAILURE</base>
+      <trans>Fel: ett internt fel uppstod vi radering av skrivaren:</trans>
+    </entry>
+    <entry>
+      <base>ERR_DELETING</base>
+      <trans>Ett fel inträffade vid borttagning av skrivare.</trans>
+    </entry>
+    <entry>
+      <base>DELETED_SUCCESSFULLY</base>
+      <trans>Skrivare raderad:</trans>
+    </entry>
+    <entry>
+        <base>MUST_BE_VALID_HOSTNAME_OR_IP</base>
+        <trans>Måste vara ett giltigt värdnamn eller IP-nummer</trans>
+    </entry>
+    <entry>
+	<base>Printers</base>
+	<trans>Skrivare</trans>
+    </entry>
+
+</lexicon>

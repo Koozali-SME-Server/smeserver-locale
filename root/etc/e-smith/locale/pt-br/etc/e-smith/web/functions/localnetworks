@@ -1,0 +1,108 @@
+<lexicon lang="pt-br">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>Local networks</base>
+        <trans>Redes locais</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ Por razões de segurança, vários serviços em seu servidor estão disponíveis somente para sua rede local. Entretando você pode garantir esses privilégios de acesso da rede local para redes externas, listando-as abaixo. A maioria das instalações deveriam deixar esta lista em branco.</p><p> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Adicionar rede</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>Adicionar uma rede local</trans>
+    </entry>
+    <entry>
+        <base>ADD_DESC</base>
+        <trans><![CDATA[ Cada parametro tem que está na forma #.#.#.# (cada # é um número entre 0 e 255). O software do servidor irá zerar a parte final (identificador de host) do endereço de rede de acordo com a máscara de rede, para garantir que o endereço de rede é válido. </p><p> "Roteador" deverá ser o endereço IP do roteador de sua rede local pelo qual a rede adicional será alcançada. ]]></trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ADDRESS</base>
+        <trans>Endereço de rede</trans>
+    </entry>
+    <entry>
+        <base>SUBNET_MASK</base>
+        <trans>Máscara de subrede</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IP_ADDRESS</base>
+        <trans>Endereço IP inválido</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SUBNET_MASK</base>
+        <trans>Máscara de subrede inválida</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Remover rede local</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Você está prestes a remover a seguinte rede local.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_CONFIRM</base>
+        <trans>Você tem certeza que deseja remover esta rede?</trans>
+    </entry>
+    <entry>
+        <base>DEFAULT</base>
+        <trans>padrão</trans>
+    </entry>
+    <entry>
+        <base>NUMBER_OF_HOSTS</base>
+        <trans>Número de hosts</trans>
+    </entry>
+    <entry>
+        <base>NOT_ACCESSIBLE_FROM_LOCAL_NETWORK</base>
+        <trans>Erro: endereço de roteador {$networkRouter} não está acessível da rede local. Rede não adicionada.</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_LOCAL</base>
+        <trans>Erro: rede {$network} (derivada da rede {$networkAddress} e máscara de rede {$networkMask}) já é considerada local. Nova rede não adicionada.</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_ADDED</base>
+        <trans>Erro: rede {$network} (derivada da rede {$networkAddress} e máscara de rede {$networkMask}) já foi adicionada. Nova rede não adicionada.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_CREATING_NETWORK</base>
+        <trans>Ocorreu um erro enquanto criava a rede.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Rede adicionada com sucesso {$network}/{$networkMask} rotear via {$networkRouter}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_SINGLE_ADDRESS</base>
+        <trans>Rede adicionada com sucesso {$network}/{$networkMask} rotear via {$networkRouter}. Seu servidor irá garantir privilégios de acesso local para o endereço IP {$network}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NETWORK_RANGE</base>
+        <trans>Rede adicionada com sucesso {$network}/{$networkMask} rotear via {$networkRouter}. Seu servidor irá garantir privilegios de acesso local para {$totalHosts} endereços IP na faixa de {$firstAddr} à {$lastAddr}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NONSTANDARD_RANGE</base>
+        <trans><![CDATA[ <p> Rede adicionada com sucesso {$network}/{$networkMask} rotear via {$networkRouter}. </p> <p> Seu servidor irá garantir privilegios de acesso local para {$totalHosts} endereços IP na faixa de {$firstAddr} à {$lastAddr}. </p> <p> Aviso: o servidor FTP ProFTP não pode manusear essas máscaras de rede não -padrão. A especificação simples <b>{$simpleMask}</b> será usada. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_REMOVED_NETWORK</base>
+        <trans>Remoção da rede com sucesso {$network}/{$networkMask} rotear via {$networkRouter}.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_DELETING_NETWORK</base>
+        <trans>Um erro ocorreu enquanto eliminava a rede.</trans>
+    </entry>
+    <entry>
+        <base>NO_ADDITIONAL_NETWORKS</base>
+        <trans>Nenhum rede adicional</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_DESC</base>
+        <trans>Foram detectados hosts na rede que você está prestes a eliminar. Por padrão, eles tambem serão eliminados. Desmarque essa caixa se por alguma razão voce não quer que isso aconteça. Note que eles não serão  tratados como hosts locais e podem sequer estar acessíveis depois que a rede for eliminada.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_LABEL</base>
+        <trans>Eliminat hosts na rede</trans>
+    </entry>
+</lexicon>

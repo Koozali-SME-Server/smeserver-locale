@@ -1,0 +1,10 @@
+<lexicon lang="ro">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Ajutor, garantie si informatii de licentiere</trans>
+    </entry>
+    <entry>
+        <base>Support and licensing</base>
+        <trans>Ajutor si informatii de licentiere</trans>
+    </entry>
+</lexicon>

@@ -1,0 +1,43 @@
+<lexicon lang="de">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>Starter Webseite erstellen</trans>
+      </entry>
+      <entry>
+	<base>SUCCESS</base>
+	<trans>Ihre Starter Webseite wurde erfolgreich erstellt (Datei index.htm). Sie können Ihre neue Webseite auf der unten angegeben Seite ansehen:</trans>
+      </entry>
+      <entry>
+	<base>DESCRIPTION</base>
+	  <trans><![CDATA[ <p> Um eine einfache Webseite zu erstellen, füllen Sie bitte die Felder unten aus und klicken auf <b>Erstellen</b>. </p> <p> Sie können auch alle Felder leer lassen, wenn Sie diese nicht benötigen. </p> <p> Der eingegebene Text ist für ein besseres Aussehen Ihrer Webseite zeilengebunden. Lassen Sie immer eine Leerzeile, wenn Sie einen neuen Absatz beginnen, damit der Test übersichtlicher wird. Benötigen Sie einen Zeilenumbruch ohne einen neuen Absatz zu beginnen (z.B. nach Eingabe eine Mail Adresse), geben Sie die folgenden vier Zeichen <blockquote>&lt;BR&gt;</blockquote> ein, wo Sie den Zeilenumbruch haben wollen. </p> <p> <em>Benutzen Sie nicht diese Option</em>, wenn Sie bereits Ihre eigene kundenspezifische Webseite angelegt haben, da die Datei "index.htm" in Ihrem Webseiten Verzeichnis überschrieben wird. </p> ]]></trans>
+      </entry>
+      <entry>
+	<base>LABEL_COMPANYNAME</base>
+	<trans>Firmenname</trans>
+      </entry>
+	
+      <entry> 
+	<base>DESC_HEADER1</base>
+	<trans>Erster Textkopf, wird normalerweise für kurze Sätze wie "Führender Hersteller in der Textilindustrie" verwendet.</trans>
+      </entry>
+      <entry> 
+	<base>DESC_TEXT1</base>
+	<trans>Text nach dem ersten Textkopf, wird normalerweise dazu verwendet, um weitere Produktinformationen und/oder die Vertriebsstruktur zu erleutern.</trans>
+      </entry>
+      <entry> 
+	  <base>DESC_HEADER2</base>
+	<trans>Zweiter Textkopf, wird normalerweise für kurze Sätze wie "Für weitere Informationen" oder "So bestellen Sie unsere Produkte" verwendet:</trans>
+	</entry>
+      <entry> 
+	<base>DESC_TEXT2</base>
+	<trans>Text nach dem zweiten Textkopf, wird normalerweise dazu verwendet, um Kontakt- oder Bestellinformationen anzugeben:</trans>
+	</entry>
+      <entry>
+	<base>DESC_SUBMIT</base>
+	<trans><![CDATA[ <p>Wenn Sie diese Webseite erstellen, wird die Datei "index.htm" in Ihrem Webseiten Verzeichnis überschrieben.</p> <p>Wollen Sie fortfahren?</p> ]]></trans>
+      </entry>
+      <entry>
+	<base>Create starter web site</base>
+	<trans>Starter Webseite erstellen</trans>
+      </entry>
+</lexicon>

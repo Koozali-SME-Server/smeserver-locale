@@ -1,0 +1,386 @@
+<lexicon lang="zh-tw" params="getExtraParams()">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>電郵設定</trans>
+    </entry>
+    <entry>
+        <base>E-mail</base>
+        <trans>電郵</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>新電郵設定已被儲存。</trans>
+    </entry>
+    <entry>
+        <base>NEVER</base>
+        <trans>一點也不</trans>
+    </entry>
+    <entry>
+        <base>EVERY5MIN</base>
+        <trans>每5分鐘</trans>
+    </entry>
+    <entry>
+        <base>EVERY15MIN</base>
+        <trans>每15分鐘</trans>
+    </entry>
+    <entry>
+        <base>EVERY30MIN</base>
+        <trans>每30分鐘</trans>
+    </entry>
+    <entry>
+        <base>EVERYHOUR</base>
+        <trans>每小時</trans>
+    </entry>
+    <entry>
+        <base>EVERY2HRS</base>
+        <trans>每2小時</trans>
+    </entry>
+    <entry>
+        <base>STANDARD</base>
+        <trans>標準（SMTP）</trans>
+    </entry>
+    <entry>
+        <base>ETRN</base>
+        <trans>ETRN（客戶端要求的SMTP）</trans>
+    </entry>
+    <entry>
+        <base>DEFAULT</base>
+        <trans>預設</trans>
+    </entry>
+    <entry>
+        <base>SPECIFY_BELOW</base>
+        <trans>指定如下</trans>
+    </entry>
+    <entry>
+        <base>MULTIDROP</base>
+        <trans>multi-drop</trans>
+    </entry>
+    <entry>
+        <base>LABEL_MODE</base>
+        <trans>電郵檢索模式</trans>
+    </entry>
+    <entry>
+        <base>DESC_MODE</base>
+        <trans>電郵檢索模式可以設定為標準（對專線連接）、ETRN（對撥號連接），或multi-drop（對撥號連接，倘若您的ISP不支持ETRN）。請注意multi-drop模式是唯一選項，當伺服器被設定為私有伺服器和閘道模式時。</trans>
+    </entry>
+    <entry>
+        <base>LABEL_DELEGATE</base>
+        <trans>內部郵件伺服器地址</trans>
+    </entry>
+    <entry>
+        <base>DESC_DELEGATE</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>委任郵件伺服器</h2>您的伺服器涵蓋完整、全功能的電郵伺服器。然而，倘若基於某些理由您欲委任電郵處理程序給其他系統，請於此處指定欲委任系統的網路位址。一般操作下，此欄位請留白。]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SECONDARY</base>
+        <trans>次郵件伺服器</trans>
+    </entry>
+    <entry>
+        <base>DESC_SECONDARY</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>ETRN或multi-drop設定</h2>對於ETRN或multi-drop，請指定次要郵件伺服器的主機名稱或者網路位址。（倘若使用標準設定，此欄位請留白。]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_FETCH_PERIOD</base>
+        <trans>對於ETRN或者multi-drop而言，您可以控制此伺服器從次電郵伺服器取得郵件的頻率。連結頻率越多意味著接收電郵越快，但會導致網絡請求過多，很可能會增加您的電話和網絡使用費用。</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD</base>
+        <trans>在工作日的辦公時間內（上午8:00至下午6:00）</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD_NIGHTS</base>
+        <trans>在工作日的辦公時間外（下午6:00至上午8:00）</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD_WEEKENDS</base>
+        <trans>在週末</trans>
+    </entry>
+    <entry>
+        <base>DESC_POP_ACCOUNT</base>
+        <trans>對於multi-drop電郵而言，請指定POP使用者帳戶和密碼。（如果使用標準或ETRN e-mail，這些區域可以留白。）此外，對於multi-drop電郵而言，你既可使用預設的郵件排序方式，或者亦可指定一個特定用於郵件排序的訊息表頭。</trans>
+    </entry>
+    <entry>
+        <base>LABEL_POP_PASS</base>
+        <trans>POP使用者密碼（multi-drop）</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_POP_ACCOUNT</base>
+        <trans>POP使用者帳戶（multi-drop）</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SORT_METHOD</base>
+        <trans>選擇排序方式（multi-drop）</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SORT_HEADER</base>
+        <trans>選擇排序字首（multi-drop）</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PROTO</base>
+        <trans>協定（multi-drop）</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_SECURE</base>
+        <trans>SSL安全通道（multi-drop）</trans>
+    </entry>
+    <entry>
+        <base>AUTO</base>
+        <trans>自動</trans>
+    </entry>
+    <entry>
+        <base>ENABLED_BOTH</base>
+        <trans>同時允許http和https</trans>
+    </entry>
+    <entry>
+        <base>ENABLED_SECURE_ONLY</base>
+        <trans>允許https（加密的http）</trans>
+    </entry>
+     <entry>
+        <base>ONLY_LOCAL_NETWORK_SSL</base>
+        <trans>允許HTTPS（加密模式）僅限區域網路存取</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_POP3</base>
+        <trans>同時允許pop3和pop3s</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_PRIVATE</base>
+        <trans>允許私人</trans>
+    </entry>
+    <entry>
+        <base>SECURE_POP3</base>
+        <trans>允許私人和公開(加密的POP3)</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_IMAP</base>
+        <trans>同時允許IMAP和IMAPS</trans>
+    </entry>
+    <entry>
+        <base>SECURE_IMAP</base>
+        <trans>允許私人和公開(加密的IMAPS)</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_SMTP</base>
+        <trans>同時允許SMTP和SSMTP</trans>
+    </entry>
+    <entry>
+        <base>SECURE_SMTP</base>
+        <trans>允許SSMTP（加密的SMTP）</trans>
+    </entry>
+    <entry>
+        <base>LABEL_POP_ACCESS_CONTROL</base>
+        <trans>POP3伺服器存取</trans>
+    </entry>
+    <entry>
+        <base>LABEL_IMAP_ACCESS_CONTROL</base>
+        <trans>IMAP伺服器存取</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SMTP_AUTH_CONTROL</base>
+        <trans>SMTP驗證</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_TO_ADMIN</base>
+        <trans>寄給管理員</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_TO</base>
+        <trans>寄給</trans>
+    </entry>
+    <entry>
+        <base>RETURN_TO_SENDER</base>
+        <trans>拒絕</trans>
+    </entry>
+    <entry>
+        <base>LABEL_UNKNOWN</base>
+        <trans>電郵給未知使用者</trans>
+    </entry>
+    <entry>
+        <base>DESC_UNKNOWN</base>
+        <trans><![CDATA[ <h2>未知使用者</h2>選擇拒絕（推薦設定）將伺服器設定為只接受有效郵件位址的電郵（例如使用者、群組、假名）。其他位址的電郵將被拒絕。]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SMARTHOST</base>
+        <trans>ISP的郵件伺服器地址</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_SMARTHOST</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>SMTP伺服器</h2>此伺服器能直接傳遞出站訊息至目的地（建議用於大部分情況）或者能透過您網際網路提供者的SMTP伺服器來傳遞這些訊息（建議用於倘若您有不可靠的網際網路連線或家用網際網路服務）。倘若使用您網際網路提供者的SMTP伺服器，請於下方設定其主機名稱或IP位址。要不然，此區域請留白。]]></trans>
+    </entry>
+
+    <entry>
+        <base>INVALID_SMARTHOST</base>
+        <trans>您輸入的智慧型主機名稱並非有效的網際網路名稱亦非空白。</trans>
+    </entry>
+    <entry>
+        <base>DESC_POP_ACCESS_CONTROL</base>
+        <trans>您能控制POP3伺服器的存取。設定項目＂僅允許從區網存取＂僅允許從您的區網存取POP3伺服器。設定項目POP3S可用來提供加密外部存取您的POP3伺服器。我們建議保留此設定項目＂僅允許從區網存取＂，除非您有特別的理由不如此做。</trans>
+    </entry>
+    <entry>
+        <base>DESC_IMAP_ACCESS_CONTROL</base>
+        <trans>您能控制IMAP伺服器的存取。設定項目＂僅允許從區網存取＂僅允許從您的區網存取IMAP伺服器。設定項目IMAPS可用來提供加密外部存取您的POP3伺服器。我們建議保留此設定項目＂僅允許從區網存取＂，除非您有特別的理由不如此做。</trans>
+    </entry>
+    <entry>
+        <base>DESC_SMTP_AUTH_CONTROL</base>
+        <trans><![CDATA[您可對您的SMTP伺服器提供已認證的存取，或者禁用它。此SSMTP設定需要<b>所有</b>使用者們使用SSL/TLS認證。此SMTP與SSMTP選項還允許STARTTLS被使用來確認安全認證。]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_WEBMAIL</base>
+        <trans>您可啟用或禁用此系統上的webmail。webmail允許使用者們透過正規網際瀏覽器存取其郵件，藉由點選瀏覽器到https://{$FQDN}/webmail，並且登入到其帳號。</trans>
+    </entry>
+    <entry>
+        <base>LABEL_WEBMAIL</base>
+        <trans>存取網路郵件</trans>
+    </entry>
+     <entry>
+        <base>LABEL_BLOCK_EXECUTABLE_CONTENT</base>
+        <trans>鎖定可執行內容</trans>
+     </entry>
+     <entry>
+        <base>LABEL_CONTENT_TO_BLOCK</base>
+        <trans>內容鎖定</trans>
+     </entry>
+     <entry>
+        <base>DESC_BLOCK_EXECUTABLE_CONTENT</base>
+        <trans>藉由高亮凸顯您欲鎖定的附件類型，您能鎖定電子郵件中附件的可執行內容。包含這些附件的電子郵件將會自動地回寄給寄件者。</trans>
+    </entry>
+    <entry>
+        <base>UNACCEPTABLE_CHARS</base>
+        <trans>此區塊要求一個有效的電郵位址，其需包含符號@和一個網域名稱。</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_ACCESS</base>
+        <trans><![CDATA[ <h2>電郵存取</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_ACCESS_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_ACCESS">修改電郵存取設定</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_RECEPTION</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>電郵接收</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_RECEPTION_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_RECEPTION">修改電郵接收設定</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_DELIVERY</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>電子郵件傳遞</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_DELIVERY_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_DELIVERY">修改電郵傳遞設定</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_FILTERING_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_FILTERING">修改電郵過濾設定</a> ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_VIRUS_SCAN</base>
+	<trans>病毒掃瞄</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_VIRUS_SCAN</base>
+	<trans>您可掃描傳入與傳出郵件中的病毒。倘若啟用掃瞄並偵測到病毒，該電郵將被拒絕並回傳給寄件者。</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_SPAM_SCAN</base>
+	<trans>垃圾郵件過濾</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_SPAM_SCAN</base>
+	<trans>您可掃瞄電郵中的垃圾郵件。倘若垃圾郵件過濾啟用，每封電郵將被加入X-Spam-Status表頭，此能被用來過濾垃圾郵件。您能調整預設為中度敏感的垃圾郵件檢查敏感度。對於微調控制，您能客製設定垃圾郵件敏感度，然後選擇客製標籤等級，進一步選擇性地拒絕郵件。</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_SPAM_SUBJECT</base>
+	<trans>垃圾郵件主題字首</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_SPAM_SUBJECT</base>
+	<trans>您可啟用增加標籤到每封電郵的表頭以界定垃圾郵件。此標籤值可於下方定義。</trans>
+    </entry>
+
+   <entry>
+        <base>LABEL_SPAM_SENSITIVITY</base>
+        <trans>垃圾郵件敏感度</trans>
+    </entry>
+   <entry>
+        <base>LABEL_SPAM_TAGLEVEL</base>
+        <trans>自訂垃圾郵件標記等級</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SPAM_REJECTLEVEL</base>
+        <trans>自訂垃圾郵件拒絕等級</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SPAM_SUBJECTTAG</base>
+        <trans>修改垃圾郵件主題</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SORTSPAM</base>
+        <trans>整理垃圾郵件到垃圾文件夾</trans>
+    </entry>
+    <entry>
+        <base>VERYHIGH</base>
+        <trans>非常高</trans>
+    </entry>
+    <entry>
+        <base>HIGH</base>
+        <trans>高</trans>
+    </entry>
+    <entry>
+        <base>MEDIUM</base>
+        <trans>中</trans>
+    </entry>
+    <entry>
+        <base>LOW</base>
+        <trans>低</trans>
+    </entry>
+    <entry>
+        <base>VERYLOW</base>
+        <trans>非常低</trans>
+    </entry>
+    <entry>
+        <base>CUSTOM</base>
+        <trans>自訂</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_STATUS</base>
+        <trans>網際網路提供者的SMTP驗證</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_USERID</base>
+        <trans>郵件伺服器使用者id</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_PASSWD</base>
+        <trans>郵件伺服器密碼</trans>
+    </entry>
+
+    <entry>
+        <base>VALIDATION_SMTPAUTH_NONBLANK</base>
+        <trans>倘若啟用SMTP驗證，此區塊不能留白。</trans>
+    </entry>
+
+</lexicon>

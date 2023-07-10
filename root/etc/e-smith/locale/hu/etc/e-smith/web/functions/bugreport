@@ -1,0 +1,101 @@
+<lexicon lang="hu">
+
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Hiba jelentése</trans>
+    </entry>
+    <entry>
+        <base>DO_NOT_PANIC</base>
+        <trans>Semmi pánik!</trans>
+    </entry>
+    <entry>
+        <base>SME_EXPERIENCE</base>
+        <trans>Sajnos nem létezik hibamentes szoftver és valószínűleg azért jött erre az oldalra mert problémát tapasztalt az SME szerver telepítésében.</trans>
+    </entry>
+    <entry>
+        <base>PLEASE_REPORT_HERE</base>
+        <trans>Amennyiben segít a fejlesztőknek feltárni és javítani ezt a hibát, kérjük töltse le a következő mintaszövegek valamelyikét, töltse ki és másoja be a hibajelentésbe </trans>
+    </entry>
+    <entry>
+        <base>USE_TEMPLATE</base>
+        <trans>Kérjük, olvassa el az alábbi linket arról, hogyan jelentse be a hibát hatékonyan és használja a sablont</trans>
+    </entry>
+    <entry>
+        <base>FOLLOWING_REPORT_MIGHT_HELP</base>
+        <trans>Az is segít, ha a hibajelentésében alapvető információkat ad meg az SME szerver konfigurációjáról. A lenti "Konfigurációs jelentés létrehozása" gombra kattintva létrehozhat és letölthet egy ilyen fájlt tartalmazó szövegfájlt. Kérjük, csatolja ezt a fájlt is a hibajelentéshez.</trans>
+    </entry>
+    <entry>
+        <base>REPORT_CONTENT</base>
+        <trans>A hibajelentés a következő információkat fogja tartalmazni</trans>
+    </entry>
+    <entry>
+        <base>SME_VERSION</base>
+        <trans>Koozali SME Server verzió</trans>
+    </entry>
+    <entry>
+        <base>SERVER_MODE</base>
+        <trans>Szerver üzemmód</trans>
+    </entry>
+    <entry>
+        <base>PREVIOUS_SERVER_MODE</base>
+        <trans>Szerver üzemmód</trans>
+    </entry>
+    <entry>
+        <base>KERNEL_AND_ARCH</base>
+        <trans>Jelenleg futó kernel verzió és architektúra</trans>
+    </entry>
+    <entry>
+        <base>INSTALLED_RPMS</base>
+        <trans>Utólag telepített RPM csomagok listája</trans>
+    </entry>
+    <entry>
+        <base>ALTERED_TEMPLATES</base>
+        <trans>Az SME kiegészítők listája amelyek megváltoztatták az alap telepítést</trans>
+    </entry>
+    <entry>
+        <base>ALTERED_EVENTS</base>
+        <trans>Az SME szerver eseményeinek listája amelyek megváltoztatták az alap telepítést</trans>
+    </entry>
+    <entry>
+        <base>YUM_REPOS</base>
+        <trans>Az utólag hozzáadott szoftvertárolók listája</trans>
+    </entry>
+    <entry>
+        <base>PRIVACY</base>
+        <trans>Szmélyes adatot (pl. felhasználónevek, jelszavak, IP címek) nem fog tartalmazni a jelentés</trans>
+    </entry>
+    <entry>
+            <base>CREATE_REPORT</base>
+            <trans>Konfigurációs jelentés létrehozása</trans>
+    </entry>
+
+    <entry>
+            <base>DONATING</base>
+            <trans>Gondolkodott adomány küldéséről?</trans>
+    </entry>
+    <entry>
+            <base>AWARE_SME</base>
+            <trans>Ön valószínű, hogy tudatában van annak, hogy az SME server-t a világ minden tájáról származó önkéntesek együttműködő közössége fejlesztette ki és támogatja. Míg az SME server ingyenesen letölthető és használható, a projekt mögötti infrastruktúra fenntartása (pl. A fórumok és a wiki tárolása, tárolók biztosítása és szerverek építése stb.) Valódi pénzt igényel a valós világban.</trans>
+    </entry>
+    <entry>
+            <base>YOUR_HELP</base>
+            <trans>Ahogyan szüksége van ránk, hogy foglalkozzunk a jelenlegi problémával, nekünk is szükségünk van ÖN segítségére, hogy életben tartsuk ezt a projektet!</trans>
+    </entry>
+    <entry>
+            <base>CONSIDER_DONATING</base>
+            <trans>Kérjük, fontolja meg a projekthez való anyagi hozzájárulást az alábbi képre kattintva:</trans>
+    </entry>
+    <entry>
+            <base>THANK_YOU</base>
+            <trans>Köszönjük a támogatását!</trans>
+    </entry>
+    <entry>
+            <base>Download this report</base>
+            <trans>Töltse le ezt a jelentést !</trans>
+    </entry>
+    <entry>
+            <base>Report a bug</base>
+            <trans>Hiba bejelentése</trans>
+    </entry>
+
+</lexicon>

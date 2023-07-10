@@ -1,0 +1,106 @@
+<lexicon lang="pt-br">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Criar, modificar, ou remover cotas de contas de usuários</trans>
+    </entry>
+    <entry>
+      <base>UNABLE_TO_OPEN_ACCOUNTS</base>
+      <trans>Incapaz de abrir db de contas</trans>
+    </entry>
+    <entry>
+      <base>QUOTA_DESC</base>
+      <trans><![CDATA[ <p>Você pode configurar cotas de arquivo para usuários em seu sistema clicando em "Modificar" próximo a conta do usuário que você quer atualizar. <p>Se o usuário exceder ao "limite com período de carência", avisos serão gerados. Se este limite for excedido por mais de uma semana ou se o "Limite absoluto" for alcançado, o usuário não poderá mais salvar arquivos ou receber mensagens. <p>Configurar para '0' qualquer destes limites desabilita o controle de cota para o usuário correspondente. <p>O espaço em disco para cada usuário inclui o diretório particular (home), mensagem e os arquivos pertencentes ao usuário nos compartilhamentos. ]]></trans>
+    </entry>
+    <entry>
+      <base>CURRENT_USAGE_AND_SETTINGS</base>
+      <trans>Cotas de uso atuais e configurações</trans>
+    </entry>
+    <entry>
+      <base>LIMIT_WITH_GRACE</base>
+      <trans>Limite com período de carência</trans>
+    </entry>
+    <entry>
+      <base>LIMIT_WITH_GRACE_MB</base>
+      <trans>Limite com período de carência (MB)</trans>
+    </entry>
+    <entry>
+      <base>ABS_LIMIT</base>
+      <trans>Limite absoluto</trans>
+    </entry>
+    <entry>
+      <base>ABS_LIMIT_MB</base>
+      <trans>Limite absoluto (MB)</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_USAGE</base>
+      <trans>Uso atual (MB)</trans>
+    </entry>
+    <entry>
+      <base>COULD_NOT_GET_UID</base>
+      <trans>Incapaz de determinar o uid do usuário:</trans>
+    </entry>
+    <entry>
+      <base>ERR_NO_SUCH_ACCT</base>
+      <trans>Erro: não existe conta chamada:</trans>
+    </entry>
+    <entry>
+      <base>ERR_NOT_A_USER_ACCT</base>
+      <trans>Erro: a conta não é conta de usuário:</trans>
+    </entry>
+    <entry>
+      <base>ACCOUNT_IS_TYPE</base>
+      <trans>É uma conta do tipo:</trans>
+    </entry>
+    <entry>
+      <base>MODIFY_USER_TITLE</base>
+      <trans>Modificar limites de cota do usuário</trans>
+    </entry>
+    <entry>
+      <base>USER</base>
+      <trans>Usuário:</trans>
+    </entry>
+    <entry>
+      <base>CURRENTLY_HAS</base>
+      <trans>atualmente tem:</trans>
+    </entry>
+    <entry>
+      <base>FILES</base>
+      <trans>arquivos</trans>
+    </entry>
+    <entry>
+      <base>OCCUPYING</base>
+      <trans>ocupando:</trans>
+    </entry>
+    <entry>
+      <base>MEGABYTES</base>
+      <trans>megabytes</trans>
+    </entry>
+    <entry>
+      <base>INSTRUCTIONS</base>
+      <trans>Digite a quota com sufixo de unidade opcional 'K' para kilobytes, 'M' para megabytes, 'G' para gigabytes ou 'T' para terabytes. Entradas sem sufixo são assumidas como sendo em megabytes. Qualquer limite que estiver definido como '0'  indicará que o usuário correspondente não terá seu uso de espaço limitado.</trans>
+    </entry>
+    <entry>
+      <base>SOFT_VAL_MUST_BE_NUMBER</base>
+      <trans>Erro: limite com período de carência deve ser um número inteiro, opcionalmente seguido de um dos sufixos de unidade K, M, G ou T.</trans>
+    </entry>
+    <entry>
+      <base>HARD_VAL_MUST_BE_NUMBER</base>
+      <trans>Erro: limite absoluto deve ser um número inteiro, opcionalmente seguido de um dos sufixos de unidade K, M, G ou T.</trans>
+    </entry>
+    <entry>
+      <base>ERR_HARD_LT_SOFT</base>
+      <trans>Erro: limite absoluto tem que ser maior que o limite com tempo cedido.</trans>
+    </entry>
+    <entry>
+      <base>ERR_MODIFYING</base>
+      <trans>Ocorreu erro enquanto modificava usuário.</trans>
+    </entry>
+    <entry>
+      <base>SUCCESSFULLY_MODIFIED</base>
+      <trans>Sucesso ao modificar a cota da conta do usuário:</trans>
+    </entry>
+    <entry>
+	<base>Quotas</base>
+	<trans>Cotas</trans>
+    </entry>
+</lexicon>

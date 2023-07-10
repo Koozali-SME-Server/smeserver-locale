@@ -1,0 +1,171 @@
+<lexicon lang="sv">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Ändra inställningar för fjärråtkomst</trans>
+    </entry>	
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans>För varje val nedan gäller att de privata inställningarna tillåter vem som helst från ditt lokala nätverk att få åtkomst till din server. De publika inställningarna tillåter åtkomst från vilken plats som helt på Internet. Inställningen ingen åtkomst ger ingen åtkomst. För att förstå säkerhetspåverkan av dessa val från den förvalda inställningen, bör du läsa användarmanualens kapitel om fjärråtkomst (remote access).</trans>	
+    </entry>
+    <entry>
+	<base>SUCCESS</base>
+	<trans>De nya inställningarna för fjärråtkomst har sparats.</trans>
+    </entry>
+    <entry>
+	<base>NO_ACCESS</base>
+	<trans>Ingen åtkomst</trans>
+    </entry>
+    <entry>
+	<base>PASSWORD_LOGIN_PRIVATE</base>
+	<trans>Acceptera lösenord endast från det lokala nätverket</trans>
+    </entry>
+    <entry>
+	<base>PASSWORD_LOGIN_PUBLIC</base>
+	<trans>Acceptera lösenord från alla platser</trans>
+    </entry>
+    <entry>
+	<base>LABEL_TELNET_ACCESS</base>
+	<trans>Telnet åtkomst</trans>
+    </entry>
+    <entry>
+	<base>LABEL_FTP_ACCESS</base>
+	<trans>FTP åtkomst</trans>
+    </entry>
+    <entry>
+	<base>LABEL_FTP_LOGIN</base>
+	<trans>FTP åtkomst med lösenord</trans>
+    </entry>
+    <entry>
+	<base>LABEL_PPTP</base>
+	<trans>Antal PPTP klienter</trans>
+    </entry>
+     <entry>
+       <base>NUMBER_OF_VPN_CLIENTS_MUST_BE_LESSER_THAN_NUMBER_OF_IP_IN_DHCP_RANGE</base>
+       <trans>The number of VPN clients is greater than the number of reserved IP for DHCP. You should take a smaller number.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SSH_PORT</base>
+        <trans>TCP-port för secure shell åtkomst</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH</base>
+	<trans>Säker skalåtkomst</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH_ADMIN</base>
+	<trans>Tillåt administrativa kommandon över säkert skal</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH_PASSWORD_ACCESS</base>
+	<trans>Tillåt säker skalåtkomst med standardlösenorden</trans>
+    </entry>
+    <entry>
+	<base>DESC_SSH</base>
+	<trans><![CDATA[ <hr class="sectionbar"/><h2>Inställningar för säkert skal</h2>Du kan kontrollera åtkomsten via säkert skal till din server. Den publika inställningen bör endast tillåtas av erfarna administratörer för fjärrdiagnostik och för problemlösning. Vi rekommenderar att låta denna inställning vara "Ingen åtkomst" om du inte har ett speciellt skäl att göra annorlunda. ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_FTP_ACCESS</base>
+	<trans><![CDATA[ <hr class="sectionbar"/><h2>FTP-inställningar</h2> Du kan också kontrollera <b>FTP</b>-åtkomsten till din server. Vi rekommenderar att du låter denna inställning vara 'ingen åtkomst' om du inte har speciella skäl att göra annorlunda. <p> OBS: Dessa inställningar begränsar åtkomsten till servern och överrider andra inställningar, inklusive dem för information bays.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_FTP_LOGIN</base>
+	<trans><![CDATA[ Du kan också kontrollera autenticieringen av FTP-åtkomst till information bays och användarkonton. Vi rekommenderar starkt att du ställer in denna parameter till privata om du inte har speciella skäl att göra annorlunda. <p> OBS: En klient för säkert skal sftp kan även användas för åtkomst till servern, om fjärråtkomst via säkert skal är tillåten. Denna metod för fjärråtkomst skyddar lösenorden och data vid FTP sessionen, där standard FTP inte ger något skydd.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_PPTP</base>
+	<trans><![CDATA[ <hr class="sectionbar"/><h2>PPTP inställningar</h2> Du kan tillåta PPTP åtkomst till din server. Du bör ange denna inställning till Ej tillåten genom att ange värdet till 0 såvida du inte behöver PPTP åtkomst. ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_VPN</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>PPTP inställningar</h2> Du kan tillåta PPTP åtkomst till din server. Du bör ange denna inställning till Ej tillåten genom att ange värdet till 0 såvida du inte behöver PPTP åtkomst. ]]></trans>
+    </entry>
+    <entry>
+	<base>VALUE_ZERO_OR_POSITIVE</base>
+	<trans>Värdet måste vara noll eller ett positivt heltal</trans>
+    </entry>
+    <entry>
+	<base>REMOTE_MANAGEMENT</base>
+	<trans>Fjärråtkomst</trans>
+    </entry>
+    <entry>
+	<base>VALIDFROM_DESC</base>
+	<trans><![CDATA[ <hr class="sectionbar"/><h2>{$REMOTE_MANAGEMENT}</h2> <p>Det är möjligt att tillåta värdar på fjärrnätverk att komma åt serverhanteraren genom att ange de specifika nätverken här. Använd en subnätmask av formen 255.255.255.255 för att begränsa åtkomsten för en specik värd. Alla värdar inom det angivna intervallet kommer att få åtkomst till serverhanteraren genom att använda HTTPS.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_VALID_FROM_ENTRIES</base>
+	<trans>För att lägga till en nytt nätverk för fjärrhantering, ange värden nedan.</trans>
+    </entry>
+    <entry>
+	<base>SUBNET_MASK</base>
+	<trans>Subnätmask</trans>
+    </entry>
+    <entry>
+	<base>NUM_OF_HOSTS</base>
+	<trans>Antal värdar</trans>
+    </entry>
+    <entry>
+	<base>NO_ENTRIES_YET</base>
+	<trans>Det finns inga värden ännu</trans>
+    </entry>
+    <entry>
+	<base>INVALID_SUBNET_MASK</base>
+	<trans>Ogiltig subnätmask</trans>
+    </entry>
+    <entry>
+	<base>ERR_INVALID_PARAMS</base>
+	<trans>Antingen anger du både nätverk och subnätmask eller så lämnar du båda fälten tomma.</trans>
+    </entry>
+    <entry>
+	<base>ERR_NO_RECORD</base>
+	<trans>Kan inte hitta httpd-admin posten i konfigurationsdatabasen</trans>
+    </entry>
+    <entry>
+	<base>Remote access</base>
+	<trans>Fjärråtkomst</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERIAL_CONSOLE_ACCESS</base>
+        <trans>Seriell konsol</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERIAL_CONSOLE_ACCESS</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Seriell konsol</h2> Du kan tillåta åtkomst till serverkonsolen från en terminal ansluten till serverns serieport.]]></trans>
+    </entry>
+    <entry>
+        <base>PORT1_ENABLED</base>
+        <trans>Tillåten på serieport 1</trans>
+    </entry>
+    <entry>
+        <base>PORT2_ENABLED</base>
+        <trans>Tillåten på serieport 2</trans>
+    </entry>   
+
+    <entry>
+        <base>LABEL_PPTP_ACCESS</base>
+        <trans>PPTP förvald användaråtkomst</trans>
+    </entry>
+    <entry>
+        <base>DESC_TELNET_ACCESS</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Telnet-inställningar</h2> Varning: Telnet är för tillfället tillåten, med denna möjlighet stöds inte längre. Telnet är osäker och skall endast användas i de fall då inga andra pratiska alternativ finns. Du bör ändra valet till {$NO_ACCESS} och använda säkert skal om fjärråtkomst krävs. När den inte längre är tillåten, kommer telnet inte att synas på denna skärm. ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_IPSECRW</base>
+	<trans><![CDATA[ <h2>IPSEC.klient inställningar (Roadwarrior)</h2> Du kan tillåta åtkomst för IPSEC klient till din server, autenticierad av digitala certifikat. Du bör lämna detta val ej tillåtet genom att ange värdet till 0 om du inte har behov av åtkomst från en IPSEC-klient. ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_IPSECRW_SESS</base>
+	<trans>Antal IPSEC-klienter</trans>
+    </entry>
+    <entry>
+	<base>DESC_IPSECRW_RESET</base>
+	<trans><![CDATA[Om du önskar återställa alla digitala certifikat, kan du göra det här.<br>Alla gamla certifikat kommer inte längre att autenticieras mot denna server, därför behöver <b><i>alla IPSEC-klienter importera ett nytt certifikat!</i></b>. ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_IPSECRW_RESET</base>
+	<trans>Återställ digitala certifikat</trans>
+    </entry>
+    <entry>
+        <base>DESC_IPSEC_VPN_UNAVAILABLE</base>
+        <trans>IPSEC VPN is not installed. Please install the contrib if you need VPN access.</trans>
+    </entry>
+</lexicon>

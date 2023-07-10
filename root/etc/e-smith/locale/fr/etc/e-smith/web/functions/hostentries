@@ -1,0 +1,180 @@
+<lexicon lang="fr" params="lexicon_params()">
+    <!-- vim: ft=xml
+    -->
+    <entry>
+        <base>Hostnames and addresses</base>
+        <trans>Gestion des noms d'hôte et des adresses</trans>
+    </entry>
+    <entry>
+        <base>UNABLE_TO_OPEN_CONFIGDB</base>
+        <trans>Impossible d'ouvrir la base de données de configuration.</trans>
+    </entry>
+    <entry>
+        <base>DNS_FORWARDER_ENABLED</base>
+        <trans>Un achemineur DNS a été configuré. Cela signifie que toutes les résolutions DNS seront traitées par cet achemineur. Les noms et les adresses d'hôte ne peuvent être modifiés sur ce serveur lorsqu'un achemineur DNS est configuré.</trans>
+    </entry>
+    <entry>
+        <base>ADD_HOSTNAME</base>
+        <trans><![CDATA[ <a class="button-like" href="hostentries?page=0&page_stack=&Next=Next&wherenext=CreateModify">Ajouter un nom d'hôte</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME</base>
+        <trans>Nom d'hôte</trans>
+    </entry>
+    <entry>
+        <base>HOSTTYPE</base>
+        <trans>Emplacement</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP</base>
+        <trans>Adresse IP locale</trans>
+    </entry>
+    <entry>
+        <base>ETHERNET_ADDRESS</base>
+        <trans>Adresse Ethernet</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_HOSTNAMES_FOR_DOMAIN</base>
+        <trans>Liste actuelle des noms d'hôte pour le domaine "{$domain}" :</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTNAMES_FOR_SERVICENAME</base>
+        <trans>Il n'y a aucun nom d'hôte dans le système pour "{$serviceName}".</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_HOSTNAMES_FOR_LOCAL_DOMAIN</base>
+        <trans>Liste actuelle des noms d'hôte pour le domaine local "{$localDomainName}" :</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTNAMES_FOR_LOCAL_DOMAIN</base>
+        <trans>Il n'y a aucun nom d'hôte dans le système pour le domaine local "{$localDomainName}".</trans>
+    </entry>
+    <entry>
+        <base>STATIC_HOST_MESSAGE</base>
+        <trans>Ce nom d'hôte représente le nom de votre serveur et ne peut être modifié ni supprimé.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_LOCAL_HOST_TITLE</base>
+        <trans>Créer un nouveau nom d'hôte pour ce serveur</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_VALIDATION_ERROR</base>
+        <trans>ERREUR : caractères inattendus dans le nom d'hôte "{$HostName}". Un nom d'hôte ne doit contenir que des lettres, des chiffres et des traits d'union et doit commencer par une lettre ou un chiffre.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_LENGTH_ERROR</base>
+        <trans>ERREUR : le nom d'hôte "{$HostName}" trop long. Le nombre maximum de caractères ne peut dépasser 32.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_VALIDATION_ERROR</base>
+        <trans>ERREUR : caractères inattendus ou manquants dans nom de domaine "{$DomainName}". Le nom du domaine doit contenir au moins une lettre, des chiffres, des points et des traits d'union. Le domaine n'a pas été créé.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_EXISTS_ERROR</base>
+        <trans>ERREUR : le nom d'hôte "{$fullHostName}" ne peut être créé car il existe déjà un compte {$type} avec ce nom.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>Nom d'hôte créé avec succès.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_DESCRIPTION</base>
+        <trans>Le nom d'hôte ne doit contenir que des lettres, chiffres et traits d'union et commencer par une lettre ou un chiffre.</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP_DESCRIPTION</base>
+        <trans>L'adresse IP locale est l'adresse IP d'une autre machine du réseau local. Veuillez taper une adresse IP valide de la forme "aaa.bbb.ccc.ddd".</trans>
+    </entry>
+    <entry>
+        <base>ETHERNET_ADDRESS_DESCRIPTION</base>
+        <trans>L'adresse Ethernet est facultative et permet au serveur DHCP d'attribuer une adresse IP fixe locale à l'ordinateur possédant cette adresse Ethernet. Si elle est spécifiée, elle doit être de la forme "AA:BB:CC:DD:EE:FF" et ne contenir que des chiffres entre 0 et 9 et des lettres entre A et F.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_LOCAL_HOST_TITLE</base>
+        <trans>Créer un nouveau nom d'hôte faisant référence à un hôte local</trans>
+    </entry>
+    <entry>
+        <base>DIDNT_ENTER_LOCAL_IP</base>
+        <trans>ERREUR : vous n'avez pas spécifié d'adresse IP locale. Les adresses IP ne doivent contenir que des chiffres et des points de la forme "aaa.bbb.ccc.ddd". Le nom d'hôte n'a pas été créé.</trans>
+    </entry>
+    <entry>
+        <base>IP_VALIDATION_ERROR</base>
+        <trans>ERREUR : l'adresse IP "{$InternalIP}" n'est pas valide. Les adresses IP ne doivent contenir que des chiffres et des points de la forme "aaa.bbb.ccc.ddd". Le nom d'hôte n'a pas été créé.</trans>
+    </entry>
+    <entry>
+        <base>MAC_ADDRESS_VALIDATION_ERROR</base>
+        <trans>ERREUR : l'adresse Ethernet {$MACAddress} n'est pas valide. Les adresses Ethernet doivent être de la forme "AA:BB:CC:DD:EE:FF" et ne contenir que des chiffres entre 0 et 9 et des lettres entre A et F. Le nom d'hôte n'a pas été créé.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_REMOTE_HOST_TITLE</base>
+        <trans>Créer un nouveau nom d'hôte faisant référence à un hôte distant</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Créer ou modifier un nom d'hôte</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_PAGE_DESCRIPTION</base>
+        <trans>Veuillez entrer les éléments supplémentaires suivants pour un hôte local :</trans>
+    </entry>
+    <entry>
+        <base>REMOTE_PAGE_DESCRIPTION</base>
+        <trans>Veuillez entrer les éléments supplémentaires suivants pour un hôte distant :</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>L'hôte a été supprimé avec succès.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>L'hôte a été modifié avec succès.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_PAGE_DESCRIPTION</base>
+        <trans><![CDATA[ <p>Vous êtes sur le point de supprimer le nom d'hôte "{$hostname}.{$domain}".</p> <p><b>Voulez-vous vraiment supprimer ce nom d'hôte ?</b></p> ]]></trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DESCRIPTION</base>
+        <trans>Veuillez confirmer les éléments suivants :</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTS_FOR_THIS_DOMAIN</base>
+        <trans>Il n'y a aucun nom d'hôte défini pour ce domaine.</trans>
+    </entry>
+    <entry>
+        <base>ADDR_IN_DHCP_RANGE</base>
+        <trans>L'adresse est comprise dans la plage d'allocation dynamique d'adresses DHCP.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_HOST</base>
+        <trans>Une erreur est survenue pendant la création du nom d'hôte.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_HOST</base>
+        <trans>Une erreur est survenue pendant la modification du nom d'hôte.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_HOST</base>
+        <trans>Une erreur est survenue pendant la suppression du nom d'hôte.</trans>
+    </entry>
+    <entry>
+        <base>ERR_IP_IS_LOCAL_OR_GATEWAY</base>
+        <trans>ERREUR : l'adresse IP ne peut être celle du serveur ou de la passerelle.</trans>
+    </entry>
+    <entry>
+        <base>ERR_IP_NOT_LOCAL</base>
+        <trans>ERREUR : cette adresse IP n'appartient à aucun de vos réseaux locaux.</trans>
+    </entry>
+    <entry>
+        <base>MUST_BE_VALID_HOSTNAME_OR_IP</base>
+        <trans>La valeur doit être un nom d'hôte ou une adresse IP valide</trans>
+    </entry>
+  <entry>
+   <base>HOSTNAME_COMMENT_ERROR</base>
+    <trans>ERREUR : caractères inattendus dans le nom d'hôte "{$hostname}.{$domain}". Un nom d'hôte ne doit contenir que des lettres, des chiffres, des points, des virgules, des underscores, des traits d'union et doit commencer par une lettre ou un chiffre.</trans>
+  </entry>
+    <entry>
+      <base>HOSTNAME_VALIDATOR_ERROR</base>
+    <trans>ERREUR : caractères inattendus dans le nom d'hôte "{$hostname}.{$domain}". Un nom d'hôte ne doit contenir que des lettres, des chiffres et des traits d'union et doit commencer par une lettre ou un chiffre.</trans>
+  </entry>
+</lexicon>

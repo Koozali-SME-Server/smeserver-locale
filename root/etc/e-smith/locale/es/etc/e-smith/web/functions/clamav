@@ -1,0 +1,38 @@
+<lexicon lang="es">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Ajustes del antivirus</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FILESYSTEM_SCAN_PERIOD</base>
+        <trans>Escanear completamente el sistema de archivos</trans>
+    </entry>
+    <entry>
+        <base>DESC_FILESYSTEM_SCAN_PERIOD</base>
+        <trans><![CDATA[ <h2>Configuración General</h2> Si esta opción es habilitada, entonces el sistema de archivos será escaneado en busca de virus. Un informe de cualquier virus hallado será enviado por email al administrador.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_QUARANTINE</base>
+        <trans>Archivos infectados en cuarentena</trans>
+    </entry>
+    <entry>
+        <base>LABEL_CLAM_VERSIONS</base>
+        <trans>Versiones de ClamAV y db</trans>
+    </entry>
+    <entry>
+      <base>WEEKLY</base>
+      <trans>Semanal</trans>
+    </entry>
+    <entry>
+      <base>NEVER</base>
+      <trans>Nunca</trans>
+    </entry>
+    <entry>
+      <base>DAILY</base>
+      <trans>Diariamente</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>La nueva configuración del antivirus clamav ha sido guardada.</trans>
+    </entry>
+</lexicon>

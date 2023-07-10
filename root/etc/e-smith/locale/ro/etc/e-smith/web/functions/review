@@ -1,0 +1,126 @@
+<lexicon lang="ro">
+    <entry>
+        <base>Review configuration</base>
+        <trans>Verifică configurări</trans>
+    </entry>	
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans>Acest raport însumează setările de rețea, server și parametrii de domeniu  pentru a configura calculatoarele client în rețeaua dumenavoastră. Puteți imprima această pagină pentru referințe.</trans>	
+    </entry>
+    <entry>
+        <base>NETWORKING_PARAMS</base>
+        <trans>Paramentrii rețea</trans>
+    </entry> 
+    <entry>
+        <base>SERVER_MODE</base>
+        <trans>Tip server</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP_ADDRESS_SUBNET_MASK</base>
+        <trans>Adresa locală IP / mască subrețea</trans>
+    </entry>
+    <entry>
+        <base>EXTERNAL_IP_ADDRESS_SUBNET_MASK</base>
+        <trans>Adresă externă / mască subrețea</trans>
+    </entry>
+    <entry>
+        <base>GATEWAY</base>
+        <trans>Poartă (gateway)</trans>
+    </entry>
+    <entry>
+        <base>ADDITIONAL_LOCAL_NETWORKS</base>
+        <trans>Rețele locale adiționale</trans>
+    </entry>
+    <entry>
+        <base>DHCP_SERVER</base>
+        <trans>Server DHCP</trans>
+    </entry>
+    <entry>
+        <base>BEGINNING_OF_DHCP_ADDRESS_RANGE</base>
+        <trans>Început adrese DHCP</trans>
+    </entry>
+    <entry>
+        <base>END_OF_DHCP_ADDRESS_RANGE</base>
+        <trans>Sfârșit adrese DHCP</trans>
+    </entry>
+    <entry>
+        <base>SERVER_NAMES</base>
+        <trans>Nume server</trans>
+    </entry>
+    <entry>
+        <base>DNS_SERVER</base>
+        <trans>server DNS</trans>
+    </entry>
+    <entry>
+        <base>WEB_SERVER</base>
+        <trans>server Web</trans>
+    </entry>
+    <entry>
+        <base>PROXY_SERVER</base>
+        <trans>server Proxy</trans>
+    </entry>
+    <entry>
+        <base>FTP_SERVER</base>
+        <trans>server FTP</trans>
+    </entry>
+    <entry>
+        <base>SMTP_POP_AND_IMAP_MAIL_SERVERS</base>
+        <trans>servere de mail SMTP, POP și IMAP</trans>
+    </entry>
+    <entry>
+        <base>HOSTS</base>
+        <trans>Gazdă</trans>
+    </entry> 
+    <entry>
+        <base>DOMAIN_INFORMATION</base>
+        <trans>Informații domeniu</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_DOMAIN</base>
+        <trans>Domeniu primar</trans>
+    </entry>
+    <entry>
+        <base>VIRTUAL_DOMAINS</base>
+        <trans>Domenii virtuale</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_WEB_SITE</base>
+        <trans>Site web primar</trans>
+    </entry>
+    <entry>
+        <base>MITEL_NETWORKS_SME_SERVER_MANAGER</base>
+        <trans>Manager server</trans>
+    </entry>
+    <entry>
+        <base>MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL</base>
+        <trans>Panou de parola utilizator</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_ADDRESSES</base>
+        <trans>Adresă Email</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_USERACCOUNT</base>
+        <trans>Cont utilizator</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_FIRSTNAME</base>
+        <trans>Prenume</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_LASTNAME</base>
+        <trans>Nume (familie)</trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>Nici un domeniu virtual definit</trans>
+    </entry>
+    <entry>
+        <base>NO_NETWORKS</base>
+        <trans>Nici o rețea adițională definită</trans>
+    </entry>
+    <entry>
+        <base>INTERNET_VISIBLE_ADDRESS</base>
+        <trans>Adresa IP vizibilă Internet</trans>
+    </entry>
+</lexicon>

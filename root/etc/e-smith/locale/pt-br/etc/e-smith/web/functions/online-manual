@@ -1,0 +1,15 @@
+<lexicon lang="pt-br">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>Manual online e outra documentação</trans>
+      </entry>	
+      <entry> 
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ <p> O manual online esta disponível em: <a target="new" href="https://wiki.koozali.org/documentation/manual/"> https://wiki.koozali.org/documentation/manual/</a> </p> ]]></trans>
+      </entry>		
+      <entry>
+	<base>Online manual</base>
+	<trans>Manual online</trans>
+      </entry>
+
+</lexicon>

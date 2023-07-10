@@ -1,0 +1,79 @@
+<lexicon lang="ro">
+   <entry>
+     <base>FORM_TITLE</base>
+       <trans>Schimbă setările directorului LDAP</trans>
+   </entry>	
+<entry>
+<base>LABEL_ROOT</base>
+<trans>Rădăcina serverului LDAP </trans>
+</entry>
+
+<entry>
+<base>DESCRIPTION</base>
+<trans>Serverul LDAP furnizează o listă a conturilor de utilizatori şi a grupurilor disponibile în reţeaua locală, şi poate fi accesat utlizând un client LDAP ca de exemplu facilitatea Address book din Netscape Communicator. Configuraţi clientul LDAP folosit cu adresa IP a serverului din reţeaua locală, portul 389, şi parametrii utilizatorului root al serverului prezentaţi mai jos.</trans>
+</entry>
+<entry>
+<base>DESC_DIRECTORY_ACCESS</base>
+<trans>Puteți controla accesul la LDAP.Accesul privat permite doar rețelei locale, cel public permite accesul de oriunde de pe internet.</trans>
+</entry>
+<entry>
+<base>DIRECTORY_ACCESS</base>
+<trans>Acces la înregistrările LDAP</trans>
+</entry>
+<entry>
+	<base>DESC_DEPARTMENT</base>
+<trans>Aceste câmpuri sunt parametrii LDAP impliciţi pentru organizaţia dumneavoastră. De fiecare dată când creaţi un cont de utilizator nou vi se va cere introducerea acestor câmpuri (ele pot fi diferite pentru fiecare utilizator) dar valorile introduse aici vă vor fi sugerate implicit.</trans>
+</entry>
+<entry>
+        <base>DEPARTMENT</base>
+        <trans>Departament implicit</trans>
+</entry>
+
+<entry>
+        <base>COMPANY</base>
+        <trans>Companie implicită</trans>
+</entry>
+<entry>
+        <base>STREET</base>
+        <trans>Stradă implicită</trans>
+</entry>
+
+<entry>
+        <base>CITY</base>
+        <trans>Localitate implicită</trans>
+</entry>
+
+<entry>
+        <base>PHONENUMBER</base>
+        <trans>Număr de telefon implicit</trans>
+</entry>
+
+<entry>
+<base>DESC_EXISTING</base>
+<trans>Puteţi lăsa conturile de utilizator existente neschimbate şi să folosiţi valorile implicite de mai sus pentru utilizatorii nou-creaţi, sau puteţi atribui valorile implicite tuturor utilizatorilor existenţi.</trans>
+</entry>
+
+
+
+<entry>
+<base>EXISTING</base>
+<trans>Utilizatori existenţi</trans>
+</entry>
+<entry>
+<base>SUCCESS</base>
+<trans>Noile setări LDAP implicite au fost salvate.</trans>
+</entry>
+
+<entry>
+<base>LEAVE</base>
+<trans>Lăsați-i asa cum sunt</trans>
+</entry>
+<entry>
+<base>UPDATE</base>
+<trans>Modifică noile valori implicite</trans>
+</entry>
+    <entry>
+        <base>Directory</base>
+        <trans>Director</trans>
+    </entry>
+</lexicon>

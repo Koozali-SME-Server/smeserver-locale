@@ -1,0 +1,126 @@
+<lexicon lang="hu">
+    <entry>
+        <base>Review configuration</base>
+        <trans>Konfiguráció áttekintése</trans>
+    </entry>	
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans>Ez a jelentés összefoglalja a hálózati, szerver és domén paraméterek beállításait ezen a szerveren, melyek szükségesek a hálózat kliens gépeinek konfigurálásához. Ez az oldal kinyomtatható és referenciaként használható.</trans>	
+    </entry>
+    <entry>
+        <base>NETWORKING_PARAMS</base>
+        <trans>Hálózati paraméterek</trans>
+    </entry> 
+    <entry>
+        <base>SERVER_MODE</base>
+        <trans>Szerver mód</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP_ADDRESS_SUBNET_MASK</base>
+        <trans>Helyi IP cím / alhálózati maszk</trans>
+    </entry>
+    <entry>
+        <base>EXTERNAL_IP_ADDRESS_SUBNET_MASK</base>
+        <trans>Külső IP cím / alhálózati maszk</trans>
+    </entry>
+    <entry>
+        <base>GATEWAY</base>
+        <trans>Átjáró</trans>
+    </entry>
+    <entry>
+        <base>ADDITIONAL_LOCAL_NETWORKS</base>
+        <trans>További helyi hálózatok</trans>
+    </entry>
+    <entry>
+        <base>DHCP_SERVER</base>
+        <trans>DHCP szerver</trans>
+    </entry>
+    <entry>
+        <base>BEGINNING_OF_DHCP_ADDRESS_RANGE</base>
+        <trans>DHCP címtartomány kezdete</trans>
+    </entry>
+    <entry>
+        <base>END_OF_DHCP_ADDRESS_RANGE</base>
+        <trans>DHCP címtartomány vége</trans>
+    </entry>
+    <entry>
+        <base>SERVER_NAMES</base>
+        <trans>Szerver nevek</trans>
+    </entry>
+    <entry>
+        <base>DNS_SERVER</base>
+        <trans>DNS szerver</trans>
+    </entry>
+    <entry>
+        <base>WEB_SERVER</base>
+        <trans>Web szerver</trans>
+    </entry>
+    <entry>
+        <base>PROXY_SERVER</base>
+        <trans>Proxy szerver</trans>
+    </entry>
+    <entry>
+        <base>FTP_SERVER</base>
+        <trans>FTP szerver</trans>
+    </entry>
+    <entry>
+        <base>SMTP_POP_AND_IMAP_MAIL_SERVERS</base>
+        <trans>SMTP, POP, és IMAP levelező szerverek</trans>
+    </entry>
+    <entry>
+        <base>HOSTS</base>
+        <trans>Kiszolgálók</trans>
+    </entry> 
+    <entry>
+        <base>DOMAIN_INFORMATION</base>
+        <trans>Domén információ</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_DOMAIN</base>
+        <trans>Elsődleges domén</trans>
+    </entry>
+    <entry>
+        <base>VIRTUAL_DOMAINS</base>
+        <trans>Virtuális domének</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_WEB_SITE</base>
+        <trans>Elsődleges webhely</trans>
+    </entry>
+    <entry>
+        <base>MITEL_NETWORKS_SME_SERVER_MANAGER</base>
+        <trans>Szerver kezelő</trans>
+    </entry>
+    <entry>
+        <base>MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL</base>
+        <trans>Felhasználói jelszó panel</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_ADDRESSES</base>
+        <trans>Email címek</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_USERACCOUNT</base>
+        <trans>felhasználói fiók</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_FIRSTNAME</base>
+        <trans>Keresztnév</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_LASTNAME</base>
+        <trans>Vezetéknév</trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>Nincsenek virtuális domének létrehozva</trans>
+    </entry>
+    <entry>
+        <base>NO_NETWORKS</base>
+        <trans>Nincsenek további hálózatok létrehozva</trans>
+    </entry>
+    <entry>
+        <base>INTERNET_VISIBLE_ADDRESS</base>
+        <trans>Interneten látható IP cím</trans>
+    </entry>
+</lexicon>

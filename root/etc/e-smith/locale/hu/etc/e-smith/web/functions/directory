@@ -1,0 +1,79 @@
+<lexicon lang="hu">
+   <entry>
+     <base>FORM_TITLE</base>
+       <trans>LDAP címtár beállításainak módosítása</trans>
+   </entry>	
+<entry>
+<base>LABEL_ROOT</base>
+<trans>Szerver gyökér</trans>
+</entry>
+
+<entry>
+<base>DESCRIPTION</base>
+<trans>Az LDAP szerver a hálózat számára információkat szolgáltat a szerver felhasználóiról és felhasználói csoportjairól, amelyek egy LDAP kliens segítségével jeleníthetők meg. Ilyen például a Netscape Communicator címjegyzék szolgáltatása. Állítsa be az LDAP kliensében a szerver IP címét, a 389 porton, valamint az alábbi szerver paramétereket.</trans>
+</entry>
+<entry>
+<base>DESC_DIRECTORY_ACCESS</base>
+<trans>Szabályozhatja az LDAP címtárhoz való hozzáférést: A private beállítás csak a helyi hálózatból teszi elérhetővé a címtárat, míg a public beállítás az internetről is hozzáférhetővé teszi.</trans>
+</entry>
+<entry>
+<base>DIRECTORY_ACCESS</base>
+<trans>LDAP címtár hozzáférés</trans>
+</entry>
+<entry>
+	<base>DESC_DEPARTMENT</base>
+<trans>Ezek a mezők az ön szervezetének alapértelmezett adatait tartalmazzák. Mikor új felhasználót hoz létre, ugyanezen mezőkben meg kell adnia a felhasználó adatait (minden felhasználóé lehet más), de alapértelmezetten az itt beállított értékek fognak megjelenni a mezőkben. Ez csak egy segítség a felhasználói fiókok gyorsabb létrehozásához.</trans>
+</entry>
+<entry>
+        <base>DEPARTMENT</base>
+        <trans>Alapértelmezett részleg</trans>
+</entry>
+
+<entry>
+        <base>COMPANY</base>
+        <trans>Alapértelmezett cégnév</trans>
+</entry>
+<entry>
+        <base>STREET</base>
+        <trans>Alapértelmezett cím</trans>
+</entry>
+
+<entry>
+        <base>CITY</base>
+        <trans>Alapértelmezett település</trans>
+</entry>
+
+<entry>
+        <base>PHONENUMBER</base>
+        <trans>Alapértelmezett telefonszám</trans>
+</entry>
+
+<entry>
+<base>DESC_EXISTING</base>
+<trans>Változatlanul hagyhatja a meglévő felhasználói fiókokat, a fenti alapértelmezéseket csak az új felhasználóknál használja, vagy pedig az összes felhasználóra beállíthatja az alapértelmezéseket.</trans>
+</entry>
+
+
+
+<entry>
+<base>EXISTING</base>
+<trans>Létező felhasználók</trans>
+</entry>
+<entry>
+<base>SUCCESS</base>
+<trans>Az új LDAP alapértelmezések le lettek mentve.</trans>
+</entry>
+
+<entry>
+<base>LEAVE</base>
+<trans>Változatlanul hagyni</trans>
+</entry>
+<entry>
+<base>UPDATE</base>
+<trans>Az új beállítások használata</trans>
+</entry>
+    <entry>
+        <base>Directory</base>
+        <trans>Címtár</trans>
+    </entry>
+</lexicon>

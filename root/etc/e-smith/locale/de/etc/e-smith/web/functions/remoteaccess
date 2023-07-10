@@ -1,0 +1,171 @@
+<lexicon lang="de">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Fernzugriffseinstellungen ändern</trans>
+    </entry>	
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans>Für jede der unteren Optionen erlaubt die Einstellung Privar jedem Ihres lokalen Netzwerks den Zugang zu Ihrem Server. Die Einstellung Öffentlich erlaubt den Zugriff von überall aus dem Internet. Die Einstellung Kein Zugriff deaktiviert den Zugriff. Bevor Sie die Standardwerte dieser Optionen verändern, sollten Sie die mit einer Veränderung verbundenen Sicherheitsrisiken verstehen, lesen Sie hierzu die Kapitel zum Fernzugriff in der Benutzeranleitung.</trans>	
+    </entry>
+    <entry>
+	<base>SUCCESS</base>
+	<trans>Die neuen Fernzugriffseinstellungen wurden gespeichert.</trans>
+    </entry>
+    <entry>
+	<base>NO_ACCESS</base>
+	<trans>Kein Zugang</trans>
+    </entry>
+    <entry>
+	<base>PASSWORD_LOGIN_PRIVATE</base>
+	<trans>Kennwörter nur aus den lokalen Netzwerken akzeptieren</trans>
+    </entry>
+    <entry>
+	<base>PASSWORD_LOGIN_PUBLIC</base>
+	<trans>Kennwörter von überall akzeptieren</trans>
+    </entry>
+    <entry>
+	<base>LABEL_TELNET_ACCESS</base>
+	<trans>Telnet Zugriff</trans>
+    </entry>
+    <entry>
+	<base>LABEL_FTP_ACCESS</base>
+	<trans>FTP Zugriff</trans>
+    </entry>
+    <entry>
+	<base>LABEL_FTP_LOGIN</base>
+	<trans>FTP Zugriff mit Kennwort</trans>
+    </entry>
+    <entry>
+	<base>LABEL_PPTP</base>
+	<trans>Anzahl der PPTP Clients</trans>
+    </entry>
+     <entry>
+       <base>NUMBER_OF_VPN_CLIENTS_MUST_BE_LESSER_THAN_NUMBER_OF_IP_IN_DHCP_RANGE</base>
+       <trans>Die Anzahl der VPN Clients ist größer als die Anzahl der für DHCP reservierten IP-Adressen. Sie sollten eine kleinere Anzahl einstellen.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SSH_PORT</base>
+        <trans>TCP-Port für den SSH-Zugriff</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH</base>
+	<trans>Sicherer Zugriff über SSH</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH_ADMIN</base>
+	<trans>Administrativen Konsolenzugriff über einen sicheren SSH-Zugang erlauben</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH_PASSWORD_ACCESS</base>
+	<trans>Den sicheren SSH-Zugriff mit Standard-Kennwörtern erlauben</trans>
+    </entry>
+    <entry>
+	<base>DESC_SSH</base>
+	<trans><![CDATA[ <hr class="sectionbar"/><h2>Einstellung für sicheren SSH-Zugriff</h2> Sie können den Zugriff zu Ihrem Server per sicherem SSH gestatten. Der Öffentliche Zugang sollte nur von erfahrenen Administratoren zur Diagnose und Fehlerbehebung aktiviert werden. Wir empfehlen den Parameter auf "Kein Zugang" eingestellt zu lassen, außer Sie haben besondere Gründe, dies zu ändern. ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_FTP_ACCESS</base>
+	<trans><![CDATA[ <hr class="sectionbar"/><h2>FTP Einstellungen</h2> Sie können auch den <b>FTP Zugriff</b> zu Ihrem Server gestatten. Wir empfehlen jedoch diesen Parameter auf 'Kein Zugang' zu belassen, außer Sie haben besondere Gründe dies zu ändern. <p> Anmerkung: Diese Einstellungen begrenzen den Zugriff zu Ihrem Server und überschreiben andere Einstellungen, auch die für einzelne i-bays.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_FTP_LOGIN</base>
+	<trans><![CDATA[ Sie können auch den authentifizierten FTP Zugriff zu Ihren i-bays und Benutzerkonten kontrollieren. Wir empfehlen Ihnen dringend die Einstellung auf Privat zu belassen, außer Sie haben besondere Gründe, dies zu ändern. <p> Anmerkung: Eine sichere sftp Client Datenübertragung kann auch für den Zugang zu Ihrem Server gewählt werden, wenn der Fernzugriff über eine sichere SSH Datenübertregung aktiviert wurde. Diese Zugriffsmethode schützt Ihr Passwort sowie Ihre Daten einer FTP Sitzung, wohingegen Standard FTP keinen Schutz bietet.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_PPTP</base>
+	<trans><![CDATA[ <hr class="sectionbar"/><h2>PPTP Einstellungen</h2> Sie können den PPTP Zugang zu Ihrem Server erlauben. Sie sollten diese Funktion durch Eingabe einer 0 deaktivieren, außer Sie benötigen den PPTP Zugang. ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_VPN</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>VPN Einstellungen</h2> Sie können den PPTP Zugang zu Ihrem Server erlauben. Sie sollten diese Funktion durch Eingabe einer 0 deaktivieren, außer Sie benötigen den VPN Zugang. ]]></trans>
+    </entry>
+    <entry>
+	<base>VALUE_ZERO_OR_POSITIVE</base>
+	<trans>Dieser Wert muß 0 oder ganzzahlig positiv sein</trans>
+    </entry>
+    <entry>
+	<base>REMOTE_MANAGEMENT</base>
+	<trans>Fernzugriffs-Management</trans>
+    </entry>
+    <entry>
+	<base>VALIDFROM_DESC</base>
+	<trans><![CDATA[ <hr class="sectionbar" /><h2>{$REMOTE_MANAGEMENT}</h2> <p> Es ist möglich, Hosts aus entfernten Netzwerken den Zugriff auf den Server Manager zu erlauben, hierzu hinterlegen Sie diese Netzwerke hier. Verwenden Sie die Subnetz-Maske 255.255.255.255, um den Zugang auf einen bestimmten Host zu beschränken. Jeder Host im spezifizierten Bereich kann den Server Manager über HTTPS erreichen.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_VALID_FROM_ENTRIES</base>
+	<trans>Um den Fernzugriff für ein neues entferntes Netzwerk zu erlauben, geben Sie unten die Daten für das Netzwerk ein.</trans>
+    </entry>
+    <entry>
+	<base>SUBNET_MASK</base>
+	<trans>Subnetz-Maske</trans>
+    </entry>
+    <entry>
+	<base>NUM_OF_HOSTS</base>
+	<trans>Anzahl von Hosts</trans>
+    </entry>
+    <entry>
+	<base>NO_ENTRIES_YET</base>
+	<trans>Es sind noch keine Eingaben vorhanden</trans>
+    </entry>
+    <entry>
+	<base>INVALID_SUBNET_MASK</base>
+	<trans>Ungültige Subnetz-Maske</trans>
+    </entry>
+    <entry>
+	<base>ERR_INVALID_PARAMS</base>
+	<trans>Geben Sie entweder sowohl Netzwerk als auch Subnetz-Maske ein, oder lassen sie beide Felder leer.</trans>
+    </entry>
+    <entry>
+	<base>ERR_NO_RECORD</base>
+	<trans>Es ist nicht möglich den http-admin Eintrag in der Konfigurationsdatenbank zu finden</trans>
+    </entry>
+    <entry>
+	<base>Remote access</base>
+	<trans>Fernzugriff</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERIAL_CONSOLE_ACCESS</base>
+        <trans>Serielle Konsole</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERIAL_CONSOLE_ACCESS</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Serielle Konsole</h2> Sie können den Zugang zu der Server-Konsole über die serielle Schnittstelle des Servers von einem Terminal aus erlauben.]]></trans>
+    </entry>
+    <entry>
+        <base>PORT1_ENABLED</base>
+        <trans>Aktiviert auf seriellem Port 1</trans>
+    </entry>
+    <entry>
+        <base>PORT2_ENABLED</base>
+        <trans>Aktiviert auf seriellem Port 2</trans>
+    </entry>   
+
+    <entry>
+        <base>LABEL_PPTP_ACCESS</base>
+        <trans>PPTP Standardbenutzerzugang</trans>
+    </entry>
+    <entry>
+        <base>DESC_TELNET_ACCESS</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Telnet Einstellungen</h2> WARNUNG: Telnet ist zurzeit aktiviert, aber diese Funktion wird nicht weiter unterstützt. Telnet ist schon an sich sehr unsicher und sollte nur dort verwendet werden, wo keine vernünftigen Alternativen vorhanden sind. Sie sollten die Option auf {$NO_ACCESS} setzen und sollten eine sichere SSH Datenübertragung wählen, wenn der Fernzugriff benötigt wird. Wenn telnet je deaktiviert würde, wird die telnet Funktion auf dieser Seite nicht mehr zur Verfügung stehen. ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_IPSECRW</base>
+	<trans><![CDATA[ <h2>IPSEC Client (Roadwarrior) Einstellungen</h2> Sie können IPSEC Clients unter Verwendung eines authentifizierten digitalen Zertifikats den Zugriff auf Ihren Server erlauben. Sie sollten diese Funktion durch Eingabe von 0 deaktiviert lassen, außer Sie benötigen den IPSEC Client Zugang. ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_IPSECRW_SESS</base>
+	<trans>Anzahl von IPSEC clients</trans>
+    </entry>
+    <entry>
+	<base>DESC_IPSECRW_RESET</base>
+	<trans><![CDATA[ Wenn Sie alle digitalen Zertifikate zurücksetzen möchten, können Sie dies hier tun.<br>Alle alten Zertifikate werden gegenüber dem Server nicht mehr authentifiziert, darum <b><i> müssen alle IPSEC clients ein neues Zertifikat importieren!</i></b> ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_IPSECRW_RESET</base>
+	<trans>Digitale Zertifikate zurücksetzen</trans>
+    </entry>
+    <entry>
+        <base>DESC_IPSEC_VPN_UNAVAILABLE</base>
+        <trans>IPSEC VPN ist nicht installiert. Bitte installieren sie das Contrib, wenn sie VPN benötigen.</trans>
+    </entry>
+</lexicon>

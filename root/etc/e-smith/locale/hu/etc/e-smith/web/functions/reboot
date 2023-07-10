@@ -1,0 +1,42 @@
+<lexicon lang="hu">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Leállítás vagy újraindítás</trans>
+    </entry>
+    <entry>
+	<base>REBOOT</base>
+	<trans>Újraindítás</trans>
+    </entry>
+    <entry>
+	<base>REBOOT_SUCCEEDED</base>
+	<trans>Újraindítási kérelem feldolgozva.</trans>
+    </entry>
+    <entry>
+	<base>DESC_REBOOT</base>
+	<trans>A szerver elindította az újraindítási folyamatot.</trans>
+    </entry>
+    <entry>
+	<base>RECONFIGURE_SUCCEEDED</base>
+	<trans>Újrakonfigurálási kérelem feldolgozva.</trans>
+    </entry>
+    <entry>
+	<base>DESC_RECONFIGURE</base>
+	<trans>A szerver elindította a teljes rendszer újrakonfigurálását és újraindítását.</trans>
+    </entry>
+    <entry>
+	<base>DESC_SHUTDOWN</base>
+	<trans>A szerver elindította leállítási folyamatot. A folyamat befejezése akár több percig is eltarthat, amely után lekapcsolhatja a gépet.</trans>
+    </entry>
+    <entry>
+	<base>LABEL_REBOOT</base>
+	<trans>Válasszon Leállítást, Újraindítást, vagy Újrakonfigurálást</trans>
+    </entry>
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ Ezen az oldalon leállíthatja, újraindíthatja, vagy újrakonfigurálhatja a rendszert. Gép lekapcsolása előtt szabályosan le kell állítania a rendszert. Ezek a folyamatok akár több percig is eltarthatnak. Amikor a <b>Végrehajtás</b>-ra kattint, a művelet azonnal végrehajtódik, ezért legyen óvatos! ]]></trans>
+    </entry>
+    <entry>
+	<base>Reboot or shutdown</base>
+	<trans>Újraindítás vagy leállítás</trans>
+    </entry>
+</lexicon>

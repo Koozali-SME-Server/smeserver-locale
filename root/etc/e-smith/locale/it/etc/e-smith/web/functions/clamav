@@ -1,0 +1,38 @@
+<lexicon lang="it">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Impostazioni Antivirus</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FILESYSTEM_SCAN_PERIOD</base>
+        <trans>Scansiona l'intero filesystem</trans>
+    </entry>
+    <entry>
+        <base>DESC_FILESYSTEM_SCAN_PERIOD</base>
+        <trans><![CDATA[ <h2>Configurazione Generale</h2> Abilitando questa opzione l'intero filesystem verrà scansionato alla ricerca di file infetti da virus. L'amministratore riceverà un rapporto contenente l'elenco dei virus eventualmente trovati.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_QUARANTINE</base>
+        <trans>Sposta in quarantena i file infetti</trans>
+    </entry>
+    <entry>
+        <base>LABEL_CLAM_VERSIONS</base>
+        <trans>Versioni ClamAV e db</trans>
+    </entry>
+    <entry>
+      <base>WEEKLY</base>
+      <trans>Ogni settimana</trans>
+    </entry>
+    <entry>
+      <base>NEVER</base>
+      <trans>Mai</trans>
+    </entry>
+    <entry>
+      <base>DAILY</base>
+      <trans>Ogni giorno</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Le nuove impostazioni dell'antivirus sono state salvate.</trans>
+    </entry>
+</lexicon>

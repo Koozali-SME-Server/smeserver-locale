@@ -1,0 +1,38 @@
+<lexicon lang="pt">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Configurações do Antivírus</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FILESYSTEM_SCAN_PERIOD</base>
+        <trans>Analisar o sistema de ficheiros do servidor</trans>
+    </entry>
+    <entry>
+        <base>DESC_FILESYSTEM_SCAN_PERIOD</base>
+        <trans><![CDATA[ <h2>Configuração Geral</h2> Se activar esta opção, serão efectuadas análises periódicas ao sistema de ficheiros do seu servidor para detectar a presença de vírus e outro software malicioso. Serão também enviados (por email) relatórios sobre eventuais vírus encontrados ao administrador do sistema.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_QUARANTINE</base>
+        <trans>Colocar em quarentena os ficheiros infectados</trans>
+    </entry>
+    <entry>
+        <base>LABEL_CLAM_VERSIONS</base>
+        <trans>Versões do ClamAV e respectiva base de dados</trans>
+    </entry>
+    <entry>
+      <base>WEEKLY</base>
+      <trans>Semanalmente</trans>
+    </entry>
+    <entry>
+      <base>NEVER</base>
+      <trans>Nunca</trans>
+    </entry>
+    <entry>
+      <base>DAILY</base>
+      <trans>Diariamente</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>As novas configurações do Antivírus ClamAV foram guardadas.</trans>
+    </entry>
+</lexicon>

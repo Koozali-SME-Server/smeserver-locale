@@ -1,0 +1,58 @@
+<lexicon lang="ro">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Schimbați setările de grup de lucru</trans>
+    </entry>	
+    <entry> 
+        <base>DESC_WORKGROUP</base>
+        <trans><![CDATA[ Introduceți numele workgrupuil de  Windows în care acest server trebuie să existe. ]]></trans>	
+    </entry>
+    <entry>
+        <base>LABEL_WORKGROUP</base>
+        <trans>Grup de lucru "Windows"</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERVERNAME</base>
+        <trans>Introduceți numele acestui server, va fi folosit pentru partajarea fișierelor in Windows sau Macintosh</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERVERNAME</base>
+        <trans>Numele Serverului</trans>
+    </entry>
+    <entry>
+        <base>DESC_PDC</base>
+        <trans><![CDATA[Acest server trebuie sa fie controlor de domeniu primar? Lăsați selactat <b>Nu</b> dacă deja există un astfel de server în rețea.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_PDC</base>
+        <trans>Cotrolor de domeniu și grup</trans>
+    </entry>
+    <entry>
+        <base>DESC_ROAM</base>
+        <trans><![CDATA[ Acest server va suporta profile cu roaming? Ar trebui lăsat acest cîmp implicit pe <b>Nu</b> pentru cazul în care nu sunteți un administrator cu experiență al rețelei de tip Windows cu roaming și dacă această facilitate nu este necesară ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_ROAM</base>
+        <trans>Profile de roaming</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Setările noului workgroup au fost salvate</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP</base>
+        <trans>Numele Workgrupului trebuie sa înceapă cu o litera (minusculă sau majusculă), urmată de orice combinație de litere, numere sublinieri, paranteze și cratime.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SERVERNAME</base>
+        <trans>Numele serverului trebuie sa înceapă cu o litera (minusculă sau majusculă), urmată de orice combinație de litere, numere sublinieri și cratime</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP_MATCHES_SERVERNAME</base>
+        <trans>Numele serverului si al workgrupului sunt identice comparate în minuscule. Aceste valori trebuie să difere pentru ca funcția de partajare fișiere să funcționeze corect</trans>
+    </entry>
+    <entry>
+        <base>Workgroup</base>
+        <trans>Workgrup (grup de lucru)</trans>
+    </entry>
+</lexicon>

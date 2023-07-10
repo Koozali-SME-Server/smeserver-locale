@@ -1,0 +1,171 @@
+<lexicon lang="es">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Cambiar la configuración de acceso remoto</trans>
+    </entry>	
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans>Para cada opción siguiente, la configuración privada permite que cualquier persona de la red local acceda al servidor. La configuración pública permite el acceso desde cualquier parte en Internet. La configuración de no acceso deshabilita el acceso. Para comprender las implicaciones de seguridad acerca de cambiar estas opciones desde la configuración predeterminada, lea la sección sobre el acceso remoto incluida en la guía de usuario.</trans>	
+    </entry>
+    <entry>
+	<base>SUCCESS</base>
+	<trans>Se ha guardado la nueva configuración de acceso remoto.</trans>
+    </entry>
+    <entry>
+	<base>NO_ACCESS</base>
+	<trans>Sin acceso</trans>
+    </entry>
+    <entry>
+	<base>PASSWORD_LOGIN_PRIVATE</base>
+	<trans>Aceptar contraseñas sólo desde redes locales</trans>
+    </entry>
+    <entry>
+	<base>PASSWORD_LOGIN_PUBLIC</base>
+	<trans>Aceptar contraseñas desde cualquier lugar</trans>
+    </entry>
+    <entry>
+	<base>LABEL_TELNET_ACCESS</base>
+	<trans>Acceso Telnet</trans>
+    </entry>
+    <entry>
+	<base>LABEL_FTP_ACCESS</base>
+	<trans>Acceso FTP</trans>
+    </entry>
+    <entry>
+	<base>LABEL_FTP_LOGIN</base>
+	<trans>Acceso FTP con contraseña</trans>
+    </entry>
+    <entry>
+	<base>LABEL_PPTP</base>
+	<trans>Número de clientes PPTP</trans>
+    </entry>
+     <entry>
+       <base>NUMBER_OF_VPN_CLIENTS_MUST_BE_LESSER_THAN_NUMBER_OF_IP_IN_DHCP_RANGE</base>
+       <trans>The number of VPN clients is greater than the number of reserved IP for DHCP. You should take a smaller number.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SSH_PORT</base>
+        <trans>Puerto TCP para acceso shell seguro</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH</base>
+	<trans>Acceso shell seguro</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH_ADMIN</base>
+	<trans>Permitir acceso administrativo por línea de comando sobre el shell seguro</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH_PASSWORD_ACCESS</base>
+	<trans>Permitir el acceso shell seguro utilizando contraseñas estándar</trans>
+    </entry>
+    <entry>
+	<base>DESC_SSH</base>
+	<trans><![CDATA[ <hr class="sectionbar"/><h2>Configuración de shell seguro</h2>Puede controlar el acceso de shell seguro al servidor. La configuración pública la deben habilitar sólo los administradores experimentados para diagnosticar y solucionar problemas remotos. Se recomienda que este parámetro se deje configurado en "Sin acceso" a menos que tenga una razón específica para hacer lo contrario. ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_FTP_ACCESS</base>
+	<trans><![CDATA[ <hr class="sectionbar" /><h2>Configuración de FTP</h2> También puede controlar el acceso <b>FTP</b> al servidor. Se recomienda que este parámetro se deje configurado en 'sin acceso' a menos que tenga una razón específica para hacer lo contrario. <p>Nota: esta configuración limita el acceso al servidor y anula otros ajustes, incluidos los correspondientes a bahías de información individuales.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_FTP_LOGIN</base>
+	<trans><![CDATA[ También puede controlar el acceso de FTP autenticado para bahías de información y cuentas de usuario. Se recomienda encarecidamente que este parámetro se deje configurado en privado a menos que tenga una razón específica para hacer lo contrario. <p> Nota: también se puede usar un cliente sftp de shell seguro para acceder al servidor, en caso de que esté habilitado el acceso remoto a través del shell seguro. Este método de acceso protege las contraseñas y los datos de la sesión FTP, mientras que el FTP estándar no proporciona ninguna protección.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_PPTP</base>
+	<trans><![CDATA[ <hr class="sectionbar" /><h2>Configuración PPTP</h2> Usted puede permitir acceso PPTP al servidor. Debería dejar esta función deshabilitada configurando el valor en 0, a menos que necesite acceso PPTP. ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_VPN</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Configuración PPTP</h2> Usted puede permitir acceso PPTP al servidor. Debería dejar esta función deshabilitada configurando el valor en 0, a menos que necesite acceso PPTP. ]]></trans>
+    </entry>
+    <entry>
+	<base>VALUE_ZERO_OR_POSITIVE</base>
+	<trans>El valor debe ser cero o un número entero positivo</trans>
+    </entry>
+    <entry>
+	<base>REMOTE_MANAGEMENT</base>
+	<trans>Administración Remota</trans>
+    </entry>
+    <entry>
+	<base>VALIDFROM_DESC</base>
+	<trans><![CDATA[ <hr class="sectionbar"/><h2>{$REMOTE_MANAGEMENT}</h2> <p>Se puede permitir el acceso a hosts de redes remotas a la administración del servidor si introduce esas redes aquí. Use una máscara de subred de 255.255.255.255 para limitar el acceso al host especificado. Todos los hosts dentro del rango especificado podrán acceder al administrador del servidor utilizando HTTPS.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_VALID_FROM_ENTRIES</base>
+	<trans>Para agregar una nueva red de administración remota, introduzca los detalles a continuación.</trans>
+    </entry>
+    <entry>
+	<base>SUBNET_MASK</base>
+	<trans>Máscara de subred</trans>
+    </entry>
+    <entry>
+	<base>NUM_OF_HOSTS</base>
+	<trans>Cantidad de hosts</trans>
+    </entry>
+    <entry>
+	<base>NO_ENTRIES_YET</base>
+	<trans>Aún no hay entradas</trans>
+    </entry>
+    <entry>
+	<base>INVALID_SUBNET_MASK</base>
+	<trans>Máscara de subred inválida</trans>
+    </entry>
+    <entry>
+	<base>ERR_INVALID_PARAMS</base>
+	<trans>Proporcione una red y máscara de subred o deje ambos campos en blanco.</trans>
+    </entry>
+    <entry>
+	<base>ERR_NO_RECORD</base>
+	<trans>No se puede ubicar el registro httpd-admin en la base de datos de configuración</trans>
+    </entry>
+    <entry>
+	<base>Remote access</base>
+	<trans>Acceso remoto</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERIAL_CONSOLE_ACCESS</base>
+        <trans>Consola serie</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERIAL_CONSOLE_ACCESS</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Consola serie</h2> Puede permitir acceso a la consola del servidor desde un terminal conectado a un puerto serie del servidor.]]></trans>
+    </entry>
+    <entry>
+        <base>PORT1_ENABLED</base>
+        <trans>Habilitado en el puerto serie 1</trans>
+    </entry>
+    <entry>
+        <base>PORT2_ENABLED</base>
+        <trans>Habilitado en el puerto serie 2</trans>
+    </entry>   
+
+    <entry>
+        <base>LABEL_PPTP_ACCESS</base>
+        <trans>Acceso PPTP predeterminado para usuarios</trans>
+    </entry>
+    <entry>
+        <base>DESC_TELNET_ACCESS</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Configuración de Telnet</h2> ADVERTENCIA: Actualmente Telnet se encuentra habilitado, pero esta característica ya no es soportada. Telnet es inherentemente inseguro y debe ser usado únicamente en aquellas circunstancias donde ninguna otra alternativa se encuentra disponible. Usted debe cambiar la opción a {$NO_ACCESS} y usar shell seguro si el acceso remoto es requerido. Una vez que Telnet sea deshabilitado, esta opción no volverá a aparecer en esta pantalla. ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_IPSECRW</base>
+	<trans><![CDATA[<h2>Configuración de Cliente IPSEC (Roadwarrior)</h2> Puede permitir el acceso del cliente IPSEC a su servidor, autenticado por los certificados digitales. Debería dejar esta función deshabilitada configurando el valor numérico en 0 a menos que necesite acceso de cliente IPSEC. ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_IPSECRW_SESS</base>
+	<trans>Número de clientes IPSEC</trans>
+    </entry>
+    <entry>
+	<base>DESC_IPSECRW_RESET</base>
+	<trans><![CDATA[Si desea reinicializar todos los certificados digitales, puede hacerlo aquí.<br>Los certificados antiguos ya no estarán autenticados ante el servidor, por lo que <b><i>todos los clientes IPSEC deberán importar ¡el nuevo certificado!</i></b> ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_IPSECRW_RESET</base>
+	<trans>Reinicializar certificados digitales</trans>
+    </entry>
+    <entry>
+        <base>DESC_IPSEC_VPN_UNAVAILABLE</base>
+        <trans>IPSEC VPN is not installed. Please install the contrib if you need VPN access.</trans>
+    </entry>
+</lexicon>

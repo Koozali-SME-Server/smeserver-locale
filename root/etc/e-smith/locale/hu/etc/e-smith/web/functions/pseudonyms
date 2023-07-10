@@ -1,0 +1,114 @@
+<lexicon lang="hu">
+    <entry>
+      <base>NO_PSEUDONYMS</base>
+      <trans><![CDATA[ <b>Nincsenek fedőnevek a rendszerben.</b> ]]></trans>
+     </entry>
+    <entry>
+        <base>REMOVE_PSEUDONYM</base>
+        <trans>Fedőnév eltávolítása</trans>
+    </entry>
+    <entry>
+        <base>ABOUT_TO_REMOVE</base>
+        <trans><![CDATA[ Ezen fedőnév eltávolítására készül:<br> <b>Biztos hogy folytatja?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Fedőnevek létrehozása, módosítása, vagy eltávolítása</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans><![CDATA[ <p>A szerver minden csoport számára generál egy e-mail alias-t. Ha egy e-mail alias-t akar létrehozni a felhasználók egy csoportja számára, egyszerűen csak hozzon létre egy csoportot és a listát automatikusan a szerver fogja karbantartani.</p> <p>A fedőnevek lehetővé teszik hogy más nevet hozzon létre a már létező felhasználók vagy csoportok számára. Például ha szeretne egy "webmaster" fedőnevet létrehozni a "webdevelopers" csoportja számára,  vagy egy "joe" fedőnevet a "joseph" felhasználónak.</p> <p>A szerver automatikusan létrehozza a fedőneveket a keresztnév.vezetéknév és a keresztnév_vezetéknév formában minden felhasználónak  valamint az "everyone" fedőnevet, amely a rendszer összes felhasználójára mutat.</p> <p>Az fedőnevek azt is lehetővé teszik, hogy e-mail alias-okat hozzon létre virtuális domének és a felhasználók számára. Például továbbítani tudja "sales@virtualdomain1.com" címre jövő leveleket a "mary" felhasználónak és a"sales@virtualdomain2.com" -ra jövő leveleket a "john" felhasználónak. Mielőtt e-mail alias-okat hozna létre el kell készítenie a virtuális doméneket és a felhasználói fiókokat.</p> <p>A fedőnevek mutathatnak egy másik fedőnévre is, bár ez egyszintűre van korlátozva. Például a "webmaster" fedőnév mutathat a "techsupport" fedőnévre ami pedig egy "ray" nevű felhasználóra mutat. Ez akkor hasznos, mikor egyetlen felhasználó felelős több feladatért. Ugyanis, ha az illető eltávozik a cégtől nem kell a fedőneveket több soron módosítani.</p> <p>A fedőnevek módosítása, vagy eltávolítása a fedőnevek neve melletti parancsokra való kattintással végezhető el.</p>]]></trans>
+    </entry>
+    <entry>
+        <base>LOCAL_ONLY</base>
+        <trans>(csak helyi hálózat)</trans>
+    </entry>
+    <entry>
+        <base>SELECT_ACCOUNT</base>
+        <trans>Fiók, vagy csoport kiválasztása</trans>
+    </entry>
+    <entry>
+        <base>SELECT_INTERNAL</base>
+        <trans>Csak helyi hálózat</trans>
+    </entry>
+    <entry>
+        <base>CLICK_TO_CREATE</base>
+        <trans>Fedőnév hozzáadása</trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM</base>
+        <trans>Fedőnév</trans>
+    </entry>
+    <entry>
+        <base>USER_OR_GROUP</base>
+        <trans>Felhasználó vagy csoport</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_PSEUDONYMS</base>
+        <trans><![CDATA[<b>Álnevek listája</b>]]></trans>
+    </entry>
+    <entry>
+        <base>TITLE_CREATE</base>
+        <trans>Fedőnév létrehozása</trans>
+    </entry>
+    <entry>
+        <base>DESC_PSEUDONYM_NAME</base>
+       <trans>Kérem válasszon ki egy létező fiókot vagy csoportot a legördülő listából a fedőnév számára.</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_PSEUDONYM</base>
+        <trans>Fedőnév módosítása</trans>
+    </entry>     
+       <entry>
+        <base>PSEUDONYM_NAME</base>
+        <trans>Fedőnév neve</trans>
+    </entry>
+    <entry>
+        <base>VALID_PSEUDONYM_NAMES</base>
+        <trans><![CDATA[ A fedőnév csak kisbetűket, számokat, kötőjeleket, pontokat, aláhúzásokat tartalmazhat és betűvel vagy számmal kezdődhet. Például a "sales", "john.holland", "123" és az "email-administrator" érvényes fedőnevek, de a "John Smith" és "Henry Miller" már nem. <p>E-mail alias-okat is létrehozhat a fiókokhoz és az olyan virtuális doménekhez, amelyek érvényesek ezen a szerveren. Például "fred@virtualdomain.com" továbbítható a "mary" (vagy bármely más érvényes) felhasználói fiókba.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>NAME_IN_USE</base>
+        <trans>Hiba: Ez a név már használatban van, nem hozhat létre fedőnevet ezzel a névvel.</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_PSEUDONYM</base>
+        <trans>Az a fiók nem fedőnév</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_DOMAIN</base>
+        <trans>Az a domén nem ezen a szerveren van</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_NOACCT</base>
+        <trans>Az a fiók nem ezen a szerveren található</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_SAMEACCT</base>
+        <trans>Az fedőnév nem mutathat ugyanarra a fiókra</trans>
+    </entry>
+    <entry>
+        <base>CREATE_SUCCEEDED</base>
+        <trans>Fedőnév létrehozása sikeres</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_SUCCEEDED</base>
+        <trans>Fedőnév módosítása sikeres</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_SUCCEEDED</base>
+        <trans>Fedőnév eltávolítása sikeres</trans>
+    </entry>
+    <entry>
+      <base>EVERYONE</base>
+      <trans>Mindenki</trans>
+    </entry>
+      <entry>
+        <base>Pseudonyms</base>
+        <trans>Fedőnevek</trans>
+      </entry>
+
+</lexicon>

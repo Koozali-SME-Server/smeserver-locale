@@ -1,0 +1,386 @@
+<lexicon lang="tr" params="getExtraParams()">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>E-posta ayarları</trans>
+    </entry>
+    <entry>
+        <base>E-mail</base>
+        <trans>E-posta</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Yeni e-posta ayarları kaydedildi.</trans>
+    </entry>
+    <entry>
+        <base>NEVER</base>
+        <trans>hiç biri</trans>
+    </entry>
+    <entry>
+        <base>EVERY5MIN</base>
+        <trans>Her 5 dakikada</trans>
+    </entry>
+    <entry>
+        <base>EVERY15MIN</base>
+        <trans>Her 15 dakikada</trans>
+    </entry>
+    <entry>
+        <base>EVERY30MIN</base>
+        <trans>Her 30 dakikada</trans>
+    </entry>
+    <entry>
+        <base>EVERYHOUR</base>
+        <trans>Her saat</trans>
+    </entry>
+    <entry>
+        <base>EVERY2HRS</base>
+        <trans>Her 2 saatte</trans>
+    </entry>
+    <entry>
+        <base>STANDARD</base>
+        <trans>Standard (SMTP)</trans>
+    </entry>
+    <entry>
+        <base>ETRN</base>
+        <trans>ETRN (SMTP istemci isteği ile)</trans>
+    </entry>
+    <entry>
+        <base>DEFAULT</base>
+        <trans>Varsayılan</trans>
+    </entry>
+    <entry>
+        <base>SPECIFY_BELOW</base>
+        <trans>Aşağıda belirtin</trans>
+    </entry>
+    <entry>
+        <base>MULTIDROP</base>
+        <trans>multi-drop</trans>
+    </entry>
+    <entry>
+        <base>LABEL_MODE</base>
+        <trans>E-posta alım şekli</trans>
+    </entry>
+    <entry>
+        <base>DESC_MODE</base>
+        <trans>E-posta alma modu standart olarak ayarlanabilir (kiralık hatlı internet bağlantıları için), ETRN (çevirmeli bağlantılar için önerilir), veya multi-drop (çevirmeli bağlantılarda sevis sağlayıcı ETRN desteklemiyorsa kullanılabilir). multi-drop modu sadece sunucunuz özel sunucu ve ağ geçidi modunda yapılandırılmış olduğunda kullanılabili.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_DELEGATE</base>
+        <trans>Yerel e-posta sunucusu adresi</trans>
+    </entry>
+    <entry>
+        <base>DESC_DELEGATE</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Atanmış posta sunucuları</h2> Sunucunuz, eksiksiz bir e-posta sunucusunun tüm özelliklerine sahiptir . Ancak başka bir mail sunucusu atamak isterseniz IP adresini burada yazılmalıdır. Normal işlemler için boş bırakın. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SECONDARY</base>
+        <trans>İkincil e-posta sunucusu</trans>
+    </entry>
+    <entry>
+        <base>DESC_SECONDARY</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>ETRN veya multi-drop ayarları</h2> ETRN veya multi-drop kullanmak için, ikincil e-posta sunucusunun alan adını veya IP adresini belirtin. (Standart ayarlar kullanılacaksa bu alan boş bırakılmalıdır.) ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_FETCH_PERIOD</base>
+        <trans>ETRN için, bu sunucunun ikinci e-posta sunucuyla mesajları almak için hangi sıklıkta bağlantı sağladını kontrol edebilirsiniz. Daha sık bağlantı e-postaların daha çabuk alındığını gösterir, bu internet bağalantınızın daha sık kullanılmasını gerktirir.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD</base>
+        <trans>Hafta içi çalışma saatleri (8:00 - 18:00)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD_NIGHTS</base>
+        <trans>Hafta içi mesai saatleri dışı (18:00 - 8:00)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD_WEEKENDS</base>
+        <trans>Hafta sonu boyunca</trans>
+    </entry>
+    <entry>
+        <base>DESC_POP_ACCOUNT</base>
+        <trans>Çoklu e-posta için; POP kullanıcı adı ve şifresini belirtin. (standart ve ETRN e-posta için boş bırakın.) Çoklu e-posta için varsayılan sıralama metodunu kullanabilirsiniz veya mesaj başlığına göre sıralamasını belirtebilirsiniz.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_POP_PASS</base>
+        <trans>POP kullanıcı şifresi (çoklu e-posta için)</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_POP_ACCOUNT</base>
+        <trans>POP kullanıcı hesabı (çoklu e-posta için)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SORT_METHOD</base>
+        <trans>Sıralama şeklini seçin (çoklu e-posta için)</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SORT_HEADER</base>
+        <trans>Mesaj başlığına göre (çoklu e-posta için)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PROTO</base>
+        <trans>Protokol (çoklu e-posta için)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_SECURE</base>
+        <trans>SSL ile tünelle (çoklu e-posta için)</trans>
+    </entry>
+    <entry>
+        <base>AUTO</base>
+        <trans>Otomatik</trans>
+    </entry>
+    <entry>
+        <base>ENABLED_BOTH</base>
+        <trans>Hem HTTP hem HTTPS için izin ver</trans>
+    </entry>
+    <entry>
+        <base>ENABLED_SECURE_ONLY</base>
+        <trans>HTTPS için izin ver (güvenli)</trans>
+    </entry>
+     <entry>
+        <base>ONLY_LOCAL_NETWORK_SSL</base>
+        <trans>Sadece yerel ağadan erişime izin ver</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_POP3</base>
+        <trans>POP3 ve POP3S için izin ver.</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_PRIVATE</base>
+        <trans>Özele izin ver</trans>
+    </entry>
+    <entry>
+        <base>SECURE_POP3</base>
+        <trans>Özele ve genele izin ver (güvenli POP3S)</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_IMAP</base>
+        <trans>IMAP ve IMAPS için izin ver</trans>
+    </entry>
+    <entry>
+        <base>SECURE_IMAP</base>
+        <trans>Özele ve genele izin ver (güvenli IMAPS)</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_SMTP</base>
+        <trans>SMTP ve SSMTP için izin ver</trans>
+    </entry>
+    <entry>
+        <base>SECURE_SMTP</base>
+        <trans>SSMTP için izin ver (güvenli SSMTP)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_POP_ACCESS_CONTROL</base>
+        <trans>POP3 sunucu erişimi</trans>
+    </entry>
+    <entry>
+        <base>LABEL_IMAP_ACCESS_CONTROL</base>
+        <trans>IMAP sunucu erişimi</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SMTP_AUTH_CONTROL</base>
+        <trans>SMTP kimlik doğrulama</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_TO_ADMIN</base>
+        <trans>Yöneticiye gönder</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_TO</base>
+        <trans>Gönder</trans>
+    </entry>
+    <entry>
+        <base>RETURN_TO_SENDER</base>
+        <trans>Reddet</trans>
+    </entry>
+    <entry>
+        <base>LABEL_UNKNOWN</base>
+        <trans>Bilinmeyen kullanıcıya e-posta</trans>
+    </entry>
+    <entry>
+        <base>DESC_UNKNOWN</base>
+        <trans><![CDATA[ <h2>Bilinmeyen Kullanıcılar</h2> Reddet (önerilen) sunucuuyu yalnızca geçerli e-posta adreslerini kabul etmek için yapılandırır (örneğin lullanıcılar, gruplar, takma isimler). Diğer adreslerden gelen e-postalar reddedilir. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SMARTHOST</base>
+        <trans>İnternet sağlayıcınızın e-posta adresi</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_SMARTHOST</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>SMTP sunucu</h2> Sunucu gönderilen mesajları kendi üzerinden yollar (çoğu durumda önerilir) veya ISPnisin SMTP sunucusu yoluyla iletilir (bu seçenek güvenilir olmayan internet bağlantınız varsa, sürekli kopmalar oluyorsa ve iyi bir ISPye sahipseniz tercih edebilirsiniz).Eğer ISPnizin SMTP sunucusunu kullanacaksanız alan adını veya IP sini aşağıya yazın. Yoksa boş bırakın. ]]></trans>
+    </entry>
+
+    <entry>
+        <base>INVALID_SMARTHOST</base>
+        <trans>Girdiğiniz ana bilgisayar adı, geçerli bir internet etki alanı adı değildir ve boş değil</trans>
+    </entry>
+    <entry>
+        <base>DESC_POP_ACCESS_CONTROL</base>
+        <trans>POP3 sunucu erişimini kontrol edebilirsiniz. 'Sadece yerel ağdan erişime izin ver' seçildiğinde sadece bağlı bulunduğunuz ağdaki bilgisayarlardan bağlantıları kabul eder. POP3S ayarları, POP3 sunucunuza şifrelenmiş harici erişim sağlar. Zorunlu olmadıkça 'Sadece yerel ağdan erişime izin ver' seçmenizi öneririz.</trans>
+    </entry>
+    <entry>
+        <base>DESC_IMAP_ACCESS_CONTROL</base>
+        <trans>IMAP sunucu erişimini kontrol edebilirsiniz. 'Sadece yerel ağdan erişime izin ver' seçildiğinde sadece bağlı bulunduğunuz ağdaki bilgisayarlardan bağlantıları kabul eder.IMAPS ayarları, IMAP sunucunuza şifrelenmiş harici erişim sağlar.Zorunlu olmadıkça 'Sadece yerel ağdan erişime izin ver' seçmenizi öneririz.</trans>
+    </entry>
+    <entry>
+        <base>DESC_SMTP_AUTH_CONTROL</base>
+        <trans><![CDATA[ You can provide authenticated access to your SMTP server, or set it to Disabled. The SSMTP setting requires <b>all</b> users to use SSL/TLS authentication. The SMTP and SSMTP option additionally allows STARTTLS to be used to ensure secure authentication. ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_WEBMAIL</base>
+        <trans>Bu sistemdeki webmail etkinleştirilebilir veya devre dışı bırakılabilri. Webmail kullanıcıları kendi e-postalarına web gezginini https://{$FQDN}/webmail adresine yönlendirerek hesaplarına giriş yapabilirler.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_WEBMAIL</base>
+        <trans>Webmail girişi</trans>
+    </entry>
+     <entry>
+        <base>LABEL_BLOCK_EXECUTABLE_CONTENT</base>
+        <trans>Çalıştırılabilir içerik engelleme</trans>
+     </entry>
+     <entry>
+        <base>LABEL_CONTENT_TO_BLOCK</base>
+        <trans>Engellenecek içerik</trans>
+     </entry>
+     <entry>
+        <base>DESC_BLOCK_EXECUTABLE_CONTENT</base>
+        <trans>E-posta eki olarak gönderilen çalıştırılabilir içeriği engellemek için listeden doya tipini seçebilirsiniz. Belirtilen içeriğe sahip e-postalar göndericiye otomatik olarak geri yollanır.</trans>
+    </entry>
+    <entry>
+        <base>UNACCEPTABLE_CHARS</base>
+        <trans>Geçerli bir e-posta adresi girini, içerisinde @ ve geçerli alan adı olmalı.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_ACCESS</base>
+        <trans><![CDATA[ <h2>E-posta erişimi</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_ACCESS_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_ACCESS">E-posta erişim ayarları</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_RECEPTION</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>E-posta alımı</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_RECEPTION_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_RECEPTION">E-posta alım ayarları</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_DELIVERY</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>E-posta yönlendirme</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_DELIVERY_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_DELIVERY">E-posta yönlendirme ayarları</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_FILTERING_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_FILTERING">E-posta filtreleme ayarları</a> ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_VIRUS_SCAN</base>
+	<trans>Virus taranıyor</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_VIRUS_SCAN</base>
+	<trans>Gelen ve giden e-postalarını virüse karşı tarayabilirsiniz. Virüs tespit edilirse, e-pota göndericiye geli yollanır.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_SPAM_SCAN</base>
+	<trans>Spam filtreleme</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_SPAM_SCAN</base>
+	<trans>E-postaları spam için tarayabilirisiniz. Spam filtreleme açıksa, X-Spam-Durumu: başlığı her mesaj için aktifleşir, bununla spamlar filtrelenebilir. Spam algılama sürecinin hassasiyetini arttırabilirsiniz, varsayılan olarak orta seviyededir. İnce ayar için, Özel dyarlılığı seçip oradan özel etiketleme düzeyi seçip, isteğe bağlı olarak hangi mesajın red edileceğini ayarlayabilirsiniz.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_SPAM_SUBJECT</base>
+	<trans>SPAM konu öneki</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_SPAM_SUBJECT</base>
+	<trans>Her iletinin konu başlığında SPAM etiketi eklemek için etkinleştirebilirsiniz.Bu etiketin değeri aşağıda tanımlanmıştır.</trans>
+    </entry>
+
+   <entry>
+        <base>LABEL_SPAM_SENSITIVITY</base>
+        <trans>Spam duyarlılığı</trans>
+    </entry>
+   <entry>
+        <base>LABEL_SPAM_TAGLEVEL</base>
+        <trans>Özel spam düzeyi etiketleme</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SPAM_REJECTLEVEL</base>
+        <trans>Özel spam red seviyesi</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SPAM_SUBJECTTAG</base>
+        <trans>Spam mesajların konu başlığını değiştir</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SORTSPAM</base>
+        <trans>Spam mesajları gereksiz kutusuna taşı</trans>
+    </entry>
+    <entry>
+        <base>VERYHIGH</base>
+        <trans>Çok yüksek</trans>
+    </entry>
+    <entry>
+        <base>HIGH</base>
+        <trans>Yüksek</trans>
+    </entry>
+    <entry>
+        <base>MEDIUM</base>
+        <trans>Orta</trans>
+    </entry>
+    <entry>
+        <base>LOW</base>
+        <trans>Düşük</trans>
+    </entry>
+    <entry>
+        <base>VERYLOW</base>
+        <trans>Çok düşük</trans>
+    </entry>
+    <entry>
+        <base>CUSTOM</base>
+        <trans>Özel</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_STATUS</base>
+        <trans>İnternet sağlayıcı için SMTP doğrulama</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_USERID</base>
+        <trans>Posta sunucusu kullanıcı adı</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_PASSWD</base>
+        <trans>Posta sunucusu şifresi</trans>
+    </entry>
+
+    <entry>
+        <base>VALIDATION_SMTPAUTH_NONBLANK</base>
+        <trans>SMTP doğrulama etkinse bu alan boş bırakılamaz.</trans>
+    </entry>
+
+</lexicon>

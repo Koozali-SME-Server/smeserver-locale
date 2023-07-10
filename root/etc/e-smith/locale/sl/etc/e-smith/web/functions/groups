@@ -1,0 +1,84 @@
+<lexicon lang="sl">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Ustvari, posodobi ali odstrani skupine uporabnikov</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_TOO_LONG</base>
+        <trans>Napaka: ime skupine uporabnikov je predolgo. Maksimalna dolzina je {$maxLength} znakov.</trans>
+    </entry>    
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>Napaka: skupina uporabnikov z imenom "{$group}" ne morete dodati, saj ze obstaja uporabniski racun {$type} z enakim imenom.</trans>
+    </entry>    
+    <entry>
+        <base>INVALID_GROUP_DESCRIPTION</base>
+        <trans>Napaka: nepricakovani ali manjkajoci znak se je pojavil v polju opisa skupine</trans>
+    </entry>
+    <entry>
+        <base>NO_MEMBERS</base>
+        <trans>Napaka: v skupini se ni nobenega uporabnika. Nobena skupina ni bila ustvarjena.</trans>
+    </entry>
+    <entry>
+        <base>CREATED_GROUP</base>
+        <trans>Uporabniska skupina je bila uspesno ustvarjena</trans>
+    </entry> 
+    <entry>
+        <base>DELETED_GROUP</base>
+        <trans>Uporabniska skupina je bila uspesno odstanjena</trans>
+    </entry> 
+    <entry>
+        <base>MODIFIED_GROUP</base>
+        <trans>Uporabniska skupina je bila uspesno posodobljena</trans>
+    </entry>	
+    <entry>
+        <base>CREATE_ERROR</base>
+        <trans>Pri ustvarjanju uporabniske skupine je prislo do napake.</trans>
+    </entry> 
+    <entry>
+        <base>DELETE_ERROR</base>
+        <trans>Pri odstanjevanju uporabniske skupine je prislo do napake.</trans>
+    </entry> 
+    <entry>
+        <base>MODIFY_ERROR</base>
+        <trans>Pri posodabljanju uporabniske skupine je prislo do napake.</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_NAMING</base>
+        <trans><![CDATA[ Ime uporabniske skupine lahko vsebuje samo majhne crke, stevilke, pomisljaje, pike in podpicja, ter se zacne z majno crko. Kot primer: "prodaja", beta" in "nadaljnja_prodaja" so veljavna imena za skupine, "3-delavnica", "Oddelek za trzenje" in "izgubljeno&najdeno" pa ne. ]]></trans>
+    </entry>
+    <entry>
+        <base>GROUP_HAS_MEMBERS</base>
+        <trans>Ta skupina vsebuje naslednje clane:</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_GROUP</base>
+        <trans>Napaka: To ni obstojeca skupina uporabnikov.</trans>
+    </entry>
+    <entry>
+        <base>GROUP_DESC</base>
+        <trans>Kratek opis/Psevdonim za Windows skupino</trans>
+    </entry>
+   <entry>
+        <base>GROUP_DESC_EXPL</base>
+        <trans>Vpisite kratek opis v spodnje polje. To polje tudi predstavlja ime skupine, ki jo vidijo Windows odjemalci.</trans>
+   </entry>
+
+
+    <entry>
+        <base>IBAYS_WILL_BE_CHANGED</base>
+        <trans>Naslednji informacijski listi so dodeljeni tej skupini in bodo spremenjeni v Skrbnikovo skupino (to lahko kasneje tudi spremenite):</trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DELETE_GROUP</base>
+        <trans><![CDATA[ <p><b>Ste prepricani, da zelite odstraniti to skupino?</b></p> ]]></trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST</base>
+        <trans><![CDATA[<p>Trenuten spisek uporabniskih skupin</p>]]></trans>
+    </entry>
+    <entry>
+		<base>DELETE_DESCRIPTION</base>
+       	<trans><![CDATA[ Ste tik pred tem, da boste odstranili uporabnisko skupino "<b>{$group}</b>." ]]></trans>
+    </entry>
+</lexicon>

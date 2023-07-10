@@ -1,0 +1,171 @@
+<lexicon lang="bg">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Промяна на настройките за отдалечен достъп</trans>
+    </entry>	
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans>За всяка от възможностите по-долу, настройка "частен" позволява всеки от локалната мрежа да достъпи сървъра. Настройката "публичен" позволява достъп от всякъде по интернет. Настройката "без достъп" забранява достъпа. За да разберете отражението върху сигурността при промяната на тези настройки спрямо подразбиращите се стойности ще трябва да се запознаете със секцията за отдалечен достъп на ръководството за потребителя.</trans>	
+    </entry>
+    <entry>
+	<base>SUCCESS</base>
+	<trans>Новите настройки за отдалечен достъп бяха записани.</trans>
+    </entry>
+    <entry>
+	<base>NO_ACCESS</base>
+	<trans>Без достъп</trans>
+    </entry>
+    <entry>
+	<base>PASSWORD_LOGIN_PRIVATE</base>
+	<trans>Приемай пароли само от локалните мрежи</trans>
+    </entry>
+    <entry>
+	<base>PASSWORD_LOGIN_PUBLIC</base>
+	<trans>Приемай пароли от всякъде</trans>
+    </entry>
+    <entry>
+	<base>LABEL_TELNET_ACCESS</base>
+	<trans>Telnet достъп</trans>
+    </entry>
+    <entry>
+	<base>LABEL_FTP_ACCESS</base>
+	<trans>FTP достъп</trans>
+    </entry>
+    <entry>
+	<base>LABEL_FTP_LOGIN</base>
+	<trans>Достъп чрез FTP с парола</trans>
+    </entry>
+    <entry>
+	<base>LABEL_PPTP</base>
+	<trans>Брой на PPTP клиентите</trans>
+    </entry>
+     <entry>
+       <base>NUMBER_OF_VPN_CLIENTS_MUST_BE_LESSER_THAN_NUMBER_OF_IP_IN_DHCP_RANGE</base>
+       <trans>Броят на VPN клиентите е по-голям от броя на резервираните IP адреси за DHCP. Трябва да посочите по-малко число.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SSH_PORT</base>
+        <trans>TCP порт за secure shell достъп</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH</base>
+	<trans>Достъп чрез secure shell</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH_ADMIN</base>
+	<trans>Позволи достъп до административния команден ред  чрез secure shell</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH_PASSWORD_ACCESS</base>
+	<trans>Позволи достъп чрез secure shell с използване на стандартни пароли</trans>
+    </entry>
+    <entry>
+	<base>DESC_SSH</base>
+	<trans><![CDATA[ <hr class="sectionbar" /> <h2>Настройки на Secure Shell</h2>Можете да контролирате Secure Shell достъпа до сървъра. Настройката за публичен достъп трябва да се включи само от опитни администратори за отдалечена диагностика и решаване на проблеми. Препоръчваме да оставите тази настройка "Без достъп" освен ако нямате определена причина да я включите. ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_FTP_ACCESS</base>
+	<trans><![CDATA[ <hr class="sectionbar" /><h2>Настройки на FTP</h2> Можете също да управлявате достъпа чрез <b>FTP</b> до сървъра. Препоръчваме да оставите тази настройка "Без достъп" освен ако нямате определена причина да я включите. <p> Забележка: тези настройки ограничават достъпа до сървъра и са с предимство пред другите настройки, включително и тези за отделните информационни слотове.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_FTP_LOGIN</base>
+	<trans><![CDATA[ Можете също управлявате достъпа чрез FTP с автентикация до информационните слотове и потребителските акаунти. Препоръчваме да оставите тази настройка на "частен" освен ако нямате определена причина да я променяте. <p> Забележка: Може да се използва и secure shell sftp клиент за да се достъпи сървъра, ако отдалечения достъп чрез secure shell е включен. Този метод на достъп защитава паролите и данните в FTP сесията, докато стандартния FTP не предоставя защита.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_PPTP</base>
+	<trans><![CDATA[ <hr class="sectionbar" /><h2>Настройки на PPTP</h2> Можете да включите достъпа до сървъра с PPTP. Трябва да оставите тази настройка изключена като зададете стойност числото , освен ако не Ви е нужен достъпа чрез PPTP. ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_VPN</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Настройки на VPN</h2> Можете да включите достъпа до сървъра с VPN. Трябва да оставите тази настройка изключена като зададете стойност числото 0, освен ако не Ви е нужен достъпа чрез VPN. ]]></trans>
+    </entry>
+    <entry>
+	<base>VALUE_ZERO_OR_POSITIVE</base>
+	<trans>Стойността трябва да е нула или положително цяло число</trans>
+    </entry>
+    <entry>
+	<base>REMOTE_MANAGEMENT</base>
+	<trans>Управление на отдалечения достъп</trans>
+    </entry>
+    <entry>
+	<base>VALIDFROM_DESC</base>
+	<trans><![CDATA[ <hr class="sectionbar" /><h2>{$REMOTE_MANAGEMENT}</h2> <p>Възможно е да разрешите на машини в отдалечени мрежи до достъпват управлението на сървъра като въведете тези мрежи тук. Използвайте мрежова маска 255.255.255.255 за да ограничите достъпа до определена машина. Всяка машина в посочения обхват ще може да достъпи управлението на сървъра като използва HTTPS.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_VALID_FROM_ENTRIES</base>
+	<trans>За да добавите нова мрежа за отдалечено управление въведете информацията по-долу.</trans>
+    </entry>
+    <entry>
+	<base>SUBNET_MASK</base>
+	<trans>Маска на подмрежа</trans>
+    </entry>
+    <entry>
+	<base>NUM_OF_HOSTS</base>
+	<trans>Брой машини</trans>
+    </entry>
+    <entry>
+	<base>NO_ENTRIES_YET</base>
+	<trans>Все още няма елементи</trans>
+    </entry>
+    <entry>
+	<base>INVALID_SUBNET_MASK</base>
+	<trans>Некоректна маска на подмрежа</trans>
+    </entry>
+    <entry>
+	<base>ERR_INVALID_PARAMS</base>
+	<trans>Или въведете и мрежа и мрежова маска или оставете и двете полета празни.</trans>
+    </entry>
+    <entry>
+	<base>ERR_NO_RECORD</base>
+	<trans>Не мога да открия httpd-admin запис в БД с конфигурации</trans>
+    </entry>
+    <entry>
+	<base>Remote access</base>
+	<trans>Отдалечен достъп</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERIAL_CONSOLE_ACCESS</base>
+        <trans>Серийна конзола</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERIAL_CONSOLE_ACCESS</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Серийна конзола</h2> Можете да позволите достъп до конзолата на сървъра от терминал, свързан към серийния порт.]]></trans>
+    </entry>
+    <entry>
+        <base>PORT1_ENABLED</base>
+        <trans>Разрешен на сериен порт 1</trans>
+    </entry>
+    <entry>
+        <base>PORT2_ENABLED</base>
+        <trans>Разрешен на сериен порт 2</trans>
+    </entry>   
+
+    <entry>
+        <base>LABEL_PPTP_ACCESS</base>
+        <trans>Потребителски достъп чрез PPTP по подразбиране</trans>
+    </entry>
+    <entry>
+        <base>DESC_TELNET_ACCESS</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Настройки на Telnet</h2> ВНИМАНИЕ: Telnet в момента е разрешен, но тази възможност вече не се поддържа. Telnet от само себе си е несигурен и трябва ба бъде използван само при обстоятелства, когато няма други алтернативи. Трябва да промените настройката на {$NO_ACCESS} и да използвате secure shell ако е нужен отдалечен достъп. След като го забраните, telnet вече няма да се показва на този екран. ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_IPSECRW</base>
+	<trans><![CDATA[ <h2>Настройки на IPSEC клиент (Roadwarrior)</h2> Можете да разрешите IPSEC клиентски достъп до сървъра, като автентикацията става с цифрови сертификати. Трябва да оставите тази настройка изключена като зададете стойност числото 0, освен ако не искате IPSEC клиентски достъп. ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_IPSECRW_SESS</base>
+	<trans>Брой на IPSEC клиентите</trans>
+    </entry>
+    <entry>
+	<base>DESC_IPSECRW_RESET</base>
+	<trans><![CDATA[Ако желаете да инициализирате всички цифрови сертификати, можете да направите това тук.<br>Всички стари сертификати вече няма да могат да служат за автентикация пред сървъра, така че <b><i>всички IPSEC клиенти ще трябва да заредят новия сертификат!</i></b>. ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_IPSECRW_RESET</base>
+	<trans>Инициализация на цифровите сертификати</trans>
+    </entry>
+    <entry>
+        <base>DESC_IPSEC_VPN_UNAVAILABLE</base>
+        <trans>IPSEC VPN не е инсталиран. Моля инсталирайте добавка ако Ви е нужен достъп чрез VPN.</trans>
+    </entry>
+</lexicon>

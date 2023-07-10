@@ -1,0 +1,10 @@
+<lexicon lang="zh-tw">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>支援、承諾與授權資訊</trans>
+    </entry>
+    <entry>
+        <base>Support and licensing</base>
+        <trans>支援與授權</trans>
+    </entry>
+</lexicon>

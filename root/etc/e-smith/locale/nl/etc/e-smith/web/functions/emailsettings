@@ -1,0 +1,386 @@
+<lexicon lang="nl" params="getExtraParams()">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>E-mail instellingen</trans>
+    </entry>
+    <entry>
+        <base>E-mail</base>
+        <trans>E-mail</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>De e-mail instellingen zijn gewijzigd.</trans>
+    </entry>
+    <entry>
+        <base>NEVER</base>
+        <trans>helemaal niet</trans>
+    </entry>
+    <entry>
+        <base>EVERY5MIN</base>
+        <trans>Elke 5 minuten</trans>
+    </entry>
+    <entry>
+        <base>EVERY15MIN</base>
+        <trans>Elke 15 minuten</trans>
+    </entry>
+    <entry>
+        <base>EVERY30MIN</base>
+        <trans>Elke 30 minuten</trans>
+    </entry>
+    <entry>
+        <base>EVERYHOUR</base>
+        <trans>Elk uur</trans>
+    </entry>
+    <entry>
+        <base>EVERY2HRS</base>
+        <trans>Elke 2 uur</trans>
+    </entry>
+    <entry>
+        <base>STANDARD</base>
+        <trans>Standaard (SMTP)</trans>
+    </entry>
+    <entry>
+        <base>ETRN</base>
+        <trans>ETRN (SMTP met client verzoek)</trans>
+    </entry>
+    <entry>
+        <base>DEFAULT</base>
+        <trans>Standaard</trans>
+    </entry>
+    <entry>
+        <base>SPECIFY_BELOW</base>
+        <trans>Specificieer hieronder</trans>
+    </entry>
+    <entry>
+        <base>MULTIDROP</base>
+        <trans>multi-drop</trans>
+    </entry>
+    <entry>
+        <base>LABEL_MODE</base>
+        <trans>E-mail verkrijg modus</trans>
+    </entry>
+    <entry>
+        <base>DESC_MODE</base>
+        <trans>De e-mail verkrijg modus kan worden ingesteld op standaard (voor toegekende Internet verbindingen), ETRN (aanbevolen voor inbel verbindingen), of multi-drop (voor inbel verbindingen wanneer ETRN niet ondersteund wordt door uw Internet provider). NB: multi-drop modus is de enige optie die beschikbaar is als de server ingesteld is op privé server en gateway modus.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_DELEGATE</base>
+        <trans>Adres van de interne mail server</trans>
+    </entry>
+    <entry>
+        <base>DESC_DELEGATE</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Delegeer mail servers</h2> Uw server bevat een complete, volledig uitgeruste e-mail server. Als u, om een specifieke reden het e-mail verkeer wilt delegeren naar een ander systeem, geef dan hier het IP adres van de server voor delegatie. Voor normaal gebruik, laat dit veld leeg. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SECONDARY</base>
+        <trans>Tweede mail server</trans>
+    </entry>
+    <entry>
+        <base>DESC_SECONDARY</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>ETRN of multi-drop instellingen</h2> Voor ETRN of multi-drop, specificeer de hostnaam of het IP adres van uw tweede mail server. (Als u de standaard e-mail opzet gebruikt, laat u dit veld leeg.) ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_FETCH_PERIOD</base>
+        <trans>Voor ETRN of multi-drop, kunt u bepalen hoe frequent deze server contact legt met uw tweede e-mail server om de e-mail op te halen. Meer frequente verbindingen betekent dat u uw e-mail sneller ontvangt maar heeft ook tot gevolg dat er meer verzoeken over het Internet gaan en daardoor wellicht een stijging van de kosten van uw telefoonlijn of Internet verbinding veroorzaakt.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD</base>
+        <trans>Tijdens kantooruren (08:00 tot 18:00) op weekdagen</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD_NIGHTS</base>
+        <trans>Buiten kantooruren (18:00 tot 08:00) op weekdagen</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD_WEEKENDS</base>
+        <trans>Tijdens het weekend</trans>
+    </entry>
+    <entry>
+        <base>DESC_POP_ACCOUNT</base>
+        <trans>Voor multi-drop e-mail, specificeer de POP gebruikers accountnaam en wachtwoord. (Bij gebruik van standaard of ETRN e-mail, laat dit veld leeg.) Ook voor multi-drop kunt u de standaard mail sorteer methode gebruiken of u kunt een specifieke bericht-kop gebruiken voor mail sortering.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_POP_PASS</base>
+        <trans>POP gebruikers wachtwoord (voor multi-drop)</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_POP_ACCOUNT</base>
+        <trans>POP gebruikers accountnaam (voor multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SORT_METHOD</base>
+        <trans>Selecteer een sorteermethode (voor multi-drop)</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SORT_HEADER</base>
+        <trans>Selecteer een sorteer-kop (voor multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PROTO</base>
+        <trans>Protocol (voor multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_SECURE</base>
+        <trans>Tunnel via SSL (voor multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>AUTO</base>
+        <trans>Automatisch</trans>
+    </entry>
+    <entry>
+        <base>ENABLED_BOTH</base>
+        <trans>Zowel HTTP alsmede HTTPS toestaan</trans>
+    </entry>
+    <entry>
+        <base>ENABLED_SECURE_ONLY</base>
+        <trans>HTTPS (beveiligd) toestaan</trans>
+    </entry>
+     <entry>
+        <base>ONLY_LOCAL_NETWORK_SSL</base>
+        <trans>HTTPS (beveiligd) vanaf lokale netwerken toestaan</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_POP3</base>
+        <trans>Zowel POP3 alsmede POP3S toestaan</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_PRIVATE</base>
+        <trans>Alleen toegang van lokaal netwerk toestaan</trans>
+    </entry>
+    <entry>
+        <base>SECURE_POP3</base>
+        <trans>Privé alsmede publiekelijk (beveiligde POP3S) toestaan</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_IMAP</base>
+        <trans>Zowel IMAP alsmede IMAPS toestaan</trans>
+    </entry>
+    <entry>
+        <base>SECURE_IMAP</base>
+        <trans>Privé alsmede publiekelijk (beveiligde IMAPS) toestaan</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_SMTP</base>
+        <trans>Zowel SMTP alsmede SSMTP toestaan</trans>
+    </entry>
+    <entry>
+        <base>SECURE_SMTP</base>
+        <trans>SSMTP (beveiligd) toestaan</trans>
+    </entry>
+    <entry>
+        <base>LABEL_POP_ACCESS_CONTROL</base>
+        <trans>POP3 server toegang</trans>
+    </entry>
+    <entry>
+        <base>LABEL_IMAP_ACCESS_CONTROL</base>
+        <trans>IMAP server toegang</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SMTP_AUTH_CONTROL</base>
+        <trans>SMTP autorisatie</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_TO_ADMIN</base>
+        <trans>Stuur naar de beheerder</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_TO</base>
+        <trans>Stuur naar</trans>
+    </entry>
+    <entry>
+        <base>RETURN_TO_SENDER</base>
+        <trans>Weigeren</trans>
+    </entry>
+    <entry>
+        <base>LABEL_UNKNOWN</base>
+        <trans>E-mail naar onbekende gebruikers</trans>
+    </entry>
+    <entry>
+        <base>DESC_UNKNOWN</base>
+        <trans><![CDATA[ <h2>Onbekende Gebruikers</h2> Weigeren kiezen (aanbevolen instelling) zal de server zo instellen om alleen e-mail te ontvangen voor juiste e-mail adressen (bijvoorbeeld gebruikers, groepen, pseudoniemen). E-mail voor andere adressen wordt geweigerd. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SMARTHOST</base>
+        <trans>Adres van uw Internet provider's mail server</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_SMARTHOST</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>SMTP server</h2> De server kan uitgaande berichten direct afleveren op de bestemming (aanbevolen in de meeste gevallen) of kan ze afleveren via de SMTP server van uw provider (aanbevolen als u een onbetrouwbare Internet verbinding hebt of als u een residentiële Internet service gebruikt). Als u de SMTP server van uw provider gebruikt, specificeer de hostnaam of het IP adres hieronder. Anders mag u dit veld leeglaten. ]]></trans>
+    </entry>
+
+    <entry>
+        <base>INVALID_SMARTHOST</base>
+        <trans>De smarthost-naam die u opgaf is niet een geldige domeinnaam en is niet leeg</trans>
+    </entry>
+    <entry>
+        <base>DESC_POP_ACCESS_CONTROL</base>
+        <trans>U kunt de POP3 toegang beheren. De instelling 'Alleen toegang van lokaal netwerk toestaan' geeft alleen toegang vanaf lokale netwerk(en) tot POP3. De POP3S instelling kan worden gebruikt om versleutelde toegang te geven van buitenaf op uw POP3 server. We raden aan om de instelling 'Alleen toegang van lokaal netwerk toestaan' te gebruiken tenzij u bijzondere redenen hebt om dit aan te passen.</trans>
+    </entry>
+    <entry>
+        <base>DESC_IMAP_ACCESS_CONTROL</base>
+        <trans>U kunt de IMAP toegang beheren. De instelling 'Alleen toegang van lokaal netwerk toestaan' geeft alleen toegang vanaf lokale netwerk(en) toegang tot IMAP. De IMAPS instelling kan worden gebruikt om versleutelde toegang te geven van buitenaf op uw IMAP server. We raden aan om de instelling 'Alleen toegang van lokaal netwerk toestaan' te gebruiken tenzij u bijzondere redenen hebt om dit aan te passen.</trans>
+    </entry>
+    <entry>
+        <base>DESC_SMTP_AUTH_CONTROL</base>
+        <trans><![CDATA[ U kunt geauthenticeerd gebruik van uw SMTP server toestaan, of dit uitschakelen. De SSMTP instelling verplicht <b>alle</b> gebruikers om gebruik te maken van SSL/TLS authenticatie. De SMTP en SSMTP optie staan additioneel het gebruik van STARTTLS toe om authenticatie over een beveiligde verbinding mogelijk te maken. ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_WEBMAIL</base>
+        <trans>U kunt webmail aan- en uitzetten op dit systeem. Webmail geeft gebruikers toegang tot hun mail via een reguliere webbrowser door de webbrowser te sturen naar https://{$FQDN}/webmail, en in te loggen op hun account.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_WEBMAIL</base>
+        <trans>Webmail toegang</trans>
+    </entry>
+     <entry>
+        <base>LABEL_BLOCK_EXECUTABLE_CONTENT</base>
+        <trans>Uitvoerbare inhoud blokkering</trans>
+     </entry>
+     <entry>
+        <base>LABEL_CONTENT_TO_BLOCK</base>
+        <trans>Inhoud te blokkeren</trans>
+     </entry>
+     <entry>
+        <base>DESC_BLOCK_EXECUTABLE_CONTENT</base>
+        <trans>U kunt uitvoerbare inhoud blokkeren in e-mail-bijlagen door de uitvoerbare types te markeren die u wenst te blokkeren. E-mail met deze bijlagen van deze types zal automatisch worden teruggestuurd naar de verzender.</trans>
+    </entry>
+    <entry>
+        <base>UNACCEPTABLE_CHARS</base>
+        <trans>Dit veld vereist een geldig e-mail adres welke een @ teken en een domeinnaam moet bevatten.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_ACCESS</base>
+        <trans><![CDATA[ <h2>E-mail toegang</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_ACCESS_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_ACCESS">Verander e-mail toegang instellingen</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_RECEPTION</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>E-mail ontvangst</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_RECEPTION_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_RECEPTION">Verander de e-mail ontvangst instellingen</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_DELIVERY</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>E-mail bezorging</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_DELIVERY_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_DELIVERY">Verander de e-mail bezorg instellingen</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_FILTERING_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_FILTERING">Verander de e-mail filter instellingen</a> ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_VIRUS_SCAN</base>
+	<trans>Virus scannen</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_VIRUS_SCAN</base>
+	<trans>U kunt in- en uitgaande e-mail scannen op virussen. Als scannen aanstaat en een virus is gedetecteerd wordt de e-mail geweigerd en teruggestuurd aan de verzender.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_SPAM_SCAN</base>
+	<trans>Spam filteren</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_SPAM_SCAN</base>
+	<trans>U kunt e-mail controleren op spam. Als Spam filteren aanstaat zal een X-Spam-Status: berichtkop worden toegevoegd aan elk bericht welke gebruikt kan worden voor het filteren van spam. U kunt de gevoeligheid van de Spam detectie wijzigen van Standaard naar Gemiddeld. Voor betere controle kunt u de Spam gevoeligheid op Aangepast instellen en een aangepast markeringsniveau opgeven en eventueel een niveau waarop een bericht wordt geweigerd.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_SPAM_SUBJECT</base>
+	<trans>SPAM onderwerp voorvoegsel</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_SPAM_SUBJECT</base>
+	<trans>U kunt aan ieder als SPAM gemarkeerd bericht een voorvoegsel toevoegen.Dit voorvoegsel kan hieronder worden gedefinieërd.</trans>
+    </entry>
+
+   <entry>
+        <base>LABEL_SPAM_SENSITIVITY</base>
+        <trans>Spam gevoeligheid</trans>
+    </entry>
+   <entry>
+        <base>LABEL_SPAM_TAGLEVEL</base>
+        <trans>Aangepast spam markeringsniveau</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SPAM_REJECTLEVEL</base>
+        <trans>Aangepast spam weigeringsniveau</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SPAM_SUBJECTTAG</base>
+        <trans>Onderwerp van spam bericht wijzigen</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SORTSPAM</base>
+        <trans>Sorteer spam naar junkmail map</trans>
+    </entry>
+    <entry>
+        <base>VERYHIGH</base>
+        <trans>Erg hoog</trans>
+    </entry>
+    <entry>
+        <base>HIGH</base>
+        <trans>Hoog</trans>
+    </entry>
+    <entry>
+        <base>MEDIUM</base>
+        <trans>Gemiddeld</trans>
+    </entry>
+    <entry>
+        <base>LOW</base>
+        <trans>Laag</trans>
+    </entry>
+    <entry>
+        <base>VERYLOW</base>
+        <trans>Erg laag</trans>
+    </entry>
+    <entry>
+        <base>CUSTOM</base>
+        <trans>Aangepast</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_STATUS</base>
+        <trans>SMTP authenticatie voor uw Internet provider</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_USERID</base>
+        <trans>Mail server gebruikers id</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_PASSWD</base>
+        <trans>Mail server wachtwoord</trans>
+    </entry>
+
+    <entry>
+        <base>VALIDATION_SMTPAUTH_NONBLANK</base>
+        <trans>Dit veld kan niet leeg worden gelaten als SMTP authenticatie aanstaat.</trans>
+    </entry>
+
+</lexicon>

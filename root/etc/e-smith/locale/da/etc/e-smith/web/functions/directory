@@ -1,0 +1,79 @@
+<lexicon lang="da">
+   <entry>
+     <base>FORM_TITLE</base>
+       <trans>Indstilling af LDAPserveren</trans>
+   </entry>	
+<entry>
+<base>LABEL_ROOT</base>
+<trans>Server rod</trans>
+</entry>
+
+<entry>
+<base>DESCRIPTION</base>
+<trans>LDAP serveren tilbyder netværket adgang til en liste over bruger- og gruppekonti på serveren, som kan tilgås af LDAP-klienter som Adressebogsfunktionen i Netscape Comunicator. Indstil LDAP klienten til serverens IP addresse, portnummer 389 og parametrene for server rod, der vises nedenfor.</trans>
+</entry>
+<entry>
+<base>DESC_DIRECTORY_ACCESS</base>
+<trans>Du kan styre adgangen til LDAP. Vælg blandt mulighederne.</trans>
+</entry>
+<entry>
+<base>DIRECTORY_ACCESS</base>
+<trans>Adgang til LDAP</trans>
+</entry>
+<entry>
+	<base>DESC_DEPARTMENT</base>
+<trans>Disse felter indeholder de grundlæggende LDAP indstillinger for din organisation. For enhver ny brugerkonto du opretter, vil du blive foranlediget til at indtaste alle disse felter (de kan være forskellige for hver bruger), men værdierne her vil vise sig som grundlæggende indstillinger. Det er bekvemt og gør brugeroprettelsen hurtigere.</trans>
+</entry>
+<entry>
+        <base>DEPARTMENT</base>
+        <trans>Afdelingens navn</trans>
+</entry>
+
+<entry>
+        <base>COMPANY</base>
+        <trans>Virksomhedsnavn</trans>
+</entry>
+<entry>
+        <base>STREET</base>
+        <trans>Gade og nr.</trans>
+</entry>
+
+<entry>
+        <base>CITY</base>
+        <trans>Postnr. og by</trans>
+</entry>
+
+<entry>
+        <base>PHONENUMBER</base>
+        <trans>Telefonnr.</trans>
+</entry>
+
+<entry>
+<base>DESC_EXISTING</base>
+<trans>Du kan lade eksisterende brugerkonti fortsætte som de er, og kun lade ændringerne påvirke fremtidige bruger eller du kan opdatere alle bruger med de nye indstillinger.</trans>
+</entry>
+
+
+
+<entry>
+<base>EXISTING</base>
+<trans>Eksisterende brugere</trans>
+</entry>
+<entry>
+<base>SUCCESS</base>
+<trans>De nye grundlæggende LDAPindstillinger er gemt.</trans>
+</entry>
+
+<entry>
+<base>LEAVE</base>
+<trans>Efterlad som de er</trans>
+</entry>
+<entry>
+<base>UPDATE</base>
+<trans>Opdater med nye indstillinger</trans>
+</entry>
+    <entry>
+        <base>Directory</base>
+        <trans>LDAPliste</trans>
+    </entry>
+</lexicon>

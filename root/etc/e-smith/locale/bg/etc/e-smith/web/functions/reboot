@@ -1,0 +1,42 @@
+<lexicon lang="bg">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Спиране или рестартиране</trans>
+    </entry>
+    <entry>
+	<base>REBOOT</base>
+	<trans>Рестартиране</trans>
+    </entry>
+    <entry>
+	<base>REBOOT_SUCCEEDED</base>
+	<trans>Заявката за рестартиране започна успешно.</trans>
+    </entry>
+    <entry>
+	<base>DESC_REBOOT</base>
+	<trans>Сървъра започна процеса по рестартиране.</trans>
+    </entry>
+    <entry>
+	<base>RECONFIGURE_SUCCEEDED</base>
+	<trans>Заявката за преконфигуриране започна успешно.</trans>
+    </entry>
+    <entry>
+	<base>DESC_RECONFIGURE</base>
+	<trans>Сървъра започна пълна преконфигурация и рестартиране.</trans>
+    </entry>
+    <entry>
+	<base>DESC_SHUTDOWN</base>
+	<trans>Сървъра започна процеса по спиране. Процесът ще продължи няколко минути, а след това можете да изключите захранването.</trans>
+    </entry>
+    <entry>
+	<base>LABEL_REBOOT</base>
+	<trans>Изберете Спиране, Рестартиране или Преконфигурация</trans>
+    </entry>
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ Можете да рестартирате, да спрете или да извършите пълно преконфигуриране на сървъра от този екран. Трябва да направите Спиране преди да изключите захранването. За извършването на всички тези функции са необходими няколко минути. Когато натиснете бутона <b>извърши</b> операцията ще започне веднага, така че се подгответе! ]]></trans>
+    </entry>
+    <entry>
+	<base>Reboot or shutdown</base>
+	<trans>Рестартиране или спиране</trans>
+    </entry>
+</lexicon>

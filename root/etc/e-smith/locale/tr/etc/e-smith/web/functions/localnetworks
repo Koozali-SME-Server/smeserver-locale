@@ -1,0 +1,108 @@
+<lexicon lang="tr">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>Local networks</base>
+        <trans>Yerel ağlar</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ Güvenlik sebepleri nedeniyle bu sunucudaki bazı servisler sadece yerel ağ balantısıyla yönetilebilirr. Bu hizmetlere erişimi, ek ağlara da verebilmeniz için aşağıdaki listeye ek ağları tanımlamanız gerekmektedir. Çoğu kurulum bu listeyi boş bırakır.</P><P> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Ağ ekle</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>Yerel ağ ekle</trans>
+    </entry>
+    <entry>
+        <base>ADD_DESC</base>
+        <trans><![CDATA[ Parametrelerin formatı #.#.#.# (her # işareti 0 ile 255 arasında bir sayıyı gösterir) şeklinde olmalıdır. Sunucunuz network adresini geçerli kılmak için  alt ağ maskesinin sonunu sıfır ile değiştirecektir.</P><P>Ek ağ ulaşmanızı sağlayan "Router" IP adresi, sunucunuzun ağ adresi aralığında yer almalıdır. ]]></trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ADDRESS</base>
+        <trans>Ağ adresi</trans>
+    </entry>
+    <entry>
+        <base>SUBNET_MASK</base>
+        <trans>Alt ağ maskesi</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IP_ADDRESS</base>
+        <trans>Geçersiz IP adresi</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SUBNET_MASK</base>
+        <trans>Geçersiz alt ağ maskesi</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Yerel ağ sil</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Aşağıdaki yerel ağı silmek üzeresiniz.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_CONFIRM</base>
+        <trans>Bu ağı silmek istediğinizden eminmisiniz?</trans>
+    </entry>
+    <entry>
+        <base>DEFAULT</base>
+        <trans>varsayılan</trans>
+    </entry>
+    <entry>
+        <base>NUMBER_OF_HOSTS</base>
+        <trans>Etki alanı sayısı</trans>
+    </entry>
+    <entry>
+        <base>NOT_ACCESSIBLE_FROM_LOCAL_NETWORK</base>
+        <trans>Hata: yönlendirme {$networkRouter} yerel ağ tarafından erişilemez. Ağ eklenemedi.</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_LOCAL</base>
+        <trans>Hata: ağ {$network} (yerel ağ {$networkAddress} ve alt ağ maskesi {$networkMask}) yerel olarak kullanımda. Ağ eklenemedi.</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_ADDED</base>
+        <trans>Hata: ağ {$network} (mevcut ağ {$networkAddress} ve alt ağ maskesi {$networkMask}) zaten eklenmiş. Ağ eklenemedi.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_CREATING_NETWORK</base>
+        <trans>Ağ oluşturulurken hata meydana geldi.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Ağ {$network}/{$networkMask} , yönlendirme {$networkRouter} başarıyla eklendi.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_SINGLE_ADDRESS</base>
+        <trans>Ağ {$network}/{$networkMask} , yönlendirme {$networkRouter} başarıyla eklendi. Sunucunuz {$network} IP adresine yerel erişim yetkisi tanıyacaktır.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NETWORK_RANGE</base>
+        <trans>Ağ {$network}/{$networkMask} , yönlendirme {$networkRouter} başarıyla eklendi. Sunucunuz {$firstAddr} den {$lastAddr} kadar olan toplam {$totalHosts} IP adresine yerel erişim hizmeti tanıyacaktır.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NONSTANDARD_RANGE</base>
+        <trans><![CDATA[ <p> Ağ {$network}/{$networkMask} , yönlendirme {$networkRouter} başarıyla eklendi. </p> <p> Sunucunuz {$firstAddr} den {$lastAddr} kadar olan toplam {$totalHosts} IP adresine yerel erişim hizmeti tanıyacaktır. </p> <p> Dikkat: ProFTPd FTP sunucusu bu standart olmayan alt ağ maskesini kullanamaz. Bunun yerine standart <b>{$simpleMask}</b> alt ağ maskesini kullanacaktır. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_REMOVED_NETWORK</base>
+        <trans>Ağ {$network}/{$networkMask} , yönlendirme {$networkRouter} başarıyla silindi.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_DELETING_NETWORK</base>
+        <trans>Ağ silinirken hata oluştu.</trans>
+    </entry>
+    <entry>
+        <base>NO_ADDITIONAL_NETWORKS</base>
+        <trans>Ek ağ bulunamadı.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_DESC</base>
+        <trans>Silmeye çalıştığınız ağda yapılantırılmış alan adı sunucular tespit edildi. Varsayılan oalrak onalar da silinecektir. Bunun olmasını istemiyorsanız seçme kutusunu işaretleyin. Bu ağ bağlı sunucular bundan sonra yerel olarak tanınmayacaklardır ve ağ silindikten sonra erişilemeyebilirler.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_LABEL</base>
+        <trans>Ağdaki alan adını sil</trans>
+    </entry>
+</lexicon>

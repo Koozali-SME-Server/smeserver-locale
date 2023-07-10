@@ -1,0 +1,58 @@
+<lexicon lang="sv">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Ändra inställningarna för arbetsgruppen</trans>
+    </entry>	
+    <entry> 
+        <base>DESC_WORKGROUP</base>
+        <trans><![CDATA[ Ange namnet på den Windowsarbetsgrupp som denna server skall tillhöra. ]]></trans>	
+    </entry>
+    <entry>
+        <base>LABEL_WORKGROUP</base>
+        <trans>Windowsarbetsgrupp</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERVERNAME</base>
+        <trans>Ange namnet som servern skall använda vid fildelning med Windows och Macintosh.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERVERNAME</base>
+        <trans>Servernamn</trans>
+    </entry>
+    <entry>
+        <base>DESC_PDC</base>
+        <trans><![CDATA[Skall denna server kontrollera arbetsgruppen och domänen i ditt Windowsnätverk? Du bör ange denna inställning till <b>Nej</b> om någon annan server redan har denna roll i ditt nätverk.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_PDC</base>
+        <trans>Arbetsgrupp och domänkontroll</trans>
+    </entry>
+    <entry>
+        <base>DESC_ROAM</base>
+        <trans><![CDATA[ Skall denna server stödja serverbaserade profiler (roaming profiles)? Du bör ange denna inställning till det förvalda <b>Nej</b> om du inte har erfarenhet i administrationen av serverbaserade Windows profiler och vet att denna tjänst efterfrågas. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_ROAM</base>
+        <trans>Serverbaserade profiler</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>De nya inställningarna har sparats</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP</base>
+        <trans>Namnet på arbetsgruppen måste börja med en bokstav (versal eller gemen), följt av en kombination av bokstäver, siffror, understreck, punkter eller bindestreck.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SERVERNAME</base>
+        <trans>Namnet på servern måste börja med en bokstav (versal eller gemen), följt av en kombination av bokstäver, siffror, understreck eller bindestreck.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP_MATCHES_SERVERNAME</base>
+        <trans>Servernamnet och arbetsgruppsnamnet matchar när man jämför dessa som gemener. Dessa värden måste vara olika för att fildelning skall kunna fungera.</trans>
+    </entry>
+    <entry>
+        <base>Workgroup</base>
+        <trans>Arbetsgrupp</trans>
+    </entry>
+</lexicon>

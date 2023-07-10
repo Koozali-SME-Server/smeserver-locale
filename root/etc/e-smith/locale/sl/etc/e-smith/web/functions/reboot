@@ -1,0 +1,42 @@
+<lexicon lang="sl">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Zaustavitev ali ponovni zagon</trans>
+    </entry>
+    <entry>
+	<base>REBOOT</base>
+	<trans>Ponovni zagon</trans>
+    </entry>
+    <entry>
+	<base>REBOOT_SUCCEEDED</base>
+	<trans>Zahteva za ponovni zagon sprejeta.</trans>
+    </entry>
+    <entry>
+	<base>DESC_REBOOT</base>
+	<trans>V osmih sekundah bo streznik pricel z ponovnim zagonom.</trans>
+    </entry>
+    <entry>
+	<base>RECONFIGURE_SUCCEEDED</base>
+	<trans>Zahteva za ponovni zagon sprejeta.</trans>
+    </entry>
+    <entry>
+	<base>DESC_RECONFIGURE</base>
+	<trans>Your server has initiated a full system reconfiguration and reboot.</trans>
+    </entry>
+    <entry>
+	<base>DESC_SHUTDOWN</base>
+	<trans>V osmih sekundah bo streznik pricel postopek zaustavitve. Proces lahko traja kar nekaj casa po katerem lahko izkljucis napajanje racunalnika.</trans>
+    </entry>
+    <entry>
+	<base>LABEL_REBOOT</base>
+	<trans>Izberi zaustavitev ali ponovni zagon</trans>
+    </entry>
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ Na tem ekranu lahko izvedes zaustavitev ali ponovni zagon streznika. Predno streznik ugasnes moras izvesti proceduro zaustavitve. Obe proceduri lahko trajata nekaj minut. Ko pritisnes gumb <b>Izvedi</b> se bo procedura zacela izvajati, bodite pripravljeni! ]]></trans>
+    </entry>
+    <entry>
+	<base>Reboot or shutdown</base>
+	<trans>Ponovni zagon ali zaustavitev</trans>
+    </entry>
+</lexicon>

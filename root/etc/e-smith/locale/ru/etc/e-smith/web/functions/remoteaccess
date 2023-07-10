@@ -1,0 +1,171 @@
+<lexicon lang="ru">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Изменить настройки удалённого доступа</trans>
+    </entry>	
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans>For each of the options below, the private setting allows anyone from your local network to access your server. The public setting allows access from anywhere on the Internet. The no access setting disables access. To understand the security implications of changing these options from the default settings, you should read the user's guide section on remote access.</trans>	
+    </entry>
+    <entry>
+	<base>SUCCESS</base>
+	<trans>Новые настройки удалённого доступа были сохранены.</trans>
+    </entry>
+    <entry>
+	<base>NO_ACCESS</base>
+	<trans>Нет доступа</trans>
+    </entry>
+    <entry>
+	<base>PASSWORD_LOGIN_PRIVATE</base>
+	<trans>Принимать пароли только из локальных сетей</trans>
+    </entry>
+    <entry>
+	<base>PASSWORD_LOGIN_PUBLIC</base>
+	<trans>Принимать пароли отовсюду</trans>
+    </entry>
+    <entry>
+	<base>LABEL_TELNET_ACCESS</base>
+	<trans>Telnet доступ</trans>
+    </entry>
+    <entry>
+	<base>LABEL_FTP_ACCESS</base>
+	<trans>FTP доступ</trans>
+    </entry>
+    <entry>
+	<base>LABEL_FTP_LOGIN</base>
+	<trans>Парольный доступ к FTP</trans>
+    </entry>
+    <entry>
+	<base>LABEL_PPTP</base>
+	<trans>Число PPTP клиентов</trans>
+    </entry>
+     <entry>
+       <base>NUMBER_OF_VPN_CLIENTS_MUST_BE_LESSER_THAN_NUMBER_OF_IP_IN_DHCP_RANGE</base>
+       <trans>The number of VPN clients is greater than the number of reserved IP for DHCP. You should take a smaller number.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SSH_PORT</base>
+        <trans>Порт TCP для SSH доступа</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH</base>
+	<trans>SSH доступ</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH_ADMIN</base>
+	<trans>Разрешить доступ к административной командной строке через SSH</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH_PASSWORD_ACCESS</base>
+	<trans>Разрешить SSH доступ с использованием стандартных паролей</trans>
+    </entry>
+    <entry>
+	<base>DESC_SSH</base>
+	<trans><![CDATA[ <hr class="sectionbar" /> <h2>Secure Shell Settings</h2>You can control Secure Shell access to your server. The public setting should only be enabled by experienced administrators for remote problem diagnosis and resolution. We recommend leaving this parameter set to "No Access" unless you have a specific reason to do otherwise. ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_FTP_ACCESS</base>
+	<trans><![CDATA[ <hr class="sectionbar" /><h2>FTP Settings</h2> You can also control <b>FTP</b> access to your server. We recommend leaving this parameter set to 'no access' unless you have a specific reason to do otherwise. <p> Note: these settings limit access to the server and override other settings, including those for individual information bays.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_FTP_LOGIN</base>
+	<trans><![CDATA[ You can also control authenticated FTP access to information bays and user accounts. We strongly recommend leaving this parameter set to private unless you have a specific reason to do otherwise. <p> Note: a secure shell sftp client can also be used to access the server, if remote access via the secure shell is enabled. This method of access protects the passwords and data of the FTP session, whereas standard FTP provides no protection.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_PPTP</base>
+	<trans><![CDATA[ <hr class="sectionbar" /><h2>Настройки PPTP</h2> Вы можете разрешить PPTP доступ к вашему серверу. Вам следует оставить эту функцию отключённой, установив значение равным 0, пока вам не потребуется PPTP доступ.]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_VPN</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Настройки PPTP</h2> Вы можете разрешить PPTP доступ к вашему серверу. Вам следует оставить эту функцию отключённой, установив значение равным 0, пока вам не потребуется PPTP доступ.]]></trans>
+    </entry>
+    <entry>
+	<base>VALUE_ZERO_OR_POSITIVE</base>
+	<trans>Значение должно быть нулевым или положительным целым числом</trans>
+    </entry>
+    <entry>
+	<base>REMOTE_MANAGEMENT</base>
+	<trans>Удаленное управление</trans>
+    </entry>
+    <entry>
+	<base>VALIDFROM_DESC</base>
+	<trans><![CDATA[ <hr class="sectionbar" /><h2>{$REMOTE_MANAGEMENT}</h2> <p>Возможно разрешить узлам удаленной сети доступ управлению сервером путем ввода этих сетей здесь. Используйте маску подсети 255.255.255.255, чтобы ограничить доступ указанным узлом. Любой узел, в пределах указанного диапазона будет иметь доступ к управлению сервером, используя HTTPS.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_VALID_FROM_ENTRIES</base>
+	<trans>Чтобы добавить новую сеть удалённого управления, введите параметры ниже.</trans>
+    </entry>
+    <entry>
+	<base>SUBNET_MASK</base>
+	<trans>Маска подсети</trans>
+    </entry>
+    <entry>
+	<base>NUM_OF_HOSTS</base>
+	<trans>Число узлов</trans>
+    </entry>
+    <entry>
+	<base>NO_ENTRIES_YET</base>
+	<trans>Нет записей</trans>
+    </entry>
+    <entry>
+	<base>INVALID_SUBNET_MASK</base>
+	<trans>Неверная маска подсети</trans>
+    </entry>
+    <entry>
+	<base>ERR_INVALID_PARAMS</base>
+	<trans>Введите сеть и маску подсети, либо оставьте оба поля пустыми.</trans>
+    </entry>
+    <entry>
+	<base>ERR_NO_RECORD</base>
+	<trans>Невозможно обнаружить запись httpd-admin в БД конфигурации</trans>
+    </entry>
+    <entry>
+	<base>Remote access</base>
+	<trans>Удалённый доступ</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERIAL_CONSOLE_ACCESS</base>
+        <trans>Последовательная консоль</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERIAL_CONSOLE_ACCESS</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Последовательная консоль</h2> Вы можете разрешить доступ к консоли сервера с терминала подключённого к последовательному порту сервера.]]></trans>
+    </entry>
+    <entry>
+        <base>PORT1_ENABLED</base>
+        <trans>Доступно на последовательном порту 1</trans>
+    </entry>
+    <entry>
+        <base>PORT2_ENABLED</base>
+        <trans>Доступно на последовательном порту 2</trans>
+    </entry>   
+
+    <entry>
+        <base>LABEL_PPTP_ACCESS</base>
+        <trans>PPTP доступ пользователя по умолчанию</trans>
+    </entry>
+    <entry>
+        <base>DESC_TELNET_ACCESS</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Настройки Telnet</h2> ВНИМАНИЕ: Telnet включён, но эта функция больше не поддерживается. Telnet является небезопасным и по своей сути должен быть использован только в тех случаях, когда нет практической альтернативы. Вы должны изменить параметр на {$NO_ACCESS} и использовать SSH, если требуется удаленный доступ. После отключения, Telnet больше не будет появляться на этом экране. ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_IPSECRW</base>
+	<trans><![CDATA[ <h2>Настройки IPSEC клиента (Roadwarrior)</h2> Вы можете разрешить клиентский IPSEC доступ к вашему серверу, с входом по цифровыми сертификатами. Вы должны оставить эту функцию отключённой, установив значение равным 0, пока вам не требуется клиентский IPSEC доступ. ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_IPSECRW_SESS</base>
+	<trans>Число IPSEC клиентов</trans>
+    </entry>
+    <entry>
+	<base>DESC_IPSECRW_RESET</base>
+	<trans><![CDATA[If you wish to reset all digital certificates, you can do so here.<br>Any old certificates will no longer authenticate against the server, so <b><i>all IPSEC clients will need to import a new certificate!</i></b>. ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_IPSECRW_RESET</base>
+	<trans>Сбросить цифровые сертификаты</trans>
+    </entry>
+    <entry>
+        <base>DESC_IPSEC_VPN_UNAVAILABLE</base>
+        <trans>IPSEC VPN is not installed. Please install the contrib if you need VPN access.</trans>
+    </entry>
+</lexicon>

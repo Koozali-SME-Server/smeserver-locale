@@ -1,0 +1,749 @@
+<lexicon lang="es">
+  <entry>
+   <base>BACKUP_TITLE</base>
+   <trans>Respaldar o restaurar los datos del servidor</trans>
+  </entry>
+  <entry>
+   <base>BACKUP_DESC</base>
+   <trans><![CDATA[ <P>El servidor provee dos maneras de respaldar y restaurar su servidor: usando su escritorio local o unidad de cinta.</P> <P>El primer método crea una copia de los archivos de datos de usuario y de configuración del servidor y la descarga al escritorio local mediante el explorador Web. El total aproximado actual de los archivos de configuración y de datos es de <b>$tarsize</b>. El archivo de respaldo será un poco menor, dependiendo de lo comprimibles que sean los datos. La opción \"Verificar archivo de respaldo de escritorio\" se puede utilizar para verificar la integridad de un archivo de respaldo de escritorio.</P> <P>El método de respaldo en cinta utiliza un paquete de software llamado <I>$module</I> para respaldar en cinta el disco duro completo todas las noches. Esto requiere una unidad de cinta compatible y una cinta que no esté protegida contra-escritura. El respaldo se realiza automáticamente todas las noches a la hora seleccionada (enviándose automáticamente al administrador un recordatorio electrónico durante el día). Actualmente, el disco duro contiene <b>$dumpsize</b> de datos.</P> <P>Los dos métodos de restauración permiten restaurar los archivos de configuración y de datos de usuario. <b>Idealmente, la restauración se debe realizar en un servidor recién instalado</b>.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_DESC_DAR</base>
+   <trans><![CDATA[ <P>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</P> <P>Tape Backup. This method uses a software package called <I>$module</I> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>$dumpsize</b> of data.</P> <P>Workstation backup. This method uses a software package called <I>dar</I> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>$tarsize</b> uncompressed. Twice the compressed data size must be available on the backup share.</P> <P>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>$tarsize</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</P> <P>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_CONFIG_STATUS</base>
+   <trans>Configuración y estado del respaldo</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUPS_ENABLED</base>
+   <trans><![CDATA[ Los respaldos en cinta están <b>habilitados</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUPS_RUN_AT</base>
+   <trans>Los respaldos regulares en cinta se ejecutarán a las:</trans>
+  </entry>
+  <entry>
+   <base>REMINDER_MESSAGE_AT</base>
+   <trans>Los mensajes recordatorios se enviarán a las:</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUPS_DISABLED</base>
+   <trans><![CDATA[ Los respaldos en cinta están <b>deshabilitados</b> ]]></trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_BACKUP</base>
+   <trans>Respaldo al escritorio</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_RESTORE</base>
+   <trans>Restaurar desde el escritorio</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_VERIFY</base>
+   <trans>Verificar archivo de respaldo de escritorio</trans>
+  </entry>
+  <entry>
+   <base>TAPE_CONFIGURE</base>
+   <trans>Configurar respaldo en cinta</trans>
+  </entry>
+  <entry>
+   <base>TAPE_RESTORE</base>
+   <trans>Restaurar desde la cinta</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS_BEGAN_AT</base>
+   <trans>Hay una restauración del sistema en curso. Comenzó a las:</trans>
+  </entry>
+  <entry>
+   <base>REFRESH_THIS_DISPLAY</base>
+   <trans>Actualizar esta pantalla</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_TAPE_BACKUP</base>
+   <trans>Configurar respaldo en cinta</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_COMPLETED</base>
+   <trans>Se ha completado la restauración del sistema</trans>
+  </entry>
+  <entry>
+   <base>STARTED_AT</base>
+   <trans>Comenzó a las:</trans>
+  </entry>
+  <entry>
+   <base>FINISHED_AT</base>
+   <trans>y finalizó a las:</trans>
+  </entry>
+  <entry>
+   <base>YOU_MUST_REBOOT</base>
+   <trans>Debe reiniciar el servidor para activar cualquier cambio en la configuración realizada como resultado de esta restauración.</trans> 
+  </entry> 
+  <entry>
+   <base>REBOOT</base>
+   <trans>Reiniciar</trans>
+  </entry>
+  <entry>
+   <base>SELECT_AN_ACTION</base>
+   <trans>Seleccionar una acción</trans>
+  </entry>
+  <entry>
+   <base>X_BACKUP_OR_RESTORE</base>
+   <trans>X Respaldar o restaurar los datos del servidor</trans>
+  </entry>
+  <entry>
+   <base>ERR_PRE_BACKUP</base>
+   <trans>Ocurrió un error durante las acciones pre-backup.</trans>
+  </entry>
+  <entry>
+   <base>ERR_PRE_RESTORE</base>
+   <trans>Ocurrió un error durante las acciones pre-restore.</trans>
+  </entry>
+  <entry>
+   <base>ERR_POST_BACKUP</base>
+   <trans>Ocurrió un error durante las acciones post-backup.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_SERVER_CONFIG</base>
+   <trans>Restaurar la configuración del servidor</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_RESTORE_DESC</base>
+   <trans><![CDATA[ Este proceso cargará un archivo de respaldo del servidor desde el escritorio local al servidor y restaurará los archivos de configuración y de datos de usuario. <B>La restauración se debe realizar sobre una instalación nueva de servidor</B>. ]]></trans>
+  </entry>
+  <entry>
+   <base>FREE_SPACE</base>
+   <trans><![CDATA[ Usted tiene aproximadamente $tmpfree de espacio libre en el servidor. Verifique que el archivo de respaldo de escritorio sea menor a $halffree antes de comenzar con la restauración. ]]></trans>
+  </entry>
+  <entry>
+   <base>MUST_REBOOT_AFTER_RESTORE</base>
+   <trans>Luego de que finalice la restauración, debe reiniciar el servidor.</trans>
+  </entry>
+  <entry>
+   <base>FILE_TO_RESTORE</base>
+   <trans>Archivo de respaldo desde el cual restaurar</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Esta opción mostrará los nombres de todos los archivos  contenidos en archivo de respaldo de escritorio creado previamente. Puede utilizar esta opción para verificar el contenido del archivo de respaldo.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>SELECT_BACKUP_FILE</base>
+   <trans>Seleccionar archivo de respaldo</trans>
+  </entry>
+  <entry>
+   <base>VERIFY</base>
+   <trans>Verificar</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CANNOT_PROCEED</base>
+   <trans>No se puede continuar con la restauración de la configuración del servidor</trans>
+  </entry>
+  <entry>
+   <base>ANOTHER_RESTORE_IN_PROGRESS</base>
+   <trans>Hay otra restauración en curso. Vuelva a intentarlo más tarde.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS</base>
+   <trans>Restauración en curso</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS_DESC</base>
+   <trans>Luego de que finalice la restauración, debe reiniciar el servidor. La restauración estará completa cuando las palabras "Restauración completa" aparezcan en la parte inferior de su pantalla.</trans>
+  </entry>
+  <entry>
+   <base>FILES_HAVE_BEEN_RESTORED</base>
+   <trans>Se restauraron los siguientes archivos y directorios:</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FAILED_MSG</base>
+   <trans>¡La restauración falló! Ocurrió un error en la lectura del archivo de respaldo.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_COMPLETE</base>
+   <trans>Restauración completa</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_GID</base>
+   <trans>Ocurrió un error mientras se restauraba el gid de 'www'</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_INITIAL_GRP</base>
+   <trans>Ocurrió un error mientras se restauraba el grupo inicial de 'www'.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FAILED</base>
+   <trans>¡La restauración falló! El archivo de respaldo estaba incompleto.</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_EXEC_PIPELINE</base>
+   <trans>No se pudo ejecutar la canalización de respaldo:</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_DECODE</base>
+   <trans>No se pudo decodificar el archivo de respaldo:</trans>
+  </entry>
+  <entry>
+   <base>FILES_IN_BACKUP</base>
+   <trans>Los siguientes archivos están considerados en el respaldo :</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_COMPLETE</base>
+   <trans>La verificación está completa</trans>
+  </entry>
+  <entry>
+   <base>BACKUP_FILE_INCOMPLETE</base>
+   <trans>El archivo de respaldo estaba incompleto</trans>
+  </entry>
+  <entry>
+   <base>ERR_READING_FILE</base>
+   <trans>Ocurrió un error en la lectura del archivo de respaldo.</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_DISABLE_TAPE</base>
+   <trans>Habilitar/Deshabilitar Respaldo Nocturno en Cinta</trans>
+  </entry>
+  <entry>
+   <base>TAPE_CONFIG_DESC</base>
+   <trans><![CDATA[ <p>Seleccione si desea habilitar los respaldos nocturnos. Luego, indique las horas deseadas para el respaldo y el recordatorio de carga de cinta.</p> <p>El respaldo en cinta requiere una unidad de cinta compatible. Si la unidad de cinta está vacía, se enviará un mensaje de advertencia al administrador a la hora de recordatorio designada.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>ENABLE_TAPE_BACKUP</base>
+   <trans>Habilitar respaldo en cinta</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUP_TIME</base>
+   <trans>Hora del día para respaldo en cinta (hora/min)</trans>
+  </entry>
+  <entry>
+   <base>LOAD_TAPE_REMINDER_TIME</base>
+   <trans>Hora del día para recordatorio de carga de cinta (hora/min)</trans>
+  </entry>
+  <entry>
+   <base>AM/PM</base>
+   <trans>AM/PM</trans>
+  </entry>
+  <entry>
+   <base>AM</base>
+   <trans>AM</trans>
+  </entry>
+  <entry>
+   <base>PM</base>
+   <trans>PM</trans>
+  </entry>
+  <entry>
+   <base>UPDATE_CONF</base>
+   <trans>Actualizar</trans>
+  </entry>
+  <entry>
+   <base>UPDATING_TAPE_CONF</base>
+   <trans>Actualización de la configuración del respaldo en cinta</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_HOUR</base>
+   <trans>Error: hora de respaldo inválida:</trans>
+  </entry>
+  <entry>
+   <base>BETWEEN_0_AND_12</base>
+   <trans>Escoja una hora entre 0 y 12.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_MINUTE</base>
+   <trans>Error: minuto de respaldo inválido:</trans>
+  </entry>
+  <entry>
+   <base>BETWEEN_0_AND_59</base>
+   <trans>Escoja un minuto entre 0 y 59.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_REMINDER_HOUR</base>
+   <trans>Error: hora de recordatorio inválida:</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_REMINDER_MINUTE</base>
+   <trans>Error: minuto de recordatorio inválido:</trans>
+  </entry>
+  <entry>
+   <base>ERR_CONF_BACKUP</base>
+   <trans>Ocurrió un error durante el evento conf-backup.</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_ENABLED_TAPE</base>
+   <trans>Respaldos en cinta habilitados correctamente</trans>
+  </entry>
+  <entry>
+   <base>WITH_BACKUP_TIME</base>
+   <trans>con hora de respaldo:</trans>
+  </entry>
+  <entry>
+   <base>WITH_REMINDER_TIME</base>
+   <trans>y hora de recordatorio de carga de cinta:</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_DISABLED</base>
+   <trans>Respaldos en cinta deshabilitados correctamente</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_TAPE</base>
+   <trans>Restaurar la configuración del servidor desde el respaldo en cinta</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_TAPE_DESC</base>
+   <trans><![CDATA[ <p>Este proceso restaurará los archivos de configuración y de datos de usuario desde un respaldo en cinta del servidor. <B>La restauración se debe realizar en un servidor recién instalado</B>.</p> <p>Antes de continuar, asegúrese de haber cargado la cinta de respaldo deseada en la unidad de cinta.</p> <p>Luego de que finalice la restauración, debe reiniciar el servidor.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FROM_TAPE</base>
+   <trans>Restaurar Desde Cinta</trans>
+  </entry>
+  <entry>
+   <base>UNABLE_TO_RESTORE_CONF</base>
+   <trans>No se puede restaurar la configuración del servidor</trans>
+  </entry>
+  <entry>
+   <base>RESTORING_FROM_TAPE</base>
+   <trans>Restauración Desde Cinta</trans>
+  </entry>
+  <entry>
+   <base>NOW_RESTORING_FROM_TAPE</base>
+   <trans>Ahora, se están restaurando desde la cinta los archivos de configuración del servidor y de datos de usuario.</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_FROM_TAPE</base>
+   <trans>Ocurrió un error al restaurar los archivos desde la cinta.</trans>
+  </entry>
+  <entry>
+   <base>ERR_UPDATING_CONF_AFTER_TAPE_RESTORE</base>
+   <trans>Ocurrió un error mientras se actualizaba la configuración del sistema después de la restauración desde la cinta.</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_FORK</base>
+   <trans>No se pudo bifurcar:</trans>
+  </entry>
+  <entry>
+   <base>SERVER_REBOOT</base>
+   <trans>Reinicio del servidor</trans>
+  </entry>
+  <entry>
+   <base>SERVER_WILL_REBOOT</base>
+   <trans>Ahora se reiniciará el servidor.</trans>
+  </entry>
+  <entry>
+   <base>NO_UID_FOR_NAME</base>
+   <trans>No se pudo obtener el uid para el usuario llamado:</trans>
+  </entry>
+  <entry>
+   <base>PAGE_REFRESH_IN</base>
+   <trans><![CDATA[ Esta página se actualizará a la pantalla de estado en {$sec} segundos o haga clic <a href="/server-manager/cgi-bin/backup">aquí</a>. ]]></trans>
+  </entry>
+    <entry>
+	<base>Backup or restore</base>
+	<trans>Respaldar o restaurar</trans>
+    </entry>
+
+  <entry>
+	<base>BACKUP_DESKTOP_TOO_BIG</base>
+	<trans><![CDATA[ <div class="error"> Su servidor tiene demasiados datos para realizar un respaldo confiable al escritorio. </div> ]]></trans>
+  </entry>
+   <entry>
+   <base>WORKSTN_BACKUPS_DISABLED</base>
+   <trans><![CDATA[ Los respaldos en ordenador remoto están <b>deshabilitados</b> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUPS_ENABLED</base>
+   <trans><![CDATA[ Los respaldos en ordenador remoto están <b>habilitados</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>WKBACKUPS_RUN_AT</base>
+   <trans>Los respaldos regulares en ordenador remoto se ejecutarán a las:</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_CONFIGURE</base>
+   <trans>Configurar respaldo en ordenador remoto</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_VERIFY</base>
+   <trans>Verificar respaldo de ordenador remoto</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_RESTORE</base>
+   <trans>Restaurar desde ordenador remoto</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_WORKSTN_BACKUP</base>
+   <trans>Configurar Respaldo en Ordenador Remoto</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_DISABLE_WORKSTN</base>
+   <trans>Habilitar/Deshabilitar Respaldo Diario en Ordenador Remoto</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_WORKSTN_BACKUP</base>
+   <trans>Habilitar Respaldo de Ordenador Remoto</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TIME</base>
+   <trans>Hora del día para respaldo en ordenador remoto (hora/min)</trans>
+  </entry>
+  <entry>
+   <base>UPDATING_WORKSTN_CONF</base>
+   <trans>Actualizando la configuración del respaldo en ordenador remoto</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_ENABLED_WORKSTN</base>
+   <trans>Respaldos en ordenador remoto habilitados correctamente</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_DISABLED_WORKSTN</base>
+   <trans>Respaldos en ordenador remoto deshabilitados correctamente</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_WORKSTN_BACKUP_FILE</base>
+   <trans>Verificar respaldo de ordenador remoto</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_WORKSTN_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Esta opción le mostrará los nombres de todos los archivos dentro de un respaldo previo diario en ordenador remoto. Puede utilizar esta opción para verificar los contenidos del respaldo.<b>Debe elegir el respaldo que desea verificar</b></p> <p>Sólo los archivos marcados con [Guardado] están contenidos en el respaldo.</p> <br/>Los archivos de respaldo son verificados desde la carpeta compartida : ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_WORKSTN</base>
+   <trans>Restaurar la configuración del servidor desde el respaldo en ordenador remoto</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_WORKSTN_DESC</base>
+   <trans><![CDATA[ <p>Este proceso restaurará los archivos de configuración y de datos de usuario desde un respaldo del Servidor en el ordenador remoto. <b>La restauración se debe realizar en un servidor recién instalado</b>.</p> <p>Antes de continuar, asegúrese de haber elegido debajo el respaldo correcto que desea restaurar.</p> <p>Luego de que finalice la restauración, debe reiniciar el servidor.</p> El respaldo será restaurado desde : ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FROM_WORKSTN</base>
+   <trans>Restaurar Desde Ordenador Remoto</trans>
+  </entry>
+  <entry>
+   <base>RESTORING_FROM_WORKSTN</base>
+   <trans>Restauración Desde Ordenador Remoto</trans>
+  </entry>
+  <entry>
+   <base>NOW_RESTORING_FROM_WORKSTN</base>
+   <trans>Ahora, se están restaurando desde la carpeta compartida del ordenador remoto los archivos de configuración del servidor y de datos de usuario.</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_FROM_WORKSTN</base>
+   <trans>Ocurrió un error al restaurar los archivos desde el ordenador remoto.</trans>
+  </entry>
+  <entry>
+   <base>ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE</base>
+   <trans>Ocurrió un error mientras se actualizaba la configuración del sistema después de la restauración desde el ordenador remoto.</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_NAME</base>
+   <trans>Nombre de host o IP del ordenador remoto</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SETTINGS</base>
+   <trans>Configuraciones de Respaldo de Ordenador Remoto</trans>
+  </entry>
+  <entry>
+   <base>SHARED_FOLDER_NAME</base>
+   <trans>Unidad compartida</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_LOGIN</base>
+   <trans>Nombre de usuario</trans>
+  </entry>
+  <entry>
+   <base>WORKSTATION_BACKUP_DEST</base>
+   <trans>Configuraciones del respaldo de ordenador remoto</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_WORKSTN_BACKUP_DESC</base>
+   <trans>Usted puede fijar el número sucesivo de juego de respaldos para mantener en el ordenador remoto, rotando automáticamente. Cada juego puede contener datos guardados de varios días consecutivos. En este caso el primer respaldo es un respaldo completo, los demás días son incrementales. Usted también puede fijar un tiempo límite para cada sesión de respaldo o solo para respaldos incrementales. Cuando éste límite sea alcanzado, el respaldo será detenido limpiamente y el siguiente respaldo incremental continuará de forma segura con los datos modificados o sin guardar.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_WORKSTN</base>
+   <trans>IP o Nombre de Host inválido de ordenador remoto</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_FOLDER</base>
+   <trans>Nombre compartido inválido</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_LOGIN</base>
+   <trans>Nombre de usuario inválido</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_PASSWORD</base>
+   <trans>Contraseña inválida</trans>
+  </entry>
+  <entry>
+   <base>ERR_ALREADY_MOUNTED</base>
+   <trans>Backup directory is already mounted</trans>
+  </entry>
+  <entry>
+   <base>ERR_MOUNTING_SMBSHARE</base>
+   <trans>No se puede montar la carpeta compartida del ordenador remoto</trans>
+  </entry>
+  <entry>
+   <base>ERR_NOT_MOUNTED</base>
+   <trans>Archivo de respaldo no encontrado</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_NOT_SET</base>
+   <trans>Primero debe configurar correctamente su respaldo de ordenador remoto</trans>
+  </entry>
+  <entry>
+   <base>NO_BACKUPS_TO_RESTORE</base>
+   <trans>No hay juego de respaldos configurados en la carpeta compartida del ordenador remoto. Verifique su configuración.</trans>
+  </entry>
+  <entry>
+   <base>NUMBER_OF_SETS</base>
+   <trans>Cantidad de rotaciones de los juegos de respaldos</trans>
+  </entry>
+  <entry>
+   <base>NUMBER_OF_FILES_IN_SET</base>
+   <trans>Respaldos diarios en cada juego</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_SETS_NUMBER</base>
+   <trans>El número fijado debe ser 1 o mayor</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_FILES_IN_SET_NUMBER</base>
+   <trans>Este número debe ser 1 o mayor. El primer respaldo en el juego debe ser <b>completo</b>, los otros son <b>incrementales</b></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_TIMEOUT</base>
+   <trans>Tiempo opcional de espera de sesión de respaldo (horas)</trans>
+  </entry>
+  <entry>
+   <base>INC_ONLY_TIMEOUT</base>
+   <trans>Sin tiempo de espera en las sesiones de respaldo completo</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_TIMEOUT</base>
+   <trans>El tiempo máximo de respaldo debe estar fijado entre 1 y 24 horas</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_HOST_DIR</base>
+   <trans>Sin directorio para su host en la carpeta compartida. Tal vez el nombre de su host es diferente del de respaldo</trans>
+  </entry>
+  <entry>
+   <base>ERROR_READING_FILE</base>
+   <trans>Error al leer archivos de</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SEL_RESTORE</base>
+   <trans>Restauración selectiva de archivos desde ordenador remoto</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SELECTIVE_RESTORE</base>
+   <trans>Restauración selectiva de archivos de ordenador remoto</trans>
+  </entry>
+  <entry>
+   <base>ALL_BACKUPS</base>
+   <trans>Todos los respaldos</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SEL_REST_DESC</base>
+   <trans><![CDATA[ Este proceso restaurará solamente los archivos y directorios especificados. Primero debe elegir el respaldo desde el cual los archivos serán restaurados. Si no sabe en cuál respaldo están los archivos requeridos, puede seleccionar la opción 'Todos los respaldos'. <br/><br/> El siguiente panel le mostrará los archivos y directorios disponibles, entonces usted podrá elegir los que desee restaurar. Para restringir la cantidad de archivos y directorios mostrados en este panel, tiene la opción de suministrar ahora una expresión de filtrado, aplicada como expresión regular sobre los nombres mostrados.<br/><br/> Usted tiene la responsabilidad de <b>no restaurar</b> los archivos que puedan romper el funcionamiento de su servidor.<br/><br/>Actualmente, los archivos serán restaurados desde : ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_CHOICE</base>
+   <trans>Seleccionar archivos para ver</trans>
+  </entry>
+  <entry>
+   <base>SELECT_DATE_BEFORE</base>
+   <trans>Restaurar el más reciente antes de</trans>
+  </entry>
+  <entry>
+   <base>FILTER_EXPRESSION</base>
+   <trans>Nombres filtrados por</trans>
+  </entry>
+  <entry>
+   <base>READ_COMPLETE</base>
+   <trans><![CDATA[ Puede elegir todos los directorios y archivos que desee restaurar en la lista mostrada (use ctrl o shift para selecciones múltiples). <br/><b>Advertencia :</b> Si selecciona un directorio, todos los archivos y directorios contenidos serán restaurados.<p/> Por defecto será restaurada la versión más reciente de los archivos seleccionados, pero si usted especifica una fecha en el formato <i>[ [ [yyyy/]mm/]dd-]hh:mm[:ss]</i> el proceso restaurará solamente la versión más recientemente modificada <b>anterior a la fecha suministrada</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_SELDATE</base>
+   <trans>El formato de fecha es inválido, debe ser [ [ [yyyy/]mm/]dd-]hh:mm[:ss]. ej: 2005/12/31-08:23:32 o 10-08:32 o 08:32</trans>
+  </entry>
+  <entry>
+   <base>SELECT_FILES_TO_RESTORE</base>
+   <trans>Seleccionar archivos para restaurar</trans>
+  </entry>
+  <entry>
+   <base>ERR_WHILE_UNMOUNTING</base>
+   <trans>Ha ocurrido un error cuando se desmontaba el recurso compartido distante</trans>
+  </entry>
+  <entry>
+   <base>ERR_DAR_CATALOG</base>
+   <trans>Ocurrió un error cuando se estaba utilizando el catálogo Dar</trans>
+  </entry>
+  <entry>
+   <base>COMPRESSION_LEVEL</base>
+   <trans>Nivel de compresión del respaldo [0-9]</trans>
+  </entry>
+  <entry>
+   <base>FULL_ONLY_ON</base>
+   <trans>Respaldos completos son permitidos en</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_COMPRESSION</base>
+   <trans>El nivel de compresión debe fijarse entre 0 (sin compresión) y 9 (compresión máxima)</trans>
+  </entry>
+  <entry>
+   <base>DOW</base>
+   <trans>Domingo Lunes Martes Miércoles Jueves Viernes Sábado Diario</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURATION_TO_BE_DONE</base>
+   <trans>Por favor, configure los ajustes de respaldo.</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Esta panel muestra la configuración actual de respaldo de ordenador remoto. Puede cambiarla en este panel y en el siguiente.</p><p/> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_NOT_CONFIGURED</base>
+   <trans><![CDATA[ <p>Actualmente, el respaldo de ordenador remoto no esta configurado. Puede configurarlo con este panel y el siguiente.</p><p/> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_ENABLED</base>
+   <trans>Respaldo es</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_USB</base>
+   <trans>El respaldo esta hecho en un disco local USB</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_MNT</base>
+   <trans>El respaldo esta hecho en un disco local USB</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_HOST</base>
+   <trans>El respaldo esta hecho en un ordenador remoto LAN</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_VFSTYPE</base>
+   <trans>vía</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SHARE</base>
+   <trans>La carpeta compartida de destino es</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TOD</base>
+   <trans>El respaldo diario ocurre a las</trans>
+  </entry>
+  <entry>
+   <base>LOGIN</base>
+   <trans>Usuario es</trans>
+  </entry>
+  <entry>
+   <base>PASSWORD</base>
+   <trans>La contraseña es</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SETSNUM</base>
+   <trans>La cantidad de rotaciones de los juegos de respaldo son</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_DAYSINSET</base>
+   <trans>La cantidad de respaldos diarios contenidos en cada juego son</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_COMPRESSION</base>
+   <trans>El nivel de compresión (0-9) de los respaldos es</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TIMEOUT</base>
+   <trans>Cada sesión diaria de respaldo es limpiado el tiempo de espera luego de</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_INCONLY_TIMEOUT</base>
+   <trans>salvo respaldos completos los cuales son limpiados el tiempo de espera luego de 24 horas</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_FULL_BACKUP_EVERYDAY</base>
+   <trans>Sesiones de respaldo completo (nuevo juego de respaldos) son permitidas cada día</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_FULL_BACKUP_DAY</base>
+   <trans>Sesión de respaldo completo (nuevos juegos de respaldo) solamente son permitidos en</trans>
+  </entry>
+  <entry>
+   <base>WORKSTATION_BACKUP_SETCONF</base>
+   <trans>Crear o modificar configuración de respaldo en ordenador remoto</trans>
+  </entry>
+  <entry>
+   <base>SELECT_VFS_TYPE</base>
+   <trans>Seleccione el tipo de recurso compartido para el destino del respaldo</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_USB_DISK</base>
+   <trans>Error: Sin disco USB disponible. Por favor, conecte un disco USB o seleccione otro tipo de recurso compartido para el respaldo.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_MOUNTED_DISK</base>
+   <trans>Error: Sin disco USB disponible. Por favor, conecte un disco USB o seleccione otro tipo de recurso compartido para el respaldo.</trans>
+  </entry>
+  <entry>
+   <base>HOURS</base>
+   <trans>horas.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_FULL_BACKUP</base>
+   <trans>Abortando la restauración porque el respaldo completo no se encuentra o es ilegible.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_INC_BACKUP</base>
+   <trans>Abortando la restauración porque el juego ha perdido o es ilegible el número de respaldo incremental</trans>
+  </entry>
+  <entry>
+   <base>CHECK_TO_VERIFY_FULL_RESTORE</base>
+   <trans>Tilde aquí para probar la integridad de todos los respaldos necesarios para una restauración completa con el respaldo seleccionado</trans>
+  </entry>
+  <entry>
+   <base>TESTING_NEEDED_BACKUPS_FOR_RESTORE</base>
+   <trans>Probando todos los respaldos necesarios para una restauración completa con el respaldo seleccionado</trans>
+  </entry>
+  <entry>
+   <base>TESTED_BACKUP</base>
+   <trans>Probando la integridad del respaldo</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_VERIFY_FAILED</base>
+   <trans>Verificación de integridad fallida</trans>
+  </entry>
+  <entry>
+   <base>CHECK_INTEGRITY_WARNING</base>
+   <trans>Advertencia : En respaldos grandes, la verificación de integridad puede tomar bastante tiempo y debe hacerse deshabilitando el respaldo diario en ordenador remoto.</trans>
+  </entry>
+  <entry>
+    <base>cifs</base>
+    <trans>cifs</trans>
+  </entry>
+  <entry>
+    <base>nfs</base>
+    <trans>nfs</trans>
+  </entry>
+  <entry>
+    <base>local removable disk</base>
+    <trans>El respaldo esta hecho en un disco local USB</trans>
+  </entry>
+  <entry>
+    <base>Mounted disk</base>
+    <trans>Montada</trans>
+  </entry>
+  <entry>
+   <base>ERROR_WHEN_TESTING_REMOTE_SERVER</base>
+   <trans>The parameters have been saved, however the remote host is not reachable, please check your settings.</trans>
+  </entry>
+  <entry>
+   <base>DO_NOT_RESTORE_BIN_SBIN_LIB_LIB64_FROM_SME9</base>
+   <trans>If you restore from Koozali SME Server 9 or before, pay attention that some folders in the system are now symlinks. Basic backup configuration does not include /bin, /lib, /lib64, /sbin, /var/lock and /var/run. If you have added them for files in their subdirectories, we will prevent the restoration of those folders to prevent dar from replacing those symlinks and leave the system unusable. Those additions are, however, not recommended as they are at risk to overwrite files provides by rpms.</trans>
+  </entry>
+  <entry>
+   <base>SMBV1</base>
+   <trans>Mount as legacy SMB v1 share (unsecure, not recommended).</trans>
+  </entry>
+
+
+</lexicon>

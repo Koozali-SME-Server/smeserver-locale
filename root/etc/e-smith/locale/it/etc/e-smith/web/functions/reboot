@@ -1,0 +1,42 @@
+<lexicon lang="it">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Arresto o riavvio</trans>
+    </entry>
+    <entry>
+	<base>REBOOT</base>
+	<trans>Riavvio</trans>
+    </entry>
+    <entry>
+	<base>REBOOT_SUCCEEDED</base>
+	<trans>Richiesta di riavvio inviata con successo.</trans>
+    </entry>
+    <entry>
+	<base>DESC_REBOOT</base>
+	<trans>Il server ha appena iniziato la procedura di riavvio.</trans>
+    </entry>
+    <entry>
+	<base>RECONFIGURE_SUCCEEDED</base>
+	<trans>Richiesta di riavvio inviata con successo.</trans>
+    </entry>
+    <entry>
+	<base>DESC_RECONFIGURE</base>
+	<trans>Il server ha iniziato la procedura di riconfigurazione e reboot.</trans>
+    </entry>
+    <entry>
+	<base>DESC_SHUTDOWN</base>
+	<trans>Il server ha appena iniziato la procedura di arresto. L'operazione si completerà entro alcuni minuti, al termine sarà possibile spegnere il server togliendo l'alimentazione.</trans>
+    </entry>
+    <entry>
+	<base>LABEL_REBOOT</base>
+	<trans>Selezionare Arresto o Riavvio</trans>
+    </entry>
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ E' possibile spegnere o riavviare il server. E' obbligatorio arrestare il sistema prima di spegnere il server. Entrambe le funzioni impiegano alcuni minuti. Facendo clic su <b>Esegui</b> l'operazione inizierà immediatamente! ]]></trans>
+    </entry>
+    <entry>
+	<base>Reboot or shutdown</base>
+	<trans>Riavvio o arresto</trans>
+    </entry>
+</lexicon>

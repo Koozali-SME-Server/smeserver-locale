@@ -1,0 +1,15 @@
+<lexicon lang="pt">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>Manual online e outra documentação</trans>
+      </entry>	
+      <entry> 
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ <ul> <li><a target="new" href="https://wiki.koozali.org/documentation/manual/"> Manual Online</a> <li><a target="new" href="https://wiki.koozali.org/documentation/FAQ/"> Perguntas Frequentes (FAQs)</a> </ul> <H2>Suporte Técnico e Licenciamento</H2> Este software é disponibilizado de acordo com os termos descritos no Painel <a href="/server-manager/cgi-bin/support"> Suporte e Licenciamento</a>. ]]></trans>
+      </entry>		
+      <entry>
+	<base>Online manual</base>
+	<trans>Manual online</trans>
+      </entry>
+
+</lexicon>

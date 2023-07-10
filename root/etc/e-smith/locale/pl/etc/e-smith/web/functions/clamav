@@ -1,0 +1,38 @@
+<lexicon lang="pl">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Ustawienia antywirusa</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FILESYSTEM_SCAN_PERIOD</base>
+        <trans>Skanuj system plików</trans>
+    </entry>
+    <entry>
+        <base>DESC_FILESYSTEM_SCAN_PERIOD</base>
+        <trans><![CDATA[ <h2>Ustawiena</h2> Jeżeli ta opcja jest włączona, system plików będzie skanowany w poszukiwaniu wirusów. Raport ze znalezionych wirusów będzie przesłany na adres administratora.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_QUARANTINE</base>
+        <trans>Kwarantanna zainfekowanych plików</trans>
+    </entry>
+    <entry>
+        <base>LABEL_CLAM_VERSIONS</base>
+        <trans>Wersja ClamAV i baz danych</trans>
+    </entry>
+    <entry>
+      <base>WEEKLY</base>
+      <trans>Tygodniowo</trans>
+    </entry>
+    <entry>
+      <base>NEVER</base>
+      <trans>Nigdy</trans>
+    </entry>
+    <entry>
+      <base>DAILY</base>
+      <trans>Codziennie</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Nowe ustawienia ochrony antywirusowej zostały zapisane.</trans>
+    </entry>
+</lexicon>

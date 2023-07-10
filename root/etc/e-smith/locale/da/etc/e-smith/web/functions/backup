@@ -1,0 +1,749 @@
+<lexicon lang="da">
+  <entry>
+   <base>BACKUP_TITLE</base>
+   <trans>Lav sikkerhedskopi eller gendan server data</trans>
+  </entry>
+  <entry>
+   <base>BACKUP_DESC</base>
+   <trans><![CDATA[ <P> Denne server giver 2 muligheder for at sikkerhedskopiere eller gendanne din server: Sikkerhedskopi til arbejdsstation og sikkerhedskopi til bånd.</P> <P>Den første metode danner en kopi af din serverkonfiguration og brugerdata, og giver dig mulighed for gemme sikkerhedskopien på din arbejdsstation via en browser. Dine nuværende serveropsætning og brugerdate fylder ca. <b>$tarsize</b>. Sikkerhedskopien vil være en smule mindre, afhængig af hvor meget data kan komprimeres. Valgmuligheden \"Undersøg sikkerhedskopi til arbejdsstation\" kan bruges til at kontrollere sikkerhedskopien.</P> <P> Sikkerhedskopi til bånd anvender programmet <I>$module</I> til at lave en sikkerhedskopi af hele harddisken hver nat. Det kræver en understøttet båndstation og et isat bånd, der ikke er skrivebeskyttet. Sikkerhedskopien dannes automatisk på det valgte tidspunkt hver nat (der sendes automatisk en påmindelse til administrator om dagen). P.t. indeholder din hardisk <b>$dumpsize</b> data. </P> <P>Begge metoder giver dig mulighed for at gendanne dine serveropsætning og dine brugerdata. <b>Ideelt set bør sikkerhedskopien indlæses på en nyinstalleret server</b>.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_DESC_DAR</base>
+   <trans><![CDATA[ <P>Serveren tilbyder tre forskellige muligheder for sikkerhedskopi og gendannelse: Sikkerhedskopi til bånd, til et netværksshare eller flytbart medie, eller din lokale desktop.</P> <P>Bånd backup. Bruger en programpakke ved navn <I>$module</I> til at sikkerhedskopiere hele din disk til bånd hver nat. Det forudsætter en understøttet båndstation og et bånd der ikke er skrivebeskyttet. Sikkerhedskopien udføres automatisk på et fastlagt tidspunkt hver nat (og der sendes automatisk en påmindelse til administrator i løbet af dagen). Aktuelt indeholder din disk <b>$dumpsize</b> af data.</P> <P>Netværkshare eller flytbart medie. Bruger en programpakke ved navn <I>dar</I> til at sikkerhedskopiere serveropsætning og data til netværksshare eller et lokalt flytbart medie som f.eks. en USB-disk. Du kan indstille antallet af roterende sikkerhedskopier du ønsker at bevare, og antallet af ændringsbackup i hvert sæt. Sikkerhedskopien udføres dagligt på det fastsatte tidspunkt. Aktuelt fylder serveropsætning og data <b>$tarsize</b> ukomprimeret. Der skal være plads til det dobbelte af den komprimerede datamængde på backup mediet.</P> <P>Backup til pc. Denne metode opretter en kopi af serveropsætning og brugerdata og henter dem til din pc via din web-browser. Aktuelt fylder opsætning og data i alt ca. <b>$tarsize</b>. Sikkerhedskopien vil være lidt mindre afhængig af hvor meget data kan komprimeres. Denne fil kan bruges til gendannelse af serveren fra konsollen, hvis du kopierer filen til et flytbart medie, som f.eks. en USB-disk.</P> <P>Alle 3 muligheder vil kunne gendanne serveropsætning og data på serveren. Backup til netshare eller flytbart medie kan desuden bruges til at gendanne individuelle filer fra sikkerhedskopien. <b>En fuld gendannelse bør udføres på en nyinstalleret server.</b>.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_CONFIG_STATUS</base>
+   <trans>Sikkerhedskopiopsætning og status</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUPS_ENABLED</base>
+   <trans><![CDATA[ Sikkerhedskopi til bånd er for tiden <b>aktiveret</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUPS_RUN_AT</base>
+   <trans>Sikkerhedskopi til bånd vil foregå kl.:</trans>
+  </entry>
+  <entry>
+   <base>REMINDER_MESSAGE_AT</base>
+   <trans>En påmindelse vil blive sendt:</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUPS_DISABLED</base>
+   <trans><![CDATA[ Sikkerhedskopi til bånd er <b>deaktiveret</b> ]]></trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_BACKUP</base>
+   <trans>Sikkerhedskopi til arbejdsstation</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_RESTORE</base>
+   <trans>Gendan fra arbejdsstation</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_VERIFY</base>
+   <trans>Undersøg sikkerhedskopi til arbejdsstation</trans>
+  </entry>
+  <entry>
+   <base>TAPE_CONFIGURE</base>
+   <trans>Opsætning af sikkerhedskopi til bånd</trans>
+  </entry>
+  <entry>
+   <base>TAPE_RESTORE</base>
+   <trans>Gendan fra bånd</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS_BEGAN_AT</base>
+   <trans>Gendannelsen er i gang. Den startede:</trans>
+  </entry>
+  <entry>
+   <base>REFRESH_THIS_DISPLAY</base>
+   <trans>Genopfrisk skærm</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_TAPE_BACKUP</base>
+   <trans>Opsætning af sikkerhedskopi til bånd</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_COMPLETED</base>
+   <trans>Systemgendannelsen er fuldført</trans>
+  </entry>
+  <entry>
+   <base>STARTED_AT</base>
+   <trans>Starttid:</trans>
+  </entry>
+  <entry>
+   <base>FINISHED_AT</base>
+   <trans>sluttid:</trans>
+  </entry>
+  <entry>
+   <base>YOU_MUST_REBOOT</base>
+   <trans>Du skal genstarte serveren for at aktivere ændringerne fra gendannelsen.</trans> 
+  </entry> 
+  <entry>
+   <base>REBOOT</base>
+   <trans>Genstart</trans>
+  </entry>
+  <entry>
+   <base>SELECT_AN_ACTION</base>
+   <trans>Vælg en aktivitet</trans>
+  </entry>
+  <entry>
+   <base>X_BACKUP_OR_RESTORE</base>
+   <trans>X Lav sikkerhedskopi eller gendan server data</trans>
+  </entry>
+  <entry>
+   <base>ERR_PRE_BACKUP</base>
+   <trans>Der skete en fejl under klargøring af sikkerhedskopien.</trans>
+  </entry>
+  <entry>
+   <base>ERR_PRE_RESTORE</base>
+   <trans>Der skete en fejl under klargøring af gendannelsen.</trans>
+  </entry>
+  <entry>
+   <base>ERR_POST_BACKUP</base>
+   <trans>Der skete en fejl under efterbehandling af sikkerhedskopien.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_SERVER_CONFIG</base>
+   <trans>Gendan serveropsætning</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_RESTORE_DESC</base>
+   <trans><![CDATA[ Denne proces vil hente en sikkerhedskopi fra din arbejdsstation til serveren og gendanne serveropsætning og brugerdata. <B>Gendannelsen bør udføres på en nyinstalleret server</B>. ]]></trans>
+  </entry>
+  <entry>
+   <base>FREE_SPACE</base>
+   <trans><![CDATA[ Du har omtrent $tmpfree fri plads på serveren. Kontroller at sikkerhedskopien er mindre end $halffree inden du begynder gendannelsen. ]]></trans>
+  </entry>
+  <entry>
+   <base>MUST_REBOOT_AFTER_RESTORE</base>
+   <trans>Efter at gendannelsen er gennemført, skal du genstarte serveren.</trans>
+  </entry>
+  <entry>
+   <base>FILE_TO_RESTORE</base>
+   <trans>Hent sikkerhedskopien fra</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Denne mulighed viser alle filnavne i den tidligere dannede sikkerhedskopi. Du kan bruge denne mulighed til at kontrollere indholdet i sikkerhedskopien.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>SELECT_BACKUP_FILE</base>
+   <trans>Vælg sikkerhedskopi</trans>
+  </entry>
+  <entry>
+   <base>VERIFY</base>
+   <trans>Kontroller</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CANNOT_PROCEED</base>
+   <trans>Kan ikke fortsætte med gendannelse af serveropsætningen</trans>
+  </entry>
+  <entry>
+   <base>ANOTHER_RESTORE_IN_PROGRESS</base>
+   <trans>En anden gendannelse er i gang. Venligst forsøg igen senere.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS</base>
+   <trans>Gendannelse er i gang</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS_DESC</base>
+   <trans>Efter at gendannelsen er udført skal du genstarte serveren. Gendannelsen er gennemført når ordene "Gendannelse gennemført" dukker op i bunden af skærmen.</trans>
+  </entry>
+  <entry>
+   <base>FILES_HAVE_BEEN_RESTORED</base>
+   <trans>Følgende filer og biblioteker er blevet gendannet:</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FAILED_MSG</base>
+   <trans>Gendannelsen fejlede! Der opstod en fejl under læsning af sikkerhedskopien.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_COMPLETE</base>
+   <trans>Gendannelse gennemført</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_GID</base>
+   <trans>Fejl under gendannelse af gid for 'www'</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_INITIAL_GRP</base>
+   <trans>Fejl under gendannelse af indledende gruppe 'www'.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FAILED</base>
+   <trans>Gendannelsen fejlede! Sikkerhedskopien var ikke komplet.</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_EXEC_PIPELINE</base>
+   <trans>Kunne ikke udføre sikkerhedskopi-forbindelseslinie:</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_DECODE</base>
+   <trans>Kunne ikke afkode sikkerhedskopien:</trans>
+  </entry>
+  <entry>
+   <base>FILES_IN_BACKUP</base>
+   <trans>Sikkerhedskopien indeholder følgende filer:</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_COMPLETE</base>
+   <trans>Kontrollen er gennemført</trans>
+  </entry>
+  <entry>
+   <base>BACKUP_FILE_INCOMPLETE</base>
+   <trans>Sikkerhedskopien var ikke komplet</trans>
+  </entry>
+  <entry>
+   <base>ERR_READING_FILE</base>
+   <trans>Der opstod en fejl under læsning af sikkerhedskopien.</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_DISABLE_TAPE</base>
+   <trans>Tænd/Sluk natlig sikkerhedskopi til bånd</trans>
+  </entry>
+  <entry>
+   <base>TAPE_CONFIG_DESC</base>
+   <trans><![CDATA[ <p>Vælg om du ønsker natlige sikkerhedskopier og angiv det ønskede tidspunk og også et tidspunk for påmindelse om at isætte et bånd.</p> <p>Båndsikkerhedskopiering forudsætter en understøttet båndstation. En advarsel bliver sendt til administrator på det fastlagte tidspunkt, hvis der ikke er bånd i båndstationen.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>ENABLE_TAPE_BACKUP</base>
+   <trans>Tænd for sikkerhedskopi til bånd</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUP_TIME</base>
+   <trans>Tidspunkt for sikkerhedskopiering (timer(0-11)/min(0-59))</trans>
+  </entry>
+  <entry>
+   <base>LOAD_TAPE_REMINDER_TIME</base>
+   <trans>Tidspunkt for udsendelse af påmindelse (time(0-11)/min(0-59))</trans>
+  </entry>
+  <entry>
+   <base>AM/PM</base>
+   <trans>AM (før middag) / PM (efter middag)</trans>
+  </entry>
+  <entry>
+   <base>AM</base>
+   <trans>AM (før middag)</trans>
+  </entry>
+  <entry>
+   <base>PM</base>
+   <trans>PM (efter middag)</trans>
+  </entry>
+  <entry>
+   <base>UPDATE_CONF</base>
+   <trans>Opdater</trans>
+  </entry>
+  <entry>
+   <base>UPDATING_TAPE_CONF</base>
+   <trans>Opdaterer opsætning af sikkerhedskopi til bånd</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_HOUR</base>
+   <trans>Fejl: Ulovlig sikkerhedskopi time:</trans>
+  </entry>
+  <entry>
+   <base>BETWEEN_0_AND_12</base>
+   <trans>Vælg venligst en time mellem 0 og 12.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_MINUTE</base>
+   <trans>Fejl: Ulovligt sikkerhedskopi minut:</trans>
+  </entry>
+  <entry>
+   <base>BETWEEN_0_AND_59</base>
+   <trans>Vælg et minut mellem 0 og 59.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_REMINDER_HOUR</base>
+   <trans>Fejl: Ulovlig påmindelsestime:</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_REMINDER_MINUTE</base>
+   <trans>Fejl: Ulovligt påmindelsesminut:</trans>
+  </entry>
+  <entry>
+   <base>ERR_CONF_BACKUP</base>
+   <trans>Der skete en fejl under conf-backup begivenheden.</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_ENABLED_TAPE</base>
+   <trans>Opsætning af sikkerhedskopi til bånd lykkedes</trans>
+  </entry>
+  <entry>
+   <base>WITH_BACKUP_TIME</base>
+   <trans>med tidspunktet:</trans>
+  </entry>
+  <entry>
+   <base>WITH_REMINDER_TIME</base>
+   <trans>med udsendelse af påmindelse kl.:</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_DISABLED</base>
+   <trans>Der blev slukket for sikkerhedskopi til bånd</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_TAPE</base>
+   <trans>Gendan fra bånd</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_TAPE_DESC</base>
+   <trans><![CDATA[ <P>Denne proces vil gendanne serveropsætning og brugerdata fra en sikkerhedskopi på bånd. <B>Gendannelsen bør foregå på en nyinstalleret server</B>.</P> <P>Du må sikre dig dig, at det rette bånd er indsat i båndstationen inden gendannelse.</P> <P>Efter gendannelsen skal serveren genstartes.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FROM_TAPE</base>
+   <trans>Gendan fra bånd</trans>
+  </entry>
+  <entry>
+   <base>UNABLE_TO_RESTORE_CONF</base>
+   <trans>Kan ikke gendanne serveropsætningen</trans>
+  </entry>
+  <entry>
+   <base>RESTORING_FROM_TAPE</base>
+   <trans>Gendanner fra bånd</trans>
+  </entry>
+  <entry>
+   <base>NOW_RESTORING_FROM_TAPE</base>
+   <trans>Serveropsætning og brugerdata bliver gendannet fra bånd.</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_FROM_TAPE</base>
+   <trans>Der er sket en fejl under gendannelsen fra bånd.</trans>
+  </entry>
+  <entry>
+   <base>ERR_UPDATING_CONF_AFTER_TAPE_RESTORE</base>
+   <trans>Der er sket en fejl under opdatering af serveropsætningen efter båndgendannelsen.</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_FORK</base>
+   <trans>Følgende kunne ikke deles ud:</trans>
+  </entry>
+  <entry>
+   <base>SERVER_REBOOT</base>
+   <trans>Servergenstart</trans>
+  </entry>
+  <entry>
+   <base>SERVER_WILL_REBOOT</base>
+   <trans>Din server vil nu genstarte.</trans>
+  </entry>
+  <entry>
+   <base>NO_UID_FOR_NAME</base>
+   <trans>Kunne ikke finde brugerID for brugeren:</trans>
+  </entry>
+  <entry>
+   <base>PAGE_REFRESH_IN</base>
+   <trans><![CDATA[ Siden vil genopfiske statusvisningen om {$sec} sekunder, ellers klik <a href="/server-manager/cgi-bin/backup">her</a>. ]]></trans>
+  </entry>
+    <entry>
+	<base>Backup or restore</base>
+	<trans>Sikkerhedskopi eller gendannelse</trans>
+    </entry>
+
+  <entry>
+	<base>BACKUP_DESKTOP_TOO_BIG</base>
+	<trans><![CDATA[ <div class="error"> Din server har for mange data til en pålidelig sikkerhedskopi til arbejdsstation. </div> ]]></trans>
+  </entry>
+   <entry>
+   <base>WORKSTN_BACKUPS_DISABLED</base>
+   <trans><![CDATA[ Sikkerhedskopi til lokalnet er <b>deaktiveret</b> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUPS_ENABLED</base>
+   <trans><![CDATA[ Sikkerhedskopi til lokalnet er <b>aktiveret</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>WKBACKUPS_RUN_AT</base>
+   <trans>Sikkerhedskopi til lokalnet vil foregå kl.:</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_CONFIGURE</base>
+   <trans>Opsætning af sikkerhedskopi til lokalnet</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_VERIFY</base>
+   <trans>Kontroller sikkerhedskopi på lokalnet</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_RESTORE</base>
+   <trans>Gendan fra lokalnet</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_WORKSTN_BACKUP</base>
+   <trans>Opsæt sikkerhedskopi til lokalnet</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_DISABLE_WORKSTN</base>
+   <trans>Aktiver/deaktiver daglig sikkerhedskopi til lokalnet</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_WORKSTN_BACKUP</base>
+   <trans>Aktiver sikkerhedskopi til lokalnet</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TIME</base>
+   <trans>Tidspunkt for sikkerhedskopi (time/min)</trans>
+  </entry>
+  <entry>
+   <base>UPDATING_WORKSTN_CONF</base>
+   <trans>Opdaterer indstillinger for sikkerhedskopi</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_ENABLED_WORKSTN</base>
+   <trans>Sikkerhedskopi til lokalnet er aktiveret</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_DISABLED_WORKSTN</base>
+   <trans>Sikkerhedskopi til lokalnet er deaktiveret</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_WORKSTN_BACKUP_FILE</base>
+   <trans>Kontroller sikkerhedskopi på lokalnet</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_WORKSTN_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Denne mulighed vil vise navnene på alle filer i en tidligere dannet sikkerhedskopi. Du kan bruge denne mulighed til at bekræfte sikkerhedskopiens indhold.<b> Du skal vælge den sikkerhedskopi du ønsker at undersøge</b></p> <p>Kun filer markeret med [Saved] er sikkerhedskopieret.</p> <br/> Filerne i sikkerhedskopien bliver kontrolleret fra den delte mappe: ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_WORKSTN</base>
+   <trans>Gendan fra lokalnet</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_WORKSTN_DESC</base>
+   <trans><![CDATA[ <p>Denne proces vil gendanne opsætning og brugerdata fra en sikkerhedskopi på lokalnetet. <b>Gendannelsen bør udføres på en nyinstalleret server</b>.</p> <p>Du må sikre dig at du vælger den rigtige sikkerhedskopi inden du fortsætter.</p> <p>Efter gendannelsen skal serveren genstartes.</p> Gendannelsen vil ske fra: ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FROM_WORKSTN</base>
+   <trans>Gendan fra lokalnet</trans>
+  </entry>
+  <entry>
+   <base>RESTORING_FROM_WORKSTN</base>
+   <trans>Gendanner fra lokalnet</trans>
+  </entry>
+  <entry>
+   <base>NOW_RESTORING_FROM_WORKSTN</base>
+   <trans>Din serveropsætning og brugerdata er ved at blive indlæst fra en delt mappe på lokalnet.</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_FROM_WORKSTN</base>
+   <trans>Der er sket en fej under gendannelse fra lokalnet.</trans>
+  </entry>
+  <entry>
+   <base>ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE</base>
+   <trans>Der er sket en fejl under serveropsætningen efter genindlæsning af sikkerhedskopien fra lokalnet.</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_NAME</base>
+   <trans>Arbejdsstationens IP-adresse eller værtsnavn</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SETTINGS</base>
+   <trans>Indstillinger for sikkerhedskopi</trans>
+  </entry>
+  <entry>
+   <base>SHARED_FOLDER_NAME</base>
+   <trans>Delte mappe for sikkerhedskopi</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_LOGIN</base>
+   <trans>Brugernavn</trans>
+  </entry>
+  <entry>
+   <base>WORKSTATION_BACKUP_DEST</base>
+   <trans>Indstillinger for sikkerhedskopi til lokalnet</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_WORKSTN_BACKUP_DESC</base>
+   <trans>Du kan indstille et antal sikkerhedskopisæt med automatisk rotation. Hvert sikkerhedskopisæt indeholder data for en række på hinanden følgende dage. Den første sikkerhedskopi i et sæt indeholder en fuld sikkerhedskopi, mens efterfølgende daglige kopier kun indeholder ændrede eller tilføjede data. Der kan sættes tidsgrænse for sikkerhedskopisæt eller for antallet af tilføjede dage. Når denne grænse nås stoppes sikkerhedskopisættet og det næste sikkerhedskopisæt vil fortsætte først med en fuld kopi og dernæst med nye og ændrede data.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_WORKSTN</base>
+   <trans>Ugyldig IPadresse eller værtsnavn for arbejdsstation</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_FOLDER</base>
+   <trans>Ugyldigt navn på delt mappe</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_LOGIN</base>
+   <trans>Ugyldigt brugernavn</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_PASSWORD</base>
+   <trans>Ugyldig adgangskode</trans>
+  </entry>
+  <entry>
+   <base>ERR_ALREADY_MOUNTED</base>
+   <trans>Backup mediet er allerede tilsluttet</trans>
+  </entry>
+  <entry>
+   <base>ERR_MOUNTING_SMBSHARE</base>
+   <trans>Var ikke i stand til at montere arbejdsstationens delte mappe</trans>
+  </entry>
+  <entry>
+   <base>ERR_NOT_MOUNTED</base>
+   <trans>Backup mediet er ikke tilsluttet</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_NOT_SET</base>
+   <trans>Du skal først opsætte sikkerhedskopien til lokalnet korrekt</trans>
+  </entry>
+  <entry>
+   <base>NO_BACKUPS_TO_RESTORE</base>
+   <trans>Der er ikke opsat nogen sikkerhedskopisæt til delte mapper på lokalnet. Kontroller din opsætning.</trans>
+  </entry>
+  <entry>
+   <base>NUMBER_OF_SETS</base>
+   <trans>Antal roterende sikkerhedssæt</trans>
+  </entry>
+  <entry>
+   <base>NUMBER_OF_FILES_IN_SET</base>
+   <trans>Antal daglige kopier i hvert sæt</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_SETS_NUMBER</base>
+   <trans>Sæt-antallet skal være mindst 1</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_FILES_IN_SET_NUMBER</base>
+   <trans>Antallet skal være mindst 1. Første sikkerhedskopi i sættet er <b>fuld</b> følgende indeholder kun <b>ændrede/tilføjede data</b></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_TIMEOUT</base>
+   <trans>Mulig udløbstid for sikkerhedskopier (i timer)</trans>
+  </entry>
+  <entry>
+   <base>INC_ONLY_TIMEOUT</base>
+   <trans>Ingen udløbstid for fulde sikkerhedskopier</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_TIMEOUT</base>
+   <trans>Maksimal sikkerhedskopi-tid skal være mellem 1 og 24 timer</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_HOST_DIR</base>
+   <trans>Ingen mappe for din vært i delte mapper. Måske er dit værtsnavn forskelligt fra sikkerhedskopiens</trans>
+  </entry>
+  <entry>
+   <base>ERROR_READING_FILE</base>
+   <trans>Fejl under læsning fra</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SEL_RESTORE</base>
+   <trans>Selektiv gendannelse fra lokalnet</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SELECTIVE_RESTORE</base>
+   <trans>Selektiv gendannelse fra lokalnet</trans>
+  </entry>
+  <entry>
+   <base>ALL_BACKUPS</base>
+   <trans>Alle sikkerhedskopier</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SEL_REST_DESC</base>
+   <trans><![CDATA[ Denne proces vil kun gendanne udpegede filer og mapper. Du skal først vælge den sikkerhedskopi hvorfra filer skal gendannes. Ved du ikke hvilken sikkerhedskopi du skal bruge, kan du vælge 'Alle sikkerhedskopier'.<br/><br/> Det næste panel vil vise filer og mapper, så du kan vælge dem, der skal gendannes. For at begrænse antallet af viste filer og mapper kan du angive et filterudtryk, tilføjet som regulært udtryk for de viste navne.<br/><br/> Du har ansvaret for ikke at gendanne filer, der vil kunne ødelægge din servers funktioner.<br/> <br/>Aktuelt vil filerne gendannes fra: ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_CHOICE</base>
+   <trans>Vælg filer der skal vises</trans>
+  </entry>
+  <entry>
+   <base>SELECT_DATE_BEFORE</base>
+   <trans>Gendan seneste inden</trans>
+  </entry>
+  <entry>
+   <base>FILTER_EXPRESSION</base>
+   <trans>Navne filtreret efter</trans>
+  </entry>
+  <entry>
+   <base>READ_COMPLETE</base>
+   <trans><![CDATA[ Du kan vælge alle filer og mapper du ønsker gendannet fra den viste liste (brug ctrl og shift til massevalg). <br/> <b>Advarsel :</b> Vælger du en mappe vil alle filer og mapper i mappen blive gendannet.<p/> I udgangspunkt vil de seneste versioner af de valgte filer blive gendannet, medmindre du specificerer en dato i formatet <i>[ [ [åååå/]mm/]dd-]tt:mm[:ss]</i> denne proces vil kun gendanne de seneste ændrede versioner <b>inden den angivne dato</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_SELDATE</base>
+   <trans>Ugyldigt datoformat, det skal være [ [ [åååå/]mm/]dd-]tt:mm[:ss]. F.eks.: 2005/12/31-08:23:32 eller 10-08:32 eller 08:32</trans>
+  </entry>
+  <entry>
+   <base>SELECT_FILES_TO_RESTORE</base>
+   <trans>Vælg filer til gendannelse</trans>
+  </entry>
+  <entry>
+   <base>ERR_WHILE_UNMOUNTING</base>
+   <trans>Der skete en fejl under afmonteringen af den delte fjernmappe</trans>
+  </entry>
+  <entry>
+   <base>ERR_DAR_CATALOG</base>
+   <trans>Fejl under brug af Dar-kataloget</trans>
+  </entry>
+  <entry>
+   <base>COMPRESSION_LEVEL</base>
+   <trans>Komprimeringsniveau [0-9]</trans>
+  </entry>
+  <entry>
+   <base>FULL_ONLY_ON</base>
+   <trans>Fuld sikkerhedskopi er tilladt</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_COMPRESSION</base>
+   <trans>Komprimeringsniveau skal være mellem 0 (ingen komprimering) og 9 (maksimal komprimering)</trans>
+  </entry>
+  <entry>
+   <base>DOW</base>
+   <trans>Søndag Mandag Tirsdag Onsdag Torsdag Fredag Lørdag Dagligt</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURATION_TO_BE_DONE</base>
+   <trans>Venligst angiv indstillinger for sikkerhedskopi.</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Dette panel viser opsætning for den aktuelle sikkerhedskopi til lokalnet. Du kan ændre opsætningen i dette og næste panel.</p><p/> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_NOT_CONFIGURED</base>
+   <trans><![CDATA[ <p>Der er aktuelt ikke opsat nogen sikkerhedskopi til lokalnet. Du kan lave en opsætning i dette og følgende paneler.</p><p/> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_ENABLED</base>
+   <trans>Sikkerhedskopi er</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_USB</base>
+   <trans>Sikkerhedskopi er lavet på lokal flytbar disk</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_MNT</base>
+   <trans>Sikkerhedskopi dannes på tilsluttet disk</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_HOST</base>
+   <trans>Sikkerhedskopi er lavet på lokalnet</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_VFSTYPE</base>
+   <trans>via</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SHARE</base>
+   <trans>Mål-mappen for sikkerhedskopien er</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TOD</base>
+   <trans>Daglig sikkerhedskopi udføres kl.:</trans>
+  </entry>
+  <entry>
+   <base>LOGIN</base>
+   <trans>Brugernavn er</trans>
+  </entry>
+  <entry>
+   <base>PASSWORD</base>
+   <trans>Adgangskode er</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SETSNUM</base>
+   <trans>Antal roterende sikkerhedskopisæt er</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_DAYSINSET</base>
+   <trans>Antal daglige sikkerhedskopier i hvert sæt er</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_COMPRESSION</base>
+   <trans>Komprimeringsgrad (0-9) for sikkerhedskopien er</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TIMEOUT</base>
+   <trans>Hvert dagligt sikkerhedskopi-job bliver afsluttet rent efter</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_INCONLY_TIMEOUT</base>
+   <trans>undtaget er fulde sikkerhedskopijobs som bliver afsluttet rent efter 24 timer</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_FULL_BACKUP_EVERYDAY</base>
+   <trans>Fulde (nye) sikkerhedskopisæt er tilladt dagligt</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_FULL_BACKUP_DAY</base>
+   <trans>Fulde (nye) sikkerhedskopisæt er kun tilladt på</trans>
+  </entry>
+  <entry>
+   <base>WORKSTATION_BACKUP_SETCONF</base>
+   <trans>Oprette eller ændre opsætning af sikkerhedskopi til lokalnet</trans>
+  </entry>
+  <entry>
+   <base>SELECT_VFS_TYPE</base>
+   <trans>Vælg typen af delte drev som er mål for sikkerhedskopien</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_USB_DISK</base>
+   <trans>Fejl: Ingen flytbar disk er tilgængelig. Tilslut venligst en flytbar disk eller vælg en anden form for sikkerhedskopi.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_MOUNTED_DISK</base>
+   <trans>Fejl: Ingen flytbar disk er tilgængelig. Tilslut venligst en disk eller vælg en anden form for sikkerhedskopi.</trans>
+  </entry>
+  <entry>
+   <base>HOURS</base>
+   <trans>timer.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_FULL_BACKUP</base>
+   <trans>Afbryder gendannelse, da den nødvendige fulde backup mangler eller er ulæsbar.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_INC_BACKUP</base>
+   <trans>Afbryder gendannelse fordi sikkerhedskopien har manglende eller ulæsbar ændringsbackup</trans>
+  </entry>
+  <entry>
+   <base>CHECK_TO_VERIFY_FULL_RESTORE</base>
+   <trans>Marker her for at teste integriteten af alle nødvendige sikkerhedskopier til en fuld gendannelse med den valgte sikkerhedskopi</trans>
+  </entry>
+  <entry>
+   <base>TESTING_NEEDED_BACKUPS_FOR_RESTORE</base>
+   <trans>Tester alle nødvendige sikkerhedskopier for en fuldstændig gendannelse med den valgte sikkerhedskopi</trans>
+  </entry>
+  <entry>
+   <base>TESTED_BACKUP</base>
+   <trans>Tester integriteten af sikkerhedskopien</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_VERIFY_FAILED</base>
+   <trans>Verifikationen af integriteten fejlede</trans>
+  </entry>
+  <entry>
+   <base>CHECK_INTEGRITY_WARNING</base>
+   <trans>Advarsel: For store sikkerhedskopier, kan kontrollen af integriteten være langvarig og bør være fravalgt ved daglig backup.</trans>
+  </entry>
+  <entry>
+    <base>cifs</base>
+    <trans>cifs</trans>
+  </entry>
+  <entry>
+    <base>nfs</base>
+    <trans>nfs</trans>
+  </entry>
+  <entry>
+    <base>local removable disk</base>
+    <trans>Lokal flytbar disk</trans>
+  </entry>
+  <entry>
+    <base>Mounted disk</base>
+    <trans>Tilsluttet disk</trans>
+  </entry>
+  <entry>
+   <base>ERROR_WHEN_TESTING_REMOTE_SERVER</base>
+   <trans>Parametrene er blevet gemt, men den eksterne vært kan ikke nås, kontroller venligst din opsætning.</trans>
+  </entry>
+  <entry>
+   <base>DO_NOT_RESTORE_BIN_SBIN_LIB_LIB64_FROM_SME9</base>
+   <trans>Hvis du gendanner fra Koozali SME Server 9 eller tidligere, skal du være opmærksom på at visse foldere i systemet nu er er symlinks. Basal backup konfiguration inkluderer ikke /bin, /lib, /lib64, /sbin, /var/lock og /var/run. Hvis du har tilføjet dem for filerne i underfoldere, vil vi forhindre gendannelse af disse foldere for a forhindre DAR i at erstatte disse symlinks og dermed systemet ustabilt. Disse tilføjelser til backup er, i øvrigt, ikke anbefalet, da disse filer risikerer at blive overskrevet af filer der kommer fra rpms.</trans>
+  </entry>
+  <entry>
+   <base>SMBV1</base>
+   <trans>Mount as legacy SMB v1 share (unsecure, not recommended).</trans>
+  </entry>
+
+
+</lexicon>

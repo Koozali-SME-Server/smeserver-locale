@@ -1,0 +1,58 @@
+<lexicon lang="it">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Cambia impostazioni gruppo di lavoro</trans>
+    </entry>	
+    <entry> 
+        <base>DESC_WORKGROUP</base>
+        <trans><![CDATA[ Inserire il nome del gruppo di lavoro Windows in cui deve apparire questo server. ]]></trans>	
+    </entry>
+    <entry>
+        <base>LABEL_WORKGROUP</base>
+        <trans>Gruppo di lavoro Windows</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERVERNAME</base>
+        <trans>Inserire il nome che questo server userà per la condivisione file Windows e Macintosh.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERVERNAME</base>
+        <trans>Nome Server</trans>
+    </entry>
+    <entry>
+        <base>DESC_PDC</base>
+        <trans><![CDATA[Il server sarà il controller di dominio sulla rete Windows? Lasciare <b>No</b> se un altro server ricopre già questa funzione sulla rete locale.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_PDC</base>
+        <trans>Controller di Dominio</trans>
+    </entry>
+    <entry>
+        <base>DESC_ROAM</base>
+        <trans><![CDATA[ Il server supporterà i profili roaming? Lasciare il valore di default <b>No</b> se non si possiede sufficiente esperienza di amministrazione di profili roaming su server Windows e si è sicuri che questa caratteristica è necessaria. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_ROAM</base>
+        <trans>Profili roaming</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Le nuove impostazioni del gruppo di lavoro sono state salvate</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP</base>
+        <trans>Il nome del gruppo di lavoro deve iniziare con una lettera (maiuscola o minuscola), seguita da qualsiasi combinazione di lettere, numeri, underscore, punti e trattini.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SERVERNAME</base>
+        <trans>Il nome del server deve iniziare con una lettera (maiuscola o minuscola), seguita da qualsiasi combinazione di lettere, numeri, underscore e trattini.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP_MATCHES_SERVERNAME</base>
+        <trans>I nomi del serve e del gruppo di lavoro sono uguali in minuscolo. Questi campi devono essere diversi per attivare e funzioni di condivisione file.</trans>
+    </entry>
+    <entry>
+        <base>Workgroup</base>
+        <trans>Gruppo di lavoro</trans>
+    </entry>
+</lexicon>

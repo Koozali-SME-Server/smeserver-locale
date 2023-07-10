@@ -1,0 +1,126 @@
+<lexicon lang="el">
+    <entry>
+        <base>Review configuration</base>
+        <trans>Ανασκόπηση ρυθμίσεων παραμέτρων συστήματος</trans>
+    </entry>	
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans>Η παρούσα αναφορά συνοψίζει τις παραμέτρους δικτύου, διακομιστή και τομέα (domain) του παρόντος διακομιστή που έχουν σχέση με τις ρυθμίσεις των πελατών Η/Υ του δικτύου σας. Εφόσον το επιθυμείτε, μπορείτε να εκτυπώσετε την παρούσα σελίδα και ν΄ανατρέχετε σ΄αυτή.</trans>	
+    </entry>
+    <entry>
+        <base>NETWORKING_PARAMS</base>
+        <trans>Παράμετροι δικτύου</trans>
+    </entry> 
+    <entry>
+        <base>SERVER_MODE</base>
+        <trans>Κατάσταση λειτουργίας διακομιστή</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP_ADDRESS_SUBNET_MASK</base>
+        <trans>Τοπική διεύθυνση IP/ μάσκα υποδικτύου (subnet)</trans>
+    </entry>
+    <entry>
+        <base>EXTERNAL_IP_ADDRESS_SUBNET_MASK</base>
+        <trans>Εξωτερική διεύθυνση IP/ μάσκα υποδικτύου (subnet)</trans>
+    </entry>
+    <entry>
+        <base>GATEWAY</base>
+        <trans>Πύλη</trans>
+    </entry>
+    <entry>
+        <base>ADDITIONAL_LOCAL_NETWORKS</base>
+        <trans>Πρόσθετα τοπικά δίκτυα</trans>
+    </entry>
+    <entry>
+        <base>DHCP_SERVER</base>
+        <trans>Διακομιστής DHCP</trans>
+    </entry>
+    <entry>
+        <base>BEGINNING_OF_DHCP_ADDRESS_RANGE</base>
+        <trans>Αρχή περιοχής διευθύνσεων DHCP</trans>
+    </entry>
+    <entry>
+        <base>END_OF_DHCP_ADDRESS_RANGE</base>
+        <trans>Τέλος περιοχής διευθύνσεων DHCP</trans>
+    </entry>
+    <entry>
+        <base>SERVER_NAMES</base>
+        <trans>Ονόματα διακομιστών</trans>
+    </entry>
+    <entry>
+        <base>DNS_SERVER</base>
+        <trans>Διακομιστής DNS</trans>
+    </entry>
+    <entry>
+        <base>WEB_SERVER</base>
+        <trans>Διακομιστής Web</trans>
+    </entry>
+    <entry>
+        <base>PROXY_SERVER</base>
+        <trans>Διακομιστής Proxy</trans>
+    </entry>
+    <entry>
+        <base>FTP_SERVER</base>
+        <trans>Διακομιστής FTP</trans>
+    </entry>
+    <entry>
+        <base>SMTP_POP_AND_IMAP_MAIL_SERVERS</base>
+        <trans>Διακομιστές αλληλογραφίας πρωτοκόλλου SMTP, POP και IMAP</trans>
+    </entry>
+    <entry>
+        <base>HOSTS</base>
+        <trans>Η/Υ</trans>
+    </entry> 
+    <entry>
+        <base>DOMAIN_INFORMATION</base>
+        <trans>Πληροφορίες τομέα (domain)</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_DOMAIN</base>
+        <trans>Πρωτεύων τομέας (primary domain)</trans>
+    </entry>
+    <entry>
+        <base>VIRTUAL_DOMAINS</base>
+        <trans>Εικονικοί τομείς (virtual domains)</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_WEB_SITE</base>
+        <trans>Πρωτεύων ιστότοπος</trans>
+    </entry>
+    <entry>
+        <base>MITEL_NETWORKS_SME_SERVER_MANAGER</base>
+        <trans>Διαχειριστής διακομιστή</trans>
+    </entry>
+    <entry>
+        <base>MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL</base>
+        <trans>Πίνακας κωδικών πρόσβασης χρηστών</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_ADDRESSES</base>
+        <trans>Διευθύνσεις ηλεκτρονικής αλληλογραφίας</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_USERACCOUNT</base>
+        <trans>Λογαριασμός χρήστη</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_FIRSTNAME</base>
+        <trans>όνομα</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_LASTNAME</base>
+        <trans>επώνυμο</trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>Δεν έχουν καθοριστεί εικονικοί τομείς</trans>
+    </entry>
+    <entry>
+        <base>NO_NETWORKS</base>
+        <trans>Δεν έχουν καθοριστεί πρόσθετα δίκτυα</trans>
+    </entry>
+    <entry>
+        <base>INTERNET_VISIBLE_ADDRESS</base>
+        <trans>Διεύθυνση IP ορατή από το διαδίκτυο</trans>
+    </entry>
+</lexicon>

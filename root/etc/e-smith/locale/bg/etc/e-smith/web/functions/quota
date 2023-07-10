@@ -1,0 +1,106 @@
+<lexicon lang="bg">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Създаване, промяна или премахване на потребителски квоти</trans>
+    </entry>
+    <entry>
+      <base>UNABLE_TO_OPEN_ACCOUNTS</base>
+      <trans>Не мога да отворя accounts db</trans>
+    </entry>
+    <entry>
+      <base>QUOTA_DESC</base>
+      <trans><![CDATA[ <p>Можете да задавате квоти върху файловата система за потребителите на системата като щракнете на бутона "Промени" в страни от потребителя, който искате да актуализирате. <p>Ако потребителя надвиши "лимита с гратисен период", ще бъдат генерирани предупреждения. Ако този лимит бъде надвишен за повече от седмица или ако бъде надвишен "абсолютния лимит", потребителя няма да може повече да съхранява файлове или да получава поща. <p>Задавайки '0' за кой да е от лимитите изключва този лимит за съответния потребител. <p>Дисковото пространство за всеки потребител включва домашната папка на потребителя, електронната поща и всеки файл, чийто собственик е потребителя в информационните слотове. ]]></trans>
+    </entry>
+    <entry>
+      <base>CURRENT_USAGE_AND_SETTINGS</base>
+      <trans>Текущи стойности за използваната квота и настройки</trans>
+    </entry>
+    <entry>
+      <base>LIMIT_WITH_GRACE</base>
+      <trans>Лимит с гратисен период</trans>
+    </entry>
+    <entry>
+      <base>LIMIT_WITH_GRACE_MB</base>
+      <trans>Лимит с гратисен период (МБ)</trans>
+    </entry>
+    <entry>
+      <base>ABS_LIMIT</base>
+      <trans>Абсолютен лимит</trans>
+    </entry>
+    <entry>
+      <base>ABS_LIMIT_MB</base>
+      <trans>Абсолютен лимит (МБ)</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_USAGE</base>
+      <trans>Използвани (МБ)</trans>
+    </entry>
+    <entry>
+      <base>COULD_NOT_GET_UID</base>
+      <trans>Не мога да определя uid за потребител:</trans>
+    </entry>
+    <entry>
+      <base>ERR_NO_SUCH_ACCT</base>
+      <trans>Грешка: няма потребител:</trans>
+    </entry>
+    <entry>
+      <base>ERR_NOT_A_USER_ACCT</base>
+      <trans>Грешка: посоченото не е потребител:</trans>
+    </entry>
+    <entry>
+      <base>ACCOUNT_IS_TYPE</base>
+      <trans>То е сметка от тип:</trans>
+    </entry>
+    <entry>
+      <base>MODIFY_USER_TITLE</base>
+      <trans>Промяна на потребителски лимити за квоти</trans>
+    </entry>
+    <entry>
+      <base>USER</base>
+      <trans>Потребител:</trans>
+    </entry>
+    <entry>
+      <base>CURRENTLY_HAS</base>
+      <trans>в момента има:</trans>
+    </entry>
+    <entry>
+      <base>FILES</base>
+      <trans>файлове</trans>
+    </entry>
+    <entry>
+      <base>OCCUPYING</base>
+      <trans>заема:</trans>
+    </entry>
+    <entry>
+      <base>MEGABYTES</base>
+      <trans>мбайта</trans>
+    </entry>
+    <entry>
+      <base>INSTRUCTIONS</base>
+      <trans>Въведете квотата, като може да добавите суфикс за мярката - 'K' за КБайта, 'M' за МБайта, 'G' за ГБайта, 'T' за ТБайта. Въведеното без суфикс ще бъде прието за МБайта. Стойност '0' за кой да е от лимитите ще изключи този лимит за съответния потребител.</trans>
+    </entry>
+    <entry>
+      <base>SOFT_VAL_MUST_BE_NUMBER</base>
+      <trans>Грешка: лимита с гратисен период трябва да бъде число, евентуално последвано от един от следните суфикси K, M, G или Т.</trans>
+    </entry>
+    <entry>
+      <base>HARD_VAL_MUST_BE_NUMBER</base>
+      <trans>Грешка: абсолютния лимит трябва да бъде число, евентуално последвано от един от следните суфикси K, M, G или Т.</trans>
+    </entry>
+    <entry>
+      <base>ERR_HARD_LT_SOFT</base>
+      <trans>Грешка: абсолютния лимит трябва да е по-голям лимит с гратисен период.</trans>
+    </entry>
+    <entry>
+      <base>ERR_MODIFYING</base>
+      <trans>Възникна грешка при промяната на потребителя.</trans>
+    </entry>
+    <entry>
+      <base>SUCCESSFULLY_MODIFIED</base>
+      <trans>Успешно бе променена квотата за потребител:</trans>
+    </entry>
+    <entry>
+	<base>Quotas</base>
+	<trans>Квоти</trans>
+    </entry>
+</lexicon>

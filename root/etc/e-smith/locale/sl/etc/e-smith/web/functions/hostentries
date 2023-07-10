@@ -1,0 +1,180 @@
+<lexicon lang="sl" params="lexicon_params()">
+    <!-- vim: ft=xml
+    -->
+    <entry>
+        <base>Hostnames and addresses</base>
+        <trans>Hostnames and addresses</trans>
+    </entry>
+    <entry>
+        <base>UNABLE_TO_OPEN_CONFIGDB</base>
+        <trans>Ne morem odpreti konfiguracijske baze</trans>
+    </entry>
+    <entry>
+        <base>DNS_FORWARDER_ENABLED</base>
+        <trans>DNS posrednik je bil ustvarjen. To pomeni, da bodo vse DNS poizvedbe upravljane s tem posrednikom. Imena racunalnikov in naslovi ne morejo biti posodobljeni na tem strezniku, dokler je DNS posrednik aktiviran.</trans>
+    </entry>
+    <entry>
+        <base>ADD_HOSTNAME</base>
+        <trans><![CDATA[ <a class="button-like" href="hostentries?page=0&page_stack=&Next=Next&wherenext=CreateModify">Dodaj novo ime racunalnika</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME</base>
+        <trans>Ime racunalnika</trans>
+    </entry>
+    <entry>
+        <base>HOSTTYPE</base>
+        <trans>Lokacija</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP</base>
+        <trans>Lokalni IP</trans>
+    </entry>
+    <entry>
+        <base>ETHERNET_ADDRESS</base>
+        <trans>Fizicni naslov</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_HOSTNAMES_FOR_DOMAIN</base>
+        <trans>Trenutni spisek racunalnikov za {$domain}.</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTNAMES_FOR_SERVICENAME</base>
+        <trans>V sistemu ni nobenega racunalnika za {$serviceName}.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_HOSTNAMES_FOR_LOCAL_DOMAIN</base>
+        <trans>Trenutni spisek racunalnikov za {$localDomainName}</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTNAMES_FOR_LOCAL_DOMAIN</base>
+        <trans>V sistemu ni nobenega racunalnika za {$localDomainName}.</trans>
+    </entry>
+    <entry>
+        <base>STATIC_HOST_MESSAGE</base>
+        <trans>- ta racunalnik predstavlja vaso sistemsko ime in ne more biti posodobljen ali odstranjen.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_LOCAL_HOST_TITLE</base>
+        <trans>Ustvari novo ime racunalnika za ta streznik</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_VALIDATION_ERROR</base>
+        <trans>Napaka: nepricakovani znaki so v imenu racunalnika: "{$HostName}". Ime racunalnika sme vsebovati samo crke, stevilke, pomisljaje in se morajo zacetiz crko ali stevilko.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_LENGTH_ERROR</base>
+        <trans>Napaka: ime racunalnika {$HostName} je predolgo. Maksimum je 32 znakov.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_VALIDATION_ERROR</base>
+        <trans>Napaka: nepricakovani ali manjkajoci znaki so v imenu domene {$DomainName}. Ime domene mora vsebovati eno ali vec crk, stevilk, pomisljajev, pik in minus zankov. Nova domena ni bila dodana.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_EXISTS_ERROR</base>
+        <trans>Napaka: ime racunalnika {$fullHostName} ze obstaja {$type}</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>Ime racunalnika je bilo dodano.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_DESCRIPTION</base>
+        <trans>Ime racunalnika mora vsebovati crke, stevilke, vezaje in se mora zaceti s crko ali stevilko.</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP_DESCRIPTION</base>
+        <trans>Lokalni IP naslov je IP naslov drugega racunalnika v lokalnem omrezju. Prosimo vpisite veljaven IP naslov v obliki "aaa.bbb.ccc.ddd".</trans>
+    </entry>
+    <entry>
+        <base>ETHERNET_ADDRESS_DESCRIPTION</base>
+        <trans>Fizicni naslov je opcija in povzroci povezavo DHCP streznika, da staticno dodeljuje lokalni IP naslov racunalniku s tem fizicnim naslovom. Ce ga vpisemo, mora biti v obliki "AA:BB:CC:DD:EE:FF" , ter vsebovati samo stevilke 0-9 in crke A-F.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_LOCAL_HOST_TITLE</base>
+        <trans>Ustvari novo ime racunalnika, ki se nanasa na localen racunalnik.</trans>
+    </entry>
+    <entry>
+        <base>DIDNT_ENTER_LOCAL_IP</base>
+        <trans>Napaka: Niste navedli lokalnega IP naslova. IP naslov mora vsebovati samo stevilke in pike in mora biti v naslednji obliki "aaa.bbb.ccc.ddd". Ime racunalnika ni bilo dodano.</trans>
+    </entry>
+    <entry>
+        <base>IP_VALIDATION_ERROR</base>
+        <trans>Napaka: IP naslov {$InternalIP} je napacen. IP naslov mora vsebovati samo stevilke in pike, ter biti v obliki "aaa.bbb.ccc.ddd". Ime racunalnika ni bilo dodano.</trans>
+    </entry>
+    <entry>
+        <base>MAC_ADDRESS_VALIDATION_ERROR</base>
+        <trans>Napaka: Fizicni naslov {$MACAddress} je napacen. Fizicen naslov mora biti v obliki "AA:BB:CC:DD:EE:FF" in vsebovati samo stevilke 0-9 in crke A-F. Ime racunalnika ni bilo dodano.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_REMOTE_HOST_TITLE</base>
+        <trans>Ustvarite novo ime racunalnika, ki bo kazal na oddaljeni racunalnik.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Ustvari ali posodobi ime racunalnika</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_PAGE_DESCRIPTION</base>
+        <trans>Prosim vpisite naslednje podrobnosti za lokalen racunalnik:</trans>
+    </entry>
+    <entry>
+        <base>REMOTE_PAGE_DESCRIPTION</base>
+        <trans>Prosimo vpisite naslednje podrobnosti za oddaljeni racunalnik:</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>Ime racunalnika je bilo uspesno izbrisano.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>Ime racunalnika je bilo uspesno posodobljeno.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_PAGE_DESCRIPTION</base>
+        <trans><![CDATA[ Ste tik pred tem, da odstranite ime racunalnika "{$hostname}.{$domain}". </p> <p> <b>Ste prepricani, da zelite odstraniti to ime racunalnika?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DESCRIPTION</base>
+        <trans>Prosim, potrdite podrobnosti.</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTS_FOR_THIS_DOMAIN</base>
+        <trans>Za to domeno ni definiranega nobenega imena.</trans>
+    </entry>
+    <entry>
+        <base>ADDR_IN_DHCP_RANGE</base>
+        <trans>Naslov je znotraj DHCP obmocja</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_HOST</base>
+        <trans>Pri ustvarjanu imena racunalnika je prislo do napake.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_HOST</base>
+        <trans>Pri posodabljanju imena racunalnika je prislo do napake.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_HOST</base>
+        <trans>Pri odstranjevanju imena racunalnika je prislo do napake.</trans>
+    </entry>
+    <entry>
+        <base>ERR_IP_IS_LOCAL_OR_GATEWAY</base>
+        <trans>Napaka: IP ne more biti IP streznika ali IP prehoda.</trans>
+    </entry>
+    <entry>
+        <base>ERR_IP_NOT_LOCAL</base>
+        <trans>Napaka: Ta IP naslov ni znotraj nasega lokalnega omrezja.</trans>
+    </entry>
+    <entry>
+        <base>MUST_BE_VALID_HOSTNAME_OR_IP</base>
+        <trans>Mora biti veljavno ime gostitelja ali IP stevilka</trans>
+    </entry>
+  <entry>
+   <base>HOSTNAME_COMMENT_ERROR</base>
+    <trans>Napaka: nepricakovani znaki so v imenu racunalnika: "{$hostname}.{$domain}". Ime racunalnika sme vsebovati samo crke, stevilke, pomisljaje in se morajo zacetiz crko ali stevilko.</trans>
+  </entry>
+    <entry>
+      <base>HOSTNAME_VALIDATOR_ERROR</base>
+    <trans>Napaka: nepricakovani znaki so v imenu racunalnika: "{$hostname}.{$domain}". Ime racunalnika sme vsebovati samo crke, stevilke, pomisljaje in se morajo zacetiz crko ali stevilko.</trans>
+  </entry>
+</lexicon>

@@ -1,0 +1,83 @@
+<lexicon lang="nl">
+    <entry>
+        <base>View log files</base>
+        <trans>Logbestanden bekijken</trans>
+    </entry>
+
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ Dit paneel laat u toe om de log bestanden die worden gegenereerd door de diensten op uw server te bekijken of op te halen. ]]></trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_SELECT_DESC</base>
+        <trans>Kies een logbestand om te bekijken</trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>U kan er voor kiezen om een filterpatroon op te geven om alleen de regels uit het logbestand te tonen die overeenkomen met dit patroon. Alle regels uit het logbestand zullen worden weergegeven indien u dit vakje leeg laat. Merk op: deze optie is niet van toepassing als u het logbestand dowloadt.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_LABEL</base>
+        <trans>Filterpatroon (optioneel)</trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>U kan er ook voor kiezen om een markeringspatroon op te geven om regels in het vet weer te geven die overeenkomen met dit patroon. Het markeringspatroon wordt toegepast op regels die al overeenkwamen met het filterpatroon. Merk op: deze optie is niet van toepassing als u het logbestand dowloadt.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_LABEL</base>
+        <trans>Markeringspatroon (optioneel)</trans>
+    </entry>
+    <entry>
+        <base>END_DESC</base>
+        <trans>Houd er rekening mee dat het enige tijd kan duren om deze rapporten te genereren.</trans>
+    </entry>
+    <entry>
+        <base>VIEW</base>
+        <trans>Logbestand bekijken</trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_EMPTY</base>
+        <trans>Het logbestand "{$filename}" is leeg!</trans>
+    </entry>
+    <entry>
+        <base>VIEWING_TIME</base>
+        <trans>Bekeken om {$time}.</trans>
+    </entry>
+    <entry>
+        <base>MATCH_HEADER</base>
+        <trans>Regels weergeven die overeenkomen met: "{$matchPattern}".</trans>
+    </entry>
+    <entry>
+        <base>HIGHLIGHT_HEADER</base>
+        <trans>Regels gemarkeerd die overeenkomen met: "{$highlightPattern}".</trans>
+    </entry>
+    <entry>
+        <base>NO_MATCHING_LINES</base>
+        <trans>Geen overeenkomende regels weergegeven.</trans>
+    </entry>
+    <entry>
+        <base>FILENAME_ERROR</base>
+        <trans><![CDATA[ <p>Fout bij het opgeven van de naam van het logbestand.</p> <p>Ongeldig rapporttype "{$filename}".</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>REFRESH</base>
+	<trans>Logbestand vernieuwen</trans>
+    </entry>
+    <entry>
+	<base>OP_DESC</base>
+	<trans><![CDATA[ <p>U dient te kiezen tussen het bekijken van het log bestand in uw browser of het ophalen van het logbestand naar uw computer. Indien het logbestand tamelijk groot is, zal u er waarschijnlijk voor kiezen om het op te halen in plaats van het in de browser te openen, vermits dit een probleem kan zijn voor sommige browsers.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>OP_LABEL</base>
+	<trans>Handeling</trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_PAGE_DESC</base>
+	<trans><![CDATA[ <p>Uw logbestand is klaar om te worden gedownload. De download start als u op de &quot;Volgende&quot; knop hieronder klikt en u uw browser opdracht geeft om de download op te slaan in het dialoogvenster dat zal verschijnen.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_FILE</base>
+	<trans>Bezig met het voorbereiden van het logbestand{$logfile}.</trans>
+    </entry>
+</lexicon>

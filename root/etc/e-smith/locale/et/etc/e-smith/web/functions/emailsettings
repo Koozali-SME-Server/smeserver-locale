@@ -1,0 +1,386 @@
+<lexicon lang="et" params="getExtraParams()">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>E-posti seaded</trans>
+    </entry>
+    <entry>
+        <base>E-mail</base>
+        <trans>E-post</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Uued e-posti seadistused salvestatud.</trans>
+    </entry>
+    <entry>
+        <base>NEVER</base>
+        <trans>pole</trans>
+    </entry>
+    <entry>
+        <base>EVERY5MIN</base>
+        <trans>Iga 5 minuti järel</trans>
+    </entry>
+    <entry>
+        <base>EVERY15MIN</base>
+        <trans>Iga 15 minuti järel</trans>
+    </entry>
+    <entry>
+        <base>EVERY30MIN</base>
+        <trans>Iga 30 minuti järel</trans>
+    </entry>
+    <entry>
+        <base>EVERYHOUR</base>
+        <trans>Iga tunni järel</trans>
+    </entry>
+    <entry>
+        <base>EVERY2HRS</base>
+        <trans>Iga 2 tunni järel</trans>
+    </entry>
+    <entry>
+        <base>STANDARD</base>
+        <trans>Standard (SMTP)</trans>
+    </entry>
+    <entry>
+        <base>ETRN</base>
+        <trans>ETRN (SMTP with client request)</trans>
+    </entry>
+    <entry>
+        <base>DEFAULT</base>
+        <trans>Vaikimisi</trans>
+    </entry>
+    <entry>
+        <base>SPECIFY_BELOW</base>
+        <trans>Specify below</trans>
+    </entry>
+    <entry>
+        <base>MULTIDROP</base>
+        <trans>multi-drop</trans>
+    </entry>
+    <entry>
+        <base>LABEL_MODE</base>
+        <trans>E-mail retrieval mode</trans>
+    </entry>
+    <entry>
+        <base>DESC_MODE</base>
+        <trans>The e-mail retrieval mode can be set to standard (for dedicated Internet connections), ETRN (recommended for dialup connections), or multi-drop (for dialup connections if ETRN is not supported by your Internet provider). Note that multi-drop mode is the only option available when the server is configured in private server and gateway mode.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_DELEGATE</base>
+        <trans>Address of internal mail server</trans>
+    </entry>
+    <entry>
+        <base>DESC_DELEGATE</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Delegeeri e-posti server</h2>  Sinu server sisaldab täis e-posti serverit. Kui mingil põhjusel soovid e-posti teenust delegrreida mõnele teisel süsteemile, siis sisesta selle süsteemi IP aadress siia. Vaikimis jäta see väli tühjaks. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SECONDARY</base>
+        <trans>Secondary mail server</trans>
+    </entry>
+    <entry>
+        <base>DESC_SECONDARY</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>ETRN or multi-drop settings</h2>  For ETRN or multi-drop, specify the hostname or IP address of your secondary mail server. (If using the standard e-mail setup, this field can be left blank.) ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_FETCH_PERIOD</base>
+        <trans>ETRN ja multi-drop -ga, saad kontrollida kui tihti võetakse ühendust sinu teise e-posti serveriga e-posti toomiseks . Mida sagedasem ühendus seda kiiremini tuukase kirjad, kuid tehakse ka rohkem päringuid, possibly increasing your phone and Internet charges.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD</base>
+        <trans>During office hours (8:00 AM to 6:00 PM) on weekdays</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD_NIGHTS</base>
+        <trans>Outside office hours (6:00 PM to 8:00 AM) on weekdays</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD_WEEKENDS</base>
+        <trans>During the weekend</trans>
+    </entry>
+    <entry>
+        <base>DESC_POP_ACCOUNT</base>
+        <trans>Multi-drop e-maili jaoks, sea POP kasutajanimi ja prool. (If using standard or ETRN e-mail, these fields can be blank.) Also, for multi-drop, you can either use the default mail sorting method, or you can specify a particular message header to use for mail sorting.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_POP_PASS</base>
+        <trans>POP kasutaja parool (for multi-drop)</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_POP_ACCOUNT</base>
+        <trans>POP kasutaja konto (for multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SORT_METHOD</base>
+        <trans>Vali sorteerimise viis (multi-drop jaoks)</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SORT_HEADER</base>
+        <trans>Select sort header (for multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PROTO</base>
+        <trans>Protokoll (multi-drop jaoks)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_SECURE</base>
+        <trans>Tunnel üle SSL-i (multi-drop jaoks)</trans>
+    </entry>
+    <entry>
+        <base>AUTO</base>
+        <trans>Automaatne</trans>
+    </entry>
+    <entry>
+        <base>ENABLED_BOTH</base>
+        <trans>Luba mõlemad HTTP ja HTTPS</trans>
+    </entry>
+    <entry>
+        <base>ENABLED_SECURE_ONLY</base>
+        <trans>Luba HTTPS (turvatud)</trans>
+    </entry>
+     <entry>
+        <base>ONLY_LOCAL_NETWORK_SSL</base>
+        <trans>Luba HTTPS (turvaline) juurdepääs ainult kohtvõrgust</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_POP3</base>
+        <trans>Luba mõlemad POP3 ja POP3S</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_PRIVATE</base>
+        <trans>Luba privaatne</trans>
+    </entry>
+    <entry>
+        <base>SECURE_POP3</base>
+        <trans>Luba privaatne ja avalik (turvaline POP3S)</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_IMAP</base>
+        <trans>Luba mõlemad IMAP ja IMAPS</trans>
+    </entry>
+    <entry>
+        <base>SECURE_IMAP</base>
+        <trans>Luba avalik ja privaatne (turvaline IMAPS)</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_SMTP</base>
+        <trans>Luba mõlemad SMTP ja SSMTP</trans>
+    </entry>
+    <entry>
+        <base>SECURE_SMTP</base>
+        <trans>Luba SSMTP (turvaline)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_POP_ACCESS_CONTROL</base>
+        <trans>POP3 serveri juurdepääs</trans>
+    </entry>
+    <entry>
+        <base>LABEL_IMAP_ACCESS_CONTROL</base>
+        <trans>IMAP serveri juurdepääs</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SMTP_AUTH_CONTROL</base>
+        <trans>SMTP autentimine</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_TO_ADMIN</base>
+        <trans>Saada administraatorile</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_TO</base>
+        <trans>Saada</trans>
+    </entry>
+    <entry>
+        <base>RETURN_TO_SENDER</base>
+        <trans>Keeldu</trans>
+    </entry>
+    <entry>
+        <base>LABEL_UNKNOWN</base>
+        <trans>E-mail tundamtutelt kasutajatelt</trans>
+    </entry>
+    <entry>
+        <base>DESC_UNKNOWN</base>
+        <trans><![CDATA[ <h2>Tundmatud kasutajad</h2> Valides tagastamise (soovitatud) seadistab serveri vastuvõtma kirju ainult olemasolevatelt aadressitelt (nt. kasutajad, grupid, aliased). Kirjad teistelt aadressitelt tagastatakse. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SMARTHOST</base>
+        <trans>Address of Internet provider's mail server</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_SMARTHOST</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>SMTP server</h2> The server can deliver outgoing messages directly to their destination (recommended in most cases) or can deliver them via your Internet provider's SMTP server (recommended if you have an unreliable Internet connection or are using a residential Internet service). If using your Internet provider's SMTP server, specify its hostname or IP address below. Otherwise leave this field blank. ]]></trans>
+    </entry>
+
+    <entry>
+        <base>INVALID_SMARTHOST</base>
+        <trans>The smarthost name you entered is not a valid internet domain name and is not blank</trans>
+    </entry>
+    <entry>
+        <base>DESC_POP_ACCESS_CONTROL</base>
+        <trans>Sa saad kontrollida juurdepääsu POP3 serverile. Kui on valitud ' Luba juurdepääs ainult kohtvõrgust' , siis saab POP3 juurde ainult kohtvõrgust. The POP3S setting can be used to provide encrypted external access to your POP3 server. We recommend leaving this setting 'Allow access only from local networks' unless you have a specific reason to do otherwise.</trans>
+    </entry>
+    <entry>
+        <base>DESC_IMAP_ACCESS_CONTROL</base>
+        <trans>You can control IMAP server access. The setting 'Allow access only from local networks' allows IMAP access only from your local network(s). The IMAPS setting can be used to provide encrypted external access to your IMAP server. We recommend leaving this setting 'Allow access only from local networks' unless you have a specific reason to do otherwise.</trans>
+    </entry>
+    <entry>
+        <base>DESC_SMTP_AUTH_CONTROL</base>
+        <trans><![CDATA[ You can provide authenticated access to your SMTP server, or set it to Disabled. The SSMTP setting requires <b>all</b> users to use SSL/TLS authentication. The SMTP and SSMTP option additionally allows STARTTLS to be used to ensure secure authentication. ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_WEBMAIL</base>
+        <trans>Sa võid keelata või lubada webmaili serveris. Webmail lubab kasutajatel juurdepääsu oma e-mailidele ükskõik millise brauseriga sisestades aadressi https://{$FQDN}/webmail, ning kasutades autentimiseks oma konto andmeid.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_WEBMAIL</base>
+        <trans>Webmaili juurdepääs</trans>
+    </entry>
+     <entry>
+        <base>LABEL_BLOCK_EXECUTABLE_CONTENT</base>
+        <trans>Käivitatava sisu blokeerimine</trans>
+     </entry>
+     <entry>
+        <base>LABEL_CONTENT_TO_BLOCK</base>
+        <trans>Sisu mida blokeerida</trans>
+     </entry>
+     <entry>
+        <base>DESC_BLOCK_EXECUTABLE_CONTENT</base>
+        <trans>Sa võid käivitatva sisu e-maili manustes blokeerida, märkides käivitatavate failide tüübid. E-mail mis sisaldab selliseid manuseid tagastatakse automaatselt saatjale.</trans>
+    </entry>
+    <entry>
+        <base>UNACCEPTABLE_CHARS</base>
+        <trans>Sellel väljal on nõutud e-maili aadress, mis sisaldab @ märki ja domeeni nime.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_ACCESS</base>
+        <trans><![CDATA[ <h2>E-maili juurdepääs</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_ACCESS_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_ACCESS">Muuda e-maili juurdepääsu</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_RECEPTION</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>E-mail reception</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_RECEPTION_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_RECEPTION">Change e-mail reception settings</a>  ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_DELIVERY</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>E-posti tagastus</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_DELIVERY_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_DELIVERY">Change e-mail delivery settings</a>  ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_FILTERING_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_FILTERING">Muuda e-mailide filtreerimise seadeid</a>  ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_VIRUS_SCAN</base>
+	<trans>Viiruste kontroll</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_VIRUS_SCAN</base>
+	<trans>Sa võid kontrollida sisse- ja väljaminevaid kirju kontrollida viiruste suhtes. Kui kontroll on lubatud ja viirus leitakse, siis saadetakse kiri tagasi saatjale.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_SPAM_SCAN</base>
+	<trans>Spämmi filtreerimine</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_SPAM_SCAN</base>
+	<trans>Sa võid kontrollida e-kirju spämmi suhtes. Kui spämmi filter on lubatud, siis lisatakse X-Spam_status: iga kirja päisesse, mida kasutatakse spämmi filtreerimiseks. Sa võid spämmi tundlikust muuta, vaikimisi on see keskmine. For fine-grained control, you can set the Spam sensitivity to Custom and then choose a custom tagging level, and optionally a level at which to reject the message.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_SPAM_SUBJECT</base>
+	<trans>SPAM teema prefix</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_SPAM_SUBJECT</base>
+	<trans>You can enable to add a tag to the subject of each message that is classified as SPAM. The value for this tag can be defined below.</trans>
+    </entry>
+
+   <entry>
+        <base>LABEL_SPAM_SENSITIVITY</base>
+        <trans>Spämmi tundlikus</trans>
+    </entry>
+   <entry>
+        <base>LABEL_SPAM_TAGLEVEL</base>
+        <trans>Kohandatud spam tagging level</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SPAM_REJECTLEVEL</base>
+        <trans>Kohandatud spam rejection level</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SPAM_SUBJECTTAG</base>
+        <trans>Muuda spämmi saatja teemat</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SORTSPAM</base>
+        <trans>Sorteeri spämm junkmail-i kausta</trans>
+    </entry>
+    <entry>
+        <base>VERYHIGH</base>
+        <trans>Väga kõrge</trans>
+    </entry>
+    <entry>
+        <base>HIGH</base>
+        <trans>Kõrge</trans>
+    </entry>
+    <entry>
+        <base>MEDIUM</base>
+        <trans>Keskmine</trans>
+    </entry>
+    <entry>
+        <base>LOW</base>
+        <trans>Madal</trans>
+    </entry>
+    <entry>
+        <base>VERYLOW</base>
+        <trans>Väga madal</trans>
+    </entry>
+    <entry>
+        <base>CUSTOM</base>
+        <trans>Kohandatud</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_STATUS</base>
+        <trans>SMTP Authentication for Internet provider</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_USERID</base>
+        <trans>Mail server user id</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_PASSWD</base>
+        <trans>Mail server password</trans>
+    </entry>
+
+    <entry>
+        <base>VALIDATION_SMTPAUTH_NONBLANK</base>
+        <trans>This field cannot be left blank if SMTP Authentication is enabled.</trans>
+    </entry>
+
+</lexicon>

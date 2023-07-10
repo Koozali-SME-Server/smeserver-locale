@@ -1,0 +1,180 @@
+<lexicon lang="el" params="lexicon_params()">
+    <!-- vim: ft=xml
+    -->
+    <entry>
+        <base>Hostnames and addresses</base>
+        <trans>Δικτυακές ονομασίες Η/Υ και διευθύνσεις</trans>
+    </entry>
+    <entry>
+        <base>UNABLE_TO_OPEN_CONFIGDB</base>
+        <trans>Η βάση δεδομένων των ρυθμίσεων παραμέτρων του συστήματος αδυνατεί ν ανοίξει</trans>
+    </entry>
+    <entry>
+        <base>DNS_FORWARDER_ENABLED</base>
+        <trans>Έχει ορισθεί ένας προωθητής DNS. Αυτό σημαίνει ότι η διαχείριση όλων των αναζητήσεων DNS γίνονται από αυτόν. Ονομασίες H/Y και διευθύνσεις δεν μπορούν να τροποποιηθούν στο συγκεκριμένο διακομιστή ενόσω υφίσταται ορισμός προωθητή DNS.</trans>
+    </entry>
+    <entry>
+        <base>ADD_HOSTNAME</base>
+        <trans><![CDATA[ <a class="button-like" href="hostentries?page=0&page_stack=&Next=Next&wherenext=CreateModify">Προσθήκη δικτυακής ονομασίας Η/Υ</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME</base>
+        <trans>Δικτυακή ονομασία Η/Υ</trans>
+    </entry>
+    <entry>
+        <base>HOSTTYPE</base>
+        <trans>Τοποθεσία</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP</base>
+        <trans>Τοπική IP</trans>
+    </entry>
+    <entry>
+        <base>ETHERNET_ADDRESS</base>
+        <trans>Διεύθυνση Ethernet</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_HOSTNAMES_FOR_DOMAIN</base>
+        <trans>Τρέχουσα λίστα δικτυακών ονομασιών Η/Υ για τον {$domain}.</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTNAMES_FOR_SERVICENAME</base>
+        <trans>Δεν υπάρχουν δικτυακές ονομασίες Η/Υ στο σύστημα για το {$serviceName}.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_HOSTNAMES_FOR_LOCAL_DOMAIN</base>
+        <trans>Τρέχουσα λίστα δικτυακών ονομασιών Η/Υ για τον {$localDomainName}</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTNAMES_FOR_LOCAL_DOMAIN</base>
+        <trans>Δεν υπάρχουν δικτυακές ονομασίες Η/Υ στο σύστημα για τον {$localDomainName}.</trans>
+    </entry>
+    <entry>
+        <base>STATIC_HOST_MESSAGE</base>
+        <trans>- Αυτός ο Η/Υ αντιπροσωπεύει την ονομασία του συστήματός σας και δεν μπορεί να τροποποιηθεί ή να διαγραφεί.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_LOCAL_HOST_TITLE</base>
+        <trans>Δημιουργία νέας δικτυακής ονομασίας Η/Υ για το συγκεκριμένο διακομιστή</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_VALIDATION_ERROR</base>
+        <trans>Σφάλμα: μη αναμενόμενος χαρακτήρας στη δικτυακή ονομασία Η/Υ: "{$HostName}". Η δικτυακή ονομασία Η/Υ μπορεί να περιλαμβάνει μόνο γράμματα, αριθμούς και παύλες και πρέπει να ξεκινάει με γράμμα ή αριθμό.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_LENGTH_ERROR</base>
+        <trans>Σφάλμα: Η ονομασία λογαριασμού {$HostName} είναι πολύ μεγάλη. Το μέγιστο μήκος είναι 32 χαρακτήρες.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_VALIDATION_ERROR</base>
+        <trans>Σφάλμα: μη αναμενόμενοι ή ελλείποντες χαρακτήρες στην ονομασία τομέα {$DomainName}. Η ονομασία του τομέα πρέπει να περιλαμβάνει ένα ή περισσότερα γράμματα, αριθμούς, τελείες και παύλες. Δεν δημιουργήθηκε νέος τομέας.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_EXISTS_ERROR</base>
+        <trans>Σφάλμα: Η ονομασία του λογαριασμού {$fullHostName} υφίσταται και είναι δικτυακή ονομασία Η/Υ τύπου {$type}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>Επιτυχής δημιουργία δικτυακής ονομασίας Η/Υ.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_DESCRIPTION</base>
+        <trans>Η δικτυακή ονομασία Η/Υ πρέπει να περιλαμβάνει μόνο γράμματα, αριθμούς και παύλες και πρέπει να ξεκινάει με γράμμα ή αριθμό.</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP_DESCRIPTION</base>
+        <trans>Η Τοπική διεύθυνση IP είναι η διεύθυνση IP ενός άλλου μηχανήματος στο τοπικό δίκτυο. Παρακαλώ εισάγετε μία έγκυρη διεύθυνση IP της μορφής "aaa.bbb.ccc.ddd".</trans>
+    </entry>
+    <entry>
+        <base>ETHERNET_ADDRESS_DESCRIPTION</base>
+        <trans>Η διεύθυνση ethernet είναι προαιρετική και έχει ως αποτέλεσμα ο διακομιστής DHCP να συνδέει στατικά την τοπική διεύθυνση IP με τον υπολογιστή που έχει τη συγκεκριμένη διεύθυνση ethernet. Εάν ορισθεί, πρέπει να είναι της μορφής "AA:BB:CC:DD:EE:FF" και πρέπει να περιέχει μόνο αριθμούς από 0-9 και γράμματα από A-F.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_LOCAL_HOST_TITLE</base>
+        <trans>Δημιουργία μίας νέας δικτυακής ονομασίας που αφορά έναν τοπικό Η/Υ.</trans>
+    </entry>
+    <entry>
+        <base>DIDNT_ENTER_LOCAL_IP</base>
+        <trans>Σφάλμα: Δεν ορίσατε Τοπική διεύθυνση IP. Οι διευθύνσεις IP πρέπει να περιλαμβάνουν μόνον αριθμούς και τελείες και να είναι της μορφής "aaa.bbb.ccc.ddd". Δεν δημιουργήθηκε δικτυακή ονομασία Η/Υ.</trans>
+    </entry>
+    <entry>
+        <base>IP_VALIDATION_ERROR</base>
+        <trans>Σφάλμα: Η διεύθυνση IP {$InternalIP} δεν είναι έγκυρη. Οι διευθύνσεις IP πρέπει να περιλαμβάνουν μόνον αριθμούς και τελείες και να είναι της μορφής "aaa.bbb.ccc.ddd". Δεν δημιουργήθηκε δικτυακή ονομασία Η/Υ.</trans>
+    </entry>
+    <entry>
+        <base>MAC_ADDRESS_VALIDATION_ERROR</base>
+        <trans>Σφάλμα: Η διεύθυνση Ethernet {$MACAddress}δεν είναι έγκυρη. Οι διευθύνσεις Ethernet πρέπει να είναι της μορφής "AA:BB:CC:DD:EE:FF" και μπορεί να περιλαμβάνουν μόνον αριθμούς από 0-9 και γράμματα από A-F. Δεν δημιουργήθηκε δικτυακή ονομασία Η/Υ.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_REMOTE_HOST_TITLE</base>
+        <trans>Δημιουργία νέας δικτυακής ονομασίας που αφορά απομακρυσμένο Η/Υ</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Δημιουργία ή τροποποίηση δικτυακής ονομασίας Η/Υ</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_PAGE_DESCRIPTION</base>
+        <trans>Παρακαλώ εισάγετε τις ακόλουθες πρόσθετες λεπτομέρειες για ένα τοπικό Η/Υ:</trans>
+    </entry>
+    <entry>
+        <base>REMOTE_PAGE_DESCRIPTION</base>
+        <trans>Παρακαλώ εισάγετε τις ακόλουθες επιπλέον λεπτομέρειες για ένα απομακρυσμένο Η/Υ:</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>Επιτυχής διαγραφή Η/Υ.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>Επιτυχής τροποποίηση Η/Υ.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_PAGE_DESCRIPTION</base>
+        <trans><![CDATA[ Πρόκειται να διαγράψετε τη δικτυακή ονομασία "{$hostname}.{$domain}". </p> <p> <b>Είστε σίγουροι ότι θέλετε να τη διαγράψετε;</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DESCRIPTION</base>
+        <trans>Παρακαλώ επιβεβαιώστε τις ακόλουθες λεπτομέρειες.</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTS_FOR_THIS_DOMAIN</base>
+        <trans>Δεν υπάρχουν Η/Υ σχετικοί με αυτόν τον τομέα.</trans>
+    </entry>
+    <entry>
+        <base>ADDR_IN_DHCP_RANGE</base>
+        <trans>Η διεύθυνση βρίσκεται είναι εντός της περιοχής δυναμικών διευθύνσεων που έχουν εκχωρηθεί στον DHCP</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_HOST</base>
+        <trans>Παρουσιάσθηκε σφάλμα κατά τη δημιουργία της δικτυακής ονομασίας Η/Υ.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_HOST</base>
+        <trans>Παρουσιάσθηκε σφάλμα κατά την τροποποίηση της δικτυακής ονομασίας Η/Υ.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_HOST</base>
+        <trans>Παρουσιάσθηκε σφάλμα κατά τη διαγραφή της δικτυακής ονομασίας Η/Υ.</trans>
+    </entry>
+    <entry>
+        <base>ERR_IP_IS_LOCAL_OR_GATEWAY</base>
+        <trans>Σφάλμα: Η διεύθυνση IP δεν μπορεί να είναι ίδια με αυτή του διακομιστή ή της πύλης.</trans>
+    </entry>
+    <entry>
+        <base>ERR_IP_NOT_LOCAL</base>
+        <trans>Σφάλμα: Αυτή η διεύθυνση IP δεν είναι σε κανένα από τα τοπικά μας δίκτυα.</trans>
+    </entry>
+    <entry>
+        <base>MUST_BE_VALID_HOSTNAME_OR_IP</base>
+        <trans>Πρέπει να είναι μία έγκυρη δικτυακή ονομασία ή διεύθυνση IP</trans>
+    </entry>
+  <entry>
+   <base>HOSTNAME_COMMENT_ERROR</base>
+    <trans>Σφάλμα: μη αναμενόμενος χαρακτήρας στη δικτυακή ονομασία Η/Υ: "{$hostname}.{$domain}". Η δικτυακή ονομασία Η/Υ μπορεί να περιλαμβάνει μόνο γράμματα, αριθμούς και παύλες και πρέπει να ξεκινάει με γράμμα ή αριθμό.</trans>
+  </entry>
+    <entry>
+      <base>HOSTNAME_VALIDATOR_ERROR</base>
+    <trans>Σφάλμα: μη αναμενόμενος χαρακτήρας στη δικτυακή ονομασία Η/Υ: "{$hostname}.{$domain}". Η δικτυακή ονομασία Η/Υ μπορεί να περιλαμβάνει μόνο γράμματα, αριθμούς και παύλες και πρέπει να ξεκινάει με γράμμα ή αριθμό.</trans>
+  </entry>
+</lexicon>

@@ -1,0 +1,174 @@
+<lexicon lang="da" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Oprette, ændre eller fjern i-bays</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> <a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify">Tilføj i-bay</a> </p> <p> Du kan ændre,fjerne eller skifte adgangskoden for en i-bay ved at klikke på det relevante link ud for pågældende i-bay. Vises navnet i rødt er adgangskoden ikke blevet skiftet. Det bør gøres snarest. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>Oprete eller ændre en i-bay</trans>
+    </entry>
+    <entry>
+        <base>NAME_FIELD_DESC</base>
+        <trans>I-bay navne skal starte med et lille bogstav og må kun indeholde små bogstaver, tal, punktum, bindestreger og understregningskoder. Fx "johnson", "intra", and "cust3.prj12" er alle lovlige navne, mens "3associates", "John Smith" og "Bus!Partner" ikke er. Navnet er begrænset til {$maxLength} anslag.</trans>
+    </entry>
+    <entry>
+        <base>NAME_LABEL</base>
+        <trans>I-bay navn</trans>
+    </entry>
+    <entry>
+        <base>USER_ACCESS</base>
+        <trans>Tillad bruger adgang via fildeling eller ftp</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS</base>
+        <trans>Åben adgang via web eller annonym ftp</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS_DESCRIPTION</base>
+        <trans>Offentlig adgangsformen "adgangskode påkrævet udenfor lokalnet" er ikke understøttet af FTP-serveren. Vælger du denne form vil adgangskode være påkrævet både indenfor og udenfor lokalnettet for denne i-bay.</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_DYNAMIC_CONTENT</base>
+        <trans>Udfør dynamisk indhold (CGI, PHP, SSI)</trans>
+    </entry>
+	<entry>
+        <base>HTTPS_Only</base>
+        <trans>Gennemtving sikker forbindelse</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Fjern i-bay</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans><![CDATA[ <p> Du er ved at fjerne I-bay "{$name}" ({$description}). </p> <p> Alle filer i denne i-bay vil blive slettet. </p> <p> Er du sikker på du ønsker at slette denne i-bay? </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_IBAY</base>
+        <trans>Der opstod en fejl ved oprettelse af i-bay.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED_IBAY</base>
+        <trans>I-bay oprettet med succes.</trans>
+    </entry>
+    <entry>
+        <base>NO_IBAYS</base>
+        <trans>Der er ikke opsat nogen i-bays.</trans>
+    </entry>
+    <entry>
+        <base>CANT_FIND_IBAY</base>
+        <trans>Kan ikke finde nogen konto for {$name} (eksisterer den?)</trans>
+    </entry>
+    <entry>
+        <base>CANT_CREATE_IBAY</base>
+        <trans>Kan ikke oprette en ny konto for {$name} (eksisterer den i forvejen?)</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_IBAY</base>
+        <trans>Der opstod en fejl ved ændring af i-bay.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED_IBAY</base>
+        <trans>I-bay ændret.</trans>
+    </entry>
+    <entry>
+        <base>VIRTUAL_HOST_MESSAGE</base>
+        <trans>Følgende virtuelle domæner hentede sit indhold fra denne i-bay. Det vil blive ændret til at hente indholdet fra den primære webside (du kan ændre dette senere).</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED_IBAY</base>
+        <trans>I-bay slettet.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_IBAY</base>
+        <trans>Der opstod en fejl ved sletning af i-bay.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_DESC</base>
+        <trans>Du er ved at ændre adgangskoden for i-bay {$name}.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VALIDATION_ERROR</base>
+        <trans>Adgangskoden må kun indeholde bogstaver og tal.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VERIFY_ERROR</base>
+        <trans>De indtastede adgangskoder er ikke ens.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_RESET_PASSWORD</base>
+        <trans>Adgangskode skiftet.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_RESETTING_PASSWORD</base>
+        <trans>Fejl under skift af adgangskode.</trans>
+    </entry>
+    <entry>
+        <base>VHOST_MESSAGE</base>
+        <trans><![CDATA[ <P>Følgende virtuelt domæne hentede sit indhold denne i-bay. Det vil blive ændret til at hente indholdet fra den primære webside. (Du kan ændre dette senere):</P> <ul>{$vhostList}</ul> ]]></trans>
+    </entry>
+    <entry>
+        <base>Information bays</base>
+        <trans>I-bays</trans>
+    </entry>
+    <entry>
+        <base>WGRG</base>
+        <trans>Skrive = gruppe, læse = gruppe</trans>
+    </entry>
+    <entry>
+        <base>WGRE</base>
+        <trans>Skrive = gruppe, læse = alle</trans>
+    </entry>
+    <entry>
+        <base>WARG</base>
+        <trans>Skrive = admin, læse = gruppe</trans>
+    </entry>
+    <entry>
+        <base>NONE</base>
+        <trans>Ingen adgang</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_NO_PASSWORD</base>
+        <trans>Lokalt netværk (ingen adgangskode påkrævet)</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_PASSWORD</base>
+        <trans>Lokalt netværk (adgangskode påkrævet)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_NO_PASSWORD</base>
+        <trans>Hele Internet (ingen adgangskode påkrævet)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD</base>
+        <trans>Hele Internet (adgangskode påkrævet)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD_REMOTE</base>
+        <trans>Hele Internet (adgangskode påkrævet udenfor lokalnet)</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IBAY_DESCRIPTION</base>
+        <trans>Fejl: uventede eller manglende tegn i i-bay beskrivelse</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>I-bay navnet "{$acctName}" indehold ulovlige tegn. I-bay navne skal starte med et lille bogstav og må kun indeholde små bogstaver, tal og bindestreger.</trans>
+    </entry>
+    <entry>
+        <base>MAX_IBAY_NAME_LENGTH_ERROR</base>
+        <trans>I-bay navnet "{$name}" er for langt. maximum er {$maxIbayNameLength} tegn.</trans>
+    </entry>
+    <entry>
+        <base>ACCT_CLASHES_WITH_PSEUDONYM</base>
+        <trans><![CDATA[ Kontoen "{$acctName}" er i konflikt med pseudonym detaljer for {$acctType} konto "{$acct}". <p>{$acctName} er pseudonym for {$acct}.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_EXISTS</base>
+        <trans>Kontoen "{$acctName}" er en eksisterende {$acctType} konto.</trans>
+    </entry>
+</lexicon>

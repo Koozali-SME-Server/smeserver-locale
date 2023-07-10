@@ -1,0 +1,106 @@
+<lexicon lang="nl">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Gebruikersaccount limieten toevoegen, wijzigen of verwijderen</trans>
+    </entry>
+    <entry>
+      <base>UNABLE_TO_OPEN_ACCOUNTS</base>
+      <trans>Kan accounts database niet openen</trans>
+    </entry>
+    <entry>
+      <base>QUOTA_DESC</base>
+      <trans><![CDATA[ <p>U kunt de bestandssysteem limieten voor gebruikers instellen op uw systeem door op de knop "Wijzigen" te klikken naast de gebruiker die u wilt wijzigen. <p>Als de gebruiker over de "Limiet met speling" gaat zullen er waarschuwingen worden gegeneerd. Als deze limiet langer dan een week wordt overschreden of als de "Vaste limiet" is bereikt zal de gebruiker geen bestanden meer kunnen opslaan of e-mail kunnen ontvangen. <p>Een instelling van '0' voor beide limieten zet de limit uit voor betreffende gebruiker. <p>De schijfruimte voor elke gebruiker is inclusief de home directory, e-mail en elk bestand in de informatie baaien waarvan de eigendomsrechten zijn toegekend. ]]></trans>
+    </entry>
+    <entry>
+      <base>CURRENT_USAGE_AND_SETTINGS</base>
+      <trans>Huidig limiet gebruik en instellingen</trans>
+    </entry>
+    <entry>
+      <base>LIMIT_WITH_GRACE</base>
+      <trans>Limiet met speling</trans>
+    </entry>
+    <entry>
+      <base>LIMIT_WITH_GRACE_MB</base>
+      <trans>Limiet met speling (MB)</trans>
+    </entry>
+    <entry>
+      <base>ABS_LIMIT</base>
+      <trans>Vaste limiet</trans>
+    </entry>
+    <entry>
+      <base>ABS_LIMIT_MB</base>
+      <trans>Vaste limiet (MB)</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_USAGE</base>
+      <trans>Huidig gebruik (MB)</trans>
+    </entry>
+    <entry>
+      <base>COULD_NOT_GET_UID</base>
+      <trans>Kan de uid niet bepalen voor gebruiker:</trans>
+    </entry>
+    <entry>
+      <base>ERR_NO_SUCH_ACCT</base>
+      <trans>Fout: er is geen account met naam:</trans>
+    </entry>
+    <entry>
+      <base>ERR_NOT_A_USER_ACCT</base>
+      <trans>Fout: het account is geen gebruikersaccount:</trans>
+    </entry>
+    <entry>
+      <base>ACCOUNT_IS_TYPE</base>
+      <trans>Het is een account van het type:</trans>
+    </entry>
+    <entry>
+      <base>MODIFY_USER_TITLE</base>
+      <trans>Gebruikers limieten wijzigen</trans>
+    </entry>
+    <entry>
+      <base>USER</base>
+      <trans>Gebruiker:</trans>
+    </entry>
+    <entry>
+      <base>CURRENTLY_HAS</base>
+      <trans>heeft nu:</trans>
+    </entry>
+    <entry>
+      <base>FILES</base>
+      <trans>bestanden</trans>
+    </entry>
+    <entry>
+      <base>OCCUPYING</base>
+      <trans>bezet:</trans>
+    </entry>
+    <entry>
+      <base>MEGABYTES</base>
+      <trans>megabytes</trans>
+    </entry>
+    <entry>
+      <base>INSTRUCTIONS</base>
+      <trans>Geef de limiet op als een nummer met optioneel een einde van 'K' voor kilobytes, 'M' voor megabytes, 'G' voor gigabytes or 'T' voor terabytes. Nummers zonder einde worden aangenomen in megabytes te zijn. De instelling '0' voor een van beide limieten zet de limiet uit voor de betreffende gebruiker.</trans>
+    </entry>
+    <entry>
+      <base>SOFT_VAL_MUST_BE_NUMBER</base>
+      <trans>Fout: de limiet met spelings-tijd moet een nummer zijn optioneel gevolgd door een einde als K, M, G of T.</trans>
+    </entry>
+    <entry>
+      <base>HARD_VAL_MUST_BE_NUMBER</base>
+      <trans>Fout: de harde limiet moet een nummer zijn optioneel gevolgd door K, M, G or T.</trans>
+    </entry>
+    <entry>
+      <base>ERR_HARD_LT_SOFT</base>
+      <trans>Fout: vaste limiet moet groter zijn dan de limiet met speling.</trans>
+    </entry>
+    <entry>
+      <base>ERR_MODIFYING</base>
+      <trans>Fout opgetreden tijdens wijzigen van gebruiker.</trans>
+    </entry>
+    <entry>
+      <base>SUCCESSFULLY_MODIFIED</base>
+      <trans>Limieten met succes gewijzigd voor gebruiker:</trans>
+    </entry>
+    <entry>
+	<base>Quotas</base>
+	<trans>Quotums</trans>
+    </entry>
+</lexicon>

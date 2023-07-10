@@ -1,0 +1,174 @@
+<lexicon lang="sv" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Skapa, ändra eller radera i-bays</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> <a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify">Skapa i-bay</a> </p> <p> Du kan radera vilken information bay som helst eller återställa dess lösenord genom att klicka på tillhörande kommando vid sidan om information bay. Om information bay visas i rött betyder detta att lösenordet inte har ändrats från förvalda. Lösenordet måste bytas snarast. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>Skapa eller ändra en i-bay</trans>
+    </entry>
+    <entry>
+        <base>NAME_FIELD_DESC</base>
+        <trans>Namnet på information bay får bara innehålla gemener, siffror, punkter, bindestreck, understreck och måste börja med en gemen. Exempelvis "johnson", "intra", and "cust3.prj12" är alla tillåtna namn men, "3associates", "John Smith" och "Bus!Partner" är det inte. Namnet är begränsat till {$maxLength} tecken.</trans>
+    </entry>
+    <entry>
+        <base>NAME_LABEL</base>
+        <trans>Namnet på information bay</trans>
+    </entry>
+    <entry>
+        <base>USER_ACCESS</base>
+        <trans>Användaråtkomst via fildelning eller ftp</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS</base>
+        <trans>Publik åtkomst via webb eller anonym ftp</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS_DESCRIPTION</base>
+        <trans>Den publika åtkomstmoden "Lösenord krävs utanför lokalt nätverk" stöds inte av serverns FTP-komponent. Om detta väljs kommer FTP-servern att kräva lösenord både inuti och utanför det lokala nätverket för denna i-bay.</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_DYNAMIC_CONTENT</base>
+        <trans>Exekvera dynamiskt innehåll (CGI, PHP, SSI)</trans>
+    </entry>
+	<entry>
+        <base>HTTPS_Only</base>
+        <trans>Tvinga till säkra anslutningar</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Radera information bay</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans><![CDATA[ <p> Du är på väg att radera en information bay "{$name}" ({$description}). </p> <p> Alla filer som tillhör denna information bay kommer att raderas. </p> <p> Är du säker på att du vill radera denna information bay? </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_IBAY</base>
+        <trans>Ett fel uppstod vis skapande av i-bay.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED_IBAY</base>
+        <trans>Skapat i-bay.</trans>
+    </entry>
+    <entry>
+        <base>NO_IBAYS</base>
+        <trans>Det finns inga i-bays konfigurerade för närvarande.</trans>
+    </entry>
+    <entry>
+        <base>CANT_FIND_IBAY</base>
+        <trans>Kan inte finna konto för {$name} (existerar detta?)</trans>
+    </entry>
+    <entry>
+        <base>CANT_CREATE_IBAY</base>
+        <trans>Kan inte skapa ett nytt konto för {$name} (existerar det redan?)</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_IBAY</base>
+        <trans>Ett fel inträffade vid ändring av i-bay.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED_IBAY</base>
+        <trans>Ändrad i-bay.</trans>
+    </entry>
+    <entry>
+        <base>VIRTUAL_HOST_MESSAGE</base>
+        <trans>Följande virtuella domäner använde denna information bay för deras innehåll och kommer därför att ändras till den primära webbplatsen (du kan ändra dem till någonting annat efteråt).</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED_IBAY</base>
+        <trans>Raderat i-bay.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_IBAY</base>
+        <trans>Ett fel inträffade vid radering av i-bay.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_DESC</base>
+        <trans>Du är på väg att ändra lösenordet för i-bay {$name}.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VALIDATION_ERROR</base>
+        <trans>Lösenordet får endast innehålla bokstäver och siffror.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VERIFY_ERROR</base>
+        <trans>Lösenorden stämmer inte överens.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_RESET_PASSWORD</base>
+        <trans>Återställt lösenordet.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_RESETTING_PASSWORD</base>
+        <trans>Fel vid återställning av lösenordet.</trans>
+    </entry>
+    <entry>
+        <base>VHOST_MESSAGE</base>
+        <trans><![CDATA[ <P>Följande virtuella domäner använde denna information bay för deras innehåll och kommer därför att ändras till den primära webbplatsen (du kan ändra dem till någonting annat efteråt):</P> <ul>{$vhostList}</ul> ]]></trans>
+    </entry>
+    <entry>
+        <base>Information bays</base>
+        <trans>Information bay</trans>
+    </entry>
+    <entry>
+        <base>WGRG</base>
+        <trans>Skriva = grupp, Läsa = grupp</trans>
+    </entry>
+    <entry>
+        <base>WGRE</base>
+        <trans>Skriva = grupp, Läsa = alla</trans>
+    </entry>
+    <entry>
+        <base>WARG</base>
+        <trans>Skriva = admin, Läsa = grupp</trans>
+    </entry>
+    <entry>
+        <base>NONE</base>
+        <trans>Ingen åtkomst</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_NO_PASSWORD</base>
+        <trans>Lokalt nätverk (inget lösenord krävs)</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_PASSWORD</base>
+        <trans>Lokalt nätverk (lösenord krävs)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_NO_PASSWORD</base>
+        <trans>Hela Internet (inget lösenord krävs)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD</base>
+        <trans>Hela Internet (lösenord krävs)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD_REMOTE</base>
+        <trans>Hela Internet (lösenord krävs utanför lokalt nätverk)</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IBAY_DESCRIPTION</base>
+        <trans>Fel: otillåten eller saknat tecken i beskrivningen för i-bay</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>Namnet på i-bay "{$acctName}" innehåller ej tillåtna tecken. I-baynamn måste börja med gemen och endast innehålla gemener, siffror och bindestreck.</trans>
+    </entry>
+    <entry>
+        <base>MAX_IBAY_NAME_LENGTH_ERROR</base>
+        <trans>I-baynamnet "{$name}" är för långt. Maximala antalet är {$maxIbayNameLength} tecken.</trans>
+    </entry>
+    <entry>
+        <base>ACCT_CLASHES_WITH_PSEUDONYM</base>
+        <trans><![CDATA[ Kontot "{$acctName}" kolliderar med pseudonymens uppgifter för {$acctType} kontot "{$acct}". <p>{$acctName} är en pseudonym för {$acct}.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_EXISTS</base>
+        <trans>Kontot "{$acctName}" är ett existerande {$acctType} konto.</trans>
+    </entry>
+</lexicon>

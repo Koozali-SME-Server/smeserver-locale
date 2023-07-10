@@ -1,0 +1,101 @@
+<lexicon lang="sl">
+
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Report a Bug</trans>
+    </entry>
+    <entry>
+        <base>DO_NOT_PANIC</base>
+        <trans>Don't Panic!</trans>
+    </entry>
+    <entry>
+        <base>SME_EXPERIENCE</base>
+        <trans>Unfortunately there is no software without bugs, and you probably came to this page because of an issue you are experiencing with your SME-server installation.</trans>
+    </entry>
+    <entry>
+        <base>PLEASE_REPORT_HERE</base>
+        <trans>In order to help developers to diagnose and fix your issue, please download one of the following text templates, fill it out and paste it into your bug report at</trans>
+    </entry>
+    <entry>
+        <base>USE_TEMPLATE</base>
+        <trans>Please refer to the following link on how to report efficiency a bug and use its template</trans>
+    </entry>
+    <entry>
+        <base>FOLLOWING_REPORT_MIGHT_HELP</base>
+        <trans>It will also help if you provide some vital information on the configuration of your SME-server in your bug report. By clicking on the "Create configuration report" button below, you can create and download a text file containing this information. Please attach this file to your bug report as well.</trans>
+    </entry>
+    <entry>
+        <base>REPORT_CONTENT</base>
+        <trans>The report will contain the following information</trans>
+    </entry>
+    <entry>
+        <base>SME_VERSION</base>
+        <trans>Koozali SME Server version</trans>
+    </entry>
+    <entry>
+        <base>SERVER_MODE</base>
+        <trans>Server mode</trans>
+    </entry>
+    <entry>
+        <base>PREVIOUS_SERVER_MODE</base>
+        <trans>Prejšnjih %d</trans>
+    </entry>
+    <entry>
+        <base>KERNEL_AND_ARCH</base>
+        <trans>Current running kernel version and architecture</trans>
+    </entry>
+    <entry>
+        <base>INSTALLED_RPMS</base>
+        <trans>A list of additional RPMs installed on your server</trans>
+    </entry>
+    <entry>
+        <base>ALTERED_TEMPLATES</base>
+        <trans>A list of SME templates that have been altered on your server from a base install</trans>
+    </entry>
+    <entry>
+        <base>ALTERED_EVENTS</base>
+        <trans>A list of SME events that have been altered on your server from a base install</trans>
+    </entry>
+    <entry>
+        <base>YUM_REPOS</base>
+        <trans>A list of additional software repositories configured on your server</trans>
+    </entry>
+    <entry>
+        <base>PRIVACY</base>
+        <trans>No privacy related data (ie. users, passwords, IP addresses) will be included in the report.</trans>
+    </entry>
+    <entry>
+            <base>CREATE_REPORT</base>
+            <trans>Create configuration report</trans>
+    </entry>
+
+    <entry>
+            <base>DONATING</base>
+            <trans>Have you considered donating?</trans>
+    </entry>
+    <entry>
+            <base>AWARE_SME</base>
+            <trans>You are probaly aware that SME server is developed and supported by a collaborative community of volunteers from all over the world. While SME server is free to download and use, maintaining the infrastructure behind the project (eg. hosting the forums and wiki, providing repositories and build servers etc.) costs real money in the real world.</trans>
+    </entry>
+    <entry>
+            <base>YOUR_HELP</base>
+            <trans>In very much the same way you need us to address your current issue, we need YOUR help to keep this project alive!</trans>
+    </entry>
+    <entry>
+            <base>CONSIDER_DONATING</base>
+            <trans>Please consider donating to the project by clicking on the image link below:</trans>
+    </entry>
+    <entry>
+            <base>THANK_YOU</base>
+            <trans>Thank you for your support!</trans>
+    </entry>
+    <entry>
+            <base>Download this report</base>
+            <trans>Download this report !</trans>
+    </entry>
+    <entry>
+            <base>Report a bug</base>
+            <trans>Report a bug</trans>
+    </entry>
+
+</lexicon>

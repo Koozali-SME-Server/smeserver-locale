@@ -1,0 +1,114 @@
+<lexicon lang="fr">
+    <entry>
+      <base>NO_PSEUDONYMS</base>
+      <trans><![CDATA[ <b>Aucun pseudonyme n'a été défini dans le système</b>. ]]></trans>
+     </entry>
+    <entry>
+        <base>REMOVE_PSEUDONYM</base>
+        <trans>Supprimer le pseudonyme</trans>
+    </entry>
+    <entry>
+        <base>ABOUT_TO_REMOVE</base>
+        <trans><![CDATA[ Vous êtes sur le point de supprimer le pseudonyme.<br> <b>Voulez-vous vraiment continuer ?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Gestion des pseudonymes</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans><![CDATA[ <p>Le serveur crée automatiquement un alias de courriel pour chaque groupe. Si vous voulez définir un alias de courriel pour une liste d'utilisateurs, il suffit simplement de créer un groupe contenant l'ensemble des utilisateurs de la liste et celle-ci sera automatiquement gérée par le serveur.</p> <p>Les pseudonymes vous permettent de créer d'autres noms pour des utilisateurs ou des groupes existants. Par exemple, vous pouvez créer le pseudonyme "webmestre" pour le groupe "concepteurs Web" ou le pseudonyme "joe" pour l'utilisateur "joseph".</p> <p>Le serveur crée automatiquement des pseudonymes de la forme prénom.nom et prénom_nom pour chaque utilisateur du système et le pseudonyme "everyone", qui contient tous les utilisateurs du système.</p> <p>Les pseudonymes vous permettent également de créer des alias de courriel pour des domaines (virtuels) et des utilisateurs existants. Vous pouvez, par exemple, associer "ventes@virtualdomain1.com" à l'utilisateur "marie" et "ventes@virtualdomain2.com" à l'utilisateur "jean". Vous devrez créer les domaines et les comptes utilisateurs avant la création de ces alias de messagerie.</p> <p>Un pseudonyme peut également pointer vers un autre pseudonyme, dans la limite d'un niveau d'association. Par exemple, le pseudonyme "webmestre" peut pointer vers le pseudonyme "support_tech" qui renvoie lui-même vers l'utilisateur "raymond". Ceci est très pratique dans le cas où une personne, responsable de plusieurs fonctions, venait à quitter votre organisation : cela permettrait d'éviter de changer l'association de tous les pseudonymes qui auraient été associés directement à cet utilisateur.</p> <p>Vous pouvez modifier ou supprimer un pseudonyme en cliquant sur la commande correspondante à côté du pseudonyme.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>LOCAL_ONLY</base>
+        <trans>(réseau local seulement)</trans>
+    </entry>
+    <entry>
+        <base>SELECT_ACCOUNT</base>
+        <trans>Compte ou groupe</trans>
+    </entry>
+    <entry>
+        <base>SELECT_INTERNAL</base>
+        <trans>(réseau local seulement)</trans>
+    </entry>
+    <entry>
+        <base>CLICK_TO_CREATE</base>
+        <trans>Ajouter un pseudonyme</trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM</base>
+        <trans>Pseudonyme</trans>
+    </entry>
+    <entry>
+        <base>USER_OR_GROUP</base>
+        <trans>Utilisateur ou groupe</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_PSEUDONYMS</base>
+        <trans><![CDATA[ <b>Liste actuelle des pseudonymes</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>TITLE_CREATE</base>
+        <trans>Créer un pseudonyme</trans>
+    </entry>
+    <entry>
+        <base>DESC_PSEUDONYM_NAME</base>
+       <trans>Sélectionnez, dans le menu déroulant ci-dessous, un compte ou un groupe existant pour le pseudonyme :</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_PSEUDONYM</base>
+        <trans>Modifier le pseudonyme</trans>
+    </entry>     
+       <entry>
+        <base>PSEUDONYM_NAME</base>
+        <trans>Pseudonyme</trans>
+    </entry>
+    <entry>
+        <base>VALID_PSEUDONYM_NAMES</base>
+        <trans><![CDATA[ Le pseudonyme doit commencer par une lettre minuscule ou un chiffre et ne contenir que des minuscules, chiffres, points, traits d'union et traits de soulignement. Par exemple, "ventes", "john.holland", "123" et "courriel-administrateur" sont des pseudonymes valides, mais pas "John Smith" ni "Henry Miller". <p>Vous pouvez également créer des alias de courriel pour des domaines (virtuels) et des utilisateurs existants. Vous pouvez, par exemple, associer "ventes@virtualdomain1.com" à l'utilisateur "marie" (ou tout utilisateur existant).</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>NAME_IN_USE</base>
+        <trans>ERREUR : impossible de créer un pseudonyme avec ce nom car il est en cours d'utilisation.</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_PSEUDONYM</base>
+        <trans>Ce compte n'est pas un pseudonyme.</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_DOMAIN</base>
+        <trans>Ce domaine n'est pas géré par votre serveur.</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_NOACCT</base>
+        <trans>Ce compte n'est pas géré par votre serveur.</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_SAMEACCT</base>
+        <trans>Un pseudonyme ne peut pas pointer sur le même compte.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_SUCCEEDED</base>
+        <trans>Pseudonyme créé avec succès.</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_SUCCEEDED</base>
+        <trans>Pseudonyme modifié avec succès.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_SUCCEEDED</base>
+        <trans>Pseudonyme supprimé avec succès.</trans>
+    </entry>
+    <entry>
+      <base>EVERYONE</base>
+      <trans>Tout le monde</trans>
+    </entry>
+      <entry>
+        <base>Pseudonyms</base>
+        <trans>Pseudonymes</trans>
+      </entry>
+
+</lexicon>

@@ -1,0 +1,147 @@
+<lexicon lang="da">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Tilføj eller fjern printere</trans>
+    </entry>
+    <entry>
+      <base>INITIAL_DESC</base>
+      <trans><![CDATA[ <P><A class="button-like" HREF="printers?page=0&Next=Add">Tilføj printer</A></P> ]]></trans>
+    </entry>
+    <entry>
+      <base>NO_PRINTERS</base>
+      <trans>Der er ingen printere i systemet.</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_LIST</base>
+      <trans>Aktuel printerliste</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_ADDRESS</base>
+      <trans>Fjern adresse</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_NAME</base>
+      <trans>Fjern navn</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NEW_PRINTER</base>
+      <trans>Opret en ny printer</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NEW_DESC</base>
+      <trans>Vælg et unikt navn for printeren og angiv en kort beskrivelse. Navnet skal starte med et lille bogstav og må kun indeholde små bogstaver og tal. Fx "hplaser", "epsonlp", og "canonbj" er gyldige, men "HP Laser Jet", "Canon BubbleJet", og "HP JetDirect Printer" er ikke. Undgå navne og beskrivelser, der indeholder følgende udtryk: "offline", "disabled", "down", "off", "waiting", "jam", "paper", "error" og "responding".</trans>
+    </entry>
+    <entry>
+      <base>PRINTER_NAME</base>
+      <trans>Printernavn</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_0</base>
+      <trans>Lokal printer port 0 (LPT1)</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_1</base>
+      <trans>Lokal printer port 1 (LPT2)</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_2</base>
+      <trans>Lokal printer port 2 (LPT3)</trans>
+    </entry>
+    <entry>
+      <base>NET_PRINTER</base>
+      <trans>Netværksprinter ...</trans>
+    </entry>
+    <entry>
+      <base>FIRST_USB_PRINTER</base>
+      <trans>1. USB-printer</trans>
+    </entry>
+    <entry>
+      <base>SECOND_USB_PRINTER</base>
+      <trans>2. USB-printer</trans>
+    </entry>
+    <entry>
+      <base>ERR_UNEXPECTED_NAME</base>
+      <trans><![CDATA[ <P>Fejl: Uventede anslag i printernavn.</P> <P>Printernavne må kun indeholde små bogstaver og tal og skal starte med et lille bogstav. F.eks. er "hplaser", "epsonlp" og "canonbj" gyldige navne.</P> ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_UNEXPECTED_DESC</base>
+      <trans>Fejl: Uventede eller manglende anslag i beskrivelsen. Printeren blev ikke oprettet.</trans>
+    </entry>
+    <entry>
+      <base>ERR_EXISTS</base>
+      <trans>Fejl: En konto ved samme navn findes allerede som:</trans>
+    </entry>
+    <entry>
+      <base>ERR_INVALID_ADDRESS</base>
+      <trans>Fejl: Ugyldig netadresse. Printeren blev ikke oprettet.</trans>
+    </entry>
+    <entry>
+      <base>ERR_INVALID_REMOTE_NAME</base>
+      <trans>Fejl: Ugyldigt netprinternavn. Printeren blev ikke oprettet.</trans>
+    </entry>
+    <entry>
+      <base>ERR_CREATING</base>
+      <trans>Der opstod en fejl under oprettese af printeren.</trans>
+    </entry>
+    <entry>
+      <base>CREATED_SUCCESSFULLY</base>
+      <trans>Har oprettet printer:</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NETWORK_PRINTER</base>
+      <trans>Opret ny netværksprinter</trans>
+    </entry>
+    <entry>
+      <base>ERR_OPENING_DB</base>
+      <trans>Det opstod en fejl under åbningen af kontodatabasen.</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NETWORK_DESC</base>
+      <trans>Venligst indtast adresse og navn for netværksprinteren</trans>
+    </entry>
+    <entry>
+      <base>HOSTNAME_OR_IP</base>
+      <trans>Værtsnavn og IP-adresse for netprinteren</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_NAME_DESC</base>
+      <trans><![CDATA[ Netvæksprinters navn (indtast raw, hvis du er i tvivl) ]]></trans>
+    </entry>
+    <entry>
+      <base>REMOVE_PRINTER</base>
+      <trans>Fjern printer</trans>
+    </entry>
+    <entry>
+      <base>ABOUT_TO_REMOVE</base>
+      <trans>Du er ved at fjerne printeren:</trans>
+    </entry>
+    <entry>
+      <base>SPOOL_FILE_WARNING</base>
+      <trans>Alle til denne printer hørende filer vil blive slettet.</trans>
+    </entry>
+    <entry>
+      <base>ARE_YOU_SURE</base>
+      <trans>Er du sikker på du vil fjerne denne printer?</trans>
+    </entry>
+    <entry>
+      <base>ERR_INTERNAL_FAILURE</base>
+      <trans>Fejl: Der opstod en intern fejl under fjernelse af printeren:</trans>
+    </entry>
+    <entry>
+      <base>ERR_DELETING</base>
+      <trans>Der opstod en fejl under sletning af printeren.</trans>
+    </entry>
+    <entry>
+      <base>DELETED_SUCCESSFULLY</base>
+      <trans>Har slettet printer:</trans>
+    </entry>
+    <entry>
+        <base>MUST_BE_VALID_HOSTNAME_OR_IP</base>
+        <trans>Skal være gyldigt værtsnavn eller IP-nummer</trans>
+    </entry>
+    <entry>
+	<base>Printers</base>
+	<trans>Printere</trans>
+    </entry>
+
+</lexicon>

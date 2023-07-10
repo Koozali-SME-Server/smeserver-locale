@@ -1,0 +1,749 @@
+<lexicon lang="bg">
+  <entry>
+   <base>BACKUP_TITLE</base>
+   <trans>Резервно копиране и възстановяване на данните на сървъра</trans>
+  </entry>
+  <entry>
+   <base>BACKUP_DESC</base>
+   <trans><![CDATA[ <P>Сървърът предоставя два начина за резервното си копиране и възстановяване: коато използвате локалния компютър и чрез лентово устройство.</P> <P>Първият метод създава копие на конфигурацията на сървъра и потребителските файлове с данни, и го сваля на локалния компютър чрез браузъра. В момента конфигурацията и файловете с данни са с приблизителен размер <b>$tarsize</b>. Файлът с резервното копие ще бъде около или по-малко от това, в зависимост степента на компресия на данните. Можете да използвате \"Проверка на файл с резервно копие в компютъра\" за да проверите интегритета на файла с резервното копие в локалния компютър.</P> <P>Методът за резервно копиране на лента използва софтуерен пакет, наречен <I>$module</I> за да създаде резервно копие на целия твърд диск на лента всяка нощ. Това изисква използването на поддържано устройство за лента и касета с лента, която не е защитена срещу запис. Резервното копиране се извършва автоматично в избраното време всяка нощ (с напомняне, което се праща по електронната поща на администратора през деня). В момента твърдият диск съдържа <b>$dumpsize</b> данни.</P> <P>И двата метода за възстановяване позволяват връщането на конфигурацията и потребителските файлове с данни. <b>В идеалния случай възстановяването трябва да се извърши върху току що (прясно) инсталиран сървър</b>.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_DESC_DAR</base>
+   <trans><![CDATA[ <P>Предоставени са три метода за бек-ъп на Вашият сървър: (1) с използване на лентово устройство, (2) с използване на споделен мрежов диск или закачен външен диск, или (3) запис в локална папка.</P> <P>Лентово устройство. Този метод използва софтуерен пакет, наречен <I>$module</I> за да съхрани целият диск върху лента. Задачата се изпълнява всяка нощ. Изисква се използване на поддържано лентово устройство и лента, която не е защитена за запис. Копирането се извършва в избраното време, всяка нощ (с автоматично напомняне по електронна поща до администратора през деня). В момента Вашият диск съдържа <b>$dumpsize</b> данни.</P> <P>Мрежов бек-ъп. Този метод използва софтуерен пакет, наречен <I>dar</I> за да копира конфигурацията и файловете на сървъра върху споделен мрежов диск, или върху външен диск, закачен за сървъра (например USB диск). Можете да управлявате броя бекъпи, които се пазят, а също така и колко инкрементални бекъпа да се правят преди всеки пълен бекъп. Бекъпа се извършва автоматично в предварително зададен час от денонощието. В момента вашият сървър съдържа <b>$tarsize</b> некомпресирани данни. На бекъп сървъра трябва да разполагате поне с два пъти повече свободно дисково пространство.</P> <P>Десктоп бек-ъп. Този метод създава копие на конфигурацията и файловете на сървъра, след което Ви предоставя възможност да ги изтеглите посредством уеб браузър. В момента вашият сървър съдържа <b>$tarsize</b> некомпресирани данни. Архива на тези данни вероятно ще бъде по-малък от този размер, в зависимост от това колко файла могат да бъдат компресирани. Този архивен файл може да бъде използван за възстановяване на Вашият сървър през конзола, като го качите на външен диск или USB флаш памет.</P> <P>Всички методи за бек-ъп, Ви позволяват да възстановите конфигурационните настройки и потребителските файлове. Възстановяването позволява връщане и на отделни файлове. <b>В идеалния вариант, пълното възстановяване трябва да бъде извършено върху чиста инсталация на сървъра</b>.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_CONFIG_STATUS</base>
+   <trans>Конфигурация и състояние на резервното копие</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUPS_ENABLED</base>
+   <trans><![CDATA[ Резервните копия върху лента са <b>забранени</b> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUPS_RUN_AT</base>
+   <trans>Редовните резервни копия на лента ще се бъдат създавани в:</trans>
+  </entry>
+  <entry>
+   <base>REMINDER_MESSAGE_AT</base>
+   <trans>Напомнящите съобщения ще бъдат изпращани на:</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUPS_DISABLED</base>
+   <trans><![CDATA[ Резервните копия върху лента са <b>забранени</b> ]]></trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_BACKUP</base>
+   <trans>Резервно копие в компютъра</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_RESTORE</base>
+   <trans>Възстановяване от компютъра</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_VERIFY</base>
+   <trans>Проверка на файла с резервното копие в компютъра</trans>
+  </entry>
+  <entry>
+   <base>TAPE_CONFIGURE</base>
+   <trans>Конфигуриране на резервно копие на лента</trans>
+  </entry>
+  <entry>
+   <base>TAPE_RESTORE</base>
+   <trans>Възстановяване от лента</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS_BEGAN_AT</base>
+   <trans>Извършва възстановяване на системата. То започна в:</trans>
+  </entry>
+  <entry>
+   <base>REFRESH_THIS_DISPLAY</base>
+   <trans>Опресняване на този екран</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_TAPE_BACKUP</base>
+   <trans>Конфигуриране на резервно копие на лента</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_COMPLETED</base>
+   <trans>Възстановяването на системата приключи</trans>
+  </entry>
+  <entry>
+   <base>STARTED_AT</base>
+   <trans>Започна:</trans>
+  </entry>
+  <entry>
+   <base>FINISHED_AT</base>
+   <trans>и завърши:</trans>
+  </entry>
+  <entry>
+   <base>YOU_MUST_REBOOT</base>
+   <trans>Трябва да рестартирате сървъра за да активирате промените в конфигурацията, които са направени вследствие на възстановяването на системата.</trans> 
+  </entry> 
+  <entry>
+   <base>REBOOT</base>
+   <trans>Рестартиране</trans>
+  </entry>
+  <entry>
+   <base>SELECT_AN_ACTION</base>
+   <trans>Изберете действие</trans>
+  </entry>
+  <entry>
+   <base>X_BACKUP_OR_RESTORE</base>
+   <trans>X резервно копие или възстановяване на данните от сървъра</trans>
+  </entry>
+  <entry>
+   <base>ERR_PRE_BACKUP</base>
+   <trans>Възникна грешка по време на подготовката за резервното копиране.</trans>
+  </entry>
+  <entry>
+   <base>ERR_PRE_RESTORE</base>
+   <trans>Възникна грешка по време на подготовката за възстановяване.</trans>
+  </entry>
+  <entry>
+   <base>ERR_POST_BACKUP</base>
+   <trans>Възникна грешка по време на операциите след резервното копиране.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_SERVER_CONFIG</base>
+   <trans>Възстановяване на конфигурацията на сървъра</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_RESTORE_DESC</base>
+   <trans><![CDATA[ Този процес ще зареди сървърен backup файл от локалния Ви desktop на Вашия сървър и ще възстанови конфигурацията и потребителските файлове с данни. <B>Рestore -ът трябва да бъде извършен на прясно инсталиран сървър</B>. ]]></trans>
+  </entry>
+  <entry>
+   <base>FREE_SPACE</base>
+   <trans><![CDATA[ Имате приблизително $tmpfree свободно място на сървъра. Проверете дали резервното копие в компютъра Ви е по-малко от $halffree преди да започне възстановяването. ]]></trans>
+  </entry>
+  <entry>
+   <base>MUST_REBOOT_AFTER_RESTORE</base>
+   <trans>След като завърши възстановяването трябва да рестартирате сървъра.</trans>
+  </entry>
+  <entry>
+   <base>FILE_TO_RESTORE</base>
+   <trans>Backup файл от който да се възстанови</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Тази настройка ще покаже имената на всички файлове в направения преди това backup файл. Можете да използвате тази възможност за да проверите съдържанието на backup файла.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>SELECT_BACKUP_FILE</base>
+   <trans>Изберете backup файл</trans>
+  </entry>
+  <entry>
+   <base>VERIFY</base>
+   <trans>Провери</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CANNOT_PROCEED</base>
+   <trans>Не може да се продължи с възстановяването на сървърната конфигурация</trans>
+  </entry>
+  <entry>
+   <base>ANOTHER_RESTORE_IN_PROGRESS</base>
+   <trans>В момента се извършва друго възстановяване. Моля, опитайте по-късно.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS</base>
+   <trans>Извършва се възстановяване</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS_DESC</base>
+   <trans>След като възстановяването завърши трябва да рестартирате сървъра. Възстановяването ще приключи, когато се появи надписът "Възстановяването завърши" в долния край на екрана.</trans>
+  </entry>
+  <entry>
+   <base>FILES_HAVE_BEEN_RESTORED</base>
+   <trans>Следните файлове и директории бяха възстановени:</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FAILED_MSG</base>
+   <trans>Възстановяването е неуспешено! Има грешка при четенето на backup файла.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_COMPLETE</base>
+   <trans>Възстановяването завърши</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_GID</base>
+   <trans>Възникна грешка по време при възстановяването на gid на 'www'</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_INITIAL_GRP</base>
+   <trans>Възникна грешка по време при възстановяването на първоначалната група 'www'.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FAILED</base>
+   <trans>Възстановяването бе неуспешено! Backup файлът беше непълен.</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_EXEC_PIPELINE</base>
+   <trans>Не можа да се изпълни backup pipeline:</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_DECODE</base>
+   <trans>Не можа да се декодира backup файла:</trans>
+  </entry>
+  <entry>
+   <base>FILES_IN_BACKUP</base>
+   <trans>Следните файлове са предвидени за backup :</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_COMPLETE</base>
+   <trans>Проверката е завършена</trans>
+  </entry>
+  <entry>
+   <base>BACKUP_FILE_INCOMPLETE</base>
+   <trans>Backup файла беше непълен</trans>
+  </entry>
+  <entry>
+   <base>ERR_READING_FILE</base>
+   <trans>Имаше грешка при четенето на backup файла.</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_DISABLE_TAPE</base>
+   <trans>Разрешаване/Забраняване на нощен backup на лента</trans>
+  </entry>
+  <entry>
+   <base>TAPE_CONFIG_DESC</base>
+   <trans><![CDATA[ <p>Изберете дали искате да разрешите нощно резервно копиране. След това посочете желаното време за резервното копиране и за напомнянето за зареждане на лентата.</p> <p>Резервното копиране на лента изисква използването на поддържано устройство за ленти. Ще бъде изпратено напомнящо съобщение до администратора, когато настъпи времето посочено за напомняне ако устройството е празно.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>ENABLE_TAPE_BACKUP</base>
+   <trans>Разрешаване на резервно копиране на лента</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUP_TIME</base>
+   <trans>Време за резервното копиране на лента (час/мин.)</trans>
+  </entry>
+  <entry>
+   <base>LOAD_TAPE_REMINDER_TIME</base>
+   <trans>Време за напомняне за зареждане на лентата (час/мин.)</trans>
+  </entry>
+  <entry>
+   <base>AM/PM</base>
+   <trans>AM/PM</trans>
+  </entry>
+  <entry>
+   <base>AM</base>
+   <trans>AM</trans>
+  </entry>
+  <entry>
+   <base>PM</base>
+   <trans>PM</trans>
+  </entry>
+  <entry>
+   <base>UPDATE_CONF</base>
+   <trans>Обновяване</trans>
+  </entry>
+  <entry>
+   <base>UPDATING_TAPE_CONF</base>
+   <trans>Обновяване на конфигурацията на резервното копиране на лента</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_HOUR</base>
+   <trans>Грешка: некоректен час за резервно копиране:</trans>
+  </entry>
+  <entry>
+   <base>BETWEEN_0_AND_12</base>
+   <trans>Моля, изберете час между 0 и 12.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_MINUTE</base>
+   <trans>Грешка: некоректна минута за резервно копиране:</trans>
+  </entry>
+  <entry>
+   <base>BETWEEN_0_AND_59</base>
+   <trans>Моля, изберете минута между 0 и 59.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_REMINDER_HOUR</base>
+   <trans>Грешка: некоректен час за напомняне:</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_REMINDER_MINUTE</base>
+   <trans>Грешка: некоректна минута на подсещане:</trans>
+  </entry>
+  <entry>
+   <base>ERR_CONF_BACKUP</base>
+   <trans>Възникна грешка по време на събитието conf-backup.</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_ENABLED_TAPE</base>
+   <trans>Успешно разрешихте резервно копиране на лента</trans>
+  </entry>
+  <entry>
+   <base>WITH_BACKUP_TIME</base>
+   <trans>с време за създаване:</trans>
+  </entry>
+  <entry>
+   <base>WITH_REMINDER_TIME</base>
+   <trans>и време за напомняне за зареждане на лентата:</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_DISABLED</base>
+   <trans>Успешно забранихте резервно копиране на лента</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_TAPE</base>
+   <trans>Възстановяване на конфигурацията на сървъра от резервно копие на лента</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_TAPE_DESC</base>
+   <trans><![CDATA[ <P>Този процес ще възстанови конфигурацията и потребителските файлове с данни от резервно копие на сървъра върху лента. <B>Възстановяването трябва бъде извършено на току що (прясно) инсталиран сървър</B>.</P> <P>Уверете се че сте заредили касетата с исканото резервно копие в устройството преди да продължите.</P> <P>След приключване на възстановяването трябва да рестартирате сървъра.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FROM_TAPE</base>
+   <trans>Възстановяване от лента</trans>
+  </entry>
+  <entry>
+   <base>UNABLE_TO_RESTORE_CONF</base>
+   <trans>Не може да се възстанови конфигурацията на сървъра</trans>
+  </entry>
+  <entry>
+   <base>RESTORING_FROM_TAPE</base>
+   <trans>Възстановяване от лента</trans>
+  </entry>
+  <entry>
+   <base>NOW_RESTORING_FROM_TAPE</base>
+   <trans>Конфигурацията на сървъра и потребителските файлове с данни започнаха да се възстановяват от лентата.</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_FROM_TAPE</base>
+   <trans>Възникна грешка при възстановяването на файловете от лентата.</trans>
+  </entry>
+  <entry>
+   <base>ERR_UPDATING_CONF_AFTER_TAPE_RESTORE</base>
+   <trans>Възникна грешка при актуализацията на системната конфигурация след възстановяване от лента.</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_FORK</base>
+   <trans>Не може да се разклони:</trans>
+  </entry>
+  <entry>
+   <base>SERVER_REBOOT</base>
+   <trans>Рестарт на сървъра</trans>
+  </entry>
+  <entry>
+   <base>SERVER_WILL_REBOOT</base>
+   <trans>Сега сървъра ще се рестартира.</trans>
+  </entry>
+  <entry>
+   <base>NO_UID_FOR_NAME</base>
+   <trans>Не може да се вземе uid на потребител с име:</trans>
+  </entry>
+  <entry>
+   <base>PAGE_REFRESH_IN</base>
+   <trans><![CDATA[ Тази страница ще се обнови за да покаже състоянието след {$sec} секунди, или щракнете <a href="/server-manager/cgi-bin/backup">тук</a>. ]]></trans>
+  </entry>
+    <entry>
+	<base>Backup or restore</base>
+	<trans>Резервно копиране или възстановяване</trans>
+    </entry>
+
+  <entry>
+	<base>BACKUP_DESKTOP_TOO_BIG</base>
+	<trans><![CDATA[ <div class="error"> Сървърът съдържа твърде много данни за надеждно копиране на локалния компютър. </div> ]]></trans>
+  </entry>
+   <entry>
+   <base>WORKSTN_BACKUPS_DISABLED</base>
+   <trans><![CDATA[ Резервните на работните станции са <b>забранени</b> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUPS_ENABLED</base>
+   <trans><![CDATA[ Резервното копиране върху работна станция е <b>разрешено</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>WKBACKUPS_RUN_AT</base>
+   <trans>Резервното копиране върху работна станция ще се бъдат създавани в:</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_CONFIGURE</base>
+   <trans>Настройване на резервни копия върху работна станция</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_VERIFY</base>
+   <trans>Проверка на резервно копие върху работна станция</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_RESTORE</base>
+   <trans>Възстановяване от работна станция</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_WORKSTN_BACKUP</base>
+   <trans>Настройване на резервно копиране на работна станция</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_DISABLE_WORKSTN</base>
+   <trans>Разрешаване/Забраняване на ежедневно резервно копиране на работна станция</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_WORKSTN_BACKUP</base>
+   <trans>Разрешаване на резервно копиране на работна станция</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TIME</base>
+   <trans>Време за резервно копиране на работна станция (час/мин.)</trans>
+  </entry>
+  <entry>
+   <base>UPDATING_WORKSTN_CONF</base>
+   <trans>Актуализация на конфигурацията на резервното копиране на работна станция</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_ENABLED_WORKSTN</base>
+   <trans>Успешно разрешаване на резервно копиране на работна станция</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_DISABLED_WORKSTN</base>
+   <trans>Успешно забраняване на резервно копиране на работна станция</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_WORKSTN_BACKUP_FILE</base>
+   <trans>Проверка на резервно копие върху работна станция</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_WORKSTN_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Тази настройка ще покаже имената на всички файлове от направени преди това ежедневни резервни копия на работна станция. Можете да използвате тази настройка за да проверите съдържанието на резервното копие. <b>Трябва да изберете резервното копие, което искате да проверите</b></p> <p>Само файлове маркирани със [запазен] са част от резервното копие.</p> <br/>Файловете от резервните копия се проверяват от споделената папка : ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_WORKSTN</base>
+   <trans>Възстановяване на конфигурацията на сървъра от резервно копие на работна станция</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_WORKSTN_DESC</base>
+   <trans><![CDATA[ <p>Този процес ще възстанови конфигурацията и потребителските файлове с данни резервно копие на сървъра върху работна станция. <b>Възстановяването трябва да бъде направено на току що ("прясно") инсталиран сървър</b>.</p> <p>Уверете се че избрали правилното резервно копие по-долу преди да продължите.</p> <p>След като приключи възстановяването трябва да рестартирате сървъра.</p> Възстановяването ще стане от следното резервно копие : ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FROM_WORKSTN</base>
+   <trans>Възстанови от работна станция</trans>
+  </entry>
+  <entry>
+   <base>RESTORING_FROM_WORKSTN</base>
+   <trans>Възстановяване от работна станция</trans>
+  </entry>
+  <entry>
+   <base>NOW_RESTORING_FROM_WORKSTN</base>
+   <trans>Конфигурацията и потребителските файлове с данни се възстановяват от споделена папка на работната станция.</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_FROM_WORKSTN</base>
+   <trans>Възникна грешка при възстановяване на файловете от работната станция.</trans>
+  </entry>
+  <entry>
+   <base>ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE</base>
+   <trans>Възникна грешка при актуализиране на системната конфигурация след възстановяване от работна станция.</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_NAME</base>
+   <trans>IP адрес или име на работната станция</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SETTINGS</base>
+   <trans>Настройки на резервно копиране на работна станция</trans>
+  </entry>
+  <entry>
+   <base>SHARED_FOLDER_NAME</base>
+   <trans>Споделена папка за резервно копиране</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_LOGIN</base>
+   <trans>Име за влизане</trans>
+  </entry>
+  <entry>
+   <base>WORKSTATION_BACKUP_DEST</base>
+   <trans>Настройки за резервни копия на работна станция</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_WORKSTN_BACKUP_DESC</base>
+   <trans>Можете да зададете броя на последователните комплекти от резервни копия, които да се пазят на работната станция с автоматично завъртане на комплектите. Всеки комплект може да съдържа записани данни за няколко последователни дни. В този случай първото резервно копие в комплекта е пълно копие, а другите ежедневни копия са с натрупване. Можете също да зададете ограничение за времето за всяка сесия за копиране или само за копията с натрупване. Когато се достигне такова ограничение, резервното копиране се спира по внимателен начин и следващото копиране с натрупване ще продължи без проблем с незаписаните и модифицираните данни.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_WORKSTN</base>
+   <trans>Некоректен IP адрес или име на работната станция</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_FOLDER</base>
+   <trans>Некоректно име на споделената папка</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_LOGIN</base>
+   <trans>Некоректно име за влизане</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_PASSWORD</base>
+   <trans>Некоректна парола</trans>
+  </entry>
+  <entry>
+   <base>ERR_ALREADY_MOUNTED</base>
+   <trans>Папката за резервното копие вече е монтирана</trans>
+  </entry>
+  <entry>
+   <base>ERR_MOUNTING_SMBSHARE</base>
+   <trans>Невъзможно е да се монтира споделената папка от работната станция</trans>
+  </entry>
+  <entry>
+   <base>ERR_NOT_MOUNTED</base>
+   <trans>Папката за резервното копие не е монтирана</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_NOT_SET</base>
+   <trans>Най-напред трябва правилно да конфигурирате резервното копиране на работна станция</trans>
+  </entry>
+  <entry>
+   <base>NO_BACKUPS_TO_RESTORE</base>
+   <trans>Няма комплект от резервни копия в споделената папка на настроената работна станция. Проверете настройките в конфигурацията.</trans>
+  </entry>
+  <entry>
+   <base>NUMBER_OF_SETS</base>
+   <trans>Брой комплекти от резервни копия за въртене</trans>
+  </entry>
+  <entry>
+   <base>NUMBER_OF_FILES_IN_SET</base>
+   <trans>Ежедневни резервни копия във всеки комплект</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_SETS_NUMBER</base>
+   <trans>Броя на комплектите трябва да бъде 1 или повече</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_FILES_IN_SET_NUMBER</base>
+   <trans>Броя трябва да бъде 1 или повече. Първото копие в комплекта е <b>пълно</b>, другите са <b>с натрупване</b></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_TIMEOUT</base>
+   <trans>Незадължителен таймаут на сесията за копиране (часове)</trans>
+  </entry>
+  <entry>
+   <base>INC_ONLY_TIMEOUT</base>
+   <trans>Не ограничавай времето на сесиите за пълно резервно копие</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_TIMEOUT</base>
+   <trans>Максималното време за резервно копиране трябва да бъде между 1 и 24 часа</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_HOST_DIR</base>
+   <trans>Няма папка за вашия сървър в споделената папка. Може би името на сървъра е различно от това на резервните копия</trans>
+  </entry>
+  <entry>
+   <base>ERROR_READING_FILE</base>
+   <trans>Грешка при четене на файловете от</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SEL_RESTORE</base>
+   <trans>Избирателно възстановяване на файлове от работна станция</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SELECTIVE_RESTORE</base>
+   <trans>Избирателно възстановяване на файлове от работната станция</trans>
+  </entry>
+  <entry>
+   <base>ALL_BACKUPS</base>
+   <trans>Всички резервни копия</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SEL_REST_DESC</base>
+   <trans><![CDATA[ Този процес ще възстанови само избраните файлове и папки. Първо трябва да изберете резервно копие от което файловете ще бъдат възстановени. Ако не знете в кое резервно копие са нужните файлове, можете да изберете от 'Всички резервни копия'. <br/><br/> Следващи панел ще покаже наличните файлове и папки, така че ще можете да изберете тези, които искате да се възстановяват. За да се ограничи броя на файловете и папките показани в този панел имате възможност да зададете филтриращ израз, който ще бъде зададен като регулярен израз /regex/ спрямо показаните имена.<br/><br/> Отговорността да не възстановявате файлове, които биха нарушили функционирането на сървъра е Ваша.<br/> <br/>В момента файловете ще бъдат възстановявани от : ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_CHOICE</base>
+   <trans>Избиране на файлове за показване</trans>
+  </entry>
+  <entry>
+   <base>SELECT_DATE_BEFORE</base>
+   <trans>Възстановяване на най-новия преди</trans>
+  </entry>
+  <entry>
+   <base>FILTER_EXPRESSION</base>
+   <trans>Имената, филтрирани по</trans>
+  </entry>
+  <entry>
+   <base>READ_COMPLETE</base>
+   <trans><![CDATA[ Можете да изберете всички папки и файлове, които искате да се възстановят от показания списък (използвайте ctrl или shift за множествен избор). <br/> <b>Внимание :</b> Ако изберете папка, то всички файлове и папки в нея ще бъдат възстановени.<p/> По подразбиране се възстановява последната версия на избраните файлове, но ако зададете дата във формат <i>[ [ [гггг/]мм/]дд-]чч:мм[:сс]</i> процесът ще възстанови само последната версия модифицирана <b>преди посочената дата</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_SELDATE</base>
+   <trans>Некоректен формат на датата, трябва да е [ [ [гггг/]мм/]дд-]чч:мм[:сс]. т.е.: 2005/12/31-08:23:32 или 10-08:32 или 08:32</trans>
+  </entry>
+  <entry>
+   <base>SELECT_FILES_TO_RESTORE</base>
+   <trans>Изберете файлове за възстановяване</trans>
+  </entry>
+  <entry>
+   <base>ERR_WHILE_UNMOUNTING</base>
+   <trans>Възникна грешка при размонтирането на отдалечената споделена папка</trans>
+  </entry>
+  <entry>
+   <base>ERR_DAR_CATALOG</base>
+   <trans>Грешка при използването на каталога на Dar</trans>
+  </entry>
+  <entry>
+   <base>COMPRESSION_LEVEL</base>
+   <trans>Ниво на компресията за резервното копие [0-9]</trans>
+  </entry>
+  <entry>
+   <base>FULL_ONLY_ON</base>
+   <trans>Пълно резервно копие е разрешено на</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_COMPRESSION</base>
+   <trans>Нивото на компресия трябва да бъде между 0 (няма компресия) и 9 (максимална компресия)</trans>
+  </entry>
+  <entry>
+   <base>DOW</base>
+   <trans>Неделя Понеделник Вторник Сряда Четвъртък Петък Събота Ежедневно</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURATION_TO_BE_DONE</base>
+   <trans>Моля, конфигурирайте настройките за резервно копиране.</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Този панел показва текущата конфигурация на резервното копиране на работна станция. Можете да я промените в този панел и в следващия.</p><p/> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_NOT_CONFIGURED</base>
+   <trans><![CDATA[ <p>В момента резервното копиране на работна станция не е конфигурирано. Можете да зададете тази конфигурация в този панел и в следващия.</p><p/> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_ENABLED</base>
+   <trans>Резервното копиране е</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_USB</base>
+   <trans>Резервното копие е направено на локален USB диск</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_MNT</base>
+   <trans>Резервното копие е направено на монтиран диск</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_HOST</base>
+   <trans>Резервното копие е направено на компютър в LAN-a</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_VFSTYPE</base>
+   <trans>чрез</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SHARE</base>
+   <trans>Споделената папка, определена за резервно копиране е</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TOD</base>
+   <trans>Ежедневното резервно копиране се извършва в</trans>
+  </entry>
+  <entry>
+   <base>LOGIN</base>
+   <trans>Името за влизане</trans>
+  </entry>
+  <entry>
+   <base>PASSWORD</base>
+   <trans>Паролата е</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SETSNUM</base>
+   <trans>Броят на въртящи се набори от резервни копия е</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_DAYSINSET</base>
+   <trans>Броят на ежедневни резервни копия, съдържащи се във всеки набор е</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_COMPRESSION</base>
+   <trans>Нивото на компресия (0-9) на резервното копие е</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TIMEOUT</base>
+   <trans>Всяко ежедневно резервно копиране ще бъде прекъснато надеждно след</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_INCONLY_TIMEOUT</base>
+   <trans>с изключение на пълното резервно копиране, което ще бъде прекъснато надеждно след 24 часа</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_FULL_BACKUP_EVERYDAY</base>
+   <trans>Сесиите за пълно резервно копиране (нов комплект копия) са позволени всеки ден</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_FULL_BACKUP_DAY</base>
+   <trans>Сесиите за пълно резервно копиране (нов комплект копия) са позволени само в</trans>
+  </entry>
+  <entry>
+   <base>WORKSTATION_BACKUP_SETCONF</base>
+   <trans>Създаване и промяна на конфигурация за резервно копиране на работна станция</trans>
+  </entry>
+  <entry>
+   <base>SELECT_VFS_TYPE</base>
+   <trans>Изберете вида на споделената папка, предназначена за резервното копие</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_USB_DISK</base>
+   <trans>Грешка : Няма наличен USB-диск. Моля, свържете USB-диск или изберете друг вид споделена папка за резервното копие.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_MOUNTED_DISK</base>
+   <trans>Грешка : Няма наличен USB-диск. Моля, свържете USB-диск или изберете друг вид споделена папка за резервното копие.</trans>
+  </entry>
+  <entry>
+   <base>HOURS</base>
+   <trans>часа.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_FULL_BACKUP</base>
+   <trans>Прекъсване на възстановяването, защото необходимото пълно резервно копие липсва или не се чете.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_INC_BACKUP</base>
+   <trans>Прекъсвам възстановяването защото комплекта има липсващ или нечитаем номер на резервно копие с наслагване</trans>
+  </entry>
+  <entry>
+   <base>CHECK_TO_VERIFY_FULL_RESTORE</base>
+   <trans>Проверете тук интегритета на всички резервни копия, необходими за пълно възстановяване с избраното резервно копие</trans>
+  </entry>
+  <entry>
+   <base>TESTING_NEEDED_BACKUPS_FOR_RESTORE</base>
+   <trans>Проверяване на всички резервни копия, необходими за пълно възстановяване с избраното резервно копие</trans>
+  </entry>
+  <entry>
+   <base>TESTED_BACKUP</base>
+   <trans>Тестване на интегритета на резервното копие</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_VERIFY_FAILED</base>
+   <trans>Проверката на почтеността не бе успешна</trans>
+  </entry>
+  <entry>
+   <base>CHECK_INTEGRITY_WARNING</base>
+   <trans>Внимание : За големи резервни копия проверката на интегритета може да бъде продължителна задача и би трябвало да се извършва когато ежедневното резервно копиране на работна станция е забранено.</trans>
+  </entry>
+  <entry>
+    <base>cifs</base>
+    <trans>cifs</trans>
+  </entry>
+  <entry>
+    <base>nfs</base>
+    <trans>nfs</trans>
+  </entry>
+  <entry>
+    <base>local removable disk</base>
+    <trans>Локален преместваем диск</trans>
+  </entry>
+  <entry>
+    <base>Mounted disk</base>
+    <trans>Монтирани дискове</trans>
+  </entry>
+  <entry>
+   <base>ERROR_WHEN_TESTING_REMOTE_SERVER</base>
+   <trans>Параметрите бяха записани, но отдалечения хост не може да бъде достигнат. Проверете настройките.</trans>
+  </entry>
+  <entry>
+   <base>DO_NOT_RESTORE_BIN_SBIN_LIB_LIB64_FROM_SME9</base>
+   <trans>Ако възстановявате от Koozali SME Server 9 или по-ранна версия обърнете внимание, че някои папки в системата вече са symlinks. Базовата конфигурация на резервното копие не включва /bin, /lib, /lib64, /sbin, /var/lock and /var/run. Ако сте ги добавили заради файловете в техните подпапки, ние ще предотвратим възстановяването на тези папки за да попречим на dar да замени тези symlinks и да направи системата неизползваема. Тези добавки не се препоръчват, понеже са рискови и биха презаписали файлове идващи от rpms.</trans>
+  </entry>
+  <entry>
+   <base>SMBV1</base>
+   <trans>Mount as legacy SMB v1 share (unsecure, not recommended).</trans>
+  </entry>
+
+
+</lexicon>

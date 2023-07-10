@@ -1,0 +1,520 @@
+<lexicon lang="ru">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>Collaboration</base>
+        <trans>Совместная работа</trans>
+    </entry>
+    <entry>
+      <base>Administration</base>
+      <trans>Администрирование</trans>
+    </entry>
+    <entry>
+        <base>Security</base>
+        <trans>Безопасность</trans>
+    </entry>
+    <entry>
+        <base>Configuration</base>
+        <trans>Конфигурация</trans>
+    </entry>
+    <entry>
+        <base>Miscellaneous</base>
+        <trans>Разное</trans>
+    </entry>
+    <entry>
+        <base>Your Settings</base>
+        <trans>Ваши настройки</trans>
+    </entry>
+    <entry>
+        <base>SAVE</base>
+        <trans>Сохранить</trans>
+    </entry>
+    <entry>
+        <base>CANCEL</base>
+        <trans>Отмена</trans>
+    </entry>
+    <entry>
+        <base>ENABLED</base>
+        <trans>Включен</trans>
+    </entry>
+    <entry>
+        <base>DISABLED</base>
+        <trans>Отключен</trans>
+    </entry>
+    <entry>
+        <base>NO</base>
+        <trans>Нет</trans>
+    </entry>
+    <entry>
+        <base>YES</base>
+        <trans>Да</trans>
+    </entry>
+    <entry>
+        <base>ADD</base>
+        <trans>Добавить</trans>
+    </entry>
+    <entry>
+        <base>CREATE</base>
+        <trans>Создать</trans>
+    </entry>
+    <entry>
+        <base>MODIFY</base>
+        <trans>Изменить</trans>
+    </entry>
+    <entry>
+        <base>REMOVE</base>
+        <trans>Удалить</trans>
+    </entry>
+    <entry>
+        <base>COMMENT</base>
+        <trans>Комментарий</trans>
+    </entry>
+    <entry>
+        <base>NEXT</base>
+        <trans>Далее</trans>
+    </entry>
+    <entry>
+        <base>SELF</base>
+        <trans>Лично</trans>
+    </entry>
+    <entry>
+        <base>REMOTE</base>
+        <trans>Удалённый</trans>
+    </entry>
+    <entry>
+        <base>LOCAL</base>
+        <trans>Локальный</trans>
+    </entry>
+    <entry>
+        <base>ACTION</base>
+        <trans>Действие</trans>
+    </entry>
+    <entry>
+        <base>NETWORK</base>
+        <trans>Сеть</trans>
+    </entry>
+    <entry>
+        <base>ROUTER</base>
+        <trans>Маршрутизатор</trans>
+    </entry>
+    <entry>
+        <base>OPERATION_STATUS_REPORT</base>
+        <trans>Данные о состоянии функционирования</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT</base>
+        <trans>Учётная запись</trans>
+    </entry>
+    <entry>
+        <base>GROUP</base>
+        <trans>Группа</trans>
+    </entry>
+    <entry>
+        <base>DESC_SECTIONBAR</base>
+        <trans><![CDATA[ <hr class="sectionbar"/> ]]></trans>
+    </entry>
+    <entry>
+        <base>NO_PIPES_ALLOWED</base>
+        <trans>Символы конвейеризации (|) не допустимы в этом поле</trans>
+    </entry>
+    <entry>
+        <base>ERROR_BELOW</base>
+        <trans>ERROR: Ошибка проверки этой страницы. Пожалуйста, пролистайте вниз и найдите конкретную проблему.</trans>
+    </entry>
+    <entry>
+        <base>ACCESS</base>
+        <trans>Доступ</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_LOCKED</base>
+        <trans>Учётная запись заблокирована</trans>
+    </entry>
+    <entry>
+        <base>GROUP_ADD</base>
+        <trans>Добавить группу</trans>
+    </entry>
+    <entry>
+        <base>NETWORKS_ALLOW_LOCAL</base>
+        <trans>Разрешить доступ только из локальных сетей</trans>
+    </entry>
+    <entry>
+        <base>NETWORKS_ALLOW_PUBLIC</base>
+        <trans>Разрешить свободный доступ (весь Интернет)</trans>
+    </entry>
+    <entry>
+        <base>ERROR_PASSWORD_CHANGE</base>
+        <trans>Произошла ошибка при попытке изменить ваш пароль. Пожалуйста, удостоверьтесь, что введенный старый пароль правилен.</trans>
+    </entry>
+    <entry>
+        <base>BACK</base>
+        <trans>Назад</trans>
+    </entry>
+    <entry>
+        <base>BACKUP</base>
+        <trans>Резервная копия</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION_BRIEF</base>
+        <trans>Короткое описание</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE</base>
+        <trans>Изменить пароль</trans>
+    </entry>
+    <entry>
+        <base>RESET_PASSWORD_TITLE</base>
+        <trans>Сброс пароля пользователя</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_PASSWORD_CHANGE</base>
+        <trans>Изменить пароль учётной записи</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>Содержимое</trans>
+    </entry>
+    <entry>
+        <base>CREATE_GROUP</base>
+        <trans>Создать группу пользователей</trans>
+    </entry>
+    <entry>
+        <base>USER_LIST_CURRENT</base>
+        <trans>Текущий список пользователей</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans>Описание</trans>
+    </entry>
+    <entry>
+        <base>DESTINATION</base>
+        <trans>Назначение</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME</base>
+        <trans>Имя домена</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN</base>
+        <trans>Домен</trans>
+    </entry>
+    <entry>
+        <base>DOMAINS</base>
+        <trans>Домены</trans>
+    </entry>
+    <entry>
+        <base>DOWNLOAD</base>
+        <trans>Скачать</trans>
+    </entry>
+    <entry>
+        <base>ERROR_UPDATING_CONFIGURATION</base>
+        <trans>Произошла ошибка во время обновлении конфигурации системы.</trans>
+    </entry>
+    <entry>
+        <base>GROUP_MEMBERS</base>
+        <trans>Члены группы</trans>
+    </entry>
+    <entry>
+        <base>GROUP_NAME</base>
+        <trans>Имя группы</trans>
+    </entry>
+    <entry>
+        <base>GROUPS</base>
+        <trans>Группы</trans>
+    </entry>
+    <entry>
+        <base>IP_ADDRESS</base>
+        <trans>IP адрес</trans>
+    </entry>
+    <entry>
+        <base>IP_ADDRESS_OR_FQDN</base>
+        <trans>IP адрес или FQDN</trans>
+    </entry>
+    <entry>
+        <base>USER_INVALID</base>
+        <trans>Неверный пользователь</trans>
+    </entry>
+    <entry>
+        <base>LOCATION</base>
+        <trans>Расположение</trans>
+    </entry>
+    <entry>
+        <base>MB</base>
+        <trans>Мб</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_USER_GROUP</base>
+        <trans>Изменить группу пользователей</trans>
+    </entry>
+    <entry>
+        <base>NAME</base>
+        <trans>Название</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_VERIFY_NEW</base>
+        <trans>Новый пароль (ещё раз):</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_NEW</base>
+        <trans>Новый пароль:</trans>
+    </entry>
+    <entry>
+        <base>OFF</base>
+        <trans>Выкл.</trans>
+    </entry>
+    <entry>
+        <base>OK</base>
+        <trans>Ok</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_OLD</base>
+        <trans>Старый пароль:</trans>
+    </entry>
+    <entry>
+        <base>ON</base>
+        <trans>Вкл.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD</base>
+        <trans>Пароль</trans>
+    </entry>
+    <entry>
+        <base>PERFORM</base>
+        <trans>Выполнить</trans>
+    </entry>
+    <entry>
+        <base>RECONFIGURE</base>
+        <trans>Реконфигурировать</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_USER_GROUP</base>
+        <trans>Удалить группу пользователей</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_RESET</base>
+        <trans>Сбросить пароль</trans>
+    </entry>
+    <entry>
+        <base>RESTORE</base>
+        <trans>Восстановить</trans>
+    </entry>
+    <entry>
+        <base>SHUTDOWN</base>
+        <trans>Выключение</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Успешно</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME_INVALID</base>
+        <trans>Введено недопустимое имя учетной записи.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME_INVALID_CHARS</base>
+        <trans>Введённое вами имя учетной записи содержит недопустимые символы.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_OLD_INVALID_CHARS</base>
+        <trans>Введённый вами старый пароль содержит недопустимые символы.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_INVALID_CHARS</base>
+        <trans>Введённый вами пароль содержит недопустимые символы.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_VERIFY_ERROR</base>
+        <trans>Введённые пароли не совпадают.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_USER_NONE</base>
+        <trans>В системе нет учетных записей пользователей.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_GROUP_NONE</base>
+        <trans>В системе нет групп пользователей.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_INVALID_CHARS</base>
+        <trans>Непредвиденные символы в описании.</trans>
+    </entry>
+    <entry>
+        <base>USER_NAME</base>
+        <trans>Имя пользователя</trans>
+    </entry>
+    <entry>
+        <base>YOUR_ACCOUNT</base>
+        <trans>Ваша учётная запись:</trans>
+    </entry>
+    <entry>
+      <base>YOUR_ACCOUNT_INVALID</base>
+      <trans>Введено недопустимое имя учетной записи.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE_SUCCESS</base>
+        <trans>Ваш пароль успешно изменён.</trans>
+    </entry>
+    <entry>
+        <base>FM_NONBLANK</base>
+        <trans>Это поле не может быть пустым</trans>
+    </entry>
+    <entry>
+        <base>FM_INTEGER</base>
+        <trans>Это поле должно содержать положительное целое число</trans>
+    </entry>
+    <entry>
+        <base>FM_NUMBER</base>
+        <trans>Это поле должно содержать число</trans>
+    </entry>
+    <entry>
+        <base>FM_WORD</base>
+        <trans>Это поле должно быть похоже на отдельное слово.</trans>
+    </entry>
+    <entry>
+        <base>FM_DATE</base>
+        <trans>Введенные данные не могли быть разобраны как дата</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER1</base>
+        <trans>Вы должны ввести номер кредитной карты</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER2</base>
+        <trans>Номер кредитной карты должен содержать только цифры, пробелы или тире</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER3</base>
+        <trans>Должен быть не менее 14 символов в длину</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER4</base>
+        <trans>Судя по всему, неверный номер кредитной карточки</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY1</base>
+        <trans>Не введена дата окончания.</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY2</base>
+        <trans>Дата окончания должна быть в формате ММ/ГГ или ММ/ГГГГ</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY3</base>
+        <trans>Эта дата окончания уже прошла</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY4</base>
+        <trans>Эта дата окончания слишком далеко в будущем</trans>
+    </entry>
+    <entry>
+        <base>FM_ISO_COUNTRY_CODE1</base>
+        <trans>Вы должны указать код страны</trans>
+    </entry>
+    <entry>
+        <base>FM_ISO_COUNTRY_CODE2</base>
+        <trans>Это поле не содержит ISO код страны</trans>
+    </entry>
+    <entry>
+        <base>FM_US_STATE</base>
+        <trans>Это, кажется, неправильное 2-буквенное сокращение штата США</trans>
+    </entry>
+    <entry>
+        <base>FM_US_ZIPCODE</base>
+        <trans>Почтовый индекс США должен состоять из 5 или 9 цифр</trans>
+    </entry>
+    <entry>
+        <base>FM_MINLENGTH1</base>
+        <trans>Минимальная длина была бессмысленно указана как {$minlength}</trans>
+    </entry>
+    <entry>
+        <base>FM_MINLENGTH2</base>
+        <trans>Это поле должно быть не менее {$minlength} символов</trans>
+    </entry>
+    <entry>
+        <base>FM_MAXLENGTH1</base>
+        <trans>Максимальная длина была бессмысленно указана как {$maxlength}</trans>
+    </entry>
+    <entry>
+        <base>FM_MAXLENGTH2</base>
+        <trans>Это поле должно быть не более {$minlength} символов</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH1</base>
+        <trans>Вы должны указать длину поля.</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH2</base>
+        <trans>Вы должны указать точную длину поля целым числом</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH3</base>
+        <trans>В этом поле должно быть точно {$exactlength} символов</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE1</base>
+        <trans>Вы должны указать максимальную и минимальную длину поля.</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE2</base>
+        <trans>Вы должны указать максимальную и минимальную длину поля целыми числами</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE3</base>
+        <trans>Длина этого поля должна быть от {$minlength} до {$maxlength} символов</trans>
+    </entry>
+    <entry>
+        <base>FM_URL</base>
+        <trans>Это поле должно содержать URL начинающийся с http:// или ftp://</trans>
+    </entry>
+    <entry>
+        <base>FM_EMAIL_SIMPLE1</base>
+        <trans>Вы должны ввести email адрес.</trans>
+    </entry>
+    <entry>
+        <base>FM_EMAIL_SIMPLE2</base>
+        <trans>Это поле не похоже на RFC822-совместимый адрес электронной почты</trans>
+    </entry>
+    <entry>
+        <base>FM_DOMAIN_NAME</base>
+        <trans>Это поле не похоже на правильное интернет-имя домена или имя хоста.</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER1</base>
+        <trans>Это поле должно содержать действительный IP адрес и не может быть оставлено пустым.</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER2</base>
+        <trans>Невеный формат IP-адреса (ожидался X.X.X.X)</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER3</base>
+        <trans>{$octet} больше чем 255</trans>
+    </entry>
+    <entry>
+        <base>FM_USERNAME</base>
+        <trans>Это поле должно быть похоже на правильное имя пользователя (от 3 до 8 букв и цифр)</trans>
+    </entry>
+    <entry>
+        <base>FM_PASSWORD1</base>
+        <trans>Вы должны указать пароль.</trans>
+    </entry>
+    <entry>
+        <base>FM_PASSWORD2</base>
+        <trans>Это не совсем подходящий пароль. В хорошем пароле должны присутствовать: заглавные буквы, прописные буквы, цифры, спецсимволы, его длина должна быть не менее 7 символов.</trans>
+    </entry>
+    <entry>
+        <base>FM_MAC_ADDRESS1</base>
+        <trans>Вы должны указать MAC адрес.</trans>
+    </entry>
+    <entry>
+        <base>FM_MAC_ADDRESS2</base>
+        <trans>Недействительный MAC адрес.</trans>
+    </entry>
+    <entry>
+	<base>FM_ERR_UNEXPECTED_DESC</base>
+	<trans>Ошибка: непредвиденные или отсутствующие символы в описании</trans>
+    </entry>
+    <entry>
+        <base>CSRF_VALIDATION_FAILURE</base>
+        <trans>Error: CSRF token is invalid or outdated.</trans>
+    </entry>
+</lexicon>

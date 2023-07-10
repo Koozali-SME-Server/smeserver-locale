@@ -1,0 +1,108 @@
+<lexicon lang="id">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>Local networks</base>
+        <trans>Jaringan-jaringan lokal</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ For security reasons, several services on your server are available only to your local network. However you can grant these local access privileges to additional networks by listing them below. Most installations should leave this list empty.</p><p> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Add network</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>Tombah jaringan lokal</trans>
+    </entry>
+    <entry>
+        <base>ADD_DESC</base>
+        <trans><![CDATA[ Tiap parameter harus dalam bentuk #.#.#.# (tiap # adalah angka dari 0 s.d 255). Server akan mengubah akhir (pengenal host) bagian dari alamat jaringan sesuai dengan subnet mask, untuk memastikan bahwa alamat network valid. </p><p> "Router" adalah alamat IP dari router dalam jaringan lokal anda untuk mencapai jaringan tambahan tersebut. ]]></trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ADDRESS</base>
+        <trans>Alamat jaringan</trans>
+    </entry>
+    <entry>
+        <base>SUBNET_MASK</base>
+        <trans>Subnet mask</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IP_ADDRESS</base>
+        <trans>IP address cacat</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SUBNET_MASK</base>
+        <trans>Subnet mask cacat</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Hapus jaringan lokal</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Anda akan menghapus jaringan lokal sebagai berikut</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_CONFIRM</base>
+        <trans>Anda yakin ingin menghapus jaringan ini?</trans>
+    </entry>
+    <entry>
+        <base>DEFAULT</base>
+        <trans>default</trans>
+    </entry>
+    <entry>
+        <base>NUMBER_OF_HOSTS</base>
+        <trans>Jumlah host</trans>
+    </entry>
+    <entry>
+        <base>NOT_ACCESSIBLE_FROM_LOCAL_NETWORK</base>
+        <trans>Error: alamat router {$networkRouter} tidak dapat diakses dari jaringan lokal. Jaringan tidak ditambah.</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_LOCAL</base>
+        <trans>Error: jaringan {$network} (diturunkan dari jaringan{$networkAddress} dan subnet mask {$networkMask}) telah dianggap lokal. Jaringan baru tidak ditambah.</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_ADDED</base>
+        <trans>Error: jaringan {$network} (diturunkan dari jaringan  {$networkAddress} dan subnet mask {$networkMask}) sudah pernah ditambah. Jaringan baru tidak ditambah.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_CREATING_NETWORK</base>
+        <trans>Gagal saat membuat jaringan</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Berhasil menambah jaringan {$network}/{$networkMask} melalui router {$networkRouter}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_SINGLE_ADDRESS</base>
+        <trans>Berhasil menambah jaringan {$network}/{$networkMask} melalui router {$networkRouter}. Server anda akan mengabulkan hak akses lokal ke alamat IP tunggal {$network}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NETWORK_RANGE</base>
+        <trans>Berhasil menambah jaringan {$network}/{$networkMask} melalui router {$networkRouter}. Server anda akan mengabulkan hak akses lokal ke {$totalHosts} alamat IP dalam range {$firstAddr} s.d {$lastAddr}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NONSTANDARD_RANGE</base>
+        <trans><![CDATA[ <p> Berhasil menambah jaringan {$network}/{$networkMask} melalui  router {$networkRouter}. </p> <p> Server anda akan mengabulkan hak akses lokal ke {$totalHosts} alamat IP dalam range {$firstAddr} s.d {$lastAddr}. </p> <p> Peringatan: Server FTP ProFTPd tidak dapat menangani subnet mask nonstandard ini. Spesifikasi yang lebih sederhana <b>{$simpleMask}</b> akan digunakan. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_REMOVED_NETWORK</base>
+        <trans>Berhasil menghapus jaringan {$network}/{$networkMask} lewat router {$networkRouter}.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_DELETING_NETWORK</base>
+        <trans>Terjadi error saat menghapus jaringan.</trans>
+    </entry>
+    <entry>
+        <base>NO_ADDITIONAL_NETWORKS</base>
+        <trans>Tidak ada jaringan tambahan</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_DESC</base>
+        <trans>Host lokal yang ada dalam jaringan yang akan anda hapus telah terdeteksi. Secara default, mereka juga akan dihapus. Uncheck kotak ini jika, dengan beberapa alasan, anda tidak ingin hal ini terjadi. Harap dicatat bahwa mereka tidak akan diperlakukan sebagai lokal, bahkan mungkin tidak dapat dihubungi setelah network ini dihapus.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_LABEL</base>
+        <trans>Hapus host dalam jaringan</trans>
+    </entry>
+</lexicon>

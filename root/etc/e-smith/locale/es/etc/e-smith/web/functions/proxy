@@ -1,0 +1,42 @@
+<lexicon lang="es">
+    <entry>
+        <base>Proxy settings</base>
+        <trans>Configuración Proxy</trans>
+    </entry>
+    <entry>
+        <base>FIRST_PAGE_DESCRIPTION</base>
+        <trans>Esta página permite configurar los valores del proxy del servidor. El servidor incorpora un proxy transparente y cache para el tráfico HTTP. Está habilitado por defecto, a no ser que el servidor esté en el modo de &quot;solo-servidor&quot;. Si este servidor actúa como un servidor de e-mail, las conexiones desde los clientes de la red local hacia los servidores externos SMTP serán por defecto vueltas a redirigir hacia el servidor local de e-mail.</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>El proxy HTTP del servidor es utilizado para ahorrar ancho de banda saliente por medio del almacenamiento temporal de las páginas recientemente visitadas. Es transparente a los navegadores web usando este servidor como su puerta de enlace. Habilite o deshabilite este proxy con siguiente la opción.</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_LABEL</base>
+        <trans>Estado del proxy HTTP</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>El proxy transparente SMTP del servidor es utilizado para reducir el tráfico de virus desde ordenadores infectados de los clientes, forzando todo el tráfico de salida SMTP a través de este servidor. Si desea utilizar un servidor SMTP alternativo, y este servidor es su puerta de enlace, deshabilite este proxy.</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_LABEL</base>
+        <trans>Estado del proxy SMTP</trans>
+    </entry>
+    <entry>
+        <base>ERR_PROXY_UPDATE_FAILED</base>
+        <trans>ERROR: El evento proxy-update ha retornado un error.</trans>
+    </entry>
+    <entry>
+        <base>ERR_NO_SQUID_REC</base>
+        <trans>ERROR: No existe ningún registro squid en la base de datos de configuración.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>La nueva configuración de proxy ha sido aplicada correctamente.</trans>
+    </entry>
+    <entry>
+        <base>BLOCKED</base>
+        <trans>Bloqueado</trans>
+    </entry>
+</lexicon>

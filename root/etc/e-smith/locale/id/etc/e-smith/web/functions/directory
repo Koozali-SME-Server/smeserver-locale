@@ -1,0 +1,79 @@
+<lexicon lang="id">
+   <entry>
+     <base>FORM_TITLE</base>
+       <trans>Ubah setting direktori LDAP</trans>
+   </entry>	
+<entry>
+<base>LABEL_ROOT</base>
+<trans>Server root</trans>
+</entry>
+
+<entry>
+<base>DESCRIPTION</base>
+<trans>Server LDAP menyediakan daftar akun pengguna dan grup di server anda , dan dapat diakses menggunakan sebuat LDAP client seperti fitur Address Book pada Netscape Communicator. Atur client LDAP anda dengan IP address local dari server anda, nomor port 389, dan parameter server root seperti dibawah ini.</trans>
+</entry>
+<entry>
+<base>DESC_DIRECTORY_ACCESS</base>
+<trans>Anda dapat mengendalikan akses ke direktori LDAP anda: pengaturan privat membolehkan akses hanya dari jaringan lokal, dan pengaturan public membolehkan akses dari manapun di Internet.</trans>
+</entry>
+<entry>
+<base>DIRECTORY_ACCESS</base>
+<trans>Akses direktori LDAP</trans>
+</entry>
+<entry>
+	<base>DESC_DEPARTMENT</base>
+<trans>Field ini adalah default dari LDAP untuk organisasi anda.Jika anda membuat akun pengguna baru, anda akan diajukan untuk mengisi field tersebut (bisa berbeda untuk setiap pengguna) tetapi nilai-nilai yang anda tetapkan disini akan muncul sebagai nilai default. Ini supaya lebih memudahkan dalam membuat akun pengguna.These fields are the LDAP defaults for your organization. </trans>
+</entry>
+<entry>
+        <base>DEPARTMENT</base>
+        <trans>Departemen default</trans>
+</entry>
+
+<entry>
+        <base>COMPANY</base>
+        <trans>Perusahaan default</trans>
+</entry>
+<entry>
+        <base>STREET</base>
+        <trans>Alamat default</trans>
+</entry>
+
+<entry>
+        <base>CITY</base>
+        <trans>Kota default</trans>
+</entry>
+
+<entry>
+        <base>PHONENUMBER</base>
+        <trans>No telpon default</trans>
+</entry>
+
+<entry>
+<base>DESC_EXISTING</base>
+<trans>Anda bisa membiarkan akun pengguna yang telah ada apa adanya, menggunakan nilai-nilai default diatas hanya untuk pengguna baru, atau anda bisa menerapkan nilai-nilai default diatas kepada pengguna yang telah ada.</trans>
+</entry>
+
+
+
+<entry>
+<base>EXISTING</base>
+<trans>Pengguna yang ada</trans>
+</entry>
+<entry>
+<base>SUCCESS</base>
+<trans>Setting default LDAP telah disimpan.</trans>
+</entry>
+
+<entry>
+<base>LEAVE</base>
+<trans>Biarkan</trans>
+</entry>
+<entry>
+<base>UPDATE</base>
+<trans>Mutakhirkan dengan nilai default</trans>
+</entry>
+    <entry>
+        <base>Directory</base>
+        <trans>Direktori</trans>
+    </entry>
+</lexicon>

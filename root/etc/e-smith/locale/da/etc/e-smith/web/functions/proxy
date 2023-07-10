@@ -1,0 +1,42 @@
+<lexicon lang="da">
+    <entry>
+        <base>Proxy settings</base>
+        <trans>Proxy indstillinger</trans>
+    </entry>
+    <entry>
+        <base>FIRST_PAGE_DESCRIPTION</base>
+        <trans>Denne sider tillader opsætning af serverens proxy-indstillinger. Serveren indeholder en transparent proxy og cache for HTTP-trafik. Den er tændt i udgangspunkt, men ikke påkrævet hvis serveren er i &quot;Kun server&quot; tilstand. Hvis denne server fungerer som e-post-server, vil forbindelser fra lokalnettet til eksterne SMTP-servere blive omdirigeret til den lokale e-postserver.</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>Serverens HTTP-proxy fungerer som et mellemlager for nyligt besøgte sider, så fornyet kald af siderne henter dem fra serveren og ikke fra Internet, hvilket øger hastigheden. Den er usynlig for webbrowseren der bruger serveren som gateway. Tænd eller sluk for denne funktion med den følgende omskifter.</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_LABEL</base>
+        <trans>HTTP-proxy status</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>Serverens transparente SMTP-proxy har til formål at reducere virustrafik fra inficerede klienter ved at tvinge SMTP-trafik gennem denne server. Ønsker du at bruge en anden SMTP-server, og denne server er din gateway til den, kan du slå denne proxy fra. Ved at sætte proxyen til blokeret, afskæres al SMTP trafik til andre servere, dette er default-værsien. Proxyen overvåger/blokerer kun normal smtp(port 25) trafik.</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_LABEL</base>
+        <trans>SMTP-proxy status</trans>
+    </entry>
+    <entry>
+        <base>ERR_PROXY_UPDATE_FAILED</base>
+        <trans>Fejl: Proxy-opdatreringen returnerede en fejl.</trans>
+    </entry>
+    <entry>
+        <base>ERR_NO_SQUID_REC</base>
+        <trans>Fejl: Der er ingen proxy-optegnelse i databasen.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>De nye proxy-indstillinger er gemt.</trans>
+    </entry>
+    <entry>
+        <base>BLOCKED</base>
+        <trans>Blokeret</trans>
+    </entry>
+</lexicon>

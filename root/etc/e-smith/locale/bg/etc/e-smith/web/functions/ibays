@@ -1,0 +1,174 @@
+<lexicon lang="bg" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Създаване, промяна или изтриване на инфо-слотове</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> <a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify">Добави инфо-слот</a> </p> <p> Можете да премахнете всеки информационен слот или да инициализирате паролата му като щракнете на съответната команда срещу информационния слот. Ако информационния слот е показан в червено, това означава че паролата все още не е променена спрямо подразбиращата се и че трябва скоро да се промени. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>Създаване и промяна на инфо-слотове</trans>
+    </entry>
+    <entry>
+        <base>NAME_FIELD_DESC</base>
+        <trans>Името на информационния слот трябва да съдържа само малки букви, цифри, точки, тирета и знаци за подчертаване и трябва да започва с малка буква. Например "johnson", "intra", и "cust3.prj12" са валидни имена, а "3associates", "John Smith" и "Bus!Partner" не са. Името е ограничено до {$maxLength} символа.</trans>
+    </entry>
+    <entry>
+        <base>NAME_LABEL</base>
+        <trans>Име на информационния слот</trans>
+    </entry>
+    <entry>
+        <base>USER_ACCESS</base>
+        <trans>Потребителски достъп чрез споделен достъп до файлове или ftp</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS</base>
+        <trans>Публичен достъп чрез web или анонимно ftp</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS_DESCRIPTION</base>
+        <trans>Режимът за публичен достъп "с парола извън локалната мрежа" не се поддържа за FTP компонентата на сървъра. Ако изберете този режим, FTP сървърът ще иска за този инфо-слот парола както от локалната мрежа, така и извън нея.</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_DYNAMIC_CONTENT</base>
+        <trans>Изпълнение на динамично съдържание (CGI, PHP, SSI)</trans>
+    </entry>
+	<entry>
+        <base>HTTPS_Only</base>
+        <trans>Изискване на сигурни връзки</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Премахване на информационен слот</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans><![CDATA[ <p> Възнамеряване да премахнете инфо-слота "{$name}" ({$description}). </p> <p> Всички файлове, принадлежащи към този информационен слот ще бъдат изтрити. </p> <p> Сигурни ли сте, че искате да премахнете този информационен слот? </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_IBAY</base>
+        <trans>Възникна грешка по време на създаването на инфо-слот.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED_IBAY</base>
+        <trans>Успешно бе създаден инфо-слот.</trans>
+    </entry>
+    <entry>
+        <base>NO_IBAYS</base>
+        <trans>Няма настроени инфо-слотове.</trans>
+    </entry>
+    <entry>
+        <base>CANT_FIND_IBAY</base>
+        <trans>Не може да се намери акаунт за {$name} (съществува ли?)</trans>
+    </entry>
+    <entry>
+        <base>CANT_CREATE_IBAY</base>
+        <trans>Не може да се създаде нов акаунт за {$name} съществува ли?)</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_IBAY</base>
+        <trans>Възникна грешка по време на промяната на инфо-слот.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED_IBAY</base>
+        <trans>Успешно променен инфо-слот.</trans>
+    </entry>
+    <entry>
+        <base>VIRTUAL_HOST_MESSAGE</base>
+        <trans>Следните виртуални домейни използваха този информационен слот като тяхно съдържание и ще бъдат променени да сочат към основния сайт (можете да ги пренасочите към нещо друго после).</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED_IBAY</base>
+        <trans>Успешно изтрит инфо-слот.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_IBAY</base>
+        <trans>Възникна грешка по време на изтриването на инфо-слот.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_DESC</base>
+        <trans>Възнамерявате да промените паролата за инфо-слот {$name}.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VALIDATION_ERROR</base>
+        <trans>Паролата може да съдържа само букви и цифри.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VERIFY_ERROR</base>
+        <trans>Паролите не съвпадат.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_RESET_PASSWORD</base>
+        <trans>Успешно инициализирана парола.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_RESETTING_PASSWORD</base>
+        <trans>Грешка при инициализацията на паролата.</trans>
+    </entry>
+    <entry>
+        <base>VHOST_MESSAGE</base>
+        <trans><![CDATA[ <P>Следните виртуални домейни използваха този информационен слот като тяхно съдържание и ще бъдат променени да сочат към основния сайт (можете да ги пренасочите към нещо друго после):</P> <ul>{$vhostList}</ul> ]]></trans>
+    </entry>
+    <entry>
+        <base>Information bays</base>
+        <trans>Информационни слотове</trans>
+    </entry>
+    <entry>
+        <base>WGRG</base>
+        <trans>Писане = група, Четене = група</trans>
+    </entry>
+    <entry>
+        <base>WGRE</base>
+        <trans>Писане = група, Четене = всеки</trans>
+    </entry>
+    <entry>
+        <base>WARG</base>
+        <trans>Писане = админ, Четене = група</trans>
+    </entry>
+    <entry>
+        <base>NONE</base>
+        <trans>Без достъп</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_NO_PASSWORD</base>
+        <trans>Локална мрежа (без парола)</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_PASSWORD</base>
+        <trans>Локална мрежа (с парола)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_NO_PASSWORD</base>
+        <trans>Целия интернет (без парола)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD</base>
+        <trans>Целия интернет (с парола)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD_REMOTE</base>
+        <trans>Целия интернет (с парола извън локалната мрежа)</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IBAY_DESCRIPTION</base>
+        <trans>Грешка: неочаквани или липсващи символи в описанието на инфо-слота</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>Името на инфо-слота "{$acctName}" съдържа невалидни символи. Имената на инфо-слотовете трябва да започват с малка буква и да съдържат само малки букви, цифри и тирета.</trans>
+    </entry>
+    <entry>
+        <base>MAX_IBAY_NAME_LENGTH_ERROR</base>
+        <trans>Името на инфо-слота "{$name}" е твърде дълго. Максимумът е {$maxIbayNameLength} символа.</trans>
+    </entry>
+    <entry>
+        <base>ACCT_CLASHES_WITH_PSEUDONYM</base>
+        <trans><![CDATA[ Акаунтът "{$acctName}" се застъпва с описанието на псевдоним за {$acctType} акаунт "{$acct}". <p>{$acctName} е псевдоним за {$acct}.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_EXISTS</base>
+        <trans>Акаунтът "{$acctName}" е съществуващ {$acctType} акаунт.</trans>
+    </entry>
+</lexicon>

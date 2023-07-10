@@ -1,0 +1,15 @@
+<lexicon lang="id">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>Petunjuk online dan dokumentasi lain</trans>
+      </entry>	
+      <entry> 
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ <ul> <li><a target="new" href="https://wiki.koozali.org/documentation/manual/"> Online manual</a> <li><a target="new" href="https://wiki.koozali.org/documentation/FAQ/"> FAQs</a></ul><H2>Dukungan dan lisensi</H2> Software ini diterbitkan dibawah syarat-syarat yang terdapat pada halaman <a href="/server-manager/cgi-bin/support"> Dukungan dan Lisensi</a>. ]]></trans>
+      </entry>		
+      <entry>
+	<base>Online manual</base>
+	<trans>Petunjuk online</trans>
+      </entry>
+
+</lexicon>

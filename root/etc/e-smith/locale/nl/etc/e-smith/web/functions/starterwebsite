@@ -1,0 +1,43 @@
+<lexicon lang="nl">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>Startwebsite toevoegen</trans>
+      </entry>
+      <entry>
+	<base>SUCCESS</base>
+	<trans>Startwebsite is met succes toegevoegd (bestand index.htm weggeschreven). U kan uw nieuwe website bezoeken op het onderstaande adres:</trans>
+      </entry>
+      <entry>
+	<base>DESCRIPTION</base>
+	  <trans><![CDATA[ <p> Vul de vakjes hieronder in en klik op de <b>Toevoegen</b> knop om een eenvoudige webpagina voor uw bedrijf aan te maken. </p> <p> U kan een vakje leeg laten indien u het niet nodig heeft. </p> <p> De tekst die u ingeeft wordt met automatische terugloop getoond voor een mooiere weergave van uw webpagina. Voer een lege regel in telkens u een nieuwe paragraaf wilt beginnen (bijvoorbeeld na iedere regel met een mailinglijst adres). Indien u een regeleinde wilt forceren zonder een nieuwe paragraaf te beginnen, typ dan de code <blockquote>&lt;BR&gt;</blockquote> op de plaats waar u de regeleinde wilt. </p> <p> <em>Gebruik deze optie niet</em> indien u reeds een aangepaste website hebt, vermits het "index.htm" bestand zal worden overschreven. </p> ]]></trans>
+      </entry>
+      <entry>
+	<base>LABEL_COMPANYNAME</base>
+	<trans>Bedrijfsnaam</trans>
+      </entry>
+	
+      <entry> 
+	<base>DESC_HEADER1</base>
+	<trans>Eerste koptekst, wordt typisch gebruikt voor korte zinnen bijvoorbeeld "Marktleider in textielproductie"</trans>
+      </entry>
+      <entry> 
+	<base>DESC_TEXT1</base>
+	<trans>Tekst onder de eerste hoofding, typisch een paragraaf met marketing informatie.</trans>
+      </entry>
+      <entry> 
+	  <base>DESC_HEADER2</base>
+	<trans>Tweede hoofding, wordt typisch gebruikt voor korte zinnen zoals "Voor meer informatie" of "Om onze producten te bestellen":</trans>
+	</entry>
+      <entry> 
+	<base>DESC_TEXT2</base>
+	<trans>Tekst onder de tweede hoofding, wordt typisch gebruikt voor contact- of bestelinformatie:</trans>
+	</entry>
+      <entry>
+	<base>DESC_SUBMIT</base>
+	<trans><![CDATA[ <p>Het bestand "index.htm" in de website directory zal worden overschreven indien u deze webpagina toevoegd.</p> <p>Wilt u verder gaan?</p> ]]></trans>
+      </entry>
+      <entry>
+	<base>Create starter web site</base>
+	<trans>Startwebsite toevoegen</trans>
+      </entry>
+</lexicon>

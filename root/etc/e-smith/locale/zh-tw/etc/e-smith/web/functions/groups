@@ -1,0 +1,84 @@
+<lexicon lang="zh-tw">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>建立、修正，或移除使用者群組</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_TOO_LONG</base>
+        <trans>錯誤：群組名稱太長。最多 {$maxLength} 字元。</trans>
+    </entry>    
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>錯誤：群組 "{$group}" 無法被建立，因為因為已經有相同名稱 {$type} 的帳號。</trans>
+    </entry>    
+    <entry>
+        <base>INVALID_GROUP_DESCRIPTION</base>
+        <trans>錯誤：群組描述中存在未預期或遺失的字元</trans>
+    </entry>
+    <entry>
+        <base>NO_MEMBERS</base>
+        <trans>錯誤：群組中無成員。勿建立新群組。</trans>
+    </entry>
+    <entry>
+        <base>CREATED_GROUP</base>
+        <trans>成功建立使用者群組</trans>
+    </entry> 
+    <entry>
+        <base>DELETED_GROUP</base>
+        <trans>成功移除使用者群組</trans>
+    </entry> 
+    <entry>
+        <base>MODIFIED_GROUP</base>
+        <trans>成功變更使用者群組</trans>
+    </entry>	
+    <entry>
+        <base>CREATE_ERROR</base>
+        <trans>建立使用者群組時產生錯誤</trans>
+    </entry> 
+    <entry>
+        <base>DELETE_ERROR</base>
+        <trans>移除使用者群組時產生錯誤</trans>
+    </entry> 
+    <entry>
+        <base>MODIFY_ERROR</base>
+        <trans>變更使用者群組時產生錯誤</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_NAMING</base>
+        <trans><![CDATA[群組名稱僅能使用小寫字母、數字、連字符，句號，和下底線，並且應當由小寫字母起頭。例如： "sales", "beta5", and "reseller_partners" 皆為認可的群組名稱，但是, "3rd-event", "Marketing Team" and "lost&found" 無法認可。]]></trans>
+    </entry>
+    <entry>
+        <base>GROUP_HAS_MEMBERS</base>
+        <trans>此群組包含以下成員：</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_GROUP</base>
+        <trans>錯誤：此非既有群組帳號。</trans>
+    </entry>
+    <entry>
+        <base>GROUP_DESC</base>
+        <trans>簡短描述／視窗群組別名</trans>
+    </entry>
+   <entry>
+        <base>GROUP_DESC_EXPL</base>
+        <trans>請於下方欄位輸入群組簡短描述。此欄位在視窗客戶端可由指定的群組名稱來檢視。</trans>
+   </entry>
+
+
+    <entry>
+        <base>IBAYS_WILL_BE_CHANGED</base>
+        <trans>下列訊息被指定到此群組，而且將被改成管理員群組（您隨後可修改）：</trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DELETE_GROUP</base>
+        <trans><![CDATA[ <p><b>您確定希望移除此群組？</b></p> ]]></trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST</base>
+        <trans><![CDATA[<p>即時使用者群組列表</p>]]></trans>
+    </entry>
+    <entry>
+		<base>DELETE_DESCRIPTION</base>
+       	<trans><![CDATA[ 您將要移除使用者群組 "<b>{$group}</b>。" ]]></trans>
+    </entry>
+</lexicon>

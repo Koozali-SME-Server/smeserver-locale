@@ -1,0 +1,58 @@
+<lexicon lang="da">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Arbejdsgruppe indstillinger</trans>
+    </entry>	
+    <entry> 
+        <base>DESC_WORKGROUP</base>
+        <trans><![CDATA[ Angiv den Windows arbejdsgruppe som serveren skal være synlig i. ]]></trans>	
+    </entry>
+    <entry>
+        <base>LABEL_WORKGROUP</base>
+        <trans>Windows arbejdsgruppe</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERVERNAME</base>
+        <trans>Indtast det navn som serveren skal bruge til Windows og Macintosh fildeling.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERVERNAME</base>
+        <trans>Servernavn</trans>
+    </entry>
+    <entry>
+        <base>DESC_PDC</base>
+        <trans><![CDATA[Skal denne server fungere som arbejdsgruppe- eller domænecontroller på dit Windowsnetværk? Du skal vælge <b>Nej</b> hvis en anden server udfylder denne rolle på netværket.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_PDC</base>
+        <trans>Arbejdsgruppe- eller domænecontroller</trans>
+    </entry>
+    <entry>
+        <base>DESC_ROAM</base>
+        <trans><![CDATA[ Skal denne server understøtte roaming profiles? Du bør efterlade indstillingen på <b>Nej</b>, medmindre du har erfaring med at administrere serverbaserede Windows roaming profiles og ved, at denne funktion er påkrævet. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_ROAM</base>
+        <trans>Roaming profiles</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>De nye arbejdsgruppeindstillinger er gemt</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP</base>
+        <trans>Arbejdsgruppenavnet skal starte med et (stort eller lille) bogstav fulgt af en kombination af bogstaver, tal, bindestreger, punktum og understregningskoder.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SERVERNAME</base>
+        <trans>Servernavnet skal starte med et (stort eller lille) bogstav fulgt af en kombination af bogstaver, tal, bindestreger og understregningskoder.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP_MATCHES_SERVERNAME</base>
+        <trans>Server og arbejdsgruppenavne stemmer overens, når de sammenlignes som små bogstaver. Disse værdier skal være forskellige for at fildelingen kan slås til.</trans>
+    </entry>
+    <entry>
+        <base>Workgroup</base>
+        <trans>Arbejdsgruppe</trans>
+    </entry>
+</lexicon>

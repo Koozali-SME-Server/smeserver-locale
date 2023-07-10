@@ -1,0 +1,87 @@
+<lexicon lang="ro">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Analiza fișierelor de evidență poștă electronică</trans>
+    </entry>
+    <entry>
+	<base>INITIAL_DESC</base>
+	<trans><![CDATA[ <P>Analizarea fișierelor de log poate ajuta atât la înțelegerea performaței sistemului cât și la diagnosticarea problemelor. Câteva tipuri de rapoarte sunt disponibile.</P> <P>Țineți cont că se poate ca genrarea acestor rapoarte să dureze câteva minute</P> ]]></trans>
+    </entry>
+    <entry>
+	<base>REPORT_TYPE</base>
+	<trans>Alege un tip de raport</trans>
+    </entry>
+    <entry>
+	<base>GENERATE_REPORT</base>
+	<trans>Generează raport</trans>
+    </entry>
+    <entry>
+	<base>LIST_OUTGOING</base>
+	<trans>Listează mesajele și destinatarii mesajelor de ieșire</trans>
+    </entry>
+    <entry>
+	<base>SUMMARIZE_QUEUE</base>
+	<trans>Statut general al cozii de postă electronică</trans>
+    </entry>
+    <entry>
+	<base>SUCCESSFUL_DELIVERY_DELAY</base>
+	<trans>Distribuția reușitelor de distribuție întârziată</trans>
+    </entry>
+    <entry>
+	<base>REASONS_DEFERRAL</base>
+	<trans>Motivele de amânare</trans>
+    </entry>
+    <entry>
+	<base>REASONS_FAILURE</base>
+	<trans>Motivele de eşec</trans>
+    </entry>
+    <entry>
+	<base>BASIC_STATS</base>
+	<trans>Statistică de bază</trans>
+    </entry>
+    <entry>
+	<base>RECIP_STATS</base>
+	<trans>Statistica destinatarilor</trans>
+    </entry>
+    <entry>
+	<base>RECIP_HOSTS</base>
+	<trans>Gazde beneficiare</trans>
+    </entry>
+    <entry>
+	<base>RECIP_ORDERED</base>
+	<trans>Destinatari triați pentru lista de trimiteri</trans>
+    </entry>
+    <entry>
+	<base>SENDER_STATS</base>
+	<trans>Statistică expeditori</trans>
+    </entry>
+    <entry>
+	<base>SENDMAIL_STYLE</base>
+	<trans>Evidență în stil Sendmail</trans>
+    </entry>
+    <entry>
+	<base>REASONS_SUCCESS</base>
+	<trans>Motive de succes</trans>
+    </entry>
+    <entry>
+	<base>SENDER_UIDS</base>
+	<trans>UID-uri expeditori</trans>
+    </entry>
+    <entry>
+	<base>INVALID_REPORT_TYPE</base>
+	<trans>Tip de raport invalid:</trans>
+    </entry>
+    <entry>
+	<base>REPORT_GENERATED</base>
+	<trans>Raport generat:</trans>
+    </entry>
+    <entry>
+	<base>END_OF_REPORT</base>
+	<trans>Final raport</trans>
+    </entry>
+    <entry>
+	<base>Mail log file analysis</base>
+	<trans>Analiză log de mail</trans>
+    </entry>
+
+</lexicon>

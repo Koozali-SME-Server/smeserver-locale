@@ -1,0 +1,10 @@
+<lexicon lang="hu">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Terméktámogatás, garancia és licensz információ</trans>
+    </entry>
+    <entry>
+        <base>Support and licensing</base>
+        <trans>Terméktámogatás és licenszelés</trans>
+    </entry>
+</lexicon>

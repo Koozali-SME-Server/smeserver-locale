@@ -1,0 +1,242 @@
+<lexicon lang="bg">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Създаване, промяна или изтриване на потребителски акаунти</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> <a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">Добавяне на акаунт</a> </p> <p> Можете да променяте, заключвате или изтривате всеки акаунт, както и да презадавате паролата за акаунта като кликвате върху линковете в съседство на акаунта. </p> <p> Ако акаунта е маркиран като заключен, това означава че трябва да се промени паролата му. Моля, отбележете че новосъздадение акаутни са автоматично заключени докато не се промени тяхната парола. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>P2_TITLE</base>
+        <trans>Създаване или промяна</trans>
+    </entry>
+    <entry>
+        <base>CREATE_MODIFY_DESC</base>
+        <trans><![CDATA[ <p> Потребителското име трябва да съдържа само малки букви, цифри, тирета, точки, знаци за подчертаване и трябва да започва с малка буква. Например, "betty", "hjohnson" и "mary-jane" са валидни потребителски имена, а "3friends", "John Smith" и "henry:miller" не са валидни. </p> <p> Отбележете, че за всеки нов акаунт ще бъдат създадени по два специални псевдонима. Тези псевдоними предоставят възможността да имате алтернативни пощенски адреси за тези потребители, които включват името и фамилията им, разделени с точка (.) и знак за подчертаване (_). Така че за акаунтът "betty" с име "Betty" и фамилия "Rubble" ще бъдат създадени два псевдонима - betty.rubble и betty_rubble. </p> <p> Информацията в директорията (отдел, фирма и т.н.) може да бъде променяна спрямо стойностите по подразбиране показани по-долу. Промените ще се отнасят само до този потребител. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MODIFY_ADMIN_TITLE</base>
+        <trans>Промяна на акаунта на admin</trans>
+    </entry>
+    <entry>
+        <base>USER_CREATED</base>
+        <trans>Потребителският акаунт беше успешно добавен.</trans>
+    </entry>
+    <entry>
+        <base>USER_MODIFIED</base>
+        <trans>Потребителският акаунт е успешно променен.</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER</base>
+        <trans>Грешка: възникна вътрешна грешка по време на опита за промяна на потребителя "{$acctName}".</trans> 
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER_GROUPS</base> 
+        <trans>Грешка: възникна вътрешна грешка по време на опита за промяна на групата "{$group}" за потребителя "{$acctName}".</trans>
+    </entry>
+    <entry>
+        <base>TAINTED_USER</base>
+        <trans>Името на акаунта "{$acctName}" съдържа грешни символи.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME</base>
+        <trans>Потребителско име</trans>
+    </entry>
+    <entry>
+        <base>FIRSTNAME</base>
+        <trans>име</trans>
+    </entry>
+    <entry>
+        <base>LASTNAME</base>
+        <trans>Фамилия</trans>
+    </entry>
+    <entry>
+        <base>DEPARTMENT</base>
+        <trans>Отдел</trans>
+    </entry>
+    <entry>
+        <base>COMPANY</base>
+        <trans>Фирма</trans>
+    </entry>
+    <entry>
+        <base>STREET_ADDRESS</base>
+        <trans>Адрес</trans>
+    </entry>
+    <entry>
+        <base>CITY</base>
+        <trans>Град</trans>
+    </entry>
+    <entry>
+        <base>PHONE_NUMBER</base>
+        <trans>Телефон</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_DELIVERY</base>
+        <trans>Доставяне на електронна поща</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_EMAIL_LOCALLY</base>
+        <trans>Локално доставяне на електронна поща</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_EMAIL</base>
+        <trans>Препращане на електронна поща на следния адрес</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_AND_FORWARD</base>
+        <trans>Едновременно доставяне локално и препращане</trans>
+    </entry>
+    <entry>
+        <base>FORWARDING_ADDRESS</base>
+        <trans>Адрес за препращане</trans>
+    </entry>
+    <entry>
+        <base>GROUP_MEMBERSHIPS</base>
+        <trans>Членство в групи</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC</base>
+        <trans>На път сте да промените паролата за потребител</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC2</base>
+        <trans>Въведете новата парола в полетата по-долу</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_MODIFYING_PASSWORD</base>
+        <trans>Възникна грешка при актуализацията на паролата</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE_SUCCEEDED</base>
+        <trans>Паролата на потребителя "{$acctName}" бе успешно променена.</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC</base>
+        <trans>На път сте да заключите потребител</trans>
+    </entry>
+    <entry>
+        <base>LOCKED_ACCOUNT</base>
+        <trans>Потребителят с име "{$acctName}" бе успешно заключен.</trans>
+    </entry>
+    <entry>
+        <base>NO_SUCH_USER</base>
+        <trans>Грешка: потребителят с име "{$acctName}" не съществува.</trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM_CLASH</base>
+        <trans>Грешка: псевдонима "{$pseudonym}" е вече зает от съществуващ потребител с име "{$clashName}". За да го направите различен добавете инициалите в това поле.</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT</base>
+        <trans>Заключване на потребител</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT_TITLE</base>
+        <trans>Заключи потребител</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC2</base>
+        <trans><![CDATA[ Този потребител ще бъде заключен. Това означава, че този потребител няма да може да влиза в сървъра и няма да може да си чете пощата. Ел. съобщения, които пристигат ще продължават да се съхраняват и/или препращат към външен адрес за ел. поща, както е било зададено преди това. Потребителят може да бъде активиран в бъдеще като му се зададе нова парола. Текущата парола няма да бъде запазена. </p> <p> <b>Сигурни ли сте, че желаете да заключите този потребител?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>REMOVE_ACCOUNT_TITLE</base>
+        <trans>Премахни потребител</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>На път сте да премахнете потребител</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans><![CDATA[ Всички файлове принадлежащи на този потребител ще бъдат изтрити. Също, всички ел. съобщения за този потребител, които са все още на сървъра (напр. които не са изтеглени от потребителя) ще бъдат игнорирани/изтрити. </p> <p> <b>Сигурни ли сте, че искате да премахнете потребителя?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>LOCK</base>
+        <trans>Заключи</trans>
+    </entry>
+    <entry>
+        <base>NO_USER_ACCOUNTS</base>
+        <trans>Няма потребители в тази система.</trans>
+    </entry>
+    <entry>
+        <base>Users</base>
+        <trans>Потребители</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>В потребителското име "{$acctName}" има невалидни символи. Потребителските имена трябва да започват с малка буква и да съдържат само малки букви, цифри, тирета, точки и долни черти.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_TOO_LONG</base>
+        <trans>Грешка: името на акаунта е прекалено дълго. Допустимият максимум е {$maxLength} знака.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>Грешка: акаунтът "{$account}" не може да бъде създаден защото вече има акаунт с това име {$type}.</trans>
+    </entry>    
+    <entry>
+        <base>ERR_OCCURRED_CREATING</base>
+        <trans>Появи се грешка при създаване на потребител.</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_CONTAIN_WHITESPACE</base>
+        <trans>Това поле не може да съдържа празни знаци</trans>
+    </entry>
+    <entry>
+        <base>UNACCEPTABLE_CHARS</base>
+        <trans>Това поле трябва да съдържа само букви, числа, точки, тирета и подчертаващи знаци и да започва с буква</trans>
+    </entry>
+    <entry>
+        <base>MEMBER</base>
+        <trans>Член?</trans>
+    </entry>
+    <entry>
+        <base>VPN_CLIENT_ACCESS</base>
+        <trans>Достъп с клиент за VPN</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_FORM_TITLE</base>
+        <trans>Смяна на системна парола</trans>
+    </entry>    
+    <entry> 
+        <base>SYSTEM_PASSWORD_DESCRIPTION</base>
+        <trans><![CDATA[ Някои от услугите на тази сървърна инсталация изискват потребителско име и парола (например тази страница с приложението за управление на сървъра). Потребителското име винаги е admin. Можете да промените системната парола като използвате полетата по-долу. ]]></trans>        
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS</base>
+        <trans>Паролата трябва да съдържа само печатаеми символи</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_VERIFY_ERROR</base>
+        <trans>Двете пароли не са еднакви.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_AUTH_ERROR</base>
+        <trans>Текущата парола е неправилна.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_CHANGED</base>
+        <trans>Системната парола беше променена.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_SYSTEM_PASSWORD</base>
+        <trans>Текуща системна парола</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD</base>
+        <trans>Нова системна парола</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD_VERIFY</base>
+        <trans>Нова системна парола (проверка)</trans>
+    </entry>            
+    <entry>
+        <base>LABEL_IPSECRW_DOWNLOAD</base>
+        <trans>Зареждане на цифров сертификат в IPSec клиент</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_DELETING</base>
+        <trans>Възникна грешка при опит за изтриване на потребителя.</trans>
+    </entry>
+</lexicon>

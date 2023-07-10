@@ -1,0 +1,108 @@
+<lexicon lang="th">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>Local networks</base>
+        <trans>เครือข่ายท้องถิ่น</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ ด้วยเหตุผลด้านความปลอดภัย การให้บริการงานหลายอย่างของเซอร์เวอร์นี้จะให้บริการเฉพาะกับเครืองในเครือข่ายของมันเท่านั้น อย่างไรก็ตาม คุณสามารถอนุมัติสิทธิการเข้าถึงให้แก่เครือข่ายอื่นๆ ของคุณที่มีได้โดยการการเพิ่มข้อมูลลงในรายการด้านล่าง ซึ่งโดยปกติการใช้งานทั่วไป จะไม่มีข้อมูลใดๆ ในรายการนี้</P><P> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">เพิ่มเครือข่าย</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>เพิ่ม local network</trans>
+    </entry>
+    <entry>
+        <base>ADD_DESC</base>
+        <trans><![CDATA[ พารามิเตอร์ต่างๆ ต้องอยู่ในรูปแบบ #.#.#.# (# คือ 0 ถึง 255) เซอร์ฟเวอร์จะเติม 0 ต่อท้ายหมายเลขเหล่านี้ให้เต็มตามรูปแบบ (หมายเลขโฮสท์)  ตามที่ตีความได้จาก subnet mask เพื่อให้มันเป็นหมายเลขที่ถูกต้องตามข้อกำหนด</P><P>"เราเตอร์" ต้องเป็นหมายเลข IP ของเราเตอร์ในฝั่งเครือข่ายของคุณ ซึ่งเป็นจุดที่เครือข่ายใหม่นั้นจะเชื่อมผ่านเข้ามา</P> ]]></trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ADDRESS</base>
+        <trans>หมายเลขเครือข่าย</trans>
+    </entry>
+    <entry>
+        <base>SUBNET_MASK</base>
+        <trans>Subnet mask</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IP_ADDRESS</base>
+        <trans>หมายเลข IP ไม่ถูกต้อง</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SUBNET_MASK</base>
+        <trans>subnet mask ไม่ถูกต้อง</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>ลบเครือข่ายท้องถิ่น</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>คุณกำลังจะทำการลบเครือข่ายท้องถิ่น</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_CONFIRM</base>
+        <trans>คุณแน่ใจหรือว่าต้องการลบเครือข่ายนี้</trans>
+    </entry>
+    <entry>
+        <base>DEFAULT</base>
+        <trans>ค่ามาตรฐาน</trans>
+    </entry>
+    <entry>
+        <base>NUMBER_OF_HOSTS</base>
+        <trans>จำนวนของโฮสท์</trans>
+    </entry>
+    <entry>
+        <base>NOT_ACCESSIBLE_FROM_LOCAL_NETWORK</base>
+        <trans>ผิดพลาด: หมายเลขเราเตอร์ {$networkRouter} ไม่สามารถเข้าถึงได้จากเครือข่ายท้องถิ่น ไม่เกิดการเพิ่มเครือข่ายใหม่</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_LOCAL</base>
+        <trans>ผิดพลาด: เครือข่าย{$network} (มาจากเครือข่าย {$networkAddress} และ subnet mask {$networkMask}) ซึ่งถือว่าอยู่ในท้องถิ่นอยู่แล้ว ไม่เกิดการเพิ่มเครือข่ายใหม่</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_ADDED</base>
+        <trans>ผิดพลาด: เครือข่าย{$network} (มาจากเครือข่าย {$networkAddress} และ subnet mask {$networkMask}) ถูกเพิ่มเข้าไปแล้ว ไม่เกิดการเพิ่มเครือข่ายใหม่</trans>
+    </entry>
+    <entry>
+        <base>ERROR_CREATING_NETWORK</base>
+        <trans>เกิดผิดพลาดขึ้นระหว่างการสร้างเครือข่าย</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>เพิ่มเครือข่ายเสร็จแล้ว {$network}/{$networkMask} ผ่านเราเตอร์ที่ {$networkRouter}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_SINGLE_ADDRESS</base>
+        <trans>เพิ่มเครือข่ายเสร็จแล้ว {$network}/{$networkMask} ผ่านเราเตอร์ที่ {$networkRouter} เซิร์ฟเวอร์ของคุณจะให้สิทธิ์การเข้าถึงบริการภายในกับเฉพาะหมายเลข IP {$network} หมายเลขเดียว</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NETWORK_RANGE</base>
+        <trans>เพิ่มเครือข่ายเสร็จแล้ว {$network}/{$networkMask} ผ่านเราเตอร์ที่ {$networkRouter}. เซิร์ฟเวอร์ของคุณจะให้สิทธิ์การเข้าถึงบริการภายในแก่ {$totalHosts} โฮสท์ ที่มีหมายเลข IP ที่อยู่ในข่าย จาก {$firstAddr} ถึง {$lastAddr} เท่านั้น</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NONSTANDARD_RANGE</base>
+        <trans><![CDATA[ <p>เพิ่มเครือข่ายเสร็จแล้ว {$network}/{$networkMask} ผ่านเราเตอร์ที่  {$networkRouter}</p><p> เซิร์ฟเวอร์ของคุณจะให้สิทธิ์การเข้าถึงบริการภายในแก่หมายเลข IP จำนวน {$totalHosts} หมายเลข คือหมายเลขจาก {$firstAddr} ถึง {$lastAddr}</p><p> คำเตือน: โปรแกรม ProFTPd FTP server ไม่สามารถเข้าใจ subnet mask ที่ไม่เข้ามาตรฐานนี้  ตัวเลือกที่ไม่ยุ่งยากที่น่าจะใช้แทนได้คือ <b>{$simpleMask}</b></p> ]]></trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_REMOVED_NETWORK</base>
+        <trans>ลบเครือข่ายเสร็จแล้ว :เครือข่าย {$network}/{$networkMask} ผ่านเราเตอร์ที่ {$networkRouter}.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_DELETING_NETWORK</base>
+        <trans>ข้อผิดพลาดขึ้นระหว่างการลบเครือข่าย</trans>
+    </entry>
+    <entry>
+        <base>NO_ADDITIONAL_NETWORKS</base>
+        <trans>ไม่มีเครือข่ายอื่นอีก</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_DESC</base>
+        <trans>ตรวจพบโฮสในเครือข่ายที่คุณกำลังจะสั่งลบ ซึ่้งโดยปกติแล้วมันไม่ควรจะมีอยู่ แต่ก็มีบางกรณีที่เป็นข้อยกเว้น ยกเลิกการเลือกเลือกตัวเลือกนี้หากคุณไม่ได้เจตนาให้เกิดขึ้น หมายเหต: หากคุณเลือกที่จะลบเครือข่ายนี้ออกไปแล้ว  เซอร์ฟเวอร์นี้จะไม่นับบรรดาเครื่องที่อยู่ในเครือข่ายนั้นว่าเป็นเครื่องในเครือข่ายภายในอีก แม้ว่ามันจะยังถูกมองเห็นหรือยังเข้าถึงได้ก็ตาม</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_LABEL</base>
+        <trans>ลบโฮสท์ในเครือข่าย</trans>
+    </entry>
+</lexicon>

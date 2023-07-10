@@ -1,0 +1,141 @@
+<lexicon lang="bg" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Управление на домейните</trans>
+    </entry>
+    <entry>
+        <base>FORM_DESCRIPTION</base>
+        <trans><![CDATA[ <p>Когато създавате домейн сървърът ще може да получава елелктронна поща за този домейн и ще може да съдържа web сайт за него.</p> <p><a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CREATE">Добави домейн</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>В системата няма домейни.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST_OF_DOMAINS</base>
+        <trans>Списък на домейните</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_SITE</base>
+        <trans>основен сайт</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>{$content} инфо-раздел</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Създаване на нов домейн</trans>
+    </entry>
+    <entry>
+        <base>CONTENT_FIELD_DESCRIPTION</base>
+        <trans>За интернет сайта можете да изберете основния си сайт или произволен инфо-раздел като съдържание.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME_VALIDATION_ERROR</base>
+        <trans>Грешка: неочакван или липсващ символ в името на домейна {$domainName}. Името на домейна трябва да съдържа една или повече букви, цифри, точки и знаци минус. Домейна не бе създаден.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_DESCRIPTION_VALIDATION_ERROR</base>
+        <trans>Грешка: неочакван или липсващ символ в описанието на домейна {$domainName}. Домейна не бе създаден.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_IN_USE_ERROR</base>
+        <trans>Грешка: домейнът {$domainName} вече съществува. Домейна не бе създаден.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_DOMAIN_ERROR</base>
+        <trans>Грешка: домейна {$domainName} е име на системния Ви домейн. Не можете да имате домейн със същото име. Домейна не бе създаден.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>Домейна {$domainName} бе успешно създаден. Вашият web сървър сега се рестартира. Връзките в тази страница ще бъдат неактивни докато стартирането на web сървъра не завърши.</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_TITLE</base>
+        <trans>Промяна на домейн</trans>
+    </entry>
+    <entry>
+        <base>NONEXISTENT_DOMAIN_ERROR</base>
+        <trans>Грешка: Домейна {$domainName} не съществува.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>{$domainName} беше успешно променен. Вашия web сървър се рестартира в момента. Връзките на страницата ще бъдат неактивни докато рестартирането на web сървъра не завърши.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Премахване на домейн</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESCRIPTION</base>
+        <trans><![CDATA[ <p> Вие възнамеряване да премахнете домейна {$domain} ({$domainDesc}). </p> <p> <b>Сигурни ли сте, че желаете да премахнете домейна?</b> </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_REMOVING_DOMAIN</base>
+        <trans>Грешка: вътрешен проблем по време на премахването на домейна {$domain}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>{$domainName} беше успешно изтрит. Вашия web сървър се рестартира в момента. Връзките на страницата ще бъдат неактивни докато рестартирането на web сървъра не завърши.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS_CURRENT</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Настройки на фирмения DNS</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>BUTTON_CORPORATE_DNS</base>
+        <trans><![CDATA[ <p>Ако този сървър няма достъп до интернет или имате специални изисквания за към DNS преобразуването, въведете IP адреса на DNS сървъра тук. Не трябва да въвеждате адресите на DNS сървърите на Вашия доставчик, защото сървърът може да преобразува имената от интернет без допълнителни настройки.</p> <p> <a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CORPORATE_DNS">Промяна на фирмените DNS настройки</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS</base>
+        <trans>Ако този сървър няма достъп до интернет или имате специални изисквания за към DNS преобразуването, въведете IP адреса на DNS сървъра тук. Тези полета трябва да останат празни, освен ако нямате причина да настройвате други DNS сървъри. Не трябва да въвеждате адресите на DNS сървърите на Вашия доставчик, защото сървърът може да преобразува имената от интернет без допълнителни настройки.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_PRIMARY</base>
+        <trans>Основен фирмен сървър за DNS</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_SECONDARY</base>
+        <trans>Допълнителен фирмен сървър за DNS</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_NAMESERVERS</base>
+        <trans>Можете да изберете дали имената от този домейн ще се преобразуват локално, ще се обръщате към фирмените DNS сървъри или ще се се преобразуват от DNS сървъри в интернет. Подразбиращата се стойност би била коректна за повечето мрежи.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_NAMESERVERS</base>
+        <trans>DNS сървъри за домейна</trans>
+    </entry>
+
+    <entry>
+        <base>localhost</base>
+        <trans>Преобразуване на имената локално</trans>
+    </entry>
+
+    <entry>
+        <base>internet</base>
+        <trans>Интернет сървъри за DNS</trans>
+    </entry>
+
+    <entry>
+        <base>corporate</base>
+        <trans>Фирмени сървъри за DNS</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Смятате да премахнете домейна</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans>Наистина ли искате да изтриете този домейн?</trans>
+    </entry>
+
+</lexicon>

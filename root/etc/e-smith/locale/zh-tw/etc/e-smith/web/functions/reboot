@@ -1,0 +1,42 @@
+<lexicon lang="zh-tw">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>關機或重啟</trans>
+    </entry>
+    <entry>
+	<base>REBOOT</base>
+	<trans>重新啟動系統</trans>
+    </entry>
+    <entry>
+	<base>REBOOT_SUCCEEDED</base>
+	<trans>重啟要求已成功開始進行。</trans>
+    </entry>
+    <entry>
+	<base>DESC_REBOOT</base>
+	<trans>您的伺服器已開始進行重啟程序。</trans>
+    </entry>
+    <entry>
+	<base>RECONFIGURE_SUCCEEDED</base>
+	<trans>重配置要求已成功開始進行。</trans>
+    </entry>
+    <entry>
+	<base>DESC_RECONFIGURE</base>
+	<trans>您的伺服器已開始進行全系統重配置，然後重啟。</trans>
+    </entry>
+    <entry>
+	<base>DESC_SHUTDOWN</base>
+	<trans>您的伺服器已開始進行關機程序。該程序將費時數分鐘，然後您可以關閉電源。</trans>
+    </entry>
+    <entry>
+	<base>LABEL_REBOOT</base>
+	<trans>選擇關機、重啟或重配置</trans>
+    </entry>
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ 您可以從此畫面選擇重啟、關機或全系統重配置。當您關閉電源之前，必須先執行關機程序。所有功能將耗時數分鐘。當您按下 <b>執行</b> ，操作將直接開始進行，因此請事先準備好！]]></trans>
+    </entry>
+    <entry>
+	<base>Reboot or shutdown</base>
+	<trans>重啟或關機</trans>
+    </entry>
+</lexicon>

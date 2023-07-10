@@ -1,0 +1,43 @@
+<lexicon lang="da">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>Opret webside</trans>
+      </entry>
+      <entry>
+	<base>SUCCESS</base>
+	<trans>Websiden er oprettet uden problemer. (Filen index.htm er oprettet). Du kan besøge din nye webside på nedenstående adresse:</trans>
+      </entry>
+      <entry>
+	<base>DESCRIPTION</base>
+	  <trans><![CDATA[ <p>For at oprette en simpel hjemmeside for din virksomhed, udfyld nedenstående felter og tryk på <b>Opret</b>. </p> <p> Du kan efterlade ethvert felt blankt, hvis du ikke har brug for det. </p> <p>Den tekst som du indsætter nedenfor vil blive ombrudt, så den præsenteres pænere på din hjemmeside. Indsæt en blank linje hver gang du ønsker at starte et nyt afsnit. Hvis du vil starte en ny linje, uden at starte et nyt afsnit (for eksempel efter hver linje i en postadresse), så indtast den 4-anslagssekvens <blockquote>&lt;BR&gt;</blockquote> der hvor du ønsker et linjeskift. </p> <p> <em>Brug ikke denne mulighed</em> hvis du allerede har tilpasset din hjemmeside, da den vil overskrive filen "index.htm" i din hjemmesidemappe.</p> ]]></trans>
+      </entry>
+      <entry>
+	<base>LABEL_COMPANYNAME</base>
+	<trans>Virksomhedsnavn</trans>
+      </entry>
+	
+      <entry> 
+	<base>DESC_HEADER1</base>
+	<trans>Første header, bruges typisk til korte tekster, som for eksempel "Førende indenfor tekstilfremstilling"</trans>
+      </entry>
+      <entry> 
+	<base>DESC_TEXT1</base>
+	<trans>Tekst som følger efter første header, bruges typisk til afsnit med markedsføringstekst.</trans>
+      </entry>
+      <entry> 
+	  <base>DESC_HEADER2</base>
+	<trans>Anden header, bruges typisk til korte tekster som for eksempel "For yderligere information" eller "For at bestille vores produkter":</trans>
+	</entry>
+      <entry> 
+	<base>DESC_TEXT2</base>
+	<trans>Tekst som følger efter anden header, bruges typisk til information om kontakt eller bestilling:</trans>
+	</entry>
+      <entry>
+	<base>DESC_SUBMIT</base>
+	<trans><![CDATA[ <p>Når du opretter denne hjemmeside, bliver filen "index.htm" i din hjemmesidemappe overskrevet.</p> <p>Ønsker du at fortsætte?</p> ]]></trans>
+      </entry>
+      <entry>
+	<base>Create starter web site</base>
+	<trans>Opret webside</trans>
+      </entry>
+</lexicon>

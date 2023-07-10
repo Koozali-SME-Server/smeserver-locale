@@ -1,0 +1,79 @@
+<lexicon lang="de">
+   <entry>
+     <base>FORM_TITLE</base>
+       <trans>Einstellungen zum LDAP-Verzeichnis</trans>
+   </entry>	
+<entry>
+<base>LABEL_ROOT</base>
+<trans>Server Hauptverzeichnis</trans>
+</entry>
+
+<entry>
+<base>DESCRIPTION</base>
+<trans>Die LDAP-Funktion des Servers erlaubt es, eine netzwerkweit zugängliche Liste Ihrer Benutzerkonten und Benutzergruppen zur Verfügung zu stellen, die dann von einem LDAP-Client wie beispielsweise dem Adressbuch des Netscape Communicator gelesen werden können. Konfigurieren Sie in Ihren LDAP-Client mit der IP-Adresse Ihres Servers sowie der Port-Nummer 389 und den Server Root-Parameter wie unten angezeigt.</trans>
+</entry>
+<entry>
+<base>DESC_DIRECTORY_ACCESS</base>
+<trans>Sie können den Zugang zu Ihrem LDAP-Verzeichnis einstellen: die private Einstellung erlaubt einen Zugriff nur aus dem lokalen Netzwerk, und die öffentliche Einstellung erlaubt den Zugriff aus dem gesamten Internet.</trans>
+</entry>
+<entry>
+<base>DIRECTORY_ACCESS</base>
+<trans>Zugang zum LDAP-Verzeichnis</trans>
+</entry>
+<entry>
+	<base>DESC_DEPARTMENT</base>
+<trans>Diese Felder sind die Standardwerte für das LDAP-Verzeichnis Ihrer Organisation. Immer wenn Sie ein neues Benutzerkonto anlegen, werden die hier eingegebenen Daten als Vorgabe angezeigt (diese können dann für jeden Benutzer individuell geändert werden). Dies vereinfacht das Anlegen von Benutzerkonten.</trans>
+</entry>
+<entry>
+        <base>DEPARTMENT</base>
+        <trans>Standard-Abteilung</trans>
+</entry>
+
+<entry>
+        <base>COMPANY</base>
+        <trans>Standard-Firma</trans>
+</entry>
+<entry>
+        <base>STREET</base>
+        <trans>Standard-Strasse</trans>
+</entry>
+
+<entry>
+        <base>CITY</base>
+        <trans>Standard-Stadt</trans>
+</entry>
+
+<entry>
+        <base>PHONENUMBER</base>
+        <trans>Standard-Telefonnummer</trans>
+</entry>
+
+<entry>
+<base>DESC_EXISTING</base>
+<trans>Sie können entweder die bestehenden Benutzerkonten so belassen wie sie sind, so dass die obigen Standardeinstellungen nur für neue Benutzer verwendet werden, oder Sie wenden die obigen Standardeinstellungen auf alle existierenden Benutzer an.</trans>
+</entry>
+
+
+
+<entry>
+<base>EXISTING</base>
+<trans>Bestehender Benutzer</trans>
+</entry>
+<entry>
+<base>SUCCESS</base>
+<trans>Die neuen LDAP-Standardeinstellungen wurden gespeichert.</trans>
+</entry>
+
+<entry>
+<base>LEAVE</base>
+<trans>Belassen wie sie sind</trans>
+</entry>
+<entry>
+<base>UPDATE</base>
+<trans>Auf neue Standardwerte ändern</trans>
+</entry>
+    <entry>
+        <base>Directory</base>
+        <trans>Verzeichnis</trans>
+    </entry>
+</lexicon>

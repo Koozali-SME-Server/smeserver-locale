@@ -1,0 +1,87 @@
+<lexicon lang="de">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>E-Mail Logdateien analysieren</trans>
+    </entry>
+    <entry>
+	<base>INITIAL_DESC</base>
+	<trans><![CDATA[ <P>Die Analyse der E-Mail Logdateien kann Ihnen zum einen helfen zu verstehen, wie Ihr System arbeitet und andererseits Ihnen Hinweise bei Auslieferungsprobleme geben. Es sind verschiedene Berichte verfügbar.</P> <P>Bitte beachten Sie, dass die Erstellung dieser Berichte einige Minuten dauern kann</P> ]]></trans>
+    </entry>
+    <entry>
+	<base>REPORT_TYPE</base>
+	<trans>Berichtstyp auswählen</trans>
+    </entry>
+    <entry>
+	<base>GENERATE_REPORT</base>
+	<trans>Bericht erzeugen</trans>
+    </entry>
+    <entry>
+	<base>LIST_OUTGOING</base>
+	<trans>Liste der ausgehenden Meldungen und Empfänger</trans>
+    </entry>
+    <entry>
+	<base>SUMMARIZE_QUEUE</base>
+	<trans>Status der E-Mail Warteschlange</trans>
+    </entry>
+    <entry>
+	<base>SUCCESSFUL_DELIVERY_DELAY</base>
+	<trans>Erfolgreiche Versendung der verspäteten Auslieferung</trans>
+    </entry>
+    <entry>
+	<base>REASONS_DEFERRAL</base>
+	<trans>Gründe für die Verschiebung</trans>
+    </entry>
+    <entry>
+	<base>REASONS_FAILURE</base>
+	<trans>Fehlergründe</trans>
+    </entry>
+    <entry>
+	<base>BASIC_STATS</base>
+	<trans>Einfache Basisstatistik</trans>
+    </entry>
+    <entry>
+	<base>RECIP_STATS</base>
+	<trans>Empfängerstatistik</trans>
+    </entry>
+    <entry>
+	<base>RECIP_HOSTS</base>
+	<trans>Empfängerhosts</trans>
+    </entry>
+    <entry>
+	<base>RECIP_ORDERED</base>
+	<trans>Empfänger in bester Reihenfolge für Maillisten</trans>
+    </entry>
+    <entry>
+	<base>SENDER_STATS</base>
+	<trans>Senderstatistik</trans>
+    </entry>
+    <entry>
+	<base>SENDMAIL_STYLE</base>
+	<trans>Log im Sendmail Stil</trans>
+    </entry>
+    <entry>
+	<base>REASONS_SUCCESS</base>
+	<trans>Gründe für Erfolg</trans>
+    </entry>
+    <entry>
+	<base>SENDER_UIDS</base>
+	<trans>Sender UIDs</trans>
+    </entry>
+    <entry>
+	<base>INVALID_REPORT_TYPE</base>
+	<trans>Ungültiger Berichtstyp:</trans>
+    </entry>
+    <entry>
+	<base>REPORT_GENERATED</base>
+	<trans>Bericht erzeugt:</trans>
+    </entry>
+    <entry>
+	<base>END_OF_REPORT</base>
+	<trans>Ende des Berichts</trans>
+    </entry>
+    <entry>
+	<base>Mail log file analysis</base>
+	<trans>E-Mail Logdateien analysieren</trans>
+    </entry>
+
+</lexicon>

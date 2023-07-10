@@ -1,0 +1,84 @@
+<lexicon lang="et">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Lisa, muuda või eemalda kasutajate gruppe</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_TOO_LONG</base>
+        <trans>VIGA: grupi nimi on liiga pikk. Nimi võib olla {$maxLength} pikk.</trans>
+    </entry>    
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>Viga: gruppi "{$group}" ei saanud luua kuna on juba kasutajakonto   {$type} sellise nimega.</trans>
+    </entry>    
+    <entry>
+        <base>INVALID_GROUP_DESCRIPTION</base>
+        <trans>VIGA: sobimatu sümbol grupi kirjelduses</trans>
+    </entry>
+    <entry>
+        <base>NO_MEMBERS</base>
+        <trans>VIGA: pole liikmeid selles grupis. Uut gruppi ei loodud.</trans>
+    </entry>
+    <entry>
+        <base>CREATED_GROUP</base>
+        <trans>Kasutajate grupp edukalt loodud</trans>
+    </entry> 
+    <entry>
+        <base>DELETED_GROUP</base>
+        <trans>Kasutajate grupp edukalt kustutatud</trans>
+    </entry> 
+    <entry>
+        <base>MODIFIED_GROUP</base>
+        <trans>Kasutajate grupp edukalt muudetud</trans>
+    </entry>	
+    <entry>
+        <base>CREATE_ERROR</base>
+        <trans>Kasutajate grupi loomisel ilmnes viga.</trans>
+    </entry> 
+    <entry>
+        <base>DELETE_ERROR</base>
+        <trans>Kasutajate grupi eemaldamisel ilmnes viga.</trans>
+    </entry> 
+    <entry>
+        <base>MODIFY_ERROR</base>
+        <trans>Kasutajate grupi muutmisel ilmnes viga.</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_NAMING</base>
+        <trans><![CDATA[ Grupi nimi võib sisaldada ainult väike tähti, numbreid, hyphens, periods, and underscores, ja peab algama väiketäehega. Näiteks "müük", "beta5", ja  "reseller_partners" sobivad grupi nimeks aga "3rd-event", "Müügi Grupp" ja "lost&found" ei sobi. ]]></trans>
+    </entry>
+    <entry>
+        <base>GROUP_HAS_MEMBERS</base>
+        <trans>Selles grupis on järgmised liikmed:</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_GROUP</base>
+        <trans>Viga: That is not an existing group account.</trans>
+    </entry>
+    <entry>
+        <base>GROUP_DESC</base>
+        <trans>Brief Description/Windows Group Alias</trans>
+    </entry>
+   <entry>
+        <base>GROUP_DESC_EXPL</base>
+        <trans>Input a brief group description in the field below. This field also designates the group name viewable by Windows clients.</trans>
+   </entry>
+
+
+    <entry>
+        <base>IBAYS_WILL_BE_CHANGED</base>
+        <trans>The following information bays were assigned to this group and will be changed to the Administrator group (you can change them to something else afterward):</trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DELETE_GROUP</base>
+        <trans><![CDATA[ <p><b>Oled kindel, et tahad seda gruppi eemaldada?</b></p> ]]></trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST</base>
+        <trans><![CDATA[<p>Nimekiri olemasolevatest gruppidest</p>]]></trans>
+    </entry>
+    <entry>
+		<base>DELETE_DESCRIPTION</base>
+       	<trans><![CDATA[ Oled kindel, et tahad gruppi "<b>{$group}</b>." ]]> kustutada </trans>
+    </entry>
+</lexicon>

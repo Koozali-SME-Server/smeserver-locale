@@ -1,0 +1,126 @@
+<lexicon lang="sv">
+    <entry>
+        <base>Review configuration</base>
+        <trans>Granska konfiguration</trans>
+    </entry>	
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans>Denna rapport summerar nätverk, server och domän parametrar på denna server, som är relevanta för konfigurering av klientdatorer på ditt nätverk. Du kan skriva ut denna sida och använda den som referens.</trans>	
+    </entry>
+    <entry>
+        <base>NETWORKING_PARAMS</base>
+        <trans>Nätverksparametrar</trans>
+    </entry> 
+    <entry>
+        <base>SERVER_MODE</base>
+        <trans>Servermod</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP_ADDRESS_SUBNET_MASK</base>
+        <trans>Lokal IP-adress / subnätmask</trans>
+    </entry>
+    <entry>
+        <base>EXTERNAL_IP_ADDRESS_SUBNET_MASK</base>
+        <trans>Extern IP-adress / subnätmask</trans>
+    </entry>
+    <entry>
+        <base>GATEWAY</base>
+        <trans>Gateway</trans>
+    </entry>
+    <entry>
+        <base>ADDITIONAL_LOCAL_NETWORKS</base>
+        <trans>Ytterligare lokala nätverk</trans>
+    </entry>
+    <entry>
+        <base>DHCP_SERVER</base>
+        <trans>DHCP-server</trans>
+    </entry>
+    <entry>
+        <base>BEGINNING_OF_DHCP_ADDRESS_RANGE</base>
+        <trans>Början på adressintervallet för DHCP</trans>
+    </entry>
+    <entry>
+        <base>END_OF_DHCP_ADDRESS_RANGE</base>
+        <trans>Slutet på adressintervallet för DHCP</trans>
+    </entry>
+    <entry>
+        <base>SERVER_NAMES</base>
+        <trans>Servernamn</trans>
+    </entry>
+    <entry>
+        <base>DNS_SERVER</base>
+        <trans>DNS-server</trans>
+    </entry>
+    <entry>
+        <base>WEB_SERVER</base>
+        <trans>Webb-server</trans>
+    </entry>
+    <entry>
+        <base>PROXY_SERVER</base>
+        <trans>Proxy-server</trans>
+    </entry>
+    <entry>
+        <base>FTP_SERVER</base>
+        <trans>FTP-server</trans>
+    </entry>
+    <entry>
+        <base>SMTP_POP_AND_IMAP_MAIL_SERVERS</base>
+        <trans>SMTP-, POP- och IMAP-mailservrar</trans>
+    </entry>
+    <entry>
+        <base>HOSTS</base>
+        <trans>Värdar</trans>
+    </entry> 
+    <entry>
+        <base>DOMAIN_INFORMATION</base>
+        <trans>Domäninformation</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_DOMAIN</base>
+        <trans>Primär domän</trans>
+    </entry>
+    <entry>
+        <base>VIRTUAL_DOMAINS</base>
+        <trans>Virtuella domäner</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_WEB_SITE</base>
+        <trans>Primär webbplats</trans>
+    </entry>
+    <entry>
+        <base>MITEL_NETWORKS_SME_SERVER_MANAGER</base>
+        <trans>Serverhanterare</trans>
+    </entry>
+    <entry>
+        <base>MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL</base>
+        <trans>Användarnas lösenordspanel</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_ADDRESSES</base>
+        <trans>E-postadresser</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_USERACCOUNT</base>
+        <trans>användarkonto</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_FIRSTNAME</base>
+        <trans>förnamn</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_LASTNAME</base>
+        <trans>efternamn</trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>Inga virtuella domäner definierade</trans>
+    </entry>
+    <entry>
+        <base>NO_NETWORKS</base>
+        <trans>Inga ytterligare nätverk definierade</trans>
+    </entry>
+    <entry>
+        <base>INTERNET_VISIBLE_ADDRESS</base>
+        <trans>För Internet synlig IP-adress</trans>
+    </entry>
+</lexicon>

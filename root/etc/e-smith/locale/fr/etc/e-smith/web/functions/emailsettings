@@ -1,0 +1,386 @@
+<lexicon lang="fr" params="getExtraParams()">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Configuration de la messagerie électronique</trans>
+    </entry>
+    <entry>
+        <base>E-mail</base>
+        <trans>Messagerie électronique</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Les nouveaux paramètres de messagerie électronique ont été enregistrés.</trans>
+    </entry>
+    <entry>
+        <base>NEVER</base>
+        <trans>Jamais</trans>
+    </entry>
+    <entry>
+        <base>EVERY5MIN</base>
+        <trans>Toutes les 5 minutes</trans>
+    </entry>
+    <entry>
+        <base>EVERY15MIN</base>
+        <trans>Toutes les 15 minutes</trans>
+    </entry>
+    <entry>
+        <base>EVERY30MIN</base>
+        <trans>Toutes les 30 minutes</trans>
+    </entry>
+    <entry>
+        <base>EVERYHOUR</base>
+        <trans>Toutes les heures</trans>
+    </entry>
+    <entry>
+        <base>EVERY2HRS</base>
+        <trans>Toutes les 2 heures</trans>
+    </entry>
+    <entry>
+        <base>STANDARD</base>
+        <trans>Standard (SMTP)</trans>
+    </entry>
+    <entry>
+        <base>ETRN</base>
+        <trans>ETRN (SMTP avec requête client)</trans>
+    </entry>
+    <entry>
+        <base>DEFAULT</base>
+        <trans>Par défaut</trans>
+    </entry>
+    <entry>
+        <base>SPECIFY_BELOW</base>
+        <trans>Spécifiez ci-dessous</trans>
+    </entry>
+    <entry>
+        <base>MULTIDROP</base>
+        <trans>Multipoint</trans>
+    </entry>
+    <entry>
+        <base>LABEL_MODE</base>
+        <trans>Méthode de récupération des courriels</trans>
+    </entry>
+    <entry>
+        <base>DESC_MODE</base>
+        <trans>La méthode de récupération des courriels peut être définie à "standard" (pour les connexions Internet dédiées), "ETRN" (recommandé pour les connexions par ligne téléphonique commutée) ou "multipoint" (pour les connexions par ligne téléphonique commutée si ETRN n'est pas pris en charge par votre Fournisseur d'Accès à Internet). Veuillez noter que le mode multipoint est la seule option disponible lorsque le serveur est configuré en mode serveur privé et passerelle.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_DELEGATE</base>
+        <trans>Adresse du serveur de messagerie délégué</trans>
+    </entry>
+    <entry>
+        <base>DESC_DELEGATE</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Serveurs de messagerie électronique délégués</h2> Votre serveur inclut un serveur de messagerie électronique complet et doté de toutes les fonctionnalités. Cependant, si, pour une raison quelconque, vous souhaitez déléguer le traitement des courriels à un autre système, veuillez indiquer ici le nom d'hôte ou l'adresse IP du système délégué. Pour un fonctionnement normal, vous pouvez laisser ce champ vide. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SECONDARY</base>
+        <trans>Serveur de messagerie électronique secondaire</trans>
+    </entry>
+    <entry>
+        <base>DESC_SECONDARY</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Paramètres ETRN ou multipoint</h2> Pour les modes de récupération ETRN ou multipoint, veuillez taper ci-dessous le nom d'hôte ou l'adresse IP de votre serveur de messagerie électronique secondaire. Si vous utilisez une configuration standard pour votre messagerie, vous pouvez laisser ce champ vide. ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_FETCH_PERIOD</base>
+        <trans>Pour les modes de récupération ETRN ou multipoint, vous pouvez contrôler la fréquence à laquelle ce serveur contacte votre serveur de messagerie électronique secondaire pour récupérer les courriels. Des connexions plus fréquentes signifient que vous recevrez vos courriels plus rapidement. Toutefois, cela va engendrer des envois plus fréquents de requêtes sur Internet, ce qui risque d'augmenter vos frais de téléphonie et d'Internet.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD</base>
+        <trans>Pendant les heures de bureau (08h00 à 18h00) en semaine</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD_NIGHTS</base>
+        <trans>En dehors des heures de bureau (18h00 à 08h00) en semaine</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD_WEEKENDS</base>
+        <trans>Pendant le week-end</trans>
+    </entry>
+    <entry>
+        <base>DESC_POP_ACCOUNT</base>
+        <trans>Pour la récupération multipoint des courriels, veuillez indiquer le nom et le mot de passe du compte POP. Si vous utilisez une méthode de récupération standard ou ETRN, vous pouvez laisser ces champs vides. De plus, pour la récupération des courriels en mode multipoint, vous pouvez utiliser le mode de tri par défaut du serveur ou bien spécifier un en-tête spécifique de message qui sera utilisé pour trier les courriels.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_POP_PASS</base>
+        <trans>Mot de passe du compte POP (pour le mode multipoint)</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_POP_ACCOUNT</base>
+        <trans>Nom du compte POP (pour le mode multipoint)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SORT_METHOD</base>
+        <trans>Méthode de tri (pour le mode multipoint)</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SORT_HEADER</base>
+        <trans>En-tête de tri (pour le mode multipoint)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PROTO</base>
+        <trans>Protocole (pour le mode multipoint)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_SECURE</base>
+        <trans>Tunnel SSL (pour le mode multipoint)</trans>
+    </entry>
+    <entry>
+        <base>AUTO</base>
+        <trans>Automatique</trans>
+    </entry>
+    <entry>
+        <base>ENABLED_BOTH</base>
+        <trans>Autoriser HTTP et HTTPS</trans>
+    </entry>
+    <entry>
+        <base>ENABLED_SECURE_ONLY</base>
+        <trans>Autoriser HTTPS (accès sécurisé uniquement)</trans>
+    </entry>
+     <entry>
+        <base>ONLY_LOCAL_NETWORK_SSL</base>
+        <trans>Autoriser HTTPS (sécuritaire) depuis les réseaux locaux</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_POP3</base>
+        <trans>Autoriser POP3 et POP3S en accès privé et public</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_PRIVATE</base>
+        <trans>Autoriser accès privé</trans>
+    </entry>
+    <entry>
+        <base>SECURE_POP3</base>
+        <trans>Autoriser uniquement POP3S (sécurisé) en accès privé et public</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_IMAP</base>
+        <trans>Autoriser IMAP et IMAPS en accès privé et public</trans>
+    </entry>
+    <entry>
+        <base>SECURE_IMAP</base>
+        <trans>Autoriser uniquement IMAPS (sécurisé) en accès privé et public</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_SMTP</base>
+        <trans>Autoriser SMTP et SSMTP en accès privé et public</trans>
+    </entry>
+    <entry>
+        <base>SECURE_SMTP</base>
+        <trans>Autoriser uniquement SSMTP (securisé) en accès privé et public</trans>
+    </entry>
+    <entry>
+        <base>LABEL_POP_ACCESS_CONTROL</base>
+        <trans>Accès au serveur POP3</trans>
+    </entry>
+    <entry>
+        <base>LABEL_IMAP_ACCESS_CONTROL</base>
+        <trans>Accès au serveur IMAP</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SMTP_AUTH_CONTROL</base>
+        <trans>Authentification SMTP</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_TO_ADMIN</base>
+        <trans>Envoyer à l'administrateur</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_TO</base>
+        <trans>Envoyer à</trans>
+    </entry>
+    <entry>
+        <base>RETURN_TO_SENDER</base>
+        <trans>Refuser les courriels</trans>
+    </entry>
+    <entry>
+        <base>LABEL_UNKNOWN</base>
+        <trans>Courriels destinés à des utilisateurs inconnus</trans>
+    </entry>
+    <entry>
+        <base>DESC_UNKNOWN</base>
+        <trans><![CDATA[ <h2>Destinataires Inconnus</h2> Veuillez définir le comportement que doit avoir le serveur face à des courriels destinés à des destinataires inconnus. Sélectionnez "Refuser les courriels" (valeur recommandé pour n'accepter que des courriels pour des destinataires valides (utilisateurs, groupes, pseudonymes). Le serveur renverra alors un message d'erreur à l'expéditeur. Si vous sélectionnez "Envoyer à..", ces courriels seront transmis à l'utilisateur spécifié. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SMARTHOST</base>
+        <trans>Adresse du serveur de messagerie du FAI (ISP)</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_SMARTHOST</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Serveur SMTP</h2> Le serveur peut envoyer les courriels sortants directement à leur destinataire (recommandé dans la plupart des cas) ou bien les transmettre en passant par le serveur SMTP de votre fournisseur d'accès (recommandé si votre connexion Internet n'est pas fiable ou si votre accès Internet est filtré). Si vous souhaitez exploiter le serveur SMTP de votre fournisseur d'accès, veuillez taper son nom d'hôte ou son adresse IP ci-dessous. Sinon, laissez ce champ vide. ]]></trans>
+    </entry>
+
+    <entry>
+        <base>INVALID_SMARTHOST</base>
+        <trans>Le nom d'hôte que vous avez tapé n'est pas un nom de domaine valide et ce champ ne doit pas être laissé vide.</trans>
+    </entry>
+    <entry>
+        <base>DESC_POP_ACCESS_CONTROL</base>
+        <trans>Vous pouvez contrôler les accès au serveur POP3. La valeur "Autoriser l'accès privé" n'autorise l'accès que depuis les réseaux locaux. Le réglage POP3S peut être utilisé pour offrir un accès externe crypté à votre serveur POP3. Nous vous recommandons de conserver la valeur "Autoriser l'accès privé" si vous n'avez pas un besoin spécifique de procéder différemment.</trans>
+    </entry>
+    <entry>
+        <base>DESC_IMAP_ACCESS_CONTROL</base>
+        <trans>Vous pouvez contrôler les accès au serveur IMAP. La valeur "Autoriser l'accès privé" n'autorise l'accès que depuis les réseaux locaux. Le réglage IMAPS permet d'offrir un accès externe crypté à votre serveur IMAP. Nous vous recommandons de conserver la valeur "Autoriser l'accès privé" si vous n'avez pas un besoin spécifique de procéder différemment.</trans>
+    </entry>
+    <entry>
+        <base>DESC_SMTP_AUTH_CONTROL</base>
+        <trans><![CDATA[ Vous pouvez fournir un accès avec authentification à votre serveur SMTP, ou désactiver cette option. Les rglages SSMTP nécessitent que <b>tous</b> utilisateurs utilisent une authentification SSL/TLS. L'option SMTP/SSMTP permettent aussi l'utilisation de STARTTLS pour permettre une authentification sécurisée. ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_WEBMAIL</base>
+        <trans>Vous pouvez activer ou désactiver l'accès à la messagerie par interface Web sur ce système. La messagerie Web permet aux utilisateurs d'accéder à leurs courriels à l'aide d'un navigateur Web standard. Pour cela, il leur suffit de taper l'adresse https://{$FQDN}/webmail et de se connecter avec leurs paramètres de compte.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_WEBMAIL</base>
+        <trans>Accès à l'interface de messagerie Web</trans>
+    </entry>
+     <entry>
+        <base>LABEL_BLOCK_EXECUTABLE_CONTENT</base>
+        <trans>Blocage des pièces jointes exécutables</trans>
+     </entry>
+     <entry>
+        <base>LABEL_CONTENT_TO_BLOCK</base>
+        <trans>Pièces jointes à bloquer</trans>
+     </entry>
+     <entry>
+        <base>DESC_BLOCK_EXECUTABLE_CONTENT</base>
+        <trans>Vous pouvez bloquer les pièces jointes exécutables contenues dans les courriels en sélectionnant les types de pièces jointes que vous souhaitez bloquer. Les courriels contenant ces types de fichiers attachés seront automatiquement renvoyés à l'expéditeur.</trans>
+    </entry>
+    <entry>
+        <base>UNACCEPTABLE_CHARS</base>
+        <trans>Ce champ doit contenir une adresse de courriel valide composée du caractère @ et d'un nom de domaine.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_ACCESS</base>
+        <trans><![CDATA[ <h2>Accès à la messagerie</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_ACCESS_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_ACCESS">Modifier les paramètres d'accès à la messagerie</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_RECEPTION</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Réception des courriels</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_RECEPTION_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_RECEPTION">Modifier les paramètres de réception des courriels</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_DELIVERY</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Envoi des courriels</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_DELIVERY_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_DELIVERY">Modifier les paramètres de livraison des courriels</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_FILTERING_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_FILTERING">Modifier les paramètres de filtrage des courriels</a> ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_VIRUS_SCAN</base>
+	<trans>Détection de virus</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_VIRUS_SCAN</base>
+	<trans>Le système peut rechercher la présence de virus dans les courriels et soit rejeter soit mettre en quarantaine ceux qui sont infectés.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_SPAM_SCAN</base>
+	<trans>Filtre anti pourriel</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_SPAM_SCAN</base>
+	<trans>Le système permet de filtrer les pourriels. Si le filtre de pourriel est activé, un en-tête X-Spam-Status: est ajouté dans chaque courriel. Cet en-tête pourra ensuite être utilisé pour filtrer les pourriels. Vous pouvez ajuster la sensibilité du processus de filtrage des pourriels, la valeur par défaut correspondant à une sensibilité moyenne. Pour un contrôle plus fin, vous pouvez adapter la sensibilité et choisir un niveau de marquage personnalisé et éventuellement un niveau à partir duquel les courriels doivent être rejetés.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_SPAM_SUBJECT</base>
+	<trans>Préfixe du sujet des pourriels</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_SPAM_SUBJECT</base>
+	<trans>Vous pouvez autoriser l'ajout d'un préfixe au sujet de tout courriel identifié comme pourriel. Vous pouvez définir ce préfixe ci-dessous.</trans>
+    </entry>
+
+   <entry>
+        <base>LABEL_SPAM_SENSITIVITY</base>
+        <trans>Sensibilité du filtre</trans>
+    </entry>
+   <entry>
+        <base>LABEL_SPAM_TAGLEVEL</base>
+        <trans>Niveau personnalisé de marquage</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SPAM_REJECTLEVEL</base>
+        <trans>Niveau de rejet personnalisé</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SPAM_SUBJECTTAG</base>
+        <trans>Modifier le sujet des pourriels</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SORTSPAM</base>
+        <trans>Envoyer les pourriels dans la corbeille</trans>
+    </entry>
+    <entry>
+        <base>VERYHIGH</base>
+        <trans>Très haut</trans>
+    </entry>
+    <entry>
+        <base>HIGH</base>
+        <trans>Haut</trans>
+    </entry>
+    <entry>
+        <base>MEDIUM</base>
+        <trans>Moyen</trans>
+    </entry>
+    <entry>
+        <base>LOW</base>
+        <trans>Bas</trans>
+    </entry>
+    <entry>
+        <base>VERYLOW</base>
+        <trans>Très bas</trans>
+    </entry>
+    <entry>
+        <base>CUSTOM</base>
+        <trans>Personnalisé</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_STATUS</base>
+        <trans>Authentification SMTP auprès du FAI (ISP)</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_USERID</base>
+        <trans>Compte de messagerie</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_PASSWD</base>
+        <trans>Mot de passe de messagerie</trans>
+    </entry>
+
+    <entry>
+        <base>VALIDATION_SMTPAUTH_NONBLANK</base>
+        <trans>Ce champ ne peut pas être laissé vide si l'authentification SMTP est activée.</trans>
+    </entry>
+
+</lexicon>

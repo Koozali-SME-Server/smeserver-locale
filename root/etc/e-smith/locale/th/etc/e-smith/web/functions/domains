@@ -1,0 +1,141 @@
+<lexicon lang="th" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>จัดการโดเมน</trans>
+    </entry>
+    <entry>
+        <base>FORM_DESCRIPTION</base>
+        <trans><![CDATA[ <p>เมื่อคุณ ได้สร้างโดเมนแล้ว เซิร์ฟเวอร์จะสามารถรับอีเมล์และใช้เป็นโฮสต์ของเว็บสำหรับโดเมนที่สร้างนั้นได้</p><p><a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CREATE">สร้างโดเมน</a></p> ]]></trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>ไม่มีโดเมนในระบบนี้</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST_OF_DOMAINS</base>
+        <trans>รายชื่อโดเมนที่มี</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_SITE</base>
+        <trans>ไซต์หลัก</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>{$content} i-bay</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>สร้างโดเมนใหม่</trans>
+    </entry>
+    <entry>
+        <base>CONTENT_FIELD_DESCRIPTION</base>
+        <trans>สำหรับเว็บไซต์ คุณอาจเลือกเว็บไซต์หลักของคุณ หรือ i-bay อื่นๆ</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME_VALIDATION_ERROR</base>
+        <trans>ผิดพลาด: ชื่อโดเมน {$domainName} ไม่ถูกต้องตามหลักการตั้งชื่อโดเมน ชื่อโดเมนต้องยาวอย่างน้อยหนึ่งตัว และต้องเป็นตัวอักษร, ตัวเลข, จุด และ ครื่องหมายลบเท่านั้น โดเมนใหม่ไม่ถูกสร้าง</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_DESCRIPTION_VALIDATION_ERROR</base>
+        <trans>ผิดพลาด: รายละเอียดของโดเมน {$domainDesc} ไม่ถูกต้อง โดเมนใหม่ไม่ถูกสร้าง</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_IN_USE_ERROR</base>
+        <trans>ผิดพลาด: ชื่อโดเมน {$domainName} ถูกใช้ไปแล้ว โดเมนใหม่ไม่ถูกสร้าง</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_DOMAIN_ERROR</base>
+        <trans>ผิดพลาด: ชื่อโดเมน {$domainName} เป็นชื่อโดเมนของระบบ คุณไม่สามารถสร้างโดเมนที่มีชื่อซ้ำกัน โดเมนใหม่ไม่ถูกสร้าง</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>โดเมน {$domainName} ถูกสร้างแล้ว เว็บเซิร์ฟเวอร์จะทำการรี สตาร์ท ลิ๊งค์ต่างๆ บนหน้านี้จะใช้การไม่ได้จนกว่าเว็บเซิร์ฟเวอร์จะทำการรีสตาร์ทเสร็จ</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_TITLE</base>
+        <trans>แก้ไขโดเมน</trans>
+    </entry>
+    <entry>
+        <base>NONEXISTENT_DOMAIN_ERROR</base>
+        <trans>ข้อผิดพลาด: ไม่มีโดเมน {$domainName}</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>ลบโดเมน {$domainName} แล้ว เว็บเซอร์ฟเวอร์จะทำการรีสตาร์ท ลิ๊งต่างๆ ในหน้าจอนี้จะใช้การไม่ได้จนกว่าการรีสตาร์ทจะเสร็จสิ้น</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>ลบโดเมน</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESCRIPTION</base>
+        <trans><![CDATA[ <p> คุณกำลังจะลบโดเมน {$domain} ({$domainDesc}). </p> <p><b>คุณแน่ใจหรือว่าต้องการลบโดเมนนี้?</b></p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_REMOVING_DOMAIN</base>
+        <trans>ข้อผิดพลาด: เกิดความผิดพลาดภายในขณะลบโดเมน{$domain}</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>ลบโดเมน{$domain}  แล้ว เว็บเซอร์ฟเวอร์จะทำการรีสตาร์ท ลิ๊งต่างๆ ในหน้าจอนี้จะใช้การไม่ได้จนกว่าการรีสตาร์ทจะเสร็จสิ้น</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS_CURRENT</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>ตั้งค่า DNS ขององค์กร</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>BUTTON_CORPORATE_DNS</base>
+        <trans><![CDATA[ <p>ถ้าเซิร์ฟเวอร์นี้ใช้อินเตอร์เน็ตไม่ได้ หรือคุณมีต้องการตั้งค่า DNS เป็นพิเศษ ใส่หมายเลข IP ของ DNS เซิร์ฟเวอร์ที่นี่ แต่คุณไม่ควรใส่หมายเลข IP ของ DNS เซิร์ฟเวอร์ของ ISP ของคุณลงที่นี่ เพราะเซิร์ฟเวอร์นี้สามารถให้บริการค้นที่อยู่จากชื่อโดเมนแก่เครื่องลูกข่ายได้อย่างถูกต้องโดยไม่ต้องตั้งค่าพิเศษใดๆ อยู่แล้ว</p> <p> <a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CORPORATE_DNS">แก้ไขค่า DNS ขององค์กร</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS</base>
+        <trans>ถ้าเซิร์ฟเวอร์นี้ใช้อินเตอร์เน็ตไม่ได้ หรือคุณมีต้องการตั้งค่า DNS เป็นพิเศษ ใส่หมายเลข IP ของ DNS เซิร์ฟเวอร์ที่นี่ ช่องเหล่านี้ควรเว้นว่างไว้ ยกเว้นหากคุณถ้าคุณต้องการตั้งให้ไปใช้ DNS เซิร์ฟเวอร์ตัวอื่น แต่คุณไม่ควรใส่หมายเลข IP ของ DNS เซิร์ฟเวอร์ของ ISP ของคุณลงที่นี่ เพราะเซิร์ฟเวอร์นี้สามารถให้บริการค้นที่อยู่จากชื่อโดเมนแก่เครื่องลูก ข่ายได้อย่างถูกต้องโดยไม่ต้องตั้งค่าพิเศษใดๆ อยู่แล้ว</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_PRIMARY</base>
+        <trans>Primary DNS server ขององค์กร</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_SECONDARY</base>
+        <trans>Secondary DNS server ขององค์กร</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_NAMESERVERS</base>
+        <trans>คุณสามารถเลือกว่าการการร้องขอบริการโดเมนของเครื่องลูกข่ายนั้นจะได้รับการบริการจากที่นี่ (เซิร์ฟเวอร์นี้) จาก DNS เซิร์ฟเวอร์ขององค์กร หรือจาก DNS เซิร์ฟเวอร์บนอินเตอร์เน็ต ซึ่งปกติค่า มาตรฐานที่ตั้งมาสามารถใช้ได้กับเครือข่ายโดยทั่วไปอยู่แล้ว</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_NAMESERVERS</base>
+        <trans>Domain DNS servers</trans>
+    </entry>
+
+    <entry>
+        <base>localhost</base>
+        <trans>จากที่นี่ (เซิร์ฟเวอร์นี้)</trans>
+    </entry>
+
+    <entry>
+        <base>internet</base>
+        <trans>จาก DNS เซิร์ฟเวอร์บนอินเตอร์เน็ต</trans>
+    </entry>
+
+    <entry>
+        <base>corporate</base>
+        <trans>จาก DNS เซิร์ฟเวอร์ขององค์กร</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>คุณกำลังจะลบเครื่องพิมพ์:</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans>คุณแน่ใจหรือว่าต้องการลบเครื่องพิมพ์นี้?</trans>
+    </entry>
+
+</lexicon>

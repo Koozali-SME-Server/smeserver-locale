@@ -1,0 +1,42 @@
+<lexicon lang="pl">
+    <entry>
+        <base>Proxy settings</base>
+        <trans>Ustawienia proxy</trans>
+    </entry>
+    <entry>
+        <base>FIRST_PAGE_DESCRIPTION</base>
+        <trans>Ta strona umożliwia konfigurowanie ustawień serwera proxy. Serwer zawiera transparentny proxy i cache dla ruchu HTTP. Serwer jest domyślnie włączony, ale nie działa prawidłowo, jeśli serwer jest w ustawiony w trybie &quot;serwera&quot;. Jeśli serwer działa jako serwer e-mail, połączenia z klientów sieci lokalnej do serwerów SMTP będą domyślnie przekierowywane do lokalnego serwera e-mail.</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>Serwer proxy HTTP działa na zasadzie zmniejszenia ogólnego użytkowania sieci poprzez buforowanie ostatnio odwiedzanych stron. Jest niewidoczny dla przeglądarek internetowych za pomocą którego łączą się poprzez ten serwer. Możesz włączyć lub wyłączyć serwer proxy następującymi przełącznikami.</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_LABEL</base>
+        <trans>Status proxy HTTP</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>Transparentny serwer proxy SMTP serwera działa w celu zmniejszenia ruchu wirusów z zainfekowanych hostów klientów, wymuszając cały wychodzący ruch SMTP przez ten serwer, jeśli jest ustawiony na „włączony”. Jeśli chcesz użyć alternatywnego serwera SMTP, a ten serwer jest Twoją bramą do niego, ustaw ten serwer proxy na „wyłączony”. Ustawienie proxy na „zablokowane” uniemożliwia cały ruch SMTP do innych serwerach, jest to ustawienie domyślne. Serwer proxy przechwytuje / blokuje tylko zwykły protokół smtp (port 25)</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_LABEL</base>
+        <trans>Status proxy SMTP</trans>
+    </entry>
+    <entry>
+        <base>ERR_PROXY_UPDATE_FAILED</base>
+        <trans>Błąd: Zdarzenie aktualizacji proxy zwróciło błąd.</trans>
+    </entry>
+    <entry>
+        <base>ERR_NO_SQUID_REC</base>
+        <trans>Błąd: Nie ma danych serwera proxy w bazie danych konfiguracji.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Nowe ustawienia proxy zostały ustawione pomyślnie.</trans>
+    </entry>
+    <entry>
+        <base>BLOCKED</base>
+        <trans>Zablokowany</trans>
+    </entry>
+</lexicon>

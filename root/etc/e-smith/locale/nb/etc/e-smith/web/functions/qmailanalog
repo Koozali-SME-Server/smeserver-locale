@@ -1,0 +1,87 @@
+<lexicon lang="nb">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Postlogg fil analyse</trans>
+    </entry>
+    <entry>
+	<base>INITIAL_DESC</base>
+	<trans><![CDATA[ <P>Å analysere post system loggfilene kan hjelpe til både å forstå hvordan system yter, og feilsøke leveringsproblemer. Flere ulike rapporter er tilgjenglige.</P> <P>Merk at det kan ta flere minutter å generere disse rapportene</P> ]]></trans>
+    </entry>
+    <entry>
+	<base>REPORT_TYPE</base>
+	<trans>Velg en rapporttype</trans>
+    </entry>
+    <entry>
+	<base>GENERATE_REPORT</base>
+	<trans>Generer rapport</trans>
+    </entry>
+    <entry>
+	<base>LIST_OUTGOING</base>
+	<trans>Liste utgående meldinger og mottakere</trans>
+    </entry>
+    <entry>
+	<base>SUMMARIZE_QUEUE</base>
+	<trans>Oppsummer status på post kø</trans>
+    </entry>
+    <entry>
+	<base>SUCCESSFUL_DELIVERY_DELAY</base>
+	<trans>Suksessfull leverings forsinkelses distribusjon</trans>
+    </entry>
+    <entry>
+	<base>REASONS_DEFERRAL</base>
+	<trans>Grunner til utsettelse</trans>
+    </entry>
+    <entry>
+	<base>REASONS_FAILURE</base>
+	<trans>Grunner til feil</trans>
+    </entry>
+    <entry>
+	<base>BASIC_STATS</base>
+	<trans>Grunnleggende statistikk</trans>
+    </entry>
+    <entry>
+	<base>RECIP_STATS</base>
+	<trans>Mottaker statistikk</trans>
+    </entry>
+    <entry>
+	<base>RECIP_HOSTS</base>
+	<trans>Mottaker vert</trans>
+    </entry>
+    <entry>
+	<base>RECIP_ORDERED</base>
+	<trans>Mottakere i best rekkefølge for post lister</trans>
+    </entry>
+    <entry>
+	<base>SENDER_STATS</base>
+	<trans>Avsender statistikk</trans>
+    </entry>
+    <entry>
+	<base>SENDMAIL_STYLE</base>
+	<trans>Sendmail loggstil</trans>
+    </entry>
+    <entry>
+	<base>REASONS_SUCCESS</base>
+	<trans>Grunner for suksess</trans>
+    </entry>
+    <entry>
+	<base>SENDER_UIDS</base>
+	<trans>Sender uid'er</trans>
+    </entry>
+    <entry>
+	<base>INVALID_REPORT_TYPE</base>
+	<trans>Ugyldig rapporttype:</trans>
+    </entry>
+    <entry>
+	<base>REPORT_GENERATED</base>
+	<trans>Rapport generert:</trans>
+    </entry>
+    <entry>
+	<base>END_OF_REPORT</base>
+	<trans>Slutt på rapporten</trans>
+    </entry>
+    <entry>
+	<base>Mail log file analysis</base>
+	<trans>Postlogg fil analyse</trans>
+    </entry>
+
+</lexicon>

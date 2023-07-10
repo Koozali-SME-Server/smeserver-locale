@@ -1,0 +1,386 @@
+<lexicon lang="zh-cn" params="getExtraParams()">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>电子邮件设置</trans>
+    </entry>
+    <entry>
+        <base>E-mail</base>
+        <trans>电子邮件</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>e-mail 备份设置已被保存。</trans>
+    </entry>
+    <entry>
+        <base>NEVER</base>
+        <trans>都不允许</trans>
+    </entry>
+    <entry>
+        <base>EVERY5MIN</base>
+        <trans>每5分钟</trans>
+    </entry>
+    <entry>
+        <base>EVERY15MIN</base>
+        <trans>每15分钟</trans>
+    </entry>
+    <entry>
+        <base>EVERY30MIN</base>
+        <trans>每30分钟</trans>
+    </entry>
+    <entry>
+        <base>EVERYHOUR</base>
+        <trans>每小时</trans>
+    </entry>
+    <entry>
+        <base>EVERY2HRS</base>
+        <trans>每2小时</trans>
+    </entry>
+    <entry>
+        <base>STANDARD</base>
+        <trans>标准（SMTP）</trans>
+    </entry>
+    <entry>
+        <base>ETRN</base>
+        <trans>ETRN（带客户端请求的SMTP）</trans>
+    </entry>
+    <entry>
+        <base>DEFAULT</base>
+        <trans>默认</trans>
+    </entry>
+    <entry>
+        <base>SPECIFY_BELOW</base>
+        <trans>指定如下</trans>
+    </entry>
+    <entry>
+        <base>MULTIDROP</base>
+        <trans>multi-drop</trans>
+    </entry>
+    <entry>
+        <base>LABEL_MODE</base>
+        <trans>电子邮件检索模式</trans>
+    </entry>
+    <entry>
+        <base>DESC_MODE</base>
+        <trans>电子邮件检索模式可以设置为标准（对于专线连接）、ETRN（对于拨号连接）或者multi-drop（对于拨号连接，如果您的ISP不支持ETRN）。注意 multi-drop模式只当服务器配置为私有服务器和网关模式时才可用。</trans>
+    </entry>
+    <entry>
+        <base>LABEL_DELEGATE</base>
+        <trans>内部邮件服务器地址</trans>
+    </entry>
+    <entry>
+        <base>DESC_DELEGATE</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Delegate mail servers</h2> 服务器包含一个完整的、全功能的电子邮件服务器。但是，如果由于某种原因您想委托另一个处理系统处理电子邮件，请指定委托系统的IP地址。一般情况下，请将此字段留空。 ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SECONDARY</base>
+        <trans>辅助邮件服务器</trans>
+    </entry>
+    <entry>
+        <base>DESC_SECONDARY</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>ETRN或者multi-drop设置/h2>对于ETRN或者multi-drop,请指定辅助邮件服务器的主机名或者IP地址。（对于标准的E-mail设置，请将此字段留空。） ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_FETCH_PERIOD</base>
+        <trans>对于ETRN或者multi-drop,您可以控制此服务器从辅助E-mail服务器获取邮件的频率。频率越高，收信越快，但会导致网络请求过多，如果是按流量计费，这可能会增加您的电话和网络使用费用。</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD</base>
+        <trans>在工作日的办公时间内（上午8:00至下午6:00）</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD_NIGHTS</base>
+        <trans>在工作日的办公时间外（下午6:00至上午8:00）</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD_WEEKENDS</base>
+        <trans>在周末</trans>
+    </entry>
+    <entry>
+        <base>DESC_POP_ACCOUNT</base>
+        <trans>对于multi-drop e-mail，请指定POP用户帐户和密码。 （如果使用标准或ETRN e-mail，这些字段可以为空。）此外，对于multi-drop e-mail，你可以使用默认的邮件排序方式，或者也可以指定一个特定的用于e-mail排序邮件消息头。</trans>
+    </entry>
+    <entry>
+        <base>LABEL_POP_PASS</base>
+        <trans>POP用户密码（multi-drop）</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_POP_ACCOUNT</base>
+        <trans>POP 用户账户 (multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SORT_METHOD</base>
+        <trans>选择排序方式 (multi-drop)</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SORT_HEADER</base>
+        <trans>选择排序首选 (multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PROTO</base>
+        <trans>协议 (multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_SECURE</base>
+        <trans>SSL 隧道 (multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>AUTO</base>
+        <trans>自动</trans>
+    </entry>
+    <entry>
+        <base>ENABLED_BOTH</base>
+        <trans>同时允许http和https</trans>
+    </entry>
+    <entry>
+        <base>ENABLED_SECURE_ONLY</base>
+        <trans>允许https（加密的http）</trans>
+    </entry>
+     <entry>
+        <base>ONLY_LOCAL_NETWORK_SSL</base>
+        <trans>允许HTTPS（安全）从本地网络访问</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_POP3</base>
+        <trans>同时允许pop3和pop3s</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_PRIVATE</base>
+        <trans>允许 private</trans>
+    </entry>
+    <entry>
+        <base>SECURE_POP3</base>
+        <trans>允许 private 和 public (加密的POP3)</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_IMAP</base>
+        <trans>同时允许IMAP和IMAPS</trans>
+    </entry>
+    <entry>
+        <base>SECURE_IMAP</base>
+        <trans>允许 private 和 public (加密的IMAPS)</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_SMTP</base>
+        <trans>同时允许SMTP和SSMTP</trans>
+    </entry>
+    <entry>
+        <base>SECURE_SMTP</base>
+        <trans>允许SSMTP（加密的SMTP）</trans>
+    </entry>
+    <entry>
+        <base>LABEL_POP_ACCESS_CONTROL</base>
+        <trans>POP3 服务器访问</trans>
+    </entry>
+    <entry>
+        <base>LABEL_IMAP_ACCESS_CONTROL</base>
+        <trans>IMAP 服务器访问</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SMTP_AUTH_CONTROL</base>
+        <trans>SMTP 验证</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_TO_ADMIN</base>
+        <trans>发送给管理员</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_TO</base>
+        <trans>发送给</trans>
+    </entry>
+    <entry>
+        <base>RETURN_TO_SENDER</base>
+        <trans>拒绝</trans>
+    </entry>
+    <entry>
+        <base>LABEL_UNKNOWN</base>
+        <trans>发邮件给未知用户</trans>
+    </entry>
+    <entry>
+        <base>DESC_UNKNOWN</base>
+        <trans><![CDATA[ <h2>未知用户</h2> 选择拒绝（推荐设置）将服务器配置为只接受有效地址的邮件（比如用户、群组、假名）。其他地址的邮件将被拒绝。]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SMARTHOST</base>
+        <trans>ISP的邮件服务器地址</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_SMARTHOST</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>SMTP服务器</h2> 此服务器能直接将出站邮件投递到目的地（大多数情况下建议如此）或通过ISP的SMTP服务器投递（如果您的因特网连接不太可靠或者您正使用的是家用的因特网服务）。如果使用ISP的SMTP服务器，请在下面指定其主机名或者IP地址。否则，请留空。 ]]></trans>
+    </entry>
+
+    <entry>
+        <base>INVALID_SMARTHOST</base>
+        <trans>您输入的名称是一个无效的因特网域名。</trans>
+    </entry>
+    <entry>
+        <base>DESC_POP_ACCESS_CONTROL</base>
+        <trans>您可以控制POP3服务器的访问。设置为“只允许本地网络访问”将只允许从本地网络来访问POP3服务器。POP3S设置可以为您的POP3服务器提供加密的外部访问。除非您有特别的理由，否则我们建议您设置为“只允许本地网络访问”。</trans>
+    </entry>
+    <entry>
+        <base>DESC_IMAP_ACCESS_CONTROL</base>
+        <trans>您可以控制IMAP服务器的访问。设置为“只允许本地网络访问”将只允许从本地网络来访问IMAP服务器。IMAPS设置可以为您的IMAP服务器提供加密的外部访问。除非您有特别的理由，否则我们建议您设置为“只允许本地网络访问”。</trans>
+    </entry>
+    <entry>
+        <base>DESC_SMTP_AUTH_CONTROL</base>
+        <trans><![CDATA[ 您可以为访问SMTP服务器提供认证，也可以禁用该功能。设置 SSMTP 要求 <b>所有的</b> 用户都使用SSL/TLS 认证。 SMTP和SSMTP 选项需要额外的 STARTTLS 加密来保证安全认证。 ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_WEBMAIL</base>
+        <trans>您可以启用或禁用webmail。webmail允许用户使用标准浏览器访问他们的邮件，地址为https://{$FQDN}/webmail，然后使用帐户登陆。</trans>
+    </entry>
+    <entry>
+        <base>LABEL_WEBMAIL</base>
+        <trans>webmail访问</trans>
+    </entry>
+     <entry>
+        <base>LABEL_BLOCK_EXECUTABLE_CONTENT</base>
+        <trans>阻止可执行内容</trans>
+     </entry>
+     <entry>
+        <base>LABEL_CONTENT_TO_BLOCK</base>
+        <trans>阻止的内容</trans>
+     </entry>
+     <entry>
+        <base>DESC_BLOCK_EXECUTABLE_CONTENT</base>
+        <trans>通过高亮显示您想要阻止的附件类型，您可以阻止电子邮件附件中的可执行内容。包含这些附件的电子邮件会自动返回给发送者。</trans>
+    </entry>
+    <entry>
+        <base>UNACCEPTABLE_CHARS</base>
+        <trans>此字段必需一个有效的电子邮件地址，必须包含符号@和一个域名。</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_ACCESS</base>
+        <trans><![CDATA[ <h2>电子邮件访问</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_ACCESS_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_ACCESS">修改访问设置</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_RECEPTION</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>电子邮件接收</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_RECEPTION_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_RECEPTION">修改电子邮件接收设置</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_DELIVERY</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>电子邮件投递</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_DELIVERY_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_DELIVERY">修改电子邮件投递设置</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_FILTERING_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_FILTERING">修改电子邮件过滤设置</a> ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_VIRUS_SCAN</base>
+	<trans>病毒扫描</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_VIRUS_SCAN</base>
+	<trans>您可以扫描入站和出站的邮件，如果启用了病毒扫描并且检测到了病毒，邮件将会被绝收并返回给发送者。</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_SPAM_SCAN</base>
+	<trans>垃圾邮件过滤</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_SPAM_SCAN</base>
+	<trans>您可以扫描邮件中是否有垃圾邮件。如果启用垃圾邮件过滤，那么X-Spam-Status头将会被添加到每个邮件，用来过滤垃圾邮件。您可以调整垃圾邮件检测的敏感度，默认为中。对于细微度控制，您可以设置垃圾邮件敏感度到自定义，然后选择一个自定义标记等级，并也可以选择拒收邮件的等级。</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_SPAM_SUBJECT</base>
+	<trans>垃圾邮件主题预设</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_SPAM_SUBJECT</base>
+	<trans>可以用关键字来定义垃圾邮件。关键字可以在下面设置。</trans>
+    </entry>
+
+   <entry>
+        <base>LABEL_SPAM_SENSITIVITY</base>
+        <trans>垃圾邮件敏感度</trans>
+    </entry>
+   <entry>
+        <base>LABEL_SPAM_TAGLEVEL</base>
+        <trans>自定义垃圾邮件标记等级</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SPAM_REJECTLEVEL</base>
+        <trans>自定义垃圾邮件拒收等级</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SPAM_SUBJECTTAG</base>
+        <trans>修改垃圾邮件主题</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SORTSPAM</base>
+        <trans>整理垃圾邮件到垃圾文件夹</trans>
+    </entry>
+    <entry>
+        <base>VERYHIGH</base>
+        <trans>极高</trans>
+    </entry>
+    <entry>
+        <base>HIGH</base>
+        <trans>高</trans>
+    </entry>
+    <entry>
+        <base>MEDIUM</base>
+        <trans>中</trans>
+    </entry>
+    <entry>
+        <base>LOW</base>
+        <trans>低</trans>
+    </entry>
+    <entry>
+        <base>VERYLOW</base>
+        <trans>极低</trans>
+    </entry>
+    <entry>
+        <base>CUSTOM</base>
+        <trans>自定义</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_STATUS</base>
+        <trans>ISP的SMTP验证</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_USERID</base>
+        <trans>邮件服务器用户id</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_PASSWD</base>
+        <trans>邮件服务器密码</trans>
+    </entry>
+
+    <entry>
+        <base>VALIDATION_SMTPAUTH_NONBLANK</base>
+        <trans>如果启用了SMTP验证，那么此字段不能为空。</trans>
+    </entry>
+
+</lexicon>

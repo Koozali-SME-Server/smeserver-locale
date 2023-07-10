@@ -1,0 +1,79 @@
+<lexicon lang="sl">
+   <entry>
+     <base>FORM_TITLE</base>
+       <trans>Spremenite LDAP nastavitve</trans>
+   </entry>	
+<entry>
+<base>LABEL_ROOT</base>
+<trans>Korenina (root) streznika</trans>
+</entry>
+
+<entry>
+<base>DESCRIPTION</base>
+<trans>LDAP streznik omogoca mrezni seznam uporabniskih imen in skupin na vasem strezniku in lahko do njega dostopamo z uporabo LDAP odjemalca, kot je Address Book v Outlook Expressu. Nastavite odjemalca z lokalnim IP naslovom, st. porta 389 in naslednjimi parametri:</trans>
+</entry>
+<entry>
+<base>DESC_DIRECTORY_ACCESS</base>
+<trans>Dostop no vasega LDAP directorija: privatne nastavitve bodo dovolile dostop samo z lokalnega omrezja, javne nastavitve pa dostop od bilokje na Internetu.</trans>
+</entry>
+<entry>
+<base>DIRECTORY_ACCESS</base>
+<trans>Dostop do LDAP directorija</trans>
+</entry>
+<entry>
+	<base>DESC_DEPARTMENT</base>
+<trans>Ta polja so privzeta polja LDAP streznika za vaso organizacijo. Ko ustvarite novega uporabnika, bose morali vpisati vsa ta polja (ki so za vsakega uporabnika lahko drugacne), vendar se bodo podatki vpisani tukaj videli, kot privzeti. Na ta nacin omogocimo hitrejse dodajanje uporabniskih racunov.</trans>
+</entry>
+<entry>
+        <base>DEPARTMENT</base>
+        <trans>Privzeti oddelek</trans>
+</entry>
+
+<entry>
+        <base>COMPANY</base>
+        <trans>Privzeto podjetje</trans>
+</entry>
+<entry>
+        <base>STREET</base>
+        <trans>Privzeti naslov</trans>
+</entry>
+
+<entry>
+        <base>CITY</base>
+        <trans>Privzeto mesto</trans>
+</entry>
+
+<entry>
+        <base>PHONENUMBER</base>
+        <trans>Privzeta telefonska stevilka</trans>
+</entry>
+
+<entry>
+<base>DESC_EXISTING</base>
+<trans>Vase obstojece uporabnike lahko pustite nesppremenjene z teminastavitvemi, ali pa uporabite zgornje nastavitve za vse uporabnike.</trans>
+</entry>
+
+
+
+<entry>
+<base>EXISTING</base>
+<trans>Obstojeci uporabniki</trans>
+</entry>
+<entry>
+<base>SUCCESS</base>
+<trans>Nove privzete nastavitve LDAP streznika so bile shranjene.</trans>
+</entry>
+
+<entry>
+<base>LEAVE</base>
+<trans>Pustite nespremenjene</trans>
+</entry>
+<entry>
+<base>UPDATE</base>
+<trans>Posodobite z novimi nastavitvami</trans>
+</entry>
+    <entry>
+        <base>Directory</base>
+        <trans>Directory</trans>
+    </entry>
+</lexicon>

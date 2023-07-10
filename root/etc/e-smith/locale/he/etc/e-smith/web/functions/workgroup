@@ -1,0 +1,58 @@
+<lexicon lang="he">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>שנה הגדרות קבוצת עבודה</trans>
+    </entry>	
+    <entry> 
+        <base>DESC_WORKGROUP</base>
+        <trans><![CDATA[הזן את שם קבוצת העבודה של Windows ששרת זה אמור להופיע בה]]></trans>	
+    </entry>
+    <entry>
+        <base>LABEL_WORKGROUP</base>
+        <trans>קבוצת עבודה של Windows</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERVERNAME</base>
+        <trans>הקלד את השם בו ישתמש שרת זה עבור שיתוף קבצים ב Windows וב Macintosh.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERVERNAME</base>
+        <trans>שם שרת</trans>
+    </entry>
+    <entry>
+        <base>DESC_PDC</base>
+        <trans><![CDATA[האם על שרת זה לתפקד כמנהל קבוצת עבודה ודומיין ברשת Windows שלך ? עליך להשאיר את הסימון ב<b>No</b> במידה ושרת אחר באותה רשת כבר מבצע תפקידים אלו.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_PDC</base>
+        <trans>מנהל קבוצת עבודה ודומיין</trans>
+    </entry>
+    <entry>
+        <base>DESC_ROAM</base>
+        <trans><![CDATA[האם שרת זה צריך לתמוך בפרופילים נודדים ? אתה צריך לעזוב את זה מוגדר כברירת מחדל של <b> לא </ b> אלא אם יש לך ניסיון בניהול פרופילי נדידה בשרת מבוסס Windows ואתה יודע כי זו תכונה נדרשת. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_ROAM</base>
+        <trans>פרופילים נודדים</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>הגדרות קבוצת העבודה החדשות נשמרו</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP</base>
+        <trans>שם קבוצעת העבודה חייב להתחיל באות אנגלית (גדולה או קטנה), לאחריה כל קומבינציה של אותיות אנגליות, מספרים, קווים תחתיים, נקודות ומקפים.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SERVERNAME</base>
+        <trans>שם השרת חייב להתחיל באות אנגלית (גדולה או קטנה), ואחריה כל צירוף של אותיות, מספרים, ומקפים תחתונים.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP_MATCHES_SERVERNAME</base>
+        <trans>שמות השרתים וקבוצת העבודה זהים כאשר משווים אותם באותיות קטנות. ערכים אלה חייבים להיות שונים על מנת שניתן יהיה להפעיל שיתוף קבצים.</trans>
+    </entry>
+    <entry>
+        <base>Workgroup</base>
+        <trans>קבוצת עבודה</trans>
+    </entry>
+</lexicon>

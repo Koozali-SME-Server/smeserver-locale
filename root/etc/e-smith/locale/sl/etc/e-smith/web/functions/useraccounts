@@ -1,0 +1,242 @@
+<lexicon lang="sl">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Ustvari, popravi ali odstrani uporabnika</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> <a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">Dodaj uporabnika</a> </p> <p> Tu lahko popravis, zaklenes ali odstranis uporabnika in pa resetiras geslo uporabnika s pritiskom na gumb poleg imena uporabnika. </p> <p> Ce je uporabnik oznacen kot zaklenjen, pomeni da je potrebno geslo uporabnika resetirati. Prosim, bodi pozoren ker je pri novih uporabnikih racun zaklenjen avtomatsko, dokler se ne vnese geslo. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>P2_TITLE</base>
+        <trans>Ustvari ali popravi</trans>
+    </entry>
+    <entry>
+        <base>CREATE_MODIFY_DESC</base>
+        <trans><![CDATA[ <p> Racun lahko vsebuje samo male crke in stevilke, ter se mora obvezno zaceti z malo crko. Primer: "betty", "polde", "janez-kranjski" so vse pravilna imena racunov, toda "3prijatelji", Janez Kranjski" in "marjan_glavni" niso pravilni. </p> <p> Pozor. Za vsak nov racun bosta kreirana dva vzdevka-naziva. Torej za racun "glavni" z imenom "marjan" in priimkom "taglavni" bosta kreirana vzdevka locena z piko (.) in podcrtajem (_) : "marjan.taglavni" in "marjan_taglavni" . </p> <p> Uporbniski podatki (oddelek, podjetje, itd) se lahko popravijo iz osnovnih na podatke prikazane spodaj. Spremembe bodo vplivale samo na ta racun. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MODIFY_ADMIN_TITLE</base>
+        <trans>Uredi Admin racun</trans>
+    </entry>
+    <entry>
+        <base>USER_CREATED</base>
+        <trans>Uspesno narejen uporabniski racun.</trans>
+    </entry>
+    <entry>
+        <base>USER_MODIFIED</base>
+        <trans>Uspesno popravljen uporabiski racun.</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER</base>
+        <trans>Napaka: Prislo je do interne napake pri urejanju uporabnika "{$acctName}".</trans> 
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER_GROUPS</base> 
+        <trans>Napaka: Prislo je do notranje napake pri urejanju skupine "{$group}" za uporabnika "{$acctName}".</trans>
+    </entry>
+    <entry>
+        <base>TAINTED_USER</base>
+        <trans>Uporabniski racun "{$acctName}" vsebuje neveljaven znak.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME</base>
+        <trans>Ime racuna</trans>
+    </entry>
+    <entry>
+        <base>FIRSTNAME</base>
+        <trans>Ime</trans>
+    </entry>
+    <entry>
+        <base>LASTNAME</base>
+        <trans>Priimek</trans>
+    </entry>
+    <entry>
+        <base>DEPARTMENT</base>
+        <trans>Oddelek</trans>
+    </entry>
+    <entry>
+        <base>COMPANY</base>
+        <trans>Podjetje</trans>
+    </entry>
+    <entry>
+        <base>STREET_ADDRESS</base>
+        <trans>Naslov</trans>
+    </entry>
+    <entry>
+        <base>CITY</base>
+        <trans>Mesto</trans>
+    </entry>
+    <entry>
+        <base>PHONE_NUMBER</base>
+        <trans>Telefonska stevilka</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_DELIVERY</base>
+        <trans>Dostava e-poste</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_EMAIL_LOCALLY</base>
+        <trans>Dostavi posto lokalno</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_EMAIL</base>
+        <trans>Preusmeri na spodnji naslov</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_AND_FORWARD</base>
+        <trans>Dostavi posto lokalno in na spodnji naslov</trans>
+    </entry>
+    <entry>
+        <base>FORWARDING_ADDRESS</base>
+        <trans>Posto posreduj na</trans>
+    </entry>
+    <entry>
+        <base>GROUP_MEMBERSHIPS</base>
+        <trans>Clan skupine</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC</base>
+        <trans>Si na tem, da spremenis uporabisko geslo</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC2</base>
+        <trans>Vpisi novo geslo v polje spodaj</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_MODIFYING_PASSWORD</base>
+        <trans>Prislo je do napake pri spremembi gesla!</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE_SUCCEEDED</base>
+        <trans>Uspesno spremenjeno geslo za racun "{$acctName}".</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC</base>
+        <trans>Si pred tem, da zaklenes racun uporabnika</trans>
+    </entry>
+    <entry>
+        <base>LOCKED_ACCOUNT</base>
+        <trans>Uspesno zaklenjen racun uporabnika "{$acctName}".</trans>
+    </entry>
+    <entry>
+        <base>NO_SUCH_USER</base>
+        <trans>Napaka: Uporabniski racun "{$acctName}" ne obstaja.</trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM_CLASH</base>
+        <trans>Napaka: Vzdevek "{$pseudonym}" je ze v uporabi pri obsojecemu uporabniskemu racunu "{$clashName}". Za razlikovanje dodaj inicijalke v to polje."</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT</base>
+        <trans>Zakleni racun</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT_TITLE</base>
+        <trans>Zakleni uporabniski racun</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC2</base>
+        <trans><![CDATA[ Ta uporabniski racun bo zakljenjen. To pomeni, da se uporabnik ne bo mogel prijaviti na svoj racun in pregledovati svoje e-poste. Vsa e-posta, ki bo prispela, bo shranjena in/ali posredovana na zunanji naslov e-poste ce je nastavljen. Racun se lahko ponovno aktivira z dodelitvijo novega gesla. Obstojece geslo ne bo obdrzano. </p> <p> <b>Ali si preprican, da zelis zakleniti ta racun?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>REMOVE_ACCOUNT_TITLE</base>
+        <trans>Izbrisi uporabniski racun</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Ali si preprican, da zelis izbrisati uporabniski racun</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans><![CDATA[ Vse datoteke, ki pripadajo uporabniku racuna bodo izbrisane. Tudi vsa e-posta, ki se ni bila prenesena z Streznika bo izbrisana. </p> <p> <b>Ali si preprican, da zelis izbrisati ta racun?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>LOCK</base>
+        <trans>Zakleni</trans>
+    </entry>
+    <entry>
+        <base>NO_USER_ACCOUNTS</base>
+        <trans>Uporabniski racun ne obstaja.</trans>
+    </entry>
+    <entry>
+        <base>Users</base>
+        <trans>Uporabniki</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>Naziv racuna "{$acctName}" vsebuje napacen znak. Ime racuna se mora zaceti z malo crko in vsebovati samo crke, stevilke in podcrtaj.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_TOO_LONG</base>
+        <trans>Napaka: Ime racuna je predolgo. Maximalna dolzina je {$maxLength} znakov.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>Napaka: Racuna "{$account}" ne mores kreirati ker tak racun {$type} ze obstaja.</trans>
+    </entry>    
+    <entry>
+        <base>ERR_OCCURRED_CREATING</base>
+        <trans>Pri kreiranju uporabnika je prislo do napake.</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_CONTAIN_WHITESPACE</base>
+        <trans>To polje ne sme vsebovati presledka</trans>
+    </entry>
+    <entry>
+        <base>UNACCEPTABLE_CHARS</base>
+        <trans>To polje lahko vsebuje smo crke, stevilke, pikoali podcrtaj in se zacne samo z crko.</trans>
+    </entry>
+    <entry>
+        <base>MEMBER</base>
+        <trans>Clan?</trans>
+    </entry>
+    <entry>
+        <base>VPN_CLIENT_ACCESS</base>
+        <trans>VPN dostop</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_FORM_TITLE</base>
+        <trans>Spremeni sistemsko geslo</trans>
+    </entry>    
+    <entry> 
+        <base>SYSTEM_PASSWORD_DESCRIPTION</base>
+        <trans><![CDATA[ Nekateri servisi na tem Strezniku potrebujejo uporabnisko ime in geslo za dostop. Uporabnisko ime je vedno admin. Lahko pa spremenis sistemsko geslo v spodnjih poljih. ]]></trans>        
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS</base>
+        <trans>Geslo mora vsebovati samo prave znake</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_VERIFY_ERROR</base>
+        <trans>Vneseni gesli nista enaki.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_AUTH_ERROR</base>
+        <trans>Trenutno geslo ni pravilno.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_CHANGED</base>
+        <trans>Sistemsko geslo je bilo spremenjeno</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_SYSTEM_PASSWORD</base>
+        <trans>Trenutno sistemsko geslo</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD</base>
+        <trans>Novo sistemsko geslo</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD_VERIFY</base>
+        <trans>Novo sistemsko geslo (ponovno)</trans>
+    </entry>            
+    <entry>
+        <base>LABEL_IPSECRW_DOWNLOAD</base>
+        <trans>Prenesi digitalni certifikat na IPSec client</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_DELETING</base>
+        <trans>An error occurred while trying to delete the user.</trans>
+    </entry>
+</lexicon>

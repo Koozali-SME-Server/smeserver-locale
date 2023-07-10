@@ -1,0 +1,84 @@
+<lexicon lang="bg">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Създаване, промяна или изтриване на потребителски групи</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_TOO_LONG</base>
+        <trans>Грешка: името на групата е твърде дълго. Максималният брой знаци е {$maxLength}.</trans>
+    </entry>    
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>Грешка: групата "{$group}" не може да бъде създадена защото вече има {$type} акаунт с това име.</trans>
+    </entry>    
+    <entry>
+        <base>INVALID_GROUP_DESCRIPTION</base>
+        <trans>Грешка: неочаквани или липсващи символи в описанието на групата</trans>
+    </entry>
+    <entry>
+        <base>NO_MEMBERS</base>
+        <trans>Грешка: няма членове в групата. Новата група не бе създадена.</trans>
+    </entry>
+    <entry>
+        <base>CREATED_GROUP</base>
+        <trans>Потребителската група беше успешно съзадена</trans>
+    </entry> 
+    <entry>
+        <base>DELETED_GROUP</base>
+        <trans>Успешно премахване на потребителската група</trans>
+    </entry> 
+    <entry>
+        <base>MODIFIED_GROUP</base>
+        <trans>Потребителската група бе успешно променена</trans>
+    </entry>	
+    <entry>
+        <base>CREATE_ERROR</base>
+        <trans>Възникна грешка по време на създаването на потребителската група.</trans>
+    </entry> 
+    <entry>
+        <base>DELETE_ERROR</base>
+        <trans>Възникна грешка по време на премахването на потребителската група.</trans>
+    </entry> 
+    <entry>
+        <base>MODIFY_ERROR</base>
+        <trans>Възникна грешка по време на промяната на потребителската група.</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_NAMING</base>
+        <trans><![CDATA[ Името на групата трябва да съдържа само малки букви, цифри, тирета, точки и знаци за подчертаване и трябва да започва с малка буква. Например, "sales", "beta5" и "reseller_partners" са валидни имена на група, а "3rd-event", "Marketing Team" и "lost&found" не са. ]]></trans>
+    </entry>
+    <entry>
+        <base>GROUP_HAS_MEMBERS</base>
+        <trans>Групата съдържа следните членове:</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_GROUP</base>
+        <trans>Грешка: Това не е съществуващ акаунт на група.</trans>
+    </entry>
+    <entry>
+        <base>GROUP_DESC</base>
+        <trans>Кратко описание/Псевдоним на Windows група</trans>
+    </entry>
+   <entry>
+        <base>GROUP_DESC_EXPL</base>
+        <trans>Въведете кратко описание на групата в полето по-долу. Това поле също определя името на групата, както ще го виждат клиентите с Windows.</trans>
+   </entry>
+
+
+    <entry>
+        <base>IBAYS_WILL_BE_CHANGED</base>
+        <trans>Следните информационни слотове бяха присвоени към тази група и ще бъдат променени за групата Administrator (можете да ги промените в нещо различно след това):</trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DELETE_GROUP</base>
+        <trans><![CDATA[ <p><b>Сигурни ли сте, че искате да премахнете тази група?</b></p> ]]></trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST</base>
+        <trans><![CDATA[<p>Текущ списък на потребителските групи</p>]]></trans>
+    </entry>
+    <entry>
+		<base>DELETE_DESCRIPTION</base>
+       	<trans><![CDATA[ На път сте да премахнете потребителската група "<b>{$group}</b>." ]]></trans>
+    </entry>
+</lexicon>

@@ -1,0 +1,520 @@
+<lexicon lang="nb">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>Collaboration</base>
+        <trans>Samarbeid</trans>
+    </entry>
+    <entry>
+      <base>Administration</base>
+      <trans>Administrasjon</trans>
+    </entry>
+    <entry>
+        <base>Security</base>
+        <trans>Sikkerhet</trans>
+    </entry>
+    <entry>
+        <base>Configuration</base>
+        <trans>Oppsett</trans>
+    </entry>
+    <entry>
+        <base>Miscellaneous</base>
+        <trans>Diverse</trans>
+    </entry>
+    <entry>
+        <base>Your Settings</base>
+        <trans>Dine innstillinger</trans>
+    </entry>
+    <entry>
+        <base>SAVE</base>
+        <trans>Lagre</trans>
+    </entry>
+    <entry>
+        <base>CANCEL</base>
+        <trans>Avbryt</trans>
+    </entry>
+    <entry>
+        <base>ENABLED</base>
+        <trans>aktivert</trans>
+    </entry>
+    <entry>
+        <base>DISABLED</base>
+        <trans>Deaktivert</trans>
+    </entry>
+    <entry>
+        <base>NO</base>
+        <trans>Nei</trans>
+    </entry>
+    <entry>
+        <base>YES</base>
+        <trans>Ja</trans>
+    </entry>
+    <entry>
+        <base>ADD</base>
+        <trans>Legg til</trans>
+    </entry>
+    <entry>
+        <base>CREATE</base>
+        <trans>Opprett</trans>
+    </entry>
+    <entry>
+        <base>MODIFY</base>
+        <trans>Endre</trans>
+    </entry>
+    <entry>
+        <base>REMOVE</base>
+        <trans>Fjern</trans>
+    </entry>
+    <entry>
+        <base>COMMENT</base>
+        <trans>Kommentar</trans>
+    </entry>
+    <entry>
+        <base>NEXT</base>
+        <trans>Neste</trans>
+    </entry>
+    <entry>
+        <base>SELF</base>
+        <trans>Selv</trans>
+    </entry>
+    <entry>
+        <base>REMOTE</base>
+        <trans>Fjern</trans>
+    </entry>
+    <entry>
+        <base>LOCAL</base>
+        <trans>Lokal</trans>
+    </entry>
+    <entry>
+        <base>ACTION</base>
+        <trans>Handling</trans>
+    </entry>
+    <entry>
+        <base>NETWORK</base>
+        <trans>Nettverk</trans>
+    </entry>
+    <entry>
+        <base>ROUTER</base>
+        <trans>Ruter</trans>
+    </entry>
+    <entry>
+        <base>OPERATION_STATUS_REPORT</base>
+        <trans>Statusrapport for operasjonen</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT</base>
+        <trans>Konto</trans>
+    </entry>
+    <entry>
+        <base>GROUP</base>
+        <trans>Gruppe</trans>
+    </entry>
+    <entry>
+        <base>DESC_SECTIONBAR</base>
+        <trans><![CDATA[ ]]></trans>
+    </entry>
+    <entry>
+        <base>NO_PIPES_ALLOWED</base>
+        <trans>Pipe symboler (|) er ikke tillatt i dette feltet</trans>
+    </entry>
+    <entry>
+        <base>ERROR_BELOW</base>
+        <trans>Feil: Det oppsto en feil ved validering av siden. rull ned og rett opp den spesifikke problemet.</trans>
+    </entry>
+    <entry>
+        <base>ACCESS</base>
+        <trans>Tilgang</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_LOCKED</base>
+        <trans>Kontoen er låst</trans>
+    </entry>
+    <entry>
+        <base>GROUP_ADD</base>
+        <trans>Legg til gruppe</trans>
+    </entry>
+    <entry>
+        <base>NETWORKS_ALLOW_LOCAL</base>
+        <trans>Tillat tilgang bare fra det lokale nettverket</trans>
+    </entry>
+    <entry>
+        <base>NETWORKS_ALLOW_PUBLIC</base>
+        <trans>Tillat offentlig tilgang (hele internett)</trans>
+    </entry>
+    <entry>
+        <base>ERROR_PASSWORD_CHANGE</base>
+        <trans>En feil oppsto under endring av passordet ditt. sjekk at det gamle passordet er korrekt.</trans>
+    </entry>
+    <entry>
+        <base>BACK</base>
+        <trans>Tilbake</trans>
+    </entry>
+    <entry>
+        <base>BACKUP</base>
+        <trans>Sikkerhetskopi</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION_BRIEF</base>
+        <trans>Kort beskrivelse</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE</base>
+        <trans>Endre passord</trans>
+    </entry>
+    <entry>
+        <base>RESET_PASSWORD_TITLE</base>
+        <trans>Nullstill bruker passord</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_PASSWORD_CHANGE</base>
+        <trans>Endre konto passord</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>Innehold</trans>
+    </entry>
+    <entry>
+        <base>CREATE_GROUP</base>
+        <trans>Opprett bruker gruppe</trans>
+    </entry>
+    <entry>
+        <base>USER_LIST_CURRENT</base>
+        <trans>Gjeldende liste over brukere</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans>Beskrivelse</trans>
+    </entry>
+    <entry>
+        <base>DESTINATION</base>
+        <trans>Mål</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME</base>
+        <trans>Domenenavn</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN</base>
+        <trans>Domene</trans>
+    </entry>
+    <entry>
+        <base>DOMAINS</base>
+        <trans>Domener</trans>
+    </entry>
+    <entry>
+        <base>DOWNLOAD</base>
+        <trans>Last ned</trans>
+    </entry>
+    <entry>
+        <base>ERROR_UPDATING_CONFIGURATION</base>
+        <trans>En feil oppsto når systeminnstillingene ble oppdatert.</trans>
+    </entry>
+    <entry>
+        <base>GROUP_MEMBERS</base>
+        <trans>Gruppe medlemmer</trans>
+    </entry>
+    <entry>
+        <base>GROUP_NAME</base>
+        <trans>Gruppenavn</trans>
+    </entry>
+    <entry>
+        <base>GROUPS</base>
+        <trans>Grupper</trans>
+    </entry>
+    <entry>
+        <base>IP_ADDRESS</base>
+        <trans>IP adresse</trans>
+    </entry>
+    <entry>
+        <base>IP_ADDRESS_OR_FQDN</base>
+        <trans>IP adresse</trans>
+    </entry>
+    <entry>
+        <base>USER_INVALID</base>
+        <trans>Ugyldig bruker</trans>
+    </entry>
+    <entry>
+        <base>LOCATION</base>
+        <trans>Lokasjon</trans>
+    </entry>
+    <entry>
+        <base>MB</base>
+        <trans>Mb</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_USER_GROUP</base>
+        <trans>Endre brukergruppe</trans>
+    </entry>
+    <entry>
+        <base>NAME</base>
+        <trans>Navn</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_VERIFY_NEW</base>
+        <trans>Nytt passord (bekreft):</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_NEW</base>
+        <trans>Nytt passord:</trans>
+    </entry>
+    <entry>
+        <base>OFF</base>
+        <trans>Fra</trans>
+    </entry>
+    <entry>
+        <base>OK</base>
+        <trans>Ok</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_OLD</base>
+        <trans>Gammelt passord:</trans>
+    </entry>
+    <entry>
+        <base>ON</base>
+        <trans>På</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD</base>
+        <trans>Passord</trans>
+    </entry>
+    <entry>
+        <base>PERFORM</base>
+        <trans>Utfør</trans>
+    </entry>
+    <entry>
+        <base>RECONFIGURE</base>
+        <trans>Omkonfigurer</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_USER_GROUP</base>
+        <trans>Fjerne brukergruppe</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_RESET</base>
+        <trans>Nulstill passord</trans>
+    </entry>
+    <entry>
+        <base>RESTORE</base>
+        <trans>Gjenopprett</trans>
+    </entry>
+    <entry>
+        <base>SHUTDOWN</base>
+        <trans>Slå av</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Suksess</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME_INVALID</base>
+        <trans>Kontonavnet er ugyldig.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME_INVALID_CHARS</base>
+        <trans>Kontonavnet inneholder ugyldige tegn.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_OLD_INVALID_CHARS</base>
+        <trans>Det gamle passordet inneholder ugyldige tegn.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_INVALID_CHARS</base>
+        <trans>Passordet du oppga inneholder ugyldige tegn.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_VERIFY_ERROR</base>
+        <trans>Passordene du oppga er ikke like.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_USER_NONE</base>
+        <trans>Det er ingen brukere på systemet.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_GROUP_NONE</base>
+        <trans>Det er ingen grupper på systemet.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_INVALID_CHARS</base>
+        <trans>Uventede tegn i beskrivelsen.</trans>
+    </entry>
+    <entry>
+        <base>USER_NAME</base>
+        <trans>Ditt navn</trans>
+    </entry>
+    <entry>
+        <base>YOUR_ACCOUNT</base>
+        <trans>Din konto:</trans>
+    </entry>
+    <entry>
+      <base>YOUR_ACCOUNT_INVALID</base>
+      <trans>Kontonavnet er ugyldig.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE_SUCCESS</base>
+        <trans>Passordet er endret.</trans>
+    </entry>
+    <entry>
+        <base>FM_NONBLANK</base>
+        <trans>Feltet kan ikke være tomt</trans>
+    </entry>
+    <entry>
+        <base>FM_INTEGER</base>
+        <trans>Feltet må innehode et positivt tall</trans>
+    </entry>
+    <entry>
+        <base>FM_NUMBER</base>
+        <trans>Feltet må inneholde et nummer</trans>
+    </entry>
+    <entry>
+        <base>FM_WORD</base>
+        <trans>Feltet må se ut som et enkelt ord.</trans>
+    </entry>
+    <entry>
+        <base>FM_DATE</base>
+        <trans>Dataene som ble oppgitt kan ikke brukes som en dato</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER1</base>
+        <trans>Du må oppgi et kredittkortnummer</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER2</base>
+        <trans>Kredittkortnummer skal kun inneholde tall, mellomrum, og punktum</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER3</base>
+        <trans>Må være minst 14 tegne langt</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER4</base>
+        <trans>Ser ikke ut til å være et gyldig kreditkortnummer</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY1</base>
+        <trans>Ingen utløpsdato er oppgitt.</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY2</base>
+        <trans>Utløpsdato må være i formatet MM/ÅÅ eller MM/ÅÅÅÅ</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY3</base>
+        <trans>Utløpsdatoen er allerede passert</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY4</base>
+        <trans>Utløpsdatoen ser ut til å være for langt frem i tid</trans>
+    </entry>
+    <entry>
+        <base>FM_ISO_COUNTRY_CODE1</base>
+        <trans>Du må oppgi landskode</trans>
+    </entry>
+    <entry>
+        <base>FM_ISO_COUNTRY_CODE2</base>
+        <trans>Feltet inneholder ikke en ISO landskode</trans>
+    </entry>
+    <entry>
+        <base>FM_US_STATE</base>
+        <trans>Dette ser ikke ut til å være en gyldig 2tegns US stat forkortelse</trans>
+    </entry>
+    <entry>
+        <base>FM_US_ZIPCODE</base>
+        <trans>US zip koder må inneholde 5 eller 9 tall</trans>
+    </entry>
+    <entry>
+        <base>FM_MINLENGTH1</base>
+        <trans>Minimumslengden har blitt spesifisert meningsløst som {$minlength}</trans>
+    </entry>
+    <entry>
+        <base>FM_MINLENGTH2</base>
+        <trans>Feltet må minst inneholde {$minlength} tegn</trans>
+    </entry>
+    <entry>
+        <base>FM_MAXLENGTH1</base>
+        <trans>Maksimumslengden har blitt spesifisert meningsløst som {$maxlength}</trans>
+    </entry>
+    <entry>
+        <base>FM_MAXLENGTH2</base>
+        <trans>Feltet må ikke inneholde flere en {$maxlength} tegn</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH1</base>
+        <trans>Du må spesifisere lengden på feltet.</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH2</base>
+        <trans>Du må spesifisere den eksakte lengden med et tall</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH3</base>
+        <trans>Feltet må være eksakt {$exactlength} tegn langt</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE1</base>
+        <trans>Du må spesifisere maksimum og minimum lengden på feltet.</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE2</base>
+        <trans>Du må spesifisere maksimum og minimum lengden på feltet med et tall</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE3</base>
+        <trans>Feltet må være mellom {$minlength} og {$maxlength} tegn</trans>
+    </entry>
+    <entry>
+        <base>FM_URL</base>
+        <trans>Feltet må inneholde en URL som starter med http:// eller ftp://</trans>
+    </entry>
+    <entry>
+        <base>FM_EMAIL_SIMPLE1</base>
+        <trans>Du må oppgi en e-post adresse.</trans>
+    </entry>
+    <entry>
+        <base>FM_EMAIL_SIMPLE2</base>
+        <trans>Feltet ser ikke ut til å være en RFC822-kompatibel e-postadresse</trans>
+    </entry>
+    <entry>
+        <base>FM_DOMAIN_NAME</base>
+        <trans>Feltet ser ikke ut til å være et gyldig internett domenenavn eller maskinnavn.</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER1</base>
+        <trans>Feltet må inneholde en gyldig IP adresse og kan ikke være tom.</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER2</base>
+        <trans>Ugyldig IP-adresse til DHCP-start</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER3</base>
+        <trans>{$octet} er mer en 255</trans>
+    </entry>
+    <entry>
+        <base>FM_USERNAME</base>
+        <trans>Feltet må se ut som et gyldig brukernavn. (3 til 8 tegn)</trans>
+    </entry>
+    <entry>
+        <base>FM_PASSWORD1</base>
+        <trans>Du må oppgi et passord.</trans>
+    </entry>
+    <entry>
+        <base>FM_PASSWORD2</base>
+        <trans>Det oppgitte passordet er ikke et godt passord. Et godt passord bå inneholde følgende: Stor bokstav, liten bokstav, tall, ikke-alfanumerisk tegn, og være minst 7 tegn langt.</trans>
+    </entry>
+    <entry>
+        <base>FM_MAC_ADDRESS1</base>
+        <trans>Du må oppgi MAC adresse.</trans>
+    </entry>
+    <entry>
+        <base>FM_MAC_ADDRESS2</base>
+        <trans>MAC adressen er ikke gyldig.</trans>
+    </entry>
+    <entry>
+	<base>FM_ERR_UNEXPECTED_DESC</base>
+	<trans>Feil: uventet eller manglende tegn i beskrivelsen</trans>
+    </entry>
+    <entry>
+        <base>CSRF_VALIDATION_FAILURE</base>
+        <trans>Error: CSRF token is invalid or outdated.</trans>
+    </entry>
+</lexicon>

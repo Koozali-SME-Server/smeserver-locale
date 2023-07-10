@@ -1,0 +1,43 @@
+<lexicon lang="fr">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>Création d'un premier site Web</trans>
+      </entry>
+      <entry>
+	<base>SUCCESS</base>
+	<trans>Création réussie de votre premier site Web (écriture du fichier index.htm). Vous pouvez voir ce nouveau site Web à l'adresse suivante :</trans>
+      </entry>
+      <entry>
+	<base>DESCRIPTION</base>
+	  <trans><![CDATA[ <p>Pour créer une page Web simple pour votre organisation, remplissez les champs ci-dessous et cliquez sur le bouton "Créer".</p> <p>Vous pouvez laisser n'importe lequel de ces champs vide si vous n'en avez pas l'utilité.</p> <p>Le texte que vous taperez ci-dessous s'affichera avec des retours à la ligne automatiques pour que la page Web soit conforme à ce que vous tapez. Laissez une ligne vide chaque fois que vous voulez commencer un nouveau paragraphe. Si vous avez besoin d'imposer un retour à la ligne sans commencer un nouveau paragraphe (par exemple, après chaque ligne d'une adresse), alors tapez la séquence de quatre caractères : <blockquote>&lt;BR&gt;</blockquote> où vous souhaitez avoir le saut de ligne.</p> <p><b>N'utilisez pas cette fonctionnalité</b> si vous avez déjà personnalisé votre site Web, car elle écrasera le contenu du fichier "index.htm" de votre site primaire.</p> ]]></trans>
+      </entry>
+      <entry>
+	<base>LABEL_COMPANYNAME</base>
+	<trans>Nom de votre organisation</trans>
+      </entry>
+	
+      <entry> 
+	<base>DESC_HEADER1</base>
+	<trans>Le premier en-tête est généralement utilisé pour des phrases courtes comme "Leader dans le domaine de la fabrication textile" :</trans>
+      </entry>
+      <entry> 
+	<base>DESC_TEXT1</base>
+	<trans>Le texte qui suit le premier en-tête est généralement utilisé pour décrire votre organisation de façon détaillée :</trans>
+      </entry>
+      <entry> 
+	  <base>DESC_HEADER2</base>
+	<trans>Le deuxième en-tête est généralement utilisé pour des phrases courtes comme "Pour de plus amples informations" ou "Pour commander nos produits" :</trans>
+	</entry>
+      <entry> 
+	<base>DESC_TEXT2</base>
+	<trans>Le texte qui suit le deuxième en-tête est généralement utilisé pour fournir les informations relatives au contact ou à la commande :</trans>
+	</entry>
+      <entry>
+	<base>DESC_SUBMIT</base>
+	<trans><![CDATA[ <p>Lorsque vous créerez cette page Web, le fichier "index.htm" sera écrasé dans le répertoire de votre site primaire.</p> <p><b>Voulez-vous continuer ?</b></p> ]]></trans>
+      </entry>
+      <entry>
+	<base>Create starter web site</base>
+	<trans>Votre premier site Web</trans>
+      </entry>
+</lexicon>

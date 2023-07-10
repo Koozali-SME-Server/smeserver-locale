@@ -1,0 +1,84 @@
+<lexicon lang="th">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>สร้างแก้ไขหรือลบกลุ่มผู้ใช้</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_TOO_LONG</base>
+        <trans>ข้อผิดพลาด: ชื่อกลุ่มยาวเกินไป ความยาวสูงสุดคือ {$maxLength} ตัวอักษร</trans>
+    </entry>    
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>ผิดพลาด:  ไม่สามารถสร้างกลุ่ม "{$group}" เนื่องจากมีบัญชีชนิด  {$type} ที่มีชื่อนี้อยู่แล้ว</trans>
+    </entry>    
+    <entry>
+        <base>INVALID_GROUP_DESCRIPTION</base>
+        <trans>ผิดพลาด: มีสามารถตีความหรือไม่มีตัวอักษรในรายละเอียดของกลุ่ม</trans>
+    </entry>
+    <entry>
+        <base>NO_MEMBERS</base>
+        <trans>ผิดพลาด: ไม่มีสมาชิกในกลุ่ม ไม่ได้ทำการสร้างกลุ่มใหม่</trans>
+    </entry>
+    <entry>
+        <base>CREATED_GROUP</base>
+        <trans>สร้างกลุ่มผู้ใช้เสร็จสิ้นแล้ว</trans>
+    </entry> 
+    <entry>
+        <base>DELETED_GROUP</base>
+        <trans>ลบกลุ่มผู้ใช้เสร็จสิ้นแล้ว</trans>
+    </entry> 
+    <entry>
+        <base>MODIFIED_GROUP</base>
+        <trans>แก้ไขกลุ่มผู้ใช้เสร็จสิ้นแล้ว</trans>
+    </entry>	
+    <entry>
+        <base>CREATE_ERROR</base>
+        <trans>เกิดข้อผิดพลาดขณะสร้างกลุ่มผู้ใช้</trans>
+    </entry> 
+    <entry>
+        <base>DELETE_ERROR</base>
+        <trans>เกิดข้อผิดพลาดขณะลบกลุ่มผู้ใช้</trans>
+    </entry> 
+    <entry>
+        <base>MODIFY_ERROR</base>
+        <trans>เกิดข้อผิดพลาดขณะแก้ไขกลุ่มผู้ใช้</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_NAMING</base>
+        <trans><![CDATA[ ชื่อกลุ่มจะต้องมีเฉพาะตัวอักษรภาษาอังกฤษพิมพ์เล็ก ตัวเลข จุด ยติภังค์ (-) และขีดล่าง (_) และต้องเริ่มด้วยอักษร เช่น  "sales", "beta5", และ "reseller_partners" ซึ่งถูกต้อง แต่ "3rd-event", "Marketing Team" และ "lost&found" จะใช้ไม่ได้]]></trans>
+    </entry>
+    <entry>
+        <base>GROUP_HAS_MEMBERS</base>
+        <trans>กลุ่มนี้มีสมาชิกต่อไปนี้:</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_GROUP</base>
+        <trans>ผิดพลาด: ไม่มีชื่อบัญชีกลุ่มนี้อยู่</trans>
+    </entry>
+    <entry>
+        <base>GROUP_DESC</base>
+        <trans>คำอธิบายโดยย่อ/Windows Group Alia</trans>
+    </entry>
+   <entry>
+        <base>GROUP_DESC_EXPL</base>
+        <trans>ป้อนคำอธิบายกลุ่มสั้นในช่องด้านล่าง ฟิลด์นี้ยังกำหนดชื่อกลุ่มที่จะมองเห็นโดยเครื่องลูกที่เป็นระบบ Windows</trans>
+   </entry>
+
+
+    <entry>
+        <base>IBAYS_WILL_BE_CHANGED</base>
+        <trans>information bays ที่ถูกกำหนดให้กับกลุ่มต่อไปนี้จะถูกเปลี่ยนให้เป็น "กลุ่มผู้ดูแลระบบ" (คุณสามารถเปลี่ยนให้อย่างอื่นได้ภายหลัง)</trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DELETE_GROUP</base>
+        <trans><![CDATA[ <p><b>คุณแน่ใจหรือว่าต้องการลบกลุ่มนี้?</b></p> ]]></trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST</base>
+        <trans><![CDATA[<p>รายการกลุ่มของผู้ใช้ในปัจจุบัน</p>]]></trans>
+    </entry>
+    <entry>
+		<base>DELETE_DESCRIPTION</base>
+       	<trans><![CDATA[ คุณกำลังจะลบกลุ่มผู้ใช้ "<b>{$group}</b>." ]]></trans>
+    </entry>
+</lexicon>

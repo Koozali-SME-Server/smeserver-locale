@@ -1,0 +1,79 @@
+<lexicon lang="es">
+   <entry>
+     <base>FORM_TITLE</base>
+       <trans>Cambiar la configuración del directorio LDAP</trans>
+   </entry>	
+<entry>
+<base>LABEL_ROOT</base>
+<trans>Servidor raíz</trans>
+</entry>
+
+<entry>
+<base>DESCRIPTION</base>
+<trans>El servidor LDAP proporciona un listado disponible en la red de las cuentas y grupos de usuarios del servidor, al cual se puede acceder utilizando un cliente LDAP como la función Libreta de Direcciones en Netscape Communicator. Configure el cliente LDAP con la dirección IP local del servidor, número de puerto 389 y el parámetro de servidor raíz que se muestra a continuación.</trans>
+</entry>
+<entry>
+<base>DESC_DIRECTORY_ACCESS</base>
+<trans>Usted puede controlar el acceso al directorio LDAP: la configuración privada sólo permite el acceso desde la red local y la configuración pública permite el acceso desde cualquier lugar de Internet.</trans>
+</entry>
+<entry>
+<base>DIRECTORY_ACCESS</base>
+<trans>Acceso al directorio LDAP</trans>
+</entry>
+<entry>
+	<base>DESC_DEPARTMENT</base>
+<trans>Estos campos son los valores predeterminados de LDAP para su organización. Cuando cree una nueva cuenta de usuario, se le solicitará que llene todos estos campos (que pueden ser diferentes para cada usuario), pero los valores que configure aquí se mostrarán como valores predeterminados. Esto permite acelerar la creación de cuentas de usuario.</trans>
+</entry>
+<entry>
+        <base>DEPARTMENT</base>
+        <trans>Departamento predeterminado</trans>
+</entry>
+
+<entry>
+        <base>COMPANY</base>
+        <trans>Compañía predeterminada</trans>
+</entry>
+<entry>
+        <base>STREET</base>
+        <trans>Dirección predeterminada</trans>
+</entry>
+
+<entry>
+        <base>CITY</base>
+        <trans>Ciudad predeterminada</trans>
+</entry>
+
+<entry>
+        <base>PHONENUMBER</base>
+        <trans>Número telefónico predeterminado</trans>
+</entry>
+
+<entry>
+<base>DESC_EXISTING</base>
+<trans>Puede dejar las cuentas de usuario existentes tal como están, utilizando los valores predeterminados anteriores sólo para los nuevos usuarios, o puede aplicar también estos valores a todos los usuarios existentes.</trans>
+</entry>
+
+
+
+<entry>
+<base>EXISTING</base>
+<trans>Usuarios existentes</trans>
+</entry>
+<entry>
+<base>SUCCESS</base>
+<trans>Se guardó la nueva configuración predeterminada de LDAP.</trans>
+</entry>
+
+<entry>
+<base>LEAVE</base>
+<trans>Dejar como están</trans>
+</entry>
+<entry>
+<base>UPDATE</base>
+<trans>Actualizar con los nuevos valores predeterminados</trans>
+</entry>
+    <entry>
+        <base>Directory</base>
+        <trans>Directorio</trans>
+    </entry>
+</lexicon>

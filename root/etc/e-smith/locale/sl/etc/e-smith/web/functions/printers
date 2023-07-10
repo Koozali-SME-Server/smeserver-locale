@@ -1,0 +1,147 @@
+<lexicon lang="sl">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Dodaj ali odstrani tiskalnik</trans>
+    </entry>
+    <entry>
+      <base>INITIAL_DESC</base>
+      <trans><![CDATA[ <p><A class="button-like" HREF="printers?page=0&Next=Add">Dodaj tiskalnik</A></p> ]]></trans>
+    </entry>
+    <entry>
+      <base>NO_PRINTERS</base>
+      <trans>V sistemu ni nobenega tiskalnika.</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_LIST</base>
+      <trans>Trenutni seznam tiskalnikov</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_ADDRESS</base>
+      <trans>Oddaljen naslov</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_NAME</base>
+      <trans>Oddaljeno ime</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NEW_PRINTER</base>
+      <trans>Kreiraj nov tiskalnik</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NEW_DESC</base>
+      <trans>Prosim izberi unikatno ime za tiskalnik in kratek opis. Ime tiskalnika lahko vsebuje samo male crke naprimer "hplaser" ali "canonbj", imena kot so "HP Laser" ali "Canon BJ" pa niso pravilna.</trans>
+    </entry>
+    <entry>
+      <base>PRINTER_NAME</base>
+      <trans>Ime tiskalnika</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_0</base>
+      <trans>Lokalni tiskalniski port 0 (LPT1)</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_1</base>
+      <trans>Lokalni tiskalniski port 1 (LPT2)</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_2</base>
+      <trans>Lokalni tiskalniski port 2 (LPT3)</trans>
+    </entry>
+    <entry>
+      <base>NET_PRINTER</base>
+      <trans>Mrezni tiskalnik ...</trans>
+    </entry>
+    <entry>
+      <base>FIRST_USB_PRINTER</base>
+      <trans>Prvi USB tiskalnik</trans>
+    </entry>
+    <entry>
+      <base>SECOND_USB_PRINTER</base>
+      <trans>Drugi USB tiskalnik</trans>
+    </entry>
+    <entry>
+      <base>ERR_UNEXPECTED_NAME</base>
+      <trans><![CDATA[ <p>Napaka: V imenu tiskalnika so nepravi znaki-crke. </p> <p>Ime tiskalnika lahko vsebuje samo male crke in stevilke naprimer "hplaser" ali "canonbj" in se mora zaceti z malo crko. </p> ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_UNEXPECTED_DESC</base>
+      <trans>Napaka: Nepricakovan ali manjkajoc znak v opisu tiskalnika. Novi tiskalnik ni dodan.</trans>
+    </entry>
+    <entry>
+      <base>ERR_EXISTS</base>
+      <trans>Napaka: Racun z enakim imenom ze obstaja:</trans>
+    </entry>
+    <entry>
+      <base>ERR_INVALID_ADDRESS</base>
+      <trans>Napaka: Napacen mrezni maslov. Nov tiskalnik ni dodan.</trans>
+    </entry>
+    <entry>
+      <base>ERR_INVALID_REMOTE_NAME</base>
+      <trans>Napaka: Napacno ime mreznega tiskalnika. Nov tiskalnik ni dodan.</trans>
+    </entry>
+    <entry>
+      <base>ERR_CREATING</base>
+      <trans>Prislo je do napake pri kreiranju novega tiskalnika.</trans>
+    </entry>
+    <entry>
+      <base>CREATED_SUCCESSFULLY</base>
+      <trans>Nov tiskalnik uspesno dodan:</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NETWORK_PRINTER</base>
+      <trans>Dodaj nov mrezni tiskalnik</trans>
+    </entry>
+    <entry>
+      <base>ERR_OPENING_DB</base>
+      <trans>Prislo je do napake pri odpiranju uporabniske baze.</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NETWORK_DESC</base>
+      <trans>Prosim vnesi naslov in ime mreznega tiskalnika</trans>
+    </entry>
+    <entry>
+      <base>HOSTNAME_OR_IP</base>
+      <trans>Hostname ali IP stevilka mreznega tiskalnika</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_NAME_DESC</base>
+      <trans><![CDATA[ Ime mreznega tiskalnika (vnesti surovo ime, ce nisi preprican) ]]></trans>
+    </entry>
+    <entry>
+      <base>REMOVE_PRINTER</base>
+      <trans>Odstrani tiskalnik</trans>
+    </entry>
+    <entry>
+      <base>ABOUT_TO_REMOVE</base>
+      <trans>Ali si preprican, da zelis odstraniti tiskalnik:</trans>
+    </entry>
+    <entry>
+      <base>SPOOL_FILE_WARNING</base>
+      <trans>Vse datoteke, ki so v bazi bodo izbrisane.</trans>
+    </entry>
+    <entry>
+      <base>ARE_YOU_SURE</base>
+      <trans>Ali si preprican, da zelis odstraniti tiskalnik?</trans>
+    </entry>
+    <entry>
+      <base>ERR_INTERNAL_FAILURE</base>
+      <trans>Napaka: Interna napaka pri brisanju tiskalnika:</trans>
+    </entry>
+    <entry>
+      <base>ERR_DELETING</base>
+      <trans>Napaka occurred while deleting printer.</trans>
+    </entry>
+    <entry>
+      <base>DELETED_SUCCESSFULLY</base>
+      <trans>Uspesno izbrisan tiskalnik:</trans>
+    </entry>
+    <entry>
+        <base>MUST_BE_VALID_HOSTNAME_OR_IP</base>
+        <trans>Mora biti veljavno ime gostitelja ali IP stevilka</trans>
+    </entry>
+    <entry>
+	<base>Printers</base>
+	<trans>Tiskalniki</trans>
+    </entry>
+
+</lexicon>

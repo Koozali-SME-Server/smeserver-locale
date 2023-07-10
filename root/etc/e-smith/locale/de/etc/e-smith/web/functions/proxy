@@ -1,0 +1,42 @@
+<lexicon lang="de">
+    <entry>
+        <base>Proxy settings</base>
+        <trans>Proxy-Einstellungen</trans>
+    </entry>
+    <entry>
+        <base>FIRST_PAGE_DESCRIPTION</base>
+        <trans>Mit dieser Funktion können die Proxy-Dienste des Servers ein- oder ausgeschaltet werden. Der Server beinhaltet einen transparenten Proxy und Cache für HTTP Datenverkehr. Dieser ist per Voreinstellung aktiviert, wird aber nicht durchgesetzt, wenn der Server im &quot;Nur Server&quot; Modus ist. Wenn der Server als E-Mail-Server fungiert, werden Verbindungen der Netzwerk-Clients zu externen SMTP-Servern per Voreinstellung auf den lokalen E-Mail-Server umgeleitet.</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>Mit der Proxy-Funktion des Servers werden häufig besuchte Seiten in einem Cache zwischengespeichert und unnötiger Datentransfer vermieden. Er ist transparent für Web-Browser, die diesen Server als Gateway benutzen. Schalten Sie den Proxy mit dem Schalter ein oder aus.</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_LABEL</base>
+        <trans>HTTP Proxy-Status</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>Der transparente SMTP-Proxy des Servers reduziert Virus-Traffic von infizierten Clients, indem im Zustand "aktiviert" ausgehender SMTP-Datenverkehr durch den SME-Server geleitet wird. Wenn Sie einen anderen SMTP-Server benutzen wollen und der SME-Server als Gateway zu ihm dient, setzen Sie den SMTP-Proxy auf "deaktiviert". Als Standardeinstellung ist der Proxy auf "gesperrt" gesetzt und aller SMTP-Datenverkehr zu anderen Servern wird verhindert. Der Proxy blockiert nur normalen SMTP-Datenverkehr (Port 25).</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_LABEL</base>
+        <trans>SMTP Proxy-Status</trans>
+    </entry>
+    <entry>
+        <base>ERR_PROXY_UPDATE_FAILED</base>
+        <trans>FEHLER: Die Aktualisierung des Proxy-Status erbrachte einen Fehler.</trans>
+    </entry>
+    <entry>
+        <base>ERR_NO_SQUID_REC</base>
+        <trans>FEHLER: Es gibt keinen Squid-Eintrag in der Konfigurations-Datenbank.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Die neuen Proxy-Einstellungen wurden erfolgreich aktualisiert.</trans>
+    </entry>
+    <entry>
+        <base>BLOCKED</base>
+        <trans>Gesperrt</trans>
+    </entry>
+</lexicon>

@@ -1,0 +1,174 @@
+<lexicon lang="hu" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Adattárak létrehozása, módosítása vagy törlése.</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> <a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify">Adattár létrehozása</a> </p> <p> Eltávolíthatja bármelyik adattárat, vagy megváltoztathatja azok jelszavát. Ha az adattár neve piros színű, az azt jelenti, hogy az adattár alapértelmezett jelszava még nem lett megváltoztatva és hamarosan el kell végezni az új jelszó beállítását. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>Adattár létrehozása vagy módosítása.</trans>
+    </entry>
+    <entry>
+        <base>NAME_FIELD_DESC</base>
+        <trans>Az adattárak neve kis betűvel kell hogy kezdődjön és csak kisbetűket, számokat és kötőjeleket tartalmazhat. Például "johnson", "intra", and "cust3.prj12" használható nevek, de az "3associates", "John Smith" and "Bus!Partner" nevek nem. A név {$maxLength} karakter hosszú lehet.</trans>
+    </entry>
+    <entry>
+        <base>NAME_LABEL</base>
+        <trans>Adattár neve</trans>
+    </entry>
+    <entry>
+        <base>USER_ACCESS</base>
+        <trans>Felhasználói hozzáférés fájlmegosztáson, vagy ftp-n keresztül</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS</base>
+        <trans>Publikus hozzáférés web-en, vagy névtelen ftp-n keresztül</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS_DESCRIPTION</base>
+        <trans>A "jelszó kell a helyi hálózaton kívül" publikus hozzáférési módot nem támogatja az FTP szerver komponens. Ha ezt a módot válassza, az FTP szerver mind külső, mind belső hálózatból jelszó megadását kéri ehhez az adattárhoz való hozzáféréshez.</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_DYNAMIC_CONTENT</base>
+        <trans>Dinamikus tartalom engedélyezése (CGI, PHP, SSI)</trans>
+    </entry>
+	<entry>
+        <base>HTTPS_Only</base>
+        <trans>Biztonságos kapcsolatok kikényszerítése</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Adattár eltávolítása</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans><![CDATA[ <p> Most készül eltávolítani a "{$name}" ({$description}) adattárat. </p> <p> Minden fájl, amit az adattár tartalmaz, megsemmisül. </p> <p> Biztos benne, hogy törli az adattárat? </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_IBAY</base>
+        <trans>Hiba történt az adattár létrehozásakor.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED_IBAY</base>
+        <trans>Az adattár sikeresen létrejött.</trans>
+    </entry>
+    <entry>
+        <base>NO_IBAYS</base>
+        <trans>Nincsenek adattárak beállítva.</trans>
+    </entry>
+    <entry>
+        <base>CANT_FIND_IBAY</base>
+        <trans>A {$name} névhez nem található felhasználói fiók (létezik?)</trans>
+    </entry>
+    <entry>
+        <base>CANT_CREATE_IBAY</base>
+        <trans>A {$name} névhez nem lehet fiókot létrehozni (már létezik?)</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_IBAY</base>
+        <trans>Hiba történt az adattár módosításakor.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED_IBAY</base>
+        <trans>Az adattár sikeresen módosult.</trans>
+    </entry>
+    <entry>
+        <base>VIRTUAL_HOST_MESSAGE</base>
+        <trans>A következő virtuális domének ezt az adattárat használták tartalomként, ezért ezek ezentúl az elsődleges webhelyet jelenítik meg (később ezek átállíthatók másra).</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED_IBAY</base>
+        <trans>Az adattár sikeresen törölve</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_IBAY</base>
+        <trans>Hiba történt az adattár törlésekor.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_DESC</base>
+        <trans>Most készül megváltoztatni a {$name} nevű adattár jelszavát.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VALIDATION_ERROR</base>
+        <trans>A jelszó csak betűket és számokat tartalmazhat.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VERIFY_ERROR</base>
+        <trans>A jelszavak nem egyeznek</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_RESET_PASSWORD</base>
+        <trans>A jelszó megváltozott.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_RESETTING_PASSWORD</base>
+        <trans>Hiba történt a jelszó megváltoztatásakor.</trans>
+    </entry>
+    <entry>
+        <base>VHOST_MESSAGE</base>
+        <trans><![CDATA[ <P>A következő virtuális domének ezt az adattárat használták tartalomként, ezért ezek ezentúl az elsődleges webhelyet jelenítik meg (később ezek átállíthatók másra):</P> <ul>{$vhostList}</ul> ]]></trans>
+    </entry>
+    <entry>
+        <base>Information bays</base>
+        <trans>Adattárak</trans>
+    </entry>
+    <entry>
+        <base>WGRG</base>
+        <trans>Irás = csoport, Olvasás = csoport</trans>
+    </entry>
+    <entry>
+        <base>WGRE</base>
+        <trans>Irás = csoport, Olvasás = mindenki</trans>
+    </entry>
+    <entry>
+        <base>WARG</base>
+        <trans>Írás = admin, Olvasás = csoport</trans>
+    </entry>
+    <entry>
+        <base>NONE</base>
+        <trans>Nincs hozzáférés</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_NO_PASSWORD</base>
+        <trans>Helyi hálózat (nem kell jelszó)</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_PASSWORD</base>
+        <trans>Helyi hálózat (jelszó kell)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_NO_PASSWORD</base>
+        <trans>Az egész Internet (nem kell jelszó)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD</base>
+        <trans>Az egész Internet (jelszó kell)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD_REMOTE</base>
+        <trans>Az egész Internet (jelszó kell a helyi hálózaton kívül)</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IBAY_DESCRIPTION</base>
+        <trans>Hiba: helytelen, vagy hiányzó karakter az adattár leírásában</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>A "{$acctName}" adattár neve érvénytelen karaktereket tartalmaz. Az adattárak neve kis betűvel kell hogy kezdődjön és csak kisbetűket, számokat és kötőjeleket tartalmazhat. </trans>
+    </entry>
+    <entry>
+        <base>MAX_IBAY_NAME_LENGTH_ERROR</base>
+        <trans>A "{$name}" adattár neve túl hosszú. Maximum {$maxIbayNameLength} karakter hosszú lehet.</trans>
+    </entry>
+    <entry>
+        <base>ACCT_CLASHES_WITH_PSEUDONYM</base>
+        <trans><![CDATA[ A "{$acctName}" nevű fiók ütközik az {$acctType}"{$acct}" fiók álnevével. <p>A{$acctName} az {$acct} álneve.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_EXISTS</base>
+        <trans>A "{$acctName}" nevű fiók egy létező {$acctType} fiók.</trans>
+    </entry>
+</lexicon>

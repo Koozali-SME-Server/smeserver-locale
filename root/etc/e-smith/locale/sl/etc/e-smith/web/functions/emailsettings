@@ -1,0 +1,386 @@
+<lexicon lang="sl" params="getExtraParams()">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>E-posta</trans>
+    </entry>
+    <entry>
+        <base>E-mail</base>
+        <trans>E-mail</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Nove e-mail nastavitve so bile shanjene.</trans>
+    </entry>
+    <entry>
+        <base>NEVER</base>
+        <trans>nikoli</trans>
+    </entry>
+    <entry>
+        <base>EVERY5MIN</base>
+        <trans>vsakih 5 minut</trans>
+    </entry>
+    <entry>
+        <base>EVERY15MIN</base>
+        <trans>vsakih 15 minut</trans>
+    </entry>
+    <entry>
+        <base>EVERY30MIN</base>
+        <trans>vsakih 30 minut</trans>
+    </entry>
+    <entry>
+        <base>EVERYHOUR</base>
+        <trans>Vsako uro</trans>
+    </entry>
+    <entry>
+        <base>EVERY2HRS</base>
+        <trans>Vsaki 2 uri</trans>
+    </entry>
+    <entry>
+        <base>STANDARD</base>
+        <trans>Standardno (SMTP)</trans>
+    </entry>
+    <entry>
+        <base>ETRN</base>
+        <trans>ETRN (SMTP z zahtevkom odjemalca)</trans>
+    </entry>
+    <entry>
+        <base>DEFAULT</base>
+        <trans>Privzeto</trans>
+    </entry>
+    <entry>
+        <base>SPECIFY_BELOW</base>
+        <trans>Spodnje nastavitve</trans>
+    </entry>
+    <entry>
+        <base>MULTIDROP</base>
+        <trans>multi-drop</trans>
+    </entry>
+    <entry>
+        <base>LABEL_MODE</base>
+        <trans>Nacin E-mail prevzemanja</trans>
+    </entry>
+    <entry>
+        <base>DESC_MODE</base>
+        <trans>Nacin E-mail prevzemanja je lahko nastavljen na: Standardno (za stalne Internetne povezave), ETRN (za povezave na klic), ali multi-drop (za klicne povezave, ce ETRN ni podprto s strani Internetnega ponudnika). OPOMBA: multi-drop nacin je edina opcija, ki je na voljo, ko streznik deluje v nacinu: izolirani streznik in prehod.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_DELEGATE</base>
+        <trans>Naslov internega postnega streznika</trans>
+    </entry>
+    <entry>
+        <base>DESC_DELEGATE</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Privzeti mail streznik</h2> Vas streznik vsebuje kompleten, e-mail streznik z vsemi funkcijami, vendar ce bi vseeno iz katerega koli razloga zeleli procesiranje e-poste preusmeriti na drugi streznik, navedite tukaj IP naslov privzetega mail streznika. za normalno uporabo pustite to polje prazno. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SECONDARY</base>
+        <trans>Sekundarni mail streznik</trans>
+    </entry>
+    <entry>
+        <base>DESC_SECONDARY</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>ETRN ali multi-drop nastavitve</h2> Za ETRN ali multi-drop, morate navesti ime streznika ali njegov IP naslov. (Ce uporabljate standardne e-mail nastavitve, lahko to polje ostane prazno.) ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_FETCH_PERIOD</base>
+        <trans>Za ETRN ali multi-drop lahko izberete kako pogosto bo vas streznik vzpostavil povezavo z vasim sekundarnim streznikom in iz njega povlece e-mail. Pogostejse povezovanje pomeni, da boste e-mail prejemali pogosteje, vendar bodo pogostejse povezave z Internetnim ponudnikom povisale stroske povezave.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD</base>
+        <trans>Med delavnim casom (od 8:00 do 18:00) med tednom</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD_NIGHTS</base>
+        <trans>Izven delavnega casa (od 18:00 do 8:00) med tednom</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD_WEEKENDS</base>
+        <trans>Konec tedna</trans>
+    </entry>
+    <entry>
+        <base>DESC_POP_ACCOUNT</base>
+        <trans>Za multi-drop navedite POP uporabniski racun in geslo. (Ce uporabljate standard ali ETRN, pustite ta polja prazna.) Za multi-drop lahko uporabite tudi metodo privzetega sortiranja poste, ali navedete zeljeno glavo sporocila (message header) za sortiranje.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_POP_PASS</base>
+        <trans>POP uporabnik in geslo (za multi-drop)</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_POP_ACCOUNT</base>
+        <trans>POP uporabnik (za multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SORT_METHOD</base>
+        <trans>Izberite metodo sortiranja (za multi-drop)</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SORT_HEADER</base>
+        <trans>Izberite sortiranje z headerjem (za multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PROTO</base>
+        <trans>Protokol (za multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_SECURE</base>
+        <trans>Tunel cez SSL (za multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>AUTO</base>
+        <trans>Samodejno</trans>
+    </entry>
+    <entry>
+        <base>ENABLED_BOTH</base>
+        <trans>Dovoli oboje HTTP in HTTPS</trans>
+    </entry>
+    <entry>
+        <base>ENABLED_SECURE_ONLY</base>
+        <trans>Dovoli samo HTTPS (varno)</trans>
+    </entry>
+     <entry>
+        <base>ONLY_LOCAL_NETWORK_SSL</base>
+        <trans>Dovoli dostop samo s strani lokalnega omrezja</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_POP3</base>
+        <trans>Dovoli oboje POP3 in POP3S</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_PRIVATE</base>
+        <trans>Allow private</trans>
+    </entry>
+    <entry>
+        <base>SECURE_POP3</base>
+        <trans>Dovoli privaten in jeven dostop (varen POP3S)</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_IMAP</base>
+        <trans>Dovoli oba IMAP in IMAPS</trans>
+    </entry>
+    <entry>
+        <base>SECURE_IMAP</base>
+        <trans>Dovoli privaten in javen dosrop (varen IMAPS)</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_SMTP</base>
+        <trans>Dovoli oba SMTP in SSMTP</trans>
+    </entry>
+    <entry>
+        <base>SECURE_SMTP</base>
+        <trans>Dovoli SSMTP (varen)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_POP_ACCESS_CONTROL</base>
+        <trans>POP3 dostop do streznika</trans>
+    </entry>
+    <entry>
+        <base>LABEL_IMAP_ACCESS_CONTROL</base>
+        <trans>IMAP dostop do streznika</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SMTP_AUTH_CONTROL</base>
+        <trans>SMTP avtentikacija</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_TO_ADMIN</base>
+        <trans>Poslji administratorju</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_TO</base>
+        <trans>Poslji na</trans>
+    </entry>
+    <entry>
+        <base>RETURN_TO_SENDER</base>
+        <trans>Vrni posiljatelju</trans>
+    </entry>
+    <entry>
+        <base>LABEL_UNKNOWN</base>
+        <trans>E-mail nepoznanim uporabnikom</trans>
+    </entry>
+    <entry>
+        <base>DESC_UNKNOWN</base>
+        <trans><![CDATA[ Definirajte, kaj naj streznik naredi s sporocili poslanimi nepoznanim uporabnikom. Izberite vrni posiljatelju (priporoceno) da vrne sporocilo posiljatelju z porocilom o napaki. Izberite Poslji k ... in sporocilo bo poslano k temu uporabniku. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SMARTHOST</base>
+        <trans>Naslov mail streznika ponudnika Internetnega dostopa</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_SMARTHOST</base>
+        <trans>Streznik lahko poslje izhodna sporocila direktno na njihov naslov (priporocena nastavitev) ali jih poslje s posredovanjem SMTP streznika ponudnika vasega Internetnega ponudnika (priporocamo, ce je vasa internetna povezava nezanesljiva). V tem primeru boste morali spodaj vpisati ime streznika ali njegov IP naslov, sicer pustite to polje prazno.</trans>
+    </entry>
+
+    <entry>
+        <base>INVALID_SMARTHOST</base>
+        <trans>Ime racunalnika, ki ste ga vnesli ni veljavno ali pa ni prazno.</trans>
+    </entry>
+    <entry>
+        <base>DESC_POP_ACCESS_CONTROL</base>
+        <trans>POP3 dostop lahko kontrolirate. Nastavitev 'Dovoli privaten' (priporocljiva nastavitev), bo POP3 dostop omogocen samo iz lokalnega omrezja. Za zunanji dostop do streznika lahko uporabite POP3S, ki je kodiran.</trans>
+    </entry>
+    <entry>
+        <base>DESC_IMAP_ACCESS_CONTROL</base>
+        <trans>IMAP dostop lahko kontrolirate. Nastavitev 'Dovoli privaten' (priporocljiva nastavitev), bo IMAP dostop omogocen samo iz lokalnega omrezja. Za zunanji dostop do streznika lahko uporabite IMAPS, ki je kodiran.</trans>
+    </entry>
+    <entry>
+        <base>DESC_SMTP_AUTH_CONTROL</base>
+        <trans><![CDATA[ You can provide authenticated access to your SMTP server, or set it to Disabled. The SSMTP setting requires <b>all</b> users to use SSL/TLS authentication. The SMTP and SSMTP option additionally allows STARTTLS to be used to ensure secure authentication. ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_WEBMAIL</base>
+        <trans>Uporabo Webmail-a na tem sistemu lahko omogocite ali onemogocite. Webmail omogoca uporabnikom branje elektronske poste z navadnim spletnim brskalnikom in sicer na naslovu https://{$FQDN}/webmail in vpisom svojega uporabniskega imena in gesla.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_WEBMAIL</base>
+        <trans>Dostop do Webmail-a</trans>
+    </entry>
+     <entry>
+        <base>LABEL_BLOCK_EXECUTABLE_CONTENT</base>
+        <trans>Izvrsi blokiranje vsebine</trans>
+     </entry>
+     <entry>
+        <base>LABEL_CONTENT_TO_BLOCK</base>
+        <trans>Vsebina, ki naj bo blokirana</trans>
+     </entry>
+     <entry>
+        <base>DESC_BLOCK_EXECUTABLE_CONTENT</base>
+        <trans>Blokirate lahko izvrsljive datoteke v priponkah tako, da oznacite tipe izvrsljivih datotek, ki jih zelite prepreciti. E-maili s taksnimi sporocili bodo samodejno vrnjeni k posiljatelju.</trans>
+    </entry>
+    <entry>
+        <base>UNACCEPTABLE_CHARS</base>
+        <trans>To polje lahko vsebuje samo crke, stevilke, pike, pomisljaje in podpicja, ter se zacnejo s crko.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_ACCESS</base>
+        <trans><![CDATA[ <h2>E-mail dostop</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_ACCESS_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_ACCESS">Spremeni dostop do e-mail(a)</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_RECEPTION</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Sprejemanje E-mail(a)</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_RECEPTION_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_RECEPTION">Spremeni nastavitve sprejemanja</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_DELIVERY</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Dostava E-mail(a)</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_DELIVERY_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_DELIVERY">Spremeni dostavo e-mail(a)</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_FILTERING_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_FILTERING">Spremeni filtriranje e-mail(a)</a> ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_VIRUS_SCAN</base>
+	<trans>Ciscenje virusov</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_VIRUS_SCAN</base>
+	<trans>E-mail lahko preiscete ce vsebuje virus in ga nato zavrnete ali posljete v karanteno.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_SPAM_SCAN</base>
+	<trans>Spam filtriranje</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_SPAM_SCAN</base>
+	<trans>E-mail lahko preičete če vsebuje spam. Ce je spam filtriranje omogoceno, doda streznik v glavo sporocila vrstico: X-Spam-Status, ki jo nato uporabimo za filtriranje spam-a. Obcutljivost spam filtra lahko nastavljamo med privzeto in srednjo. Ce zelimo nastavitev natancneje definirati, imamo moznost izbirate nivoja pri katerem bo streznik zavrnil sporocilo, kot spam.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_SPAM_SUBJECT</base>
+	<trans>SPAM subject prefix</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_SPAM_SUBJECT</base>
+	<trans>You can enable to add a tag to the subject of each message that is classified as SPAM. The value for this tag can be defined below.</trans>
+    </entry>
+
+   <entry>
+        <base>LABEL_SPAM_SENSITIVITY</base>
+        <trans>Obcutljivost za spam</trans>
+    </entry>
+   <entry>
+        <base>LABEL_SPAM_TAGLEVEL</base>
+        <trans>Nivo po zelji</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SPAM_REJECTLEVEL</base>
+        <trans>Nivo za zavrnitev sporocila</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SPAM_SUBJECTTAG</base>
+        <trans>Spremeni zadevo sporocil oznacenih za spam</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SORTSPAM</base>
+        <trans>Premekni spam v junkmail mapo</trans>
+    </entry>
+    <entry>
+        <base>VERYHIGH</base>
+        <trans>Zelo visoka</trans>
+    </entry>
+    <entry>
+        <base>HIGH</base>
+        <trans>Visoka</trans>
+    </entry>
+    <entry>
+        <base>MEDIUM</base>
+        <trans>Srednja</trans>
+    </entry>
+    <entry>
+        <base>LOW</base>
+        <trans>Nizka</trans>
+    </entry>
+    <entry>
+        <base>VERYLOW</base>
+        <trans>Zelo nizka</trans>
+    </entry>
+    <entry>
+        <base>CUSTOM</base>
+        <trans>Poljubna</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_STATUS</base>
+        <trans>SMTP avtentikacija za ISP</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_USERID</base>
+        <trans>Uporabnisko ime za uporabnika</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_PASSWD</base>
+        <trans>Geslo za mail streznik</trans>
+    </entry>
+
+    <entry>
+        <base>VALIDATION_SMTPAUTH_NONBLANK</base>
+        <trans>To polje ne smete pustiti prazno, ce ste omogocili SMTP avtentikacijo.</trans>
+    </entry>
+
+</lexicon>

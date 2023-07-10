@@ -1,0 +1,147 @@
+<lexicon lang="de">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Hinzufügen oder Entfernen von Druckern</trans>
+    </entry>
+    <entry>
+      <base>INITIAL_DESC</base>
+      <trans><![CDATA[ <P><A class="button-like" HREF="printers?page=0&Next=Add">Drucker hinzufügen</A></P> ]]></trans>
+    </entry>
+    <entry>
+      <base>NO_PRINTERS</base>
+      <trans>Es sind keine Drucker am System angeschlossen.</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_LIST</base>
+      <trans>Aktuelle Liste der Drucker</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_ADDRESS</base>
+      <trans>Remote Adresse</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_NAME</base>
+      <trans>Remote Name</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NEW_PRINTER</base>
+      <trans>Neuen Drucker erstellen</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NEW_DESC</base>
+      <trans><![CDATA[ Bitte wählen Sie einen unverwechselbaren Namen für Ihren Drucker und geben Sie eine Kurzbeschreibung ein. Der Druckername darf nur Kleinbuchstaben und Zahlen enthalten und sollte mit einem Kleinbuchstaben beginnen. Zum Beispiel sind "hplaser", "epsonlp" und "canonbj" erlaubt, jedoch wird "HP Laser Jet", "Canon BubbleJet" oder "HP JetDirect Printer" nicht akzeptiert. Vermeiden Sie Namen und Beschreibungen die die folgenden Terme enthalten: "offline", "disabled", "down", "off", "waiting", "jam", "paper", "error" und "responding". ]]></trans>
+    </entry>
+    <entry>
+      <base>PRINTER_NAME</base>
+      <trans>Druckername</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_0</base>
+      <trans>Lokaler Druckeranschluss 0 (LPT1)</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_1</base>
+      <trans>Lokaler Druckeranschluss 1 (LPT2)</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_2</base>
+      <trans>Lokaler Druckeranschluss 2 (LPT3)</trans>
+    </entry>
+    <entry>
+      <base>NET_PRINTER</base>
+      <trans>Netzwerkdrucker ...</trans>
+    </entry>
+    <entry>
+      <base>FIRST_USB_PRINTER</base>
+      <trans>Erster an USB angeschlossener Drucker</trans>
+    </entry>
+    <entry>
+      <base>SECOND_USB_PRINTER</base>
+      <trans>Zweiter an USB angeschlossener Drucker</trans>
+    </entry>
+    <entry>
+      <base>ERR_UNEXPECTED_NAME</base>
+      <trans><![CDATA[ <P> FEHLER: Ungültiges Zeichen im Druckernamen. </P> <P> Der Druckername darf nur Kleinbuchstaben und Zahlen enthalten und sollte mit einem Kleinbuchstaben beginnen. Zum Beispiel sind "hplaser", "epsonlp" und "canonbj" erlaubt, jedoch wird "HP Laser Jet", "Canon BubbleJet" oder "HP JetDirect Printer" nicht akzeptiert. </P> ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_UNEXPECTED_DESC</base>
+      <trans>FEHLER: Ungültiges oder fehlendes Zeichen in der Druckerbeschreibung. Neuer Drucker wurde nicht angelegt.</trans>
+    </entry>
+    <entry>
+      <base>ERR_EXISTS</base>
+      <trans>FEHLER: Ein Konto mit gleichem Namen besteht bereits mit Typ:</trans>
+    </entry>
+    <entry>
+      <base>ERR_INVALID_ADDRESS</base>
+      <trans>FEHLER: Ungültige Netzwerkadresse. Neuer Drucker wurde nicht angelegt.</trans>
+    </entry>
+    <entry>
+      <base>ERR_INVALID_REMOTE_NAME</base>
+      <trans>FEHLER: Ungültiger Netzwerk-Druckername. Neuer Drucker wurde nicht angelegt.</trans>
+    </entry>
+    <entry>
+      <base>ERR_CREATING</base>
+      <trans>Es ist ein Fehler beim Erstellen des Druckers aufgetreten.</trans>
+    </entry>
+    <entry>
+      <base>CREATED_SUCCESSFULLY</base>
+      <trans>Drucker erfolgreich erstellt:</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NETWORK_PRINTER</base>
+      <trans>Neuen Netzwerkdrucker erstellen</trans>
+    </entry>
+    <entry>
+      <base>ERR_OPENING_DB</base>
+      <trans>Es ist ein Fehler beim Öffnen der Kontendatenbank aufgetreten.</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NETWORK_DESC</base>
+      <trans>Bitte geben Sie die Adresse und den Namen des Netzwerkdruckers ein</trans>
+    </entry>
+    <entry>
+      <base>HOSTNAME_OR_IP</base>
+      <trans>Hostname oder IP-Adresse des Netzwerkdruckers</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_NAME_DESC</base>
+      <trans><![CDATA[ Netzwerkdruckername (geben Sie raw ein, wenn Sie nicht sicher sind) ]]></trans>
+    </entry>
+    <entry>
+      <base>REMOVE_PRINTER</base>
+      <trans>Drucker entfernen</trans>
+    </entry>
+    <entry>
+      <base>ABOUT_TO_REMOVE</base>
+      <trans>Sie entfernen gerade den Drucker:</trans>
+    </entry>
+    <entry>
+      <base>SPOOL_FILE_WARNING</base>
+      <trans>Alle Dateien in der Zwischenablage für diesen Drucker werden gelöscht.</trans>
+    </entry>
+    <entry>
+      <base>ARE_YOU_SURE</base>
+      <trans>Sind Sie sicher, dass Sie diesen Drucker entfernen wollen ?</trans>
+    </entry>
+    <entry>
+      <base>ERR_INTERNAL_FAILURE</base>
+      <trans>FEHLER: Interner Fehler beim Entfernen des Druckers:</trans>
+    </entry>
+    <entry>
+      <base>ERR_DELETING</base>
+      <trans>Es ist ein Fehler beim Entfernen des Druckers aufgetreten.</trans>
+    </entry>
+    <entry>
+      <base>DELETED_SUCCESSFULLY</base>
+      <trans>Drucker wurde erfolgreich gelöscht:</trans>
+    </entry>
+    <entry>
+        <base>MUST_BE_VALID_HOSTNAME_OR_IP</base>
+        <trans>Es muss ein gültiger Hostname oder eine gültige IP-Adresse sein</trans>
+    </entry>
+    <entry>
+	<base>Printers</base>
+	<trans>Drucker</trans>
+    </entry>
+
+</lexicon>

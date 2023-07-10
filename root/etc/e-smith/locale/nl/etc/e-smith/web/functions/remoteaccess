@@ -1,0 +1,171 @@
+<lexicon lang="nl">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Wijzig de instellingen van toegang op afstand</trans>
+    </entry>	
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans>Voor elk van de opties hieronder, laat de privé toegang toe zodat iedereen vanaf het lokale netwerk toegang heeft tot uw server. De publieke toegang laat toegang toe van overal op het internet. De geen toegang schakelt toegang uit. U dient de sectie over toegang op afstand in de gebruikershandleiding te lezen om goed de veiligheidsimplicaties te kunnen begrijpen van deze opties.</trans>	
+    </entry>
+    <entry>
+	<base>SUCCESS</base>
+	<trans>De nieuwe toegang op afstand instellingen zijn opgeslagen.</trans>
+    </entry>
+    <entry>
+	<base>NO_ACCESS</base>
+	<trans>Geen toegang</trans>
+    </entry>
+    <entry>
+	<base>PASSWORD_LOGIN_PRIVATE</base>
+	<trans>Alleen wachtwoorden accepteren vanaf lokale netwerken</trans>
+    </entry>
+    <entry>
+	<base>PASSWORD_LOGIN_PUBLIC</base>
+	<trans>Wachtwoorden accepteren vanaf overal</trans>
+    </entry>
+    <entry>
+	<base>LABEL_TELNET_ACCESS</base>
+	<trans>Telnet toegang</trans>
+    </entry>
+    <entry>
+	<base>LABEL_FTP_ACCESS</base>
+	<trans>FTP toegang</trans>
+    </entry>
+    <entry>
+	<base>LABEL_FTP_LOGIN</base>
+	<trans>FTP wachtwoord toegang</trans>
+    </entry>
+    <entry>
+	<base>LABEL_PPTP</base>
+	<trans>Aantal PPTP clienten</trans>
+    </entry>
+     <entry>
+       <base>NUMBER_OF_VPN_CLIENTS_MUST_BE_LESSER_THAN_NUMBER_OF_IP_IN_DHCP_RANGE</base>
+       <trans>Het ingestelde aantal VPN toegangen is meer dan het aantal gereserveerde IP adressen van DHCP. Neem een kleiner aantal.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SSH_PORT</base>
+        <trans>TCP poort voor beveiligde shell toegang</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH</base>
+	<trans>Beveiligde shell toegang</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH_ADMIN</base>
+	<trans>Administratieve commandoregel toestaan via beveiligde shell</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH_PASSWORD_ACCESS</base>
+	<trans>Beveiligde shell toegang via standaard wachtwoorden toestaan</trans>
+    </entry>
+    <entry>
+	<base>DESC_SSH</base>
+	<trans><![CDATA[ <hr class="sectionbar"/><h2>Beveiligde shell instellingen</h2>U kunt de beveiligde shell toegang tot uw server beheren. Publieke toegang mag alleen door ervaren systeembeheerders worden ingeschakeld voor probleemoplossingen op afstand. We raden aan om deze instelling op "Geen toegang" te laten staan tenzij u een specifieke reden hebt om dit te niet te doen. ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_FTP_ACCESS</base>
+	<trans><![CDATA[ <hr class="sectionbar" /><h2>FTP instellingen</h2> U kunt de <b>FTP</b> toegang tot uw server beheren. Wij raden u aan deze instellingen op 'Geen toegang' te laten staan tenzij u een specifieke reden hebt om dit niet te doen. <p> Merk op dat deze instellingen de toegang tot de server beperken en andere instellingen overschrijven, inclusief deze voor afzonderlijke informatie-baaien.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_FTP_LOGIN</base>
+	<trans><![CDATA[ U kan ook de geauthenticeerde FTP toegang tot informatie-baaien en gebruikersaccounts beheren. We raden u sterk aan om deze instelling op "privé" te laten staan tenzij u een specifieke reden hebt om dit niet te doen. <p> Merk op dat u ook een beveiligde shell SFTP client kan gebruiken indien de toegang op afstand is ingeschakeld. Deze methode beveiligd de wachwoorden en gegevens van de FTP sessie, waar dit bij een standaard FTP sessie niet het geval is.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_PPTP</base>
+	<trans><![CDATA[ <hr class="sectionbar" /><h2>PPTP instellingen</h2> U kunt via PPTP toegang tot uw server verlenen. Tenzij u PPTP toegang nodig heeft, laat u deze optie het beste uitgeschakeld door als waarde het getal 0 in te geven. ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_VPN</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>VPN instellingen</h2> U kunt via een VPN toegang tot uw server verlenen. Tenzij u VPN toegang nodig heeft, laat u deze optie het beste uitgeschakeld door als waarde het getal 0 in te geven. ]]></trans>
+    </entry>
+    <entry>
+	<base>VALUE_ZERO_OR_POSITIVE</base>
+	<trans>Waarde moet nul zijn of een positief geheel getal</trans>
+    </entry>
+    <entry>
+	<base>REMOTE_MANAGEMENT</base>
+	<trans>Beheer op afstand</trans>
+    </entry>
+    <entry>
+	<base>VALIDFROM_DESC</base>
+	<trans><![CDATA[ <hr class="sectionbar"/><h2>{$REMOTE_MANAGEMENT}</h2> <p>De mogelijkheid bestaat om hosts op een extern netwerk toegang te geven tot de Server Manager door deze netwerken hier in te geven. Gebruik het subnet masker 255.255.255.255 om de toegang te beperken tot de gespecificeerde host. Elke host binnen het opgegeven bereik zal via HTTPS toegang kunnen verkrijgen tot de Server Manager.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_VALID_FROM_ENTRIES</base>
+	<trans>Voer hieronder de details in van een nieuw op afstand beheer netwerk.</trans>
+    </entry>
+    <entry>
+	<base>SUBNET_MASK</base>
+	<trans>Subnet masker</trans>
+    </entry>
+    <entry>
+	<base>NUM_OF_HOSTS</base>
+	<trans>Aantal hosts</trans>
+    </entry>
+    <entry>
+	<base>NO_ENTRIES_YET</base>
+	<trans>Er zijn nog geen gegevens</trans>
+    </entry>
+    <entry>
+	<base>INVALID_SUBNET_MASK</base>
+	<trans>Ongeldig subnet masker</trans>
+    </entry>
+    <entry>
+	<base>ERR_INVALID_PARAMS</base>
+	<trans>Geef zowel een netwerk als een subnet masker op of laat beide velden leeg.</trans>
+    </entry>
+    <entry>
+	<base>ERR_NO_RECORD</base>
+	<trans>Kan het httpd-admin record niet vinden in de configuratie database</trans>
+    </entry>
+    <entry>
+	<base>Remote access</base>
+	<trans>Toegang op afstand</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERIAL_CONSOLE_ACCESS</base>
+        <trans>Seriële console</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERIAL_CONSOLE_ACCESS</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Seriële console</h2> U kunt toegang verlenen tot de server console vanaf een terminal die is aangesloten op een seriële poort van de server.]]></trans>
+    </entry>
+    <entry>
+        <base>PORT1_ENABLED</base>
+        <trans>Geactiveerd op seriële poort 1</trans>
+    </entry>
+    <entry>
+        <base>PORT2_ENABLED</base>
+        <trans>Geactiveerd op seriële poort 2</trans>
+    </entry>   
+
+    <entry>
+        <base>LABEL_PPTP_ACCESS</base>
+        <trans>Standaard PPTP gebruikerstoegang</trans>
+    </entry>
+    <entry>
+        <base>DESC_TELNET_ACCESS</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Telnet instellingen</h2> WAARSCHUWING: Telnet is momenteel ingeschakeld, maar deze optie wordt niet langer ondersteund. Telnet is onveilig en mag alleen worden gebruikt indien er praktisch gezien geen alternatieven bestaan. Het is aan te raden de optie te wijzigen in {$NO_ACCESS} en gebruik te maken van beveiligde shell indien toegang op afstand noodzakelijk is. Eenmaal uitgeschakeld, zal telnet niet meer op dit scherm verschijnen. ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_IPSECRW</base>
+	<trans><![CDATA[ <h2>IPSEC Client (Roadwarrior) instellingen</h2> U kunt IPSEC toegang tot uw server verlenen aan clienten, geauthenticeerd met digitale certificaten. Tenzij u IPSEC toegang nodig hebt, laat u deze optie uitgeschakeld door als waarde het getal 0 op te geven. ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_IPSECRW_SESS</base>
+	<trans>Aantal IPSEC clienten</trans>
+    </entry>
+    <entry>
+	<base>DESC_IPSECRW_RESET</base>
+	<trans><![CDATA[Indien u alle digitale certificaten opnieuw wenst in te stellen dan kunt u dat hier doen. <br>Alle oude certificaten zullen niet langer geauthenticeerd worden door deze server. Dus <b><i>alle IPSEC clienten zullen een nieuw certificaat moeten importeren!</i></b>. ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_IPSECRW_RESET</base>
+	<trans>Digitale certificaten opnieuw instellen</trans>
+    </entry>
+    <entry>
+        <base>DESC_IPSEC_VPN_UNAVAILABLE</base>
+        <trans>IPSEC VPN is niet geïnstalleerd. Installeer de contrib als u VPN toegang nodig hebt.</trans>
+    </entry>
+</lexicon>

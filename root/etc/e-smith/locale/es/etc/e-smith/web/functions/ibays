@@ -1,0 +1,174 @@
+<lexicon lang="es" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Crear, modificar o eliminar i-bays</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> <a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify">Agregar i-bay</a> </p> <p> Puede eliminar cualquier bahía de información o puede restablecer su contraseña haciendo click en el comando correspondiente junto a la bahía de información. Si la bahía de información aparece en rojo, significa que aún no se ha cambiado la contraseña del valor predeterminado y se debe cambiar pronto. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>Crear o modificar una i-bay</trans>
+    </entry>
+    <entry>
+        <base>NAME_FIELD_DESC</base>
+        <trans>El nombre de la bahía de información debe contener sólo minúsculas, números, puntos, guiones y guiones bajos y debe comenzar con una minúscula. Por ejemplo "rojas", "intra" y "client3.prj12" son nombres válidos, pero "3asociados", "Juan Arancibia" y "Bus!Socio" no lo son. El nombre está limitado a {$maxLength} caracteres.</trans>
+    </entry>
+    <entry>
+        <base>NAME_LABEL</base>
+        <trans>Nombre de la bahía de información</trans>
+    </entry>
+    <entry>
+        <base>USER_ACCESS</base>
+        <trans>Acceso de usuario mediante uso compartido de archivos o FTP del usuario</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS</base>
+        <trans>Acceso público mediante Web o FTP anónimo</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS_DESCRIPTION</base>
+        <trans>El modo de acceso público "contraseña requerida fuera de la red local" no es soportado por el servidor FTP. Si selecciona este modo, el servidor FTP requerirá una contraseña tanto dentro como fuera de la red local para esta i-bay.</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_DYNAMIC_CONTENT</base>
+        <trans>Ejecución de contenido dinámico (CGI, PHP, SSI)</trans>
+    </entry>
+	<entry>
+        <base>HTTPS_Only</base>
+        <trans>Forzar conexiones seguras</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Eliminar bahía de información</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans><![CDATA[ <p> Está a punto de eliminar la bahía de información "{$name}" ({$description}). </p> <p> Se borrarán todos los archivos pertenecientes a esta bahía de información. </p> <p> ¿Está seguro de que desea eliminar esta bahía de información? </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_IBAY</base>
+        <trans>Ocurrió un error al crear la i-bay.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED_IBAY</base>
+        <trans>Se creó con éxito la i-bay.</trans>
+    </entry>
+    <entry>
+        <base>NO_IBAYS</base>
+        <trans>No hay i-bays actualmente configuradas.</trans>
+    </entry>
+    <entry>
+        <base>CANT_FIND_IBAY</base>
+        <trans>No se puede encontrar la cuenta de {$name} (¿existe?)</trans>
+    </entry>
+    <entry>
+        <base>CANT_CREATE_IBAY</base>
+        <trans>No se puede crear una nueva cuenta para {$name} (¿ya existe?)</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_IBAY</base>
+        <trans>Ocurrió un error al modificar la i-bay.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED_IBAY</base>
+        <trans>Se modificó con éxito la i-bay.</trans>
+    </entry>
+    <entry>
+        <base>VIRTUAL_HOST_MESSAGE</base>
+        <trans>Los siguientes dominios virtuales estaban utilizando esta bahía de información como su contenido y se cambiarán al sitio Web primario (posteriormente, puede cambiarlos a algo diferente).</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED_IBAY</base>
+        <trans>Se eliminó con éxito la i-bay.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_IBAY</base>
+        <trans>Ocurrió un error al eliminar la i-bay.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_DESC</base>
+        <trans>Esta a punto de cambiar la contraseña para la i-bay {$name}.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VALIDATION_ERROR</base>
+        <trans>La contraseña sólo puede contener letras y números.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VERIFY_ERROR</base>
+        <trans>Las contraseñas no coinciden.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_RESET_PASSWORD</base>
+        <trans>Se restableció con éxito la contraseña.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_RESETTING_PASSWORD</base>
+        <trans>Error al restablecer la contraseña.</trans>
+    </entry>
+    <entry>
+        <base>VHOST_MESSAGE</base>
+        <trans><![CDATA[ <P>Los siguientes dominios virtuales estaban utilizando esta bahía de información como su contenido y se cambiarán al sitio Web primario (posteriormente, puede cambiarlos a algo diferente):</P> <ul>{$vhostList}</ul> ]]></trans>
+    </entry>
+    <entry>
+        <base>Information bays</base>
+        <trans>Bahías de información</trans>
+    </entry>
+    <entry>
+        <base>WGRG</base>
+        <trans>Escritura = grupo, Lectura = grupo</trans>
+    </entry>
+    <entry>
+        <base>WGRE</base>
+        <trans>Escritura = grupo, Lectura = todos</trans>
+    </entry>
+    <entry>
+        <base>WARG</base>
+        <trans>Escritura = admin, Lectura = grupo</trans>
+    </entry>
+    <entry>
+        <base>NONE</base>
+        <trans>Sin acceso</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_NO_PASSWORD</base>
+        <trans>Red local (no se requiere contraseña)</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_PASSWORD</base>
+        <trans>Red local (se requiere contraseña)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_NO_PASSWORD</base>
+        <trans>Toda la Web (no se requiere contraseña)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD</base>
+        <trans>Toda la Web (se requiere contraseña)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD_REMOTE</base>
+        <trans>Toda la Web (se requiere contraseña fuera de la red local)</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IBAY_DESCRIPTION</base>
+        <trans>Error: caracteres erróneos o faltantes en la descripción de i-bay</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>El nombre de i-bay "{$acctName}" contiene caracteres no válidos. Los nombres de i-bays deben comenzar con minúscula y deben contener sólo minúsculas, números y guiones.</trans>
+    </entry>
+    <entry>
+        <base>MAX_IBAY_NAME_LENGTH_ERROR</base>
+        <trans>El nombre de la i-bay "{$name}" es demasiado largo. El máximo es de {$maxIbayNameLength} caracteres.</trans>
+    </entry>
+    <entry>
+        <base>ACCT_CLASHES_WITH_PSEUDONYM</base>
+        <trans><![CDATA[ La cuenta "{$acctName}" entra en conflicto con los detalles del seudónimo para {$acctType} de la cuenta "{$acct}". <p>{$acctName} es un seudónimo de {$acct}.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_EXISTS</base>
+        <trans>La cuenta "{$acctName}" es una cuenta {$acctType} existente.</trans>
+    </entry>
+</lexicon>

@@ -1,0 +1,202 @@
+<lexicon lang="bg">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Конфигуриране на дата и час</trans>
+    </entry>
+    <entry>
+      <base>INITIAL_DESC</base>
+      <trans>Това е мястото, където конфигурирате дата и часа на този сървър. Можете да използвате съществуващ сървър за време или ръчно да зададете датата и часа за Вашата часова зона.</trans>
+    </entry>
+    <entry>
+      <base>SET_DATE_TITLE</base>
+      <trans>Задайте на дата и час</trans>
+    </entry>
+    <entry>
+      <base>COULD_NOT_OPEN_TZ_FILE</base>
+      <trans>Грешка: Не може да се отвори за четене файлът на часовата зона:</trans>
+    </entry>
+    <entry>
+      <base>JANUARY</base>
+      <trans>януари</trans>
+    </entry>
+    <entry>
+      <base>FEBRUARY</base>
+      <trans>февруари</trans>
+    </entry>
+    <entry>
+      <base>MARCH</base>
+      <trans>март</trans>
+    </entry>
+    <entry>
+      <base>APRIL</base>
+      <trans>април</trans>
+    </entry>
+    <entry>
+      <base>MAY</base>
+      <trans>май</trans>
+    </entry>
+    <entry>
+      <base>JUNE</base>
+      <trans>юни</trans>
+    </entry>
+    <entry>
+      <base>JULY</base>
+      <trans>юли</trans>
+    </entry>
+    <entry>
+      <base>AUGUST</base>
+      <trans>август</trans>
+    </entry>
+    <entry>
+      <base>SEPTEMBER</base>
+      <trans>септември</trans>
+    </entry>
+    <entry>
+      <base>OCTOBER</base>
+      <trans>октомври</trans>
+    </entry>
+    <entry>
+      <base>NOVEMBER</base>
+      <trans>ноември</trans>
+    </entry>
+    <entry>
+      <base>DECEMBER</base>
+      <trans>декември</trans>
+    </entry>
+    <entry>
+      <base>NEW_M/D/Y</base>
+      <trans>Нов месец/ден/година:</trans>
+    </entry>
+    <entry>
+      <base>NEW_H/M/S</base>
+      <trans>Нов час/мин/сек:</trans>
+    </entry>
+    <entry>
+      <base>AM/PM_AND_TZ</base>
+      <trans>AM/PM и часова зона:</trans>
+    </entry>
+    <entry>
+      <base>NTP_ENABLE_DESC</base>
+      <trans>Сървъра може периодично да си синхронизира системния часовник от Network Time Protocol (NTP) сървър. Ако изберете тази възможност, въведете hostname или IP адрес на NTP сървъра по-долу.</trans>
+    </entry>
+    <entry>
+      <base>NTP_CONFIGURE_DESC</base>
+      <trans>Сървърът периодично си синхронизира системния часовник от Network Time Protocol (NTP) сървъра, зададен по-долу. За да го синхронизирате с друг NTP сървър, въведете друг hostname или IP address в полето по-долу.</trans>
+    </entry>
+    <entry>
+      <base>NTP_DISABLE_DESC</base>
+      <trans>Изберете тази възможност за да спрете синхронизирането на системния часовник от NTP сървър. Когато услугата NTP е изключена, можете да задавате системната дата и час ръчно от тази страница.</trans>
+    </entry>
+    <entry>
+      <base>NTP_SERVER</base>
+      <trans>NTP сървър</trans>
+    </entry>
+    <entry>
+      <base>VERIFY_DATE_AND_TIME</base>
+      <trans>Проверете датата и часа</trans>
+    </entry>
+    <entry>
+      <base>NEW_DATE_AND_TIME</base>
+      <trans>Задаване на нова дата и час:</trans>
+    </entry>
+    <entry>
+      <base>SETTING_DATE_AND_TIME</base>
+      <trans>Задаване на дата и час</trans>
+    </entry>
+    <entry>
+      <base>INVALID_DAY</base>
+      <trans>Грешка: некоректен ден от месеца:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_1_AND_31</base>
+      <trans>Моля, изберете ден между 1 и 31.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_YEAR</base>
+      <trans>Грешка: некоректна година:</trans>
+    </entry>
+    <entry>
+      <base>FOUR_DIGIT_YEAR</base>
+      <trans>Моля, изберете четирицифрена година между 1900 и 2200.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_HOUR</base>
+      <trans>Грешка: некоректен час:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_1_AND_12</base>
+      <trans>Моля, изберете час между 1 и 12.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_MINUTE</base>
+      <trans>Грешка: некоректна минута:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_0_AND_59</base>
+      <trans>Моля, изберете минута между 0 и 59.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_SECOND</base>
+      <trans>Грешка: некоректна секунда</trans>
+    </entry>
+    <entry>
+      <base>UPDATING_CLOCK</base>
+      <trans><![CDATA[ Системния часовник се актуализира. Моля, изчакайте няколко секунди и тогава щракнете <A HREF="datetime?page=1&wherenext=Verify" TARGET="main">тук</A> за да проверите как са извършени промените. ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_SETTING_CLOCK</base>
+      <trans>Възникна грешка по време на задаването на системното време и хардуерния часовник.</trans>
+    </entry>
+    <entry>
+      <base>SERVER_DISABLED</base>
+      <trans>Мрежовия сървър за време бе забранен успешно</trans>
+    </entry>
+    <entry>
+      <base>SERVER_DISABLED_DESC</base>
+      <trans><![CDATA[ Вие сте забранили тази услуга: Сървърът ще разчита на неговия вътрешен часовник и <b>няма</b> да се опитва да се синхронизира от сървър за време. ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_CHANGING_TS</base>
+      <trans>Грешка по време на промяна на настройката за мрежов сървър за време</trans>
+    </entry>
+    <entry>
+      <base>INVALID_NTP_ADDR</base>
+      <trans>Невалиден адрес на NTP сървъра:</trans>
+    </entry>
+    <entry>
+      <base>SETTINGS_CHANGED</base>
+      <trans>Настройките на сървъра за сверяване на часовника бяха променени успешно</trans>
+    </entry>
+    <entry>
+      <base>SYNC_WITH</base>
+      <trans>Този сървър вече е конфигуриран периодично да се синхронизира (през интернет) с:</trans>
+    </entry>
+    <entry>
+      <base>INVALID_NTP_SERVER</base>
+      <trans><![CDATA[ Невалиден NTP сървър, сървърът <b>няма</b> да се оптва да се синхронизира от сървър за време. ]]></trans>
+    </entry>
+    <entry>
+      <base>NETWORK_TIME_SERVER</base>
+      <trans>Мрежови сървър за време</trans>
+    </entry>
+    <entry>
+      <base>NTP_CONFIGURE_TITLE</base>
+      <trans>Настройване на мрежови сървър за време</trans>
+    </entry>
+    <entry>
+      <base>NTP_ENABLE_TITLE</base>
+      <trans>Включване на мрежови сървър за време</trans>
+    </entry>
+    <entry>
+      <base>NTP_DISABLE_TITLE</base>
+      <trans>Изключване на мрежови сървър за време</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_SETTING</base>
+      <trans>Текуща настройка</trans>
+    </entry>
+    <entry>
+      <base>Date and time</base>
+      <trans>Дата и час</trans>
+    </entry>
+  </lexicon>

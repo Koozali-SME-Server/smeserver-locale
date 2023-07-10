@@ -1,0 +1,114 @@
+<lexicon lang="ru">
+    <entry>
+      <base>NO_PSEUDONYMS</base>
+      <trans><![CDATA[ <b>В системе нет псевдонимов.</b> ]]></trans>
+     </entry>
+    <entry>
+        <base>REMOVE_PSEUDONYM</base>
+        <trans>Удалить псевдоним</trans>
+    </entry>
+    <entry>
+        <base>ABOUT_TO_REMOVE</base>
+        <trans><![CDATA[ Вы собираетесь удаить псевдоним:<br> <b>Вы действительно хотите продолжить?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Создание, изменение и удаление псевдонимов</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans><![CDATA[ <p>Сервер автоматически создает псевдонимы адресов электронной почты для каждой группы. Если вы хотите задать псевдоним электронной почты для списка пользователей, просто создайте группу и список будет автоматически поддерживаться сервером.</p> <p>Псевдонимы позволяют создавать другие имена для существующих пользователей или групп . Например, вы можете создать псевдоним "webmaster" для группы "webdevelopers" или псевдоним "joe" для пользователя "joseph".</p> <p>Сервер автоматически создает псевдоним в виде имя.фамилия и имя_фамилия для каждого пользователя в системе и псевдоним "everyone", который содержит всех пользователей системы.</p> <p>Псевдонимы также позволяют вам создать псевдонимы электронной почты действительных (виртуальных) доменов и пользователей. Например, вы можете перенаправить "sales@virtualdomain1.com" пользователю "mary" и "sales@virtualdomain2.com" пользователю "john". Вы должны создать домены и учетные записи пользователей, прежде чем создавать псевдонимы электронной почты. </p> <p> Псевдоним можно также перенаправить на другие псевдонимы, но это ограничено только одним уровнем. Например, псевдоним "webmaster" может перенаправлять на псевдоним "techsupport", который затем пересылает на пользователя "ray". Это полезно, когда один пользователь отвечает за многочисленные функции и сохраняет необходимость изменить псевдонимы, связанные с этим пользователем не раз в том случае, если пользователь уходит из организации.</p> <p>Вы можете изменить или удалить псевдоним, нажав на соответствующую команду рядом с псевдонимом.</p>]]></trans>
+    </entry>
+    <entry>
+        <base>LOCAL_ONLY</base>
+        <trans>(только локальная сеть)</trans>
+    </entry>
+    <entry>
+        <base>SELECT_ACCOUNT</base>
+        <trans>Выберите учётную запись или группу</trans>
+    </entry>
+    <entry>
+        <base>SELECT_INTERNAL</base>
+        <trans>Только локальная сеть</trans>
+    </entry>
+    <entry>
+        <base>CLICK_TO_CREATE</base>
+        <trans>Добавить псевдоним</trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM</base>
+        <trans>Псевдоним</trans>
+    </entry>
+    <entry>
+        <base>USER_OR_GROUP</base>
+        <trans>Пользователь или группа</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_PSEUDONYMS</base>
+        <trans><![CDATA[<b>Текущий список псевдонимов</b>]]></trans>
+    </entry>
+    <entry>
+        <base>TITLE_CREATE</base>
+        <trans>Создать псевдоним</trans>
+    </entry>
+    <entry>
+        <base>DESC_PSEUDONYM_NAME</base>
+       <trans>Пожалуйста, выберите учётную запись или группу для псевдонима из выпадающего списка ниже</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_PSEUDONYM</base>
+        <trans>Изменить псевдоним</trans>
+    </entry>     
+       <entry>
+        <base>PSEUDONYM_NAME</base>
+        <trans>Имя псевдонима</trans>
+    </entry>
+    <entry>
+        <base>VALID_PSEUDONYM_NAMES</base>
+        <trans><![CDATA[ Псевдоним должен содержать только прописные буквы, цифры, дефисы, точки и подчёркивания и начинаться с прописной буквы или цифры. Например, "sales", "john.holland", "123" и "email-administrator" - правильные псевдонимы, а "John Smith" и "Henry Miller" - нет. <p>Кроме того, можно создавать псевдонимы электронной почты для учетных записей и (виртуальных) доменов, которые действуют на этом сервере. Например, "fred@virtualdomain.com" может быть перенаправлен на "mary" (или другому допустимому пользователю).</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>NAME_IN_USE</base>
+        <trans>Ошибка: Это имя используется. Вы не можете создать псевдоним с таким именем.</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_PSEUDONYM</base>
+        <trans>Эта учётная запись не псевдоним</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_DOMAIN</base>
+        <trans>Этот домен не расположен на этом сервере</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_NOACCT</base>
+        <trans>Эта учётная запись не расположена на этом сервере</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_SAMEACCT</base>
+        <trans>Псевдоним не может указывать на ту же учётную запись</trans>
+    </entry>
+    <entry>
+        <base>CREATE_SUCCEEDED</base>
+        <trans>Псевдоним успешно создан</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_SUCCEEDED</base>
+        <trans>Псевдоним успешно изменён</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_SUCCEEDED</base>
+        <trans>Псевдоним успешно удалён</trans>
+    </entry>
+    <entry>
+      <base>EVERYONE</base>
+      <trans>Каждый</trans>
+    </entry>
+      <entry>
+        <base>Pseudonyms</base>
+        <trans>Псевдонимы</trans>
+      </entry>
+
+</lexicon>

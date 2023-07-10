@@ -1,0 +1,180 @@
+<lexicon lang="hu" params="lexicon_params()">
+    <!-- vim: ft=xml
+    -->
+    <entry>
+        <base>Hostnames and addresses</base>
+        <trans>Kiszolgálónevek és címek</trans>
+    </entry>
+    <entry>
+        <base>UNABLE_TO_OPEN_CONFIGDB</base>
+        <trans>A konfigurációs adatbázis nem nyitható meg</trans>
+    </entry>
+    <entry>
+        <base>DNS_FORWARDER_ENABLED</base>
+        <trans>A DNS továbbító konfigurálva lett. Ez azt jelenti, hogy minden DNS kérés a DNS továbbítónak megy. A kiszolgálónevek és IP címek addig nem módosíthatók ezen a szerveren, amíg a DNS továbbitó be van állítva.</trans>
+    </entry>
+    <entry>
+        <base>ADD_HOSTNAME</base>
+        <trans><![CDATA[ <a class="button-like" href="hostentries?page=0&page_stack=&Next=Next&wherenext=CreateModify">Kiszolgálónév hozzáadása</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME</base>
+        <trans>Kiszolgálónév</trans>
+    </entry>
+    <entry>
+        <base>HOSTTYPE</base>
+        <trans>Hely</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP</base>
+        <trans>Helyi IP cím</trans>
+    </entry>
+    <entry>
+        <base>ETHERNET_ADDRESS</base>
+        <trans>Fizikai cím</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_HOSTNAMES_FOR_DOMAIN</base>
+        <trans>A {$domain} kiszolgálóinak listája.</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTNAMES_FOR_SERVICENAME</base>
+        <trans>Nincs a {$serviceName} szolgáltatáshoz tartozó kiszolgálónév a rendszerben.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_HOSTNAMES_FOR_LOCAL_DOMAIN</base>
+        <trans>A {$localDomainName} kiszolgálóinak listája</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTNAMES_FOR_LOCAL_DOMAIN</base>
+        <trans>A rendszerben nincsenek {$localDomainName} -hoz tartozó kiszolgálónevek.</trans>
+    </entry>
+    <entry>
+        <base>STATIC_HOST_MESSAGE</base>
+        <trans>- Ez a kiszolgálónév a rendszer nevét képviseli és nem törölhető, vagy változtatható.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_LOCAL_HOST_TITLE</base>
+        <trans>Új kiszolgálónév létrehozása ehhez a szerverhez</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_VALIDATION_ERROR</base>
+        <trans>Hiba: érvénytelen karakterek a "{$HostName}" kiszolgálónévben. A kiszolgálónév csak betűket, számokat, és kötőjeleket tartalmazhat, valamint betűvel, vagy számmal kell kezdődnie.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_LENGTH_ERROR</base>
+        <trans>Hiba: a {$HostName} fióknév túl hosszú. Maximum 32 karakter hosszú lehet.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_VALIDATION_ERROR</base>
+        <trans>Hiba: helytelen, vagy hiányzó karakter a {$DomainName} domén névben. A domén névnek egy vagy több betűt, számot, pontot, vagy kötőjelet kell tartalmaznia. A domén létrehozása sikertelen.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_EXISTS_ERROR</base>
+        <trans>Hiba: a {$fullHostName} fióknév egy létező {$type} kiszolgálónév.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>A kiszolgálónév létrehozása sikeres.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_DESCRIPTION</base>
+        <trans>A kiszolgálónév csak betűket, számokat, és kötőjeleket tartalmazhat és betűvel  vagy számmal kell kezdődnie.</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP_DESCRIPTION</base>
+        <trans>A helyi IP cím a helyi fálózaton lévő másik gép IP címe. Kérem adjon meg egy érvényes címet az "aaa.bbb.ccc.ddd" formátumban.</trans>
+    </entry>
+    <entry>
+        <base>ETHERNET_ADDRESS_DESCRIPTION</base>
+        <trans>A fizikai cím megadása opcionális, ilyen esetben a DHCP szerver a számítógép IP címét statikusan rögzíti a fizikai címhez. Amennyiben megadja a fizikai címet, azt "AA:BB:CC:DD:EE:FF" formátumban kell megadnia és csak 0-tól 9-ig tartalmazhat számot, valamint A-tól F-ig betűt.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_LOCAL_HOST_TITLE</base>
+        <trans>Egy helyi kiszolgálóra utaló kiszolgálónév létrehozása.</trans>
+    </entry>
+    <entry>
+        <base>DIDNT_ENTER_LOCAL_IP</base>
+        <trans>Hiba: Nem adta meg a helyi IP címet. Az IP címek csak számokat és pontokat tartalmazhatnak az "aaa.bbb.ccc.ddd" formátumban. A kiszolgálónév létrehozása sikertelen.</trans>
+    </entry>
+    <entry>
+        <base>IP_VALIDATION_ERROR</base>
+        <trans>Hiba: A {$InternalIP} IP cím érvénytelen. Az IP címek csak számokat és pontokat tartalmazhatnak az "aaa.bbb.ccc.ddd" formátumban. A kiszolgálónév létrehozása sikertelen.</trans>
+    </entry>
+    <entry>
+        <base>MAC_ADDRESS_VALIDATION_ERROR</base>
+        <trans>Hiba: A {$MACAddress} fizikai cím érvénytelen. A fizikai címeket "AA:BB:CC:DD:EE:FF" formátumban kell megadnia és csak 0-tól 9-ig tartalmazhat számot, valamint A-tól F-ig betűt. A kiszolgálónév létrehozása sikertelen.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_REMOTE_HOST_TITLE</base>
+        <trans>Egy távoli kiszolgálóra utaló kiszolgálónév létrehozása</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Kiszolgálónév létrehozása vagy módosítása</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_PAGE_DESCRIPTION</base>
+        <trans>Kérem adja meg a helyi kiszolgáló további részleteit:</trans>
+    </entry>
+    <entry>
+        <base>REMOTE_PAGE_DESCRIPTION</base>
+        <trans>Kérem adja meg a távoli kiszolgáló további részleteit:</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>Kiszolgáló törlése sikeres.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>Kiszolgáló módosítása sikeres.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_PAGE_DESCRIPTION</base>
+        <trans><![CDATA[ A "{$hostname}.{$domain}" kiszolgálónév eltávolítására készül. </p> <p> <b>Biztos benne, hogy eltávolítja ezt a kiszolgálónevet?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DESCRIPTION</base>
+        <trans>Kérem hagyja jóvá a következő adatokat.</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTS_FOR_THIS_DOMAIN</base>
+        <trans>Nincsenek kiszolgálók ebben a doménben.</trans>
+    </entry>
+    <entry>
+        <base>ADDR_IN_DHCP_RANGE</base>
+        <trans>Az IP cím a DHCP lefoglalt címtartományába esik</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_HOST</base>
+        <trans>Hiba történt a kiszolgálónév létrehozásakor.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_HOST</base>
+        <trans>Hiba történt a kiszolgálónév módosításakor.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_HOST</base>
+        <trans>Hiba történt a kiszolgálónév törlésekor.</trans>
+    </entry>
+    <entry>
+        <base>ERR_IP_IS_LOCAL_OR_GATEWAY</base>
+        <trans>Hiba: Az IP cím nem lehet a szerver vagy az átjáró IP címe.</trans>
+    </entry>
+    <entry>
+        <base>ERR_IP_NOT_LOCAL</base>
+        <trans>Hiba: Ez az IP cím nem tartozik ehhez a hálózathoz.</trans>
+    </entry>
+    <entry>
+        <base>MUST_BE_VALID_HOSTNAME_OR_IP</base>
+        <trans>Érvényes névnek és IP címnek kell lennie</trans>
+    </entry>
+  <entry>
+   <base>HOSTNAME_COMMENT_ERROR</base>
+    <trans>Hiba: érvénytelen karakterek a "{$hostname}.{$domain}" kiszolgálónévben. A kiszolgálónév csak betűket, számokat, és kötőjeleket tartalmazhat, valamint betűvel, vagy számmal kell kezdődnie.</trans>
+  </entry>
+    <entry>
+      <base>HOSTNAME_VALIDATOR_ERROR</base>
+    <trans>Hiba: érvénytelen karakterek a "{$hostname}.{$domain}" kiszolgálónévben. A kiszolgálónév csak betűket, számokat, és kötőjeleket tartalmazhat, valamint betűvel, vagy számmal kell kezdődnie.</trans>
+  </entry>
+</lexicon>

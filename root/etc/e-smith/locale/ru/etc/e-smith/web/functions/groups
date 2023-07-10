@@ -1,0 +1,84 @@
+<lexicon lang="ru">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Создание, изменение или удаление групп пользователей</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_TOO_LONG</base>
+        <trans>Ошибка: слишком длинное имя группы. Максимум {$maxLength} символов.</trans>
+    </entry>    
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>Ошибка: группа "{$group}" не может быть создана, т.к. уже есть {$type} учётная запись с таким именем.</trans>
+    </entry>    
+    <entry>
+        <base>INVALID_GROUP_DESCRIPTION</base>
+        <trans>Ошибка: неожиданные или отсутствующие символы в описании группы</trans>
+    </entry>
+    <entry>
+        <base>NO_MEMBERS</base>
+        <trans>Ошибка: нет членов в группе. Новая группа не создана.</trans>
+    </entry>
+    <entry>
+        <base>CREATED_GROUP</base>
+        <trans>Группа пользователей успешно создана</trans>
+    </entry> 
+    <entry>
+        <base>DELETED_GROUP</base>
+        <trans>Группа пользователей успешно удалена</trans>
+    </entry> 
+    <entry>
+        <base>MODIFIED_GROUP</base>
+        <trans>Группа пользователей успешно изменена</trans>
+    </entry>	
+    <entry>
+        <base>CREATE_ERROR</base>
+        <trans>Произошла ошибка при создании группы пользователей.</trans>
+    </entry> 
+    <entry>
+        <base>DELETE_ERROR</base>
+        <trans>Произошла ошибка при удалении группы пользователей.</trans>
+    </entry> 
+    <entry>
+        <base>MODIFY_ERROR</base>
+        <trans>Произошла ошибка при изменении группы пользователей.</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_NAMING</base>
+        <trans><![CDATA[ Имя группы должны содержать только прописные буквы, цифры, дефисы, точки и подчёркивания и начинаться с прописной буквы. Например,"sales", "beta5" и "reseller_partners" - правильные имена групп, но "3rd-event", "Marketing Team" и "lost&found" - неверные. ]]></trans>
+    </entry>
+    <entry>
+        <base>GROUP_HAS_MEMBERS</base>
+        <trans>Члены этой группы:</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_GROUP</base>
+        <trans>Ошибка: Несуществующая учётная запись группы.</trans>
+    </entry>
+    <entry>
+        <base>GROUP_DESC</base>
+        <trans>Короткое описание/Windows псевдоним группы</trans>
+    </entry>
+   <entry>
+        <base>GROUP_DESC_EXPL</base>
+        <trans>Введите короткое описание в поле ниже. Это поле так же обозначает имя группы видимое Windows клиентам.</trans>
+   </entry>
+
+
+    <entry>
+        <base>IBAYS_WILL_BE_CHANGED</base>
+        <trans>Следующие информационные блоки были назначены этой группе и могут быть изменены администратором группы (вы можете изменить их на что-то еще позже):</trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DELETE_GROUP</base>
+        <trans><![CDATA[ <p><b>Вы действительно хотите удалить эту группу?</b></p> ]]></trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST</base>
+        <trans><![CDATA[<p>Текущий список групп пользователей</p>]]></trans>
+    </entry>
+    <entry>
+		<base>DELETE_DESCRIPTION</base>
+       	<trans><![CDATA[ Вы собираетесь удалить группу пользователей "<b>{$group}</b>." ]]></trans>
+    </entry>
+</lexicon>

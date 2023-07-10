@@ -1,0 +1,43 @@
+<lexicon lang="pt-br">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>Criar website inicial</trans>
+      </entry>
+      <entry>
+	<base>SUCCESS</base>
+	<trans>Website inicial criado com sucesso (arquivo index.htm salvo). Você pode visitar seu novo website no endereço abaixo:</trans>
+      </entry>
+      <entry>
+	<base>DESCRIPTION</base>
+	  <trans><![CDATA[ <p> Para criar uma página simples para sua empresa, preencha os campos abaixo e clique em <b>Criar</b>. </p> <p> Você pode deixar qualquer campo em branco se você não precisar dele. </p> <p> O texto que você entrar abaixo será alinhado e formatado para uma melhor aparência em sua página web. Deixe uma linha em branco quando desejar iniciar um novo parágrafo. Se você precisar forçar uma quebra de linha sem iniciar um novo parágrafo (por exemplo depois de cada linha de endereço de uma mala direta), então tecle os quatro caracteres em sequência <blockquote>&lt;BR&gt;</blockquote> onde você gostaria de ter a quebra de linha. </p> <p> <em>Não use esta opção</em> se você já tiver customizado seu web site pois esta tela sobrescreverá o arquivo "index.htm" no diretório do seu web site. </p> ]]></trans>
+      </entry>
+      <entry>
+	<base>LABEL_COMPANYNAME</base>
+	<trans>Nome da Empresa</trans>
+      </entry>
+	
+      <entry> 
+	<base>DESC_HEADER1</base>
+	<trans>Primeiro cabeçalho, tipicamente usado para frases curtas tais como "Líder no campo de manufatuta textil"</trans>
+      </entry>
+      <entry> 
+	<base>DESC_TEXT1</base>
+	<trans>O primeiro cabeçalho seguinte, tipicamente é usado para um curto paragrafo de marketing.</trans>
+      </entry>
+      <entry> 
+	  <base>DESC_HEADER2</base>
+	<trans>O segundo cabeçalho, tipicamente é usado para uma frase curta como "Informações adicionais" ou "Para ordenar nossos produtos":</trans>
+	</entry>
+      <entry> 
+	<base>DESC_TEXT2</base>
+	<trans>O segundo cabeçalho seguinte, tipicamente usado para contato ou informações sobre ordens:</trans>
+	</entry>
+      <entry>
+	<base>DESC_SUBMIT</base>
+	<trans><![CDATA[ <p>Quando você criar esta página web, o arquivo "index.htm" será sobrescrito no diretório do seu web site.</p> <p>Você deseja continuar?</p> ]]></trans>
+      </entry>
+      <entry>
+	<base>Create starter web site</base>
+	<trans>Criar web site inicial</trans>
+      </entry>
+</lexicon>

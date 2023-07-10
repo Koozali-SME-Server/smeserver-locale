@@ -1,0 +1,193 @@
+<lexicon lang="sv"> 
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+	<base>Software installer</base>
+	<trans>Installationshanteraren för programvara</trans>
+    </entry>
+
+    <entry>
+        <base>SUCCESS</base>
+        <trans>De nya inställningarna har sparats.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_YUM_STATUS</base>
+        <trans>Kontrollera om det finns uppdateringar</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_YUM_AUTOINSTALLUPDATES</base>
+	<trans>Installera uppdateringar automatiskt</trans>
+   </entry>
+    <entry>
+        <base>LABEL_YUM_AUTOINSTALLUPDATES_DESCRIPTION</base>
+        <trans>If enabled this will take precedence over the simple check for updates notification and predownload features. Instead it will install the available updates from enabled repositories. For more information refer to yum and yum-cron manual page.</trans>
+   </entry>
+
+    <entry>
+	<base>LABEL_YUM_PACKAGEFUNCTIONS</base>
+	<trans>Hantera paket individuellt</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_YUM_PACKAGEFUNCTIONS</base>
+	<trans>Installationshanteraren för programvara kan hantera grupper av relaterade paket eller individuella paket. Förvalt är att grupper av paket presenteras. om du önskar att hantera individuella paket, tillåt denna möjlighet. Detta bör endast göras av erfarna administratörer.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_ENABLED_REPOSITORIES</base>
+	<trans>Tillåt förråd (repositories)</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_ENABLED_REPOSITORIES</base>
+	<trans>Installationshanteraren för programvara kan installera programvara från alla de tillåtna förråden. För att tillåta ett förråd, välj det från listan. För att ej tillåta ett förråd, avmarkera det från listan. Förvalt är att endast stabila, testade programvaror är tillåtna för installation.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_UPTODATE</base>
+        <trans><![CDATA[ <div class="success"><h2>Detta system är uppdaterat.</h2> Alla uppdateringar har installerats. </div> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_UPDATES_AVAILABLE</base>
+        <trans><![CDATA[ <div class="success"><h2>Uppdateringar finns tillgängliga</h2> Det finns uppdateringar tillgängliga för ditt system. Dessa uppdateringar bör installeras så fort som möjligt. </div> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_AVAILABLE_UPDATES</base>
+        <trans>Uppdateringar finns tillgängliga</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_AVAILABLE_UPDATES</base>
+        <trans>Följande uppdateringar finns för ditt system. Du bör normal installera alla tillgängliga uppdateringar. Om det är någon(ra) uppdatering(ar) som du inte önskar installera, avmarkera den(de) från listan nedan.</trans>
+    </entry>
+
+    <entry>
+        <base>INSTALL_UPDATES</base>
+        <trans>Installera valda uppdateringar</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_INSTALL_UPDATES</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_UPDATES">Installera tillgängliga uppdateringar</a> ]]></trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_AVAILABLE_SOFTWARE</base>
+	<trans>Följande programvara finns tillgängliga för installation i ditt system. Du bör endast installera ytterligare programvara i detta system om du är medveten om konsekvenserna av detta.</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_AVAILABLE_GROUPS</base>
+	<trans>Du kan välja programvarugrupper att installera från listan nedan.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_AVAILABLE_GROUPS</base>
+	<trans>Tillgängliga grupper</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_AVAILABLE_PACKAGES</base>
+	<trans>Du kan också välja enstaka paket för installation i listan nedan.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_AVAILABLE_PACKAGES</base>
+	<trans>Tillgängliga paket</trans>
+    </entry>
+
+    <entry>
+	<base>INSTALL_SOFTWARE</base>
+	<trans>Installera</trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_INSTALLED_SOFTWARE</base>
+	<trans>Följande programvara är installerat på ditt system. Du bör endast radera programvara från detta system om du är medveten om konsekvenserna av detta.</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_INSTALLED_GROUPS</base>
+	<trans>Du kan välja en programvarugrupp för radering i listan nedan.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_INSTALLED_GROUPS</base>
+	<trans>Installerade grupper</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_INSTALLED_PACKAGES</base>
+	<trans>Du kan också välja individuella paket som du önskar radera, från listan nedan.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_INSTALLED_PACKAGES</base>
+	<trans>Installerade paket</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_CONFIGURATION</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_CONFIGURATION">Ändra inställningar för programvaruhanteraren</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_INSTALL_AVAILABLE</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_AVAILABLE">Installera ytterligare programvara</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_REMOVE</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_REMOVE">Radera installerad programvara</a> ]]></trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_POSTUPGRADE_REQUIRED</base>
+	<trans><![CDATA[ Systemet behöver om omkonfigureras efter installation, radering av programvara, eller uppdatering av programvara. <p> Klicka på omkonfigureringsknappen i slutet på denna sida för att starta omkonfigureringsprocesen. <b>En automatisk omstart kommer att initieras som en del av denna omkonfigureringsprocess</b> </p> ]]></trans>
+     </entry>
+
+    <entry>
+	<base>SYSTEM_BEING_RECONFIGURED</base>
+	<trans>Ditt system kommer automatiskt att starta om för att avsluta omkonfigureringsprocessen.</trans>
+    </entry>
+
+    <entry>
+      <base>1DAILY</base>
+      <trans>En gång varje dag</trans>
+    </entry>
+
+    <entry>
+      <base>2WEEKLY</base>
+      <trans>Varje vecka</trans>
+    </entry>
+
+    <entry>
+      <base>3MONTHLY</base>
+      <trans>Månadsvis</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DELTARPMPROCESS</base>
+      <trans>Delta Rpm Update</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DELTARPM</base>
+      <trans>A deltarpm contains the difference between an old and a new version of a rpm, which can save bandwith. The drawback is that update operations consume considerably more CPU cycles</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DOWNLOADONLY</base>
+      <trans>Personlig information har uppdaterats</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DOWNLOADONLY_DESCRIPTION</base>
+      <trans>The rpm updates can be downloaded during the night, this will ease and give faster the yum update process (only enabled repositories will be used).</trans>
+    </entry>
+
+</lexicon>

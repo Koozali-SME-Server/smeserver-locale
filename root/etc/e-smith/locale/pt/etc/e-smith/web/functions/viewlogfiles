@@ -1,0 +1,83 @@
+<lexicon lang="pt">
+    <entry>
+        <base>View log files</base>
+        <trans>Visualizar arquivos de log</trans>
+    </entry>
+
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ Este painel permite a você visualizar ou baixar os arquivos de log gerados pelos serviços que estão rodando no seu servidor. ]]></trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_SELECT_DESC</base>
+        <trans>Escolher o arquivo de log para visualizar</trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>Você pode opcionalmente especificar um modelo de filtro para mostrar somente as linhas do arquivo de log que coincidirem com o filtro. Se você deixar esse campo em branco, todas as linhas disponíveis no arquivo de log serão mostradas. Note que essa opção não é usada se você baixar o arquivo de log.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_LABEL</base>
+        <trans>Modelo de filtro (opcional)</trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>Voce pode tambem opcionalmente especificar um modelo de destaque para marcar em negrito qualquer linha do arquivo de log que coincida com o modelo destacado. O modelo destacado é aplicado para qualquer linha que já tenha coincidido com modelo de filtro. Note que esta opçao não é usada se você baixar o arquivo de log.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_LABEL</base>
+        <trans>Modelo de destaque (opcional)</trans>
+    </entry>
+    <entry>
+        <base>END_DESC</base>
+        <trans>Por favor note que poderá levar algum tempo para gerar esse relatório.</trans>
+    </entry>
+    <entry>
+        <base>VIEW</base>
+        <trans>Visualizar arquivo de log</trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_EMPTY</base>
+        <trans>Arquivo log "{$filename}" está em branco!</trans>
+    </entry>
+    <entry>
+        <base>VIEWING_TIME</base>
+        <trans>Visualizado as {$time}.</trans>
+    </entry>
+    <entry>
+        <base>MATCH_HEADER</base>
+        <trans>Mostrando linhas que coincidem com: "{$matchPattern}".</trans>
+    </entry>
+    <entry>
+        <base>HIGHLIGHT_HEADER</base>
+        <trans>Destacando linhas que coincidem: "{$highlightPattern}".</trans>
+    </entry>
+    <entry>
+        <base>NO_MATCHING_LINES</base>
+        <trans>Mostradas linhas que não coincidem.</trans>
+    </entry>
+    <entry>
+        <base>FILENAME_ERROR</base>
+        <trans><![CDATA[ <p>Erro enquanto especificava nome do arquivo de log.</p> <p>Tipo de relatório inválido "{$filename}".</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>REFRESH</base>
+	<trans>Atualizar este arquivo de log</trans>
+    </entry>
+    <entry>
+	<base>OP_DESC</base>
+	<trans><![CDATA[ <p>Você tem que escolher entre visualizar o arquivo de log ou baixar o arquivo de log para seu computador. Se o arquivo de log é particularmente grande, você pode querer baixá-lo ao invés de tentar visualizar em seu navegador, tendo em conta que isso é um problema para alguns navegadores.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>OP_LABEL</base>
+	<trans>Operação</trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_PAGE_DESC</base>
+	<trans><![CDATA[ <p>Seu arquivo para baixar não está pronto. Será processado assim que voce clicar em &quot;Next&quot; abaixo, e instruir seu browser para aceitar baixar da janela que irá aparecer.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_FILE</base>
+	<trans>Preparando para baixar o arquivo de log {$logfile}.</trans>
+    </entry>
+</lexicon>

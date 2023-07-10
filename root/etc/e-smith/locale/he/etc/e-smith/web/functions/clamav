@@ -1,0 +1,38 @@
+<lexicon lang="he">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>הגדרות אנטי וירוס</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FILESYSTEM_SCAN_PERIOD</base>
+        <trans>סרוק מערכת קבצים</trans>
+    </entry>
+    <entry>
+        <base>DESC_FILESYSTEM_SCAN_PERIOD</base>
+        <trans><![CDATA[ <h2>הגדרות כלליות</h2> כשאפשרות זו מסומנת מערכת הקבצים תיסרק למציאת וירוסים. דיווח על כל וירוס שיימצא ישלח בדואר אלקטרוני אל האדמיניסטרטור.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_QUARANTINE</base>
+        <trans>החזק קבצים נגועים בהסגר</trans>
+    </entry>
+    <entry>
+        <base>LABEL_CLAM_VERSIONS</base>
+        <trans>ClamAV וגרסאות מסד נתונים</trans>
+    </entry>
+    <entry>
+      <base>WEEKLY</base>
+      <trans>שבועי</trans>
+    </entry>
+    <entry>
+      <base>NEVER</base>
+      <trans>לעולם לא</trans>
+    </entry>
+    <entry>
+      <base>DAILY</base>
+      <trans>יומי</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>הגדרות ClamAV החדשות נשמרו.</trans>
+    </entry>
+</lexicon>

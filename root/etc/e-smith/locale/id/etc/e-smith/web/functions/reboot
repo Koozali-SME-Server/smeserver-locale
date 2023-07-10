@@ -1,0 +1,42 @@
+<lexicon lang="id">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Tutup padam atau reboot</trans>
+    </entry>
+    <entry>
+	<base>REBOOT</base>
+	<trans>Reboot</trans>
+    </entry>
+    <entry>
+	<base>REBOOT_SUCCEEDED</base>
+	<trans>Permintaan reboot berhasil dilakukan</trans>
+    </entry>
+    <entry>
+	<base>DESC_REBOOT</base>
+	<trans>Server anda sudah memulai proses reboot</trans>
+    </entry>
+    <entry>
+	<base>RECONFIGURE_SUCCEEDED</base>
+	<trans>Permintaan rekonfigurasi berhasil dimulai</trans>
+    </entry>
+    <entry>
+	<base>DESC_RECONFIGURE</base>
+	<trans>Server anda sudah memulai proses konfigurasi sistem dan reboot.</trans>
+    </entry>
+    <entry>
+	<base>DESC_SHUTDOWN</base>
+	<trans>Server anda sudah memulai proses tutup padam. Proses ini memerlukan waktu beberapa menit, setelah itu baru anda dapat mematikan catu daya.</trans>
+    </entry>
+    <entry>
+	<base>LABEL_REBOOT</base>
+	<trans>Pilih Tutup Padam, Reboot atau Rekonfigurasi</trans>
+    </entry>
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ Anda dapat reboot, tutup padam server anda atau melakukan rekonfigurasi sistem secara penuh dari layar ini. Anda harus melakukan tutup padam sebelum mematikan listrik. Semua fungsi tersebut memerlukan waktu beberapa menit untuk menyelesaikannya. Saat anda klik <b>jalankan</b> proses akan dimulai saat itu juga, jadi bersiaplah! ]]></trans>
+    </entry>
+    <entry>
+	<base>Reboot or shutdown</base>
+	<trans>Reboot atau tutup padam</trans>
+    </entry>
+</lexicon>

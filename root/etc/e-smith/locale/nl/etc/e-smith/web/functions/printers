@@ -1,0 +1,147 @@
+<lexicon lang="nl">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Printers toevoegen of verwijderen</trans>
+    </entry>
+    <entry>
+      <base>INITIAL_DESC</base>
+      <trans><![CDATA[ <P><A class="button-like" HREF="printers?page=0&Next=Add">Printer toevoegen</A></P> ]]></trans>
+    </entry>
+    <entry>
+      <base>NO_PRINTERS</base>
+      <trans>Er zijn geen printers op dit systeem.</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_LIST</base>
+      <trans>Huidige lijst met printers</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_ADDRESS</base>
+      <trans>Adres elders</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_NAME</base>
+      <trans>Naam elders</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NEW_PRINTER</base>
+      <trans>Printer toevoegen</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NEW_DESC</base>
+      <trans>Kies een unieke naam voor de printer en geef een korte beschrijving. De printernaam mag alleen uit kleine letters en cijfers bestaan. Bijvoorbeeld "hplaser", "epsonlp" en "canonbj" zijn geldige keuzes. "HP Laser Jet", "Canon BubbleJet" en "HP JetDirect Printer" zijn geen geldige namen. Vermijd namen en omschrijvingen met deze termen: "offline", "disabled", "down", "off", "waiting", "jam", "paper", "error" en "responding".</trans>
+    </entry>
+    <entry>
+      <base>PRINTER_NAME</base>
+      <trans>Printernaam</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_0</base>
+      <trans>Lokale printerpoort 0 (LPT1)</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_1</base>
+      <trans>Lokale printerpoort 1 (LPT2)</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_2</base>
+      <trans>Lokale printerpoort 2 (LPT3)</trans>
+    </entry>
+    <entry>
+      <base>NET_PRINTER</base>
+      <trans>Netwerk printer ...</trans>
+    </entry>
+    <entry>
+      <base>FIRST_USB_PRINTER</base>
+      <trans>Eerste USB aangesloten printer</trans>
+    </entry>
+    <entry>
+      <base>SECOND_USB_PRINTER</base>
+      <trans>Tweede USB aangesloten printer</trans>
+    </entry>
+    <entry>
+      <base>ERR_UNEXPECTED_NAME</base>
+      <trans><![CDATA[ <P>Fout: onverwachte tekens in de printernaam.</P> <P>De printernaam mag alleen kleine letters en cijfers bevatten en moet met een kleine letter beginnen. Bijvoorbeeld: "hplaser", "epsonlp" en "canonbj" zijn geldige namen.</P> ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_UNEXPECTED_DESC</base>
+      <trans>Fout: Onverwachte of ontbrekende tekens in de beschrijving. Geen nieuwe printer toegevoegd.</trans>
+    </entry>
+    <entry>
+      <base>ERR_EXISTS</base>
+      <trans>Fout: Een account met dezelfde naam bestaat al met type:</trans>
+    </entry>
+    <entry>
+      <base>ERR_INVALID_ADDRESS</base>
+      <trans>Fout: ongeldig netwerk adres. Geen nieuwe printer toegevoegd.</trans>
+    </entry>
+    <entry>
+      <base>ERR_INVALID_REMOTE_NAME</base>
+      <trans>Fout: Ongeldige netwerk printernaam. Geen nieuwe printer toegevoegd.</trans>
+    </entry>
+    <entry>
+      <base>ERR_CREATING</base>
+      <trans>Fout tijdens het toevoegen van de printer.</trans>
+    </entry>
+    <entry>
+      <base>CREATED_SUCCESSFULLY</base>
+      <trans>Printer is met succes toegevoegd:</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NETWORK_PRINTER</base>
+      <trans>Netwerk printer toevoegen</trans>
+    </entry>
+    <entry>
+      <base>ERR_OPENING_DB</base>
+      <trans>Fout opgetreden tijdens het openen van de accounts database.</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NETWORK_DESC</base>
+      <trans>Geef het adres en de naam van de netwerk printer</trans>
+    </entry>
+    <entry>
+      <base>HOSTNAME_OR_IP</base>
+      <trans>Hostnaam of IP adres van de netwerk printer</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_NAME_DESC</base>
+      <trans><![CDATA[ Netwerk printernaam (geef ongeveer als u het niet zeker weet) ]]></trans>
+    </entry>
+    <entry>
+      <base>REMOVE_PRINTER</base>
+      <trans>Verwijder printer</trans>
+    </entry>
+    <entry>
+      <base>ABOUT_TO_REMOVE</base>
+      <trans>U verwijderd op deze manier de printer:</trans>
+    </entry>
+    <entry>
+      <base>SPOOL_FILE_WARNING</base>
+      <trans>Alle opdracht-bestanden voor de printer worden verwijderd.</trans>
+    </entry>
+    <entry>
+      <base>ARE_YOU_SURE</base>
+      <trans>Weet u zeker dat u deze printer wilt verwijderen?</trans>
+    </entry>
+    <entry>
+      <base>ERR_INTERNAL_FAILURE</base>
+      <trans>Fout: interne fout tijdens verwijderen van printer:</trans>
+    </entry>
+    <entry>
+      <base>ERR_DELETING</base>
+      <trans>Fout opgetreden tijdens verwijderen van de printer.</trans>
+    </entry>
+    <entry>
+      <base>DELETED_SUCCESSFULLY</base>
+      <trans>Printer is met succes verwijderd:</trans>
+    </entry>
+    <entry>
+        <base>MUST_BE_VALID_HOSTNAME_OR_IP</base>
+        <trans>Moet een geldige hostnaam of IP adres zijn</trans>
+    </entry>
+    <entry>
+	<base>Printers</base>
+	<trans>Printers</trans>
+    </entry>
+
+</lexicon>

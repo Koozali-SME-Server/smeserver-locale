@@ -1,0 +1,42 @@
+<lexicon lang="pt">
+    <entry>
+        <base>Proxy settings</base>
+        <trans>Configuração do proxy</trans>
+    </entry>
+    <entry>
+        <base>FIRST_PAGE_DESCRIPTION</base>
+        <trans>Esta página permite fazer as configurações do servidor proxy. Este servidor inclui um proxy transparente e um cache para tráfego HTTP. Isto é habilitado por padrão, a não se que, esteja configurado no modo &quot;somente servidor&quot; . Se este servidor estiver agindo como servidor de correio, conexões de clientes da rede local para servidores SMTP externos serão por padrão redirecionadas para servidor de correio local.</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>Servidores proxy HTTP trabalham para reduzir a sobrecarga de acessos armazenando as páginas recentemente visitadas. Isto é transparente a navegadores que usam esse servidor como gateway. Habilitar ou desabilitar este proxy com a caixa a seguir.</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_LABEL</base>
+        <trans>Status do proxy HTTP </trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>Servidores de proxy transparente trabalham para reduzir o tráfego de virus de clientes host infectados forçando todo tráfego SMTP de saída passar pelo servidor. Tráfego SMTP através deste servidor, se definido como "ativado". Se voce deseja usar um servidor SMTP alternativo, e este servidor é o seu gateway para isto, desbilite o proxy. Definir o proxy como "bloqueado" evita todo o tráfego SMTP para outros servidores; esse é o padrão. O proxy apenas intercepta / bloqueia o tráfego smtp normal (porta 25).</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_LABEL</base>
+        <trans>Status do proxy SMTP</trans>
+    </entry>
+    <entry>
+        <base>ERR_PROXY_UPDATE_FAILED</base>
+        <trans>ERRO: O evento de atualização do proxy retornou um erro.</trans>
+    </entry>
+    <entry>
+        <base>ERR_NO_SQUID_REC</base>
+        <trans>ERRO: Não existe registro do squid no banco de dados de configuração.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>As novas configurações do proxy foram aplicadas com sucesso.</trans>
+    </entry>
+    <entry>
+        <base>BLOCKED</base>
+        <trans>Bloqueado</trans>
+    </entry>
+</lexicon>

@@ -1,0 +1,42 @@
+<lexicon lang="tr">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Kapatma veya Yeniden Başlatma</trans>
+    </entry>
+    <entry>
+	<base>REBOOT</base>
+	<trans>Yeniden Başlat</trans>
+    </entry>
+    <entry>
+	<base>REBOOT_SUCCEEDED</base>
+	<trans>Yeniden başlatma istemi, başarıyla gerçekleşti.</trans>
+    </entry>
+    <entry>
+	<base>DESC_REBOOT</base>
+	<trans>Sunucunuzun yeniden başlatma süreci başlamıştır.</trans>
+    </entry>
+    <entry>
+	<base>RECONFIGURE_SUCCEEDED</base>
+	<trans>Yeniden yapılandırıma istemi başarıyla gerçekleşti.</trans>
+    </entry>
+    <entry>
+	<base>DESC_RECONFIGURE</base>
+	<trans>Sunucunuz, sistem yeniden yapılandırılması ve yeniden başlatma sürecine başlamıştır.</trans>
+    </entry>
+    <entry>
+	<base>DESC_SHUTDOWN</base>
+	<trans>Sunucunuz kapanma sürecine başlamıştır. Bu sürecin tamamlanması birkaç dakika sürebilir, süreç tamamlandıktan sonra bilgisayarınızı kapatma düğmesinden kapatabilirsiniz.</trans>
+    </entry>
+    <entry>
+	<base>LABEL_REBOOT</base>
+	<trans>Kapatma, Yeniden Başlatma veya Yeniden Yapılandırma seçiniz.</trans>
+    </entry>
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ Bu sayfadan sistemi kapatabilir, yeniden başlatabilir veya yeniden yapılandırabilirsiniz. Bilgisayarın kapatma düğmesine basmadan önce kapatma işlemini seçmelisiniz. Bu işlemlerin tamamlanması birkaç dakika alabilir. <b>perform</b> düğmesine bastığınız zaman işlem hemen başlatılacaktır! ]]></trans>
+    </entry>
+    <entry>
+	<base>Reboot or shutdown</base>
+	<trans>Yeniden Başlatma veya Kapatma</trans>
+    </entry>
+</lexicon>

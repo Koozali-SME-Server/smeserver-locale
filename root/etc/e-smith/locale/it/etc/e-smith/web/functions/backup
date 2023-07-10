@@ -1,0 +1,749 @@
+<lexicon lang="it">
+  <entry>
+   <base>BACKUP_TITLE</base>
+   <trans>Backup o ripristino dei dati del server</trans>
+  </entry>
+  <entry>
+   <base>BACKUP_DESC</base>
+   <trans><![CDATA[<P>Il server fornisce due sistemi di backup e ripristino dei dati: il desktop locale o un'unità a nastro.</P> <P>Il primo metodo crea una copia della configurazione e dei dati degli     utenti e lo invia al desktop locale attraverso il browser. In questo momento, configurazione e dati occupano approssimativamente     <b>$tarsize</b>. Il file di backup avrà dimensioni inferiori per merito della compressione. L'opzione \"Verifica desktop backup\"     può essere utilizzata per verificare l'integrità del file di backup.</P> <P>Il backup su nastro utilizza un software chiamato <I>$module</I> per copiare l'intero disco fisso su nastro ogni notte. Questa opzione richiede un'unità nastro supportata e un nastro non protetto da scrittura. Il backup viene effettuato automaticamente all'ora selezionata ogni notte (durante il giorno l'amministratore riceve una email con un promemoria per l'inserimento del nastro). Attualmente il disco fisso contiene <b>$dumpsize</b> di dati.</P> <P>Entrambi i sistemi ripristinano la configurazione e i dati. <b>Il ripristino dovrebbe essere effettuato su un server appena installato</b>.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_DESC_DAR</base>
+   <trans><![CDATA[ <P>E' possibile fare il backup ed il restore del server in tre modi: utilizzando una unità nastro, una connessione di rete o un disco rimovibile locale, o utilizzando il desktop locale. </P> <P>Backup su nastro. Questo metodo utilizza il software <I>$module</I> per salvare l'intero contenuto del disco su nastro ogni notte. Il metodo richiede una unità nastro supportatta e un nastro non protetto da scrittura. Il backup viene eseguito automaticamente all'ora selezionata ogni notte (con un avviso inviato automaticamente all'amministratore durante la giornata). Attualmente il server contiene <b>$dumpsize</b> di dati.</P> <P>Workstation backup. Questo metodo usa un software denominato <I>dar</I> per salvare la configurazione del server ed i dati su una condivisione di rete o su un disco rimovibile locale come ad esempio un disco USB. Si può configurare il numero di backup completi da conservare (a rotazione), e quanti backup incrementali eseguire per ogni backup completo conservato. Il backup viene eseguito automaticamente ogni giorno nell'orario selezionato. Attualmente configurazione e dati occupano approssimativamente <b>$tarsize</b> non compressi. Sul dispositivo di backup deve essere disponibile uno spazio libero pari ad almeno il doppio dello spazio occupato dai dati compressi.</P> <P>Backup su Desktop. Questo metodo crea una copia della configurazione del server e dei dati e la salva sul desktop locale attraverso il browser web. Attualmente configurazione e dati occupano approssimativamente <b>$tarsize</b>. Il file di backup risulterà più piccolo di questa dimensione, in funzione di quanto siano comprimibili i file  salvati. Il file può essere utilizzato per ripristinare il server dalla console dopo averlo copiato su un supporto rimovibile locale come un disco USB.</P> <P>Tutti i metodi di backup consentono il ripristino completo di dati e configurazione. Il backup su workstation consente il ripristino di singoli file. <b>In linea di principio il restore completo va utilizzato su un server di nuova installazione.</b>.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_CONFIG_STATUS</base>
+   <trans>Configurazione e stato del backup</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUPS_ENABLED</base>
+   <trans><![CDATA[ Il backup su nastro è <b>abilitato</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUPS_RUN_AT</base>
+   <trans>I backup su nastro inizieranno alle:</trans>
+  </entry>
+  <entry>
+   <base>REMINDER_MESSAGE_AT</base>
+   <trans>Il promemoria verrà inviato alle:</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUPS_DISABLED</base>
+   <trans><![CDATA[ Il backup su nastro è <b>disabilitato</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_BACKUP</base>
+   <trans>Backup su desktop</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_RESTORE</base>
+   <trans>Ripristino da desktop</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_VERIFY</base>
+   <trans>Verifica desktop backup</trans>
+  </entry>
+  <entry>
+   <base>TAPE_CONFIGURE</base>
+   <trans>Configura backup su nastro</trans>
+  </entry>
+  <entry>
+   <base>TAPE_RESTORE</base>
+   <trans>Ripristina da nastro</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS_BEGAN_AT</base>
+   <trans>Ripristino in corso. Inizio alle:</trans>
+  </entry>
+  <entry>
+   <base>REFRESH_THIS_DISPLAY</base>
+   <trans>Aggiorna questo schermo</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_TAPE_BACKUP</base>
+   <trans>Configura backup su nastro</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_COMPLETED</base>
+   <trans>Ripristino del sistema completato</trans>
+  </entry>
+  <entry>
+   <base>STARTED_AT</base>
+   <trans>Inizio alle:</trans>
+  </entry>
+  <entry>
+   <base>FINISHED_AT</base>
+   <trans>ed è terminato a:</trans>
+  </entry>
+  <entry>
+   <base>YOU_MUST_REBOOT</base>
+   <trans>E' necessario riavviare il server per attivare le modifiche alla configurazione successivamente al ripristino.</trans> 
+  </entry> 
+  <entry>
+   <base>REBOOT</base>
+   <trans>Riavvia</trans>
+  </entry>
+  <entry>
+   <base>SELECT_AN_ACTION</base>
+   <trans>Selezionare un'azione</trans>
+  </entry>
+  <entry>
+   <base>X_BACKUP_OR_RESTORE</base>
+   <trans>X Backup o ripristino server data</trans>
+  </entry>
+  <entry>
+   <base>ERR_PRE_BACKUP</base>
+   <trans>Errore durante le operazioni precedenti il backup.</trans>
+  </entry>
+  <entry>
+   <base>ERR_PRE_RESTORE</base>
+   <trans>Errore durante le operazioni precedenti il ripristino.</trans>
+  </entry>
+  <entry>
+   <base>ERR_POST_BACKUP</base>
+   <trans>Errore durante le operazioni successive al backup.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_SERVER_CONFIG</base>
+   <trans>Ripristino configurazione server</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_RESTORE_DESC</base>
+   <trans><![CDATA[ Questa procedura caricherà un file di backup dal desktop locale al server e ripristinerà la configurazione e i dati degli utenti. <B> Il ripristino dovrebbe essere effettuato su un server appena installato.</B>. ]]></trans>
+  </entry>
+  <entry>
+   <base>FREE_SPACE</base>
+   <trans><![CDATA[ Attualmente, lo spazio libero sul server è approssimativamente $tmpfree. Controllare che il file del backup su desktop sia più piccolo di $halffree prima di iniziare il ripristino. ]]></trans>
+  </entry>
+  <entry>
+   <base>MUST_REBOOT_AFTER_RESTORE</base>
+   <trans>Al termine del ripristino è necessario riavviare il server.</trans>
+  </entry>
+  <entry>
+   <base>FILE_TO_RESTORE</base>
+   <trans>File di backup da cui ripristinare</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Questa opzione mostra i nomi di tutti i file contenuti in un backup su desktop precedentemente creato. Utilizzarla per verificare il contenuto di un file di backup su desktop.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>SELECT_BACKUP_FILE</base>
+   <trans>Selezionare il file di backup</trans>
+  </entry>
+  <entry>
+   <base>VERIFY</base>
+   <trans>Verifica</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CANNOT_PROCEED</base>
+   <trans>Impossibile proseguire il ripristino</trans>
+  </entry>
+  <entry>
+   <base>ANOTHER_RESTORE_IN_PROGRESS</base>
+   <trans>Altro ripristino in corso. Riprovare in seguito.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS</base>
+   <trans>Ripristino in corso</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS_DESC</base>
+   <trans>Al termine del ripristino sarà necessario riavviare il server. Il ripristino sarà completato quando la dicitura "Ripristino completato" apparirà in fondo allo schermo.</trans>
+  </entry>
+  <entry>
+   <base>FILES_HAVE_BEEN_RESTORED</base>
+   <trans>I seguenti file e cartelle sono stati ripristinati:</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FAILED_MSG</base>
+   <trans>Ripristino fallito! Errore durante la lettura del file di backup.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_COMPLETE</base>
+   <trans>Ripristino completato</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_GID</base>
+   <trans>Errore durante il ripristino del GID di 'www'</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_INITIAL_GRP</base>
+   <trans>Errore durante il ripristino del gruppo iniziale di 'www'.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FAILED</base>
+   <trans>Ripristino fallito! Il file di backup era incompleto.</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_EXEC_PIPELINE</base>
+   <trans>Impossibile eseguire backup pipeline:</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_DECODE</base>
+   <trans>Impossibile decodificare il file di backup:</trans>
+  </entry>
+  <entry>
+   <base>FILES_IN_BACKUP</base>
+   <trans>I seguenti file sono contenuti nel file di backup:</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_COMPLETE</base>
+   <trans>Verifica completata</trans>
+  </entry>
+  <entry>
+   <base>BACKUP_FILE_INCOMPLETE</base>
+   <trans>Il file di backup era incompleto</trans>
+  </entry>
+  <entry>
+   <base>ERR_READING_FILE</base>
+   <trans>Errore durante la lettura del file di backup.</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_DISABLE_TAPE</base>
+   <trans>Abilita/Disabilita Backup notturno su nastro</trans>
+  </entry>
+  <entry>
+   <base>TAPE_CONFIG_DESC</base>
+   <trans><![CDATA[ <p>Abilitare/disabilitare i backup notturni su nastro e indicare l'orario desiderato per il backup e il promemoria di inserimento nastro.</p> <p> Il backup su nastro richiede un'unità nastro supportata. L'amministratore riceverà una mail di avvertimento all'orario del promemoria se l'unità nastro è vuota.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>ENABLE_TAPE_BACKUP</base>
+   <trans>Abilita backup su nastro</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUP_TIME</base>
+   <trans>Orario backup (ore/min)</trans>
+  </entry>
+  <entry>
+   <base>LOAD_TAPE_REMINDER_TIME</base>
+   <trans>Orario promemoria (ore/min)</trans>
+  </entry>
+  <entry>
+   <base>AM/PM</base>
+   <trans>AM/PM</trans>
+  </entry>
+  <entry>
+   <base>AM</base>
+   <trans>AM</trans>
+  </entry>
+  <entry>
+   <base>PM</base>
+   <trans>PM</trans>
+  </entry>
+  <entry>
+   <base>UPDATE_CONF</base>
+   <trans>Aggiorna</trans>
+  </entry>
+  <entry>
+   <base>UPDATING_TAPE_CONF</base>
+   <trans>Aggiornamento configurazione backup su nastro in corso</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_HOUR</base>
+   <trans>Errore: ora non valida:</trans>
+  </entry>
+  <entry>
+   <base>BETWEEN_0_AND_12</base>
+   <trans>Selezionare un'ora compresa tra 0 e 12.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_MINUTE</base>
+   <trans>Errore: minuto non valido:</trans>
+  </entry>
+  <entry>
+   <base>BETWEEN_0_AND_59</base>
+   <trans>Selezionare un minuto compreso tra 0 e 59.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_REMINDER_HOUR</base>
+   <trans>Errore: ora promemoria non valida:</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_REMINDER_MINUTE</base>
+   <trans>Errore: minuto promemoria non valido:</trans>
+  </entry>
+  <entry>
+   <base>ERR_CONF_BACKUP</base>
+   <trans>Errore durante la configurazione del backup.</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_ENABLED_TAPE</base>
+   <trans>Backup su nastro abilitato con successo</trans>
+  </entry>
+  <entry>
+   <base>WITH_BACKUP_TIME</base>
+   <trans>alle:</trans>
+  </entry>
+  <entry>
+   <base>WITH_REMINDER_TIME</base>
+   <trans>e promemoria alle:</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_DISABLED</base>
+   <trans>Backup su nastro disabilitato con successo</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_TAPE</base>
+   <trans>Ripristina configurazione da nastro</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_TAPE_DESC</base>
+   <trans><![CDATA[ <p>La procedura ripristinerà la configurazione e i dati utente da un backup su nastro. <B>Il ripristino dovrebbe essere effettuato su un server appena installato</B>.</p> <p>Assicurarsi di aver inserito il nastro desiderato nell'unità prima di procedere.</p> <p>Al termine del ripristino sarà necessario riavviare il server.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FROM_TAPE</base>
+   <trans>Ripristino da Nastro</trans>
+  </entry>
+  <entry>
+   <base>UNABLE_TO_RESTORE_CONF</base>
+   <trans>Impossibile ripristinare la configurazione</trans>
+  </entry>
+  <entry>
+   <base>RESTORING_FROM_TAPE</base>
+   <trans>Ripristino da Nastro in corso</trans>
+  </entry>
+  <entry>
+   <base>NOW_RESTORING_FROM_TAPE</base>
+   <trans>La configurazione del server e i dati utente vengono ripristinati da nastro.</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_FROM_TAPE</base>
+   <trans>Errore durante il ripristino da nastro.</trans>
+  </entry>
+  <entry>
+   <base>ERR_UPDATING_CONF_AFTER_TAPE_RESTORE</base>
+   <trans>Errore durante l'aggiornamento della configurazione di sistema al termine del ripristino.</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_FORK</base>
+   <trans>Errore fork:</trans>
+  </entry>
+  <entry>
+   <base>SERVER_REBOOT</base>
+   <trans>Riavvio Server</trans>
+  </entry>
+  <entry>
+   <base>SERVER_WILL_REBOOT</base>
+   <trans>Il server ora si riavvierà.</trans>
+  </entry>
+  <entry>
+   <base>NO_UID_FOR_NAME</base>
+   <trans>Impossibile ottenere l'uid per l'utente:</trans>
+  </entry>
+  <entry>
+   <base>PAGE_REFRESH_IN</base>
+   <trans><![CDATA[ Aggiornamento automatico ogni {$sec} secondi, o fare clic <a href="/server-manager/cgi-bin/backup">qui</a>. ]]></trans>
+  </entry>
+    <entry>
+	<base>Backup or restore</base>
+	<trans>Backup o ripristino</trans>
+    </entry>
+
+  <entry>
+	<base>BACKUP_DESKTOP_TOO_BIG</base>
+	<trans><![CDATA[ <div class="error"> Il server ha una quantità di dati superiore alla capacità del backup su desktop. </div> ]]></trans>
+  </entry>
+   <entry>
+   <base>WORKSTN_BACKUPS_DISABLED</base>
+   <trans><![CDATA[ I backup su workstation sono <b>disabilitati</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUPS_ENABLED</base>
+   <trans><![CDATA[ I backup su workstation sono attualmente <b>abilitati</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>WKBACKUPS_RUN_AT</base>
+   <trans>I backup su workstation inizieranno alle:</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_CONFIGURE</base>
+   <trans>Configura il backup su workstation</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_VERIFY</base>
+   <trans>Verifica il backup su workstation</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_RESTORE</base>
+   <trans>Ripristino da workstation</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_WORKSTN_BACKUP</base>
+   <trans>Configura il backup su workstation</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_DISABLE_WORKSTN</base>
+   <trans>Abilita/Disabilita il backup quotidiano su workstation</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_WORKSTN_BACKUP</base>
+   <trans>Abilita il backup su workstation</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TIME</base>
+   <trans>Orario backup workstation (ore/min)</trans>
+  </entry>
+  <entry>
+   <base>UPDATING_WORKSTN_CONF</base>
+   <trans>Aggiornamento configurazione backup workstation in corso</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_ENABLED_WORKSTN</base>
+   <trans>Backup su workstation abilitato con successo</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_DISABLED_WORKSTN</base>
+   <trans>Backup su workstation disabilitato con successo</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_WORKSTN_BACKUP_FILE</base>
+   <trans>Verifica il backup su workstation</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_WORKSTN_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Questa opzione visualizzerà i nomi di tutti i file contenuti in un backup su workstation creato in precedenza. E' possibile utilizzarla per verificare il contenuto del backup.<b>E' necessario scegliere quale  backup si desidera verificare</b></p> <p>Soltanto i file marcati [Saved] sono contenuti nel backup.</p>I file di backup saranno verificati dalla condivisione di rete: ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_WORKSTN</base>
+   <trans>Ripristina configurazione da backup su workstation</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_WORKSTN_DESC</base>
+   <trans><![CDATA[ <p>La procedura ripristinerà la configurazione e i dati utente da un backup su workstation. <B>Il ripristino dovrebbe essere effettuato su un server appena installato</B>.</p> <p>Assicurarsi di scegliere dalla lista il backup corretto da ripristinare prima di procedere.</p> <p>Al termine del ripristino sarà necessario riavviare il server.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FROM_WORKSTN</base>
+   <trans>Ripristina da workstation</trans>
+  </entry>
+  <entry>
+   <base>RESTORING_FROM_WORKSTN</base>
+   <trans>Ripristino da workstation in corso</trans>
+  </entry>
+  <entry>
+   <base>NOW_RESTORING_FROM_WORKSTN</base>
+   <trans>La configurazione del server e i dati utente vengono ripristinati da workstation.</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_FROM_WORKSTN</base>
+   <trans>Errore durante il ripristino da workstation.</trans>
+  </entry>
+  <entry>
+   <base>ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE</base>
+   <trans>Errore durante l'aggiornamento della configurazione di sistema al termine del ripristino.</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_NAME</base>
+   <trans>Indirizzo Ip o hostname della workstation </trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SETTINGS</base>
+   <trans>Configurazione del backup su workstation</trans>
+  </entry>
+  <entry>
+   <base>SHARED_FOLDER_NAME</base>
+   <trans>Condivisione di backup</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_LOGIN</base>
+   <trans>Nome da utilizzare per il login</trans>
+  </entry>
+  <entry>
+   <base>WORKSTATION_BACKUP_DEST</base>
+   <trans>Configurazione backup su workstation</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_WORKSTN_BACKUP_DESC</base>
+   <trans>Configurare il numero dei backup successivi da mantenere sulla workstation, una rotazione automatica sovrascriverà i più vecchi. Ogni set può contenere i dati per molti giorni successivi. In questo modo il primo backup verrà effettuato completamente (full backup), i successivi saranno incrementali. Si può anche configurare un tempo limite massimo per ogni sessione di backup o di backup incrementale. Quando questo limite viene superato il backup viene interrotto senza perdita di dati, il processo di backup successivo continuerà da quel punto.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_WORKSTN</base>
+   <trans>Indirizzo Ip o hostname della workstation non validi</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_FOLDER</base>
+   <trans>Nome della condivisione non valido</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_LOGIN</base>
+   <trans>Nome di login non valido</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_PASSWORD</base>
+   <trans>Password non valida</trans>
+  </entry>
+  <entry>
+   <base>ERR_ALREADY_MOUNTED</base>
+   <trans>La cartella di salvataggio è già montata</trans>
+  </entry>
+  <entry>
+   <base>ERR_MOUNTING_SMBSHARE</base>
+   <trans>Impossibile montare la condivisione della workstation</trans>
+  </entry>
+  <entry>
+   <base>ERR_NOT_MOUNTED</base>
+   <trans>La cartella di salvataggio non è montata</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_NOT_SET</base>
+   <trans>E' necessario configurare correttamente il backup su workstation</trans>
+  </entry>
+  <entry>
+   <base>NO_BACKUPS_TO_RESTORE</base>
+   <trans>Non è presente nessun set di backup nella condivisione di rete configurata. Verificare la configurazione.</trans>
+  </entry>
+  <entry>
+   <base>NUMBER_OF_SETS</base>
+   <trans>Numero di set di backup</trans>
+  </entry>
+  <entry>
+   <base>NUMBER_OF_FILES_IN_SET</base>
+   <trans>Backup giornalieri per ogni set</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_SETS_NUMBER</base>
+   <trans>Il numero di set deve essere uguale o maggiore di 1</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_FILES_IN_SET_NUMBER</base>
+   <trans>Questo numero deve essere maggiore o uguale a 1. Il primo backup sarà <b>completo</b>, gli altri saranno <b>incrementali</b></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_TIMEOUT</base>
+   <trans>Limite massimo di tempo per la sessione di backup (ore)</trans>
+  </entry>
+  <entry>
+   <base>INC_ONLY_TIMEOUT</base>
+   <trans>Non limitare il tempo delle sessioni di backup completo</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_TIMEOUT</base>
+   <trans>Il tempo limite di backup deve essere compreso tra 1 e 24 ore</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_HOST_DIR</base>
+   <trans>Nessuna directory di backup per questo server presente nella condivisione di rete. L'hostname potrebbe essere differente da quello utilizzato per il backup.</trans>
+  </entry>
+  <entry>
+   <base>ERROR_READING_FILE</base>
+   <trans>Errore nella lettura dei file da</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SEL_RESTORE</base>
+   <trans>Restore selettivo dei file da workstation</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SELECTIVE_RESTORE</base>
+   <trans>Restore selettivo dei file da workstation</trans>
+  </entry>
+  <entry>
+   <base>ALL_BACKUPS</base>
+   <trans>Tutti i backup</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SEL_REST_DESC</base>
+   <trans><![CDATA[ Questo processo ripristinerà solo i file e le cartelle selezionati. Deve prima essere scelto il set di backup da cui saranno ripristinati i file. Se non è noto in quale backup sono contenuti i file richiesti selezionare l'opzione "Tutti i backup". <br/><br/> Il prossimo pannello mostrerà i file e le cartelle disponibili per poter scegliere quelli da ripristinare. Per limitare il numero di file e cartelle mostrati è possibile introdurre un filtro, applicato come una espressione regolare ai nomi visualizzati.<br/><br/> E' cura dell'utente <b>non ripristinare</b> file che potrebbero pregiudicare il corretto funzionamento del server.<br/> <br/>I file saranno ripristinati da: ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_CHOICE</base>
+   <trans>Selezione dei file da mostrare in corso</trans>
+  </entry>
+  <entry>
+   <base>SELECT_DATE_BEFORE</base>
+   <trans>Ripristina file aggiornati alla data</trans>
+  </entry>
+  <entry>
+   <base>FILTER_EXPRESSION</base>
+   <trans>Nomi filtrati per</trans>
+  </entry>
+  <entry>
+   <base>READ_COMPLETE</base>
+   <trans><![CDATA[ Selezionare i file e le directory da ripristinare elencati nella lista (utilizzare ctrl o shift per selezioni multiple). <br/> <b>Attenzione :</b> Selezionando una directory, tutti i file e le sottodirectory in essa contenuti verranno ripristinati.<p/> Per default sarà ripristinata la versione più recente dei file selezionati, ma indicando una data nel formato <i>[ [ [yyyy/]mm/]dd-]hh:mm[:ss]</i> verrà ripristinata la versione antecedente <b>alla data indicata</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_SELDATE</base>
+   <trans>Il formato della data non è valido, deve essere [ [ [yyyy/]mm/]dd-]hh:mm[:ss]. es.: 2005/12/31-08:23:32 oppure 10-08:32 oppure 08:32</trans>
+  </entry>
+  <entry>
+   <base>SELECT_FILES_TO_RESTORE</base>
+   <trans>Selezionare i file da ripristinare</trans>
+  </entry>
+  <entry>
+   <base>ERR_WHILE_UNMOUNTING</base>
+   <trans>Si è verificato un errore nell'umount della condivisione remota</trans>
+  </entry>
+  <entry>
+   <base>ERR_DAR_CATALOG</base>
+   <trans>Si è verificato un errore usando Dar</trans>
+  </entry>
+  <entry>
+   <base>COMPRESSION_LEVEL</base>
+   <trans>Livello di compressione del backup [0-9]</trans>
+  </entry>
+  <entry>
+   <base>FULL_ONLY_ON</base>
+   <trans>È possibile effettuare un backup completo</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_COMPRESSION</base>
+   <trans>Il livello di compressione deve essere impostato tra 0 (nessuna compressione) e 9 (massima compressione)</trans>
+  </entry>
+  <entry>
+   <base>DOW</base>
+   <trans>Domenica Lunedì Martedì Mercoledì Giovedì Venerdì Sabato Sempre</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURATION_TO_BE_DONE</base>
+   <trans>Configurare le impostazioni di backup.</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Questa pagina mostra le impostazioni correnti per il backup su workstation. E' possibile effettuare modifiche in questa pagina e nella prossima.</p><p/> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_NOT_CONFIGURED</base>
+   <trans><![CDATA[ <p>Al momento, il backup su worstation non è configurato. E' possibile configurarlo in questa pagina e nella prossima.</p><p/> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_ENABLED</base>
+   <trans>Il backup è </trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_USB</base>
+   <trans>Il backup viene effettuato su un disco USB locale</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_MNT</base>
+   <trans>Il backup viene effettuato su un disco montato</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_HOST</base>
+   <trans>Il backup è effettuato su una workstation in LAN</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_VFSTYPE</base>
+   <trans>attraverso</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SHARE</base>
+   <trans>La condivisione remota di destinazione per il backup è</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TOD</base>
+   <trans>Il backup giornaliero ha luogo alle</trans>
+  </entry>
+  <entry>
+   <base>LOGIN</base>
+   <trans>La login è</trans>
+  </entry>
+  <entry>
+   <base>PASSWORD</base>
+   <trans>La password è</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SETSNUM</base>
+   <trans>Numero di set di backup</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_DAYSINSET</base>
+   <trans>Il numero di backup giornalieri contenuti in ogni set è</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_COMPRESSION</base>
+   <trans>Il livello di compressione del backup (0-9) è</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TIMEOUT</base>
+   <trans>Ogni sessione di backup giornaliero scade normalmente dopo</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_INCONLY_TIMEOUT</base>
+   <trans> eccetto i backup full che scadono dopo 24 ore</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_FULL_BACKUP_EVERYDAY</base>
+   <trans>Le sessioni di full backup (nel caso di nuovo set di backup) sono permesse tutti i giorni</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_FULL_BACKUP_DAY</base>
+   <trans>Il backup completo (nei nuovi set di backup) è permesso solo il</trans>
+  </entry>
+  <entry>
+   <base>WORKSTATION_BACKUP_SETCONF</base>
+   <trans>Crea o modifica la configurazione del backup su workstation</trans>
+  </entry>
+  <entry>
+   <base>SELECT_VFS_TYPE</base>
+   <trans>Seleziona il tipo di condivisione di destinazione per il backup</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_USB_DISK</base>
+   <trans>Errore: nessun disco USB è disponibile. Connettere un disco USB o selezionare un altro tipo di backup su workstation.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_MOUNTED_DISK</base>
+   <trans>Errore: nessun disco montato è disponibile. Montare un disco o selezionare un altro tipo di backup su workstation.</trans>
+  </entry>
+  <entry>
+   <base>HOURS</base>
+   <trans>ore.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_FULL_BACKUP</base>
+   <trans>Annullamento del ripristino perchè il backup completo necessario è mancante o illeggibile</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_INC_BACKUP</base>
+   <trans>Annullamento del ripristino: nel set manca o è illeggibile il backup incrementale numero</trans>
+  </entry>
+  <entry>
+   <base>CHECK_TO_VERIFY_FULL_RESTORE</base>
+   <trans>Selezionare per verificare l'integrità di tutti i backup necessari per un restore completo in base al backup selezionato</trans>
+  </entry>
+  <entry>
+   <base>TESTING_NEEDED_BACKUPS_FOR_RESTORE</base>
+   <trans>Verifica in corso di tutti i backup necessari per un restore completo in base al backup selezionato</trans>
+  </entry>
+  <entry>
+   <base>TESTED_BACKUP</base>
+   <trans>Verifica dell'integrità del backup in corso</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_VERIFY_FAILED</base>
+   <trans>Verifica dell'integrità fallita</trans>
+  </entry>
+  <entry>
+   <base>CHECK_INTEGRITY_WARNING</base>
+   <trans>Attenzione: per backup voluminosi, il controllo di integrità può richiedere molto tempo; si consiglia di disabilitare il backup giornaliero prima di procedere.</trans>
+  </entry>
+  <entry>
+    <base>cifs</base>
+    <trans>cifs</trans>
+  </entry>
+  <entry>
+    <base>nfs</base>
+    <trans>nfs</trans>
+  </entry>
+  <entry>
+    <base>local removable disk</base>
+    <trans>Disco rimovibile locale</trans>
+  </entry>
+  <entry>
+    <base>Mounted disk</base>
+    <trans>Disco montato</trans>
+  </entry>
+  <entry>
+   <base>ERROR_WHEN_TESTING_REMOTE_SERVER</base>
+   <trans>I parametri son ostati salvati ma l'host remoto non è raggiungibile; controllare le impostazioni.</trans>
+  </entry>
+  <entry>
+   <base>DO_NOT_RESTORE_BIN_SBIN_LIB_LIB64_FROM_SME9</base>
+   <trans>In caso di ricupero da Koozali SME Server 9 o versioni precedenti, fare attenzione al fatto che alcune directory del sistema sono ora link simbolici. La configurazione base del backup non include /bin, /lib, /lib64, /sbin, /var/lock e /var/run; se tali cartelle sono state aggiunte per via di files contenuti al loro interno, il sistema non effettuerà il ripristino di tali directory per evitare che DAR sovrascriva i link simbolici, col risultato di rendere il sistema instabile. Tali aggiunte, tuttavia, sono sconsigliate in quanto a rischio di sovrascrivere files appartenenti a qualche rpm.</trans>
+  </entry>
+  <entry>
+   <base>SMBV1</base>
+   <trans>Monta come condivisone legacy SMB v1 (non sicuro, sconsigliato).</trans>
+  </entry>
+
+
+</lexicon>

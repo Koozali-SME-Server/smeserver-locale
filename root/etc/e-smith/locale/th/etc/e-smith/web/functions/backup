@@ -1,0 +1,749 @@
+<lexicon lang="th">
+  <entry>
+   <base>BACKUP_TITLE</base>
+   <trans>สำรองหรือเรียกคืนข้อมูลของเซิร์ฟเวอร์</trans>
+  </entry>
+  <entry>
+   <base>BACKUP_DESC</base>
+   <trans><![CDATA[ <P>การสำรองข้อมูลและการนำข้อมูลสำรองของเซอร์ฟเวอร์กลับมาใช้มีสองวิธีคือ โดยใช้พื้นที่เดสก์ทอปบนเครื่องของคุณ และเทปแบคอัพ</P> <P>ในวิธีแรกจะทำสำเนาการตั้งค่าของเซอร์ฟเวอร์และข้อมูลของผู้ใช้ จากนั้นดาวน์โหลดลงมาที่เดสก์ทอปของคุณ ซึ่งจะทำผ่านเว็บเบราเซอร์ ปัจจุบันขนาดรวมของไฟล์การตั้งค่าของเซอร์ฟเวอร์และข้อมูลของผู้ใช้มีอยู่ประมาณ <b>$tarsize</b> โดยทั่วไปไฟล์แบคอัพจริงจะเล็กกว่านี้ ซึ่งขึ้นกับข้อมูลจะสามารถถูกบีบอัดลงได้มากแค่ใหน ตัวเลือก \"ตรวจทานไฟล์ของการสำรองไปเดสก์ทอป\" จะใช้เมื่อต้องหากการให้ทำการตรวจสอบความถูกต้องของไฟล์สำรองนั้นด้วย</P> <P>การสำรองโดยใช้เทปแบคอัพจะใช้ชุดโปรแกรมที่ชื่อ <I>$module</I> โดยจะทำการสำรองข้อมูลทั้งหมดทั้งฮาร์ดไดร์ลงเทป และทำทุกวัน (ทุกคืน) มันทำงานได้เฉพาะกับเครื่องเล่นเทปที่มันรู้จักและเทปต้องป้องกัน มันจะทำงานโดยอัตโนมัติเมื่อถึงเวลาที่ตั้งไว้ (รวมถึงทำการเตือนล่วงหน้าให้ใส่เทป โดยจะอีเมล์ไปที่ผู้ดูแลระบบของเซอร์ฟเวอร์นี้) ขณะนี้ฮาร์ดดิสมีข้อมูลทั้งหมดขนาดประมาณ <b>$dumpsize</b></P> <P>วิธีการทั้งสองแบบต่างก็สามารถเรียกคืนข้อมูลสำรองไว้ได้ <b>คำแนะนำ การเรียกคืนข้อมูลสำรองนี้ควรทำเฉพาะกับเซอร์ฟเวอร์ที่ติดตั้งโปรแกรมใหม่</b></P> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_DESC_DAR</base>
+   <trans><![CDATA[ <P>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</P> <P>Tape Backup. This method uses a software package called <I>$module</I> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>$dumpsize</b> of data.</P> <P>Workstation backup. This method uses a software package called <I>dar</I> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>$tarsize</b> uncompressed. Twice the compressed data size must be available on the backup share.</P> <P>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>$tarsize</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</P> <P>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_CONFIG_STATUS</base>
+   <trans>สถานะและการตั้งค่าของการสำรองข้อมูล</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUPS_ENABLED</base>
+   <trans><![CDATA[ ขณะนี้การสำรองข้อมูลลงเทปถูก <b>เปิดใช้งาน</b> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUPS_RUN_AT</base>
+   <trans>ปกติการสำรองลงเทปจะทำงานเวลา:</trans>
+  </entry>
+  <entry>
+   <base>REMINDER_MESSAGE_AT</base>
+   <trans>ข้อความเตือนจะถูกส่งไปที่:</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUPS_DISABLED</base>
+   <trans><![CDATA[ การทำสำรองข้อมูลลงเทปถูก <b>ปิดการทำงาน</b> ]]></trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_BACKUP</base>
+   <trans>สำรองข้อมูลส่งไปเดสก์ทอป</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_RESTORE</base>
+   <trans>นำข้อมูลสำรองจากเดสก์ทอปมาใช้</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_VERIFY</base>
+   <trans>ตรวจทานแฟ้มสำรองข้อมูลของเดสก์ทอป</trans>
+  </entry>
+  <entry>
+   <base>TAPE_CONFIGURE</base>
+   <trans>ตั้งค่าเทปสำรองข้อมูล</trans>
+  </entry>
+  <entry>
+   <base>TAPE_RESTORE</base>
+   <trans>นำข้อมูลจากเทปสำรองข้อมูลมาใช้</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS_BEGAN_AT</base>
+   <trans>ระบบการนำข้อมูลสำรองมาใช้กำลังทำงาน เริ่มต้นที่:</trans>
+  </entry>
+  <entry>
+   <base>REFRESH_THIS_DISPLAY</base>
+   <trans>เรียกให้แสดงผลนี้ใหม่</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_TAPE_BACKUP</base>
+   <trans>ตั้งค่าเทปสำรองข้อมูล</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_COMPLETED</base>
+   <trans>ระบบการนำข้อมูลสำรองมาใช้ทำงานเสร็จแล้ว</trans>
+  </entry>
+  <entry>
+   <base>STARTED_AT</base>
+   <trans>เริ่มต้นที่:</trans>
+  </entry>
+  <entry>
+   <base>FINISHED_AT</base>
+   <trans>และสิ้นสุดที่:</trans>
+  </entry>
+  <entry>
+   <base>YOU_MUST_REBOOT</base>
+   <trans>คุณต้องรีบูตเครื่องเซิร์ฟเวอร์เพื่อให้ค่าต่างๆ เปลี่ยนย้อนกลับไปเป็นเหมือนเมื่อตอนที่ได้ทำการสำรองข้อมูลสำรองส่งผล</trans> 
+  </entry> 
+  <entry>
+   <base>REBOOT</base>
+   <trans>รีบูต</trans>
+  </entry>
+  <entry>
+   <base>SELECT_AN_ACTION</base>
+   <trans>เลือกดำเนินการอย่างใดอย่างหนึ่ง</trans>
+  </entry>
+  <entry>
+   <base>X_BACKUP_OR_RESTORE</base>
+   <trans>X สำรองข้อมูล หรือนำข้อมูลสำรองของเซิร์ฟเวอร์กลับมาใช้</trans>
+  </entry>
+  <entry>
+   <base>ERR_PRE_BACKUP</base>
+   <trans>ข้อผิดพลาดเกิดขึ้นระหว่างการเตรียมการสำรองข้อมูล</trans>
+  </entry>
+  <entry>
+   <base>ERR_PRE_RESTORE</base>
+   <trans>ข้อผิดพลาดเกิดขึ้นระหว่างการเตรียมการนำข้อมูลสำรองมาใช้</trans>
+  </entry>
+  <entry>
+   <base>ERR_POST_BACKUP</base>
+   <trans>ข้อผิดพลาดเกิดขึ้นระหว่างขั้นตอนหลังการสำรองข้อมูล</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_SERVER_CONFIG</base>
+   <trans>นำข้อมูลการตั้งค่าของเซิร์ฟเวอร์ที่สำรองไว้กลับมาใช้</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_RESTORE_DESC</base>
+   <trans><![CDATA[ กระบวนการนี้จะอัพโหลดแฟ้มสำรองข้อมูลจากเดสก์ทอปของคุณขึ้นเซิร์ฟเวอร์ และย้อนการตั้งค่าและแฟ้มต่างๆ ของผู้ใช้กลับไป<B>การกระทำนี้ควรเฉพาะทำกับเซอร์ฟเวอร์ที่ติดตั้งโปรแกรมใหม่</B> ]]></trans>
+  </entry>
+  <entry>
+   <base>FREE_SPACE</base>
+   <trans><![CDATA[ คุณมีพื้นที่ว่างบนเซอร์ฟเวอร์ประมาณ $tmpfree ตรวจสอบแฟ้มสำรองข้อมูลที่เครื่องเดสก์ทอปของคุณก่อนว่ามีขนาดไม่ใหญ่กว่า  $halffree ก่อนที่นำข้อมูลสำรองมาใช้ ]]></trans>
+  </entry>
+  <entry>
+   <base>MUST_REBOOT_AFTER_RESTORE</base>
+   <trans>หลังจากเรียกคืนข้อมูลสำรองเสร็จ คุณจะต้องรีบู๊ตเซิร์ฟเวอร์ใหม่</trans>
+  </entry>
+  <entry>
+   <base>FILE_TO_RESTORE</base>
+   <trans>จะใช้แฟ้มข้อมูลสำรองจาก</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_BACKUP_DESC</base>
+   <trans><![CDATA[ ตัวเลือกนี้จะแสดงชื่อไฟล์ทั้งหมดของแฟ้มสำรองข้อมูลบนเดสก์ทอปที่สร้างไปก่อนหน้านี้ คุณสามารถใช้ตัวเลือกนี้เพื่อตรวจสอบเนื้อหาของแฟ้มสำรองข้อมูล</p><p>ไฟล์สุดท้ายที่อยู่ในแฟ้มนั้นๆ ควรเป็นไฟล์ชื่อ "smbpasswd"</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>SELECT_BACKUP_FILE</base>
+   <trans>เลือก ไฟล์สำรองข้อมูล</trans>
+  </entry>
+  <entry>
+   <base>VERIFY</base>
+   <trans>ตรวจทาน</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CANNOT_PROCEED</base>
+   <trans>ไม่สามารถดำเนินการเรียกคืน การตั้งค่าของเซิร์ฟเวอร์</trans>
+  </entry>
+  <entry>
+   <base>ANOTHER_RESTORE_IN_PROGRESS</base>
+   <trans>กำลังมีการเรียกคืนข้อมูลสำรองอยู่ที่อื่น โปรดลองอีกครั้งในภายหลัง</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS</base>
+   <trans>การเรียกคืนข้อมูลสำรองกำลังทำงาน</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS_DESC</base>
+   <trans>เมื่อขั้นตอนการเรียกคืนข้อมูลสำรอง (restore) เสร็จสิ้น คุณจะต้องรีบู๊ตเครื่อง การเรียกคืนข้อมูลสำรองจะสมบูรณ์จริงๆ เมื่อไฟล์ /etc/smbpasswd ถูกนำกลับมา และข้อความ "นำข้อมูลสำรองกลับมาใช้เสร็จสมบูรณ์" ปรากฎขึ้นที่บรรทัดล่างสุดของจอ</trans>
+  </entry>
+  <entry>
+   <base>FILES_HAVE_BEEN_RESTORED</base>
+   <trans>แฟ้มและไดเรกทอรีต่อไปนี้ถูกเรียกคืนกลับมา:</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FAILED_MSG</base>
+   <trans>การนำข้อมูลสำรองกลับมาใช้ล้มเหลว! มีข้อผิดพลาดในการอ่านแฟ้มสำรองข้อมูล</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_COMPLETE</base>
+   <trans>นำข้อมูลสำรองกลับมาใช้เสร็จสมบูรณ์</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_GID</base>
+   <trans>ข้อผิดพลาดขึ้นระหว่างคืนค่า gid ของ 'www'</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_INITIAL_GRP</base>
+   <trans>ข้อผิดพลาดขึ้นระหว่างคืนการตั้งค่า group ของ 'www'.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FAILED</base>
+   <trans>การเรียกคืนข้อมูลสำรองล้มเหลว! แฟ้มสำรองข้อมูลไม่สมบูรณ์</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_EXEC_PIPELINE</base>
+   <trans>ไม่สามารถเรียกใช้ pipeline ของงานสำรองข้อมูล</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_DECODE</base>
+   <trans>ไม่สามารถถอดรหัสไฟล์สำรองข้อมูล:</trans>
+  </entry>
+  <entry>
+   <base>FILES_IN_BACKUP</base>
+   <trans>แฟ้มต่อไปนี้ถูกเลือกทำการเก็บสำรอง :</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_COMPLETE</base>
+   <trans>การตรวจทานเสร็จสมบูรณ์</trans>
+  </entry>
+  <entry>
+   <base>BACKUP_FILE_INCOMPLETE</base>
+   <trans>แฟ้มสำรองไม่สมบูรณ์</trans>
+  </entry>
+  <entry>
+   <base>ERR_READING_FILE</base>
+   <trans>มีข้อผิดพลาดในการอ่านแฟ้มสำรองข้อมูล</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_DISABLE_TAPE</base>
+   <trans>เปิดใช้/ปิดไม่ใช้ การสำรองลงเทปเวลากลางคืน (Nightly Tape Backup)</trans>
+  </entry>
+  <entry>
+   <base>TAPE_CONFIG_DESC</base>
+   <trans><![CDATA[ <p>เลือกว่าคุณต้องการเปิดใช้การสำรองข้อมูลเวลากลางคืนหรือไม่ แล้วระบุเวลาแจ้งเตือนให้ใส่เทปสำรองข้อมูล</p> <p>คุณต้องมีเครื่องบันทึกเทปสำรองข้อมูลที่ระบบรู้จัก และข้อความแจ้งเตือนจะถูกส่งไปยังผู้ดูแลระบบเมื่อถึงเวลาตั้งเตือนตามที่กำหนดหากตรวจพบว่าไม่มีเทปอยู่ในเครื่องบันทึก</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>ENABLE_TAPE_BACKUP</base>
+   <trans>เปิดการใช้งานระบบเทปสำรองข้อมูล</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUP_TIME</base>
+   <trans>สำรองลงเทป ณ. เวลา (ชั่วโมง/นาที)</trans>
+  </entry>
+  <entry>
+   <base>LOAD_TAPE_REMINDER_TIME</base>
+   <trans>เตือนให้ใส่เทป ณ. เวลา (ชั่วโมง/นาที)</trans>
+  </entry>
+  <entry>
+   <base>AM/PM</base>
+   <trans>AM/PM</trans>
+  </entry>
+  <entry>
+   <base>AM</base>
+   <trans>AM</trans>
+  </entry>
+  <entry>
+   <base>PM</base>
+   <trans>PM</trans>
+  </entry>
+  <entry>
+   <base>UPDATE_CONF</base>
+   <trans>บันทึกการแก้ไข</trans>
+  </entry>
+  <entry>
+   <base>UPDATING_TAPE_CONF</base>
+   <trans>กำลังบันทึกการตั้งค่าเทปสำรองข้อมูล</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_HOUR</base>
+   <trans>ข้อผิดพลาด: ชั่วโมงทำการสำรองข้อมูลที่ไม่ถูกต้อง:</trans>
+  </entry>
+  <entry>
+   <base>BETWEEN_0_AND_12</base>
+   <trans>โปรดเลือกตัวเลขระหว่าง 0 ถึง 12</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_MINUTE</base>
+   <trans>ข้อผิดพลาด:นาทีทำการสำรองข้อมูลที่ไม่ถูกต้อง:</trans>
+  </entry>
+  <entry>
+   <base>BETWEEN_0_AND_59</base>
+   <trans>โปรดระบุตัวเลขนาทีระหว่าง 0 และ 59</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_REMINDER_HOUR</base>
+   <trans>ข้อผิดพลาด: ตัวเลขชั่วโมงแจ้งเตือนไม่ถูกต้อง:</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_REMINDER_MINUTE</base>
+   <trans>ข้อผิดพลาด: ตัวเลขนาทีแจ้งเตือนไม่ถูกต้อง:</trans>
+  </entry>
+  <entry>
+   <base>ERR_CONF_BACKUP</base>
+   <trans>เกิดผิดพลาดขึ้นใน event ของ conf-backup</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_ENABLED_TAPE</base>
+   <trans>เปิดใช้งานระบบเทปสำรองข้อมูลเสร็จแล้ว</trans>
+  </entry>
+  <entry>
+   <base>WITH_BACKUP_TIME</base>
+   <trans>เมื่อเวลาสำรอง:</trans>
+  </entry>
+  <entry>
+   <base>WITH_REMINDER_TIME</base>
+   <trans>และเวลาแจ้งเตือนให้ใส่เทป:</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_DISABLED</base>
+   <trans>ปิดการใช้งานระบบเทปสำรองข้อมูลเสร็จแล้ว</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_TAPE</base>
+   <trans>คืนข้อมูลสำรองของการตั้งค่าของเซอร์เวอร์จากเทปสำรองข้อมูล</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_TAPE_DESC</base>
+   <trans><![CDATA[ <P>กระบวนการนี้จะเรียกคืนการตั้งค่าและไฟล์ข้อมูลผู้ใช้จากเซิร์ฟเวอร์เทปสำรองข้อมูล <B>การเรียกคืนข้อมูลแบบนี้ควรทำกับเฉพาะเซอร์ฟเวอร์ที่ติดตั้งโปรแกรมใหม่</B></P> <P>ให้แน่ใจว่าคุณได้ใส่เทปสำรองข้อมูลที่ต้องการในเครื่องอ่านเทปก่อนที่จะดำเนินการต่อ</P> <P>หลังจากเรียกคืนเสร็จสมบูรณ์คุณจะต้องรีบู๊ตเซิร์ฟเวอร์</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FROM_TAPE</base>
+   <trans>เรียกคืนข้อมูลสำรองจากเทป</trans>
+  </entry>
+  <entry>
+   <base>UNABLE_TO_RESTORE_CONF</base>
+   <trans>ไม่สามารถเรียกคืนการตั้งค่าเซิร์ฟเวอร์</trans>
+  </entry>
+  <entry>
+   <base>RESTORING_FROM_TAPE</base>
+   <trans>กำลังเรียกคืนข้อมูลสำรองจากเทป</trans>
+  </entry>
+  <entry>
+   <base>NOW_RESTORING_FROM_TAPE</base>
+   <trans>การตั้งค่าของเซิร์ฟเวอร์ที่และไฟล์ข้อมูลของผู้ใช้กำลังถูกเรียกคืนจากเทปสำรองข้อมูล</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_FROM_TAPE</base>
+   <trans>เกิดข้อผิดพลาดเกิดขึ้นในการเรียกคืนข้อมูลจากเทป</trans>
+  </entry>
+  <entry>
+   <base>ERR_UPDATING_CONF_AFTER_TAPE_RESTORE</base>
+   <trans>เกิดข้อผิดพลาดขึ้นระหว่างการปรับปรุงการกำหนดค่าของระบบหลังจากเรียกคืนข้อมูลสำรองจากเทปแล้ว</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_FORK</base>
+   <trans>Could not fork:</trans>
+  </entry>
+  <entry>
+   <base>SERVER_REBOOT</base>
+   <trans>รีบู๊ตเซอร์ฟเวอร์</trans>
+  </entry>
+  <entry>
+   <base>SERVER_WILL_REBOOT</base>
+   <trans>เซอร์ฟเวอร์เริ่มต้นรีบู๊ต</trans>
+  </entry>
+  <entry>
+   <base>NO_UID_FOR_NAME</base>
+   <trans>ไม่ได้สามารถระบุ uid ของ user ที่ชื่อ:</trans>
+  </entry>
+  <entry>
+   <base>PAGE_REFRESH_IN</base>
+   <trans><![CDATA[ หน้านี้จะรีเฟรชเพื่อแสดงสถานะล่าสุดใน {$sec} วินาที, หรือคลิ๊ก<a href="/server-manager/cgi-bin/backup">ที่นี่</a> ]]></trans>
+  </entry>
+    <entry>
+	<base>Backup or restore</base>
+	<trans>สำรองหรือเรียกคืนข้อมูลสำรอง</trans>
+    </entry>
+
+  <entry>
+	<base>BACKUP_DESKTOP_TOO_BIG</base>
+	<trans><![CDATA[ <div class="error"> เซิร์ฟเวอร์ของคุณมีข้อมูลมากเกินไปที่จะ สำรองข้อมูลไปเดสก์ทอป ได้อย่างน่าเชื่อถือได้</div> ]]></trans>
+  </entry>
+   <entry>
+   <base>WORKSTN_BACKUPS_DISABLED</base>
+   <trans><![CDATA[ การสำรองข้อมูลไปเครื่องลูกข่ายถูก <b>ปิดไม่ใช้งาน</b> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUPS_ENABLED</base>
+   <trans><![CDATA[ ขณะนี้การ สำรองข้อมูลไปเครื่องลูกข่าย ถูก <b>เปิดใช้งาน</b> ]]></trans>
+  </entry>
+  <entry>
+   <base>WKBACKUPS_RUN_AT</base>
+   <trans>การสำรองข้อมูลไปเครื่องลูกข่ายจะเริ่มทำงานตามปกติ ณ. เวลา</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_CONFIGURE</base>
+   <trans>ตั้งค่า สำรองข้อมูลไปเครื่องลูกข่าย</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_VERIFY</base>
+   <trans>ตรวจทานข้อมูลของการ สำรองข้อมูลไปเครื่องลูกข่าย</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_RESTORE</base>
+   <trans>เรียกคืนข้อมูลสำรองจากเครื่องลูกข่าย</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_WORKSTN_BACKUP</base>
+   <trans>การตั้งค่าการสำรองข้อมูลกับเครื่องลูกข่าย</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_DISABLE_WORKSTN</base>
+   <trans>เปิดใช้/ปิดไม่ใช้ การสำรองข้อมูลไปเครื่องลูกข่าย แบบรายวัน</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_WORKSTN_BACKUP</base>
+   <trans>เปิดใช้การสำรองข้อมูลไปเครื่องลูกข่าย</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TIME</base>
+   <trans>สำรองข้อมูลไปเครื่องลูกข่าย ณ. เวลา (ชั่วโมง/นาที)</trans>
+  </entry>
+  <entry>
+   <base>UPDATING_WORKSTN_CONF</base>
+   <trans>กำลังบันทึกการแก้ไขการตั้งค่าการสำรองข้อมูลไปเครื่องลูกข่าย</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_ENABLED_WORKSTN</base>
+   <trans>เปิดใช้งานการสำรองข้อมูลไปเครื่องลูกข่ายเสร็จแล้ว</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_DISABLED_WORKSTN</base>
+   <trans>ปิดไม่ใช้งานการสำรองข้อมูลไปเครื่องลูกข่ายเสร็จแล้ว</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_WORKSTN_BACKUP_FILE</base>
+   <trans>ตรวจทานข้อมูลของการ สำรองข้อมูลไปเครื่องลูกข่าย</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_WORKSTN_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>ตัวเลือกนี้จะแสดงชื่อของไฟล์ทั้งหมดที่เคยสร้างไปของของการสำรองไปเครื่องลูกข่ายรายวัน คุณสามารถใช้ตัวเลือกนี้เพื่อตรวจสอบความถูกต้องของไฟล์ <b>โดยให้เลือกไฟล์ที่คุณต้องการตรวจสอบ</b></p> <p>เฉพาะไฟล์ที่มีการทำเครื่องหมาย[บันทึก] อยู่ข้างใน</p> <br/>จะการตรวจสอบนี้จะทำกับไฟล์ที่เก็บไว้ที่ : ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_WORKSTN</base>
+   <trans>เรียกคืนข้อมูลการตั้งค่าของเซอร์ฟเวอร์จากเครื่องลูกข่าย</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_WORKSTN_DESC</base>
+   <trans><![CDATA[ <p>กระบวนการนี้จะเรียกคืนการตั้งค่าและไฟล์ข้อมูลของผู้ใช้จากเครื่องลูกข่ายที่รับเก็บมูลสำรองไว้ <b>การเรียกคืนนี้ควรทำกับเฉพาะเซอร์ฟเวอร์ที่ติดตั้งโปรแกรมใหม่</b></p> <p>ให้เลือกการไฟล์ข้อมูลสำรองที่ถูกต้องเพื่อดำเนินการด้านล่างนี้</p> <p>หลังจากการเรียกคืนข้อมูลสำรองเสร็จสมบูรณ์ คุณจะต้องรูบู๊ตเซิร์ฟเวอร์</p>เรียกคืนข้อมูลสำรองจาก : ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FROM_WORKSTN</base>
+   <trans>เรียกคืนข้อมูลสำรองจากเครื่องลูกข่าย</trans>
+  </entry>
+  <entry>
+   <base>RESTORING_FROM_WORKSTN</base>
+   <trans>กำลังเรียกคืนข้อมูลสำรองจากเครื่องลูกข่าย</trans>
+  </entry>
+  <entry>
+   <base>NOW_RESTORING_FROM_WORKSTN</base>
+   <trans>กำลังเริ่มการเรียกคืนข้อมูลสำรองการตั้งค่าและไฟล์ข้อมูลของผู้ใช้จากแหล่งที่เก็บบนเครื่องลูกข่าย</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_FROM_WORKSTN</base>
+   <trans>เกิดข้อผิดพลาดขึ้นขณะกำลังเรียกคืนข้อมูลสำรองจากเครื่องลูกข่าย</trans>
+  </entry>
+  <entry>
+   <base>ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE</base>
+   <trans>เกิดข้อผิดพลาดขึ้นขณะกำลังย้อนคืนการตั้งค่า หลังการเรียกคืนข้อมูลสำรอง</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_NAME</base>
+   <trans>ชื่อโฮสก์หรือหมายเลข IP ของเครื่องลูกข่าย</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SETTINGS</base>
+   <trans>ตั้งค่าเครื่องลูกข่ายสำหรับการสำรองข้อมูล</trans>
+  </entry>
+  <entry>
+   <base>SHARED_FOLDER_NAME</base>
+   <trans>ที่เก็บข้อมูลสำรอง</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_LOGIN</base>
+   <trans>ชื่อล็อกอิน</trans>
+  </entry>
+  <entry>
+   <base>WORKSTATION_BACKUP_DEST</base>
+   <trans>ตั้งค่าการสำรองข้อมูลไปเครื่องลูกข่าย</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_WORKSTN_BACKUP_DESC</base>
+   <trans>คุณสามารถกำหนดจำนวนของชุดงานสำรองข้อมูลที่จะเก็บที่เครื่องลูกข่าย ซึ่งจะมีการเวียนใช้ภายในอัตโนมัติแต่ละชุดอาจ (มักจะ) เป็นการบันทึกข้อมูลที่หลายวันๆ ติดต่อกันในกรณีการสำรองข้อมูลครั้งแรก จะเป็นการเก็บสำรองข้อมูลทั้งหมด ส่วนครั้งถัดไปจะเป็นการสำรองเฉพาะข้อมูลที่ต่างไปจากครั้งแรก คุณยังสามารถกำหนดระยะเวลาสำหรับแต่ละช่วงกระทำการ หรือทำเฉพาะเมื่อข้อมูลเปลี่ยนแปลงก็ได้ เมื่อการทำงานหยุดลงตามกำหนดที่ระบุไว้ มันก็จะเริ่มสร้างชุดงานลักษณะเดียวกันนี้ใหม่ต่อๆ ไป โดยข้อมูลชุดที่หยุดลงนั้นจะมีข้อมูลเฉพาะถึงเวลาที่มันจบงานลง ไม่รวมข้อมูลที่เปลี่ยนแปลงหลังจากนั้นอีก</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_WORKSTN</base>
+   <trans>หมายเลข IP หรือชื่อโฮสต์ของเครื่องลูกข่ายไม่ถูกต้อง</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_FOLDER</base>
+   <trans>ชื่อพื้นที่จัดเก็บ (share name) ไม่ถูกต้อง</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_LOGIN</base>
+   <trans>การล็อกอินไม่ถูกต้อง</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_PASSWORD</base>
+   <trans>รหัสผ่านไม่ถูกต้อง</trans>
+  </entry>
+  <entry>
+   <base>ERR_ALREADY_MOUNTED</base>
+   <trans>Backup directory is already mounted</trans>
+  </entry>
+  <entry>
+   <base>ERR_MOUNTING_SMBSHARE</base>
+   <trans>ไม่สามารถเมาท์ (mount) โฟล์เดอร์ของเครื่องลูกข่ายได้</trans>
+  </entry>
+  <entry>
+   <base>ERR_NOT_MOUNTED</base>
+   <trans>Backup directory is not mounted</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_NOT_SET</base>
+   <trans>คุณต้องตั้งค่าการสำรองข้อมูลไปเครื่องลูกข่ายให้ถูกต้องก่อน</trans>
+  </entry>
+  <entry>
+   <base>NO_BACKUPS_TO_RESTORE</base>
+   <trans>ไม่มีข้อมูล ชุดของการสำรองข้อมูล (backup set) ในโฟล์เดอร์ปลายทางที่เครื่องลูกข่าย ตรวจสอบการตั้งค่าของคุณอีกครั้ง</trans>
+  </entry>
+  <entry>
+   <base>NUMBER_OF_SETS</base>
+   <trans>จำนวนการเวียนใช้ของ backup sets</trans>
+  </entry>
+  <entry>
+   <base>NUMBER_OF_FILES_IN_SET</base>
+   <trans>ในแต่ละชุดเป็นการสำรองข้อมูลรายวัน</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_SETS_NUMBER</base>
+   <trans>ตัวเลขชุดต้องเป็นเลข 1 หรือมากกว่า</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_FILES_IN_SET_NUMBER</base>
+   <trans>ตัวเลขนี้ต้องเป็นเลข 1 หรือมากกว่า การสำรองครั้งแรกจะเป็นการสำรองแบบ<b>เต็ม</b> ถัดมาจะเป็นข้อมูลเฉพาะที่<b>แตกต่าง</b></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_TIMEOUT</base>
+   <trans>ตัวเลือกเพิ่มเติม ระยะเวลาสูงสุดที่ให้ใช้ในการทำการสำรอง (เป็นชั่วโมง)</trans>
+  </entry>
+  <entry>
+   <base>INC_ONLY_TIMEOUT</base>
+   <trans>ไม่ให้การสำรองแบบเต็มมีการหมดเวลา</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_TIMEOUT</base>
+   <trans>ระยะเวลาสูงสุดที่จะให้ใช้ในการทำสำรอง ต้องอยู่ระหว่าง 1 ถึง 24 ชั่วโมง</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_HOST_DIR</base>
+   <trans>ไม่มีไดเรกทอรีของโฮสต์ของคุณที่โฟลเดอร์ปลายทาง ชื่อโฮสต์ของคุณอาจแตกต่างจากข้อมูลของแฟ้มสำรอง</trans>
+  </entry>
+  <entry>
+   <base>ERROR_READING_FILE</base>
+   <trans>เกิดข้อผิดพลาดขณะอ่านไฟล์จาก</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SEL_RESTORE</base>
+   <trans>ทำการเลือกไฟล์ที่จะเรียกคืนจากเครื่องลูกข่าย</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SELECTIVE_RESTORE</base>
+   <trans>ไฟล์ที่ทำการเลือกให้เรียกคืนข้อมูลสำรองจากเครื่องลูกข่าย</trans>
+  </entry>
+  <entry>
+   <base>ALL_BACKUPS</base>
+   <trans>ทุกการสำรอง</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SEL_REST_DESC</base>
+   <trans><![CDATA[ กระบวนการนี้จะเรียกคืนแฟ้มและไดเรกทอรีที่ระบุเท่านั้น คุณต้องเลือกไฟล์สำรองที่จะให้กู้คืน ถ้าคุณไม่ทราบที่ว่าไฟล์ใดที่จะต้องเรียกคืนให้ใช้ตัวเลือก 'ทุกๆ การสำรอง (All backups)' <br/><br/>หน้าจอถัดไปจะมีการแสดงไฟล์และไดเรกทอรีเพื่อจะให้คุณระบุสิ่งที่ต้องเรียกคืน คุณสามารถจำกัดจำนวนไฟล์และไดเรกทอรีที่ปรากฏในหน้าจอนั้นโดยการตั้งเงื่อนไขข้อมูลที่จะให้แสดง, applied as a regular expression to the displayed names.<br/><br/>เป็นสิ่งที่พึงระวังและคุณต้องรับทราบความเสี่ยงว่า การเรียกคืนข้อมูลเช่นนี้นี้อาจทำให้เซอร์ฟเวอร์ทำงานผิดปกติ หรือไม่สามารถทำงานได้<br/> <br/>ขณะนี้ จะเป็นการเรียกคืนไฟล์ข้อมูลสำรองจาก : ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_CHOICE</base>
+   <trans>เลือกไฟล์ที่จะแสดง</trans>
+  </entry>
+  <entry>
+   <base>SELECT_DATE_BEFORE</base>
+   <trans>เรียกคืนข้อมูลทั้งหมด ณ. เวลาก่อน</trans>
+  </entry>
+  <entry>
+   <base>FILTER_EXPRESSION</base>
+   <trans>ชื่อที่ถูกกรองโดยเงื่อนไข</trans>
+  </entry>
+  <entry>
+   <base>READ_COMPLETE</base>
+   <trans><![CDATA[ คุณสามารถเลือกไดเรกทอรีและไฟล์ที่คุณต้องการเรียกคืนในรายการที่แสดง (ใช้ ctrl หรือ shiftเพื่อเลือกหลายๆ รายการ)<br/> <b>คำเตือน:</b> ถ้าคุณเลือกไดเรกทอรี ทุกไฟล์และไดเรกทอรีที่ข้างในจะถูกเลือกใช้<p/> โดยค่าเริ่มต้น ทุกอย่างของเวอร์ชันล่าสุดของไฟล์ที่ถูกเลือกจะถูกเรียกคืนทั้งหมด แต่ถ้าคุณระบุวันที่ในรูปแบบ <i>[ [ [yyyy/]mm/]dd-]hh:mm[:ss]</i> กระบวนการจะเรียกคืนเฉพาะรายการที่ถูกแก้ไขล่าสุด <b>ก่อนวันที่ที่ระบุ</b> ]]></trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_SELDATE</base>
+   <trans>วันที่ที่ถูกต้องต้องอยู่ในรูปแบบ [ [ [yyyy/]mm/]dd-]hh:mm[:ss] เช่น: 2005/12/31-08:23:32 หรือ 10-08:32 หรือ 08:32</trans>
+  </entry>
+  <entry>
+   <base>SELECT_FILES_TO_RESTORE</base>
+   <trans>เลือกไฟล์ที่จะเรียกคืน</trans>
+  </entry>
+  <entry>
+   <base>ERR_WHILE_UNMOUNTING</base>
+   <trans>เกิดข้อผิดพลาดขึ้นเมื่อทำการ unmount พื้นที่ปลายทาง</trans>
+  </entry>
+  <entry>
+   <base>ERR_DAR_CATALOG</base>
+   <trans>เกิดข้อผิดพลาดเมื่อเรียกใช้ Dar catalog</trans>
+  </entry>
+  <entry>
+   <base>COMPRESSION_LEVEL</base>
+   <trans>ระดับการบีบอัดของข้อมูลสำรอง</trans>
+  </entry>
+  <entry>
+   <base>FULL_ONLY_ON</base>
+   <trans>การสำรองข้อมูลแบบเต็มได้รับอนุญาตให้ใช้กับ</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_COMPRESSION</base>
+   <trans>ระดับการบีบอัดต้องอยู่ระหว่าง 0 (ไม่บีบอัด) และ 9 (บีบอัดให้มากที่สุด)</trans>
+  </entry>
+  <entry>
+   <base>DOW</base>
+   <trans>วันอาทิตย์ วันจันทร์ วันอังคาร วันพุธ วันพฤหัสบดี วันศุกร์ วันเสาร์ ทุกวัน</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURATION_TO_BE_DONE</base>
+   <trans>กรุณาตั้งค่าการสำรองข้อมูล</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>หน้าจอนี้จะแสดงข้อมูลปัจจุบันของการตั้งค่าการสำรองข้อมูลไปเครื่องลูกข่าย คุณสามารถแก้ไขค่าต่างๆ ที่หน้าจอนี้ และในหน้าจอถัดไป</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_NOT_CONFIGURED</base>
+   <trans><![CDATA[ <p>ขณะนี้ การสำรองไปเครื่องลูกข่ายไม่ได้ถูกตั้งค่า คุณสามารถตั้งค่าในหน้าจอนี้และหน้าจอถัดไป</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_ENABLED</base>
+   <trans>การสำรองคือ</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_USB</base>
+   <trans>ทำการสำรองลงที่ local removable disk</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_MNT</base>
+   <trans>ทำการสำรองลงที่ local removable disk</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_HOST</base>
+   <trans>จะทำการสำรองไปที่เครื่องลูกข่ายในระบบ LAN</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_VFSTYPE</base>
+   <trans>โดย</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SHARE</base>
+   <trans>โฟลเดอร์ปลายทางที่จะเก็บข้อมูลสำรองคือ</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TOD</base>
+   <trans>จะเกิดการสำรองรายวันเมื่อเวลา</trans>
+  </entry>
+  <entry>
+   <base>LOGIN</base>
+   <trans>ผู้ล็อกอินคือ</trans>
+  </entry>
+  <entry>
+   <base>PASSWORD</base>
+   <trans>รหัสผ่านคือ</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SETSNUM</base>
+   <trans>ตัวเลขจำนวนการเวียนใช้ในชุดคือ</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_DAYSINSET</base>
+   <trans>จำนวนวันสำรองที่อยู่ในแต่ละชุดคือ</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_COMPRESSION</base>
+   <trans>ระดับการบีบอัด (0-9) ของการสำรองคือ</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TIMEOUT</base>
+   <trans>การสำรองรายวันเริ่มใช้เวลาเกินช่วงคาบที่อนุญาต (time out) ที่กำหนดไว้ตั้งแต่</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_INCONLY_TIMEOUT</base>
+   <trans>ยกเว้นการสำรองแบบเต็มที่ทำภายใน 24 ชั่วโมงหลังที่เกิดการใช้เวลาเกินคาบเวลาที่กำหนด (time out)</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_FULL_BACKUP_EVERYDAY</base>
+   <trans>อนุญาตให้มีการทำการสำรองแบบเต็มทุกวัน (งานสำรองชุดใหม่)</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_FULL_BACKUP_DAY</base>
+   <trans>อนุญาตให้มีการทำการสำรองแบบเต็ม (งานสำรองชุดใหม่) เฉพาะกับ</trans>
+  </entry>
+  <entry>
+   <base>WORKSTATION_BACKUP_SETCONF</base>
+   <trans>สร้างหรือแก้ไขค่าการทำสำรองไปเครื่องลูกข่าย</trans>
+  </entry>
+  <entry>
+   <base>SELECT_VFS_TYPE</base>
+   <trans>เลือกประเภทการแชร์ของปลายทางที่จะใช้เก็บข้อมูลสำรอง</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_USB_DISK</base>
+   <trans>ผิดพลาด: ไม่พบ removable disk โปรดทำการเชื่อมต่อ removable disk หรือเลือกประเภทการสำรองข้อมูลแบบอื่น</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_MOUNTED_DISK</base>
+   <trans>ผิดพลาด: ไม่พบ removable disk โปรดทำการเชื่อมต่อ removable disk หรือเลือกประเภทการสำรองข้อมูลแบบอื่น</trans>
+  </entry>
+  <entry>
+   <base>HOURS</base>
+   <trans>ชั่วโมง</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_FULL_BACKUP</base>
+   <trans>เกิดการยกเลิกการคืนข้อมูลสำรองเพราะไม่พบหรือไม่สามารถอ่านแฟ้มสำรองขั้นต้น (แบบเต็ม) ที่ต้องใช้</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_INC_BACKUP</base>
+   <trans>เกิดการยกเลิกการคืนข้อมูลสำรองเพราะไม่พบหรือไม่สามารถอ่านแฟ้มสำรองตัวลูก (เก็บเฉพาะข้อมูลที่เปลี่ยนแปลง) หมายเลข</trans>
+  </entry>
+  <entry>
+   <base>CHECK_TO_VERIFY_FULL_RESTORE</base>
+   <trans>เลือกที่นี่ เพื่อให้ทดสอบความสมบูรณ์ของแฟ้มสำรองข้อมูลทั้งหมดที่จะถูกใช้ตามตัวเลือกเรียกคืนฯ ที่เลือกด้วย</trans>
+  </entry>
+  <entry>
+   <base>TESTING_NEEDED_BACKUPS_FOR_RESTORE</base>
+   <trans>กำลังทดสอบความสมบูรณ์ของแฟ้มสำรองข้อมูลทั้งหมดที่จะถูกใช้ตามตัวเลือกเรียกคืนฯ ที่เลือก</trans>
+  </entry>
+  <entry>
+   <base>TESTED_BACKUP</base>
+   <trans>กำลังทดสอบความสมบูรณ์ของแฟ้มสำรองข้อมูล</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_VERIFY_FAILED</base>
+   <trans>ไม่ผ่านการทดสอบความสมบูรณ์ (ไม่สมบูรณ์)</trans>
+  </entry>
+  <entry>
+   <base>CHECK_INTEGRITY_WARNING</base>
+   <trans>คำเตือน: สำหรับการสำรองข้อมูลขนาดใหญ่ ตรวจสอบความสมบูรณ์อาจใช้นาน ควรทำเมื่อการทำสำรองข้อมูลไปเครื่องลูกข่ายถูกปิดการทำงานอยู่</trans>
+  </entry>
+  <entry>
+    <base>cifs</base>
+    <trans>cifs</trans>
+  </entry>
+  <entry>
+    <base>nfs</base>
+    <trans>nfs</trans>
+  </entry>
+  <entry>
+    <base>local removable disk</base>
+    <trans>อุปกรณ์บันทึกข้อมูลแบบถอดได้ที่เครื่องเซอร์ฟเวอร์ (local removable disk)</trans>
+  </entry>
+  <entry>
+    <base>Mounted disk</base>
+    <trans>Mounted disk</trans>
+  </entry>
+  <entry>
+   <base>ERROR_WHEN_TESTING_REMOTE_SERVER</base>
+   <trans>The parameters have been saved, however the remote host is not reachable, please check your settings.</trans>
+  </entry>
+  <entry>
+   <base>DO_NOT_RESTORE_BIN_SBIN_LIB_LIB64_FROM_SME9</base>
+   <trans>If you restore from Koozali SME Server 9 or before, pay attention that some folders in the system are now symlinks. Basic backup configuration does not include /bin, /lib, /lib64, /sbin, /var/lock and /var/run. If you have added them for files in their subdirectories, we will prevent the restoration of those folders to prevent dar from replacing those symlinks and leave the system unusable. Those additions are, however, not recommended as they are at risk to overwrite files provides by rpms.</trans>
+  </entry>
+  <entry>
+   <base>SMBV1</base>
+   <trans>Mount as legacy SMB v1 share (unsecure, not recommended).</trans>
+  </entry>
+
+
+</lexicon>

@@ -1,0 +1,84 @@
+<lexicon lang="nb">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Opprett, endre, eller fjerne brukergrupper</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_TOO_LONG</base>
+        <trans>Feil: gruppenavnet er for langt. maksimumslengden er {$maxLength} tegn.</trans>
+    </entry>    
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>Feil: gruppen "{$group}" kan ikke opprettes fordi det allerede er en en {$type} konto med det navnet.</trans>
+    </entry>    
+    <entry>
+        <base>INVALID_GROUP_DESCRIPTION</base>
+        <trans>Feil:uventet eller manglende tegn i gruppe beskrivelsen</trans>
+    </entry>
+    <entry>
+        <base>NO_MEMBERS</base>
+        <trans>Feil: ingen medlemmer i gruppen. Gruppen ble ikke opprettet.</trans>
+    </entry>
+    <entry>
+        <base>CREATED_GROUP</base>
+        <trans>Gruppen ble opprettet</trans>
+    </entry> 
+    <entry>
+        <base>DELETED_GROUP</base>
+        <trans>Gruppen ble fjernet</trans>
+    </entry> 
+    <entry>
+        <base>MODIFIED_GROUP</base>
+        <trans>Gruppen ble endret</trans>
+    </entry>	
+    <entry>
+        <base>CREATE_ERROR</base>
+        <trans>En feil oppsto under opprettelsen av gruppen.</trans>
+    </entry> 
+    <entry>
+        <base>DELETE_ERROR</base>
+        <trans>En feil oppsto under fjerning av brukergruppen.</trans>
+    </entry> 
+    <entry>
+        <base>MODIFY_ERROR</base>
+        <trans>En feil oppsto under endring av brukergruppen.</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_NAMING</base>
+        <trans><![CDATA[ Gruppenavnet kan bare inneholde små bokstaver, tall, bindestreker, punktum, og understreker, og må starte med liten bokstav. For ekempel "salg", "beta5", and "videresalg_partnere" er gyldige gruppenavn, men "3.-part", "Markeds Gruppe" og "tapt&funnet" er ikke. ]]></trans>
+    </entry>
+    <entry>
+        <base>GROUP_HAS_MEMBERS</base>
+        <trans>Gruppen inneholder følgende medlemmer:</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_GROUP</base>
+        <trans>Feil: Dette er ikke en eksisterende gruppe konto.</trans>
+    </entry>
+    <entry>
+        <base>GROUP_DESC</base>
+        <trans>Kort beskrivelse/Windows gruppe kallenavn</trans>
+    </entry>
+   <entry>
+        <base>GROUP_DESC_EXPL</base>
+        <trans>Skriv inn en kort beskrivelse i feltet nedenfor. Feltet blir også gruppenavnet som blir synlig for Windows klienter.</trans>
+   </entry>
+
+
+    <entry>
+        <base>IBAYS_WILL_BE_CHANGED</base>
+        <trans>Følgene I-Bays er tilknyttet gruppen, og vil bli endret til Administratorgruppen (du kan bytte de til noe annet senere):</trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DELETE_GROUP</base>
+        <trans><![CDATA[ <p><b>Er du sikker på at du vil fjerne denne gruppen?</b></p> ]]></trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST</base>
+        <trans><![CDATA[<p>Gjeldende liste over Brukergrupper</p>]]></trans>
+    </entry>
+    <entry>
+		<base>DELETE_DESCRIPTION</base>
+       	<trans><![CDATA[ Du er i ferd med å fjerne brukergruppen "<b>{$group}</b>." ]]></trans>
+    </entry>
+</lexicon>

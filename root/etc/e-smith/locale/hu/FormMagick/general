@@ -1,0 +1,520 @@
+<lexicon lang="hu">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>Collaboration</base>
+        <trans>Csoportmunka</trans>
+    </entry>
+    <entry>
+      <base>Administration</base>
+      <trans>Adminisztráció</trans>
+    </entry>
+    <entry>
+        <base>Security</base>
+        <trans>Biztonság</trans>
+    </entry>
+    <entry>
+        <base>Configuration</base>
+        <trans>Konfiguráció</trans>
+    </entry>
+    <entry>
+        <base>Miscellaneous</base>
+        <trans>Egyéb</trans>
+    </entry>
+    <entry>
+        <base>Your Settings</base>
+        <trans>Az ön beállításai</trans>
+    </entry>
+    <entry>
+        <base>SAVE</base>
+        <trans>Mentés</trans>
+    </entry>
+    <entry>
+        <base>CANCEL</base>
+        <trans>Mégsem</trans>
+    </entry>
+    <entry>
+        <base>ENABLED</base>
+        <trans>Engedélyezve</trans>
+    </entry>
+    <entry>
+        <base>DISABLED</base>
+        <trans>Letiltva</trans>
+    </entry>
+    <entry>
+        <base>NO</base>
+        <trans>Nem</trans>
+    </entry>
+    <entry>
+        <base>YES</base>
+        <trans>Igen</trans>
+    </entry>
+    <entry>
+        <base>ADD</base>
+        <trans>Hozzáad</trans>
+    </entry>
+    <entry>
+        <base>CREATE</base>
+        <trans>Létrehoz</trans>
+    </entry>
+    <entry>
+        <base>MODIFY</base>
+        <trans>Módosítás</trans>
+    </entry>
+    <entry>
+        <base>REMOVE</base>
+        <trans>Eltávolít</trans>
+    </entry>
+    <entry>
+        <base>COMMENT</base>
+        <trans>Megjegyzés</trans>
+    </entry>
+    <entry>
+        <base>NEXT</base>
+        <trans>Következő</trans>
+    </entry>
+    <entry>
+        <base>SELF</base>
+        <trans>Saját</trans>
+    </entry>
+    <entry>
+        <base>REMOTE</base>
+        <trans>Távoli</trans>
+    </entry>
+    <entry>
+        <base>LOCAL</base>
+        <trans>Helyi</trans>
+    </entry>
+    <entry>
+        <base>ACTION</base>
+        <trans>Művelet</trans>
+    </entry>
+    <entry>
+        <base>NETWORK</base>
+        <trans>Hálózat</trans>
+    </entry>
+    <entry>
+        <base>ROUTER</base>
+        <trans>Átjáró</trans>
+    </entry>
+    <entry>
+        <base>OPERATION_STATUS_REPORT</base>
+        <trans>Használati jelentés</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT</base>
+        <trans>Felhasználói fiók</trans>
+    </entry>
+    <entry>
+        <base>GROUP</base>
+        <trans>Csoport</trans>
+    </entry>
+    <entry>
+        <base>DESC_SECTIONBAR</base>
+        <trans><![CDATA[ ]]></trans>
+    </entry>
+    <entry>
+        <base>NO_PIPES_ALLOWED</base>
+        <trans>A cső jelek (|) nem engedélyezettek ebben a mezőben</trans>
+    </entry>
+    <entry>
+        <base>ERROR_BELOW</base>
+        <trans>HIBA: Hiba történt ennek az oldalnak az érvényesítése során. Kérem görgessen lejjebb és keresse meg a problémát.</trans>
+    </entry>
+    <entry>
+        <base>ACCESS</base>
+        <trans>Hozzáférés</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_LOCKED</base>
+        <trans>Fiók zárolva</trans>
+    </entry>
+    <entry>
+        <base>GROUP_ADD</base>
+        <trans>Csoport létrehozása</trans>
+    </entry>
+    <entry>
+        <base>NETWORKS_ALLOW_LOCAL</base>
+        <trans>Hozzáférés csak helyi hálózatból</trans>
+    </entry>
+    <entry>
+        <base>NETWORKS_ALLOW_PUBLIC</base>
+        <trans>Puplikus hozzáférés engedélyezése (Internet)</trans>
+    </entry>
+    <entry>
+        <base>ERROR_PASSWORD_CHANGE</base>
+        <trans>Hiba történt a jelszava megváltoztatása során. Kérem bizonyosodjon meg arról, hogy a régi jelszavát helyesen írta be.</trans>
+    </entry>
+    <entry>
+        <base>BACK</base>
+        <trans>Vissza</trans>
+    </entry>
+    <entry>
+        <base>BACKUP</base>
+        <trans>Biztonsági mentés</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION_BRIEF</base>
+        <trans>Rövid leírás</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE</base>
+        <trans>Jelszó változtatás</trans>
+    </entry>
+    <entry>
+        <base>RESET_PASSWORD_TITLE</base>
+        <trans>Felhasználói jelszó megváltoztatása</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_PASSWORD_CHANGE</base>
+        <trans>Fiók jelszó változtatás</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>Tartalom</trans>
+    </entry>
+    <entry>
+        <base>CREATE_GROUP</base>
+        <trans>Felhasználói csoport létrehozása</trans>
+    </entry>
+    <entry>
+        <base>USER_LIST_CURRENT</base>
+        <trans>Felhasználók listája</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans>Leírás</trans>
+    </entry>
+    <entry>
+        <base>DESTINATION</base>
+        <trans>Cél</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME</base>
+        <trans>Domén név</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN</base>
+        <trans>Domén</trans>
+    </entry>
+    <entry>
+        <base>DOMAINS</base>
+        <trans>Domének</trans>
+    </entry>
+    <entry>
+        <base>DOWNLOAD</base>
+        <trans>Letöltés</trans>
+    </entry>
+    <entry>
+        <base>ERROR_UPDATING_CONFIGURATION</base>
+        <trans>Hiba történt a rendszer beállításainak frissítésekor.</trans>
+    </entry>
+    <entry>
+        <base>GROUP_MEMBERS</base>
+        <trans>Csoporttagok</trans>
+    </entry>
+    <entry>
+        <base>GROUP_NAME</base>
+        <trans>Csoportnév</trans>
+    </entry>
+    <entry>
+        <base>GROUPS</base>
+        <trans>Csoportok</trans>
+    </entry>
+    <entry>
+        <base>IP_ADDRESS</base>
+        <trans>IP cím</trans>
+    </entry>
+    <entry>
+        <base>IP_ADDRESS_OR_FQDN</base>
+        <trans>IP cím vagy FQDN</trans>
+    </entry>
+    <entry>
+        <base>USER_INVALID</base>
+        <trans>Érvénytelen felhasználó</trans>
+    </entry>
+    <entry>
+        <base>LOCATION</base>
+        <trans>Hely</trans>
+    </entry>
+    <entry>
+        <base>MB</base>
+        <trans>Mb</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_USER_GROUP</base>
+        <trans>Felhasználói csoport módosítása</trans>
+    </entry>
+    <entry>
+        <base>NAME</base>
+        <trans>Név</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_VERIFY_NEW</base>
+        <trans>Új jelszó (ellenőrzés):</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_NEW</base>
+        <trans>Új jelszó:</trans>
+    </entry>
+    <entry>
+        <base>OFF</base>
+        <trans>Ki</trans>
+    </entry>
+    <entry>
+        <base>OK</base>
+        <trans>Rendben</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_OLD</base>
+        <trans>Régi jelszó:</trans>
+    </entry>
+    <entry>
+        <base>ON</base>
+        <trans>Be</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD</base>
+        <trans>Jelszó</trans>
+    </entry>
+    <entry>
+        <base>PERFORM</base>
+        <trans>Végrehajtás</trans>
+    </entry>
+    <entry>
+        <base>RECONFIGURE</base>
+        <trans>Újrakonfigurálás</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_USER_GROUP</base>
+        <trans>Felhasználói csoport törlése</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_RESET</base>
+        <trans>Jelszó megváltoztatása</trans>
+    </entry>
+    <entry>
+        <base>RESTORE</base>
+        <trans>Helyreállítás</trans>
+    </entry>
+    <entry>
+        <base>SHUTDOWN</base>
+        <trans>Leállítás</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Kész</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME_INVALID</base>
+        <trans>A megadott fióknév érvénytelen.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME_INVALID_CHARS</base>
+        <trans>A megadott fióknév érvénytelen karaktereket tartalmaz.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_OLD_INVALID_CHARS</base>
+        <trans>A megadott régi jelszó érvénytelen karaktereket tartalmaz.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_INVALID_CHARS</base>
+        <trans>A megadott jelszó érvénytelen karaktereket tartalmaz.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_VERIFY_ERROR</base>
+        <trans>A két jelszó nem egyezik</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_USER_NONE</base>
+        <trans>Nincsenek felhasználói fiókok ebben a rendszerben.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_GROUP_NONE</base>
+        <trans>Nincsenek felhasználói csoportok ebben a rendszerben.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_INVALID_CHARS</base>
+        <trans>Érvénytelen karakterek a leírásban.</trans>
+    </entry>
+    <entry>
+        <base>USER_NAME</base>
+        <trans>Felhasználónév</trans>
+    </entry>
+    <entry>
+        <base>YOUR_ACCOUNT</base>
+        <trans>Az ön fiókja:</trans>
+    </entry>
+    <entry>
+      <base>YOUR_ACCOUNT_INVALID</base>
+      <trans>A megadott fióknév érvénytelen.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE_SUCCESS</base>
+        <trans>A jelszava megváltozott.</trans>
+    </entry>
+    <entry>
+        <base>FM_NONBLANK</base>
+        <trans>Ez a mező nem maradhat üresen.</trans>
+    </entry>
+    <entry>
+        <base>FM_INTEGER</base>
+        <trans>A mezőnek pozitív egész számot kell tartalmaznia</trans>
+    </entry>
+    <entry>
+        <base>FM_NUMBER</base>
+        <trans>A mezőnek számot kell tartalmaznia</trans>
+    </entry>
+    <entry>
+        <base>FM_WORD</base>
+        <trans>A mező csak egyetlen szót tartalmazhat</trans>
+    </entry>
+    <entry>
+        <base>FM_DATE</base>
+        <trans>A megadott adat nem dolgozható fel dátumként</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER1</base>
+        <trans>Meg kell adnia egy hitelkártya számot</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER2</base>
+        <trans>A hitelkártya szám csak számokat szóközöket és kötőjeleket tartalmazhat</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER3</base>
+        <trans>Legalább 14 karakter hosszúságúnak kell lennie</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_NUMBER4</base>
+        <trans>Nem úgy néz ki mint egy érvényes hitelkártya szám</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY1</base>
+        <trans>Nincs lejárati dátum megadva.</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY2</base>
+        <trans>A lejárati dátumnak HH/ÉÉ vagy HH/ÉÉÉÉ formátumúnak kell lennie</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY3</base>
+        <trans>Ez a lejárati dátum úgy tűnik, már letelt.</trans>
+    </entry>
+    <entry>
+        <base>FM_CREDIT_CARD_EXPIRY4</base>
+        <trans>Ez a lejárati dátum úgy tűnik, hogy túlságosan messze van</trans>
+    </entry>
+    <entry>
+        <base>FM_ISO_COUNTRY_CODE1</base>
+        <trans>Meg kell adnia egy országkódot</trans>
+    </entry>
+    <entry>
+        <base>FM_ISO_COUNTRY_CODE2</base>
+        <trans>Ez a mező nem ISO országkódot tartalmaz</trans>
+    </entry>
+    <entry>
+        <base>FM_US_STATE</base>
+        <trans>Ez nem tűnik érvényes 2-betűs USA állam rövidítésnek</trans>
+    </entry>
+    <entry>
+        <base>FM_US_ZIPCODE</base>
+        <trans>Az USA irányítószámok 5 vagy 9 számjegyűek</trans>
+    </entry>
+    <entry>
+        <base>FM_MINLENGTH1</base>
+        <trans>A minimális hosszúság értelmetlenül {$minlength} -ban lett meghatározva.</trans>
+    </entry>
+    <entry>
+        <base>FM_MINLENGTH2</base>
+        <trans>Ennek a mezőnek legalább {$minlength} karaktert kell tartalmaznia</trans>
+    </entry>
+    <entry>
+        <base>FM_MAXLENGTH1</base>
+        <trans>A maximális hosszúság értelmetlenül {$maxlength} -ban lett meghatározva.</trans>
+    </entry>
+    <entry>
+        <base>FM_MAXLENGTH2</base>
+        <trans>Ez a mező nem tartalmazhat {$maxlength} karakternél többet</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH1</base>
+        <trans>Meg kell adnia a mező hosszúságát.</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH2</base>
+        <trans>A mező pontos hosszúságát egész számmal kell megadnia</trans>
+    </entry>
+    <entry>
+        <base>FM_EXACTLENGTH3</base>
+        <trans>Ennek a mezőnek pontosan {$exactlength} karakter hosszúságúnak kell lennie.</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE1</base>
+        <trans>Meg kell adnia a mező maximum és minimum hosszúságát.</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE2</base>
+        <trans>A mező maximum és minimum hosszúságát egész számmal kell megadnia</trans>
+    </entry>
+    <entry>
+        <base>FM_LENGTHRANGE3</base>
+        <trans>Ennek a mezőnek a hoszúsága {$minlength} és {$maxlength} karakter között kell lennie</trans>
+    </entry>
+    <entry>
+        <base>FM_URL</base>
+        <trans>Ennek a mezőnek http:// vagy ftp:// -vel kezdődő URL-t kell tartalmaznia.</trans>
+    </entry>
+    <entry>
+        <base>FM_EMAIL_SIMPLE1</base>
+        <trans>Meg kell adnia egy email címet.</trans>
+    </entry>
+    <entry>
+        <base>FM_EMAIL_SIMPLE2</base>
+        <trans>Ez nem úgy néz ki mint egy RFC822 szabványú email cím</trans>
+    </entry>
+    <entry>
+        <base>FM_DOMAIN_NAME</base>
+        <trans>Ez nem úgy néz ki mint egy érvényes Internetes domén vagy gépnév.</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER1</base>
+        <trans>Ennek a mezőnek egy érvényes IP címet kell tartalmaznia és nem hagyható üresen.</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER2</base>
+        <trans>Érvénytelen IP cím formátum (X.X.X.X az elfogadott)</trans>
+    </entry>
+    <entry>
+        <base>FM_IP_NUMBER3</base>
+        <trans>A {$octet} nagyobb mint 255</trans>
+    </entry>
+    <entry>
+        <base>FM_USERNAME</base>
+        <trans>Ennek érvényes felhasználói névnek kell lennie (3-tól 8 karakterig és számok)</trans>
+    </entry>
+    <entry>
+        <base>FM_PASSWORD1</base>
+        <trans>Meg kell adnia egy jelszót.</trans>
+    </entry>
+    <entry>
+        <base>FM_PASSWORD2</base>
+        <trans>A megadott jelszó nem biztonságos. A jó jelszónak legalább 7 karakter hosszúságúnak kell lennie és kis, valamint nagybetűket, számokat és nem alfanumerikus karaktereket kell tartalmaznia.</trans>
+    </entry>
+    <entry>
+        <base>FM_MAC_ADDRESS1</base>
+        <trans>Meg kell adnia egy MAC címet.</trans>
+    </entry>
+    <entry>
+        <base>FM_MAC_ADDRESS2</base>
+        <trans>A megadott MAC cím érvénytelen volt.</trans>
+    </entry>
+    <entry>
+	<base>FM_ERR_UNEXPECTED_DESC</base>
+	<trans>Hiba: Érvénytelen, vagy hiányzó karakterek a leírásban</trans>
+    </entry>
+    <entry>
+        <base>CSRF_VALIDATION_FAILURE</base>
+        <trans>Hiba: a CSRF token érvénytelen vagy lejárt</trans>
+    </entry>
+</lexicon>

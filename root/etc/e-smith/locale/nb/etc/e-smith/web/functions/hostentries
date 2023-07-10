@@ -1,0 +1,180 @@
+<lexicon lang="nb" params="lexicon_params()">
+    <!-- vim: ft=xml
+    -->
+    <entry>
+        <base>Hostnames and addresses</base>
+        <trans>Maskinnavn og adresser</trans>
+    </entry>
+    <entry>
+        <base>UNABLE_TO_OPEN_CONFIGDB</base>
+        <trans>Ikke mulig å åpne konfigurasjonsdatabasen</trans>
+    </entry>
+    <entry>
+        <base>DNS_FORWARDER_ENABLED</base>
+        <trans>En DNS forwarder er satt opp. Det betyr at alle DNS forespørsler blir håndtert av DNS forwarederen. Maskinnavn og adresser kan ikke endres på denne serveren så lenge DNS forwarderen er satt opp.</trans>
+    </entry>
+    <entry>
+        <base>ADD_HOSTNAME</base>
+        <trans><![CDATA[ <a class="button-like" href="hostentries?page=0&page_stack=&Next=Next&wherenext=CreateModify">Legg til maskinnavn</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME</base>
+        <trans>Maskinnavn</trans>
+    </entry>
+    <entry>
+        <base>HOSTTYPE</base>
+        <trans>Lokasjon</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP</base>
+        <trans>Lokal IP</trans>
+    </entry>
+    <entry>
+        <base>ETHERNET_ADDRESS</base>
+        <trans>Ethernet adresse</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_HOSTNAMES_FOR_DOMAIN</base>
+        <trans>Gjeldende liste over maskinnavn på {$domain}.</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTNAMES_FOR_SERVICENAME</base>
+        <trans>Det er ingen maskinnavn i systemet for {$serviceName}.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_HOSTNAMES_FOR_LOCAL_DOMAIN</base>
+        <trans>Gjeldende liste over maskinnavn på {$localDomainName}</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTNAMES_FOR_LOCAL_DOMAIN</base>
+        <trans>Det er ingen maskinnavn i systemet på {$localDomainName}.</trans>
+    </entry>
+    <entry>
+        <base>STATIC_HOST_MESSAGE</base>
+        <trans>- Denne maskinen representerer ditt system navn og kan ikke endres eller slettes.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_LOCAL_HOST_TITLE</base>
+        <trans>Opprett et nytt maskinnavn for serveren</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_VALIDATION_ERROR</base>
+        <trans>Feil: uventede tegn i maskinnavnet : "{$HostName}". Navnet kan bare inneholde bokstaver, tall, og bindestreker, og må starte med en bokstav eller et tall.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_LENGTH_ERROR</base>
+        <trans>Feil: konto navn {$HostName} er for langt. Maksimum er 32 tegn.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_VALIDATION_ERROR</base>
+        <trans>Feil: uventet eller manglene tegn i domenenavn {$DomainName}. Domene navnet kan bare inneholde bokstaver, tall, punktum og minus tegn. Domenet ble ikke opprettet.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_EXISTS_ERROR</base>
+        <trans>Feil: kontoen {$fullHostName} er et eksisterende {$type} maskinnavn.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>Maskinnavn er opprettet.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_DESCRIPTION</base>
+        <trans>Maskinnavnet kan bare inneholde bokstaver, tall og bindestreker, og må starte med en bokstav eller et tall.</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP_DESCRIPTION</base>
+        <trans>Den lokale IP adressen er den samme som en annen maskin på det lokale nettverket.Skriv inn en gyldig IP adresse i formatet "aaa.bbb.ccc.ddd".</trans>
+    </entry>
+    <entry>
+        <base>ETHERNET_ADDRESS_DESCRIPTION</base>
+        <trans>Eternet adresen er valgfiri og gjør at DHCP serveren knytter den lokale IP adressen til maskinen med denne eternet adressen. Hvis den spesifiseres må den være i fomatet "AA:BB:CC:DD:EE:FF" og må bare inneholde tallene 0-9 og bokstavene A-F.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_LOCAL_HOST_TITLE</base>
+        <trans>Opprett et nytt maskinavn som peker til en lokal maskin.</trans>
+    </entry>
+    <entry>
+        <base>DIDNT_ENTER_LOCAL_IP</base>
+        <trans>Feil: Du oppga ikke en lokal IP adresse. IP adressen kan kun inneholde tall og punktum, og være i formatet "aaa.bbb.ccc.ddd". maskinnavnet ble ikke opprettet.</trans>
+    </entry>
+    <entry>
+        <base>IP_VALIDATION_ERROR</base>
+        <trans>Feil: IP adressen {$InternalIP} er ugyldig. IP adressen kan kun inneholde tall og punktum, og være i formatet "aaa.bbb.ccc.ddd". Maskinnavnet ble ikke opprettet.</trans>
+    </entry>
+    <entry>
+        <base>MAC_ADDRESS_VALIDATION_ERROR</base>
+        <trans>Feil: Ethernet adressen {$MACAddress} er ugyldig. Eternetaddresser må være i formatet "AA:BB:CC:DD:EE:FF" og bare inneholde tall fra 0-9 og bokstaver A-F. Maskinnavnet ble ikke opprettet</trans>
+    </entry>
+    <entry>
+        <base>CREATE_REMOTE_HOST_TITLE</base>
+        <trans>Opprett et nytt maskinavn som peker til en lokal maskin. </trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Opprett eller endre maskinnavn</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_PAGE_DESCRIPTION</base>
+        <trans>Oppgi følgende tilleggsdetaljer for lokal maskin: </trans>
+    </entry>
+    <entry>
+        <base>REMOTE_PAGE_DESCRIPTION</base>
+        <trans>Oppgi følgende tilleggsdetaljer for fjern maskin:</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>Maskin er slettet.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>Maskin er endret.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_PAGE_DESCRIPTION</base>
+        <trans><![CDATA[ Du er i ferd med å fjerne maskinnavnet "{$hostname}.{$domain}". </p> <p> <b>Er du sikker på at du vil fjerne maskinnavnet?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DESCRIPTION</base>
+        <trans>Bekreft følgende detaljer:</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTS_FOR_THIS_DOMAIN</base>
+        <trans>Det er ingen maskinnavn satt opp i systemet.</trans>
+    </entry>
+    <entry>
+        <base>ADDR_IN_DHCP_RANGE</base>
+        <trans>Adressen er innenfor DHCP serverens dynamiske område</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_HOST</base>
+        <trans>En feil oppsto under opprettelse av maskinnavn.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_HOST</base>
+        <trans>En feil oppsto under endring av maskinnavn.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_HOST</base>
+        <trans>En feil oppsto under sletting av maskinnavn. </trans>
+    </entry>
+    <entry>
+        <base>ERR_IP_IS_LOCAL_OR_GATEWAY</base>
+        <trans>Feil: IP kan ikke være server IP eller Gateway IP.</trans>
+    </entry>
+    <entry>
+        <base>ERR_IP_NOT_LOCAL</base>
+        <trans>Feil: IP adressen er ikke på noen av våre lokale nettverk.</trans>
+    </entry>
+    <entry>
+        <base>MUST_BE_VALID_HOSTNAME_OR_IP</base>
+        <trans>Må være et gyldig maskinnavn eller IP adresse</trans>
+    </entry>
+  <entry>
+   <base>HOSTNAME_COMMENT_ERROR</base>
+    <trans>Feil: uventede tegn i maskinnavnet : "{$hostname}.{$domain}". Navnet kan bare inneholde bokstaver, tall, og bindestreker, og må starte med en bokstav eller et tall.</trans>
+  </entry>
+    <entry>
+      <base>HOSTNAME_VALIDATOR_ERROR</base>
+    <trans>Feil: uventede tegn i maskinnavnet : "{$hostname}.{$domain}". Navnet kan bare inneholde bokstaver, tall, og bindestreker, og må starte med en bokstav eller et tall.</trans>
+  </entry>
+</lexicon>

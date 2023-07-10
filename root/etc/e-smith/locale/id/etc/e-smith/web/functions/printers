@@ -1,0 +1,147 @@
+<lexicon lang="id">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Tambah atau hapus printer</trans>
+    </entry>
+    <entry>
+      <base>INITIAL_DESC</base>
+      <trans><![CDATA[ <p><A class="button-like" HREF="printers?page=0&Next=Add">Tambah pinter</A></p> ]]></trans>
+    </entry>
+    <entry>
+      <base>NO_PRINTERS</base>
+      <trans>Tidak ada printer dalam sistem</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_LIST</base>
+      <trans>Daftar Printer</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_ADDRESS</base>
+      <trans>Alamat remote</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_NAME</base>
+      <trans>Nama remote</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NEW_PRINTER</base>
+      <trans>Tambah printer</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NEW_DESC</base>
+      <trans>Pilih nama yang unik untuk printer dan masukkan keterangan singkat. Nama printer hanya boleh terdiri dari huruf kecil dan angka, dan harus dimulai dengan huruf kecil. Contoh: "hplaser", "epsonlp", dan "canonbj" adalah pilihan yang benar, tapi "HP Laser Jet", "Canon BubbleJet", dan "HP JetDirect Printer" adalah salah. Nama dan keterangan tidak boleh mengandung kata: "offline", "disabled", "down", "off", "waiting", "jam", "paper", "error" dan "responding".</trans>
+    </entry>
+    <entry>
+      <base>PRINTER_NAME</base>
+      <trans>Nama Printer</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_0</base>
+      <trans>Printer lokal port 0 (LPT1)</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_1</base>
+      <trans>Printer lokal port 1 (LPT2)</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_2</base>
+      <trans>Printer lokal port 2 (LPT3)</trans>
+    </entry>
+    <entry>
+      <base>NET_PRINTER</base>
+      <trans>Printer jaringan ...</trans>
+    </entry>
+    <entry>
+      <base>FIRST_USB_PRINTER</base>
+      <trans>Printer terpasang pada USB pertama</trans>
+    </entry>
+    <entry>
+      <base>SECOND_USB_PRINTER</base>
+      <trans>Printer terpasang pada USB kedua</trans>
+    </entry>
+    <entry>
+      <base>ERR_UNEXPECTED_NAME</base>
+      <trans><![CDATA[ <p>Error: terdapat karakter yang tidak dibolehkan pada nama printer.</p> <p>Nama printer hanya boleh terdiri dari huruf kecil dan angka, dan harus dimulai dengan huruf kecil. contoh "hplaser", "epsonlp", and "canonbj" adalah nama yang valid.</p> ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_UNEXPECTED_DESC</base>
+      <trans>Error: terdapat karakter yang tidak dibolehkan atau hilang pada keterangan. Tidak menambah printer.</trans>
+    </entry>
+    <entry>
+      <base>ERR_EXISTS</base>
+      <trans>Error: Akun sudah ada dengan jenis:</trans>
+    </entry>
+    <entry>
+      <base>ERR_INVALID_ADDRESS</base>
+      <trans>Error: alamat network salah. Tidak membuat printer baru.</trans>
+    </entry>
+    <entry>
+      <base>ERR_INVALID_REMOTE_NAME</base>
+      <trans>Error: nama printer network salah. Tidak membuat printer baru.</trans>
+    </entry>
+    <entry>
+      <base>ERR_CREATING</base>
+      <trans>Gagal saat membuat printer.</trans>
+    </entry>
+    <entry>
+      <base>CREATED_SUCCESSFULLY</base>
+      <trans>Berhasil membuat printer:</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NETWORK_PRINTER</base>
+      <trans>Tambah printer network</trans>
+    </entry>
+    <entry>
+      <base>ERR_OPENING_DB</base>
+      <trans>Gagal saat membuka database akun.</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NETWORK_DESC</base>
+      <trans>Isi alamat dan nama printer jaringan</trans>
+    </entry>
+    <entry>
+      <base>HOSTNAME_OR_IP</base>
+      <trans>Hostname atau alamat IP printer jaringan</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_NAME_DESC</base>
+      <trans><![CDATA[ Nama printer jaringan (isikan raw jika tidak yakin) ]]></trans>
+    </entry>
+    <entry>
+      <base>REMOVE_PRINTER</base>
+      <trans>Hapus printer</trans>
+    </entry>
+    <entry>
+      <base>ABOUT_TO_REMOVE</base>
+      <trans>Anda akan menghapus printer:</trans>
+    </entry>
+    <entry>
+      <base>SPOOL_FILE_WARNING</base>
+      <trans>Semua file antrian untuk printer ini akan dihapus</trans>
+    </entry>
+    <entry>
+      <base>ARE_YOU_SURE</base>
+      <trans>Anda yakin menghapus printer ini?</trans>
+    </entry>
+    <entry>
+      <base>ERR_INTERNAL_FAILURE</base>
+      <trans>Error: gagal saat menghapus printer:</trans>
+    </entry>
+    <entry>
+      <base>ERR_DELETING</base>
+      <trans>Kesalahan saat menghapus printer.</trans>
+    </entry>
+    <entry>
+      <base>DELETED_SUCCESSFULLY</base>
+      <trans>Berhasil menghapus printer:</trans>
+    </entry>
+    <entry>
+        <base>MUST_BE_VALID_HOSTNAME_OR_IP</base>
+        <trans>Harus hostname atau alamat IP yang valid</trans>
+    </entry>
+    <entry>
+	<base>Printers</base>
+	<trans>Printer-printer</trans>
+    </entry>
+
+</lexicon>

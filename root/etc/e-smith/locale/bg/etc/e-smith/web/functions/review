@@ -1,0 +1,126 @@
+<lexicon lang="bg">
+    <entry>
+        <base>Review configuration</base>
+        <trans>Преглед на конфигурацита</trans>
+    </entry>	
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans>Този отчет обобщава мрежовите, сървърните и домейн параметри на този сървър, които имат отношение към конфигурирането на клиентските компютри във Вашата мрежа. Възможно е да искате да отпечатате тази страница и да я ползвате за справка.</trans>	
+    </entry>
+    <entry>
+        <base>NETWORKING_PARAMS</base>
+        <trans>Мрежови параметри</trans>
+    </entry> 
+    <entry>
+        <base>SERVER_MODE</base>
+        <trans>Режим на сървъра</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP_ADDRESS_SUBNET_MASK</base>
+        <trans>Локален IP адрес/маска на подмрежата</trans>
+    </entry>
+    <entry>
+        <base>EXTERNAL_IP_ADDRESS_SUBNET_MASK</base>
+        <trans>Външен IP адрес/маска на подмрежата</trans>
+    </entry>
+    <entry>
+        <base>GATEWAY</base>
+        <trans>Gateway</trans>
+    </entry>
+    <entry>
+        <base>ADDITIONAL_LOCAL_NETWORKS</base>
+        <trans>Допълнителни локални мрежи</trans>
+    </entry>
+    <entry>
+        <base>DHCP_SERVER</base>
+        <trans>DHCP сървър</trans>
+    </entry>
+    <entry>
+        <base>BEGINNING_OF_DHCP_ADDRESS_RANGE</base>
+        <trans>Начало на DHCP адресното пространство</trans>
+    </entry>
+    <entry>
+        <base>END_OF_DHCP_ADDRESS_RANGE</base>
+        <trans>Край на DHCP адресното пространство</trans>
+    </entry>
+    <entry>
+        <base>SERVER_NAMES</base>
+        <trans>Имена на сървъра</trans>
+    </entry>
+    <entry>
+        <base>DNS_SERVER</base>
+        <trans>DNS сървър</trans>
+    </entry>
+    <entry>
+        <base>WEB_SERVER</base>
+        <trans>Web сървър</trans>
+    </entry>
+    <entry>
+        <base>PROXY_SERVER</base>
+        <trans>Proxy сървър</trans>
+    </entry>
+    <entry>
+        <base>FTP_SERVER</base>
+        <trans>FTP сървър</trans>
+    </entry>
+    <entry>
+        <base>SMTP_POP_AND_IMAP_MAIL_SERVERS</base>
+        <trans>SMTP, POP и IMAP пощенски сървъри</trans>
+    </entry>
+    <entry>
+        <base>HOSTS</base>
+        <trans>Хостове</trans>
+    </entry> 
+    <entry>
+        <base>DOMAIN_INFORMATION</base>
+        <trans>Информация за домейна</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_DOMAIN</base>
+        <trans>Основен домейн</trans>
+    </entry>
+    <entry>
+        <base>VIRTUAL_DOMAINS</base>
+        <trans>Виртуални домейни</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_WEB_SITE</base>
+        <trans>Основен web сайт</trans>
+    </entry>
+    <entry>
+        <base>MITEL_NETWORKS_SME_SERVER_MANAGER</base>
+        <trans>Server manager</trans>
+    </entry>
+    <entry>
+        <base>MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL</base>
+        <trans>Панел за потребителска парола</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_ADDRESSES</base>
+        <trans>Електронни пощи</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_USERACCOUNT</base>
+        <trans>потребителски акаунт</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_FIRSTNAME</base>
+        <trans>име</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_LASTNAME</base>
+        <trans>фамилия</trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>Няма дефинирани виртуални домейни</trans>
+    </entry>
+    <entry>
+        <base>NO_NETWORKS</base>
+        <trans>Няма дефинирани допълнителни мрежи</trans>
+    </entry>
+    <entry>
+        <base>INTERNET_VISIBLE_ADDRESS</base>
+        <trans>IP адреси достъпни през интернет</trans>
+    </entry>
+</lexicon>

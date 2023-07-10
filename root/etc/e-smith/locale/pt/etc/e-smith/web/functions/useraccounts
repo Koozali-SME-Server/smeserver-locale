@@ -1,0 +1,242 @@
+<lexicon lang="pt">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Criar, modificar, ou remover conta de usuário</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> <a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">Adicionar conta de usuário</a> </p> <p> Voce pode modificar, deixar inativa ou remover qualquer conta de usuário ou resetar as senhas das contas clicando no correspondente comando proximo a conta. </p> <p> Se a conta está marcada como inativa, isso significa que a senha do usuário precisa ser resetada. Favor notar que ao criar uma conta ela é configurada como inativa até que a senha seja trocada. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>P2_TITLE</base>
+        <trans>Criar ou modificar</trans>
+    </entry>
+    <entry>
+        <base>CREATE_MODIFY_DESC</base>
+        <trans><![CDATA[ <p> O nome da conta deverá conter somente letras minúsculas, números, e hifens, e deverá iniciar com letra minúscula. Por exemplo "betty", "hjohnson", e "mary-jane" são todos nomes de contas válidos, mas "3friends", "John Smith", e "henry_miller" não são. </p> <p> Note que dois pseudônimos são criados para cada nova conta. Esses pseudônimos habilitam o usuário a ter contar de correio alternativas que incluem seus primeiro e último nomes separados por um ponto (.) e uma barra inferior (_). Assim, para a conta "betty" com primeiro nome "Betty" e último nome "Rubble" dois psedônimos são criados, betty.rubble e betty_rubble. </p> <p> O diretório de informação (departamento, copanhia, etc.) podem ser trocados do padrão como mostrado abaixo. As trocas irão ser aplicadas somente para este usuário. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MODIFY_ADMIN_TITLE</base>
+        <trans>Modificar conta do administrador</trans>
+    </entry>
+    <entry>
+        <base>USER_CREATED</base>
+        <trans>Conta de usuário criada com sucesso.</trans>
+    </entry>
+    <entry>
+        <base>USER_MODIFIED</base>
+        <trans>Conta de usuário modificada com sucesso.</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER</base>
+        <trans>Erro: um erro interno ocorreu enquanto tentava modificar conta de usuário "{$acctName}".</trans> 
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER_GROUPS</base> 
+        <trans>Erro: um erro interno ocorreu enquanto tentava modificar o grupo "{$group}" do usuário "{$acctName}".</trans>
+    </entry>
+    <entry>
+        <base>TAINTED_USER</base>
+        <trans>A conta de nome "{$acctName}" contém caracteres inválidos.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME</base>
+        <trans>Nome da conta</trans>
+    </entry>
+    <entry>
+        <base>FIRSTNAME</base>
+        <trans>Primeiro nome</trans>
+    </entry>
+    <entry>
+        <base>LASTNAME</base>
+        <trans>Último nome</trans>
+    </entry>
+    <entry>
+        <base>DEPARTMENT</base>
+        <trans>Departamento</trans>
+    </entry>
+    <entry>
+        <base>COMPANY</base>
+        <trans>Organização</trans>
+    </entry>
+    <entry>
+        <base>STREET_ADDRESS</base>
+        <trans>Morada</trans>
+    </entry>
+    <entry>
+        <base>CITY</base>
+        <trans>Cidade</trans>
+    </entry>
+    <entry>
+        <base>PHONE_NUMBER</base>
+        <trans>Número de telefone</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_DELIVERY</base>
+        <trans>Entrega de e-mail</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_EMAIL_LOCALLY</base>
+        <trans>Entregar e-mail localmente</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_EMAIL</base>
+        <trans>Encaminhar e-mail para o endereço abaixo</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_AND_FORWARD</base>
+        <trans>Entregar localmente e encaminhar</trans>
+    </entry>
+    <entry>
+        <base>FORWARDING_ADDRESS</base>
+        <trans>Endereço de encaminhamento</trans>
+    </entry>
+    <entry>
+        <base>GROUP_MEMBERSHIPS</base>
+        <trans>Membros do grupo</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC</base>
+        <trans>Voce está prestes a trocar a senha da conta de usuário</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC2</base>
+        <trans>Entre com a nova senha no campo abaixo</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_MODIFYING_PASSWORD</base>
+        <trans>Um erro ocorreu enquanto atualizava a senha</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE_SUCCEEDED</base>
+        <trans>Trocada a senha para do usuário "{$acctName}" com sucesso.</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC</base>
+        <trans>Voce esta prestes a deixar inativa a conta do usuário</trans>
+    </entry>
+    <entry>
+        <base>LOCKED_ACCOUNT</base>
+        <trans>Conta do usuário "{$acctName}" foi deixada inativa com sucesso.</trans>
+    </entry>
+    <entry>
+        <base>NO_SUCH_USER</base>
+        <trans>Erro: a conta de usuário "{$acctName}" não existe.</trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM_CLASH</base>
+        <trans>Erro: o apelido "{$pseudonym}" já está sendo usado pela conta de usuário "{$clashName}". Para diferenciar, por exemplo, adicione as letras de nomes intermediários ou iniciais aqui.</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT</base>
+        <trans>Deixar conta inativa</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT_TITLE</base>
+        <trans>Deixar inativa conta de usuário</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC2</base>
+        <trans><![CDATA[ Esta conta de usuário será destivada. Isto significa que o usuário não será capaz de logar, e não será capaz de coletar e-mail. Quaquer e-mail será armazenado e/ou redirecionado para uma conta de e-mail externa, como configurado. A conta pode ser reativada no futuro configurando-se uma nova senha. A senha atual não irá sera conservada. </p> <p> <b>Voce tem certeza que deseja tornar essa conta inativa?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>REMOVE_ACCOUNT_TITLE</base>
+        <trans>Remover conta de usuário</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Voce esta prestes a remover a conta do usuário</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans><![CDATA[ Todos os arquivos pertencentes a esse usuário irão ser apagados. Tambem, qualquer e-mail para essa conta de usuário neste servidor (i.e. aqueles que ainda não foram recuperados pelo usuário) serão descartados. </p> <p> <b>Voce tem certeza que deseja remover essa conta?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>LOCK</base>
+        <trans>Inativar</trans>
+    </entry>
+    <entry>
+        <base>NO_USER_ACCOUNTS</base>
+        <trans>Não existe contas de usuários neste servidor.</trans>
+    </entry>
+    <entry>
+        <base>Users</base>
+        <trans>Usuários</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>A conta de nome "{$acctName}" contém caracteres inválidos. Nome ce conta tem que iniciar com letra minúscula e conter somente letras minúsculas, números, e hifens.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_TOO_LONG</base>
+        <trans>Erro: nome de conta muito longo. O máximo é de {$maxLength} caracteres.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>Erro: a conta "{$account}" não pode ser criada porque já existe a conta {$type} com esse nome.</trans>
+    </entry>    
+    <entry>
+        <base>ERR_OCCURRED_CREATING</base>
+        <trans>Ocorreu um erro criando o usuário.</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_CONTAIN_WHITESPACE</base>
+        <trans>Este campo não pode conter espaço em branco</trans>
+    </entry>
+    <entry>
+        <base>UNACCEPTABLE_CHARS</base>
+        <trans>O campo tem que conter apenas letras, números, hifens e barras em baixo e iniciar com uma letra</trans>
+    </entry>
+    <entry>
+        <base>MEMBER</base>
+        <trans>Membros?</trans>
+    </entry>
+    <entry>
+        <base>VPN_CLIENT_ACCESS</base>
+        <trans>Cliente com acesso VPN</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_FORM_TITLE</base>
+        <trans>Troca senha do sistema</trans>
+    </entry>    
+    <entry> 
+        <base>SYSTEM_PASSWORD_DESCRIPTION</base>
+        <trans><![CDATA[ Certos serviços serviços neste servidor requerem um nome de usuário e senha (por exemplo essa página web para aplicação para gerência do servidor). O usuário é sempre admin. Você pode trocar a senha do sistema usando os campos abaixo. ]]></trans>        
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS</base>
+        <trans>A senha tem que conter apenas caracteres de impressão</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_VERIFY_ERROR</base>
+        <trans>As duas senhas não são identicas.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_AUTH_ERROR</base>
+        <trans>A senha esta incorreta.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_CHANGED</base>
+        <trans>A senha deste sistema foi alterada.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_SYSTEM_PASSWORD</base>
+        <trans>Senha atual do sistema</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD</base>
+        <trans>Nova senha do sistema</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD_VERIFY</base>
+        <trans>Nova senha do sistema (verificação)</trans>
+    </entry>            
+    <entry>
+        <base>LABEL_IPSECRW_DOWNLOAD</base>
+        <trans>Baixar sertificado digital para o cliente IPSec</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_DELETING</base>
+        <trans>Um erro ocorreu enquanto tentava apagar o usuário.</trans>
+    </entry>
+</lexicon>

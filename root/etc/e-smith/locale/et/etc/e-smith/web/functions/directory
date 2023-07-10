@@ -1,0 +1,79 @@
+<lexicon lang="et">
+   <entry>
+     <base>FORM_TITLE</base>
+       <trans>Muuda LDAP kataloogi seadeid</trans>
+   </entry>	
+<entry>
+<base>LABEL_ROOT</base>
+<trans>Serveri root</trans>
+</entry>
+
+<entry>
+<base>DESCRIPTION</base>
+<trans>The LDAP server provides a network-available listing of the user accounts and groups on your server, and can be accessed using an LDAP client such as the Address Book feature in Netscape Communicator. Configure your LDAP client with the local IP address of your server, port number 389, and the server root parameter shown below.</trans>
+</entry>
+<entry>
+<base>DESC_DIRECTORY_ACCESS</base>
+<trans>Sa saad kontrollida oma LDAP kataloogile juurdepääsu. Privaatne juurdepääs lubab juurdepääsu lokaalvõrgust ja avalik juurdepääs lubab juurdepääsu üle interneti.</trans>
+</entry>
+<entry>
+<base>DIRECTORY_ACCESS</base>
+<trans>LDAP kataloogi juurdepääs</trans>
+</entry>
+<entry>
+	<base>DESC_DEPARTMENT</base>
+<trans>Need väljad on asutuse LDAP vaikimisi seaded. Kui sa lisad uut kasutajat siis palutakse täita kõik need väljad (need võivad igal kasutajal erinevad olla) kuid väärtused mis sa siin määrad näidatakse vaikimis seadetena, et oleks lihtsam kasutajate lisamine.</trans>
+</entry>
+<entry>
+        <base>DEPARTMENT</base>
+        <trans>Asutus vaikimisi</trans>
+</entry>
+
+<entry>
+        <base>COMPANY</base>
+        <trans>Allasutus vaikimisi</trans>
+</entry>
+<entry>
+        <base>STREET</base>
+        <trans>Tänav vaikimisi</trans>
+</entry>
+
+<entry>
+        <base>CITY</base>
+        <trans>Linn vaikimisi</trans>
+</entry>
+
+<entry>
+        <base>PHONENUMBER</base>
+        <trans>Telefon vaikimisi</trans>
+</entry>
+
+<entry>
+<base>DESC_EXISTING</base>
+<trans>Võid olemasolevad kasutajad jätta nii nagu on ja vaikimisi seaded rakendada uute kasutajate jaoks või muuta vaikimisi seadeid kõikidel kasutajatel.</trans>
+</entry>
+
+
+
+<entry>
+<base>EXISTING</base>
+<trans>Olemasolevad kasutajad</trans>
+</entry>
+<entry>
+<base>SUCCESS</base>
+<trans>Uued LDAP vaikimisi seaded on edukalt salvestatud.</trans>
+</entry>
+
+<entry>
+<base>LEAVE</base>
+<trans>Jäta nii nagu on</trans>
+</entry>
+<entry>
+<base>UPDATE</base>
+<trans>Rakenda kõikidele vaikimisi seaded</trans>
+</entry>
+    <entry>
+        <base>Directory</base>
+        <trans>Kataloog</trans>
+    </entry>
+</lexicon>

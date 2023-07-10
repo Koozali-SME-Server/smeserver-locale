@@ -1,0 +1,49 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:15
+msgid "Automated quota report"
+msgstr "Raport udziałów"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:17
+msgid "You have exceeded your disk quota"
+msgstr "Przekroczyłeś limit danych zarezerwowany dla udziału"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:19
+msgid "Your current disk usage:"
+msgstr "Zajęte miejsce na dysku:"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:20
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:23
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:25
+msgid "Mb"
+msgstr "Mb"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:21
+msgid "Your maximum usage:"
+msgstr "Maksymalny limit danych:"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:22
+msgid " no limit set"
+msgstr "brak ustawionego limitu"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:24
+msgid "Warnings start at:"
+msgstr "Ostrzegaj przy:"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:26
+msgid "Grace period ends:"
+msgstr "Udział kończy się przy:"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:27
+msgid "System name:"
+msgstr "Nazwa systemu:"
+
+#: root/etc/e-smith/templates/usr/lib/e-smith-quota/userOverQuota.tmpl:29
+msgid "You are currently using more disk space than you have been allotted. You have until the Grace Period above to remove files so that you no longer exceed the warning level. At no time will you be permitted to store more than the maximum usage indicated above. This disk allocation includes all your e-mail, including unread e-mail."
+msgstr "Aktualnie wykorzystujesz niewiele poniżej limitu miejsca. Musisz usunąć tyle danych, żeby udział spadł poniżej ustawionego limitu, aby komunikaty nie pojawiały się już więcej. W nigdy nie będziesz mieć możliwość przechowywania więcej niż masz przydzielone. Ten przydział dysku zawiera także wszystkie twoje e-maile, włączając nie przeczytane wiadomości."

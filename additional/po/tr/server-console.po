@@ -1,0 +1,1476 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:16
+msgid "Manage disk redundancy"
+msgstr "Disk fazlalığını yönet"
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:42
+msgid "Disk redundancy status as of"
+msgstr "Disk fazlalığı durumu"
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:43
+msgid "Current RAID status:"
+msgstr "RAID durumu:"
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:52
+msgid "There are no RAID devices configured"
+msgstr "Yapılandırılmış RAID cihazı yok"
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:93
+msgid "A RAID resynchronization is in progress."
+msgstr "RAID resenkronizasyonu devam ediyor."
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:101
+msgid "Only some of the RAID devices are unclean or contain failed disks."
+msgstr "Bazı RAID cihazları temiz değil."
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:103
+msgid "Manual intervention may be required."
+msgstr "Elle müdahale etmek gerekebilir."
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:112
+msgid "All RAID devices are in a clean state."
+msgstr "Tüm RAID cihazlar temiz durumdadır"
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:120
+msgid "All RAID devices are in an unclean state or contain failed disks."
+msgstr "Tüm RAID cihazlar temiz durumdadır"
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:125
+msgid "Current disk status:"
+msgstr "Mevcut disk durumu:"
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:126
+msgid "Installed disks"
+msgstr "Kurulu diskler"
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:128
+msgid "Used disks"
+msgstr "Kullanılan diskler"
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:130
+msgid "Free disks"
+msgstr "Boştaki diskler"
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:139
+msgid "To ensure continued redundancy, please shut down, install another drive of the same capacity and then return to this screen."
+msgstr "Sisteminizde sadece tek disk var veya donanımsal disk klonlama mevcut. Eğer yazılımsal klonlama kullanmak istiyorsanız, lütfen sistemi kapatıp ikinci disk ekleyin (aynı kapasitede) ve bu sayfaya geri dönün."
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:150
+msgid "Your RAID devices are in an inconsistent state, and no spare drives were detected. You may need to manually remove a failed drive from your arrays using mdadm."
+msgstr ""
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:161
+msgid "Multiple spare drives have been detected. This utility can only add one drive at a time. Please either shut down and remove all but one of your spare drives, or configure your array manually."
+msgstr ""
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:170
+msgid "There is an unused disk drive in your system. Do you want to add it to the existing RAID array(s)?"
+msgstr "Sisteminizde kullanılmayan disk mevcut. Bu diski RAID dizisine eklemek istermisiniz?"
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:172
+msgid "WARNING: ALL DATA ON THE NEW DISK WILL BE DESTROYED!"
+msgstr "DİKKAT: YENİ DİSKİNİZDEKİ BÜTÜN BİLGİLER SİLİNECEKTİR!"
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:185
+msgid "The command failed:"
+msgstr "Komut hatası:"
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:195
+msgid "Couldn't open"
+msgstr "Açılamadı"
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:212
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:225
+msgid "Couldn't call"
+msgstr "Aranamadı"
+
+#: root/sbin/e-smith/console-menu-items/manageRAID.pl:267
+msgid "Couldn't read"
+msgstr "Okunamadı"
+
+#: root/sbin/e-smith/console-menu-items/reboot.pl:11
+msgid "Reboot, reconfigure or shut down this server"
+msgstr "Sunucuyu yeniden başlat, kapat veya yeniden yapılandır"
+
+#: root/sbin/e-smith/console-menu-items/reboot.pl:36
+#: root/sbin/e-smith/console-menu-items/reboot.pl:62
+msgid "Reboot"
+msgstr "Yeniden Başlat"
+
+#: root/sbin/e-smith/console-menu-items/reboot.pl:36
+msgid "Reboot this server"
+msgstr "Bu sunucuyu yeniden başlat"
+
+#: root/sbin/e-smith/console-menu-items/reboot.pl:37
+#: root/sbin/e-smith/console-menu-items/reboot.pl:67
+msgid "Reconfigure"
+msgstr "Yeniden yapılandır"
+
+#: root/sbin/e-smith/console-menu-items/reboot.pl:37
+msgid "Reconfigure this server"
+msgstr "Bu sunucuyu yeniden yapılandır"
+
+#: root/sbin/e-smith/console-menu-items/reboot.pl:38
+#: root/sbin/e-smith/console-menu-items/reboot.pl:57
+msgid "Shutdown"
+msgstr "Kapat"
+
+#: root/sbin/e-smith/console-menu-items/reboot.pl:38
+msgid "Shutdown this server"
+msgstr "Bu sunucuyu kapat"
+
+#: root/sbin/e-smith/console-menu-items/reboot.pl:43
+msgid "Reboot, reconfigure or shutdown this server"
+msgstr "Sunucuyu yeniden başlat, yeniden yapılandır veya kapat"
+
+#: root/sbin/e-smith/console-menu-items/reboot.pl:45
+msgid "Please select whether you wish to reboot, reconfigure or shutdown. The process will start as soon as you make your selection."
+msgstr "Lütfen seçiminizi yapın yeniden başlat, yeniden yapılandır veya kapat. Seçiminizi yaptığınızda işlem hemen başlatılacaktır."
+
+#: root/sbin/e-smith/console-menu-items/reboot.pl:47
+msgid "If you have an older computer without power management, the shutdown process will perform a clean halt of all system services, but will not actually power off your computer. In this case, wait for the power down message and then shut off the power manually."
+msgstr "Eğer güç yönetimi olmayan eski bir bilgisayar kullanıyorsanız, kapatma prosedürü bütün servisleri düzgün şekilde sonlandıracaktır, fakat bilgisayarınızı kapatamayacaktır. Bu durumda sistem kapatıldı mesajını bekleyip ardından bilgisayarı elle kapatın."
+
+#: root/sbin/e-smith/console-menu-items/reboot.pl:49
+msgid "If you have changed your mind and do not want to reboot or shutdown, use the Tab key to select Cancel, then press Enter."
+msgstr "Eğer fikrinizi değiştirip sistemi kapatmak veya yeniden başlatmaktan vazgeçtiyseniz, Tab tuşunu kullanarak İptal komutunu seçip ardından Enter tuşuna basın."
+
+#: root/sbin/e-smith/console-menu-items/reboot.pl:51
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:207
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:231
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:244
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:216
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:269
+msgid "Cancel"
+msgstr "İptal"
+
+#: root/sbin/e-smith/console-menu-items/reboot.pl:52
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:232
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:270
+msgid "OK"
+msgstr "Tamam"
+
+#: root/sbin/e-smith/console-menu-items/serverManager.pl:11
+#: root/sbin/e-smith/console-menu-items/serverManager.pl:37
+msgid "Access server manager"
+msgstr "Sunucu yönetim erişimi"
+
+#: root/sbin/e-smith/console-menu-items/serverManager.pl:39
+msgid "This option will start a text-mode browser to access the server manager from this console.  Normally you would access the server manager from a web browser at the following url:"
+msgstr "Bu seçenek tekst tabanlı gezgini açıp sunucuyu yapılandırmanıza imkan tanır.  Normalde sunucu yapılandırmasına bu adresten erişebilirsiniz:"
+
+#: root/sbin/e-smith/console-menu-items/serverManager.pl:43
+msgid "You should only proceed if you are comfortable using a text-mode browser.  Note that you will be prompted for the administrator password in order to access the server manager."
+msgstr "Bunu sadece tekst tabanlı gesgini kullanma konusunda iyiseniz yapın.  Unutmayın ki sunucu yapılandırmasına erişebilmeniz için size yönetici şifresi sorulacaktır."
+
+#: root/sbin/e-smith/console-menu-items/serverManager.pl:45
+msgid "NOTE: The 'q' key is used to quit from the text-mode browser."
+msgstr "UNUTMAYIN: Tekst tabanlı gezginden çıkmak için 'q' harfi kullanılır."
+
+#: root/sbin/e-smith/console-menu-items/serverManager.pl:47
+msgid "Do you wish to proceed?"
+msgstr "Bunu yapmak istediğinizden eminmisiniz?"
+
+#: root/sbin/e-smith/console-menu-items/status.pl:11
+msgid "Check status of this server"
+msgstr "Bu sunucunun durumunu göster"
+
+#: root/sbin/e-smith/console-menu-items/status.pl:60
+msgid "Status of this server as of"
+msgstr "Bu sunucunun durumu"
+
+#: root/sbin/e-smith/console-menu-items/status.pl:62
+msgid "This server has been running for"
+msgstr "Bu sunucunun amacı"
+
+#: root/sbin/e-smith/console-menu-items/status.pl:63
+msgid "days"
+msgstr "gün"
+
+#: root/sbin/e-smith/console-menu-items/status.pl:64
+msgid "hours"
+msgstr "saat"
+
+#: root/sbin/e-smith/console-menu-items/status.pl:65
+msgid "minutes"
+msgstr "dakika"
+
+#: root/sbin/e-smith/console-menu-items/support.pl:11
+msgid "View support and licensing information"
+msgstr "Destek ve lisans bilgisini gör"
+
+#: root/sbin/e-smith/console-menu-items/support.pl:37
+msgid "Support and licensing information"
+msgstr "Destek ve lisans bilgisini gör"
+
+#: root/sbin/e-smith/console-menu-items/testInternet.pl:10
+#: root/sbin/e-smith/console-menu-items/testInternet.pl:33
+msgid "Test Internet access"
+msgstr "İnternet erişimini test et"
+
+#: root/sbin/e-smith/console-menu-items/testInternet.pl:35
+msgid "After your Internet connection is operational and your server has been connected and configured, this test will verify that your server can communicate with the Internet."
+msgstr "İnternet bağlantınız hazır olduktan sonra ve sunucunuz internete bağlanınca, bu test sunucunuzun internet bağlantısını kontrol edecektir."
+
+#: root/sbin/e-smith/console-menu-items/testInternet.pl:37
+msgid "As part of this test, two pieces of information will be sent to koozali.org - the version installed on your server and a string used to differentiate your server from others using this test. This string is generated by a one-way hash function and access to the string does not provide any information about your server."
+msgstr "Bu testin bir parçası olarak, iki veri paketi koozali.org gönderilecek - sunucu sürümü ve bu testi kullanan diğer sunucuları başkalarından ayırt etmek için bir dizi. Bu dize, tek yönlü hash fonksiyonu ile oluşturulmuş bir veridir, sunucu hakkında herhangi bir bilgi içermez."
+
+#: root/sbin/e-smith/console-menu-items/testInternet.pl:39
+msgid "We appreciate your assistance in sending this information so we can gain an accurate count of the installed servers."
+msgstr "Bize gönderilen bu verilerle kurulu sunucu sayısını değerlendiriyoruz."
+
+#: root/sbin/e-smith/console-menu-items/testInternet.pl:41
+msgid "Do you wish to run the test?"
+msgstr "Bu testi çalıştırmak istermisiniz?"
+
+#: root/sbin/e-smith/console-menu-items/testInternet.pl:47
+msgid "Attempting to test Internet connection."
+msgstr "İnternet testi çalıştırılıyor."
+
+#: root/sbin/e-smith/console-menu-items/testInternet.pl:48
+msgid "If this test takes too long, please halt it by typing Ctrl-C."
+msgstr "Bu test çok uzun sürerse, Ctrl-C basarak iptal edebilirsiniz."
+
+#: root/sbin/e-smith/console-menu-items/testInternet.pl:55
+msgid "Internet connection successful"
+msgstr "İnternet bağlantısı başarılı"
+
+#: root/sbin/e-smith/console-menu-items/testInternet.pl:57
+msgid "The test was successful! Your server was able to communicate with koozali.org."
+msgstr "İnternet bağlantısı başarılı oldu! Sunucunuz koozali.org ile bağlantı kurabildi."
+
+#: root/sbin/e-smith/console-menu-items/testInternet.pl:64
+msgid "Internet connection failed"
+msgstr "İnternet bağlantısı başarısız"
+
+#: root/sbin/e-smith/console-menu-items/testInternet.pl:66
+msgid "The test failed. Your server was unable to establish contact with koozali.org via the Internet."
+msgstr "Tast başarısız oldu. Sunucunuz koozali.org ile internet üzerinden bağlantı sağlayamadı."
+
+#: root/sbin/e-smith/console-menu-items/testInternet.pl:68
+msgid "Please check that your server is correctly configured. A reboot may be required if certain settings are modified and the configuration process will advise you if this is required."
+msgstr "Sunucunuzun doğru yapılandırlıdığından emin olun. Belli ayar değişikliklerinde sistemi yeniden başlatmak gerekebilir ve gerekliyse yapılandrıma işlemi bunu yapmanızı tavsiye eder."
+
+#: root/sbin/e-smith/console-menu-items/testInternet.pl:70
+msgid "You might also want to check with your Internet provider to make sure that your Internet connection is working properly."
+msgstr "İnternet sağlayıcınızdan intenet bağlantınızın doğru çalışıp çalışmadığını teyit edebilirsiniz."
+
+#: root/sbin/e-smith/console-menu-items/testInternet.pl:72
+msgid "It is also possible (although unlikely) that there is a technical problem at the koozali.org site. In this case, you should proceed with your installation and run this test again later."
+msgstr "Bazen (sıkça olmasa da) koozali.org sitesiyle ilgili teknik problemler olabilir. Bu durumda kurulumunuza devam edip bu testi daha sonra da çalıştırabilirsiniz."
+
+#: root/sbin/e-smith/console.pl:88
+msgid "Server console"
+msgstr "Sunucu konsolu"
+
+#: root/sbin/e-smith/console.pl:91
+msgid "** unsaved changes **"
+msgstr "** kaydedilmemiş değişiklikler **"
+
+#: root/sbin/e-smith/console.pl:98
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:32
+msgid "Welcome to the server console!"
+msgstr "Sunucu konsoluna hoş geldiniz!"
+
+#: root/sbin/e-smith/console.pl:100
+msgid "Use the Arrow and Tab keys to make your selection, then press Enter."
+msgstr "Seçiminizi yapmak için tab ve ok tuşlarını kullanını, seçmek için Enter bas."
+
+#: root/sbin/e-smith/console.pl:102
+msgid "Exit"
+msgstr "Çıkış"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:86
+msgid "Bad ttyname:"
+msgstr "Geçersiz ttyname:"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:89
+msgid "Can't redirect stdin"
+msgstr "Standart girdi yönlendirilemiyor"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:90
+msgid "Can't redirect stdout"
+msgstr "Standart çıktı yönlendirilemiyor"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:93
+msgid "Can't fork"
+msgstr "Ayrıştırılamadı"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:143
+msgid "Couldn't create pipe"
+msgstr "Bağlantı oluşturulamadı"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:149
+msgid "Couldn't fork"
+msgstr "Ayrıştırılmamalı"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:160
+msgid "Couldn't close reading end of pipe"
+msgstr "Bağlantı sonu okuması sonlandırılamıyor"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:168
+msgid "Couldn't connect STDERR to pipe"
+msgstr "Bağlantı STDERR yönlendirilemiyor"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:171
+msgid "Couldn't close writing end of pipe"
+msgstr "Yönlendirilenin kapatılması yazılamadı"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:185
+msgid "Couldn't exec:"
+msgstr "Çalıştırılamadı:"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:237
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:269
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:292
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:353
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:437
+msgid "Back"
+msgstr "Geri"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:238
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:270
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:293
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:354
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:438
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:243
+msgid "Next"
+msgstr "İleri"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:264
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:201
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:210
+msgid "please try again"
+msgstr "lütfen tekrar deneyin"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:321
+msgid "Yes"
+msgstr "Evet"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:322
+msgid "No"
+msgstr "Hayır"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:462
+msgid "Keep the current setting"
+msgstr "Geçerli ayarları koru"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console.pm:464
+msgid "keep"
+msgstr "koru"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/backup_running.pm:29
+msgid "Inconsistent system state"
+msgstr "Kararsız sistem durumu"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/backup_running.pm:31
+msgid "********** Inconsistent system state detected ***********"
+msgstr "********** Kararsız sistem durumu tespit edildi ***********"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/backup_running.pm:33
+msgid "The restoration of a system backup was running and incomplete at the time of the last reboot. The system should not be used in this state."
+msgstr "Sistem geri yükleme esnasında işem tamamlanmadan sistem yeniden başlatıldı. Sistem bu durumda kullanılamaz."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/backup_running.pm:35
+msgid "Consult the User Guide for further instructions."
+msgstr "Daha fazla bilgi için Kullanıcı Klavuzuna bakınız."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/backup_running.pm:40
+msgid "System will be halted"
+msgstr "Sistem kapatılacaktır"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/backup_running.pm:42
+msgid "The server will now be halted."
+msgstr "Sistem şimdi kapatılmıştır."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/backup_running.pm:44
+msgid "Consult the User Guide for recovery instructions."
+msgstr "Geri yükleme bilgisi için Kullanıcı Klavuzuna başvurun."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/backup_running.pm:46
+msgid "Do you wish to halt the system right now?"
+msgstr "Sistemi şimdi kapatmak istermisiniz?"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:21
+msgid "Configure this server"
+msgstr "Sunucuyu yapılandır"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:99
+msgid "Use"
+msgstr "Kullan"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:114
+msgid "local"
+msgstr "yerel"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:115
+msgid "external"
+msgstr "harici"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:120
+msgid "Select %s network device"
+msgstr "%s ağ bağdaştırıcı sürücüsünü seçin"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:124
+msgid "You now need to select the proper device for your %s network. The server can attempt to do this automatically, or you can do it manually.  The network driver, MAC address and model of your network adapter are listed below.\n"
+msgstr "%s ağ bağdaştırıcısı için uygun sürücüyü seçmelisiniz. Sunucu bunu otomatik olarak yapmaya çalışacaktır, veya bunu kendiniz - ağ bağdaştırıcınızın modelini veya doğrudan sürücüsünü seçerek bunu yapabilirsiniz.\n"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:179
+msgid "No network interfaces found"
+msgstr "Ağ arayüzleri bulunamadı"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:180
+msgid "The installer can't continue because no network interfaces are installed or recognised. Please install at least one network interface."
+msgstr "Kurulum devam etmeyecektir çünku ağ arayüzü kurulu değil veya tanınamadı.Lütfen en az bir ağ bağdaştırıcısı kurun."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:194
+msgid "Primary domain name"
+msgstr "Birincil domain adı"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:196
+msgid "Please enter the primary domain name for your server."
+msgstr "Lütfen suncunuz için birincil domain adını girin."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:198
+msgid "This will be the default domain for your e-mail and web server. Virtual domains can be added later using the server manager."
+msgstr "Bu domain adı e-posta ve web sunucunuzun varsayılan adı olacaktır. Sanal domainler daha sonra sunucu yönetim panelinden eklenebilir."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:224
+msgid "Invalid domain name"
+msgstr "Geçersiz domain adı"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:242
+msgid "Select system name"
+msgstr "Sistem adı seçin"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:244
+msgid "Please enter the system name for your server."
+msgstr "Lütfen sunucunuz için sistem adı belirtin."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:246
+msgid "You should select unique system names for each server."
+msgstr "Her sunucu için ayrı ad belirtilmelidir."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:248
+msgid "The system name must start with a letter and can be composed of  letters, numbers and hyphens."
+msgstr "Sistem adı harfle başlamalı ve  harfler, sayılar ve tire içerebilir."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:282
+msgid "Invalid system name"
+msgstr "Geçersiz sistem adı"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:295
+msgid "The specified driver failed to load."
+msgstr "Belirtilen sürücü yüklenemedi."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:333
+msgid "Local networking parameters"
+msgstr "Yerel ağ parametreleri"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:335
+msgid "Please enter the local IP address for this server."
+msgstr "Lütfen bu sunucu için yerel IP adresini girin."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:337
+msgid "If this server is the first machine on your network, we recommend accepting the default value unless you have a specific reason to choose something else."
+msgstr "Eğer bu sunucu ağınızdaki ilk makina ise, varsayılan ayarları kabul etmenizi öneririz eğer özel bir durum varsa başka ayarlar tanımlayabilirsiniz."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:339
+msgid "If your server is being installed into an existing network, you must choose an address which is not in use by any other computer on this network."
+msgstr "Eğer sunucunuz mevcut bir ağ kurulacaksa, başka bir makina tarafından kullanılmayan bir ağ adresi tanımlamalısınız."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:361
+msgid "Invalid local IP address"
+msgstr "Geçersiz yerel IP adresi"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:374
+msgid "Select local subnet mask"
+msgstr "Yerel alt ağ maskesi girin"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:376
+msgid "Please enter the local subnet mask for this server."
+msgstr "Lütfen bu sunucu için yerel alt ağ maskesi girin"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:378
+msgid "If this server is the first machine on your network, we recommend using the default unless you have a specific reason to choose something else."
+msgstr "Eğer bu sunucu ağınızdaki ilk makina ise, varsayılan ayarları kabul etmenizi öneririz eğer özel bir durum varsa başka ayarlar tanımlayabilirsiniz."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:380
+msgid "If your server is being installed into an existing network, you must choose the same subnet mask used by other computers on this network."
+msgstr "Eğer bu sunucu mevcut bir ağın üzerine kuruluyorsa, bu ağdaki diğer bilgisayarların kullandığı alt ağ maskesinin aynısını yazmalısınız."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:403
+msgid "Invalid local subnet mask"
+msgstr "Geçersiz alt ağ maskesi"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:420
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:435
+msgid "Server and gateway"
+msgstr "Sunucu ve Ağ Geçidi"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:425
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:436
+msgid "Private server and gateway"
+msgstr "Özel sunucu ve ağ geçidi"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:430
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:437
+msgid "Server-only"
+msgstr "Sadece-sunucu"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:442
+msgid "Select operation mode"
+msgstr "Çalışma modunu seçin"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:445
+msgid "If you want this server to act as a gateway to the Internet, choose one of the server and gateway options. Server and gateway mode acts as a firewall and provides an external web and mail server. Private server and gateway mode also acts as a firewall but disables all incoming services."
+msgstr "Bu sunucunun interen için ağ geçidi olmasını istiyorsanız, sunucu ve ağ geçidi seçeneklerinden birini seçiniz. Sunucu ve ağ geçidi modu ateş duvarı ve harici web ve posta sunucu özelliklerini sağlar. Özel sunucu ve ağ geçidi atş duvarını sağlar fakat bütün servis isteklerini kapatır."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:447
+msgid "Server-only mode provides services to a local, protected network. If you choose this mode and Internet access is required, the network must be protected by another server configured in server and gateway mode (or another firewall)."
+msgstr "Sadece-sunucu modunda yerel ağ servisleri açıktır. Bu modu seçtiğinizde internet erişimine ihtiyaç duyarsanız, ağınız başka bir ağ geçidi (veya ateş duvarı) sunucusu tarafından korunmalıdır."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:493
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:503
+msgid "Server and gateway - dedicated"
+msgstr "Sunucu ve ağ geçidi - sürekli bağlantı"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:498
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:504
+msgid "Server and gateway - dialup"
+msgstr "Sunucu ve ağ geçidi - çevirmeli ağ"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:509
+msgid "Select external access mode"
+msgstr "Harici erişim modunu seçin"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:512
+msgid "The next step is to select the access mode that your server will use to connect to the Internet."
+msgstr "Bir sonraki adımda sunucunuzun internete erişmek için kullanacağı modunu seçebilirsiniz."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:514
+msgid "Choose the dedicated option if you access the Internet via a router, a cable modem or ADSL. Choose the dialup option if you use a modem or ISDN connection."
+msgstr "İnternete router, kablolu modem veya ADSL ile bağlanıyorsanız sürekli bağlantı modunu seçin. Modem veya ISDN ile bağlanıyorsanız çevirmeli bağlantı modunu seçmelisiniz."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:542
+msgid "Only one network adapter"
+msgstr "Sadece bir ağ kartı"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:544
+msgid "Your system only has a single network adapter. It cannot be used in this configuration."
+msgstr "Sisteminizde sadece bir ağ kartı mevcuttur. Bu konfigürasyonda kullanılamaz."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:582
+msgid "use DHCP (send account name as client identifier)"
+msgstr "DHCP kullan (istemci kimliği olarak hesap adını gönder)"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:583
+msgid "DHCP with account name"
+msgstr "Hesap adıyla DHCP"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:589
+msgid "use DHCP (send ethernet address as client identifier)"
+msgstr "DHCP kullan (istemci kimliği olarak ethernet edreisini gönder)"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:590
+msgid "DHCP with ethernet address"
+msgstr "Ethernet adresiyle DHCP"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:596
+msgid "use PPP over Ethernet (PPPoE)"
+msgstr "Ethernet üzerinden PPP kullan (PPPoE)"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:597
+msgid "PPPoE"
+msgstr "PPPoE"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:603
+msgid "use static IP address (do not use DHCP or PPPoE)"
+msgstr "sabit IP adresi kullan (DHCP veya PPPoE kullanma)"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:604
+msgid "static IP"
+msgstr "sabit IP"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:609
+msgid "Use DHCP (send account name as client identifier)"
+msgstr "DHCP kullan (istemci kimliği olarak hesap adını gönder)"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:610
+msgid "Use DHCP (send ethernet address as client identifier)"
+msgstr "DHCP kullan (istemci kimliği olarak ethernet edreisini gönder)"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:611
+msgid "Use PPP over Ethernet (PPPoE)"
+msgstr "Ethernet üzerinden PPP kullan (PPPoE)"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:612
+msgid "Use static IP address"
+msgstr "Sabit IP adresi kullan"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:617
+msgid "External Interface Configuration"
+msgstr "Harici Arabirim Yapılandırması"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:620
+msgid "Next, specify how to configure the external ethernet adapter."
+msgstr "İleri, harici ağ kartı yapılandrımasını yapın"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:622
+msgid "For cable modem connections, select DHCP. If your ISP has assigned a system name for your connection, use the account name option. Otherwise use the ethernet address option. For residential ADSL, use PPPoE. For most corporate connections, use a static IP address."
+msgstr "Kablolu modem bağlantısı için DHCP seçin. ISP tarafından bağlantı için bir isim belirtmek gerekliyse, kullanıcı adını belirtin. Yoksa ethernet adresi seçimini kullanın. Sabit ADSL için PPPoE kullanın. Şirket bağlantıları içinse, sabit IP kullanılır."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:675
+msgid "Enter ISP assigned hostname"
+msgstr "ISP tarafından atanmış alan adını girin"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:677
+msgid "You have selected DHCP (send account name). Please enter the account name assigned by your ISP. You must enter the account name exactly as specified by your ISP."
+msgstr "Seçiminiz DHCP (kullanıcı adı ile). Lütfen ISP tarafından sağlanmış kullanıcı adını girin. Kullanıcı adınızı ISP tarafından belirtildiği gibi girmelisiniz."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:694
+msgid "Select PPPoE user account"
+msgstr "PPPoE kullanıcı adını seçin"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:696
+msgid "Please enter the user account name for your PPPoE Internet connection. Most PPPoE service providers use an account name and e-mail domain. For example, "
+msgstr "Lütfen PPPoE internet bağlantısı için kullanıcı adınızı girin. Pek çok PPPoE servis sağlayıcısı kullanıcı adı ve posta adresi adını kullanır. Örneğin, "
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:714
+msgid "Select PPPoE password"
+msgstr "PPPoE şifresini seçin"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:716
+msgid "Please enter the password for your PPPoE Internet connection."
+msgstr "PPPoE internet bağlantınız için şifrenizi girin."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:739
+msgid "Select static IP address"
+msgstr "Sabit IP adresini seçin"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:741
+msgid "You have chosen to configure your external Ethernet connection with a static IP address. Please enter the IP address which should be used for the external interface on this server."
+msgstr "Harici ethernet bağlandınızı sabit IP ile yapılandırmayı seçtiniz. Lütfen dış bağlantılar için kullanılacak arayüzün sabit IP adresini belirtin."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:743
+msgid "Please note, this is not the address of your external gateway."
+msgstr "Lütfen gözönünde bulundurun, bu harici ağ geçidinin adresi değildir."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:764
+msgid "Invalid external IP address"
+msgstr "Geçersiz harici IP adresi"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:778
+msgid "Select subnet mask"
+msgstr "Alt ağ maskesi girin"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:780
+msgid "Please enter the subnet mask for your Internet connection. A typical subnet mask is 255.255.255.0."
+msgstr "Lütfen internet bağlantınız için alt ağ maskesi girin. Tipik bir alt ağ maskesi 255.255.255.0 şeklindedir."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:805
+msgid "Invalid address ranges"
+msgstr "Geçersiz adres aralığı"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:807
+msgid ""
+"Internal address range overlaps external address range\n"
+"\n"
+"Local interface: %s/%s\n"
+"External interface: %s/%s\n"
+"\n"
+"Please review your settings."
+msgstr ""
+"Yerel adres aralığı harici adres arlığ ile çakışıyor\n"
+"\n"
+"Yerel arayüz: %s/%s\n"
+"Harici arayüz: %s/%s\n"
+"\n"
+"Lütfen ayarları gözden geçirin."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:833
+msgid "Invalid external subnet mask"
+msgstr "Geçersiz harici alt ağ maskesi"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:856
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1471
+msgid "Select gateway IP address"
+msgstr "Ağ geçidi IP adresini seçin"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:858
+msgid "Please enter the gateway IP address for your Internet connection."
+msgstr "Lütfen internet bağlantınızın ağ geçidi adresini girin."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:883
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1507
+msgid "Invalid"
+msgstr "Geçersiz"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:899
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:900
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:901
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:902
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:903
+msgid "Set modem port to"
+msgstr "Modem portunu ayarla"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:903
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:937
+msgid "ISDN"
+msgstr "ISDN"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:904
+msgid "internal ISDN card"
+msgstr "yerel ISDN kartı"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:909
+msgid "Select modem/ISDN port"
+msgstr "Modem/ISDN portunu seçin"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:912
+msgid "Please specify which serial port your modem or ISDN terminal adapter is connected to. Select ISDN if you wish to use an internal ISDN card."
+msgstr "Lütfen yerel ISDN kartı veya modeminizin bağlı olduğu seri portu seçin.Yerel ISDN kartı kullanmak için ISDN seçin."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1090
+msgid "ISDN card detected"
+msgstr "ISDN kartı tespit edildi"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1092
+msgid "Do you wish to use the following ISDN card for your Internet connection?"
+msgstr "İnternet bağlantısı için ağaıdaki ISDN kartını kullanmak istermisiniz?"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1108
+msgid "ISDN driver options"
+msgstr "ISDN sürücü ayarları"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1110
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1174
+msgid "You have selected an internal ISDN card."
+msgstr "Harici ISDN kartı seçtiniz."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1112
+msgid "The ISDN software will need to be told what ISDN hardware you have. It may also need to be told what protocol number to use and may need to be given some additional information about your hardware such as the I/O address and interrupt settings."
+msgstr "ISDN yazılımı sahip olduğunuz ISDN donanımıyla haberleşebilmelidir. Bunun için hangi iletişim protokolünü kullandığı ve donanımınızın hangi I/O adresi ve kesme isteğine sahip olduğunu bilmelidir."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1114
+msgid "This information is provided via an options string. An example is"
+msgstr "Bu bilgiler bir seçenek dizgesi üzerinden sağlanmaktadır. Bir örnek vermek gerekirse"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1116
+msgid "which would be used to set the"
+msgstr "ayarlamak için kullanılır"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1118
+msgid "to EURO-ISDN."
+msgstr "EURO-ISDN için."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1144
+msgid "Multiple Subscriber Numbering"
+msgstr "Çoklu Abone Numaralandırma"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1146
+msgid "Your ISDN line may have more than one number associated with it known as Multiple Subscriber Numbering (MSN). In order to receive an incoming ISDN call from an ISP or a remote site, you may need to configure your ISDN card with its MSN so that ISDN calls are routed correctly. If you do not know this number, you can leave this value blank."
+msgstr "ISDN hattı birden fazla numarayı Çoklu Abone Numaralandırma (MSN) sahip olabilir. Bunun için uygun bir ISP veya uzaktaki bir siteden gelen ISDN çağrıları almak için, MSNyi ISDN çağrıları doğru yönlendirmek için ISDN kartı yapılandırmanız gerekir. Bu numarayı bilmiyorsanız, burayı boş bırakabilirsiniz."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1156
+msgid "Invalid Multiple Subscriber Numbering (MSN)"
+msgstr "Geçersiz Çoklu Abone Numaralandırma (MSN)"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1176
+msgid "The driver for this card includes modem emulation software, and modem control commands are used by the networking software to configure and control the ISDN interface card."
+msgstr "Bu kart sürücüsü modem emülatörünü içerir, modem komutlarıağ ayazılımı tarafından ISDN kartınızı yapılandırmak ve yönetmek için kullanılır."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1178
+msgid "The precise behavior of your ISDN card can be modified by using a specific modem initialization string, to adjust the settings of the card, or to modify its default behavior. Most cards should work correctly with the default settings, but you may enter a modem initialization string here if required."
+msgstr "ISDN kartınızın davranışı belirli bir modem başlatma dizesi kullanarak veya varsayılan davranışını değiştirmek için modem dizgesi kullanılarak ayarlamak değiştirilebilir. Pek çok kartl varsayılan ayarlarla doğru çalışır, ancak gerekirse burada bir modem başlatma dizesi girebilirsiniz."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1181
+msgid "You have selected a modem device."
+msgstr "Modem aygıtını seçtiniz."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1183
+msgid "The precise behavior of your modem can be modified by using a specific modem initialization string, to adjust the settings of your modem, or to modify its default behavior. You may enter a modem initialization string here."
+msgstr "Modeminizin davranışı belirli bir modem başlatma dizesi kullanarak veya varsayılan davranışını değiştirmek için modem başlatma dizgesi ayarlarını yapmak gerekebilir. Burada modem başlatma dizesi girebilirsiniz."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1185
+msgid "Many modems will work correctly without any special settings. If you leave this field blank, the default string of"
+msgstr "Birçok modemler herhangi bir özel ayar yapmadan doğru çalışacaktır. Bu alanı, varsayılan dizenin kullanmak için boş bırakabilirsiniz"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1187
+msgid "will be used. This turns the modem speaker off, so that you will not be bothered by the noises that a modem makes when it starts a connection."
+msgstr "kullanılmaktadır. Bu modemin sesini kapatır, çevirme işlemi esnasında modemin arama sesi duyulmayacaktır."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1193
+msgid "Modem initialization string"
+msgstr "Modem başlatma dizgesi"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1226
+msgid "Select access phone number"
+msgstr "Aranacak numara"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1229
+msgid "Please enter the access phone number for your Internet connection. Long distance numbers can be entered. The phone number must not contain spaces, but may contain dashes for readability. Commas may be inserted where a delay is required. For example, if you need to dial 9 first, then wait, then dial a phone number, you could enter"
+msgstr "Lütfen internet bağlantısı için aranacak numarayı girin. Şehir kodu girilmelidir. Telefon numarası boşluk içermemelidir, okunabilirliği arttırmak için tire içerebilir. Bekleme gerkli olduğunda komut girilebilir. Örneğin önce 9 çevirip, ardından beklemek gerekli ise, enter basın"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1256
+msgid "Invalid access phone number"
+msgstr "Geçersiz bağlantı numarası"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1268
+msgid "Please enter the user account name for your Internet connection."
+msgstr "Lütfen internet bağlantınız için kullanıcı adını girin."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1270
+msgid "Please note that account names are usually case sensitive."
+msgstr "Kıllanıcı adları genellikle büyük küçük harflere duyarlıdır."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1274
+msgid "Select dialup user account"
+msgstr "Çevirmeli ağ kullanıcı hesabını seçin"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1290
+msgid "Please enter the password for your Internet connection."
+msgstr "Lütfen internet bağlantısı için şifreyi girin."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1292
+msgid "Please note that passwords are usually case sensitive."
+msgstr "Şifre büyük küçük harflere duyarlıdır."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1296
+msgid "Select dialup password"
+msgstr "Çevirmeli ağ şifresini girin"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1338
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1362
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1384
+msgid "Select connect policy"
+msgstr "Bağlantı ayarları"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1341
+msgid "Select the dialup connect policy that you would like to use during office hours (8:00 AM to 6:00 PM) on weekdays."
+msgstr "Yapmak istediğniz bağlantı ayarlarını ofis saatlerine göre yapabilirsiniz (8:00 dan 18:00 a kadar) haftaiçi."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1365
+msgid "Please select the dialup connect policy that you would like to use outside office hours (6:00 PM to 8:00 AM) on weekdays."
+msgstr "Yapmak istediğniz bağlantı ayarlarını ofis saatleri dışında yapabilirsiniz (18:00 dan 8:00 a kadar) haftaiçi."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1387
+msgid "Please select the dialup connect policy that you would like to use during the weekend."
+msgstr "Lütfen haftaiçi uygulamak istediğiniz bağlantı ayarlarını seçin."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1414
+msgid "Enable NIC bonding"
+msgstr "NIC bağını etkinleştir"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1414
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1428
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1430
+msgid "enabled"
+msgstr "etkin"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1415
+msgid "Disable NIC bonding"
+msgstr "NIC bağını devre dışı bırak"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1415
+msgid "disabled"
+msgstr "etkin değil"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1420
+msgid "NIC Bonding"
+msgstr "NIC Bağı"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1423
+msgid "You have more than one network adapter. Would you like to bond them together into a single interface? This can provide greater throughput and/or failure resiliency, depending on your adapters and network configuration."
+msgstr "Birden fazla bağdaştırıcı var. Bunları tek arayüz olarak yapılandırmak istermisiniz? Bu ağ adaptörüne ve ağınızın konfigürasyonuna bağlı olarak bir iyileştirme sağlayabilir."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1441
+msgid ""
+"The NIC bonding driver allows various modes and performance options. Edit the option string below if the defaults are not suitable.\n"
+"\n"
+"Most users do not need to change this setting.\n"
+msgstr ""
+"NIC bağı değişik modlarda farklı performanslar sağlar. Varsayılan değerler uygun değilse gerekli düzenlemeleri yapın.\n"
+"\n"
+"Pek çok kullanıcı bu ayarları değiştirmeye ihtiyaç duymaz.\n"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1445
+msgid "NIC Bonding Options"
+msgstr "NIC Bağı Seçenekleri"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1473
+msgid "In server-only mode, this server will use only one ethernet adapter connected to your local network. If you have a firewall and wish to use this server as your e-mail/web server, you should consult the firewall documentation for networking details."
+msgstr "Sadece-sunucu modunda, bu sunucu yerel ağ bağlanmak için sadece tek bi ağ bağdaştırıcısını kullanabilir. Eğer bir atş duvarı kullanıyorsanız ve bu sunucuyu e-posta/web sunucusu olarak kullanmak için, ateş duvarının dökümanlarını incelemeniz gerekecektir."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1475
+msgid "Please specify the gateway IP address that this server should use to access the Internet. Leave blank if you have no Internet access."
+msgstr "Lütfen internet erişimi için kullandığınız ağ geçidi IP adresini girin. İnternet erişiminiz yoksa boş bırakın."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1550
+msgid "Can't open output file"
+msgstr "Çıktı dosyası açılamadı"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1571
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1576
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1597
+msgid "Off"
+msgstr "Kapat"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1571
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1575
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1592
+msgid "On"
+msgstr "Aç"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1575
+msgid "Provide DHCP service to local network"
+msgstr "Yerel ağ için DHCP servisini aktifleştir"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1576
+msgid "Do not provide DHCP service to local network"
+msgstr "Yerel ağ için DHCP servisini devre dışı bırak"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1581
+msgid "Select DHCP server configuration"
+msgstr "DHCP sunucu ayarları"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1584
+msgid "Please specify whether you would like this server to provide DHCP service to your local network. This will let you assign IP addresses to your other network computers automatically by configuring them to obtain their IP information using DHCP."
+msgstr "Bu sunucunun yerel ağınıza DHCP hizmeti vermesini istiyorsanız. Ağınızdaki diğer bilgisayarların IP adreslerini DHCP sunucusundan almaları için yapılandırmanız gerekmektedir."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1586
+msgid "We strongly advise that all clients are configured using DHCP."
+msgstr "Bütün kullanıcıların DHCP kullamnalarını şiddetel tavsiye ederiz."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1620
+msgid "Select beginning of DHCP host number range"
+msgstr "DHCP başlangıç numarasını girin."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1622
+msgid "You must reserve a range of host numbers for the DHCP server to use."
+msgstr "DHCP sunucusu kullanmak için host numarası aralığı ayırması gerekir."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1624
+msgid "Please enter the first host number in this range. If you are using the standard server defaults and have no particular preference, you should keep the default values."
+msgstr "Lütfen bu aralıktaki ilk host numarasını girin. Eğer sunucu standartlarını varsayılan olarak kullanıyorsanız ve özel bir tercihiniz yoksa, varsayılan değerler tutmalı."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1646
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1742
+msgid "That address is not on the local network."
+msgstr "Bu adres yerel ağda bulunmuyor."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1651
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1747
+msgid "Invalid IP address for DHCP start"
+msgstr "Standart DHCP için geçersiz adres"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1657
+msgid "You must provide an IP address for the start of the DHCP range."
+msgstr "DHCP aralığı için başlangıç IP adresi vermelisiniz."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1683
+msgid "Select end of DHCP host number range"
+msgstr "DHCP host için son sayıyı girin"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1685
+msgid "Please enter the last host address in this range. If you are using the standard server defaults and have no particular preference, you should keep the default value. Think to add enough ip for vpn sessions."
+msgstr "Litfen bu aralığın son host adresini girin. Eğer sunucunun standart olarak gelen varsayılan değerlerini kullanıyorsanız ve özel bir ekleme yapmayacaksanız, varsayılan değerleri koruyun."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1725
+msgid "There is not enough IP in the range to include all your vpn sessions"
+msgstr ""
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1730
+msgid "The IP range cannot include our private network address."
+msgstr "IP aralığı özel ağ adresimizi içermemelidir."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1736
+msgid "The end of the range must be larger than the start."
+msgstr "Aralığın sonu başlangıcından büyük olmalıdır."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1753
+msgid "You must provide an IP address for the end of the DHCP range."
+msgstr "DHCP aralığının son IP adresini belirtmelisiniz."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1773
+msgid "Corporate DNS server address"
+msgstr "Kurumsal DNS sunucu adresi"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1775
+msgid "If this server does not have access to the Internet, or you have special requirements for DNS resolution, enter the DNS server IP address here."
+msgstr "Bu sunucunun internet erişimi yoksa, veya DNS çözümlemesi için özel ayarlara ihtiyaç varsa, DNS sunucu IP buraya girin."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1777
+msgid "This field should be left blank unless you have a specific reason to configure another DNS server."
+msgstr "Başka bir DNS sunucusu tanımlamak için özel bir sebep yoksa bu bölümü boş bırakın."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1779
+msgid "You should not enter the address of your ISP's DNS servers here, as the server is capable of resolving all Internet DNS names without this additional configuration."
+msgstr "ISP'nizin DNS sunucularını buraya yzamanıza gerek yoktur, sunucunuz bütün internet DNS isimlerini bunları otomatik olarak çözümleyebilir."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1809
+msgid "Invalid IP address for DNS forwarder"
+msgstr "DNS yönlendirme için geçersiz IP adresi"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1825
+msgid "No unsaved changes"
+msgstr "Kaydedilmemiş değişiklikler yok"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1827
+msgid "No changes were made during the configuration process"
+msgstr "Konfigürasyon esnasında değişiklik yapılmadı"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1829
+msgid "Press ENTER to proceed."
+msgstr "Uygulamak için ENTER tuşuna basın."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1830
+msgid "Finish"
+msgstr "Son"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1843
+msgid "Changes will take effect after reboot"
+msgstr "Değişiklikler yeniden başlatma sonrası uygulanacaktır"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1845
+msgid "The new configuration will take effect when you reboot the server."
+msgstr "Yeni değişiklikler sunucuyu yeniden başlattıktan sonra etkin hale gelecektir."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1847
+msgid "Do you wish to reboot right now?"
+msgstr "Simdi yeniden başlatmak istermisiniz?"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1865
+msgid "Activate configuration changes"
+msgstr "Değişiklikleri uygula"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1867
+msgid "Your configuration changes will now be activated. The configuration files on this server will be changed to reflect your new settings. This may take a few minutes."
+msgstr "Değişiklikler şimdi uygulanacaktır. Ayar dosyaları değişikliklere göre yeniden ayarlanacaktır. Bu işlem biraz zaman alabilir."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1869
+msgid "Do you wish to activate your changes?"
+msgstr "Yapılan değişiklikler uygulansın mı?"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1884
+#: root/usr/share/perl5/vendor_perl/esmith/console/save_config.pm:27
+msgid "Activating configuration settings"
+msgstr "Değişiklikleri uygulanıyor"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1885
+#: root/usr/share/perl5/vendor_perl/esmith/console/save_config.pm:28
+msgid "Please stand by while your configuration settings are activated ..."
+msgstr "Lütfen değişiklikler uygulanırken bekleyin ..."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1916
+#: root/usr/share/perl5/vendor_perl/esmith/console/quitConsole.pm:34
+msgid "*** THERE ARE UNACTIVATED CHANGES - QUIT ANYWAY? ***"
+msgstr "*** UYGULANMAMIŞ DEĞİŞİKLİKLER MEVCUT - UYGULAMADAM ÇIKMAK İSTERMİSİNİZ? ***"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1919
+#: root/usr/share/perl5/vendor_perl/esmith/console/quitConsole.pm:37
+msgid "Your configuration changes have been saved but have not yet been activated. This may result in unpredictable system behavior. We recommend that you complete the configuration process and activate the changes before exiting the console."
+msgstr "Yaptığınız değişiklikler kaydedildi fakat yeni ayarlar aktifleştirilmedi. Bu durum öngörülemeyen sistem davranışına yol açabilir. Ayarlarınız tamamlandıktan sonra değişiklikleri aktifleştirmenizi şiddetle tavsiye ederiz."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1921
+#: root/usr/share/perl5/vendor_perl/esmith/console/quitConsole.pm:39
+msgid "Are you sure you want to quit with unactivated changes?"
+msgstr "Değişiklikleri aktifleştirmeden çıkmak istediğinizden eminmisiniz?"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:25
+msgid "Perform backup to removable media"
+msgstr "USB sürücüsüne yedekle"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:85
+msgid "Could not create backup file on device"
+msgstr "Aygıtta yedekleme dosyası oluşturulamadı"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:150
+msgid "Backup failed. Look at the log files for more details."
+msgstr ""
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:150
+msgid "Backup successfully created."
+msgstr "i-bay başarıyla oluşturuldu."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:171
+msgid "Create Backup to removable media"
+msgstr "USB sürücüsüne yedek oluştur"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:173
+msgid "Do you wish to create a backup on removable media?"
+msgstr "USB sürücüsüne yedek oluşturmak istermisiniz?"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:174
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:173
+msgid "Insert removable media before proceeding."
+msgstr "USB sabit disk veya stick yerleştirip, enter tuşuna basın."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:175
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:174
+msgid "It may take many seconds to scan for media."
+msgstr ""
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:191
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:202
+msgid "These filesystems are not valid:"
+msgstr ""
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:194
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:205
+msgid "Reason"
+msgstr ""
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:200
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:209
+msgid "No valid backup device found"
+msgstr "Yedek dosyası yok"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:200
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:220
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:228
+msgid "size"
+msgstr "boyut"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:206
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:215
+msgid "Try again"
+msgstr "lütfen tekrar deneyin"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:219
+msgid "The following are valid for backup"
+msgstr "Yedeklemeye alınan dosyalar:"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:228
+msgid "Choose device to use for backup"
+msgstr "Yedekleme yapılacak aygıtı seçin"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:242
+msgid "Some parts are excluded of your backup"
+msgstr ""
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:251
+msgid "Preparing for backup"
+msgstr "Yedeklemeye hazırlanıyor"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:252
+msgid "Please stand by while the system is prepared for backup..."
+msgstr "Lütfen sistem yedekleme için hazırlanırken bekleyin..."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:257
+msgid "Creating backup file"
+msgstr "Yedek dosyası oluşturuluyor"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:265
+msgid "Backup complete"
+msgstr "Yedekleme tamamlandı"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:266
+msgid "Remove backup media."
+msgstr "Yedeklenecek aygıt bulunamadı"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:21
+msgid "Restore from removable media"
+msgstr "USB sürücüsüne yedekle"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:137
+msgid "Restore failed. Your system is likely in an inconsistent state - look at the log files for more details."
+msgstr ""
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:140
+msgid "Restore successful."
+msgstr "İnternet bağlantısı başarılı"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:170
+msgid "Restore From Backup"
+msgstr "Yedekten Geri Yükle"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:172
+msgid "Do you wish to restore from backup?"
+msgstr "Yedekten geri yüklemek istermisiniz?"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:189
+msgid "These filesystems could hold backups"
+msgstr ""
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:234
+msgid "Date"
+msgstr "Tarih"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:235
+msgid "Size"
+msgstr "boyut"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:239
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:264
+msgid "Start restore from backup"
+msgstr "Yedekten geri yüklemeyi başlat"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:241
+msgid "Backup found on device"
+msgstr "Yedekleme sonucu sıfır-değil"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:243
+msgid "Backup details"
+msgstr "Yedekleme"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:245
+msgid "Do you wish to restore from this file?"
+msgstr "Bu dosyadan geri yükleme yapılsın mı?"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:252
+msgid "Backups found on these devices"
+msgstr "Yedekleme sonucu sıfır-değil"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:267
+msgid "Please select the backup that you wish to restore from."
+msgstr "Lütfen geri yüklemek istediğiniz dosyayı içeren sürücüyü seçin."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:283
+msgid "Preparing for restore"
+msgstr "Yedeklemeye hazırlanıyor"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:284
+msgid "Please stand by while the system is prepared for restore..."
+msgstr "Lütfen sistem yedekleme için hazırlanırken bekleyin..."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:293
+msgid "Restoring from backup"
+msgstr "Yedekten Geri Yükle"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:309
+msgid "Restore Complete"
+msgstr "Geri Yükleme Tamamlandı"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:310
+msgid "You must restart your system to finish the restore."
+msgstr ""
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:311
+msgid "Do you want to restart now?"
+msgstr "Simdi yeniden başlatmak istermisiniz?"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/quitConsole.pm:10
+msgid "Exit from the server console"
+msgstr "Sunucu konsolundan çıkış"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/startup.pm:112
+msgid "Starting system services"
+msgstr ""
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/startup.pm:114
+msgid "Please standby while system services are started ..."
+msgstr "Lütfen sistem yedekleme için hazırlanırken bekleyin..."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:30
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:109
+msgid "Choose administrator password"
+msgstr "Yönetici şifresini belirleyin"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:34
+msgid "You will now be taken through a sequence of screens to perform basic networking configuration on this server."
+msgstr "Bu ekrandan sunucunuzun temel ağ ayarlarını yapabilirsiniz."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:36
+msgid "You can make your selections in each screen using the Arrow and Tab keys. At any point, if you select Back you will be returned to the previous screen."
+msgstr "Seçiminizi her ekranda Ok Tuşları ve Tab tuşunu kullanarak yapabilirsiniz. Gerhangi bir noktadan Geri tıklayarak bir önceki ekrana dönebilirsiniz."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:38
+msgid "Before you start, you must first choose the administrator password for your system and enter it below. You will not see the password as you enter it."
+msgstr "Başlamadan önce yönetici şifresini belirlemelisiniz ve aşağıya onu yazmalısınız. Girilen şifreyi göremeyeceksiniz."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:45
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:117
+msgid "Administrator password not set"
+msgstr "Yönetici şifresi belirtilmedi"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:46
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:118
+msgid "Sorry, you must set the administrator password now."
+msgstr "Üzgünüm, yönetici şifresini şimdi belirtmelimelisiniz."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:56
+msgid "Unprintable characters in password"
+msgstr "Şifrede yazdırılamayan karakter"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:57
+msgid "The password must contain only printable characters."
+msgstr "Şifre sadece yazdırılabilir karakterlerden oluşmalıdır."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:70
+msgid "it is based on your username"
+msgstr "kullanıcı adınızı içeriyor"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:71
+msgid "it is based upon your password entry"
+msgstr "şifrenizi içeriyor"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:72
+msgid "it is derived from your password entry"
+msgstr "şifrenizden türetilmiş"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:73
+msgid "it is derivable from your password entry"
+msgstr "şifrenizden türetilmiş"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:74
+msgid "it is too short"
+msgstr "çok kısa"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:75
+msgid "it is all whitespace"
+msgstr "tamamı boşluklardan oluşuyor"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:76
+msgid "it is too simplistic/systematic"
+msgstr "çok basit/sistematik"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:77
+msgid "it is based on a dictionary word"
+msgstr "sözlükteki kelimeleri içeriyor"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:78
+msgid "it is based on a (reversed) dictionary word"
+msgstr "sözlükteki (ters) kelimeleri içeriyor"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:79
+msgid "it does not contain numbers"
+msgstr "sayı içermiyor"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:80
+msgid "it does not contain uppercase characters"
+msgstr "büyük harf içermiyor"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:81
+msgid "it does not contain lowercase characters"
+msgstr "küçük harf içermiyor"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:82
+msgid "it does not contain special characters"
+msgstr "özel karakter içermiyor"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:91
+msgid "Software error: password check failed"
+msgstr "Yazılım hatası: şifre kontrolü başarısız"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:96
+msgid "Bad Password Choice"
+msgstr "Kötü Şifre Seçimi"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:98
+msgid "The password you have chosen is not a good choice, because "
+msgstr "Şeçtiğiniz şifre iyi bir şifre değil, çünkü "
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:101
+msgid "Do you wish to choose a better one?"
+msgstr "Daha iyi bir şifre belirlemek istermisiniz?"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:110
+msgid "Please type your administrator password again to verify."
+msgstr "Lütfen yönetici şifrenizi doğrulamak için tekrar girin."
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:128
+msgid "Passwords do not match"
+msgstr "Şifreler eşleşmedi"
+
+#: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:129
+msgid "The two passwords did not match"
+msgstr "İki şifre eşleşmedi"
+
+#~ msgid "for chipset"
+#~ msgstr "çipseti için"
+
+#~ msgid "Success"
+#~ msgstr "Başarılı"
+
+#~ msgid "You can scroll through this document using the up and down arrow keys or the Page Up and Page Down keys."
+#~ msgstr "Bu belgeyi yukarı ve aşağı ok tuşlarını veya Page Up ve Page Down tuşları kullanarak gezebilirsiniz."
+
+#~ msgid "Mitel Networks Corporation support and licensing information"
+#~ msgstr "Mitel Networks Corporation destek ve lisans bilgileri information"
+
+#~ msgid "bytes"
+#~ msgstr "byte"
+
+#~ msgid "Backup file found:"
+#~ msgstr "Bulunan yedek dosyası:"
+
+#~ msgid "Backup file not found"
+#~ msgstr "Yedek dosyası bulunamadı"
+
+#~ msgid "Choose device to restore from"
+#~ msgstr "Geri yükleme yapılacak sürücüyü seçin"
+
+#~ msgid "No removable media or device found"
+#~ msgstr "Çıkarılabilir disk veya sürücü bulunamadı"
+
+#~ msgid "Backup medium not found"
+#~ msgstr "Yedeklenecek aygıt bulunamadı"
+
+#~ msgid "Insert removable media containing your backup file, then hit the enter key."
+#~ msgstr "Yedeklemeyi içeren usb disk veya CDROM yerleştirip, sonra enter tuşuna basın."
+
+#~ msgid "Insert media containing backup"
+#~ msgstr "Yedeği içeren aygıtı yerleştirin"
+
+#~ msgid "Remove removable media, then hit the enter key."
+#~ msgstr "USB diski veya sürücüyü çıkartın, sonra enter tuşuna basın."
+
+#~ msgid "No removable and/or writable media or device found"
+#~ msgstr "Çıkarılabilir disk veya sürücü bulunamadı"
+
+#~ msgid "Writable backup medium not found"
+#~ msgstr "Yedeklenecek aygıt bulunamadı"
+
+#~ msgid "Insert media to use for backup"
+#~ msgstr "Yedekleme için kullanılacak aygıtı ekleyin"
+
+#~ msgid "This configuration is not yet fully supported in these screens."
+#~ msgstr "Bu konfigürasyon bu ekrandan desteklenmiyor."
+
+#~ msgid "The free and used disk count must equal one."
+#~ msgstr "Boş disk sayısı bire eşit olmalıdır."
+
+#~ msgid "Please enter the password for your dynamic DNS service"
+#~ msgstr "Lütfen dinamik DNS hesabınız için şifrenizi girin"
+
+#~ msgid "Select dynamic DNS password"
+#~ msgstr "Dinamik DNS şifrenizi seçin"
+
+#~ msgid "Please enter the account name for your dynamic DNS service"
+#~ msgstr "Lütfen dinamik DNS hesabınız için kullanıcı adın girin"
+
+#~ msgid "Select dynamic DNS account"
+#~ msgstr "Dinamik DNS hesabınızı seçin"
+
+#~ msgid "Choose which dynamic DNS service you would like to use."
+#~ msgstr "Kullanmak istediğiniz dinamik DNS servisini seçin."
+
+#~ msgid "Please specify whether you wish to subscribe to a dynamic DNS service. Such services allow you to have a domain name without a static IP address, and are available from various organizations for free or for a reasonable charge. A notification must be sent to the dynamic DNS service whenever your IP address changes. Your server can automatically do this for some dynamic DNS services."
+#~ msgstr "Lütfen dinamik DNS servisine abone olmak isteyip istemediğiniz gözden geçirin. Bu servis sabit IP sahip olmadan domain adına sahip olmanızı sağlar, bazı organizasyonlar tarafından ücretsiz bazıları ise ücretli olarak verilen bir hizmettir. IP adresiniz değiştiğnde bu durum dinamik DNS sunucusuna iletilebilmelidir. Sunucunuz bunu bazı dinamik DNS sunucuları için otomatik olarak yapabilir."
+
+#~ msgid "Select dynamic DNS service"
+#~ msgstr "Dinamik DNS servisi seçin"
+
+#~ msgid "custom DynDNS service"
+#~ msgstr "özel DynDNS servisi"
+
+#~ msgid "commercial service"
+#~ msgstr "ticari servis"
+
+#~ msgid "free service"
+#~ msgstr "sınırsız servis"
+
+#~ msgid "Do not use a dynamic DNS service"
+#~ msgstr "Dinamik DNS servisi kullanımamalı"
+
+#~ msgid "Cannot read directory"
+#~ msgstr "Dizin okunamadı"

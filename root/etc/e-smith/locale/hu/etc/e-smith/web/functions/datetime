@@ -1,0 +1,202 @@
+<lexicon lang="hu">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Dátum és idő beállítása</trans>
+    </entry>
+    <entry>
+      <base>INITIAL_DESC</base>
+      <trans>Itt állíthatja be a dátumot és az időt a szerveren. Használhat egy létező hálózati időszervert, vagy manuálisan állítsa be a dátumot, az időt és az időzónát.</trans>
+    </entry>
+    <entry>
+      <base>SET_DATE_TITLE</base>
+      <trans>Dátum és idő beállítása</trans>
+    </entry>
+    <entry>
+      <base>COULD_NOT_OPEN_TZ_FILE</base>
+      <trans>Hiba: Nem olvasható az időzóna fájl:</trans>
+    </entry>
+    <entry>
+      <base>JANUARY</base>
+      <trans>Január</trans>
+    </entry>
+    <entry>
+      <base>FEBRUARY</base>
+      <trans>Február</trans>
+    </entry>
+    <entry>
+      <base>MARCH</base>
+      <trans>Március</trans>
+    </entry>
+    <entry>
+      <base>APRIL</base>
+      <trans>Április</trans>
+    </entry>
+    <entry>
+      <base>MAY</base>
+      <trans>Május</trans>
+    </entry>
+    <entry>
+      <base>JUNE</base>
+      <trans>Június</trans>
+    </entry>
+    <entry>
+      <base>JULY</base>
+      <trans>Július</trans>
+    </entry>
+    <entry>
+      <base>AUGUST</base>
+      <trans>Augusztus</trans>
+    </entry>
+    <entry>
+      <base>SEPTEMBER</base>
+      <trans>Szeptember</trans>
+    </entry>
+    <entry>
+      <base>OCTOBER</base>
+      <trans>Október</trans>
+    </entry>
+    <entry>
+      <base>NOVEMBER</base>
+      <trans>November</trans>
+    </entry>
+    <entry>
+      <base>DECEMBER</base>
+      <trans>December</trans>
+    </entry>
+    <entry>
+      <base>NEW_M/D/Y</base>
+      <trans>Új hónap/nap/év:</trans>
+    </entry>
+    <entry>
+      <base>NEW_H/M/S</base>
+      <trans>Új óra/perc/mp:</trans>
+    </entry>
+    <entry>
+      <base>AM/PM_AND_TZ</base>
+      <trans>DE/DU és időzóna:</trans>
+    </entry>
+    <entry>
+      <base>NTP_ENABLE_DESC</base>
+      <trans>A szerver időközönként szinkronizálni tudja az óráját egy hálózati időszerverrel (NTP). Ha kiválasztja ezt az opciót, akkor adja meg az időszerver hálózatnevét, vagy IP címét.</trans>
+    </entry>
+    <entry>
+      <base>NTP_CONFIGURE_DESC</base>
+      <trans>A szerver rendszeresen szinkronizálja a rendszerórát az alább megadott időszerverrel. Ha másik NTP időszervert kíván használni, adja meg annak hálózatnevét, vagy IP címét az alábbi mezőben.</trans>
+    </entry>
+    <entry>
+      <base>NTP_DISABLE_DESC</base>
+      <trans>Válassza ezt az opciót, ha le akarja állítani a rendszeróra szinkronizálását az NTP szerverrel. Ha az NTP szolgáltatás le van tiltva, ezen az oldalon állíthatja be manuálisan a rendszeridőt.</trans>
+    </entry>
+    <entry>
+      <base>NTP_SERVER</base>
+      <trans>NTP Szerver</trans>
+    </entry>
+    <entry>
+      <base>VERIFY_DATE_AND_TIME</base>
+      <trans>Dátum és idő ellenőrzése</trans>
+    </entry>
+    <entry>
+      <base>NEW_DATE_AND_TIME</base>
+      <trans>Új dátum és idő:</trans>
+    </entry>
+    <entry>
+      <base>SETTING_DATE_AND_TIME</base>
+      <trans>Idő és dátum beállítása</trans>
+    </entry>
+    <entry>
+      <base>INVALID_DAY</base>
+      <trans>Hiba: helytelenül megadott nap</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_1_AND_31</base>
+      <trans>Kérem, válasszon napot 1 és 31 között.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_YEAR</base>
+      <trans>Hiba: helytelenül megadott év</trans>
+    </entry>
+    <entry>
+      <base>FOUR_DIGIT_YEAR</base>
+      <trans>Kérem, válasszon évszámot 1900 és 2200 között.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_HOUR</base>
+      <trans>Hiba: helytelenül megadott óra</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_1_AND_12</base>
+      <trans>Kérem, válasszon órát 1 és 12 között.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_MINUTE</base>
+      <trans>Hiba: helytelenül megadott perc</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_0_AND_59</base>
+      <trans>Kérem, válasszon percet 0 és 59 között.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_SECOND</base>
+      <trans>Hiba: helytelenül megadott másodperc</trans>
+    </entry>
+    <entry>
+      <base>UPDATING_CLOCK</base>
+      <trans><![CDATA[ A rendszeróra most be lesz állítva. Kérem várjon néhány másodpercet, aztán kattintson <A HREF="datetime?page=1&wherenext=Verify" TARGET="main">ide</A> a változtatások ellenőrzéséhez. ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_SETTING_CLOCK</base>
+      <trans>Hiba történt a rendszeridő beállításakor.</trans>
+    </entry>
+    <entry>
+      <base>SERVER_DISABLED</base>
+      <trans>Hálózati időszerver letiltva</trans>
+    </entry>
+    <entry>
+      <base>SERVER_DISABLED_DESC</base>
+      <trans><![CDATA[ Letiltotta ezt a szolgáltatást: A szerver a belső órát tekinti időforrásnak és <b>nem fog</b> szinkronizálni külső időszerverrel. ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_CHANGING_TS</base>
+      <trans>Hiba történt a hálózati időszerver beállításakor</trans>
+    </entry>
+    <entry>
+      <base>INVALID_NTP_ADDR</base>
+      <trans>Érvénytelen NTP szerver cím:</trans>
+    </entry>
+    <entry>
+      <base>SETTINGS_CHANGED</base>
+      <trans>Hálózati időszerver sikeresen beállítva</trans>
+    </entry>
+    <entry>
+      <base>SYNC_WITH</base>
+      <trans>A szerver által jelenleg használt internetes időszerver:</trans>
+    </entry>
+    <entry>
+      <base>INVALID_NTP_SERVER</base>
+      <trans><![CDATA[ Érvénytelen NTP szerver. A szerver<b>nem fog</b> szinkronizálni a távoli időszerverrel. ]]></trans>
+    </entry>
+    <entry>
+      <base>NETWORK_TIME_SERVER</base>
+      <trans>Hálózati időszerver</trans>
+    </entry>
+    <entry>
+      <base>NTP_CONFIGURE_TITLE</base>
+      <trans>Hálózati időszerver megadása</trans>
+    </entry>
+    <entry>
+      <base>NTP_ENABLE_TITLE</base>
+      <trans>Hálózati időszerver engedélyezése</trans>
+    </entry>
+    <entry>
+      <base>NTP_DISABLE_TITLE</base>
+      <trans>Hálózati időszerver letiltása</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_SETTING</base>
+      <trans>Jelenlegi beállítások</trans>
+    </entry>
+    <entry>
+      <base>Date and time</base>
+      <trans>Dátum és idő</trans>
+    </entry>
+  </lexicon>

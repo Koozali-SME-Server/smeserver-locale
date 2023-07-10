@@ -1,0 +1,749 @@
+<lexicon lang="hu">
+  <entry>
+   <base>BACKUP_TITLE</base>
+   <trans>A szerver adatainak biztonsági mentése, vagy helyreállítása</trans>
+  </entry>
+  <entry>
+   <base>BACKUP_DESC</base>
+   <trans><![CDATA[ <P>A szerver kétféle biztonsági mentést tesz lehetővé: az asztali mentést, vagy a szalagos mentést.</P> <P>Az első módszerrel a szerver másolatot készít a konfigurációs fájlokról és a felhasználói adatokról, majd letölti azt a helyi munkaasztalra a webböngészőn keresztül. Jelenleg az ön konfigurációs és felhasználói adatainak mérete <b>$tarsize</b>. Az elkészült biztonsági mentés valamivel kisebb lesz ennél, attól függően, hogy az adatok mennyire tömöríthetők. Az \"Asztali mentés ellenőrzése\" opcióval ellenőrizheti az asztali mentés fájl integritását.</P> <P>A szalagos mentés egy <I>$module</I>-nevű szoftvercsomagot használ, amellyel minden éjjel lementi szalagra a merevlemez teljes tartalmát. Ehhez támogatott szalagos meghajtó és nem írásvédett szalagok kellenek. A biztonsági mentés minden éjjel automatikusan történik (A rendszergazda automatikus figyelmeztető email-t kap előtte a nap folyamán). Jelenleg a merevlemez <b>$dumpsize</b> adatot tartalmaz.</P> <P>Mindkét biztonsági mentés lehetővé teszi, hogy a konfigurációs fájlokat és felhasználói adatokat helyreállítsa.<b>Teljes rendszer-helyreállítást frissen telepített rendszeren érdemes végrehajtani.</b>.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_DESC_DAR</base>
+   <trans><![CDATA[ <P> A szerver biztonsági mentésének és visszaállításának három módja van: szalagos meghajtó használata, hálózati megosztás vagy helyi cserélhető lemez használata, vagy a helyi asztali számítógép használata. </P> <P> Szalagos biztonsági mentés . Ez a módszer a <I> $ modul </I> nevű szoftvercsomagot használja a teljes merevlemez biztonsági mentéséhez minden este. Ehhez egy támogatott szalagmeghajtóra és egy olyan szalagra van szükség, amely nem írásvédett. A mentés minden este automatikusan történik a kiválasztott időpontban (az emlékeztetőt automatikusan elküldi a rendszergazdának a nap folyamán). Jelenleg a merevlemez <b> $ dumpsize </b> adatot tartalmaz. </P> <P> Munkaállomás-mentés. Ez a módszer a <I> dar </I> nevű szoftvercsomagot használja a kiszolgáló konfigurációs és adatfájlainak hálózati megosztásra vagy helyi cserélhető lemezre, például USB-lemezre történő biztonsági mentéséhez. Tudja kezelni, hogy hány forgatható készletet tartanak fenn, és hogy hány inkrementális mentést készítsenek az egyes készletekben. A biztonsági mentés automatikusan történik minden nap a kiválasztott időpontban. Jelenleg a konfigurációs és adatfájlok összege körülbelül <b> $ tarsize </b> tömörítetlenül. A biztonsági mentést tároló megosztásnak legalább kétszer nagyobbnak kell lennie a tömörített biztonsági mentés méreténél. </P> <P> Biztonsági mentés az asztalra. Ez a módszer létrehozza a szerver konfigurációs és felhasználói adatfájljait, és letölti azt a helyi asztalra a webböngészőn keresztül. Jelenleg a konfigurációs és adatfájlok mérete körülbelül <b> $ tarsize </b>. A biztonsági mentési fájl némileg kisebb lesz, attól függően, hogy az adatok mennyire tömöríthetők. Ez a fájl használható a kiszolgáló visszaállítására a konzolról, ha áthelyezi egy helyi cserélhető lemezre, például USB lemezre. </P> <P> Minden biztonsági mentési módszer lehetővé teszi a konfigurációs és felhasználói adatfájlok visszaállítását. A munkaállomás biztonsági mentés egyedi fájl-visszaállítást biztosít. <b> Ideális esetben a teljes visszaállítást frissen telepített kiszolgálón kell végrehajtani </b>. </P>]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_CONFIG_STATUS</base>
+   <trans>Biztonsági mentés beállítása és állapota</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUPS_ENABLED</base>
+   <trans><![CDATA[ Szalagra mentés <b>engedélyezve</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUPS_RUN_AT</base>
+   <trans>Rendszeres mentés szalagra ekkor: </trans>
+  </entry>
+  <entry>
+   <base>REMINDER_MESSAGE_AT</base>
+   <trans>Emlékeztető küldése ekkor: </trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUPS_DISABLED</base>
+   <trans><![CDATA[ Szalagra mentés <b>letiltva</b> ]]></trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_BACKUP</base>
+   <trans>Mentés asztalra</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_RESTORE</base>
+   <trans>Helyreállítás asztalról</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_VERIFY</base>
+   <trans>Asztali mentés ellenőrzése</trans>
+  </entry>
+  <entry>
+   <base>TAPE_CONFIGURE</base>
+   <trans>Szalagos mentés beállítása</trans>
+  </entry>
+  <entry>
+   <base>TAPE_RESTORE</base>
+   <trans>Helyreállítás szalagról</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS_BEGAN_AT</base>
+   <trans>Rendszer helyreállítás folyamatban. Kezdés ideje:</trans>
+  </entry>
+  <entry>
+   <base>REFRESH_THIS_DISPLAY</base>
+   <trans>Nézet frissítése</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_TAPE_BACKUP</base>
+   <trans>Szalagos mentés beállítása</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_COMPLETED</base>
+   <trans>A rendszer helyreállítása befejeződött</trans>
+  </entry>
+  <entry>
+   <base>STARTED_AT</base>
+   <trans>Kezdés ideje:</trans>
+  </entry>
+  <entry>
+   <base>FINISHED_AT</base>
+   <trans>Befejezés ideje:</trans>
+  </entry>
+  <entry>
+   <base>YOU_MUST_REBOOT</base>
+   <trans>Újra kell indítania a szervert, hogy a rendszer-helyreállítás által megváltozott beállítások érvénybe lépjenek.</trans> 
+  </entry> 
+  <entry>
+   <base>REBOOT</base>
+   <trans>Újraindítás</trans>
+  </entry>
+  <entry>
+   <base>SELECT_AN_ACTION</base>
+   <trans>Válasszon műveletet</trans>
+  </entry>
+  <entry>
+   <base>X_BACKUP_OR_RESTORE</base>
+   <trans>Biztonsági mentés, vagy rendszer helyreállítás</trans>
+  </entry>
+  <entry>
+   <base>ERR_PRE_BACKUP</base>
+   <trans>Hiba történt a mentés előkészítésekor.</trans>
+  </entry>
+  <entry>
+   <base>ERR_PRE_RESTORE</base>
+   <trans>Hiba történt a helyreállítás előkészítésekor.</trans>
+  </entry>
+  <entry>
+   <base>ERR_POST_BACKUP</base>
+   <trans>Hiba történt a mentés befejezésekor.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_SERVER_CONFIG</base>
+   <trans>Szerver beállításainak helyreállítása</trans>
+  </entry>
+  <entry>
+   <base>DESKTOP_RESTORE_DESC</base>
+   <trans><![CDATA[ Ez a folyamat feltölti a munkaasztalról a biztonsági mentést a szerverre, majd helyreállítja a szerver beállításait és a felhasználói adatokat. <B>A helyreállítást lehetőleg frissen telepített szerveren végezze el.</B>. ]]></trans>
+  </entry>
+  <entry>
+   <base>FREE_SPACE</base>
+   <trans><![CDATA[ Megközelítőleg $tmpfree szabad lemezterület áll rendelkezésére a szerveren. Bizonyosodjon meg róla, hogy az asztali mentés mérete kisebb mint $halffree mielőtt nekifog a rendszer helyreállításának. ]]></trans>
+  </entry>
+  <entry>
+   <base>MUST_REBOOT_AFTER_RESTORE</base>
+   <trans>A rendszer-helyreállítás után újra kell indítania a szervert.</trans>
+  </entry>
+  <entry>
+   <base>FILE_TO_RESTORE</base>
+   <trans>Biztonsági mentésből helyreállítás</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Ez az opció kilistázza az összes fájl nevét amelyet az asztali mentés fájl tartalmaz. Ezzel az opcióval ellenőrizhető a biztonsági mentés tartalma.</p> </trans>
+  </entry>
+  <entry>
+   <base>SELECT_BACKUP_FILE</base>
+   <trans>Válasszon biztonsági mentést</trans>
+  </entry>
+  <entry>
+   <base>VERIFY</base>
+   <trans>Ellenőrzés</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CANNOT_PROCEED</base>
+   <trans>Nem lehet folytatni a rendszer-helyreállítást</trans>
+  </entry>
+  <entry>
+   <base>ANOTHER_RESTORE_IN_PROGRESS</base>
+   <trans>Már van egy rendszer-helyreállítás folyamatban. Kérem próbálja később.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS</base>
+   <trans>Rendszer-helyreállítás folyamatban</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_IN_PROGRESS_DESC</base>
+   <trans>A rendszer-helyreállítás után újra kell indítania a szervert. A helyreállítás akkor van kész, amikor a képernyő alján a "Rendszer-helyreállítás befejeződött" felirat megjelenik.</trans>
+  </entry>
+  <entry>
+   <base>FILES_HAVE_BEEN_RESTORED</base>
+   <trans>A következő fájlok és könyvtárak lettek helyreállítva:</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FAILED_MSG</base>
+   <trans>A helyreállítás sikertelen! Nem sikerült a biztonsági mentés olvasása.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_COMPLETE</base>
+   <trans>A helyreállítás befejeződött</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_GID</base>
+   <trans>Hiba történt a 'www' gid helyreállításakor</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_INITIAL_GRP</base>
+   <trans>Hiba történt a 'www' csoport helyreállításakor.</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FAILED</base>
+   <trans>A helyreállítás sikertelen! A biztonsági mentés hiányos.</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_EXEC_PIPELINE</base>
+   <trans>Nem hajtható végre a bizonsági mentő pipeline:</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_DECODE</base>
+   <trans>Nem lehet kibontani ezt a biztonsági mentést:</trans>
+  </entry>
+  <entry>
+   <base>FILES_IN_BACKUP</base>
+   <trans>Ezeket a fájlokat veszi figyelembe a mentés:</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_COMPLETE</base>
+   <trans>Ellenőrzés befejeződött</trans>
+  </entry>
+  <entry>
+   <base>BACKUP_FILE_INCOMPLETE</base>
+   <trans>A biztonsági mentés hiányos volt</trans>
+  </entry>
+  <entry>
+   <base>ERR_READING_FILE</base>
+   <trans>Nem sikerült a biztonsági mentés beolvasása.</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_DISABLE_TAPE</base>
+   <trans>Éjjeli szalagos mentés engedélyezése/tiltása</trans>
+  </entry>
+  <entry>
+   <base>TAPE_CONFIG_DESC</base>
+   <trans><![CDATA[ <p>Állítsa be, amennyiben engedélyezni kívánja az éjjeli szalagos mentést. Végül adja meg, hogy hányszor legyen mentés és hogy legyen-e szalagcsere figyelmeztető.</p> <p>A szalagos mentéshez támogatott szalagos meghajtó kell. A rendszer egy figyelmeztető üzenetet küld a rendszergazdának a megadott időpontban, ha a szalagos meghajtóban nincs szalag.</p> ]]></trans>
+  </entry>
+  <entry>
+   <base>ENABLE_TAPE_BACKUP</base>
+   <trans>Szalagos mentés engedélyezése</trans>
+  </entry>
+  <entry>
+   <base>TAPE_BACKUP_TIME</base>
+   <trans>A szalagos mentés ideje (óra/perc)</trans>
+  </entry>
+  <entry>
+   <base>LOAD_TAPE_REMINDER_TIME</base>
+   <trans>Betöltés emlékeztető küldésének ideje (óra/perc)</trans>
+  </entry>
+  <entry>
+   <base>AM/PM</base>
+   <trans>DE/DU</trans>
+  </entry>
+  <entry>
+   <base>AM</base>
+   <trans>DE</trans>
+  </entry>
+  <entry>
+   <base>PM</base>
+   <trans>DU</trans>
+  </entry>
+  <entry>
+   <base>UPDATE_CONF</base>
+   <trans>Frissítés</trans>
+  </entry>
+  <entry>
+   <base>UPDATING_TAPE_CONF</base>
+   <trans>Szalagos mentés beállításainak frissítése</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_HOUR</base>
+   <trans>Hiba: helytelenül megadott óra:</trans>
+  </entry>
+  <entry>
+   <base>BETWEEN_0_AND_12</base>
+   <trans>Az órát 0-tól 12-ig állíthatja be.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_MINUTE</base>
+   <trans>Hiba: helytelenül megadott perc:</trans>
+  </entry>
+  <entry>
+   <base>BETWEEN_0_AND_59</base>
+   <trans>Kérem, válasszon percet 0 és 59 között.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_REMINDER_HOUR</base>
+   <trans>Hiba: helytelenül megadott óra:</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_REMINDER_MINUTE</base>
+   <trans>Hiba: helytelenül megadott perc:</trans>
+  </entry>
+  <entry>
+   <base>ERR_CONF_BACKUP</base>
+   <trans>Hiba történt a konfiguráció mentésekor.</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_ENABLED_TAPE</base>
+   <trans>A szalagos mentés engedélyezése sikeres</trans>
+  </entry>
+  <entry>
+   <base>WITH_BACKUP_TIME</base>
+   <trans> mentés ideje:</trans>
+  </entry>
+  <entry>
+   <base>WITH_REMINDER_TIME</base>
+   <trans> szalagcsere emlékeztető küldésének időpontja:</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_DISABLED</base>
+   <trans>A szalagos mentés letiltása sikeres</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_TAPE</base>
+   <trans>Rendszer-helyreállítás szalagról</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_TAPE_DESC</base>
+   <trans><![CDATA[ <P>Ez a folyamat helyreállítja a konfigurációs fájlokat, és a felhasználói adatokat a szalagos biztonsági mentésből. <B>A helyreállítást frissen telepített rendszeren érdemes elvégezni</B>.</P> <P>Mielőtt nekikezdene, bizonyosodjon meg afelől, hogy a megfelelő kazetta van betöltve a szalagos meghajtóba.</P> <P>A rendszer helyreállítása után újra kell indítania a szervert.</P> ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FROM_TAPE</base>
+   <trans>Helyreállítás szalagról</trans>
+  </entry>
+  <entry>
+   <base>UNABLE_TO_RESTORE_CONF</base>
+   <trans>Nem lehet a szerver beállításait helyreállítani</trans>
+  </entry>
+  <entry>
+   <base>RESTORING_FROM_TAPE</base>
+   <trans>Helyreállítás szalagról</trans>
+  </entry>
+  <entry>
+   <base>NOW_RESTORING_FROM_TAPE</base>
+   <trans>A szerver beállításai és a felhasználói adatok most helyre lesznek állítva a szalagról.</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_FROM_TAPE</base>
+   <trans>Hiba történt rendszer szalagról való helyreállításakor.</trans>
+  </entry>
+  <entry>
+   <base>ERR_UPDATING_CONF_AFTER_TAPE_RESTORE</base>
+   <trans>Hiba történt a rendszer beállításainak frissítésekor a szalagról történt helyreállítás után.</trans>
+  </entry>
+  <entry>
+   <base>COULD_NOT_FORK</base>
+   <trans>Sikertelen leágazás:</trans>
+  </entry>
+  <entry>
+   <base>SERVER_REBOOT</base>
+   <trans>Szerver újraindítás</trans>
+  </entry>
+  <entry>
+   <base>SERVER_WILL_REBOOT</base>
+   <trans>A szerver most újraindul.</trans>
+  </entry>
+  <entry>
+   <base>NO_UID_FOR_NAME</base>
+   <trans>Nincs meg az uid a következő felhasználóhoz:</trans>
+  </entry>
+  <entry>
+   <base>PAGE_REFRESH_IN</base>
+   <trans><![CDATA[ Ez az oldal {$sec} másodperc múlva frissül, vagy kattintson <a href="/server-manager/cgi-bin/backup">ide</a>. ]]></trans>
+  </entry>
+    <entry>
+	<base>Backup or restore</base>
+	<trans>Biztonsági mentés</trans>
+    </entry>
+
+  <entry>
+	<base>BACKUP_DESKTOP_TOO_BIG</base>
+	<trans><![CDATA[ <div class="error"> Az ön szervere túl sok adatot tartalmaz ahhoz, hogy asztali mentést lehessen készíteni. </div> ]]></trans>
+  </entry>
+   <entry>
+   <base>WORKSTN_BACKUPS_DISABLED</base>
+   <trans><![CDATA[ Hálózati mentés <b>letiltva</b> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUPS_ENABLED</base>
+   <trans><![CDATA[ Hálózati mentés jelenleg <b>engedélyezve</b>. ]]></trans>
+  </entry>
+  <entry>
+   <base>WKBACKUPS_RUN_AT</base>
+   <trans>Rendszeres hálózati mentések készítésének időpontja:</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_CONFIGURE</base>
+   <trans>Hálózati mentés beállítása</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_VERIFY</base>
+   <trans>Hálózati mentés ellenőrzése</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_RESTORE</base>
+   <trans>Helyreállítás hálózatról</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_WORKSTN_BACKUP</base>
+   <trans>Hálózati mentés beállítása</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_DISABLE_WORKSTN</base>
+   <trans>Hálózati mentés engedélyezés/tiltás</trans>
+  </entry>
+  <entry>
+   <base>ENABLE_WORKSTN_BACKUP</base>
+   <trans>Hálózati mentés engedélyezése</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TIME</base>
+   <trans>Hálózati mentés ideje (óra/perc)</trans>
+  </entry>
+  <entry>
+   <base>UPDATING_WORKSTN_CONF</base>
+   <trans>Hálózati mentés beállításának frissítése</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_ENABLED_WORKSTN</base>
+   <trans>Hálózati mentés engedélyezve</trans>
+  </entry>
+  <entry>
+   <base>SUCCESSFULLY_DISABLED_WORKSTN</base>
+   <trans>Hálózati mentés letiltva</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_WORKSTN_BACKUP_FILE</base>
+   <trans>Hálózati mentés ellenőrzése</trans>
+  </entry>
+  <entry>
+   <base>VERIFY_WORKSTN_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Ez az opció kilistázza az előzőleg készült hálózati mentésben lévő fájlokat. Ennek az opciónak a segítségével ellenőrizheti a biztonsági mentés tartalmát.<b>Ki kell választania azt a mentést amelyet ellenőrizni kíván</b></p> <p>Csak a [Saved] címkével jelölt fájlokat tartalmazza a mentés.</p> <br/>A biztonsági mentések a következő megosztáson lesznek ellenőrizve : ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_WORKSTN</base>
+   <trans>Szerver beállításainak helyreállítása hálózati mentésből</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_CONF_FROM_WORKSTN_DESC</base>
+   <trans><![CDATA[ <p>Ez a folyamat helyreállítja a konfigurációs fájlokat és a felhasználói adatokat a hálózati mentésből. <b>A helyreállítást frissen telepített rendszeren érdemes elvégezni</b>.</p> <p>A továbblépés előtt bizonyosodjon meg, hogy a megfelelő biztonsági mentést választotta ki.</p> <p>A rendszer-helyreállítás befejezése után újra kell indítani a szervert.</p> A helyreállítandó biztonsági mentés helye : ]]></trans>
+  </entry>
+  <entry>
+   <base>RESTORE_FROM_WORKSTN</base>
+   <trans>Helyreállítás hálózati mentésből</trans>
+  </entry>
+  <entry>
+   <base>RESTORING_FROM_WORKSTN</base>
+   <trans>Helyreállítás hálózati mentésből</trans>
+  </entry>
+  <entry>
+   <base>NOW_RESTORING_FROM_WORKSTN</base>
+   <trans>Az ön szerverének beállításai és felhasználói adatai most helyre lesznek állítva a munkaállomás megosztott mappájában lévő biztonsági mentésből.</trans>
+  </entry>
+  <entry>
+   <base>ERR_RESTORING_FROM_WORKSTN</base>
+   <trans>Hiba történt a fájlok hálózati mentésből való helyreállításakor.</trans>
+  </entry>
+  <entry>
+   <base>ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE</base>
+   <trans>Hiba történt a hálózati helyreállítás után a rendszer beállításainak frissítésekor.</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_NAME</base>
+   <trans>Munkaállomás IP címe, vagy hálózatneve </trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SETTINGS</base>
+   <trans>Hálózati mentés beállításai</trans>
+  </entry>
+  <entry>
+   <base>SHARED_FOLDER_NAME</base>
+   <trans>Megosztott könyvtár </trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_LOGIN</base>
+   <trans>Felhasználói név </trans>
+  </entry>
+  <entry>
+   <base>WORKSTATION_BACKUP_DEST</base>
+   <trans>Hálózati mentés beállításai </trans>
+  </entry>
+  <entry>
+   <base>CONFIGURE_WORKSTN_BACKUP_DESC</base>
+   <trans>Beállíthatja a megosztáson található biztonsági mentés készletek számát automatikus forgással. Minden készlet számos egymást követő nap adatainak mentését tartalmazhatja. Ebben az esetben az első mentés teljes biztonsági mentés, a többi napi mentés pedig növekményes. Időkorlátot is megadhat minden mentési folyamathoz, vagy csak a növekményes mentésekhez. Mikor a mentés eléri az időkorlátot leáll és majd a következő növekményes mentésben lesznek tárolva a még le nem mentett és módosult adatok.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_WORKSTN</base>
+   <trans>Érvénytelen IP cím, vagy hálózati név</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_FOLDER</base>
+   <trans>Érvénytelen megosztás név</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_LOGIN</base>
+   <trans>Érvénytelen felhasználónév</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_PASSWORD</base>
+   <trans>Érvénytelen jelszó</trans>
+  </entry>
+  <entry>
+   <base>ERR_ALREADY_MOUNTED</base>
+   <trans>A biztonsági mentés könyvtára már fel van csatolva</trans>
+  </entry>
+  <entry>
+   <base>ERR_MOUNTING_SMBSHARE</base>
+   <trans>A munkaállomás megosztott könyvtára nem csatolható</trans>
+  </entry>
+  <entry>
+   <base>ERR_NOT_MOUNTED</base>
+   <trans>Biztonsági mentés könyvtára nincs felcsatolva</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_NOT_SET</base>
+   <trans>Először állítsa be helyesen a hálózati mentést</trans>
+  </entry>
+  <entry>
+   <base>NO_BACKUPS_TO_RESTORE</base>
+   <trans>Nem találhatók biztonsági mentések a munkaállomás megosztott könyvtárában. Ellenőrizze a beállításokat. </trans>
+  </entry>
+  <entry>
+   <base>NUMBER_OF_SETS</base>
+   <trans>Biztonsági mentés készlet száma </trans>
+  </entry>
+  <entry>
+   <base>NUMBER_OF_FILES_IN_SET</base>
+   <trans>Napi mentés minden készletben </trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_SETS_NUMBER</base>
+   <trans>A számnak 1-nek, vagy annál nagyobbnak kell lennie.</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_FILES_IN_SET_NUMBER</base>
+   <trans>Ennek a számnak 1-nek, vagy annál nagyobbnak kell lennie. Az első mentés a készletben <b>teljes</b>, A többi<b>növekményes</b></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_TIMEOUT</base>
+   <trans>Opcionális mentés időkorlát (órákban) </trans>
+  </entry>
+  <entry>
+   <base>INC_ONLY_TIMEOUT</base>
+   <trans>Ne állítson be időkorlátot a teljes mentéshez</trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_TIMEOUT</base>
+   <trans>A maximális mentési időnek 1 és 24 óra között kell lennie</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_HOST_DIR</base>
+   <trans>Nincs könyvtára a mentésnek ezen a megosztáson. Lehet, hogy nem ennek a szervernek a mentéseit tartalmazza.</trans>
+  </entry>
+  <entry>
+   <base>ERROR_READING_FILE</base>
+   <trans>Hiba a fájlok olvasásakor innen: </trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SEL_RESTORE</base>
+   <trans>Szelektív fájl-helyreállítás hálózati mentésből </trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SELECTIVE_RESTORE</base>
+   <trans>Szelektív fájl-helyreállítás a hálózati mentésből </trans>
+  </entry>
+  <entry>
+   <base>ALL_BACKUPS</base>
+   <trans>Minden mentés</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_SEL_REST_DESC</base>
+   <trans><![CDATA[ Ez a folyamat csak a kiválasztott fájlokat és könyvtárakat fogja helyreállítani. Először ki kell választania azt a mentést, amelyből helyre kívánja állítani az adatokat. Ha nem tudja melyik mentés tartalmazza a helyreállítani kívánt fájlokat, válassza a 'Minden mentés' opciót. <br/><br/> A következő oldalon kilistázódnak az elérhető fájlok és könyvtárak, amelyekből kiválaszthatja az önnek megfelelőket. A megjelenítendő fájlok és könyvtárak számának csökkentéséhez szűrést is alkalmazhat.<br/><br/> Az ön felelőssége az, hogy <b>ne állítson helyre</b> olyan fájlokat amelyek tönkretehetik a szerver működését.<br/> <br/>Jelenleg a fájlok a következő helyről lesznek helyreállítva : ]]></trans>
+  </entry>
+  <entry>
+   <base>BACKUP_CHOICE</base>
+   <trans>Fájlok kiválasztása</trans>
+  </entry>
+  <entry>
+   <base>SELECT_DATE_BEFORE</base>
+   <trans>A legutóbbiak helyreállítása</trans>
+  </entry>
+  <entry>
+   <base>FILTER_EXPRESSION</base>
+   <trans>Nevek szűrése</trans>
+  </entry>
+  <entry>
+   <base>READ_COMPLETE</base>
+   <trans><![CDATA[ Bármely fájlt vagy könyvtárat helyreállíthat amely a listában van (használja a ctrl-t vagy a shift-et a többszörös kijelöléshez). <br/> <b>Figyelem! :</b> Ha kiválaszt egy könyvtárat, akkor annak összes tartalma helyre lesz állítva.<p/> Alaphelyzetben a legfrissebb fájlok lesznek helyreállítva, de ha megad egy dátumot a következő formában <i>[ [ [yyyy/]mm/]dd-]hh:mm[:ss]</i> a folyamat csak a <b>beállított dátum előtti</b> fájlokat fogja helyreállítani. ]]></trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_SELDATE</base>
+   <trans>Érvénytelen dátum formátum! Így helyes: [ [ [yyyy/]mm/]dd-]hh:mm[:ss]. Pl: 2005/12/31-08:23:32 vagy 10-08:32 vagy 08:32</trans>
+  </entry>
+  <entry>
+   <base>SELECT_FILES_TO_RESTORE</base>
+   <trans>Visszaállítandó fájlok kiválasztása</trans>
+  </entry>
+  <entry>
+   <base>ERR_WHILE_UNMOUNTING</base>
+   <trans>Hiba a távoli megosztás leválasztásakor </trans>
+  </entry>
+  <entry>
+   <base>ERR_DAR_CATALOG</base>
+   <trans>Hiba a Dar katalógus használatakor </trans>
+  </entry>
+  <entry>
+   <base>COMPRESSION_LEVEL</base>
+   <trans>Mentés tömörítésének szintje [0-9] </trans>
+  </entry>
+  <entry>
+   <base>FULL_ONLY_ON</base>
+   <trans>Teljes mentés engedélyezve: </trans>
+  </entry>
+  <entry>
+   <base>ERR_INVALID_COMPRESSION</base>
+   <trans>A tömörítési szintet 0 (nincs tömörítés) és 9 (maximális tömörítés) közötti értékben kell megadni</trans>
+  </entry>
+  <entry>
+   <base>DOW</base>
+   <trans>Vasárnap Hétfő Kedd Szerda Csütörtök Péntek Szombat Mindennap</trans>
+  </entry>
+  <entry>
+   <base>CONFIGURATION_TO_BE_DONE</base>
+   <trans>Kérem, konfigurálja a biztonsági mentést.</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_DESC</base>
+   <trans><![CDATA[ <p>Ez az oldal tartalmazza a jelenlegi hálózati mentés konfigurációját. Ezen az oldalon és a következőn megváltoztathatja a beállításokat </p><p/> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_NOT_CONFIGURED</base>
+   <trans><![CDATA[ <p>Jelenleg a hálózati mentés nincs konfigurálva. Ezen, és a következő oldalon elvégezheti a konfigurálást.</p><p/> ]]></trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_ENABLED</base>
+   <trans>Biztonsági mentés </trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_USB</base>
+   <trans>Biztonsági mentés készült külső meghajtóra</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_MNT</base>
+   <trans>Biztonsági mentés készült a felcsatolt meghajtóra</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_HOST</base>
+   <trans>Biztonsági mentés készült hálózati helyre</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_VFSTYPE</base>
+   <trans> ~ </trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SHARE</base>
+   <trans>A megosztott könvtár </trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TOD</base>
+   <trans>Napi biztonsági mentés időpontja </trans>
+  </entry>
+  <entry>
+   <base>LOGIN</base>
+   <trans>A felhasználónév </trans>
+  </entry>
+  <entry>
+   <base>PASSWORD</base>
+   <trans>A jelszó </trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_SETSNUM</base>
+   <trans>A bizonsági mentés készletek száma </trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_DAYSINSET</base>
+   <trans>A napi mentések száma készletenként </trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_COMPRESSION</base>
+   <trans>A biztonsági mentés tömörítési szintje (0-9) </trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_TIMEOUT</base>
+   <trans>Minden napi mentés rendben lezajlott ennyi idő alatt: </trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_BACKUP_INCONLY_TIMEOUT</base>
+   <trans> kivéve a teljes mentéseket, amelyek rendben lezajlottak 24 óra után.</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_FULL_BACKUP_EVERYDAY</base>
+   <trans>Teljes biztonsági mentések (új készlet) minden nap engedélyezve</trans>
+  </entry>
+  <entry>
+   <base>WORKSTN_FULL_BACKUP_DAY</base>
+   <trans>Teljes biztonsági mentések (új készletek) engedélyezve csak ekkor: </trans>
+  </entry>
+  <entry>
+   <base>WORKSTATION_BACKUP_SETCONF</base>
+   <trans>Hálózati mentés konfigurálása vagy létrehozása</trans>
+  </entry>
+  <entry>
+   <base>SELECT_VFS_TYPE</base>
+   <trans>Válassza ki a biztonsági mentés célhelyének típusát</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_USB_DISK</base>
+   <trans>Hiba : Nincs külső meghajtó csatlakoztatva. Kérem csatlakoztasson egy külső meghajtót, vagy válasszon más típusú biztonsági mentést.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_MOUNTED_DISK</base>
+   <trans>Hiba : Nincs meghajtó csatlakoztatva. Kérem csatlakoztasson egy meghajtót, vagy válasszon más típusú biztonsági mentést.</trans>
+  </entry>
+  <entry>
+   <base>HOURS</base>
+   <trans> órája.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_FULL_BACKUP</base>
+   <trans>A visszaállítás leáll, mivel  szükséges teljes mentés hiányzik, vagy nem olvasható.</trans>
+  </entry>
+  <entry>
+   <base>ERR_NO_INC_BACKUP</base>
+   <trans>A visszaállítás leáll, mivel a készlet hiányos, vagy olvashatatlan</trans>
+  </entry>
+  <entry>
+   <base>CHECK_TO_VERIFY_FULL_RESTORE</base>
+   <trans>Kattintson ide a teljes visszaállításhoz szükséges összes mentés épségének ellenőrzéséhez</trans>
+  </entry>
+  <entry>
+   <base>TESTING_NEEDED_BACKUPS_FOR_RESTORE</base>
+   <trans>A teljes visszaállításhoz szükséges mentések ellenőrzése</trans>
+  </entry>
+  <entry>
+   <base>TESTED_BACKUP</base>
+   <trans>A mentés épségének ellenőrzése</trans>
+  </entry>
+  <entry>
+   <base>RESTORE_VERIFY_FAILED</base>
+   <trans>Az ellenőrzés nem sikerült</trans>
+  </entry>
+  <entry>
+   <base>CHECK_INTEGRITY_WARNING</base>
+   <trans>Figyelem: A nagy méretű mentések épségének ellenőrzése hosszú folyamat lehet, ezért a napi mentés kikapcsolása mellett ajánlatos azt alkalmazni.</trans>
+  </entry>
+  <entry>
+    <base>cifs</base>
+    <trans>cifs</trans>
+  </entry>
+  <entry>
+    <base>nfs</base>
+    <trans>nfs</trans>
+  </entry>
+  <entry>
+    <base>local removable disk</base>
+    <trans>Helyi eltávolítható meghajtó</trans>
+  </entry>
+  <entry>
+    <base>Mounted disk</base>
+    <trans>Felcsatolt merevlemez</trans>
+  </entry>
+  <entry>
+   <base>ERROR_WHEN_TESTING_REMOTE_SERVER</base>
+   <trans>A paraméterek elmentve, azonban a távoli kiszolgáló nem érhető el, kérem ellenőrizze a beállításokat.</trans>
+  </entry>
+  <entry>
+   <base>DO_NOT_RESTORE_BIN_SBIN_LIB_LIB64_FROM_SME9</base>
+   <trans>If you restore from Koozali SME Server 9 or before, pay attention that some folders in the system are now symlinks. Basic backup configuration does not include /bin, /lib, /lib64, /sbin, /var/lock and /var/run. If you have added them for files in their subdirectories, we will prevent the restoration of those folders to prevent dar from replacing those symlinks and leave the system unusable. Those additions are, however, not recommended as they are at risk to overwrite files provides by rpms.</trans>
+  </entry>
+  <entry>
+   <base>SMBV1</base>
+   <trans>Mount as legacy SMB v1 share (unsecure, not recommended).</trans>
+  </entry>
+
+
+</lexicon>

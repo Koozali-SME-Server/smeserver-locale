@@ -1,0 +1,84 @@
+<lexicon lang="id">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Buat, ubah, atau hapus user group</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_TOO_LONG</base>
+        <trans>Error: nama grup terlalu panjang.Maksimal {$maxLength} karakter.</trans>
+    </entry>    
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>Error: grup "{$group}" tidak dapat dibuat karena telah ada  {$type} akun atas nama tersebut.</trans>
+    </entry>    
+    <entry>
+        <base>INVALID_GROUP_DESCRIPTION</base>
+        <trans>Error: karakter yang tidak diharapkan atau hilang dalam deskripsi grup</trans>
+    </entry>
+    <entry>
+        <base>NO_MEMBERS</base>
+        <trans>Error: tidak ada anggota dalam grup. Tidak membuat grup baru</trans>
+    </entry>
+    <entry>
+        <base>CREATED_GROUP</base>
+        <trans>Berhasil membuat user group</trans>
+    </entry> 
+    <entry>
+        <base>DELETED_GROUP</base>
+        <trans>Berhasil menghapus user group</trans>
+    </entry> 
+    <entry>
+        <base>MODIFIED_GROUP</base>
+        <trans>Berhasil mengubah user group</trans>
+    </entry>	
+    <entry>
+        <base>CREATE_ERROR</base>
+        <trans>Terjadi kesalahan saat membuat user group.</trans>
+    </entry> 
+    <entry>
+        <base>DELETE_ERROR</base>
+        <trans>Terjadi kesalahan saat menghapus user group.</trans>
+    </entry> 
+    <entry>
+        <base>MODIFY_ERROR</base>
+        <trans>Terjadi kesalahan saat mengubah user group.</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_NAMING</base>
+        <trans><![CDATA[ Nama group hanya boleh terdiri dari huruf kecil, angka, strip, titik, dan garis bawah, dan harus dimulai dengan huruf kecil. Contohnya "sales", "beta5", dan  "reseller_partners" adalah nama grup yang valid, namun "3rd-event", "Marketing Team" dan  "lost&found" tidak. ]]></trans>
+    </entry>
+    <entry>
+        <base>GROUP_HAS_MEMBERS</base>
+        <trans>Grup ini terdiri dari anggota-anggota sbb:</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_GROUP</base>
+        <trans>Error: kelompok akun tersebut tidak ada.</trans>
+    </entry>
+    <entry>
+        <base>GROUP_DESC</base>
+        <trans>Penjelasan Singkat/Nama lain Windows Group</trans>
+    </entry>
+   <entry>
+        <base>GROUP_DESC_EXPL</base>
+        <trans>Masukkan penjelasan singkat dalam ruas dibawah ini. Ruas (field) ini juga menentukan nama grup yang bisa dilihat dari klien Windows.</trans>
+   </entry>
+
+
+    <entry>
+        <base>IBAYS_WILL_BE_CHANGED</base>
+        <trans>Information bays dibawah ini telah ditetapkan pada grup ini dan akan diubah menjadi grup Administrator (anda dapat mengubahnya menjadi yang lain kemudian):</trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DELETE_GROUP</base>
+        <trans><![CDATA[ <p><b>Anda yakin anda ingin menghapus grup ini?</b></p> ]]></trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST</base>
+        <trans><![CDATA[<p>Daftar User Group</p>]]></trans>
+    </entry>
+    <entry>
+		<base>DELETE_DESCRIPTION</base>
+       	<trans><![CDATA[ Anda akan menghapus grup pengguna "<b>{$group}</b>." ]]></trans>
+    </entry>
+</lexicon>

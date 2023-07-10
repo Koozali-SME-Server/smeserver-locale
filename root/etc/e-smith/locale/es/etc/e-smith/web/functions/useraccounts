@@ -1,0 +1,242 @@
+<lexicon lang="es">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Crear, modificar o eliminar cuentas de usuario</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> <a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">Agregar cuenta de usuario</a> </p> <p> Puede modificar, bloquear o eliminar cualquier cuenta o restablecer la contraseña de la cuenta al hacer click en el comando correspondiente junto a ella. </p> <p> Si la cuenta está marcada como bloqueada, eso significa que se debe restablecer la contraseña del usuario. Observe que las cuentas creadas recientemente se bloquean automáticamente hasta que se cambia la contraseña. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>P2_TITLE</base>
+        <trans>Crear o modificar</trans>
+    </entry>
+    <entry>
+        <base>CREATE_MODIFY_DESC</base>
+        <trans><![CDATA[ <p> El nombre de la cuenta sólo debe contener números, guiones y letras minúsculas, y debe comenzar con una minúscula. Por ejemplo, "beatriz", "hmorales" y "ana-isabel" son nombres de cuenta válidos, mientras que "3amigos", "Juan Arancibia" y "enrique_morales" no lo son. </p> <p> Observe que se crearán dos seudónimos especiales para cada cuenta nueva. Estos seudónimos brindan la capacidad de tener cuentas de correo alternativas para el usuario, que incluyen su nombre y apellido separados por un punto (.) o un guión bajo (_). Por lo tanto, para la cuenta "beatriz" con el nombre "Beatriz" y el apellido "Rojas", se crean dos seudónimos: beatriz.rojas y beatriz_rojas. </p> <p> La información de directorio (departamento, compañía, etc.) se puede cambiar de las opciones predeterminadas que se muestran a continuación. Los cambios se aplicarán sólo a este usuario. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MODIFY_ADMIN_TITLE</base>
+        <trans>Modificar la cuenta admin</trans>
+    </entry>
+    <entry>
+        <base>USER_CREATED</base>
+        <trans>Cuenta de usuario creada con éxito.</trans>
+    </entry>
+    <entry>
+        <base>USER_MODIFIED</base>
+        <trans>Cuenta de usuario modificada con éxito.</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER</base>
+        <trans>Error: ocurrió un error interno al intentar modificar el usuario "{$acctName}".</trans> 
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER_GROUPS</base> 
+        <trans>Error: ocurrió un error interno al intentar modificar el grupo "{$group}" para el usuario "{$acctName}".</trans>
+    </entry>
+    <entry>
+        <base>TAINTED_USER</base>
+        <trans>El nombre de cuenta "{$acctName}" contiene caracteres inválidos.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME</base>
+        <trans>Nombre de cuenta</trans>
+    </entry>
+    <entry>
+        <base>FIRSTNAME</base>
+        <trans>Nombre</trans>
+    </entry>
+    <entry>
+        <base>LASTNAME</base>
+        <trans>Apellido</trans>
+    </entry>
+    <entry>
+        <base>DEPARTMENT</base>
+        <trans>Departamento</trans>
+    </entry>
+    <entry>
+        <base>COMPANY</base>
+        <trans>Compañía</trans>
+    </entry>
+    <entry>
+        <base>STREET_ADDRESS</base>
+        <trans>Dirección</trans>
+    </entry>
+    <entry>
+        <base>CITY</base>
+        <trans>Ciudad</trans>
+    </entry>
+    <entry>
+        <base>PHONE_NUMBER</base>
+        <trans>Número de teléfono</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_DELIVERY</base>
+        <trans>Entrega de correo electrónico</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_EMAIL_LOCALLY</base>
+        <trans>Entregar correo electrónico localmente</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_EMAIL</base>
+        <trans>Reenviar correo electrónico a la siguiente dirección</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_AND_FORWARD</base>
+        <trans>Entrega local y reenvío</trans>
+    </entry>
+    <entry>
+        <base>FORWARDING_ADDRESS</base>
+        <trans>Dirección de reenvío</trans>
+    </entry>
+    <entry>
+        <base>GROUP_MEMBERSHIPS</base>
+        <trans>Miembro de grupo</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC</base>
+        <trans>Está a punto de cambiar la contraseña para la cuenta de usuario</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC2</base>
+        <trans>Ingresar la nueva contraseña en los siguientes campos</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_MODIFYING_PASSWORD</base>
+        <trans>Ocurrió un error al actualizar la contraseña</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE_SUCCEEDED</base>
+        <trans>Se ha cambiado la contraseña para el usuario "{$acctName}".</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC</base>
+        <trans>Está a punto de bloquear la cuenta de usuario</trans>
+    </entry>
+    <entry>
+        <base>LOCKED_ACCOUNT</base>
+        <trans>Cuenta bloqueada con éxito para el usuario "{$acctName}".</trans>
+    </entry>
+    <entry>
+        <base>NO_SUCH_USER</base>
+        <trans>Error: la cuenta de usuario "{$acctName}" no existe.</trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM_CLASH</base>
+        <trans>Error: el seudónimo "{$pseudonym}" ya está ocupado por una cuenta de usuario existente "{$clashName}". Para diferenciarla, agregue iniciales a este campo.</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT</base>
+        <trans>Bloquear cuenta</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT_TITLE</base>
+        <trans>Bloquear cuenta de usuario</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC2</base>
+        <trans><![CDATA[ Se bloqueará esta cuenta de usuario. Esto significa que el usuario no podrá conectarse ni acumular correos electrónicos. No obstante, todos los correos electrónicos que lleguen se almacenarán y/o reenviarán a una dirección de correo electrónico externa, según esté configurado. Se puede activar la cuenta más adelante al establecer una contraseña nueva. La contraseña actual no se mantendrá. </p> <p> <b>¿Está seguro de que desea bloquear esta cuenta?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>REMOVE_ACCOUNT_TITLE</base>
+        <trans>Eliminar cuenta de usuario</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Está a punto de eliminar la cuenta de usuario</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans><![CDATA[ Se borrarán todos los archivos pertenecientes a esta cuenta de usuario. Además, se descartarán todos los correos electrónicos para esta cuenta de usuario que aún se mantengan en el servidor (por ej. que el usuario aún no haya recuperado). </p> <p> <b>¿Está seguro de que desea eliminar esta cuenta?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>LOCK</base>
+        <trans>Bloquear</trans>
+    </entry>
+    <entry>
+        <base>NO_USER_ACCOUNTS</base>
+        <trans>No hay cuentas de usuario en el sistema.</trans>
+    </entry>
+    <entry>
+        <base>Users</base>
+        <trans>Usuarios</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>El nombre de cuenta "{$acctName}" contiene caracteres no válidos. Los nombres de cuenta deben comenzar con minúscula y deben contener sólo letras minúsculas, números y guiones.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_TOO_LONG</base>
+        <trans>Error: el nombre de la cuenta es demasiado largo. El máximo es {$maxLength} caracteres.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>Error: no se puede crear la cuenta "{$account}" debido a que ya existe una cuenta {$type} con ese nombre.</trans>
+    </entry>    
+    <entry>
+        <base>ERR_OCCURRED_CREATING</base>
+        <trans>Ocurrió un error al crear el usuario.</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_CONTAIN_WHITESPACE</base>
+        <trans>Este campo no puede contener espacios en blanco</trans>
+    </entry>
+    <entry>
+        <base>UNACCEPTABLE_CHARS</base>
+        <trans>Este campo debe contener sólo letras, números, puntos, guiones y guiones bajos y debe comenzar con una letra</trans>
+    </entry>
+    <entry>
+        <base>MEMBER</base>
+        <trans>¿Miembro?</trans>
+    </entry>
+    <entry>
+        <base>VPN_CLIENT_ACCESS</base>
+        <trans>Acceso Cliente VPN</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_FORM_TITLE</base>
+        <trans>Cambio de contraseña del sistema</trans>
+    </entry>    
+    <entry> 
+        <base>SYSTEM_PASSWORD_DESCRIPTION</base>
+        <trans><![CDATA[ Ciertos servicios en esta instalación del servidor requieren un nombre de usuario y contraseña (por ejemplo, esta página web para la aplicación del server manager). El nombre de usuario siempre es admin. Puede cambiar la contraseña del sistema utilizando el siguiente formulario. ]]></trans>        
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS</base>
+        <trans>La contraseña debe contener sólo caracteres imprimibles</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_VERIFY_ERROR</base>
+        <trans>Las dos contraseñas no son idénticas.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_AUTH_ERROR</base>
+        <trans>La contraseña actual es incorrecta.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_CHANGED</base>
+        <trans>La contraseña del sistema ha sido cambiada.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_SYSTEM_PASSWORD</base>
+        <trans>Contraseña actual del sistema</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD</base>
+        <trans>Nueva contraseña del sistema</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD_VERIFY</base>
+        <trans>Nueva contraseña del sistema (repetir)</trans>
+    </entry>            
+    <entry>
+        <base>LABEL_IPSECRW_DOWNLOAD</base>
+        <trans>Descarga de certificado digital para cliente IPSec</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_DELETING</base>
+        <trans>Ha ocurrido un error mientras se intentaba eliminar el usuario.</trans>
+    </entry>
+</lexicon>

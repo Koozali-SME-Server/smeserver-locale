@@ -1,0 +1,58 @@
+<lexicon lang="nb">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Endre arbeidsgruppe innstillinger</trans>
+    </entry>	
+    <entry> 
+        <base>DESC_WORKGROUP</base>
+        <trans><![CDATA[ Skriv inn Windows arbeidsgruppenavnet som denne serveren skal vise seg i. ]]></trans>	
+    </entry>
+    <entry>
+        <base>LABEL_WORKGROUP</base>
+        <trans>Windows arbeidsgruppe</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERVERNAME</base>
+        <trans>Skriv inn det navnet denne serveren skal bruke for Windows og Macintoch fildeling.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERVERNAME</base>
+        <trans>Servernavn</trans>
+    </entry>
+    <entry>
+        <base>DESC_PDC</base>
+        <trans><![CDATA[Skal denne serveren opptre som arbeidsgruppe og domene kontroller på ditt Windows nettverk? Du bør la denne stå til <b>Nei</b> hvis en annen server allerede har denne rollen i nettverket.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_PDC</base>
+        <trans>Arbeidsgruppe og Domene Kontroller</trans>
+    </entry>
+    <entry>
+        <base>DESC_ROAM</base>
+        <trans><![CDATA[ Skal denne serveren støtte roaming profiles? Du bør la denne være satt til standard som er <b>Nei</b> med mindre du har erfaring med administrering av server-basert Windows roaming profile og vet at egenskapen er påkrevd. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_ROAM</base>
+        <trans>Roaming profiler</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>De nye arbeisgruppe innstillingene er lagret.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP</base>
+        <trans>Arbeidsgruppenavnet må begynne med en bokstav (stor eller liten bokstav), fulgt av en hver kombinasjon av bokstaver, tall, understreker, punktum, og bindestreker.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SERVERNAME</base>
+        <trans>Servernavnet må begynne med en bokstav (stor eller liten bokstav), fulgt av en hver kombinasjon av bokstaver, tall, understreker, punktum, og bindestreker.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP_MATCHES_SERVERNAME</base>
+        <trans>Servernavnet og arbeidsgruppenavnet er likt når de sammenliknes i små bokstaver. de kan ikke være like dersom fildeling skal være slått på.</trans>
+    </entry>
+    <entry>
+        <base>Workgroup</base>
+        <trans>Arbeidsgruppe</trans>
+    </entry>
+</lexicon>

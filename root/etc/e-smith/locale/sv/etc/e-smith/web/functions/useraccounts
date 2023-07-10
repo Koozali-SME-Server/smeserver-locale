@@ -1,0 +1,242 @@
+<lexicon lang="sv">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Skapa, ändra och radera användarkonton</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> <a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">Lägg till användarkonto</a> </p> <p> Du kan ändra, låsa eller radera konto eller återställa kontots lösenord genom att klicka på länken vid sidan om aktuellt konto. </p> <p> Om kontot är markerat låst betyder det att användarens lösenord behöver återställas. Observera att nyligen skapade konton automatiskt blir låsta tills lösenordet ändras. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>P2_TITLE</base>
+        <trans>Skapa eller ändra</trans>
+    </entry>
+    <entry>
+        <base>CREATE_MODIFY_DESC</base>
+        <trans><![CDATA[ <p> Kontonamnet får bara innehålla gemener, siffror, bindestreck, punkt, understreck och skall börja med en gemen. Exempelvis "betty", "hjohnson" och "mary-jane" är alla tillåtna kontonamn, men "3friends", "John Smith" och "henry:miller" är det inte. </p> <p> Observera att två pseudonymer kommer att skapas för varje nytt konto. Dessa två synonymer möjliggör att ha alternativa e-postkonton för varje användare som innehåller förnamn och efternamn separerade med en punkt (.) respektive understreck (_). För exempelvis kontot "betty" med förnamnet "Betty" och efternamnet "Rubble" kommer två pseudonymer att skapas betty.rubble och betty_rubble. </p> <p> Kataloginformationen (avdelning, företag, etc.) kan ändras från det förvalda, som visas nedan. Ändringarna kommer bara att påverka aktuell användare. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MODIFY_ADMIN_TITLE</base>
+        <trans>Ändra administratörskontot</trans>
+    </entry>
+    <entry>
+        <base>USER_CREATED</base>
+        <trans>Skapat användarkonto.</trans>
+    </entry>
+    <entry>
+        <base>USER_MODIFIED</base>
+        <trans>Ändrat användarkontot.</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER</base>
+        <trans>Fel: ett internt fel uppstod vid modifiering av användaren "{$acctName}".</trans> 
+    </entry>
+    <entry>
+        <base>CANNOT_MODIFY_USER_GROUPS</base> 
+        <trans>Fel: ett internt fel uppstod vid modifiering av gruppen "{$group}" för användare "{$acctName}".</trans>
+    </entry>
+    <entry>
+        <base>TAINTED_USER</base>
+        <trans>Kontonamnet "{$acctName}" innehåller felaktiga tecken.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_NAME</base>
+        <trans>Kontonamn</trans>
+    </entry>
+    <entry>
+        <base>FIRSTNAME</base>
+        <trans>Förnamn</trans>
+    </entry>
+    <entry>
+        <base>LASTNAME</base>
+        <trans>Efternamn</trans>
+    </entry>
+    <entry>
+        <base>DEPARTMENT</base>
+        <trans>Avdelning</trans>
+    </entry>
+    <entry>
+        <base>COMPANY</base>
+        <trans>Företag</trans>
+    </entry>
+    <entry>
+        <base>STREET_ADDRESS</base>
+        <trans>Gatuadress</trans>
+    </entry>
+    <entry>
+        <base>CITY</base>
+        <trans>Postadress</trans>
+    </entry>
+    <entry>
+        <base>PHONE_NUMBER</base>
+        <trans>Telefonnummer</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_DELIVERY</base>
+        <trans>E-postleverans</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_EMAIL_LOCALLY</base>
+        <trans>Leverera e-post lokalt</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_EMAIL</base>
+        <trans>Vidarebefordra e-post till adressen nedan</trans>
+    </entry>
+    <entry>
+        <base>DELIVER_AND_FORWARD</base>
+        <trans>Leverera både lokalt och vidarebefordra</trans>
+    </entry>
+    <entry>
+        <base>FORWARDING_ADDRESS</base>
+        <trans>Adress för vidarebefordran</trans>
+    </entry>
+    <entry>
+        <base>GROUP_MEMBERSHIPS</base>
+        <trans>Gruppmedlemskap</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC</base>
+        <trans>Du är på väg att byta lösenord för användarkontot</trans>
+    </entry>
+    <entry>
+        <base>RESET_DESC2</base>
+        <trans>Ange det nya lösenordet i fältet nedan</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_MODIFYING_PASSWORD</base>
+        <trans>Ett fel uppstod vid uppdatering av lösenordet</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_CHANGE_SUCCEEDED</base>
+        <trans>Lösenordet ändrat för "{$acctName}".</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC</base>
+        <trans>Du är på väg att låsa användarkontot</trans>
+    </entry>
+    <entry>
+        <base>LOCKED_ACCOUNT</base>
+        <trans>Låst användarkonto "{$acctName}".</trans>
+    </entry>
+    <entry>
+        <base>NO_SUCH_USER</base>
+        <trans>Fel: Användarnamnet "{$acctName}" existerar inte.</trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM_CLASH</base>
+        <trans>Fel: Pseudonymen "{$pseudonym}" är redan upptagen av det existerande användarkontot "{$clashName}". För att skilja de åt, lägg till initialer i detta fält.</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT</base>
+        <trans>Lås konto</trans>
+    </entry>
+    <entry>
+        <base>LOCK_ACCOUNT_TITLE</base>
+        <trans>Lås användarkont</trans>
+    </entry>
+    <entry>
+        <base>LOCK_DESC2</base>
+        <trans><![CDATA[ Detta användarkonto kommer att låsas vilket betyder att användaren inte kan logga in och heller inte hämta e-post. All e-post som anländer kommer att sparas och/eller vidarebefordras till en extern e-postadress om detta är inställt. Kontot kan bli aktiverat i framtiden genom att ange ett nytt lösenord. Nuvarande lösenord kommer inte att sparas. </p> <p> <b>Är du säker på att du vill låsa detta användarkonto?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>REMOVE_ACCOUNT_TITLE</base>
+        <trans>Radera användarkonto</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Du är på väg att radera ett användarkonto</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans><![CDATA[ Alla filer som tillhör detta användarkonto kommer att raderas. Dessutom kommer all e-postmeddelanden för detta användarkonto som fortfarande finns på servern (dvs. de som inte har hämtats av användaren) kommer att raderas. </p> <p> <b>Är du säker på att du vill radera detta konto?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>LOCK</base>
+        <trans>Lås</trans>
+    </entry>
+    <entry>
+        <base>NO_USER_ACCOUNTS</base>
+        <trans>Det finns inga användarkonton på detta system.</trans>
+    </entry>
+    <entry>
+        <base>Users</base>
+        <trans>Användare</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>Kontonamnet "{$acctName}" innehåller ej tillåtna tecken. Kontonamnet måste börja med gemener och endast innehålla gemener, siffror, bindestreck, punkter och understrykningar.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_TOO_LONG</base>
+        <trans>Fel: Kontonamnet är för långt. Det får maximalt vara {$maxLength} tecken.</trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>Fel: konto "{$account}" kan inte skapas eftersom det redan finns ett {$type} konto med detta namn.</trans>
+    </entry>    
+    <entry>
+        <base>ERR_OCCURRED_CREATING</base>
+        <trans>Ett fel inträffade vid skapandet av användaren.</trans>
+    </entry>
+    <entry>
+        <base>CANNOT_CONTAIN_WHITESPACE</base>
+        <trans>Detta fält kan inte innehålla tomt utrymme</trans>
+    </entry>
+    <entry>
+        <base>UNACCEPTABLE_CHARS</base>
+        <trans>Detta fält får endast innehålla bokstäver, siffror, punkter, bindestreck understrykningar och skall börja med en bokstav</trans>
+    </entry>
+    <entry>
+        <base>MEMBER</base>
+        <trans>Medlem?</trans>
+    </entry>
+    <entry>
+        <base>VPN_CLIENT_ACCESS</base>
+        <trans>VPN klientåtkomst</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_FORM_TITLE</base>
+        <trans>Ändra systemlösenordet</trans>
+    </entry>    
+    <entry> 
+        <base>SYSTEM_PASSWORD_DESCRIPTION</base>
+        <trans><![CDATA[ Vissa tjänster på denna serverinstallation kräver ett användarnamn och lösenord (exempelvis denna sida för applikationen av serverhanteraren). Användarnamnet är alltid admin. Du kan byta systemets lösenord genom att använda fältet nedan. ]]></trans>        
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS</base>
+        <trans>Lösenordet får endast innehålla skrivbara tecken</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_VERIFY_ERROR</base>
+        <trans>De två lösenorden är inte identiska.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_AUTH_ERROR</base>
+        <trans>Det nuvarande lösenordet är inte korrekt.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_PASSWORD_CHANGED</base>
+        <trans>Systemets lösenordet har ändrats.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_SYSTEM_PASSWORD</base>
+        <trans>Nuvarande lösenord</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD</base>
+        <trans>Nytt systemlösenord</trans>
+    </entry>
+    <entry>
+        <base>NEW_SYSTEM_PASSWORD_VERIFY</base>
+        <trans>Nytt systemlösenord (verifiering)</trans>
+    </entry>            
+    <entry>
+        <base>LABEL_IPSECRW_DOWNLOAD</base>
+        <trans>Ladda ner digitalt certifikat till IPSec-klienten</trans>
+    </entry>
+    <entry>
+        <base>ERR_OCCURRED_DELETING</base>
+        <trans>Ett fel uppstod vid försöket att radera en användare.</trans>
+    </entry>
+</lexicon>

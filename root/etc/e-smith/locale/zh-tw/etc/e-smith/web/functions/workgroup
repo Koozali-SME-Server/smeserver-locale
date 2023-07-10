@@ -1,0 +1,58 @@
+<lexicon lang="zh-tw">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>改變群組的各設定</trans>
+    </entry>	
+    <entry> 
+        <base>DESC_WORKGROUP</base>
+        <trans><![CDATA[ 輸入伺服器所在的Windows群組名稱。 ]]></trans>	
+    </entry>
+    <entry>
+        <base>LABEL_WORKGROUP</base>
+        <trans>Windows 群組</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERVERNAME</base>
+        <trans>請輸入讓 Windows 系統和 Mac 系統得以文件共享的名稱。</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERVERNAME</base>
+        <trans>伺服器的名稱</trans>
+    </entry>
+    <entry>
+        <base>DESC_PDC</base>
+        <trans><![CDATA[此伺服器是否將在您的Windows網路中扮演群組與網域控制器？ 倘若您網路中的其它伺服器已經扮演此角色，您應該保留此設定為 <b>No</b> 。]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_PDC</base>
+        <trans>群組與網域控制台</trans>
+    </entry>
+    <entry>
+        <base>DESC_ROAM</base>
+        <trans><![CDATA[此伺服器是否支援漫遊使用者設定檔？ 除非您有管理基於Windows漫遊使用者設定檔的經驗，並且知道此功能是需要的，否則您應當保留此設定的預設值為 <b>No</b> 。]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_ROAM</base>
+        <trans>漫遊使用者設定檔</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>新群組的設定已經被保存</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP</base>
+        <trans>群組名稱必須以字母開頭（大寫或小寫），接著由任意的字母 、 數字 、 底線 、 句號和連字號組成。</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SERVERNAME</base>
+        <trans>伺服器名稱必須以字母開頭（大寫或小寫），接著由任意的字母 、 數字 、 底線和連字號組成。</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP_MATCHES_SERVERNAME</base>
+        <trans>當以小寫字母對照伺服器與群組名稱時，為了打開文件分享功能，這些值必須不同。</trans>
+    </entry>
+    <entry>
+        <base>Workgroup</base>
+        <trans>群組</trans>
+    </entry>
+</lexicon>

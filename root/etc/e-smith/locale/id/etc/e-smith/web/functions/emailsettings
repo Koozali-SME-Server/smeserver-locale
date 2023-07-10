@@ -1,0 +1,386 @@
+<lexicon lang="id" params="getExtraParams()">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Pengaturan email</trans>
+    </entry>
+    <entry>
+        <base>E-mail</base>
+        <trans>E-mail</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Setting e-mail yang baru telah disimpan.</trans>
+    </entry>
+    <entry>
+        <base>NEVER</base>
+        <trans>tidak kedua-duanya</trans>
+    </entry>
+    <entry>
+        <base>EVERY5MIN</base>
+        <trans>Setiap 5 menit</trans>
+    </entry>
+    <entry>
+        <base>EVERY15MIN</base>
+        <trans>Tiap 15 menit</trans>
+    </entry>
+    <entry>
+        <base>EVERY30MIN</base>
+        <trans>Tiap 30 menit</trans>
+    </entry>
+    <entry>
+        <base>EVERYHOUR</base>
+        <trans>Tiap jam</trans>
+    </entry>
+    <entry>
+        <base>EVERY2HRS</base>
+        <trans>Setiap 2 jam</trans>
+    </entry>
+    <entry>
+        <base>STANDARD</base>
+        <trans>Standard (SMTP)</trans>
+    </entry>
+    <entry>
+        <base>ETRN</base>
+        <trans>ETRN (SMTP dengan permintaan klien)</trans>
+    </entry>
+    <entry>
+        <base>DEFAULT</base>
+        <trans>Default</trans>
+    </entry>
+    <entry>
+        <base>SPECIFY_BELOW</base>
+        <trans>Spesifikasikan dibawah ini</trans>
+    </entry>
+    <entry>
+        <base>MULTIDROP</base>
+        <trans>multi-drop</trans>
+    </entry>
+    <entry>
+        <base>LABEL_MODE</base>
+        <trans>Modus pengambilan email</trans>
+    </entry>
+    <entry>
+        <base>DESC_MODE</base>
+        <trans>Email retrieval mode dapat diset ke standar (untuk sambungan internet yang selalu tersambung), ETRN (direkomendasikan untuk sambungan dialup), atau multi-drop (untuk koneksi dialup jika ETRN tidak didukung oleh ISP anda). Catat bahwa jika server dikonfigurasi sebagai private server dan gateway maka pilihan yang tersedia hanyalah mode multi-drop.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_DELEGATE</base>
+        <trans>Alamat mail server internal</trans>
+    </entry>
+    <entry>
+        <base>DESC_DELEGATE</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Delegate mail servers</h2> Server anda dilengkapi dengan e-mail server yang lengkap, full-featured. Namun, untuk alasan tertentu jika anda ingin mendelegasikan pemrosesan e-mail ke server lain, isikan IP address dari system delegasi tersebut disini. Untuk opersai normal, biarkan field ini kosong. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SECONDARY</base>
+        <trans>Email server sekunder</trans>
+    </entry>
+    <entry>
+        <base>DESC_SECONDARY</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>ETRN or multi-drop settings</h2> Untuk ETRN atau multi-drop, tentukan hostname atau IP address dari mail server sekunder. (Jika menggunakan setup e-mail standard , field ini dapat dikosongkan.) ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_FETCH_PERIOD</base>
+        <trans>Untuk ETRN atau multi-drop, anda dapat mengatur sesering apa server ini menghubungi server email sekunder untuk mengambil email. Koneksi lebih sering berarti anda menerima e-mail anda lebih cepat namun juga menyebabkan lebih banyak permintaan ke Internet, yang mungkin akan meningkatkan biaya telepon dan Internet anda.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD</base>
+        <trans>Saat jam kantor (8:00 AM s.d 6:00 PM) pada hari kerja</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD_NIGHTS</base>
+        <trans>Diluar jam kantor (6:00 PM s.d 8:00 AM) pada hari kerja</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD_WEEKENDS</base>
+        <trans>Selama akhir pekan</trans>
+    </entry>
+    <entry>
+        <base>DESC_POP_ACCOUNT</base>
+        <trans>Untuk e-mail multi-drop, tentukan nama user dan password POP. (Jika menggunakan e-mail standard atau ETRN, field tersebut boleh dibiarkan kosong.) Juga, untuk multi-drop, anda dapat menggunakan metode pengurutan surat default, atau anda dapat menentukan header pesan yang digunakan untuk mengurutkan surat.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_POP_PASS</base>
+        <trans>Password POP (untuk multi-drop)</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_POP_ACCOUNT</base>
+        <trans>Nama Pengguna POP (untuk multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SORT_METHOD</base>
+        <trans>Pilih metode pengurutan (untuk multi-drop)</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SORT_HEADER</base>
+        <trans>Pilih header untuk pengurutan (untuk multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PROTO</base>
+        <trans>Protokol (untuk multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_SECURE</base>
+        <trans>Tunnel melalui SSL (untuk multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>AUTO</base>
+        <trans>Otomatis</trans>
+    </entry>
+    <entry>
+        <base>ENABLED_BOTH</base>
+        <trans>Bolehkan HTTP dan HTTPS</trans>
+    </entry>
+    <entry>
+        <base>ENABLED_SECURE_ONLY</base>
+        <trans>Bolehkan HTTPS (aman)</trans>
+    </entry>
+     <entry>
+        <base>ONLY_LOCAL_NETWORK_SSL</base>
+        <trans>Bolehkan akses hanya dari jaringan lokal</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_POP3</base>
+        <trans>Bolehkan POP3 dan POP3S</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_PRIVATE</base>
+        <trans>Bolehkan privat</trans>
+    </entry>
+    <entry>
+        <base>SECURE_POP3</base>
+        <trans>Bolehkan privat dan umum (POP3S aman)</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_IMAP</base>
+        <trans>Bolehkan IMAP dan IMAPS</trans>
+    </entry>
+    <entry>
+        <base>SECURE_IMAP</base>
+        <trans>Bolehkan privat dan umum (IMAPS aman)</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_SMTP</base>
+        <trans>Bolehkan SMTP dan SSMTP</trans>
+    </entry>
+    <entry>
+        <base>SECURE_SMTP</base>
+        <trans>Bolehkan SSMTP (aman)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_POP_ACCESS_CONTROL</base>
+        <trans>POP3 server akses</trans>
+    </entry>
+    <entry>
+        <base>LABEL_IMAP_ACCESS_CONTROL</base>
+        <trans>IMAP server akses</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SMTP_AUTH_CONTROL</base>
+        <trans>Otentikasi SMTP</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_TO_ADMIN</base>
+        <trans>Kirim ke administrator</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_TO</base>
+        <trans>Kirim ke</trans>
+    </entry>
+    <entry>
+        <base>RETURN_TO_SENDER</base>
+        <trans>Tolak</trans>
+    </entry>
+    <entry>
+        <base>LABEL_UNKNOWN</base>
+        <trans>E-mail ke pengguna tidak dikenal</trans>
+    </entry>
+    <entry>
+        <base>DESC_UNKNOWN</base>
+        <trans><![CDATA[ <h2>Pengguna tidak dikenal</h2> Pilih Tolak(setting yang disarankan) akan mengatur server agar hanya menerima email untuk alamat email yang valid saja (contohnya users, group, pseudonim) . Mail untuk alamat selain itu akan ditolak. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SMARTHOST</base>
+        <trans>Alamat mail server Penyedia Jasa Internet</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_SMARTHOST</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>SMTP server</h2> Server dapat mengirim pesan keluar secara langsung ke alamat tujuan (paling disarankan) atau dapat mengirimnya melalui SMTP server Penyedia Jasa Internet anda(disarankan jika anda memiliki sambungan internet yang tidak terpercaya atau menggunakan Jasa Internet rumahan). Jika menggunakan SMTP server Penyedia Jasar Internet anda, tentukan nama atau alamat IP-nya dibawah ini. Selain itu, biarkan field ini kosong. ]]></trans>
+    </entry>
+
+    <entry>
+        <base>INVALID_SMARTHOST</base>
+        <trans>Nama host yang anda masukkan bukan nama domain internet yang valid dan bukan kosong</trans>
+    </entry>
+    <entry>
+        <base>DESC_POP_ACCESS_CONTROL</base>
+        <trans>Anda dapat mengatur akses server POP3. Setting 'Bolehkan akses hanya dari jaringan lokal' membolehkan akses hanya dari jaringan lokal. Setting POP3S dapat digunakan untuk menyediakan akses eksternal ter-enkripsi ke server POP3 anda. Kami rekomendasikan setting ini 'Bolehkan akses hanya dari jaringan lokal' kecuali anda punya alasan lain.</trans>
+    </entry>
+    <entry>
+        <base>DESC_IMAP_ACCESS_CONTROL</base>
+        <trans>Anda dapat mengatur akses server IMAP. Setting 'Bolehkan akses hanya dari jaringan lokal' membolehkan akses hanya dari jaringan lokal. Setting IMAPS dapat digunakan untuk menyediakan akses eksternal ter-enkripsi ke server IMAP anda. Kami rekomendasikan setting ini 'Bolehkan akses hanya dari jaringan lokal' kecuali anda punya alasan lain.</trans>
+    </entry>
+    <entry>
+        <base>DESC_SMTP_AUTH_CONTROL</base>
+        <trans><![CDATA[ You can provide authenticated access to your SMTP server, or set it to Disabled. The SSMTP setting requires <b>all</b> users to use SSL/TLS authentication. The SMTP and SSMTP option additionally allows STARTTLS to be used to ensure secure authentication. ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_WEBMAIL</base>
+        <trans>Anda dapat meng-enable atau men-disable webmail pada sistem ini. Webmail membolehkan user untuk mengakses mail melalui web browser dengan mengarahkan web browser ke alamat https://{$FQDN}/webmail, dan login ke akun mereka.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_WEBMAIL</base>
+        <trans>Akses Webmail</trans>
+    </entry>
+     <entry>
+        <base>LABEL_BLOCK_EXECUTABLE_CONTENT</base>
+        <trans>Executable content blocking</trans>
+     </entry>
+     <entry>
+        <base>LABEL_CONTENT_TO_BLOCK</base>
+        <trans>Konten yang diblok</trans>
+     </entry>
+     <entry>
+        <base>DESC_BLOCK_EXECUTABLE_CONTENT</base>
+        <trans>Anda dapat mem-blok executable content di e-mail dengan meng-highlight jenis attachment yang ingin anda blok. E-mail dengan jenis attachment tersebut secara otomatis dikembalikan ke pengirim.</trans>
+    </entry>
+    <entry>
+        <base>UNACCEPTABLE_CHARS</base>
+        <trans>Field ini memerlukan alamat email yang valid, dimana tanda @ dan nama domain harus ada.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_ACCESS</base>
+        <trans><![CDATA[ <h2>Akses E-mail </h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_ACCESS_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_ACCESS">Ubah pengaturan akses e-mail </a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_RECEPTION</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>E-mail reception</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_RECEPTION_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_RECEPTION">Ubah pengaturan penerimaan e-mail</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_DELIVERY</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Pengiriman e-mail</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_DELIVERY_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_DELIVERY">Ubah pengaturan pengiriman e-mail</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_FILTERING_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_FILTERING">Ubah pengaturan filter e-mail</a> ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_VIRUS_SCAN</base>
+	<trans>Virus scanning</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_VIRUS_SCAN</base>
+	<trans>Anda dapat memeriksa e-mail masuk dan keluar dari virus. Jika scanning di-enable dan ditemukan virus, maka email akan ditolak dan dikembalikan ke pengirim.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_SPAM_SCAN</base>
+	<trans>Spam filtering</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_SPAM_SCAN</base>
+	<trans>Anda dapat memeriksa email dari spam. Jika Spam filtering di-enable, maka X-Spam-Status: header akan ditambahkan pada setiap email, yang akan digunakan untuk menyaring spam. Anda dapat mengatur sensitivitas dari proses deteksi spam dari default yaitu medium. Untuk kontrol yang lebih teliti, anda dapat mengatur sensitivitas spam ke Custom dan pilih tagging level yang diinginkan, dan secara opsional level dimana email tersebut ditolak.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_SPAM_SUBJECT</base>
+	<trans>SPAM subject prefix</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_SPAM_SUBJECT</base>
+	<trans>You can enable to add a tag to the subject of each message that is classified as SPAM. The value for this tag can be defined below.</trans>
+    </entry>
+
+   <entry>
+        <base>LABEL_SPAM_SENSITIVITY</base>
+        <trans>Sensitivitas Spam</trans>
+    </entry>
+   <entry>
+        <base>LABEL_SPAM_TAGLEVEL</base>
+        <trans>Custom spam tagging level</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SPAM_REJECTLEVEL</base>
+        <trans>Custom spam rejection level</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SPAM_SUBJECTTAG</base>
+        <trans>Ubah subject pesan dari spam</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SORTSPAM</base>
+        <trans>Urutkan spam kedalam folder junkmail</trans>
+    </entry>
+    <entry>
+        <base>VERYHIGH</base>
+        <trans>Sangat tinggi</trans>
+    </entry>
+    <entry>
+        <base>HIGH</base>
+        <trans>Tinggi</trans>
+    </entry>
+    <entry>
+        <base>MEDIUM</base>
+        <trans>Sedang</trans>
+    </entry>
+    <entry>
+        <base>LOW</base>
+        <trans>Rendah</trans>
+    </entry>
+    <entry>
+        <base>VERYLOW</base>
+        <trans>Sangat rendah</trans>
+    </entry>
+    <entry>
+        <base>CUSTOM</base>
+        <trans>Custom</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_STATUS</base>
+        <trans>SMTP Authentication untuk ISP</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_USERID</base>
+        <trans>User id server email</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_PASSWD</base>
+        <trans>Password server email</trans>
+    </entry>
+
+    <entry>
+        <base>VALIDATION_SMTPAUTH_NONBLANK</base>
+        <trans>Field ini harus diisi jika SMTP Authentication di-enable</trans>
+    </entry>
+
+</lexicon>

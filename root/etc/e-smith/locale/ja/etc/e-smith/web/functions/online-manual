@@ -1,0 +1,15 @@
+<lexicon lang="ja">
+      <entry>
+	<base>FORM_TITLE</base>
+	<trans>オンラインマニュアルとその他の情報</trans>
+      </entry>	
+      <entry> 
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ <ul> <li><a target="new" href="https://wiki.koozali.org/documentation/manual/"> オンラインマニュアル</a> <li><a target="new" href="https://wiki.koozali.org/documentation/FAQ/"> よくある質問</a> </ul> <H2>サポートと免許</H2>このソフトはこの？によって免許されています]]></trans>
+      </entry>		
+      <entry>
+	<base>Online manual</base>
+	<trans>オンラインマニュアル</trans>
+      </entry>
+
+</lexicon>

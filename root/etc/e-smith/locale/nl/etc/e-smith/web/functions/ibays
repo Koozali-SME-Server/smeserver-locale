@@ -1,0 +1,174 @@
+<lexicon lang="nl" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Informatie-baaien toevoegen, wijzigen of verwijderen</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> <a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify"> informatie-baai toevoegen</a> </p> <p> Elke informatie-baai kan worden verwijderd of het wachtwoord kan worden hersteld door op het corresponderende commando te klikken achter de betreffende informatie-baai. Als de informatie-baai in het rood wordt aangegeven betekend dit dat het standaard wachtwoord nog niet is aangepast en dat dit op korte termijn nog dient te gebeuren. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>Toevoegen of wijzigen van een informatie-baai</trans>
+    </entry>
+    <entry>
+        <base>NAME_FIELD_DESC</base>
+        <trans>De informatie-baai naam mag enkel bestaan uit kleine letters, cijfers, punten, koppeltekens en lage streepjes en dient te beginnen met een kleine letter. Bijvoorbeeld "johnson", "intra" en "cust3.prj12" zijn correcte namen, maar "3vrienden", "Jan Smit" en "Bus!Partner" zijn dit niet. De lengte van de naam is gelimiteerd tot {$maxLength} tekens.</trans>
+    </entry>
+    <entry>
+        <base>NAME_LABEL</base>
+        <trans>Informatie-baai naam</trans>
+    </entry>
+    <entry>
+        <base>USER_ACCESS</base>
+        <trans>Gebruikers toegang via bestandsdeling of gebruikers-ftp</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS</base>
+        <trans>Publiekelijke toegang via internet of anonieme ftp</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS_DESCRIPTION</base>
+        <trans>De publiekelijke toegang methode "wachtwoord vereist buiten het locale netwerk" wordt niet ondersteund door de FTP server component. Indien u deze keuze selecteert zal de FTP server voor zowel binnen als buiten het lokale netwerk een wachtwoord vereisen voor deze informatie-baai.</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_DYNAMIC_CONTENT</base>
+        <trans>Uitvoeren van dynamische inhoud (CGI, PHP, SSI)</trans>
+    </entry>
+	<entry>
+        <base>HTTPS_Only</base>
+        <trans>Forceer beveiligde verbindingen</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Informatie-baai verwijderen</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans><![CDATA[ <p> U staat op het punt om de informatie-baai  "{$name}" ({$description}) te verwijderen. </p> <p> Alle bestanden welke zich in deze informatie-baai bevinden zullen verloren gaan. </p> <p> Weet u zeker dat u deze informatie-baai wilt verwijderen? </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_IBAY</base>
+        <trans>Er is een fout opgetreden tijdens het aanmaken van de informatie-baai.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED_IBAY</base>
+        <trans>Informatie-baai is met succes toegevoegd.</trans>
+    </entry>
+    <entry>
+        <base>NO_IBAYS</base>
+        <trans>Er zijn momenteel geen informatie-baaien geconfigureerd.</trans>
+    </entry>
+    <entry>
+        <base>CANT_FIND_IBAY</base>
+        <trans>Kan geen account vinden voor {$name} (bestaat deze account?)</trans>
+    </entry>
+    <entry>
+        <base>CANT_CREATE_IBAY</base>
+        <trans>Kan geen nieuw account toevoegen voor {$name} (bestaat deze al?)</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_IBAY</base>
+        <trans>Er is een fout opgetreden tijdens het wijzigen van de informatie-baai.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED_IBAY</base>
+        <trans>Informatie-baai is met succes gewijzigd.</trans>
+    </entry>
+    <entry>
+        <base>VIRTUAL_HOST_MESSAGE</base>
+        <trans>De volgende virtuele domeinen gebruiken deze informatie-baai voor hun inhoud. Dit zal worden aangepast naar de primaire web site (u kunt dit achteraf aanpassen).</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED_IBAY</base>
+        <trans>Informatie-baai is met succes verwijderd.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_IBAY</base>
+        <trans>Er is een fout opgetreden tijdens het verwijderen van de informatie-baai.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_DESC</base>
+        <trans>U staat op het punt om het wachtwoord te veranderen voor de informatie-baai {$name}.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VALIDATION_ERROR</base>
+        <trans>Het wachtwoord mag enkel letters en cijfers bevatten.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VERIFY_ERROR</base>
+        <trans>De wachtwoorden zijn niet gelijk.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_RESET_PASSWORD</base>
+        <trans>Wachtwoord is met succes gewijzigd.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_RESETTING_PASSWORD</base>
+        <trans>Fout tijdens het wijzigen van het wachtwoord.</trans>
+    </entry>
+    <entry>
+        <base>VHOST_MESSAGE</base>
+        <trans><![CDATA[ <p>De volgende virtuele domeinen gebruikten deze informatie-baai voor hun inhoud, dit zal worden aangepast naar de primaire web site (dit kan achteraf worden aangepast):</p> <ul>{$vhostList}</ul> ]]></trans>
+    </entry>
+    <entry>
+        <base>Information bays</base>
+        <trans>Informatie-baaien</trans>
+    </entry>
+    <entry>
+        <base>WGRG</base>
+        <trans>Schrijven = groep, Lezen = groep</trans>
+    </entry>
+    <entry>
+        <base>WGRE</base>
+        <trans>Schrijven = groep, Lezen = iedereen</trans>
+    </entry>
+    <entry>
+        <base>WARG</base>
+        <trans>Schrijven = beheerder, Lezen = groep</trans>
+    </entry>
+    <entry>
+        <base>NONE</base>
+        <trans>Geen toegang</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_NO_PASSWORD</base>
+        <trans>Lokaal netwerk (geen wachtwoord vereist)</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_PASSWORD</base>
+        <trans>Lokaal netwerk (wachtwoord vereist)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_NO_PASSWORD</base>
+        <trans>Gehele Internet (geen wachtwoord vereist)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD</base>
+        <trans>Gehele Internet (wachtwoord vereist)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD_REMOTE</base>
+        <trans>Gehele Internet (wachtwoord vereist buiten het lokale netwerk)</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IBAY_DESCRIPTION</base>
+        <trans>Fout: onverwachte of missende tekens in de informatie-baai beschrijving</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>De informatie-baai naam "{$acctName}" bevat ongeldige tekens. Informatie-baai namen dienen te starten met een kleine letter en mogen enkel kleine letters, cijfers en koppeltekens bevatten.</trans>
+    </entry>
+    <entry>
+        <base>MAX_IBAY_NAME_LENGTH_ERROR</base>
+        <trans>De informatie-baai naam "{$name}" is te lang. De  maximale lengte is {$maxIbayNameLength} tekens.</trans>
+    </entry>
+    <entry>
+        <base>ACCT_CLASHES_WITH_PSEUDONYM</base>
+        <trans><![CDATA[ De account "{$acctName}" heeft een conflict met pseudoniem details voor {$acctType} account "{$acct}". <p>{$acctName} is een pseudoniem voor {$acct}.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_EXISTS</base>
+        <trans>De account "{$acctName}" is een bestaande {$acctType} account.</trans>
+    </entry>
+</lexicon>

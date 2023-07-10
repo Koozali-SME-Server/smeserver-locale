@@ -1,0 +1,147 @@
+<lexicon lang="hu">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Nyomtatók hozzáadása vagy eltávolítása</trans>
+    </entry>
+    <entry>
+      <base>INITIAL_DESC</base>
+      <trans><![CDATA[ <P><A class="button-like" HREF="printers?page=0&Next=Add">Nyomtató hozzáadása</A></P> ]]></trans>
+    </entry>
+    <entry>
+      <base>NO_PRINTERS</base>
+      <trans>Nincsenek nyomtatók hozzáadva a rendszerhez.</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_LIST</base>
+      <trans>Nyomtatók listája</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_ADDRESS</base>
+      <trans>Távoli cím</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_NAME</base>
+      <trans>Távoli név</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NEW_PRINTER</base>
+      <trans>Új nyomtató hozzáadása</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NEW_DESC</base>
+      <trans>Kérem adjon egy egyedi nevet a nyomtatóhoz és egy rövid leírást. A nyomtató neve csak kisbetűket és számokat tartalmazhat, és betűvel kell kezdődnie. Például "hplaser", "epsonlp", és "canonbj" érvényes nevek, de a "HP Laser Jet", "Canon BubbleJet", és "HP JetDirect Printer" helytelen. Kerülje az olyan angol neveket és leírásokat mint "offline", "disabled", "down", "off", "waiting", "jam", "paper", "error" and "responding".</trans>
+    </entry>
+    <entry>
+      <base>PRINTER_NAME</base>
+      <trans>Nyomtató név</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_0</base>
+      <trans>Helyi nyomtató port 0 (LPT1)</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_1</base>
+      <trans>Helyi nyomtató port 1 (LPT2)</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_2</base>
+      <trans>Helyi nyomtató port 2 (LPT3)</trans>
+    </entry>
+    <entry>
+      <base>NET_PRINTER</base>
+      <trans>Hálózati nyomtató ...</trans>
+    </entry>
+    <entry>
+      <base>FIRST_USB_PRINTER</base>
+      <trans>Első USB-re kötött nyomtató</trans>
+    </entry>
+    <entry>
+      <base>SECOND_USB_PRINTER</base>
+      <trans>Második USB-re kötött nyomtató</trans>
+    </entry>
+    <entry>
+      <base>ERR_UNEXPECTED_NAME</base>
+      <trans><![CDATA[ <P>Hiba: Helytelen karakterek a nyomtatónévben.</P> <P>A nyomtató neve csak kisbetűket és számokat tartalmazhat, és betűvel kell kezdődnie. Például a "hplaser", "epsonlp", és "canonbj" érvényes nevek.</P> ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_UNEXPECTED_DESC</base>
+      <trans>Hiba: helytelen, vagy hiányzó karakterek a leírásban. A nyomtató hozzáadása sikertelen.</trans>
+    </entry>
+    <entry>
+      <base>ERR_EXISTS</base>
+      <trans>Hiba: Egy létező fiók azonos névvel és típussal: </trans>
+    </entry>
+    <entry>
+      <base>ERR_INVALID_ADDRESS</base>
+      <trans>Hiba: érvénytelen hálózati cím. Nyomtató hozzáadása sikertelen.</trans>
+    </entry>
+    <entry>
+      <base>ERR_INVALID_REMOTE_NAME</base>
+      <trans>Hiba: érvénytelen hálózati nyomtatónév. Nyomtató hozzáadása sikertelen.</trans>
+    </entry>
+    <entry>
+      <base>ERR_CREATING</base>
+      <trans>Hiba történt a nyomtató hozzáadásakor.</trans>
+    </entry>
+    <entry>
+      <base>CREATED_SUCCESSFULLY</base>
+      <trans>Sikeresen hozzáadott nyomtató:</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NETWORK_PRINTER</base>
+      <trans>Új hálózati nyomtató hozzáadása</trans>
+    </entry>
+    <entry>
+      <base>ERR_OPENING_DB</base>
+      <trans>Hiba történt a fiók-adatbázis megnyitásakor.</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NETWORK_DESC</base>
+      <trans>Kérem adja meg a hálózati nyomtató nevét és IP címét</trans>
+    </entry>
+    <entry>
+      <base>HOSTNAME_OR_IP</base>
+      <trans>A hálózati nyomtató neve és IP címe</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_NAME_DESC</base>
+      <trans><![CDATA[ Hálózati nyomtató név (állítson be raw-ot ha bizonytalan) ]]></trans>
+    </entry>
+    <entry>
+      <base>REMOVE_PRINTER</base>
+      <trans>Nyomtató eltávolítása</trans>
+    </entry>
+    <entry>
+      <base>ABOUT_TO_REMOVE</base>
+      <trans>A következő nyomtatót készül eltávolítani:</trans>
+    </entry>
+    <entry>
+      <base>SPOOL_FILE_WARNING</base>
+      <trans>A nyomtató minden spool fájlja törlésre kerül.</trans>
+    </entry>
+    <entry>
+      <base>ARE_YOU_SURE</base>
+      <trans>Biztos benne, hogy eltávolítja ezt a nyomtatót?</trans>
+    </entry>
+    <entry>
+      <base>ERR_INTERNAL_FAILURE</base>
+      <trans>Hiba: belső hiba a következő nyomtató eltávolítása során:</trans>
+    </entry>
+    <entry>
+      <base>ERR_DELETING</base>
+      <trans>Hiba történt a nyomtató eltávolításakor.</trans>
+    </entry>
+    <entry>
+      <base>DELETED_SUCCESSFULLY</base>
+      <trans>Sikeresen eltávolított nyomtató:</trans>
+    </entry>
+    <entry>
+        <base>MUST_BE_VALID_HOSTNAME_OR_IP</base>
+        <trans>Érvényes névnek és IP címnek kell lennie</trans>
+    </entry>
+    <entry>
+	<base>Printers</base>
+	<trans>Nyomtatók</trans>
+    </entry>
+
+</lexicon>

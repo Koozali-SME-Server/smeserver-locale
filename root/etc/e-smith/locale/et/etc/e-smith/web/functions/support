@@ -1,0 +1,10 @@
+<lexicon lang="et">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Kasutajatoe, garantii ja litsentsi informatsioon</trans>
+    </entry>
+    <entry>
+        <base>Support and licensing</base>
+        <trans>Tugi ja litsents</trans>
+    </entry>
+</lexicon>

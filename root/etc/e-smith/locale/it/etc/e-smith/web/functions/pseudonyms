@@ -1,0 +1,114 @@
+<lexicon lang="it">
+    <entry>
+      <base>NO_PSEUDONYMS</base>
+      <trans><![CDATA[ <b>Non ci sono pseudonimi nel sistema.</b> ]]></trans>
+     </entry>
+    <entry>
+        <base>REMOVE_PSEUDONYM</base>
+        <trans>Rimuovi pseudonimo</trans>
+    </entry>
+    <entry>
+        <base>ABOUT_TO_REMOVE</base>
+        <trans><![CDATA[ Sta per essere rimosso lo pseudonimo:<br> <b>Siete sicuri di voler continuare ?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Crea, modifica o rimuovi pseudonimi</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans><![CDATA[ <p>Il server crea automaticamente un alias di posta per ogni gruppo. Per definire un alias per una lista di utenti, creare un gruppo e la lista verrà automaticamente gestita dal server.</p> <p>Gli pseudonimi permettono di creare nomi differenti per utenti o gruppi esistenti. Per esempio, potrebbe essere creato uno pseudonimo "webmaster" per il gruppo "sviluppo_web" oppure lo pseudonimo "gigi" per l'utente "luigi".</p> <p>Il server crea automaticamente pseudonimi nella forma nome.cognome e nome_cognome per ogni utente del sistema e uno pseudonimo "everyone" che comprende tutti gli utenti del sistema.</p> <p>Gli pseudonimi permettono anche di creare alias per domini (virtuali) e utenti. Per esempio, è possibile inoltrare "info@dominio-virtuale1.it" all'utente "maria" e "info@dominio-virtuale2.com" all'utente "luigi". Domini e utenti dovranno essere creati prima della creazione degli alias.</p> <p>Gli pseudonimi possono inoltre puntare ad altri pseudonimi, limitatamente ad un solo livello di inoltro. Per esempio l'alias "webmaster" può puntare allo pseudonimo "support" che a sua volta inoltra l'email all'utente "paolo". Utile quando un utente ha più ruoli all'interno dell'azienda perché evita di cambiare lo pseudomino associato all'utente nel caso in cui la persona lasci l'azienda.</p> <p>Per modificare o rimuovere uno pseudonimo fare clic sul corrispondente comando a fianco dello pseudonimo.</p>]]></trans>
+    </entry>
+    <entry>
+        <base>LOCAL_ONLY</base>
+        <trans>(solo rete locale)</trans>
+    </entry>
+    <entry>
+        <base>SELECT_ACCOUNT</base>
+        <trans>Selezionare utente o gruppo</trans>
+    </entry>
+    <entry>
+        <base>SELECT_INTERNAL</base>
+        <trans>(solo rete locale)</trans>
+    </entry>
+    <entry>
+        <base>CLICK_TO_CREATE</base>
+        <trans>Aggiungi pseudonimo</trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM</base>
+        <trans>Pseudonimo</trans>
+    </entry>
+    <entry>
+        <base>USER_OR_GROUP</base>
+        <trans>Utente o gruppo</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_PSEUDONYMS</base>
+        <trans><![CDATA[<b>Lista degli pseudonimi</b>]]></trans>
+    </entry>
+    <entry>
+        <base>TITLE_CREATE</base>
+        <trans>Crea uno pseudonimo</trans>
+    </entry>
+    <entry>
+        <base>DESC_PSEUDONYM_NAME</base>
+       <trans>Selezionare un utente o gruppo esistente per lo pseudonimo dal menu sottostante</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_PSEUDONYM</base>
+        <trans>Modifica pseudonimo</trans>
+    </entry>     
+       <entry>
+        <base>PSEUDONYM_NAME</base>
+        <trans>Nome pseudonimo</trans>
+    </entry>
+    <entry>
+        <base>VALID_PSEUDONYM_NAMES</base>
+        <trans><![CDATA[ Lo pseudonimo può contenere solo lettere minuscole, numeri, punti, trattini e underscore e devono iniziare con una lettera minuscola o un numero. Per esempio "vendite", "filippo.olanda", "123" e "sys-admin" sono tutti pseudonimi validi, mentre "Giovanni Stecchino" e "Mario Luzi" non lo sono. <p>E' anche possibile creare alias di posta per utenti di domini (virtuali). Per esempio "franco@dominio-due.it" può essere inoltrato a "mario" (o a qualsiasi utente esistente).</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>NAME_IN_USE</base>
+        <trans>Errore: Nome in uso. Non è possibile creare uno pseudonimo con quel nome.</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_PSEUDONYM</base>
+        <trans>L'account non è uno pseudonimo</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_DOMAIN</base>
+        <trans>Il dominio non è configurato su questo server</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_NOACCT</base>
+        <trans>L'utente non è configurato su questo server</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_SAMEACCT</base>
+        <trans>Un pseudonimo non può puntare allo stesso utente</trans>
+    </entry>
+    <entry>
+        <base>CREATE_SUCCEEDED</base>
+        <trans>Pseudonimo creato con successo</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_SUCCEEDED</base>
+        <trans>Pseudonimo modificato con successo</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_SUCCEEDED</base>
+        <trans>Pseudonimo rimosso con successo</trans>
+    </entry>
+    <entry>
+      <base>EVERYONE</base>
+      <trans>Tutti</trans>
+    </entry>
+      <entry>
+        <base>Pseudonyms</base>
+        <trans>Pseudonimi</trans>
+      </entry>
+
+</lexicon>

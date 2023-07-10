@@ -1,0 +1,108 @@
+<lexicon lang="es">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>Local networks</base>
+        <trans>Redes locales</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ Por razones de seguridad, varios servicios en su servidor sólo están disponibles para su red local. Sin embargo, puede conceder estos privilegios de acceso local a otras redes, enumerándolas a continuación. La mayoría de las instalaciones deben dejar esta lista vacía.</P><P> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Agregar red</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>Agregar una red local</trans>
+    </entry>
+    <entry>
+        <base>ADD_DESC</base>
+        <trans><![CDATA[ Cada parámetro debe estar en la forma #.#.#.# (cada # es un número de 0 a 255). El software del servidor pondrá en cero la parte final (el identificador de host) de la dirección de red según la máscara de subred, para asegurar que la dirección de red sea válida. </p><p> "Router" debe corresponder a la dirección IP del router de su red local a través del cual se alcanza la red adicional. ]]></trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ADDRESS</base>
+        <trans>Dirección de red</trans>
+    </entry>
+    <entry>
+        <base>SUBNET_MASK</base>
+        <trans>Máscara de subred</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IP_ADDRESS</base>
+        <trans>Dirección IP no válida</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SUBNET_MASK</base>
+        <trans>Máscara de subred inválida</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Eliminar red local</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Está a punto de eliminar la siguiente red local.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_CONFIRM</base>
+        <trans>¿Está seguro de que desea eliminar esta red?</trans>
+    </entry>
+    <entry>
+        <base>DEFAULT</base>
+        <trans>predeterminada</trans>
+    </entry>
+    <entry>
+        <base>NUMBER_OF_HOSTS</base>
+        <trans>Cantidad de hosts</trans>
+    </entry>
+    <entry>
+        <base>NOT_ACCESSIBLE_FROM_LOCAL_NETWORK</base>
+        <trans>Error: la dirección del router {$networkRouter} no es accesible desde la red local. No se agregó la red.</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_LOCAL</base>
+        <trans>Error: la red {$network} (derivada de la red {$networkAddress} y máscara de subred {$networkMask}) ya es considerada local. No se agregó una nueva red.</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_ADDED</base>
+        <trans>Error: la red {$network} (derivada de la red {$networkAddress} y máscara de subred {$networkMask}) ya ha sido agregada. No se agregó una nueva red.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_CREATING_NETWORK</base>
+        <trans>Ocurrió un error al crear la red.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Se agregó con éxito la red {$network}/{$networkMask} mediante el router {$networkRouter}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_SINGLE_ADDRESS</base>
+        <trans>Se agregó con éxito la red {$network}/{$networkMask} mediante el router {$networkRouter}. Su servidor concederá privilegios de acceso local a la dirección IP única {$network}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NETWORK_RANGE</base>
+        <trans>Se agregó con éxito la red {$network}/{$networkMask} mediante el router {$networkRouter}. Su servidor concederá privilegios de acceso local a {$totalHosts} direcciones IP en el rango de {$firstAddr} a {$lastAddr}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NONSTANDARD_RANGE</base>
+        <trans><![CDATA[ <p> Se agregó con éxito la red {$network}/{$networkMask} mediante el router {$networkRouter}. </p> <p> Su servidor concederá privilegios de acceso local a {$totalHosts} direcciones IP en el rango de {$firstAddr} a {$lastAddr}. </p> <p> Advertencia: el servidor FTP ProFTPd no puede manejar esta máscara de subred no estándar. En su lugar, se utilizará la especificación más simple <b>{$simpleMask}</b>. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_REMOVED_NETWORK</base>
+        <trans>La red {$network}/{$networkMask} ha sido removida con éxito mediante el router {$networkRouter}.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_DELETING_NETWORK</base>
+        <trans>Ocurrió un error al eliminar la red.</trans>
+    </entry>
+    <entry>
+        <base>NO_ADDITIONAL_NETWORKS</base>
+        <trans>Sin redes adicionales</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_DESC</base>
+        <trans>Los hosts locales configurados en la red que esta a punto de eliminar han sido detectados. Por defecto, también serán eliminados. Destilde esta casilla si, por alguna razón, desea que esto no ocurra. Tenga en cuenta que no serán tratados como locales, y no podrán ser accesibles, luego de que esta red haya sido eliminada.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_LABEL</base>
+        <trans>Eliminar hosts de la red</trans>
+    </entry>
+</lexicon>

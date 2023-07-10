@@ -1,0 +1,83 @@
+<lexicon lang="hu">
+    <entry>
+        <base>View log files</base>
+        <trans>Naplófájlok megtekintése</trans>
+    </entry>
+
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ Ez a panel lehetővé teszi, hogy megtekintse, vagy letöltse a szolgáltatások által generált naplófájlokat. ]]></trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_SELECT_DESC</base>
+        <trans>Válasszon egy naplófájlt a megtekintéshez</trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>Opcionálisan meghatározhat egy szűrési feltételt, hogy csak azok a sorok látszódjanak a naplófájlból amelyek megfelelnek a szűrési feltételnek. Ha ezt a mezőt üresen hagyja, minden sor látható lesz. Ez az opció nem működik a naplófájl letöltésekor.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_LABEL</base>
+        <trans>Szűrési feltétel (opcionális)</trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>Opcionálisan meghatározhat egy kiemelési feltételt, hogy azok a sorok ki legyenek emelve a naplófájban amelyek megfelelnek a kiemelési feltételnek. Ez az opció nem működik a naplófájl letöltésekor.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_LABEL</base>
+        <trans>Kiemelési feltétel (opcionális)</trans>
+    </entry>
+    <entry>
+        <base>END_DESC</base>
+        <trans>Egy ideig eltarthat míg elkészülnek ezek a lekérdezések.</trans>
+    </entry>
+    <entry>
+        <base>VIEW</base>
+        <trans>Naplófájl megtekintése</trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_EMPTY</base>
+        <trans>A "{$filename}" naplófájl üres!</trans>
+    </entry>
+    <entry>
+        <base>VIEWING_TIME</base>
+        <trans>Megtekintve {$time} -kor</trans>
+    </entry>
+    <entry>
+        <base>MATCH_HEADER</base>
+        <trans>A "{$matchPattern}" feltételre illeszkedő sorok mutatása.</trans>
+    </entry>
+    <entry>
+        <base>HIGHLIGHT_HEADER</base>
+        <trans>A "{$highlightPattern}" feltételre illeszkedő sorok kiemelése.</trans>
+    </entry>
+    <entry>
+        <base>NO_MATCHING_LINES</base>
+        <trans>Nincsenek megjeleníthető sorok.</trans>
+    </entry>
+    <entry>
+        <base>FILENAME_ERROR</base>
+        <trans><![CDATA[ <p>Hiba történt a naplófájl nevének meghatározásakor.</p> <p>Érvénytelen lekérdezés típus a "{$filename}".</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>REFRESH</base>
+	<trans>Naplófájl frissítése</trans>
+    </entry>
+    <entry>
+	<base>OP_DESC</base>
+	<trans><![CDATA[ <p>Választania kell, hogy megnézi-e a naplófájlt a böngészőben, vagy letölti azt a számítógépére. Ha a naplófájl különösen nagy, letöltheti azt a gépére, ahelyett, hogy a böngészőben nézné meg mivel annak megjelenítése néhány böngészőnél problémát okozhat.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>OP_LABEL</base>
+	<trans>Használat</trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_PAGE_DESC</base>
+	<trans><![CDATA[ <p>A naplófájl letöltése elő lett készítve. Kattintson a lenti &quot;Tovább&quot; gombra, és a böngésző segítségével töltse le a fájlt.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_FILE</base>
+	<trans>A {$logfile} naplófájl letöltésének előkészítése.</trans>
+    </entry>
+</lexicon>

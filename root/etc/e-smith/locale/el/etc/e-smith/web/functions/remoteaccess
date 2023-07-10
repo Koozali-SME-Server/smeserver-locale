@@ -1,0 +1,171 @@
+<lexicon lang="el">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Αλλαγή ρυθμίσεων απομεμακρυσμένης πρόσβασης</trans>
+    </entry>	
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans>Για καθεμία από τις ακόλουθες επιλογές, η ρύθμιση "ιδιωτική" επιτρέπει σε οποιονδήποτε από το τοπικό σας δίκτυο να προσπελάσει το διακομιστή σας. Η ρύθμιση "δημόσια" επιτρέπει πρόσβαση από οπουδήποτε στο Διαδίκτυο. Η ρύθμιση "καμία πρόσβαση" καθιστά αδύνατη κάθε πρόσβαση. Για να κατανοήσετε τις επιπτώσεις που επιφέρουν σε θέματα ασφαλείας οι αλλαγές των προεπιλεγμένων ρυθμίσεις των ανωτέρω επιλογών, θα πρέπει να διαβάσετε το κεφάλαιο απομεμακρυσμένης πρόσβασης στο εγχειρίδιο του χρήστη.</trans>	
+    </entry>
+    <entry>
+	<base>SUCCESS</base>
+	<trans>Οι νέες ρυθμίσεις απομεμακρυσμένης πρόσβασης έχουν αποθηκευθεί.</trans>
+    </entry>
+    <entry>
+	<base>NO_ACCESS</base>
+	<trans>Καμία πρόσβαση</trans>
+    </entry>
+    <entry>
+	<base>PASSWORD_LOGIN_PRIVATE</base>
+	<trans>Αποδοχή κωδικών πρόσβασης μόνον από τα τοπικά δίκτυα</trans>
+    </entry>
+    <entry>
+	<base>PASSWORD_LOGIN_PUBLIC</base>
+	<trans>Αποδοχή κωδικών πρόσβασης από οπουδήποτε</trans>
+    </entry>
+    <entry>
+	<base>LABEL_TELNET_ACCESS</base>
+	<trans>Πρόσβαση Telnet</trans>
+    </entry>
+    <entry>
+	<base>LABEL_FTP_ACCESS</base>
+	<trans>Πρόσβαση FTP</trans>
+    </entry>
+    <entry>
+	<base>LABEL_FTP_LOGIN</base>
+	<trans>Πρόσβαση FTP μέσω κωδικών</trans>
+    </entry>
+    <entry>
+	<base>LABEL_PPTP</base>
+	<trans>Πλήθος πελατών PPTP</trans>
+    </entry>
+     <entry>
+       <base>NUMBER_OF_VPN_CLIENTS_MUST_BE_LESSER_THAN_NUMBER_OF_IP_IN_DHCP_RANGE</base>
+       <trans>The number of VPN clients is greater than the number of reserved IP for DHCP. You should take a smaller number.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SSH_PORT</base>
+        <trans>Θύρα TCP για πρόσβαση μέσω ασφαλούς κελύφους</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH</base>
+	<trans>Πρόσβαση μέσω ασφαλούς κελύφους</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH_ADMIN</base>
+	<trans>Επιτρέπεται η πρόσβαση σε γραμμή εντολής διαχείρισης μέσω ασφαλούς κελύφους</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH_PASSWORD_ACCESS</base>
+	<trans>Επιτρέπεται η πρόσβαση μέσω ασφαλούς κελύφους με χρήση συνήθων κωδικών πόσβασης</trans>
+    </entry>
+    <entry>
+	<base>DESC_SSH</base>
+	<trans><![CDATA[ <hr class="sectionbar" /> <h2>Ρυθμίσεις Ασφαλούς Κελύφους (Secure Shell)</h2>Μπορείτε να ελέγξετε την πρόσβαση μέσω ασφαλούς κελύφους στο διακομιστή σας. Η ρύθμιση "δημόσια" (public) θα πρέπει να ενεργοποιείται μόνο από πεπειραμένους διαχειριστές με σκοπό την απομεμακρυσμένη διάγνωση και επίλυση προβλημάτων. Συνιστάται να διατηρείται η ρύθμιση "Καμία Πρόσβαση" στην παράμετρο αυτή, εκτός εάν υπάρχει συγκεκριμένος λόγος για το αντίθετο. ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_FTP_ACCESS</base>
+	<trans><![CDATA[ <hr class="sectionbar" /><h2>Ρυθμίσεις FTP</h2> Μπορείτε επίσης να ελέγξετε την πρόσβαση μέσω <b>FTP</b> στο διακομιστή σας. Συνιστάται να διατηρείται η ρύθμιση "Καμία Πρόσβαση" στην παράμετρο αυτή, εκτός εάν υπάρχει συγκεκριμένος λόγος για το αντίθετο. <p> Σημείωση: αυτές οι ρυθμίσεις περιορίζουν την πρόσβαση προς το διακομιστή σας, υποσκελίζοντας άλλες ρυθμίσεις, περιλαμβανομένων αυτών για εξατομικευμένα πεδία πληροφοριών.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_FTP_LOGIN</base>
+	<trans><![CDATA[ Μπορείτε επίσης να ελέγχετε την πιστοποίηση γνησιότητας της πρόσβασης FTP σε i-bays και λογαριασμούς χρηστών. Συνιστάται ιδιαιτέρως να διατηρείται η ρύθμιση "Ιδιωτική" στην παράμετρο αυτή, εκτός εάν υπάρχει συγκεκριμένος λόγος για το αντίθετο. <p> Σημείωση: ένας πελάτης ασφαλούς κελύφους sftp μπορεί επίσης να χρησιμοποιηθεί για την πρόσβαση στον διακομιστή, εάν ενεργοποιηθεί η δυνατότητα απομεμακρυσμένης πρόσβασης μέσω ασφαλούς κελύφους. Αυτή η μέθοδος προστατεύει τους κωδικούς πρόσβασης και τα δεδομένα της FTP συνεδρίας, σε αντιδιαστολή με το κοινό FTP που δεν προσφέρει καμία προστασία. </p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_PPTP</base>
+	<trans><![CDATA[ <hr class="sectionbar" /><h2>Ρυθμίσεις PPTP</h2> Μπορείτε να επιτρέψετε πρόσβαση PPTP στο διακομιστή σας. Εάν δεν επιθυμείτε PPTP πρόσβαση, θα πρέπει να αφήσετε αυτή τη δυνατότητα απενεργοποιημένη θέτοντας την τιμή 0. ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_VPN</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Ρυθμίσεις PPTP</h2> Μπορείτε να επιτρέψετε πρόσβαση PPTP στο διακομιστή σας. Εάν δεν επιθυμείτε PPTP πρόσβαση, θα πρέπει να αφήσετε αυτή τη δυνατότητα απενεργοποιημένη θέτοντας την τιμή 0. ]]></trans>
+    </entry>
+    <entry>
+	<base>VALUE_ZERO_OR_POSITIVE</base>
+	<trans>Η τιμή πρέπει να είναι 0 ή θετικός ακέραιος αριθμός</trans>
+    </entry>
+    <entry>
+	<base>REMOTE_MANAGEMENT</base>
+	<trans>Απομεμακρυσμένη Διαχείριση</trans>
+    </entry>
+    <entry>
+	<base>VALIDFROM_DESC</base>
+	<trans><![CDATA[ <hr class="sectionbar" /><h2>{$REMOTE_MANAGEMENT}</h2> <p>Μπορείτε να επιτρέψετε σε Η/Υ απομεμακρυσμένων δικτύων να προσπελάσουν το διαχειριστή του διακομιστή (server manager), εισάγοντας εδώ τα εν λόγω δίκτυα. Χρησιμοποιήστε τη μάσκα υποδικτύου 255.255.255.255 για να περιορίσετε τη δυνατότητα πρόσβασης από το συγκεκριμένο Η/Υ και μόνον. Οποιοσδήποτε Η/Υ εντός της προσδιορισμένης περιοχής θα έχει πρόσβαση στο διαχειριστή του διακομιστή χρησιμοποιώντας HTTPS.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_VALID_FROM_ENTRIES</base>
+	<trans>Για να προσθέσετε ένα νέο δίκτυο απομεμακρυσμένης διαχείρισης, πληκτρολογήστε τις λεπτομέρειες στη συνέχεια.</trans>
+    </entry>
+    <entry>
+	<base>SUBNET_MASK</base>
+	<trans>Μάσκα υποδικτύου</trans>
+    </entry>
+    <entry>
+	<base>NUM_OF_HOSTS</base>
+	<trans>Πλήθος Η/Υ</trans>
+    </entry>
+    <entry>
+	<base>NO_ENTRIES_YET</base>
+	<trans>Δεν υπάρχουν καταχωρήσεις επί του παρόντος</trans>
+    </entry>
+    <entry>
+	<base>INVALID_SUBNET_MASK</base>
+	<trans>Μη-έγκυρη μάσκα υποδικτύου</trans>
+    </entry>
+    <entry>
+	<base>ERR_INVALID_PARAMS</base>
+	<trans>Είτε δώστε στοιχεία για αμφότερα το δίκτυο και τη μάσκα υποδικτύου, ή αφήστε και τα δύο πεδία κενά.</trans>
+    </entry>
+    <entry>
+	<base>ERR_NO_RECORD</base>
+	<trans>Αδύνατος ο εντοπισμός πεδίου httpd-admin στην βάση δεδομένων ρυθμίσεων παραμέτρων συστήματος</trans>
+    </entry>
+    <entry>
+	<base>Remote access</base>
+	<trans>Απομεμακρυσμένη πρόσβαση</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERIAL_CONSOLE_ACCESS</base>
+        <trans>Σειριακή κονσόλα</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERIAL_CONSOLE_ACCESS</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Σειριακή κονσόλα</h2> Μπορείτε να επιτρέψετε την πρόσβαση στην κονσόλα του διακομιστή από ένα τερματικό συνδεδεμένο σε μία σειριακή θύρα του διακομιστή.]]></trans>
+    </entry>
+    <entry>
+        <base>PORT1_ENABLED</base>
+        <trans>Ενεργοποιημένη στη σειριακή θύρα 1</trans>
+    </entry>
+    <entry>
+        <base>PORT2_ENABLED</base>
+        <trans>Ενεργοποιημένη στη σειριακή θύρα 2</trans>
+    </entry>   
+
+    <entry>
+        <base>LABEL_PPTP_ACCESS</base>
+        <trans>Προεπιλεγμένη PPTP πρόσβαση χρήστη</trans>
+    </entry>
+    <entry>
+        <base>DESC_TELNET_ACCESS</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Ρυθμίσεις Telnet</h2> ΠΡΟΕΙΔΟΠΟΙΗΣΗ: Το Telnet είναι επί του παρόντος ενεργοποιημένο, αλλά δεν υποστηρίζεται πλέον. Το Telnet είναι εγγενώς επισφαλές και πρέπει να χρησιμοποιείται μόνο σε περιστάσεις όπου δεν υφίστανται εναλλακτικές πρακτικές. Πρέπει να αλλάξετε την επιλογή σε {$NO_ACCESS} και να χρησιμοποιήσετε περιβάλλον ασφαλούς κελύφους στην περίπτωση που απαιτείται απομεμακρυσμένη πρόσβαση. Εφόσον απενεργοποιηθεί, το telnet δεν θα εμφανίζεται πλέον στην παρούσα σελίδα. ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_IPSECRW</base>
+	<trans><![CDATA[ <h2>Ρύθμιση Πελάτη IPSEC (Roadwarrior)</h2> Μπορείτε να επιτρέψετε την πρόσβαση πελάτη IPSEC στο διακομιστή σας, που διαθέτει ψηφιακή πιστοποίηση γνησιότητας. Εάν δεν επιθυμείτε πρόσβαση πελατών IPSEC, θα πρέπει να αφήσετε αυτή τη δυνατότητα απενεργοποιημένη θέτοντας την τιμή 0. ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_IPSECRW_SESS</base>
+	<trans>Πλήθος πελατών IPSEC</trans>
+    </entry>
+    <entry>
+	<base>DESC_IPSECRW_RESET</base>
+	<trans><![CDATA[Εάν επιθυμείτε την αρχικοποίηση (reset) όλων των ψηφιακών πιστοποιητικών, μπορείτε να το κάνετε εδώ.<br>Οποιαδήποτε παλαιά πιστοποιητικά δεν θα παρέχουν πλέον πιστοποίηση γνησιότητας έναντι του διακομιστή, ως εκ τούτου <b><i>κάθε πελάτης IPSEC θα χρειαστεί να εισάγει νέο πιστοποιητικό!</i></b>. ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_IPSECRW_RESET</base>
+	<trans>Αρχικοποίηση ψηφιακών πιστοποιητικών</trans>
+    </entry>
+    <entry>
+        <base>DESC_IPSEC_VPN_UNAVAILABLE</base>
+        <trans>IPSEC VPN is not installed. Please install the contrib if you need VPN access.</trans>
+    </entry>
+</lexicon>

@@ -1,0 +1,83 @@
+<lexicon lang="zh-cn">
+    <entry>
+        <base>View log files</base>
+        <trans>查看日志文件</trans>
+    </entry>
+
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[在这个面板，您可以查看或下载服务器的日志文件。]]></trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_SELECT_DESC</base>
+        <trans>请选择要查看的日志文件</trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>您可以随意指定一个过滤器以便从日志文件中只显示符合条件的行。若将此字段留空，则显示所有行。注意，当您要下载日志文件时，一般不用此选项。</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_LABEL</base>
+        <trans>过滤器(可选)</trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>您也可以随意指定高亮显示模式，以便从日志文件中以粗体标记符合条件的行。高亮显示模式适用于任何已过滤的行。 注意，当您要下载日志文件时，一般不用此选项。</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_LABEL</base>
+        <trans>高亮显示模式(可选)</trans>
+    </entry>
+    <entry>
+        <base>END_DESC</base>
+        <trans>请注意，生成这些报表可能花费较长时间。</trans>
+    </entry>
+    <entry>
+        <base>VIEW</base>
+        <trans>查看日志文件</trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_EMPTY</base>
+        <trans>日志文件 "{$filename}" 是空的！</trans>
+    </entry>
+    <entry>
+        <base>VIEWING_TIME</base>
+        <trans>在 {$time} 查看。</trans>
+    </entry>
+    <entry>
+        <base>MATCH_HEADER</base>
+        <trans>显示匹配 "{$matchPattern}"的行。</trans>
+    </entry>
+    <entry>
+        <base>HIGHLIGHT_HEADER</base>
+        <trans>高亮显示匹配"{$highlightPattern}"的行。</trans>
+    </entry>
+    <entry>
+        <base>NO_MATCHING_LINES</base>
+        <trans>没有匹配的行。</trans>
+    </entry>
+    <entry>
+        <base>FILENAME_ERROR</base>
+        <trans><![CDATA[ <p>指定日志文件名称时出错。</p> <p>无效的报表类型 "{$filename}"。</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>REFRESH</base>
+	<trans>刷新此日志文件</trans>
+    </entry>
+    <entry>
+	<base>OP_DESC</base>
+	<trans><![CDATA[ <p>您必须选择是查看还是下载日志文件到您的电脑上。如果日志文件特别大，您或许要下载它而不是在浏览器中打开它。因为在某些浏览器上打开大文件会有一点麻烦。</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>OP_LABEL</base>
+	<trans>操作</trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_PAGE_DESC</base>
+	<trans><![CDATA[ <p>您要下载的日志文件已经准备好，请点击下面的 &quot;下一步&quot; 来执行下载,请确保您的浏览器允许弹出窗口。</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_FILE</base>
+	<trans>正在准备下载日志文件{$logfile}。</trans>
+    </entry>
+</lexicon>

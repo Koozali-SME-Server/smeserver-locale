@@ -1,0 +1,84 @@
+<lexicon lang="tr">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Kullanıcı gurubu oluştur, değiştir veya sil</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_TOO_LONG</base>
+        <trans>Hata: grup adı çok uzun.En fazla {$maxLength} karakterden oluşmalıdır.</trans>
+    </entry>    
+    <entry>
+        <base>ACCOUNT_CONFLICT</base>
+        <trans>Hata: "{$group}" gurubu oluşturulamıyor, {$type} hesabına ait aynı grup var.</trans>
+    </entry>    
+    <entry>
+        <base>INVALID_GROUP_DESCRIPTION</base>
+        <trans>Hata: grup açıklamasında geçersiz karakter(ler) bulunuyor</trans>
+    </entry>
+    <entry>
+        <base>NO_MEMBERS</base>
+        <trans>Hata: grupta üye bulunamadı. Yeni grup oluşturulamıyor.</trans>
+    </entry>
+    <entry>
+        <base>CREATED_GROUP</base>
+        <trans>Kullanıcı gurubu başarıyla oluşturuldu</trans>
+    </entry> 
+    <entry>
+        <base>DELETED_GROUP</base>
+        <trans>Kullanıcı gurubu başarıyla silindi</trans>
+    </entry> 
+    <entry>
+        <base>MODIFIED_GROUP</base>
+        <trans>Kullanıcı gurubu başarıyla değiştirildi</trans>
+    </entry>	
+    <entry>
+        <base>CREATE_ERROR</base>
+        <trans>Kullanıcı gurubu oluşturulurken hata oluştu</trans>
+    </entry> 
+    <entry>
+        <base>DELETE_ERROR</base>
+        <trans>Kullanıcı gurubu silinirken hata oluştu</trans>
+    </entry> 
+    <entry>
+        <base>MODIFY_ERROR</base>
+        <trans>Kullanıcı gurubu değiştirilirken hata oluştu</trans>
+    </entry>	
+    <entry>
+        <base>GROUP_NAMING</base>
+        <trans><![CDATA[ Grup adı küçük harfler, rakamlar, tire, nokta, ve alt çizgiden oluşmalıdır, ve küçük harfle başlamalıdır. Örneğin "sales", "beta5", ve "reseller_partners" geçerli grup isimleridir, fakat "3rd-event", "Marketing Team", ve "lost&found" grçersizdir. ]]></trans>
+    </entry>
+    <entry>
+        <base>GROUP_HAS_MEMBERS</base>
+        <trans>Bu gurubun üyeleri:</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_GROUP</base>
+        <trans>Hata: Bu grup mevcut değil.</trans>
+    </entry>
+    <entry>
+        <base>GROUP_DESC</base>
+        <trans>Kısa Açıklama/Windows Grubu Takma Adı</trans>
+    </entry>
+   <entry>
+        <base>GROUP_DESC_EXPL</base>
+        <trans>Aşağıdaki alana kısa bir grup açıklaması giriniz. Bu alan aynı zamanda Windows istemcileri tarafından görülebilen grup adıdır.</trans>
+   </entry>
+
+
+    <entry>
+        <base>IBAYS_WILL_BE_CHANGED</base>
+        <trans>Listedeki i-bays bu guruba bağlanmıştır ve Yönetici gurubuna bağlamıştır (daha sonra bunların bağlı olduğu gurubu değiştirebilirsiniz):</trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DELETE_GROUP</base>
+        <trans><![CDATA[ <p><b>Bu gurubu silmek istediğinizden eminmisiniz?</b></p> ]]></trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST</base>
+        <trans><![CDATA[<p>Mevcut Kullanıcı Gurupların listesi</p>]]></trans>
+    </entry>
+    <entry>
+		<base>DELETE_DESCRIPTION</base>
+       	<trans><![CDATA[ "<b>{$group}</b> gurubunu silmek üzeresiniz." ]]></trans>
+    </entry>
+</lexicon>

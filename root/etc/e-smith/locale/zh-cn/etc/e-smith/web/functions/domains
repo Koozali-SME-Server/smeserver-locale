@@ -1,0 +1,141 @@
+<lexicon lang="zh-cn" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>域名管理</trans>
+    </entry>
+    <entry>
+        <base>FORM_DESCRIPTION</base>
+        <trans><![CDATA[ <p>每当创建一个域名，服务器将会收到一份该域名的邮件，并可以为此域名建立网站。</p> <p><a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CREATE">添加域名</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>系统中暂时还没有域名。</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST_OF_DOMAINS</base>
+        <trans>当前域名列表</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_SITE</base>
+        <trans>主站点</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>{$content} i-bay</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>创建一个新域名</trans>
+    </entry>
+    <entry>
+        <base>CONTENT_FIELD_DESCRIPTION</base>
+        <trans>对于web站点，您可以选择您的主站点或者i-bay作为网站的内容。</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME_VALIDATION_ERROR</base>
+        <trans>错误：在domain名称{$domainName}中缺少必要的字符。此domain名称应该包含一个或者多个字母、数字、句点和分隔号。未能创建新domain。</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_DESCRIPTION_VALIDATION_ERROR</base>
+        <trans>错误：在domain名称{$domainDesc}中缺少必要的字符。未能创建新域。</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_IN_USE_ERROR</base>
+        <trans>错误：domain {$domainName} 已在使用中。未能创建新域。</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_DOMAIN_ERROR</base>
+        <trans>错误：域 {$domainName}是您系统的域名。您不能创建一个同名域。未能创建新域。</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>成功修改了域{$domainName}。您的web服务器现正重新启动。此页面上的链接将会失效，直到web服务器重启完毕。</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_TITLE</base>
+        <trans>修改domain</trans>
+    </entry>
+    <entry>
+        <base>NONEXISTENT_DOMAIN_ERROR</base>
+        <trans>错误: {$domainName} 已经存在。</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>成功修改了域名{$domainName}。Web服务器正在重新启动。此页面上的链接将会失效，直到web服务器重启完毕。</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>删除域名</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESCRIPTION</base>
+        <trans><![CDATA[ <p> 即将删除域名 {$domain} ({$domainDesc}). </p> <p> <b>是否真的要删除这个域名？</b> </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_REMOVING_DOMAIN</base>
+        <trans>错误：删除域名 {$domain} 时出现内部错误。</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>成功删除域名{$domain}。Web服务器正在重新启动。此页面上的链接将会失效，直到web服务器重启完毕。</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS_CURRENT</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Corporate DNS 设置</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>BUTTON_CORPORATE_DNS</base>
+        <trans><![CDATA[ <p>如果服务器不访问因特网，或者您对于DNS解析有特别的需要，请在此处输入DNS服务器IP地址。您不需要在此处输入ISP的DNS服务器地址，因为本服务器可以解析所有因特网域名而不需要附加设置。</p> <p> <a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CORPORATE_DNS">修改DNS设置</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS</base>
+        <trans>如果服务器没有接入因特网，或者对于DNS解析有特别的需要，请在此处输入DNS服务器的IP地址。除非有特别的原因，这些字段应该留空。您不需要在此处输入ISP的DNS服务器，因为本服务器可以解析所有因特网域名而不需要额外设置。</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_PRIMARY</base>
+        <trans>主DNS服务器</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_SECONDARY</base>
+        <trans>第二DNS服务器</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_NAMESERVERS</base>
+        <trans>域名解析既可以通过本地缓存外部DNS服务器，也可以直接被外部DNS服务器解析。默认值适用于大多数网络。</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_NAMESERVERS</base>
+        <trans>DNS服务器</trans>
+    </entry>
+
+    <entry>
+        <base>localhost</base>
+        <trans>本地解析</trans>
+    </entry>
+
+    <entry>
+        <base>internet</base>
+        <trans>外部DNS服务器</trans>
+    </entry>
+
+    <entry>
+        <base>corporate</base>
+        <trans>外部DNS服务器</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>即将删除域：</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans>您真的要删除这个域吗？</trans>
+    </entry>
+
+</lexicon>

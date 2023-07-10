@@ -1,0 +1,174 @@
+<lexicon lang="th" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>สร้าง แก้ไข หรือลบ i-bay</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> <a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify">เพิ่ม i-bay</a> </p><p> คุณสามารถลบ หรือเปลี่นรหัสผ่าน information bay ใดๆ โดยการคลิ๊กคำสั่งถัดจากรายชื่อของ information bay นั้นๆ ถ้ารายการ information bay ใดเป็นสีแดงแสดงว่ายังไม่ได้เปลี่ยนรหัสผ่านจากค่าปริยายเป็นอย่างอื่น และควารทำการเปลี่ยนให้เร็วที่สุด</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>สร้างหรือแก้ไข i-bay</trans>
+    </entry>
+    <entry>
+        <base>NAME_FIELD_DESC</base>
+        <trans>ชื่อ i-bay จะต้องประกอบด้วยตัวอักษรตัวพิมพ์เล็ก (ภาษาอังกฤษ) ตัวเลข จุด (.) ขีดล่าง (_) ยัติภังค์ (-) และต้องเริ่มต้นด้วยตัวอักษรเท่านั้น ตัวอย่างที่ถูกต้อง เช่น "johnson", "intra", และ "cust3.prj12" ส่วนที่ไม่ถูกต้อง เช่น "3associates", "John Smith" และ "Bus!Partner" เป็นต้น ชื่อ i-bay จะมีความยาวได้สูงสุด {$maxLength} ตัวอักษร</trans>
+    </entry>
+    <entry>
+        <base>NAME_LABEL</base>
+        <trans>ชื่อ information bay</trans>
+    </entry>
+    <entry>
+        <base>USER_ACCESS</base>
+        <trans>การใช้งาน การแชร์ไฟล์ และ ftp ของผู้ใช้</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS</base>
+        <trans>การเข้าถึงแบบสาธารณะ (public access) ผ่านหน้าเว็บ และ anonymous ftp</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS_DESCRIPTION</base>
+        <trans>ระบบเซอร์ฟเวอร์ FTP ไม่มาความสามารถใช้งานการเข้าถึงแบบสาธารณะในโหมด "ต้องกรอกรหัสผ่านหากมาจากนอกเครือข่ายท้องถิ่น" ได้ ดังนั้นถ้าคุณเลือกโหมดนี้ เซอร์เวอร์ FTP จะทำงานในแบบ ต้องกรอกรหัสผ่านทั้งจากภายในและภายนอกเครือข่ายท้องถิ่น ให้ i-bay นี้แทน</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_DYNAMIC_CONTENT</base>
+        <trans>การประมวลผลเนื้อหาเว็บชนิด dynamic content (CGI, PHP, SSI)</trans>
+    </entry>
+	<entry>
+        <base>HTTPS_Only</base>
+        <trans>Force secure connections</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>ลบ information bay</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans><![CDATA[ <p>คุณกำลังจะลบ information bay ชื่อ "{$name}" ({$description})</p> <p>ทุกไฟล์ใน information bay นี้จะถูกลบทั้งหมด</p> <p>คุณแน่ใจหรือว่าต้องการจะลบ information นี้? </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_IBAY</base>
+        <trans>เกิดข้อผิดพลาดขณะสร้าง i-bay</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED_IBAY</base>
+        <trans>สร้าง i-bay เสร็จแล้ว</trans>
+    </entry>
+    <entry>
+        <base>NO_IBAYS</base>
+        <trans>ไม่มี i-bay ที่กำลังถูกตั้งค่า</trans>
+    </entry>
+    <entry>
+        <base>CANT_FIND_IBAY</base>
+        <trans>ไม่พบบัญชี {$name} (มันมีอยู่หรือไม่?)</trans>
+    </entry>
+    <entry>
+        <base>CANT_CREATE_IBAY</base>
+        <trans>ไม่สามารถสร้างบัญชีให้กับ {$name} (มันมีอยู่แล้วหรือไม่?)</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_IBAY</base>
+        <trans>เกิดข้อผิดพลาดขณะเปลี่ยนแปลง i-bay</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED_IBAY</base>
+        <trans>ปรับปรุง i-bay เสร็จแล้ว</trans>
+    </entry>
+    <entry>
+        <base>VIRTUAL_HOST_MESSAGE</base>
+        <trans>โดเมนเสมือน (virtual domain) ที่ตั้งให้ใช้ information bay นี้เป็นที่เก็บข้อมูลของมัน จะถูกเปลี่ยนไปใช้ข้อมูลจาก primary web site แทน (คุณสามารถแก้ไขเป็นอย่างอื่นภายหลังได้)</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED_IBAY</base>
+        <trans>ลบ i-bay เสร็จแล้ว</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_IBAY</base>
+        <trans>เกิดข้อผิดพลาดขณะทำการลบ i-bay</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_DESC</base>
+        <trans>คุณกำลังจะเปลี่ยนรหัสผ่านของ i-bay ชื่อ {$name}</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VALIDATION_ERROR</base>
+        <trans>รหัสผ่านอาจประกอบด้วยตัวอักษรและตัวเลข</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VERIFY_ERROR</base>
+        <trans>รหัสผ่านไม่ตรงกัน</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_RESET_PASSWORD</base>
+        <trans>รีเซ็ตรหัสผ่านเรียบร้อย</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_RESETTING_PASSWORD</base>
+        <trans>ข้อผิดพลาดขณะกำหนดรหัสผ่านใหม่</trans>
+    </entry>
+    <entry>
+        <base>VHOST_MESSAGE</base>
+        <trans><![CDATA[ <P>โดเมนเสมือน (virtual domain) ที่ตั้งให้ใช้ information bay นี้เป็นที่เก็บข้อมูลของมัน จะถูกเปลี่ยนไปใช้ข้อมูลจาก primary web site แทน (คุณสามารถแก้ไขเป็นอย่างอื่นภายหลังได้) :</P> <ul>{$vhostList}</ul> ]]></trans>
+    </entry>
+    <entry>
+        <base>Information bays</base>
+        <trans>Information bays</trans>
+    </entry>
+    <entry>
+        <base>WGRG</base>
+        <trans>เขียน = เฉพาะในกลุ่ม, อ่าน = เฉพาะในกลุ่ม</trans>
+    </entry>
+    <entry>
+        <base>WGRE</base>
+        <trans>เขียน = เฉพาะในกลุ่ม, อ่าน = ทุกคน</trans>
+    </entry>
+    <entry>
+        <base>WARG</base>
+        <trans>เขียน = ผู้ดูแลระบบ, อ่าน = เฉพาะในกลุ่ม</trans>
+    </entry>
+    <entry>
+        <base>NONE</base>
+        <trans>ไม่เปิดให้เข้าถึง</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_NO_PASSWORD</base>
+        <trans>เฉพาะในเครือข่ายท้องถิ่น (ไม่ต้องกรอกรหัสผ่าน)</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_PASSWORD</base>
+        <trans>เฉพาะในเครือข่ายท้องถิ่น (ต้องกรอกรหัสผ่าน)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_NO_PASSWORD</base>
+        <trans>ทั้งอินเตอร์เน็ต (ไม่ต้องกรอกรหัสผ่าน)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD</base>
+        <trans>ทั้งอินเตอร์เน็ต (ต้องกรอกรหัสผ่าน)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD_REMOTE</base>
+        <trans>ทั้งอินเตอร์เน็ต (ต้องกรอกรหัสผ่านถ้ามาจากภายนอกเครือข่ายท้องถิ่น)</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IBAY_DESCRIPTION</base>
+        <trans>ข้อผิดพลาด: ไม่ระบุหรือไม่ได้กรอกรายละเอียดของ i-bay </trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>ชื่อ i-bay "{$acctName}" มีอักขระที่ไม่ถูกต้อง ชื่อ i-bay ต้องต้องเริ่มต้นด้วยตัวอักษรตัวพิมพ์เล็ก (ภาษาอังกฤษ) ตัวเลข และเครื่องหมายยัติภังค์ (-) เท่านั้น</trans>
+    </entry>
+    <entry>
+        <base>MAX_IBAY_NAME_LENGTH_ERROR</base>
+        <trans>ชื่อ i-bay "{$acctName}" ยาวเกินไป ความยาวสูงสุดคือไม่เกิน{$maxIbayNameLength} ตัวอักษร</trans>
+    </entry>
+    <entry>
+        <base>ACCT_CLASHES_WITH_PSEUDONYM</base>
+        <trans><![CDATA[ ชื่อบั๙ชี "{$acctName}" ชนกันกับนามแฝงของ {$acctType} ของบัญชีที่ชื่อ "{$acct}" <p>ชื่อ {$acctName} ความผิดพลาดที่จะเกิดคือชื่อนี้จะถูกแปลความเป็นนามแฝงของ {$acct} ไป</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_EXISTS</base>
+        <trans>บัญชีชื่อ "{$acctName}" ปรากฏว่าถูกใช้ไปแล้วโดย {$acctType}</trans>
+    </entry>
+</lexicon>

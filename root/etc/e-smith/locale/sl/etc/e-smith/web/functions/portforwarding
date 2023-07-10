@@ -1,0 +1,114 @@
+<lexicon lang="sl">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Nastavi posredovanje TCP/UDP vrat na lokalni IP naslov</trans>
+    </entry>
+    <entry>
+        <base>FIRST_PAGE_DESCRIPTION</base>
+        <trans><![CDATA[ <p> Na tej strani lahko spremenite nastavitve pozarnega zidu tako, da odprete dolocena vrata in posredujete na zeljena vrata racunalnika v vasem lokalnem omrezju. Na ta nacin boste omogocili vstopnim podatkom direkten dostop do zeljenega racunalnika v vasem lokalnem omrezju. </p> <p> OPOZORILO: Napacna uporaba te lastnosti lahko resno ogrozi varnost vasega omrezja. Ne uporabljajte te funkcije, ce niste popolnoma prepricani v to kar spreminjate in se zavedate posledic vasega dejanja. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>CREATE_RULE</base>
+        <trans>Create portforwarding rule</trans>
+    </entry>
+    <entry>
+        <base>SUMMARY_ADD_DESC</base>
+        <trans>Spodaj je izpisano pravilo o posredovanju vrat, ki ga pravkar zelite dodati. Ce se s pravilom strinjate, izberite gumb &quot;Dodaj&quot;. Ce s pravilom niste zadovoljni, pritisnite gumb &quot;Preklici&quot;.</trans>
+    </entry>
+    <entry>
+        <base>SUMMARY_REMOVE_DESC</base>
+        <trans>Spodaj je izpisano pravilo o posredovanju vrat, ki ga pravkar zelite odstraniti. Ce ste prepricani, da zelite to pravilo odstraniti, izberite gumb &quot;Odstrani&quot;, sicer izberite gumb &quot;Preklici&quot;.</trans>
+    </entry>
+    <entry>
+        <base>SHOW_FORWARDS</base>
+        <trans>Spodaj so izpisana trenutno omogocena pravila o posredovanju vrat. Ce bi zeleli katero izmed teh odstraniti, kliknite na povezavo &quot;Odstrani&quot; na desni strani opisa posameznega pravila.</trans>
+    </entry>
+    <entry>
+        <base>NO_FORWARDS</base>
+        <trans>V sistemu ni konfiguriranega nobenega pravila za posredovanje vrat.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_PAGE_DESCRIPTION</base>
+        <trans><![CDATA[ <p> Izberite vrsto protokola, stevilo vrat, IP naslov ciljnega racunalnika v lokalnem omrezju na katerega zelite promet preusmeriti. Ce zelite preusmeriti obseg vrat, vpisite spodnjo vrednost, pomisljaj in zgornjo vrednost (npr. 4899-5910). Stevilko ciljnih vrat lahko pustite prazno, kar bo pomenilo, da bo pozarni zid za st. ciljnih vrat uposteval enako, kot za izvor.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SOURCE_PORT</base>
+        <trans>St. izvornih vrat</trans>
+    </entry>
+    <entry>
+        <base>LABEL_PROTOCOL</base>
+        <trans>Protokol</trans>
+    </entry>
+    <entry>
+        <base>LABEL_DESTINATION_PORT</base>
+        <trans>St. ciljnih vrat</trans>
+    </entry>
+    <entry>
+        <base>LABEL_DESTINATION_HOST</base>
+        <trans>IP naslov ciljnega racunalnika</trans>
+    </entry>
+    <entry>
+        <base>LABEL_RULE_COMMENT</base>
+        <trans>Rule Comment</trans>
+    </entry>
+    <entry>
+        <base>LABEL_ALLOW_HOSTS</base>
+        <trans>Gostitelji</trans>
+    </entry>
+    <entry>
+        <base>Port forwarding</base>
+        <trans>Posredovanje vrat</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Vase spremembe pri posredovanju vrat so bile uspesno shranjene.</trans>
+    </entry>
+    <entry>
+        <base>RULE_COMMENT</base>
+        <trans>Rule Comment</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_HOSTS</base>
+        <trans>Gostitelji</trans>
+    </entry>
+    <entry>
+        <base>ERR_NO_MASQ_RECORD</base>
+        <trans>Ne morem izlusciti masq zapisa iz baze.</trans>
+    </entry>
+    <entry>
+        <base>ERR_UNSUPPORTED_MODE</base>
+        <trans>Nepodprti nacin dela.</trans>
+    </entry>
+    <entry>
+        <base>ERR_CANNOT_REMOVE_NORULE</base>
+        <trans>Ne morem odstraniti pravila, ki ne obstaja.</trans>
+    </entry>
+    <entry>
+        <base>ERR_NONZERO_RETURN_EVENT</base>
+        <trans>Dogodek je vrnil napako.</trans>
+    </entry>
+    <entry>
+        <base>ERR_BADPORT</base>
+        <trans>St. vrat mora pozitivno celo stevilo manjse od 65536.</trans>
+    </entry>
+    <entry>
+        <base>ERR_BADIP</base>
+        <trans>Stevilka, ki ste jo vnesli ni podobna IP stevilki. Vpisati morate stiri stevilke locene z piko, stevilke pa morajo biti manjse od 256. (Npr.192.168.0.5)</trans>
+    </entry>
+    <entry>
+        <base>ERR_DUPRULE</base>
+        <trans>To pravilo je ze bilo dodano. Istega pravila ne morete dodati se enkrat.</trans>
+    </entry>
+    <entry>
+        <base>ERR_PORT_COLLISION</base>
+        <trans>NAPAKA: Ta vrata ali obseg vrat je v konfliktu z obstojecim pravilom. Prosimo spremenite to pravilo ali odstranite obstojece.</trans>
+    </entry>
+    <entry>
+        <base>ERR_BADAHOST</base>
+        <trans>This does not appear to be a valid IP address list. ie: 192.168.0.1,192.168.1.1/24</trans>
+    </entry>
+    <entry>
+        <base>IN_SERVERONLY</base>
+        <trans>Ta streznik je trenutno v nacinu samo-streznik, kjer posredovanje vrat ni mogoce.</trans>
+    </entry>
+</lexicon>

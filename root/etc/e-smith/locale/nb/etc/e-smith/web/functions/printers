@@ -1,0 +1,147 @@
+<lexicon lang="nb">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Legg til eller fjern skrivere</trans>
+    </entry>
+    <entry>
+      <base>INITIAL_DESC</base>
+      <trans><![CDATA[ <P><A class="button-like" HREF="printers?page=0&Next=Add">Legg til skriver</A></P> ]]></trans>
+    </entry>
+    <entry>
+      <base>NO_PRINTERS</base>
+      <trans>Det er ingen skrivere på systemet.</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_LIST</base>
+      <trans>Gjeldende liste over skrivere</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_ADDRESS</base>
+      <trans>Fjernadresse</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_NAME</base>
+      <trans>Fjernnavn</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NEW_PRINTER</base>
+      <trans>Opprett en ny skriver</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NEW_DESC</base>
+      <trans>Velg et unikt navn på skriveren, og oppgi en kort beskrivelse. Skrivernavnet kan bare bestå av små bokstaver og tall, og må starte med en liten bokstav. f.eks. er "hplaser", "epsonlp" og "canonbj" gyldige navn, mens "HP Laser Jet", Canon BubbleJet" og "HP Jetdirect Printer" ikke er det. unngå navn og beskrivelser som inneholder følgende uttrykk, "offline", "disabled", "down", "off", "waiting", "jam", "paper", "error" og "responding". tilsvarende ord på andre språk bør også unngås.</trans>
+    </entry>
+    <entry>
+      <base>PRINTER_NAME</base>
+      <trans>Skrivernavn</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_0</base>
+      <trans>Lokal skriverport 0 (LPT1)</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_1</base>
+      <trans>Lokal skriverport 1 (LPT2)</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_2</base>
+      <trans>Lokal skriverport 2 (LPT3)</trans>
+    </entry>
+    <entry>
+      <base>NET_PRINTER</base>
+      <trans>Nettverksskriver ...</trans>
+    </entry>
+    <entry>
+      <base>FIRST_USB_PRINTER</base>
+      <trans>Første tilkoblede USB skriver</trans>
+    </entry>
+    <entry>
+      <base>SECOND_USB_PRINTER</base>
+      <trans>Andre tilkoblede USB skriver</trans>
+    </entry>
+    <entry>
+      <base>ERR_UNEXPECTED_NAME</base>
+      <trans><![CDATA[ <P>Feil: uventede tegn i skrivernavnet.</P> <P>Skrivernavnet kan bare inneholde små bokstaver og tall, og må starte med en liten bokstav. F.eks. er "hplaser", "epsonlp", og "canonbj" gyldige navn.</P> ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_UNEXPECTED_DESC</base>
+      <trans>Feil: uventet eller manglende tegn i beskrivelsen. Skriveren ble ikke lagt til.</trans>
+    </entry>
+    <entry>
+      <base>ERR_EXISTS</base>
+      <trans>Feil: en konto med det samme navnet eksisterer med type:</trans>
+    </entry>
+    <entry>
+      <base>ERR_INVALID_ADDRESS</base>
+      <trans>Feil: ugyldig nettverksadresse. Skriveren ble ikke opprettet</trans>
+    </entry>
+    <entry>
+      <base>ERR_INVALID_REMOTE_NAME</base>
+      <trans>Feil: ugyldig skrivernavm. Skriveren ble ikke opprettet</trans>
+    </entry>
+    <entry>
+      <base>ERR_CREATING</base>
+      <trans>En feil oppsto uder opprettelsen av printeren.</trans>
+    </entry>
+    <entry>
+      <base>CREATED_SUCCESSFULLY</base>
+      <trans>Skriveren er opprettet:</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NETWORK_PRINTER</base>
+      <trans>Opprett en ny nettverksskriver</trans>
+    </entry>
+    <entry>
+      <base>ERR_OPENING_DB</base>
+      <trans>En feil oppsto under åpning av konto databasen.</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NETWORK_DESC</base>
+      <trans>Skriv inn adressen og navnet til nettverksskriveren</trans>
+    </entry>
+    <entry>
+      <base>HOSTNAME_OR_IP</base>
+      <trans>Maskinnavn eller IP adressen til nettverksskriveren</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_NAME_DESC</base>
+      <trans><![CDATA[ Nettverk skrivernavn (bruk raw hvis du er usikker) ]]></trans>
+    </entry>
+    <entry>
+      <base>REMOVE_PRINTER</base>
+      <trans>Fjern skriver</trans>
+    </entry>
+    <entry>
+      <base>ABOUT_TO_REMOVE</base>
+      <trans>Du er i ferd med å fjerne skriveren:</trans>
+    </entry>
+    <entry>
+      <base>SPOOL_FILE_WARNING</base>
+      <trans>Alle utskriftskøer til skriveren vil bli slettet.</trans>
+    </entry>
+    <entry>
+      <base>ARE_YOU_SURE</base>
+      <trans>Er du sikker på at du vil slette skriveren?</trans>
+    </entry>
+    <entry>
+      <base>ERR_INTERNAL_FAILURE</base>
+      <trans>Feil: Intern feil under fjerning av skriveren.</trans>
+    </entry>
+    <entry>
+      <base>ERR_DELETING</base>
+      <trans>En feil oppsto uder fjerning av printeren.</trans>
+    </entry>
+    <entry>
+      <base>DELETED_SUCCESSFULLY</base>
+      <trans>Skriveren er fjernet:</trans>
+    </entry>
+    <entry>
+        <base>MUST_BE_VALID_HOSTNAME_OR_IP</base>
+        <trans>Må være et gyldig maskinnavn eller IP adresse</trans>
+    </entry>
+    <entry>
+	<base>Printers</base>
+	<trans>Skrivere</trans>
+    </entry>
+
+</lexicon>

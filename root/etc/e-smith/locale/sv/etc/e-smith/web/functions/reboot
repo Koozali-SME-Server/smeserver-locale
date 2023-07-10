@@ -1,0 +1,42 @@
+<lexicon lang="sv">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Stäng av eller starta om</trans>
+    </entry>
+    <entry>
+	<base>REBOOT</base>
+	<trans>Starta om</trans>
+    </entry>
+    <entry>
+	<base>REBOOT_SUCCEEDED</base>
+	<trans>Omstart initierad.</trans>
+    </entry>
+    <entry>
+	<base>DESC_REBOOT</base>
+	<trans>Din server har initierat omstartsprocessen.</trans>
+    </entry>
+    <entry>
+	<base>RECONFIGURE_SUCCEEDED</base>
+	<trans>Omkonfigureringsbegäran har initierats.</trans>
+    </entry>
+    <entry>
+	<base>DESC_RECONFIGURE</base>
+	<trans>Din server har initierat en fullständig omkonfigurering och omstart av systemet.</trans>
+    </entry>
+    <entry>
+	<base>DESC_SHUTDOWN</base>
+	<trans>Din server har initierat en avstängningsprocess. Processen kommer pågå i flera minuter och därefter kan du stänga av strömmen.</trans>
+    </entry>
+    <entry>
+	<base>LABEL_REBOOT</base>
+	<trans>Välj Avstängning, Omstart eller Omkonfigurering</trans>
+    </entry>
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans><![CDATA[ Du kan starta om, stänga av eller utföra en fullständig omkonfigurering av systemet från denna skärm. Du måste genomföra en avstängning före det att du stänger av strömmen. Alla dessa funktioner tar flera minuter att genomföra. När du klickar på <b>Verkställ</b> kommer funktionen att påbörjas omedelbart, var beredd! ]]></trans>
+    </entry>
+    <entry>
+	<base>Reboot or shutdown</base>
+	<trans>Avstängning eller omstart</trans>
+    </entry>
+</lexicon>

@@ -1,0 +1,174 @@
+<lexicon lang="sl" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Ustvari, posodobi ali odstrani i-list</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> <a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify">Dodaj i-list</a> </p> <p> Odstranite lahko vsak informacijski list ali ponastaavite njegovo geslo s klikom na ustrezno povezavo ukaza zraven imena informacijskega lista. Ce je ime informacijskega lista izpisano rdece pomeni, da se niste zamenjali gesla s privzete vrednosti in bi ga bilo smiselno zamenjati cim prej. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>Dodaj ali uredi i-list</trans>
+    </entry>
+    <entry>
+        <base>NAME_FIELD_DESC</base>
+        <trans>Ime informacijskega lista sme vsebovati samo majhne crke, stevilke, pike, vezaje in podcrtaje, ter se zacne z majno crko. Npr. "novak", "inter" in "just4.you" so veljavna imena, imena "5tica", "Janez Novak" in "Novi!Partner" pa ne. Ime je omejeno na maksimalno {$maxLength} znakov.</trans>
+    </entry>
+    <entry>
+        <base>NAME_LABEL</base>
+        <trans>Ime informacijskega lista</trans>
+    </entry>
+    <entry>
+        <base>USER_ACCESS</base>
+        <trans>Uporabniski dostop v skupni rabi ali ftp</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS</base>
+        <trans>Javen spletni dostop ali anonimen FTP</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS_DESCRIPTION</base>
+        <trans>Javen dostop "uporabi geslo za omrezja zunaj lokalnega" ni podprt s strani FTP streznika. Ce boste izbrali ta nacin, bo FTP streznik zahteval geslo lokalnega in zunanjega omrezja za ta i-list.</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_DYNAMIC_CONTENT</base>
+        <trans>Izvajanje dinamicnih vsebin (CGI, PHP, SSI)</trans>
+    </entry>
+	<entry>
+        <base>HTTPS_Only</base>
+        <trans>Force secure connections</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Odstrani informacijski list</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans><![CDATA[ <p> Ste tik pred tem, da odstranite informacijski list "{$name}" ({$description}). </p> <p> Vse datoteke v tem informacijskem listu bodo izbrisane. </p> <p> Ali ste prepricani, da zelite odstraniti ta informacijski list? </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_IBAY</base>
+        <trans>Pri ustvarjanju i-lista je prislo do napake.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED_IBAY</base>
+        <trans>I-list je bil uspesno ustvarjen.</trans>
+    </entry>
+    <entry>
+        <base>NO_IBAYS</base>
+        <trans>Trenutno ni nobenega i-lista v sistemu.</trans>
+    </entry>
+    <entry>
+        <base>CANT_FIND_IBAY</base>
+        <trans>Ne najdem i-lista {$name} (ne obstaja?)</trans>
+    </entry>
+    <entry>
+        <base>CANT_CREATE_IBAY</base>
+        <trans>Ne morem dodati novega i-lista z imenom {$name} (ali to ime morda ze obstaja?)</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_IBAY</base>
+        <trans>Pri posodobitvi i-lista je prislo do napake.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED_IBAY</base>
+        <trans>I-list je bil uspesno posodobljen.</trans>
+    </entry>
+    <entry>
+        <base>VIRTUAL_HOST_MESSAGE</base>
+        <trans>Naslednje navidezne domene uporabljajo ta informacijski list za svojo vsebino in bodo preklopljene na primarno spletno stran (kasneje lahko to poljubno spreminjamo).</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED_IBAY</base>
+        <trans>I-list je bil uspesno odstranjen.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_IBAY</base>
+        <trans>Pri odstranjevanju I-lista je prislo do napake.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_DESC</base>
+        <trans>Ste tik pred tem, da spremenite geslo za i-list {$name}.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VALIDATION_ERROR</base>
+        <trans>Geslo lahko vsebuje samo crke in stevilke.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VERIFY_ERROR</base>
+        <trans>Gesli se ne ujemata.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_RESET_PASSWORD</base>
+        <trans>Geslo je bilo uspesno ponastavljeno.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_RESETTING_PASSWORD</base>
+        <trans>Pri ponastavljanju gesla je prislo do napake.</trans>
+    </entry>
+    <entry>
+        <base>VHOST_MESSAGE</base>
+        <trans><![CDATA[ <p> Naslednje navidezne domene uporabljajo vsebino tega i-lista za spletno stran. Sedaj bo uporabljena vsebina primarne spletne strani. (kasneje lahko to poljubno spremenite):</p> <ul>{$vhostList}</ul> ]]></trans>
+    </entry>
+    <entry>
+        <base>Information bays</base>
+        <trans>Informacijski listi</trans>
+    </entry>
+    <entry>
+        <base>WGRG</base>
+        <trans>Pisi = skupina, Beri = skupina</trans>
+    </entry>
+    <entry>
+        <base>WGRE</base>
+        <trans>Pisi = skupina, Beri = vsi</trans>
+    </entry>
+    <entry>
+        <base>WARG</base>
+        <trans>Pisi = admin, Beri = skupina</trans>
+    </entry>
+    <entry>
+        <base>NONE</base>
+        <trans>Brez dostopa</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_NO_PASSWORD</base>
+        <trans>Lokalno omrezje (brez gesla)</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_PASSWORD</base>
+        <trans>Lokalno omrezje (zahteva geslo)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_NO_PASSWORD</base>
+        <trans>Celoten internet (brez gesla)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD</base>
+        <trans>Celoten internet (zahteva geslo)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD_REMOTE</base>
+        <trans>Celoten internet (zahteva geslo samo zunaj lokalnega omrezja)</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IBAY_DESCRIPTION</base>
+        <trans>Napaka: nepricakovani alli manjkajoci znaki v opisu i-lista</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>Ime i-liste "{$acctName}" vsebuje neveljavne znake. Imena I-liste se morajo zaceti z majhno crko in morajo vsebovati samo majhne crke, stevilke in vezaje.</trans>
+    </entry>
+    <entry>
+        <base>MAX_IBAY_NAME_LENGTH_ERROR</base>
+        <trans>Ime i-liste "{$name}" je predolgo. Maksimalno stevilo znakov je {$maxIbayNameLength}.</trans>
+    </entry>
+    <entry>
+        <base>ACCT_CLASHES_WITH_PSEUDONYM</base>
+        <trans><![CDATA[ Ime i-liste "{$acctName}" se ujema s psevdonimom podrobnosti za {$acctType} racun "{$acct}". <p>{$acctName} je psevdonim za {$acct}.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_EXISTS</base>
+        <trans>I-list "{$acctName}" je obstojeci {$acctType} racun.</trans>
+    </entry>
+</lexicon>

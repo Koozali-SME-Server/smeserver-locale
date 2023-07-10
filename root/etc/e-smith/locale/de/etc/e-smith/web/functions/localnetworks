@@ -1,0 +1,108 @@
+<lexicon lang="de">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>Local networks</base>
+        <trans>Lokale Netzwerke</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> Aus Sicherheitsgründen sind einige Funktionen auf Ihrem Server nur für das interne Netzwerk verfügbar. Trotzdem können Sie die Zugänge für unten aufgeführte zusätzliche lokale Netzwerksegmente freigeben, indem Sie diese unten aufführen. Bei den meisten Installationen sollten Sie dieses Feld leer lassen. </p> <p> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Netzwerk hinzufügen</a> </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>Lokales Netzwerk hinzufügen</trans>
+    </entry>
+    <entry>
+        <base>ADD_DESC</base>
+        <trans><![CDATA[ <p> Jeder Parameter muß in Form von #.#.#.# eingegeben werden (wobei jede # eine Zahl zwischen 0 und 255 ist). Die Server-Software wird die letzten Stellen automatisch mit 0 ersetzen (Host Identifier), um mit Hilfe der Subnetz-Maske eine korrekte Netzwerk-Definition zu garantieren. </p> <p> "Router" sollte die IP-Adresse des Routers im lokalen Netzwerk sein, über welchen weitere Netzwerke wie das Internet erreicht werden. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ADDRESS</base>
+        <trans>Netzwerk Adresse</trans>
+    </entry>
+    <entry>
+        <base>SUBNET_MASK</base>
+        <trans>Subnetz-Maske</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IP_ADDRESS</base>
+        <trans>Ungültige IP-Adresse</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SUBNET_MASK</base>
+        <trans>Ungültige Netzwerk-Maske</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Lokales Netzwerk entfernen</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Sie sind dabei, das folgende lokale Netzwerk zu entfernen.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_CONFIRM</base>
+        <trans>Sind Sie sicher, daß Sie dieses Netzwerk entfernen wollen?</trans>
+    </entry>
+    <entry>
+        <base>DEFAULT</base>
+        <trans>Standard</trans>
+    </entry>
+    <entry>
+        <base>NUMBER_OF_HOSTS</base>
+        <trans>Anzahl der Hosts</trans>
+    </entry>
+    <entry>
+        <base>NOT_ACCESSIBLE_FROM_LOCAL_NETWORK</base>
+        <trans>FEHLER: Auf die Router-Adresse {$networkRouter} kann nicht vom lokalen Netz zugegriffen werden. Das Netzwerk wurde nicht erstellt.</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_LOCAL</base>
+        <trans>FEHLER: Netzwerk {$network} (abgeleitet vom Netzwerk {$networkAddress} und Subnetz-Maske {$networkMask}) wird bereits als Lokal angesehen. Neues Netzwerk wurde nicht erstellt.</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_ADDED</base>
+        <trans>FEHLER: Netzwerk {$network} (abgeleitet vom Netzwerk {$networkAddress} und Subnetz-Maske {$networkMask}) wurde bereits hinzugefügt. Neues Netzwerk wurde nicht erstellt.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_CREATING_NETWORK</base>
+        <trans>Es ist ein Fehler beim Erstellen des Netzwerks aufgetreten.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Netzwerk {$network}/{$networkMask} wurde erfolgreich über den Router {$networkRouter} hinzugefügt.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_SINGLE_ADDRESS</base>
+        <trans>Netzwerk {$network}/{$networkMask}wurde erfolgreich über den Router {$networkRouter} hinzugefügt. Ihr Server stellt den lokalen Zugang für eine einzelne IP-Adresse {$network}zur Verfügung.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NETWORK_RANGE</base>
+        <trans>Netzwerk {$network}/{$networkMask}wurde erfolgreich über den Router {$networkRouter} hinzugefügt. Ihr Server stellt den lokalen Zugang für {$totalHosts} IP-Adressen von {$firstAddr} bis {$lastAddr} zur Verfügung.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NONSTANDARD_RANGE</base>
+        <trans><![CDATA[ <p> Netzwerk {$network}/{$networkMask} wurde erfolgreich über den Router {$networkRouter} hinzugefügt. </p> <p> Ihr Server stellt den lokalen Zugang für {$totalHosts} in einem IP-Adressbereich von {$firstAddr} bis {$lastAddr} zur Verfügung. </p> <p> Warnung: Der ProFTPd FTP Server kann die nicht standardmäßige Subnetz-Maske nicht verwenden. Die einfachere Angabe <b>{$simpleMask}</b> wird statt dessen benutzt. </p>]]></trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_REMOVED_NETWORK</base>
+        <trans>Netzwerk {$network}/{$networkMask} über den Router {$networkRouter} wurde erfolgreich entfernt.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_DELETING_NETWORK</base>
+        <trans>Fehler beim Löschen des Netzwerks aufgetreten.</trans>
+    </entry>
+    <entry>
+        <base>NO_ADDITIONAL_NETWORKS</base>
+        <trans>Keine zusätzlichen Netzwerke</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_DESC</base>
+        <trans>Lokale Hosts wurden gefunden, die im zu löschenden Netzwerkliegen. Diese werden standardmäßig mit gelöscht. Deaktivieren Sie diese Auswahl, wenn sie diesen Löschvorgang nicht wünschen. Beachten Sie aber, dass diese Hosts nicht mehr als lokal behandelt werden und dadurch nicht mehr erreichbar sind, nachdem das Netzwerksegment gelöscht wurde.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_LABEL</base>
+        <trans>Hosts vom Netzwerk entfernen</trans>
+    </entry>
+</lexicon>

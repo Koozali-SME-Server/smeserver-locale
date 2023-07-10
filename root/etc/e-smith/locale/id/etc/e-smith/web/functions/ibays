@@ -1,0 +1,174 @@
+<lexicon lang="id" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Buat, ubah atau hapus i-bay.</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> <a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify">Buat i-bay</a> </p> <p> Anda dapat menghapus information bay atau me-reset password-nya dengan meng-klik pada command yang ada di sebelah information bay. Jika warna information bay adalah merah, itu berarti password belum diubah dari default, dan harus diubah secepatnya. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>Buat atau mengubah i-bay.</trans>
+    </entry>
+    <entry>
+        <base>NAME_FIELD_DESC</base>
+        <trans>Nama information bay hanya boleh berisi huruf kecil, angka, titik, min (hyphen), dan garis bawah (underscore), dan harus dimulai dengan huruf kecil. Contoh yang benar :"johnson","intra" dan "cust3.prj12". Sedangkan "3associates","John Smith" dan "Bus!Partner" adalah salah. Panjang nama dibatasi {$maxLength} karakter.</trans>
+    </entry>
+    <entry>
+        <base>NAME_LABEL</base>
+        <trans>Nama Information Bay</trans>
+    </entry>
+    <entry>
+        <base>USER_ACCESS</base>
+        <trans>Akses pengguna melalui file sharing atau pengguna ftp</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS</base>
+        <trans>Akses umum melalui web atau ftp anonim</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS_DESCRIPTION</base>
+        <trans>Mode akses publik "password diperlukan diluar jaringan lokal" tidak didukung oleh komponen FTP server. Jika anda memilih mode ini, , server FTP server akan diperlukan password baik didalam maupun diluar jaringan lokal untuk i-bay ini.</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_DYNAMIC_CONTENT</base>
+        <trans>Jalankan konten dinamis (CGI, PHP, SSI)</trans>
+    </entry>
+	<entry>
+        <base>HTTPS_Only</base>
+        <trans>Force secure connections</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Hapus information bay</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans><![CDATA[ <p> Anda akan manghapus information bay "{$name}" ({$description}). </p> <p> Semua file pada information bay ini akan dihapus. </p> <p> Anda yakin menghapus information bay ini? </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_IBAY</base>
+        <trans>Error saat membuat i-bay</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED_IBAY</base>
+        <trans>Berhasil membuat i-bay.</trans>
+    </entry>
+    <entry>
+        <base>NO_IBAYS</base>
+        <trans>Tidak ada i-bay yang dikonfigurasi saat ini.</trans>
+    </entry>
+    <entry>
+        <base>CANT_FIND_IBAY</base>
+        <trans>Tidak ditemukan akun {$name} (apakah benar ada?)</trans>
+    </entry>
+    <entry>
+        <base>CANT_CREATE_IBAY</base>
+        <trans>Tak dapat membuat akun baru dengan nama {$name} (apakah nama tsb sudah ada?)</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_IBAY</base>
+        <trans>Error saat mengubah i-bay.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED_IBAY</base>
+        <trans>Berhasil mengubah i-bay.</trans>
+    </entry>
+    <entry>
+        <base>VIRTUAL_HOST_MESSAGE</base>
+        <trans><![CDATA[ <p>Virtual domain berikut ini menggunakan information bay ini sebagai konten dan akan diubah ke primary web (anda dapat mengubahnya kelak):</p> <ul>{$vhostList}</ul> ]]></trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED_IBAY</base>
+        <trans>Berhasil menghapus i-bay.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_IBAY</base>
+        <trans>Error saat menghapus i-bay.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_DESC</base>
+        <trans>Anda akan mengubah password i-bay {$name}.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VALIDATION_ERROR</base>
+        <trans>Password hanya boleh berisi huruf dan angka.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VERIFY_ERROR</base>
+        <trans>Password tidak sama.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_RESET_PASSWORD</base>
+        <trans>Berhasil mengubah password.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_RESETTING_PASSWORD</base>
+        <trans>Error saat mengubah password.</trans>
+    </entry>
+    <entry>
+        <base>VHOST_MESSAGE</base>
+        <trans><![CDATA[ <p>The following virtual domains were using this information bay as their content and will be changed to the primary web site (you can change them to something else afterward):</p> <ul>{$vhostList}</ul> ]]></trans>
+    </entry>
+    <entry>
+        <base>Information bays</base>
+        <trans>Information bays</trans>
+    </entry>
+    <entry>
+        <base>WGRG</base>
+        <trans>Write = group, Read = group</trans>
+    </entry>
+    <entry>
+        <base>WGRE</base>
+        <trans>Write = group, Read = everyone</trans>
+    </entry>
+    <entry>
+        <base>WARG</base>
+        <trans>Write = admin, Read = group</trans>
+    </entry>
+    <entry>
+        <base>NONE</base>
+        <trans>Tanpa akses</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_NO_PASSWORD</base>
+        <trans>Jaringan lokal (tidak perlu password)</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_PASSWORD</base>
+        <trans>Jaringan lokal (password diperlukan)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_NO_PASSWORD</base>
+        <trans>Seluruh Internet (tidak perlu password)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD</base>
+        <trans>Seluruh Internet (password diperlukan)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD_REMOTE</base>
+        <trans>Seluruh password (password diperlukan diluar jaringan lokal)</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IBAY_DESCRIPTION</base>
+        <trans>Error: karakter tak diharapkan atau hilang pada keterangan i-bay</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>Nama i-bay  "{$acctName}" mengandung karakter yang tidak dibolehkan. Nama I-bay harus dimulai dengan huruf kecil dan hanya mengandung huruf kecil, angka, dan hyphen (tanda minus).</trans>
+    </entry>
+    <entry>
+        <base>MAX_IBAY_NAME_LENGTH_ERROR</base>
+        <trans>Nama i-bay "{$name}" terlalu panjang. Maksimum adalah {$maxIbayNameLength} karakter.</trans>
+    </entry>
+    <entry>
+        <base>ACCT_CLASHES_WITH_PSEUDONYM</base>
+        <trans><![CDATA[ Akun "{$acctName}" bentrok dengan detail pseudonym untuk {$acctType} akun "{$acct}". <p>{$acctName} adalah pseudonym untuk {$acct}.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_EXISTS</base>
+        <trans>Akun "{$acctName}" adalah akun  {$acctType} yang telah ada.</trans>
+    </entry>
+</lexicon>

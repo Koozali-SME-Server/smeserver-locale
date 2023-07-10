@@ -1,0 +1,108 @@
+<lexicon lang="pl">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>Local networks</base>
+        <trans>Sieci lokalne</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ Ze względów bezpieczeństwa kilka usług na Twoim serwerze jest dostępnych tylko w Twojej sieci lokalnej. Możesz jednak przyznać te uprawnienia dostępu lokalnego dodatkowym sieciom, wymieniając je poniżej. Większość instalacji powinna pozostawić tę listę pustą.</P><P> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Dodaj sieć</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>Dodaj sieć lokalną</trans>
+    </entry>
+    <entry>
+        <base>ADD_DESC</base>
+        <trans><![CDATA[ Każdy parametr musi mieć postać #.#.#.# (każdy # to liczba od 0 do 255). Oprogramowanie serwera wyzeruje końcową część (identyfikator hosta) adresu sieciowego zgodnie z maską podsieci, aby upewnić się, że adres sieciowy jest prawidłowy. </P><P> „Router” powinien oznaczać adres IP routera w sieci lokalnej, przez który uzyskuje się dostęp do sieci dodatkowej. ]]></trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ADDRESS</base>
+        <trans>Adres sieciowy</trans>
+    </entry>
+    <entry>
+        <base>SUBNET_MASK</base>
+        <trans>Maska podsieci</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IP_ADDRESS</base>
+        <trans>Nieprawidłowy adres IP</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SUBNET_MASK</base>
+        <trans>Nieprawidłowa maska podsieci</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Usuń sieć lokalną</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Zamierzasz usunąć następującą sieć lokalną.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_CONFIRM</base>
+        <trans>Czy na pewno chcesz usunąć tę sieć?</trans>
+    </entry>
+    <entry>
+        <base>DEFAULT</base>
+        <trans>domyślny</trans>
+    </entry>
+    <entry>
+        <base>NUMBER_OF_HOSTS</base>
+        <trans>Liczba hostów</trans>
+    </entry>
+    <entry>
+        <base>NOT_ACCESSIBLE_FROM_LOCAL_NETWORK</base>
+        <trans>Błąd: adres routera {$networkRouter} jest niedostępny z sieci lokalnej. Nie dodano sieci.</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_LOCAL</base>
+        <trans>Błąd: sieć {$network} (utworzona z sieci {$networkAddress} i maski podsieci {$networkMask}) jest już uważana za lokalną. Nie dodano nowej sieci.</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_ADDED</base>
+        <trans>Błąd: sieć {$network} (utworzona z sieci {$networkAddress} i maski podsieci {$networkMask}) została już dodana. Nie dodano nowej sieci.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_CREATING_NETWORK</base>
+        <trans>Wystąpił błąd podczas tworzenia sieci.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Pomyślnie dodano sieć {$network}/{$networkMask} przez router {$networkRouter}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_SINGLE_ADDRESS</base>
+        <trans>Pomyślnie dodano sieć {$network}/{$networkMask} przez router {$networkRouter}. Twój serwer przyzna lokalne uprawnienia dostępu do pojedynczego adresu IP {$network}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NETWORK_RANGE</base>
+        <trans>Pomyślnie dodano sieć {$network}/{$networkMask} przez router {$networkRouter}. Twój serwer przyzna lokalne uprawnienia dostępu do {$totalHosts} adresów IP z zakresu od {$firstAddr} do {$lastAddr}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NONSTANDARD_RANGE</base>
+        <trans><![CDATA[ <p> Pomyślnie dodano sieć {$network}/{$networkMask} przez router {$networkRouter}. </p> <p> Twój serwer przyzna lokalne uprawnienia dostępu do {$totalHosts} adresów IP z zakresu od {$firstAddr} do {$lastAddr}. </p> <p> Ostrzeżenie: serwer FTP ProFTPd nie może obsłużyć tej niestandardowej maski podsieci. Zamiast tego zostanie użyta prostsza specyfikacja <b>{$simpleMask}</b>. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_REMOVED_NETWORK</base>
+        <trans>Pomyślnie usunięto sieć {$network}/{$networkMask} przez router {$networkRouter}.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_DELETING_NETWORK</base>
+        <trans>Wystąpił błąd podczas usuwania sieci.</trans>
+    </entry>
+    <entry>
+        <base>NO_ADDITIONAL_NETWORKS</base>
+        <trans>Brak dodatkowych sieci</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_DESC</base>
+        <trans>Wykryto lokalne urządzenia (hosty) skonfigurowane w sieci, którą zamierzasz usunąć. Urządzenia te domyślnie zostaną również usunięte. Usuń zaznaczenie tego pola, jeśli z jakiegoś powodu nie chcesz, aby tak się stało. Pamiętaj, że nie będą one traktowane jako lokalne, a nawet mogą być niedostępne po usunięciu tej sieci.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_LABEL</base>
+        <trans>Usuń urządzenia (hosty) w sieci</trans>
+    </entry>
+</lexicon>

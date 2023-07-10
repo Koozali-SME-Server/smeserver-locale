@@ -1,0 +1,106 @@
+<lexicon lang="ru">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Создание, изменение или удаление квот пользователей</trans>
+    </entry>
+    <entry>
+      <base>UNABLE_TO_OPEN_ACCOUNTS</base>
+      <trans>Невозможно открыть БД учётных записей</trans>
+    </entry>
+    <entry>
+      <base>QUOTA_DESC</base>
+      <trans><![CDATA[ <p>Вы можете установить квоты для пользователей вашей системы, нажав кнопку "Изменить" рядом с пользователем, которого вы хотите обновить. <p> Если пользователь превышает "Лимит с льготным периодом ", будет создано предупреждение. Если этот предел превышен более чем на неделю или, если "Абсолютный лимит" будет достигнут, то пользователь не сможет более сохранять любые файлы или получать какую-либо электронную почту. <p> Установка '0' для любого лимита отключает этот лимит для соответствующего пользователя. <p> Размер дискового пространства для каждого пользователя, включает в себя домашний каталог пользователя, электронную почту, а также любые файлы, принадлежащие пользователю в информационных разделах. ]]></trans>
+    </entry>
+    <entry>
+      <base>CURRENT_USAGE_AND_SETTINGS</base>
+      <trans>Текущее использование квот и настройки</trans>
+    </entry>
+    <entry>
+      <base>LIMIT_WITH_GRACE</base>
+      <trans>Лимит с льготным периодом</trans>
+    </entry>
+    <entry>
+      <base>LIMIT_WITH_GRACE_MB</base>
+      <trans>Лимит с льготным периодом (MB)</trans>
+    </entry>
+    <entry>
+      <base>ABS_LIMIT</base>
+      <trans>Абсолютный лимит</trans>
+    </entry>
+    <entry>
+      <base>ABS_LIMIT_MB</base>
+      <trans>Абсолютный лимит (MB)</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_USAGE</base>
+      <trans>Текущее использование (MB)</trans>
+    </entry>
+    <entry>
+      <base>COULD_NOT_GET_UID</base>
+      <trans>Не удалось определить UID пользователя:</trans>
+    </entry>
+    <entry>
+      <base>ERR_NO_SUCH_ACCT</base>
+      <trans>Ошибка: нет учётной записи с таким именем:</trans>
+    </entry>
+    <entry>
+      <base>ERR_NOT_A_USER_ACCT</base>
+      <trans>Ошибка: это не пользовательская учётная запись:</trans>
+    </entry>
+    <entry>
+      <base>ACCOUNT_IS_TYPE</base>
+      <trans>Тип учётной записи:</trans>
+    </entry>
+    <entry>
+      <base>MODIFY_USER_TITLE</base>
+      <trans>Изменить лимиты квоты пользователя</trans>
+    </entry>
+    <entry>
+      <base>USER</base>
+      <trans>Пользователь:</trans>
+    </entry>
+    <entry>
+      <base>CURRENTLY_HAS</base>
+      <trans>в настоящее время есть:</trans>
+    </entry>
+    <entry>
+      <base>FILES</base>
+      <trans>файлы</trans>
+    </entry>
+    <entry>
+      <base>OCCUPYING</base>
+      <trans>занято:</trans>
+    </entry>
+    <entry>
+      <base>MEGABYTES</base>
+      <trans>мегабайт</trans>
+    </entry>
+    <entry>
+      <base>INSTRUCTIONS</base>
+      <trans>Введите квоту как целое число, с одним из необязательных суффиксов едениц: 'K' - для килобайтов, 'M' - для мегабайтов, 'G' - для гигабайтов или 'T' - для терабайтов. Записи без суффикса считаются в мегабайтах. Установка '0' для любого лимита отключает этот лимит для соответствующего пользователя.</trans>
+    </entry>
+    <entry>
+      <base>SOFT_VAL_MUST_BE_NUMBER</base>
+      <trans>Ошибка: лимит с льготным периодом должен быть целым числом, с одним из необязательных суффиксов едениц K, M, G или T.</trans>
+    </entry>
+    <entry>
+      <base>HARD_VAL_MUST_BE_NUMBER</base>
+      <trans>Ошибка: абсолютный лимит должен быть целым числом, с одним из необязательных суффиксов едениц K, M G или T.</trans>
+    </entry>
+    <entry>
+      <base>ERR_HARD_LT_SOFT</base>
+      <trans>Ошибка: абсолютный лимит должен быть больше чем лимит с льготным периодом.</trans>
+    </entry>
+    <entry>
+      <base>ERR_MODIFYING</base>
+      <trans>Произошла ошибка при изменении пользователя.</trans>
+    </entry>
+    <entry>
+      <base>SUCCESSFULLY_MODIFIED</base>
+      <trans>Успешно изменена квота для учётной записи пользователя:</trans>
+    </entry>
+    <entry>
+	<base>Quotas</base>
+	<trans>Квоты</trans>
+    </entry>
+</lexicon>

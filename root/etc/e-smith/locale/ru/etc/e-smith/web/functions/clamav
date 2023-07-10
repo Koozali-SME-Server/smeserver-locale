@@ -1,0 +1,38 @@
+<lexicon lang="ru">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Настройки антивируса</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FILESYSTEM_SCAN_PERIOD</base>
+        <trans>Сканировать файловую систему</trans>
+    </entry>
+    <entry>
+        <base>DESC_FILESYSTEM_SCAN_PERIOD</base>
+        <trans><![CDATA[ <h2>Основные настройки</h2> Если эта опция включена файловая система будет проверятся на вирусы. Отчёт о найденных вирусах будет отправлен администратору по электронной почте.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_QUARANTINE</base>
+        <trans>Помещать зараженные файлы на карантин</trans>
+    </entry>
+    <entry>
+        <base>LABEL_CLAM_VERSIONS</base>
+        <trans>Версии ClamAV и db</trans>
+    </entry>
+    <entry>
+      <base>WEEKLY</base>
+      <trans>Еженедельно</trans>
+    </entry>
+    <entry>
+      <base>NEVER</base>
+      <trans>Никогда</trans>
+    </entry>
+    <entry>
+      <base>DAILY</base>
+      <trans>Ежедневно</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Новые настройки антивируса clamav сохранены.</trans>
+    </entry>
+</lexicon>

@@ -1,0 +1,42 @@
+<lexicon lang="sl">
+    <entry>
+        <base>Proxy settings</base>
+        <trans>Nastavitve proxy streznika</trans>
+    </entry>
+    <entry>
+        <base>FIRST_PAGE_DESCRIPTION</base>
+        <trans>Konfiguracija proxy nastavitev na strezniku. Streznik vsebuje transparenten proxy in vmesni pomnilnik za HTTP promet. Obe storitvi sta privzeto omogoceni, razen ce streznik v nacinu &quot;samo streznik&quot; . Ce uporabljamo ta streznik kot e-mail streznik, bodo vse povezave s strani lokalnih racunalnikov na zunanje SMTP streznike sle skozi ta lokalni streznik.</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>HTTP proxy zmanjsa skupen pretok podatkov na ta nacin, da nazadnje obiskane spletne strani shrani v vmesni pomnilnik. Ta je transparenten za vse brskalnike, ki uporabljajo streznik za prehod. To funkcijo lahko omogocite ali onemogocite tukaj.</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_LABEL</base>
+        <trans>Status HTTP proxy streznika</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>Transparenten SMTP proxy je namenjen zmanjsevanju SMTP prometa z morebitnega okuzenega racunalnika na ta nacin, da preusmeri ves SMTP promet skozi ta streznik. Ce zelite uporabiti drugi SMTP streznik za posiljanje, tega pa samo za prehod do njega, potem onemogocite ta proxy.</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_LABEL</base>
+        <trans>Status SMTP proxy streznika</trans>
+    </entry>
+    <entry>
+        <base>ERR_PROXY_UPDATE_FAILED</base>
+        <trans>NAPAKA: Pri posodobitvi nastavitev proxy streznika je prislo do napake.</trans>
+    </entry>
+    <entry>
+        <base>ERR_NO_SQUID_REC</base>
+        <trans>NAPAKA: V konfiguracijski bazi ni nobenega zapisa.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Nastavitve proxy streznika so uspesno posodobljene.</trans>
+    </entry>
+    <entry>
+        <base>BLOCKED</base>
+        <trans>Blocked</trans>
+    </entry>
+</lexicon>

@@ -1,0 +1,79 @@
+<lexicon lang="th">
+   <entry>
+     <base>FORM_TITLE</base>
+       <trans>แก้ไขค่า LDAP directory</trans>
+   </entry>	
+<entry>
+<base>LABEL_ROOT</base>
+<trans>Server root</trans>
+</entry>
+
+<entry>
+<base>DESCRIPTION</base>
+<trans>เซอร์ฟเวอร์ LDAP (LDAP server) นี้สามารถให้บริการเรียกดูข้อมูลบัญชีผู้ใช้และกลุ่มผู้ใช้ที่มีอยู่ได้ คุณเรียกใช้บริการนี้ได้นี้ผ่านซอร์ฟแวร์ LDAP client เช่น Address Book ของ  Netscape Communicator และการตั้งค่าซอร์ฟแวร์ LDAP client ได้โดยให้กรอกหมายเลข IP ของเซอร์ฟเวอร์นี้ และระบุหมายเลขพอร์ตเป็น 389 รวมทั้งพารามิเตอร์หลักต่างๆ ที่อยู่ด้านล่างนี้</trans>
+</entry>
+<entry>
+<base>DESC_DIRECTORY_ACCESS</base>
+<trans>คุณสามารถกำหนดเข้าถึงไดเรกทอรี LDAP ได้: การตั้งให้เข้าถึงแบบ private จะให้เข้าถึงได้เฉพาะจากเครื่องจากเครือข่ายภายใน (local network) และแบบ public จะให้เข้าถึงได้จากทุกที่</trans>
+</entry>
+<entry>
+<base>DIRECTORY_ACCESS</base>
+<trans>LDAP directory access</trans>
+</entry>
+<entry>
+	<base>DESC_DEPARTMENT</base>
+<trans>ค่าจะกำนดไว้เหล่านี้คือค่าปริยายที่ตั้งให้ไว้เมื่อคุณสร้างบัญชีผู้ใช้ใหม่ คุณสามารถเปลี่ยนแปลงได้อีกครั้งเมื่อคุณสร้างบัญชีผู้ใช้ใหม่ (และกำหนดให้แตกต่างกันได้ในแต่ละราย) แต่ค่า LDAP ที่ไว้ที่นี่จะปรากฏเป็นค่าตั้งต้นเมื่อทำการสร้างฯ จุดประสงค์เพื่อให้ง่ายและรวดเร็วในการสร้างบัญชีผู้ใช้ใหม่ในแต่ละราย</trans>
+</entry>
+<entry>
+        <base>DEPARTMENT</base>
+        <trans>แผนก</trans>
+</entry>
+
+<entry>
+        <base>COMPANY</base>
+        <trans>บริษัท</trans>
+</entry>
+<entry>
+        <base>STREET</base>
+        <trans>ถนน</trans>
+</entry>
+
+<entry>
+        <base>CITY</base>
+        <trans>เมือง</trans>
+</entry>
+
+<entry>
+        <base>PHONENUMBER</base>
+        <trans>โทร.</trans>
+</entry>
+
+<entry>
+<base>DESC_EXISTING</base>
+<trans>คุณสามารถเลือกที่จะปล่อยให้ข้อมูลของบัญชีผู้ใช้ที่มีอยู่แล้วให้เป็นอย่างเดิมและให้ค่าปริยายนี้มีผลเฉพาะกับข้อมูล (ผู้ใช้) ที่จะสร้างใหม่หลังจากนี้เท่านั้น หรือจะให้เปลี่ยนแปลงข้อมูลของผู้ใช้จากข้อมูลเก่าเป็นข้อมูลใหม่ที่แก้ไขแล้วนี้ก็ได้</trans>
+</entry>
+
+
+
+<entry>
+<base>EXISTING</base>
+<trans>ผู้ใช้ที่มีอยู่ปัจจุบัน</trans>
+</entry>
+<entry>
+<base>SUCCESS</base>
+<trans>ได้บันทึกการแก้ไขค่าปริยายของ LDAP แล้ว</trans>
+</entry>
+
+<entry>
+<base>LEAVE</base>
+<trans>ปล่อยไว้เช่นเดิม</trans>
+</entry>
+<entry>
+<base>UPDATE</base>
+<trans>ปรับปรุงให้เป็นไปตามค่าปริยายที่แก้ไขใหม่</trans>
+</entry>
+    <entry>
+        <base>Directory</base>
+        <trans>ไดเรกทอรี่</trans>
+    </entry>
+</lexicon>

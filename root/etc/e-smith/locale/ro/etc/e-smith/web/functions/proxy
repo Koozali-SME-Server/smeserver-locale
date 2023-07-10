@@ -1,0 +1,42 @@
+<lexicon lang="ro">
+    <entry>
+        <base>Proxy settings</base>
+        <trans>Setări Proxy</trans>
+    </entry>
+    <entry>
+        <base>FIRST_PAGE_DESCRIPTION</base>
+        <trans>Această pagină permite configurarea setărilor de Proxy. Serverul conține un Proxy transparent și cache pentru traficul HTTP. Acesta este activ implicit, dar nu este activ pentur configurarea serverului în mod &quot;serveronly&quot;. Dacă acest server funționează ca server de mail, toate mailuriel utilizatorilor vor trece prin serverul intern.</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>Proxy-ul serverului este menit să reducă utilizarea totală a accesului prin păstrarea paginilor recent vizitate. Este transparent pentru clientii de internet ce utilizează acest server ca releu. Activați sau dezactivați proxy-ul prin comutatorul următor.</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_LABEL</base>
+        <trans>Statutul HTTP proxy</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>Proxy-ul SMTP transparent lucreaza pentru a reduce traficul de virusi de la clienti infectați prin forțarea totală a traficului prin serverul SMTP intern de ieșire dacă este setat pe "activ". Dacă doriți utilizarea altui server SMTP și acest server este releul dumneavoastră, setați pe "dezactivat". Setarea pe "blocat" (modul implicit) previne orice trafic către serverele de mail. Serverul lucrează doar pe portul normal de mail 25.</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_LABEL</base>
+        <trans>Statut Proxy SMTP</trans>
+    </entry>
+    <entry>
+        <base>ERR_PROXY_UPDATE_FAILED</base>
+        <trans>EROARE: Evenimentul de actualizare Proxy a returnat o eroare.</trans>
+    </entry>
+    <entry>
+        <base>ERR_NO_SQUID_REC</base>
+        <trans>EROARE: NU există înregistrare squid în baza de configurări.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Setările noi de Proxy au fost aplicate cu succes.</trans>
+    </entry>
+    <entry>
+        <base>BLOCKED</base>
+        <trans>Blocat</trans>
+    </entry>
+</lexicon>

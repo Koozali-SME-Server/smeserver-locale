@@ -1,0 +1,180 @@
+<lexicon lang="da" params="lexicon_params()">
+    <!-- vim: ft=xml
+    -->
+    <entry>
+        <base>Hostnames and addresses</base>
+        <trans>Værtsnavne og adresser</trans>
+    </entry>
+    <entry>
+        <base>UNABLE_TO_OPEN_CONFIGDB</base>
+        <trans>Opsætnigsdatabasen kan ikke åbnes</trans>
+    </entry>
+    <entry>
+        <base>DNS_FORWARDER_ENABLED</base>
+        <trans>DNS er viderestillet. Det betyder at alle DNS-opslag vil blive håndteret af den DNSserver, der er viderestillet til. Værtsnavne og adresser kan ikke ændres på denne server så længe DNS er viderestillet.</trans>
+    </entry>
+    <entry>
+        <base>ADD_HOSTNAME</base>
+        <trans><![CDATA[ <a class="button-like" href="hostentries?page=0&page_stack=&Next=Next&wherenext=CreateModify">Tilføj værtsnavn</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME</base>
+        <trans>Værtsnavn</trans>
+    </entry>
+    <entry>
+        <base>HOSTTYPE</base>
+        <trans>Placering</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP</base>
+        <trans>Lokal IP</trans>
+    </entry>
+    <entry>
+        <base>ETHERNET_ADDRESS</base>
+        <trans>Netværksadresse</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_HOSTNAMES_FOR_DOMAIN</base>
+        <trans>Aktuelle værtsnavne for {$domain}.</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTNAMES_FOR_SERVICENAME</base>
+        <trans>Der er ingen værtsnavne in systemet for {$serviceName}.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_HOSTNAMES_FOR_LOCAL_DOMAIN</base>
+        <trans>Aktuelle værtsnavne for {$localDomainName}</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTNAMES_FOR_LOCAL_DOMAIN</base>
+        <trans>Der er ingen værtsnavne in systemet for {$localDomainName}.</trans>
+    </entry>
+    <entry>
+        <base>STATIC_HOST_MESSAGE</base>
+        <trans>- Dette værtsnavn er også dit systemnavn og kan ikke ændres eller fjernes.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_LOCAL_HOST_TITLE</base>
+        <trans>Opret nyt værtsnavn for denne server</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_VALIDATION_ERROR</base>
+        <trans>Fejl: Uventede tegn i værtsnavn: "{$HostName}". Værtsnavnet må kun indeholde bogstaver, tal og bindestreger og skal starte med et bogstav eller et tal.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_LENGTH_ERROR</base>
+        <trans>Fejl: Kontonavnet {$HostName} er for langt. Maksimalt 32 tegn.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_VALIDATION_ERROR</base>
+        <trans>Fejl: Uventede eller manglende tegn i domænenavn {$DomainName}. Domænenavnet skal indeholde et eller flere bogstaver, tal og bindestreger. Domænet blev ikke oprettet.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_EXISTS_ERROR</base>
+        <trans>Fejl: kontoen {$fullHostName} findes i forvejen som {$type} værtsnavn.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>Værtsnavn er oprettet.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_DESCRIPTION</base>
+        <trans>Værtsnavnet må kun indeholde bogstaver, tal og bindestreger og skal starte med et bogstav eller et tal.</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP_DESCRIPTION</base>
+        <trans>Den lokale IP-adresse er IP-adressen på en anden maskine på det lokale net. Venligst indtast en gyldig IP-adresse i formatet "aaa.bbb.ccc.ddd".</trans>
+    </entry>
+    <entry>
+        <base>ETHERNET_ADDRESS_DESCRIPTION</base>
+        <trans>Netkortets mac-addresse er en mulighed, der indstiller DHCP server til statisk at binde den lokale IP-addresse til computeren med pågældende mac-addresse. Hvis mac-addressen angives, skal den have formen "AA:BB:CC:DD:EE:FF" og må kun indeholde tallene 0-9 og bogstaverne A-F.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_LOCAL_HOST_TITLE</base>
+        <trans>Opret et nyt værtsnavn, der refererer til en lokal vært.</trans>
+    </entry>
+    <entry>
+        <base>DIDNT_ENTER_LOCAL_IP</base>
+        <trans>Fejl: Du angav ikke en lokal IP-adresse. IP-adresser må kun indeholde numre og punktum og skal være i formen "aaa.bbb.ccc.ddd". Værtsnavnet blev ikke oprettet.</trans>
+    </entry>
+    <entry>
+        <base>IP_VALIDATION_ERROR</base>
+        <trans>Fejl: IP-addressen {$InternalIP} er ugyldig. IP-addresser består af tal og punktummer og skrives i formen "aaa.bbb.ccc.ddd". Værtsnavnet blev ikke oprettet.</trans>
+    </entry>
+    <entry>
+        <base>MAC_ADDRESS_VALIDATION_ERROR</base>
+        <trans>Fejl: Mac-adressen {$MACAddress} er ugyldig. Mac-addressen skal have formen "AA:BB:CC:DD:EE:FF" og må kun indeholde tallene 0-9 og bogstaverne A-F. Værtsnavnet blev ikke oprettet.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_REMOTE_HOST_TITLE</base>
+        <trans>Opret et nyt værtsnavn, der refererer til en fjern vært</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Oprette eller ændre værtsnavn</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_PAGE_DESCRIPTION</base>
+        <trans>Venligst angiv følgende yderligere detaljer om din lokale vært:</trans>
+    </entry>
+    <entry>
+        <base>REMOTE_PAGE_DESCRIPTION</base>
+        <trans>Venligst angiv følgende yderligere detaljer om din fjerne vært:</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>Værten er slettet.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>Værten er ændret.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_PAGE_DESCRIPTION</base>
+        <trans><![CDATA[ Du er ved at fjerne værtsnavnet "{$hostname}.{$domain}". </p> <p> <b>Er du sikker på du ønsker det fjernet?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DESCRIPTION</base>
+        <trans>Venligst bekræft følgende detaljer.</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTS_FOR_THIS_DOMAIN</base>
+        <trans>Der er ingen værter for dette domæne.</trans>
+    </entry>
+    <entry>
+        <base>ADDR_IN_DHCP_RANGE</base>
+        <trans>Adressen er indenfor DHCP-området</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_HOST</base>
+        <trans>Fejl under oprettelse af værtsnavn.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_HOST</base>
+        <trans>Fejl under ændring af værtsnavn.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_HOST</base>
+        <trans>Fejl under sletning af værtsnavn.</trans>
+    </entry>
+    <entry>
+        <base>ERR_IP_IS_LOCAL_OR_GATEWAY</base>
+        <trans>Fejl: IP-adressen må ikke være server- eller gateway IP-adressen.</trans>
+    </entry>
+    <entry>
+        <base>ERR_IP_NOT_LOCAL</base>
+        <trans>Fejl: Denne IP-adresse er ikke på lokale netværk.</trans>
+    </entry>
+    <entry>
+        <base>MUST_BE_VALID_HOSTNAME_OR_IP</base>
+        <trans>Skal være gyldigt værtsnavn eller IP-nummer</trans>
+    </entry>
+  <entry>
+   <base>HOSTNAME_COMMENT_ERROR</base>
+    <trans>Fejl: Uventede tegn i kommentarfeltet til "{$hostname}.{$domain}". Kommentarerne må kun bestå af bogstaver, mellemrum, tal, punktum, komma, understregning og bindestreger og skal starte med et bogstav eller et tal.</trans>
+  </entry>
+    <entry>
+      <base>HOSTNAME_VALIDATOR_ERROR</base>
+    <trans>Fejl: Uventede tegn i værtsnavn: "{$hostname}.{$domain}". Værtsnavnet må kun indeholde bogstaver, tal og bindestreger og skal starte med et bogstav eller et tal.</trans>
+  </entry>
+</lexicon>

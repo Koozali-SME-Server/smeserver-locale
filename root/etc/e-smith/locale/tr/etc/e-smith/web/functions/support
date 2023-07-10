@@ -1,0 +1,10 @@
+<lexicon lang="tr">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Destek, garanti ve lisans bilgileri</trans>
+    </entry>
+    <entry>
+        <base>Support and licensing</base>
+        <trans>Destek ve lisanslama</trans>
+    </entry>
+</lexicon>

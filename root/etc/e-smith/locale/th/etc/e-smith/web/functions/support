@@ -1,0 +1,10 @@
+<lexicon lang="th">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>ข้อมูล การบริการ การรับประกัน และใบอนุญาต</trans>
+    </entry>
+    <entry>
+        <base>Support and licensing</base>
+        <trans>การบริการและใบอนุญาต</trans>
+    </entry>
+</lexicon>

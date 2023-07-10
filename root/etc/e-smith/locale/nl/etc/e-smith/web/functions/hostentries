@@ -1,0 +1,180 @@
+<lexicon lang="nl" params="lexicon_params()">
+    <!-- vim: ft=xml
+    -->
+    <entry>
+        <base>Hostnames and addresses</base>
+        <trans>Hostnamen en adressen</trans>
+    </entry>
+    <entry>
+        <base>UNABLE_TO_OPEN_CONFIGDB</base>
+        <trans>Niet mogelijk om configuratie database te openen</trans>
+    </entry>
+    <entry>
+        <base>DNS_FORWARDER_ENABLED</base>
+        <trans>De DNS doorstuur mogelijkheid is geconfigureerd. Dit betekend dat alle DNS aanvragen worden afgehandeld door deze opgegeven alternatieve DNS server. Hostnamen en adressen kunnen niet worden aangepast op deze server als de DNS doorstuur mogelijkheid is ingeschakeld.</trans>
+    </entry>
+    <entry>
+        <base>ADD_HOSTNAME</base>
+        <trans><![CDATA[ <a class="button-like" href="hostentries?page=0&page_stack=&Next=Next&wherenext=CreateModify">Hostnaam toevoegen</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME</base>
+        <trans>Hostnaam</trans>
+    </entry>
+    <entry>
+        <base>HOSTTYPE</base>
+        <trans>Locatie</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP</base>
+        <trans>Lokaal IP</trans>
+    </entry>
+    <entry>
+        <base>ETHERNET_ADDRESS</base>
+        <trans>Ethernet adres</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_HOSTNAMES_FOR_DOMAIN</base>
+        <trans>Huidige lijst met hostnamen voor {$domain}.</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTNAMES_FOR_SERVICENAME</base>
+        <trans>Er zijn geen hostnamen op dit systeem voor {$serviceName}.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_HOSTNAMES_FOR_LOCAL_DOMAIN</base>
+        <trans>Huidige lijst met hostnamen voor {$localDomainName}</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTNAMES_FOR_LOCAL_DOMAIN</base>
+        <trans>Er zijn geen hostnamen op dit systeem voor {$localDomainName}.</trans>
+    </entry>
+    <entry>
+        <base>STATIC_HOST_MESSAGE</base>
+        <trans>- Deze host representeert uw systeemnaam en kan niet worden veranderd of verwijderd.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_LOCAL_HOST_TITLE</base>
+        <trans>Voeg een nieuwe hostnaam toe voor deze server</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_VALIDATION_ERROR</base>
+        <trans>Fout: onverwachtte tekens in de hostnaam: "{$HostName}". De hostnaam mag alleen letters, cijfers, en koppeltekens bevatten en moet beginnen met een letter of een cijfer.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_LENGTH_ERROR</base>
+        <trans>Fout: accountnaam {$HostName} is te lang. Het toegestane maximum is 32 tekens.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_VALIDATION_ERROR</base>
+        <trans>Fout: onverwachte of ontbrekende tekens in de domeinnaam {$DomainName}. De domeinnaam mag alleen één of meer letters, cijfers, punten en koppeltekens bevatten. Er is geen nieuw domein toegevoegd.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_EXISTS_ERROR</base>
+        <trans>Fout: De account {$fullHostName} is een bestaande {$type} host naam.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>Hostnaam is met succes toegevoegd.</trans>
+    </entry>
+    <entry>
+        <base>HOSTNAME_DESCRIPTION</base>
+        <trans>De hostnaam kan alleen letter, cijfers en koppeltekens bevatten en dient te beginnen met een letter of cijfer.</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP_DESCRIPTION</base>
+        <trans>Het lokale IP adres is het IP adres van een andere machine binnen het lokale netwerk. Geef een geldig IP adres op in het formaat "aaa.bbb.ccc.ddd".</trans>
+    </entry>
+    <entry>
+        <base>ETHERNET_ADDRESS_DESCRIPTION</base>
+        <trans>Het ethernet adres is optioneel en zorgt er voor dat de DHCP server het lokale IP adres statisch verbindt aan de computer met dit ethernet adres. Indien opgegeven, dient dit te gebeuren in het formaat "AA:BB:CC:DD:FF" en mag het enkel de cijfers 0-9 en de letters A-F bevatten.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_LOCAL_HOST_TITLE</base>
+        <trans>Voeg een nieuwe hostnaam toe die verwijst naar een lokale host.</trans>
+    </entry>
+    <entry>
+        <base>DIDNT_ENTER_LOCAL_IP</base>
+        <trans>Fout: er is geen locaal IP adres opgegeven. IP adressen mogen enkel bestaan uit cijfers en punten in het formaat "aaa.bbb.ccc.ddd". Er is geen hostnaam toegevoegd.</trans>
+    </entry>
+    <entry>
+        <base>IP_VALIDATION_ERROR</base>
+        <trans>Fout: IP adres {$InternalIP} is ongeldig. IP adressen mogen enkel bestaan uit cijfers en punten in het formaat "aaa.bbb.ccc.ddd". Er is geen hostnaam toegevoegd.</trans>
+    </entry>
+    <entry>
+        <base>MAC_ADDRESS_VALIDATION_ERROR</base>
+        <trans>Fout: Ethernet adres {$MACAddress} is ongeldig. Ethernet adressen dienen in het formaat "AA:BB:CC:DD:EE:FF" te zijn en enkel de cijfers 0-9 en letters A-F te bevatten. Er is geen hostnaam toegevoegd.</trans>
+    </entry>
+    <entry>
+        <base>CREATE_REMOTE_HOST_TITLE</base>
+        <trans>Voeg een nieuwe hostnaam toe die verwijst naar een host elders</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Hostnaam toevoegen of wijzigen</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_PAGE_DESCRIPTION</base>
+        <trans>Geef de volgende details op voor de lokale host:</trans>
+    </entry>
+    <entry>
+        <base>REMOTE_PAGE_DESCRIPTION</base>
+        <trans>A.u.b. de volgende details voor de host elders opgeven:</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>Host is met succes verwijderd.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>Host is met succes gewijzigd.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_PAGE_DESCRIPTION</base>
+        <trans><![CDATA[ U staat op het punt de systeemnaam "{$hostname}.{$domain}" te verwijderen. </p> <p> <b>Weet u zeker dat u deze systeemnaam wilt verwijderen?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>CONFIRM_DESCRIPTION</base>
+        <trans>A.u.b. de volgende details bevestigen.</trans>
+    </entry>
+    <entry>
+        <base>NO_HOSTS_FOR_THIS_DOMAIN</base>
+        <trans>Er zijn geen hosts voor dit domein.</trans>
+    </entry>
+    <entry>
+        <base>ADDR_IN_DHCP_RANGE</base>
+        <trans>Het adres ligt binnen het DHCP toegewezen dynamisch bereik</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_HOST</base>
+        <trans>Er is een fout opgetreden tijdens het toevoegen van de hostnaam.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_HOST</base>
+        <trans>Er is een fout opgetreden tijdens het wijzigen van de hostnaam.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_HOST</base>
+        <trans>Er is een fout opgetreden tijdens het verwijderen van de hostnaam.</trans>
+    </entry>
+    <entry>
+        <base>ERR_IP_IS_LOCAL_OR_GATEWAY</base>
+        <trans>Fout: IP kan niet gelijk zijn aan server IP of Gateway IP.</trans>
+    </entry>
+    <entry>
+        <base>ERR_IP_NOT_LOCAL</base>
+        <trans>Fout: Dit IP adres maakt geen deel uit van een van de lokale netwerken.</trans>
+    </entry>
+    <entry>
+        <base>MUST_BE_VALID_HOSTNAME_OR_IP</base>
+        <trans>Moet een geldige hostnaam of IP adres zijn</trans>
+    </entry>
+  <entry>
+   <base>HOSTNAME_COMMENT_ERROR</base>
+    <trans>Fout: onverwachtte tekens in de beschrijving van "{$hostname}.{$domain}". De beschrijving mag alleen letters, spaties, cijfers, punten, komma's, onderstrepingstekens en koppeltekens bevatten en moet beginnen met een letter of een cijfer.</trans>
+  </entry>
+    <entry>
+      <base>HOSTNAME_VALIDATOR_ERROR</base>
+    <trans>Fout: onverwachtte tekens in de hostnaam: "{$hostname}.{$domain}". De hostnaam mag alleen letters, cijfers en koppeltekens bevatten en moet beginnen met een letter of een cijfer.</trans>
+  </entry>
+</lexicon>

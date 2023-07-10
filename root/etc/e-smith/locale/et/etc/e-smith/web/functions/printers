@@ -1,0 +1,147 @@
+<lexicon lang="et">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Lisa või eemalda printereid</trans>
+    </entry>
+    <entry>
+      <base>INITIAL_DESC</base>
+      <trans><![CDATA[ <P><A class="button-like" HREF="printers?page=0&Next=Add">Lisa printer</A></P> ]]></trans>
+    </entry>
+    <entry>
+      <base>NO_PRINTERS</base>
+      <trans>Printereid pole lisatud</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_LIST</base>
+      <trans>Lisatud prinerite nimekiri</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_ADDRESS</base>
+      <trans>Remote aadress</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_NAME</base>
+      <trans>Remote nimi</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NEW_PRINTER</base>
+      <trans>Lisa uus printer</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NEW_DESC</base>
+      <trans>Vali kordumatu nimi pirinterile ja lisa kirjeldus. Printeri nimi võib sisaldada ainult väiketähti ja numbreid. Näiteks "hplaser" aga "HP Laser" ei sobi. Avoid names and descriptions that contain these terms, "offline", "disabled", "down", "off", "waiting", "jam", "paper", "error" and "responding".</trans>
+    </entry>
+    <entry>
+      <base>PRINTER_NAME</base>
+      <trans>Printeri nimi </trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_0</base>
+      <trans>Lokaalne printeriport 0 (LPT1)</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_1</base>
+      <trans>Local printer port 1 (LPT2)</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_2</base>
+      <trans>Local printer port 2 (LPT3)</trans>
+    </entry>
+    <entry>
+      <base>NET_PRINTER</base>
+      <trans>Võrguprinter...</trans>
+    </entry>
+    <entry>
+      <base>FIRST_USB_PRINTER</base>
+      <trans>First USB attached printer</trans>
+    </entry>
+    <entry>
+      <base>SECOND_USB_PRINTER</base>
+      <trans>Second USB attached printer</trans>
+    </entry>
+    <entry>
+      <base>ERR_UNEXPECTED_NAME</base>
+      <trans><![CDATA[ <P>Viga: Sobimatud sümbolid printeri nimes.</P> <P>Printeri nimi võib sisaldada ainult väiketähti ja numbreid. Näiteks "hplaser" aga "HP Laser" ei sobi.</P> ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_UNEXPECTED_DESC</base>
+      <trans>Viga: Sobimatu sümbol kirjelduses. Printerit ei lisatud.</trans>
+    </entry>
+    <entry>
+      <base>ERR_EXISTS</base>
+      <trans>Viga: An account with the same name exists with type:</trans>
+    </entry>
+    <entry>
+      <base>ERR_INVALID_ADDRESS</base>
+      <trans>Viga: sobimatu võrguaadress. Uut printerit ei lisatud.</trans>
+    </entry>
+    <entry>
+      <base>ERR_INVALID_REMOTE_NAME</base>
+      <trans>Viga: sobimatu võrguprinterinimi. Uut printerit ei lisatud.</trans>
+    </entry>
+    <entry>
+      <base>ERR_CREATING</base>
+      <trans>Printeri lisamisel ilmnes viga.</trans>
+    </entry>
+    <entry>
+      <base>CREATED_SUCCESSFULLY</base>
+      <trans>Lisati printer:</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NETWORK_PRINTER</base>
+      <trans>Lisa uus võrguprinter</trans>
+    </entry>
+    <entry>
+      <base>ERR_OPENING_DB</base>
+      <trans>Kasutajakontode andmebaasi avamisel ilmnes viga.</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NETWORK_DESC</base>
+      <trans>Palun sisesta võrguprinteri aadress ja nimi</trans>
+    </entry>
+    <entry>
+      <base>HOSTNAME_OR_IP</base>
+      <trans>Võrguprinteri hostinimi või IP aadress </trans>
+    </entry>
+    <entry>
+      <base>REMOTE_NAME_DESC</base>
+      <trans><![CDATA[ Võrguprinteri nimi (enter raw if not sure) ]]></trans>
+    </entry>
+    <entry>
+      <base>REMOVE_PRINTER</base>
+      <trans>Eemalda printer</trans>
+    </entry>
+    <entry>
+      <base>ABOUT_TO_REMOVE</base>
+      <trans>Soovid eemaldada printeri:</trans>
+    </entry>
+    <entry>
+      <base>SPOOL_FILE_WARNING</base>
+      <trans>Kõik spuulitud failid on kustutatud selles printeris.</trans>
+    </entry>
+    <entry>
+      <base>ARE_YOU_SURE</base>
+      <trans>Oled kindel, et tahad seda printerit eemaldada?</trans>
+    </entry>
+    <entry>
+      <base>ERR_INTERNAL_FAILURE</base>
+      <trans>Viga: sisemine viga printeri eemaldamisel:</trans>
+    </entry>
+    <entry>
+      <base>ERR_DELETING</base>
+      <trans>Printeri kustutamisel ilmnes viga.</trans>
+    </entry>
+    <entry>
+      <base>DELETED_SUCCESSFULLY</base>
+      <trans>Kustutati edukalt printer:</trans>
+    </entry>
+    <entry>
+        <base>MUST_BE_VALID_HOSTNAME_OR_IP</base>
+        <trans>Peab olema sobiv hostinimi või IP number</trans>
+    </entry>
+    <entry>
+	<base>Printers</base>
+	<trans>Printerid</trans>
+    </entry>
+
+</lexicon>

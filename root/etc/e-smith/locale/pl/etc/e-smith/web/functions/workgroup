@@ -1,0 +1,58 @@
+<lexicon lang="pl">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Zmień ustawienia grupy roboczej</trans>
+    </entry>	
+    <entry> 
+        <base>DESC_WORKGROUP</base>
+        <trans><![CDATA[ Wpisz nazwę grupy roboczej systemu Windows, w której ten serwer powinien się pojawić. ]]></trans>	
+    </entry>
+    <entry>
+        <base>LABEL_WORKGROUP</base>
+        <trans>Grupa robocza Windows</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERVERNAME</base>
+        <trans>Wpisz nazwę jaką ten serwer będzie się posługiwał w udostępnianiu plików w sieci Windows i Macintosh.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERVERNAME</base>
+        <trans>Nazwa serwera</trans>
+    </entry>
+    <entry>
+        <base>DESC_PDC</base>
+        <trans><![CDATA[Czy chcesz, aby ten serwer pełnił rolę kontrolera domeny w sieci Windows? Powinieneś zostawić opcję <b>Nie</b>, jeżeli inny serwer pełni tę rolę w twojej sieci.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_PDC</base>
+        <trans>Kontroler domeny</trans>
+    </entry>
+    <entry>
+        <base>DESC_ROAM</base>
+        <trans><![CDATA[ Czy ten serwer powinien wspierać profile mobilne? Powinieneś zostawić opcję <b>Nie</b>, chyba że posiadasz doświadczenie w administracji profilów Windows i wiesz, że ta funkcja jest w sieci niezbędna. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_ROAM</base>
+        <trans>Profile mobilne</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Nowe ustawienia grupy roboczej zostały zapisane</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP</base>
+        <trans>Nazwa grupy roboczej musi zaczynać się od litery (wielkie lub małe litery), a następnie dowolną kombinacją liter, cyfr, podkreśleń, okresów i łączników.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SERVERNAME</base>
+        <trans>Nazwa serwera musi zaczynać się od litery (wielkie lub małe litery), a następnie dowolną kombinacją liter, cyfr, podkreśleń i myślników.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP_MATCHES_SERVERNAME</base>
+        <trans>Nazwa serwera i grupy roboczej powinna być różna. Wartości te muszą być inne w celu udostępniania plików, którą ten serwer pełni rolę.</trans>
+    </entry>
+    <entry>
+        <base>Workgroup</base>
+        <trans>Grupa robocza</trans>
+    </entry>
+</lexicon>

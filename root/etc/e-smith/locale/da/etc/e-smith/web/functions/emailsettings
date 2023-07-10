@@ -1,0 +1,386 @@
+<lexicon lang="da" params="getExtraParams()">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>E-post indstillinger</trans>
+    </entry>
+    <entry>
+        <base>E-mail</base>
+        <trans>E-post</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>De nye e-post indstillinger er gemt.</trans>
+    </entry>
+    <entry>
+        <base>NEVER</base>
+        <trans>aldrig</trans>
+    </entry>
+    <entry>
+        <base>EVERY5MIN</base>
+        <trans>Hvert 5. minut</trans>
+    </entry>
+    <entry>
+        <base>EVERY15MIN</base>
+        <trans>Hvert kvarter</trans>
+    </entry>
+    <entry>
+        <base>EVERY30MIN</base>
+        <trans>Hver halve time</trans>
+    </entry>
+    <entry>
+        <base>EVERYHOUR</base>
+        <trans>Hver time</trans>
+    </entry>
+    <entry>
+        <base>EVERY2HRS</base>
+        <trans>Hver 2. time</trans>
+    </entry>
+    <entry>
+        <base>STANDARD</base>
+        <trans>Standard (SMTP)</trans>
+    </entry>
+    <entry>
+        <base>ETRN</base>
+        <trans>ETRN (SMTP med klient forespørgsel)</trans>
+    </entry>
+    <entry>
+        <base>DEFAULT</base>
+        <trans>Forudindstillede</trans>
+    </entry>
+    <entry>
+        <base>SPECIFY_BELOW</base>
+        <trans>Specificer herunder</trans>
+    </entry>
+    <entry>
+        <base>MULTIDROP</base>
+        <trans>multi-drop</trans>
+    </entry>
+    <entry>
+        <base>LABEL_MODE</base>
+        <trans>E-post afhentning</trans>
+    </entry>
+    <entry>
+        <base>DESC_MODE</base>
+        <trans>E-post afhentningen kan som 'standard' (til dedikerede Internet forbindelser), 'ETRN' (anbefales for dialup forbindelser), eller 'multi-drop' (anbefales for dialup forbindelser, hvis ETRN ikke understøttes af Internetudbyderen). Bemærk at 'multi-drop' er den eneste mulighed når serveren er sat op som 'privat server og gateway'.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_DELEGATE</base>
+        <trans>Addresse på intern mail server</trans>
+    </entry>
+    <entry>
+        <base>DESC_DELEGATE</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Delegerede postservere</h2> Din server indholder en komplet postserver med alle funktioner. Ikke desto mindre, hvis du ønsker at uddelegere posthåndteringen til et andet system, så indtast IP-adressen her. For almindelig funktionalitet efterlades feltet blankt. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SECONDARY</base>
+        <trans>Sekundær post server</trans>
+    </entry>
+    <entry>
+        <base>DESC_SECONDARY</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>ETRN og multi-drop indstillinger</h2> For ETRN og multi-drop, angiv værtsnavn eller IPdresse for den sekundære post-server. (bruger du en standard e-postopsætning, kan feltet efterlades tomt.) ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_FETCH_PERIOD</base>
+        <trans>For ETRN og multi-drop, kan du kontrollere hvor ofte serveren kontakter den sekundære postserver for at hente post. Oftere forbindelse betyder du får din post hurtigere, men kan også betyde øgede telefon- og Internetforbindelsesudgifter.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD</base>
+        <trans>I kontortiden (08:00 til 18:00) på hverdage</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD_NIGHTS</base>
+        <trans>Udenfor kontortid (18:00 til 06:00) på hverdage</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PERIOD_WEEKENDS</base>
+        <trans>I løbet af weekenden</trans>
+    </entry>
+    <entry>
+        <base>DESC_POP_ACCOUNT</base>
+        <trans>For multi-drop post, angiv POP brugerkonto og adgangskode. (bruger du standard eller ETRN e-post, kan felterne efterlades blanke.) For multi-drop kan du enten bruge den forudindstillede postsorterings måde, eller du kan angive et specielt besked-hoved til brug for postsorteringen.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_POP_PASS</base>
+        <trans>POP adgangskode (for multi-drop)</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_POP_ACCOUNT</base>
+        <trans>POP brugernavn (for multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SORT_METHOD</base>
+        <trans>Vælg sorteringsmåde (for multi-drop)</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SORT_HEADER</base>
+        <trans>Vælg besked-hoved (for multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_PROTO</base>
+        <trans>Protokol (for multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FETCH_SECURE</base>
+        <trans>Tunnel over SSL (for multi-drop)</trans>
+    </entry>
+    <entry>
+        <base>AUTO</base>
+        <trans>Automatisk</trans>
+    </entry>
+    <entry>
+        <base>ENABLED_BOTH</base>
+        <trans>Tillad både HTTP og HTTPS</trans>
+    </entry>
+    <entry>
+        <base>ENABLED_SECURE_ONLY</base>
+        <trans>Tillad HTTPS (sikret)</trans>
+    </entry>
+     <entry>
+        <base>ONLY_LOCAL_NETWORK_SSL</base>
+        <trans>Tillad HTTPS (sikker) fra lokalnet</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_POP3</base>
+        <trans>Tillad både POP3 and POP3S</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_PRIVATE</base>
+        <trans>Tillad privat</trans>
+    </entry>
+    <entry>
+        <base>SECURE_POP3</base>
+        <trans>Tillad privat og offentlig (sikret POP3S)</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_IMAP</base>
+        <trans>Tillad både IMAP og IMAPS</trans>
+    </entry>
+    <entry>
+        <base>SECURE_IMAP</base>
+        <trans>Tillad både privat og offentlig (sikret IMAPS)</trans>
+    </entry>
+    <entry>
+        <base>INSECURE_SMTP</base>
+        <trans>Tillad både SMTP og SSMTP</trans>
+    </entry>
+    <entry>
+        <base>SECURE_SMTP</base>
+        <trans>Tillad SSMTP (sikret)</trans>
+    </entry>
+    <entry>
+        <base>LABEL_POP_ACCESS_CONTROL</base>
+        <trans>POP3 server adgang</trans>
+    </entry>
+    <entry>
+        <base>LABEL_IMAP_ACCESS_CONTROL</base>
+        <trans>IMAP server adgang</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SMTP_AUTH_CONTROL</base>
+        <trans>SMTP autentificering</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_TO_ADMIN</base>
+        <trans>Send til administrator</trans>
+    </entry>
+    <entry>
+        <base>FORWARD_TO</base>
+        <trans>Send til</trans>
+    </entry>
+    <entry>
+        <base>RETURN_TO_SENDER</base>
+        <trans>Afvis</trans>
+    </entry>
+    <entry>
+        <base>LABEL_UNKNOWN</base>
+        <trans>Post til ukendt bruger</trans>
+    </entry>
+    <entry>
+        <base>DESC_UNKNOWN</base>
+        <trans><![CDATA[ <h2>Ukendte brugere</h2> Valg af Afvis (anbefalet indstilling) vil indstille serveren til kun at modtage post til gyldige postadresser på serveren (for eksempel brugere, grupper eller pseudonymer). Post til andre vil blive afvist. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_SMARTHOST</base>
+        <trans>Adresse på Internetudbyderens postserver</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_SMARTHOST</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>SMTP server</h2> Serveren kan levere udgående beskeder direkte til modtageren (anbefalet i de fleste tilfælde) eller du kan levere dem via Internetudbyderens SMTP server (anbefalet hvis du har en upålidelig Internetforbindelse eller bruger TDC). Bruger du Internetudbyderens SMTP server, angiv værtsnavn eller IPadresse nedenfor. Ellers lad feltet stå tomt. ]]></trans>
+    </entry>
+
+    <entry>
+        <base>INVALID_SMARTHOST</base>
+        <trans>Det indtastede værtsnavn er ikke et gyldigt domænenavn</trans>
+    </entry>
+    <entry>
+        <base>DESC_POP_ACCESS_CONTROL</base>
+        <trans>Du kan styre adgangen til POP3-serveren. Indstillingen 'Tillad privat' tillader kun POP3 adgang fra lokalnet(tene). POP3S tilbyder krypteret ekstern adgang til POP3 serveren. Vi anbefaler indstillingen 'Tillad privat' medmindre du har specifikke grunde til andet.</trans>
+    </entry>
+    <entry>
+        <base>DESC_IMAP_ACCESS_CONTROL</base>
+        <trans>Du kan styre adgangen til IMAP-serveren. Indstillingen 'Tillad privat' tillader kun POP3-adgang fra lokalnet(værker). IMAPS tilbyder krypteret ekstern adgang til IMAP serveren. Vi anbefaler indstillingen 'Tillad privat' medmindre du har specifikke grunde til andet.</trans>
+    </entry>
+    <entry>
+        <base>DESC_SMTP_AUTH_CONTROL</base>
+        <trans><![CDATA[ Du kan aktivere eller deaktivere sikret adgang til din SMTP server. Med SSMTP aktiveret kræver det at <b>alle</b> brugere benytter SSL/TLS autorisation. SMTP og SSMTP giver desuden mulighed for at benytte STARTTLS for at sikre en krypteret autorisation. ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_WEBMAIL</base>
+        <trans>Du kan åbne eller lukke for adgangen til webmail. Webmail tillader brugere at tilgå deres post gennem en regulær web browser med adressen https://{$FQDN}/webmail, og logge ind til deres konto.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_WEBMAIL</base>
+        <trans>Webmail adgang</trans>
+    </entry>
+     <entry>
+        <base>LABEL_BLOCK_EXECUTABLE_CONTENT</base>
+        <trans>Blokkering af udførbart indhold</trans>
+     </entry>
+     <entry>
+        <base>LABEL_CONTENT_TO_BLOCK</base>
+        <trans>Indhold der skal blokeres</trans>
+     </entry>
+     <entry>
+        <base>DESC_BLOCK_EXECUTABLE_CONTENT</base>
+        <trans>Du kan blokere for eksekverbare vedhæftede filer i e-post ved at markere de typer du ønsker blokeret. E-post med den type vedhæftede filer vil automatisk blive returneret til afsenderen.</trans>
+    </entry>
+    <entry>
+        <base>UNACCEPTABLE_CHARS</base>
+        <trans>Dette felt kræver en gyldig e-postadresse, der indeholder @ og et domænenavn.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_ACCESS</base>
+        <trans><![CDATA[ <h2>E-post adgang</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_ACCESS_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_ACCESS">Indstillinger for adgang til e-post</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_RECEPTION</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>E-post modtagelse</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_RECEPTION_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_RECEPTION">Indstillinger for e-post modtagelse</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_DELIVERY</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>E-post levering</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_DELIVERY_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_DELIVERY">Indstillinger for e-post levering</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_STATE_FILTERING_BUTTON</base>
+        <trans><![CDATA[ <a class="button-like" href="emailsettings?page=0&page_stack=&Next=Next&wherenext=EMAIL_PAGE_FILTERING">Indstillinger for filtrering af e-post</a> ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_VIRUS_SCAN</base>
+	<trans>Virus scanning</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_VIRUS_SCAN</base>
+	<trans>Du kan skanne indgående og udgående post for virus. Hvis der er tændt for skanning og virus findes vil e-brevet blive afvist og sendt retur til afsenderen.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_SPAM_SCAN</base>
+	<trans>Spam filtrering</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_SPAM_SCAN</base>
+	<trans>Du kan skanne post for spam. Hvis spamfilteret er tændt, vil der til brevets hoved blive tilføjet en X-Spam-Status kode, som kan bruge til filtrering. Du kan justeret spamfilterets følsomhed med nogle generelle niveauer, eller selv angive et niveau, hvor modtagelse bliver nægtet.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_SPAM_SUBJECT</base>
+	<trans>SPAM emne tekst</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_SPAM_SUBJECT</base>
+	<trans>Du kan aktivere for at tilføje et en tekst forrest i emnefeltet på alle beskeder, som er klassecificeret som SPAM. Gærnseværdien for denne tilføjelse angives nedenfor</trans>
+    </entry>
+
+   <entry>
+        <base>LABEL_SPAM_SENSITIVITY</base>
+        <trans>Spam-følsomhed</trans>
+    </entry>
+   <entry>
+        <base>LABEL_SPAM_TAGLEVEL</base>
+        <trans>Brugerstyret niveau for spammærkning</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SPAM_REJECTLEVEL</base>
+        <trans>Brugerstyret niveau for spamafvisning</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SPAM_SUBJECTTAG</base>
+        <trans>Ændring af emnelinjen i spambeskeder</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SORTSPAM</base>
+        <trans>Sorter spam til junkmail-mappe</trans>
+    </entry>
+    <entry>
+        <base>VERYHIGH</base>
+        <trans>Meget højt</trans>
+    </entry>
+    <entry>
+        <base>HIGH</base>
+        <trans>Højt</trans>
+    </entry>
+    <entry>
+        <base>MEDIUM</base>
+        <trans>Mellem</trans>
+    </entry>
+    <entry>
+        <base>LOW</base>
+        <trans>Lavt</trans>
+    </entry>
+    <entry>
+        <base>VERYLOW</base>
+        <trans>Meget lavt</trans>
+    </entry>
+    <entry>
+        <base>CUSTOM</base>
+        <trans>Brugerstyret</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_STATUS</base>
+        <trans>SMTP brugergodkendelse hos Internetudbyder</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_USERID</base>
+        <trans>Postserver brugernavn</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_SMARTHOST_SMTPAUTH_PASSWD</base>
+        <trans>Postserver adgangskode</trans>
+    </entry>
+
+    <entry>
+        <base>VALIDATION_SMTPAUTH_NONBLANK</base>
+        <trans>Dette felt kan ikke stå tomt når SMTP brugergodkendelsen er slået til.</trans>
+    </entry>
+
+</lexicon>

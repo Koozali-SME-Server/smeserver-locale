@@ -1,0 +1,58 @@
+<lexicon lang="zh-cn">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>修改工作组设置</trans>
+    </entry>	
+    <entry> 
+        <base>DESC_WORKGROUP</base>
+        <trans><![CDATA[ 输入服务器所在的Windows工作组名称 ]]></trans>	
+    </entry>
+    <entry>
+        <base>LABEL_WORKGROUP</base>
+        <trans>Windows 工作组</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERVERNAME</base>
+        <trans>请输入为Windows和Macintosh文件共享使用的名称。</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERVERNAME</base>
+        <trans>服务器名称</trans>
+    </entry>
+    <entry>
+        <base>DESC_PDC</base>
+        <trans><![CDATA[是否要将服务器在windows网络中作为工作组和域控器来使用？如果网络中已存在域控器，您应该选择 <b>否</b>。]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_PDC</base>
+        <trans>工作组和域控制器</trans>
+    </entry>
+    <entry>
+        <base>DESC_ROAM</base>
+        <trans><![CDATA[ 此服务器是否支持来宾账户？您应该选择默认设置 <b>否</b>， 除非您在基于服务器的Windows来宾账户方面有很好的管理经验，并且知道必须启用来宾帐户. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_ROAM</base>
+        <trans>来宾账户</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>新的工作组设置已被保存</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP</base>
+        <trans>工作组名称必须以字母开头（大写或小写），由任意的字母组合，数字，下划线，句号和连字符组成。</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SERVERNAME</base>
+        <trans>服务器名称必须以字母开头（不区分大小写），由任意的字母组合，数字，下划线和连字符组成。</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP_MATCHES_SERVERNAME</base>
+        <trans>使用小写字母时，服务器和工作组名称应互相匹配。为了打开文件共享功能，这些值必须不相同。</trans>
+    </entry>
+    <entry>
+        <base>Workgroup</base>
+        <trans>工作组</trans>
+    </entry>
+</lexicon>

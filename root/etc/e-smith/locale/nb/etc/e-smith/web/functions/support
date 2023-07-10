@@ -1,0 +1,10 @@
+<lexicon lang="nb">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Støtte, garanti og lisensinformasjon</trans>
+    </entry>
+    <entry>
+        <base>Support and licensing</base>
+        <trans>Støtte og lisensiering</trans>
+    </entry>
+</lexicon>

@@ -1,0 +1,79 @@
+<lexicon lang="pt-br">
+   <entry>
+     <base>FORM_TITLE</base>
+       <trans>Trocar configuração do diretório LDAP</trans>
+   </entry>	
+<entry>
+<base>LABEL_ROOT</base>
+<trans>Servidor root</trans>
+</entry>
+
+<entry>
+<base>DESCRIPTION</base>
+<trans>O servidor LDAP disponibiliza uma lista de usuários e grupos disponíveis na rede em seu servidor e pode ser acessado usando um cliente LDAP como o Livro de endereços do Netscape Comunicator. Configure seu cliente LDAP com o endereço IP local de seu servidor, porta número 389, e parametro de servidor root mostrado abaixo.</trans>
+</entry>
+<entry>
+<base>DESC_DIRECTORY_ACCESS</base>
+<trans>Você pode controlar o acesso ao seu diretório LDAP: a configuração privada permite acesso somente da rede local; a pública permite acesso de qualquer lugar da Internet.</trans>
+</entry>
+<entry>
+<base>DIRECTORY_ACCESS</base>
+<trans>Acesso ao diretório LDAP</trans>
+</entry>
+<entry>
+	<base>DESC_DEPARTMENT</base>
+<trans>Estes campos são os padrões LDAP para sua organização. Toda vez que criar uma nova conta de usuário, você deverá preencher todos esses campos (podem ser diferentes para cada usuário) mas os valores configurados aqui serão mostrados como padrão. Este é um método conveniente de se criar contas de usuários.</trans>
+</entry>
+<entry>
+        <base>DEPARTMENT</base>
+        <trans>Departamento padrão</trans>
+</entry>
+
+<entry>
+        <base>COMPANY</base>
+        <trans>Companhia padrão</trans>
+</entry>
+<entry>
+        <base>STREET</base>
+        <trans>Endereço padrão</trans>
+</entry>
+
+<entry>
+        <base>CITY</base>
+        <trans>Cidade padrão</trans>
+</entry>
+
+<entry>
+        <base>PHONENUMBER</base>
+        <trans>Telefone padrão</trans>
+</entry>
+
+<entry>
+<base>DESC_EXISTING</base>
+<trans>Você pode deixar as contas existentes como estão, usando o padrão acima somente para novos usuários, ou voce pode aplicar a configuração padrão acima para todos os usuários.</trans>
+</entry>
+
+
+
+<entry>
+<base>EXISTING</base>
+<trans>Usuários existentes</trans>
+</entry>
+<entry>
+<base>SUCCESS</base>
+<trans>A configuração LDAP padrão foi salva.</trans>
+</entry>
+
+<entry>
+<base>LEAVE</base>
+<trans>Deixe como estão</trans>
+</entry>
+<entry>
+<base>UPDATE</base>
+<trans>Atualizar com os novos padrões</trans>
+</entry>
+    <entry>
+        <base>Directory</base>
+        <trans>Diretório</trans>
+    </entry>
+</lexicon>

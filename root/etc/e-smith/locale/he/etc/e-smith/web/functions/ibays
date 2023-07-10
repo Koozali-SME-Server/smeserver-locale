@@ -1,0 +1,174 @@
+<lexicon lang="he" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>יצירה, שינוי או הסרת i-bayים</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[  <a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify">הוספת i-bay</a> </p> <p> ניתן להסיר כל i-bay או לאפס את סיסמתו על ידי לחיצה על הפקודה המתאימה ליד הi-bay. אם הi-bay מוצג באדום, זה מכיוון שהסיסמה עדיין לא שונתה מברירת המחדל ועליך לשנותה בקרוב. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>יצירה או שינוי i-bay</trans>
+    </entry>
+    <entry>
+        <base>NAME_FIELD_DESC</base>
+        <trans>שם מפרץ המידע צריך להכיל אך ורק אותיות קטנות, מספרים, נקודות, מקפים וקווים תחתיים וחייב להתחיל באות קטנה. למשל, "johnson", "intar" ו- "cust3.prj12" הינם כולם שמות חוקיים, אך "3associates", "John Smith" ו- "Bus!Partner" אינם. השם מוגבל עד ל{$maxLength} תווים.</trans>
+    </entry>
+    <entry>
+        <base>NAME_LABEL</base>
+        <trans>שם מפרץ מידע</trans>
+    </entry>
+    <entry>
+        <base>USER_ACCESS</base>
+        <trans>גישת משתמש דרך שיתוף קבצים או ftp של משתמש</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS</base>
+        <trans>גישה פומבית דרך האינטרנט או דרך ftp אנונימי</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS_DESCRIPTION</base>
+        <trans>מצב גישה פומבית "password required outside local network"אינו נתמך על ידי רכיב שרת הFTP. במידה וזהו המצב שנבחר, שרת הFTP ידרוש סיסמא גם מתוך הרשת וגם מחוצה לה עבור i-bay זה.</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_DYNAMIC_CONTENT</base>
+        <trans>החרגה של תוכן דינמי (CGI, PHP, SSI)</trans>
+    </entry>
+	<entry>
+        <base>HTTPS_Only</base>
+        <trans>שחזר הגדרות שרת</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>הסרת מפרץ מידע</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans><![CDATA[ <p> אתה עומד להסיר את מפרץ המידע "{$name}" ({$description}). </p> <p> כל הקבצים השייכים למרץ מידע זה ימחקו. </p> <p> האם אתה בטוח שברצונך להסיר מפרץ מידע זה? </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_IBAY</base>
+        <trans>קרתה תקלה בזמן יצירת הi-bay.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED_IBAY</base>
+        <trans>i-bay נוצר בהצלחה.</trans>
+    </entry>
+    <entry>
+        <base>NO_IBAYS</base>
+        <trans>אין כרגע i-bay מוגדר.</trans>
+    </entry>
+    <entry>
+        <base>CANT_FIND_IBAY</base>
+        <trans>לא ניתן למצוא חשבון עבור {$name} (האם הוא קיים ?)</trans>
+    </entry>
+    <entry>
+        <base>CANT_CREATE_IBAY</base>
+        <trans>לא ניתן ליצור חשבון חדש עבור {$name} (ייתכן שהוא כבר קיים ?)</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_IBAY</base>
+        <trans>קרתה שגיאה בזמן שינוי הi-bay.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED_IBAY</base>
+        <trans>הi-bay שונה בהצלחה.</trans>
+    </entry>
+    <entry>
+        <base>VIRTUAL_HOST_MESSAGE</base>
+        <trans>The following virtual domains were using this information bay as their content and will be changed to the primary web site (you can change them to something else afterward).</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED_IBAY</base>
+        <trans>i-bay נמחק בהצלחה.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_IBAY</base>
+        <trans>שגיאה במחיקת i-bay.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_DESC</base>
+        <trans>את\ה עומד\ת לשנות את סיסמת i-bay {$name}.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VALIDATION_ERROR</base>
+        <trans>הסיסמא יכולה להכיל רק אותיות ומספרים.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VERIFY_ERROR</base>
+        <trans>הסיסמאות אינן תואמות זו לזו.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_RESET_PASSWORD</base>
+        <trans>סיסמא אופסה בהצלחה.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_RESETTING_PASSWORD</base>
+        <trans>שגיאה בעת איפוס סיסמא.</trans>
+    </entry>
+    <entry>
+        <base>VHOST_MESSAGE</base>
+        <trans><![CDATA[ <P>The following virtual domains were using this information bay as their content and will be changed to the primary web site (you can change them to something else afterward):</P> <ul>{$vhostList}</ul> ]]></trans>
+    </entry>
+    <entry>
+        <base>Information bays</base>
+        <trans>מפרצי מידע</trans>
+    </entry>
+    <entry>
+        <base>WGRG</base>
+        <trans>כתיבה = group, קריאה = group</trans>
+    </entry>
+    <entry>
+        <base>WGRE</base>
+        <trans>כתיבה = group, קריאה = everyone</trans>
+    </entry>
+    <entry>
+        <base>WARG</base>
+        <trans>כתיבה = admin, קריאה = group</trans>
+    </entry>
+    <entry>
+        <base>NONE</base>
+        <trans>ללא גישה</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_NO_PASSWORD</base>
+        <trans>רשתות מקומיות (סיסמא לא נדרשת)</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_PASSWORD</base>
+        <trans>רשתות מקומיות (דרושה סיסמא)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_NO_PASSWORD</base>
+        <trans>כל האינטרנט (סיסמא לא נדרשת)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD</base>
+        <trans>כל האינטרנט (דרושה סיסמא)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD_REMOTE</base>
+        <trans>כל האינטרנט (דרושה סיסמא מחוץ לרשת המקומית)</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IBAY_DESCRIPTION</base>
+        <trans>שגיאה: סימן לא נתמך או חסר בתיאור i-bay</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>שם הi-bay "{$acctName}" מכיל סימנים לא חוקיים. שמות i-bay חייבים להתחיל באות קטנה ולהכיל אך ורק אותיות קטנות, מספרים ומקפים.</trans>
+    </entry>
+    <entry>
+        <base>MAX_IBAY_NAME_LENGTH_ERROR</base>
+        <trans>שם הi-bay "{$name}"ארוך מדי. המקסימום הוא {$maxIbayNameLength} תווים.</trans>
+    </entry>
+    <entry>
+        <base>ACCT_CLASHES_WITH_PSEUDONYM</base>
+        <trans><![CDATA[ החשבון "{$acctName}" מתנגש עם תיאור השם הנרדף עבור {$acctType} חשבון "{$acct}". {$acctName} הוא שם נרדף עבור {$acct}.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_EXISTS</base>
+        <trans>החשבון "{$acctName}" הוא חשבון {$acctType} קיים.</trans>
+    </entry>
+</lexicon>

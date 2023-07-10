@@ -1,0 +1,79 @@
+<lexicon lang="el">
+   <entry>
+     <base>FORM_TITLE</base>
+       <trans>Αλλαγή των ρυθμίσεων του καταλόγου LDAP</trans>
+   </entry>	
+<entry>
+<base>LABEL_ROOT</base>
+<trans>"Ρίζα" του διακομιστή</trans>
+</entry>
+
+<entry>
+<base>DESCRIPTION</base>
+<trans>Ο διακομιστής LDAP παρέχει μια δικτυακή λίστα των χρηστών και των ομάδων του διακομιστή σας, και είναι προσπελάσιμη με την χρήση ενός LDAP πελάτη όπως το βιβλίο διευθύνσεων στο Netscape Communicator. Ρυθμίστε τις παραμέτρους του πελάτη LDAP δίνοντας την τοπική διεύθυνση IP του διακομιστή σας, αριθμό θύρας 389, και τη "ριζική" παράμετρο του διακομιστή όπως φαίνεται παρακάτω.</trans>
+</entry>
+<entry>
+<base>DESC_DIRECTORY_ACCESS</base>
+<trans>Μπορείτε να ελέγξετε την πρόσβαση στον κατάλογο LDAP: Η ρύθμιση ως ιδιωτική, επιτρέπει πρόσβαση μόνον από το τοπικό δίκτυο ενώ η ρύθμιση δημόσια, επιτρέπει πρόσβαση από οπουδήποτε στο διαδίκτυο.</trans>
+</entry>
+<entry>
+<base>DIRECTORY_ACCESS</base>
+<trans>Πρόσβαση καταλόγου LDAP</trans>
+</entry>
+<entry>
+	<base>DESC_DEPARTMENT</base>
+<trans>Αυτά τα πεδία έχουν τις προεπιλεγμένες ρυθμίσεις LDAP για τον οργανισμό σας. Κατά τη δημιουργία ενός νέου λογαριασμού χρήστη, θα σας ζητείται να εισάγετε όλα αυτά τα πεδία (μπορεί να είναι διαφορετικά για κάθε χρήστη) ωστόσο οι τιμές που θα ορίστε εδώ θα εμφανισθούν ως προεπιλεγμένες. Αυτό σας διευκολύνει στη γρηγορότερη δημιουργία χρηστών.</trans>
+</entry>
+<entry>
+        <base>DEPARTMENT</base>
+        <trans>Προεπιλεγμένη υπηρεσία</trans>
+</entry>
+
+<entry>
+        <base>COMPANY</base>
+        <trans>Προεπιλεγμένη εταιρεία</trans>
+</entry>
+<entry>
+        <base>STREET</base>
+        <trans>Προεπιλεγμένη Οδός</trans>
+</entry>
+
+<entry>
+        <base>CITY</base>
+        <trans>Προεπιλεγμένη Πόλη</trans>
+</entry>
+
+<entry>
+        <base>PHONENUMBER</base>
+        <trans>Προεπιλεγμένος Αριθμός Τηλεφώνου</trans>
+</entry>
+
+<entry>
+<base>DESC_EXISTING</base>
+<trans>Μπορείτε είτε να αφήσετε τους υπάρχοντες λογαριασμούς χρηστών ως είναι, χρησιμοποιώντας τα παραπάνω προεπιλεγμένα μόνον για νέους χρήστες ή να εφαρμόσετε τα παραπάνω προεπιλεγμένα σε όλους τους υπάρχοντες χρήστες.</trans>
+</entry>
+
+
+
+<entry>
+<base>EXISTING</base>
+<trans>Υπάρχοντες χρήστες</trans>
+</entry>
+<entry>
+<base>SUCCESS</base>
+<trans>Οι νέες προεπιλεγμένες ρυθμίσεις LDAP έχουν αποθηκευθεί.</trans>
+</entry>
+
+<entry>
+<base>LEAVE</base>
+<trans>Άφησε ως έχουν</trans>
+</entry>
+<entry>
+<base>UPDATE</base>
+<trans>Ενημέρωση με τις νέες προεπιλεγμένες ρυθμίσεις</trans>
+</entry>
+    <entry>
+        <base>Directory</base>
+        <trans>Κατάλογος</trans>
+    </entry>
+</lexicon>

@@ -1,0 +1,126 @@
+<lexicon lang="th">
+    <entry>
+        <base>Review configuration</base>
+        <trans>ตรวจสอบค่าที่ตั้ง</trans>
+    </entry>	
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans>นี่เป็นรายงานสรุปข้อมูลเครือข่าย เซิร์ฟเวอร์ และพารามิเตอร์ของโดเมนของเซิร์ฟเวอร์นี้ที่จะเกี่ยวข้องกับการกำหนดค่าของเครื่องลูกข่าย (client) ของเครือข่ายของคุณ คุณอาจต้องการพิมพ์หน้านี้เพื่อใช้เป็นข้อมูลอ้างอิง</trans>	
+    </entry>
+    <entry>
+        <base>NETWORKING_PARAMS</base>
+        <trans>พารามิเตอร์ของเครือข่าย</trans>
+    </entry> 
+    <entry>
+        <base>SERVER_MODE</base>
+        <trans>โหมดของเซอร์ฟเวอร์</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_IP_ADDRESS_SUBNET_MASK</base>
+        <trans>หมายเลขภายใน (local) ของ IP / subnet mask</trans>
+    </entry>
+    <entry>
+        <base>EXTERNAL_IP_ADDRESS_SUBNET_MASK</base>
+        <trans>หมายเลขภายนอกของ IP address / subnet mask</trans>
+    </entry>
+    <entry>
+        <base>GATEWAY</base>
+        <trans>เกตเวย์</trans>
+    </entry>
+    <entry>
+        <base>ADDITIONAL_LOCAL_NETWORKS</base>
+        <trans>เครือข่ายท้องถิ่น (local) เพิ่มเติม</trans>
+    </entry>
+    <entry>
+        <base>DHCP_SERVER</base>
+        <trans>เซิร์ฟเวอร์ DHCP</trans>
+    </entry>
+    <entry>
+        <base>BEGINNING_OF_DHCP_ADDRESS_RANGE</base>
+        <trans>หมายเลขแรกของช่วงหมายเลข DHCP</trans>
+    </entry>
+    <entry>
+        <base>END_OF_DHCP_ADDRESS_RANGE</base>
+        <trans>หมายเลขสุดท้ายของช่วงหมายเลข DHCP</trans>
+    </entry>
+    <entry>
+        <base>SERVER_NAMES</base>
+        <trans>ชื่อเซิร์ฟเวอร์</trans>
+    </entry>
+    <entry>
+        <base>DNS_SERVER</base>
+        <trans>เซิร์ฟเวอร์ DNS</trans>
+    </entry>
+    <entry>
+        <base>WEB_SERVER</base>
+        <trans>เว็บเซิร์ฟเวอร์</trans>
+    </entry>
+    <entry>
+        <base>PROXY_SERVER</base>
+        <trans>พร็อกซี่เซิร์ฟเวอร์</trans>
+    </entry>
+    <entry>
+        <base>FTP_SERVER</base>
+        <trans>เซิร์ฟเวอร์ FTP</trans>
+    </entry>
+    <entry>
+        <base>SMTP_POP_AND_IMAP_MAIL_SERVERS</base>
+        <trans>เซิร์ฟเวอร์เมล์ SMTP, POP, และ IMAP</trans>
+    </entry>
+    <entry>
+        <base>HOSTS</base>
+        <trans>โฮสต์</trans>
+    </entry> 
+    <entry>
+        <base>DOMAIN_INFORMATION</base>
+        <trans>ข้อมูลโดเมน</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_DOMAIN</base>
+        <trans>โดเมนหลัก</trans>
+    </entry>
+    <entry>
+        <base>VIRTUAL_DOMAINS</base>
+        <trans>โดเมนเสมือน (virtual domains) </trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_WEB_SITE</base>
+        <trans>เว็บไซต์หลัก (primary)</trans>
+    </entry>
+    <entry>
+        <base>MITEL_NETWORKS_SME_SERVER_MANAGER</base>
+        <trans>Server manager</trans>
+    </entry>
+    <entry>
+        <base>MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL</base>
+        <trans>งานรหัสผ่านของผู้ใช้</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_ADDRESSES</base>
+        <trans>ที่อยู่อีเมล</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_USERACCOUNT</base>
+        <trans>บัญชีผู้ใช้</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_FIRSTNAME</base>
+        <trans>ชื่อ</trans>
+    </entry>
+    <entry>
+        <base>EMAIL_LASTNAME</base>
+        <trans>นามสกุล</trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>ไม่พบข้อมูล virtual domains</trans>
+    </entry>
+    <entry>
+        <base>NO_NETWORKS</base>
+        <trans>ไม่พบข้อมูลเครือข่ายอื่น</trans>
+    </entry>
+    <entry>
+        <base>INTERNET_VISIBLE_ADDRESS</base>
+        <trans>หมายเลข IP ที่ใช้ได้บนอินเทอร์เน็ต</trans>
+    </entry>
+</lexicon>

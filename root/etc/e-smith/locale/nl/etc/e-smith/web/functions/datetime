@@ -1,0 +1,202 @@
+<lexicon lang="nl">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Datum en tijd configuratie</trans>
+    </entry>
+    <entry>
+      <base>INITIAL_DESC</base>
+      <trans>Dit is de plaats waar u de datum en tijd instelt van deze server. U mag een bestaande netwerk tijd server gebruiken of manueel de datum en tijd voor uw tijdszone instellen.</trans>
+    </entry>
+    <entry>
+      <base>SET_DATE_TITLE</base>
+      <trans>Stel Datum en Tijd in</trans>
+    </entry>
+    <entry>
+      <base>COULD_NOT_OPEN_TZ_FILE</base>
+      <trans>Fout: Kan tijdszone bestand niet openen voor leesbewerking:</trans>
+    </entry>
+    <entry>
+      <base>JANUARY</base>
+      <trans>januari</trans>
+    </entry>
+    <entry>
+      <base>FEBRUARY</base>
+      <trans>februari</trans>
+    </entry>
+    <entry>
+      <base>MARCH</base>
+      <trans>maart</trans>
+    </entry>
+    <entry>
+      <base>APRIL</base>
+      <trans>april</trans>
+    </entry>
+    <entry>
+      <base>MAY</base>
+      <trans>mei</trans>
+    </entry>
+    <entry>
+      <base>JUNE</base>
+      <trans>juni</trans>
+    </entry>
+    <entry>
+      <base>JULY</base>
+      <trans>juli</trans>
+    </entry>
+    <entry>
+      <base>AUGUST</base>
+      <trans>augustus</trans>
+    </entry>
+    <entry>
+      <base>SEPTEMBER</base>
+      <trans>september</trans>
+    </entry>
+    <entry>
+      <base>OCTOBER</base>
+      <trans>oktober</trans>
+    </entry>
+    <entry>
+      <base>NOVEMBER</base>
+      <trans>november</trans>
+    </entry>
+    <entry>
+      <base>DECEMBER</base>
+      <trans>december</trans>
+    </entry>
+    <entry>
+      <base>NEW_M/D/Y</base>
+      <trans>Nieuwe maand/dag/jaar:</trans>
+    </entry>
+    <entry>
+      <base>NEW_H/M/S</base>
+      <trans>Nieuw uur/min/sec:</trans>
+    </entry>
+    <entry>
+      <base>AM/PM_AND_TZ</base>
+      <trans>VM/NM en tijdszone:</trans>
+    </entry>
+    <entry>
+      <base>NTP_ENABLE_DESC</base>
+      <trans>De server kan periodiek de systeemklok synchroniseren met een netwerk tijd server protocol (NTP). Als u hiervoor kiest, vul dan de systeemnaam of het IP adres van deze NTP server hieronder in.</trans>
+    </entry>
+    <entry>
+      <base>NTP_CONFIGURE_DESC</base>
+      <trans>De server synchroniseert de systeemklok periodiek met het netwerk tijd server protocol (NTP) hieronder weergegeven. Om te synchroniseren met een andere NTP server, vul dan een andere hostnaam of IP adres in het veld hieronder in.</trans>
+    </entry>
+    <entry>
+      <base>NTP_DISABLE_DESC</base>
+      <trans>Kies deze optie als u wil stoppen met synchroniseren met de NTP server. Als de NTP dienst gedeactiveerd is kan u de syteemdatum en tijd manueel instellen vanaf deze pagina.</trans>
+    </entry>
+    <entry>
+      <base>NTP_SERVER</base>
+      <trans>NTP Server</trans>
+    </entry>
+    <entry>
+      <base>VERIFY_DATE_AND_TIME</base>
+      <trans>Controleer datum en tijd</trans>
+    </entry>
+    <entry>
+      <base>NEW_DATE_AND_TIME</base>
+      <trans>Nieuwe datum en tijdsinstelling</trans>
+    </entry>
+    <entry>
+      <base>SETTING_DATE_AND_TIME</base>
+      <trans>Datum en tijd instellen</trans>
+    </entry>
+    <entry>
+      <base>INVALID_DAY</base>
+      <trans>Fout: foutieve dag van de maand:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_1_AND_31</base>
+      <trans>Kies een dag tussen 1 en 31.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_YEAR</base>
+      <trans>Fout: foutief jaar:</trans>
+    </entry>
+    <entry>
+      <base>FOUR_DIGIT_YEAR</base>
+      <trans>Kies een 4-cijfer getal tussen 1900 en 2200.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_HOUR</base>
+      <trans>Fout: foutief uur:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_1_AND_12</base>
+      <trans>Kies een uur tussen 1 en 12.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_MINUTE</base>
+      <trans>Fout: foutieve minuut:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_0_AND_59</base>
+      <trans>Kies een minuut tussen 0 en 59.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_SECOND</base>
+      <trans>Fout: foutieve seconde</trans>
+    </entry>
+    <entry>
+      <base>UPDATING_CLOCK</base>
+      <trans><![CDATA[ Systeemklok wordt aangepast. Wacht enkele seconden en klik dan <A HREF="datetime?page=1&wherenext=Verify" TARGET="main">hier</A> om de aanpassingen te bekijken. ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_SETTING_CLOCK</base>
+      <trans>Fout opgetreden tijdens het instellen van de systeemtijd en hardware klok.</trans>
+    </entry>
+    <entry>
+      <base>SERVER_DISABLED</base>
+      <trans>Netwerk tijd server met succes gedeactiveerd</trans>
+    </entry>
+    <entry>
+      <base>SERVER_DISABLED_DESC</base>
+      <trans><![CDATA[ U heeft de dienst gedeactiveerd: De server valt terug op zijn interne klok, en <b>zal niet</b> proberen om te synchroniseren met een tijd server. ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_CHANGING_TS</base>
+      <trans>Fout opgetreden bij het wijzigen van de netwerk tijd server instelling</trans>
+    </entry>
+    <entry>
+      <base>INVALID_NTP_ADDR</base>
+      <trans>Foutief NTP server adres:</trans>
+    </entry>
+    <entry>
+      <base>SETTINGS_CHANGED</base>
+      <trans>Netwerk tijd server instelling met succes gewijzigd</trans>
+    </entry>
+    <entry>
+      <base>SYNC_WITH</base>
+      <trans>Deze server is nu geconfigureerd om periodiek te synchroniseren(via het internet) met:</trans>
+    </entry>
+    <entry>
+      <base>INVALID_NTP_SERVER</base>
+      <trans><![CDATA[ Foutieve NTP server, de server <b>zal niet</b> proberen om te synchroniseren met een tijd server. ]]></trans>
+    </entry>
+    <entry>
+      <base>NETWORK_TIME_SERVER</base>
+      <trans>Netwerk Tijd Server</trans>
+    </entry>
+    <entry>
+      <base>NTP_CONFIGURE_TITLE</base>
+      <trans>Configureer Netwerk Tijd Server</trans>
+    </entry>
+    <entry>
+      <base>NTP_ENABLE_TITLE</base>
+      <trans>Activeer Netwerk Tijd Server</trans>
+    </entry>
+    <entry>
+      <base>NTP_DISABLE_TITLE</base>
+      <trans>Deactiveer Netwerk Tijd Server</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_SETTING</base>
+      <trans>Huidige instelling</trans>
+    </entry>
+    <entry>
+      <base>Date and time</base>
+      <trans>Datum en tijd</trans>
+    </entry>
+  </lexicon>

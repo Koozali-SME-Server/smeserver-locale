@@ -1,0 +1,87 @@
+<lexicon lang="da">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Postlogfil analyse</trans>
+    </entry>
+    <entry>
+	<base>INITIAL_DESC</base>
+	<trans><![CDATA[ <P>Analyse af postsytemets logfiler kan både understøtte forståelsen af hvordan systemet arbejder og diagnosen af leveringsproblemer. Der er adgang til adskillige forskellige rapporter.</P> <P>Venligst bemærk at det kan tage adskillige minutter at opbygge disse rapporter</P> ]]></trans>
+    </entry>
+    <entry>
+	<base>REPORT_TYPE</base>
+	<trans>Vælg en rapporttype</trans>
+    </entry>
+    <entry>
+	<base>GENERATE_REPORT</base>
+	<trans>Lav rapport</trans>
+    </entry>
+    <entry>
+	<base>LIST_OUTGOING</base>
+	<trans>Udgående beskeder og modtagere</trans>
+    </entry>
+    <entry>
+	<base>SUMMARIZE_QUEUE</base>
+	<trans>Sumarisk status på postkø</trans>
+    </entry>
+    <entry>
+	<base>SUCCESSFUL_DELIVERY_DELAY</base>
+	<trans>Leveringsforsinkelser i fordelingen af leveret post</trans>
+    </entry>
+    <entry>
+	<base>REASONS_DEFERRAL</base>
+	<trans>Baggrund for forsinkelse</trans>
+    </entry>
+    <entry>
+	<base>REASONS_FAILURE</base>
+	<trans>Baggrund for fejl</trans>
+    </entry>
+    <entry>
+	<base>BASIC_STATS</base>
+	<trans>Grundlæggende statistik</trans>
+    </entry>
+    <entry>
+	<base>RECIP_STATS</base>
+	<trans>Modtagerstatistik</trans>
+    </entry>
+    <entry>
+	<base>RECIP_HOSTS</base>
+	<trans>Modtagerværter</trans>
+    </entry>
+    <entry>
+	<base>RECIP_ORDERED</base>
+	<trans>Modtagere i bedste rækkefølge til postlister</trans>
+    </entry>
+    <entry>
+	<base>SENDER_STATS</base>
+	<trans>Afsenderstatistik</trans>
+    </entry>
+    <entry>
+	<base>SENDMAIL_STYLE</base>
+	<trans>Sendmail-type log</trans>
+    </entry>
+    <entry>
+	<base>REASONS_SUCCESS</base>
+	<trans>Baggrund for success</trans>
+    </entry>
+    <entry>
+	<base>SENDER_UIDS</base>
+	<trans>BrugerID på afsender</trans>
+    </entry>
+    <entry>
+	<base>INVALID_REPORT_TYPE</base>
+	<trans>Ugyldig rapporttype</trans>
+    </entry>
+    <entry>
+	<base>REPORT_GENERATED</base>
+	<trans>Rapport oprettet:</trans>
+    </entry>
+    <entry>
+	<base>END_OF_REPORT</base>
+	<trans>Slutning på rapporten</trans>
+    </entry>
+    <entry>
+	<base>Mail log file analysis</base>
+	<trans>Post-logfil analyse</trans>
+    </entry>
+
+</lexicon>

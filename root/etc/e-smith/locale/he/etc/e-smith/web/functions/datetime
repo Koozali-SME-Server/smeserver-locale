@@ -1,0 +1,202 @@
+<lexicon lang="he">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>קונפיגורצית תאריך ושעה</trans>
+    </entry>
+    <entry>
+      <base>INITIAL_DESC</base>
+      <trans>כאן המקום לקנפג את התאריך ואת הזמן של שרת זה. באפשרותך להשתמש בשרת זמן רשתי קיים או לקבוע את התאריך ואת השעה לאיזור הזמן שלך באופן ידני.</trans>
+    </entry>
+    <entry>
+      <base>SET_DATE_TITLE</base>
+      <trans>קבע תאריך ושעה</trans>
+    </entry>
+    <entry>
+      <base>COULD_NOT_OPEN_TZ_FILE</base>
+      <trans>שגיאה: לא ניתן לפתוח קובץ איזור זמן לקריאה:</trans>
+    </entry>
+    <entry>
+      <base>JANUARY</base>
+      <trans>ינואר</trans>
+    </entry>
+    <entry>
+      <base>FEBRUARY</base>
+      <trans>פברואר</trans>
+    </entry>
+    <entry>
+      <base>MARCH</base>
+      <trans>מרץ</trans>
+    </entry>
+    <entry>
+      <base>APRIL</base>
+      <trans>אפריל</trans>
+    </entry>
+    <entry>
+      <base>MAY</base>
+      <trans>מאי</trans>
+    </entry>
+    <entry>
+      <base>JUNE</base>
+      <trans>יוני</trans>
+    </entry>
+    <entry>
+      <base>JULY</base>
+      <trans>יולי</trans>
+    </entry>
+    <entry>
+      <base>AUGUST</base>
+      <trans>אוגוסט</trans>
+    </entry>
+    <entry>
+      <base>SEPTEMBER</base>
+      <trans>ספטמבר</trans>
+    </entry>
+    <entry>
+      <base>OCTOBER</base>
+      <trans>אוקטובר</trans>
+    </entry>
+    <entry>
+      <base>NOVEMBER</base>
+      <trans>נובמבר</trans>
+    </entry>
+    <entry>
+      <base>DECEMBER</base>
+      <trans>דצמבר</trans>
+    </entry>
+    <entry>
+      <base>NEW_M/D/Y</base>
+      <trans>חודש\יום\שנה חדשים:</trans>
+    </entry>
+    <entry>
+      <base>NEW_H/M/S</base>
+      <trans>שעה\דקות\שניות חדשים:</trans>
+    </entry>
+    <entry>
+      <base>AM/PM_AND_TZ</base>
+      <trans>AM/PM ואיזור זמן:</trans>
+    </entry>
+    <entry>
+      <base>NTP_ENABLE_DESC</base>
+      <trans>השרת יכול לסנכרן את שעון המערכת מדי פעם מול שרת זמן רשתי (שרת NTP) . אם אפשרות זו נבחרה, נא להכניס את שם השרת או את כתובת הIP של שרת NTP למטה.</trans>
+    </entry>
+    <entry>
+      <base>NTP_CONFIGURE_DESC</base>
+      <trans>מעת לעת השרת מסנכרן את שעון המערכת מול שרת פרוטוקול הזמן ברשת (NTP) המצויין למטה. כדי לסנכרן לשרת NTP שונה, הזן שם אחר או כתובת IP בשדה למטה.</trans>
+    </entry>
+    <entry>
+      <base>NTP_DISABLE_DESC</base>
+      <trans>בחר באפשרות זו כדי להפסיק את סנכרון שעון המערכת מול שרת NTP. כאשר שירות ה NTP מושבת, ניתן להגדיר זמן מערכת באופן ידני בדף זה.</trans>
+    </entry>
+    <entry>
+      <base>NTP_SERVER</base>
+      <trans>שרת NTP</trans>
+    </entry>
+    <entry>
+      <base>VERIFY_DATE_AND_TIME</base>
+      <trans>בדוק תאריך ושעה</trans>
+    </entry>
+    <entry>
+      <base>NEW_DATE_AND_TIME</base>
+      <trans>הגדרות תאריך ושעה חדשות:</trans>
+    </entry>
+    <entry>
+      <base>SETTING_DATE_AND_TIME</base>
+      <trans>מגדיר תאריך ושעה</trans>
+    </entry>
+    <entry>
+      <base>INVALID_DAY</base>
+      <trans>שגיאה: יום בחודש אינו תקין:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_1_AND_31</base>
+      <trans>נא לבחור יום בין 1 לבין 31.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_YEAR</base>
+      <trans>שגיאה: שנה לא תקינה:</trans>
+    </entry>
+    <entry>
+      <base>FOUR_DIGIT_YEAR</base>
+      <trans>נא לבחור שנה בת ארבע ספרות בין 1900 לבין 2200.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_HOUR</base>
+      <trans>שגיאה: שעה אינה תקינה:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_1_AND_12</base>
+      <trans>נא לבחור שעה בין 1 לבין 12.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_MINUTE</base>
+      <trans>שגיאה: דקות לא תקינות:</trans>
+    </entry>
+    <entry>
+      <base>BETWEEN_0_AND_59</base>
+      <trans>נא לבחור דקות בין 0 לבין 59.</trans>
+    </entry>
+    <entry>
+      <base>INVALID_SECOND</base>
+      <trans>שגיאה: שניות לא תקינות</trans>
+    </entry>
+    <entry>
+      <base>UPDATING_CLOCK</base>
+      <trans><![CDATA[ שעון המערכת מתעדכן כעת. נא להמתין מספר שניות ואז להקליק כאן</A> כדי לוודא שהשינויים נכונים. ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_SETTING_CLOCK</base>
+      <trans>קרתה טעות בעת קביעת זמן המערכת ושעון החומרה.</trans>
+    </entry>
+    <entry>
+      <base>SERVER_DISABLED</base>
+      <trans>שרת זמן רשתי בוטל בהצלחה</trans>
+    </entry>
+    <entry>
+      <base>SERVER_DISABLED_DESC</base>
+      <trans><![CDATA[ שירות זה בוטל על ידך: השרת יסתמך על שעונו הפנימי, ולא</b> ינסה להסתנכרן עם שרת זמן רשתי. ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_CHANGING_TS</base>
+      <trans>קרתה טעות בעת שינוי הגדרות שרת זמן רשתי</trans>
+    </entry>
+    <entry>
+      <base>INVALID_NTP_ADDR</base>
+      <trans>כתובת שרת NTP לא תקינה:</trans>
+    </entry>
+    <entry>
+      <base>SETTINGS_CHANGED</base>
+      <trans>הגדרות שרת זמן רשתי שונו בהצלחה</trans>
+    </entry>
+    <entry>
+      <base>SYNC_WITH</base>
+      <trans>שרת זה מוגדר כעת להסתנכרן מדי פעם (דרך האינטרנט) עם:</trans>
+    </entry>
+    <entry>
+      <base>INVALID_NTP_SERVER</base>
+      <trans><![CDATA[ שרת NTP לא תקין, השרת לא</b> ינסה לסנכרן משרת זמן רשתי. ]]></trans>
+    </entry>
+    <entry>
+      <base>NETWORK_TIME_SERVER</base>
+      <trans>שרת זמן רשתי</trans>
+    </entry>
+    <entry>
+      <base>NTP_CONFIGURE_TITLE</base>
+      <trans>הגדרת שרת זמן רשתי</trans>
+    </entry>
+    <entry>
+      <base>NTP_ENABLE_TITLE</base>
+      <trans>אפשר שרת זמן רשתי</trans>
+    </entry>
+    <entry>
+      <base>NTP_DISABLE_TITLE</base>
+      <trans>נטרל שרת זמן רשתי</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_SETTING</base>
+      <trans>הגדרות נוכחיות</trans>
+    </entry>
+    <entry>
+      <base>Date and time</base>
+      <trans>תאריך ושעה</trans>
+    </entry>
+  </lexicon>

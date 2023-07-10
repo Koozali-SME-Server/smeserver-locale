@@ -1,0 +1,114 @@
+<lexicon lang="nl">
+    <entry>
+      <base>NO_PSEUDONYMS</base>
+      <trans><![CDATA[ <b>Er zijn geen pseudoniemen op dit systeem.</b> ]]></trans>
+     </entry>
+    <entry>
+        <base>REMOVE_PSEUDONYM</base>
+        <trans>Pseudoniem verwijderen</trans>
+    </entry>
+    <entry>
+        <base>ABOUT_TO_REMOVE</base>
+        <trans><![CDATA[ U staat op het punt de pseudoniem te verwijderen:<br> <b>Bent u zeker dat u verder wilt gaan?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Pseudoniemen toevoegen, wijzigen of verwijderen</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans><![CDATA[ <p>De server voegt automatisch een e-mail pseudoniem toe voor elke groep. Voeg een groep toe indien U een e-mail pseudoniem wenst aan te maken voor een lijst van gebruikers. De lijst zal automatisch worden bijgehouden door de server.</p> <p>Pseudoniemen laten u ook toe om andere namen aan te maken voor bestaande gebruikers of groepen. U kan bijvoorbeeld een pseudoniem "webmaster" maken voor een groep "webdevelopers" of een pseudoniem "joe" voor een gebruiker "joseph".</p> <p>De server voegt  automatisch voor elke gebruiker pseudoniemen toe onder de vorm voornaam.familienaam en voornaam_familienaam en een pseudoniem "everyone" dat alle gebruikers op het systeem bevat. </p> <p>Pseudoniemen laten u ook toe om e-mail pseudoniemen aan te maken voor (virtuele) domeinen en gebruikers. U kan bijvoorbeeld "sales@virtualdomain1.com" laten doorsturen naar gebruiker "mary" en "sales@virtualdomain2.com" naar gebruiker "john". U dient de domeinen en gebruikers toe te voegen vooraleer u de e-mail pseodoniem kan toevoegen.</p> <p>Pseudoniemen kunnen ook worden doorgestuurd naar andere pseudoniemen, hoewel dit beperkt is. Het pseudoniem "webmaster" kan bijvoorbeeld worden doorgestuurd naar het pseudoniem "techsupport" welke op zijn beurt kan worden doorgestuurd naar een gebruiker "ray". Dit is handig indien een gebruiker meerdere functies vervult en hiermee wordt vermeden dat pseudoniemen veelvuldig moeten worden aangepast indien een gebruiker de organisatie verlaat.</p> <p>U kan een pseudoniem wijzigen of verwijderen door op de overeenkomende opdracht naast het pseudoniem te klikken.</p>]]></trans>
+    </entry>
+    <entry>
+        <base>LOCAL_ONLY</base>
+        <trans>(alleen lokaal netwerk)</trans>
+    </entry>
+    <entry>
+        <base>SELECT_ACCOUNT</base>
+        <trans>Selecteer een account of groep</trans>
+    </entry>
+    <entry>
+        <base>SELECT_INTERNAL</base>
+        <trans>Alleen lokaal netwerk</trans>
+    </entry>
+    <entry>
+        <base>CLICK_TO_CREATE</base>
+        <trans>Pseudoniem toevoegen</trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM</base>
+        <trans>Pseudoniem</trans>
+    </entry>
+    <entry>
+        <base>USER_OR_GROUP</base>
+        <trans>Gebruiker of groep</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_PSEUDONYMS</base>
+        <trans><![CDATA[<b>Huidige lijst met pseudoniemen</b>]]></trans>
+    </entry>
+    <entry>
+        <base>TITLE_CREATE</base>
+        <trans>Pseudoniem toevoegen</trans>
+    </entry>
+    <entry>
+        <base>DESC_PSEUDONYM_NAME</base>
+       <trans>Selecteer een bestaande gebruiker of pseudoniem in de keuzelijst hieronder</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_PSEUDONYM</base>
+        <trans>Wijzig pseudoniem</trans>
+    </entry>     
+       <entry>
+        <base>PSEUDONYM_NAME</base>
+        <trans>Pseudoniem naam</trans>
+    </entry>
+    <entry>
+        <base>VALID_PSEUDONYM_NAMES</base>
+        <trans><![CDATA[ Een pseudoniem mag alleen kleine letters, cijfers, punten, koppeltekens en lage streepjes bevatten en moet met een kleine letter of cijfer beginnen. Bijvoorbeeld "sales", "john.holland", "123" en "email-administrator" zijn geldige pseudoniemen, maar "Jan Smit" en "Henry Miller" niet. <p>U kan ook e-mail aliassen aanmaken voor accounts en (virtuele) domeinen die geldig zijn op deze server. Bijvoorbeeld "fred@virtualdomain.com" kan worden doorgestuurd naar "mary" (of naar een andere geldige gebruikersaccount).</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>NAME_IN_USE</base>
+        <trans>Fout: Deze naam is reeds in gebruik. U kan geen pseudoniem toevoegen met deze naam.</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_PSEUDONYM</base>
+        <trans>Deze account is geen pseudoniem</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_DOMAIN</base>
+        <trans>Dit domein wordt niet op deze server gehost</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_NOACCT</base>
+        <trans>Deze account wordt niet op deze server gehost</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_SAMEACCT</base>
+        <trans>Een pseudoniem kan niet naar dezelfde account verwijzen</trans>
+    </entry>
+    <entry>
+        <base>CREATE_SUCCEEDED</base>
+        <trans>Pseudoniem is met succes toegevoegd</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_SUCCEEDED</base>
+        <trans>Pseudoniem is met succes gewijzigd</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_SUCCEEDED</base>
+        <trans>Pseudoniem is met succes verwijderd</trans>
+    </entry>
+    <entry>
+      <base>EVERYONE</base>
+      <trans>Iedereen</trans>
+    </entry>
+      <entry>
+        <base>Pseudonyms</base>
+        <trans>Pseudoniemen</trans>
+      </entry>
+
+</lexicon>

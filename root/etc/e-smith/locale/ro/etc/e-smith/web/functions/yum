@@ -1,0 +1,193 @@
+<lexicon lang="ro"> 
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+	<base>Software installer</base>
+	<trans>Instalator de programe software</trans>
+    </entry>
+
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Noile setări au fost salvate</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_YUM_STATUS</base>
+        <trans>Verifică pentru actualizări</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_YUM_AUTOINSTALLUPDATES</base>
+	<trans>Instalați actalizări automat</trans>
+   </entry>
+    <entry>
+        <base>LABEL_YUM_AUTOINSTALLUPDATES_DESCRIPTION</base>
+        <trans>If enabled this will take precedence over the simple check for updates notification and predownload features. Instead it will install the available updates from enabled repositories. For more information refer to yum and yum-cron manual page.</trans>
+   </entry>
+
+    <entry>
+	<base>LABEL_YUM_PACKAGEFUNCTIONS</base>
+	<trans>Gestionați pachete individuale.</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_YUM_PACKAGEFUNCTIONS</base>
+	<trans>Instalatorul de programe software, poate gestiona grupuri de pachete relationate sau pachete individuale. Implicit sunt prezente numai grupurile de pachete. Dacă doriți să gestionați pachetele individual, trebuie sa activați această optiune. Acest lucru este recomandat să fie efectuat doar de administratorii experimentați.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_ENABLED_REPOSITORIES</base>
+	<trans>Biblioteci de programe software activate</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_ENABLED_REPOSITORIES</base>
+	<trans>Instalatorul de programe software poate instala programe din oricare bibliotecă de programe activată. Pentru a activa bibliotecile selectațile din listă. Pentru a le dezactiva, deselectați-le. Implicit numai programele stabile si testate sunt disponible pentru instalare.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_UPTODATE</base>
+        <trans><![CDATA[ <div class="success"> <h2>Sistemul este actualizat.</h2> Aveți toate actualizările la zi. </div> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_UPDATES_AVAILABLE</base>
+        <trans><![CDATA[ <div class="success"> <h2>Acest sistem este actualizat.</h2> Toate actualizările au fost instalate. </div> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_AVAILABLE_UPDATES</base>
+        <trans>Actualizări disponibile.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_AVAILABLE_UPDATES</base>
+        <trans>Următoarele actualizări sunt disponibile pentru sistemul dumneavoastră. În mod normal ar trebui să instalați toate actualizările. Dacă sunt actualizări pe care nu doriți să le instalați, deselectați-le din lista de mai jos.</trans>
+    </entry>
+
+    <entry>
+        <base>INSTALL_UPDATES</base>
+        <trans>Instalați actualizările selectate</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_INSTALL_UPDATES</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_UPDATES">Instalați actualizările disponiblie</a> ]]></trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_AVAILABLE_SOFTWARE</base>
+	<trans>Următoarele programe sunt disponibile pentru a fi instalate pe sistemul dumneavoastră. Puteți adăuga programe pe sistem doar daca sunteți conștient de consecințele acestei acțiuni.</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_AVAILABLE_GROUPS</base>
+	<trans>Puteți selecta grupurile de programe de instalat din lista de mai jos.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_AVAILABLE_GROUPS</base>
+	<trans>Grupuri disponibile</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_AVAILABLE_PACKAGES</base>
+	<trans>Puteți selacta deasemenea pachete individuale din lista de mai jos</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_AVAILABLE_PACKAGES</base>
+	<trans>Pachete disponibile</trans>
+    </entry>
+
+    <entry>
+	<base>INSTALL_SOFTWARE</base>
+	<trans>Instalează</trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_INSTALLED_SOFTWARE</base>
+	<trans>Urmatoarele programe sutn instalate pe sistem. Puteți dezinstala programe de pe sistem numai dacă intelegeți consecința acestei acțiuni.</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_INSTALLED_GROUPS</base>
+	<trans>Puteți selecta grupurile de programe din lista de mai jos.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_INSTALLED_GROUPS</base>
+	<trans>Grupuri instalate</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_INSTALLED_PACKAGES</base>
+	<trans>Puteți selecta deasemenea din lista de mai jos pachete individuale pe care sa le dezinstalați.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_INSTALLED_PACKAGES</base>
+	<trans>Pachete instalate</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_CONFIGURATION</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_CONFIGURATION">Schimbați setările de instalare a programelor</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_INSTALL_AVAILABLE</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_AVAILABLE">Instalați programe adiționale</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_REMOVE</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_REMOVE">Dezinstalați programe</a> ]]></trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_POSTUPGRADE_REQUIRED</base>
+	<trans><![CDATA[ Sistemul are nevoie de reconfigurare după adaugarea,înlăturarea sau actualizarea programelor. <p> Apasați pe butonul de Reconfigurare din partea de jos a paginii pentru a porni acest proces. <b>O restartare automata la finalul procesului este parte integrantă din proces</b> </p> ]]></trans>
+     </entry>
+
+    <entry>
+	<base>SYSTEM_BEING_RECONFIGURED</base>
+	<trans>Sistemul dumneavoastră este repornit automat pentur terminarea procesului de reconfigurare.</trans>
+    </entry>
+
+    <entry>
+      <base>1DAILY</base>
+      <trans>Zilnic</trans>
+    </entry>
+
+    <entry>
+      <base>2WEEKLY</base>
+      <trans>Saptamanal</trans>
+    </entry>
+
+    <entry>
+      <base>3MONTHLY</base>
+      <trans>Lunar</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DELTARPMPROCESS</base>
+      <trans>Delta Rpm Update</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DELTARPM</base>
+      <trans>A deltarpm contains the difference between an old and a new version of a rpm, which can save bandwith. The drawback is that update operations consume considerably more CPU cycles</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DOWNLOADONLY</base>
+      <trans>S-au actualizat detaliile personale</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DOWNLOADONLY_DESCRIPTION</base>
+      <trans>The rpm updates can be downloaded during the night, this will ease and give faster the yum update process (only enabled repositories will be used).</trans>
+    </entry>
+
+</lexicon>

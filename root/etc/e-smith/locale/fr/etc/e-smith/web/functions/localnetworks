@@ -1,0 +1,108 @@
+<lexicon lang="fr">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>Local networks</base>
+        <trans>Gestion des réseaux locaux</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p>Par mesure de sécurité, plusieurs services du serveur ne sont disponibles que pour votre réseau local. Mais il vous est possible d'accorder ces privilèges d'accès local à d'autres réseaux en les ajoutant à la liste ci-dessous. Dans la plupart des cas, vous devriez laisser cette liste vide.</p> <p><a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Ajouter un réseau local</a></p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>Ajouter un réseau local</trans>
+    </entry>
+    <entry>
+        <base>ADD_DESC</base>
+        <trans><![CDATA[ <p>Chaque valeur doit être de la forme #.#.#.# (où # est un nombre entier compris entre 0 et 255). Le serveur supprime les zéros de la partie finale (identificateur de l'hôte) de l'adresse réseau en fonction du masque de sous-réseau, afin d'assurer la validité de l'adresse réseau.</p> <p>Le champ 'Routeur' doit contenir l'adresse IP du routeur local assurant la liaison vers le réseau supplémentaire.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ADDRESS</base>
+        <trans>Adresse réseau</trans>
+    </entry>
+    <entry>
+        <base>SUBNET_MASK</base>
+        <trans>Masque de sous-réseau</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IP_ADDRESS</base>
+        <trans>Adresse IP non valide.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SUBNET_MASK</base>
+        <trans>Masque de sous-réseau non valide.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Supprimer le réseau local</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Vous êtes sur le point de supprimer le réseau local suivant :</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_CONFIRM</base>
+        <trans>Voulez-vous vraiment supprimer ce réseau ?</trans>
+    </entry>
+    <entry>
+        <base>DEFAULT</base>
+        <trans>valeur par défaut</trans>
+    </entry>
+    <entry>
+        <base>NUMBER_OF_HOSTS</base>
+        <trans>Nombre d'hôtes</trans>
+    </entry>
+    <entry>
+        <base>NOT_ACCESSIBLE_FROM_LOCAL_NETWORK</base>
+        <trans>ERREUR : adresse du routeur {$networkRouter} inaccessible depuis le réseau local. Le réseau n'a pas été ajouté.</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_LOCAL</base>
+        <trans>ERREUR : le réseau {$network} (dérivé du réseau {$networkAddress} et du masque de sous-réseau {$networkMask}) est déjà considéré comme local. Le réseau n'a pas été ajouté.</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_ADDED</base>
+        <trans>ERREUR : le réseau {$network} (dérivé du réseau {$networkMask} et du masque de sous-réseau {$networkMask}) a déjà été ajouté. Le réseau n'a pas été ajouté.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_CREATING_NETWORK</base>
+        <trans>Une erreur s'est produite lors de la création du réseau.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Le réseau {$network}/{$networkMask} accessible via le routeur {$networkRouter} a été ajouté avec succès.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_SINGLE_ADDRESS</base>
+        <trans>Le réseau {$network}/{$networkMask} accessible via le routeur {$networkRouter} a été ajouté avec succès. Votre serveur accordera des privilèges d'accès local à l'unique adresse IP {$network}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NETWORK_RANGE</base>
+        <trans>Le réseau {$network}/{$networkMask} accessible via le routeur {$networkRouter} a été ajouté avec succès. Votre serveur accordera des privilèges d'accès local aux {$totalHosts} adresses IP comprises dans l'intervalle {$firstAddr} à {$lastAddr}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NONSTANDARD_RANGE</base>
+        <trans><![CDATA[ <p>Le réseau {$network}/{$networkMask} accessible via le routeur {$networkRouter} a été ajouté avec succès.</p> <p>Votre serveur accordera des privilèges d'accès local aux {$totalHosts} adresses IP comprises dans l'intervalle {$firstAddr} à {$lastAddr}.</p> <p>ATTENTION : le serveur FTP ProFTPd ne peut pas traiter ce masque de sous-réseau non standard. Le masque simplifié <b>{$simpleMask}</b> sera utilisé à la place.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_REMOVED_NETWORK</base>
+        <trans>Le réseau {$network}/{$networkMask} accessible via le routeur {$networkRouter} a été supprimé avec succès.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_DELETING_NETWORK</base>
+        <trans>Une erreur est survenue lors de la suppression du réseau.</trans>
+    </entry>
+    <entry>
+        <base>NO_ADDITIONAL_NETWORKS</base>
+        <trans>Aucun réseau local additionnel</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_DESC</base>
+        <trans>Le système a détecté la présence d'hôtes locaux configurés sur le réseau que vous vous apprêtez à supprimer. Par défaut, ils seront également supprimés. Décochez cette case si vous souhaitez les conserver. Veuillez noter qu'ils ne seront pas considérés comme locaux et qu'ils risquent de ne plus être joignables après la suppression du réseau.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_LABEL</base>
+        <trans>Supprimer des hôtes du réseau.</trans>
+    </entry>
+</lexicon>

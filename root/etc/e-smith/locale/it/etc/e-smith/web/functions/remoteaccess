@@ -1,0 +1,171 @@
+<lexicon lang="it">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Cambio impostazioni accesso remoto</trans>
+    </entry>	
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans>Per ognuna delle opzioni sottostanti, l'impostazione privato permette a chiunque di accedere al server dalla rete locale. L'impostazione pubblico consente l'accesso da ovunque su Internet. L'impostazione nessun accesso inibisce l'accesso. Per comprendere le implicazioni di sicurezza legate a queste opzioni è necessario leggere la guida utente, sezione accesso remoto.</trans>	
+    </entry>
+    <entry>
+	<base>SUCCESS</base>
+	<trans>Le nuove impostazioni di accesso remoto sono state salvate.</trans>
+    </entry>
+    <entry>
+	<base>NO_ACCESS</base>
+	<trans>Nessun Accesso</trans>
+    </entry>
+    <entry>
+	<base>PASSWORD_LOGIN_PRIVATE</base>
+	<trans>Accetta password solo dalle reti locali</trans>
+    </entry>
+    <entry>
+	<base>PASSWORD_LOGIN_PUBLIC</base>
+	<trans>Accetta password da tutte le reti</trans>
+    </entry>
+    <entry>
+	<base>LABEL_TELNET_ACCESS</base>
+	<trans>Accesso Telnet</trans>
+    </entry>
+    <entry>
+	<base>LABEL_FTP_ACCESS</base>
+	<trans>Accesso FTP</trans>
+    </entry>
+    <entry>
+	<base>LABEL_FTP_LOGIN</base>
+	<trans>Accesso FTP con password</trans>
+    </entry>
+    <entry>
+	<base>LABEL_PPTP</base>
+	<trans>Numero di client PPTP</trans>
+    </entry>
+     <entry>
+       <base>NUMBER_OF_VPN_CLIENTS_MUST_BE_LESSER_THAN_NUMBER_OF_IP_IN_DHCP_RANGE</base>
+       <trans>Il numero di client VPN è più grande del numero di indirizzi ip riservati da DHCP. Deve essere scelto un numero più piccolo.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SSH_PORT</base>
+        <trans>Porta TCP usata per l'accesso ssh</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH</base>
+	<trans>Accesso Secure shell (ssh)</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH_ADMIN</base>
+	<trans>Consenti accesso amministrativo da linea comandi su ssh</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH_PASSWORD_ACCESS</base>
+	<trans>Consenti accesso ssh con password standard</trans>
+    </entry>
+    <entry>
+	<base>DESC_SSH</base>
+	<trans><![CDATA[ <hr class="sectionbar"/><h2>Impostazioni Secure Shell (ssh)</h2>E' possibile impostare l'accesso ssh al server. L'impostazione pubblico dovrebbe essere abilitata solo da amministratori esperti per diagnosi e risoluzione problemi da remoto. Il valore raccomandato per questo parametro è "Nessun Accesso" a meno di specifiche ragioni contrarie. ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_FTP_ACCESS</base>
+	<trans><![CDATA[ <hr class="sectionbar"/><h2>Impostazioni FTP</h2> E' possibile controllare l'accesso <b>FTP</b> al server. Si consiglia di lasciare questo parametro a "Nessun Accesso" a meno di specifiche ragioni. <p> Nota: queste impostazioni limitano l'accesso al server e hanno precedenza sulle altre impostazioni, comprese quelle per le singole i-bay.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_FTP_LOGIN</base>
+	<trans><![CDATA[ E' possibile controllare l'accesso FTP autenticato alle i-bay e agli utenti. E' fortemente raccomandato lasciare questa impostazione a privato. <p> Nota: è possibile utilizzare un client sftp (ssh) per accedere al server, avendo preventivamente abilitato l'accesso ssh. Questo metodo protegge password e dati della sessione ftp, mentre l'FTP standard non offre protezione.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_PPTP</base>
+	<trans><![CDATA[ <hr class="sectionbar"/><h2>Impostazioni PPTP</h2> E' possibile abilitare l'accesso PPTP al server. Questa funzionalità dovrebbe rimanere disabilitata impostando a 0 il valore, a meno che sia necessario l'accesso PPTP. ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_VPN</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Impostazioni VPN</h2> E' possibile abilitare l'accesso VPN al server. Questa funzionalità dovrebbe rimanere disabilitata impostando a 0 il valore, a meno che sia necessario l'accesso VPN. ]]></trans>
+    </entry>
+    <entry>
+	<base>VALUE_ZERO_OR_POSITIVE</base>
+	<trans>Il valore deve essere 0 o un intero positivo</trans>
+    </entry>
+    <entry>
+	<base>REMOTE_MANAGEMENT</base>
+	<trans>Gestione Remota</trans>
+    </entry>
+    <entry>
+	<base>VALIDFROM_DESC</base>
+	<trans><![CDATA[ <hr class="sectionbar"/><h2>{$REMOTE_MANAGEMENT}</h2> <p>E' possibile consentire l'accesso a computer su reti remote al server-manager, inserendo le reti abilitate qui. Utilizzare una subnet mask di 255.255.255.255 per limitare l'accesso ad un host specifico. I computer abilitati potranno accedere al server-manager in HTTPS.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_VALID_FROM_ENTRIES</base>
+	<trans>Per aggiungere una nuova rete di gestione, inserire i dettagli sotto.</trans>
+    </entry>
+    <entry>
+	<base>SUBNET_MASK</base>
+	<trans>Maschera di rete</trans>
+    </entry>
+    <entry>
+	<base>NUM_OF_HOSTS</base>
+	<trans>Numero di host</trans>
+    </entry>
+    <entry>
+	<base>NO_ENTRIES_YET</base>
+	<trans>Non ci sono valori</trans>
+    </entry>
+    <entry>
+	<base>INVALID_SUBNET_MASK</base>
+	<trans>Subnet mask non valida</trans>
+    </entry>
+    <entry>
+	<base>ERR_INVALID_PARAMS</base>
+	<trans>Inserire una coppia rete e maschera di rete o lasciare vuoti entrambi i campi.</trans>
+    </entry>
+    <entry>
+	<base>ERR_NO_RECORD</base>
+	<trans>Impossibile trovare il record httpd-admin nel db di configurazione</trans>
+    </entry>
+    <entry>
+	<base>Remote access</base>
+	<trans>Accesso remoto</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERIAL_CONSOLE_ACCESS</base>
+        <trans>Console seriale</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERIAL_CONSOLE_ACCESS</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Console seriale</h2> E' possibile accedere alla console del server da un terminale collegato a una porta seriale.]]></trans>
+    </entry>
+    <entry>
+        <base>PORT1_ENABLED</base>
+        <trans>Abilitato sulla porta seriale 1</trans>
+    </entry>
+    <entry>
+        <base>PORT2_ENABLED</base>
+        <trans>Abilitato sulla porta seriale 2</trans>
+    </entry>   
+
+    <entry>
+        <base>LABEL_PPTP_ACCESS</base>
+        <trans>Accesso utente PPTP default</trans>
+    </entry>
+    <entry>
+        <base>DESC_TELNET_ACCESS</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Impostazioni Telnet</h2> ATTENZIONE: Telnet è abilitato, ma non più supportato. Telnet non è sicuro e dovrebbe essere usato solo in circostanze in cui non esistono alternative. L'opzione dovrebbe essere su {$NO_ACCESS} e dovrebbe essere utilizzato ssh in caso di accesso remoto. Una volta disabilitato, telnet non apparirà su questo schermo. ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_IPSECRW</base>
+	<trans><![CDATA[ <h2>Impostazioni client IPSEC (Roadwarrior)</h2> E' possibile consentire l'accesso IPSEC al server, con autenticazione a certificati digitali. Questa caratteristica dovrebbe rimanere disabilitata impostando il valore 0 a meno di necessità di accesso client IPSEC. ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_IPSECRW_SESS</base>
+	<trans>Numero di client IPSEC</trans>
+    </entry>
+    <entry>
+	<base>DESC_IPSECRW_RESET</base>
+	<trans><![CDATA[Desiderando reimpostare tutti i certificati digitali è possibile farlo qui.<br>I vecchi certificati non permetteranno l'autenticazione sul server e <b><i>tutti i client IPSEC dovranno importare un nuovo certificato!</i></b>. ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_IPSECRW_RESET</base>
+	<trans>Ricrea i certificati digitali</trans>
+    </entry>
+    <entry>
+        <base>DESC_IPSEC_VPN_UNAVAILABLE</base>
+        <trans>VPN IPSEC non è installato. Installa la contrib se ti serve l'accesso VPN</trans>
+    </entry>
+</lexicon>

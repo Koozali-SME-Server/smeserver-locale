@@ -1,0 +1,193 @@
+<lexicon lang="da"> 
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+	<base>Software installer</base>
+	<trans>Programinstallation</trans>
+    </entry>
+
+    <entry>
+        <base>SUCCESS</base>
+        <trans>De nye indstillinger er gemt.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_YUM_STATUS</base>
+        <trans>Søg efter opdateringer</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_YUM_AUTOINSTALLUPDATES</base>
+	<trans>Installere opdateringer automatisk</trans>
+   </entry>
+    <entry>
+        <base>LABEL_YUM_AUTOINSTALLUPDATES_DESCRIPTION</base>
+        <trans>Hvis aktiveret dette vil prioriteres over det simple check for opdateringer og forhånds hentning af features. I stedet vil tilgængelige opdateringer fra valgte repositories blive hentet og installeret automatisk, For mere information henvises til yum og yum-cron manual siderne,</trans>
+   </entry>
+
+    <entry>
+	<base>LABEL_YUM_PACKAGEFUNCTIONS</base>
+	<trans>Håndter individuelle pakker</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_YUM_PACKAGEFUNCTIONS</base>
+	<trans>Programinstallationen kan håndtere grupper af beslægtede pakker eller individuelle pakker. I udgangspunkt vises kun programgrupper. Ønsker du at håndtere individuelle pakker slå denne funktion til. Dette bør kun gøres af erfarne administratorer.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_ENABLED_REPOSITORIES</base>
+	<trans>Aktiverede datalagre</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_ENABLED_REPOSITORIES</base>
+	<trans>Programinstallationen kan ske fra ethvert af de aktiverede datalagre. For at aktivere et datalager, vælg det fra listen. For at fjerne det, fra-vælg det fra listen. Som udgangspunkt er kun stabile og afprøvede programmer tilgængelige for installation.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_UPTODATE</base>
+        <trans><![CDATA[ <div class="success"> <h2>Dette system er opdateret.</h2> Alle opdateringer er installeret. </div> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_UPDATES_AVAILABLE</base>
+        <trans><![CDATA[ <div class="success"> <h2>Der er opdateringer tilgængelig</h2> Der er opdateringer tilgængelig for dit system. Disse bør installeres snarest muligt. </div> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_AVAILABLE_UPDATES</base>
+        <trans>Tilgængelige opdateringer </trans>
+    </entry>
+
+    <entry>
+        <base>DESC_AVAILABLE_UPDATES</base>
+        <trans>Følgende opdateringer til dit system er tilgængelige. Normalt bør du installere alle tilgængelige opdateringer. Er der opdateringer du ikke ønsker at installere, fravælg dem på listen nedenfor.</trans>
+    </entry>
+
+    <entry>
+        <base>INSTALL_UPDATES</base>
+        <trans>Installer valgte opdateringer</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_INSTALL_UPDATES</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_UPDATES">List tilgængelige opdateringer</a> ]]></trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_AVAILABLE_SOFTWARE</base>
+	<trans>Følgende programmer er tilgængelige til installation på dit system. Du bør kun installere yderligere programmer på systemet, hvis du er opmærksom på konsekvenserne heraf.</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_AVAILABLE_GROUPS</base>
+	<trans>Vælg programgrupper til installation fra listen nedenfor.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_AVAILABLE_GROUPS</base>
+	<trans>Tilgængelige grupper</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_AVAILABLE_PACKAGES</base>
+	<trans>Du kan også vælge individuelle pakker til installation fra listen nedenfor.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_AVAILABLE_PACKAGES</base>
+	<trans>Tilgængelige pakker</trans>
+    </entry>
+
+    <entry>
+	<base>INSTALL_SOFTWARE</base>
+	<trans>Installer</trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_INSTALLED_SOFTWARE</base>
+	<trans>Følgende programmer er installeret på systemet. Du bør kun fjerne programmer fra systemet hvis du er opmærksom på konsekvenserne heraf.</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_INSTALLED_GROUPS</base>
+	<trans>Du kan vælge programgrupper til fjernelse fra serveren fra listen nedenfor.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_INSTALLED_GROUPS</base>
+	<trans>Installerede grupper</trans>
+    </entry>
+
+    <entry>
+	<base>DESC_INSTALLED_PACKAGES</base>
+	<trans>Du kan også vælge individuelle pakker til fjernelse fra serveren fra listen nedenfor.</trans>
+    </entry>
+
+    <entry>
+	<base>LABEL_INSTALLED_PACKAGES</base>
+	<trans>Installerede pakker</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_CONFIGURATION</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_CONFIGURATION">Skift indstillinger for programinstallation</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_INSTALL_AVAILABLE</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_AVAILABLE">Installere yderligere programmer</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_BUTTON_REMOVE</base>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_REMOVE">Fjerne installerede programmer</a> ]]></trans>
+    </entry>
+
+    <entry>
+	<base>HEADER_POSTUPGRADE_REQUIRED</base>
+	<trans><![CDATA[ Systemet skal omkonfigureres efter tilføjelse eller fjernelse af programmer eller tilføjelse af opdateringer.<p> Venligst klik på knappen Omkonfigurer nederst på siden for at starte omkonfigureringen. <b>Automatisk genstart af serveren vil blive udført som en del af denne omkonfigurering</b> </p> ]]></trans>
+     </entry>
+
+    <entry>
+	<base>SYSTEM_BEING_RECONFIGURED</base>
+	<trans>Dit system bliver genstartet automatisk for at fuldføre omkonfigurationen.</trans>
+    </entry>
+
+    <entry>
+      <base>1DAILY</base>
+      <trans>Daglig</trans>
+    </entry>
+
+    <entry>
+      <base>2WEEKLY</base>
+      <trans>Ugentlig</trans>
+    </entry>
+
+    <entry>
+      <base>3MONTHLY</base>
+      <trans>Månedlig</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DELTARPMPROCESS</base>
+      <trans>Forskels RPM opdatering</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DELTARPM</base>
+      <trans>En forskels RPM indeholder forskellen mellem en gammel og en ny version af en RPM, hvilket sparer båndbredde. Ulempen er, at selve opdateringen kræver betragteligt mere CPU ressourcer</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DOWNLOADONLY</base>
+      <trans>Download opdateringer på forhånd</trans>
+    </entry>
+
+    <entry>
+      <base>LABEL_YUM_DOWNLOADONLY_DESCRIPTION</base>
+      <trans>RPM opdateringer kan downloades om natten, det vil lette og speede YUM opdateringer op (der vil kun blive anvendt aktiverede repositories).</trans>
+    </entry>
+
+</lexicon>

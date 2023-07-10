@@ -1,0 +1,114 @@
+<lexicon lang="sv">
+    <entry>
+      <base>NO_PSEUDONYMS</base>
+      <trans><![CDATA[ <b>Det finns inga pseudonymer i systemet.</b> ]]></trans>
+     </entry>
+    <entry>
+        <base>REMOVE_PSEUDONYM</base>
+        <trans>Ta bort pseudonym</trans>
+    </entry>
+    <entry>
+        <base>ABOUT_TO_REMOVE</base>
+        <trans><![CDATA[ Du är på väg att ta bort en pseudonym:<br> <b>Är du säker på att du vill fortsätta?</b> ]]></trans>
+    </entry>
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Skapa, ändra eller ta bort pseudonymer</trans>
+    </entry>
+    <entry>
+        <base>DESCRIPTION</base>
+        <trans><![CDATA[ <p>Servern skapar automatiskt ett e-postalias för varje grupp. Om du önskar definiera ett e-post alias för ett antal användare, skapa en grupp och listan kommer automatiskt att underhållas av servern.</p> <p>Pseudonymer ger dig möjligheten att skapa andra namn för existerande grupp eller grupper. Exempelvis, du kanske önskar att skapa pseudonymen "webbmaster" för din "webdevelopers-grupp" eller en pseudonym "joe" för användaren "joseph".</p> <p>Servern skapar automatiskt pseudonymer i formen av förnamn.efternamn och förnamn_efternamn för varje användare på systemet samt en pseudonym "everyone" som innehåller alla användare på systemet.</p> <p>Pseudonymer tillåter dig att skapa e-postalias för tillåtna (virtuella) domäner och användare. Exempelvis kan du vidarebefordra "sales@virtualdomain1.com" till användaren "mary" och "sales@virtualdomain2.com" till användaren "john". Du måste skapa domän och användarkonto innan du skapar e-postalias.</p> <p>Pseudonymer kan också vidarebefordra till andra pseudonymer även om detta är begränsat till ytterligare en nivå. Exempelvis kan pseudonymen "webmaster" vidarebefordra till pseudonymen "techsupport" som därefter vidarebefordrar till den angivna användaren "ray". Detta är användbart när en användare är ansvarig för multipla roller och sparar arbete med att ändra pseudonymens association med speciell användare flera gånger om användaren lämnar organisationen.</p> <p>Du kan ändra eller ta bort en pseudonym genom att klicka på aktuellt kommando bredvid pseudonymen.</p>]]></trans>
+    </entry>
+    <entry>
+        <base>LOCAL_ONLY</base>
+        <trans>(endast lokalt nätverk)</trans>
+    </entry>
+    <entry>
+        <base>SELECT_ACCOUNT</base>
+        <trans>Välj konto eller grupp</trans>
+    </entry>
+    <entry>
+        <base>SELECT_INTERNAL</base>
+        <trans>Endast lokalt nätverk</trans>
+    </entry>
+    <entry>
+        <base>CLICK_TO_CREATE</base>
+        <trans>Lägg till pseudonym</trans>
+    </entry>
+    <entry>
+        <base>PSEUDONYM</base>
+        <trans>Pseudonymer</trans>
+    </entry>
+    <entry>
+        <base>USER_OR_GROUP</base>
+        <trans>Användare eller grupp</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_PSEUDONYMS</base>
+        <trans><![CDATA[<b>Aktuell lista över pseudonymer</b>]]></trans>
+    </entry>
+    <entry>
+        <base>TITLE_CREATE</base>
+        <trans>Skapa pseudonym</trans>
+    </entry>
+    <entry>
+        <base>DESC_PSEUDONYM_NAME</base>
+       <trans>Välj ett existerande konto eller grupp för pseudonym från rullgardinsmenyn nedan</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_PSEUDONYM</base>
+        <trans>Ändra pseudonym</trans>
+    </entry>     
+       <entry>
+        <base>PSEUDONYM_NAME</base>
+        <trans>Pseudonymnamn</trans>
+    </entry>
+    <entry>
+        <base>VALID_PSEUDONYM_NAMES</base>
+        <trans><![CDATA[ Pseudonymen får endast innehålla gemener, siffror, punkt, bindestreck och understreck och skall börja med gemen eller nummer. Exempelvis "sales", "john.holland", "123" och "email-administrator" är godkända pseudonymer, men "John Smith" eller "Henry Miller" är det inte. <p>Du kan också skapa e-postalias för konton eller (virtuella) domäner som är godkända på denna server. Exempelvis "fred@virtualdomain.com" kan vidarebefordras till "mary" (eller ett annat godkänt användarkonto).</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>NAME_IN_USE</base>
+        <trans>Fel: Detta namn används. Du kan inte skapa en pseudonym med detta namn.</trans>
+    </entry>
+    <entry>
+        <base>NOT_A_PSEUDONYM</base>
+        <trans>Detta konto är inte en pseudonym</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_DOMAIN</base>
+        <trans>Denna domän finns inte på denna server</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_NOACCT</base>
+        <trans>Detta konto finns inte på denna server</trans>
+    </entry>
+
+    <entry>
+        <base>PSEUDONYM_INVALID_SAMEACCT</base>
+        <trans>En pseudonym kan inte peka på samma konto</trans>
+    </entry>
+    <entry>
+        <base>CREATE_SUCCEEDED</base>
+        <trans>Skapat pseudonym</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_SUCCEEDED</base>
+        <trans>Ändrat pseudonym</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_SUCCEEDED</base>
+        <trans>Raderat pseudonym</trans>
+    </entry>
+    <entry>
+      <base>EVERYONE</base>
+      <trans>Alla</trans>
+    </entry>
+      <entry>
+        <base>Pseudonyms</base>
+        <trans>Pseudonymer</trans>
+      </entry>
+
+</lexicon>

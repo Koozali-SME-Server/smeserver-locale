@@ -1,0 +1,10 @@
+<lexicon lang="ru">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Поддержка, гарантии и информация о лицензии</trans>
+    </entry>
+    <entry>
+        <base>Support and licensing</base>
+        <trans>Поддержка и лицензирование</trans>
+    </entry>
+</lexicon>

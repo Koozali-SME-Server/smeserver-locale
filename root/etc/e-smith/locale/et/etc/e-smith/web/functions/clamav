@@ -1,0 +1,38 @@
+<lexicon lang="et">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Antiviiruse seadistused</trans>
+    </entry>
+    <entry>
+        <base>LABEL_FILESYSTEM_SCAN_PERIOD</base>
+        <trans>Skaneeri failisüsteemi</trans>
+    </entry>
+    <entry>
+        <base>DESC_FILESYSTEM_SCAN_PERIOD</base>
+        <trans><![CDATA[ <h2>Peamised seaded</h2> Kui see valik on lubatud siis scaneeritakse failisüsteemi viiruste suhtes. Raport ükskõik millisest viirusest saadetakse administraatori e-mailile.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_QUARANTINE</base>
+        <trans>Nakatunud failide garantiin</trans>
+    </entry>
+    <entry>
+        <base>LABEL_CLAM_VERSIONS</base>
+        <trans>ClamAV ja db versioonid</trans>
+    </entry>
+    <entry>
+      <base>WEEKLY</base>
+      <trans>Nädalas</trans>
+    </entry>
+    <entry>
+      <base>NEVER</base>
+      <trans>Mitte kunagi</trans>
+    </entry>
+    <entry>
+      <base>DAILY</base>
+      <trans>Päevas</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Uued antiviiruse seadistused salvestatud.</trans>
+    </entry>
+</lexicon>

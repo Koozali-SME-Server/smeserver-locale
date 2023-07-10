@@ -1,0 +1,79 @@
+<lexicon lang="fr">
+   <entry>
+     <base>FORM_TITLE</base>
+       <trans>Configuration des paramètres de l'annuaire LDAP</trans>
+   </entry>	
+<entry>
+<base>LABEL_ROOT</base>
+<trans>Racine du serveur</trans>
+</entry>
+
+<entry>
+<base>DESCRIPTION</base>
+<trans>Le serveur LDAP fournit une liste des comptes utilisateur et des groupes de votre serveur. Ces informations sont disponibles sur le réseau et accessibles à l'aide d'un client LDAP tel que le Carnet d'adresses de Netscape Communicator. Configurez votre client LDAP avec l'adresse IP locale de votre serveur, le numéro de port 389 et le paramètre de racine du serveur indiqué ci-dessous :</trans>
+</entry>
+<entry>
+<base>DESC_DIRECTORY_ACCESS</base>
+<trans>Vous pouvez contrôler l'accès à votre annuaire LDAP : le paramètre "Privé" n'autorise l'accès qu'à partir de votre réseau local et le paramètre "Public" permet l'accès de n'importe où sur Internet.</trans>
+</entry>
+<entry>
+<base>DIRECTORY_ACCESS</base>
+<trans>Accès à l'annuaire LDAP</trans>
+</entry>
+<entry>
+	<base>DESC_DEPARTMENT</base>
+<trans>Ces champs sont les valeurs LDAP par défaut pour votre organisation. Chaque fois que vous créez un nouveau compte utilisateur, vous avez la possibilité de taper une valeur dans chacun de ces champs (lesquels peuvent être différents selon les utilisateurs), mais les valeurs que vous définissez ici s'afficheront en tant que valeurs par défaut. Ceci vous permet donc de créer plus rapidement des comptes utilisateur.</trans>
+</entry>
+<entry>
+        <base>DEPARTMENT</base>
+        <trans>Service par défaut</trans>
+</entry>
+
+<entry>
+        <base>COMPANY</base>
+        <trans>Société par défaut</trans>
+</entry>
+<entry>
+        <base>STREET</base>
+        <trans>Adresse par défaut</trans>
+</entry>
+
+<entry>
+        <base>CITY</base>
+        <trans>Ville par défaut</trans>
+</entry>
+
+<entry>
+        <base>PHONENUMBER</base>
+        <trans>Numéro de téléphone par défaut</trans>
+</entry>
+
+<entry>
+<base>DESC_EXISTING</base>
+<trans>Vous pouvez soit laisser tels quels les comptes utilisateur et n'utiliser les valeurs par défaut ci-dessus que pour les nouveaux utilisateurs, soit appliquer les valeurs par défaut ci-dessus à tous les utilisateurs existants.</trans>
+</entry>
+
+
+
+<entry>
+<base>EXISTING</base>
+<trans>Utilisateurs existants</trans>
+</entry>
+<entry>
+<base>SUCCESS</base>
+<trans>Les nouveaux paramètres LDAP ont été enregistrés avec succès.</trans>
+</entry>
+
+<entry>
+<base>LEAVE</base>
+<trans>Les laisser tels quels</trans>
+</entry>
+<entry>
+<base>UPDATE</base>
+<trans>Les mettre à jour avec les nouvelles valeurs par défaut.</trans>
+</entry>
+    <entry>
+        <base>Directory</base>
+        <trans>Annuaire LDAP</trans>
+    </entry>
+</lexicon>

@@ -1,0 +1,58 @@
+<lexicon lang="fr">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Configuration des paramètres du groupe de travail ou du domaine Windows</trans>
+    </entry>	
+    <entry> 
+        <base>DESC_WORKGROUP</base>
+        <trans><![CDATA[ Tapez le nom du <b>groupe de travail ou du domaine Windows</b> dans lequel ce serveur doit apparaître. ]]></trans>	
+    </entry>
+    <entry>
+        <base>LABEL_WORKGROUP</base>
+        <trans>Groupe de travail ou domaine Windows</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERVERNAME</base>
+        <trans>Tapez le nom que ce serveur doit utiliser pour le partage de fichiers Windows et Macintosh.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERVERNAME</base>
+        <trans>Nom du serveur</trans>
+    </entry>
+    <entry>
+        <base>DESC_PDC</base>
+        <trans><![CDATA[ Ce serveur doit-il fonctionner comme contrôleur de domaine sur votre réseau Windows ? Vous devriez conserver la valeur "<b>Non</b>" si un autre serveur a déjà ce rôle sur votre réseau. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_PDC</base>
+        <trans>Contrôleur du domaine Windows</trans>
+    </entry>
+    <entry>
+        <base>DESC_ROAM</base>
+        <trans><![CDATA[ Ce serveur doit-il prendre en charge les profils d'utilisateurs itinérants ? Vous devriez conserver la valeur par défaut "<b>Non</b>", à moins que vous ne sachiez comment administrer les profils d'utilisateurs itinérants sur un serveur Windows et si vous avez un besoin avéré de cette fonctionnalité. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_ROAM</base>
+        <trans>Profils d'utilisateurs itinérants</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Les nouveaux paramètres de groupe de travail ont été enregistrés.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP</base>
+        <trans>Le nom du groupe de travail doit commencer par une lettre (majuscule ou minuscule), suivie d'une combinaison de lettres, de chiffres, de traits de soulignement, de points et de traits d'union.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SERVERNAME</base>
+        <trans>Le nom du serveur doit commencer par une lettre (majuscule ou minuscule), suivie d'une combinaison de lettres, de chiffres, de traits de soulignement et de traits d'union.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP_MATCHES_SERVERNAME</base>
+        <trans>En minuscules, le nom du serveur correspond à celui du groupe de travail. Ces valeurs doivent être différentes pour pouvoir activer le partage de fichiers.</trans>
+    </entry>
+    <entry>
+        <base>Workgroup</base>
+        <trans>Groupe de travail</trans>
+    </entry>
+</lexicon>

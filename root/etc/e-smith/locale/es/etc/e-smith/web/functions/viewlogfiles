@@ -1,0 +1,83 @@
+<lexicon lang="es">
+    <entry>
+        <base>View log files</base>
+        <trans>Ver archivos de registro</trans>
+    </entry>
+
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ Este panel le permite ver o descargar los archivos de registro generados por los servicios que se ejecutan en el servidor. ]]></trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_SELECT_DESC</base>
+        <trans>Elija el archivo de registro que desea ver</trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>Opcionalmente, puede especificar un patrón de filtro para mostrar sólo las líneas del archivo de registro que coincidan con este patrón. Si deja este campo en blanco, se mostrarán todas las líneas disponibles del archivo de registro. Tenga presente que esta opción no tiene ningún efecto si usted elige descargar el archivo.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>FILTER_PATTERN_LABEL</base>
+        <trans>Patrón de Filtro (opcional)</trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_DESC</base>
+        <trans><![CDATA[ <p>Opcionalmente, también puede especificar un patrón de resaltado para marcar en negrita cualquier línea del archivo de registro que concuerde con dicho patrón. El patrón de resaltado se aplica a todas las líneas que ya coincidan con el patrón de filtro. Tenga presente que esta opción no tiene ningún efecto si usted elige descargar el archivo.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>MATCH_PATTERN_LABEL</base>
+        <trans>Patrón de Resaltado (opcional)</trans>
+    </entry>
+    <entry>
+        <base>END_DESC</base>
+        <trans>Observe que puede demorar varios minutos en generar esos informes.</trans>
+    </entry>
+    <entry>
+        <base>VIEW</base>
+        <trans>Ver archivo de registro</trans>
+    </entry>
+    <entry>
+        <base>LOG_FILE_EMPTY</base>
+        <trans>¡El archivo de registro "{$filename}" está vacío!</trans>
+    </entry>
+    <entry>
+        <base>VIEWING_TIME</base>
+        <trans>Visto a las {$time}.</trans>
+    </entry>
+    <entry>
+        <base>MATCH_HEADER</base>
+        <trans>Mostrar las líneas que coincidan con: "{$matchPattern}".</trans>
+    </entry>
+    <entry>
+        <base>HIGHLIGHT_HEADER</base>
+        <trans>Destacar las líneas que coincidan con: "{$highlightPattern}".</trans>
+    </entry>
+    <entry>
+        <base>NO_MATCHING_LINES</base>
+        <trans>No hay líneas que coincidan.</trans>
+    </entry>
+    <entry>
+        <base>FILENAME_ERROR</base>
+        <trans><![CDATA[ <p>Ocurrió un error al especificar el nombre del archivo de registro.</p> <p>Tipo de informe inválido "{$filename}".</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>REFRESH</base>
+	<trans>Actualizar</trans>
+    </entry>
+    <entry>
+	<base>OP_DESC</base>
+	<trans><![CDATA[ <p>Debe elegir entre ver el archivo de registro en su navegador o descargarlo a su ordenador. Si el archivo de registro es particularmente grande, puede descargarlo en lugar de tratar de abrirlo en el navegador, pues esto representa un problema para algunos navegadores.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>OP_LABEL</base>
+	<trans>Operación</trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_PAGE_DESC</base>
+	<trans><![CDATA[ <p>La descarga del archivo de registro ya está preparada. Ésta se realizará una vez que haga clic en el botón &quot;Siguiente&quot; que está más abajo, y le indique a su navegador que acepte la descarga a través de la ventana emergente que aparecerá.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DOWNLOAD_FILE</base>
+	<trans>Preparando la descarga del archivo de registro {$logfile}.</trans>
+    </entry>
+</lexicon>

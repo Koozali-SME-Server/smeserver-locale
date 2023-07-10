@@ -1,0 +1,147 @@
+<lexicon lang="pt">
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Adicionar ou remover impressoras</trans>
+    </entry>
+    <entry>
+      <base>INITIAL_DESC</base>
+      <trans><![CDATA[ <p><A class="button-like" HREF="printers?page=0&Next=Add">Adicionar impressora</A></p> ]]></trans>
+    </entry>
+    <entry>
+      <base>NO_PRINTERS</base>
+      <trans>Não existem impressoras no sistema.</trans>
+    </entry>
+    <entry>
+      <base>CURRENT_LIST</base>
+      <trans>Lista atual de impressoras</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_ADDRESS</base>
+      <trans>Endereço remoto</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_NAME</base>
+      <trans>Nome remoto</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NEW_PRINTER</base>
+      <trans>Criar uma nova impressora</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NEW_DESC</base>
+      <trans>Favor escolher um nome único para a impressora e digitar uma breve descrição. O nome da impressora deve conter somente letras minúsculas e números, e deve inciciar com letra minúscula. Por exemplo "hplaser", "epsonlp", e "canonbj" são nomes válidos, mas "HP Laser Jet", "Canon BubbleJet", e "HP JetDirect Printer" não são. Evite nomes e descrições que contenham estes termos, "offline", "disabled", "down", "off", "waiting", "jam", "paper", "error" e "responding".</trans>
+    </entry>
+    <entry>
+      <base>PRINTER_NAME</base>
+      <trans>Nome da impressora</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_0</base>
+      <trans>Impressora local porta 0 (LPT1)</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_1</base>
+      <trans>Impressora local porta 1 (LPT2)</trans>
+    </entry>
+    <entry>
+      <base>LOCAL_PRINTER_2</base>
+      <trans>Impressora local porta 2 (LPT3)</trans>
+    </entry>
+    <entry>
+      <base>NET_PRINTER</base>
+      <trans>Impressora de rede ...</trans>
+    </entry>
+    <entry>
+      <base>FIRST_USB_PRINTER</base>
+      <trans>Primeira impressora USB acoplada</trans>
+    </entry>
+    <entry>
+      <base>SECOND_USB_PRINTER</base>
+      <trans>Segunda impressora USB acoplada</trans>
+    </entry>
+    <entry>
+      <base>ERR_UNEXPECTED_NAME</base>
+      <trans><![CDATA[ <p>Erro: carecter inesperado no nome da impressora.</p> <p>O nome da impressora somente deve conter letras minúsculas e números, e deve iniciar com letra minúscula. Por exemplo "hplaser", "epsonlp", e "canonbj" são nomes válidos.</p> ]]></trans>
+    </entry>
+    <entry>
+      <base>ERR_UNEXPECTED_DESC</base>
+      <trans>Erro: caracter inespedado ou ausente na descrição. Nova impressora não criada.</trans>
+    </entry>
+    <entry>
+      <base>ERR_EXISTS</base>
+      <trans>Erro: Uma conta com o mesmo nome já existe:</trans>
+    </entry>
+    <entry>
+      <base>ERR_INVALID_ADDRESS</base>
+      <trans>Erro: endereço de rede inválido. Nova impressora não criada.</trans>
+    </entry>
+    <entry>
+      <base>ERR_INVALID_REMOTE_NAME</base>
+      <trans>Erro: nome de impressora de rede iválido. Nova impressora não criada.</trans>
+    </entry>
+    <entry>
+      <base>ERR_CREATING</base>
+      <trans>Ocorreu erro quando criava nova impressora.</trans>
+    </entry>
+    <entry>
+      <base>CREATED_SUCCESSFULLY</base>
+      <trans>Impressora criada com sucesso:</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NETWORK_PRINTER</base>
+      <trans>Criar nova impressora de rede</trans>
+    </entry>
+    <entry>
+      <base>ERR_OPENING_DB</base>
+      <trans>Ocorreu um erro equanto abria o banco de dados de contas.</trans>
+    </entry>
+    <entry>
+      <base>CREATE_NETWORK_DESC</base>
+      <trans>Favor entrar com endereço e nome da impressora de rede</trans>
+    </entry>
+    <entry>
+      <base>HOSTNAME_OR_IP</base>
+      <trans>Nome de host ou endereço IP da impressora de rede</trans>
+    </entry>
+    <entry>
+      <base>REMOTE_NAME_DESC</base>
+      <trans><![CDATA[ Nome da impressora de rede (na dúvida entre raw) ]]></trans>
+    </entry>
+    <entry>
+      <base>REMOVE_PRINTER</base>
+      <trans>Remover impressora</trans>
+    </entry>
+    <entry>
+      <base>ABOUT_TO_REMOVE</base>
+      <trans>Voce está prestes a remover a impressora:</trans>
+    </entry>
+    <entry>
+      <base>SPOOL_FILE_WARNING</base>
+      <trans>Todos os arquivos da lista dessa impressora vão ser romovidos.</trans>
+    </entry>
+    <entry>
+      <base>ARE_YOU_SURE</base>
+      <trans>Voce tem certeza que desaja remover essa impressora?</trans>
+    </entry>
+    <entry>
+      <base>ERR_INTERNAL_FAILURE</base>
+      <trans>Erro: falha interna enquanto removia a impressora:</trans>
+    </entry>
+    <entry>
+      <base>ERR_DELETING</base>
+      <trans>Ocorreu um erro enquanto removia a impressora.</trans>
+    </entry>
+    <entry>
+      <base>DELETED_SUCCESSFULLY</base>
+      <trans>Impressora removida com sucesso:</trans>
+    </entry>
+    <entry>
+        <base>MUST_BE_VALID_HOSTNAME_OR_IP</base>
+        <trans>Tem que ser um endereço IP ou nome de host válido</trans>
+    </entry>
+    <entry>
+	<base>Printers</base>
+	<trans>Impressoras</trans>
+    </entry>
+
+</lexicon>

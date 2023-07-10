@@ -1,0 +1,108 @@
+<lexicon lang="ru">
+    <!-- vim: ft=xml:
+    -->
+    <entry>
+        <base>Local networks</base>
+        <trans>Локальные сети</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ По соображениям безопасности, некоторые службы на вашем сервере доступны только в локальной сети. Однако вы можете предоставить эти привилегии локального доступа дополнительным сетям путем перечисления их ниже. В большинстве установок этот список должен остаться пустым.</P><P> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Добавить сеть</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>Добавить локальную сеть</trans>
+    </entry>
+    <entry>
+        <base>ADD_DESC</base>
+        <trans><![CDATA[ Каждый параметр должен быть в формате #.#.#.# (где # - число от 0 до 255). Серверное программное обеспечение обнулит окончание (идентификатор узла) сетевого адреса в соответствии с маской подсети, для обеспечения валидности сетевого адреса. </P><P> "Маршрутизатор" должен быть IP адресом маршрутизатора в вашей локальной сети через который доступны дополнительные сети. ]]></trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ADDRESS</base>
+        <trans>Сетевой адрес</trans>
+    </entry>
+    <entry>
+        <base>SUBNET_MASK</base>
+        <trans>Маска подсети</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IP_ADDRESS</base>
+        <trans>Неверный IP адрес</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SUBNET_MASK</base>
+        <trans>Неверная маска подсети</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Удалить локальную сеть</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Вы собираетесь удалить следующую локальную сеть.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_CONFIRM</base>
+        <trans>Вы действительно хотите удалить эту сеть?</trans>
+    </entry>
+    <entry>
+        <base>DEFAULT</base>
+        <trans>по умолчанию</trans>
+    </entry>
+    <entry>
+        <base>NUMBER_OF_HOSTS</base>
+        <trans>Число узлов</trans>
+    </entry>
+    <entry>
+        <base>NOT_ACCESSIBLE_FROM_LOCAL_NETWORK</base>
+        <trans>Ошибка: адрес маршрутизатора {$networkRouter} недоступен из локальной сети. Сеть не добавлена.</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_LOCAL</base>
+        <trans>Ошибка: сеть {$network} (полученная из сеть {$networkAddress} и маски подсети {$networkMask}) уже считается локальной. Сеть не добавлена.</trans>
+    </entry>
+    <entry>
+        <base>NETWORK_ALREADY_ADDED</base>
+        <trans>Ошибка: сеть {$network} (полученная из сеть {$networkAddress} и маски подсети {$networkMask}) уже была добавлена. Новая сеть не добавлена.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_CREATING_NETWORK</base>
+        <trans>Произошла ошибка при создании сети.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Успешно добавлена сеть {$network}/{$networkMask} через роутер {$networkRouter}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_SINGLE_ADDRESS</base>
+        <trans>Успешно добавлена сеть {$network}/{$networkMask} через роутер {$networkRouter}. Ваш сервер предоставил права локального доступа одному IP адресу{$network}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NETWORK_RANGE</base>
+        <trans>Успешно добавлена сеть {$network}/{$networkMask} через роутер {$networkRouter}. Ваш сервер предоставил права локального доступа {$totalHosts} IP адресам в диапазоне {$firstAddr} - {$lastAddr}.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_NONSTANDARD_RANGE</base>
+        <trans><![CDATA[ <p> Успешно добавлена сеть {$network}/{$networkMask} через маршрутизатор {$networkRouter}. </p> <p> Ваш сервер предоставляет привилегии локального доступа {$totalHosts} IP адресам в диапазоне от {$firstAddr} до {$lastAddr}. </p> <p> Внимание: ProFTPd FTP сервер не может обработать эту нестандартную маску подсети. Вместо неё будет использована упрощённое описание <b>{$simpleMask}</b>. </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>SUCCESS_REMOVED_NETWORK</base>
+        <trans>Успешно удалена сеть {$network}/{$networkMask} через роутер {$networkRouter}.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_DELETING_NETWORK</base>
+        <trans>Произошла ошибка при удалении сети.</trans>
+    </entry>
+    <entry>
+        <base>NO_ADDITIONAL_NETWORKS</base>
+        <trans>Нет дополнительных сетей</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_DESC</base>
+        <trans>Обнаружены локальные узлы в настройках сети, которую вы собираетесь удалить. По умолчанию, они также будут удалены. Снимите эту отметку, если по какой-то причине вы не хотите, чтобы это произошло. Имейте в виду, что они не будут рассматриваться как локальные, и могут быть недоступны после того как эта сеть будет удалена.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_HOSTS_LABEL</base>
+        <trans>Удалить узлы сети</trans>
+    </entry>
+</lexicon>

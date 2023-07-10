@@ -1,0 +1,141 @@
+<lexicon lang="et" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Manage domains</trans>
+    </entry>
+    <entry>
+        <base>FORM_DESCRIPTION</base>
+        <trans><![CDATA[ <p>When you create a domain, your server will be able to receive e-mail for that domain and will also be able to host a web site for that domain.</p> <p><a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CREATE">Add domain</a> ]]></trans>
+    </entry>
+    <entry>
+        <base>NO_VIRTUAL_DOMAINS</base>
+        <trans>Süsteemis pole domeene.</trans>
+    </entry>
+    <entry>
+        <base>CURRENT_LIST_OF_DOMAINS</base>
+        <trans>Loend olemasolevatest domeenidest</trans>
+    </entry>
+    <entry>
+        <base>PRIMARY_SITE</base>
+        <trans>primary site</trans>
+    </entry>
+    <entry>
+        <base>CONTENT</base>
+        <trans>{$content} i-bay</trans>
+    </entry>
+    <entry>
+        <base>CREATE_TITLE</base>
+        <trans>Loo uus domeen</trans>
+    </entry>
+    <entry>
+        <base>CONTENT_FIELD_DESCRIPTION</base>
+        <trans>For the web site, you may choose your primary web site or any i-bay as the content.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_NAME_VALIDATION_ERROR</base>
+        <trans>Error: unexpected or missing characters in domain name {$domainName}. The domain name should contain one or more letters, numbers, periods and minus signs. Did not create new domain.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_DESCRIPTION_VALIDATION_ERROR</base>
+        <trans>Error: unexpected or missing characters in domain description {$domainDesc}. Did not create new domain.</trans>
+    </entry>
+    <entry>
+        <base>DOMAIN_IN_USE_ERROR</base>
+        <trans>Error: domain {$domainName} is already in use. Did not create new domain.</trans>
+    </entry>
+    <entry>
+        <base>SYSTEM_DOMAIN_ERROR</base>
+        <trans>Error: domain {$domainName} is your system domain name. You cannot have a domain with the same name. Did not create new domain.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED</base>
+        <trans>Domeen {$domain} edukalt kustutatud. Sinu veebiserver taaskäivitatakse. See link pole aktiivne seni kuni veebiserveri taaskäivitus on lõpetatud.</trans>
+    </entry>
+    <entry>
+        <base>MODIFY_TITLE</base>
+        <trans>Muuda domeeni</trans>
+    </entry>
+    <entry>
+        <base>NONEXISTENT_DOMAIN_ERROR</base>
+        <trans>Error: {$domainName} is not an existing domain.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED</base>
+        <trans>Domeen {$domain} edukalt kustutatud. Sinu weebiserver taaskäivitatakse. See link pole aktiivne seni kuni weebiserveri taaskäivitus on lõpetatud.</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Eemalda domeen</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESCRIPTION</base>
+        <trans><![CDATA[ <p> You are about to remove the domain {$domain} ({$domainDesc}). </p> <p> <b>Are you sure you wish to remove this domain?</b> </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_REMOVING_DOMAIN</base>
+        <trans>Viga: sisemine viga domeeni {$domain} eemaldamisel.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED</base>
+        <trans>Domeen {$domain} edukalt kustutatud. Sinu weebiserver taaskäivitatakse. See link pole aktiivne seni kuni weebiserveri taaskäivitus on lõpetatud.</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS_CURRENT</base>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>Asutuse DNS seaded</h2> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>BUTTON_CORPORATE_DNS</base>
+        <trans><![CDATA[ <p>If this server does not have access to the Internet, or you have special requirements for DNS resolution, enter the DNS server IP address here. You should not enter the address of your ISP's DNS servers here, as the server is capable of resolving all Internet DNS names without this additional configuration.</p> <p> <a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CORPORATE_DNS">Modify corporate DNS settings</a> ]]></trans>
+    </entry>
+
+    <entry>
+        <base>DESC_CORPORATE_DNS</base>
+        <trans>If this server does not have access to the Internet, or you have special requirements for DNS resolution, enter the DNS server IP addresses here. These fields should be left blank unless you have a specific reason to configure other DNS servers. You should not enter the address of your ISP's DNS servers here, as the server is capable of resolving all Internet DNS names without this additional configuration.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_PRIMARY</base>
+        <trans>Peamine asutuse DNS server</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_CORPORATE_DNS_SECONDARY</base>
+        <trans>Teine asutuse DNS server</trans>
+    </entry>
+
+    <entry>
+        <base>DESC_NAMESERVERS</base>
+        <trans>You can select whether this domain is resolved locally, passed to the corporate DNS servers, or resolved by the Internet DNS servers. The default will be correct for most networks.</trans>
+    </entry>
+
+    <entry>
+        <base>LABEL_NAMESERVERS</base>
+        <trans>Domeeni DNS serverid</trans>
+    </entry>
+
+    <entry>
+        <base>localhost</base>
+        <trans>Resolve locally</trans>
+    </entry>
+
+    <entry>
+        <base>internet</base>
+        <trans>Interneti DNS serverid</trans>
+    </entry>
+
+    <entry>
+        <base>corporate</base>
+        <trans>Asutuse DNS serveid</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans>Soovid eemaldada printeri:</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC2</base>
+        <trans>Oled kindel, et tahad seda printerit eemaldada?</trans>
+    </entry>
+
+</lexicon>

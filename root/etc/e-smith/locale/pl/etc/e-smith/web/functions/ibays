@@ -1,0 +1,174 @@
+<lexicon lang="pl" params="getExtraParams()">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Utwórz, modyfikuj lub usuń magazyn</trans>
+    </entry>
+    <entry>
+        <base>FIRSTPAGE_DESC</base>
+        <trans><![CDATA[ <p> <a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify">Dodaj magazyn</a> </p> <p> Możesz usunąć każdy magazyn lub zresetować hasło klikając w odpowiednie polecenie w obok magazynu. Jeśli magazyn pojawi się na czerwono, oznacza to, że hasło nie zostało zmienione z domyślnej wartości i powinny zostać zmienione.</p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ADD_TITLE</base>
+        <trans>Utwórz lub zmodyfikuj magazyn</trans>
+    </entry>
+    <entry>
+        <base>NAME_FIELD_DESC</base>
+        <trans>Nazwa magazynu informacji powinna zawierać tylko małe litery, cyrfry, myślniki i podkreślniki oraz powinna zaczynać się od małej litery. Na przykład "dane", "faktury" i "dokumenty.2009" są poprawnymi nazwamy, ale "11wnioski", "Dane klientów" i "Ważne!dokumenty" nie są poprawne. Nazwa magazynu jest ograniczona do {$maxLength} znaków.</trans>
+    </entry>
+    <entry>
+        <base>NAME_LABEL</base>
+        <trans>Nazwa magazynu</trans>
+    </entry>
+    <entry>
+        <base>USER_ACCESS</base>
+        <trans>Dostęp użytkowników przez udostępnianie lub ftp</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS</base>
+        <trans>Dostęp powszechny przez sieć web lub anonimowy ftp</trans>
+    </entry>
+    <entry>
+        <base>PUBLIC_ACCESS_DESCRIPTION</base>
+        <trans>Tryb powszechnego dostępu "wymagaj hasła poza siecią lokalną" nie jest zgodny z komponentem FTP serwera. Jeżeli wybrałeś ten tryb, serwer FTP będzie wymagał hasła zarówno w sieci Internet, jak i lokalnej.</trans>
+    </entry>
+    <entry>
+        <base>ALLOW_DYNAMIC_CONTENT</base>
+        <trans>Uruchamiaj dynamiczną zawartość (CGI, PHP, SSI)</trans>
+    </entry>
+	<entry>
+        <base>HTTPS_Only</base>
+        <trans>Wymuś bezpieczne połączenia</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_TITLE</base>
+        <trans>Usuń magazyn informacji</trans>
+    </entry>
+    <entry>
+        <base>REMOVE_DESC</base>
+        <trans><![CDATA[ <p> Zamierzasz usunąć magazyn "{$name}" ({$description}). </p> <p> Wszystkie dane należące do tego magazynu zostaną usunięte. </p> <p> Czy jesteś pewien, że chcesz usunąć ten magazyn danych? </p> ]]></trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_CREATING_IBAY</base>
+        <trans>Wystąpił błąd podczas tworzenia magazynu.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_CREATED_IBAY</base>
+        <trans>Pomyślnie utworzono magazyn.</trans>
+    </entry>
+    <entry>
+        <base>NO_IBAYS</base>
+        <trans>Nie ma żadnych obecnie skonfigurowanych magazynów.</trans>
+    </entry>
+    <entry>
+        <base>CANT_FIND_IBAY</base>
+        <trans>Nie udało się znaleźć konta dla {$name}(czy istnieje?)</trans>
+    </entry>
+    <entry>
+        <base>CANT_CREATE_IBAY</base>
+        <trans>Nie udało się utworzyć nowego konta dla {$name}(czy już istnieje?)</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_MODIFYING_IBAY</base>
+        <trans>Wystąpił błąd podczas modyfikowania magazynu.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_MODIFIED_IBAY</base>
+        <trans>Pomyślnie zmodyfikowano magazyn.</trans>
+    </entry>
+    <entry>
+        <base>VIRTUAL_HOST_MESSAGE</base>
+        <trans>Poniższe wirtualne domeny używały tego magazynu, jako głównego, który zostanie zmieniony do głównej witryny sieci Web (możesz zmienić go na inny w późniejszym czasie).</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_DELETED_IBAY</base>
+        <trans>Pomyślnie usunięto magazyn.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_DELETING_IBAY</base>
+        <trans>Wystąpił błąd podczas usuwania magazynu.</trans>
+    </entry>
+    <entry>
+        <base>PASSWORD_DESC</base>
+        <trans>Masz zamiar zmienić hasło dla magzynu {$name}.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VALIDATION_ERROR</base>
+        <trans>Hasło może zawierać tylko litery i cyfry.</trans>
+    </entry>
+    <entry>
+        <base>IBAY_PASSWD_VERIFY_ERROR</base>
+        <trans>Hasła nie zgadzają się.</trans>
+    </entry>
+    <entry>
+        <base>SUCCESSFULLY_RESET_PASSWORD</base>
+        <trans>Pomyślnie zresetowano hasło.</trans>
+    </entry>
+    <entry>
+        <base>ERROR_WHILE_RESETTING_PASSWORD</base>
+        <trans>Wystąpił błąd podczas resetowania hasła.</trans>
+    </entry>
+    <entry>
+        <base>VHOST_MESSAGE</base>
+        <trans><![CDATA[ <P>Poniższe wirtualne domeny używały tego magazynu, jako głównego, który zostanie zmieniony do głównej witryny sieci Web (możesz zmienić go na inny w późniejszym czasie):</P> <ul>{$vhostList}</ul> ]]></trans>
+    </entry>
+    <entry>
+        <base>Information bays</base>
+        <trans>Magazyn danych</trans>
+    </entry>
+    <entry>
+        <base>WGRG</base>
+        <trans>Zapis = grupa, Odczyt = grupa</trans>
+    </entry>
+    <entry>
+        <base>WGRE</base>
+        <trans>Zapis = grupa, Odczyt = wszyscy</trans>
+    </entry>
+    <entry>
+        <base>WARG</base>
+        <trans>Zapis = administrator, Odczyt = grupa</trans>
+    </entry>
+    <entry>
+        <base>NONE</base>
+        <trans>Brak dostępu</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_NO_PASSWORD</base>
+        <trans>Sieć lokalna (nie wymaga hasła)</trans>
+    </entry>
+    <entry>
+        <base>LOCAL_NETWORK_PASSWORD</base>
+        <trans>Sieć lokalna (wymagaj hasła)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_NO_PASSWORD</base>
+        <trans>Internet (nie wymagaj hasła)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD</base>
+        <trans>Internet (wymagaj hasła)</trans>
+    </entry>
+    <entry>
+        <base>ENTIRE_INTERNET_PASSWORD_REMOTE</base>
+        <trans>Internet (wymagaj hasła poza siecią lokalną)</trans>
+    </entry>
+    <entry>
+        <base>INVALID_IBAY_DESCRIPTION</base>
+        <trans>Błąd: niespodziewane lub nieprawidłowe znaki w opisie magazynu</trans>
+    </entry>
+    <entry>
+        <base>ACCT_NAME_HAS_INVALID_CHARS</base>
+        <trans>Magazyn "{$acctName}" zawiera nieprawidłowe znaki. Nazwa magazynu musi zaczynać się od małej litery i zawierać tylko litery, cyfry i łączniki.</trans>
+    </entry>
+    <entry>
+        <base>MAX_IBAY_NAME_LENGTH_ERROR</base>
+        <trans>Nazwa magazynu "{$name}" jest za długa. Maksymalna długość wynosi {$maxIbayNameLength} znaków.</trans>
+    </entry>
+    <entry>
+        <base>ACCT_CLASHES_WITH_PSEUDONYM</base>
+        <trans><![CDATA[ Konto „{$ acctName}” koliduje ze szczegółami pseudonimu {$ acctType} dla konta „{$ acct}”. <p> {$ acctName} to pseudonim dla {$ acct}. </p>]]></trans>
+    </entry>
+    <entry>
+        <base>ACCOUNT_EXISTS</base>
+        <trans>Konto "{$acctName}" jest obecnym kontem {$acctType}.</trans>
+    </entry>
+</lexicon>

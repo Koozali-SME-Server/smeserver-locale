@@ -1,0 +1,171 @@
+<lexicon lang="id">
+    <entry>
+	<base>FORM_TITLE</base>
+	<trans>Ubah akses jarak jauh</trans>
+    </entry>	
+    <entry>
+	<base>DESCRIPTION</base>
+	<trans>Untuk setiap pilihan dibawah, pengaturan privat membolehkan semua orang dari jaringan lokal anda untuk mengakses server anda. Pengaturan umum membolehkan akses dari mana saja di Internet. Pengaturan no access men-disable akses. Untuk mengerti aspek keamanan akibat dari perubahan mengubah pilihan tersebut dari setting default, anda harus membaca panduan pengguna pada bagian akses jarak jauh.</trans>	
+    </entry>
+    <entry>
+	<base>SUCCESS</base>
+	<trans>Setting pengaturan jarak jauh yang baru telah disimpan.</trans>
+    </entry>
+    <entry>
+	<base>NO_ACCESS</base>
+	<trans>Tidak ada akses</trans>
+    </entry>
+    <entry>
+	<base>PASSWORD_LOGIN_PRIVATE</base>
+	<trans>Terima password hanya dari jaringan lokal</trans>
+    </entry>
+    <entry>
+	<base>PASSWORD_LOGIN_PUBLIC</base>
+	<trans>Terima password dari manapun</trans>
+    </entry>
+    <entry>
+	<base>LABEL_TELNET_ACCESS</base>
+	<trans>Akses telnet</trans>
+    </entry>
+    <entry>
+	<base>LABEL_FTP_ACCESS</base>
+	<trans>Akses FTP</trans>
+    </entry>
+    <entry>
+	<base>LABEL_FTP_LOGIN</base>
+	<trans>Password akses FTP</trans>
+    </entry>
+    <entry>
+	<base>LABEL_PPTP</base>
+	<trans>Jumlah klien PPTP</trans>
+    </entry>
+     <entry>
+       <base>NUMBER_OF_VPN_CLIENTS_MUST_BE_LESSER_THAN_NUMBER_OF_IP_IN_DHCP_RANGE</base>
+       <trans>The number of VPN clients is greater than the number of reserved IP for DHCP. You should take a smaller number.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SSH_PORT</base>
+        <trans>Port TCP untuk akses secure shell</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH</base>
+	<trans>Akses secure shell</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH_ADMIN</base>
+	<trans>Bolehkan akses administrasi command line melalui secure shell</trans>
+    </entry>
+    <entry>
+	<base>LABEL_SSH_PASSWORD_ACCESS</base>
+	<trans>Bolehkan akses secure shell menggunakan password standar</trans>
+    </entry>
+    <entry>
+	<base>DESC_SSH</base>
+	<trans><![CDATA[ <hr class="sectionbar"/> <h2>Pengaturan Secure Shell</h2>Anda dapat mengkontrol akses Secure Shell ke server anda. Pengaturan untuk umum hanya dibolehkan oleh administrator berpengalaman untuk diagnosa dan penyelesaian masalah secara jarak jauh. Kami anjurkan untuk membiarkan parameter ini di set ke "No Access" kecuali anda punya alasan yang khusus. ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_FTP_ACCESS</base>
+	<trans><![CDATA[ <hr class="sectionbar"/><h2>Pengaturan FTP </h2> Anda juga dapat mengatur akses <b>FTP</b> ke server anda. Kami menganjurkan untuk membiarkan parameter ini ke 'no access' kecuali anda memiliki alasan khusus. <p> Catatan: pengaruran tersebut membatasi akses ke server dan menimpa aturan lain, termasuk pada masing-masing information bays.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_FTP_LOGIN</base>
+	<trans><![CDATA[ Anda juga dapat mengatur akses FTP access ke information bays dan akun pengguna. Kami sangat menganjurkan agar membiarkan parameter ini ke privat kecuali anda punya alasan khusus. <p> Catatan: klien secure shell sftp dapat juga digunakan untuk mengakses server, jika akses jarak jauh melalui secure shell dibolehkan. Metode ini memproteksi password and data dari sesi FTP, dimana FTP yang umum tidak melakukan proteksi.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_PPTP</base>
+	<trans><![CDATA[ <hr class="sectionbar"/><h2>Pengaturan PPTP</h2> Anda dapat membolehkan akses PPTP ke server anda. Anda harus membiarkan fitur ini dalam kondisi disabled dengan cara mengisikan angka 0 kecuali anda memerlukan akses PPTP. ]]></trans>
+    </entry>
+    <entry>
+        <base>DESC_VPN</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Pengaturan PPTP</h2> Anda dapat membolehkan akses PPTP ke server anda. Anda harus membiarkan fitur ini dalam kondisi disabled dengan cara mengisikan angka 0 kecuali anda memerlukan akses PPTP. ]]></trans>
+    </entry>
+    <entry>
+	<base>VALUE_ZERO_OR_POSITIVE</base>
+	<trans>Nilai haruslah nol atau bilangan bulat positif</trans>
+    </entry>
+    <entry>
+	<base>REMOTE_MANAGEMENT</base>
+	<trans>Pengaturan Jarak Jauh</trans>
+    </entry>
+    <entry>
+	<base>VALIDFROM_DESC</base>
+	<trans><![CDATA[ <hr class="sectionbar"/><h2>{$REMOTE_MANAGEMENT}</h2> <p>Adalah memungkinkan untuk membolehkan host di jaringan luar untuk mengakses server manager dengan memasukkan jaringan tersebut disini. Gunakan subnet mask dengan format 255.255.255.255 untuk membatasi akses host tertentu. Semua host dalam jangkauan yang ditentukan itu akan dapat mengakses server manager menggunakan HTTPS.</p> ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_VALID_FROM_ENTRIES</base>
+	<trans>Untuk menambahkan jaringan untuk pengaturan jarak jauh, masukkan rincian dibawah ini.</trans>
+    </entry>
+    <entry>
+	<base>SUBNET_MASK</base>
+	<trans>Subnet mask</trans>
+    </entry>
+    <entry>
+	<base>NUM_OF_HOSTS</base>
+	<trans>Jumlah host</trans>
+    </entry>
+    <entry>
+	<base>NO_ENTRIES_YET</base>
+	<trans>Belum ada entry</trans>
+    </entry>
+    <entry>
+	<base>INVALID_SUBNET_MASK</base>
+	<trans>Subnet mask cacat</trans>
+    </entry>
+    <entry>
+	<base>ERR_INVALID_PARAMS</base>
+	<trans>Isikan network dan subnet mask, atau biarkan keduanya kosong.</trans>
+    </entry>
+    <entry>
+	<base>ERR_NO_RECORD</base>
+	<trans>Tidak dapat menemukan record httpd-admin dalam configuration db</trans>
+    </entry>
+    <entry>
+	<base>Remote access</base>
+	<trans>Akses jarak jauh</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERIAL_CONSOLE_ACCESS</base>
+        <trans>Konsol serial</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERIAL_CONSOLE_ACCESS</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Konsol Serial</h2> Anda dapat membolehkan akses ke konsol server dari sebuah terminal yang terhubung melalui serial port pada server.]]></trans>
+    </entry>
+    <entry>
+        <base>PORT1_ENABLED</base>
+        <trans>Dibolehkan pada port serial 1</trans>
+    </entry>
+    <entry>
+        <base>PORT2_ENABLED</base>
+        <trans>Dibolehkan pada port serial 2</trans>
+    </entry>   
+
+    <entry>
+        <base>LABEL_PPTP_ACCESS</base>
+        <trans>Akses default user PPTP</trans>
+    </entry>
+    <entry>
+        <base>DESC_TELNET_ACCESS</base>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>Pengaturan Telnet</h2> PERINGATAN: Telnet saat ini di enable, tapi fitur ini tidak didukung lagi. Telnet kurang aman dan hanya boleh digunakan jika tidak ada pilihan lain. Anda harus mengganti opsi menjadi {$NO_ACCESS} dan menggunakan secure shell jika akses jarak jauh  diperlukan. Sekali di-disable, telnet tidak akan muncul lagi di layar ini. ]]></trans>
+    </entry>
+    <entry>
+	<base>DESC_IPSECRW</base>
+	<trans><![CDATA[ <h2>Pengaturan Klien IPSEC (Roadwarrior) </h2> Anda bisa membolehkan klien IPSEC untuk mengakses server anda, diotentikasi dengan sertifikat digital. Anda harus membiarkan fitur ini dalam kondisi disable dengan mengisikan angka 0 kecuali anda memerlukan akses bagi klien IPSEC. ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_IPSECRW_SESS</base>
+	<trans>Jumlah klien IPSEC</trans>
+    </entry>
+    <entry>
+	<base>DESC_IPSECRW_RESET</base>
+	<trans><![CDATA[Jika anda ingin mereset semua sertifikat digital, anda dapat lakukan disini.<br>Semua sertifikat yang lama tidak akan di otentikasi dengan server, karena itu <b><i>semua klien IPSEC perlu untuk meng-import sertifikat yang baru!</i></b>. ]]></trans>
+    </entry>
+    <entry>
+	<base>LABEL_IPSECRW_RESET</base>
+	<trans>Reset sertifikat digital</trans>
+    </entry>
+    <entry>
+        <base>DESC_IPSEC_VPN_UNAVAILABLE</base>
+        <trans>IPSEC VPN is not installed. Please install the contrib if you need VPN access.</trans>
+    </entry>
+</lexicon>

@@ -1,0 +1,58 @@
+<lexicon lang="tr">
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Çalışma gurubu ayrlarını değiştir</trans>
+    </entry>	
+    <entry> 
+        <base>DESC_WORKGROUP</base>
+        <trans><![CDATA[ Bu sunucunun Windows çalışma gurubundaki adını girin. ]]></trans>	
+    </entry>
+    <entry>
+        <base>LABEL_WORKGROUP</base>
+        <trans>Windows çalışma gurubu</trans>
+    </entry>
+    <entry>
+        <base>DESC_SERVERNAME</base>
+        <trans>Bu sistem Windows ve Macintosh ağlarında hangi isimle görülsün.</trans>
+    </entry>
+    <entry>
+        <base>LABEL_SERVERNAME</base>
+        <trans>Sunucu Adı</trans>
+    </entry>
+    <entry>
+        <base>DESC_PDC</base>
+        <trans><![CDATA[Bu sunucu Windows ağında çalışma grubu ve etki alanı denetleyicisi olarak görev alsın mı? Bu ağda bu işlevi başka bir sunucu yerine getiriyorsa <b>Hayır</b> seçmelisiniz.]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_PDC</base>
+        <trans>Çalışma gurubu ve Etki Alanı Denetleyicisi</trans>
+    </entry>
+    <entry>
+        <base>DESC_ROAM</base>
+        <trans><![CDATA[ Bu sunucu dolaşım profilleri denetlesin mi? Bu seçeneği varsayılan olarak <b>Hayır</b> seçmeniz önerilir, ancak sunucu tabnlı Windows dolaşım profiller yönticisi konularunda uzamn kişiler buradaki ayrları yapılandırabilir. ]]></trans>
+    </entry>
+    <entry>
+        <base>LABEL_ROAM</base>
+        <trans>Dolaşım profilleri</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>Yeni çalışma gurubu ayarları kaydedildi</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP</base>
+        <trans>Çalışma gurubu adı harf ile başlamalıdır ( büyük veya küçük harf ), devamında harfler, sayılar, alt çizgi, nokta ve tire kullanılabilir.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_SERVERNAME</base>
+        <trans>Sunucu adı harf ile başlamalıdır ( büyük veya küçük harf ), devamında harfler, sayılar, alt çizgi ve tire kullanılabilir.</trans>
+    </entry>
+    <entry>
+        <base>INVALID_WORKGROUP_MATCHES_SERVERNAME</base>
+        <trans>Sunucu ve çalışma grubu adları küçük harf olarak kaşılaştırıldığında aynıdır. Dosya paylaşımın yapılabilmesi için bu iki isim bir birinden farklı olmalıdır.</trans>
+    </entry>
+    <entry>
+        <base>Workgroup</base>
+        <trans>Çalışma gurubu</trans>
+    </entry>
+</lexicon>

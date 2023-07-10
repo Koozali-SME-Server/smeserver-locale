@@ -1,0 +1,42 @@
+<lexicon lang="zh-cn">
+    <entry>
+        <base>Proxy settings</base>
+        <trans>代理设置</trans>
+    </entry>
+    <entry>
+        <base>FIRST_PAGE_DESCRIPTION</base>
+        <trans>此页面可以配置服务器的代理设置，包括透明代理和HTTP流量的高速缓存，默认是启用的，如果此服务器为“serveronly”模式，这是非强制性的。如果此服务器是作为一台电子邮件服务器，默认情况下，从本地客户端到外部SMTP服务器的连接，将被重新寄送到本地电子邮件服务器。</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>服务器的HTTP代理工作原理，是通过高速缓存最近访问的页面来减少带宽上行的使用。对于把服务器作为网关的客户端浏览器来说，它是透明的。请使用下面的开关选项来启用或禁用代理服务。</trans>
+    </entry>
+    <entry>
+        <base>HTTP_PROXY_STATUS_LABEL</base>
+        <trans>HTTP代理状态</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_DESCRIPTION</base>
+        <trans>如果启用SMTP透明代理，将会强制客户端SMTP流量穿过服务器，这会过滤掉来自客户端上的邮件病毒。如果您想使用一个备用的 SMTP 服务器，并且服务器还充当网关的话，设置代理为 “禁用”。 如果设置为“拦截”，将会阻断服务器与外部邮件服务器之间的SMTP通信，这是默认设置。邮件代理只会接受/拦截来自25号端口的通信。</trans>
+    </entry>
+    <entry>
+        <base>SMTP_PROXY_STATUS_LABEL</base>
+        <trans>SMTP代理状态</trans>
+    </entry>
+    <entry>
+        <base>ERR_PROXY_UPDATE_FAILED</base>
+        <trans>错误：代理更新发生错误。</trans>
+    </entry>
+    <entry>
+        <base>ERR_NO_SQUID_REC</base>
+        <trans>错误：在配置数据库中暂无squid记录。</trans>
+    </entry>
+    <entry>
+        <base>SUCCESS</base>
+        <trans>新的代理设置已被应用。</trans>
+    </entry>
+    <entry>
+        <base>BLOCKED</base>
+        <trans>拦截</trans>
+    </entry>
+</lexicon>
