@@ -4,7 +4,7 @@ Summary: SME Server localisation module
 %define name smeserver-locale
 Name: %{name}
 %define version 11.0.0
-%define release 1
+%define release 2
 %define package_summary SME Server localisation module
 %define group Applications/System
 %define package_locales bg da de el es et fr he hu id it ja nb nl pl pt pt_BR ro ru sl sv th tr zh_CN zh_TW
@@ -17,7 +17,7 @@ Source: %{name}-%{version}.tar.xz
 BuildRoot: /var/tmp/%{name}-%{version}-%{release}-buildroot
 BuildArchitectures: noarch
 BuildRequires: perl
-BuildRequires: e-smith-devtools >= 1.13.1-03
+BuildRequires: smeserver-devtools >= 1.13.1-03
 BuildRequires: gettext
 AutoReqProv: no
 
@@ -25,6 +25,9 @@ AutoReqProv: no
 SME Server localisation module
 
 %changelog
+* Sat Mar 23 2024 Brian Read <brianr@koozali.org>11.0.0-2.sme
+- Change Requires: e-smith- to Requires:smeserver-
+
 * Sat Mar 23 2024 Brian Read <brianr@koozali.org>11.0.0-1.sme
 - Update Release and Version to base version and 1st release for SME11 [SME: 12518]
 
@@ -674,7 +677,7 @@ Summary: %{package_summary} - Bulgarian
 Group: %{group}
 Requires: hunspell-bg
 Obsoletes: aspell-bg <= 50:0.50
-Requires: e-smith-formmagick >= 1.4.0-10
+Requires: smeserver-formmagick >= 1.4.0-10
 %description bg
 %{summary}
 %files bg -f %{name}-%{version}-%{release}-filelist-bg
@@ -684,7 +687,7 @@ Summary: %{package_summary} - Danish
 Group: %{group}
 Requires: hunspell-da
 Obsoletes: aspell-da <= 50:0.50
-Requires: e-smith-formmagick >= 1.4.0-10
+Requires: smeserver-formmagick >= 1.4.0-10
 %description da
 %{summary}
 %files da -f %{name}-%{version}-%{release}-filelist-da
@@ -694,7 +697,7 @@ Summary: %{package_summary} - German
 Group: %{group}
 Requires: hunspell-de
 Obsoletes: aspell-de <= 50:0.50
-Requires: e-smith-formmagick >= 1.4.0-10
+Requires: smeserver-formmagick >= 1.4.0-10
 %description de
 %{summary}
 %files de -f %{name}-%{version}-%{release}-filelist-de
@@ -704,7 +707,7 @@ Summary: %{package_summary} - Greek
 Group: %{group}
 Requires: hunspell-el
 Obsoletes: aspell-el <= 50:0.50
-Requires: e-smith-formmagick >= 1.4.0-10
+Requires: smeserver-formmagick >= 1.4.0-10
 %description el
 %{summary}
 %files el -f %{name}-%{version}-%{release}-filelist-el
@@ -714,7 +717,7 @@ Summary: %{package_summary} - Spanish
 Group: %{group}
 Requires: hunspell-es
 Obsoletes: aspell-es <= 50:0.50
-Requires: e-smith-formmagick >= 1.4.0-10
+Requires: smeserver-formmagick >= 1.4.0-10
 %description es
 %{summary}
 %files es -f %{name}-%{version}-%{release}-filelist-es
@@ -723,7 +726,7 @@ Requires: e-smith-formmagick >= 1.4.0-10
 Summary: %{package_summary} - Estonian
 Group: %{group}
 Requires: hunspell-et
-Requires: e-smith-formmagick >= 1.4.0-10
+Requires: smeserver-formmagick >= 1.4.0-10
 %description et
 %{summary}
 %files et -f %{name}-%{version}-%{release}-filelist-et
@@ -733,7 +736,7 @@ Summary: %{package_summary} - French
 Group: %{group}
 Requires: hunspell-fr
 Obsoletes: aspell-fr <= 50:0.50
-Requires: e-smith-formmagick >= 1.4.0-10
+Requires: smeserver-formmagick >= 1.4.0-10
 %description fr
 %{summary}
 %files fr -f %{name}-%{version}-%{release}-filelist-fr
@@ -742,7 +745,7 @@ Requires: e-smith-formmagick >= 1.4.0-10
 Summary: %{package_summary} - Hebrew
 Group: %{group}
 Requires: hunspell-he
-Requires: e-smith-formmagick >= 1.4.0-10
+Requires: smeserver-formmagick >= 1.4.0-10
 %description he
 %{summary}
 %files he -f %{name}-%{version}-%{release}-filelist-he
@@ -751,7 +754,7 @@ Requires: e-smith-formmagick >= 1.4.0-10
 Summary: %{package_summary} - Hungarian
 Group: %{group}
 Requires: hunspell-hu
-Requires: e-smith-formmagick >= 1.4.0-10
+Requires: smeserver-formmagick >= 1.4.0-10
 %description hu
 %{summary}
 %files hu -f %{name}-%{version}-%{release}-filelist-hu
@@ -761,7 +764,7 @@ Summary: %{package_summary} - Indonesian
 Group: %{group}
 Requires: hunspell-id
 Obsoletes: aspell-id <= 50:0.50.1
-Requires: e-smith-formmagick >= 1.4.0-10
+Requires: smeserver-formmagick >= 1.4.0-10
 %description id
 %{summary}
 %files id -f %{name}-%{version}-%{release}-filelist-id
@@ -771,7 +774,7 @@ Summary: %{package_summary} - Italian
 Group: %{group}
 Requires: hunspell-it
 Obsoletes: aspell-it <= 50:0.53
-Requires: e-smith-formmagick >= 1.4.0-10
+Requires: smeserver-formmagick >= 1.4.0-10
 %description it
 %{summary}
 %files it -f %{name}-%{version}-%{release}-filelist-it
@@ -779,7 +782,7 @@ Requires: e-smith-formmagick >= 1.4.0-10
 %package ja
 Summary: %{package_summary} - Japanese
 Group: %{group}
-Requires: e-smith-formmagick >= 1.4.0-10
+Requires: smeserver-formmagick >= 1.4.0-10
 %description ja
 %{summary}
 %files ja -f %{name}-%{version}-%{release}-filelist-ja
@@ -788,7 +791,7 @@ Requires: e-smith-formmagick >= 1.4.0-10
 Summary: %{package_summary} - Norwegian (Bokmal)
 Group: %{group}
 Requires: hunspell-nb
-Requires: e-smith-formmagick >= 1.4.0-10
+Requires: smeserver-formmagick >= 1.4.0-10
 %description nb
 %{summary}
 %files nb -f %{name}-%{version}-%{release}-filelist-nb
@@ -798,7 +801,7 @@ Summary: %{package_summary} - Dutch
 Group: %{group}
 Requires: hunspell-nl
 Obsoletes: aspell-nl <= 51:0.1e
-Requires: e-smith-formmagick >= 1.4.0-10
+Requires: smeserver-formmagick >= 1.4.0-10
 %description nl
 %{summary}
 %files nl -f %{name}-%{version}-%{release}-filelist-nl
@@ -808,7 +811,7 @@ Summary: %{package_summary} - Polish
 Group: %{group}
 Requires: hunspell-pl
 Obsoletes: aspell-pl <= 50:0.51
-Requires: e-smith-formmagick >= 1.4.0-10
+Requires: smeserver-formmagick >= 1.4.0-10
 %description pl
 %{summary}
 %files pl -f %{name}-%{version}-%{release}-filelist-pl
@@ -818,7 +821,7 @@ Summary: %{package_summary} - Portugese
 Group: %{group}
 Requires: hunspell-pt
 Obsoletes: aspell-pt <= 50:0.50
-Requires: e-smith-formmagick >= 1.4.0-10
+Requires: smeserver-formmagick >= 1.4.0-10
 %description pt
 %{summary}
 %files pt -f %{name}-%{version}-%{release}-filelist-pt
@@ -828,7 +831,7 @@ Summary: %{package_summary} - Portugese (Brazilian)
 Group: %{group}
 Requires: hunspell-pt
 Obsoletes: aspell-pt <= 50:0.50
-Requires: e-smith-formmagick >= 1.4.0-10
+Requires: smeserver-formmagick >= 1.4.0-10
 %description pt_BR
 %{summary}
 %files pt_BR -f %{name}-%{version}-%{release}-filelist-pt_BR
@@ -837,7 +840,7 @@ Requires: e-smith-formmagick >= 1.4.0-10
 Summary: %{package_summary} - Romanian
 Group: %{group}
 Requires: hunspell-ro
-Requires: e-smith-formmagick >= 1.4.0-10
+Requires: smeserver-formmagick >= 1.4.0-10
 %description ro
 %{summary}
 %files ro -f %{name}-%{version}-%{release}-filelist-ro
@@ -847,7 +850,7 @@ Summary: %{package_summary} - Russian
 Group: %{group}
 Requires: hunspell-ru
 Obsoletes: aspell-ru <= 50:0.99f7
-Requires: e-smith-formmagick >= 1.4.0-10
+Requires: smeserver-formmagick >= 1.4.0-10
 %description ru
 %{summary}
 %files ru -f %{name}-%{version}-%{release}-filelist-ru
@@ -857,7 +860,7 @@ Summary: %{package_summary} - Slovinian
 Group: %{group}
 Requires: hunspell-sl
 Obsoletes: aspell-sl <= 50:0.50
-Requires: e-smith-formmagick >= 1.4.0-10
+Requires: smeserver-formmagick >= 1.4.0-10
 %description sl
 %{summary}
 %files sl -f %{name}-%{version}-%{release}-filelist-sl
@@ -867,7 +870,7 @@ Summary: %{package_summary} - Swedish
 Group: %{group}
 Requires: hunspell-sv
 Obsoletes: aspell-sv <= 50:0.51
-Requires: e-smith-formmagick >= 1.4.0-10
+Requires: smeserver-formmagick >= 1.4.0-10
 %description sv
 %{summary}
 %files sv -f %{name}-%{version}-%{release}-filelist-sv
@@ -876,7 +879,7 @@ Requires: e-smith-formmagick >= 1.4.0-10
 Summary: %{package_summary} - Thai
 Group: %{group}
 Requires: hunspell-th
-Requires: e-smith-formmagick >= 1.4.0-10
+Requires: smeserver-formmagick >= 1.4.0-10
 %description th
 %{summary}
 %files th -f %{name}-%{version}-%{release}-filelist-th
@@ -884,7 +887,7 @@ Requires: e-smith-formmagick >= 1.4.0-10
 %package tr
 Summary: %{package_summary} - Turkish
 Group: %{group}
-Requires: e-smith-formmagick >= 1.4.0-10
+Requires: smeserver-formmagick >= 1.4.0-10
 %description tr
 %{summary}
 %files tr -f %{name}-%{version}-%{release}-filelist-tr
@@ -892,7 +895,7 @@ Requires: e-smith-formmagick >= 1.4.0-10
 %package zh_CN
 Summary: %{package_summary} - Chinese (China)
 Group: %{group}
-Requires: e-smith-formmagick >= 1.4.0-10
+Requires: smeserver-formmagick >= 1.4.0-10
 %description zh_CN
 %{summary}
 %files zh_CN -f %{name}-%{version}-%{release}-filelist-zh_CN
@@ -900,7 +903,7 @@ Requires: e-smith-formmagick >= 1.4.0-10
 %package zh_TW
 Summary: %{package_summary} - Chinese (Taiwan)
 Group: %{group}
-Requires: e-smith-formmagick >= 1.4.0-10
+Requires: smeserver-formmagick >= 1.4.0-10
 %description zh_TW
 %{summary}
 %files zh_TW -f %{name}-%{version}-%{release}-filelist-zh_TW
