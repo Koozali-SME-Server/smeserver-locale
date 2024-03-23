@@ -3,8 +3,8 @@
 Summary: SME Server localisation module
 %define name smeserver-locale
 Name: %{name}
-%define version 2.6.0
-%define release 18
+%define version 11.0.0
+%define release 1
 %define package_summary SME Server localisation module
 %define group Applications/System
 %define package_locales bg da de el es et fr he hu id it ja nb nl pl pt pt_BR ro ru sl sv th tr zh_CN zh_TW
@@ -25,6 +25,9 @@ AutoReqProv: no
 SME Server localisation module
 
 %changelog
+* Sat Mar 23 2024 Brian Read <brianr@koozali.org>11.0.0-1.sme
+- Update Release and Version to base version and 1st release for SME11 [SME: 12518]
+
 * Mon Jul 10 2023 cvs2git.sh aka Brian Read <brianr@koozali.org> 2.6.0-18.sme
 - Roll up patches and move to git repo [SME: 12338]
 
