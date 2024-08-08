@@ -1065,7 +1065,7 @@ msgstr "Verifică configurări"
 #: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1885
 #: root/usr/share/perl5/vendor_perl/esmith/console/save_config.pm:28
 msgid "Please stand by while your configuration settings are activated ..."
-msgstr ""
+msgstr "Introduceți denumirea de sistem pentru acest server."
 
 #: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1916
 #: root/usr/share/perl5/vendor_perl/esmith/console/quitConsole.pm:34
@@ -1160,7 +1160,7 @@ msgstr "Verificare fisier salvat in desktop"
 
 #: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:252
 msgid "Please stand by while the system is prepared for backup..."
-msgstr ""
+msgstr "Introduceți denumirea de sistem pentru acest server."
 
 #: root/usr/share/perl5/vendor_perl/esmith/console/perform_backup.pm:257
 msgid "Creating backup file"
@@ -1265,7 +1265,7 @@ msgstr ""
 
 #: root/usr/share/perl5/vendor_perl/esmith/console/startup.pm:114
 msgid "Please standby while system services are started ..."
-msgstr ""
+msgstr "Introduceți denumirea de sistem pentru acest server."
 
 #: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:30
 #: root/usr/share/perl5/vendor_perl/esmith/console/system_password.pm:109

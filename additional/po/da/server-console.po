@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: root/sbin/e-smith/console-menu-items/manageRAID.pl:16
@@ -40,7 +40,7 @@ msgstr "Alle RAID-enheder er i ok tilstand"
 
 #: root/sbin/e-smith/console-menu-items/manageRAID.pl:120
 msgid "All RAID devices are in an unclean state or contain failed disks."
-msgstr "Alle RAID-enheder er i ok tilstand"
+msgstr "Alle RAID enheder er ikke synkroniseret eller indeholder fejlbehæftede disk(e)."
 
 #: root/sbin/e-smith/console-menu-items/manageRAID.pl:125
 msgid "Current disk status:"
@@ -64,11 +64,11 @@ msgstr "Der er kun installeret en enkelt disk på dit system eller du bruger har
 
 #: root/sbin/e-smith/console-menu-items/manageRAID.pl:150
 msgid "Your RAID devices are in an inconsistent state, and no spare drives were detected. You may need to manually remove a failed drive from your arrays using mdadm."
-msgstr ""
+msgstr "Dine RAID enheder er i ikke synkroniseret, og der er ikke dedekteret et reserve drev. Du må eventuelt manuelt fjerne en fejlbehæftet disk ved hjælp af mdadm"
 
 #: root/sbin/e-smith/console-menu-items/manageRAID.pl:161
 msgid "Multiple spare drives have been detected. This utility can only add one drive at a time. Please either shut down and remove all but one of your spare drives, or configure your array manually."
-msgstr ""
+msgstr "Der er fundet flere ekstra drev. Denne funktion kan kun tilføje ét drev ad gangen. Luk enten ned og fjern alle reserve drev undtagen ét, eller konfigurer dit array manuelt."
 
 #: root/sbin/e-smith/console-menu-items/manageRAID.pl:170
 msgid "There is an unused disk drive in your system. Do you want to add it to the existing RAID array(s)?"
@@ -1183,11 +1183,11 @@ msgstr "Gendan fra sikkerhedskopi på flytbart medie"
 
 #: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:137
 msgid "Restore failed. Your system is likely in an inconsistent state - look at the log files for more details."
-msgstr ""
+msgstr "Gendannelse mislykkedes. Dit system er sandsynligvis i en inkonsekvent tilstand - se logfilerne for flere detaljer."
 
 #: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:140
 msgid "Restore successful."
-msgstr "Internetforbindelse ok"
+msgstr "Gendannelse gennemført med succes."
 
 #: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:170
 msgid "Restore From Backup"
@@ -1236,11 +1236,11 @@ msgstr "Vælg hvilken sikkerhedskopi du ønsker af gendanne fra."
 
 #: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:283
 msgid "Preparing for restore"
-msgstr "Forbereder sikkerhedskopi"
+msgstr "Forbereder gendannelse"
 
 #: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:284
 msgid "Please stand by while the system is prepared for restore..."
-msgstr "Vent venligst mens systemet forbereder sikkerhedskopien..."
+msgstr "Vent venligst mens systemet forbereder gendannelse..."
 
 #: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:293
 msgid "Restoring from backup"
@@ -1252,7 +1252,7 @@ msgstr "Gendannelse gennemført"
 
 #: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:310
 msgid "You must restart your system to finish the restore."
-msgstr ""
+msgstr "Du skal genstarte systemet for at færdiggøre gendannelse"
 
 #: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:311
 msgid "Do you want to restart now?"

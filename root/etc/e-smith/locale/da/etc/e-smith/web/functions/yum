@@ -12,6 +12,11 @@
     </entry>
 
     <entry>
+        <base>UPDATE_SUCCESS</base>
+        <trans>De ønskede ændringer er blevet implementeret.</trans>
+    </entry>
+
+    <entry>
         <base>LABEL_YUM_STATUS</base>
         <trans>Søg efter opdateringer</trans>
     </entry>

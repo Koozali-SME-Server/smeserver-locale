@@ -742,7 +742,7 @@
   </entry>
   <entry>
    <base>SMBV1</base>
-   <trans>Mount as legacy SMB v1 share (unsecure, not recommended).</trans>
+   <trans>Tilslut som forældet SMD v1 fællesdrev (usikkert, kan ikke anbefales).</trans>
   </entry>
 
 

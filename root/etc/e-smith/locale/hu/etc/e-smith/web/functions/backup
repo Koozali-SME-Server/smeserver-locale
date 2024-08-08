@@ -738,11 +738,11 @@
   </entry>
   <entry>
    <base>DO_NOT_RESTORE_BIN_SBIN_LIB_LIB64_FROM_SME9</base>
-   <trans>If you restore from Koozali SME Server 9 or before, pay attention that some folders in the system are now symlinks. Basic backup configuration does not include /bin, /lib, /lib64, /sbin, /var/lock and /var/run. If you have added them for files in their subdirectories, we will prevent the restoration of those folders to prevent dar from replacing those symlinks and leave the system unusable. Those additions are, however, not recommended as they are at risk to overwrite files provides by rpms.</trans>
+   <trans>Ha a Koozali SME Server 9-es vagy korábbi verziójáról állít vissza, figyeljen arra, hogy a rendszerben lévő egyes mappák mostantól symlinkek. Az alapvető mentési konfiguráció nem tartalmazza a /bin, /lib, /lib64, /sbin, /var/lock és /var/run könyvtárakat. Ha hozzáadta őket az alkönyvtáraikban lévő fájlokhoz, akkor megakadályozzuk ezeknek a mappáknak a visszaállítását, hogy megakadályozzuk, hogy a dar helyettesítse ezeket a szimlinkeket, és a rendszer használhatatlanná váljon. Ezek a hozzáadások azonban nem javasoltak, mivel fennáll a veszélye, hogy felülírják az rpms által biztosított fájlokat.</trans>
   </entry>
   <entry>
    <base>SMBV1</base>
-   <trans>Mount as legacy SMB v1 share (unsecure, not recommended).</trans>
+   <trans>Csatolás régi SMB v1 megosztásként (nem biztonságos, nem javasolt)</trans>
   </entry>
 
 

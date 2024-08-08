@@ -3,12 +3,17 @@
     -->
     <entry>
 	<base>Software installer</base>
-	<trans>Software installer</trans>
+	<trans>Instalator oprogramowania</trans>
     </entry>
 
     <entry>
         <base>SUCCESS</base>
         <trans>Nowe ustawienia zostały zapisane.</trans>
+    </entry>
+
+    <entry>
+        <base>UPDATE_SUCCESS</base>
+        <trans>Żądane zmiany zostały pomyślnie wdrożone.</trans>
     </entry>
 
     <entry>
@@ -18,11 +23,11 @@
 
     <entry>
 	<base>LABEL_YUM_AUTOINSTALLUPDATES</base>
-	<trans>Automatyczne instalowanie aktualizacji</trans>
+	<trans>Automatyczne zainstaluj aktualizacje</trans>
    </entry>
     <entry>
         <base>LABEL_YUM_AUTOINSTALLUPDATES_DESCRIPTION</base>
-        <trans>If enabled this will take precedence over the simple check for updates notification and predownload features. Instead it will install the available updates from enabled repositories. For more information refer to yum and yum-cron manual page.</trans>
+        <trans>Jeśli ta opcja zostanie włączona, będzie ona miała pierwszeństwo przed sprawdzaniem powiadomień o aktualizacjach i funkcjami wstępnego pobierania. Zamiast tego zainstaluje ona dostępne aktualizacje z włączonych repozytoriów. Więcej informacji można znaleźć na stronie podręcznika yum i yum-cron.</trans>
    </entry>
 
     <entry>
@@ -32,37 +37,37 @@
 
     <entry>
 	<base>DESC_YUM_PACKAGEFUNCTIONS</base>
-	<trans>The software installer can manage groups of related package or individual packages. By default, only groups of packages are presented. If you wish to manage individual packages, enable this option. This should only be done by experienced administrators.</trans>
+	<trans>Instalator oprogramowania może zarządzać grupami powiązanych pakietów lub pojedynczymi pakietami. Domyślnie prezentowane są tylko grupy pakietów. Jeśli chcesz zarządzać pojedynczymi pakietami, włącz tę opcję. Powinni to robić tylko doświadczeni administratorzy.</trans>
     </entry>
 
     <entry>
 	<base>LABEL_ENABLED_REPOSITORIES</base>
-	<trans>Enabled repositories</trans>
+	<trans>Włączone repozytoria</trans>
     </entry>
 
     <entry>
 	<base>DESC_ENABLED_REPOSITORIES</base>
-	<trans>The software installer can install software from any of enabled repositories. To enable a repository, select it from the list. To disable a repository, de-select it from the list. By default, only stable, tested software is available for installation.</trans>
+	<trans>Instalator oprogramowania może instalować oprogramowanie z dowolnego z włączonych repozytoriów. Aby włączyć repozytorium, wybierz je z listy. Aby wyłączyć repozytorium, usuń jego zaznaczenie z listy. Domyślnie do instalacji dostępne jest tylko stabilne, przetestowane oprogramowanie.</trans>
     </entry>
 
     <entry>
         <base>DESC_UPTODATE</base>
-        <trans><![CDATA[ <div class="success"> <h2>This system is up to date.</h2> All updates have been installed. </div> ]]></trans>
+        <trans><![CDATA[ <div class="success"> <h2>Ten system jest aktualny.</h2> Wszystkie aktualizacje zostały zainstalowane. </div> ]]></trans>
     </entry>
 
     <entry>
         <base>DESC_UPDATES_AVAILABLE</base>
-        <trans><![CDATA[ <div class="success"> <h2>Updates Available</h2> There are updates available for your system. These updates should be installed as soon as possible. </div> ]]></trans>
+        <trans><![CDATA[ <div class="success"> <h2>Dostępne aktualizacje</h2> Dostępne są aktualizacje dla Twojego systemu. Aktualizacje te należy zainstalować jak najszybciej. </div> ]]></trans>
     </entry>
 
     <entry>
         <base>LABEL_AVAILABLE_UPDATES</base>
-        <trans>Updates available</trans>
+        <trans>Dostępne aktualizacje</trans>
     </entry>
 
     <entry>
         <base>DESC_AVAILABLE_UPDATES</base>
-        <trans>The following updates are available for your system. You should normally install all available updates. If there are updates you do not wish to install, de-select them from the list below.</trans>
+        <trans>Dla Twojego systemu dostępne są następujące aktualizacje. Zwykle należy zainstalować wszystkie dostępne aktualizacje. Jeśli są aktualizacje, których nie chcesz instalować, usuń ich zaznaczenie z poniższej listy.</trans>
     </entry>
 
     <entry>
@@ -72,7 +77,7 @@
 
     <entry>
         <base>DESC_BUTTON_INSTALL_UPDATES</base>
-        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_UPDATES">Wyświetl dostępne aktualizacje</a>  ]]></trans>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_UPDATES">Wyświetl dostępne aktualizacje</a> ]]></trans>
     </entry>
 
     <entry>
@@ -107,7 +112,7 @@
 
     <entry>
 	<base>HEADER_INSTALLED_SOFTWARE</base>
-	<trans>Poniższe oprogramowanie jest zainstalowane w systemie. Powinieneś usuwać oprogramowanie, jeśli jesteś świadomy konsekwencji tego czynu.</trans>
+	<trans>Poniższe oprogramowanie jest zainstalowane w tym systemie. Powinieneś usuwać oprogramowanie z tego systemu, jeśli masz świadomość konsekwencji tego działania.</trans>
     </entry>
 
     <entry>
@@ -132,27 +137,27 @@
 
     <entry>
         <base>DESC_BUTTON_CONFIGURATION</base>
-        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_CONFIGURATION">Change software installer settings</a> ]]></trans>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_CONFIGURATION">Zmień ustawienia instalatora oprogramowania</a> ]]></trans>
     </entry>
 
     <entry>
         <base>DESC_BUTTON_INSTALL_AVAILABLE</base>
-        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_UPDATES">Zainstaluj dostępne aktualizacje</a>  ]]></trans>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_UPDATES">Zainstaluj dodatkowe oprogramowanie</a> ]]></trans>
     </entry>
 
     <entry>
         <base>DESC_BUTTON_REMOVE</base>
-        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_INSTALL_UPDATES">Zainstaluj dostępne aktualizacje</a>  ]]></trans>
+        <trans><![CDATA[ <a class="button-like" href="yum?page=0&page_stack=&Next=Next&wherenext=YUM_PAGE_REMOVE">Usuń zainstalowane oprogramowanie</a> ]]></trans>
     </entry>
 
     <entry>
 	<base>HEADER_POSTUPGRADE_REQUIRED</base>
-	<trans><![CDATA[ The system needs to be reconfigured after adding or removing software, or applying updates. <p> Please click on the Reconfigure button at the bottom of this page to start the reconfiguration process. <b>An automatic reboot will be initiated as part of this reconfiguration process</b> </p> ]]></trans>
+	<trans><![CDATA[ System wymaga ponownej konfiguracji po dodaniu lub usunięciu oprogramowania lub zastosowaniu aktualizacji. <p> Kliknij przycisk Konfiguruj ponownie u dołu tej strony, aby rozpocząć proces ponownej konfiguracji. <b>W ramach procesu ponownej konfiguracji zostanie zainicjowany automatyczny restart</b> </p> ]]></trans>
      </entry>
 
     <entry>
 	<base>SYSTEM_BEING_RECONFIGURED</base>
-	<trans>System jest automatycznie uruchomiony ponownie, aby zakończyć proces rekonfiguracji.</trans>
+	<trans>System zostanie ponownie automatycznie uruchomiony, aby zakończyć proces rekonfiguracji.</trans>
     </entry>
 
     <entry>
@@ -172,22 +177,22 @@
 
     <entry>
       <base>LABEL_YUM_DELTARPMPROCESS</base>
-      <trans>Delta Rpm Update</trans>
+      <trans>Aktualizacja paczek DRPM (Delta Rpm)</trans>
     </entry>
 
     <entry>
       <base>LABEL_YUM_DELTARPM</base>
-      <trans>A deltarpm contains the difference between an old and a new version of a rpm, which can save bandwith. The drawback is that update operations consume considerably more CPU cycles</trans>
+      <trans>Paczka DRPM (DeltaRpm) uwzględnia różnicę między starą a nową wersją rpm-a, co może poprawić przepustowość łącza. Wadą jest to, że operacje aktualizacji zużywają znacznie więcej zasobów (cykli) procesora</trans>
     </entry>
 
     <entry>
       <base>LABEL_YUM_DOWNLOADONLY</base>
-      <trans>Dane osobiste zostały aktualizowane</trans>
+      <trans>Wstępne pobieranie aktualizacji</trans>
     </entry>
 
     <entry>
       <base>LABEL_YUM_DOWNLOADONLY_DESCRIPTION</base>
-      <trans>The rpm updates can be downloaded during the night, this will ease and give faster the yum update process (only enabled repositories will be used).</trans>
+      <trans>Aktualizacje rpm mogą być pobierane w nocy, co ułatwia i przyspiesza proces aktualizacji yum (używane będą tylko włączone repozytoria).</trans>
     </entry>
 
 </lexicon>

@@ -28,7 +28,7 @@ msgstr "RAID tömb újraszinkronizálása folymatban."
 
 #: root/sbin/e-smith/console-menu-items/manageRAID.pl:101
 msgid "Only some of the RAID devices are unclean or contain failed disks."
-msgstr "Az egyik RAID tömb hibás."
+msgstr "A RAID tárolóeszközök közül néhány tisztítatlan vagy hibás lemezt tartalmaz."
 
 #: root/sbin/e-smith/console-menu-items/manageRAID.pl:103
 msgid "Manual intervention may be required."
@@ -36,11 +36,11 @@ msgstr "Kézi beavatkozás lehet szükséges."
 
 #: root/sbin/e-smith/console-menu-items/manageRAID.pl:112
 msgid "All RAID devices are in a clean state."
-msgstr "Minden RAID merevlemez hibamentes"
+msgstr "Minden RAID tárolóeszköz hibamentes"
 
 #: root/sbin/e-smith/console-menu-items/manageRAID.pl:120
 msgid "All RAID devices are in an unclean state or contain failed disks."
-msgstr "Minden RAID merevlemez hibamentes"
+msgstr "Minden RAID tárolóeszköz tisztítatlan, vagy hibás állapotban van."
 
 #: root/sbin/e-smith/console-menu-items/manageRAID.pl:125
 msgid "Current disk status:"
@@ -60,15 +60,15 @@ msgstr "Szabad merevlemezek"
 
 #: root/sbin/e-smith/console-menu-items/manageRAID.pl:139
 msgid "To ensure continued redundancy, please shut down, install another drive of the same capacity and then return to this screen."
-msgstr "Az ön rendszerében csak egy merevlemez található, vagy pedig hardveres tükrözést használ. Amennyiben engedélyezni kívánja a szoftveres tükrözést, kérem kapcsolja ki a szervert és szereljen be egy második ugyanakkora kapacitású merevlemezt is, majd térjen vissza ehhez a menüponthoz."
+msgstr "A folyamatos redundancia biztosítása érdekében kérjük, kapcsolja le, telepítsen egy másik, azonos kapacitású meghajtót, majd térjen vissza erre a képernyőre."
 
 #: root/sbin/e-smith/console-menu-items/manageRAID.pl:150
 msgid "Your RAID devices are in an inconsistent state, and no spare drives were detected. You may need to manually remove a failed drive from your arrays using mdadm."
-msgstr ""
+msgstr "A RAID tárolóeszközök állapota nem konzisztens, és nem észlelhető tartalék meghajtó. Előfordulhat, hogy manuálisan kell eltávolítania egy meghibásodott meghajtót a tömbökből az mdadm parancs segítségével."
 
 #: root/sbin/e-smith/console-menu-items/manageRAID.pl:161
 msgid "Multiple spare drives have been detected. This utility can only add one drive at a time. Please either shut down and remove all but one of your spare drives, or configure your array manually."
-msgstr ""
+msgstr "Több tartalék meghajtót is észlelhető. Ez a segédprogram egyszerre csak egy meghajtót tud hozzáadni. Kérjük, vagy állítsa le és távolítsa el az összes tartalék meghajtót egy kivételével, vagy konfigurálja a tömböt manuálisan."
 
 #: root/sbin/e-smith/console-menu-items/manageRAID.pl:170
 msgid "There is an unused disk drive in your system. Do you want to add it to the existing RAID array(s)?"
@@ -982,11 +982,11 @@ msgstr "DHCP címtartomány végének beállítása"
 
 #: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1685
 msgid "Please enter the last host address in this range. If you are using the standard server defaults and have no particular preference, you should keep the default value. Think to add enough ip for vpn sessions."
-msgstr "Kérem adja meg az utolsó IP címet a címtartományban. Ha a szerver alapbeállításait alkalmazza, és nincs szükség egyéni beállításra, tartsa meg az alapértelmezett beállítást. Hagyjon elegendő ip címet a pptp munkamenetekhez is."
+msgstr "Kérem adja meg az utolsó IP címet a címtartományban. Ha a szerver alapbeállításait alkalmazza, és nincs szükség egyéni beállításra, tartsa meg az alapértelmezett beállítást. Hagyjon elegendő ip címet a vpn munkamenetekhez is."
 
 #: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1725
 msgid "There is not enough IP in the range to include all your vpn sessions"
-msgstr "Nincs elegendő IP cím a címtartományban az összes pptp munkamenet használatához"
+msgstr "Nincs elegendő IP cím a címtartományban az összes vpn munkamenet használatához"
 
 #: root/usr/share/perl5/vendor_perl/esmith/console/configure.pm:1730
 msgid "The IP range cannot include our private network address."
@@ -1183,11 +1183,11 @@ msgstr "Visszaállítás külső meghajtóról"
 
 #: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:137
 msgid "Restore failed. Your system is likely in an inconsistent state - look at the log files for more details."
-msgstr ""
+msgstr "A visszaállítás sikertelen. A rendszer valószínűleg inkonzisztens állapotban van - további részletekért nézze meg a naplófájlokat."
 
 #: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:140
 msgid "Restore successful."
-msgstr "Az Internet kapcsolat működik"
+msgstr "A visszaállítás sikerült."
 
 #: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:170
 msgid "Restore From Backup"
@@ -1236,27 +1236,27 @@ msgstr "Kérem válassza ki a biztonsági mentést amiből helyreállítani szer
 
 #: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:283
 msgid "Preparing for restore"
-msgstr "Felkészülés a biztonsági mentésre"
+msgstr "Felkészülés a visszaállításra"
 
 #: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:284
 msgid "Please stand by while the system is prepared for restore..."
-msgstr "Kérem várjon, amíg a rendszer felkészül a biztonsági mentésre..."
+msgstr "Kérem várjon, amíg a rendszer felkészül a visszaállításra..."
 
 #: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:293
 msgid "Restoring from backup"
-msgstr "Helreállítás biztonsági mentésből"
+msgstr "Helyreállítás biztonsági mentésből"
 
 #: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:309
 msgid "Restore Complete"
-msgstr "A helyreállítás befejeződött"
+msgstr "Teljes visszaállítás"
 
 #: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:310
 msgid "You must restart your system to finish the restore."
-msgstr ""
+msgstr "A visszaállítás befejezéséhez újra kell indítania a rendszert."
 
 #: root/usr/share/perl5/vendor_perl/esmith/console/perform_restore.pm:311
 msgid "Do you want to restart now?"
-msgstr "Most akarja újraindítani a rendszert?"
+msgstr "Most akarja újraindítani?"
 
 #: root/usr/share/perl5/vendor_perl/esmith/console/quitConsole.pm:10
 msgid "Exit from the server console"

@@ -12,6 +12,11 @@
     </entry>
 
     <entry>
+        <base>UPDATE_SUCCESS</base>
+        <trans>A kért változtatások sikeresen végrehajtódtak.</trans>
+    </entry>
+
+    <entry>
         <base>LABEL_YUM_STATUS</base>
         <trans>Frissítések keresése</trans>
     </entry>
@@ -22,7 +27,7 @@
    </entry>
     <entry>
         <base>LABEL_YUM_AUTOINSTALLUPDATES_DESCRIPTION</base>
-        <trans>If enabled this will take precedence over the simple check for updates notification and predownload features. Instead it will install the available updates from enabled repositories. For more information refer to yum and yum-cron manual page.</trans>
+        <trans>Ha engedélyezve van, akkor ez elsőbbséget élvez az egyszerű frissítés-értesítés és az előzetes letöltés funkcióval szemben. Ehelyett a rendszer az engedélyezett tárolókból telepíti a rendelkezésre álló frissítéseket. További információért lásd a yum és a yum-cron kézikönyv oldalát.</trans>
    </entry>
 
     <entry>

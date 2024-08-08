@@ -41,7 +41,7 @@
     </entry>
      <entry>
        <base>NUMBER_OF_VPN_CLIENTS_MUST_BE_LESSER_THAN_NUMBER_OF_IP_IN_DHCP_RANGE</base>
-       <trans>A pptp-ügyfelek száma nagyobb, mint a DHCP által fenntartott IP-címek száma. Kisebb számot kell megadni.</trans>
+       <trans>A VPN-ügyfelek száma nagyobb, mint a DHCP által fenntartott IP-címek száma. Kisebb számot kell megadni.</trans>
     </entry>
     <entry>
         <base>LABEL_SSH_PORT</base>
@@ -77,7 +77,7 @@
     </entry>
     <entry>
         <base>DESC_VPN</base>
-        <trans><![CDATA[ <hr class="sectionbar" /><h2>PPTP beállítások</h2> Engedélyezheti a PPTP hozzáférést a szerveréhez. Ha nincs szüksége a PPTP hozzáférésre, a 0 érték beállításával kikapcsolhatja azt. ]]></trans>
+        <trans><![CDATA[ <hr class="sectionbar" /><h2>VPN beállítások</h2> Engedélyezheti a VPN hozzáférést a szerveréhez. Ha nincs szüksége a VPN hozzáférésre, a 0 érték beállításával kikapcsolhatja azt. ]]></trans>
     </entry>
     <entry>
 	<base>VALUE_ZERO_OR_POSITIVE</base>
@@ -166,6 +166,6 @@
     </entry>
     <entry>
         <base>DESC_IPSEC_VPN_UNAVAILABLE</base>
-        <trans>IPSEC VPN is not installed. Please install the contrib if you need VPN access.</trans>
+        <trans>Az IPSEC VPN nincs telepítve. Kérjük, telepítse a contrib-et, ha VPN hozzáférésre van szüksége.</trans>
     </entry>
 </lexicon>

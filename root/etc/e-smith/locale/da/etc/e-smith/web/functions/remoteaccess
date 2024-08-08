@@ -41,7 +41,7 @@
     </entry>
      <entry>
        <base>NUMBER_OF_VPN_CLIENTS_MUST_BE_LESSER_THAN_NUMBER_OF_IP_IN_DHCP_RANGE</base>
-       <trans>Antallet af pptp klienter er større end antallet af reserverede ip numre for DHCP. Du skal vælge et mindre antal.</trans>
+       <trans>Antallet af VPN klienter er større end antallet af reserverede ip numre for DHCP. Du skal vælge et mindre antal.</trans>
     </entry>
     <entry>
         <base>LABEL_SSH_PORT</base>
@@ -77,7 +77,7 @@
     </entry>
     <entry>
         <base>DESC_VPN</base>
-        <trans><![CDATA[ <hr class="sectionbar"/><h2>VPNadgang</h2> Du kan tillade VPNadgang til din server. Du bør efterlade denne funktion deaktiveret ved at sætte værdien til tallet 0, medmindre du har behov for VPNadgang. ]]></trans>
+        <trans><![CDATA[ <hr class="sectionbar"/><h2>VPNadgang</h2> Du kan tillade VPN adgang til din server. Du bør efterlade denne funktion deaktiveret ved at sætte værdien til tallet 0, medmindre du har behov for VPNadgang. ]]></trans>
     </entry>
     <entry>
 	<base>VALUE_ZERO_OR_POSITIVE</base>
@@ -166,6 +166,6 @@
     </entry>
     <entry>
         <base>DESC_IPSEC_VPN_UNAVAILABLE</base>
-        <trans>IPSEC VPN is not installed. Please install the contrib if you need VPN access.</trans>
+        <trans>IPSEC VPN er kke installeret. Installer denne contrib hvis du behøver VPN adgang.</trans>
     </entry>
 </lexicon>

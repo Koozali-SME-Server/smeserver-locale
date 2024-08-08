@@ -38,7 +38,7 @@
     </entry>
     <entry>
         <base>PREVIOUS_SERVER_MODE</base>
-        <trans>Szerver üzemmód</trans>
+        <trans>Előző szerver üzemmód</trans>
     </entry>
     <entry>
         <base>KERNEL_AND_ARCH</base>

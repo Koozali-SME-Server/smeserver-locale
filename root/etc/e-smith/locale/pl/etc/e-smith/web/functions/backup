@@ -245,7 +245,7 @@
   </entry>
   <entry>
    <base>BETWEEN_0_AND_12</base>
-   <trans>Proszę wybrać godzinę między 0 a 12</trans>
+   <trans>Proszę wybrać godzinę między 0 a 12.</trans>
   </entry>
   <entry>
    <base>ERR_INVALID_MINUTE</base>
@@ -402,51 +402,51 @@
   </entry>
   <entry>
    <base>VERIFY_WORKSTN_BACKUP_DESC</base>
-   <trans><![CDATA[ <p>This option will display the names of all files in a previously created workstation daily backup. You can use this option to verify the contents of the backup.<b>You must choose the backup you want to verify</b></p> <p>Only files flagged with [Saved] are contained in the backup.</p> <br/>Backup files are verified from shared folder : ]]></trans>
+   <trans><![CDATA[ <p>Ta opcja wyświetla nazwy wszystkich plików w poprzednio utworzonej dziennej kopii zapasowej  stacji roboczej. Możesz użyć tej opcji, aby zweryfikować zawartość kopii zapasowej.<b>Musisz wybrać kopię zapasową, którą chcesz zweryfikować</b></p> <p>Kopia zapasowa zawiera tylko pliki oznaczone jako [Zapisane].</p> <br/>Pliki kopii zapasowych zostały zweryfikowane z folderu współdzielonego : ]]></trans>
   </entry>
   <entry>
    <base>RESTORE_CONF_FROM_WORKSTN</base>
-   <trans>Restore server configuration from workstation backup</trans>
+   <trans>Przywróć konfigurację serwera z kopii zapasowej stacji roboczej</trans>
   </entry>
   <entry>
    <base>RESTORE_CONF_FROM_WORKSTN_DESC</base>
-   <trans><![CDATA[ <p>This process will restore the configuration and user data files from a Server workstation backup. <b>The restore should be performed on a freshly installed Server</b>.</p> <p>Ensure that choose the right backup to restore below before proceeding.</p> <p>After the restore completes you must reboot the server.</p> Backup will be restored from : ]]></trans>
+   <trans><![CDATA[<p> Ten proces przywróci konfigurację i pliki danych użytkownika stacji roboczej z serwera kopii zapasowej. <b> Przywracanie powinno odbywać się na świeżo zainstalowanym serwerze </b>. </p> <p> Przed kontynuowaniem upewnij się, że wybierasz właściwą kopię zapasową do przywrócenia. </p> <p> Po zakończeniu przywracania musisz zrestartować serwer. </p> Kopia zapasowa zostanie przywrócona z: ]]></trans>
   </entry>
   <entry>
    <base>RESTORE_FROM_WORKSTN</base>
-   <trans>Restore From Workstation</trans>
+   <trans>Przywróć ze stacji roboczej</trans>
   </entry>
   <entry>
    <base>RESTORING_FROM_WORKSTN</base>
-   <trans>Restoring From Workstation</trans>
+   <trans>Przywracanie ze stacji roboczej</trans>
   </entry>
   <entry>
    <base>NOW_RESTORING_FROM_WORKSTN</base>
-   <trans>Your server configuration and user data files are now being restored from workstation shared folder.</trans>
+   <trans>Pliki konfiguracyjne serwera i pliki danych użytkownika są teraz przywracane z folderu współdzielonego stacji roboczej.</trans>
   </entry>
   <entry>
    <base>ERR_RESTORING_FROM_WORKSTN</base>
-   <trans>Error occurred restoring files from workstation.</trans>
+   <trans>Wystąpił błąd podczas odtwarzania plików ze stacji roboczej.</trans>
   </entry>
   <entry>
    <base>ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE</base>
-   <trans>Error occurred while updating system configuration after workstation restore.</trans>
+   <trans>Wystąpił błąd podczas aktualizowania konfiguracji systemu po przywróceniu stacji roboczej.</trans>
   </entry>
   <entry>
    <base>WORKSTN_NAME</base>
-   <trans>Workstation IP or hostname</trans>
+   <trans>Adres IP stacji roboczej lub nazwa hosta</trans>
   </entry>
   <entry>
    <base>WORKSTN_BACKUP_SETTINGS</base>
-   <trans>Workstation Backup Settings</trans>
+   <trans>Ustawienia kopii zapasowej stacji roboczej</trans>
   </entry>
   <entry>
    <base>SHARED_FOLDER_NAME</base>
-   <trans>Backup share</trans>
+   <trans>Udostępnianie kopii zapasowej</trans>
   </entry>
   <entry>
    <base>WORKSTN_LOGIN</base>
-   <trans>Login name</trans>
+   <trans>Nazwa użytkownika</trans>
   </entry>
   <entry>
    <base>WORKSTATION_BACKUP_DEST</base>
@@ -454,107 +454,107 @@
   </entry>
   <entry>
    <base>CONFIGURE_WORKSTN_BACKUP_DESC</base>
-   <trans>You can set the number of successive backup sets to keep on the workstation, with automatic rotation. Each set may contain saved data for several consecutive days. In this case first backup of the set is full backup, others daily backups are incremental. You can also set a time limit for each backup session or for incremental backups only. When this limit occurs, backup is cleanly stopped and the next incremental backup will safely continue with unsaved and modified datas.</trans>
+   <trans>Możesz ustawić liczbę kolejnych zestawów kopii zapasowych, które mają być przechowywane na stacji roboczej, z automatyczną rotacją. Każdy zestaw może zawierać zapisane dane przez kilka kolejnych dni. W tym przypadku pierwsza kopia zestawu jest pełną kopią zapasową, następne codzienne kopie zapasowe są przyrostowe. Możesz także ustawić limit czasu dla każdej sesji kopii zapasowej lub tylko dla kopii przyrostowych. Gdy wystąpi ten limit, kopia zapasowa zostanie czysto zatrzymana, a następna przyrostowa kopia zapasowa będzie bezpiecznie kontynuowana z niezapisanymi i zmodyfikowanymi danymi.</trans>
   </entry>
   <entry>
    <base>ERR_INVALID_WORKSTN</base>
-   <trans>Invalid Workstation IP or Hostname</trans>
+   <trans>Nieprawidłowy adres IP stacji roboczej lub nazwa hosta </trans>
   </entry>
   <entry>
    <base>ERR_INVALID_FOLDER</base>
-   <trans>Invalid share name</trans>
+   <trans>Nieprawidłowa nazwa udziału</trans>
   </entry>
   <entry>
    <base>ERR_INVALID_LOGIN</base>
-   <trans>Invalid Login</trans>
+   <trans>Nieprawidłowa nazwa użytkownika</trans>
   </entry>
   <entry>
    <base>ERR_INVALID_PASSWORD</base>
-   <trans>Invalid Password</trans>
+   <trans>Hasło niepoprawne</trans>
   </entry>
   <entry>
    <base>ERR_ALREADY_MOUNTED</base>
-   <trans>Backup directory is already mounted</trans>
+   <trans>Katalog kopii zapasowej jest już zamontowany</trans>
   </entry>
   <entry>
    <base>ERR_MOUNTING_SMBSHARE</base>
-   <trans>Unable to mount workstation shared folder</trans>
+   <trans>Nie można zamontować folderu udostępnionego stacji roboczej</trans>
   </entry>
   <entry>
    <base>ERR_NOT_MOUNTED</base>
-   <trans>Backup directory is not mounted</trans>
+   <trans>Katalog kopii zapasowej nie jest zamontowany</trans>
   </entry>
   <entry>
    <base>WORKSTN_NOT_SET</base>
-   <trans>You must first correctly configure your workstation backup</trans>
+   <trans>Najpierw musisz poprawnie skonfigurować kopię zapasową stacji roboczej</trans>
   </entry>
   <entry>
    <base>NO_BACKUPS_TO_RESTORE</base>
-   <trans>There is no backup set on configured workstation shared folder. Verify your configuration settings.</trans>
+   <trans>W udostępnionym folderze stacji roboczej nie ma kopii zapasowej. Sprawdź ustawienia konfiguracji.</trans>
   </entry>
   <entry>
    <base>NUMBER_OF_SETS</base>
-   <trans>Number of rotating backup sets</trans>
+   <trans>Liczba rotacyjnych zestawów kopii zapasowych</trans>
   </entry>
   <entry>
    <base>NUMBER_OF_FILES_IN_SET</base>
-   <trans>Daily backups in each set</trans>
+   <trans>Dzienne kopie zapasowe w każdym zestawie</trans>
   </entry>
   <entry>
    <base>ERR_INVALID_SETS_NUMBER</base>
-   <trans>Sets number must be 1 or greater</trans>
+   <trans>Liczba zestawów musi wynosić 1 lub więcej</trans>
   </entry>
   <entry>
    <base>ERR_INVALID_FILES_IN_SET_NUMBER</base>
-   <trans>This number must be 1 or greater. First backup in set is <b>full</b> others are <b>incrementals</b></trans>
+   <trans>Ta liczba musi wynosić 1 lub więcej. Pierwsza kopia zapasowa w zestawie jest <b> pełna </b>, pozostałe są <b> kopiami przyrostowymi </b></trans>
   </entry>
   <entry>
    <base>WORKSTN_TIMEOUT</base>
-   <trans>Optional backup session timeout (hours)</trans>
+   <trans>Opcjonalny limit czasu sesji kopii zapasowej (godziny)</trans>
   </entry>
   <entry>
    <base>INC_ONLY_TIMEOUT</base>
-   <trans>Don't timeout full backup sessions</trans>
+   <trans>Nie przekraczaj limitu czasu sesji pełnej kopii zapasowej</trans>
   </entry>
   <entry>
    <base>ERR_INVALID_TIMEOUT</base>
-   <trans>Maximum backup time must be set between 1 and 24 hours</trans>
+   <trans>Maksymalny czas kopii zapasowej należy ustawić w przedziale od 1 do 24 godzin</trans>
   </entry>
   <entry>
    <base>ERR_NO_HOST_DIR</base>
-   <trans>No directory for your host in shared folder. Maybe your host name is different from backup ones</trans>
+   <trans>Brak katalogu dla twojego hosta w folderze udostępnionym. Może nazwa twojego hosta różni się od nazwy kopii zapasowych</trans>
   </entry>
   <entry>
    <base>ERROR_READING_FILE</base>
-   <trans>Error while reading files from</trans>
+   <trans>Błąd podczas odczytu plików z</trans>
   </entry>
   <entry>
    <base>WORKSTN_SEL_RESTORE</base>
-   <trans>Selective file restore from workstation</trans>
+   <trans>Przywracanie wybranych plików ze stacji roboczej</trans>
   </entry>
   <entry>
    <base>WORKSTN_SELECTIVE_RESTORE</base>
-   <trans>Workstation selective file restore</trans>
+   <trans>Przywracanie wybranych plików stacji roboczej</trans>
   </entry>
   <entry>
    <base>ALL_BACKUPS</base>
-   <trans>All backups</trans>
+   <trans>Wszystkie kopie zapasowe</trans>
   </entry>
   <entry>
    <base>WORKSTN_SEL_REST_DESC</base>
-   <trans><![CDATA[ This process will restore only specified files and directories. You must first choose the backup from which the files will be restored. If you don't know in which backup are the required files, you can select 'All backups' option. <br/><br/> The next panel will display available files and directories, so you can choose the ones to restore. To restrict the number of files and directories displayed in this panel, you have the option to give now a filtering expression, applied as a regular expression to the displayed names.<br/><br/> You have the responsibility not to restore files which could break the functioning of your server.<br/> <br/>Currently, files will be restored from : ]]></trans>
+   <trans><![CDATA[Ten proces przywróci tylko określone pliki i katalogi. Najpierw musisz wybrać kopię zapasową, z której pliki zostaną przywrócone. Jeśli nie wiesz, w której kopii zapasowej znajdują się wymagane pliki, możesz wybrać opcję „Wszystkie kopie zapasowe”. <br/> <br/> Następny panel wyświetli dostępne pliki i katalogi, abyś mógł wybrać te do przywrócenia. Aby ograniczyć liczbę plików i katalogów wyświetlanych w tym panelu, możesz teraz podać wyrażenie filtrujące, zastosowane jako wyrażenie regularne do wyświetlanych nazw. <br/> <br/> Masz obowiązek nie przywracać plików, które mogłyby zakłócić działanie Twojego serwera. <br/> <br/> Obecnie pliki zostaną przywrócone z:]]> </trans>
   </entry>
   <entry>
    <base>BACKUP_CHOICE</base>
-   <trans>Selecting files to display</trans>
+   <trans>Wybieranie plików do wyświetlenia</trans>
   </entry>
   <entry>
    <base>SELECT_DATE_BEFORE</base>
-   <trans>Restore most recent before</trans>
+   <trans>Przywróć najnowszą przed</trans>
   </entry>
   <entry>
    <base>FILTER_EXPRESSION</base>
-   <trans>Names filtered by</trans>
+   <trans>Filtrowanie nazw według</trans>
   </entry>
   <entry>
    <base>READ_COMPLETE</base>

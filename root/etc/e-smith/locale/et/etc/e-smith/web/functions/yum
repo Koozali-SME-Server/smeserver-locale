@@ -12,6 +12,11 @@
     </entry>
 
     <entry>
+        <base>UPDATE_SUCCESS</base>
+        <trans>The requested changes have been successfully implemented.</trans>
+    </entry>
+
+    <entry>
         <base>LABEL_YUM_STATUS</base>
         <trans>Kontrolli uuendusi</trans>
     </entry>

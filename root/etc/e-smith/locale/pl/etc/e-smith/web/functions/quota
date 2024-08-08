@@ -1,19 +1,19 @@
 <lexicon lang="pl">
     <entry>
       <base>FORM_TITLE</base>
-      <trans>Create, modify, or remove user account quotas</trans>
+      <trans>Twórz, modyfikuj lub usuwaj limity kont użytkowników</trans>
     </entry>
     <entry>
       <base>UNABLE_TO_OPEN_ACCOUNTS</base>
-      <trans>Unable to open accounts db</trans>
+      <trans>Nie można otworzyć bazy danych kont</trans>
     </entry>
     <entry>
       <base>QUOTA_DESC</base>
-      <trans><![CDATA[ <p>You can set filesystem quotas for users on your system by clicking the "Modify" button next to the user you wish to update. <p>If the user exceeds the "Limit with grace period", warnings will be generated. If this limit is exceeded for longer than a week or if the "Absolute limit" is reached, the user will be unable to store any more files or receive any more e-mail. <p>A setting of '0' for either limit disables that limit for the corresponding user. <p>The disk space for each user includes the user's home directory, e-mail, and any files owned by the user in information bays. ]]></trans>
+      <trans><![CDATA[ <p>Możesz ustawić limity systemu plików dla użytkowników w swoim systemie, klikając przycisk „Modyfikuj” obok użytkownika, którego chcesz zaktualizować. <p>Jeśli użytkownik przekroczy „Limit z okresem karencji”, zostaną wygenerowane ostrzeżenia. W przypadku przekroczenia tego limitu na dłużej niż tydzień lub w przypadku osiągnięcia „Limitu bezwzględnego” użytkownik nie będzie mógł przechowywać więcej plików ani odbierać wiadomości e-mail. <p>Ustawienie „0” dla dowolnego limitu wyłącza ten limit dla wskazanego użytkownika. <p>Miejsce na dysku dla każdego użytkownika obejmuje katalog domowy użytkownika, pocztę e-mail i wszelkie pliki należące do użytkownika w zasobach informacyjnych. ]]></trans>
     </entry>
     <entry>
       <base>CURRENT_USAGE_AND_SETTINGS</base>
-      <trans>Current Quota Usage and Settings</trans>
+      <trans>Bieżące wykorzystanie limitów i ustawienia</trans>
     </entry>
     <entry>
       <base>LIMIT_WITH_GRACE</base>
@@ -29,78 +29,78 @@
     </entry>
     <entry>
       <base>ABS_LIMIT_MB</base>
-      <trans>Absolute limit (MB)</trans>
+      <trans>Absolutny limit (MB)</trans>
     </entry>
     <entry>
       <base>CURRENT_USAGE</base>
-      <trans>Current usage (MB)</trans>
+      <trans>Bieżące wykorzystanie (MB)</trans>
     </entry>
     <entry>
       <base>COULD_NOT_GET_UID</base>
-      <trans>Could not determine the uid for user:</trans>
+      <trans>Nie można określić identyfikatora UID dla użytkownika:</trans>
     </entry>
     <entry>
       <base>ERR_NO_SUCH_ACCT</base>
-      <trans>Error: there is no account named:</trans>
+      <trans>Błąd: brak konta o nazwie:</trans>
     </entry>
     <entry>
       <base>ERR_NOT_A_USER_ACCT</base>
-      <trans>Error: the account is not a user account:</trans>
+      <trans>Błąd: konto nie jest kontem użytkownika:</trans>
     </entry>
     <entry>
       <base>ACCOUNT_IS_TYPE</base>
-      <trans>It is an account of type:</trans>
+      <trans>Jest to konto typu:</trans>
     </entry>
     <entry>
       <base>MODIFY_USER_TITLE</base>
-      <trans>Modify user quota limits</trans>
+      <trans>Zmodyfikuj limity przydziału dla użytkowników</trans>
     </entry>
     <entry>
       <base>USER</base>
-      <trans>User:</trans>
+      <trans>Użytkownik:</trans>
     </entry>
     <entry>
       <base>CURRENTLY_HAS</base>
-      <trans>currently has:</trans>
+      <trans>obecnie posiada:</trans>
     </entry>
     <entry>
       <base>FILES</base>
-      <trans>files</trans>
+      <trans>pliki</trans>
     </entry>
     <entry>
       <base>OCCUPYING</base>
-      <trans>occupying:</trans>
+      <trans>zajmując:</trans>
     </entry>
     <entry>
       <base>MEGABYTES</base>
-      <trans>megabytes</trans>
+      <trans>megabajty</trans>
     </entry>
     <entry>
       <base>INSTRUCTIONS</base>
-      <trans>Enter the quota with optional unit suffix of 'K' for kilobytes, 'M' for megabytes, 'G' for gigabytes or 'T' for terabytes. Entries with no suffix are assumed to be in megabytes. A setting of '0' for either limit disables that limit for the corresponding user.</trans>
+      <trans>Wprowadź limit z opcjonalnym przyrostkiem jednostki „K” dla kilobajtów, „M” dla megabajtów, „G” dla gigabajtów lub „T” dla terabajtów. Zakłada się, że wpisy bez sufiksu są wyrażone w megabajtach. Ustawienie „0” dla dowolnego limitu wyłącza ten limit dla wskazanego użytkownika.</trans>
     </entry>
     <entry>
       <base>SOFT_VAL_MUST_BE_NUMBER</base>
-      <trans>Error: limit with grace period must be a number, optionally followed by one of the unit suffixes K, M, G, or T.</trans>
+      <trans>Błąd: limit z okresem karencji musi być liczbą, po której opcjonalnie następuje jeden z przyrostków jednostek K, M, G lub T.</trans>
     </entry>
     <entry>
       <base>HARD_VAL_MUST_BE_NUMBER</base>
-      <trans>Error: absolute limit must be a number, optionally followed by one of the unit suffixes K, M, G, or T.</trans>
+      <trans>Błąd: bezwzględny limit musi być liczbą, po której opcjonalnie następuje jeden z przyrostków jednostek K, M, G lub T.</trans>
     </entry>
     <entry>
       <base>ERR_HARD_LT_SOFT</base>
-      <trans>Error: absolute limit must be greater than limit with grace time.</trans>
+      <trans>Błąd: bezwzględny limit musi być większy niż limit z okresem karencji.</trans>
     </entry>
     <entry>
       <base>ERR_MODIFYING</base>
-      <trans>Error occurred while modifying user.</trans>
+      <trans>Wystąpił błąd podczas modyfikowania użytkownika.</trans>
     </entry>
     <entry>
       <base>SUCCESSFULLY_MODIFIED</base>
-      <trans>Successfully modified quota for user account:</trans>
+      <trans>Pomyślnie zmodyfikowano limit dla konta użytkownika:</trans>
     </entry>
     <entry>
 	<base>Quotas</base>
-	<trans>Quotas</trans>
+	<trans>Limity</trans>
     </entry>
 </lexicon>
