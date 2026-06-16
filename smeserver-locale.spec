@@ -10,7 +10,7 @@ Name: %{name}
 %define package_locales bg da de el es et fr he hu id it ja nb nl pl pt pt_BR ro ru sl sv th tr zh_CN zh_TW
 Version: %{version}
 Release: %{release}%{?dist}
-License: GPL
+License: GPL2.0
 Group: Networking/Daemons
 Source: %{name}-%{version}.tar.xz
 
