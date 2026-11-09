@@ -4,6 +4,7 @@
 	<trans>Bienvenue dans le gestionnaire du serveur</trans>
     </entry>
 
+    <entry>
   <base>FRAMES_SMANAGER</base>
   <trans>
   <![CDATA[
@@ -13,8 +14,6 @@
   ]]>
   </trans>
     </entry>
-
-    <entry>
 
     <entry>
 	<base>FRAMES_BODY</base>

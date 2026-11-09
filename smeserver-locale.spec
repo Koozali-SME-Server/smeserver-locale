@@ -4,7 +4,7 @@ Summary: SME Server localisation module
 %define name smeserver-locale
 Name: %{name}
 %define version 11.0.0
-%define release 5
+%define release 6
 %define package_summary SME Server localisation module
 %define group Applications/System
 %define package_locales bg da de el es et fr he hu id it ja nb nl pl pt pt_BR ro ru sl sv th tr zh_CN zh_TW
@@ -25,7 +25,7 @@ AutoReqProv: no
 SME Server localisation module
 
 %changelog
-* Mon Aug 10 2026 Jean-Philippe Pialasse <jpp@koozali.org> 11.0.0-5.sme
+* Mon Aug 10 2026 Jean-Philippe Pialasse <jpp@koozali.org> 11.0.0-6.sme
 - add link to smanager in all languages [SME: 13658]
 
 * Thu Aug 08 2024 Jean-Philippe Pialasse <jpp@koozali.org> 11.0.0-4.sme

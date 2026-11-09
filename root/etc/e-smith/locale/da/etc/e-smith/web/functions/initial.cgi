@@ -4,6 +4,7 @@
 	<trans>Velkommen til server manager</trans>
     </entry>
 
+    <entry>
   <base>FRAMES_SMANAGER</base>
   <trans>
   <![CDATA[
